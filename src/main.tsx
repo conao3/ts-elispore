@@ -60,7 +60,9 @@ function PackageRow({
       className="package"
       data-name={entry.name}
       open={opened}
-      onToggle={(event) => onOpen(event.currentTarget.open)}
+      onToggle={(event) => {
+        if (event.target === event.currentTarget) onOpen(event.currentTarget.open)
+      }}
     >
       <summary>
         <a
@@ -98,7 +100,7 @@ function PackageRow({
             <span className="repo-slash">/</span>
             <span>{name}</span>
           </strong>
-          <span>{entry.description || "Explore the repository for documentation and setup."}</span>
+          {entry.description && <span>{entry.description}</span>}
         </span>
         <span className="stars">☆ {entry.stars.toLocaleString("en")}</span>
         <time dateTime={entry.updated} title={entry.updated}>
@@ -114,14 +116,6 @@ function PackageRow({
       </summary>
       <section className="expanded" aria-label={`${entry.name} details`}>
         <div className="explanation">
-          <span className="eyebrow">
-            {entry.topics.slice(0, 2).join(" / ") || "GITHUB REPOSITORY"}
-          </span>
-          <h3>{name}</h3>
-          <p>
-            {entry.description ||
-              "See the upstream README for features, requirements, and configuration."}
-          </p>
           <div className="badges">
             {entry.language && <span>{entry.language}</span>}
             <span>
@@ -129,21 +123,18 @@ function PackageRow({
                 ? entry.license
                 : "License: see repository"}
             </span>
-            <span>{entry.archived ? "Archived" : "Active repository"}</span>
+            {entry.archived && <span>Archived</span>}
           </div>
           <div className="links">
-            <a className="primary" href={entry.url} target="_blank" rel="noopener">
-              Open GitHub repository ↗
+            <a href={entry.url} target="_blank" rel="noopener">
+              GitHub
             </a>
             <a href={`${entry.url}#readme`} target="_blank" rel="noopener">
-              Read documentation ↗
+              README
             </a>
           </div>
         </div>
         <div className="installation">
-          <div className="code-heading">
-            <span>Install from GitHub</span>
-          </div>
           <div className="code-block">
             <div className="code-toolbar">
               <div className="snippet-switch" role="group" aria-label="Installation format">
@@ -166,12 +157,15 @@ function PackageRow({
               <code>{code}</code>
             </pre>
           </div>
-          <p className="code-note">
-            {format === "leaf"
-              ? "Requires leaf with :vc support and Emacs 29+."
-              : "Requires use-package with :vc support (included in Emacs 30+)."}{" "}
-            See the upstream README for configuration.
-          </p>
+          <details className="requirements">
+            <summary>Requirements</summary>
+            <p className="code-note">
+              {format === "leaf"
+                ? "Requires leaf with :vc support and Emacs 29+."
+                : "Requires use-package with :vc support (included in Emacs 30+)."}{" "}
+              See the upstream README for configuration.
+            </p>
+          </details>
         </div>
       </section>
     </details>
@@ -284,9 +278,6 @@ function App() {
         .slice(0, 5),
     [entries],
   )
-  const title =
-    categories.find((category) => category.topic === topics[0])?.label ??
-    (topics.join(", ") || "All packages")
   return (
     <>
       <header>
@@ -302,13 +293,12 @@ function App() {
           target="_blank"
           rel="noopener"
         >
-          Source on GitHub ↗
+          Source
         </a>
       </header>
       <div className={`layout${mobileFilters ? " show-filters" : ""}`}>
         <aside aria-label="Package filters">
           <div className="sidebar-content">
-            <div className="eyebrow sidebar-caption">REFINE RESULTS</div>
             <fieldset className="group">
               <legend>Category</legend>
               {categories.map((category) => (
@@ -381,18 +371,12 @@ function App() {
               Clear all filters
             </button>
             <div className="sidebar-bottom">
-              {entries.length.toLocaleString("en")} GitHub repositories
-              <br />
               {date ? `Refreshed ${new Date(date).toLocaleDateString("en")}` : "Loading catalog…"}
             </div>
           </div>
         </aside>
         <main>
-          <div className="intro">
-            <span className="eyebrow">THE EMACS PACKAGE INDEX</span>
-            <h1>Find the right package. Keep moving.</h1>
-            <p>Search GitHub-hosted Emacs packages, with the details right where you need them.</p>
-          </div>
+          <h1 className="sr-only">Emacs packages</h1>
           <label className="searchbox">
             <span className="sr-only">Search packages</span>
             <Search size={18} />
@@ -402,7 +386,7 @@ function App() {
               type="search"
               aria-invalid={Boolean(state.error)}
               aria-describedby="query-status"
-              placeholder="Search packages…"
+              placeholder="Search packages or user:minad topic:completion"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
             />
@@ -413,12 +397,10 @@ function App() {
             className={`query-status${state.error ? " query-error" : ""}`}
             role="status"
           >
-            {state.error ||
-              "GitHub filters: user:minad · topic:completion · license:gpl-3.0 · stars:>=1000"}
+            {state.error}
           </p>
           <div className="toolbar">
             <h2>
-              {title}
               <span id="count" aria-live="polite">
                 {loading
                   ? "Loading…"
@@ -496,10 +478,6 @@ function App() {
               )}
             </>
           )}
-          <footer>
-            <span>GitHub-hosted Emacs packages and libraries.</span>
-            <span>Check the upstream README for installation and compatibility.</span>
-          </footer>
         </main>
       </div>
     </>

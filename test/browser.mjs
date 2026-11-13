@@ -139,25 +139,25 @@ try {
   await evaluate(`document.querySelector('[data-owner=minad]').click()`)
   await settle()
   assert.ok(await evaluate(`document.querySelector('#query').value.includes('user:minad')`))
-  assert.equal(await evaluate(`document.querySelector('details').open`), false)
+  assert.equal(await evaluate(`document.querySelector('details.package').open`), false)
   await edit("user:minad")
   await waitFor(`document.querySelectorAll('.package').length>1`)
   const measure = () =>
     evaluate(
-      `(()=>{const s=document.querySelector('summary'),r=s.getBoundingClientRect();return{x:r.x,y:r.y,width:r.width,height:r.height}})()`,
+      `(()=>{const s=document.querySelector('.package > summary'),r=s.getBoundingClientRect();return{x:r.x,y:r.y,width:r.width,height:r.height}})()`,
     )
   const before = await measure()
   for (const expected of [true, false, true]) {
-    await evaluate(`document.querySelector('summary').click()`)
+    await evaluate(`document.querySelector('.package > summary').click()`)
     await settle()
-    assert.equal(await evaluate(`document.querySelector('details').open`), expected)
+    assert.equal(await evaluate(`document.querySelector('details.package').open`), expected)
     const after = await measure()
     for (const key of Object.keys(before))
       assert.ok(Math.abs(before[key] - after[key]) < 0.01, `${key} changed on toggle`)
   }
-  await evaluate(`document.querySelectorAll('summary')[1].click()`)
+  await evaluate(`document.querySelectorAll('.package > summary')[1].click()`)
   await settle()
-  assert.equal(await evaluate(`document.querySelectorAll('details[open]').length`), 2)
+  assert.equal(await evaluate(`document.querySelectorAll('details.package[open]').length`), 2)
   await evaluate(`document.querySelector('[data-category=Completion]').click()`)
   await settle()
   assert.ok(await evaluate(`document.querySelector('#query').value.includes('topic:completion')`))
@@ -174,12 +174,18 @@ try {
     "true",
   )
   await edit("repo:minad/vertico")
-  await evaluate(`document.querySelector('summary').click()`)
+  await evaluate(`document.querySelector('.package > summary').click()`)
   await settle()
-  if (!(await evaluate("document.querySelector('details').open")))
-    await evaluate("document.querySelector('summary').click()")
+  if (!(await evaluate("document.querySelector('details.package').open")))
+    await evaluate("document.querySelector('.package > summary').click()")
   await settle()
   await waitFor("document.querySelector('.avatar-link img').naturalWidth > 0")
+  await evaluate(`document.querySelector('.requirements > summary').click()`)
+  await settle()
+  assert.equal(await evaluate(`document.querySelector('.requirements').open`), true)
+  assert.equal(await evaluate(`document.querySelector('details.package').open`), true)
+  await evaluate(`document.querySelector('.requirements > summary').click()`)
+  await settle()
   assert.equal(
     await evaluate("document.querySelector('code').textContent"),
     '(leaf vertico\n  :vc (:url "https://github.com/minad/vertico"))',
@@ -199,7 +205,7 @@ try {
     ),
     "true",
   )
-  assert.equal(await evaluate(`document.querySelector('details').open`), true)
+  assert.equal(await evaluate(`document.querySelector('details.package').open`), true)
   assert.deepEqual(await measure(), snippetRow)
   await evaluate(
     `Object.defineProperty(navigator, 'clipboard', {configurable:true,value:{writeText:async text=>{window.copiedSnippet=text}}}); document.querySelector('.copy').click()`,

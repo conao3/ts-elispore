@@ -31,3 +31,5 @@ Cloudflare Worker `elispore`, custom domain `elispore.conao3.com`, personal acco
 Code: Apache-2.0. Repository metadata is attributed to its GitHub source. Refer to upstream repositories for package licenses.
 
 Installation examples default to leaf. Buttons at the top right of each code block switch between leaf and use-package; Copy copies the displayed snippet. Both use `:vc` with the upstream GitHub URL. Leaf requires `:vc` support and Emacs 29+; use-package `:vc` is included in Emacs 30+.
+
+The interface applies [avoid-ai-design](https://github.com/funboy322/avoid-ai-design) with a surgical pass over the approved list/sidebar design: search comes first, expanded rows add metadata and installation code without repeating the row title or description, and requirements appear on request. The promotional hero, eyebrow labels, active-state badges and repeated footer copy came from the initial design prototype and added no search or installation information. Keep the approved cream/coral palette; review text for a concrete purpose before adding it.

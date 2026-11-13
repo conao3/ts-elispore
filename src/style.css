@@ -1,3 +1,4 @@
+/* avoid-ai-design-ignore: SD1 -- retain the user's approved cream/coral palette. */
 :root {
   --bg: #faf9f5;
   --soft: #f5f0e8;
@@ -260,7 +261,7 @@ main {
   color: var(--muted);
 }
 .columns,
-.package summary {
+.package > summary {
   display: grid;
   grid-template-columns: 40px minmax(0, 1fr) 90px 102px 22px;
   gap: 16px;
@@ -281,15 +282,15 @@ main {
   border-bottom: 1px solid var(--line);
   scroll-margin-top: 24px;
 }
-.package summary {
+.package > summary {
   padding: 22px 20px;
   list-style: none;
   min-height: 94px;
 }
-.package summary::-webkit-details-marker {
+.package > summary::-webkit-details-marker {
   display: none;
 }
-.package summary:hover {
+.package > summary:hover {
   background: var(--soft);
 }
 .package[open] {
@@ -297,7 +298,7 @@ main {
   border-radius: 8px;
   box-shadow: inset 0 0 0 1px var(--line);
 }
-.package[open] summary {
+.package[open] > summary {
   background: var(--soft);
   border-radius: 7px 7px 0 0;
 }
@@ -351,7 +352,7 @@ time {
   border-top: 1px solid var(--line);
   padding: 30px 26px 28px 76px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.04fr);
+  grid-template-columns: minmax(140px, 0.4fr) minmax(0, 1fr);
   gap: 34px;
 }
 .expanded h3 {
@@ -491,7 +492,7 @@ footer {
     font-size: 12px;
   }
   .columns,
-  .package summary {
+  .package > summary {
     grid-template-columns: 36px minmax(0, 1fr) 75px 65px 20px;
     gap: 10px;
   }
@@ -565,7 +566,7 @@ footer {
     line-height: 1.7;
   }
   .columns,
-  .package summary {
+  .package > summary {
     grid-template-columns: 32px minmax(0, 1fr) 60px 18px;
     gap: 10px;
   }
@@ -576,7 +577,7 @@ footer {
   .package time {
     display: none;
   }
-  .package summary {
+  .package > summary {
     padding: 19px 9px;
   }
   .identity strong {
@@ -657,7 +658,39 @@ footer {
   color: var(--ink);
 }
 .searchbox {
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.query-status:empty {
+  display: none;
+}
+.toolbar h2 span {
+  margin-left: 0;
+}
+.explanation .badges {
+  margin-top: 0;
+}
+.explanation .links {
+  margin-top: 16px;
+  font-size: 13px;
+}
+.requirements {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 11px;
+}
+.requirements > summary {
+  display: list-item;
+  list-style: disclosure-closed inside;
+  padding: 0;
+  min-height: 0;
+  cursor: pointer;
+}
+.requirements[open] > summary {
+  list-style-type: disclosure-open;
+}
+.requirements > summary::marker {
+  display: initial;
 }
 .query-status {
   font-size: 11px;
