@@ -421,6 +421,9 @@ time {
   background: var(--bg);
   font-size: 10px;
 }
+.installation {
+  min-width: 0;
+}
 .installation pre {
   margin: 0;
   background: #181715;
