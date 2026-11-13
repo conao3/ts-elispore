@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T08:37:47.282Z",
+  "generatedAt": "2026-11-13T08:38:48.988Z",
   "sources": [
     "language:\"Emacs Lisp\" stars:>=20 fork:false",
     "topic:emacs-package fork:false",
@@ -2823,7 +2823,7 @@
       "description": "WIP",
       "url": "https://github.com/SuzumiyaAoba/remacs",
       "stars": 0,
-      "updated": "2026-11-13T08:31:12Z",
+      "updated": "2026-11-13T08:37:50Z",
       "archived": false,
       "topics": [],
       "license": "GPL-3.0"
