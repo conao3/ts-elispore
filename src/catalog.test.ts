@@ -1,29 +1,112 @@
+import { leafSnippet } from "./snippet"
 import { test, expect } from "vite-plus/test"
-import { search, catalogSchema } from "./catalog"
-const entry = {
+import { catalogSchema } from "./catalog"
+import type { Entry } from "./catalog"
+import { parseQuery, searchEntries, setQualifier } from "./query"
+const entry: Entry = {
   id: 1,
-  name: "conao3/leaner-ts-mode.el",
-  description: "Lean theorem prover",
-  url: "https://github.com/conao3/leaner-ts-mode.el",
-  stars: 1,
-  updated: "2026-11-13",
+  name: "minad/vertico",
+  description: "Vertical completion",
+  url: "https://github.com/minad/vertico",
+  stars: 1896,
+  updated: "2026-10-11T00:00:00Z",
   archived: false,
-  topics: ["emacs"],
+  topics: ["completion"],
   license: "GPL-3.0",
+  language: "Emacs Lisp",
+  ownerType: "User",
 }
-test("matches all words across metadata without case sensitivity", () => {
-  expect(search([entry], "LEAN emacs", "stars", false)).toEqual([entry])
-  expect(search([entry], "lean python", "stars", false)).toEqual([])
+const second: Entry = {
+  ...entry,
+  id: 2,
+  name: "oantolin/embark",
+  stars: 1233,
+  topics: ["actions"],
+  updated: "2026-08-12T00:00:00Z",
+}
+test("matches all words across repository metadata", () => {
+  expect(searchEntries([entry], "VERTICAL completion", "stars")).toEqual([entry])
+  expect(searchEntries([entry], "completion python", "stars")).toEqual([])
 })
-test("archived repositories are opt in", () => {
-  expect(search([{ ...entry, archived: true }], "", "stars", false)).toEqual([])
+test("applies and removes explicit archived filtering", () => {
+  expect(searchEntries([{ ...entry, archived: true }], "archived:false", "stars")).toEqual([])
+  expect(searchEntries([{ ...entry, archived: true }], "", "stars")).toHaveLength(1)
 })
-test("rejects links outside GitHub", () => {
+test("keeps existing terms while adding an owner only once", () => {
+  const query = setQualifier("completion topic:completion", "user", "minad", true)
+  expect(setQualifier(query, "user", "minad", true)).toBe("completion topic:completion user:minad")
+})
+test("replaces or removes a sidebar qualifier", () => {
+  expect(setQualifier("user:minad topic:actions", "topic", "completion")).toBe(
+    "user:minad topic:completion",
+  )
+  expect(setQualifier("user:minad topic:completion", "topic", "")).toBe("user:minad")
+})
+test("supports quoted language values and numeric filters", () => {
+  expect(searchEntries([entry, second], 'language:"Emacs Lisp" stars:>=1800', "stars")).toEqual([
+    entry,
+  ])
+})
+test("matches date boundaries and ranges", () => {
+  expect(searchEntries([entry, second], "pushed:>=2026-10-11", "stars")).toEqual([entry])
+  expect(searchEntries([entry, second], "pushed:2026-08-01..2026-08-31", "stars")).toEqual([second])
+})
+test("matches actual metadata for topics and licenses", () => {
+  expect(searchEntries([entry, second], "topic:completion license:gpl-3.0", "stars")).toEqual([
+    entry,
+  ])
+  expect(searchEntries([entry], "license:mit", "stars")).toEqual([])
+})
+test("combines multiple owners and excluded repositories", () => {
   expect(
-    catalogSchema.safeParse({
-      generatedAt: "now",
-      sources: [],
-      entries: [{ ...entry, url: "https://example.com" }],
-    }).success,
-  ).toBe(false)
+    searchEntries([entry, second], "user:minad user:oantolin -repo:minad/vertico", "stars"),
+  ).toEqual([second])
+})
+test("distinguishes users from organizations", () => {
+  expect(searchEntries([entry], "org:minad", "stars")).toEqual([])
+  expect(
+    searchEntries([{ ...entry, ownerType: "Organization" }], "org:minad", "stars"),
+  ).toHaveLength(1)
+})
+test("supports numeric ranges", () => {
+  expect(searchEntries([entry, second], "stars:1200..1500", "stars")).toEqual([second])
+})
+test("sorts deterministically", () => {
+  expect(searchEntries([second, entry], "", "updated")[0]).toEqual(entry)
+  expect(searchEntries([second, entry], "", "name")[0]).toEqual(entry)
+})
+test("rejects malformed and unknown qualifiers", () => {
+  for (const query of [
+    'language:"Emacs Lisp',
+    "unknown:x",
+    "stars:lots",
+    "archived:yes",
+    "pushed:yesterday",
+  ])
+    expect(() => parseQuery(query)).toThrow()
+})
+test("quotes values added through controls", () => {
+  expect(setQualifier("user:minad", "language", "Emacs Lisp")).toBe(
+    'user:minad language:"Emacs Lisp"',
+  )
+})
+test("rejects links outside HTTPS GitHub", () => {
+  for (const url of ["https://example.com", "http://github.com/minad/vertico"])
+    expect(
+      catalogSchema.safeParse({ generatedAt: "now", sources: [], entries: [{ ...entry, url }] })
+        .success,
+    ).toBe(false)
+})
+
+test("generates a leaf VC declaration", () => {
+  expect(leafSnippet(entry)).toBe('(leaf vertico\n  :vc (:url "https://github.com/minad/vertico"))')
+})
+test("removes the repository .el suffix for the leaf name", () => {
+  expect(
+    leafSnippet({
+      ...entry,
+      name: "conao3/leaner-ts-mode.el",
+      url: "https://github.com/conao3/leaner-ts-mode.el",
+    }),
+  ).toBe('(leaf leaner-ts-mode\n  :vc (:url "https://github.com/conao3/leaner-ts-mode.el"))')
 })

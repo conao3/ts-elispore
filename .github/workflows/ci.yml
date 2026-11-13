@@ -1,4 +1,4 @@
-name: Check
+name: Check and deploy
 on:
   push:
     branches: [master]
@@ -8,9 +8,24 @@ on:
     - cron: "17 6 * * *"
 permissions:
   contents: read
+concurrency:
+  group: elispore-${{ github.ref }}
+  cancel-in-progress: false
 jobs:
   check:
     runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: cachix/install-nix-action@v31.10.1
+      - run: nix develop --command pnpm install --frozen-lockfile
+      - run: nix develop --command pnpm exec vp run check
+      - run: nix build
+  deploy:
+    needs: check
+    if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v7.0.1
       - uses: cachix/install-nix-action@v31.10.1
@@ -22,20 +37,13 @@ jobs:
           GH_TOKEN: ${{ github.token }}
       - run: nix develop --command pnpm exec vp run check
       - run: nix develop --command pnpm run build
-      - run: nix build
-  catalog:
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v7.0.1
-      - uses: cachix/install-nix-action@v31.10.1
-      - run: nix develop --command pnpm install --frozen-lockfile
-      - run: nix develop --command pnpm run catalog
+      - name: Deploy Worker and custom domain
+        run: nix develop --command pnpm exec wrangler deploy
         env:
-          GH_TOKEN: ${{ github.token }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          WRANGLER_SEND_METRICS: "false"
       - name: Commit refreshed metadata
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

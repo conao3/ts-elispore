@@ -25,7 +25,7 @@
           ];
           pnpmDeps = pkgs.fetchPnpmDeps {
             inherit (final) pname version src;
-            hash = "sha256-v46A69bvp0Na79fGYzAnylx+T+dq+mThcT0sVFC9rZA=";
+            hash = "sha256-BVMQRKo9Y1bBlOZIh2CFWR3hsj1noy2O++AFvkxG5ew=";
             fetcherVersion = 4;
           };
           buildPhase = "pnpm run build";
@@ -37,6 +37,14 @@
           meta.mainProgram = "elispore";
         });
         treefmt.programs.nixfmt.enable = true;
+        devShells.browser = pkgs.mkShell {
+          packages = [
+            pkgs.nodejs_26
+            pkgs.pnpm
+            pkgs.gh
+          ]
+          ++ pkgs.lib.optionals pkgs.stdenv.isLinux [ pkgs.chromium ];
+        };
         devShells.default = pkgs.mkShell {
           packages = [
             pkgs.nodejs_26

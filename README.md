@@ -1,23 +1,33 @@
 # Elispore
 
-Find Emacs packages and libraries hosted on GitHub. A static TypeScript/React site with instant local search, topic shortcuts, star and update sorting, archived filtering, and shareable search URLs.
+[elispore.conao3.com](https://elispore.conao3.com) — find Emacs packages and libraries hosted on GitHub.
+
+Search a GitHub metadata catalog with `user:minad`, `topic:completion`, `license:gpl-3.0`, `pushed:>=2026-01-01`, `stars:>=1000`, and `language:"Emacs Lisp"`. Sidebar selections appear directly in the query. Click an owner to add a user filter; select an `owner/repo` label to copy it without spaces. Rows expand in place and preserve their position. Multiple rows can stay open for comparison.
 
 ## Development
 
+```sh
+nix develop --command pnpm install --frozen-lockfile
+nix develop --command pnpm exec vp run check
+nix develop --command pnpm run build
+nix build
+nix run
 ```
-nix develop
-pnpm install --frozen-lockfile
-pnpm exec vp run check
-pnpm run dev
-pnpm run build
-```
+
+`nix run` serves the built site at `http://127.0.0.1:4173`. Browser validation uses `nix develop .#browser --command node test/browser.mjs` on Linux; it creates an isolated Chromium profile and checks the built `dist/` files. Screenshots go to ignored `.claude-dev/scratch/`.
 
 ## Catalog
 
-`pnpm run catalog` uses authenticated GitHub CLI requests to refresh `public/catalog.json`. Authenticate `gh` locally or provide `GH_TOKEN` to the scheduled workflow. Credentials stay in the updater environment; visitors download metadata only.
+`nix develop --command pnpm run catalog` uses authenticated GitHub CLI requests to refresh `public/catalog.json`. Discovery combines the 100 most starred Emacs Lisp repositories, 100 repositories tagged `emacs-package`, 100 recently updated Emacs Lisp repositories, and explicit seeds. IDs are deduplicated and common configuration distributions are filtered. This is a bounded discovery catalog; repository documentation determines installation and compatibility.
 
-Discovery combines the 100 most starred Emacs Lisp repositories, 100 repositories tagged `emacs-package`, 100 recently updated Emacs Lisp repositories, and explicit seed repositories. Results are deduplicated by GitHub ID. Common configuration distributions and dotfiles are filtered. This is a bounded discovery catalog, not a complete list or a package verification service. Names, descriptions and topics are searchable. Repository metadata links to its original GitHub source and includes the refresh timestamp.
+GitHub Actions refreshes it daily, validates and builds the site, deploys the catalog with the Worker, and commits the refreshed metadata. The browser fetches same-origin `/catalog.json`. GitHub credentials stay in the updater environment.
 
-The workflow refreshes the catalog daily and builds the static site. A failed refresh fails the build; the deployed catalog remains available. A site's catalog can grow independently of any package archive or submission process.
+## Deployment
 
-Code: Apache-2.0. Repository metadata remains attributed to its GitHub source. Package licenses are displayed from GitHub metadata; consult each repository for its terms.
+Cloudflare Worker `elispore`, custom domain `elispore.conao3.com`, personal account `31d70a83a3750c0fd66140fe200f2f29`. Configuration is in `wrangler.jsonc`. Static assets are built into `dist/`; Workers' static asset serving supplies the site and HTTP security headers.
+
+`master` pushes and scheduled/manual runs deploy after checks pass. GitHub Actions uses repository secret `CLOUDFLARE_API_TOKEN`. Its source is 1Password “Cloudflare API token (Workers deploy, conao3@gmail.com)”. For a local deployment, provide that token as `CLOUDFLARE_API_TOKEN` and run `nix develop --command pnpm exec wrangler deploy`. `wrangler deploy --dry-run` validates the deployment without publishing.
+
+Code: Apache-2.0. Repository metadata is attributed to its GitHub source. Refer to upstream repositories for package licenses.
+
+Installation examples use leaf with `:vc` and the upstream GitHub URL. They assume leaf is installed and Emacs supports package-vc.

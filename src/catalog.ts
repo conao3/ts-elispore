@@ -11,6 +11,8 @@ export const entrySchema = z.object({
   archived: z.boolean(),
   topics: z.array(z.string()),
   license: z.string().nullable(),
+  language: z.string().nullable().default(null),
+  ownerType: z.enum(["User", "Organization"]).default("User"),
 })
 export const catalogSchema = z.object({
   generatedAt: z.string(),
@@ -18,21 +20,3 @@ export const catalogSchema = z.object({
   entries: z.array(entrySchema),
 })
 export type Entry = z.infer<typeof entrySchema>
-export function search(entries: Entry[], query: string, sort: string, archived: boolean) {
-  const words = query.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean)
-  return entries
-    .filter(
-      (e) =>
-        (archived || !e.archived) &&
-        words.every((w) =>
-          `${e.name} ${e.description} ${e.topics.join(" ")}`.toLocaleLowerCase().includes(w),
-        ),
-    )
-    .sort((a, b) =>
-      sort === "stars"
-        ? b.stars - a.stars
-        : sort === "updated"
-          ? b.updated.localeCompare(a.updated)
-          : a.name.localeCompare(b.name),
-    )
-}

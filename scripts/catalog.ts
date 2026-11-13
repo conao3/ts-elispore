@@ -5,6 +5,8 @@ import { catalogSchema } from "../src/catalog.ts"
 const repo = z.object({
   id: z.number(),
   full_name: z.string(),
+  language: z.string().nullable(),
+  owner: z.object({ type: z.enum(["User", "Organization"]) }),
   description: z.string().nullable(),
   html_url: z.string(),
   stargazers_count: z.number(),
@@ -55,6 +57,8 @@ const entries = [...all.values()]
     archived: r.archived,
     topics: r.topics,
     license: r.license?.spdx_id ?? null,
+    language: r.language,
+    ownerType: r.owner.type,
   }))
   .sort((a, b) => a.name.localeCompare(b.name))
 const data = catalogSchema.parse({

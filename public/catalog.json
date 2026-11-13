@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T08:38:48.988Z",
+  "generatedAt": "2026-11-13T10:11:09.826Z",
   "sources": [
     "language:\"Emacs Lisp\" stars:>=20 fork:false",
     "topic:emacs-package fork:false",
@@ -15,7 +15,9 @@
       "updated": "2026-11-13T06:26:32Z",
       "archived": false,
       "topics": [],
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1117051771,
@@ -26,7 +28,9 @@
       "updated": "2026-10-25T17:38:33Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "modeline"],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 18146357,
@@ -37,7 +41,9 @@
       "updated": "2023-12-29T03:09:06Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 35106615,
@@ -48,7 +54,9 @@
       "updated": "2024-11-01T13:57:53Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 29530717,
@@ -59,7 +67,9 @@
       "updated": "2025-03-16T12:55:28Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 15803613,
@@ -79,7 +89,9 @@
         "refactoring",
         "scheme"
       ],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 13622018,
@@ -90,7 +102,9 @@
       "updated": "2024-11-18T18:46:13Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 31918222,
@@ -101,40 +115,22 @@
       "updated": "2026-09-13T17:12:17Z",
       "archived": false,
       "topics": ["completion", "counsel", "emacs", "ivy", "search", "swiper"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
-      "id": 857476237,
-      "name": "adamrt/ak",
-      "description": "Adam's Kit",
-      "url": "https://github.com/adamrt/ak",
-      "stars": 0,
-      "updated": "2026-11-13T04:11:50Z",
+      "id": 770846143,
+      "name": "ad-8/syscfg",
+      "description": "dotfiles and more",
+      "url": "https://github.com/ad-8/syscfg",
+      "stars": 1,
+      "updated": "2026-11-13T09:30:39Z",
       "archived": false,
       "topics": [],
-      "license": null
-    },
-    {
-      "id": 1338741748,
-      "name": "agzam/magit-gha-badge.el",
-      "description": "GitHub Action badge icon in Magit buffer",
-      "url": "https://github.com/agzam/magit-gha-badge.el",
-      "stars": 5,
-      "updated": "2026-11-13T04:47:07Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0"
-    },
-    {
-      "id": 103025330,
-      "name": "agzam/mw-thesaurus.el",
-      "description": "Merriam-Webster Thesaurus in Emacs",
-      "url": "https://github.com/agzam/mw-thesaurus.el",
-      "stars": 116,
-      "updated": "2026-11-13T05:10:32Z",
-      "archived": false,
-      "topics": ["dictionary", "emacs", "english-language", "merriam-webster", "thesaurus"],
-      "license": "GPL-3.0"
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 99721074,
@@ -145,7 +141,9 @@
       "updated": "2026-09-14T16:41:29Z",
       "archived": false,
       "topics": ["emacs", "libvterm", "terminal", "terminal-emulator"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 63552732,
@@ -156,7 +154,9 @@
       "updated": "2025-12-26T13:07:40Z",
       "archived": false,
       "topics": ["emacs", "file-explorer"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 369341817,
@@ -167,7 +167,9 @@
       "updated": "2026-07-25T15:21:00Z",
       "archived": false,
       "topics": ["dired", "emacs", "file-manager"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 99459426,
@@ -178,7 +180,9 @@
       "updated": "2025-04-21T01:33:00Z",
       "archived": false,
       "topics": ["emacs", "org-agenda", "org-mode"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 98127938,
@@ -189,7 +193,9 @@
       "updated": "2025-04-21T01:30:46Z",
       "archived": false,
       "topics": ["emacs", "org-agenda", "org-mode"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 35371728,
@@ -200,7 +206,9 @@
       "updated": "2026-02-19T03:37:34Z",
       "archived": false,
       "topics": ["emacs", "typescript"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 997159999,
@@ -211,7 +219,9 @@
       "updated": "2025-06-13T10:58:42Z",
       "archived": false,
       "topics": ["ai", "emacs", "emacs-package", "goose"],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 335610,
@@ -222,7 +232,9 @@
       "updated": "2026-06-19T08:32:49Z",
       "archived": false,
       "topics": ["auto-complete", "completion", "emacs", "melpa"],
-      "license": "NOASSERTION"
+      "license": "NOASSERTION",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 10479904,
@@ -233,7 +245,9 @@
       "updated": "2026-04-13T14:01:48Z",
       "archived": false,
       "topics": [],
-      "license": "BSD-3-Clause"
+      "license": "BSD-3-Clause",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 2133437,
@@ -244,7 +258,9 @@
       "updated": "2026-09-30T10:55:59Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "project-management", "projectile"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 680691947,
@@ -255,7 +271,9 @@
       "updated": "2026-11-13T06:56:31Z",
       "archived": false,
       "topics": ["certificates", "technical-writing"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1421759790,
@@ -266,7 +284,35 @@
       "updated": "2026-11-13T05:31:32Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
+    },
+    {
+      "id": 1424287194,
+      "name": "blitzarx1/tf",
+      "description": "Control plane for your vibecoding setup. Plan the next moves while llm is occupied.",
+      "url": "https://github.com/blitzarx1/tf",
+      "stars": 1,
+      "updated": "2026-11-13T09:24:51Z",
+      "archived": false,
+      "topics": [
+        "emacs",
+        "emacs-configuration",
+        "emacs-lisp",
+        "emacs-packages",
+        "llm",
+        "neovim",
+        "neovim-config",
+        "neovim-plugin",
+        "task-management",
+        "task-manager",
+        "task-tracker",
+        "vibecoding"
+      ],
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1456340040,
@@ -277,29 +323,9 @@
       "updated": "2026-11-13T08:21:51Z",
       "archived": false,
       "topics": [],
-      "license": null
-    },
-    {
-      "id": 344670581,
-      "name": "bndos/.doom.d",
-      "description": "",
-      "url": "https://github.com/bndos/.doom.d",
-      "stars": 0,
-      "updated": "2026-11-13T04:54:21Z",
-      "archived": false,
-      "topics": [],
-      "license": null
-    },
-    {
-      "id": 80492774,
-      "name": "brendan-r/dotemacs",
-      "description": "",
-      "url": "https://github.com/brendan-r/dotemacs",
-      "stars": 2,
-      "updated": "2026-11-13T04:38:10Z",
-      "archived": false,
-      "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1126729104,
@@ -310,7 +336,9 @@
       "updated": "2026-11-13T05:39:27Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 6111046,
@@ -321,7 +349,22 @@
       "updated": "2026-10-28T06:55:32Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
+    },
+    {
+      "id": 1418812388,
+      "name": "cat-emacs/adb",
+      "description": "android-adb for Emacs",
+      "url": "https://github.com/cat-emacs/adb",
+      "stars": 0,
+      "updated": "2026-11-13T09:26:51Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 452177842,
@@ -332,7 +375,9 @@
       "updated": "2026-08-17T09:41:32Z",
       "archived": false,
       "topics": ["catppuccin", "emacs", "emacs-package", "emacs-theme", "hacktoberfest", "theme"],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 1426009218,
@@ -340,10 +385,25 @@
       "description": "",
       "url": "https://github.com/certainty/mymacs",
       "stars": 0,
-      "updated": "2026-11-13T07:05:36Z",
+      "updated": "2026-11-13T09:27:10Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 1456052674,
+      "name": "chazu/rat-kingdom.el",
+      "description": "Emacs-native swarm orchestration for coding agents",
+      "url": "https://github.com/chazu/rat-kingdom.el",
+      "stars": 0,
+      "updated": "2026-11-13T09:46:21Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1317905294,
@@ -354,18 +414,22 @@
       "updated": "2026-11-13T07:02:58Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
-      "id": 883866421,
-      "name": "cl-qob/packaging",
-      "description": "Packaging for Qob CLI",
-      "url": "https://github.com/cl-qob/packaging",
+      "id": 1359434485,
+      "name": "clhodapp/ch-ai-workbench",
+      "description": "An AI workbench in Emacs: agent sessions, Claude Code, and the editor wiring that joins them",
+      "url": "https://github.com/clhodapp/ch-ai-workbench",
       "stars": 0,
-      "updated": "2026-11-13T04:10:45Z",
+      "updated": "2026-11-13T07:57:32Z",
       "archived": false,
-      "topics": ["packaging", "publish", "qob"],
-      "license": "MIT"
+      "topics": ["ai-agents", "claude-code", "emacs", "emacs-lisp", "llm"],
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 4118920,
@@ -376,7 +440,9 @@
       "updated": "2026-11-11T09:20:44Z",
       "archived": false,
       "topics": ["cider", "clojure", "clojure-development", "emacs", "emacs-lisp"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 85632,
@@ -387,7 +453,9 @@
       "updated": "2026-11-07T10:02:54Z",
       "archived": false,
       "topics": ["clojure", "clojure-mode", "emacs", "emacs-lisp", "emacs-package", "major-mode"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 194858,
@@ -398,18 +466,9 @@
       "updated": "2026-11-12T11:12:08Z",
       "archived": false,
       "topics": ["code-completion", "emacs-lisp"],
-      "license": "GPL-3.0"
-    },
-    {
-      "id": 121408135,
-      "name": "Compro-Prasad/emacs-config",
-      "description": "",
-      "url": "https://github.com/Compro-Prasad/emacs-config",
-      "stars": 5,
-      "updated": "2026-11-13T04:47:53Z",
-      "archived": false,
-      "topics": [],
-      "license": null
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 1455129174,
@@ -420,7 +479,9 @@
       "updated": "2026-11-13T06:56:05Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 474215154,
@@ -431,7 +492,9 @@
       "updated": "2026-10-15T19:13:29Z",
       "archived": false,
       "topics": [],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 581980736,
@@ -442,18 +505,22 @@
       "updated": "2024-03-03T17:20:12Z",
       "archived": false,
       "topics": ["editing", "emacs", "emacs-lisp", "emacs-package"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
-      "id": 1072300179,
-      "name": "cxa/eaglet",
-      "description": "Emacs Eglot Additions",
-      "url": "https://github.com/cxa/eaglet",
-      "stars": 3,
-      "updated": "2026-11-13T05:07:46Z",
+      "id": 773387245,
+      "name": "cxa/moonbit-mode",
+      "description": "Emacs major mode for editing MoonBit.",
+      "url": "https://github.com/cxa/moonbit-mode",
+      "stars": 8,
+      "updated": "2026-11-13T08:47:15Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 66138222,
@@ -464,7 +531,9 @@
       "updated": "2026-11-13T08:17:03Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1196361058,
@@ -475,7 +544,9 @@
       "updated": "2026-11-12T18:43:52Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 129844382,
@@ -486,7 +557,9 @@
       "updated": "2025-08-21T14:28:39Z",
       "archived": false,
       "topics": ["desktop-environment", "emacs-package"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 223742532,
@@ -497,7 +570,9 @@
       "updated": "2023-11-26T15:03:18Z",
       "archived": false,
       "topics": ["contacts", "emacs-package", "khard", "pim", "vcard"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 200622612,
@@ -508,7 +583,9 @@
       "updated": "2025-11-25T19:32:17Z",
       "archived": false,
       "topics": ["emacs-package"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 284642829,
@@ -519,7 +596,9 @@
       "updated": "2025-03-20T08:58:19Z",
       "archived": false,
       "topics": ["emacs-lisp", "emacs-mode", "emacs-package", "emacs-packages"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 498617570,
@@ -539,7 +618,9 @@
         "fuzzy-matching",
         "native"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "C",
+      "ownerType": "User"
     },
     {
       "id": 435251588,
@@ -550,7 +631,9 @@
       "updated": "2021-12-29T18:34:28Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-package", "shortcuts", "siri-shortcuts"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 294740617,
@@ -561,7 +644,9 @@
       "updated": "2023-05-27T17:38:52Z",
       "archived": false,
       "topics": ["emacs", "emacs-config", "emacs-configuration", "emacs-lisp"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1441044246,
@@ -572,7 +657,9 @@
       "updated": "2026-11-13T08:11:46Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1203860775,
@@ -583,7 +670,9 @@
       "updated": "2026-11-13T08:26:56Z",
       "archived": false,
       "topics": [],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 784987543,
@@ -594,7 +683,9 @@
       "updated": "2026-10-25T16:50:31Z",
       "archived": false,
       "topics": ["emacs-lisp", "emacs-package", "highlight"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 22594063,
@@ -605,7 +696,9 @@
       "updated": "2021-01-08T19:32:49Z",
       "archived": false,
       "topics": ["emacs", "emacs-package"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 102247114,
@@ -616,7 +709,9 @@
       "updated": "2026-10-10T13:09:46Z",
       "archived": false,
       "topics": ["emacs", "emacs-customizations", "emacs-package"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 864806,
@@ -627,7 +722,9 @@
       "updated": "2026-09-13T08:26:25Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 452361778,
@@ -646,7 +743,9 @@
         "productivity",
         "scheduling"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 7926533,
@@ -657,7 +756,9 @@
       "updated": "2026-05-29T13:55:24Z",
       "archived": false,
       "topics": [],
-      "license": "BSD-3-Clause"
+      "license": "BSD-3-Clause",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 60958378,
@@ -668,7 +769,9 @@
       "updated": "2026-05-21T11:22:03Z",
       "archived": false,
       "topics": ["emacs", "font-icons"],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 184515445,
@@ -679,18 +782,9 @@
       "updated": "2026-08-04T23:32:10Z",
       "archived": false,
       "topics": ["emacs", "emacs-mode", "emacs-package", "hacktoberfest", "nextflow"],
-      "license": "GPL-3.0"
-    },
-    {
-      "id": 610896699,
-      "name": "egorelik93/Doom-Emacs-Config",
-      "description": "My Doom Emacs Config",
-      "url": "https://github.com/egorelik93/Doom-Emacs-Config",
-      "stars": 0,
-      "updated": "2026-11-13T04:06:43Z",
-      "archived": false,
-      "topics": [],
-      "license": null
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 567248350,
@@ -701,7 +795,9 @@
       "updated": "2026-07-19T15:38:13Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp-programming", "emacs-package"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 702992945,
@@ -712,7 +808,9 @@
       "updated": "2026-02-25T15:11:31Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "mode-line"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 687954069,
@@ -723,7 +821,9 @@
       "updated": "2024-02-24T10:35:38Z",
       "archived": false,
       "topics": ["anki", "emacs-package"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 8725668,
@@ -744,7 +844,9 @@
         "plugin",
         "symbol"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 192826349,
@@ -755,7 +857,9 @@
       "updated": "2026-06-19T13:55:43Z",
       "archived": false,
       "topics": ["elisp", "emacs", "emacs-lisp", "emacs-package", "emacs-plugin"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 342930741,
@@ -779,18 +883,9 @@
         "org-mode",
         "vertico"
       ],
-      "license": "GPL-3.0"
-    },
-    {
-      "id": 490791249,
-      "name": "emacs-eask/packaging",
-      "description": "Packaging for Eask CLI",
-      "url": "https://github.com/emacs-eask/packaging",
-      "stars": 10,
-      "updated": "2026-11-13T03:58:16Z",
-      "archived": false,
-      "topics": ["eask", "packaging", "publish"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 12336538,
@@ -801,18 +896,9 @@
       "updated": "2026-10-10T10:10:35Z",
       "archived": false,
       "topics": ["atom", "emacs", "jsonfeed", "rss"],
-      "license": "Unlicense"
-    },
-    {
-      "id": 1247469254,
-      "name": "emacs-elpa/mirror",
-      "description": "📦 Unofficial ELPA mirror",
-      "url": "https://github.com/emacs-elpa/mirror",
-      "stars": 4,
-      "updated": "2026-11-13T05:22:38Z",
-      "archived": false,
-      "topics": ["elpa", "emacs", "melpa"],
-      "license": null
+      "license": "Unlicense",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 79443089,
@@ -823,7 +909,9 @@
       "updated": "2026-07-28T14:38:01Z",
       "archived": false,
       "topics": ["editing", "editor", "emacs", "evil", "vim"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 109591971,
@@ -834,7 +922,9 @@
       "updated": "2026-11-07T07:41:57Z",
       "archived": false,
       "topics": ["bindings", "emacs", "evil", "evil-mode"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 3727706,
@@ -845,7 +935,9 @@
       "updated": "2026-11-12T16:37:33Z",
       "archived": false,
       "topics": ["completions", "emacs", "emacs-helm", "emacs-lisp", "helm"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 134094755,
@@ -873,7 +965,9 @@
         "swift",
         "typescript"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 254106050,
@@ -901,7 +995,9 @@
         "tree-views",
         "treemacs"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 75415169,
@@ -932,7 +1028,9 @@
         "swift",
         "typescript"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 22711712,
@@ -943,7 +1041,9 @@
       "updated": "2026-11-13T01:35:52Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 289680690,
@@ -967,7 +1067,9 @@
         "webrender",
         "webworkers"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 44824065,
@@ -978,7 +1080,9 @@
       "updated": "2026-11-12T22:37:03Z",
       "archived": false,
       "topics": ["emacs", "slack"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 1205707236,
@@ -1003,7 +1107,22 @@
         "wm",
         "x11"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Rust",
+      "ownerType": "Organization"
+    },
+    {
+      "id": 66826205,
+      "name": "Enfors/enfors-lib",
+      "description": "My personal Emacs initialization files.",
+      "url": "https://github.com/Enfors/enfors-lib",
+      "stars": 0,
+      "updated": "2026-11-13T08:40:07Z",
+      "archived": false,
+      "topics": [],
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 523780805,
@@ -1014,7 +1133,9 @@
       "updated": "2026-10-13T21:45:31Z",
       "archived": false,
       "topics": ["codespaces", "emacs", "emacs-package", "github", "github-cli"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 192868,
@@ -1025,7 +1146,9 @@
       "updated": "2014-05-14T23:23:46Z",
       "archived": true,
       "topics": [],
-      "license": "BSD-3-Clause"
+      "license": "BSD-3-Clause",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 221611799,
@@ -1036,7 +1159,9 @@
       "updated": "2026-07-12T03:37:01Z",
       "archived": false,
       "topics": ["bookmarks", "buku", "emacs", "emacs-lisp", "emacs-package", "web"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 6158882,
@@ -1047,7 +1172,9 @@
       "updated": "2026-11-07T08:14:27Z",
       "archived": false,
       "topics": ["emacs", "flycheck", "syntax-checking"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 9474098,
@@ -1058,18 +1185,9 @@
       "updated": "2024-07-26T17:07:31Z",
       "archived": false,
       "topics": ["emacs", "http", "http-header", "http-method", "http-status-code", "json"],
-      "license": "Unlicense"
-    },
-    {
-      "id": 77385303,
-      "name": "fridaychen/fconfig",
-      "description": "my emacs.d",
-      "url": "https://github.com/fridaychen/fconfig",
-      "stars": 1,
-      "updated": "2026-11-13T05:11:31Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0"
+      "license": "Unlicense",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 593461101,
@@ -1080,7 +1198,9 @@
       "updated": "2026-07-29T16:50:25Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "window-management"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 805882578,
@@ -1091,7 +1211,9 @@
       "updated": "2024-09-23T20:54:13Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "xdg"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 436394930,
@@ -1102,7 +1224,9 @@
       "updated": "2024-03-04T23:38:40Z",
       "archived": false,
       "topics": ["emacs", "emacs-mode", "emacs-package"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 6746236,
@@ -1113,7 +1237,9 @@
       "updated": "2026-01-29T12:14:19Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "lisp", "pairs", "parentheses", "smartparens"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 906849792,
@@ -1124,7 +1250,9 @@
       "updated": "2026-11-13T06:01:56Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 4693675,
@@ -1151,7 +1279,9 @@
         "templates",
         "twig"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 108642285,
@@ -1162,7 +1292,9 @@
       "updated": "2024-08-10T01:03:55Z",
       "archived": false,
       "topics": ["emacs", "emacs-mode", "emacs-package", "satysfi"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1341027830,
@@ -1173,40 +1305,48 @@
       "updated": "2026-11-13T07:05:15Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 1343561975,
+      "name": "Gleek/org-timegrid",
+      "description": "An SVG week calendar for Emacs, backed by Org files. Drag to create, move and resize; a read-only day strip for Org Agenda.",
+      "url": "https://github.com/Gleek/org-timegrid",
+      "stars": 216,
+      "updated": "2026-11-13T09:52:44Z",
+      "archived": false,
+      "topics": ["calendar", "emacs", "org-mode", "planner", "productivity", "svg"],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1068778883,
       "name": "google-coral/coralnpu",
       "description": "A machine learning accelerator core designed for energy-efficient AI at the edge.",
       "url": "https://github.com/google-coral/coralnpu",
-      "stars": 2688,
+      "stars": 2689,
       "updated": "2026-11-13T00:41:34Z",
       "archived": false,
       "topics": [],
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 35969061,
       "name": "google/styleguide",
       "description": "Style guides for Google-originated open-source projects",
       "url": "https://github.com/google/styleguide",
-      "stars": 39824,
+      "stars": 39825,
       "updated": "2026-11-13T01:24:39Z",
       "archived": false,
       "topics": ["cpplint", "style-guide", "styleguide"],
-      "license": "NOASSERTION"
-    },
-    {
-      "id": 926841148,
-      "name": "gs-101/.files",
-      "description": "[NG]uix 🏠",
-      "url": "https://github.com/gs-101/.files",
-      "stars": 3,
-      "updated": "2026-11-13T07:41:21Z",
-      "archived": false,
-      "topics": ["dotfiles", "guix", "hyprland-config", "niri-config", "nix"],
-      "license": "GPL-3.0"
+      "license": "NOASSERTION",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 3723999,
@@ -1217,7 +1357,9 @@
       "updated": "2026-10-16T18:15:55Z",
       "archived": false,
       "topics": ["emacs", "haskell"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 87830362,
@@ -1228,7 +1370,9 @@
       "updated": "2023-08-15T06:19:48Z",
       "archived": false,
       "topics": ["convenience", "editing", "emacs", "emacs-package"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1150263001,
@@ -1252,7 +1396,9 @@
         "openai",
         "vterm"
       ],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1456334353,
@@ -1260,10 +1406,12 @@
       "description": "Swedish calendar in Emacs",
       "url": "https://github.com/impaktor/sv-kalender",
       "stars": 0,
-      "updated": "2026-11-13T08:30:44Z",
+      "updated": "2026-11-13T09:56:32Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 237298620,
@@ -1274,7 +1422,9 @@
       "updated": "2025-09-14T13:09:27Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "org-mode", "org-mode-configuration"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 46448682,
@@ -1295,7 +1445,9 @@
         "silver-searcher",
         "spacemacs"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1181760758,
@@ -1314,7 +1466,9 @@
         "save",
         "save-buffer"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 898040566,
@@ -1325,7 +1479,9 @@
       "updated": "2026-11-10T15:12:51Z",
       "archived": false,
       "topics": ["buffer", "buffers", "emacs", "emacs-package", "kill-buffer", "terminate-buffer"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 885147054,
@@ -1349,7 +1505,9 @@
         "native-compile",
         "require"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 820203269,
@@ -1373,7 +1531,9 @@
         "session-manager",
         "tar-bar"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 886997593,
@@ -1390,7 +1550,9 @@
         "parentheses-balancing",
         "parenthesis-checking"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 882673166,
@@ -1408,7 +1570,9 @@
         "inhibit-mouse",
         "mouse"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1167137271,
@@ -1419,7 +1583,9 @@
       "updated": "2026-11-13T05:31:32Z",
       "archived": false,
       "topics": [],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 786232946,
@@ -1438,7 +1604,9 @@
         "tomorrow-night-deepblue",
         "tomorrow-theme"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 803611652,
@@ -1459,7 +1627,9 @@
         "vim-like",
         "vim-tab-bar"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 895856488,
@@ -1479,7 +1649,9 @@
         "rename",
         "symbols"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 719883364,
@@ -1498,7 +1670,9 @@
         "hurl",
         "programming-tools"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 732641700,
@@ -1516,7 +1690,9 @@
         "emacs-package",
         "programming-tools"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 18033470,
@@ -1527,7 +1703,9 @@
       "updated": "2025-07-03T22:02:53Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 512726650,
@@ -1538,7 +1716,9 @@
       "updated": "2026-07-01T11:53:19Z",
       "archived": false,
       "topics": ["commonmark", "lua", "markdown", "markup-language", "pandoc"],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 482520951,
@@ -1549,7 +1729,9 @@
       "updated": "2024-11-29T15:14:16Z",
       "archived": false,
       "topics": ["c", "emacs", "emacs-package", "github", "github-stars", "gnu99"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "C",
+      "ownerType": "User"
     },
     {
       "id": 364450140,
@@ -1560,15 +1742,30 @@
       "updated": "2026-11-08T23:52:09Z",
       "archived": false,
       "topics": ["ack", "ag", "emacs", "emacs-package", "git-grep", "grep", "ripgrep", "ugrep"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 1085014,
+      "name": "jixiuf/vmacs",
+      "description": "my .emacs.d&dotfiles",
+      "url": "https://github.com/jixiuf/vmacs",
+      "stars": 59,
+      "updated": "2026-11-13T08:11:52Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1441021199,
       "name": "jjba23/sift",
       "description": "Lisp, Scheme and Emacs Lisp formatter, linter and LSP (language server)",
       "url": "https://github.com/jjba23/sift",
-      "stars": 48,
-      "updated": "2026-11-13T06:49:22Z",
+      "stars": 55,
+      "updated": "2026-11-13T09:27:57Z",
       "archived": false,
       "topics": [
         "common-lisp",
@@ -1592,7 +1789,9 @@
         "scheme",
         "sift"
       ],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Scheme",
+      "ownerType": "User"
     },
     {
       "id": 28187504,
@@ -1603,7 +1802,9 @@
       "updated": "2026-10-20T18:20:24Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 100435302,
@@ -1614,7 +1815,9 @@
       "updated": "2026-11-07T11:05:30Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 2537904,
@@ -1625,7 +1828,9 @@
       "updated": "2025-06-04T20:22:16Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 933781397,
@@ -1636,7 +1841,9 @@
       "updated": "2026-10-25T19:22:38Z",
       "archived": false,
       "topics": ["devcontainer", "emacs", "emacs-package"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 328780136,
@@ -1656,7 +1863,9 @@
         "testing",
         "unit-testing"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 949646915,
@@ -1667,7 +1876,9 @@
       "updated": "2026-10-17T15:52:16Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "python", "uv"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 6448654,
@@ -1678,7 +1889,9 @@
       "updated": "2026-11-10T16:56:22Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1454767851,
@@ -1689,7 +1902,9 @@
       "updated": "2026-11-13T07:25:52Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 38401944,
@@ -1700,7 +1915,9 @@
       "updated": "2024-06-25T15:22:26Z",
       "archived": true,
       "topics": ["emacs", "emacs-keybindings", "emacs-lisp", "emacs-packages"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 4690846,
@@ -1720,7 +1937,9 @@
         "keyword",
         "melpa"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 533254699,
@@ -1739,7 +1958,9 @@
         "gist-manager",
         "gists"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 610038902,
@@ -1750,7 +1971,22 @@
       "updated": "2026-11-08T10:25:31Z",
       "archived": false,
       "topics": ["chatgpt", "emacs", "llms", "org-mode"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 316842412,
+      "name": "keotl/emacs",
+      "description": "",
+      "url": "https://github.com/keotl/emacs",
+      "stars": 0,
+      "updated": "2026-11-13T08:45:08Z",
+      "archived": false,
+      "topics": [],
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 717982926,
@@ -1772,7 +2008,9 @@
         "port",
         "syncthing"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1420281829,
@@ -1783,7 +2021,9 @@
       "updated": "2026-11-13T06:40:01Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1425004551,
@@ -1794,7 +2034,9 @@
       "updated": "2026-11-13T06:38:30Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1436981556,
@@ -1805,7 +2047,9 @@
       "updated": "2026-11-13T06:39:12Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1205981,
@@ -1816,7 +2060,22 @@
       "updated": "2026-10-02T15:25:00Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 1359907600,
+      "name": "kkkykin/zr-elisp",
+      "description": "",
+      "url": "https://github.com/kkkykin/zr-elisp",
+      "stars": 0,
+      "updated": "2026-11-13T08:51:31Z",
+      "archived": false,
+      "topics": [],
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 313414073,
@@ -1827,7 +2086,22 @@
       "updated": "2024-11-27T21:46:58Z",
       "archived": false,
       "topics": ["emacs", "emacs-mode", "emacs-package", "emacs-packages", "major-mode", "pikchr"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 948452691,
+      "name": "kristjoc/bible-gateway",
+      "description": "A Simple BibleGateway Client for Emacs",
+      "url": "https://github.com/kristjoc/bible-gateway",
+      "stars": 25,
+      "updated": "2026-11-13T09:59:23Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 85571873,
@@ -1838,7 +2112,9 @@
       "updated": "2024-07-03T20:50:02Z",
       "archived": false,
       "topics": ["concept-map", "emacs", "org-mode", "wiki"],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 831479394,
@@ -1849,7 +2125,9 @@
       "updated": "2025-09-15T11:07:10Z",
       "archived": false,
       "topics": ["emacs", "emacs-package"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 413607988,
@@ -1860,7 +2138,9 @@
       "updated": "2026-11-13T06:23:51Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 1415428956,
@@ -1868,10 +2148,38 @@
       "description": "LispM Agent: AI agents that run inside GNU Emacs, the chat an org document, the tools Elisp. The heart of LispM, an AI agent harness built on GNU Emacs and the ideas of the Lisp Machine.",
       "url": "https://github.com/LispMachineLab/lispm-agent",
       "stars": 5,
-      "updated": "2026-11-13T07:07:12Z",
+      "updated": "2026-11-13T09:21:07Z",
       "archived": false,
       "topics": [],
-      "license": "AGPL-3.0"
+      "license": "AGPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
+    },
+    {
+      "id": 1425573914,
+      "name": "LispMachineLab/lispm-desktop",
+      "description": "LispM Desktop: an Emacs distribution built around LispM Agent, laid out as a classic-style desktop, ready from the first start. Part of LispM, an AI agent harness built on GNU Emacs and the ideas of the Lisp Machine.",
+      "url": "https://github.com/LispMachineLab/lispm-desktop",
+      "stars": 0,
+      "updated": "2026-11-13T09:21:10Z",
+      "archived": false,
+      "topics": [],
+      "license": "AGPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
+    },
+    {
+      "id": 1292166810,
+      "name": "liu2006/dotfile",
+      "description": "",
+      "url": "https://github.com/liu2006/dotfile",
+      "stars": 0,
+      "updated": "2026-11-13T09:02:30Z",
+      "archived": false,
+      "topics": [],
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1348527601,
@@ -1879,10 +2187,12 @@
       "description": "Eliscript is an Emacs Lisp-flavored language that compiles to modern JavaScript. The seed compiler runs in plain Emacs, emits standard ECMAScript modules, and bootstraps a compiler written in Eliscript itself.",
       "url": "https://github.com/liuchong/eliscript",
       "stars": 0,
-      "updated": "2026-11-13T07:48:32Z",
+      "updated": "2026-11-13T08:55:23Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1197310279,
@@ -1893,7 +2203,9 @@
       "updated": "2026-11-13T07:11:46Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 35055585,
@@ -1919,7 +2231,9 @@
         "ruby",
         "types"
       ],
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 141378194,
@@ -1930,7 +2244,9 @@
       "updated": "2026-11-12T19:25:11Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 655492,
@@ -1941,7 +2257,9 @@
       "updated": "2026-11-10T21:27:46Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 6336849,
@@ -1952,7 +2270,9 @@
       "updated": "2026-10-06T10:56:06Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 2877648,
@@ -1963,7 +2283,9 @@
       "updated": "2024-12-17T18:40:34Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 3254430,
@@ -1974,7 +2296,9 @@
       "updated": "2026-10-09T13:31:22Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 488027969,
@@ -1985,7 +2309,9 @@
       "updated": "2026-11-06T13:51:13Z",
       "archived": false,
       "topics": ["codeium", "copilot", "elisp", "emacs", "lsp"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1007342361,
@@ -1996,7 +2322,9 @@
       "updated": "2026-09-14T16:21:41Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 51458408,
@@ -2014,7 +2342,9 @@
         "python",
         "virtualenv"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 410465755,
@@ -2034,7 +2364,9 @@
         "premier-league",
         "soccer"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 442229043,
@@ -2054,7 +2386,9 @@
         "time-zones",
         "world-clock"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 825020321,
@@ -2065,7 +2399,9 @@
       "updated": "2026-03-11T05:11:18Z",
       "archived": false,
       "topics": ["ai", "emacs", "emacs-package", "llm"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 2517120,
@@ -2076,7 +2412,9 @@
       "updated": "2026-11-09T06:37:17Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 252996884,
@@ -2087,7 +2425,9 @@
       "updated": "2026-09-15T23:38:05Z",
       "archived": false,
       "topics": ["colemak", "dvorak", "emacs", "modal-editing"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 431157622,
@@ -2098,7 +2438,9 @@
       "updated": "2026-10-14T16:18:34Z",
       "archived": false,
       "topics": ["emacs", "tree-sitter"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 18643003,
@@ -2109,7 +2451,9 @@
       "updated": "2025-12-12T16:23:08Z",
       "archived": false,
       "topics": ["emacs-lisp", "jupyter-notebook"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 316068494,
@@ -2120,7 +2464,9 @@
       "updated": "2026-10-04T09:57:42Z",
       "archived": false,
       "topics": ["completion", "emacs"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 335436211,
@@ -2131,7 +2477,9 @@
       "updated": "2026-11-01T16:14:39Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 462374601,
@@ -2142,7 +2490,9 @@
       "updated": "2026-08-18T07:11:15Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 353786121,
@@ -2153,7 +2503,9 @@
       "updated": "2026-10-11T08:23:14Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1008739660,
@@ -2164,7 +2516,9 @@
       "updated": "2026-05-22T18:52:41Z",
       "archived": false,
       "topics": ["copilot", "developer-tool", "emacs", "emacs-package", "llama", "llm"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 888849807,
@@ -2175,7 +2529,9 @@
       "updated": "2026-11-13T07:05:41Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 199888891,
@@ -2186,7 +2542,9 @@
       "updated": "2026-11-13T07:12:43Z",
       "archived": false,
       "topics": [],
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 439158024,
@@ -2206,7 +2564,9 @@
         "the-matrix",
         "the-matrix-code"
       ],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 563066,
@@ -2217,7 +2577,9 @@
       "updated": "2026-06-27T13:42:30Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 122159998,
@@ -2228,29 +2590,9 @@
       "updated": "2026-10-23T07:31:28Z",
       "archived": false,
       "topics": ["emacs-package", "mpd", "mpd-client", "music-player"],
-      "license": "GPL-3.0"
-    },
-    {
-      "id": 1431517144,
-      "name": "n0w1ht/kokoro.el",
-      "description": "Read buffers, EPUBs and PDFs aloud in Emacs with the Kokoro-82M text-to-speech model",
-      "url": "https://github.com/n0w1ht/kokoro.el",
-      "stars": 0,
-      "updated": "2026-11-13T03:53:19Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0"
-    },
-    {
-      "id": 982737917,
-      "name": "naurias/dot-nix",
-      "description": "Personal configs",
-      "url": "https://github.com/naurias/dot-nix",
-      "stars": 0,
-      "updated": "2026-11-13T04:15:42Z",
-      "archived": false,
-      "topics": [],
-      "license": null
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 911349942,
@@ -2261,7 +2603,9 @@
       "updated": "2026-06-08T18:36:26Z",
       "archived": false,
       "topics": ["comint-mode", "emacs", "emacs-package"],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 340962248,
@@ -2272,7 +2616,9 @@
       "updated": "2021-10-18T10:23:46Z",
       "archived": true,
       "topics": ["emacs", "emacs-package", "org-mode", "org-roam"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 302860903,
@@ -2283,7 +2629,9 @@
       "updated": "2026-04-17T10:03:19Z",
       "archived": false,
       "topics": ["emacs", "org-mode", "org-roam", "transclude", "transclusion", "writing"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1123053951,
@@ -2294,7 +2642,22 @@
       "updated": "2026-08-09T00:30:11Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "file-search", "fuzzy-matching", "nucleo"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 1456088953,
+      "name": "NoSignificantWorries/MyEmacs",
+      "description": "",
+      "url": "https://github.com/NoSignificantWorries/MyEmacs",
+      "stars": 0,
+      "updated": "2026-11-13T09:49:52Z",
+      "archived": false,
+      "topics": [],
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1454742742,
@@ -2302,10 +2665,12 @@
       "description": "lighter version of doom emacs for my personal use",
       "url": "https://github.com/nqminhuit/doom-lite",
       "stars": 0,
-      "updated": "2026-11-13T08:16:52Z",
+      "updated": "2026-11-13T10:10:16Z",
       "archived": false,
       "topics": [],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 264371435,
@@ -2316,7 +2681,9 @@
       "updated": "2026-08-12T10:35:46Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 231891986,
@@ -2327,7 +2694,9 @@
       "updated": "2026-04-27T03:16:28Z",
       "archived": false,
       "topics": ["hacktoberfest", "memex", "org-mode", "pkm", "roam", "zettelkasten"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 4290226,
@@ -2338,7 +2707,9 @@
       "updated": "2022-02-27T19:00:33Z",
       "archived": false,
       "topics": [],
-      "license": "NOASSERTION"
+      "license": "NOASSERTION",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 524446079,
@@ -2358,7 +2729,9 @@
         "jsx",
         "scss"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 85556007,
@@ -2376,7 +2749,9 @@
         "gnome-shell",
         "spacemacs-layer"
       ],
-      "license": "GPL-2.0"
+      "license": "GPL-2.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 317333791,
@@ -2387,7 +2762,9 @@
       "updated": "2026-02-20T19:54:48Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-package", "org-ref", "papis"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 3693861,
@@ -2398,7 +2775,9 @@
       "updated": "2024-03-10T11:02:55Z",
       "archived": true,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 362906621,
@@ -2409,7 +2788,9 @@
       "updated": "2022-07-28T12:28:37Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-package", "eshell", "shell"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1195002683,
@@ -2420,7 +2801,9 @@
       "updated": "2026-11-13T07:26:16Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 235503788,
@@ -2431,7 +2814,9 @@
       "updated": "2026-09-11T08:54:19Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-package", "language", "spellcheck"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 501292736,
@@ -2442,7 +2827,48 @@
       "updated": "2024-01-03T10:24:11Z",
       "archived": false,
       "topics": ["continuous-integration", "emacs", "emacs-lisp", "emacs-package", "nix"],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
+    },
+    {
+      "id": 778271764,
+      "name": "protesilaos/consult-denote",
+      "description": "Use Consult in tandem with Denote",
+      "url": "https://github.com/protesilaos/consult-denote",
+      "stars": 62,
+      "updated": "2026-11-13T08:50:54Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 499727486,
+      "name": "protesilaos/denote",
+      "description": "Efficient file-naming scheme to organise files and write notes with Emacs",
+      "url": "https://github.com/protesilaos/denote",
+      "stars": 879,
+      "updated": "2026-11-13T08:48:30Z",
+      "archived": false,
+      "topics": ["emacs", "notes"],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 943808043,
+      "name": "protesilaos/denote-journal",
+      "description": "Extension for Denote to do journaling (formerly known as the 'denote-journal-extras.el' that was part of the 'denote' package).",
+      "url": "https://github.com/protesilaos/denote-journal",
+      "stars": 12,
+      "updated": "2026-11-13T08:54:06Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 5792594,
@@ -2453,7 +2879,9 @@
       "updated": "2026-06-19T12:00:06Z",
       "archived": false,
       "topics": [],
-      "license": "NOASSERTION"
+      "license": "NOASSERTION",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 617711757,
@@ -2464,7 +2892,9 @@
       "updated": "2026-08-07T03:30:15Z",
       "archived": false,
       "topics": ["awesome", "awesome-list", "typst"],
-      "license": "CC0-1.0"
+      "license": "CC0-1.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 458863052,
@@ -2475,7 +2905,9 @@
       "updated": "2026-04-28T20:07:12Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "management", "project"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 408824603,
@@ -2486,7 +2918,9 @@
       "updated": "2026-08-24T22:30:18Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "kubernetes"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 77983005,
@@ -2497,7 +2931,9 @@
       "updated": "2026-11-13T00:33:05Z",
       "archived": false,
       "topics": ["emacs", "package-manager", "version-control"],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 1260297585,
@@ -2505,10 +2941,12 @@
       "description": "GitHub Client for Emacs",
       "url": "https://github.com/razzmatazz/octocat.el",
       "stars": 0,
-      "updated": "2026-11-13T08:37:37Z",
+      "updated": "2026-11-13T10:08:13Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 74522337,
@@ -2519,7 +2957,9 @@
       "updated": "2021-04-07T10:41:31Z",
       "archived": false,
       "topics": ["editor", "emacs", "rust"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 1161069901,
@@ -2527,10 +2967,12 @@
       "description": "",
       "url": "https://github.com/ren-lingyu/emarccs",
       "stars": 1,
-      "updated": "2026-11-13T08:30:06Z",
+      "updated": "2026-11-13T10:09:11Z",
       "archived": false,
       "topics": [],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 18631220,
@@ -2541,7 +2983,9 @@
       "updated": "2026-05-24T02:13:39Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "prose", "writing"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 230588817,
@@ -2552,7 +2996,9 @@
       "updated": "2023-12-02T02:50:32Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-package", "emacs-plugin"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 262980922,
@@ -2563,7 +3009,9 @@
       "updated": "2021-11-22T12:19:52Z",
       "archived": false,
       "topics": ["elegant-theme", "emacs", "emacs-configuration", "emacs-theme"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 303162873,
@@ -2574,7 +3022,22 @@
       "updated": "2026-06-12T04:29:54Z",
       "archived": false,
       "topics": ["design", "emacs", "lisp"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 1453821763,
+      "name": "rsooio/esx.el",
+      "description": "",
+      "url": "https://github.com/rsooio/esx.el",
+      "stars": 0,
+      "updated": "2026-11-13T09:49:40Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 30004263,
@@ -2585,7 +3048,22 @@
       "updated": "2026-10-02T14:39:57Z",
       "archived": false,
       "topics": [],
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
+    },
+    {
+      "id": 1352967598,
+      "name": "Sati2030/emacs-config",
+      "description": "",
+      "url": "https://github.com/Sati2030/emacs-config",
+      "stars": 0,
+      "updated": "2026-11-13T09:01:25Z",
+      "archived": false,
+      "topics": [],
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 136944483,
@@ -2605,18 +3083,9 @@
         "mode-line",
         "modeline"
       ],
-      "license": "GPL-3.0"
-    },
-    {
-      "id": 1343751705,
-      "name": "seewhydee/dsh-emacs-bridge",
-      "description": "Deepseek Harness to Emacs bridge",
-      "url": "https://github.com/seewhydee/dsh-emacs-bridge",
-      "stars": 4,
-      "updated": "2026-11-13T04:04:25Z",
-      "archived": false,
-      "topics": ["dsh-plugin", "emacs"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1581773,
@@ -2627,7 +3096,9 @@
       "updated": "2025-03-13T07:21:35Z",
       "archived": false,
       "topics": [],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 593105158,
@@ -2635,10 +3106,12 @@
       "description": "Thoughts on Faith and Judgement",
       "url": "https://github.com/semiosis/pen.el",
       "stars": 89,
-      "updated": "2026-11-13T08:29:07Z",
+      "updated": "2026-11-13T08:42:31Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 175871232,
@@ -2660,29 +3133,9 @@
         "hacktoberfest",
         "major-mode"
       ],
-      "license": "GPL-3.0"
-    },
-    {
-      "id": 361531927,
-      "name": "shivfitzpatrick/graphql-doc.el",
-      "description": "A GraphQL Documentation Explorer for Emacs",
-      "url": "https://github.com/shivfitzpatrick/graphql-doc.el",
-      "stars": 11,
-      "updated": "2026-11-13T04:20:19Z",
-      "archived": false,
-      "topics": ["emacs", "graphql"],
-      "license": "GPL-3.0"
-    },
-    {
-      "id": 1168910608,
-      "name": "skissue/gptel-openrouter-models",
-      "description": "Autogenerated list of OpenRouter models for gptel",
-      "url": "https://github.com/skissue/gptel-openrouter-models",
-      "stars": 8,
-      "updated": "2026-11-13T03:50:54Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 809137616,
@@ -2700,7 +3153,9 @@
         "modal-editing",
         "tree-sitter"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Tree-sitter Query",
+      "ownerType": "User"
     },
     {
       "id": 67437605,
@@ -2722,7 +3177,9 @@
         "stm32",
         "stm32cubemx"
       ],
-      "license": "NOASSERTION"
+      "license": "NOASSERTION",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1130425745,
@@ -2733,7 +3190,9 @@
       "updated": "2026-11-13T07:30:13Z",
       "archived": false,
       "topics": [],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 245543913,
@@ -2744,7 +3203,22 @@
       "updated": "2026-10-14T08:51:10Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "emacs-theme"],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 1142375217,
+      "name": "Spike-Leung/Spikemacs",
+      "description": "My Emacs config.",
+      "url": "https://github.com/Spike-Leung/Spikemacs",
+      "stars": 4,
+      "updated": "2026-11-13T07:56:07Z",
+      "archived": false,
+      "topics": [],
+      "license": "BSD-2-Clause",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1198881860,
@@ -2755,7 +3229,9 @@
       "updated": "2026-09-21T10:04:13Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-package"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1431675956,
@@ -2774,18 +3250,9 @@
         "synctex",
         "texpresso"
       ],
-      "license": "GPL-3.0"
-    },
-    {
-      "id": 1456149279,
-      "name": "stphnma/codex-draft",
-      "description": "Research and revise living Org documents with Codex in Emacs",
-      "url": "https://github.com/stphnma/codex-draft",
-      "stars": 0,
-      "updated": "2026-11-13T04:29:39Z",
-      "archived": false,
-      "topics": [],
-      "license": "MIT"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 436353,
@@ -2796,7 +3263,9 @@
       "updated": "2026-01-05T09:07:01Z",
       "archived": false,
       "topics": ["emacs-package", "firefox-extension"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "JavaScript",
+      "ownerType": "User"
     },
     {
       "id": 277121802,
@@ -2815,7 +3284,9 @@
         "file-search",
         "files"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1385202938,
@@ -2823,10 +3294,12 @@
       "description": "WIP",
       "url": "https://github.com/SuzumiyaAoba/remacs",
       "stars": 0,
-      "updated": "2026-11-13T08:37:50Z",
+      "updated": "2026-11-13T09:29:25Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 453796402,
@@ -2837,7 +3310,9 @@
       "updated": "2026-11-13T07:18:54Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 615698123,
@@ -2864,7 +3339,9 @@
         "writing-software",
         "writing-tool"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 533093422,
@@ -2875,7 +3352,9 @@
       "updated": "2025-02-09T05:52:43Z",
       "archived": false,
       "topics": ["age", "agenix", "emacs-package", "nix", "nixos", "secret-management"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 333019059,
@@ -2886,7 +3365,9 @@
       "updated": "2024-04-21T08:34:16Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "mirror"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 256395861,
@@ -2897,7 +3378,9 @@
       "updated": "2024-12-12T13:15:05Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "mirror"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 406850523,
@@ -2908,7 +3391,9 @@
       "updated": "2023-07-06T11:19:26Z",
       "archived": false,
       "topics": ["diffing", "emacs", "emacs-package", "latex", "mirror", "org-mode"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 401138075,
@@ -2919,7 +3404,9 @@
       "updated": "2024-04-21T09:52:26Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "mirror", "themes"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 467111841,
@@ -2930,7 +3417,9 @@
       "updated": "2024-01-04T14:28:20Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "mirror"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 323963411,
@@ -2941,7 +3430,9 @@
       "updated": "2024-04-01T14:44:04Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "mirror", "screenshots"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1354643881,
@@ -2952,7 +3443,9 @@
       "updated": "2026-11-09T03:19:26Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "markdown", "mathjax", "tree-sitter"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 573069533,
@@ -2963,18 +3456,9 @@
       "updated": "2025-05-22T07:52:39Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "org-mode"],
-      "license": "MIT"
-    },
-    {
-      "id": 1215452521,
-      "name": "tmcgilchrist/curry-mode",
-      "description": "A modern, tree-sitter-powered Emacs major mode for Haskell.",
-      "url": "https://github.com/tmcgilchrist/curry-mode",
-      "stars": 1,
-      "updated": "2026-11-13T05:07:48Z",
-      "archived": false,
-      "topics": [],
-      "license": null
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 541852723,
@@ -2985,18 +3469,9 @@
       "updated": "2026-11-13T07:32:03Z",
       "archived": false,
       "topics": [],
-      "license": null
-    },
-    {
-      "id": 1002751183,
-      "name": "TomoeMami/dida",
-      "description": "dida365 api in emacs",
-      "url": "https://github.com/TomoeMami/dida",
-      "stars": 2,
-      "updated": "2026-11-13T04:06:47Z",
-      "archived": false,
-      "topics": ["emacs-lisp", "emacs-package"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 283357424,
@@ -3007,7 +3482,9 @@
       "updated": "2023-05-01T16:03:20Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-package", "org-mode"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 283349348,
@@ -3018,7 +3495,9 @@
       "updated": "2020-09-05T15:08:16Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-package", "org-mode"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 432815655,
@@ -3029,18 +3508,9 @@
       "updated": "2026-11-13T06:41:54Z",
       "archived": false,
       "topics": [],
-      "license": null
-    },
-    {
-      "id": 1111448174,
-      "name": "tothedarktowercame/futon4",
-      "description": "hypertext",
-      "url": "https://github.com/tothedarktowercame/futon4",
-      "stars": 1,
-      "updated": "2026-11-13T04:35:12Z",
-      "archived": false,
-      "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 202243318,
@@ -3051,7 +3521,9 @@
       "updated": "2026-08-06T20:28:46Z",
       "archived": false,
       "topics": ["emacs-package", "gtd", "gtd-workflow", "org-mode"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 28525304,
@@ -3062,29 +3534,9 @@
       "updated": "2026-11-13T05:37:41Z",
       "archived": false,
       "topics": [],
-      "license": null
-    },
-    {
-      "id": 1368501328,
-      "name": "tychoish/mcpkit.el",
-      "description": "Model Context Protocol (MCP) service framework for Emacs",
-      "url": "https://github.com/tychoish/mcpkit.el",
-      "stars": 0,
-      "updated": "2026-11-13T04:37:36Z",
-      "archived": false,
-      "topics": [],
-      "license": null
-    },
-    {
-      "id": 1442083326,
-      "name": "tychoish/orgx",
-      "description": "",
-      "url": "https://github.com/tychoish/orgx",
-      "stars": 0,
-      "updated": "2026-11-13T04:40:15Z",
-      "archived": false,
-      "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1401127356,
@@ -3095,7 +3547,9 @@
       "updated": "2026-11-13T05:54:12Z",
       "archived": false,
       "topics": [],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 914928056,
@@ -3106,7 +3560,9 @@
       "updated": "2026-10-04T19:10:05Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "jira", "jira-rest-api"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 504439803,
@@ -3117,18 +3573,9 @@
       "updated": "2023-11-10T15:58:32Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-package"],
-      "license": "GPL-3.0"
-    },
-    {
-      "id": 222723025,
-      "name": "WarningRoo/EveryWhere",
-      "description": "Configs needed EveryWhere.",
-      "url": "https://github.com/WarningRoo/EveryWhere",
-      "stars": 2,
-      "updated": "2026-11-13T03:47:19Z",
-      "archived": false,
-      "topics": [],
-      "license": null
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 106600667,
@@ -3150,7 +3597,9 @@
         "pdf",
         "sync"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 86934008,
@@ -3161,7 +3610,9 @@
       "updated": "2025-04-08T03:34:21Z",
       "archived": false,
       "topics": ["emacs", "help"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1456201390,
@@ -3169,10 +3620,12 @@
       "description": "",
       "url": "https://github.com/wowhxj/emacs-reader",
       "stars": 0,
-      "updated": "2026-11-13T07:25:30Z",
+      "updated": "2026-11-13T10:05:10Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 204349720,
@@ -3183,7 +3636,9 @@
       "updated": "2026-02-06T23:41:44Z",
       "archived": false,
       "topics": ["emacs-package"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1053496366,
@@ -3205,7 +3660,9 @@
         "llm",
         "openai"
       ],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 616363358,
@@ -3216,7 +3673,9 @@
       "updated": "2026-09-18T20:23:43Z",
       "archived": false,
       "topics": ["chatgpt", "dall-e", "emacs", "org-mode"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1412862862,
@@ -3227,7 +3686,9 @@
       "updated": "2026-11-13T07:01:27Z",
       "archived": false,
       "topics": [],
-      "license": "MIT"
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 907659881,
@@ -3238,7 +3699,9 @@
       "updated": "2026-11-13T07:03:49Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1034553163,
@@ -3249,7 +3712,9 @@
       "updated": "2026-10-29T09:20:12Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-package", "excel"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1392926487,
@@ -3260,7 +3725,9 @@
       "updated": "2026-11-12T23:43:52Z",
       "archived": false,
       "topics": ["cairo", "diagrams", "emacs", "emacs-package", "excalidraw", "whiteboard"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1342055805,
@@ -3271,7 +3738,9 @@
       "updated": "2026-10-10T04:03:27Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "org-agenda", "org-mode"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 9715013,
@@ -3282,7 +3751,22 @@
       "updated": "2023-10-22T22:08:12Z",
       "archived": false,
       "topics": [],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 208640101,
+      "name": "yurii-tov/emacs-config",
+      "description": "My emacs configuration",
+      "url": "https://github.com/yurii-tov/emacs-config",
+      "stars": 0,
+      "updated": "2026-11-13T08:54:32Z",
+      "archived": false,
+      "topics": [],
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 1221484623,
@@ -3293,7 +3777,9 @@
       "updated": "2026-11-13T08:32:34Z",
       "archived": false,
       "topics": [],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 73935617,
@@ -3304,7 +3790,9 @@
       "updated": "2026-10-31T13:01:49Z",
       "archived": false,
       "topics": ["emacs", "gnu-emacs", "guix", "tdlib", "telegram"],
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     },
     {
       "id": 611681830,
@@ -3315,7 +3803,9 @@
       "updated": "2025-11-18T13:16:05Z",
       "archived": false,
       "topics": ["emacs-package", "orgmode", "tufte-css"],
-      "license": null
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
     }
   ]
 }
