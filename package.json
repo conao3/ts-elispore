@@ -1,0 +1,25 @@
+{
+  "name": "elispore",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vp dev --host 127.0.0.1",
+    "build": "vp build",
+    "catalog": "node --experimental-strip-types scripts/catalog.ts"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^4.0.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "vite-plus": "latest",
+    "@vitejs/plugin-react": "^6.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/node": "^26.0.0"
+  },
+  "packageManager": "pnpm@11.1.0"
+}

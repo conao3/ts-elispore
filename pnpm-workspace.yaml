@@ -1,0 +1,4 @@
+runtimeOnFail: ignore
+pmOnFail: ignore
+overrides:
+  vite: npm:@voidzero-dev/vite-plus-core@latest
