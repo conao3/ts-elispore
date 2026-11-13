@@ -3,7 +3,9 @@ export const entrySchema = z.object({
   id: z.number(),
   name: z.string(),
   description: z.string(),
-  url: z.url().refine((u) => new URL(u).hostname === "github.com"),
+  url: z
+    .url()
+    .refine((u) => new URL(u).hostname === "github.com" && new URL(u).protocol === "https:"),
   stars: z.number(),
   updated: z.string(),
   archived: z.boolean(),

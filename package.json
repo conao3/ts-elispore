@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vp dev --host 127.0.0.1",
     "build": "vp build",
-    "catalog": "node --experimental-strip-types scripts/catalog.ts"
+    "catalog": "node --experimental-strip-types scripts/catalog.ts && vp fmt public/catalog.json"
   },
   "dependencies": {
     "react": "^19.0.0",

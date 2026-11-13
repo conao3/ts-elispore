@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T08:36:02.954Z",
+  "generatedAt": "2026-11-13T08:37:47.282Z",
   "sources": [
     "language:\"Emacs Lisp\" stars:>=20 fork:false",
     "topic:emacs-package fork:false",
@@ -25,11 +25,7 @@
       "stars": 27,
       "updated": "2026-10-25T17:38:33Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "modeline"
-      ],
+      "topics": ["emacs", "emacs-package", "modeline"],
       "license": "MIT"
     },
     {
@@ -104,14 +100,7 @@
       "stars": 2432,
       "updated": "2026-09-13T17:12:17Z",
       "archived": false,
-      "topics": [
-        "completion",
-        "counsel",
-        "emacs",
-        "ivy",
-        "search",
-        "swiper"
-      ],
+      "topics": ["completion", "counsel", "emacs", "ivy", "search", "swiper"],
       "license": null
     },
     {
@@ -144,13 +133,7 @@
       "stars": 116,
       "updated": "2026-11-13T05:10:32Z",
       "archived": false,
-      "topics": [
-        "dictionary",
-        "emacs",
-        "english-language",
-        "merriam-webster",
-        "thesaurus"
-      ],
+      "topics": ["dictionary", "emacs", "english-language", "merriam-webster", "thesaurus"],
       "license": "GPL-3.0"
     },
     {
@@ -161,12 +144,7 @@
       "stars": 2002,
       "updated": "2026-09-14T16:41:29Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "libvterm",
-        "terminal",
-        "terminal-emulator"
-      ],
+      "topics": ["emacs", "libvterm", "terminal", "terminal-emulator"],
       "license": "GPL-3.0"
     },
     {
@@ -177,10 +155,7 @@
       "stars": 2369,
       "updated": "2025-12-26T13:07:40Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "file-explorer"
-      ],
+      "topics": ["emacs", "file-explorer"],
       "license": "GPL-3.0"
     },
     {
@@ -191,11 +166,7 @@
       "stars": 1149,
       "updated": "2026-07-25T15:21:00Z",
       "archived": false,
-      "topics": [
-        "dired",
-        "emacs",
-        "file-manager"
-      ],
+      "topics": ["dired", "emacs", "file-manager"],
       "license": "GPL-3.0"
     },
     {
@@ -206,11 +177,7 @@
       "stars": 1593,
       "updated": "2025-04-21T01:33:00Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "org-agenda",
-        "org-mode"
-      ],
+      "topics": ["emacs", "org-agenda", "org-mode"],
       "license": "GPL-3.0"
     },
     {
@@ -221,11 +188,7 @@
       "stars": 1542,
       "updated": "2025-04-21T01:30:46Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "org-agenda",
-        "org-mode"
-      ],
+      "topics": ["emacs", "org-agenda", "org-mode"],
       "license": "GPL-3.0"
     },
     {
@@ -236,10 +199,7 @@
       "stars": 1476,
       "updated": "2026-02-19T03:37:34Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "typescript"
-      ],
+      "topics": ["emacs", "typescript"],
       "license": "GPL-3.0"
     },
     {
@@ -250,12 +210,7 @@
       "stars": 26,
       "updated": "2025-06-13T10:58:42Z",
       "archived": false,
-      "topics": [
-        "ai",
-        "emacs",
-        "emacs-package",
-        "goose"
-      ],
+      "topics": ["ai", "emacs", "emacs-package", "goose"],
       "license": "MIT"
     },
     {
@@ -266,12 +221,7 @@
       "stars": 1764,
       "updated": "2026-06-19T08:32:49Z",
       "archived": false,
-      "topics": [
-        "auto-complete",
-        "completion",
-        "emacs",
-        "melpa"
-      ],
+      "topics": ["auto-complete", "completion", "emacs", "melpa"],
       "license": "NOASSERTION"
     },
     {
@@ -293,12 +243,7 @@
       "stars": 4249,
       "updated": "2026-09-30T10:55:59Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp",
-        "project-management",
-        "projectile"
-      ],
+      "topics": ["emacs", "emacs-lisp", "project-management", "projectile"],
       "license": "GPL-3.0"
     },
     {
@@ -309,10 +254,7 @@
       "stars": 0,
       "updated": "2026-11-13T06:56:31Z",
       "archived": false,
-      "topics": [
-        "certificates",
-        "technical-writing"
-      ],
+      "topics": ["certificates", "technical-writing"],
       "license": null
     },
     {
@@ -389,14 +331,7 @@
       "stars": 478,
       "updated": "2026-08-17T09:41:32Z",
       "archived": false,
-      "topics": [
-        "catppuccin",
-        "emacs",
-        "emacs-package",
-        "emacs-theme",
-        "hacktoberfest",
-        "theme"
-      ],
+      "topics": ["catppuccin", "emacs", "emacs-package", "emacs-theme", "hacktoberfest", "theme"],
       "license": "MIT"
     },
     {
@@ -429,11 +364,7 @@
       "stars": 0,
       "updated": "2026-11-13T04:10:45Z",
       "archived": false,
-      "topics": [
-        "packaging",
-        "publish",
-        "qob"
-      ],
+      "topics": ["packaging", "publish", "qob"],
       "license": "MIT"
     },
     {
@@ -444,13 +375,7 @@
       "stars": 3678,
       "updated": "2026-11-11T09:20:44Z",
       "archived": false,
-      "topics": [
-        "cider",
-        "clojure",
-        "clojure-development",
-        "emacs",
-        "emacs-lisp"
-      ],
+      "topics": ["cider", "clojure", "clojure-development", "emacs", "emacs-lisp"],
       "license": "GPL-3.0"
     },
     {
@@ -461,14 +386,7 @@
       "stars": 1005,
       "updated": "2026-11-07T10:02:54Z",
       "archived": false,
-      "topics": [
-        "clojure",
-        "clojure-mode",
-        "emacs",
-        "emacs-lisp",
-        "emacs-package",
-        "major-mode"
-      ],
+      "topics": ["clojure", "clojure-mode", "emacs", "emacs-lisp", "emacs-package", "major-mode"],
       "license": null
     },
     {
@@ -479,10 +397,7 @@
       "stars": 2288,
       "updated": "2026-11-12T11:12:08Z",
       "archived": false,
-      "topics": [
-        "code-completion",
-        "emacs-lisp"
-      ],
+      "topics": ["code-completion", "emacs-lisp"],
       "license": "GPL-3.0"
     },
     {
@@ -526,12 +441,7 @@
       "stars": 82,
       "updated": "2024-03-03T17:20:12Z",
       "archived": false,
-      "topics": [
-        "editing",
-        "emacs",
-        "emacs-lisp",
-        "emacs-package"
-      ],
+      "topics": ["editing", "emacs", "emacs-lisp", "emacs-package"],
       "license": "GPL-3.0"
     },
     {
@@ -575,10 +485,7 @@
       "stars": 68,
       "updated": "2025-08-21T14:28:39Z",
       "archived": false,
-      "topics": [
-        "desktop-environment",
-        "emacs-package"
-      ],
+      "topics": ["desktop-environment", "emacs-package"],
       "license": "GPL-3.0"
     },
     {
@@ -589,13 +496,7 @@
       "stars": 21,
       "updated": "2023-11-26T15:03:18Z",
       "archived": false,
-      "topics": [
-        "contacts",
-        "emacs-package",
-        "khard",
-        "pim",
-        "vcard"
-      ],
+      "topics": ["contacts", "emacs-package", "khard", "pim", "vcard"],
       "license": "GPL-3.0"
     },
     {
@@ -606,9 +507,7 @@
       "stars": 48,
       "updated": "2025-11-25T19:32:17Z",
       "archived": false,
-      "topics": [
-        "emacs-package"
-      ],
+      "topics": ["emacs-package"],
       "license": "GPL-3.0"
     },
     {
@@ -619,12 +518,7 @@
       "stars": 29,
       "updated": "2025-03-20T08:58:19Z",
       "archived": false,
-      "topics": [
-        "emacs-lisp",
-        "emacs-mode",
-        "emacs-package",
-        "emacs-packages"
-      ],
+      "topics": ["emacs-lisp", "emacs-mode", "emacs-package", "emacs-packages"],
       "license": "GPL-3.0"
     },
     {
@@ -655,13 +549,7 @@
       "stars": 37,
       "updated": "2021-12-29T18:34:28Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp",
-        "emacs-package",
-        "shortcuts",
-        "siri-shortcuts"
-      ],
+      "topics": ["emacs", "emacs-lisp", "emacs-package", "shortcuts", "siri-shortcuts"],
       "license": "GPL-3.0"
     },
     {
@@ -672,12 +560,7 @@
       "stars": 1923,
       "updated": "2023-05-27T17:38:52Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-config",
-        "emacs-configuration",
-        "emacs-lisp"
-      ],
+      "topics": ["emacs", "emacs-config", "emacs-configuration", "emacs-lisp"],
       "license": null
     },
     {
@@ -710,11 +593,7 @@
       "stars": 139,
       "updated": "2026-10-25T16:50:31Z",
       "archived": false,
-      "topics": [
-        "emacs-lisp",
-        "emacs-package",
-        "highlight"
-      ],
+      "topics": ["emacs-lisp", "emacs-package", "highlight"],
       "license": "GPL-3.0"
     },
     {
@@ -725,10 +604,7 @@
       "stars": 57,
       "updated": "2021-01-08T19:32:49Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package"
-      ],
+      "topics": ["emacs", "emacs-package"],
       "license": null
     },
     {
@@ -739,11 +615,7 @@
       "stars": 18,
       "updated": "2026-10-10T13:09:46Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-customizations",
-        "emacs-package"
-      ],
+      "topics": ["emacs", "emacs-customizations", "emacs-package"],
       "license": null
     },
     {
@@ -795,10 +667,7 @@
       "stars": 1565,
       "updated": "2026-05-21T11:22:03Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "font-icons"
-      ],
+      "topics": ["emacs", "font-icons"],
       "license": "MIT"
     },
     {
@@ -809,13 +678,7 @@
       "stars": 26,
       "updated": "2026-08-04T23:32:10Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-mode",
-        "emacs-package",
-        "hacktoberfest",
-        "nextflow"
-      ],
+      "topics": ["emacs", "emacs-mode", "emacs-package", "hacktoberfest", "nextflow"],
       "license": "GPL-3.0"
     },
     {
@@ -837,11 +700,7 @@
       "stars": 67,
       "updated": "2026-07-19T15:38:13Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp-programming",
-        "emacs-package"
-      ],
+      "topics": ["emacs", "emacs-lisp-programming", "emacs-package"],
       "license": "GPL-3.0"
     },
     {
@@ -852,11 +711,7 @@
       "stars": 90,
       "updated": "2026-02-25T15:11:31Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "mode-line"
-      ],
+      "topics": ["emacs", "emacs-package", "mode-line"],
       "license": "GPL-3.0"
     },
     {
@@ -867,10 +722,7 @@
       "stars": 35,
       "updated": "2024-02-24T10:35:38Z",
       "archived": false,
-      "topics": [
-        "anki",
-        "emacs-package"
-      ],
+      "topics": ["anki", "emacs-package"],
       "license": null
     },
     {
@@ -902,13 +754,7 @@
       "stars": 868,
       "updated": "2026-06-19T13:55:43Z",
       "archived": false,
-      "topics": [
-        "elisp",
-        "emacs",
-        "emacs-lisp",
-        "emacs-package",
-        "emacs-plugin"
-      ],
+      "topics": ["elisp", "emacs", "emacs-lisp", "emacs-package", "emacs-plugin"],
       "license": "GPL-3.0"
     },
     {
@@ -943,11 +789,7 @@
       "stars": 10,
       "updated": "2026-11-13T03:58:16Z",
       "archived": false,
-      "topics": [
-        "eask",
-        "packaging",
-        "publish"
-      ],
+      "topics": ["eask", "packaging", "publish"],
       "license": "GPL-3.0"
     },
     {
@@ -958,12 +800,7 @@
       "stars": 1813,
       "updated": "2026-10-10T10:10:35Z",
       "archived": false,
-      "topics": [
-        "atom",
-        "emacs",
-        "jsonfeed",
-        "rss"
-      ],
+      "topics": ["atom", "emacs", "jsonfeed", "rss"],
       "license": "Unlicense"
     },
     {
@@ -974,11 +811,7 @@
       "stars": 4,
       "updated": "2026-11-13T05:22:38Z",
       "archived": false,
-      "topics": [
-        "elpa",
-        "emacs",
-        "melpa"
-      ],
+      "topics": ["elpa", "emacs", "melpa"],
       "license": null
     },
     {
@@ -989,13 +822,7 @@
       "stars": 3870,
       "updated": "2026-07-28T14:38:01Z",
       "archived": false,
-      "topics": [
-        "editing",
-        "editor",
-        "emacs",
-        "evil",
-        "vim"
-      ],
+      "topics": ["editing", "editor", "emacs", "evil", "vim"],
       "license": "GPL-3.0"
     },
     {
@@ -1006,12 +833,7 @@
       "stars": 1352,
       "updated": "2026-11-07T07:41:57Z",
       "archived": false,
-      "topics": [
-        "bindings",
-        "emacs",
-        "evil",
-        "evil-mode"
-      ],
+      "topics": ["bindings", "emacs", "evil", "evil-mode"],
       "license": "GPL-3.0"
     },
     {
@@ -1022,13 +844,7 @@
       "stars": 3474,
       "updated": "2026-11-12T16:37:33Z",
       "archived": false,
-      "topics": [
-        "completions",
-        "emacs",
-        "emacs-helm",
-        "emacs-lisp",
-        "helm"
-      ],
+      "topics": ["completions", "emacs", "emacs-helm", "emacs-lisp", "helm"],
       "license": "GPL-3.0"
     },
     {
@@ -1161,10 +977,7 @@
       "stars": 1235,
       "updated": "2026-11-12T22:37:03Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "slack"
-      ],
+      "topics": ["emacs", "slack"],
       "license": null
     },
     {
@@ -1200,13 +1013,7 @@
       "stars": 83,
       "updated": "2026-10-13T21:45:31Z",
       "archived": false,
-      "topics": [
-        "codespaces",
-        "emacs",
-        "emacs-package",
-        "github",
-        "github-cli"
-      ],
+      "topics": ["codespaces", "emacs", "emacs-package", "github", "github-cli"],
       "license": "GPL-3.0"
     },
     {
@@ -1228,14 +1035,7 @@
       "stars": 105,
       "updated": "2026-07-12T03:37:01Z",
       "archived": false,
-      "topics": [
-        "bookmarks",
-        "buku",
-        "emacs",
-        "emacs-lisp",
-        "emacs-package",
-        "web"
-      ],
+      "topics": ["bookmarks", "buku", "emacs", "emacs-lisp", "emacs-package", "web"],
       "license": null
     },
     {
@@ -1246,11 +1046,7 @@
       "stars": 2538,
       "updated": "2026-11-07T08:14:27Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "flycheck",
-        "syntax-checking"
-      ],
+      "topics": ["emacs", "flycheck", "syntax-checking"],
       "license": "GPL-3.0"
     },
     {
@@ -1261,14 +1057,7 @@
       "stars": 2443,
       "updated": "2024-07-26T17:07:31Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "http",
-        "http-header",
-        "http-method",
-        "http-status-code",
-        "json"
-      ],
+      "topics": ["emacs", "http", "http-header", "http-method", "http-status-code", "json"],
       "license": "Unlicense"
     },
     {
@@ -1290,11 +1079,7 @@
       "stars": 62,
       "updated": "2026-07-29T16:50:25Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "window-management"
-      ],
+      "topics": ["emacs", "emacs-package", "window-management"],
       "license": "GPL-3.0"
     },
     {
@@ -1305,11 +1090,7 @@
       "stars": 48,
       "updated": "2024-09-23T20:54:13Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "xdg"
-      ],
+      "topics": ["emacs", "emacs-package", "xdg"],
       "license": "GPL-3.0"
     },
     {
@@ -1320,11 +1101,7 @@
       "stars": 23,
       "updated": "2024-03-04T23:38:40Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-mode",
-        "emacs-package"
-      ],
+      "topics": ["emacs", "emacs-mode", "emacs-package"],
       "license": "GPL-3.0"
     },
     {
@@ -1335,14 +1112,7 @@
       "stars": 1939,
       "updated": "2026-01-29T12:14:19Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp",
-        "lisp",
-        "pairs",
-        "parentheses",
-        "smartparens"
-      ],
+      "topics": ["emacs", "emacs-lisp", "lisp", "pairs", "parentheses", "smartparens"],
       "license": "GPL-3.0"
     },
     {
@@ -1391,12 +1161,7 @@
       "stars": 18,
       "updated": "2024-08-10T01:03:55Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-mode",
-        "emacs-package",
-        "satysfi"
-      ],
+      "topics": ["emacs", "emacs-mode", "emacs-package", "satysfi"],
       "license": null
     },
     {
@@ -1429,11 +1194,7 @@
       "stars": 39824,
       "updated": "2026-11-13T01:24:39Z",
       "archived": false,
-      "topics": [
-        "cpplint",
-        "style-guide",
-        "styleguide"
-      ],
+      "topics": ["cpplint", "style-guide", "styleguide"],
       "license": "NOASSERTION"
     },
     {
@@ -1444,13 +1205,7 @@
       "stars": 3,
       "updated": "2026-11-13T07:41:21Z",
       "archived": false,
-      "topics": [
-        "dotfiles",
-        "guix",
-        "hyprland-config",
-        "niri-config",
-        "nix"
-      ],
+      "topics": ["dotfiles", "guix", "hyprland-config", "niri-config", "nix"],
       "license": "GPL-3.0"
     },
     {
@@ -1461,10 +1216,7 @@
       "stars": 1392,
       "updated": "2026-10-16T18:15:55Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "haskell"
-      ],
+      "topics": ["emacs", "haskell"],
       "license": "GPL-3.0"
     },
     {
@@ -1475,12 +1227,7 @@
       "stars": 45,
       "updated": "2023-08-15T06:19:48Z",
       "archived": false,
-      "topics": [
-        "convenience",
-        "editing",
-        "emacs",
-        "emacs-package"
-      ],
+      "topics": ["convenience", "editing", "emacs", "emacs-package"],
       "license": null
     },
     {
@@ -1526,12 +1273,7 @@
       "stars": 557,
       "updated": "2025-09-14T13:09:27Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "org-mode",
-        "org-mode-configuration"
-      ],
+      "topics": ["emacs", "emacs-package", "org-mode", "org-mode-configuration"],
       "license": "GPL-3.0"
     },
     {
@@ -1582,14 +1324,7 @@
       "stars": 76,
       "updated": "2026-11-10T15:12:51Z",
       "archived": false,
-      "topics": [
-        "buffer",
-        "buffers",
-        "emacs",
-        "emacs-package",
-        "kill-buffer",
-        "terminate-buffer"
-      ],
+      "topics": ["buffer", "buffers", "emacs", "emacs-package", "kill-buffer", "terminate-buffer"],
       "license": "GPL-3.0"
     },
     {
@@ -1802,13 +1537,7 @@
       "stars": 2057,
       "updated": "2026-07-01T11:53:19Z",
       "archived": false,
-      "topics": [
-        "commonmark",
-        "lua",
-        "markdown",
-        "markup-language",
-        "pandoc"
-      ],
+      "topics": ["commonmark", "lua", "markdown", "markup-language", "pandoc"],
       "license": "MIT"
     },
     {
@@ -1819,14 +1548,7 @@
       "stars": 178,
       "updated": "2024-11-29T15:14:16Z",
       "archived": false,
-      "topics": [
-        "c",
-        "emacs",
-        "emacs-package",
-        "github",
-        "github-stars",
-        "gnu99"
-      ],
+      "topics": ["c", "emacs", "emacs-package", "github", "github-stars", "gnu99"],
       "license": "GPL-3.0"
     },
     {
@@ -1837,16 +1559,7 @@
       "stars": 33,
       "updated": "2026-11-08T23:52:09Z",
       "archived": false,
-      "topics": [
-        "ack",
-        "ag",
-        "emacs",
-        "emacs-package",
-        "git-grep",
-        "grep",
-        "ripgrep",
-        "ugrep"
-      ],
+      "topics": ["ack", "ag", "emacs", "emacs-package", "git-grep", "grep", "ripgrep", "ugrep"],
       "license": "GPL-3.0"
     },
     {
@@ -1854,7 +1567,7 @@
       "name": "jjba23/sift",
       "description": "Lisp, Scheme and Emacs Lisp formatter, linter and LSP (language server)",
       "url": "https://github.com/jjba23/sift",
-      "stars": 46,
+      "stars": 48,
       "updated": "2026-11-13T06:49:22Z",
       "archived": false,
       "topics": [
@@ -1922,11 +1635,7 @@
       "stars": 115,
       "updated": "2026-10-25T19:22:38Z",
       "archived": false,
-      "topics": [
-        "devcontainer",
-        "emacs",
-        "emacs-package"
-      ],
+      "topics": ["devcontainer", "emacs", "emacs-package"],
       "license": "GPL-3.0"
     },
     {
@@ -1957,12 +1666,7 @@
       "stars": 43,
       "updated": "2026-10-17T15:52:16Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "python",
-        "uv"
-      ],
+      "topics": ["emacs", "emacs-package", "python", "uv"],
       "license": "GPL-3.0"
     },
     {
@@ -1995,12 +1699,7 @@
       "stars": 1794,
       "updated": "2024-06-25T15:22:26Z",
       "archived": true,
-      "topics": [
-        "emacs",
-        "emacs-keybindings",
-        "emacs-lisp",
-        "emacs-packages"
-      ],
+      "topics": ["emacs", "emacs-keybindings", "emacs-lisp", "emacs-packages"],
       "license": "GPL-3.0"
     },
     {
@@ -2050,12 +1749,7 @@
       "stars": 3570,
       "updated": "2026-11-08T10:25:31Z",
       "archived": false,
-      "topics": [
-        "chatgpt",
-        "emacs",
-        "llms",
-        "org-mode"
-      ],
+      "topics": ["chatgpt", "emacs", "llms", "org-mode"],
       "license": "GPL-3.0"
     },
     {
@@ -2132,14 +1826,7 @@
       "stars": 18,
       "updated": "2024-11-27T21:46:58Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-mode",
-        "emacs-package",
-        "emacs-packages",
-        "major-mode",
-        "pikchr"
-      ],
+      "topics": ["emacs", "emacs-mode", "emacs-package", "emacs-packages", "major-mode", "pikchr"],
       "license": "GPL-3.0"
     },
     {
@@ -2150,12 +1837,7 @@
       "stars": 1773,
       "updated": "2024-07-03T20:50:02Z",
       "archived": false,
-      "topics": [
-        "concept-map",
-        "emacs",
-        "org-mode",
-        "wiki"
-      ],
+      "topics": ["concept-map", "emacs", "org-mode", "wiki"],
       "license": "MIT"
     },
     {
@@ -2166,10 +1848,7 @@
       "stars": 20,
       "updated": "2025-09-15T11:07:10Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package"
-      ],
+      "topics": ["emacs", "emacs-package"],
       "license": "GPL-3.0"
     },
     {
@@ -2305,13 +1984,7 @@
       "stars": 1756,
       "updated": "2026-11-06T13:51:13Z",
       "archived": false,
-      "topics": [
-        "codeium",
-        "copilot",
-        "elisp",
-        "emacs",
-        "lsp"
-      ],
+      "topics": ["codeium", "copilot", "elisp", "emacs", "lsp"],
       "license": "GPL-3.0"
     },
     {
@@ -2391,12 +2064,7 @@
       "stars": 21,
       "updated": "2026-03-11T05:11:18Z",
       "archived": false,
-      "topics": [
-        "ai",
-        "emacs",
-        "emacs-package",
-        "llm"
-      ],
+      "topics": ["ai", "emacs", "emacs-package", "llm"],
       "license": null
     },
     {
@@ -2418,12 +2086,7 @@
       "stars": 1733,
       "updated": "2026-09-15T23:38:05Z",
       "archived": false,
-      "topics": [
-        "colemak",
-        "dvorak",
-        "emacs",
-        "modal-editing"
-      ],
+      "topics": ["colemak", "dvorak", "emacs", "modal-editing"],
       "license": "GPL-3.0"
     },
     {
@@ -2434,10 +2097,7 @@
       "stars": 1254,
       "updated": "2026-10-14T16:18:34Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "tree-sitter"
-      ],
+      "topics": ["emacs", "tree-sitter"],
       "license": "GPL-3.0"
     },
     {
@@ -2448,10 +2108,7 @@
       "stars": 1525,
       "updated": "2025-12-12T16:23:08Z",
       "archived": false,
-      "topics": [
-        "emacs-lisp",
-        "jupyter-notebook"
-      ],
+      "topics": ["emacs-lisp", "jupyter-notebook"],
       "license": "GPL-3.0"
     },
     {
@@ -2462,10 +2119,7 @@
       "stars": 1679,
       "updated": "2026-10-04T09:57:42Z",
       "archived": false,
-      "topics": [
-        "completion",
-        "emacs"
-      ],
+      "topics": ["completion", "emacs"],
       "license": "GPL-3.0"
     },
     {
@@ -2509,14 +2163,7 @@
       "stars": 45,
       "updated": "2026-05-22T18:52:41Z",
       "archived": false,
-      "topics": [
-        "copilot",
-        "developer-tool",
-        "emacs",
-        "emacs-package",
-        "llama",
-        "llm"
-      ],
+      "topics": ["copilot", "developer-tool", "emacs", "emacs-package", "llama", "llm"],
       "license": "GPL-3.0"
     },
     {
@@ -2580,12 +2227,7 @@
       "stars": 90,
       "updated": "2026-10-23T07:31:28Z",
       "archived": false,
-      "topics": [
-        "emacs-package",
-        "mpd",
-        "mpd-client",
-        "music-player"
-      ],
+      "topics": ["emacs-package", "mpd", "mpd-client", "music-player"],
       "license": "GPL-3.0"
     },
     {
@@ -2618,11 +2260,7 @@
       "stars": 20,
       "updated": "2026-06-08T18:36:26Z",
       "archived": false,
-      "topics": [
-        "comint-mode",
-        "emacs",
-        "emacs-package"
-      ],
+      "topics": ["comint-mode", "emacs", "emacs-package"],
       "license": "MIT"
     },
     {
@@ -2633,12 +2271,7 @@
       "stars": 108,
       "updated": "2021-10-18T10:23:46Z",
       "archived": true,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "org-mode",
-        "org-roam"
-      ],
+      "topics": ["emacs", "emacs-package", "org-mode", "org-roam"],
       "license": "GPL-3.0"
     },
     {
@@ -2649,14 +2282,7 @@
       "stars": 1131,
       "updated": "2026-04-17T10:03:19Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "org-mode",
-        "org-roam",
-        "transclude",
-        "transclusion",
-        "writing"
-      ],
+      "topics": ["emacs", "org-mode", "org-roam", "transclude", "transclusion", "writing"],
       "license": "GPL-3.0"
     },
     {
@@ -2667,13 +2293,7 @@
       "stars": 28,
       "updated": "2026-08-09T00:30:11Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "file-search",
-        "fuzzy-matching",
-        "nucleo"
-      ],
+      "topics": ["emacs", "emacs-package", "file-search", "fuzzy-matching", "nucleo"],
       "license": null
     },
     {
@@ -2706,14 +2326,7 @@
       "stars": 6054,
       "updated": "2026-04-27T03:16:28Z",
       "archived": false,
-      "topics": [
-        "hacktoberfest",
-        "memex",
-        "org-mode",
-        "pkm",
-        "roam",
-        "zettelkasten"
-      ],
+      "topics": ["hacktoberfest", "memex", "org-mode", "pkm", "roam", "zettelkasten"],
       "license": "GPL-3.0"
     },
     {
@@ -2773,13 +2386,7 @@
       "stars": 31,
       "updated": "2026-02-20T19:54:48Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp",
-        "emacs-package",
-        "org-ref",
-        "papis"
-      ],
+      "topics": ["emacs", "emacs-lisp", "emacs-package", "org-ref", "papis"],
       "license": "GPL-3.0"
     },
     {
@@ -2801,13 +2408,7 @@
       "stars": 35,
       "updated": "2022-07-28T12:28:37Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp",
-        "emacs-package",
-        "eshell",
-        "shell"
-      ],
+      "topics": ["emacs", "emacs-lisp", "emacs-package", "eshell", "shell"],
       "license": "GPL-3.0"
     },
     {
@@ -2829,13 +2430,7 @@
       "stars": 131,
       "updated": "2026-09-11T08:54:19Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp",
-        "emacs-package",
-        "language",
-        "spellcheck"
-      ],
+      "topics": ["emacs", "emacs-lisp", "emacs-package", "language", "spellcheck"],
       "license": "GPL-3.0"
     },
     {
@@ -2846,13 +2441,7 @@
       "stars": 65,
       "updated": "2024-01-03T10:24:11Z",
       "archived": false,
-      "topics": [
-        "continuous-integration",
-        "emacs",
-        "emacs-lisp",
-        "emacs-package",
-        "nix"
-      ],
+      "topics": ["continuous-integration", "emacs", "emacs-lisp", "emacs-package", "nix"],
       "license": "MIT"
     },
     {
@@ -2874,11 +2463,7 @@
       "stars": 3623,
       "updated": "2026-08-07T03:30:15Z",
       "archived": false,
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "typst"
-      ],
+      "topics": ["awesome", "awesome-list", "typst"],
       "license": "CC0-1.0"
     },
     {
@@ -2889,12 +2474,7 @@
       "stars": 74,
       "updated": "2026-04-28T20:07:12Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "management",
-        "project"
-      ],
+      "topics": ["emacs", "emacs-package", "management", "project"],
       "license": "GPL-3.0"
     },
     {
@@ -2905,11 +2485,7 @@
       "stars": 20,
       "updated": "2026-08-24T22:30:18Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "kubernetes"
-      ],
+      "topics": ["emacs", "emacs-package", "kubernetes"],
       "license": "GPL-3.0"
     },
     {
@@ -2920,11 +2496,7 @@
       "stars": 3035,
       "updated": "2026-11-13T00:33:05Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "package-manager",
-        "version-control"
-      ],
+      "topics": ["emacs", "package-manager", "version-control"],
       "license": "MIT"
     },
     {
@@ -2933,7 +2505,7 @@
       "description": "GitHub Client for Emacs",
       "url": "https://github.com/razzmatazz/octocat.el",
       "stars": 0,
-      "updated": "2026-11-13T08:30:43Z",
+      "updated": "2026-11-13T08:37:37Z",
       "archived": false,
       "topics": [],
       "license": "GPL-3.0"
@@ -2946,11 +2518,7 @@
       "stars": 4606,
       "updated": "2021-04-07T10:41:31Z",
       "archived": false,
-      "topics": [
-        "editor",
-        "emacs",
-        "rust"
-      ],
+      "topics": ["editor", "emacs", "rust"],
       "license": "GPL-3.0"
     },
     {
@@ -2972,12 +2540,7 @@
       "stars": 1297,
       "updated": "2026-05-24T02:13:39Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp",
-        "prose",
-        "writing"
-      ],
+      "topics": ["emacs", "emacs-lisp", "prose", "writing"],
       "license": "GPL-3.0"
     },
     {
@@ -2988,12 +2551,7 @@
       "stars": 69,
       "updated": "2023-12-02T02:50:32Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp",
-        "emacs-package",
-        "emacs-plugin"
-      ],
+      "topics": ["emacs", "emacs-lisp", "emacs-package", "emacs-plugin"],
       "license": "GPL-3.0"
     },
     {
@@ -3004,12 +2562,7 @@
       "stars": 1450,
       "updated": "2021-11-22T12:19:52Z",
       "archived": false,
-      "topics": [
-        "elegant-theme",
-        "emacs",
-        "emacs-configuration",
-        "emacs-theme"
-      ],
+      "topics": ["elegant-theme", "emacs", "emacs-configuration", "emacs-theme"],
       "license": "GPL-3.0"
     },
     {
@@ -3020,11 +2573,7 @@
       "stars": 2957,
       "updated": "2026-06-12T04:29:54Z",
       "archived": false,
-      "topics": [
-        "design",
-        "emacs",
-        "lisp"
-      ],
+      "topics": ["design", "emacs", "lisp"],
       "license": "GPL-3.0"
     },
     {
@@ -3066,10 +2615,7 @@
       "stars": 4,
       "updated": "2026-11-13T04:04:25Z",
       "archived": false,
-      "topics": [
-        "dsh-plugin",
-        "emacs"
-      ],
+      "topics": ["dsh-plugin", "emacs"],
       "license": "GPL-3.0"
     },
     {
@@ -3124,10 +2670,7 @@
       "stars": 11,
       "updated": "2026-11-13T04:20:19Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "graphql"
-      ],
+      "topics": ["emacs", "graphql"],
       "license": "GPL-3.0"
     },
     {
@@ -3200,11 +2743,7 @@
       "stars": 32,
       "updated": "2026-10-14T08:51:10Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "emacs-theme"
-      ],
+      "topics": ["emacs", "emacs-package", "emacs-theme"],
       "license": "MIT"
     },
     {
@@ -3215,11 +2754,7 @@
       "stars": 30,
       "updated": "2026-09-21T10:04:13Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp",
-        "emacs-package"
-      ],
+      "topics": ["emacs", "emacs-lisp", "emacs-package"],
       "license": "GPL-3.0"
     },
     {
@@ -3260,10 +2795,7 @@
       "stars": 541,
       "updated": "2026-01-05T09:07:01Z",
       "archived": false,
-      "topics": [
-        "emacs-package",
-        "firefox-extension"
-      ],
+      "topics": ["emacs-package", "firefox-extension"],
       "license": "GPL-3.0"
     },
     {
@@ -3342,14 +2874,7 @@
       "stars": 20,
       "updated": "2025-02-09T05:52:43Z",
       "archived": false,
-      "topics": [
-        "age",
-        "agenix",
-        "emacs-package",
-        "nix",
-        "nixos",
-        "secret-management"
-      ],
+      "topics": ["age", "agenix", "emacs-package", "nix", "nixos", "secret-management"],
       "license": "GPL-3.0"
     },
     {
@@ -3360,11 +2885,7 @@
       "stars": 107,
       "updated": "2024-04-21T08:34:16Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "mirror"
-      ],
+      "topics": ["emacs", "emacs-package", "mirror"],
       "license": "GPL-3.0"
     },
     {
@@ -3375,11 +2896,7 @@
       "stars": 121,
       "updated": "2024-12-12T13:15:05Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "mirror"
-      ],
+      "topics": ["emacs", "emacs-package", "mirror"],
       "license": "GPL-3.0"
     },
     {
@@ -3390,14 +2907,7 @@
       "stars": 35,
       "updated": "2023-07-06T11:19:26Z",
       "archived": false,
-      "topics": [
-        "diffing",
-        "emacs",
-        "emacs-package",
-        "latex",
-        "mirror",
-        "org-mode"
-      ],
+      "topics": ["diffing", "emacs", "emacs-package", "latex", "mirror", "org-mode"],
       "license": null
     },
     {
@@ -3408,12 +2918,7 @@
       "stars": 34,
       "updated": "2024-04-21T09:52:26Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "mirror",
-        "themes"
-      ],
+      "topics": ["emacs", "emacs-package", "mirror", "themes"],
       "license": null
     },
     {
@@ -3424,11 +2929,7 @@
       "stars": 18,
       "updated": "2024-01-04T14:28:20Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "mirror"
-      ],
+      "topics": ["emacs", "emacs-package", "mirror"],
       "license": "GPL-3.0"
     },
     {
@@ -3439,12 +2940,7 @@
       "stars": 243,
       "updated": "2024-04-01T14:44:04Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "mirror",
-        "screenshots"
-      ],
+      "topics": ["emacs", "emacs-package", "mirror", "screenshots"],
       "license": "GPL-3.0"
     },
     {
@@ -3455,13 +2951,7 @@
       "stars": 63,
       "updated": "2026-11-09T03:19:26Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "markdown",
-        "mathjax",
-        "tree-sitter"
-      ],
+      "topics": ["emacs", "emacs-package", "markdown", "mathjax", "tree-sitter"],
       "license": "GPL-3.0"
     },
     {
@@ -3472,11 +2962,7 @@
       "stars": 29,
       "updated": "2025-05-22T07:52:39Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "org-mode"
-      ],
+      "topics": ["emacs", "emacs-package", "org-mode"],
       "license": "MIT"
     },
     {
@@ -3509,10 +2995,7 @@
       "stars": 2,
       "updated": "2026-11-13T04:06:47Z",
       "archived": false,
-      "topics": [
-        "emacs-lisp",
-        "emacs-package"
-      ],
+      "topics": ["emacs-lisp", "emacs-package"],
       "license": null
     },
     {
@@ -3523,12 +3006,7 @@
       "stars": 35,
       "updated": "2023-05-01T16:03:20Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp",
-        "emacs-package",
-        "org-mode"
-      ],
+      "topics": ["emacs", "emacs-lisp", "emacs-package", "org-mode"],
       "license": null
     },
     {
@@ -3539,12 +3017,7 @@
       "stars": 24,
       "updated": "2020-09-05T15:08:16Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp",
-        "emacs-package",
-        "org-mode"
-      ],
+      "topics": ["emacs", "emacs-lisp", "emacs-package", "org-mode"],
       "license": "GPL-3.0"
     },
     {
@@ -3577,12 +3050,7 @@
       "stars": 487,
       "updated": "2026-08-06T20:28:46Z",
       "archived": false,
-      "topics": [
-        "emacs-package",
-        "gtd",
-        "gtd-workflow",
-        "org-mode"
-      ],
+      "topics": ["emacs-package", "gtd", "gtd-workflow", "org-mode"],
       "license": "GPL-3.0"
     },
     {
@@ -3637,12 +3105,7 @@
       "stars": 127,
       "updated": "2026-10-04T19:10:05Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "jira",
-        "jira-rest-api"
-      ],
+      "topics": ["emacs", "emacs-package", "jira", "jira-rest-api"],
       "license": "GPL-3.0"
     },
     {
@@ -3653,11 +3116,7 @@
       "stars": 37,
       "updated": "2023-11-10T15:58:32Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp",
-        "emacs-package"
-      ],
+      "topics": ["emacs", "emacs-lisp", "emacs-package"],
       "license": "GPL-3.0"
     },
     {
@@ -3701,10 +3160,7 @@
       "stars": 1308,
       "updated": "2025-04-08T03:34:21Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "help"
-      ],
+      "topics": ["emacs", "help"],
       "license": null
     },
     {
@@ -3726,9 +3182,7 @@
       "stars": 19,
       "updated": "2026-02-06T23:41:44Z",
       "archived": false,
-      "topics": [
-        "emacs-package"
-      ],
+      "topics": ["emacs-package"],
       "license": "GPL-3.0"
     },
     {
@@ -3761,12 +3215,7 @@
       "stars": 1211,
       "updated": "2026-09-18T20:23:43Z",
       "archived": false,
-      "topics": [
-        "chatgpt",
-        "dall-e",
-        "emacs",
-        "org-mode"
-      ],
+      "topics": ["chatgpt", "dall-e", "emacs", "org-mode"],
       "license": "GPL-3.0"
     },
     {
@@ -3799,12 +3248,7 @@
       "stars": 196,
       "updated": "2026-10-29T09:20:12Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-lisp",
-        "emacs-package",
-        "excel"
-      ],
+      "topics": ["emacs", "emacs-lisp", "emacs-package", "excel"],
       "license": "GPL-3.0"
     },
     {
@@ -3815,14 +3259,7 @@
       "stars": 99,
       "updated": "2026-11-12T23:43:52Z",
       "archived": false,
-      "topics": [
-        "cairo",
-        "diagrams",
-        "emacs",
-        "emacs-package",
-        "excalidraw",
-        "whiteboard"
-      ],
+      "topics": ["cairo", "diagrams", "emacs", "emacs-package", "excalidraw", "whiteboard"],
       "license": "GPL-3.0"
     },
     {
@@ -3833,12 +3270,7 @@
       "stars": 54,
       "updated": "2026-10-10T04:03:27Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "org-agenda",
-        "org-mode"
-      ],
+      "topics": ["emacs", "emacs-package", "org-agenda", "org-mode"],
       "license": "GPL-3.0"
     },
     {
@@ -3871,13 +3303,7 @@
       "stars": 1272,
       "updated": "2026-10-31T13:01:49Z",
       "archived": false,
-      "topics": [
-        "emacs",
-        "gnu-emacs",
-        "guix",
-        "tdlib",
-        "telegram"
-      ],
+      "topics": ["emacs", "gnu-emacs", "guix", "tdlib", "telegram"],
       "license": "GPL-3.0"
     },
     {
@@ -3888,11 +3314,7 @@
       "stars": 90,
       "updated": "2025-11-18T13:16:05Z",
       "archived": false,
-      "topics": [
-        "emacs-package",
-        "orgmode",
-        "tufte-css"
-      ],
+      "topics": ["emacs-package", "orgmode", "tufte-css"],
       "license": null
     }
   ]
