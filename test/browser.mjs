@@ -95,6 +95,30 @@ try {
   async function settle() {
     await evaluate("new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)))")
   }
+  async function key(key, code, windowsVirtualKeyCode) {
+    await send("Input.dispatchKeyEvent", { type: "keyDown", key, code, windowsVirtualKeyCode })
+    await send("Input.dispatchKeyEvent", { type: "keyUp", key, code, windowsVirtualKeyCode })
+    await settle()
+  }
+  async function click(selector) {
+    const point = await evaluate(
+      `(()=>{const e=document.querySelector(${JSON.stringify(selector)});e.scrollIntoView({block:'center'});const r=e.getBoundingClientRect();return {x:r.x+r.width/2,y:r.y+r.height/2}})()`,
+    )
+    await send("Input.dispatchMouseEvent", { type: "mouseMoved", ...point })
+    await send("Input.dispatchMouseEvent", {
+      type: "mousePressed",
+      ...point,
+      button: "left",
+      clickCount: 1,
+    })
+    await send("Input.dispatchMouseEvent", {
+      type: "mouseReleased",
+      ...point,
+      button: "left",
+      clickCount: 1,
+    })
+    await settle()
+  }
   async function waitFor(expression) {
     for (let i = 0; i < 100; i++) {
       if (await evaluate(expression)) return
@@ -139,25 +163,31 @@ try {
   await evaluate(`document.querySelector('[data-owner=minad]').click()`)
   await settle()
   assert.ok(await evaluate(`document.querySelector('#query').value.includes('user:minad')`))
-  assert.equal(await evaluate(`document.querySelector('details.package').open`), false)
+  assert.equal(
+    await evaluate(`document.querySelector('.package').hasAttribute('data-expanded')`),
+    false,
+  )
   await edit("user:minad")
   await waitFor(`document.querySelectorAll('.package').length>1`)
   const measure = () =>
     evaluate(
-      `(()=>{const s=document.querySelector('.package > summary'),r=s.getBoundingClientRect();return{x:r.x,y:r.y,width:r.width,height:r.height}})()`,
+      `(()=>{const s=document.querySelector('.package > .package-row'),r=s.getBoundingClientRect();return{x:r.x,y:r.y,width:r.width,height:r.height}})()`,
     )
   const before = await measure()
   for (const expected of [true, false, true]) {
-    await evaluate(`document.querySelector('.package > summary').click()`)
+    await evaluate(`document.querySelector('.package > .package-row').click()`)
     await settle()
-    assert.equal(await evaluate(`document.querySelector('details.package').open`), expected)
+    assert.equal(
+      await evaluate(`document.querySelector('.package').hasAttribute('data-expanded')`),
+      expected,
+    )
     const after = await measure()
     for (const key of Object.keys(before))
       assert.ok(Math.abs(before[key] - after[key]) < 0.01, `${key} changed on toggle`)
   }
-  await evaluate(`document.querySelectorAll('.package > summary')[1].click()`)
+  await evaluate(`document.querySelectorAll('.package > .package-row')[1].click()`)
   await settle()
-  assert.equal(await evaluate(`document.querySelectorAll('details.package[open]').length`), 2)
+  assert.equal(await evaluate(`document.querySelectorAll('.package[data-expanded]').length`), 2)
   await evaluate(`document.querySelector('[data-category=Completion]').click()`)
   await settle()
   assert.ok(await evaluate(`document.querySelector('#query').value.includes('topic:completion')`))
@@ -174,38 +204,51 @@ try {
     "true",
   )
   await edit("repo:minad/vertico")
-  await evaluate(`document.querySelector('.package > summary').click()`)
+  await evaluate(`document.querySelector('.package > .package-row').click()`)
   await settle()
-  if (!(await evaluate("document.querySelector('details.package').open")))
-    await evaluate("document.querySelector('.package > summary').click()")
+  if (!(await evaluate("document.querySelector('.package').hasAttribute('data-expanded')")))
+    await evaluate("document.querySelector('.package > .package-row').click()")
   await settle()
   await waitFor("document.querySelector('.avatar-link img').naturalWidth > 0")
-  await evaluate(`document.querySelector('.requirements > summary').click()`)
+  await evaluate(`document.querySelector('.requirements > button').click()`)
   await settle()
-  assert.equal(await evaluate(`document.querySelector('.requirements').open`), true)
-  assert.equal(await evaluate(`document.querySelector('details.package').open`), true)
-  await evaluate(`document.querySelector('.requirements > summary').click()`)
+  assert.equal(
+    await evaluate(`document.querySelector('.requirements').hasAttribute('data-expanded')`),
+    true,
+  )
+  assert.equal(
+    await evaluate(`document.querySelector('.package').hasAttribute('data-expanded')`),
+    true,
+  )
+  await evaluate(`document.querySelector('.requirements > button').click()`)
   await settle()
   assert.equal(
     await evaluate("document.querySelector('code').textContent"),
     '(leaf vertico\n  :vc (:url "https://github.com/minad/vertico"))',
   )
   assert.equal(
-    await evaluate(`document.querySelector('.snippet-switch button').getAttribute('aria-pressed')`),
+    await evaluate(
+      `String(document.querySelector('.snippet-switch button').hasAttribute('data-selected'))`,
+    ),
     "true",
   )
   const snippetRow = await measure()
-  await evaluate(`document.querySelectorAll('.snippet-switch button')[1].click()`)
+  await evaluate(`document.querySelector('.snippet-switch button').focus()`)
+  await key("ArrowRight", "ArrowRight", 39)
+  await key(" ", "Space", 32)
   await settle()
   const selectedCode = '(use-package vertico\n  :vc (:url "https://github.com/minad/vertico"))'
   assert.equal(await evaluate("document.querySelector('code').textContent"), selectedCode)
   assert.equal(
     await evaluate(
-      `document.querySelectorAll('.snippet-switch button')[1].getAttribute('aria-pressed')`,
+      `String(document.querySelectorAll('.snippet-switch button')[1].hasAttribute('data-selected'))`,
     ),
     "true",
   )
-  assert.equal(await evaluate(`document.querySelector('details.package').open`), true)
+  assert.equal(
+    await evaluate(`document.querySelector('.package').hasAttribute('data-expanded')`),
+    true,
+  )
   assert.deepEqual(await measure(), snippetRow)
   await evaluate(
     `Object.defineProperty(navigator, 'clipboard', {configurable:true,value:{writeText:async text=>{window.copiedSnippet=text}}}); document.querySelector('.copy').click()`,
@@ -217,6 +260,29 @@ try {
   await settle()
   assert.ok(await evaluate(`document.querySelector('code').textContent.startsWith('(leaf ')`))
   assert.equal(await evaluate(`document.querySelector('.copy').textContent`), "Copy")
+  await click("#sort")
+  await waitFor(`Boolean(document.querySelector('[role=listbox]'))`)
+  await key("End", "End", 35)
+  await key("Enter", "Enter", 13)
+  assert.ok(await evaluate(`document.querySelector('#sort').textContent.includes('Name A–Z')`))
+  assert.equal(await evaluate(`document.activeElement.id`), "sort")
+  await click("#sort")
+  await key("Escape", "Escape", 27)
+  assert.equal(await evaluate(`document.querySelector('[role=listbox]')`), null)
+  await click(".check .checkbox-mark")
+  assert.ok(await evaluate(`document.querySelector('#query').value.includes('pushed:')`))
+  await edit("repo:minad/vertico")
+  await evaluate(`document.querySelector('.repo-trigger').focus()`)
+  await key("Enter", "Enter", 13)
+  assert.equal(
+    await evaluate(`document.querySelector('.package').hasAttribute('data-expanded')`),
+    false,
+  )
+  await key("Enter", "Enter", 13)
+  assert.equal(
+    await evaluate(`document.querySelector('.package').hasAttribute('data-expanded')`),
+    true,
+  )
   const image = await send("Page.captureScreenshot", {
     format: "png",
     captureBeyondViewport: false,
@@ -263,5 +329,5 @@ try {
   browser.kill("SIGTERM")
   await exited
   await new Promise((resolve) => server.close(resolve))
-  await rm(profile, { recursive: true, force: true })
+  await rm(profile, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 })
 }

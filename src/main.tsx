@@ -1,6 +1,25 @@
 import { useEffect, useMemo, useRef, useState } from "react"
 import { createRoot } from "react-dom/client"
 import { Search } from "lucide-react"
+import {
+  Button,
+  Checkbox,
+  Disclosure,
+  DisclosurePanel,
+  Input,
+  Label,
+  Link,
+  ListBox,
+  ListBoxItem,
+  Popover,
+  Radio,
+  RadioGroup,
+  SearchField,
+  Select,
+  SelectValue,
+  ToggleButton,
+  ToggleButtonGroup,
+} from "react-aria-components"
 import { catalogSchema } from "./catalog"
 import type { Entry } from "./catalog"
 import { parseQuery, searchEntries, setQualifier } from "./query"
@@ -56,16 +75,20 @@ function PackageRow({
     }
   }
   return (
-    <details
+    <Disclosure
       className="package"
       data-name={entry.name}
-      open={opened}
-      onToggle={(event) => {
-        if (event.target === event.currentTarget) onOpen(event.currentTarget.open)
-      }}
+      isExpanded={opened}
+      onExpandedChange={onOpen}
     >
-      <summary>
-        <a
+      <div
+        className="package-row"
+        onClick={(event) => {
+          if (!(event.target as Element).closest("a,button") && !getSelection()?.toString())
+            onOpen(!opened)
+        }}
+      >
+        <Link
           className="tile avatar-link"
           href={`https://github.com/${owner}`}
           target="_blank"
@@ -81,24 +104,24 @@ function PackageRow({
             loading="lazy"
             referrerPolicy="no-referrer"
           />
-        </a>
+        </Link>
         <span className="identity">
           <strong className="repo-name">
-            <button
+            <Button
               type="button"
               className="repo-owner"
               data-owner={owner}
-              title={`Add user:${owner} to the search query`}
-              onClick={(event) => {
-                event.preventDefault()
-                event.stopPropagation()
+              aria-label={`Add user:${owner} to the search query`}
+              onPress={() => {
                 if (!getSelection()?.toString()) onOwner(owner)
               }}
             >
               {owner}
-            </button>
+            </Button>
             <span className="repo-slash">/</span>
-            <span>{name}</span>
+            <Button slot="trigger" className="repo-trigger" aria-label={`${entry.name} details`}>
+              {name}
+            </Button>
           </strong>
           {entry.description && <span>{entry.description}</span>}
         </span>
@@ -113,8 +136,8 @@ function PackageRow({
         <span className="chevron" aria-hidden="true">
           ⌄
         </span>
-      </summary>
-      <section className="expanded" aria-label={`${entry.name} details`}>
+      </div>
+      <DisclosurePanel className="expanded" aria-label={`${entry.name} details`}>
         <div className="explanation">
           <div className="badges">
             {entry.language && <span>{entry.language}</span>}
@@ -126,49 +149,56 @@ function PackageRow({
             {entry.archived && <span>Archived</span>}
           </div>
           <div className="links">
-            <a href={entry.url} target="_blank" rel="noopener">
+            <Link href={entry.url} target="_blank" rel="noopener">
               GitHub
-            </a>
-            <a href={`${entry.url}#readme`} target="_blank" rel="noopener">
+            </Link>
+            <Link href={`${entry.url}#readme`} target="_blank" rel="noopener">
               README
-            </a>
+            </Link>
           </div>
         </div>
         <div className="installation">
           <div className="code-block">
             <div className="code-toolbar">
-              <div className="snippet-switch" role="group" aria-label="Installation format">
+              <ToggleButtonGroup
+                className="snippet-switch"
+                selectionMode="single"
+                disallowEmptySelection
+                selectedKeys={[format]}
+                onSelectionChange={(keys) => {
+                  const next = [...keys][0]
+                  if (next === "leaf" || next === "use-package") selectFormat(next)
+                }}
+                aria-label="Installation format"
+              >
                 {(["leaf", "use-package"] as const).map((option) => (
-                  <button
-                    key={option}
-                    type="button"
-                    aria-pressed={format === option}
-                    onClick={() => selectFormat(option)}
-                  >
+                  <ToggleButton key={option} id={option}>
                     {option}
-                  </button>
+                  </ToggleButton>
                 ))}
-              </div>
-              <button className="copy" type="button" onClick={() => void copy()}>
+              </ToggleButtonGroup>
+              <Button className="copy" type="button" onPress={() => void copy()}>
                 {copied ? "Copied" : "Copy"}
-              </button>
+              </Button>
             </div>
             <pre ref={pre} tabIndex={0}>
               <code>{code}</code>
             </pre>
           </div>
-          <details className="requirements">
-            <summary>Requirements</summary>
-            <p className="code-note">
-              {format === "leaf"
-                ? "Requires leaf with :vc support and Emacs 29+."
-                : "Requires use-package with :vc support (included in Emacs 30+)."}{" "}
-              See the upstream README for configuration.
-            </p>
-          </details>
+          <Disclosure className="requirements">
+            <Button slot="trigger">Requirements</Button>
+            <DisclosurePanel>
+              <p className="code-note">
+                {format === "leaf"
+                  ? "Requires leaf with :vc support and Emacs 29+."
+                  : "Requires use-package with :vc support (included in Emacs 30+)."}{" "}
+                See the upstream README for configuration.
+              </p>
+            </DisclosurePanel>
+          </Disclosure>
         </div>
-      </section>
-    </details>
+      </DisclosurePanel>
+    </Disclosure>
   )
 }
 function App() {
@@ -184,8 +214,7 @@ function App() {
     [limit, setLimit] = useState(30),
     [mobileFilters, setMobileFilters] = useState(false),
     [openIds, setOpenIds] = useState(new Set<number>())
-  const input = useRef<HTMLInputElement>(null),
-    active = useRef<HTMLInputElement>(null)
+  const input = useRef<HTMLInputElement>(null)
   useEffect(() => {
     const controller = new AbortController()
     setLoading(true)
@@ -250,10 +279,6 @@ function App() {
   const topics = values("topic"),
     licenses = values("license"),
     pushed = values("pushed")
-  useEffect(() => {
-    if (active.current)
-      active.current.indeterminate = pushed.length > 0 && !pushed.includes(`>=${yearAgo}`)
-  }, [pushed])
   function qualify(key: string, value: string, append = false) {
     try {
       setQuery(setQualifier(query, key, value, append))
@@ -281,20 +306,20 @@ function App() {
   return (
     <>
       <header>
-        <a className="brand" href="/" aria-label="Elispore home">
+        <Link className="brand" href="/" aria-label="Elispore home">
           <svg width="23" height="23" viewBox="0 0 24 24" aria-hidden="true">
             <path d="M12 1v22M1 12h22M4 4l16 16M4 20L20 4" stroke="#CC785C" strokeWidth="2.2" />
           </svg>
           elispore
-        </a>
-        <a
+        </Link>
+        <Link
           className="github"
           href="https://github.com/conao3/ts-elispore"
           target="_blank"
           rel="noopener"
         >
           Source
-        </a>
+        </Link>
       </header>
       <div className={`layout${mobileFilters ? " show-filters" : ""}`}>
         <aside aria-label="Package filters">
@@ -302,12 +327,12 @@ function App() {
             <fieldset className="group">
               <legend>Category</legend>
               {categories.map((category) => (
-                <button
+                <ToggleButton
                   key={category.label}
                   className="category"
                   data-category={category.label}
-                  aria-pressed={category.topic ? topics.includes(category.topic) : !topics.length}
-                  onClick={() => qualify("topic", category.topic)}
+                  isSelected={category.topic ? topics.includes(category.topic) : !topics.length}
+                  onPress={() => qualify("topic", category.topic)}
                 >
                   {category.label}
                   <span>
@@ -315,61 +340,51 @@ function App() {
                       ? entries.filter((entry) => entry.topics.includes(category.topic)).length
                       : entries.length}
                   </span>
-                </button>
+                </ToggleButton>
               ))}
             </fieldset>
-            <fieldset className="group">
-              <legend>License</legend>
-              <label className="check">
-                <input
-                  type="radio"
-                  name="license"
-                  value=""
-                  checked={!licenses.length}
-                  onChange={() => qualify("license", "")}
-                />
+            <RadioGroup
+              className="group"
+              value={licenses[0] ?? ""}
+              onChange={(value) => qualify("license", value)}
+            >
+              <Label>License</Label>
+              <Radio className="check" value="">
+                <span className="radio-mark" />
                 Any license
-              </label>
+              </Radio>
               {licenseOptions.map((license) => (
-                <label key={license} className="check">
-                  <input
-                    type="radio"
-                    name="license"
-                    value={license.toLowerCase()}
-                    checked={licenses.includes(license.toLowerCase())}
-                    onChange={() => qualify("license", license.toLowerCase())}
-                  />
+                <Radio key={license} className="check" value={license.toLowerCase()}>
+                  <span className="radio-mark" />
                   {license}
-                </label>
+                </Radio>
               ))}
-            </fieldset>
+            </RadioGroup>
             <fieldset className="group">
               <legend>Activity</legend>
-              <label className="check">
-                <input
-                  ref={active}
-                  id="active"
-                  type="checkbox"
-                  checked={pushed.includes(`>=${yearAgo}`)}
-                  onChange={(event) =>
-                    qualify("pushed", event.target.checked ? `>=${yearAgo}` : "")
-                  }
-                />
+              <Checkbox
+                className="check"
+                id="active"
+                isSelected={pushed.includes(`>=${yearAgo}`)}
+                isIndeterminate={pushed.length > 0 && !pushed.includes(`>=${yearAgo}`)}
+                onChange={(checked) => qualify("pushed", checked ? `>=${yearAgo}` : "")}
+              >
+                <span className="checkbox-mark" />
                 Updated in the last year
-              </label>
-              <label className="check">
-                <input
-                  id="archived"
-                  type="checkbox"
-                  checked={!values("archived").includes("false")}
-                  onChange={(event) => qualify("archived", event.target.checked ? "" : "false")}
-                />
+              </Checkbox>
+              <Checkbox
+                className="check"
+                id="archived"
+                isSelected={!values("archived").includes("false")}
+                onChange={(checked) => qualify("archived", checked ? "" : "false")}
+              >
+                <span className="checkbox-mark" />
                 Include archived
-              </label>
+              </Checkbox>
             </fieldset>
-            <button className="clear" id="clear" onClick={() => setQuery("")}>
+            <Button className="clear" id="clear" onPress={() => setQuery("")}>
               Clear all filters
-            </button>
+            </Button>
             <div className="sidebar-bottom">
               {date ? `Refreshed ${new Date(date).toLocaleDateString("en")}` : "Loading catalog…"}
             </div>
@@ -377,21 +392,24 @@ function App() {
         </aside>
         <main>
           <h1 className="sr-only">Emacs packages</h1>
-          <label className="searchbox">
-            <span className="sr-only">Search packages</span>
+          <SearchField
+            className="searchbox"
+            aria-label="Search packages"
+            value={query}
+            onChange={setQuery}
+            isInvalid={Boolean(state.error)}
+          >
             <Search size={18} />
-            <input
+            <Input
               ref={input}
               id="query"
               type="search"
               aria-invalid={Boolean(state.error)}
               aria-describedby="query-status"
               placeholder="Search packages or user:minad topic:completion"
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
             />
             <kbd>⌘ K</kbd>
-          </label>
+          </SearchField>
           <p
             id="query-status"
             className={`query-status${state.error ? " query-error" : ""}`}
@@ -407,22 +425,33 @@ function App() {
                   : `${state.results.length.toLocaleString("en")} ${state.results.length === 1 ? "repository" : "repositories"}`}
               </span>
             </h2>
-            <button
+            <Button
               className="mobile-filter"
               id="mobile-filter"
               aria-expanded={mobileFilters}
-              onClick={() => setMobileFilters(!mobileFilters)}
+              onPress={() => setMobileFilters(!mobileFilters)}
             >
               Filters
-            </button>
-            <label>
-              <span className="sr-only">Sort packages</span>
-              <select id="sort" value={sort} onChange={(event) => setSort(event.target.value)}>
-                <option value="stars">Most starred</option>
-                <option value="updated">Recently updated</option>
-                <option value="name">Name A–Z</option>
-              </select>
-            </label>
+            </Button>
+            <Select
+              aria-label="Sort packages"
+              value={sort}
+              onChange={(value) => {
+                if (value) setSort(String(value))
+              }}
+            >
+              <Button id="sort" className="sort-trigger">
+                <SelectValue />
+                <span aria-hidden="true">⌄</span>
+              </Button>
+              <Popover className="sort-popover">
+                <ListBox className="sort-options">
+                  <ListBoxItem id="stars">Most starred</ListBoxItem>
+                  <ListBoxItem id="updated">Recently updated</ListBoxItem>
+                  <ListBoxItem id="name">Name A–Z</ListBoxItem>
+                </ListBox>
+              </Popover>
+            </Select>
           </div>
           <div className="columns" aria-hidden="true">
             <span className="colname">PACKAGE</span>
@@ -437,9 +466,9 @@ function App() {
           ) : loadError ? (
             <div className="result-error" role="alert">
               <p>{loadError}</p>
-              <button className="clear" onClick={() => setReload(reload + 1)}>
+              <Button className="clear" onPress={() => setReload(reload + 1)}>
                 Try again
-              </button>
+              </Button>
             </div>
           ) : (
             <>
@@ -466,15 +495,15 @@ function App() {
                 <div className="empty">
                   No packages match these filters.
                   <br />
-                  <button className="clear" style={{ marginTop: 14 }} onClick={() => setQuery("")}>
+                  <Button className="clear" style={{ marginTop: 14 }} onPress={() => setQuery("")}>
                     Clear filters
-                  </button>
+                  </Button>
                 </div>
               )}
               {state.results.length > limit && (
-                <button className="more" onClick={() => setLimit(limit + 30)}>
+                <Button className="more" onPress={() => setLimit(limit + 30)}>
                   Show more packages ↓
-                </button>
+                </Button>
               )}
             </>
           )}

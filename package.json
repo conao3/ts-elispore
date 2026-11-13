@@ -9,9 +9,12 @@
     "catalog": "node --experimental-strip-types scripts/catalog.ts && vp fmt public/catalog.json"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.3.5",
     "lucide-react": "^0.468.0",
     "react": "^19.0.0",
+    "react-aria-components": "^1.22.1",
     "react-dom": "^19.0.0",
+    "tailwindcss": "^4.3.5",
     "zod": "^4.0.0"
   },
   "devDependencies": {

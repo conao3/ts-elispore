@@ -1,7 +1,8 @@
 import { defineConfig } from "vite-plus"
 import react from "@vitejs/plugin-react"
+import tailwindcss from "@tailwindcss/vite"
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), tailwindcss()],
   fmt: { semi: false, doubleQuote: true, sortPackageJson: false },
   lint: {
     ignorePatterns: ["dist/**", ".claude-dev/**"],
