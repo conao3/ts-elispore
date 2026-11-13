@@ -30,4 +30,4 @@ Cloudflare Worker `elispore`, custom domain `elispore.conao3.com`, personal acco
 
 Code: Apache-2.0. Repository metadata is attributed to its GitHub source. Refer to upstream repositories for package licenses.
 
-Installation examples use leaf with `:vc` and the upstream GitHub URL. They assume leaf is installed and Emacs supports package-vc.
+Installation examples default to leaf. Buttons at the top right of each code block switch between leaf and use-package; Copy copies the displayed snippet. Both use `:vc` with the upstream GitHub URL. Leaf requires `:vc` support and Emacs 29+; use-package `:vc` is included in Emacs 30+.

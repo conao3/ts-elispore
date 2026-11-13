@@ -184,6 +184,33 @@ try {
     await evaluate("document.querySelector('code').textContent"),
     '(leaf vertico\n  :vc (:url "https://github.com/minad/vertico"))',
   )
+  assert.equal(
+    await evaluate(`document.querySelector('.snippet-switch button').getAttribute('aria-pressed')`),
+    "true",
+  )
+  const snippetRow = await measure()
+  await evaluate(`document.querySelectorAll('.snippet-switch button')[1].click()`)
+  await settle()
+  const selectedCode = '(use-package vertico\n  :vc (:url "https://github.com/minad/vertico"))'
+  assert.equal(await evaluate("document.querySelector('code').textContent"), selectedCode)
+  assert.equal(
+    await evaluate(
+      `document.querySelectorAll('.snippet-switch button')[1].getAttribute('aria-pressed')`,
+    ),
+    "true",
+  )
+  assert.equal(await evaluate(`document.querySelector('details').open`), true)
+  assert.deepEqual(await measure(), snippetRow)
+  await evaluate(
+    `Object.defineProperty(navigator, 'clipboard', {configurable:true,value:{writeText:async text=>{window.copiedSnippet=text}}}); document.querySelector('.copy').click()`,
+  )
+  await settle()
+  assert.equal(await evaluate("window.copiedSnippet"), selectedCode)
+  assert.equal(await evaluate(`document.querySelector('.copy').textContent`), "Copied")
+  await evaluate(`document.querySelector('.snippet-switch button').click()`)
+  await settle()
+  assert.ok(await evaluate(`document.querySelector('code').textContent.startsWith('(leaf ')`))
+  assert.equal(await evaluate(`document.querySelector('.copy').textContent`), "Copy")
   const image = await send("Page.captureScreenshot", {
     format: "png",
     captureBeyondViewport: false,
@@ -210,6 +237,12 @@ try {
   )
   await evaluate(`document.querySelector('#mobile-filter').click()`)
   await settle()
+  await evaluate(
+    `document.querySelectorAll('.snippet-switch button')[1].click(); document.querySelector('.code-block').scrollIntoView({block:'center'})`,
+  )
+  await settle()
+  assert.equal(await evaluate("document.querySelector('code').textContent"), selectedCode)
+  assert.ok(await evaluate(`document.documentElement.scrollWidth<=390`))
   const mobile = await send("Page.captureScreenshot", {
     format: "png",
     captureBeyondViewport: false,

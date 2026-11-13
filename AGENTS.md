@@ -6,4 +6,4 @@ Validate external data with Zod. Use the real catalog for language, license, org
 
 Run `nix develop --command pnpm exec vp run check`, `nix develop --command pnpm run build`, and `nix build`. Linux browser checks use `nix develop .#browser --command node test/browser.mjs`. Refresh metadata with `nix develop --command pnpm run catalog`. Deployment uses `wrangler.jsonc`; the master workflow validates, deploys and updates the catalog daily.
 
-Show installation examples as leaf `:vc` declarations using the upstream URL.
+Default installation examples to leaf `:vc` declarations using the upstream URL. Keep leaf/use-package selector buttons at the top right of the code block, and copy the displayed format.

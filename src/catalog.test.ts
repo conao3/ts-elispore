@@ -1,4 +1,4 @@
-import { leafSnippet } from "./snippet"
+import { installationSnippet } from "./snippet"
 import { test, expect } from "vite-plus/test"
 import { catalogSchema } from "./catalog"
 import type { Entry } from "./catalog"
@@ -99,14 +99,22 @@ test("rejects links outside HTTPS GitHub", () => {
 })
 
 test("generates a leaf VC declaration", () => {
-  expect(leafSnippet(entry)).toBe('(leaf vertico\n  :vc (:url "https://github.com/minad/vertico"))')
+  expect(installationSnippet(entry)).toBe(
+    '(leaf vertico\n  :vc (:url "https://github.com/minad/vertico"))',
+  )
 })
 test("removes the repository .el suffix for the leaf name", () => {
   expect(
-    leafSnippet({
+    installationSnippet({
       ...entry,
       name: "conao3/leaner-ts-mode.el",
       url: "https://github.com/conao3/leaner-ts-mode.el",
     }),
   ).toBe('(leaf leaner-ts-mode\n  :vc (:url "https://github.com/conao3/leaner-ts-mode.el"))')
+})
+
+test("generates a use-package VC declaration when selected", () => {
+  expect(installationSnippet(entry, "use-package")).toBe(
+    '(use-package vertico\n  :vc (:url "https://github.com/minad/vertico"))',
+  )
 })

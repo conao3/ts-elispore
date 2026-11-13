@@ -1,7 +1,9 @@
 import type { Entry } from "./catalog"
 
-export function leafSnippet(entry: Entry): string {
+export type SnippetFormat = "leaf" | "use-package"
+
+export function installationSnippet(entry: Entry, format: SnippetFormat = "leaf"): string {
   const name = entry.name.split("/").at(-1)!.replace(/\.el$/, "")
   const symbol = /^\d/.test(name) ? `\\${name}` : name
-  return `(leaf ${symbol}\n  :vc (:url ${JSON.stringify(entry.url)}))`
+  return `(${format} ${symbol}\n  :vc (:url ${JSON.stringify(entry.url)}))`
 }

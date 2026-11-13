@@ -4,7 +4,8 @@ import { Search } from "lucide-react"
 import { catalogSchema } from "./catalog"
 import type { Entry } from "./catalog"
 import { parseQuery, searchEntries, setQualifier } from "./query"
-import { leafSnippet } from "./snippet"
+import { installationSnippet } from "./snippet"
+import type { SnippetFormat } from "./snippet"
 import "./style.css"
 
 const categories = [
@@ -29,13 +30,21 @@ function PackageRow({
   onOwner: (owner: string) => void
 }) {
   const [owner, name] = entry.name.split("/")
-  const code = leafSnippet(entry)
+  const [format, setFormat] = useState<SnippetFormat>("leaf")
+  const code = installationSnippet(entry, format)
+  const copyVersion = useRef(0)
+  function selectFormat(next: SnippetFormat) {
+    copyVersion.current++
+    setCopied(false)
+    setFormat(next)
+  }
   const pre = useRef<HTMLPreElement>(null)
   const [copied, setCopied] = useState(false)
   async function copy() {
+    const version = ++copyVersion.current
     try {
       await navigator.clipboard.writeText(code)
-      setCopied(true)
+      if (copyVersion.current === version) setCopied(true)
     } catch {
       const range = document.createRange()
       if (pre.current) {
@@ -134,16 +143,34 @@ function PackageRow({
         <div className="installation">
           <div className="code-heading">
             <span>Install from GitHub</span>
-            <button className="copy" type="button" onClick={() => void copy()}>
-              {copied ? "Copied" : "Copy"}
-            </button>
           </div>
-          <pre ref={pre} tabIndex={0}>
-            <code>{code}</code>
-          </pre>
+          <div className="code-block">
+            <div className="code-toolbar">
+              <div className="snippet-switch" role="group" aria-label="Installation format">
+                {(["leaf", "use-package"] as const).map((option) => (
+                  <button
+                    key={option}
+                    type="button"
+                    aria-pressed={format === option}
+                    onClick={() => selectFormat(option)}
+                  >
+                    {option}
+                  </button>
+                ))}
+              </div>
+              <button className="copy" type="button" onClick={() => void copy()}>
+                {copied ? "Copied" : "Copy"}
+              </button>
+            </div>
+            <pre ref={pre} tabIndex={0}>
+              <code>{code}</code>
+            </pre>
+          </div>
           <p className="code-note">
-            Requires leaf with :vc support and Emacs 29+ · See the upstream README for
-            configuration.
+            {format === "leaf"
+              ? "Requires leaf with :vc support and Emacs 29+."
+              : "Requires use-package with :vc support (included in Emacs 30+)."}{" "}
+            See the upstream README for configuration.
           </p>
         </div>
       </section>
