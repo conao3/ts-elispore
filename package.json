@@ -10,20 +10,20 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",
-    "lucide-react": "^0.468.0",
-    "react": "^19.0.0",
+    "lucide-react": "^1.73.0",
+    "react": "^19.3.1",
     "react-aria-components": "^1.22.1",
-    "react-dom": "^19.0.0",
+    "react-dom": "^19.3.1",
     "tailwindcss": "^4.3.5",
-    "zod": "^4.0.0"
+    "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@types/node": "^26.0.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "@vitejs/plugin-react": "^6.0.0",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
     "vite-plus": "latest",
-    "wrangler": "4.160.1"
+    "wrangler": "4.162.0"
   },
-  "packageManager": "pnpm@11.1.0"
+  "packageManager": "pnpm@12.9.0"
 }

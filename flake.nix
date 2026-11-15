@@ -25,7 +25,7 @@
           ];
           pnpmDeps = pkgs.fetchPnpmDeps {
             inherit (final) pname version src;
-            hash = "sha256-okqa2+DcfFbf6V300AtX+iTnAL/QZQEEQRal3TegHiY=";
+            hash = "sha256-xaeS0VwaE53bPzUu/iorLtToDNzBqa+lW3vQ+0rJRfk=";
             fetcherVersion = 4;
           };
           buildPhase = "pnpm run build";
