@@ -143,6 +143,12 @@ try {
   await waitFor(
     `document.querySelector('.package[data-name="agda/agda"]') && document.querySelector('#count').textContent==='1 package'`,
   )
+  await click('.package[data-name="agda/agda"] .repo-trigger')
+  const melpaOptions = ':vc (:url "https://github.com/agda/agda" :lisp-dir "src/data/emacs-mode")'
+  assert.equal(
+    await evaluate("document.querySelector('code').textContent"),
+    `(leaf annotation\n  ${melpaOptions})`,
+  )
   const melpa = await send("Page.captureScreenshot", {
     format: "png",
     captureBeyondViewport: false,
@@ -151,7 +157,26 @@ try {
     path.join(scratch, "melpa-catalog-preview.png"),
     Buffer.from(melpa.data, "base64"),
   )
-  console.log("Browser rendered MELPA recipe annotation as agda/agda.")
+  await evaluate(
+    `Object.defineProperty(navigator, 'clipboard', {configurable:true,value:{writeText:async text=>{window.copiedSnippet=text}}})`,
+  )
+  for (const format of ["leaf", "use-package"]) {
+    await click(`.snippet-switch button:${format === "leaf" ? "first" : "last"}-child`)
+    await click(".copy")
+    assert.deepEqual(
+      await evaluate("[document.querySelector('code').textContent, window.copiedSnippet]"),
+      [`(${format} annotation\n  ${melpaOptions})`, `(${format} annotation\n  ${melpaOptions})`],
+    )
+  }
+  await edit("repo:agda/agda eri")
+  assert.equal(
+    await evaluate("document.querySelector('code').textContent"),
+    `(use-package eri\n  ${melpaOptions})`,
+  )
+  assert.equal(await evaluate("document.querySelector('.copy').textContent"), "Copy")
+  console.log(
+    "Browser displayed and copied both MELPA snippet formats and switched from annotation to eri.",
+  )
   await send("Page.navigate", { url: origin + "/?q=repo:minad/vertico" })
   await waitFor(
     `document.querySelector('.package') && document.querySelector('#count').textContent==='1 package'`,

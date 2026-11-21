@@ -140,3 +140,48 @@ test("generates a use-package VC declaration when selected", () => {
     '(use-package vertico\n  :vc (:url "https://github.com/minad/vertico"))',
   )
 })
+
+test("uses the queried MELPA recipe's name, branch, and exact source directory in both formats", () => {
+  const imported = {
+    ...entry,
+    name: "owner/monorepo",
+    url: "https://github.com/owner/monorepo",
+    melpaRecipes: [
+      { name: "pkg", fetcher: "github", files: '("pkg.el")' },
+      {
+        name: "pkg-mode",
+        fetcher: "github",
+        branch: "stable",
+        files: '(:defaults ("target" "src/elisp/pkg-mode.el") (:exclude "test/pkg-mode.el"))',
+      },
+    ],
+  }
+  const options =
+    ':vc (:url "https://github.com/owner/monorepo" :branch "stable" :lisp-dir "src/elisp")'
+  expect(installationSnippet(imported, "leaf", parseQuery('repo:owner/monorepo "PKG-MODE"'))).toBe(
+    `(leaf pkg-mode\n  ${options})`,
+  )
+  expect(installationSnippet(imported, "use-package", parseQuery("mode"))).toBe(
+    `(use-package pkg-mode\n  ${options})`,
+  )
+  for (const filters of [parseQuery("repo:owner/monorepo"), parseQuery("pkg")]) {
+    expect(installationSnippet(imported, "leaf", filters)).toBe(
+      '(leaf pkg\n  :vc (:url "https://github.com/owner/monorepo"))',
+    )
+  }
+})
+
+test("uses a single Lisp glob directory and falls back for ambiguous file layouts", () => {
+  function snippet(files: string) {
+    return installationSnippet({
+      ...entry,
+      melpaRecipes: [{ name: "alias", fetcher: "github", files, branch: "stable" }],
+    })
+  }
+  expect(snippet('("./src/*.el" "snippets")')).toBe(
+    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable" :lisp-dir "src"))',
+  )
+  expect(snippet('("src/other.el" (:exclude "tests/alias.el"))')).toBe(installationSnippet(entry))
+  expect(snippet('("src/alias.el" "other/alias.el")')).toBe(installationSnippet(entry))
+  expect(snippet('("src/*.el" "other/*.el")')).toBe(installationSnippet(entry))
+})
