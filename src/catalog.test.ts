@@ -28,6 +28,16 @@ test("matches all words across repository metadata", () => {
   expect(searchEntries([entry], "VERTICAL completion", "stars")).toEqual([entry])
   expect(searchEntries([entry], "completion python", "stars")).toEqual([])
 })
+test("matches MELPA package names in free-text search without changing repo qualifiers", () => {
+  const imported = {
+    ...entry,
+    melpaRecipes: [{ name: "package-alias", fetcher: "github", repo: entry.name }],
+  }
+  expect(searchEntries([imported, second], "PACKAGE-ALIAS repo:minad/vertico", "stars")).toEqual([
+    imported,
+  ])
+  expect(searchEntries([imported], "repo:package-alias", "stars")).toEqual([])
+})
 test("applies and removes explicit archived filtering", () => {
   expect(searchEntries([{ ...entry, archived: true }], "archived:false", "stars")).toEqual([])
   expect(searchEntries([{ ...entry, archived: true }], "", "stars")).toHaveLength(1)

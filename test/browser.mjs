@@ -139,6 +139,19 @@ try {
     deviceScaleFactor: 1,
     mobile: false,
   })
+  await send("Page.navigate", { url: origin + "/?q=repo:agda/agda%20annotation" })
+  await waitFor(
+    `document.querySelector('.package[data-name="agda/agda"]') && document.querySelector('#count').textContent==='1 package'`,
+  )
+  const melpa = await send("Page.captureScreenshot", {
+    format: "png",
+    captureBeyondViewport: false,
+  })
+  await writeFile(
+    path.join(scratch, "melpa-catalog-preview.png"),
+    Buffer.from(melpa.data, "base64"),
+  )
+  console.log("Browser rendered MELPA recipe annotation as agda/agda.")
   await send("Page.navigate", { url: origin + "/?q=repo:minad/vertico" })
   await waitFor(
     `document.querySelector('.package') && document.querySelector('#count').textContent==='1 package'`,

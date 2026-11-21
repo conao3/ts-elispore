@@ -1,7 +1,7 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs"
 import { join } from "node:path"
 import { pathToFileURL } from "node:url"
-import * as z from "zod"
+import { melpaRecipeSchema } from "../src/catalog.ts"
 import { api, githubCatalogEntry } from "./catalog.ts"
 
 type Form =
@@ -43,16 +43,6 @@ function readList(source: string) {
   return form.value
 }
 
-const recipeSchema = z.object({
-  name: z.string().regex(/^[a-zA-Z0-9@][a-zA-Z0-9@+_.-]*$/),
-  fetcher: z.string().min(1),
-  repo: z.string().min(1).optional(),
-  url: z.string().min(1).optional(),
-  branch: z.string().min(1).optional(),
-  commit: z.string().min(1).optional(),
-  files: z.string().optional(),
-})
-
 export function parseRecipe(source: string) {
   const [name, ...plist] = readList(source)
   const fields = new Map<string, Form>()
@@ -71,7 +61,7 @@ export function parseRecipe(source: string) {
   }
   const files = fields.get(":files")
   if (files && files.kind !== "list") throw new Error("Expected a list for :files")
-  const recipe = recipeSchema.parse({
+  const recipe = melpaRecipeSchema.parse({
     name: name?.kind === "symbol" ? name.value : undefined,
     fetcher: field(":fetcher", "symbol"),
     repo: field(":repo", "string"),
