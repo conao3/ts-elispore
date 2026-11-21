@@ -61,8 +61,9 @@ export function deriveCategories(entries: Pick<Entry, "topics">[], selectedTopic
           ? "Themes"
           : topic === "major-mode"
             ? "Major modes"
-            : (acronyms[topic] ??
-              topic.charAt(0).toUpperCase() + topic.slice(1).replaceAll("-", " ")),
+            : Object.hasOwn(acronyms, topic)
+              ? acronyms[topic]
+              : topic.charAt(0).toUpperCase() + topic.slice(1).replaceAll("-", " "),
       topic,
       count: counts.get(topic) ?? 0,
     })),

@@ -1,5 +1,16 @@
 import { expect, test } from "vite-plus/test"
 import { deriveCategories } from "./categories"
+test("ignores inherited names in category label lookup", () => {
+  expect(deriveCategories([], ["__proto__", "constructor"]).slice(1)).toEqual([
+    { label: "__proto__", topic: "__proto__", count: 0 },
+    { label: "Constructor", topic: "constructor", count: 0 },
+  ])
+  expect(deriveCategories([{ topics: ["__proto__", "constructor"] }]).slice(1)).toEqual([
+    { label: "__proto__", topic: "__proto__", count: 1 },
+    { label: "Constructor", topic: "constructor", count: 1 },
+  ])
+})
+
 test("preserves acronym casing in category labels", () => {
   expect(
     deriveCategories([
