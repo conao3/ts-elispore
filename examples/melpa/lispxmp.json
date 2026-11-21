@@ -1,0 +1,18 @@
+{
+  "id": 104815814,
+  "name": "rubikitch/lispxmp",
+  "description": "",
+  "url": "https://github.com/rubikitch/lispxmp",
+  "stars": 5,
+  "updated": "2026-01-03T23:07:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lispxmp",
+    "fetcher": "github",
+    "repo": "rubikitch/lispxmp"
+  }
+}

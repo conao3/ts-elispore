@@ -1,0 +1,19 @@
+{
+  "id": 1220753966,
+  "name": "kn66/nucleo-completion.el",
+  "description": "",
+  "url": "https://github.com/kn66/nucleo-completion.el",
+  "stars": 10,
+  "updated": "2026-11-18T23:33:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nucleo-completion",
+    "fetcher": "github",
+    "repo": "kn66/nucleo-completion.el",
+    "files": "(\"nucleo-completion.el\" \"src\" \"Cargo.toml\" \"Cargo.lock\")"
+  }
+}

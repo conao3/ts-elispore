@@ -1,0 +1,18 @@
+{
+  "id": 102546123,
+  "name": "nickanderson/ob-cfengine3",
+  "description": "Org Babel functions for CFEngine 3",
+  "url": "https://github.com/nickanderson/ob-cfengine3",
+  "stars": 3,
+  "updated": "2026-07-31T04:18:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-cfengine3",
+    "fetcher": "github",
+    "repo": "nickanderson/ob-cfengine3"
+  }
+}

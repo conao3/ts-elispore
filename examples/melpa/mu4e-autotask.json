@@ -1,0 +1,18 @@
+{
+  "id": 1262885144,
+  "name": "laurynas-biveinis/mu4e-autotask",
+  "description": "Email automation for mu4e",
+  "url": "https://github.com/laurynas-biveinis/mu4e-autotask",
+  "stars": 8,
+  "updated": "2026-11-09T16:22:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mu4e-autotask",
+    "fetcher": "github",
+    "repo": "laurynas-biveinis/mu4e-autotask"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 38710547,
+  "name": "rmuslimov/jenkins.el",
+  "description": "Jenkins plugin for emacs",
+  "url": "https://github.com/rmuslimov/jenkins.el",
+  "stars": 84,
+  "updated": "2025-10-22T20:50:44Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jenkins",
+    "fetcher": "github",
+    "repo": "rmuslimov/jenkins.el"
+  }
+}

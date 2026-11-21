@@ -1,0 +1,18 @@
+{
+  "id": 283549043,
+  "name": "tecosaur/lexic",
+  "description": "Mirror of  https://git.tecosaur.net/tec/lexic",
+  "url": "https://github.com/tecosaur/lexic",
+  "stars": 82,
+  "updated": "2023-10-16T16:18:26Z",
+  "archived": false,
+  "topics": ["dictionary", "emacs", "emacs-packages", "mirror", "stardict"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lexic",
+    "fetcher": "github",
+    "repo": "tecosaur/lexic"
+  }
+}

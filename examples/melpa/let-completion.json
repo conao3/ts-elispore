@@ -1,0 +1,18 @@
+{
+  "id": 1171745417,
+  "name": "gggion/let-completion.el",
+  "description": "Let-binding values in Elisp completion",
+  "url": "https://github.com/gggion/let-completion.el",
+  "stars": 27,
+  "updated": "2026-04-07T14:28:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "let-completion",
+    "fetcher": "github",
+    "repo": "gggion/let-completion.el"
+  }
+}

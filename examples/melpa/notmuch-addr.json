@@ -1,0 +1,18 @@
+{
+  "id": 838428012,
+  "name": "tarsius/notmuch-addr",
+  "description": "An alternative to notmuch-address.el",
+  "url": "https://github.com/tarsius/notmuch-addr",
+  "stars": 8,
+  "updated": "2026-10-01T16:03:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "notmuch-addr",
+    "fetcher": "github",
+    "repo": "tarsius/notmuch-addr"
+  }
+}

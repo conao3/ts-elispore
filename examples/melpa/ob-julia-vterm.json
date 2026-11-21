@@ -1,0 +1,18 @@
+{
+  "id": 309198338,
+  "name": "shg/ob-julia-vterm.el",
+  "description": "Org-babel support for Julia code blocks using julia-vterm",
+  "url": "https://github.com/shg/ob-julia-vterm.el",
+  "stars": 40,
+  "updated": "2026-10-31T05:59:50Z",
+  "archived": false,
+  "topics": ["emacs", "julia", "org-babel", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-julia-vterm",
+    "fetcher": "github",
+    "repo": "shg/ob-julia-vterm.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 833879260,
+  "name": "countvajhula/lithium",
+  "description": "Lightweight persistent modal interfaces for Emacs",
+  "url": "https://github.com/countvajhula/lithium",
+  "stars": 14,
+  "updated": "2025-11-05T00:45:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lithium",
+    "fetcher": "github",
+    "repo": "countvajhula/lithium"
+  }
+}

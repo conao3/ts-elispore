@@ -1,0 +1,19 @@
+{
+  "id": 8048400,
+  "name": "ocaml/merlin",
+  "description": "Context sensitive completion for OCaml in Vim and Emacs",
+  "url": "https://github.com/ocaml/merlin",
+  "stars": 1712,
+  "updated": "2026-11-16T07:43:17Z",
+  "archived": false,
+  "topics": ["atom", "emacs", "ocaml", "vim"],
+  "license": "MIT",
+  "language": "OCaml",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "merlin",
+    "fetcher": "github",
+    "repo": "ocaml/merlin",
+    "files": "(\"emacs/*.el\"\n                (:exclude \"emacs/merlin-ac.el\"\n                          \"emacs/merlin-company.el\"\n                          \"emacs/merlin-iedit.el\"))"
+  }
+}

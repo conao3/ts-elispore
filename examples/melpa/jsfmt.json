@@ -1,0 +1,18 @@
+{
+  "id": 20042114,
+  "name": "brettlangdon/jsfmt.el",
+  "description": "emacs plugin to run jsfmt",
+  "url": "https://github.com/brettlangdon/jsfmt.el",
+  "stars": 13,
+  "updated": "2018-09-20T10:08:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jsfmt",
+    "fetcher": "github",
+    "repo": "brettlangdon/jsfmt.el"
+  }
+}

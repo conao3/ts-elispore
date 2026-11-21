@@ -1,0 +1,19 @@
+{
+  "id": 141897071,
+  "name": "andcarnivorous/linguistic",
+  "description": "A package for basic linguistic analysis.",
+  "url": "https://github.com/andcarnivorous/linguistic",
+  "stars": 16,
+  "updated": "2018-11-29T21:16:42Z",
+  "archived": false,
+  "topics": ["corpus-linguistics", "emacs", "linguistics"],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "linguistic",
+    "fetcher": "github",
+    "repo": "andcarnivorous/linguistic",
+    "files": "(:defaults \"graphs.org\")"
+  }
+}

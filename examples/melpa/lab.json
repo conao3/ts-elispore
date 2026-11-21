@@ -1,0 +1,18 @@
+{
+  "id": 529611044,
+  "name": "isamert/lab.el",
+  "description": "Emacs-GitLab integration",
+  "url": "https://github.com/isamert/lab.el",
+  "stars": 72,
+  "updated": "2026-10-10T12:47:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lab",
+    "fetcher": "github",
+    "repo": "isamert/lab.el"
+  }
+}

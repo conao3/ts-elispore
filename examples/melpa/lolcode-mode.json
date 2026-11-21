@@ -1,0 +1,18 @@
+{
+  "id": 1884471,
+  "name": "bodil/lolcode-mode",
+  "description": "LOLCODE mode for Emacs.",
+  "url": "https://github.com/bodil/lolcode-mode",
+  "stars": 3,
+  "updated": "2014-02-07T21:00:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lolcode-mode",
+    "fetcher": "github",
+    "repo": "bodil/lolcode-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 38134823,
+  "name": "MartinRykfors/key-leap",
+  "description": "A superb way of leaping between visible lines in Emacs!",
+  "url": "https://github.com/MartinRykfors/key-leap",
+  "stars": 9,
+  "updated": "2022-10-06T09:11:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "key-leap",
+    "fetcher": "github",
+    "repo": "MartinRykfors/key-leap"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1113050,
+  "name": "nschum/macro-math.el",
+  "description": "Emacs: in-buffer mathematical operations",
+  "url": "https://github.com/nschum/macro-math.el",
+  "stars": 8,
+  "updated": "2013-03-28T16:04:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "macro-math",
+    "fetcher": "github",
+    "repo": "nschum/macro-math.el"
+  }
+}

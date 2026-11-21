@@ -1,0 +1,18 @@
+{
+  "id": 186759733,
+  "name": "xuchunyang/lolcat.el",
+  "description": "Rainbows and unicorns in Emacs Lisp!",
+  "url": "https://github.com/xuchunyang/lolcat.el",
+  "stars": 11,
+  "updated": "2019-05-27T11:46:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lolcat",
+    "fetcher": "github",
+    "repo": "xuchunyang/lolcat.el"
+  }
+}

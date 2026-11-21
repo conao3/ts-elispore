@@ -1,0 +1,18 @@
+{
+  "id": 903442319,
+  "name": "alexispurslane/motion-selection-mode",
+  "description": "A mode to add a text editing grammar to emacs, built on top of god-mode",
+  "url": "https://github.com/alexispurslane/motion-selection-mode",
+  "stars": 9,
+  "updated": "2025-02-04T00:30:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "motion-selection-mode",
+    "fetcher": "github",
+    "repo": "alexispurslane/motion-selection-mode"
+  }
+}

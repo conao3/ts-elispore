@@ -1,0 +1,18 @@
+{
+  "id": 1278500461,
+  "name": "LionyxML/kusanagi-theme",
+  "description": "A dark cyberpunk theme for Emacs, inspired by /Ghost in the Shell/: neon cyan and hot pink accents diving through a deep-space blue background, with comments receding into the noise like static on the net.",
+  "url": "https://github.com/LionyxML/kusanagi-theme",
+  "stars": 57,
+  "updated": "2026-09-10T14:56:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kusanagi-theme",
+    "fetcher": "github",
+    "repo": "LionyxML/kusanagi-theme"
+  }
+}

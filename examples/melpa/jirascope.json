@@ -1,0 +1,19 @@
+{
+  "id": 619984657,
+  "name": "Duckonaut/jirascope",
+  "description": "A (WIP) Jira integration package for Emacs",
+  "url": "https://github.com/Duckonaut/jirascope",
+  "stars": 12,
+  "updated": "2024-01-23T15:44:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Rust",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jirascope",
+    "fetcher": "github",
+    "repo": "Duckonaut/jirascope",
+    "files": "(\"jirascope/jirascope*.el\")"
+  }
+}

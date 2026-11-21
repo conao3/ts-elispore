@@ -1,0 +1,18 @@
+{
+  "id": 265771856,
+  "name": "fredcamps/lsp-jedi",
+  "description": "A LSP client for Emacs using Python Jedi Language Server",
+  "url": "https://github.com/fredcamps/lsp-jedi",
+  "stars": 48,
+  "updated": "2026-11-02T23:18:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lsp-jedi",
+    "fetcher": "github",
+    "repo": "fredcamps/lsp-jedi"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 52137624,
+  "name": "yzprofile/micgoline",
+  "description": "Emacs powerline mode, color schemes from microsoft and google's logo.",
+  "url": "https://github.com/yzprofile/micgoline",
+  "stars": 8,
+  "updated": "2016-04-18T09:09:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "micgoline",
+    "fetcher": "github",
+    "repo": "yzprofile/micgoline"
+  }
+}

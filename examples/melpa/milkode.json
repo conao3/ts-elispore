@@ -1,0 +1,18 @@
+{
+  "id": 5637898,
+  "name": "ongaeshi/emacs-milkode",
+  "description": "Support Milkode search for Emacs.",
+  "url": "https://github.com/ongaeshi/emacs-milkode",
+  "stars": 4,
+  "updated": "2014-09-27T05:29:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "milkode",
+    "fetcher": "github",
+    "repo": "ongaeshi/emacs-milkode"
+  }
+}

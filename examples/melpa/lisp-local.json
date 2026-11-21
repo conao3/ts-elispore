@@ -1,0 +1,18 @@
+{
+  "id": 253496595,
+  "name": "lispunion/emacs-lisp-local",
+  "description": "Allow different Lisp indentation in each buffer",
+  "url": "https://github.com/lispunion/emacs-lisp-local",
+  "stars": 5,
+  "updated": "2021-06-05T13:50:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lisp-local",
+    "fetcher": "github",
+    "repo": "lispunion/emacs-lisp-local"
+  }
+}

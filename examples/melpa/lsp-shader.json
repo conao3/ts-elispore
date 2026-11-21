@@ -1,0 +1,18 @@
+{
+  "id": 634691014,
+  "name": "shader-ls/lsp-shader",
+  "description": "lsp-mode ❤️ ShaderLab",
+  "url": "https://github.com/shader-ls/lsp-shader",
+  "stars": 10,
+  "updated": "2026-06-19T08:35:32Z",
+  "archived": false,
+  "topics": ["cginc", "emacs", "emacs-lisp", "glsl", "hlsl", "shader", "shaderlab"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-shader",
+    "fetcher": "github",
+    "repo": "shader-ls/lsp-shader"
+  }
+}

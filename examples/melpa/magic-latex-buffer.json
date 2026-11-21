@@ -1,0 +1,18 @@
+{
+  "id": 21350175,
+  "name": "zk-phi/magic-latex-buffer",
+  "description": "Magical syntax highlighting for LaTeX-mode buffers",
+  "url": "https://github.com/zk-phi/magic-latex-buffer",
+  "stars": 158,
+  "updated": "2026-10-28T19:39:45Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magic-latex-buffer",
+    "fetcher": "github",
+    "repo": "zk-phi/magic-latex-buffer"
+  }
+}

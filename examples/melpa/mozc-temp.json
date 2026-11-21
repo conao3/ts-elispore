@@ -1,0 +1,18 @@
+{
+  "id": 33671802,
+  "name": "HKey/mozc-temp",
+  "description": "Use mozc temporarily",
+  "url": "https://github.com/HKey/mozc-temp",
+  "stars": 11,
+  "updated": "2020-07-03T14:15:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mozc-temp",
+    "fetcher": "github",
+    "repo": "HKey/mozc-temp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 27001937,
+  "name": "emacsfodder/emacs-mbo70s-theme",
+  "description": "70s palette theme for Emacs based on Mbo",
+  "url": "https://github.com/emacsfodder/emacs-mbo70s-theme",
+  "stars": 4,
+  "updated": "2017-08-08T13:15:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "mbo70s-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-mbo70s-theme"
+  }
+}

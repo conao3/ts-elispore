@@ -1,0 +1,18 @@
+{
+  "id": 169810397,
+  "name": "jtamagnan/magit-reviewboard",
+  "description": "Magit Reviewboard",
+  "url": "https://github.com/jtamagnan/magit-reviewboard",
+  "stars": 16,
+  "updated": "2020-07-27T17:48:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-reviewboard",
+    "fetcher": "github",
+    "repo": "jtamagnan/magit-reviewboard"
+  }
+}

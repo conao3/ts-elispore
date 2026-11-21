@@ -1,0 +1,18 @@
+{
+  "id": 795708400,
+  "name": "emacsattic/number",
+  "description": "",
+  "url": "https://github.com/emacsattic/number",
+  "stars": 1,
+  "updated": "2024-05-03T21:28:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "number",
+    "fetcher": "github",
+    "repo": "emacsattic/number"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": 338114154,
+  "name": "douglasdavis/numpydoc.el",
+  "description": "Insert NumPy style docstrings in Python functions.",
+  "url": "https://github.com/douglasdavis/numpydoc.el",
+  "stars": 52,
+  "updated": "2023-08-11T17:08:25Z",
+  "archived": false,
+  "topics": [
+    "docstrings",
+    "documentation-generator",
+    "documentation-tool",
+    "emacs",
+    "emacs-lisp",
+    "numpydoc",
+    "python"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "numpydoc",
+    "fetcher": "github",
+    "repo": "douglasdavis/numpydoc.el"
+  }
+}

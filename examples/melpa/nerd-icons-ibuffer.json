@@ -1,0 +1,18 @@
+{
+  "id": 625294504,
+  "name": "seagle0128/nerd-icons-ibuffer",
+  "description": "Display nerd icons in ibuffer.",
+  "url": "https://github.com/seagle0128/nerd-icons-ibuffer",
+  "stars": 43,
+  "updated": "2026-10-11T14:14:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nerd-icons-ibuffer",
+    "fetcher": "github",
+    "repo": "seagle0128/nerd-icons-ibuffer"
+  }
+}

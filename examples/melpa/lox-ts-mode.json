@@ -1,0 +1,18 @@
+{
+  "id": 832481343,
+  "name": "nverno/lox-ts-mode",
+  "description": "",
+  "url": "https://github.com/nverno/lox-ts-mode",
+  "stars": 0,
+  "updated": "2024-08-20T03:45:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lox-ts-mode",
+    "fetcher": "github",
+    "repo": "nverno/lox-ts-mode"
+  }
+}

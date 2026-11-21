@@ -1,0 +1,18 @@
+{
+  "id": 137162713,
+  "name": "alphapapa/magit-todos",
+  "description": "Show source files' TODOs (and FIXMEs, etc) in Magit status buffer",
+  "url": "https://github.com/alphapapa/magit-todos",
+  "stars": 791,
+  "updated": "2025-09-28T16:12:06Z",
+  "archived": false,
+  "topics": ["emacs", "git", "magit"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-todos",
+    "fetcher": "github",
+    "repo": "alphapapa/magit-todos"
+  }
+}

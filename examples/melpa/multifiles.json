@@ -1,0 +1,18 @@
+{
+  "id": 5965398,
+  "name": "magnars/multifiles.el",
+  "description": "Work in progress: View and edit parts of multiple files in one buffer",
+  "url": "https://github.com/magnars/multifiles.el",
+  "stars": 82,
+  "updated": "2013-06-15T21:33:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "multifiles",
+    "fetcher": "github",
+    "repo": "magnars/multifiles.el"
+  }
+}

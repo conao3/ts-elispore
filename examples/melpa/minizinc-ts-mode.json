@@ -1,0 +1,18 @@
+{
+  "id": 894601393,
+  "name": "AjaiKN/minizinc-ts-mode",
+  "description": "Emacs major mode for the MiniZinc constraint modeling language",
+  "url": "https://github.com/AjaiKN/minizinc-ts-mode",
+  "stars": 3,
+  "updated": "2025-08-31T07:54:24Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "minizinc-ts-mode",
+    "fetcher": "github",
+    "repo": "AjaiKN/minizinc-ts-mode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 743283,
+  "name": "org2blog/org2blog",
+  "description": "Blog from Org mode to WordPress.",
+  "url": "https://github.com/org2blog/org2blog",
+  "stars": 576,
+  "updated": "2026-09-25T19:54:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "metaweblog",
+    "fetcher": "github",
+    "repo": "org2blog/org2blog",
+    "files": "(\"metaweblog.el\")"
+  }
+}

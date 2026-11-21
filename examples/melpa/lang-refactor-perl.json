@@ -1,0 +1,18 @@
+{
+  "id": 8239415,
+  "name": "jplindstrom/emacs-lang-refactor-perl",
+  "description": "Emacs - simple refactorings for Perl",
+  "url": "https://github.com/jplindstrom/emacs-lang-refactor-perl",
+  "stars": 4,
+  "updated": "2013-11-22T21:27:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lang-refactor-perl",
+    "fetcher": "github",
+    "repo": "jplindstrom/emacs-lang-refactor-perl"
+  }
+}

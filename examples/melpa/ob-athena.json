@@ -1,0 +1,18 @@
+{
+  "id": 961209760,
+  "name": "will-abb/aws-athena-babel",
+  "description": "Execute AWS Athena SQL queries in Org Babel blocks",
+  "url": "https://github.com/will-abb/aws-athena-babel",
+  "stars": 5,
+  "updated": "2026-04-04T18:17:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-athena",
+    "fetcher": "github",
+    "repo": "will-abb/aws-athena-babel"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 64800909,
+  "name": "ledger/ledger-mode",
+  "description": "Emacs Lisp files for interacting with the C++Ledger accounting system",
+  "url": "https://github.com/ledger/ledger-mode",
+  "stars": 462,
+  "updated": "2026-09-28T02:05:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ledger-mode",
+    "fetcher": "github",
+    "repo": "ledger/ledger-mode",
+    "files": "(\"ledger-*.el\" \"doc/*.texi\")"
+  }
+}

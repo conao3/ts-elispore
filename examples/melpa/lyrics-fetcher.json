@@ -1,0 +1,18 @@
+{
+  "id": 393094489,
+  "name": "SqrtMinusOne/lyrics-fetcher.el",
+  "description": "Fetch song lyrics and album covers. Integrates with EMMS",
+  "url": "https://github.com/SqrtMinusOne/lyrics-fetcher.el",
+  "stars": 21,
+  "updated": "2026-11-09T18:23:01Z",
+  "archived": false,
+  "topics": ["emms", "lyrics", "music"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lyrics-fetcher",
+    "fetcher": "github",
+    "repo": "SqrtMinusOne/lyrics-fetcher.el"
+  }
+}

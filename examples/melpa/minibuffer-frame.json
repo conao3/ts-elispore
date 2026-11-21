@@ -1,0 +1,18 @@
+{
+  "id": 1305363197,
+  "name": "zHaOdANiuu/minibuffer-frame",
+  "description": "Display fido completions in a floating child frame centered on the parent frame",
+  "url": "https://github.com/zHaOdANiuu/minibuffer-frame",
+  "stars": 6,
+  "updated": "2026-10-01T15:26:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "minibuffer-frame",
+    "fetcher": "github",
+    "repo": "zHaOdANiuu/minibuffer-frame"
+  }
+}

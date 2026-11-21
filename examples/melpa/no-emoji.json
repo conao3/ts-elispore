@@ -1,0 +1,18 @@
+{
+  "id": 112474350,
+  "name": "ecraven/no-emoji",
+  "description": "Show :emoji-name: instead of emoji characters in Emacs",
+  "url": "https://github.com/ecraven/no-emoji",
+  "stars": 11,
+  "updated": "2018-05-15T18:37:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "no-emoji",
+    "fetcher": "github",
+    "repo": "ecraven/no-emoji"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 37751182,
+  "name": "dgtized/list-environment.el",
+  "description": "A tabulated process environment editor",
+  "url": "https://github.com/dgtized/list-environment.el",
+  "stars": 15,
+  "updated": "2021-09-30T14:39:51Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode", "emacs-package"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "list-environment",
+    "fetcher": "github",
+    "repo": "dgtized/list-environment.el"
+  }
+}

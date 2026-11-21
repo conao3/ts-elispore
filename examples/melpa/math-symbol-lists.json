@@ -1,0 +1,18 @@
+{
+  "id": 26700713,
+  "name": "vspinu/math-symbol-lists",
+  "description": "Lists of Unicode mathematical symbols and latex commands",
+  "url": "https://github.com/vspinu/math-symbol-lists",
+  "stars": 36,
+  "updated": "2022-08-28T20:48:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "math-symbol-lists",
+    "fetcher": "github",
+    "repo": "vspinu/math-symbol-lists"
+  }
+}

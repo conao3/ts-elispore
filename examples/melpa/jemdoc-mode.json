@@ -1,0 +1,18 @@
+{
+  "id": 88203088,
+  "name": "drdv/jemdoc-mode",
+  "description": "Major mode for editting jemdoc files",
+  "url": "https://github.com/drdv/jemdoc-mode",
+  "stars": 0,
+  "updated": "2017-07-04T20:27:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jemdoc-mode",
+    "fetcher": "github",
+    "repo": "drdv/jemdoc-mode"
+  }
+}

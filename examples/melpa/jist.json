@@ -1,0 +1,18 @@
+{
+  "id": 25999184,
+  "name": "emacs-pe/jist.el",
+  "description": "Yet another gist client for Emacs",
+  "url": "https://github.com/emacs-pe/jist.el",
+  "stars": 10,
+  "updated": "2022-10-28T12:36:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "jist",
+    "fetcher": "github",
+    "repo": "emacs-pe/jist.el"
+  }
+}

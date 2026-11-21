@@ -1,0 +1,18 @@
+{
+  "id": 38424861,
+  "name": "tmtxt/n4js.el",
+  "description": "neo4j shell for emacs",
+  "url": "https://github.com/tmtxt/n4js.el",
+  "stars": 17,
+  "updated": "2021-03-12T21:42:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "n4js",
+    "fetcher": "github",
+    "repo": "tmtxt/n4js.el"
+  }
+}

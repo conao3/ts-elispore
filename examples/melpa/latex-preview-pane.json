@@ -1,0 +1,19 @@
+{
+  "id": 13725149,
+  "name": "jsinglet/latex-preview-pane",
+  "description": "Makes LaTeX editing less painful by providing a updatable preview pane",
+  "url": "https://github.com/jsinglet/latex-preview-pane",
+  "stars": 136,
+  "updated": "2024-01-15T01:36:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "latex-preview-pane",
+    "fetcher": "github",
+    "repo": "jsinglet/latex-preview-pane",
+    "files": "(\"*.el\" \"*.txt\")"
+  }
+}

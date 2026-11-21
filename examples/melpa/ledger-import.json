@@ -1,0 +1,18 @@
+{
+  "id": 158197679,
+  "name": "DamienCassou/ledger-import",
+  "description": "Fetch OFX files and convert them into Ledger format",
+  "url": "https://github.com/DamienCassou/ledger-import",
+  "stars": 6,
+  "updated": "2023-09-04T18:37:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ledger-import",
+    "fetcher": "github",
+    "repo": "DamienCassou/ledger-import"
+  }
+}

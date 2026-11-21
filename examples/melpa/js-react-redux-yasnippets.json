@@ -1,0 +1,19 @@
+{
+  "id": 203426209,
+  "name": "sooqua/js-react-redux-yasnippets",
+  "description": "",
+  "url": "https://github.com/sooqua/js-react-redux-yasnippets",
+  "stars": 18,
+  "updated": "2023-12-15T18:51:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "YASnippet",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js-react-redux-yasnippets",
+    "fetcher": "github",
+    "repo": "sooqua/js-react-redux-yasnippets",
+    "files": "(\"*.el\" \"snippets\")"
+  }
+}

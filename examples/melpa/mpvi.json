@@ -1,0 +1,18 @@
+{
+  "id": 618386895,
+  "name": "lorniu/mpvi",
+  "description": "Watch video and take interactive video notes in Emacs.",
+  "url": "https://github.com/lorniu/mpvi",
+  "stars": 86,
+  "updated": "2025-10-06T08:59:26Z",
+  "archived": false,
+  "topics": ["emacs", "emms", "mpv", "video"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mpvi",
+    "fetcher": "github",
+    "repo": "lorniu/mpvi"
+  }
+}

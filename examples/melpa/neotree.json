@@ -1,0 +1,19 @@
+{
+  "id": 18033470,
+  "name": "jaypei/emacs-neotree",
+  "description": "A emacs tree plugin like NerdTree for Vim.",
+  "url": "https://github.com/jaypei/emacs-neotree",
+  "stars": 1621,
+  "updated": "2025-07-03T22:02:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "neotree",
+    "fetcher": "github",
+    "repo": "jaypei/emacs-neotree",
+    "files": "(:defaults \"icons\")"
+  }
+}

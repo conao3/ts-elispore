@@ -1,0 +1,18 @@
+{
+  "id": 64015741,
+  "name": "hardenedapple/keyswap.el",
+  "description": "Emacs minor mode to swap keys easily.",
+  "url": "https://github.com/hardenedapple/keyswap.el",
+  "stars": 7,
+  "updated": "2024-07-17T14:54:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "keyswap",
+    "fetcher": "github",
+    "repo": "hardenedapple/keyswap.el"
+  }
+}

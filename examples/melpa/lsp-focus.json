@@ -1,0 +1,18 @@
+{
+  "id": 179062125,
+  "name": "emacs-lsp/lsp-focus",
+  "description": "lsp-mode ❤️ focus.el",
+  "url": "https://github.com/emacs-lsp/lsp-focus",
+  "stars": 12,
+  "updated": "2026-06-19T08:29:01Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "focus", "lsp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-focus",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-focus"
+  }
+}

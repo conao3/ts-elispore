@@ -1,0 +1,18 @@
+{
+  "id": 17539678,
+  "name": "emacsorphanage/manage-minor-mode",
+  "description": "Manage your minor-mode on the dedicated interface buffer. Emacs.",
+  "url": "https://github.com/emacsorphanage/manage-minor-mode",
+  "stars": 51,
+  "updated": "2026-06-18T19:48:16Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "manage-minor-mode",
+    "fetcher": "github",
+    "repo": "emacsorphanage/manage-minor-mode"
+  }
+}

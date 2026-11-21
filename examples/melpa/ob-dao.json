@@ -1,0 +1,18 @@
+{
+  "id": 100448030,
+  "name": "xuchunyang/ob-dao",
+  "description": "Org-Babel support for Dao Programming Language",
+  "url": "https://github.com/xuchunyang/ob-dao",
+  "stars": 0,
+  "updated": "2017-09-03T03:49:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-dao",
+    "fetcher": "github",
+    "repo": "xuchunyang/ob-dao"
+  }
+}

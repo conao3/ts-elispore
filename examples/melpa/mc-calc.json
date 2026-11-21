@@ -1,0 +1,18 @@
+{
+  "id": 255038616,
+  "name": "hatheroldev/mc-calc",
+  "description": "Combine multiple-cursors and calc",
+  "url": "https://github.com/hatheroldev/mc-calc",
+  "stars": 5,
+  "updated": "2020-04-20T18:37:29Z",
+  "archived": false,
+  "topics": ["calc", "emacs", "multiple-cursors"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mc-calc",
+    "fetcher": "github",
+    "repo": "hatheroldev/mc-calc"
+  }
+}

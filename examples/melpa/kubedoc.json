@@ -1,0 +1,18 @@
+{
+  "id": 408824603,
+  "name": "r0bobo/kubedoc.el",
+  "description": "kubedoc.el - Kubernetes API Documentation",
+  "url": "https://github.com/r0bobo/kubedoc.el",
+  "stars": 20,
+  "updated": "2026-11-20T11:30:25Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "kubernetes"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kubedoc",
+    "fetcher": "github",
+    "repo": "r0bobo/kubedoc.el"
+  }
+}

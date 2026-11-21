@@ -1,0 +1,18 @@
+{
+  "id": 23530628,
+  "name": "jart/js2-closure",
+  "description": "Automatic goog.require for Closure",
+  "url": "https://github.com/jart/js2-closure",
+  "stars": 5,
+  "updated": "2022-10-22T16:51:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js2-closure",
+    "fetcher": "github",
+    "repo": "jart/js2-closure"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 309165165,
+  "name": "jpablobr/emacs-monkeytype",
+  "description": "Typing game/tutor for Emacs inspired by github.com/Miodec/monkeytype",
+  "url": "https://github.com/jpablobr/emacs-monkeytype",
+  "stars": 84,
+  "updated": "2021-04-10T16:46:02Z",
+  "archived": false,
+  "topics": ["emacs", "monkeytype", "speed-typing", "typing-game", "typing-test", "typist"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "monkeytype",
+    "fetcher": "github",
+    "repo": "jpablobr/emacs-monkeytype"
+  }
+}

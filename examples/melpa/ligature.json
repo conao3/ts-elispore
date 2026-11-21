@@ -1,0 +1,18 @@
+{
+  "id": 291542691,
+  "name": "mickeynp/ligature.el",
+  "description": "Display typographical ligatures in Emacs",
+  "url": "https://github.com/mickeynp/ligature.el",
+  "stars": 469,
+  "updated": "2026-07-24T16:14:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ligature",
+    "fetcher": "github",
+    "repo": "mickeynp/ligature.el"
+  }
+}

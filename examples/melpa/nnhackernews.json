@@ -1,0 +1,18 @@
+{
+  "id": 201507219,
+  "name": "dickmao/nnhackernews",
+  "description": "A Gnus backend for Hacker News",
+  "url": "https://github.com/dickmao/nnhackernews",
+  "stars": 66,
+  "updated": "2026-06-30T12:56:02Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nnhackernews",
+    "fetcher": "github",
+    "repo": "dickmao/nnhackernews"
+  }
+}

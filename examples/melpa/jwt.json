@@ -1,0 +1,18 @@
+{
+  "id": 858385555,
+  "name": "joshbax189/jwt-el",
+  "description": "Interact with JSON Web Tokens from Emacs",
+  "url": "https://github.com/joshbax189/jwt-el",
+  "stars": 10,
+  "updated": "2026-05-14T22:19:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jwt",
+    "fetcher": "github",
+    "repo": "joshbax189/jwt-el"
+  }
+}

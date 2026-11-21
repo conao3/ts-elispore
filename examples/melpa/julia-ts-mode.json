@@ -1,0 +1,18 @@
+{
+  "id": 580017078,
+  "name": "JuliaEditorSupport/julia-ts-mode",
+  "description": "Experimental Emacs Julia major mode using tree-sitter",
+  "url": "https://github.com/JuliaEditorSupport/julia-ts-mode",
+  "stars": 46,
+  "updated": "2026-06-16T16:24:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Julia",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "julia-ts-mode",
+    "fetcher": "github",
+    "repo": "JuliaEditorSupport/julia-ts-mode"
+  }
+}

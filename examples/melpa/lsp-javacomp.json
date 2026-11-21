@@ -1,0 +1,18 @@
+{
+  "id": 105626193,
+  "name": "tigersoldier/lsp-javacomp",
+  "description": "Emacs Language Server client backed by JavaComp",
+  "url": "https://github.com/tigersoldier/lsp-javacomp",
+  "stars": 27,
+  "updated": "2022-04-11T05:22:36Z",
+  "archived": false,
+  "topics": ["emacs", "java", "language-server-protocol"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lsp-javacomp",
+    "fetcher": "github",
+    "repo": "tigersoldier/lsp-javacomp"
+  }
+}

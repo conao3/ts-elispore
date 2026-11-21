@@ -1,0 +1,18 @@
+{
+  "id": 210085898,
+  "name": "akirak/nix-env-install",
+  "description": "Emacs frontend to installing packages using Nix",
+  "url": "https://github.com/akirak/nix-env-install",
+  "stars": 7,
+  "updated": "2024-09-17T15:12:20Z",
+  "archived": false,
+  "topics": ["emacs", "nix", "package-management"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nix-env-install",
+    "fetcher": "github",
+    "repo": "akirak/nix-env-install"
+  }
+}

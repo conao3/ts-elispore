@@ -1,0 +1,18 @@
+{
+  "id": 235503788,
+  "name": "PillFall/languagetool.el",
+  "description": "LanguageTool suggestions integrated within Emacs",
+  "url": "https://github.com/PillFall/languagetool.el",
+  "stars": 133,
+  "updated": "2026-09-11T08:54:19Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-package", "language", "spellcheck"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "languagetool",
+    "fetcher": "github",
+    "repo": "PillFall/languagetool.el"
+  }
+}

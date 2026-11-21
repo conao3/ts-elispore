@@ -1,0 +1,19 @@
+{
+  "id": 133750612,
+  "name": "emacs-jupyter/jupyter",
+  "description": "An interface to communicate with Jupyter kernels.",
+  "url": "https://github.com/emacs-jupyter/jupyter",
+  "stars": 1038,
+  "updated": "2026-10-14T22:33:24Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "jupyter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "jupyter",
+    "fetcher": "github",
+    "repo": "emacs-jupyter/jupyter",
+    "files": "(:defaults \"Makefile\" \"widget.html\" \"js\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 55827857,
+  "name": "caisah/liso-theme",
+  "description": "Eclectic Dark Theme for GNU Emacs",
+  "url": "https://github.com/caisah/liso-theme",
+  "stars": 3,
+  "updated": "2016-04-10T20:29:56Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-theme", "liso-theme", "theme"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "liso-theme",
+    "fetcher": "github",
+    "repo": "caisah/liso-theme"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 59476550,
+  "name": "ksjogo/mini-header-line",
+  "description": "minmal header line for emacs",
+  "url": "https://github.com/ksjogo/mini-header-line",
+  "stars": 8,
+  "updated": "2017-06-21T12:21:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mini-header-line",
+    "fetcher": "github",
+    "repo": "ksjogo/mini-header-line"
+  }
+}

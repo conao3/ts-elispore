@@ -1,0 +1,18 @@
+{
+  "id": 7292587,
+  "name": "nim-lang/nim-mode",
+  "description": "An emacs major mode for the Nim programming language",
+  "url": "https://github.com/nim-lang/nim-mode",
+  "stars": 144,
+  "updated": "2026-01-23T13:02:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "nim-mode",
+    "fetcher": "github",
+    "repo": "nim-lang/nim-mode"
+  }
+}

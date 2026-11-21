@@ -1,0 +1,18 @@
+{
+  "id": 16681685,
+  "name": "skeeto/elisp-json-rpc",
+  "description": "JSON-RPC library for Emacs Lisp",
+  "url": "https://github.com/skeeto/elisp-json-rpc",
+  "stars": 41,
+  "updated": "2020-05-02T13:30:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "json-rpc",
+    "fetcher": "github",
+    "repo": "skeeto/elisp-json-rpc"
+  }
+}

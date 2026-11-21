@@ -1,0 +1,18 @@
+{
+  "id": 16516807,
+  "name": "nicferrier/emacs-lxc",
+  "description": "lxc tools for emacs",
+  "url": "https://github.com/nicferrier/emacs-lxc",
+  "stars": 9,
+  "updated": "2014-04-10T20:22:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lxc",
+    "fetcher": "github",
+    "repo": "nicferrier/emacs-lxc"
+  }
+}

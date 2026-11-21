@@ -1,0 +1,18 @@
+{
+  "id": 174814349,
+  "name": "suonlight/multi-vterm",
+  "description": "Managing multiple vterm buffers in Emacs",
+  "url": "https://github.com/suonlight/multi-vterm",
+  "stars": 243,
+  "updated": "2023-06-09T14:24:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "multi-vterm",
+    "fetcher": "github",
+    "repo": "suonlight/multi-vterm"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 669993504,
+  "name": "lanjoni/nezburn",
+  "description": "The nezburn theme (inspired on zenburn) for Emacs",
+  "url": "https://github.com/lanjoni/nezburn",
+  "stars": 6,
+  "updated": "2023-08-01T03:36:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nezburn-theme",
+    "fetcher": "github",
+    "repo": "lanjoni/nezburn"
+  }
+}

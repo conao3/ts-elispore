@@ -1,0 +1,18 @@
+{
+  "id": 773205422,
+  "name": "christophermadsen/emacs-lazy-ruff",
+  "description": "Lazy use of the Ruff formatter/linter for Python code blocks, regions and buffers in Emacs.",
+  "url": "https://github.com/christophermadsen/emacs-lazy-ruff",
+  "stars": 16,
+  "updated": "2026-06-16T08:37:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lazy-ruff",
+    "fetcher": "github",
+    "repo": "christophermadsen/emacs-lazy-ruff"
+  }
+}

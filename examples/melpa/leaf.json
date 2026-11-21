@@ -1,0 +1,18 @@
+{
+  "id": 154419550,
+  "name": "conao3/leaf.el",
+  "description": "Flexible, declarative, and modern init.el package configuration",
+  "url": "https://github.com/conao3/leaf.el",
+  "stars": 557,
+  "updated": "2026-11-03T07:49:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "leaf",
+    "fetcher": "github",
+    "repo": "conao3/leaf.el"
+  }
+}

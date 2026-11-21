@@ -1,0 +1,18 @@
+{
+  "id": 124893317,
+  "name": "zzamboni/ob-elvish",
+  "description": "Org Babel support for Elvish",
+  "url": "https://github.com/zzamboni/ob-elvish",
+  "stars": 4,
+  "updated": "2018-04-27T19:03:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-elvish",
+    "fetcher": "github",
+    "repo": "zzamboni/ob-elvish"
+  }
+}

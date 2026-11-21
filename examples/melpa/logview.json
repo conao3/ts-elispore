@@ -1,0 +1,18 @@
+{
+  "id": 40092562,
+  "name": "doublep/logview",
+  "description": "Emacs mode for viewing log files",
+  "url": "https://github.com/doublep/logview",
+  "stars": 178,
+  "updated": "2026-02-18T20:15:10Z",
+  "archived": false,
+  "topics": ["emacs", "filtering", "log"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "logview",
+    "fetcher": "github",
+    "repo": "doublep/logview"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 980216109,
+  "name": "hron/nerd-icons-grep",
+  "description": "",
+  "url": "https://github.com/hron/nerd-icons-grep",
+  "stars": 5,
+  "updated": "2025-06-25T14:35:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nerd-icons-grep",
+    "fetcher": "github",
+    "repo": "hron/nerd-icons-grep"
+  }
+}

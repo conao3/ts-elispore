@@ -1,0 +1,19 @@
+{
+  "id": 893280620,
+  "name": "ewantown/nice-org-html",
+  "description": ".org to .html pipeline with style injection from Emacs themes",
+  "url": "https://github.com/ewantown/nice-org-html",
+  "stars": 40,
+  "updated": "2026-09-19T09:11:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nice-org-html",
+    "fetcher": "github",
+    "repo": "ewantown/nice-org-html",
+    "files": "(:defaults \"code/*.el\" \"code/*.css\" \"code/*.js\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 55267577,
+  "name": "sagarjha/multi-run",
+  "description": "Run same command in multiple emacs eshell terminals",
+  "url": "https://github.com/sagarjha/multi-run",
+  "stars": 14,
+  "updated": "2021-01-08T03:36:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "multi-run",
+    "fetcher": "github",
+    "repo": "sagarjha/multi-run"
+  }
+}

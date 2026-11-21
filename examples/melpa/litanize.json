@@ -1,0 +1,18 @@
+{
+  "id": 166593230,
+  "name": "zzkt/litanizer",
+  "description": "A \"Latour Litany\" generator for emacs",
+  "url": "https://github.com/zzkt/litanizer",
+  "stars": 6,
+  "updated": "2023-05-30T09:28:01Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "generative-art", "latour", "ooo"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "litanize",
+    "fetcher": "github",
+    "repo": "zzkt/litanizer"
+  }
+}

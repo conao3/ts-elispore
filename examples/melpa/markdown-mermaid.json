@@ -1,0 +1,37 @@
+{
+  "id": 1110256734,
+  "name": "pasunboneleve/markdown-mermaid",
+  "description": "Render Mermaid diagrams from Markdown inside Emacs using mmdc — instant preview, no wrappers.",
+  "url": "https://github.com/pasunboneleve/markdown-mermaid",
+  "stars": 5,
+  "updated": "2026-03-20T05:17:58Z",
+  "archived": false,
+  "topics": [
+    "cli-integration",
+    "composable-tools",
+    "dev-workflow",
+    "developer-tools",
+    "diagram",
+    "docs-as-code",
+    "emacs",
+    "emacs-lisp",
+    "inline-preview",
+    "literate-programming",
+    "local-first",
+    "markdown",
+    "markdown-tools",
+    "mermaid",
+    "mermaidjs",
+    "minimalism",
+    "productivity",
+    "visualization"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "markdown-mermaid",
+    "fetcher": "github",
+    "repo": "pasunboneleve/markdown-mermaid"
+  }
+}

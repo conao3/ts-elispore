@@ -1,0 +1,18 @@
+{
+  "id": 1141250928,
+  "name": "ItsOleks/nu-ts-mode",
+  "description": "",
+  "url": "https://github.com/ItsOleks/nu-ts-mode",
+  "stars": 5,
+  "updated": "2026-07-21T14:14:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nu-ts-mode",
+    "fetcher": "github",
+    "repo": "ItsOleks/nu-ts-mode"
+  }
+}

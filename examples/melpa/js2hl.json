@@ -1,0 +1,18 @@
+{
+  "id": 282904976,
+  "name": "redguardtoo/js2hl",
+  "description": "Highlight/rename things using `js2-mode' parser",
+  "url": "https://github.com/redguardtoo/js2hl",
+  "stars": 8,
+  "updated": "2021-06-24T11:29:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js2hl",
+    "fetcher": "github",
+    "repo": "redguardtoo/js2hl"
+  }
+}

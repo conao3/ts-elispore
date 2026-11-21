@@ -1,0 +1,18 @@
+{
+  "id": 37493533,
+  "name": "vlevit/key-seq.el",
+  "description": "map pairs of sequentially pressed keys to commands",
+  "url": "https://github.com/vlevit/key-seq.el",
+  "stars": 22,
+  "updated": "2026-09-15T20:33:16Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "emacs-mode", "keybindings"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "key-seq",
+    "fetcher": "github",
+    "repo": "vlevit/key-seq.el"
+  }
+}

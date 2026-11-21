@@ -1,0 +1,19 @@
+{
+  "id": 3924790,
+  "name": "cvs-m17n-org/MU-CITE",
+  "description": "",
+  "url": "https://github.com/cvs-m17n-org/MU-CITE",
+  "stars": 1,
+  "updated": "2026-03-10T01:14:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mu-cite",
+    "fetcher": "github",
+    "repo": "cvs-m17n-org/MU-CITE",
+    "files": "(\"*.el\" (:exclude \"mu-bbdb.el\"))"
+  }
+}

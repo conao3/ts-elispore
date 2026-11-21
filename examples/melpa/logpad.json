@@ -1,0 +1,18 @@
+{
+  "id": 211398935,
+  "name": "dertuxmalwieder/logpad.el",
+  "description": "Git mirror and MELPA repository for the logpad GNU Emacs plug-in.",
+  "url": "https://github.com/dertuxmalwieder/logpad.el",
+  "stars": 0,
+  "updated": "2020-11-13T10:22:02Z",
+  "archived": false,
+  "topics": ["diary", "gnu-emacs", "logging", "melpa"],
+  "license": "MIT-0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "logpad",
+    "fetcher": "github",
+    "repo": "dertuxmalwieder/logpad.el"
+  }
+}

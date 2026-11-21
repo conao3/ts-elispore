@@ -1,0 +1,18 @@
+{
+  "id": 27027575,
+  "name": "HectorAE/lit-mode",
+  "description": "Emacs support for lit",
+  "url": "https://github.com/HectorAE/lit-mode",
+  "stars": 0,
+  "updated": "2015-01-23T01:36:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lit-mode",
+    "fetcher": "github",
+    "repo": "HectorAE/lit-mode"
+  }
+}

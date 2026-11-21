@@ -1,0 +1,18 @@
+{
+  "id": 1318844648,
+  "name": "gregfelice/nightpanel-theme",
+  "description": "A dark Emacs theme modelled on a Saab instrument cluster at night: pure black canvas, instrument green, amber needle accents.",
+  "url": "https://github.com/gregfelice/nightpanel-theme",
+  "stars": 3,
+  "updated": "2026-10-10T21:19:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nightpanel-theme",
+    "fetcher": "github",
+    "repo": "gregfelice/nightpanel-theme"
+  }
+}

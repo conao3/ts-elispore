@@ -1,0 +1,18 @@
+{
+  "id": 256804202,
+  "name": "dandavison/magit-delta",
+  "description": "Use delta (https://github.com/dandavison/delta) when viewing diffs in Magit",
+  "url": "https://github.com/dandavison/magit-delta",
+  "stars": 356,
+  "updated": "2026-07-31T15:43:25Z",
+  "archived": false,
+  "topics": ["color", "delta", "diff", "emacs", "git", "magit", "xterm-color"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-delta",
+    "fetcher": "github",
+    "repo": "dandavison/magit-delta"
+  }
+}

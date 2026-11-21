@@ -1,0 +1,18 @@
+{
+  "id": 58613988,
+  "name": "xcodebuild/nlinum-relative",
+  "description": "Emacs relative line number besed on nlinum-mode",
+  "url": "https://github.com/xcodebuild/nlinum-relative",
+  "stars": 60,
+  "updated": "2022-12-01T04:35:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nlinum-relative",
+    "fetcher": "github",
+    "repo": "xcodebuild/nlinum-relative"
+  }
+}

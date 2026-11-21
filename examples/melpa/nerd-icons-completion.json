@@ -1,0 +1,18 @@
+{
+  "id": 623601727,
+  "name": "rainstormstudio/nerd-icons-completion",
+  "description": "",
+  "url": "https://github.com/rainstormstudio/nerd-icons-completion",
+  "stars": 83,
+  "updated": "2026-11-19T14:18:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nerd-icons-completion",
+    "fetcher": "github",
+    "repo": "rainstormstudio/nerd-icons-completion"
+  }
+}

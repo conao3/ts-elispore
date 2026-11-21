@@ -1,0 +1,19 @@
+{
+  "id": 436463,
+  "name": "rocky/emacs-loc-changes",
+  "description": "Emacs package to help users and programs keep track of positions even after buffer changes.",
+  "url": "https://github.com/rocky/emacs-loc-changes",
+  "stars": 11,
+  "updated": "2026-11-06T03:00:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "loc-changes",
+    "fetcher": "github",
+    "repo": "rocky/emacs-loc-changes",
+    "files": "(\"loc-changes.el\")"
+  }
+}

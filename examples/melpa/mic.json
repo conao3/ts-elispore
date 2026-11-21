@@ -1,0 +1,18 @@
+{
+  "id": 535671531,
+  "name": "ROCKTAKEY/mic",
+  "description": "Minimal and combinable configuration manager for Emacs",
+  "url": "https://github.com/ROCKTAKEY/mic",
+  "stars": 17,
+  "updated": "2024-08-06T16:56:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mic",
+    "fetcher": "github",
+    "repo": "ROCKTAKEY/mic"
+  }
+}

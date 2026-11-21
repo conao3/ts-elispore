@@ -1,0 +1,18 @@
+{
+  "id": 187428010,
+  "name": "ALSchwalm/janet-mode",
+  "description": "A major mode for the janet programming language: https://janet-lang.org/",
+  "url": "https://github.com/ALSchwalm/janet-mode",
+  "stars": 50,
+  "updated": "2024-03-12T20:36:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "janet-mode",
+    "fetcher": "github",
+    "repo": "ALSchwalm/janet-mode"
+  }
+}

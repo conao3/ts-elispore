@@ -1,0 +1,18 @@
+{
+  "id": 81542665,
+  "name": "xiongtx/jdecomp",
+  "description": "Emacs interface to Java decompilers",
+  "url": "https://github.com/xiongtx/jdecomp",
+  "stars": 22,
+  "updated": "2017-02-24T22:00:41Z",
+  "archived": false,
+  "topics": ["decompiler", "emacs", "java"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jdecomp",
+    "fetcher": "github",
+    "repo": "xiongtx/jdecomp"
+  }
+}

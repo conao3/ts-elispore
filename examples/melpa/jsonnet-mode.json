@@ -1,0 +1,18 @@
+{
+  "id": 105113199,
+  "name": "tminor/jsonnet-mode",
+  "description": "Emacs major mode for editing Jsonnet files.",
+  "url": "https://github.com/tminor/jsonnet-mode",
+  "stars": 55,
+  "updated": "2025-06-30T17:20:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jsonnet-mode",
+    "fetcher": "github",
+    "repo": "tminor/jsonnet-mode"
+  }
+}

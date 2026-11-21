@@ -1,0 +1,18 @@
+{
+  "id": 9851090,
+  "name": "AjayMT/mo-vi-ment",
+  "description": "Vi-like cursor movement for Emacs.",
+  "url": "https://github.com/AjayMT/mo-vi-ment",
+  "stars": 1,
+  "updated": "2018-12-17T02:06:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mo-vi-ment-mode",
+    "fetcher": "github",
+    "repo": "AjayMT/mo-vi-ment"
+  }
+}

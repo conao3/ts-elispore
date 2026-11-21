@@ -1,0 +1,18 @@
+{
+  "id": 815726525,
+  "name": "Fabiokleis/kanagawa-emacs",
+  "description": "emacs kanagawa-themes source code",
+  "url": "https://github.com/Fabiokleis/kanagawa-emacs",
+  "stars": 49,
+  "updated": "2026-06-25T21:42:02Z",
+  "archived": false,
+  "topics": ["emacs-theme", "faces", "kanagawa", "melpa", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kanagawa-themes",
+    "fetcher": "github",
+    "repo": "Fabiokleis/kanagawa-emacs"
+  }
+}

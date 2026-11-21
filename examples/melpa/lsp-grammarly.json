@@ -1,0 +1,18 @@
+{
+  "id": 340436410,
+  "name": "emacs-grammarly/lsp-grammarly",
+  "description": "lsp-mode ❤️ grammarly",
+  "url": "https://github.com/emacs-grammarly/lsp-grammarly",
+  "stars": 208,
+  "updated": "2026-06-19T08:12:48Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lsp", "grammarly", "lsp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-grammarly",
+    "fetcher": "github",
+    "repo": "emacs-grammarly/lsp-grammarly"
+  }
+}

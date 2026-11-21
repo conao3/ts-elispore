@@ -1,0 +1,18 @@
+{
+  "id": 33758255,
+  "name": "skeeto/nasm-mode",
+  "description": "Major mode for editing NASM assembly programs",
+  "url": "https://github.com/skeeto/nasm-mode",
+  "stars": 93,
+  "updated": "2026-05-09T09:53:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nasm-mode",
+    "fetcher": "github",
+    "repo": "skeeto/nasm-mode"
+  }
+}

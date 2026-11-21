@@ -1,0 +1,18 @@
+{
+  "id": 55496530,
+  "name": "ksjogo/labburn-theme",
+  "description": "",
+  "url": "https://github.com/ksjogo/labburn-theme",
+  "stars": 22,
+  "updated": "2022-12-08T16:12:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "labburn-theme",
+    "fetcher": "github",
+    "repo": "ksjogo/labburn-theme"
+  }
+}

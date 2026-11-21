@@ -1,0 +1,18 @@
+{
+  "id": 10004280,
+  "name": "vapniks/look-dired",
+  "description": "Extensions to look-mode for dired buffers",
+  "url": "https://github.com/vapniks/look-dired",
+  "stars": 3,
+  "updated": "2016-07-29T23:24:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "look-dired",
+    "fetcher": "github",
+    "repo": "vapniks/look-dired"
+  }
+}

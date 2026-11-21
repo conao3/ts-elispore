@@ -1,0 +1,18 @@
+{
+  "id": 1263413,
+  "name": "skangas/mentor",
+  "description": "mentor is a GNU Emacs frontend for the rTorrent bittorrent client.",
+  "url": "https://github.com/skangas/mentor",
+  "stars": 96,
+  "updated": "2025-11-21T05:05:28Z",
+  "archived": false,
+  "topics": ["bittorrent", "emacs", "emacs-lisp", "rtorrent", "rutorrent"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mentor",
+    "fetcher": "github",
+    "repo": "skangas/mentor"
+  }
+}

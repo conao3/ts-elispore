@@ -1,0 +1,18 @@
+{
+  "id": 1158053418,
+  "name": "takeokunn/ob-gleam",
+  "description": "Org Babel support for Gleam",
+  "url": "https://github.com/takeokunn/ob-gleam",
+  "stars": 2,
+  "updated": "2026-02-22T02:44:51Z",
+  "archived": false,
+  "topics": ["emacs", "gleam", "org-babel"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-gleam",
+    "fetcher": "github",
+    "repo": "takeokunn/ob-gleam"
+  }
+}

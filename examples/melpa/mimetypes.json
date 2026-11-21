@@ -1,0 +1,18 @@
+{
+  "id": 305874655,
+  "name": "cniles/emacs-mimetypes",
+  "description": "Emacs library for guessing mimetypes",
+  "url": "https://github.com/cniles/emacs-mimetypes",
+  "stars": 5,
+  "updated": "2020-11-15T16:05:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mimetypes",
+    "fetcher": "github",
+    "repo": "cniles/emacs-mimetypes"
+  }
+}

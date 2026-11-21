@@ -1,0 +1,18 @@
+{
+  "id": 123966861,
+  "name": "danielma/magit-org-todos.el",
+  "description": "Get `todo.org` into your magit status",
+  "url": "https://github.com/danielma/magit-org-todos.el",
+  "stars": 63,
+  "updated": "2023-04-18T19:58:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-org-todos",
+    "fetcher": "github",
+    "repo": "danielma/magit-org-todos.el"
+  }
+}

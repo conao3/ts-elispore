@@ -1,0 +1,18 @@
+{
+  "id": 4172171,
+  "name": "pope/ob-go",
+  "description": "Org-Babel support for evaluating go code.",
+  "url": "https://github.com/pope/ob-go",
+  "stars": 122,
+  "updated": "2025-06-29T14:17:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-go",
+    "fetcher": "github",
+    "repo": "pope/ob-go"
+  }
+}

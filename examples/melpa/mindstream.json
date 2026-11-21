@@ -1,0 +1,18 @@
+{
+  "id": 509357521,
+  "name": "countvajhula/mindstream",
+  "description": "Start writing (or coding), stay focused, don't worry.",
+  "url": "https://github.com/countvajhula/mindstream",
+  "stars": 87,
+  "updated": "2026-06-15T17:23:12Z",
+  "archived": false,
+  "topics": ["emacs", "git", "hacking", "programming", "writing"],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mindstream",
+    "fetcher": "github",
+    "repo": "countvajhula/mindstream"
+  }
+}

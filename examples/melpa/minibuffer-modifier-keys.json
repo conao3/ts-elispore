@@ -1,0 +1,18 @@
+{
+  "id": 395971364,
+  "name": "SpringHan/minibuffer-modifier-keys",
+  "description": "A package that allows you to avoid using Ctrl, Meta in Emacs minibuffer",
+  "url": "https://github.com/SpringHan/minibuffer-modifier-keys",
+  "stars": 6,
+  "updated": "2021-09-04T12:52:18Z",
+  "archived": false,
+  "topics": ["emacs", "keyboard"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "minibuffer-modifier-keys",
+    "fetcher": "github",
+    "repo": "SpringHan/minibuffer-modifier-keys"
+  }
+}

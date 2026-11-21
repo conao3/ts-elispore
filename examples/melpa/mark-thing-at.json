@@ -1,0 +1,18 @@
+{
+  "id": 196122221,
+  "name": "plandes/mark-thing-at",
+  "description": "Mark a pattern at the current point.",
+  "url": "https://github.com/plandes/mark-thing-at",
+  "stars": 16,
+  "updated": "2026-07-11T11:31:07Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "lisp", "utilities"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mark-thing-at",
+    "fetcher": "github",
+    "repo": "plandes/mark-thing-at"
+  }
+}

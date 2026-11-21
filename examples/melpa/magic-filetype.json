@@ -1,0 +1,18 @@
+{
+  "id": 40759618,
+  "name": "emacs-php/magic-filetype.el",
+  "description": "Enhance filetype major mode",
+  "url": "https://github.com/emacs-php/magic-filetype.el",
+  "stars": 6,
+  "updated": "2026-06-19T17:28:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "magic-filetype",
+    "fetcher": "github",
+    "repo": "emacs-php/magic-filetype.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 41461282,
+  "name": "victorteokw/kroman-el",
+  "description": "Kroman inside emacs ",
+  "url": "https://github.com/victorteokw/kroman-el",
+  "stars": 3,
+  "updated": "2015-09-17T09:03:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kroman",
+    "fetcher": "github",
+    "repo": "victorteokw/kroman-el"
+  }
+}

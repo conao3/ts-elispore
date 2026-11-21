@@ -1,0 +1,18 @@
+{
+  "id": 26909369,
+  "name": "d5884/mozc-popup",
+  "description": "Mozc with popup",
+  "url": "https://github.com/d5884/mozc-popup",
+  "stars": 5,
+  "updated": "2015-02-24T00:35:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mozc-popup",
+    "fetcher": "github",
+    "repo": "d5884/mozc-popup"
+  }
+}

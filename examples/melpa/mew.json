@@ -1,0 +1,19 @@
+{
+  "id": 458940,
+  "name": "kazu-yamamoto/Mew",
+  "description": "Messaging in the Emacs World",
+  "url": "https://github.com/kazu-yamamoto/Mew",
+  "stars": 201,
+  "updated": "2026-11-19T23:22:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mew",
+    "fetcher": "github",
+    "repo": "kazu-yamamoto/Mew",
+    "files": "(\"elisp/*.el\" \"etc\" \"info/*.info*\")"
+  }
+}

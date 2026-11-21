@@ -1,0 +1,18 @@
+{
+  "id": 10438071,
+  "name": "laynor/melpa-upstream-visit",
+  "description": "A set of kludges to visit the homepage of a package hosted on elpa.",
+  "url": "https://github.com/laynor/melpa-upstream-visit",
+  "stars": 2,
+  "updated": "2015-11-18T11:16:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "melpa-upstream-visit",
+    "fetcher": "github",
+    "repo": "laynor/melpa-upstream-visit"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 128149141,
+  "name": "Northcode/northcode-theme.el",
+  "description": "My emacs theme",
+  "url": "https://github.com/Northcode/northcode-theme.el",
+  "stars": 10,
+  "updated": "2018-04-23T16:49:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "northcode-theme",
+    "fetcher": "github",
+    "repo": "Northcode/northcode-theme.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 189063201,
+  "name": "nickav/naysayer-theme.el",
+  "description": "Emacs theme inspired by Jonathan Blow's compiler livestreams",
+  "url": "https://github.com/nickav/naysayer-theme.el",
+  "stars": 130,
+  "updated": "2025-05-06T13:55:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "naysayer-theme",
+    "fetcher": "github",
+    "repo": "nickav/naysayer-theme.el"
+  }
+}

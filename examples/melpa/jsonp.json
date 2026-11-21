@@ -1,0 +1,18 @@
+{
+  "id": 967066495,
+  "name": "joshbax189/jsonp-el",
+  "description": "Resolve JSON pointers within Emacs Lisp datatypes.",
+  "url": "https://github.com/joshbax189/jsonp-el",
+  "stars": 2,
+  "updated": "2025-06-03T21:33:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jsonp",
+    "fetcher": "github",
+    "repo": "joshbax189/jsonp-el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 98798862,
+  "name": "takaxp/moom",
+  "description": "A Moom port to Emacs - Make your dominant hand FREE from your mouse",
+  "url": "https://github.com/takaxp/moom",
+  "stars": 84,
+  "updated": "2025-08-17T13:47:19Z",
+  "archived": false,
+  "topics": ["emacs", "moom"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "moom",
+    "fetcher": "github",
+    "repo": "takaxp/moom"
+  }
+}

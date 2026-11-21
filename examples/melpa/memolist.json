@@ -1,0 +1,18 @@
+{
+  "id": 31720824,
+  "name": "mikanfactory/memolist.el",
+  "description": "memolist.el is Emacs port of memolist.vim",
+  "url": "https://github.com/mikanfactory/memolist.el",
+  "stars": 3,
+  "updated": "2018-12-02T10:02:16Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "memolist",
+    "fetcher": "github",
+    "repo": "mikanfactory/memolist.el"
+  }
+}

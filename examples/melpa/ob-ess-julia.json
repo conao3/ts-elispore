@@ -1,0 +1,19 @@
+{
+  "id": 298604497,
+  "name": "frederic-santos/ob-ess-julia",
+  "description": "A lightweight Julia support for org mode using Emacs Speaks Statistics",
+  "url": "https://github.com/frederic-santos/ob-ess-julia",
+  "stars": 16,
+  "updated": "2022-10-03T08:30:35Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "julia", "literate-programming", "org-babel", "org-mode"],
+  "license": "CECILL-2.1",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-ess-julia",
+    "fetcher": "github",
+    "repo": "frederic-santos/ob-ess-julia",
+    "files": "(\"*.el\" \"*.jl\")"
+  }
+}

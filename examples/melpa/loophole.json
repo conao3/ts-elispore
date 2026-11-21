@@ -1,0 +1,18 @@
+{
+  "id": 295383755,
+  "name": "0x60df/loophole",
+  "description": "Emacs temporary key bindings management feature",
+  "url": "https://github.com/0x60df/loophole",
+  "stars": 9,
+  "updated": "2023-01-09T18:25:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "loophole",
+    "fetcher": "github",
+    "repo": "0x60df/loophole"
+  }
+}

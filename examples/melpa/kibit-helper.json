@@ -1,0 +1,18 @@
+{
+  "id": 35182272,
+  "name": "brunchboy/kibit-helper",
+  "description": "Conveniently use the Kibit Leiningen plugin from Emacs",
+  "url": "https://github.com/brunchboy/kibit-helper",
+  "stars": 13,
+  "updated": "2015-05-08T16:11:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kibit-helper",
+    "fetcher": "github",
+    "repo": "brunchboy/kibit-helper"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 366093521,
+  "name": "danielfleischer/mu4easy",
+  "description": "mu4e + mbsync configuration for multiple email accounts in Emacs.",
+  "url": "https://github.com/danielfleischer/mu4easy",
+  "stars": 77,
+  "updated": "2026-10-14T08:36:11Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "email", "mu4e"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mu4easy",
+    "fetcher": "github",
+    "repo": "danielfleischer/mu4easy"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 7570902,
+  "name": "kawabata/math-symbols",
+  "description": "Emacs Math Symbol Input and LaTeX conversion tools.",
+  "url": "https://github.com/kawabata/math-symbols",
+  "stars": 15,
+  "updated": "2020-10-05T23:15:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "math-symbols",
+    "fetcher": "github",
+    "repo": "kawabata/math-symbols",
+    "files": "(\"math-symbols*.el\" \"unimathsymbols.txt\")"
+  }
+}

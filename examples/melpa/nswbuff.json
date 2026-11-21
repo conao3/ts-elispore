@@ -1,0 +1,18 @@
+{
+  "id": 149441134,
+  "name": "joostkremers/nswbuff",
+  "description": "Quick buffer switching for Emacs.",
+  "url": "https://github.com/joostkremers/nswbuff",
+  "stars": 48,
+  "updated": "2023-03-11T01:55:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nswbuff",
+    "fetcher": "github",
+    "repo": "joostkremers/nswbuff"
+  }
+}

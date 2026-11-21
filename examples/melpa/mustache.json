@@ -1,0 +1,18 @@
+{
+  "id": 8314703,
+  "name": "Wilfred/mustache.el",
+  "description": "A mustache templating library for Emacs",
+  "url": "https://github.com/Wilfred/mustache.el",
+  "stars": 75,
+  "updated": "2023-07-13T05:14:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mustache",
+    "fetcher": "github",
+    "repo": "Wilfred/mustache.el"
+  }
+}

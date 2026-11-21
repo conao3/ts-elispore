@@ -1,0 +1,18 @@
+{
+  "id": 11052397,
+  "name": "keyword-search/keyword-search",
+  "description": "Browser style keyword search for Emacs based on browse-apropos-url",
+  "url": "https://github.com/keyword-search/keyword-search",
+  "stars": 9,
+  "updated": "2018-04-24T11:08:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "keyword-search",
+    "fetcher": "github",
+    "repo": "keyword-search/keyword-search"
+  }
+}

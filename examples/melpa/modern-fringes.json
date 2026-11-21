@@ -1,0 +1,18 @@
+{
+  "id": 245543913,
+  "name": "SpecialBomb/emacs-modern-fringes",
+  "description": "Replaces the ugly looking default emacs fringe bitmaps and replaces them with better, modern looking ones.",
+  "url": "https://github.com/SpecialBomb/emacs-modern-fringes",
+  "stars": 32,
+  "updated": "2026-10-14T08:51:10Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "emacs-theme"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "modern-fringes",
+    "fetcher": "github",
+    "repo": "SpecialBomb/emacs-modern-fringes"
+  }
+}

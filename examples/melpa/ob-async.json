@@ -1,0 +1,18 @@
+{
+  "id": 81854063,
+  "name": "astahlman/ob-async",
+  "description": "Asynchronous src_block execution for org-babel",
+  "url": "https://github.com/astahlman/ob-async",
+  "stars": 373,
+  "updated": "2023-05-29T15:33:49Z",
+  "archived": false,
+  "topics": ["emacs", "org-babel", "org-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-async",
+    "fetcher": "github",
+    "repo": "astahlman/ob-async"
+  }
+}

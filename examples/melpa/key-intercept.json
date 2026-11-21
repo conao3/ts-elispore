@@ -1,0 +1,18 @@
+{
+  "id": 6284762,
+  "name": "tarao/key-intercept-el",
+  "description": "",
+  "url": "https://github.com/tarao/key-intercept-el",
+  "stars": 5,
+  "updated": "2014-02-11T07:49:36Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "key-intercept",
+    "fetcher": "github",
+    "repo": "tarao/key-intercept-el"
+  }
+}

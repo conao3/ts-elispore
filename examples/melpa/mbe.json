@@ -1,0 +1,19 @@
+{
+  "id": 23719214,
+  "name": "ijp/mbe.el",
+  "description": "macros by example in elisp",
+  "url": "https://github.com/ijp/mbe.el",
+  "stars": 31,
+  "updated": "2015-11-26T11:34:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mbe",
+    "fetcher": "github",
+    "repo": "ijp/mbe.el",
+    "files": "(\"mbe.el\")"
+  }
+}

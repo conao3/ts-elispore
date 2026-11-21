@@ -1,0 +1,18 @@
+{
+  "id": 654835,
+  "name": "dgutov/mmm-mode",
+  "description": "New official home for mmm-mode, fixed for Emacs >= 23",
+  "url": "https://github.com/dgutov/mmm-mode",
+  "stars": 351,
+  "updated": "2024-02-22T04:28:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mmm-mode",
+    "fetcher": "github",
+    "repo": "dgutov/mmm-mode"
+  }
+}

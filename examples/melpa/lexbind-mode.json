@@ -1,0 +1,18 @@
+{
+  "id": 8651201,
+  "name": "spacebat/lexbind-mode",
+  "description": "An Emacs minor mode to display the value of the lexical-binding variable",
+  "url": "https://github.com/spacebat/lexbind-mode",
+  "stars": 5,
+  "updated": "2014-10-27T14:29:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lexbind-mode",
+    "fetcher": "github",
+    "repo": "spacebat/lexbind-mode"
+  }
+}

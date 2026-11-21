@@ -1,0 +1,18 @@
+{
+  "id": 502097492,
+  "name": "ocodo/markdown-soma",
+  "description": "Live Markdown preview for Emacs",
+  "url": "https://github.com/ocodo/markdown-soma",
+  "stars": 32,
+  "updated": "2024-10-18T08:33:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "CSS",
+  "ownerType": "User",
+  "melpa": {
+    "name": "markdown-soma",
+    "fetcher": "github",
+    "repo": "ocodo/markdown-soma"
+  }
+}

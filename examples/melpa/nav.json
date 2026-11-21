@@ -1,0 +1,19 @@
+{
+  "id": 931010522,
+  "name": "emacsorphanage/nav",
+  "description": "Simple file-system navigation",
+  "url": "https://github.com/emacsorphanage/nav",
+  "stars": 0,
+  "updated": "2025-02-11T15:25:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Perl",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "nav",
+    "fetcher": "github",
+    "repo": "emacsorphanage/nav",
+    "files": "(\"ack*\" \"nav.el\")"
+  }
+}

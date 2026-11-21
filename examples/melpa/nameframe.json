@@ -1,0 +1,19 @@
+{
+  "id": 43339186,
+  "name": "john2x/nameframe",
+  "description": "Manage Emacs frames by name",
+  "url": "https://github.com/john2x/nameframe",
+  "stars": 45,
+  "updated": "2022-10-24T02:10:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nameframe",
+    "fetcher": "github",
+    "repo": "john2x/nameframe",
+    "files": "(\"nameframe.el\")"
+  }
+}

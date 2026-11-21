@@ -1,0 +1,18 @@
+{
+  "id": 735250901,
+  "name": "andykuszyk/noman.el",
+  "description": "An Emacs package for browsing CLI command docs without man pages",
+  "url": "https://github.com/andykuszyk/noman.el",
+  "stars": 21,
+  "updated": "2024-12-13T07:32:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "noman",
+    "fetcher": "github",
+    "repo": "andykuszyk/noman.el"
+  }
+}

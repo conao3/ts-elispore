@@ -1,0 +1,18 @@
+{
+  "id": 403083189,
+  "name": "psibi/justl.el",
+  "description": "Major mode for driving just files.",
+  "url": "https://github.com/psibi/justl.el",
+  "stars": 98,
+  "updated": "2026-09-15T04:36:06Z",
+  "archived": false,
+  "topics": ["emacs", "just", "justfile"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "justl",
+    "fetcher": "github",
+    "repo": "psibi/justl.el"
+  }
+}

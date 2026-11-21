@@ -1,0 +1,18 @@
+{
+  "id": 362394692,
+  "name": "jjlee/lsp-rescript",
+  "description": "Emacs lsp-mode client configuration for rescript-vscode",
+  "url": "https://github.com/jjlee/lsp-rescript",
+  "stars": 4,
+  "updated": "2025-08-08T14:49:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lsp-rescript",
+    "fetcher": "github",
+    "repo": "jjlee/lsp-rescript"
+  }
+}

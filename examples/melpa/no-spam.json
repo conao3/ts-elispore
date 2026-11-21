@@ -1,0 +1,18 @@
+{
+  "id": 197886846,
+  "name": "mamapanda/no-spam",
+  "description": "stop spamming the same commands over and over again",
+  "url": "https://github.com/mamapanda/no-spam",
+  "stars": 2,
+  "updated": "2019-07-24T18:55:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "no-spam",
+    "fetcher": "github",
+    "repo": "mamapanda/no-spam"
+  }
+}

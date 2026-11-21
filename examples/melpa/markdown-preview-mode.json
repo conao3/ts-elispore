@@ -1,0 +1,19 @@
+{
+  "id": 23993606,
+  "name": "ancane/markdown-preview-mode",
+  "description": "Minor mode to preview markdown output as you save",
+  "url": "https://github.com/ancane/markdown-preview-mode",
+  "stars": 175,
+  "updated": "2023-07-07T08:03:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "markdown-preview-mode",
+    "fetcher": "github",
+    "repo": "ancane/markdown-preview-mode",
+    "files": "(:defaults \"preview.html\" \"favicon.ico\")"
+  }
+}

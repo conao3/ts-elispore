@@ -1,0 +1,18 @@
+{
+  "id": 103025330,
+  "name": "agzam/mw-thesaurus.el",
+  "description": "Merriam-Webster Thesaurus in Emacs",
+  "url": "https://github.com/agzam/mw-thesaurus.el",
+  "stars": 116,
+  "updated": "2026-11-13T05:10:32Z",
+  "archived": false,
+  "topics": ["dictionary", "emacs", "english-language", "merriam-webster", "thesaurus"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mw-thesaurus",
+    "fetcher": "github",
+    "repo": "agzam/mw-thesaurus.el"
+  }
+}

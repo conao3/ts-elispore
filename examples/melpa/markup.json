@@ -1,0 +1,18 @@
+{
+  "id": 5715592,
+  "name": "leoc/markup.el",
+  "description": "Simple markup generation with emacs lisp",
+  "url": "https://github.com/leoc/markup.el",
+  "stars": 2,
+  "updated": "2017-04-20T11:29:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "markup",
+    "fetcher": "github",
+    "repo": "leoc/markup.el"
+  }
+}

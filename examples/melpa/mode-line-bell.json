@@ -1,0 +1,18 @@
+{
+  "id": 115897521,
+  "name": "purcell/mode-line-bell",
+  "description": "Flash the Emacs mode line instead of ringing the bell",
+  "url": "https://github.com/purcell/mode-line-bell",
+  "stars": 19,
+  "updated": "2026-07-02T12:09:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mode-line-bell",
+    "fetcher": "github",
+    "repo": "purcell/mode-line-bell"
+  }
+}

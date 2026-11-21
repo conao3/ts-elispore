@@ -1,0 +1,18 @@
+{
+  "id": 18975012,
+  "name": "jtatarik/magit-gitflow",
+  "description": "GitFlow plugin for magit.el",
+  "url": "https://github.com/jtatarik/magit-gitflow",
+  "stars": 102,
+  "updated": "2017-09-29T08:26:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-gitflow",
+    "fetcher": "github",
+    "repo": "jtatarik/magit-gitflow"
+  }
+}

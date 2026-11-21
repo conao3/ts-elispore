@@ -1,0 +1,19 @@
+{
+  "id": 521558,
+  "name": "modelica-tools/modelica-mode",
+  "description": "Extensions for Emacs supporting Modelica",
+  "url": "https://github.com/modelica-tools/modelica-mode",
+  "stars": 12,
+  "updated": "2023-05-08T10:20:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "modelica-mode",
+    "fetcher": "github",
+    "repo": "modelica-tools/modelica-mode",
+    "files": "(\"modelica-mode.el\")"
+  }
+}

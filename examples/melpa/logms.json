@@ -1,0 +1,18 @@
+{
+  "id": 380545179,
+  "name": "jcs-elpa/logms",
+  "description": "Log message with clickable links to context",
+  "url": "https://github.com/jcs-elpa/logms",
+  "stars": 9,
+  "updated": "2026-06-19T13:52:09Z",
+  "archived": false,
+  "topics": ["debug", "emacs", "logms"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "logms",
+    "fetcher": "github",
+    "repo": "jcs-elpa/logms"
+  }
+}

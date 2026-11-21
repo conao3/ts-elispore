@@ -1,0 +1,18 @@
+{
+  "id": 2820445,
+  "name": "magnars/mark-multiple.el",
+  "description": "An extension to emacs that sorta lets you mark several regions at once",
+  "url": "https://github.com/magnars/mark-multiple.el",
+  "stars": 112,
+  "updated": "2012-11-18T15:54:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mark-multiple",
+    "fetcher": "github",
+    "repo": "magnars/mark-multiple.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 6029960,
+  "name": "DamienCassou/notmuch-labeler",
+  "description": "notmuch-labeler improves notmuch way of displaying labels through fonts, pictures, and hyperlinks.",
+  "url": "https://github.com/DamienCassou/notmuch-labeler",
+  "stars": 16,
+  "updated": "2015-07-21T10:56:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "notmuch-labeler",
+    "fetcher": "github",
+    "repo": "DamienCassou/notmuch-labeler"
+  }
+}

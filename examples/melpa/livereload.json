@@ -1,0 +1,19 @@
+{
+  "id": 39299062,
+  "name": "joaotavora/emacs-livereload",
+  "description": "A livereload server running on Emacs",
+  "url": "https://github.com/joaotavora/emacs-livereload",
+  "stars": 7,
+  "updated": "2017-06-29T06:50:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "ownerType": "User",
+  "melpa": {
+    "name": "livereload",
+    "fetcher": "github",
+    "repo": "joaotavora/emacs-livereload",
+    "files": "(:defaults \"livereload.js\")"
+  }
+}

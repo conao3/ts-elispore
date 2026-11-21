@@ -1,0 +1,18 @@
+{
+  "id": 23640348,
+  "name": "emacsorphanage/magit-svn",
+  "description": "Git-Svn extension for Magit",
+  "url": "https://github.com/emacsorphanage/magit-svn",
+  "stars": 24,
+  "updated": "2025-02-10T11:42:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "magit-svn",
+    "fetcher": "github",
+    "repo": "emacsorphanage/magit-svn"
+  }
+}

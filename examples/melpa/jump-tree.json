@@ -1,0 +1,18 @@
+{
+  "id": 99488637,
+  "name": "yangwen0228/jump-tree",
+  "description": "jump-tree is an undo-tree like jumping implementation, so that we can jump back and forth in a tree way like undo-tree. It's inspired by and a combination of undo-tree and jumplist.",
+  "url": "https://github.com/yangwen0228/jump-tree",
+  "stars": 26,
+  "updated": "2017-10-14T15:52:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jump-tree",
+    "fetcher": "github",
+    "repo": "yangwen0228/jump-tree"
+  }
+}

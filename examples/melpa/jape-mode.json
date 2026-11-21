@@ -1,0 +1,18 @@
+{
+  "id": 23479521,
+  "name": "tanzoniteblack/jape-mode",
+  "description": "Emacs major mode for editting JAPE files",
+  "url": "https://github.com/tanzoniteblack/jape-mode",
+  "stars": 0,
+  "updated": "2015-12-12T03:43:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jape-mode",
+    "fetcher": "github",
+    "repo": "tanzoniteblack/jape-mode"
+  }
+}

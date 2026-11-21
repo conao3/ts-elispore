@@ -1,0 +1,19 @@
+{
+  "id": 95459291,
+  "name": "brantou/ob-coffeescript",
+  "description": "Org-Babel support for evaluating coffee-script code.",
+  "url": "https://github.com/brantou/ob-coffeescript",
+  "stars": 5,
+  "updated": "2018-01-26T07:20:02Z",
+  "archived": false,
+  "topics": ["coffeescript", "emacs", "emacs-lisp", "org-babel", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-coffeescript",
+    "fetcher": "github",
+    "repo": "brantou/ob-coffeescript",
+    "files": "(\"ob-coffeescript.el\")"
+  }
+}

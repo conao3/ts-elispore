@@ -1,0 +1,27 @@
+{
+  "id": 722341363,
+  "name": "KeyWeeUsr/ob-base64",
+  "description": "Decode and interpret base64 as images, binary or raw",
+  "url": "https://github.com/KeyWeeUsr/ob-base64",
+  "stars": 4,
+  "updated": "2024-12-11T07:07:05Z",
+  "archived": false,
+  "topics": [
+    "base64",
+    "elisp",
+    "emacs",
+    "melpa",
+    "melpa-badge",
+    "org-babel",
+    "org-mode",
+    "package"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-base64",
+    "fetcher": "github",
+    "repo": "KeyWeeUsr/ob-base64"
+  }
+}

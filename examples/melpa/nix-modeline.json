@@ -1,0 +1,18 @@
+{
+  "id": 352194002,
+  "name": "ocelot-project/nix-modeline",
+  "description": "Emacs minor mode that displays background Nix instantiations; useful as a UI for lorri and nix-direnv",
+  "url": "https://github.com/ocelot-project/nix-modeline",
+  "stars": 1,
+  "updated": "2021-05-05T12:10:58Z",
+  "archived": false,
+  "topics": ["direnv", "emacs", "lorri", "minor-mode", "nix", "nix-direnv", "nixos"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "nix-modeline",
+    "fetcher": "github",
+    "repo": "ocelot-project/nix-modeline"
+  }
+}

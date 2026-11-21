@@ -1,0 +1,18 @@
+{
+  "id": 40487670,
+  "name": "Malabarba/Nameless",
+  "description": "Less is more. Hide package namespace in your emacs-lisp code",
+  "url": "https://github.com/Malabarba/Nameless",
+  "stars": 136,
+  "updated": "2023-01-12T12:59:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nameless",
+    "fetcher": "github",
+    "repo": "Malabarba/Nameless"
+  }
+}

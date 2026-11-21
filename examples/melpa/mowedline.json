@@ -1,0 +1,18 @@
+{
+  "id": 8113799,
+  "name": "retroj/mowedline",
+  "description": "an X status bar program",
+  "url": "https://github.com/retroj/mowedline",
+  "stars": 8,
+  "updated": "2018-01-02T03:07:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Scheme",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mowedline",
+    "fetcher": "github",
+    "repo": "retroj/mowedline"
+  }
+}

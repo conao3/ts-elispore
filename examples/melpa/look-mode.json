@@ -1,0 +1,18 @@
+{
+  "id": 170410429,
+  "name": "petermao/look-mode",
+  "description": "Quick file viewer for image and text file browsing",
+  "url": "https://github.com/petermao/look-mode",
+  "stars": 1,
+  "updated": "2026-07-12T05:32:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "look-mode",
+    "fetcher": "github",
+    "repo": "petermao/look-mode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 11638952,
+  "name": "krisajenkins/ob-browser",
+  "description": "Render HTML inside Emacs' org-mode",
+  "url": "https://github.com/krisajenkins/ob-browser",
+  "stars": 58,
+  "updated": "2017-07-20T19:18:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-browser",
+    "fetcher": "github",
+    "repo": "krisajenkins/ob-browser",
+    "files": "(\"*.js\" \"*.el\")"
+  }
+}

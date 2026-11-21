@@ -1,0 +1,18 @@
+{
+  "id": 229318242,
+  "name": "jdormit/ob-graphql",
+  "description": "GraphQL execution backend for org-babel",
+  "url": "https://github.com/jdormit/ob-graphql",
+  "stars": 19,
+  "updated": "2020-12-22T15:15:18Z",
+  "archived": false,
+  "topics": ["emacs", "graphql", "org-babel", "org-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-graphql",
+    "fetcher": "github",
+    "repo": "jdormit/ob-graphql"
+  }
+}

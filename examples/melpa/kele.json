@@ -1,0 +1,18 @@
+{
+  "id": 583371699,
+  "name": "jinnovation/kele.el",
+  "description": "🥤 Spritzy Kubernetes cluster management for Emacs",
+  "url": "https://github.com/jinnovation/kele.el",
+  "stars": 108,
+  "updated": "2026-03-09T16:02:34Z",
+  "archived": false,
+  "topics": ["emacs", "kubernetes"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kele",
+    "fetcher": "github",
+    "repo": "jinnovation/kele.el"
+  }
+}

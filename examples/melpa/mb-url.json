@@ -1,0 +1,18 @@
+{
+  "id": 47347438,
+  "name": "dochang/mb-url",
+  "description": "Multiple Backends for Emacs URL package",
+  "url": "https://github.com/dochang/mb-url",
+  "stars": 13,
+  "updated": "2026-08-08T13:53:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mb-url",
+    "fetcher": "github",
+    "repo": "dochang/mb-url"
+  }
+}

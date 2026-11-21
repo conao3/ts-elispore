@@ -1,0 +1,18 @@
+{
+  "id": 4318283,
+  "name": "abicky/nodejs-repl.el",
+  "description": "Run Node.js REPL and communicate with the process",
+  "url": "https://github.com/abicky/nodejs-repl.el",
+  "stars": 195,
+  "updated": "2025-06-12T13:53:02Z",
+  "archived": false,
+  "topics": ["emacs", "nodejs", "repl"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nodejs-repl",
+    "fetcher": "github",
+    "repo": "abicky/nodejs-repl.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 67391259,
+  "name": "shlevy/nix-buffer",
+  "description": "nix-shell for emacs buffers",
+  "url": "https://github.com/shlevy/nix-buffer",
+  "stars": 89,
+  "updated": "2018-02-17T05:40:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nix-buffer",
+    "fetcher": "github",
+    "repo": "shlevy/nix-buffer"
+  }
+}

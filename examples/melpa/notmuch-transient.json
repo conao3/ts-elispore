@@ -1,0 +1,18 @@
+{
+  "id": 838427624,
+  "name": "tarsius/notmuch-transient",
+  "description": "Command dispatchers for Notmuch",
+  "url": "https://github.com/tarsius/notmuch-transient",
+  "stars": 11,
+  "updated": "2026-11-12T11:30:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "notmuch-transient",
+    "fetcher": "github",
+    "repo": "tarsius/notmuch-transient"
+  }
+}

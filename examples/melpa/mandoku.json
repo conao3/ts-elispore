@@ -1,0 +1,19 @@
+{
+  "id": 1840878,
+  "name": "mandoku/mandoku",
+  "description": "A framework for premodern Chinese texts",
+  "url": "https://github.com/mandoku/mandoku",
+  "stars": 20,
+  "updated": "2023-12-06T06:54:31Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "mandoku",
+    "fetcher": "github",
+    "repo": "mandoku/mandoku",
+    "files": "(:defaults \"lisp/*.org\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 62856772,
+  "name": "mzimmerm/ob-dart",
+  "description": "ob-dart allows for Dart code snippets to be used in Emacs org-babel source code.",
+  "url": "https://github.com/mzimmerm/ob-dart",
+  "stars": 5,
+  "updated": "2023-11-15T03:26:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Dart",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-dart",
+    "fetcher": "github",
+    "repo": "mzimmerm/ob-dart"
+  }
+}

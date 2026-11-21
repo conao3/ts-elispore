@@ -1,0 +1,18 @@
+{
+  "id": 525207876,
+  "name": "mrkkrp/nushell-mode",
+  "description": "Emacs major mode for Nushell scripts",
+  "url": "https://github.com/mrkkrp/nushell-mode",
+  "stars": 54,
+  "updated": "2026-08-03T09:17:22Z",
+  "archived": false,
+  "topics": ["emacs", "nushell"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nushell-mode",
+    "fetcher": "github",
+    "repo": "mrkkrp/nushell-mode"
+  }
+}

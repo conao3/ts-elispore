@@ -1,0 +1,18 @@
+{
+  "id": 2217974,
+  "name": "mustache/emacs",
+  "description": "Emacs Major Mode for Mustache",
+  "url": "https://github.com/mustache/emacs",
+  "stars": 58,
+  "updated": "2014-10-24T14:33:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "mustache-mode",
+    "fetcher": "github",
+    "repo": "mustache/emacs"
+  }
+}

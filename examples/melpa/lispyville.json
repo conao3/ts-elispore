@@ -1,0 +1,18 @@
+{
+  "id": 53297764,
+  "name": "noctuid/lispyville",
+  "description": "lispy + evil = lispyville",
+  "url": "https://github.com/noctuid/lispyville",
+  "stars": 326,
+  "updated": "2022-07-15T00:29:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lispyville",
+    "fetcher": "github",
+    "repo": "noctuid/lispyville"
+  }
+}

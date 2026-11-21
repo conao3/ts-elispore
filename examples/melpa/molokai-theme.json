@@ -1,0 +1,19 @@
+{
+  "id": 709450,
+  "name": "alloy-d/color-theme-molokai",
+  "description": "An Emacs port of the Vim port of the Monokai color scheme for TextMate.",
+  "url": "https://github.com/alloy-d/color-theme-molokai",
+  "stars": 85,
+  "updated": "2022-01-06T15:20:56Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "molokai-theme",
+    "fetcher": "github",
+    "repo": "alloy-d/color-theme-molokai",
+    "files": "(\"molokai-theme.el\")"
+  }
+}

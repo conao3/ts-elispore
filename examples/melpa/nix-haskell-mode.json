@@ -1,0 +1,18 @@
+{
+  "id": 178456493,
+  "name": "matthewbauer/nix-haskell-mode",
+  "description": "Automatic Haskell setup in Emacs, for Nix users",
+  "url": "https://github.com/matthewbauer/nix-haskell-mode",
+  "stars": 29,
+  "updated": "2019-06-15T01:35:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nix-haskell-mode",
+    "fetcher": "github",
+    "repo": "matthewbauer/nix-haskell-mode"
+  }
+}

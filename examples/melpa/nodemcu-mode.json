@@ -1,0 +1,18 @@
+{
+  "id": 128649143,
+  "name": "andrmuel/nodemcu-mode",
+  "description": "Emacs minor mode for interaction with NodeMCU devices.",
+  "url": "https://github.com/andrmuel/nodemcu-mode",
+  "stars": 0,
+  "updated": "2018-05-01T22:27:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nodemcu-mode",
+    "fetcher": "github",
+    "repo": "andrmuel/nodemcu-mode"
+  }
+}

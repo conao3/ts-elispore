@@ -1,0 +1,19 @@
+{
+  "id": 561485990,
+  "name": "lurk-lab/lurk-emacs",
+  "description": "Emacs IDE functionality for lurk",
+  "url": "https://github.com/lurk-lab/lurk-emacs",
+  "stars": 0,
+  "updated": "2023-01-20T22:26:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lurk-mode",
+    "fetcher": "github",
+    "repo": "lurk-lab/lurk-emacs",
+    "files": "(\"lurk-mode.el\")"
+  }
+}

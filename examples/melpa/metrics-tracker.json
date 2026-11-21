@@ -1,0 +1,18 @@
+{
+  "id": 227188289,
+  "name": "ianxm/emacs-tracker",
+  "description": "generate reports of personal metrics from emacs diary entries",
+  "url": "https://github.com/ianxm/emacs-tracker",
+  "stars": 29,
+  "updated": "2025-01-20T21:40:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "metrics-tracker",
+    "fetcher": "github",
+    "repo": "ianxm/emacs-tracker"
+  }
+}

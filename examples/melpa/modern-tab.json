@@ -1,0 +1,18 @@
+{
+  "id": 1355551934,
+  "name": "MArpogaus/modern-tab",
+  "description": "A modern look for the Emacs tab bar and tab line",
+  "url": "https://github.com/MArpogaus/modern-tab",
+  "stars": 7,
+  "updated": "2026-10-29T11:35:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "modern-tab",
+    "fetcher": "github",
+    "repo": "MArpogaus/modern-tab"
+  }
+}

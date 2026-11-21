@@ -1,0 +1,18 @@
+{
+  "id": 44188312,
+  "name": "synic/jbeans-emacs",
+  "description": "Jellybeans.vim based theme for emacs",
+  "url": "https://github.com/synic/jbeans-emacs",
+  "stars": 25,
+  "updated": "2020-09-24T19:46:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jbeans-theme",
+    "fetcher": "github",
+    "repo": "synic/jbeans-emacs"
+  }
+}

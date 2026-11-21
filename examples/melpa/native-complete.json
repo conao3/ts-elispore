@@ -1,0 +1,19 @@
+{
+  "id": 227522162,
+  "name": "CeleritasCelery/emacs-native-shell-complete",
+  "description": "Completion in shell buffers using native mechanisms",
+  "url": "https://github.com/CeleritasCelery/emacs-native-shell-complete",
+  "stars": 104,
+  "updated": "2024-10-08T21:42:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "native-complete",
+    "fetcher": "github",
+    "repo": "CeleritasCelery/emacs-native-shell-complete",
+    "files": "(\"native-complete.el\")"
+  }
+}

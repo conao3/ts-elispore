@@ -1,0 +1,19 @@
+{
+  "id": 36827480,
+  "name": "david-christiansen/jonprl-mode",
+  "description": "An Emac major mode for writing JonPRL code",
+  "url": "https://github.com/david-christiansen/jonprl-mode",
+  "stars": 8,
+  "updated": "2016-08-19T00:59:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jonprl-mode",
+    "fetcher": "github",
+    "repo": "david-christiansen/jonprl-mode",
+    "files": "(:defaults \"jonprl-icon.png\")"
+  }
+}

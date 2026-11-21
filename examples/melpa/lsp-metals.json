@@ -1,0 +1,28 @@
+{
+  "id": 263036141,
+  "name": "emacs-lsp/lsp-metals",
+  "description": "lsp-mode :heart: metals",
+  "url": "https://github.com/emacs-lsp/lsp-metals",
+  "stars": 69,
+  "updated": "2026-05-29T19:29:11Z",
+  "archived": false,
+  "topics": [
+    "emacs-lsp",
+    "lsp",
+    "lsp-client",
+    "lsp-metals",
+    "lsp-mode",
+    "melpa",
+    "metals",
+    "scala"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-metals",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-metals",
+    "files": "(:defaults \"icons\")"
+  }
+}

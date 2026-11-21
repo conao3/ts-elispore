@@ -1,0 +1,18 @@
+{
+  "id": 238626048,
+  "name": "rymndhng/jest-test-mode",
+  "description": "Emacs minor mode for running jest (Node.js test framework)",
+  "url": "https://github.com/rymndhng/jest-test-mode",
+  "stars": 26,
+  "updated": "2023-12-09T17:54:12Z",
+  "archived": false,
+  "topics": ["emacs", "jest", "nodejs"],
+  "license": "GPL-3.0",
+  "language": "Shell",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jest-test-mode",
+    "fetcher": "github",
+    "repo": "rymndhng/jest-test-mode"
+  }
+}

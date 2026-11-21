@@ -1,0 +1,18 @@
+{
+  "id": 60981108,
+  "name": "Kungsgeten/netrunner",
+  "description": "Create Android: Netrunner decklists in Emacs",
+  "url": "https://github.com/Kungsgeten/netrunner",
+  "stars": 14,
+  "updated": "2016-09-10T23:33:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "netrunner",
+    "fetcher": "github",
+    "repo": "Kungsgeten/netrunner"
+  }
+}

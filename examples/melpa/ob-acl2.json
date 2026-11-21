@@ -1,0 +1,18 @@
+{
+  "id": 794539910,
+  "name": "tani/ob-acl2",
+  "description": "",
+  "url": "https://github.com/tani/ob-acl2",
+  "stars": 3,
+  "updated": "2024-05-05T18:44:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-acl2",
+    "fetcher": "github",
+    "repo": "tani/ob-acl2"
+  }
+}

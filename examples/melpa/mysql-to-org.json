@@ -1,0 +1,18 @@
+{
+  "id": 64874586,
+  "name": "mallt/mysql-to-org-mode",
+  "description": "Minor mode for emacs to output the results of mysql queries to org tables",
+  "url": "https://github.com/mallt/mysql-to-org-mode",
+  "stars": 38,
+  "updated": "2021-06-22T04:49:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mysql-to-org",
+    "fetcher": "github",
+    "repo": "mallt/mysql-to-org-mode"
+  }
+}

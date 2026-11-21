@@ -1,0 +1,18 @@
+{
+  "id": 1125577250,
+  "name": "jonathanchu/magit-git-toolbelt",
+  "description": "A Magit interface for @nvie's git-toolbelt",
+  "url": "https://github.com/jonathanchu/magit-git-toolbelt",
+  "stars": 12,
+  "updated": "2026-02-02T03:26:19Z",
+  "archived": false,
+  "topics": ["emacs", "git", "magit"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-git-toolbelt",
+    "fetcher": "github",
+    "repo": "jonathanchu/magit-git-toolbelt"
+  }
+}

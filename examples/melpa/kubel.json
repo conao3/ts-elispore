@@ -1,0 +1,19 @@
+{
+  "id": 159605574,
+  "name": "abrochard/kubel",
+  "description": "Emacs extension for controlling Kubernetes with limited permissions",
+  "url": "https://github.com/abrochard/kubel",
+  "stars": 293,
+  "updated": "2026-11-11T04:07:50Z",
+  "archived": false,
+  "topics": ["emacs", "kubernetes"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kubel",
+    "fetcher": "github",
+    "repo": "abrochard/kubel",
+    "files": "(:defaults (:exclude \"kubel-evil.el\"))"
+  }
+}

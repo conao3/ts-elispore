@@ -1,0 +1,18 @@
+{
+  "id": 704640,
+  "name": "lugecy/lingr-el",
+  "description": "Lingr Client for GNU Emacs",
+  "url": "https://github.com/lugecy/lingr-el",
+  "stars": 21,
+  "updated": "2010-08-07T17:33:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lingr",
+    "fetcher": "github",
+    "repo": "lugecy/lingr-el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 372795,
+  "name": "thomas11/md-readme",
+  "description": "Generate Markdown-formatted READMEs from your Emacs Lisp file headers.",
+  "url": "https://github.com/thomas11/md-readme",
+  "stars": 14,
+  "updated": "2019-11-12T19:43:46Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "md-readme",
+    "fetcher": "github",
+    "repo": "thomas11/md-readme",
+    "files": "(:defaults \"bin\")"
+  }
+}

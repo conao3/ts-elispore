@@ -1,0 +1,18 @@
+{
+  "id": 22352261,
+  "name": "mswift42/light-soap-theme",
+  "description": "emacs 24 theme with light background",
+  "url": "https://github.com/mswift42/light-soap-theme",
+  "stars": 8,
+  "updated": "2015-06-07T14:45:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "light-soap-theme",
+    "fetcher": "github",
+    "repo": "mswift42/light-soap-theme"
+  }
+}

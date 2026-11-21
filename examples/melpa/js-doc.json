@@ -1,0 +1,18 @@
+{
+  "id": 281671,
+  "name": "mooz/js-doc",
+  "description": "Insert JsDoc style comment easily in Emacs",
+  "url": "https://github.com/mooz/js-doc",
+  "stars": 60,
+  "updated": "2017-06-09T12:26:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js-doc",
+    "fetcher": "github",
+    "repo": "mooz/js-doc"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 71191028,
+  "name": "carldotac/kdeconnect.el",
+  "description": "An Emacs interface for KDE Connect",
+  "url": "https://github.com/carldotac/kdeconnect.el",
+  "stars": 47,
+  "updated": "2026-03-15T23:59:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kdeconnect",
+    "fetcher": "github",
+    "repo": "carldotac/kdeconnect.el"
+  }
+}

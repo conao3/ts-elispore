@@ -1,0 +1,18 @@
+{
+  "id": 8466445,
+  "name": "Wilfred/loop.el",
+  "description": "friendly imperative loop structures for Emacs lisp",
+  "url": "https://github.com/Wilfred/loop.el",
+  "stars": 39,
+  "updated": "2022-02-04T06:07:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "loop",
+    "fetcher": "github",
+    "repo": "Wilfred/loop.el"
+  }
+}

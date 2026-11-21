@@ -1,0 +1,18 @@
+{
+  "id": 1045706846,
+  "name": "mason-org/mason.el",
+  "description": "Package manager for LSP, DAP, linters, and more for the Emacs Operating System",
+  "url": "https://github.com/mason-org/mason.el",
+  "stars": 114,
+  "updated": "2026-05-17T17:44:47Z",
+  "archived": false,
+  "topics": ["emacs", "lsp", "mason", "package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "mason",
+    "fetcher": "github",
+    "repo": "mason-org/mason.el"
+  }
+}

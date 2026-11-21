@@ -1,0 +1,32 @@
+{
+  "id": 695896705,
+  "name": "KeyWeeUsr/mermaid-docker-mode",
+  "description": "Dockerized mermaid for mermaid-mode",
+  "url": "https://github.com/KeyWeeUsr/mermaid-docker-mode",
+  "stars": 4,
+  "updated": "2025-04-24T17:31:48Z",
+  "archived": false,
+  "topics": [
+    "diagram",
+    "docker",
+    "elisp",
+    "emacs",
+    "graph",
+    "melpa",
+    "melpa-badge",
+    "mermaid",
+    "mmd",
+    "org",
+    "org-mode",
+    "package",
+    "plot"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mermaid-docker-mode",
+    "fetcher": "github",
+    "repo": "KeyWeeUsr/mermaid-docker-mode"
+  }
+}

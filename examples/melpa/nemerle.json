@@ -1,0 +1,19 @@
+{
+  "id": 2011294,
+  "name": "rsdn/nemerle",
+  "description": "Nemerle language. Main repository.",
+  "url": "https://github.com/rsdn/nemerle",
+  "stars": 644,
+  "updated": "2026-11-10T13:03:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Nemerle",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "nemerle",
+    "fetcher": "github",
+    "repo": "rsdn/nemerle",
+    "files": "(\"misc/nemerle.el\")"
+  }
+}

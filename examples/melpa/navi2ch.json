@@ -1,0 +1,19 @@
+{
+  "id": 665592,
+  "name": "naota/navi2ch",
+  "description": "Navi2ch is a navigator for 2ch which works on many Emacsen like GNU Emacs, XEmacs, and Meadow.",
+  "url": "https://github.com/naota/navi2ch",
+  "stars": 39,
+  "updated": "2020-01-30T00:36:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "navi2ch",
+    "fetcher": "github",
+    "repo": "naota/navi2ch",
+    "files": "(\"navi2ch*.el\" \"contrib/*.el\" (\"icons\" \"icons/*.xpm\"))"
+  }
+}

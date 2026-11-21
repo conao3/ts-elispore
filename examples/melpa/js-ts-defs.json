@@ -1,0 +1,18 @@
+{
+  "id": 1015787320,
+  "name": "jacksonrayhamilton/js-ts-defs",
+  "description": "Find JavaScript variable definitions using tree-sitter",
+  "url": "https://github.com/jacksonrayhamilton/js-ts-defs",
+  "stars": 1,
+  "updated": "2025-11-18T05:05:51Z",
+  "archived": false,
+  "topics": ["emacs", "javascript", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js-ts-defs",
+    "fetcher": "github",
+    "repo": "jacksonrayhamilton/js-ts-defs"
+  }
+}

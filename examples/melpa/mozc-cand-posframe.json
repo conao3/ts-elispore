@@ -1,0 +1,18 @@
+{
+  "id": 202070985,
+  "name": "akirak/mozc-posframe",
+  "description": "Posframe frontend for mozc.el",
+  "url": "https://github.com/akirak/mozc-posframe",
+  "stars": 17,
+  "updated": "2025-05-02T04:52:15Z",
+  "archived": true,
+  "topics": ["emacs-lisp", "input-method", "japanese-language", "mozc", "posframe"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mozc-cand-posframe",
+    "fetcher": "github",
+    "repo": "akirak/mozc-posframe"
+  }
+}

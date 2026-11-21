@@ -1,0 +1,18 @@
+{
+  "id": 179060460,
+  "name": "ROCKTAKEY/lsp-latex",
+  "description": "Emacs lsp-mode client for LaTeX, on texlab.",
+  "url": "https://github.com/ROCKTAKEY/lsp-latex",
+  "stars": 72,
+  "updated": "2026-10-18T16:05:03Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "lsp", "texlab"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lsp-latex",
+    "fetcher": "github",
+    "repo": "ROCKTAKEY/lsp-latex"
+  }
+}

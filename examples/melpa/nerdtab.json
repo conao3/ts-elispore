@@ -1,0 +1,18 @@
+{
+  "id": 133497711,
+  "name": "casouri/nerdtab",
+  "description": "Keyboard oriented tabs for Emacs",
+  "url": "https://github.com/casouri/nerdtab",
+  "stars": 9,
+  "updated": "2018-09-19T05:03:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nerdtab",
+    "fetcher": "github",
+    "repo": "casouri/nerdtab"
+  }
+}

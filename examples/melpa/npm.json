@@ -1,0 +1,18 @@
+{
+  "id": 242469881,
+  "name": "shaneikennedy/npm.el",
+  "description": "NPM client for emacs",
+  "url": "https://github.com/shaneikennedy/npm.el",
+  "stars": 30,
+  "updated": "2024-12-22T12:10:04Z",
+  "archived": false,
+  "topics": ["emacs", "javascript", "npm", "npm-client"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "npm",
+    "fetcher": "github",
+    "repo": "shaneikennedy/npm.el"
+  }
+}

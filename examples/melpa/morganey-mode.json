@@ -1,0 +1,18 @@
+{
+  "id": 71110730,
+  "name": "morganey-lang/morganey-mode",
+  "description": "Morganey Mode for Emacs",
+  "url": "https://github.com/morganey-lang/morganey-mode",
+  "stars": 4,
+  "updated": "2017-01-19T07:08:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "morganey-mode",
+    "fetcher": "github",
+    "repo": "morganey-lang/morganey-mode"
+  }
+}

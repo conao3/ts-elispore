@@ -1,0 +1,19 @@
+{
+  "id": 43266682,
+  "name": "dennisog/julia-shell-mode",
+  "description": "Emacs major mode for an interactive Julia shell.",
+  "url": "https://github.com/dennisog/julia-shell-mode",
+  "stars": 43,
+  "updated": "2022-01-06T15:51:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "julia-shell",
+    "fetcher": "github",
+    "repo": "dennisog/julia-shell-mode",
+    "files": "(:defaults \"*.jl\")"
+  }
+}

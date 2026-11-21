@@ -1,0 +1,18 @@
+{
+  "id": 694787571,
+  "name": "LuigiPiucco/nerd-icons-corfu",
+  "description": "Icons for corfu via nerd-icons",
+  "url": "https://github.com/LuigiPiucco/nerd-icons-corfu",
+  "stars": 85,
+  "updated": "2026-09-04T19:27:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nerd-icons-corfu",
+    "fetcher": "github",
+    "repo": "LuigiPiucco/nerd-icons-corfu"
+  }
+}

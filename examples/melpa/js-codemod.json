@@ -1,0 +1,19 @@
+{
+  "id": 107315036,
+  "name": "torgeir/js-codemod.el",
+  "description": "Run js-codemod on current line or selected region.",
+  "url": "https://github.com/torgeir/js-codemod.el",
+  "stars": 3,
+  "updated": "2019-09-21T09:41:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js-codemod",
+    "fetcher": "github",
+    "repo": "torgeir/js-codemod.el",
+    "files": "(:defaults \"replace\")"
+  }
+}

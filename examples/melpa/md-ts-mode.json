@@ -1,0 +1,18 @@
+{
+  "id": 1169648768,
+  "name": "dnouri/md-ts-mode",
+  "description": "A Emacs major mode for Markdown, powered by tree-sitter, works on Emacs 29+",
+  "url": "https://github.com/dnouri/md-ts-mode",
+  "stars": 11,
+  "updated": "2026-10-04T15:06:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "md-ts-mode",
+    "fetcher": "github",
+    "repo": "dnouri/md-ts-mode"
+  }
+}

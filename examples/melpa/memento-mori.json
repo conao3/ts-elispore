@@ -1,0 +1,18 @@
+{
+  "id": 194333444,
+  "name": "gvol/emacs-memento-mori",
+  "description": "Reminder of mortality",
+  "url": "https://github.com/gvol/emacs-memento-mori",
+  "stars": 35,
+  "updated": "2024-07-02T23:32:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "memento-mori",
+    "fetcher": "github",
+    "repo": "gvol/emacs-memento-mori"
+  }
+}

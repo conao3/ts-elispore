@@ -1,0 +1,18 @@
+{
+  "id": 1121374983,
+  "name": "danjacka/jade-schema-mode",
+  "description": "Emacs major-mode for navigating Jade Platform schema files",
+  "url": "https://github.com/danjacka/jade-schema-mode",
+  "stars": 1,
+  "updated": "2025-12-27T03:42:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jade-schema-mode",
+    "fetcher": "github",
+    "repo": "danjacka/jade-schema-mode"
+  }
+}

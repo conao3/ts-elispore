@@ -1,0 +1,18 @@
+{
+  "id": 250667967,
+  "name": "purcell/emacs-nixpkgs-fmt",
+  "description": "Reformat Nix code with nixpkgs-fmt in Emacs",
+  "url": "https://github.com/purcell/emacs-nixpkgs-fmt",
+  "stars": 14,
+  "updated": "2026-04-22T12:29:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nixpkgs-fmt",
+    "fetcher": "github",
+    "repo": "purcell/emacs-nixpkgs-fmt"
+  }
+}

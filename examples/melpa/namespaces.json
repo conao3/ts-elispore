@@ -1,0 +1,18 @@
+{
+  "id": 6434471,
+  "name": "chrisbarrett/elisp-namespaces",
+  "description": "UNMAINTAINED",
+  "url": "https://github.com/chrisbarrett/elisp-namespaces",
+  "stars": 32,
+  "updated": "2013-03-26T22:50:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "namespaces",
+    "fetcher": "github",
+    "repo": "chrisbarrett/elisp-namespaces"
+  }
+}

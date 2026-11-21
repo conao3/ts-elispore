@@ -1,0 +1,18 @@
+{
+  "id": 309174393,
+  "name": "publicimageltd/lister",
+  "description": "Yet another list printer for emacs.",
+  "url": "https://github.com/publicimageltd/lister",
+  "stars": 24,
+  "updated": "2024-01-02T15:01:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lister",
+    "fetcher": "github",
+    "repo": "publicimageltd/lister"
+  }
+}

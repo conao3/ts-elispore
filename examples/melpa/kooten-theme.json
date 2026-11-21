@@ -1,0 +1,18 @@
+{
+  "id": 48607190,
+  "name": "kootenpv/emacs-kooten-theme",
+  "description": "Dark color theme by kootenpv",
+  "url": "https://github.com/kootenpv/emacs-kooten-theme",
+  "stars": 15,
+  "updated": "2016-10-23T09:05:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kooten-theme",
+    "fetcher": "github",
+    "repo": "kootenpv/emacs-kooten-theme"
+  }
+}

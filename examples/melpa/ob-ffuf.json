@@ -1,0 +1,18 @@
+{
+  "id": 537212091,
+  "name": "daniel-ts/ob-ffuf",
+  "description": "org-babel support for web fuzzing with ffuf",
+  "url": "https://github.com/daniel-ts/ob-ffuf",
+  "stars": 5,
+  "updated": "2022-10-04T17:16:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-ffuf",
+    "fetcher": "github",
+    "repo": "daniel-ts/ob-ffuf"
+  }
+}

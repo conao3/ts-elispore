@@ -1,0 +1,18 @@
+{
+  "id": 219464141,
+  "name": "epa095/latex-pretty-symbols.el",
+  "description": "Display many latex symbols as their unicode counterparts",
+  "url": "https://github.com/epa095/latex-pretty-symbols.el",
+  "stars": 8,
+  "updated": "2015-11-29T15:10:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": null,
+  "ownerType": "User",
+  "melpa": {
+    "name": "latex-pretty-symbols",
+    "fetcher": "github",
+    "repo": "epa095/latex-pretty-symbols.el"
+  }
+}

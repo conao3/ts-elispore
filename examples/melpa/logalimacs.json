@@ -1,0 +1,19 @@
+{
+  "id": 3049866,
+  "name": "logaling/logalimacs",
+  "description": "An Emacs frontend for logaling-command.",
+  "url": "https://github.com/logaling/logalimacs",
+  "stars": 8,
+  "updated": "2013-10-21T18:30:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "logalimacs",
+    "fetcher": "github",
+    "repo": "logaling/logalimacs",
+    "files": "(\"logalimacs.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 129606852,
+  "name": "jiahaoli95/muban.el",
+  "description": "Lightweight template expansion tool for Emacs",
+  "url": "https://github.com/jiahaoli95/muban.el",
+  "stars": 8,
+  "updated": "2020-08-24T14:30:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "muban",
+    "fetcher": "github",
+    "repo": "jiahaoli95/muban.el"
+  }
+}

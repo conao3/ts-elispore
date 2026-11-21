@@ -1,0 +1,18 @@
+{
+  "id": 131421470,
+  "name": "montag451/lxc-tramp",
+  "description": "Tramp integration for LXC containers",
+  "url": "https://github.com/montag451/lxc-tramp",
+  "stars": 12,
+  "updated": "2023-01-19T15:35:17Z",
+  "archived": false,
+  "topics": ["containers", "elisp", "emacs", "emacs-lisp", "lxc", "lxc-containers", "tramp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lxc-tramp",
+    "fetcher": "github",
+    "repo": "montag451/lxc-tramp"
+  }
+}

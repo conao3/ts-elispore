@@ -1,0 +1,19 @@
+{
+  "id": 8494498,
+  "name": "jhradilek/emacs-mallard-snippets",
+  "description": "Mallard snippets for Emacs",
+  "url": "https://github.com/jhradilek/emacs-mallard-snippets",
+  "stars": 2,
+  "updated": "2013-10-23T18:53:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mallard-snippets",
+    "fetcher": "github",
+    "repo": "jhradilek/emacs-mallard-snippets",
+    "files": "(\"mallard-snippets.el\" \"snippets\")"
+  }
+}

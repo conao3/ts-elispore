@@ -1,0 +1,18 @@
+{
+  "id": 82963330,
+  "name": "emacs-pe/luarocks.el",
+  "description": "",
+  "url": "https://github.com/emacs-pe/luarocks.el",
+  "stars": 6,
+  "updated": "2017-04-30T23:07:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "luarocks",
+    "fetcher": "github",
+    "repo": "emacs-pe/luarocks.el"
+  }
+}

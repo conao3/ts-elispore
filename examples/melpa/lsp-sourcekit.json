@@ -1,0 +1,28 @@
+{
+  "id": 158664714,
+  "name": "emacs-lsp/lsp-sourcekit",
+  "description": "lsp-mode :heart: Apple's sourcekit",
+  "url": "https://github.com/emacs-lsp/lsp-sourcekit",
+  "stars": 112,
+  "updated": "2026-06-19T08:11:22Z",
+  "archived": false,
+  "topics": [
+    "apple",
+    "emacs",
+    "emacs-lsp",
+    "language-server-protocol",
+    "lsp-sourcekit",
+    "sourcekit",
+    "sourcekit-lsp",
+    "swift",
+    "swift-toolchain"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-sourcekit",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-sourcekit"
+  }
+}

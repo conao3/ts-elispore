@@ -1,0 +1,18 @@
+{
+  "id": 914928056,
+  "name": "unmonoqueteclea/jira.el",
+  "description": "Emacs integration for Altassian's Jira.  Support listing and filtering issues, showing their details, modifying some of their properties or adding worklogs.",
+  "url": "https://github.com/unmonoqueteclea/jira.el",
+  "stars": 127,
+  "updated": "2026-10-04T19:10:05Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "jira", "jira-rest-api"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jira",
+    "fetcher": "github",
+    "repo": "unmonoqueteclea/jira.el"
+  }
+}

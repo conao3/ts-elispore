@@ -1,0 +1,19 @@
+{
+  "id": 17993598,
+  "name": "abo-abo/make-it-so",
+  "description": "Transform files with Makefile recipes",
+  "url": "https://github.com/abo-abo/make-it-so",
+  "stars": 46,
+  "updated": "2019-06-25T17:53:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "make-it-so",
+    "fetcher": "github",
+    "repo": "abo-abo/make-it-so",
+    "files": "(\"make-it-so.el\" \"recipes\")"
+  }
+}

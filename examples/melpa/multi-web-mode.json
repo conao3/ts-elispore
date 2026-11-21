@@ -1,0 +1,18 @@
+{
+  "id": 207246,
+  "name": "fgallina/multi-web-mode",
+  "description": "Multi Web Mode is a minor mode wich makes web editing in Emacs much easier.",
+  "url": "https://github.com/fgallina/multi-web-mode",
+  "stars": 176,
+  "updated": "2018-01-19T16:10:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "multi-web-mode",
+    "fetcher": "github",
+    "repo": "fgallina/multi-web-mode"
+  }
+}

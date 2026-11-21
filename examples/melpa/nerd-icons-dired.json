@@ -1,0 +1,18 @@
+{
+  "id": 614184643,
+  "name": "rainstormstudio/nerd-icons-dired",
+  "description": "",
+  "url": "https://github.com/rainstormstudio/nerd-icons-dired",
+  "stars": 97,
+  "updated": "2026-04-15T17:46:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nerd-icons-dired",
+    "fetcher": "github",
+    "repo": "rainstormstudio/nerd-icons-dired"
+  }
+}

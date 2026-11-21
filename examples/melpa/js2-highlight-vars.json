@@ -1,0 +1,18 @@
+{
+  "id": 42351838,
+  "name": "unhammer/js2-highlight-vars.el",
+  "description": "🖍️ Highlight var under cursor. Just minor changes to work with melpa and new js2-mode, originally from:",
+  "url": "https://github.com/unhammer/js2-highlight-vars.el",
+  "stars": 5,
+  "updated": "2017-04-18T18:29:15Z",
+  "archived": false,
+  "topics": ["emacs", "javascript", "js2-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js2-highlight-vars",
+    "fetcher": "github",
+    "repo": "unhammer/js2-highlight-vars.el"
+  }
+}

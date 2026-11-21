@@ -1,0 +1,18 @@
+{
+  "id": 28683930,
+  "name": "sigma/marshal.el",
+  "description": "",
+  "url": "https://github.com/sigma/marshal.el",
+  "stars": 15,
+  "updated": "2022-07-24T19:02:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "marshal",
+    "fetcher": "github",
+    "repo": "sigma/marshal.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 40500433,
+  "name": "CestDiego/nand2tetris.el",
+  "description": "Major Mode for HDL files in nand2tetris.",
+  "url": "https://github.com/CestDiego/nand2tetris.el",
+  "stars": 45,
+  "updated": "2019-11-11T12:30:54Z",
+  "archived": false,
+  "topics": ["emacs", "nand2tetris"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nand2tetris-assembler",
+    "fetcher": "github",
+    "repo": "CestDiego/nand2tetris.el",
+    "files": "(\"nand2tetris-assembler.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 915863987,
+  "name": "milanglacier/minuet-ai.el",
+  "description": "💃 Dance with LLM in Your Code. Minuet offers code completion as-you-type from popular LLMs including OpenAI, Gemini, Claude, Ollama, Llama.cpp, Codestral, and more.",
+  "url": "https://github.com/milanglacier/minuet-ai.el",
+  "stars": 385,
+  "updated": "2026-11-16T03:52:17Z",
+  "archived": false,
+  "topics": ["ai", "code-completion", "emacs", "emacs-plugin", "llm"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "minuet",
+    "fetcher": "github",
+    "repo": "milanglacier/minuet-ai.el"
+  }
+}

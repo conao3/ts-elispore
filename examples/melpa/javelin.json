@@ -1,0 +1,18 @@
+{
+  "id": 1111161749,
+  "name": "DamianB-BitFlipper/javelin.el",
+  "description": "Harpoon for Emacs. Dead simple buffer bookmarks for Emacs, inspired by ThePrimeagen's Harpoon.",
+  "url": "https://github.com/DamianB-BitFlipper/javelin.el",
+  "stars": 53,
+  "updated": "2026-02-15T18:47:21Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "javelin",
+    "fetcher": "github",
+    "repo": "DamianB-BitFlipper/javelin.el"
+  }
+}

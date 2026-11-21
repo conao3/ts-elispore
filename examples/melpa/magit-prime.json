@@ -1,0 +1,18 @@
+{
+  "id": 1024252507,
+  "name": "Azkae/magit-prime",
+  "description": "Speedup magit by priming caches before refresh",
+  "url": "https://github.com/Azkae/magit-prime",
+  "stars": 32,
+  "updated": "2026-11-07T14:39:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-prime",
+    "fetcher": "github",
+    "repo": "Azkae/magit-prime"
+  }
+}

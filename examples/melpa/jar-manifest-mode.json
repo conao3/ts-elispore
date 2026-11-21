@@ -1,0 +1,18 @@
+{
+  "id": 15658200,
+  "name": "omajid/jar-manifest-mode",
+  "description": "An emacs major mode for editing jar manifest files",
+  "url": "https://github.com/omajid/jar-manifest-mode",
+  "stars": 1,
+  "updated": "2016-05-01T00:27:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jar-manifest-mode",
+    "fetcher": "github",
+    "repo": "omajid/jar-manifest-mode"
+  }
+}

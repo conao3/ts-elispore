@@ -1,0 +1,18 @@
+{
+  "id": 1143810398,
+  "name": "conao3/lazy.el",
+  "description": "",
+  "url": "https://github.com/conao3/lazy.el",
+  "stars": 5,
+  "updated": "2026-11-15T16:18:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lazy",
+    "fetcher": "github",
+    "repo": "conao3/lazy.el"
+  }
+}

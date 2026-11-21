@@ -1,0 +1,18 @@
+{
+  "id": 1161018755,
+  "name": "ispringle/lit-ts-mode",
+  "description": "A major mode for Lit JavaScript and TypeScript files",
+  "url": "https://github.com/ispringle/lit-ts-mode",
+  "stars": 0,
+  "updated": "2026-03-02T20:53:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "0BSD",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lit-ts-mode",
+    "fetcher": "github",
+    "repo": "ispringle/lit-ts-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 28352382,
+  "name": "myTerminal/meta-presenter",
+  "description": "A simple multi-file presentation tool for Emacs",
+  "url": "https://github.com/myTerminal/meta-presenter",
+  "stars": 4,
+  "updated": "2021-07-14T16:58:17Z",
+  "archived": false,
+  "topics": ["emacs", "presentation", "slideshow"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "meta-presenter",
+    "fetcher": "github",
+    "repo": "myTerminal/meta-presenter"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 34519217,
+  "name": "papaeye/emacs-jscs",
+  "description": "Consistent JavaScript editing using JSCS",
+  "url": "https://github.com/papaeye/emacs-jscs",
+  "stars": 7,
+  "updated": "2015-10-15T17:55:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jscs",
+    "fetcher": "github",
+    "repo": "papaeye/emacs-jscs"
+  }
+}

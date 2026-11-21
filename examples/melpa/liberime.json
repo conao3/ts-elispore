@@ -1,0 +1,19 @@
+{
+  "id": 216501937,
+  "name": "emacs-rime/liberime",
+  "description": "A emacs dynamic module provide librime bindings for emacs",
+  "url": "https://github.com/emacs-rime/liberime",
+  "stars": 74,
+  "updated": "2026-11-15T16:33:34Z",
+  "archived": false,
+  "topics": ["emacs", "input-method", "librime", "pyim"],
+  "license": "GPL-3.0",
+  "language": "C",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "liberime",
+    "fetcher": "github",
+    "repo": "emacs-rime/liberime",
+    "files": "(:defaults \"src\" \"emacs-module\" \"LICENSE\" \"Makefile\" \"README.org\")"
+  }
+}

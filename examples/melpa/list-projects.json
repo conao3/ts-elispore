@@ -1,0 +1,18 @@
+{
+  "id": 787557087,
+  "name": "MatthewTromp/list-projects",
+  "description": "",
+  "url": "https://github.com/MatthewTromp/list-projects",
+  "stars": 10,
+  "updated": "2025-04-28T16:51:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "list-projects",
+    "fetcher": "github",
+    "repo": "MatthewTromp/list-projects"
+  }
+}

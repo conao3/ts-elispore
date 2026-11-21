@@ -1,0 +1,18 @@
+{
+  "id": 638507623,
+  "name": "drghirlanda/ob-lesim",
+  "description": "Learning Simulator integration for Org-Mode",
+  "url": "https://github.com/drghirlanda/ob-lesim",
+  "stars": 0,
+  "updated": "2023-06-19T03:57:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-lesim",
+    "fetcher": "github",
+    "repo": "drghirlanda/ob-lesim"
+  }
+}

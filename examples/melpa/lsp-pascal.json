@@ -1,0 +1,18 @@
+{
+  "id": 256445228,
+  "name": "arjanadriaanse/lsp-pascal",
+  "description": "Emacs LSP client for Pascal",
+  "url": "https://github.com/arjanadriaanse/lsp-pascal",
+  "stars": 9,
+  "updated": "2020-11-11T16:14:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lsp-pascal",
+    "fetcher": "github",
+    "repo": "arjanadriaanse/lsp-pascal"
+  }
+}

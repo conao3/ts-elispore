@@ -1,0 +1,18 @@
+{
+  "id": 118083143,
+  "name": "ahungry/md4rd",
+  "description": "Emacs Mode for Reddit - Read Reddit from within Emacs interactively.",
+  "url": "https://github.com/ahungry/md4rd",
+  "stars": 224,
+  "updated": "2023-07-25T23:15:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "md4rd",
+    "fetcher": "github",
+    "repo": "ahungry/md4rd"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 264738679,
+  "name": "SebastianMeisel/journalctl-mode",
+  "description": "Major mode to view journalctl's output in Emacs",
+  "url": "https://github.com/SebastianMeisel/journalctl-mode",
+  "stars": 88,
+  "updated": "2026-09-05T13:10:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "journalctl-mode",
+    "fetcher": "github",
+    "repo": "SebastianMeisel/journalctl-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 610836706,
+  "name": "taquangtrung/lark-mode",
+  "description": "Emacs mode for editing Python Lark parser file.",
+  "url": "https://github.com/taquangtrung/lark-mode",
+  "stars": 2,
+  "updated": "2023-12-21T03:40:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lark-mode",
+    "fetcher": "github",
+    "repo": "taquangtrung/lark-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 62661233,
+  "name": "mswift42/MetalHeart-Emacs",
+  "description": "emacs low contrast theme with a dark blue-green background.",
+  "url": "https://github.com/mswift42/MetalHeart-Emacs",
+  "stars": 4,
+  "updated": "2016-07-10T06:41:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "metalheart-theme",
+    "fetcher": "github",
+    "repo": "mswift42/MetalHeart-Emacs"
+  }
+}

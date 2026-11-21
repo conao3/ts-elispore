@@ -1,0 +1,18 @@
+{
+  "id": 10245125,
+  "name": "tkf/emacs-jedi-direx",
+  "description": "Tree style source code viewer for Python buffer",
+  "url": "https://github.com/tkf/emacs-jedi-direx",
+  "stars": 72,
+  "updated": "2016-01-07T15:27:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jedi-direx",
+    "fetcher": "github",
+    "repo": "tkf/emacs-jedi-direx"
+  }
+}

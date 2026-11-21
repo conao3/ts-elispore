@@ -1,0 +1,18 @@
+{
+  "id": 316322893,
+  "name": "replrep/ll-debug",
+  "description": "Low level printf debugging for emacs",
+  "url": "https://github.com/replrep/ll-debug",
+  "stars": 8,
+  "updated": "2021-10-02T10:31:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ll-debug",
+    "fetcher": "github",
+    "repo": "replrep/ll-debug"
+  }
+}

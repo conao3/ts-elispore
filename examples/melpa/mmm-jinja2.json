@@ -1,0 +1,18 @@
+{
+  "id": 80294835,
+  "name": "glynnforrest/mmm-jinja2",
+  "description": "Emacs MMM submode class for Jinja2 Templates",
+  "url": "https://github.com/glynnforrest/mmm-jinja2",
+  "stars": 9,
+  "updated": "2022-01-05T06:36:30Z",
+  "archived": false,
+  "topics": ["emacs", "jinja2", "mmm-jinja2"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mmm-jinja2",
+    "fetcher": "github",
+    "repo": "glynnforrest/mmm-jinja2"
+  }
+}

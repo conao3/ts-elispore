@@ -1,0 +1,18 @@
+{
+  "id": 747800544,
+  "name": "douo/magit-gptcommit",
+  "description": "Magit commit with help of gpt ",
+  "url": "https://github.com/douo/magit-gptcommit",
+  "stars": 116,
+  "updated": "2026-05-30T23:39:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-gptcommit",
+    "fetcher": "github",
+    "repo": "douo/magit-gptcommit"
+  }
+}

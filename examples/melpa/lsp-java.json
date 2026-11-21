@@ -1,0 +1,28 @@
+{
+  "id": 88609809,
+  "name": "emacs-lsp/lsp-java",
+  "description": "lsp-mode :heart: java",
+  "url": "https://github.com/emacs-lsp/lsp-java",
+  "stars": 696,
+  "updated": "2026-06-19T08:38:05Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-lsp",
+    "java",
+    "jdt-server",
+    "lsp",
+    "lsp-java",
+    "spring-boot",
+    "spring-initializr"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-java",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-java",
+    "files": "(:defaults \"icons\")"
+  }
+}

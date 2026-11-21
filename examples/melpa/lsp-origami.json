@@ -1,0 +1,18 @@
+{
+  "id": 174818916,
+  "name": "emacs-lsp/lsp-origami",
+  "description": "lsp-mode :heart: origami.el",
+  "url": "https://github.com/emacs-lsp/lsp-origami",
+  "stars": 50,
+  "updated": "2026-06-18T17:27:16Z",
+  "archived": false,
+  "topics": ["emacs", "helm", "lsp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-origami",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-origami"
+  }
+}

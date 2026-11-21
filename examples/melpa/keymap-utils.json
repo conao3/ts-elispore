@@ -1,0 +1,18 @@
+{
+  "id": 128928,
+  "name": "tarsius/keymap-utils",
+  "description": "Emacs keymap utilities",
+  "url": "https://github.com/tarsius/keymap-utils",
+  "stars": 11,
+  "updated": "2026-10-01T16:18:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "keymap-utils",
+    "fetcher": "github",
+    "repo": "tarsius/keymap-utils"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 39350815,
+  "name": "domtronn/jpop.el",
+  "description": "A minor project framework I created for emacs",
+  "url": "https://github.com/domtronn/jpop.el",
+  "stars": 11,
+  "updated": "2017-04-10T12:50:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jpop",
+    "fetcher": "github",
+    "repo": "domtronn/jpop.el",
+    "files": "(:defaults \"create-file-alist.py\")"
+  }
+}

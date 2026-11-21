@@ -1,0 +1,18 @@
+{
+  "id": 228546231,
+  "name": "BonfaceKilz/ob-elm",
+  "description": "Org-Babel support for evaluating Elm code",
+  "url": "https://github.com/BonfaceKilz/ob-elm",
+  "stars": 5,
+  "updated": "2020-05-28T18:57:47Z",
+  "archived": false,
+  "topics": ["elm", "elm-repl", "emacs", "emacs-lisp", "org", "org-babel", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-elm",
+    "fetcher": "github",
+    "repo": "BonfaceKilz/ob-elm"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 31007693,
+  "name": "purcell/list-unicode-display",
+  "description": "Search for and list unicode characters in Emacs",
+  "url": "https://github.com/purcell/list-unicode-display",
+  "stars": 17,
+  "updated": "2026-06-19T11:58:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "list-unicode-display",
+    "fetcher": "github",
+    "repo": "purcell/list-unicode-display"
+  }
+}

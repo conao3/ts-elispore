@@ -1,0 +1,18 @@
+{
+  "id": 3349326,
+  "name": "samvtran/kolon-mode",
+  "description": "kolon-mode - Syntax highlighting for Perl Text::Xslate templates using the kolon syntax",
+  "url": "https://github.com/samvtran/kolon-mode",
+  "stars": 6,
+  "updated": "2014-01-22T11:34:39Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kolon-mode",
+    "fetcher": "github",
+    "repo": "samvtran/kolon-mode"
+  }
+}

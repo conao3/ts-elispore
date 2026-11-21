@@ -1,0 +1,18 @@
+{
+  "id": 264424678,
+  "name": "ianyepan/jetbrains-darcula-emacs-theme",
+  "description": "A complete port of the default JetBrains Darcula theme for Emacs",
+  "url": "https://github.com/ianyepan/jetbrains-darcula-emacs-theme",
+  "stars": 63,
+  "updated": "2023-02-23T19:01:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jetbrains-darcula-theme",
+    "fetcher": "github",
+    "repo": "ianyepan/jetbrains-darcula-emacs-theme"
+  }
+}

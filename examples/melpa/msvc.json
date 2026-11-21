@@ -1,0 +1,19 @@
+{
+  "id": 13180740,
+  "name": "yaruopooner/msvc",
+  "description": "Microsoft Visual C/C++ Mode for EMACS",
+  "url": "https://github.com/yaruopooner/msvc",
+  "stars": 26,
+  "updated": "2022-10-15T16:13:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "msvc",
+    "fetcher": "github",
+    "repo": "yaruopooner/msvc",
+    "files": "(:defaults \"*.cpp\" \"*.bat\" \"*.vcxproj\")"
+  }
+}

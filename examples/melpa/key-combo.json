@@ -1,0 +1,18 @@
+{
+  "id": 1569131,
+  "name": "uk-ar/key-combo",
+  "description": "emacs plugin:enhanced smartchr",
+  "url": "https://github.com/uk-ar/key-combo",
+  "stars": 51,
+  "updated": "2023-03-23T08:29:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "key-combo",
+    "fetcher": "github",
+    "repo": "uk-ar/key-combo"
+  }
+}

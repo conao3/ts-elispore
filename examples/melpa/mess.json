@@ -1,0 +1,18 @@
+{
+  "id": 651052294,
+  "name": "Iacob/mess.el",
+  "description": "MESS(MAME) Emacs Front-end",
+  "url": "https://github.com/Iacob/mess.el",
+  "stars": 0,
+  "updated": "2023-07-18T15:33:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mess",
+    "fetcher": "github",
+    "repo": "Iacob/mess.el"
+  }
+}

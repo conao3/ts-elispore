@@ -1,0 +1,18 @@
+{
+  "id": 159893815,
+  "name": "seanfarley/message-view-patch",
+  "description": "Colorize patch emails in mu4e and gnus",
+  "url": "https://github.com/seanfarley/message-view-patch",
+  "stars": 18,
+  "updated": "2021-09-06T18:46:36Z",
+  "archived": false,
+  "topics": ["emacs", "gnus", "mu4e"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "message-view-patch",
+    "fetcher": "github",
+    "repo": "seanfarley/message-view-patch"
+  }
+}

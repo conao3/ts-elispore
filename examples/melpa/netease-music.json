@@ -1,0 +1,18 @@
+{
+  "id": 120051437,
+  "name": "nicehiro/netease-music",
+  "description": "NetEase Music Library for Emacs.",
+  "url": "https://github.com/nicehiro/netease-music",
+  "stars": 54,
+  "updated": "2021-04-11T06:03:33Z",
+  "archived": false,
+  "topics": ["emacs", "music", "netease-cloud-music"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "netease-music",
+    "fetcher": "github",
+    "repo": "nicehiro/netease-music"
+  }
+}

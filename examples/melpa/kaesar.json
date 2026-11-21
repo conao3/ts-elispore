@@ -1,0 +1,19 @@
+{
+  "id": 12218488,
+  "name": "mhayashi1120/Emacs-kaesar",
+  "description": "Another AES algorithm encrypt/decrypt string with password.",
+  "url": "https://github.com/mhayashi1120/Emacs-kaesar",
+  "stars": 8,
+  "updated": "2023-06-26T23:14:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kaesar",
+    "fetcher": "github",
+    "repo": "mhayashi1120/Emacs-kaesar",
+    "files": "(\"kaesar.el\")"
+  }
+}

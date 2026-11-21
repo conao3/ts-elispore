@@ -1,0 +1,18 @@
+{
+  "id": 468666165,
+  "name": "gsingh93/ob-bitfield",
+  "description": "Generate bitfield diagrams using org-babel",
+  "url": "https://github.com/gsingh93/ob-bitfield",
+  "stars": 15,
+  "updated": "2022-04-01T06:22:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-bitfield",
+    "fetcher": "github",
+    "repo": "gsingh93/ob-bitfield"
+  }
+}

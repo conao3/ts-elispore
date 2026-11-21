@@ -1,0 +1,18 @@
+{
+  "id": 1244364216,
+  "name": "klochowicz/mise-tasks.el",
+  "description": "Run mise tasks from Emacs — discovery, execution, cancellation via compilation-mode",
+  "url": "https://github.com/klochowicz/mise-tasks.el",
+  "stars": 5,
+  "updated": "2026-07-06T01:20:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mise-tasks",
+    "fetcher": "github",
+    "repo": "klochowicz/mise-tasks.el"
+  }
+}

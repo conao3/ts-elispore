@@ -1,0 +1,19 @@
+{
+  "id": 1330354,
+  "name": "mhayashi1120/Emacs-langtool",
+  "description": "LanguageTool for Emacs",
+  "url": "https://github.com/mhayashi1120/Emacs-langtool",
+  "stars": 396,
+  "updated": "2024-12-06T13:11:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "langtool",
+    "fetcher": "github",
+    "repo": "mhayashi1120/Emacs-langtool",
+    "files": "(\"langtool.el\")"
+  }
+}

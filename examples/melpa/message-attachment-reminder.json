@@ -1,0 +1,18 @@
+{
+  "id": 256503345,
+  "name": "alexmurray/message-attachment-reminder",
+  "description": "",
+  "url": "https://github.com/alexmurray/message-attachment-reminder",
+  "stars": 4,
+  "updated": "2023-01-24T05:20:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "message-attachment-reminder",
+    "fetcher": "github",
+    "repo": "alexmurray/message-attachment-reminder"
+  }
+}

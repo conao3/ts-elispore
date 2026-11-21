@@ -1,0 +1,18 @@
+{
+  "id": 158304156,
+  "name": "DarwinAwardWinner/emacs-named-timer",
+  "description": "Simplified timer management for Emacs Lisp",
+  "url": "https://github.com/DarwinAwardWinner/emacs-named-timer",
+  "stars": 9,
+  "updated": "2021-02-06T16:54:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "named-timer",
+    "fetcher": "github",
+    "repo": "DarwinAwardWinner/emacs-named-timer"
+  }
+}

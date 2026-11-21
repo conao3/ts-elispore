@@ -1,0 +1,18 @@
+{
+  "id": 1079168737,
+  "name": "bbw9n/magit-browse-commit",
+  "description": "Browse the pull request of commit in magit-blame lines",
+  "url": "https://github.com/bbw9n/magit-browse-commit",
+  "stars": 0,
+  "updated": "2026-04-12T14:14:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-browse-commit",
+    "fetcher": "github",
+    "repo": "bbw9n/magit-browse-commit"
+  }
+}

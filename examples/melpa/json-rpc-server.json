@@ -1,0 +1,18 @@
+{
+  "id": 188045152,
+  "name": "jcaw/json-rpc-server.el",
+  "description": "🔌 Server-side implementation of the JSON-RPC 2.0 protocol for Emacs.",
+  "url": "https://github.com/jcaw/json-rpc-server.el",
+  "stars": 12,
+  "updated": "2022-02-05T15:08:45Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "http-server", "json-rpc", "remote-procedure-calls"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "json-rpc-server",
+    "fetcher": "github",
+    "repo": "jcaw/json-rpc-server.el"
+  }
+}

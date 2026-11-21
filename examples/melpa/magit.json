@@ -1,0 +1,19 @@
+{
+  "id": 655492,
+  "name": "magit/magit",
+  "description": "It's Magit! A Git Porcelain inside Emacs.",
+  "url": "https://github.com/magit/magit",
+  "stars": 7261,
+  "updated": "2026-11-21T11:42:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "magit",
+    "fetcher": "github",
+    "repo": "magit/magit",
+    "files": "(\"lisp/magit*.el\"\n         \"lisp/git-*.el\"\n         \"docs/magit.texi\"\n         \"docs/AUTHORS.md\"\n         \"LICENSE\"\n         \".dir-locals.el\"\n         (\"githooks\" \"githooks/*\")\n         (:exclude \"lisp/magit-section.el\"))"
+  }
+}

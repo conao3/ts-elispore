@@ -1,0 +1,18 @@
+{
+  "id": 530391790,
+  "name": "easimonenko/mybuild-mode",
+  "description": "GNU Emacs major mode for editing Mybuild files from Embox operating system.",
+  "url": "https://github.com/easimonenko/mybuild-mode",
+  "stars": 4,
+  "updated": "2022-10-07T19:55:12Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode", "embox", "os", "syntax-highlighting"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mybuild-mode",
+    "fetcher": "github",
+    "repo": "easimonenko/mybuild-mode"
+  }
+}

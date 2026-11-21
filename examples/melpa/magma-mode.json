@@ -1,0 +1,19 @@
+{
+  "id": 15779607,
+  "name": "ThibautVerron/magma-mode",
+  "description": "An emacs major-mode for editing magma files",
+  "url": "https://github.com/ThibautVerron/magma-mode",
+  "stars": 5,
+  "updated": "2021-10-18T09:27:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magma-mode",
+    "fetcher": "github",
+    "repo": "ThibautVerron/magma-mode",
+    "files": "(\"*.el\"\n         \"snippets\"\n         (\"data\" \"data/magma_symbols.txt\")\n         (\"bin\" \"bin/build_completion_table.sh\"))"
+  }
+}

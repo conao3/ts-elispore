@@ -1,0 +1,18 @@
+{
+  "id": 682330287,
+  "name": "JonathanHope/mermaid-ts-mode",
+  "description": "Emacs Major Mode for Mermaid Using Tree Sitter",
+  "url": "https://github.com/JonathanHope/mermaid-ts-mode",
+  "stars": 30,
+  "updated": "2025-08-03T02:05:00Z",
+  "archived": false,
+  "topics": ["emacs", "mermaidjs", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mermaid-ts-mode",
+    "fetcher": "github",
+    "repo": "JonathanHope/mermaid-ts-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 144931709,
+  "name": "Boruch-Baum/emacs-keypress-multi-event",
+  "description": "emacs: perform different actions when repeating a key",
+  "url": "https://github.com/Boruch-Baum/emacs-keypress-multi-event",
+  "stars": 2,
+  "updated": "2025-03-13T16:48:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "keypress-multi-event",
+    "fetcher": "github",
+    "repo": "Boruch-Baum/emacs-keypress-multi-event"
+  }
+}

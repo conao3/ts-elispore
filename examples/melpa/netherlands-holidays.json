@@ -1,0 +1,18 @@
+{
+  "id": 30195957,
+  "name": "abo-abo/netherlands-holidays",
+  "description": "Netherlands holidays for Emacs calendar ",
+  "url": "https://github.com/abo-abo/netherlands-holidays",
+  "stars": 4,
+  "updated": "2021-06-04T03:20:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "netherlands-holidays",
+    "fetcher": "github",
+    "repo": "abo-abo/netherlands-holidays"
+  }
+}

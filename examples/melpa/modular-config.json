@@ -1,0 +1,18 @@
+{
+  "id": 267573257,
+  "name": "SidharthArya/modular-config.el",
+  "description": "Organize your emacs config into small manageable modules",
+  "url": "https://github.com/SidharthArya/modular-config.el",
+  "stars": 27,
+  "updated": "2021-07-27T15:14:28Z",
+  "archived": false,
+  "topics": ["emacs", "startup"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "modular-config",
+    "fetcher": "github",
+    "repo": "SidharthArya/modular-config.el"
+  }
+}

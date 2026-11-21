@@ -1,0 +1,18 @@
+{
+  "id": 133151175,
+  "name": "calancha/multi-replace",
+  "description": "",
+  "url": "https://github.com/calancha/multi-replace",
+  "stars": 5,
+  "updated": "2018-05-27T12:04:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mqr",
+    "fetcher": "github",
+    "repo": "calancha/multi-replace"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 746215177,
+  "name": "moonbit-community/moonbit-ts-mode",
+  "description": "[UNOFFICIAL] Emacs mode for MoonBit",
+  "url": "https://github.com/moonbit-community/moonbit-ts-mode",
+  "stars": 5,
+  "updated": "2026-10-04T05:07:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "moonbit-ts-mode",
+    "fetcher": "github",
+    "repo": "moonbit-community/moonbit-ts-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 35485953,
+  "name": "pekingduck/launchctl-el",
+  "description": "An Emacs major mode for managing launchd jobs",
+  "url": "https://github.com/pekingduck/launchctl-el",
+  "stars": 14,
+  "updated": "2021-06-11T22:43:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "launchctl",
+    "fetcher": "github",
+    "repo": "pekingduck/launchctl-el"
+  }
+}

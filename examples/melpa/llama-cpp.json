@@ -1,0 +1,18 @@
+{
+  "id": 688364091,
+  "name": "kurnevsky/llama-cpp.el",
+  "description": "A client for llama-cpp server",
+  "url": "https://github.com/kurnevsky/llama-cpp.el",
+  "stars": 28,
+  "updated": "2024-05-11T10:40:11Z",
+  "archived": false,
+  "topics": ["ai", "emacs", "llama", "llm"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "llama-cpp",
+    "fetcher": "github",
+    "repo": "kurnevsky/llama-cpp.el"
+  }
+}

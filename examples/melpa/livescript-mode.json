@@ -1,0 +1,18 @@
+{
+  "id": 6246387,
+  "name": "yhisamatsu/livescript-mode",
+  "description": "Major mode for editing LiveScript",
+  "url": "https://github.com/yhisamatsu/livescript-mode",
+  "stars": 11,
+  "updated": "2022-10-15T13:29:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "livescript-mode",
+    "fetcher": "github",
+    "repo": "yhisamatsu/livescript-mode"
+  }
+}

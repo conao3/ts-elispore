@@ -1,0 +1,19 @@
+{
+  "id": 9253665,
+  "name": "ryuslash/mode-icons",
+  "description": "Show icons instead of mode names",
+  "url": "https://github.com/ryuslash/mode-icons",
+  "stars": 160,
+  "updated": "2023-09-11T00:20:49Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "emacs-packages", "gui", "icons", "mode-line"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mode-icons",
+    "fetcher": "github",
+    "repo": "ryuslash/mode-icons",
+    "files": "(\"*.el\" \"icons\")"
+  }
+}

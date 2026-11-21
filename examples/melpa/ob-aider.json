@@ -1,0 +1,18 @@
+{
+  "id": 941187527,
+  "name": "localredhead/ob-aider.el",
+  "description": "",
+  "url": "https://github.com/localredhead/ob-aider.el",
+  "stars": 27,
+  "updated": "2025-03-25T19:19:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-aider",
+    "fetcher": "github",
+    "repo": "localredhead/ob-aider.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 21779576,
+  "name": "Malabarba/names",
+  "description": "A Namespace implementation for Emacs-Lisp",
+  "url": "https://github.com/Malabarba/names",
+  "stars": 255,
+  "updated": "2024-07-16T09:07:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "names",
+    "fetcher": "github",
+    "repo": "Malabarba/names"
+  }
+}

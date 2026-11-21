@@ -1,0 +1,18 @@
+{
+  "id": 410909184,
+  "name": "babashka/neil",
+  "description": "A CLI to add common aliases and features to deps.edn-based projects",
+  "url": "https://github.com/babashka/neil",
+  "stars": 473,
+  "updated": "2026-10-27T12:09:28Z",
+  "archived": false,
+  "topics": ["babashka", "clojure", "deps-edn"],
+  "license": "MIT",
+  "language": "Clojure",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "neil",
+    "fetcher": "github",
+    "repo": "babashka/neil"
+  }
+}

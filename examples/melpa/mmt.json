@@ -1,0 +1,18 @@
+{
+  "id": 39245042,
+  "name": "mrkkrp/mmt",
+  "description": "Missing macro tools for Emacs Lisp",
+  "url": "https://github.com/mrkkrp/mmt",
+  "stars": 17,
+  "updated": "2026-08-02T09:50:33Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "macros"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mmt",
+    "fetcher": "github",
+    "repo": "mrkkrp/mmt"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 462292786,
+  "name": "Melchizedek6809/morgentau-theme",
+  "description": "Simple, dark Emacs Theme",
+  "url": "https://github.com/Melchizedek6809/morgentau-theme",
+  "stars": 2,
+  "updated": "2026-01-06T03:04:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "morgentau-theme",
+    "fetcher": "github",
+    "repo": "Melchizedek6809/morgentau-theme"
+  }
+}

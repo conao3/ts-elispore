@@ -1,0 +1,18 @@
+{
+  "id": 492579587,
+  "name": "SamuelBanya/morrowind-theme",
+  "description": "Morrowind menu style color theme for Emacs, Nerevar approved",
+  "url": "https://github.com/SamuelBanya/morrowind-theme",
+  "stars": 7,
+  "updated": "2023-09-12T04:06:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "morrowind-theme",
+    "fetcher": "github",
+    "repo": "SamuelBanya/morrowind-theme"
+  }
+}

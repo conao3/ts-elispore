@@ -1,0 +1,18 @@
+{
+  "id": 457217701,
+  "name": "emacs-twist/nix3.el",
+  "description": "Emacs interface to experimental commands of Nix",
+  "url": "https://github.com/emacs-twist/nix3.el",
+  "stars": 29,
+  "updated": "2026-11-14T15:48:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "LGPL-2.1",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "nix3",
+    "fetcher": "github",
+    "repo": "emacs-twist/nix3.el"
+  }
+}

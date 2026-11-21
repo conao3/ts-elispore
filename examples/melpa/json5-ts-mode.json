@@ -1,0 +1,18 @@
+{
+  "id": 985979941,
+  "name": "dochang/json5-ts-mode",
+  "description": "A Emacs tree-sitter major mode for editing JSON5 files",
+  "url": "https://github.com/dochang/json5-ts-mode",
+  "stars": 2,
+  "updated": "2026-08-09T12:07:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "json5-ts-mode",
+    "fetcher": "github",
+    "repo": "dochang/json5-ts-mode"
+  }
+}

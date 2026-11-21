@@ -1,0 +1,18 @@
+{
+  "id": 133412463,
+  "name": "DamienCassou/libelcouch",
+  "description": "  Emacs library to communicate with CouchDB databases",
+  "url": "https://github.com/DamienCassou/libelcouch",
+  "stars": 1,
+  "updated": "2023-09-03T18:03:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "libelcouch",
+    "fetcher": "github",
+    "repo": "DamienCassou/libelcouch"
+  }
+}

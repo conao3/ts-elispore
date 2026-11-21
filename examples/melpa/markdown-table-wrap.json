@@ -1,0 +1,18 @@
+{
+  "id": 1171152696,
+  "name": "dnouri/markdown-table-wrap",
+  "description": "Emacs package to word-wrap GFM pipe tables to fit a given character width",
+  "url": "https://github.com/dnouri/markdown-table-wrap",
+  "stars": 5,
+  "updated": "2026-08-06T10:14:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "markdown-table-wrap",
+    "fetcher": "github",
+    "repo": "dnouri/markdown-table-wrap"
+  }
+}

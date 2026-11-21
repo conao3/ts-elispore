@@ -1,0 +1,18 @@
+{
+  "id": 1001477080,
+  "name": "kmontag/macher",
+  "description": "Project-aware multi-file LLM editing for Emacs, based on gptel.",
+  "url": "https://github.com/kmontag/macher",
+  "stars": 163,
+  "updated": "2026-11-07T18:35:09Z",
+  "archived": false,
+  "topics": ["emacs", "gptel", "llm"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "macher",
+    "fetcher": "github",
+    "repo": "kmontag/macher"
+  }
+}

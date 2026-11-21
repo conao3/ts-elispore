@@ -1,0 +1,18 @@
+{
+  "id": 986438,
+  "name": "ajc/nginx-mode",
+  "description": "Emacs editing mode for Nginx config files",
+  "url": "https://github.com/ajc/nginx-mode",
+  "stars": 101,
+  "updated": "2024-04-12T04:03:00Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "nginx"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nginx-mode",
+    "fetcher": "github",
+    "repo": "ajc/nginx-mode"
+  }
+}

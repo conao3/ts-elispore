@@ -1,0 +1,19 @@
+{
+  "id": 618564783,
+  "name": "minad/jinx",
+  "description": "🪄 Enchanted Spell Checker",
+  "url": "https://github.com/minad/jinx",
+  "stars": 679,
+  "updated": "2026-09-26T09:12:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jinx",
+    "fetcher": "github",
+    "repo": "minad/jinx",
+    "files": "(:defaults \"jinx-mod.c\" \"emacs-module.h\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1351037448,
+  "name": "kickingvegas/mdired",
+  "description": "Run SIMD-style operations on marked Emacs Dired items.",
+  "url": "https://github.com/kickingvegas/mdired",
+  "stars": 3,
+  "updated": "2026-11-01T21:06:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mdired",
+    "fetcher": "github",
+    "repo": "kickingvegas/mdired"
+  }
+}

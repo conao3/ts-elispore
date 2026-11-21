@@ -1,0 +1,18 @@
+{
+  "id": 191838459,
+  "name": "HenryNewcomer/laguna-theme",
+  "description": "An Emacs theme that's easy on the eyes while focusing on importance.",
+  "url": "https://github.com/HenryNewcomer/laguna-theme",
+  "stars": 14,
+  "updated": "2022-08-04T02:28:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "laguna-theme",
+    "fetcher": "github",
+    "repo": "HenryNewcomer/laguna-theme"
+  }
+}

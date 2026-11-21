@@ -1,0 +1,30 @@
+{
+  "id": 4332096,
+  "name": "donkirkby/live-py-plugin",
+  "description": "Live coding in Python with PyCharm, Emacs, Sublime Text, or even a browser",
+  "url": "https://github.com/donkirkby/live-py-plugin",
+  "stars": 303,
+  "updated": "2026-11-07T13:43:33Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-mode",
+    "gnu-emacs",
+    "live-coding",
+    "livecode",
+    "livecoding",
+    "pycharm",
+    "pycharm-plugin",
+    "python",
+    "sublime-text"
+  ],
+  "license": "MIT",
+  "language": "Python",
+  "ownerType": "User",
+  "melpa": {
+    "name": "live-py-mode",
+    "fetcher": "github",
+    "repo": "donkirkby/live-py-plugin",
+    "files": "(\"emacs-live-py-mode/live-py-mode.el\" \"plugin/PySrc/*\")"
+  }
+}

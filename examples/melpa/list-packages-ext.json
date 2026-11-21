@@ -1,0 +1,18 @@
+{
+  "id": 13124291,
+  "name": "laynor/list-packages-ext",
+  "description": "",
+  "url": "https://github.com/laynor/list-packages-ext",
+  "stars": 2,
+  "updated": "2015-11-15T17:16:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "list-packages-ext",
+    "fetcher": "github",
+    "repo": "laynor/list-packages-ext"
+  }
+}

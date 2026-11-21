@@ -1,0 +1,19 @@
+{
+  "id": 9474098,
+  "name": "for-GET/know-your-http-well",
+  "description": "HTTP headers, media-types, methods, relations and status codes, all summarized and linking to their specification.",
+  "url": "https://github.com/for-GET/know-your-http-well",
+  "stars": 2443,
+  "updated": "2024-07-26T17:07:31Z",
+  "archived": false,
+  "topics": ["emacs", "http", "http-header", "http-method", "http-status-code", "json"],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "know-your-http-well",
+    "fetcher": "github",
+    "repo": "for-GET/know-your-http-well",
+    "files": "(\"emacs/*.el\")"
+  }
+}

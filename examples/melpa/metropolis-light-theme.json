@@ -1,0 +1,18 @@
+{
+  "id": 1141638277,
+  "name": "bitorhugo/metropolis-light-theme",
+  "description": "A light Emacs theme based on the Metropolis (mtheme) Beamer color palette.",
+  "url": "https://github.com/bitorhugo/metropolis-light-theme",
+  "stars": 0,
+  "updated": "2026-09-06T20:56:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "metropolis-light-theme",
+    "fetcher": "github",
+    "repo": "bitorhugo/metropolis-light-theme"
+  }
+}

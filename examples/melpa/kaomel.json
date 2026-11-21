@@ -1,0 +1,18 @@
+{
+  "id": 668328605,
+  "name": "gicrisf/kaomel",
+  "description": "A snappy kaomoji picker for Emacs.",
+  "url": "https://github.com/gicrisf/kaomel",
+  "stars": 8,
+  "updated": "2026-06-15T13:04:27Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "kaomoji"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kaomel",
+    "fetcher": "github",
+    "repo": "gicrisf/kaomel"
+  }
+}

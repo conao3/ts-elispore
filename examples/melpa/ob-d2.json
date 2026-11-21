@@ -1,0 +1,18 @@
+{
+  "id": 582416412,
+  "name": "xcapaldi/ob-d2",
+  "description": "Org-Babel support for evaluating d2 diagram scripting language ",
+  "url": "https://github.com/xcapaldi/ob-d2",
+  "stars": 42,
+  "updated": "2026-09-23T04:33:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-d2",
+    "fetcher": "github",
+    "repo": "xcapaldi/ob-d2"
+  }
+}

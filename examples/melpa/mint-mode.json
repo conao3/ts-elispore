@@ -1,0 +1,19 @@
+{
+  "id": 157512668,
+  "name": "creatorrr/emacs-mint-mode",
+  "description": "Emacs major mode for mint lang",
+  "url": "https://github.com/creatorrr/emacs-mint-mode",
+  "stars": 15,
+  "updated": "2022-11-05T17:20:53Z",
+  "archived": false,
+  "topics": ["emacs", "mint-lang", "syntax-highlighting"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mint-mode",
+    "fetcher": "github",
+    "repo": "creatorrr/emacs-mint-mode",
+    "files": "(:defaults \"tokens\")"
+  }
+}

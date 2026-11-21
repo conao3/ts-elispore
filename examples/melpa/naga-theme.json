@@ -1,0 +1,18 @@
+{
+  "id": 505094327,
+  "name": "kenranunderscore/emacs-naga-theme",
+  "description": "A modern-but-retro dark theme for Emacs, with green foreground color",
+  "url": "https://github.com/kenranunderscore/emacs-naga-theme",
+  "stars": 12,
+  "updated": "2026-04-22T10:17:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "naga-theme",
+    "fetcher": "github",
+    "repo": "kenranunderscore/emacs-naga-theme"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 100855155,
+  "name": "purcell/lively",
+  "description": "Live-evaluated emacs lisp snippets",
+  "url": "https://github.com/purcell/lively",
+  "stars": 6,
+  "updated": "2026-04-22T12:49:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lively",
+    "fetcher": "github",
+    "repo": "purcell/lively"
+  }
+}

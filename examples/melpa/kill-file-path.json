@@ -1,0 +1,18 @@
+{
+  "id": 574454793,
+  "name": "chyla/kill-file-path",
+  "description": "Emacs package to copy file name into kill ring",
+  "url": "https://github.com/chyla/kill-file-path",
+  "stars": 5,
+  "updated": "2023-03-06T10:44:35Z",
+  "archived": false,
+  "topics": ["copy", "emacs", "file", "name"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kill-file-path",
+    "fetcher": "github",
+    "repo": "chyla/kill-file-path"
+  }
+}

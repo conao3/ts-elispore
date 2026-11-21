@@ -1,0 +1,18 @@
+{
+  "id": 977171613,
+  "name": "calsys456/lisp-semantic-hl.el",
+  "description": "Semantic Syntax Highlighting for Common Lisp & Elisp in Emacs, based on the informations of the global Lisp environment",
+  "url": "https://github.com/calsys456/lisp-semantic-hl.el",
+  "stars": 21,
+  "updated": "2026-02-23T06:42:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lisp-semantic-hl",
+    "fetcher": "github",
+    "repo": "calsys456/lisp-semantic-hl.el"
+  }
+}

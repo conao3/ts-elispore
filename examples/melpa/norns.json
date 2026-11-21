@@ -1,0 +1,18 @@
+{
+  "id": 456243298,
+  "name": "p3r7/norns.el",
+  "description": "monome norns interactive development for Emacs",
+  "url": "https://github.com/p3r7/norns.el",
+  "stars": 11,
+  "updated": "2024-10-11T12:12:58Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-package", "monome", "monome-norns", "norns", "repl"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "norns",
+    "fetcher": "github",
+    "repo": "p3r7/norns.el"
+  }
+}

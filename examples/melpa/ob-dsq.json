@@ -1,0 +1,18 @@
+{
+  "id": 472509531,
+  "name": "fritzgrabo/ob-dsq",
+  "description": "Emacs: Babel functions for the `dsq` CLI tool by Multiprocess Labs",
+  "url": "https://github.com/fritzgrabo/ob-dsq",
+  "stars": 38,
+  "updated": "2022-09-15T16:11:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-dsq",
+    "fetcher": "github",
+    "repo": "fritzgrabo/ob-dsq"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 5721783,
+  "name": "nicferrier/emacs-kv",
+  "description": "Key/Value collection type functions: for alists, hashtables and plists. Useful stuff.",
+  "url": "https://github.com/nicferrier/emacs-kv",
+  "stars": 50,
+  "updated": "2023-09-10T21:18:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kv",
+    "fetcher": "github",
+    "repo": "nicferrier/emacs-kv"
+  }
+}

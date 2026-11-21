@@ -1,0 +1,18 @@
+{
+  "id": 81145647,
+  "name": "choppsv1/emacs-mandm-theme",
+  "description": "M&Ms (the candy) color zenburn derivative ",
+  "url": "https://github.com/choppsv1/emacs-mandm-theme",
+  "stars": 4,
+  "updated": "2026-10-12T07:17:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mandm-theme",
+    "fetcher": "github",
+    "repo": "choppsv1/emacs-mandm-theme"
+  }
+}

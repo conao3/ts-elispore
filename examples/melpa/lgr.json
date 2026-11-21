@@ -1,0 +1,19 @@
+{
+  "id": 612294370,
+  "name": "Fuco1/emacs-lgr",
+  "description": "A fully featured logging framework for Emacs",
+  "url": "https://github.com/Fuco1/emacs-lgr",
+  "stars": 28,
+  "updated": "2026-11-09T09:02:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lgr",
+    "fetcher": "github",
+    "repo": "Fuco1/emacs-lgr",
+    "files": "(\"lgr.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 27125312,
+  "name": "nlamirault/marcopolo",
+  "description": "An Emacs client to the Docker registry / Hub API",
+  "url": "https://github.com/nlamirault/marcopolo",
+  "stars": 7,
+  "updated": "2022-01-14T14:42:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "marcopolo",
+    "fetcher": "github",
+    "repo": "nlamirault/marcopolo"
+  }
+}

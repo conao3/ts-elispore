@@ -1,0 +1,18 @@
+{
+  "id": 142712399,
+  "name": "manojm321/kapacitor-el",
+  "description": "Magit like interface for Kapacitor",
+  "url": "https://github.com/manojm321/kapacitor-el",
+  "stars": 9,
+  "updated": "2019-04-14T19:11:17Z",
+  "archived": false,
+  "topics": ["emacs", "kapacitor", "magit"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kapacitor",
+    "fetcher": "github",
+    "repo": "manojm321/kapacitor-el"
+  }
+}

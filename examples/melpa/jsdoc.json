@@ -1,0 +1,18 @@
+{
+  "id": 346145158,
+  "name": "isamert/jsdoc.el",
+  "description": "Insert JSDoc comments easily with Emacs",
+  "url": "https://github.com/isamert/jsdoc.el",
+  "stars": 29,
+  "updated": "2025-08-31T18:57:02Z",
+  "archived": false,
+  "topics": ["emacs", "javascript", "jsdoc"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jsdoc",
+    "fetcher": "github",
+    "repo": "isamert/jsdoc.el"
+  }
+}

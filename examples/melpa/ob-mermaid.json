@@ -1,0 +1,18 @@
+{
+  "id": 134326942,
+  "name": "arnm/ob-mermaid",
+  "description": "Generate mermaid diagrams within Emacs org-mode babel",
+  "url": "https://github.com/arnm/ob-mermaid",
+  "stars": 356,
+  "updated": "2026-03-23T05:59:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Shell",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-mermaid",
+    "fetcher": "github",
+    "repo": "arnm/ob-mermaid"
+  }
+}

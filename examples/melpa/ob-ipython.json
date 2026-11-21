@@ -1,0 +1,19 @@
+{
+  "id": 36989545,
+  "name": "gregsexton/ob-ipython",
+  "description": "org-babel integration with Jupyter for evaluation of (Python by default) code blocks",
+  "url": "https://github.com/gregsexton/ob-ipython",
+  "stars": 740,
+  "updated": "2026-11-08T21:06:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-ipython",
+    "fetcher": "github",
+    "repo": "gregsexton/ob-ipython",
+    "files": "(:defaults \"*.py\")"
+  }
+}

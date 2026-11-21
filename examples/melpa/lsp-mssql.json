@@ -1,0 +1,19 @@
+{
+  "id": 225228014,
+  "name": "emacs-lsp/lsp-mssql",
+  "description": "lsp-mode :heart: MSSQL Server",
+  "url": "https://github.com/emacs-lsp/lsp-mssql",
+  "stars": 39,
+  "updated": "2026-06-19T08:36:55Z",
+  "archived": false,
+  "topics": ["emacs-lsp", "lsp", "mssql", "sql"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-mssql",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-mssql",
+    "files": "(:defaults \"images\" \"snippets\")"
+  }
+}

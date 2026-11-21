@@ -1,0 +1,18 @@
+{
+  "id": 348461348,
+  "name": "AnselmC/le-thesaurus.el",
+  "description": "Emacs package to query thesaurus.com for synonyms of a given word.",
+  "url": "https://github.com/AnselmC/le-thesaurus.el",
+  "stars": 23,
+  "updated": "2024-12-29T19:50:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "le-thesaurus",
+    "fetcher": "github",
+    "repo": "AnselmC/le-thesaurus.el"
+  }
+}

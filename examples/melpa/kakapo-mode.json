@@ -1,0 +1,18 @@
+{
+  "id": 24808130,
+  "name": "listx/kakapo-mode",
+  "description": "",
+  "url": "https://github.com/listx/kakapo-mode",
+  "stars": 6,
+  "updated": "2018-04-10T04:27:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kakapo-mode",
+    "fetcher": "github",
+    "repo": "listx/kakapo-mode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 21509539,
+  "name": "pyluyten/emacs-nu",
+  "description": "Emacs for human beings (extended CUA mode)",
+  "url": "https://github.com/pyluyten/emacs-nu",
+  "stars": 27,
+  "updated": "2026-09-13T19:24:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nu-mode",
+    "fetcher": "github",
+    "repo": "pyluyten/emacs-nu",
+    "files": "(\"nu-mode/nu-*.el\" \"doc/nu-mode.info\")"
+  }
+}

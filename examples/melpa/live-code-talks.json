@@ -1,0 +1,18 @@
+{
+  "id": 29007387,
+  "name": "david-christiansen/live-code-talks",
+  "description": "An Emacs package to highlight special comments for in-buffer slide-shows.",
+  "url": "https://github.com/david-christiansen/live-code-talks",
+  "stars": 4,
+  "updated": "2018-09-07T16:47:46Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "live-code-talks",
+    "fetcher": "github",
+    "repo": "david-christiansen/live-code-talks"
+  }
+}

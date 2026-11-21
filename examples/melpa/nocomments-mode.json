@@ -1,0 +1,18 @@
+{
+  "id": 72238805,
+  "name": "Lindydancer/nocomments-mode",
+  "description": "Make comments invisible in Emacs",
+  "url": "https://github.com/Lindydancer/nocomments-mode",
+  "stars": 12,
+  "updated": "2025-01-03T18:44:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nocomments-mode",
+    "fetcher": "github",
+    "repo": "Lindydancer/nocomments-mode"
+  }
+}

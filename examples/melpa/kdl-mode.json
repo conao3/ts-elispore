@@ -1,0 +1,18 @@
+{
+  "id": 973409010,
+  "name": "taquangtrung/emacs-kdl-mode",
+  "description": "Emacs major mode for editing files in the KDL document language",
+  "url": "https://github.com/taquangtrung/emacs-kdl-mode",
+  "stars": 16,
+  "updated": "2026-10-02T06:47:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kdl-mode",
+    "fetcher": "github",
+    "repo": "taquangtrung/emacs-kdl-mode"
+  }
+}

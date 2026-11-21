@@ -1,0 +1,38 @@
+{
+  "id": 1098274630,
+  "name": "jamescherti/kirigami.el",
+  "description": "kirigami.el, a unified method to fold and unfold text in Emacs: outline, outline-indent, org-mode, markdown-mode, gfm-mode, vdiff, hideshow, fold-this, ts-fold, treesit-fold, vimish-fold...",
+  "url": "https://github.com/jamescherti/kirigami.el",
+  "stars": 182,
+  "updated": "2026-11-17T03:08:45Z",
+  "archived": false,
+  "topics": [
+    "code-folding",
+    "emacs",
+    "folding",
+    "gfm-mode",
+    "hideshow",
+    "hs-minor-mode",
+    "markdown-mode",
+    "org-mode",
+    "origami-mode",
+    "outline",
+    "outline-indent-minor-mode",
+    "outline-minor-mode",
+    "outline-mode",
+    "outlining",
+    "treesit-fold-mode",
+    "ts-fold-mode",
+    "vdiff-3way-mode",
+    "vdiff-mode",
+    "vimish-fold-mode"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kirigami",
+    "fetcher": "github",
+    "repo": "jamescherti/kirigami.el"
+  }
+}

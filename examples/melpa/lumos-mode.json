@@ -1,0 +1,29 @@
+{
+  "id": 1102690852,
+  "name": "getlumos/lumos-mode",
+  "description": "Emacs major mode for LUMOS schema language",
+  "url": "https://github.com/getlumos/lumos-mode",
+  "stars": 1,
+  "updated": "2026-07-14T20:36:36Z",
+  "archived": false,
+  "topics": [
+    "blockchain",
+    "emacs",
+    "emacs-lisp",
+    "language-server-protocol",
+    "lsp",
+    "lumos",
+    "major-mode",
+    "schema-language",
+    "solana",
+    "syntax-highlighting"
+  ],
+  "license": "Apache-2.0",
+  "language": "Shell",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lumos-mode",
+    "fetcher": "github",
+    "repo": "getlumos/lumos-mode"
+  }
+}

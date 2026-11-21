@@ -1,0 +1,18 @@
+{
+  "id": 121950883,
+  "name": "mpdel/libmpdel",
+  "description": "Emacs library to communicate with Music Player Daemon (MPD)",
+  "url": "https://github.com/mpdel/libmpdel",
+  "stars": 12,
+  "updated": "2025-09-22T09:39:22Z",
+  "archived": false,
+  "topics": ["emacs-package", "mpd", "mpd-client", "music-player"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "libmpdel",
+    "fetcher": "github",
+    "repo": "mpdel/libmpdel"
+  }
+}

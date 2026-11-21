@@ -1,0 +1,18 @@
+{
+  "id": 1126229284,
+  "name": "941design/emacs-nostr-publish",
+  "description": "Publish Markdown long-form articles to Nostr from Emacs using NIP-23 and NIP-46.",
+  "url": "https://github.com/941design/emacs-nostr-publish",
+  "stars": 1,
+  "updated": "2026-02-23T09:59:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Python",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nostr-publish",
+    "fetcher": "github",
+    "repo": "941design/emacs-nostr-publish"
+  }
+}

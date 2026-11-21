@@ -1,0 +1,19 @@
+{
+  "id": 1418662,
+  "name": "immerrr/lua-mode",
+  "description": "Emacs major mode for editing Lua",
+  "url": "https://github.com/immerrr/lua-mode",
+  "stars": 343,
+  "updated": "2025-03-10T11:50:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lua-mode",
+    "fetcher": "github",
+    "repo": "immerrr/lua-mode",
+    "files": "(:defaults (:exclude \"init-tryout.el\"))"
+  }
+}

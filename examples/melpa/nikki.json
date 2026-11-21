@@ -1,0 +1,18 @@
+{
+  "id": 336975916,
+  "name": "th994/nikki",
+  "description": "A simple emacs diary mode",
+  "url": "https://github.com/th994/nikki",
+  "stars": 2,
+  "updated": "2021-02-28T11:21:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nikki",
+    "fetcher": "github",
+    "repo": "th994/nikki"
+  }
+}

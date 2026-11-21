@@ -1,0 +1,18 @@
+{
+  "id": 129925098,
+  "name": "jiahaoli95/lines-at-once.el",
+  "description": "Insert and edit multiple lines at once in Emacs",
+  "url": "https://github.com/jiahaoli95/lines-at-once.el",
+  "stars": 7,
+  "updated": "2020-08-24T14:31:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lines-at-once",
+    "fetcher": "github",
+    "repo": "jiahaoli95/lines-at-once.el"
+  }
+}

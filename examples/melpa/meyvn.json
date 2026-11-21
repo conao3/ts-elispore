@@ -1,0 +1,18 @@
+{
+  "id": 239744026,
+  "name": "danielsz/meyvn-el",
+  "description": "This package provides an Emacs client for the Meyvn build tool, https://meyvn.org",
+  "url": "https://github.com/danielsz/meyvn-el",
+  "stars": 5,
+  "updated": "2026-06-11T03:56:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "meyvn",
+    "fetcher": "github",
+    "repo": "danielsz/meyvn-el"
+  }
+}

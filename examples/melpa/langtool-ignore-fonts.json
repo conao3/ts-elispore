@@ -1,0 +1,19 @@
+{
+  "id": 339250716,
+  "name": "cjrl/langtool-ignore-fonts",
+  "description": "Force Emacs Langtool to ignore certain fonts. For example, this can be used to prevent langtool from highlighting LaTeX in math-mode.",
+  "url": "https://github.com/cjrl/langtool-ignore-fonts",
+  "stars": 12,
+  "updated": "2021-05-31T22:38:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "langtool-ignore-fonts",
+    "fetcher": "github",
+    "repo": "cjrl/langtool-ignore-fonts",
+    "files": "(:defaults (:exclude \"doc/*\"))"
+  }
+}

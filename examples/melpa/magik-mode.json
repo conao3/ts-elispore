@@ -1,0 +1,19 @@
+{
+  "id": 146754210,
+  "name": "roadrunner1776/magik",
+  "description": "Emacs major mode for Smallworld Magik files",
+  "url": "https://github.com/roadrunner1776/magik",
+  "stars": 17,
+  "updated": "2026-11-02T11:00:10Z",
+  "archived": false,
+  "topics": ["emacs-mode", "magik"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magik-mode",
+    "fetcher": "github",
+    "repo": "roadrunner1776/magik",
+    "files": "(:defaults \"snippets\")"
+  }
+}

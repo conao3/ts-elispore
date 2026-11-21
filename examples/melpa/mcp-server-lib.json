@@ -1,0 +1,19 @@
+{
+  "id": 971763685,
+  "name": "laurynas-biveinis/mcp-server-lib.el",
+  "description": "Emacs Lisp implementation of the Model Context Protocol",
+  "url": "https://github.com/laurynas-biveinis/mcp-server-lib.el",
+  "stars": 52,
+  "updated": "2026-10-05T12:41:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mcp-server-lib",
+    "fetcher": "github",
+    "repo": "laurynas-biveinis/mcp-server-lib.el",
+    "files": "(:defaults \"emacs-mcp-stdio.sh\")"
+  }
+}

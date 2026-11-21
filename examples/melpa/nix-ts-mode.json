@@ -1,0 +1,18 @@
+{
+  "id": 660619336,
+  "name": "nix-community/nix-ts-mode",
+  "description": "An Emacs major mode for editing Nix expressions, powered by tree-sitter [maintainer=@remi-gelinas]",
+  "url": "https://github.com/nix-community/nix-ts-mode",
+  "stars": 77,
+  "updated": "2026-11-06T01:53:48Z",
+  "archived": false,
+  "topics": ["emacs", "nix", "tree-sitter"],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "nix-ts-mode",
+    "fetcher": "github",
+    "repo": "nix-community/nix-ts-mode"
+  }
+}

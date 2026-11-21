@@ -1,0 +1,31 @@
+{
+  "id": 67358067,
+  "name": "AdamNiederer/ng2-mode",
+  "description": "Angular Support for Emacs",
+  "url": "https://github.com/AdamNiederer/ng2-mode",
+  "stars": 75,
+  "updated": "2020-12-03T19:25:26Z",
+  "archived": false,
+  "topics": [
+    "angular",
+    "angular10",
+    "angular11",
+    "angular12",
+    "angular2",
+    "angular4",
+    "angular6",
+    "angular7",
+    "angular8",
+    "angular9",
+    "emacs",
+    "typescript"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ng2-mode",
+    "fetcher": "github",
+    "repo": "AdamNiederer/ng2-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 15252337,
+  "name": "emacsorphanage/literate-coffee-mode",
+  "description": "Major mode for Literate CoffeeScript",
+  "url": "https://github.com/emacsorphanage/literate-coffee-mode",
+  "stars": 6,
+  "updated": "2017-02-11T15:16:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "literate-coffee-mode",
+    "fetcher": "github",
+    "repo": "emacsorphanage/literate-coffee-mode"
+  }
+}

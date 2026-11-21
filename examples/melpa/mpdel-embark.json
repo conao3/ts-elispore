@@ -1,0 +1,18 @@
+{
+  "id": 511186151,
+  "name": "mpdel/mpdel-embark",
+  "description": "Integrate Emacs package mpdel with embark",
+  "url": "https://github.com/mpdel/mpdel-embark",
+  "stars": 3,
+  "updated": "2023-01-03T20:22:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "mpdel-embark",
+    "fetcher": "github",
+    "repo": "mpdel/mpdel-embark"
+  }
+}

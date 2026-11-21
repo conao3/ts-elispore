@@ -1,0 +1,18 @@
+{
+  "id": 58567179,
+  "name": "caffo/monotropic-theme",
+  "description": "(Almost) monochromatic theme for emacs.",
+  "url": "https://github.com/caffo/monotropic-theme",
+  "stars": 61,
+  "updated": "2021-11-16T13:28:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "monotropic-theme",
+    "fetcher": "github",
+    "repo": "caffo/monotropic-theme"
+  }
+}

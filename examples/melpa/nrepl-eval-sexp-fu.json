@@ -1,0 +1,18 @@
+{
+  "id": 5811790,
+  "name": "samaaron/nrepl-eval-sexp-fu",
+  "description": "eval-sexp-fu.el modified for use with nrepl",
+  "url": "https://github.com/samaaron/nrepl-eval-sexp-fu",
+  "stars": 6,
+  "updated": "2020-10-07T23:11:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nrepl-eval-sexp-fu",
+    "fetcher": "github",
+    "repo": "samaaron/nrepl-eval-sexp-fu"
+  }
+}

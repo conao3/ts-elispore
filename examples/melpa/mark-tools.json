@@ -1,0 +1,18 @@
+{
+  "id": 7097052,
+  "name": "stsquad/emacs-mark-tools",
+  "description": "A simple library for navigating the global and local mark rings in Emacs",
+  "url": "https://github.com/stsquad/emacs-mark-tools",
+  "stars": 12,
+  "updated": "2013-06-14T11:31:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mark-tools",
+    "fetcher": "github",
+    "repo": "stsquad/emacs-mark-tools"
+  }
+}

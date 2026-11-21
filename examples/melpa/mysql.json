@@ -1,0 +1,18 @@
+{
+  "id": 1202472650,
+  "name": "LuciusChen/mysql.el",
+  "description": "Pure Elisp MySQL wire protocol client for Emacs ",
+  "url": "https://github.com/LuciusChen/mysql.el",
+  "stars": 3,
+  "updated": "2026-11-19T12:12:50Z",
+  "archived": false,
+  "topics": ["database", "emacs", "emacs-lisp", "mysql", "wire-protocol"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mysql",
+    "fetcher": "github",
+    "repo": "LuciusChen/mysql.el"
+  }
+}

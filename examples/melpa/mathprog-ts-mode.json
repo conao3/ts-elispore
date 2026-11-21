@@ -1,0 +1,18 @@
+{
+  "id": 1138310028,
+  "name": "smoeding/mathprog-ts-mode",
+  "description": "Emacs major mode with tree-sitter support for GNU MathProg ",
+  "url": "https://github.com/smoeding/mathprog-ts-mode",
+  "stars": 0,
+  "updated": "2026-02-25T15:57:10Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode", "glpk", "mathprog", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mathprog-ts-mode",
+    "fetcher": "github",
+    "repo": "smoeding/mathprog-ts-mode"
+  }
+}
