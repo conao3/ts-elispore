@@ -1,0 +1,18 @@
+{
+  "id": 36506261,
+  "name": "xml-rpc-el/xml-rpc-el",
+  "description": "An elisp implementation of clientside XML-RPC",
+  "url": "https://github.com/xml-rpc-el/xml-rpc-el",
+  "stars": 8,
+  "updated": "2026-06-19T05:27:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "xml-rpc",
+    "fetcher": "github",
+    "repo": "xml-rpc-el/xml-rpc-el"
+  }
+}

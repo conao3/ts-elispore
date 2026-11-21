@@ -1,0 +1,18 @@
+{
+  "id": 55278474,
+  "name": "j-em/xo-emacs",
+  "description": "",
+  "url": "https://github.com/j-em/xo-emacs",
+  "stars": 12,
+  "updated": "2016-04-03T06:46:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xo",
+    "fetcher": "github",
+    "repo": "j-em/xo-emacs"
+  }
+}

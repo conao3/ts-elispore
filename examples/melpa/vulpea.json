@@ -1,0 +1,18 @@
+{
+  "id": 325341225,
+  "name": "d12frosted/vulpea",
+  "description": "Database layer for org-mode notes with async indexing, rich queries, backlink discovery, and external change detection. Scales to 100k+ notes.",
+  "url": "https://github.com/d12frosted/vulpea",
+  "stars": 476,
+  "updated": "2026-11-16T12:57:14Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "note-taking", "org-mode", "org-roam", "vulpea"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vulpea",
+    "fetcher": "github",
+    "repo": "d12frosted/vulpea"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1400196,
+  "name": "sshirokov/ZNC.el",
+  "description": "Make ERC and ZNC get along more goodest.",
+  "url": "https://github.com/sshirokov/ZNC.el",
+  "stars": 57,
+  "updated": "2022-08-03T16:15:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "znc",
+    "fetcher": "github",
+    "repo": "sshirokov/ZNC.el"
+  }
+}

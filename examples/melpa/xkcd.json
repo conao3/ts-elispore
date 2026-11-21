@@ -1,0 +1,18 @@
+{
+  "id": 16144050,
+  "name": "vibhavp/emacs-xkcd",
+  "description": "Read xkcd from Emacs",
+  "url": "https://github.com/vibhavp/emacs-xkcd",
+  "stars": 117,
+  "updated": "2022-05-03T11:09:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xkcd",
+    "fetcher": "github",
+    "repo": "vibhavp/emacs-xkcd"
+  }
+}

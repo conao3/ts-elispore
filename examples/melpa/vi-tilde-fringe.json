@@ -1,0 +1,18 @@
+{
+  "id": 25847820,
+  "name": "syl20bnr/vi-tilde-fringe",
+  "description": "Display tildes on empty lines in the Emacs fringe a la Vi.",
+  "url": "https://github.com/syl20bnr/vi-tilde-fringe",
+  "stars": 31,
+  "updated": "2018-09-01T15:39:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vi-tilde-fringe",
+    "fetcher": "github",
+    "repo": "syl20bnr/vi-tilde-fringe"
+  }
+}

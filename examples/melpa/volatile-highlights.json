@@ -1,0 +1,18 @@
+{
+  "id": 1017828,
+  "name": "k-talo/volatile-highlights.el",
+  "description": "Transient visual feedback for edits in Emacs. STATUS: *STABLE*",
+  "url": "https://github.com/k-talo/volatile-highlights.el",
+  "stars": 154,
+  "updated": "2026-03-15T11:09:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "volatile-highlights",
+    "fetcher": "github",
+    "repo": "k-talo/volatile-highlights.el"
+  }
+}

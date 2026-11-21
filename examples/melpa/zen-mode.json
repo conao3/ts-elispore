@@ -1,0 +1,18 @@
+{
+  "id": 228839620,
+  "name": "zenlang/zen-mode",
+  "description": "Syntax highlighting and automatic indentation for the Zen in Emacs. Requires Emacs 24 or later.",
+  "url": "https://github.com/zenlang/zen-mode",
+  "stars": 0,
+  "updated": "2020-06-09T08:23:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "zen-mode",
+    "fetcher": "github",
+    "repo": "zenlang/zen-mode"
+  }
+}

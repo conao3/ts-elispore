@@ -1,0 +1,19 @@
+{
+  "id": 555058697,
+  "name": "gmlarumbe/vhdl-ext",
+  "description": "VHDL Extensions for Emacs",
+  "url": "https://github.com/gmlarumbe/vhdl-ext",
+  "stars": 37,
+  "updated": "2026-11-18T11:22:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vhdl-ext",
+    "fetcher": "github",
+    "repo": "gmlarumbe/vhdl-ext",
+    "files": "(:defaults \"snippets\" \"langserver\")"
+  }
+}

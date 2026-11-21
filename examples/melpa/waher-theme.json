@@ -1,0 +1,18 @@
+{
+  "id": 12477559,
+  "name": "emacsfodder/emacs-waher-theme",
+  "description": "Waher theme for emacs, based on dd-waher by dduckster for Sublime Text 2",
+  "url": "https://github.com/emacsfodder/emacs-waher-theme",
+  "stars": 8,
+  "updated": "2014-11-15T12:30:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "waher-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-waher-theme"
+  }
+}

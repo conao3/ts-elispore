@@ -1,0 +1,18 @@
+{
+  "id": 726401404,
+  "name": "zonuexe/emacs-wiz",
+  "description": "Macros to simplify Emacs startup initialization",
+  "url": "https://github.com/zonuexe/emacs-wiz",
+  "stars": 7,
+  "updated": "2025-01-07T21:34:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wiz",
+    "fetcher": "github",
+    "repo": "zonuexe/emacs-wiz"
+  }
+}

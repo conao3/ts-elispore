@@ -1,0 +1,18 @@
+{
+  "id": 996491460,
+  "name": "countvajhula/virtual-ring",
+  "description": "Fixed size rings with virtual rotation",
+  "url": "https://github.com/countvajhula/virtual-ring",
+  "stars": 3,
+  "updated": "2025-11-05T01:00:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "virtual-ring",
+    "fetcher": "github",
+    "repo": "countvajhula/virtual-ring"
+  }
+}

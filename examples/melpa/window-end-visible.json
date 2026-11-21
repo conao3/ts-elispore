@@ -1,0 +1,18 @@
+{
+  "id": 5500294,
+  "name": "rolandwalker/window-end-visible",
+  "description": "Find the last visible point in an Emacs window",
+  "url": "https://github.com/rolandwalker/window-end-visible",
+  "stars": 5,
+  "updated": "2014-08-04T19:23:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "window-end-visible",
+    "fetcher": "github",
+    "repo": "rolandwalker/window-end-visible"
+  }
+}

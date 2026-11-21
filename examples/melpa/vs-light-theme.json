@@ -1,0 +1,34 @@
+{
+  "id": 225370130,
+  "name": "emacs-vs/vs-light-theme",
+  "description": "Visual Studio IDE light theme",
+  "url": "https://github.com/emacs-vs/vs-light-theme",
+  "stars": 15,
+  "updated": "2026-06-19T17:18:38Z",
+  "archived": false,
+  "topics": [
+    "color",
+    "customize",
+    "elisp",
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "emacs-plugin",
+    "ide",
+    "light",
+    "light-theme",
+    "lisp",
+    "package",
+    "plugin",
+    "theme",
+    "visual-studio"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "vs-light-theme",
+    "fetcher": "github",
+    "repo": "emacs-vs/vs-light-theme"
+  }
+}

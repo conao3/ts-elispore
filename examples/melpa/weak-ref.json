@@ -1,0 +1,18 @@
+{
+  "id": 7214683,
+  "name": "skeeto/elisp-weak-ref",
+  "description": "Weak references for Emacs Lisp",
+  "url": "https://github.com/skeeto/elisp-weak-ref",
+  "stars": 7,
+  "updated": "2020-02-17T22:01:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "weak-ref",
+    "fetcher": "github",
+    "repo": "skeeto/elisp-weak-ref"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 64618063,
+  "name": "spebern/www-synonyms",
+  "description": "get synonyms for many different languages in emacs",
+  "url": "https://github.com/spebern/www-synonyms",
+  "stars": 2,
+  "updated": "2017-01-28T22:44:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "www-synonyms",
+    "fetcher": "github",
+    "repo": "spebern/www-synonyms"
+  }
+}

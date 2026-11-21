@@ -1,0 +1,18 @@
+{
+  "id": 63627120,
+  "name": "xquery-mode/xquery-mode",
+  "description": "A major mode for editing xquery programs",
+  "url": "https://github.com/xquery-mode/xquery-mode",
+  "stars": 5,
+  "updated": "2021-06-03T13:25:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "XQuery",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "xquery-mode",
+    "fetcher": "github",
+    "repo": "xquery-mode/xquery-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 51669984,
+  "name": "sh-ow/vhdl-capf",
+  "description": "Emacs completion at point function (capf) for vhdl-mode.",
+  "url": "https://github.com/sh-ow/vhdl-capf",
+  "stars": 1,
+  "updated": "2018-10-28T09:16:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vhdl-capf",
+    "fetcher": "github",
+    "repo": "sh-ow/vhdl-capf"
+  }
+}

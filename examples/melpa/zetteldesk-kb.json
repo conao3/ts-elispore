@@ -1,0 +1,19 @@
+{
+  "id": 456211884,
+  "name": "Vidianos-Giannitsis/zetteldesk.el",
+  "description": "Zetteldesk.el is an emacs library built on top of org-roam with the purpose of easier revision on various subjects and a better outliner tool for emacs",
+  "url": "https://github.com/Vidianos-Giannitsis/zetteldesk.el",
+  "stars": 129,
+  "updated": "2025-04-05T16:02:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zetteldesk-kb",
+    "fetcher": "github",
+    "repo": "Vidianos-Giannitsis/zetteldesk.el",
+    "files": "(\"zetteldesk-kb.el\")"
+  }
+}

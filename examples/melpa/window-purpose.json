@@ -1,0 +1,19 @@
+{
+  "id": 30235496,
+  "name": "bmag/emacs-purpose",
+  "description": "Manage Windows and Buffers According to Purposes",
+  "url": "https://github.com/bmag/emacs-purpose",
+  "stars": 501,
+  "updated": "2024-12-07T01:48:50Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "window-purpose",
+    "fetcher": "github",
+    "repo": "bmag/emacs-purpose",
+    "files": "(:defaults \"layouts\")"
+  }
+}

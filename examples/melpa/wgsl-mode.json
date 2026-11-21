@@ -1,0 +1,18 @@
+{
+  "id": 337626476,
+  "name": "acowley/wgsl-mode",
+  "description": "Emacs syntax highlighting for the WebGPU Shading Language (WGSL)",
+  "url": "https://github.com/acowley/wgsl-mode",
+  "stars": 19,
+  "updated": "2023-11-18T19:44:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wgsl-mode",
+    "fetcher": "github",
+    "repo": "acowley/wgsl-mode"
+  }
+}

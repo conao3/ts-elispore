@@ -1,0 +1,19 @@
+{
+  "id": 100736639,
+  "name": "emacsmirror/wanderlust",
+  "description": "Yet Another Message Interface on Emacsen",
+  "url": "https://github.com/emacsmirror/wanderlust",
+  "stars": 2,
+  "updated": "2025-11-02T21:10:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "wanderlust",
+    "fetcher": "github",
+    "repo": "emacsmirror/wanderlust",
+    "files": "(\"doc/wl.texi\"\n         \"doc/wl-ja.texi\"\n         \"elmo/*.el\"\n         \"wl/*.el\"\n         \"etc/icons\"\n         (:exclude\n          \"elmo/elmo-database.el\"\n          \"elmo/utf7.el\"\n          \"wl/wl-dnd.el\"\n          \"wl/wl-mule.el\"\n          \"wl/wl-xmas.el\"))"
+  }
+}

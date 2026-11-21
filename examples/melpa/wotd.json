@@ -1,0 +1,18 @@
+{
+  "id": 85017669,
+  "name": "cute-jumper/emacs-word-of-the-day",
+  "description": "Show \"Word of the Day\" from 15 online sources in Emacs",
+  "url": "https://github.com/cute-jumper/emacs-word-of-the-day",
+  "stars": 1,
+  "updated": "2017-03-28T19:49:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wotd",
+    "fetcher": "github",
+    "repo": "cute-jumper/emacs-word-of-the-day"
+  }
+}

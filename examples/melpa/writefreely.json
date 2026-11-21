@@ -1,0 +1,18 @@
+{
+  "id": 158036107,
+  "name": "dangom/writefreely.el",
+  "description": "*Frictionless* blogging with Org Mode. No setup required.",
+  "url": "https://github.com/dangom/writefreely.el",
+  "stars": 109,
+  "updated": "2024-12-22T19:14:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "writefreely",
+    "fetcher": "github",
+    "repo": "dangom/writefreely.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 2932398,
+  "name": "hsjunnesson/wolfram.el",
+  "description": "Wolfram Alpha integration",
+  "url": "https://github.com/hsjunnesson/wolfram.el",
+  "stars": 77,
+  "updated": "2023-12-20T19:50:58Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "melpa", "wolfram-alpha"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wolfram",
+    "fetcher": "github",
+    "repo": "hsjunnesson/wolfram.el"
+  }
+}

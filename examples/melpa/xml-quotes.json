@@ -1,0 +1,18 @@
+{
+  "id": 33101627,
+  "name": "ndw/xml-quotes",
+  "description": "Emacs macros for generating quotations from an XML document",
+  "url": "https://github.com/ndw/xml-quotes",
+  "stars": 3,
+  "updated": "2020-03-01T12:22:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xml-quotes",
+    "fetcher": "github",
+    "repo": "ndw/xml-quotes"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 836300,
+  "name": "bnbeckwith/writegood-mode",
+  "description": "Minor mode for Emacs to improve English writing",
+  "url": "https://github.com/bnbeckwith/writegood-mode",
+  "stars": 502,
+  "updated": "2022-12-14T04:23:39Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "writegood-mode",
+    "fetcher": "github",
+    "repo": "bnbeckwith/writegood-mode"
+  }
+}

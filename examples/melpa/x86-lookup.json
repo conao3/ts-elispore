@@ -1,0 +1,18 @@
+{
+  "id": 45273336,
+  "name": "skeeto/x86-lookup",
+  "description": "Quickly jump to x86 documentation from Emacs",
+  "url": "https://github.com/skeeto/x86-lookup",
+  "stars": 58,
+  "updated": "2024-08-23T11:35:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "x86-lookup",
+    "fetcher": "github",
+    "repo": "skeeto/x86-lookup"
+  }
+}

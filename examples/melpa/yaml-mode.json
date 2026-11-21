@@ -1,0 +1,18 @@
+{
+  "id": 180606,
+  "name": "yoshiki/yaml-mode",
+  "description": "The emacs major mode for editing files in the YAML data serialization format.",
+  "url": "https://github.com/yoshiki/yaml-mode",
+  "stars": 522,
+  "updated": "2026-08-30T23:40:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yaml-mode",
+    "fetcher": "github",
+    "repo": "yoshiki/yaml-mode"
+  }
+}

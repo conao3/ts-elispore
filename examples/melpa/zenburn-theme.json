@@ -1,0 +1,18 @@
+{
+  "id": 922251,
+  "name": "bbatsov/zenburn-emacs",
+  "description": "The Zenburn colour theme ported to Emacs",
+  "url": "https://github.com/bbatsov/zenburn-emacs",
+  "stars": 1085,
+  "updated": "2026-09-01T15:45:00Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-theme", "zenburn"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zenburn-theme",
+    "fetcher": "github",
+    "repo": "bbatsov/zenburn-emacs"
+  }
+}

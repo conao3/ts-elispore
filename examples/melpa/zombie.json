@@ -1,0 +1,18 @@
+{
+  "id": 27491325,
+  "name": "zk-phi/zombie",
+  "description": "Major mode for editing ZOMBIE programs",
+  "url": "https://github.com/zk-phi/zombie",
+  "stars": 2,
+  "updated": "2014-12-22T16:16:04Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zombie",
+    "fetcher": "github",
+    "repo": "zk-phi/zombie"
+  }
+}

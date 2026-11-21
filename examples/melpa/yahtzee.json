@@ -1,0 +1,18 @@
+{
+  "id": 90311809,
+  "name": "drdv/yahtzee",
+  "description": "The Yahtzee game",
+  "url": "https://github.com/drdv/yahtzee",
+  "stars": 5,
+  "updated": "2025-07-28T12:47:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yahtzee",
+    "fetcher": "github",
+    "repo": "drdv/yahtzee"
+  }
+}

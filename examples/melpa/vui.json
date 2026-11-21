@@ -1,0 +1,18 @@
+{
+  "id": 1104851953,
+  "name": "d12frosted/vui.el",
+  "description": "Declarative, component-based UI library for Emacs. React-like components with state, hooks, reconciliation, and layouts - rendered using native Emacs widgets.",
+  "url": "https://github.com/d12frosted/vui.el",
+  "stars": 253,
+  "updated": "2026-11-16T14:10:13Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "react-like", "tui", "ui", "uikit", "widgets"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vui",
+    "fetcher": "github",
+    "repo": "d12frosted/vui.el"
+  }
+}

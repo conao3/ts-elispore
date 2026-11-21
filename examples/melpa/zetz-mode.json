@@ -1,0 +1,18 @@
+{
+  "id": 280592536,
+  "name": "damon-kwok/zetz-mode",
+  "description": ":octopus: An Emacs major mode for the ZetZ programming language. ",
+  "url": "https://github.com/damon-kwok/zetz-mode",
+  "stars": 2,
+  "updated": "2020-08-23T05:37:13Z",
+  "archived": false,
+  "topics": ["emacs-mode", "zetz", "zz"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zetz-mode",
+    "fetcher": "github",
+    "repo": "damon-kwok/zetz-mode"
+  }
+}

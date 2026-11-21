@@ -1,0 +1,18 @@
+{
+  "id": 3126057,
+  "name": "mjsteger/watch-buffer",
+  "description": "Automate running commands after saving buffers!",
+  "url": "https://github.com/mjsteger/watch-buffer",
+  "stars": 13,
+  "updated": "2012-08-30T08:56:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "watch-buffer",
+    "fetcher": "github",
+    "repo": "mjsteger/watch-buffer"
+  }
+}

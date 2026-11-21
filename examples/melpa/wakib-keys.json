@@ -1,0 +1,18 @@
+{
+  "id": 128509678,
+  "name": "darkstego/wakib-keys",
+  "description": "Emacs mode that moves to modern keybindings",
+  "url": "https://github.com/darkstego/wakib-keys",
+  "stars": 64,
+  "updated": "2026-10-28T06:36:38Z",
+  "archived": false,
+  "topics": ["convenience", "cua", "easy", "emacs", "modern"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wakib-keys",
+    "fetcher": "github",
+    "repo": "darkstego/wakib-keys"
+  }
+}

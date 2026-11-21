@@ -1,0 +1,18 @@
+{
+  "id": 50394288,
+  "name": "magit/with-editor",
+  "description": "Use the Emacsclient as the $EDITOR of child processes",
+  "url": "https://github.com/magit/with-editor",
+  "stars": 219,
+  "updated": "2026-11-09T21:54:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "with-editor",
+    "fetcher": "github",
+    "repo": "magit/with-editor"
+  }
+}

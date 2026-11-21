@@ -1,0 +1,19 @@
+{
+  "id": 444056040,
+  "name": "localauthor/zk",
+  "description": "Emacs packages for working with Zettelkasten-style linked notes",
+  "url": "https://github.com/localauthor/zk",
+  "stars": 149,
+  "updated": "2026-07-08T20:49:02Z",
+  "archived": false,
+  "topics": ["notetaking", "zettelkasten"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zk-desktop",
+    "fetcher": "github",
+    "repo": "localauthor/zk",
+    "files": "(\"zk-desktop.el\")"
+  }
+}

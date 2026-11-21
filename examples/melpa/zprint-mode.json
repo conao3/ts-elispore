@@ -1,0 +1,19 @@
+{
+  "id": 155750933,
+  "name": "pesterhazy/zprint-mode.el",
+  "description": "Emacs minor mode for pretty-printing Clojure using zprint",
+  "url": "https://github.com/pesterhazy/zprint-mode.el",
+  "stars": 31,
+  "updated": "2024-06-19T16:39:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zprint-mode",
+    "fetcher": "github",
+    "repo": "pesterhazy/zprint-mode.el",
+    "files": "(:defaults \"bin\")"
+  }
+}

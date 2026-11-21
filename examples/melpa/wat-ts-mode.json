@@ -1,0 +1,18 @@
+{
+  "id": 691421097,
+  "name": "nverno/wat-ts-mode",
+  "description": "Major mode for webassembly wat/wast buffers using tree-sitter",
+  "url": "https://github.com/nverno/wat-ts-mode",
+  "stars": 6,
+  "updated": "2024-01-05T21:16:53Z",
+  "archived": false,
+  "topics": ["emacs", "tree-sitter", "wasm", "wast", "wat"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wat-ts-mode",
+    "fetcher": "github",
+    "repo": "nverno/wat-ts-mode"
+  }
+}

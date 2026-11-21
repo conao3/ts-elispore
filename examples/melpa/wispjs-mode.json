@@ -1,0 +1,18 @@
+{
+  "id": 10312653,
+  "name": "krisajenkins/wispjs-mode",
+  "description": "An Emacs major mode for Wisp - the Lisp -> JavaScript compiler.",
+  "url": "https://github.com/krisajenkins/wispjs-mode",
+  "stars": 13,
+  "updated": "2017-07-20T19:19:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wispjs-mode",
+    "fetcher": "github",
+    "repo": "krisajenkins/wispjs-mode"
+  }
+}

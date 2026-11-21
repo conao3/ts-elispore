@@ -1,0 +1,19 @@
+{
+  "id": 100405544,
+  "name": "xuchunyang/web-search.el",
+  "description": "Web search from Emacs and the terminal",
+  "url": "https://github.com/xuchunyang/web-search.el",
+  "stars": 17,
+  "updated": "2019-06-20T06:03:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "web-search",
+    "fetcher": "github",
+    "repo": "xuchunyang/web-search.el",
+    "files": "(:defaults \"web-search\" \"web-search-completion.bash\")"
+  }
+}

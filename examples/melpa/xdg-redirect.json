@@ -1,0 +1,18 @@
+{
+  "id": 1214434225,
+  "name": "francisco-colaco/xdg-redirect",
+  "description": "",
+  "url": "https://github.com/francisco-colaco/xdg-redirect",
+  "stars": 2,
+  "updated": "2026-10-28T22:46:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xdg-redirect",
+    "fetcher": "github",
+    "repo": "francisco-colaco/xdg-redirect"
+  }
+}

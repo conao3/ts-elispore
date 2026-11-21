@@ -1,0 +1,18 @@
+{
+  "id": 26040738,
+  "name": "promethial/xtest",
+  "description": "Simple Testing With Emacs & ERT",
+  "url": "https://github.com/promethial/xtest",
+  "stars": 17,
+  "updated": "2014-12-14T17:17:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xtest",
+    "fetcher": "github",
+    "repo": "promethial/xtest"
+  }
+}

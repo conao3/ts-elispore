@@ -1,0 +1,19 @@
+{
+  "id": 661946142,
+  "name": "habamax/wildcharm-theme",
+  "description": "Dark and light Emacs themes",
+  "url": "https://github.com/habamax/wildcharm-theme",
+  "stars": 17,
+  "updated": "2023-11-27T07:25:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wildcharm-theme",
+    "fetcher": "github",
+    "repo": "habamax/wildcharm-theme",
+    "files": "(\"wildcharm-theme.el\")"
+  }
+}

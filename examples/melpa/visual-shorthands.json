@@ -1,0 +1,18 @@
+{
+  "id": 1125431001,
+  "name": "gggion/visual-shorthands.el",
+  "description": "Visual abbreviations for symbol prefixes",
+  "url": "https://github.com/gggion/visual-shorthands.el",
+  "stars": 19,
+  "updated": "2026-01-04T22:22:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "visual-shorthands",
+    "fetcher": "github",
+    "repo": "gggion/visual-shorthands.el"
+  }
+}

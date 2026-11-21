@@ -1,0 +1,18 @@
+{
+  "id": 745824652,
+  "name": "SalOrak/whaler.el",
+  "description": "Minimalistic & highly customizable project manager package for Emacs.",
+  "url": "https://github.com/SalOrak/whaler.el",
+  "stars": 12,
+  "updated": "2025-03-10T11:32:25Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "project", "tools", "whaler"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "whaler",
+    "fetcher": "github",
+    "repo": "SalOrak/whaler.el"
+  }
+}

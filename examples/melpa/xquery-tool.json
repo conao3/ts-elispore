@@ -1,0 +1,18 @@
+{
+  "id": 47959179,
+  "name": "paddymcall/xquery-tool.el",
+  "description": "Simplistic interface to saxonb's xquery for emacs.",
+  "url": "https://github.com/paddymcall/xquery-tool.el",
+  "stars": 3,
+  "updated": "2025-04-30T08:01:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xquery-tool",
+    "fetcher": "github",
+    "repo": "paddymcall/xquery-tool.el"
+  }
+}

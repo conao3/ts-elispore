@@ -1,0 +1,18 @@
+{
+  "id": 52822191,
+  "name": "phillord/wide-column",
+  "description": "",
+  "url": "https://github.com/phillord/wide-column",
+  "stars": 1,
+  "updated": "2017-09-25T16:13:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wide-column",
+    "fetcher": "github",
+    "repo": "phillord/wide-column"
+  }
+}

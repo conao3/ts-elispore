@@ -1,0 +1,18 @@
+{
+  "id": 162698686,
+  "name": "alphapapa/yequake",
+  "description": "Drop-down Emacs frames, like Yakuake",
+  "url": "https://github.com/alphapapa/yequake",
+  "stars": 239,
+  "updated": "2024-06-02T23:29:45Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yequake",
+    "fetcher": "github",
+    "repo": "alphapapa/yequake"
+  }
+}

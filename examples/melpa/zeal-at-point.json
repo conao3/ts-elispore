@@ -1,0 +1,18 @@
+{
+  "id": 14802853,
+  "name": "jinzhu/zeal-at-point",
+  "description": "Search the word at point with Zeal (Emacs)",
+  "url": "https://github.com/jinzhu/zeal-at-point",
+  "stars": 179,
+  "updated": "2018-01-31T23:54:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zeal-at-point",
+    "fetcher": "github",
+    "repo": "jinzhu/zeal-at-point"
+  }
+}

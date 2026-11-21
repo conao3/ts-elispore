@@ -1,0 +1,18 @@
+{
+  "id": 1149280656,
+  "name": "smallwat3r/emacs-warm-mode",
+  "description": "A global minor mode that warms all Emacs colors for nighttime coding.",
+  "url": "https://github.com/smallwat3r/emacs-warm-mode",
+  "stars": 4,
+  "updated": "2026-09-06T00:29:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "warm-mode",
+    "fetcher": "github",
+    "repo": "smallwat3r/emacs-warm-mode"
+  }
+}

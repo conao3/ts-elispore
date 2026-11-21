@@ -1,0 +1,18 @@
+{
+  "id": 42344897,
+  "name": "gromnitsky/wordnut",
+  "description": "Emacs major mode interface to WordNet lexical database",
+  "url": "https://github.com/gromnitsky/wordnut",
+  "stars": 51,
+  "updated": "2024-12-29T07:39:24Z",
+  "archived": false,
+  "topics": ["emacs", "wordnet"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wordnut",
+    "fetcher": "github",
+    "repo": "gromnitsky/wordnut"
+  }
+}

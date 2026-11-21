@@ -1,0 +1,18 @@
+{
+  "id": 42837920,
+  "name": "noctuid/vertigo.el",
+  "description": "Jump lines using the home row",
+  "url": "https://github.com/noctuid/vertigo.el",
+  "stars": 31,
+  "updated": "2021-12-24T12:56:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vertigo",
+    "fetcher": "github",
+    "repo": "noctuid/vertigo.el"
+  }
+}

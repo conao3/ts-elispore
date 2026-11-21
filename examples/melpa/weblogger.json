@@ -1,0 +1,18 @@
+{
+  "id": 72363039,
+  "name": "hexmode/weblogger-el",
+  "description": "weblogger.el implements Blogger, MetaWeblog and (hopefully soon) the Atom API weblogging APIs.",
+  "url": "https://github.com/hexmode/weblogger-el",
+  "stars": 2,
+  "updated": "2016-10-30T17:09:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "weblogger",
+    "fetcher": "github",
+    "repo": "hexmode/weblogger-el"
+  }
+}

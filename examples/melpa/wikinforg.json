@@ -1,0 +1,18 @@
+{
+  "id": 295572555,
+  "name": "progfolio/wikinforg",
+  "description": "Org mode wikinfo integration",
+  "url": "https://github.com/progfolio/wikinforg",
+  "stars": 43,
+  "updated": "2026-01-01T17:16:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wikinforg",
+    "fetcher": "github",
+    "repo": "progfolio/wikinforg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1149801455,
+  "name": "mugen-void/vtab",
+  "description": "Emacs minor-mode that displays tab-bar tabs vertically in a side window",
+  "url": "https://github.com/mugen-void/vtab",
+  "stars": 3,
+  "updated": "2026-02-27T04:58:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vtab",
+    "fetcher": "github",
+    "repo": "mugen-void/vtab"
+  }
+}

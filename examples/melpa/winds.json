@@ -1,0 +1,18 @@
+{
+  "id": 256653548,
+  "name": "Javyre/winds.el",
+  "description": "2-Dimensional Emacs window configuration switcher",
+  "url": "https://github.com/Javyre/winds.el",
+  "stars": 12,
+  "updated": "2020-11-21T01:25:07Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "workspace-manager", "workspaces"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "winds",
+    "fetcher": "github",
+    "repo": "Javyre/winds.el"
+  }
+}

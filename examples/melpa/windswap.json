@@ -1,0 +1,18 @@
+{
+  "id": 280964134,
+  "name": "purcell/windswap",
+  "description": "Like Emacs's \"windmove.el\", but swaps buffers while moving",
+  "url": "https://github.com/purcell/windswap",
+  "stars": 24,
+  "updated": "2026-06-19T04:08:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "windswap",
+    "fetcher": "github",
+    "repo": "purcell/windswap"
+  }
+}

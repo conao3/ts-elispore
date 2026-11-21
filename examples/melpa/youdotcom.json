@@ -1,0 +1,18 @@
+{
+  "id": 725377572,
+  "name": "SamuelVanie/youdotcom.el",
+  "description": "Emacs package to talk to the you.com chat api directly inside emacs",
+  "url": "https://github.com/SamuelVanie/youdotcom.el",
+  "stars": 5,
+  "updated": "2024-02-07T18:53:41Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "youdotcom",
+    "fetcher": "github",
+    "repo": "SamuelVanie/youdotcom.el"
+  }
+}

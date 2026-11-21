@@ -1,0 +1,18 @@
+{
+  "id": 570079555,
+  "name": "thechampagne/wren-mode",
+  "description": "Wren mode for Emacs.",
+  "url": "https://github.com/thechampagne/wren-mode",
+  "stars": 1,
+  "updated": "2022-12-27T01:27:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wren-mode",
+    "fetcher": "github",
+    "repo": "thechampagne/wren-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 568370867,
+  "name": "thechampagne/wasp-mode",
+  "description": "Wasp mode for Emacs.",
+  "url": "https://github.com/thechampagne/wasp-mode",
+  "stars": 1,
+  "updated": "2023-04-24T13:07:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wasp-mode",
+    "fetcher": "github",
+    "repo": "thechampagne/wasp-mode"
+  }
+}

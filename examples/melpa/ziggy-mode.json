@@ -1,0 +1,18 @@
+{
+  "id": 1063541104,
+  "name": "dcolazin/ziggy-mode",
+  "description": "Emacs major mode for Ziggy, the data serialization language",
+  "url": "https://github.com/dcolazin/ziggy-mode",
+  "stars": 1,
+  "updated": "2025-10-17T05:28:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ziggy-mode",
+    "fetcher": "github",
+    "repo": "dcolazin/ziggy-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 295570952,
+  "name": "progfolio/wikinfo",
+  "description": "Wikipedia Infobox -> Elisp",
+  "url": "https://github.com/progfolio/wikinfo",
+  "stars": 14,
+  "updated": "2026-01-01T17:15:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wikinfo",
+    "fetcher": "github",
+    "repo": "progfolio/wikinfo"
+  }
+}

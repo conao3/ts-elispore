@@ -1,0 +1,18 @@
+{
+  "id": 28881414,
+  "name": "jmickelin/vim-empty-lines-mode",
+  "description": "Vim-like empty line indicator at end of files for Emacs.",
+  "url": "https://github.com/jmickelin/vim-empty-lines-mode",
+  "stars": 11,
+  "updated": "2016-02-19T19:49:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vim-empty-lines-mode",
+    "fetcher": "github",
+    "repo": "jmickelin/vim-empty-lines-mode"
+  }
+}

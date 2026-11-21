@@ -1,0 +1,18 @@
+{
+  "id": 371498374,
+  "name": "emacsorphanage/which-key-posframe",
+  "description": "Let emacs-which-key use posframe to show its popup. ",
+  "url": "https://github.com/emacsorphanage/which-key-posframe",
+  "stars": 3,
+  "updated": "2023-03-13T18:41:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "which-key-posframe",
+    "fetcher": "github",
+    "repo": "emacsorphanage/which-key-posframe"
+  }
+}

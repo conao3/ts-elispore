@@ -1,0 +1,18 @@
+{
+  "id": 634097,
+  "name": "hron/yari.el",
+  "description": "Yet Another Ri Interface",
+  "url": "https://github.com/hron/yari.el",
+  "stars": 26,
+  "updated": "2025-01-20T08:51:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yari",
+    "fetcher": "github",
+    "repo": "hron/yari.el"
+  }
+}

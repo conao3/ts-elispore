@@ -1,0 +1,18 @@
+{
+  "id": 85950526,
+  "name": "timvisher/vimgolf.el",
+  "description": "VimGolf interface for the One True Editor",
+  "url": "https://github.com/timvisher/vimgolf.el",
+  "stars": 28,
+  "updated": "2024-05-22T23:24:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vimgolf",
+    "fetcher": "github",
+    "repo": "timvisher/vimgolf.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 56632695,
+  "name": "js-emacs/xref-js2",
+  "description": "Jump to references/definitions using ag & js2-mode's AST in Emacs",
+  "url": "https://github.com/js-emacs/xref-js2",
+  "stars": 125,
+  "updated": "2024-05-04T14:49:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "xref-js2",
+    "fetcher": "github",
+    "repo": "js-emacs/xref-js2"
+  }
+}

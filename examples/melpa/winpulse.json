@@ -1,0 +1,18 @@
+{
+  "id": 1154500160,
+  "name": "xenodium/winpulse",
+  "description": "Temporarily highlight focused Emacs windows",
+  "url": "https://github.com/xenodium/winpulse",
+  "stars": 63,
+  "updated": "2026-08-15T19:47:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "winpulse",
+    "fetcher": "github",
+    "repo": "xenodium/winpulse"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 17378018,
+  "name": "abo-abo/worf",
+  "description": "vi-like bindings for org-mode",
+  "url": "https://github.com/abo-abo/worf",
+  "stars": 135,
+  "updated": "2022-01-02T08:35:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "worf",
+    "fetcher": "github",
+    "repo": "abo-abo/worf"
+  }
+}

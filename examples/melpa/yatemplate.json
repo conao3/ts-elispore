@@ -1,0 +1,18 @@
+{
+  "id": 31430251,
+  "name": "mineo/yatemplate",
+  "description": "File templates for Emacs with YASnippet",
+  "url": "https://github.com/mineo/yatemplate",
+  "stars": 71,
+  "updated": "2023-02-12T03:36:04Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "melpa", "template", "yasnippet"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yatemplate",
+    "fetcher": "github",
+    "repo": "mineo/yatemplate"
+  }
+}

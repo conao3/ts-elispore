@@ -1,0 +1,19 @@
+{
+  "id": 447878124,
+  "name": "progfolio/wordel",
+  "description": "Wordle in Emacs",
+  "url": "https://github.com/progfolio/wordel",
+  "stars": 94,
+  "updated": "2026-01-01T17:17:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wordel",
+    "fetcher": "github",
+    "repo": "progfolio/wordel",
+    "files": "(:defaults \"words\")"
+  }
+}

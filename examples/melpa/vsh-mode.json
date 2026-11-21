@@ -1,0 +1,19 @@
+{
+  "id": 73283697,
+  "name": "hardenedapple/vsh",
+  "description": "Store and replay shell sessions -- also output search/modification/undo/redo.",
+  "url": "https://github.com/hardenedapple/vsh",
+  "stars": 23,
+  "updated": "2026-01-04T11:18:40Z",
+  "archived": false,
+  "topics": ["command-line", "debugging-tool", "neovim"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vsh-mode",
+    "fetcher": "github",
+    "repo": "hardenedapple/vsh",
+    "files": "(\"vsh-mode-1.0/vsh-mode.el\"\n         \"vsh-mode-1.0/integration_with_gdb.py\"\n         \"vsh-mode-1.0/vsh_tell_editor_bindings.py\"\n         \"vsh-mode-1.0/vsh_man_pager\"\n         \"vsh-mode-1.0/vsh_shell_start\")"
+  }
+}

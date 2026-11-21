@@ -1,0 +1,18 @@
+{
+  "id": 1113061,
+  "name": "nschum/window-numbering.el",
+  "description": "Emacs: Numbered window shortcuts",
+  "url": "https://github.com/nschum/window-numbering.el",
+  "stars": 167,
+  "updated": "2021-05-29T15:14:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "window-numbering",
+    "fetcher": "github",
+    "repo": "nschum/window-numbering.el"
+  }
+}

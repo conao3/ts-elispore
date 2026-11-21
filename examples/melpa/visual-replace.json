@@ -1,0 +1,18 @@
+{
+  "id": 271843221,
+  "name": "szermatt/visual-replace",
+  "description": "A nicer interface for query-replace on Emacs",
+  "url": "https://github.com/szermatt/visual-replace",
+  "stars": 150,
+  "updated": "2025-09-13T21:03:02Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "query-replace"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "visual-replace",
+    "fetcher": "github",
+    "repo": "szermatt/visual-replace"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 29901692,
+  "name": "Dewdrops/visual-ascii-mode",
+  "description": "Visualize ASCII code on buffer",
+  "url": "https://github.com/Dewdrops/visual-ascii-mode",
+  "stars": 2,
+  "updated": "2015-01-29T10:47:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "visual-ascii-mode",
+    "fetcher": "github",
+    "repo": "Dewdrops/visual-ascii-mode"
+  }
+}

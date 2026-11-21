@@ -1,0 +1,18 @@
+{
+  "id": 57918577,
+  "name": "JorisE/yapfify",
+  "description": "Yapf for Emacs",
+  "url": "https://github.com/JorisE/yapfify",
+  "stars": 41,
+  "updated": "2024-01-31T11:59:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yapfify",
+    "fetcher": "github",
+    "repo": "JorisE/yapfify"
+  }
+}

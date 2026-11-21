@@ -1,0 +1,18 @@
+{
+  "id": 4621633,
+  "name": "genovese/win-switch",
+  "description": "A utility for quickly navigating Emacs windows",
+  "url": "https://github.com/genovese/win-switch",
+  "stars": 27,
+  "updated": "2019-09-07T21:08:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "win-switch",
+    "fetcher": "github",
+    "repo": "genovese/win-switch"
+  }
+}

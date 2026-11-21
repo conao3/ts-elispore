@@ -1,0 +1,18 @@
+{
+  "id": 31053302,
+  "name": "magnars/yesql-ghosts",
+  "description": "Display ghostly yesql defqueries inline, in Emacs",
+  "url": "https://github.com/magnars/yesql-ghosts",
+  "stars": 18,
+  "updated": "2015-02-20T21:37:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yesql-ghosts",
+    "fetcher": "github",
+    "repo": "magnars/yesql-ghosts"
+  }
+}

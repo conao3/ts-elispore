@@ -1,0 +1,18 @@
+{
+  "id": 280554971,
+  "name": "spiderbit/ytdious",
+  "description": "Youtube \"front-end\" for Emacs",
+  "url": "https://github.com/spiderbit/ytdious",
+  "stars": 19,
+  "updated": "2021-10-22T05:50:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ytdious",
+    "fetcher": "github",
+    "repo": "spiderbit/ytdious"
+  }
+}

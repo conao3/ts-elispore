@@ -1,0 +1,18 @@
+{
+  "id": 40347608,
+  "name": "RadekMolenda/yaml-tomato",
+  "description": "Get yaml path under cursor",
+  "url": "https://github.com/RadekMolenda/yaml-tomato",
+  "stars": 8,
+  "updated": "2015-11-23T21:11:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yaml-tomato",
+    "fetcher": "github",
+    "repo": "RadekMolenda/yaml-tomato"
+  }
+}

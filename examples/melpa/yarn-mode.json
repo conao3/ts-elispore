@@ -1,0 +1,18 @@
+{
+  "id": 96688690,
+  "name": "anachronic/yarn-mode",
+  "description": "An emacs major-mode for yarn.lock files",
+  "url": "https://github.com/anachronic/yarn-mode",
+  "stars": 4,
+  "updated": "2020-02-08T23:37:04Z",
+  "archived": false,
+  "topics": ["emacs", "syntax-highlighting", "yarn"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yarn-mode",
+    "fetcher": "github",
+    "repo": "anachronic/yarn-mode"
+  }
+}

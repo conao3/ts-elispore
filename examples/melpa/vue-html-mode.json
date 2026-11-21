@@ -1,0 +1,18 @@
+{
+  "id": 83187894,
+  "name": "AdamNiederer/vue-html-mode",
+  "description": "A major mode for editing vue templates",
+  "url": "https://github.com/AdamNiederer/vue-html-mode",
+  "stars": 25,
+  "updated": "2019-07-19T09:43:00Z",
+  "archived": false,
+  "topics": ["emacs-mode", "template", "vue", "vuejs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vue-html-mode",
+    "fetcher": "github",
+    "repo": "AdamNiederer/vue-html-mode"
+  }
+}

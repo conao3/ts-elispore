@@ -1,0 +1,18 @@
+{
+  "id": 6822727,
+  "name": "binjo/yara-mode",
+  "description": "yara-mode for GNU Emacs",
+  "url": "https://github.com/binjo/yara-mode",
+  "stars": 7,
+  "updated": "2026-07-02T01:53:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yara-mode",
+    "fetcher": "github",
+    "repo": "binjo/yara-mode"
+  }
+}

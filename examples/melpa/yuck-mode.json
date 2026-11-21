@@ -1,0 +1,18 @@
+{
+  "id": 504296614,
+  "name": "mmcjimsey26/yuck-mode",
+  "description": "A minimal Emacs major mode for editing yuck config files.",
+  "url": "https://github.com/mmcjimsey26/yuck-mode",
+  "stars": 22,
+  "updated": "2023-12-31T05:34:04Z",
+  "archived": false,
+  "topics": ["emacs", "eww"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yuck-mode",
+    "fetcher": "github",
+    "repo": "mmcjimsey26/yuck-mode"
+  }
+}

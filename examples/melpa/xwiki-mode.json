@@ -1,0 +1,18 @@
+{
+  "id": 418034300,
+  "name": "ackerleytng/xwiki-mode",
+  "description": "Emacs XWiki mode",
+  "url": "https://github.com/ackerleytng/xwiki-mode",
+  "stars": 6,
+  "updated": "2021-11-14T04:43:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xwiki-mode",
+    "fetcher": "github",
+    "repo": "ackerleytng/xwiki-mode"
+  }
+}

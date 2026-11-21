@@ -1,0 +1,19 @@
+{
+  "id": 1412256594,
+  "name": "isamert/yml.el",
+  "description": "",
+  "url": "https://github.com/isamert/yml.el",
+  "stars": 1,
+  "updated": "2026-11-10T14:50:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yml",
+    "fetcher": "github",
+    "repo": "isamert/yml.el",
+    "files": "(\"yml.el\"\n         \"yml-module-install.el\"\n         \"Cargo.toml\"\n         \"Cargo.lock\"\n         \"src\")"
+  }
+}

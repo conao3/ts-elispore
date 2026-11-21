@@ -1,0 +1,18 @@
+{
+  "id": 177299177,
+  "name": "jixiuf/vterm-toggle",
+  "description": "toggles between the vterm buffer and whatever buffer you are editing.",
+  "url": "https://github.com/jixiuf/vterm-toggle",
+  "stars": 225,
+  "updated": "2026-06-01T16:32:05Z",
+  "archived": false,
+  "topics": ["emacs", "libvterm", "terminal", "vterm"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vterm-toggle",
+    "fetcher": "github",
+    "repo": "jixiuf/vterm-toggle"
+  }
+}

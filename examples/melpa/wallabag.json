@@ -1,0 +1,19 @@
+{
+  "id": 357404204,
+  "name": "chenyanming/wallabag.el",
+  "description": "Emacs wallabag client - A Read It Later/Web Archiving Solution in Emacs.",
+  "url": "https://github.com/chenyanming/wallabag.el",
+  "stars": 144,
+  "updated": "2025-12-26T12:23:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wallabag",
+    "fetcher": "github",
+    "repo": "chenyanming/wallabag.el",
+    "files": "(:defaults \"*.css\" \"*.alist\")"
+  }
+}

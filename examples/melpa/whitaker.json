@@ -1,0 +1,18 @@
+{
+  "id": 17572809,
+  "name": "Fuco1/whitaker",
+  "description": "Comint client for Whitaker's words",
+  "url": "https://github.com/Fuco1/whitaker",
+  "stars": 2,
+  "updated": "2021-02-03T11:49:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "whitaker",
+    "fetcher": "github",
+    "repo": "Fuco1/whitaker"
+  }
+}

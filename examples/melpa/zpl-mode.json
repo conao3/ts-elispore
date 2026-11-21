@@ -1,0 +1,18 @@
+{
+  "id": 140742248,
+  "name": "ax487/zpl-mode",
+  "description": "ZIMPL major mode",
+  "url": "https://github.com/ax487/zpl-mode",
+  "stars": 1,
+  "updated": "2018-09-06T10:59:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zpl-mode",
+    "fetcher": "github",
+    "repo": "ax487/zpl-mode"
+  }
+}

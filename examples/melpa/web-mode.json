@@ -1,0 +1,34 @@
+{
+  "id": 4693675,
+  "name": "fxbois/web-mode",
+  "description": "web template editing mode for emacs",
+  "url": "https://github.com/fxbois/web-mode",
+  "stars": 1688,
+  "updated": "2026-08-31T02:19:51Z",
+  "archived": false,
+  "topics": [
+    "css",
+    "django",
+    "emacs",
+    "emacs-lisp",
+    "erb-template",
+    "html",
+    "javascript",
+    "jinja2",
+    "jsp",
+    "jsx",
+    "melpa",
+    "php",
+    "template-engine",
+    "templates",
+    "twig"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "web-mode",
+    "fetcher": "github",
+    "repo": "fxbois/web-mode"
+  }
+}

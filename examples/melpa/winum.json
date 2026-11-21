@@ -1,0 +1,18 @@
+{
+  "id": 75761044,
+  "name": "deb0ch/emacs-winum",
+  "description": "Window numbers for Emacs - Navigate windows and frames using numbers",
+  "url": "https://github.com/deb0ch/emacs-winum",
+  "stars": 151,
+  "updated": "2024-04-25T15:31:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "winum",
+    "fetcher": "github",
+    "repo": "deb0ch/emacs-winum"
+  }
+}

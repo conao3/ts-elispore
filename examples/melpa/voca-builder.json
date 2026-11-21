@@ -1,0 +1,18 @@
+{
+  "id": 33036700,
+  "name": "yitang/voca-builder",
+  "description": "",
+  "url": "https://github.com/yitang/voca-builder",
+  "stars": 12,
+  "updated": "2016-11-01T16:45:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "voca-builder",
+    "fetcher": "github",
+    "repo": "yitang/voca-builder"
+  }
+}

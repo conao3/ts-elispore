@@ -1,0 +1,18 @@
+{
+  "id": 958045,
+  "name": "mooz/emacs-zlc",
+  "description": "Provides zsh like completion for minibuffer in Emacs",
+  "url": "https://github.com/mooz/emacs-zlc",
+  "stars": 43,
+  "updated": "2022-05-30T12:26:56Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zlc",
+    "fetcher": "github",
+    "repo": "mooz/emacs-zlc"
+  }
+}

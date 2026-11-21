@@ -1,0 +1,18 @@
+{
+  "id": 67234164,
+  "name": "abo-abo/zoutline",
+  "description": "Emacs library for outlines",
+  "url": "https://github.com/abo-abo/zoutline",
+  "stars": 17,
+  "updated": "2022-01-02T08:35:43Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zoutline",
+    "fetcher": "github",
+    "repo": "abo-abo/zoutline"
+  }
+}

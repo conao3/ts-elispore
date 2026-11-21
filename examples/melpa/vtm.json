@@ -1,0 +1,18 @@
+{
+  "id": 289614547,
+  "name": "laishulu/emacs-vterm-manager",
+  "description": "Manages vterm buffers with configuration files.",
+  "url": "https://github.com/laishulu/emacs-vterm-manager",
+  "stars": 25,
+  "updated": "2020-09-21T03:38:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vtm",
+    "fetcher": "github",
+    "repo": "laishulu/emacs-vterm-manager"
+  }
+}

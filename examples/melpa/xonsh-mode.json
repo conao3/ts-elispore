@@ -1,0 +1,18 @@
+{
+  "id": 202049174,
+  "name": "seanfarley/xonsh-mode",
+  "description": "Emacs major mode for editing xonshrc files",
+  "url": "https://github.com/seanfarley/xonsh-mode",
+  "stars": 17,
+  "updated": "2020-10-20T00:54:12Z",
+  "archived": false,
+  "topics": ["emacs", "python", "xonsh"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xonsh-mode",
+    "fetcher": "github",
+    "repo": "seanfarley/xonsh-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 458237248,
+  "name": "ryotaro612/wallpreview",
+  "description": "",
+  "url": "https://github.com/ryotaro612/wallpreview",
+  "stars": 6,
+  "updated": "2022-07-03T11:08:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wallpreview",
+    "fetcher": "github",
+    "repo": "ryotaro612/wallpreview"
+  }
+}

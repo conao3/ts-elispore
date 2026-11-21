@@ -1,0 +1,18 @@
+{
+  "id": 905294792,
+  "name": "paddymcall/xmltokf.el",
+  "description": "Functional XML tokenizer for Gnu/Emacs",
+  "url": "https://github.com/paddymcall/xmltokf.el",
+  "stars": 1,
+  "updated": "2025-01-26T06:56:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xmltokf",
+    "fetcher": "github",
+    "repo": "paddymcall/xmltokf.el"
+  }
+}

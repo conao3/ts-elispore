@@ -1,0 +1,18 @@
+{
+  "id": 2163398,
+  "name": "mhayashi1120/yagist.el",
+  "description": "Yet another Emacs paste mode, this one for Gist.",
+  "url": "https://github.com/mhayashi1120/yagist.el",
+  "stars": 32,
+  "updated": "2017-04-27T15:39:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yagist",
+    "fetcher": "github",
+    "repo": "mhayashi1120/yagist.el"
+  }
+}

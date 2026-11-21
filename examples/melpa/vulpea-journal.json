@@ -1,0 +1,29 @@
+{
+  "id": 1109491156,
+  "name": "d12frosted/vulpea-journal",
+  "description": "Modern daily journaling interface for Emacs with reactive sidebar widgets, built on vulpea",
+  "url": "https://github.com/d12frosted/vulpea-journal",
+  "stars": 28,
+  "updated": "2026-08-12T07:52:14Z",
+  "archived": false,
+  "topics": [
+    "daily-notes",
+    "emacs",
+    "emacs-lisp",
+    "journaling",
+    "note-taking",
+    "org-mode",
+    "personal-knowledge-management",
+    "pkm",
+    "productivity",
+    "vulpea"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vulpea-journal",
+    "fetcher": "github",
+    "repo": "d12frosted/vulpea-journal"
+  }
+}

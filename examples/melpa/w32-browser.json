@@ -1,0 +1,18 @@
+{
+  "id": 523547,
+  "name": "emacsorphanage/w32-browser",
+  "description": "Run Windows application associated with a file",
+  "url": "https://github.com/emacsorphanage/w32-browser",
+  "stars": 3,
+  "updated": "2017-02-04T14:18:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "w32-browser",
+    "fetcher": "github",
+    "repo": "emacsorphanage/w32-browser"
+  }
+}

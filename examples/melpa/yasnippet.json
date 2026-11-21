@@ -1,0 +1,19 @@
+{
+  "id": 2537904,
+  "name": "joaotavora/yasnippet",
+  "description": "A template system for Emacs",
+  "url": "https://github.com/joaotavora/yasnippet",
+  "stars": 2967,
+  "updated": "2025-06-04T20:22:16Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yasnippet",
+    "fetcher": "github",
+    "repo": "joaotavora/yasnippet",
+    "files": "(:defaults (\"doc\" \"doc/*.org\"))"
+  }
+}

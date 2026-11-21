@@ -1,0 +1,18 @@
+{
+  "id": 267974131,
+  "name": "schmir/zimports.el",
+  "description": "Reformat python imports with zimports",
+  "url": "https://github.com/schmir/zimports.el",
+  "stars": 1,
+  "updated": "2021-10-11T22:50:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zimports",
+    "fetcher": "github",
+    "repo": "schmir/zimports.el"
+  }
+}

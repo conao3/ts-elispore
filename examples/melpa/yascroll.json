@@ -1,0 +1,18 @@
+{
+  "id": 1535813,
+  "name": "emacsorphanage/yascroll",
+  "description": "Yet Another Scroll Bar Mode",
+  "url": "https://github.com/emacsorphanage/yascroll",
+  "stars": 113,
+  "updated": "2026-06-19T08:23:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "yascroll",
+    "fetcher": "github",
+    "repo": "emacsorphanage/yascroll"
+  }
+}

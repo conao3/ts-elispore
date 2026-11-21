@@ -1,0 +1,18 @@
+{
+  "id": 2011806,
+  "name": "grammati/windsize",
+  "description": "Easy resizing of emacs windows.",
+  "url": "https://github.com/grammati/windsize",
+  "stars": 17,
+  "updated": "2018-10-29T22:57:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "windsize",
+    "fetcher": "github",
+    "repo": "grammati/windsize"
+  }
+}

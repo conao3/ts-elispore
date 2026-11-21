@@ -1,0 +1,18 @@
+{
+  "id": 8916868,
+  "name": "Wilfred/with-namespace.el",
+  "description": "interoperable elisp namespaces",
+  "url": "https://github.com/Wilfred/with-namespace.el",
+  "stars": 3,
+  "updated": "2014-08-22T17:09:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "with-namespace",
+    "fetcher": "github",
+    "repo": "Wilfred/with-namespace.el"
+  }
+}
