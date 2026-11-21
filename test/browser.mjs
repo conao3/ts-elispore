@@ -142,6 +142,74 @@ try {
     deviceScaleFactor: 1,
     mobile: false,
   })
+  await send("Page.navigate", { url: origin + "/?q=license:mit" })
+  await waitFor(`Boolean(document.querySelector('[role=group] input[value="mit"]'))`)
+  const licenseSelector = "[role=group] input[type=checkbox]"
+  await waitFor(`document.querySelectorAll('[role=group] input[type=checkbox]').length > 1`)
+  assert.equal(
+    await evaluate(`document.querySelector('[role=group] input[value="mit"]').checked`),
+    true,
+  )
+  const otherLicense = await evaluate(
+    `Array.from(document.querySelectorAll(${JSON.stringify(licenseSelector)})).find(e=>e.value!=='mit').value`,
+  )
+  await click(`[role=group] label:has(input[value="${otherLicense}"])`)
+  assert.deepEqual(
+    await evaluate(
+      `Array.from(document.querySelectorAll(${JSON.stringify(licenseSelector)})).filter(e=>e.checked).map(e=>e.value).sort()`,
+    ),
+    ["mit", otherLicense].sort((a, b) => a.localeCompare(b)),
+  )
+  const combinedQuery = await evaluate("new URL(location.href).searchParams.get('q')")
+  assert.ok(
+    combinedQuery.includes("license:mit") && combinedQuery.includes(`license:${otherLicense}`),
+  )
+  const catalog = JSON.parse(await readFile(path.join(dist, "catalog.json"), "utf8"))
+  const expected = catalog.entries.filter((e) =>
+    ["mit", otherLicense].some((value) =>
+      [value, `${value}-only`, `${value}-or-later`].includes(e.license?.toLowerCase()),
+    ),
+  ).length
+  assert.equal(
+    await evaluate("document.querySelector('#count').textContent"),
+    `${expected.toLocaleString()} packages`,
+  )
+  const licenseScreenshot = await send("Page.captureScreenshot", {
+    format: "png",
+    captureBeyondViewport: false,
+  })
+  await writeFile(
+    path.join(scratch, "license-multiselect.png"),
+    Buffer.from(licenseScreenshot.data, "base64"),
+  )
+  await send("Page.enable")
+  const reloaded = new Promise((resolve) => {
+    const listener = (event) => {
+      if (JSON.parse(event.data).method === "Page.loadEventFired") {
+        socket.removeEventListener("message", listener)
+        resolve()
+      }
+    }
+    socket.addEventListener("message", listener)
+  })
+  await send("Page.reload")
+  await reloaded
+  await waitFor(`document.querySelectorAll('[role=group] input:checked').length===2`)
+  await evaluate(`document.querySelector('[role=group] input[value="mit"]').focus()`)
+  await key(" ", "Space", 32)
+  assert.equal(
+    await evaluate(`document.querySelector('[role=group] input[value="mit"]').checked`),
+    false,
+  )
+  await click(`[role=group] label:has(input[value="${otherLicense}"])`)
+  assert.equal(await evaluate("new URL(location.href).searchParams.has('q')"), false)
+  assert.equal(
+    await evaluate("document.querySelector('#count').textContent"),
+    `${catalog.entries.length.toLocaleString()} packages`,
+  )
+  console.log(
+    "License checks passed: legacy URL, pointer and keyboard multiselect, OR results, URL reload, and clearing all licenses.",
+  )
   await send("Page.navigate", { url: origin + "/?q=repo:agda/agda%20annotation" })
   await waitFor(
     `document.querySelector('.package[data-name="agda/agda"]') && document.querySelector('#count').textContent==='1 package'`,
@@ -348,7 +416,7 @@ try {
   await click("#sort")
   await key("Escape", "Escape", 27)
   assert.equal(await evaluate(`document.querySelector('[role=listbox]')`), null)
-  await click(".check .checkbox-mark")
+  await click("fieldset .check .checkbox-mark")
   assert.ok(await evaluate(`document.querySelector('#query').value.includes('pushed:')`))
   await edit("repo:minad/vertico")
   await evaluate(`document.querySelector('.repo-trigger').focus()`)

@@ -81,6 +81,24 @@ test("matches normalized topic aliases including exclusions without substring ma
   expect(searchEntries([entry], "topic:complete", "stars")).toEqual([])
   expect(searchEntries([{ ...entry, topics: [] }], "topic:theme", "stars")).toEqual([])
 })
+test("combines licenses with OR while retaining other filters and exclusions", () => {
+  const mit = { ...second, license: "MIT" }
+  const unknown = { ...entry, license: null }
+  const entries = [entry, mit, unknown]
+  expect(searchEntries(entries, "license:gpl-3.0 license:mit", "stars")).toEqual([entry, mit])
+  expect(searchEntries(entries, "license:gpl-3.0 license:mit -license:mit", "stars")).toEqual([
+    entry,
+  ])
+  expect(searchEntries(entries, "license:gpl-3.0 license:mit user:minad", "stars")).toEqual([entry])
+  expect(searchEntries(entries, "license:unknown", "stars")).toEqual([])
+  expect(searchEntries(entries, "", "stars")).toHaveLength(3)
+  for (const license of ["GPL-3.0-only", "GPL-3.0-or-later"]) {
+    expect(
+      searchEntries([{ ...entry, license }], "license:mit license:gpl-3.0", "stars"),
+    ).toHaveLength(1)
+  }
+  expect(searchEntries([], "license:mit license:gpl-3.0", "stars")).toEqual([])
+})
 test("combines multiple owners and excluded repositories", () => {
   expect(
     searchEntries([entry, second], "user:minad user:oantolin -repo:minad/vertico", "stars"),
