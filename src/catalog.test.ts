@@ -152,7 +152,8 @@ test("uses the queried MELPA recipe's name, branch, and exact source directory i
         name: "pkg-mode",
         fetcher: "github",
         branch: "stable",
-        files: '(:defaults ("target" "src/elisp/pkg-mode.el") (:exclude "test/pkg-mode.el"))',
+        files:
+          '(:defaults "src/elisp/pkg-mode.el" ("target" "extra/pkg-mode.el") (:exclude "test/pkg-mode.el"))',
       },
     ],
   }
@@ -186,6 +187,12 @@ test("uses a single Lisp glob directory and omits only the directory for ambiguo
   expect(snippet('("src/other.el" (:exclude "tests/alias.el"))')).toBe(withoutDirectory)
   expect(snippet('("src/alias.el" "other/alias.el")')).toBe(withoutDirectory)
   expect(snippet('("src/*.el" "other/*.el")')).toBe(withoutDirectory)
+  expect(snippet('("src/*.el" "src/nested/*.el")')).toBe(
+    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable" :lisp-dir "src"))',
+  )
+  expect(snippet('("src/*.el" "src/nested/alias*.el")')).toBe(
+    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable" :lisp-dir "src/nested"))',
+  )
 })
 
 test("uses the main file matched by a named MELPA glob", () => {
@@ -218,4 +225,20 @@ test("keeps ElNode's MELPA branch even when its globs do not specify a Lisp dire
       ],
     }),
   ).toBe('(leaf elnode\n  :vc (:url "https://github.com/jcaw/elnode" :branch "melpa"))')
+})
+
+test("uses ESS's top-level Lisp glob, ignoring destination and exclusion lists", () => {
+  const files = `("lisp/*.el"
+         "doc/ess.texi"
+         ("etc" "etc/*")
+         ("obsolete" "lisp/obsolete/*")
+         (:exclude "etc/other"))`
+  expect(
+    installationSnippet({
+      ...entry,
+      name: "emacs-ess/ESS",
+      url: "https://github.com/emacs-ess/ESS",
+      melpaRecipes: [{ name: "ess", fetcher: "github", repo: "emacs-ess/ESS", files }],
+    }),
+  ).toBe('(leaf ess\n  :vc (:url "https://github.com/emacs-ess/ESS" :lisp-dir "lisp"))')
 })

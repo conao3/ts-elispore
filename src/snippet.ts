@@ -1,7 +1,6 @@
 import type { Entry } from "./catalog"
 import type { Filter } from "./query"
 import { readList } from "./recipe-form"
-import type { Form } from "./recipe-form"
 
 export type SnippetFormat = "leaf" | "use-package"
 
@@ -17,16 +16,6 @@ function matchingRecipe(entry: Entry, filters: Filter[]) {
   )
 }
 
-function sourcePaths(forms: Form[]): string[] {
-  return forms.flatMap((form) => {
-    if (form.kind === "string") return [form.value.replace(/^(?:\.\/)+/, "")]
-    if (form.kind === "list" && form.value[0]?.kind === "string") {
-      return sourcePaths(form.value.slice(1))
-    }
-    return []
-  })
-}
-
 function matchesFileGlob(pattern: string, file: string): boolean {
   const glob = pattern.replace(/[^a-zA-Z0-9_-]/g, (character) =>
     character === "*" ? ".*" : character === "?" ? "." : `\\${character}`,
@@ -34,24 +23,37 @@ function matchesFileGlob(pattern: string, file: string): boolean {
   return new RegExp(`^${glob}$`).test(file)
 }
 
+function shallowestDirectory(directories: Set<string>) {
+  const depth = (directory: string) => (directory ? directory.split("/").length : 0)
+  const [first, second] = [...directories].sort((a, b) => depth(a) - depth(b))
+  return first !== undefined && (second === undefined || depth(first) < depth(second))
+    ? first
+    : undefined
+}
+
 function recipeDirectory(name: string, files?: string) {
   if (!files) return ""
   try {
     const forms = readList(files)
     const mainFile = `${name}.el`
-    const sources = sourcePaths(forms)
     const exact = new Set<string>()
+    const named = new Set<string>()
     const wildcards = new Set<string>()
-    for (const source of sources) {
-      const parts = source.split("/")
+    for (const form of forms) {
+      if (form.kind !== "string") continue
+      const parts = form.value.replace(/^(?:\.\/)+/, "").split("/")
       const file = parts.pop()
       if (parts.some((part) => !part || part === ".." || /[*?[\]]/.test(part))) continue
       if (file === mainFile) exact.add(parts.join("/"))
-      else if (file && matchesFileGlob(file, mainFile)) wildcards.add(parts.join("/"))
+      else if (file && matchesFileGlob(file, mainFile)) {
+        const candidates = file.includes(name) ? named : wildcards
+        candidates.add(parts.join("/"))
+      }
     }
-    if (exact.size) return exact.size === 1 ? [...exact][0] : undefined
+    if (exact.size) return shallowestDirectory(exact)
+    if (named.size) return shallowestDirectory(named)
     if (forms.some((form) => form.kind === "symbol" && form.value === ":defaults")) return ""
-    if (wildcards.size === 1) return [...wildcards][0]
+    return shallowestDirectory(wildcards)
   } catch {
     return undefined
   }
