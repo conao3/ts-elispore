@@ -35,7 +35,7 @@ Categories show the ten most frequent informative catalog topics, plus any selec
 
 ## Installation examples
 
-Installation examples default to leaf. Buttons at the top right of each code block switch between leaf and use-package, and Copy copies the displayed snippet. Both use `:vc` with the upstream GitHub URL. For MELPA repositories, the example uses the recipe matching the search (or the first recipe), with its branch and Lisp directory when known. If the file layout cannot be determined, it falls back to the repository example. Leaf requires `:vc` support and Emacs 29+, and use-package `:vc` is included in Emacs 30+.
+Installation examples default to leaf. Buttons at the top right of each code block switch between leaf and use-package, and Copy copies the displayed snippet. Both use `:vc` with the upstream GitHub URL. For MELPA repositories, the example uses the recipe matching the search (or the first recipe), preserves its branch, and omits the Lisp directory when the layout is unclear. Leaf requires `:vc` support and Emacs 29+, and use-package `:vc` is included in Emacs 30+.
 
 ## Development
 

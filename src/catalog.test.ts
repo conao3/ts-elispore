@@ -171,7 +171,7 @@ test("uses the queried MELPA recipe's name, branch, and exact source directory i
   }
 })
 
-test("uses a single Lisp glob directory and falls back for ambiguous file layouts", () => {
+test("uses a single Lisp glob directory and omits only the directory for ambiguous layouts", () => {
   function snippet(files: string) {
     return installationSnippet({
       ...entry,
@@ -181,7 +181,41 @@ test("uses a single Lisp glob directory and falls back for ambiguous file layout
   expect(snippet('("./src/*.el" "snippets")')).toBe(
     '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable" :lisp-dir "src"))',
   )
-  expect(snippet('("src/other.el" (:exclude "tests/alias.el"))')).toBe(installationSnippet(entry))
-  expect(snippet('("src/alias.el" "other/alias.el")')).toBe(installationSnippet(entry))
-  expect(snippet('("src/*.el" "other/*.el")')).toBe(installationSnippet(entry))
+  const withoutDirectory =
+    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable"))'
+  expect(snippet('("src/other.el" (:exclude "tests/alias.el"))')).toBe(withoutDirectory)
+  expect(snippet('("src/alias.el" "other/alias.el")')).toBe(withoutDirectory)
+  expect(snippet('("src/*.el" "other/*.el")')).toBe(withoutDirectory)
+})
+
+test("uses the main file matched by a named MELPA glob", () => {
+  const imported = {
+    ...entry,
+    name: "mohkale/compile-multi",
+    url: "https://github.com/mohkale/compile-multi",
+    melpaRecipes: [
+      { name: "compile-multi", fetcher: "github" },
+      {
+        name: "compile-multi-embark",
+        fetcher: "github",
+        files: '("extensions/compile-multi-embark/compile-multi-embark*.el")',
+      },
+    ],
+  }
+  expect(installationSnippet(imported, "leaf", parseQuery("compile-multi-embark"))).toBe(
+    '(leaf compile-multi-embark\n  :vc (:url "https://github.com/mohkale/compile-multi" :lisp-dir "extensions/compile-multi-embark"))',
+  )
+})
+
+test("keeps ElNode's MELPA branch even when its globs do not specify a Lisp directory", () => {
+  expect(
+    installationSnippet({
+      ...entry,
+      name: "jcaw/elnode",
+      url: "https://github.com/jcaw/elnode",
+      melpaRecipes: [
+        { name: "elnode", fetcher: "github", branch: "melpa", files: '("default*" "elnode*")' },
+      ],
+    }),
+  ).toBe('(leaf elnode\n  :vc (:url "https://github.com/jcaw/elnode" :branch "melpa"))')
 })
