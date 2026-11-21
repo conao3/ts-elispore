@@ -1,0 +1,18 @@
+{
+  "id": 71756677,
+  "name": "emacsfodder/emacs-theme-creamsody",
+  "description": "Distilled from the bones of DarkTooth ... Creamsody",
+  "url": "https://github.com/emacsfodder/emacs-theme-creamsody",
+  "stars": 69,
+  "updated": "2025-07-24T01:01:02Z",
+  "archived": false,
+  "topics": ["dark-theme", "emacs", "theme"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "creamsody-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-theme-creamsody"
+  }
+}

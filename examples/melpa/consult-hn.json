@@ -1,0 +1,18 @@
+{
+  "id": 924999675,
+  "name": "agzam/consult-hn",
+  "description": "Hackernews search with Consult",
+  "url": "https://github.com/agzam/consult-hn",
+  "stars": 10,
+  "updated": "2026-10-29T20:29:22Z",
+  "archived": false,
+  "topics": ["consult", "emacs", "embark", "hackernews"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-hn",
+    "fetcher": "github",
+    "repo": "agzam/consult-hn"
+  }
+}

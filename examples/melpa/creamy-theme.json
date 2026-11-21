@@ -1,0 +1,18 @@
+{
+  "id": 1013733436,
+  "name": "smallwat3r/emacs-creamy-theme",
+  "description": "Creamy is a warm, minimal theme for Emacs",
+  "url": "https://github.com/smallwat3r/emacs-creamy-theme",
+  "stars": 2,
+  "updated": "2026-01-30T09:17:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "creamy-theme",
+    "fetcher": "github",
+    "repo": "smallwat3r/emacs-creamy-theme"
+  }
+}

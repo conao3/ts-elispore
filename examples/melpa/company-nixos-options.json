@@ -1,0 +1,19 @@
+{
+  "id": 39316507,
+  "name": "nix-community/nix-emacs",
+  "description": "A set of useful Emacs modes and functions for users of Nix and Nix OS.",
+  "url": "https://github.com/nix-community/nix-emacs",
+  "stars": 252,
+  "updated": "2026-02-16T15:33:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "company-nixos-options",
+    "fetcher": "github",
+    "repo": "nix-community/nix-emacs",
+    "files": "(\"company-nixos-options.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 46228235,
+  "name": "justbur/emacs-bind-map",
+  "description": "Bind personal keymaps in multiple locations",
+  "url": "https://github.com/justbur/emacs-bind-map",
+  "stars": 60,
+  "updated": "2025-11-19T02:01:27Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-keybindings", "emacs-packages"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bind-map",
+    "fetcher": "github",
+    "repo": "justbur/emacs-bind-map"
+  }
+}

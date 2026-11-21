@@ -1,0 +1,18 @@
+{
+  "id": 23915117,
+  "name": "emacsorphanage/ansible-doc",
+  "description": "Ansible documentation for GNU Emacs",
+  "url": "https://github.com/emacsorphanage/ansible-doc",
+  "stars": 35,
+  "updated": "2017-03-13T11:42:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ansible-doc",
+    "fetcher": "github",
+    "repo": "emacsorphanage/ansible-doc"
+  }
+}

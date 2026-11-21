@@ -1,0 +1,18 @@
+{
+  "id": 817612507,
+  "name": "rafaelcn/act",
+  "description": "An emacs mode for act files",
+  "url": "https://github.com/rafaelcn/act",
+  "stars": 3,
+  "updated": "2024-09-27T03:50:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "act-mode",
+    "fetcher": "github",
+    "repo": "rafaelcn/act"
+  }
+}

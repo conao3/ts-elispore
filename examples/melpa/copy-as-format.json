@@ -1,0 +1,33 @@
+{
+  "id": 75453748,
+  "name": "sshaw/copy-as-format",
+  "description": "Emacs function to copy buffer locations as GitHub/Slack/JIRA etc... formatted code",
+  "url": "https://github.com/sshaw/copy-as-format",
+  "stars": 146,
+  "updated": "2025-07-15T00:37:11Z",
+  "archived": false,
+  "topics": [
+    "asciidoc",
+    "bitbucket",
+    "disqus",
+    "emacs",
+    "gitlab",
+    "hipchat",
+    "html",
+    "jira",
+    "markdown",
+    "mediawiki",
+    "pod",
+    "restructured-text",
+    "restructuredtext",
+    "slack"
+  ],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "copy-as-format",
+    "fetcher": "github",
+    "repo": "sshaw/copy-as-format"
+  }
+}

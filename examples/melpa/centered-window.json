@@ -1,0 +1,18 @@
+{
+  "id": 1061372911,
+  "name": "nullvec/centered-window-mode",
+  "description": "",
+  "url": "https://github.com/nullvec/centered-window-mode",
+  "stars": 3,
+  "updated": "2025-09-21T21:01:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "centered-window",
+    "fetcher": "github",
+    "repo": "nullvec/centered-window-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 305951554,
+  "name": "alphapapa/burly.el",
+  "description": "Save and restore frames and windows with their buffers in Emacs",
+  "url": "https://github.com/alphapapa/burly.el",
+  "stars": 326,
+  "updated": "2024-07-27T05:45:19Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "burly",
+    "fetcher": "github",
+    "repo": "alphapapa/burly.el"
+  }
+}

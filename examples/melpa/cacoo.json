@@ -1,0 +1,18 @@
+{
+  "id": 644584,
+  "name": "kiwanami/emacs-cacoo",
+  "description": "Minor mode for Cacoo (http://cacoo.com)",
+  "url": "https://github.com/kiwanami/emacs-cacoo",
+  "stars": 16,
+  "updated": "2012-03-19T23:59:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cacoo",
+    "fetcher": "github",
+    "repo": "kiwanami/emacs-cacoo"
+  }
+}

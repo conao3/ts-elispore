@@ -1,0 +1,18 @@
+{
+  "id": 5328723,
+  "name": "tohojo/bbdb-vcard",
+  "description": "vCard Import and Export for The Insidious Big Brother Database (BBDB)",
+  "url": "https://github.com/tohojo/bbdb-vcard",
+  "stars": 24,
+  "updated": "2021-10-10T01:53:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bbdb-vcard",
+    "fetcher": "github",
+    "repo": "tohojo/bbdb-vcard"
+  }
+}

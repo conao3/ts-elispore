@@ -1,0 +1,18 @@
+{
+  "id": 37824137,
+  "name": "inlinestyle/cinspect-mode",
+  "description": "Use cinspect to look at the CPython source of builtins and other C objects",
+  "url": "https://github.com/inlinestyle/cinspect-mode",
+  "stars": 11,
+  "updated": "2015-07-16T02:33:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cinspect",
+    "fetcher": "github",
+    "repo": "inlinestyle/cinspect-mode"
+  }
+}

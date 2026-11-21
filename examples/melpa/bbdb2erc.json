@@ -1,0 +1,18 @@
+{
+  "id": 5367514,
+  "name": "unhammer/bbdb2erc",
+  "description": "📇💬 Emacs addon that makes BBDB show if a pal is online with ERC, open a chat with a single click",
+  "url": "https://github.com/unhammer/bbdb2erc",
+  "stars": 2,
+  "updated": "2019-08-22T09:08:46Z",
+  "archived": false,
+  "topics": ["bbdb", "chat", "contacts", "emacs", "erc", "irc"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bbdb2erc",
+    "fetcher": "github",
+    "repo": "unhammer/bbdb2erc"
+  }
+}

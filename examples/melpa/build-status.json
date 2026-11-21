@@ -1,0 +1,18 @@
+{
+  "id": 79175862,
+  "name": "sshaw/build-status",
+  "description": "Emacs minor mode that monitors and shows a buffer's build status in the mode line.",
+  "url": "https://github.com/sshaw/build-status",
+  "stars": 27,
+  "updated": "2019-08-07T12:31:48Z",
+  "archived": false,
+  "topics": ["build", "ci", "circleci", "emacs", "mode", "mode-line", "travis-ci"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "build-status",
+    "fetcher": "github",
+    "repo": "sshaw/build-status"
+  }
+}

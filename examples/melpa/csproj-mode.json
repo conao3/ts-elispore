@@ -1,0 +1,19 @@
+{
+  "id": 154426051,
+  "name": "omajid/csproj-mode",
+  "description": "An emacs major mode for working with csproj files",
+  "url": "https://github.com/omajid/csproj-mode",
+  "stars": 8,
+  "updated": "2021-07-19T01:48:10Z",
+  "archived": false,
+  "topics": ["csproj", "dotnet", "dotnetcore", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "csproj-mode",
+    "fetcher": "github",
+    "repo": "omajid/csproj-mode",
+    "files": "(:defaults \"snippets\")"
+  }
+}

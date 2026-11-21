@@ -1,0 +1,19 @@
+{
+  "id": 14258523,
+  "name": "ainame/cursor-test.el",
+  "description": "cursor-test.el is the testing library for cursor position in emcas lisp.",
+  "url": "https://github.com/ainame/cursor-test.el",
+  "stars": 4,
+  "updated": "2013-12-07T17:32:12Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "testing"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cursor-test",
+    "fetcher": "github",
+    "repo": "ainame/cursor-test.el",
+    "files": "(\"cursor-test.el\")"
+  }
+}

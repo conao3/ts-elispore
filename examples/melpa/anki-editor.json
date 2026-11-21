@@ -1,0 +1,18 @@
+{
+  "id": 398636335,
+  "name": "anki-editor/anki-editor",
+  "description": "Emacs minor mode for making Anki cards with Org Mode",
+  "url": "https://github.com/anki-editor/anki-editor",
+  "stars": 206,
+  "updated": "2026-09-07T10:45:30Z",
+  "archived": false,
+  "topics": ["anki", "emacs", "flashcards", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "anki-editor",
+    "fetcher": "github",
+    "repo": "anki-editor/anki-editor"
+  }
+}

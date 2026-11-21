@@ -1,0 +1,18 @@
+{
+  "id": 130221620,
+  "name": "SavchenkoValeriy/emacs-chocolate-theme",
+  "description": "🍫A dark chocolatey theme for Emacs 🍫",
+  "url": "https://github.com/SavchenkoValeriy/emacs-chocolate-theme",
+  "stars": 99,
+  "updated": "2021-01-28T16:47:54Z",
+  "archived": false,
+  "topics": ["emacs", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chocolate-theme",
+    "fetcher": "github",
+    "repo": "SavchenkoValeriy/emacs-chocolate-theme"
+  }
+}

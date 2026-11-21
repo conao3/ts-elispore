@@ -1,0 +1,18 @@
+{
+  "id": 444981672,
+  "name": "zkry/asm-blox",
+  "description": "Programming game in Emacs involving blocks of WAT.",
+  "url": "https://github.com/zkry/asm-blox",
+  "stars": 61,
+  "updated": "2024-01-06T19:30:20Z",
+  "archived": false,
+  "topics": ["emacs", "programming-game"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "asm-blox",
+    "fetcher": "github",
+    "repo": "zkry/asm-blox"
+  }
+}

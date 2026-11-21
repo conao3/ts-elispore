@@ -1,0 +1,18 @@
+{
+  "id": 41165823,
+  "name": "emacsorphanage/ac-emoji",
+  "description": "Auto-complete source of Emoji",
+  "url": "https://github.com/emacsorphanage/ac-emoji",
+  "stars": 27,
+  "updated": "2016-12-18T14:38:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ac-emoji",
+    "fetcher": "github",
+    "repo": "emacsorphanage/ac-emoji"
+  }
+}

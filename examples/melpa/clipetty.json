@@ -1,0 +1,18 @@
+{
+  "id": 230212097,
+  "name": "spudlyo/clipetty",
+  "description": "Manipulate the system (clip)board with (e)macs from a (tty)",
+  "url": "https://github.com/spudlyo/clipetty",
+  "stars": 200,
+  "updated": "2024-08-20T11:07:09Z",
+  "archived": false,
+  "topics": ["clipboard", "emacs", "emacs-lisp", "melpa", "terminal"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clipetty",
+    "fetcher": "github",
+    "repo": "spudlyo/clipetty"
+  }
+}

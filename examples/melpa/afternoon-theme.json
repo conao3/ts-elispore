@@ -1,0 +1,18 @@
+{
+  "id": 15343390,
+  "name": "ozanvos/emacs-afternoon-theme",
+  "description": "Dark color theme with a deep blue background",
+  "url": "https://github.com/ozanvos/emacs-afternoon-theme",
+  "stars": 107,
+  "updated": "2017-06-30T22:01:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "afternoon-theme",
+    "fetcher": "github",
+    "repo": "ozanvos/emacs-afternoon-theme"
+  }
+}

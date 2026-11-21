@@ -1,0 +1,18 @@
+{
+  "id": 28821535,
+  "name": "aki2o/emacs-bts-github",
+  "description": "A plugin of bts for GitHub in Emacs",
+  "url": "https://github.com/aki2o/emacs-bts-github",
+  "stars": 7,
+  "updated": "2017-04-01T12:49:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bts-github",
+    "fetcher": "github",
+    "repo": "aki2o/emacs-bts-github"
+  }
+}

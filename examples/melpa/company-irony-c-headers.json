@@ -1,0 +1,18 @@
+{
+  "id": 39732864,
+  "name": "hotpxl/company-irony-c-headers",
+  "description": "Company mode backend for C/C++ header files with Irony",
+  "url": "https://github.com/hotpxl/company-irony-c-headers",
+  "stars": 31,
+  "updated": "2018-01-10T07:26:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-irony-c-headers",
+    "fetcher": "github",
+    "repo": "hotpxl/company-irony-c-headers"
+  }
+}

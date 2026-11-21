@@ -1,0 +1,19 @@
+{
+  "id": 37838572,
+  "name": "zilongshanren/chinese-wbim",
+  "description": "Deprecated!! 推荐使用 pyim",
+  "url": "https://github.com/zilongshanren/chinese-wbim",
+  "stars": 19,
+  "updated": "2019-07-27T08:54:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chinese-wbim",
+    "fetcher": "github",
+    "repo": "zilongshanren/chinese-wbim",
+    "files": "(:defaults \"wb.txt\" \"wbpy.txt\")"
+  }
+}

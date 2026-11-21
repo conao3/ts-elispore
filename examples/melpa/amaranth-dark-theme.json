@@ -1,0 +1,18 @@
+{
+  "id": 1117126709,
+  "name": "a9sk/amaranth-dark-theme",
+  "description": "Amaranth Dark color theme for Emacs 24+",
+  "url": "https://github.com/a9sk/amaranth-dark-theme",
+  "stars": 0,
+  "updated": "2026-01-03T11:03:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "amaranth-dark-theme",
+    "fetcher": "github",
+    "repo": "a9sk/amaranth-dark-theme"
+  }
+}

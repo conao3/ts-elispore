@@ -1,0 +1,18 @@
+{
+  "id": 578077479,
+  "name": "youngker/consult-codesearch.el",
+  "description": "",
+  "url": "https://github.com/youngker/consult-codesearch.el",
+  "stars": 3,
+  "updated": "2023-03-15T14:25:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-codesearch",
+    "fetcher": "github",
+    "repo": "youngker/consult-codesearch.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 21104957,
+  "name": "immerrr/ample-regexps.el",
+  "description": "Compose and reuse Emacs regular expressions with ease",
+  "url": "https://github.com/immerrr/ample-regexps.el",
+  "stars": 32,
+  "updated": "2020-05-08T10:21:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ample-regexps",
+    "fetcher": "github",
+    "repo": "immerrr/ample-regexps.el"
+  }
+}

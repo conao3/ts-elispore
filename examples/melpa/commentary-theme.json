@@ -1,0 +1,18 @@
+{
+  "id": 88437692,
+  "name": "pzel/commentary-theme",
+  "description": "A minimalist, layered color theme for Emacs",
+  "url": "https://github.com/pzel/commentary-theme",
+  "stars": 21,
+  "updated": "2024-06-20T13:07:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "commentary-theme",
+    "fetcher": "github",
+    "repo": "pzel/commentary-theme"
+  }
+}

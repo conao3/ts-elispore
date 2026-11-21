@@ -1,0 +1,18 @@
+{
+  "id": 8356377,
+  "name": "emacs-jp/replace-colorthemes",
+  "description": "Replace color-theme with Emacs theme framework",
+  "url": "https://github.com/emacs-jp/replace-colorthemes",
+  "stars": 347,
+  "updated": "2024-12-27T02:23:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "color-theme-modern",
+    "fetcher": "github",
+    "repo": "emacs-jp/replace-colorthemes"
+  }
+}

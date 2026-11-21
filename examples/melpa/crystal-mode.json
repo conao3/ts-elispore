@@ -1,0 +1,19 @@
+{
+  "id": 103006417,
+  "name": "crystal-lang-tools/emacs-crystal-mode",
+  "description": "A minimal crystal mode for emacs, based on ruby-mode.",
+  "url": "https://github.com/crystal-lang-tools/emacs-crystal-mode",
+  "stars": 55,
+  "updated": "2026-06-07T20:43:49Z",
+  "archived": false,
+  "topics": ["crystal", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "crystal-mode",
+    "fetcher": "github",
+    "repo": "crystal-lang-tools/emacs-crystal-mode",
+    "files": "(\"crystal-mode.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 26705005,
+  "name": "emacsfodder/emacs-boron-theme",
+  "description": "",
+  "url": "https://github.com/emacsfodder/emacs-boron-theme",
+  "stars": 6,
+  "updated": "2017-08-08T13:08:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "boron-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-boron-theme"
+  }
+}

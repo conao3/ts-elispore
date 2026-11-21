@@ -1,0 +1,19 @@
+{
+  "id": 5338866,
+  "name": "sebastiw/distel-completion",
+  "description": "Erlang/distel completion backend for both auto-complete and company-mode",
+  "url": "https://github.com/sebastiw/distel-completion",
+  "stars": 7,
+  "updated": "2018-08-27T13:44:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-distel",
+    "fetcher": "github",
+    "repo": "sebastiw/distel-completion",
+    "files": "(\"company-distel.el\")"
+  }
+}

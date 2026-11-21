@@ -1,0 +1,18 @@
+{
+  "id": 285776320,
+  "name": "damon-kwok/chapel-mode",
+  "description": ":wedding: An Emacs major mode for the Chapel programming language.",
+  "url": "https://github.com/damon-kwok/chapel-mode",
+  "stars": 4,
+  "updated": "2021-05-13T04:57:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chapel-mode",
+    "fetcher": "github",
+    "repo": "damon-kwok/chapel-mode"
+  }
+}

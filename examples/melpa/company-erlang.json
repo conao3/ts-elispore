@@ -1,0 +1,18 @@
+{
+  "id": 77285530,
+  "name": "s-kostyaev/company-erlang",
+  "description": "company-erlang is company backend for erlang based on ivy-erlang-complete.",
+  "url": "https://github.com/s-kostyaev/company-erlang",
+  "stars": 8,
+  "updated": "2017-01-24T16:39:13Z",
+  "archived": false,
+  "topics": ["autocompletion", "company-mode", "emacs", "erlang"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-erlang",
+    "fetcher": "github",
+    "repo": "s-kostyaev/company-erlang"
+  }
+}

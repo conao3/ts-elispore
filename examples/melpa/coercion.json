@@ -1,0 +1,18 @@
+{
+  "id": 535353342,
+  "name": "eki3z/coercion.el",
+  "description": "Vim coercion ported into Emacs inspired by Abolish",
+  "url": "https://github.com/eki3z/coercion.el",
+  "stars": 16,
+  "updated": "2025-01-23T19:31:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "coercion",
+    "fetcher": "github",
+    "repo": "eki3z/coercion.el"
+  }
+}

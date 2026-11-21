@@ -1,0 +1,18 @@
+{
+  "id": 99481790,
+  "name": "tarsius/bicycle",
+  "description": "Cycle outline and code visibility",
+  "url": "https://github.com/tarsius/bicycle",
+  "stars": 65,
+  "updated": "2026-10-01T15:35:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bicycle",
+    "fetcher": "github",
+    "repo": "tarsius/bicycle"
+  }
+}

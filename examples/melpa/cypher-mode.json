@@ -1,0 +1,18 @@
+{
+  "id": 13228719,
+  "name": "fxbois/cypher-mode",
+  "description": "Emacs major mode for editing cypher scripts (Neo4j)",
+  "url": "https://github.com/fxbois/cypher-mode",
+  "stars": 20,
+  "updated": "2023-01-17T19:51:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cypher-mode",
+    "fetcher": "github",
+    "repo": "fxbois/cypher-mode"
+  }
+}

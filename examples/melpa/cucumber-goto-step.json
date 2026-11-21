@@ -1,0 +1,18 @@
+{
+  "id": 13583012,
+  "name": "gstamp/cucumber-goto-step",
+  "description": "cucumber-goto-step.el is a simple helper package that navigates from a step in a feature file to the step definition.",
+  "url": "https://github.com/gstamp/cucumber-goto-step",
+  "stars": 7,
+  "updated": "2013-12-10T05:20:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cucumber-goto-step",
+    "fetcher": "github",
+    "repo": "gstamp/cucumber-goto-step"
+  }
+}

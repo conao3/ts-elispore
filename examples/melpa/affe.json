@@ -1,0 +1,18 @@
+{
+  "id": 333613719,
+  "name": "minad/affe",
+  "description": ":monkey: affe.el - Asynchronous Fuzzy Finder for Emacs",
+  "url": "https://github.com/minad/affe",
+  "stars": 277,
+  "updated": "2026-07-08T06:41:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "affe",
+    "fetcher": "github",
+    "repo": "minad/affe"
+  }
+}

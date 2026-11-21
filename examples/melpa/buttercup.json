@@ -1,0 +1,19 @@
+{
+  "id": 32446785,
+  "name": "jorgenschaefer/emacs-buttercup",
+  "description": "Behavior-Driven Emacs Lisp Testing",
+  "url": "https://github.com/jorgenschaefer/emacs-buttercup",
+  "stars": 397,
+  "updated": "2026-10-07T22:11:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "buttercup",
+    "fetcher": "github",
+    "repo": "jorgenschaefer/emacs-buttercup",
+    "files": "(:defaults \"bin\")"
+  }
+}

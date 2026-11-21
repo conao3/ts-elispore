@@ -1,0 +1,18 @@
+{
+  "id": 44326902,
+  "name": "PythonNut/company-flx",
+  "description": ":city_sunset: Flx fuzzy matching for company",
+  "url": "https://github.com/PythonNut/company-flx",
+  "stars": 84,
+  "updated": "2021-11-16T21:10:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-flx",
+    "fetcher": "github",
+    "repo": "PythonNut/company-flx"
+  }
+}

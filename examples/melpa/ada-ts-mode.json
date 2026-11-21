@@ -1,0 +1,18 @@
+{
+  "id": 670817971,
+  "name": "brownts/ada-ts-mode",
+  "description": "Ada major mode using tree-sitter for Emacs",
+  "url": "https://github.com/brownts/ada-ts-mode",
+  "stars": 30,
+  "updated": "2026-11-08T17:40:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ada-ts-mode",
+    "fetcher": "github",
+    "repo": "brownts/ada-ts-mode"
+  }
+}

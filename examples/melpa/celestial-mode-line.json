@@ -1,0 +1,18 @@
+{
+  "id": 112332766,
+  "name": "ecraven/celestial-mode-line",
+  "description": "Display lunar phase and sunrise/sunset time in emacs mode line",
+  "url": "https://github.com/ecraven/celestial-mode-line",
+  "stars": 17,
+  "updated": "2023-03-23T07:37:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "celestial-mode-line",
+    "fetcher": "github",
+    "repo": "ecraven/celestial-mode-line"
+  }
+}

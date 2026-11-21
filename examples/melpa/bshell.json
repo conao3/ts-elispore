@@ -1,0 +1,18 @@
+{
+  "id": 77651278,
+  "name": "plandes/bshell",
+  "description": "Manage and track multiple shells in Emacs buffers.",
+  "url": "https://github.com/plandes/bshell",
+  "stars": 12,
+  "updated": "2026-01-07T19:15:14Z",
+  "archived": false,
+  "topics": ["configuration", "emacs", "melpa", "multiplexer", "shell"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bshell",
+    "fetcher": "github",
+    "repo": "plandes/bshell"
+  }
+}

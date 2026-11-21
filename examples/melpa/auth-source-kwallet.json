@@ -1,0 +1,18 @@
+{
+  "id": 321063189,
+  "name": "vaartis/auth-source-kwallet",
+  "description": "auth-source for emacs that gets data from KWallet",
+  "url": "https://github.com/vaartis/auth-source-kwallet",
+  "stars": 4,
+  "updated": "2025-04-19T13:31:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auth-source-kwallet",
+    "fetcher": "github",
+    "repo": "vaartis/auth-source-kwallet"
+  }
+}

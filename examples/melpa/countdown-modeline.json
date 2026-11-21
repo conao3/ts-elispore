@@ -1,0 +1,18 @@
+{
+  "id": 1234543520,
+  "name": "jholland82/countdown-modeline",
+  "description": "",
+  "url": "https://github.com/jholland82/countdown-modeline",
+  "stars": 1,
+  "updated": "2026-08-08T12:11:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "countdown-modeline",
+    "fetcher": "github",
+    "repo": "jholland82/countdown-modeline"
+  }
+}

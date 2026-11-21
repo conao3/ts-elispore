@@ -1,0 +1,18 @@
+{
+  "id": 862300982,
+  "name": "rob137/Corsair",
+  "description": "LLM utils for Emacs",
+  "url": "https://github.com/rob137/Corsair",
+  "stars": 23,
+  "updated": "2026-05-05T14:02:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "corsair",
+    "fetcher": "github",
+    "repo": "rob137/Corsair"
+  }
+}

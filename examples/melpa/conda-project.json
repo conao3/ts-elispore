@@ -1,0 +1,18 @@
+{
+  "id": 959654793,
+  "name": "gilbertwong96/conda-project.el",
+  "description": "Emacs CLI Wrapper for conda-project",
+  "url": "https://github.com/gilbertwong96/conda-project.el",
+  "stars": 2,
+  "updated": "2025-04-15T14:44:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "conda-project",
+    "fetcher": "github",
+    "repo": "gilbertwong96/conda-project.el"
+  }
+}

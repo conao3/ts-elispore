@@ -1,0 +1,29 @@
+{
+  "id": 1315476046,
+  "name": "K6SM/adif-mode",
+  "description": "An Emacs major mode for reading and editing ADIF amateur radio log files.",
+  "url": "https://github.com/K6SM/adif-mode",
+  "stars": 3,
+  "updated": "2026-09-30T02:50:46Z",
+  "archived": false,
+  "topics": [
+    "adif",
+    "amateur-radio",
+    "amateurradio",
+    "contesting",
+    "emacs",
+    "emacs-lisp",
+    "emacs-mode",
+    "ham-radio",
+    "hamradio",
+    "qso"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "adif",
+    "fetcher": "github",
+    "repo": "K6SM/adif-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 6469965,
+  "name": "arnested/bug-reference-github",
+  "description": "Automatically set `bug-reference-url-format' and enable `bug-reference-prog-mode' in Emacs buffers from Github repositories.",
+  "url": "https://github.com/arnested/bug-reference-github",
+  "stars": 16,
+  "updated": "2020-02-06T22:02:01Z",
+  "archived": false,
+  "topics": ["emacs", "hacktoberfest"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bug-reference-github",
+    "fetcher": "github",
+    "repo": "arnested/bug-reference-github"
+  }
+}

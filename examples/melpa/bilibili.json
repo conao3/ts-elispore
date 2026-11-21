@@ -1,0 +1,18 @@
+{
+  "id": 638084594,
+  "name": "lorniu/bilibili.el",
+  "description": "Emacs 中看 B 站",
+  "url": "https://github.com/lorniu/bilibili.el",
+  "stars": 10,
+  "updated": "2025-07-27T03:49:31Z",
+  "archived": false,
+  "topics": ["bilibili", "emacs", "video"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bilibili",
+    "fetcher": "github",
+    "repo": "lorniu/bilibili.el"
+  }
+}

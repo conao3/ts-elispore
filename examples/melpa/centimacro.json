@@ -1,0 +1,18 @@
+{
+  "id": 15965257,
+  "name": "abo-abo/centimacro",
+  "description": "Assign multiple macros as global key bindings in Emacs",
+  "url": "https://github.com/abo-abo/centimacro",
+  "stars": 11,
+  "updated": "2020-12-25T11:33:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "centimacro",
+    "fetcher": "github",
+    "repo": "abo-abo/centimacro"
+  }
+}

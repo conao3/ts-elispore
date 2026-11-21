@@ -1,0 +1,18 @@
+{
+  "id": 65247339,
+  "name": "grettke/blackboard-bold-mode",
+  "description": "Let a-z, A-Z, and 1-9 insert their Unicode mathematical double-struck equivelant",
+  "url": "https://github.com/grettke/blackboard-bold-mode",
+  "stars": 4,
+  "updated": "2024-12-16T23:53:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "blackboard-bold-mode",
+    "fetcher": "github",
+    "repo": "grettke/blackboard-bold-mode"
+  }
+}

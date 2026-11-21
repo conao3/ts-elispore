@@ -1,0 +1,18 @@
+{
+  "id": 5695030,
+  "name": "ataka/blgrep",
+  "description": "Context grep for Emacs",
+  "url": "https://github.com/ataka/blgrep",
+  "stars": 3,
+  "updated": "2015-04-01T14:18:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "blgrep",
+    "fetcher": "github",
+    "repo": "ataka/blgrep"
+  }
+}

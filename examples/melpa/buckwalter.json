@@ -1,0 +1,18 @@
+{
+  "id": 112075975,
+  "name": "joehakimrahme/buckwalter.el",
+  "description": "Emacs functions to translate latin characters to arabic",
+  "url": "https://github.com/joehakimrahme/buckwalter.el",
+  "stars": 2,
+  "updated": "2022-04-15T23:02:14Z",
+  "archived": false,
+  "topics": ["arabic", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "buckwalter",
+    "fetcher": "github",
+    "repo": "joehakimrahme/buckwalter.el"
+  }
+}

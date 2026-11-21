@@ -1,0 +1,29 @@
+{
+  "id": 106163863,
+  "name": "guidoschmidt/company-glsl",
+  "description": "GLSL company-mode package",
+  "url": "https://github.com/guidoschmidt/company-glsl",
+  "stars": 4,
+  "updated": "2021-01-09T14:03:50Z",
+  "archived": false,
+  "topics": [
+    "autocompletion",
+    "company-mode",
+    "emacs",
+    "emacs-configuration",
+    "emacs-lisp",
+    "glsl",
+    "glsl-shaders",
+    "opengl",
+    "opengl-es",
+    "shaders"
+  ],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-glsl",
+    "fetcher": "github",
+    "repo": "guidoschmidt/company-glsl"
+  }
+}

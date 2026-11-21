@@ -1,0 +1,18 @@
+{
+  "id": 565186756,
+  "name": "jthulhu/emacs-beans",
+  "description": "Major modes for editing Beans-related files.",
+  "url": "https://github.com/jthulhu/emacs-beans",
+  "stars": 1,
+  "updated": "2022-11-14T16:34:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "beans",
+    "fetcher": "github",
+    "repo": "jthulhu/emacs-beans"
+  }
+}

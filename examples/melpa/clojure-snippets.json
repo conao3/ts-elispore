@@ -1,0 +1,19 @@
+{
+  "id": 3669250,
+  "name": "mpenet/clojure-snippets",
+  "description": "yasnippet 0.7.0+ snippets for clojure",
+  "url": "https://github.com/mpenet/clojure-snippets",
+  "stars": 59,
+  "updated": "2024-12-26T16:39:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clojure-snippets",
+    "fetcher": "github",
+    "repo": "mpenet/clojure-snippets",
+    "files": "(\"*.el\" \"snippets\")"
+  }
+}

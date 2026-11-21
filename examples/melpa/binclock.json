@@ -1,0 +1,18 @@
+{
+  "id": 59486726,
+  "name": "davep/binclock.el",
+  "description": "Binary clock for GNU emacs",
+  "url": "https://github.com/davep/binclock.el",
+  "stars": 3,
+  "updated": "2026-04-01T12:53:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "binclock",
+    "fetcher": "github",
+    "repo": "davep/binclock.el"
+  }
+}

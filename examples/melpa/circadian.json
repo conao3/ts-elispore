@@ -1,0 +1,27 @@
+{
+  "id": 102570101,
+  "name": "guidoschmidt/circadian.el",
+  "description": "Theme-switching for Emacs based on daytime",
+  "url": "https://github.com/guidoschmidt/circadian.el",
+  "stars": 206,
+  "updated": "2026-02-09T12:22:27Z",
+  "archived": false,
+  "topics": [
+    "circadian",
+    "daytime",
+    "emacs",
+    "emacs-conf",
+    "emacs-configuration",
+    "emacs-lisp",
+    "theme",
+    "themes"
+  ],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "circadian",
+    "fetcher": "github",
+    "repo": "guidoschmidt/circadian.el"
+  }
+}

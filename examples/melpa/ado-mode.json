@@ -1,0 +1,19 @@
+{
+  "id": 71179309,
+  "name": "louabill/ado-mode",
+  "description": "Major mode for editing Stata files in Emacs",
+  "url": "https://github.com/louabill/ado-mode",
+  "stars": 18,
+  "updated": "2026-11-09T21:42:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ado-mode",
+    "fetcher": "github",
+    "repo": "louabill/ado-mode",
+    "files": "(:defaults \"scripts\" \"templates\")"
+  }
+}

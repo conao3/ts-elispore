@@ -1,0 +1,19 @@
+{
+  "id": 410247607,
+  "name": "Titan-C/cardano.el",
+  "description": "",
+  "url": "https://github.com/Titan-C/cardano.el",
+  "stars": 22,
+  "updated": "2025-01-12T18:18:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bech32",
+    "fetcher": "github",
+    "repo": "Titan-C/cardano.el",
+    "files": "(\"bech32.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 5443286,
+  "name": "browse-kill-ring/browse-kill-ring",
+  "description": "For when 'C-y M-y M-y M-y' gets you down",
+  "url": "https://github.com/browse-kill-ring/browse-kill-ring",
+  "stars": 140,
+  "updated": "2026-05-03T16:22:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "browse-kill-ring",
+    "fetcher": "github",
+    "repo": "browse-kill-ring/browse-kill-ring"
+  }
+}

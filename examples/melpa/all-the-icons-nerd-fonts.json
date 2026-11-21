@@ -1,0 +1,18 @@
+{
+  "id": 422921570,
+  "name": "mohkale/all-the-icons-nerd-fonts",
+  "description": "Nerd font integration for all-the-icons",
+  "url": "https://github.com/mohkale/all-the-icons-nerd-fonts",
+  "stars": 36,
+  "updated": "2026-06-14T12:46:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "all-the-icons-nerd-fonts",
+    "fetcher": "github",
+    "repo": "mohkale/all-the-icons-nerd-fonts"
+  }
+}

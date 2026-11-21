@@ -1,0 +1,18 @@
+{
+  "id": 24568269,
+  "name": "qoocku/ac-sly",
+  "description": "Emacs auto-complete source for SLY's Common Lisp IDE",
+  "url": "https://github.com/qoocku/ac-sly",
+  "stars": 12,
+  "updated": "2017-07-28T10:27:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-sly",
+    "fetcher": "github",
+    "repo": "qoocku/ac-sly"
+  }
+}

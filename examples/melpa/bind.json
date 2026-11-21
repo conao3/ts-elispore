@@ -1,0 +1,18 @@
+{
+  "id": 490075576,
+  "name": "repelliuss/bind",
+  "description": "`bind' many commands to keys in many keymaps, multiple times with support for prefix, autoload, repeat-mode and save&restore.",
+  "url": "https://github.com/repelliuss/bind",
+  "stars": 25,
+  "updated": "2026-11-11T11:18:23Z",
+  "archived": false,
+  "topics": ["config", "emacs", "keybinder", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bind",
+    "fetcher": "github",
+    "repo": "repelliuss/bind"
+  }
+}

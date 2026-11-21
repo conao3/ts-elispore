@@ -1,0 +1,18 @@
+{
+  "id": 1287321565,
+  "name": "alberti42/agent-shell-math-renderer",
+  "description": "An extension for Emacs Agent Shell to render math equations",
+  "url": "https://github.com/alberti42/agent-shell-math-renderer",
+  "stars": 23,
+  "updated": "2026-11-10T15:30:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "agent-shell-math-renderer",
+    "fetcher": "github",
+    "repo": "alberti42/agent-shell-math-renderer"
+  }
+}

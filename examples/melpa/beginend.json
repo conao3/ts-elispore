@@ -1,0 +1,18 @@
+{
+  "id": 36649414,
+  "name": "DamienCassou/beginend",
+  "description": "Emacs package to redefine M-< and M-> for some modes",
+  "url": "https://github.com/DamienCassou/beginend",
+  "stars": 106,
+  "updated": "2023-10-31T18:38:20Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-dired", "mu4e", "notmuch"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "beginend",
+    "fetcher": "github",
+    "repo": "DamienCassou/beginend"
+  }
+}

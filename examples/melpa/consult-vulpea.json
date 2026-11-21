@@ -1,0 +1,18 @@
+{
+  "id": 1126816961,
+  "name": "fabcontigiani/consult-vulpea",
+  "description": "Use Consult in tandem with Vulpea",
+  "url": "https://github.com/fabcontigiani/consult-vulpea",
+  "stars": 3,
+  "updated": "2026-09-27T19:11:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-vulpea",
+    "fetcher": "github",
+    "repo": "fabcontigiani/consult-vulpea"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 696323906,
+  "name": "Greybeard-Entertainment/app-monochrome",
+  "description": "An almost monochromatic theme for emacs (and other editors) that is meant to be used to take the highlighting away from colours and into font shapes",
+  "url": "https://github.com/Greybeard-Entertainment/app-monochrome",
+  "stars": 9,
+  "updated": "2025-07-10T23:25:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "app-monochrome-themes",
+    "fetcher": "github",
+    "repo": "Greybeard-Entertainment/app-monochrome"
+  }
+}

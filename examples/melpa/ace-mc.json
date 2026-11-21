@@ -1,0 +1,18 @@
+{
+  "id": 52766893,
+  "name": "mm--/ace-mc",
+  "description": "Add Multiple Cursors using Ace Jump",
+  "url": "https://github.com/mm--/ace-mc",
+  "stars": 51,
+  "updated": "2019-02-06T07:50:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ace-mc",
+    "fetcher": "github",
+    "repo": "mm--/ace-mc"
+  }
+}

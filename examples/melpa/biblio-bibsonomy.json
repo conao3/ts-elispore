@@ -1,0 +1,18 @@
+{
+  "id": 163230143,
+  "name": "andreasjansson/biblio-bibsonomy.el",
+  "description": "Bibsonomy backend for biblio.el",
+  "url": "https://github.com/andreasjansson/biblio-bibsonomy.el",
+  "stars": 1,
+  "updated": "2019-02-01T00:52:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "biblio-bibsonomy",
+    "fetcher": "github",
+    "repo": "andreasjansson/biblio-bibsonomy.el"
+  }
+}

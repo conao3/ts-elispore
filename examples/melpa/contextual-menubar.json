@@ -1,0 +1,18 @@
+{
+  "id": 101774094,
+  "name": "aaronjensen/contextual-menubar",
+  "description": "Emacs package that displays the menubar if on a graphical display, but hides it if in a terminal.",
+  "url": "https://github.com/aaronjensen/contextual-menubar",
+  "stars": 1,
+  "updated": "2018-02-05T07:09:50Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "contextual-menubar",
+    "fetcher": "github",
+    "repo": "aaronjensen/contextual-menubar"
+  }
+}

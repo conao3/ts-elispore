@@ -1,0 +1,18 @@
+{
+  "id": 1055020415,
+  "name": "xenodium/acp.el",
+  "description": "An ACP (Agent Client Protocol) implementation in Emacs lisp as per https://agentclientprotocol.com",
+  "url": "https://github.com/xenodium/acp.el",
+  "stars": 180,
+  "updated": "2026-11-21T12:19:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "acp",
+    "fetcher": "github",
+    "repo": "xenodium/acp.el"
+  }
+}

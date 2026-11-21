@@ -1,0 +1,19 @@
+{
+  "id": 2861738,
+  "name": "tkf/auto-complete-rst",
+  "description": "Auto-complete extension for ReST and Sphinx",
+  "url": "https://github.com/tkf/auto-complete-rst",
+  "stars": 9,
+  "updated": "2016-09-15T07:59:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Python",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-complete-rst",
+    "fetcher": "github",
+    "repo": "tkf/auto-complete-rst",
+    "files": "(\"*.el\" \"*.py\")"
+  }
+}

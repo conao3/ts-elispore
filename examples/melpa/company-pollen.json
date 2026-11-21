@@ -1,0 +1,19 @@
+{
+  "id": 60976850,
+  "name": "lijunsong/pollen-mode",
+  "description": "An Emacs major mode for editing in pollen markup language",
+  "url": "https://github.com/lijunsong/pollen-mode",
+  "stars": 45,
+  "updated": "2022-09-04T04:47:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-pollen",
+    "fetcher": "github",
+    "repo": "lijunsong/pollen-mode",
+    "files": "(\"company-pollen.el\")"
+  }
+}

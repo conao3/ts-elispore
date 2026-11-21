@@ -1,0 +1,18 @@
+{
+  "id": 29079017,
+  "name": "roman/clocker.el",
+  "description": "Note taker and org-clock-in enforcer",
+  "url": "https://github.com/roman/clocker.el",
+  "stars": 13,
+  "updated": "2019-02-14T18:34:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clocker",
+    "fetcher": "github",
+    "repo": "roman/clocker.el"
+  }
+}

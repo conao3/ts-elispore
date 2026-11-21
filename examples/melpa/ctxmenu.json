@@ -1,0 +1,18 @@
+{
+  "id": 16615436,
+  "name": "aki2o/emacs-ctxmenu",
+  "description": "Provide a context menu like right-click",
+  "url": "https://github.com/aki2o/emacs-ctxmenu",
+  "stars": 4,
+  "updated": "2014-11-22T00:27:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ctxmenu",
+    "fetcher": "github",
+    "repo": "aki2o/emacs-ctxmenu"
+  }
+}

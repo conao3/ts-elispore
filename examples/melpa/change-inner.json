@@ -1,0 +1,18 @@
+{
+  "id": 5195613,
+  "name": "magnars/change-inner.el",
+  "description": "Emacs version of vim's ci and co commands",
+  "url": "https://github.com/magnars/change-inner.el",
+  "stars": 73,
+  "updated": "2025-03-20T16:00:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "change-inner",
+    "fetcher": "github",
+    "repo": "magnars/change-inner.el"
+  }
+}

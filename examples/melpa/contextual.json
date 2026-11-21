@@ -1,0 +1,18 @@
+{
+  "id": 50116094,
+  "name": "outergod/contextual",
+  "description": "Contextual Profile Management System for Emacs",
+  "url": "https://github.com/outergod/contextual",
+  "stars": 6,
+  "updated": "2018-08-31T07:33:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "contextual",
+    "fetcher": "github",
+    "repo": "outergod/contextual"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1076421329,
+  "name": "webdevred/cabal-mode",
+  "description": "",
+  "url": "https://github.com/webdevred/cabal-mode",
+  "stars": 6,
+  "updated": "2025-11-19T16:02:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cabal-mode",
+    "fetcher": "github",
+    "repo": "webdevred/cabal-mode"
+  }
+}

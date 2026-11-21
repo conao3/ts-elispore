@@ -1,0 +1,18 @@
+{
+  "id": 11350387,
+  "name": "Malabarba/audio-notes-mode",
+  "description": "Emacs mode to play audio notes synced from somewhere else.",
+  "url": "https://github.com/Malabarba/audio-notes-mode",
+  "stars": 29,
+  "updated": "2017-06-11T21:59:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "audio-notes-mode",
+    "fetcher": "github",
+    "repo": "Malabarba/audio-notes-mode"
+  }
+}

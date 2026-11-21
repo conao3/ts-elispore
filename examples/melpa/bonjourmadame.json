@@ -1,0 +1,18 @@
+{
+  "id": 36234591,
+  "name": "pierre-lecocq/bonjourmadame",
+  "description": "Say \"Hello ma'am!\"",
+  "url": "https://github.com/pierre-lecocq/bonjourmadame",
+  "stars": 8,
+  "updated": "2017-09-19T11:34:12Z",
+  "archived": false,
+  "topics": ["emacs", "utility"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bonjourmadame",
+    "fetcher": "github",
+    "repo": "pierre-lecocq/bonjourmadame"
+  }
+}

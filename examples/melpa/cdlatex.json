@@ -1,0 +1,18 @@
+{
+  "id": 21567802,
+  "name": "cdominik/cdlatex",
+  "description": "Fast input methods to enter LaTeX environments and math with GNU Emacs",
+  "url": "https://github.com/cdominik/cdlatex",
+  "stars": 273,
+  "updated": "2024-10-07T16:24:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cdlatex",
+    "fetcher": "github",
+    "repo": "cdominik/cdlatex"
+  }
+}

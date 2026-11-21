@@ -1,0 +1,18 @@
+{
+  "id": 142640359,
+  "name": "noctuid/annalist.el",
+  "description": "Record and display information such as keybindings",
+  "url": "https://github.com/noctuid/annalist.el",
+  "stars": 45,
+  "updated": "2026-06-21T11:32:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "annalist",
+    "fetcher": "github",
+    "repo": "noctuid/annalist.el"
+  }
+}

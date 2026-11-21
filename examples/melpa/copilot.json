@@ -1,0 +1,18 @@
+{
+  "id": 474215154,
+  "name": "copilot-emacs/copilot.el",
+  "description": "An unofficial Copilot plugin for Emacs.",
+  "url": "https://github.com/copilot-emacs/copilot.el",
+  "stars": 2332,
+  "updated": "2026-10-15T19:13:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "copilot",
+    "fetcher": "github",
+    "repo": "copilot-emacs/copilot.el"
+  }
+}

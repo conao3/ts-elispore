@@ -1,0 +1,18 @@
+{
+  "id": 297946856,
+  "name": "muffinmad/emacs-ctrlxo",
+  "description": "Maybe better window switcher than \"C-x o\"",
+  "url": "https://github.com/muffinmad/emacs-ctrlxo",
+  "stars": 7,
+  "updated": "2023-06-05T16:17:54Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ctrlxo",
+    "fetcher": "github",
+    "repo": "muffinmad/emacs-ctrlxo"
+  }
+}

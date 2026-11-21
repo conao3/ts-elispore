@@ -1,0 +1,18 @@
+{
+  "id": 27027809,
+  "name": "fgeller/basic-theme.el",
+  "description": "Minimal color theme for Emacs using base16 colors.",
+  "url": "https://github.com/fgeller/basic-theme.el",
+  "stars": 43,
+  "updated": "2016-08-17T08:28:31Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "theme"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "basic-theme",
+    "fetcher": "github",
+    "repo": "fgeller/basic-theme.el"
+  }
+}

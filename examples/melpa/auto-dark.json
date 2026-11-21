@@ -1,0 +1,18 @@
+{
+  "id": 197285970,
+  "name": "LionyxML/auto-dark-emacs",
+  "description": "Auto-Dark-Emacs is an auto changer between 2 themes, dark/light, following MacOS, Linux or Windows Dark Mode settings",
+  "url": "https://github.com/LionyxML/auto-dark-emacs",
+  "stars": 270,
+  "updated": "2026-03-13T23:57:34Z",
+  "archived": false,
+  "topics": ["automation", "emacs", "theme"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-dark",
+    "fetcher": "github",
+    "repo": "LionyxML/auto-dark-emacs"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 50877078,
+  "name": "legoscia/cabledolphin",
+  "description": "Capture network traffic from Emacs Lisp programs into PCAPNG files",
+  "url": "https://github.com/legoscia/cabledolphin",
+  "stars": 17,
+  "updated": "2016-02-04T09:39:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cabledolphin",
+    "fetcher": "github",
+    "repo": "legoscia/cabledolphin"
+  }
+}

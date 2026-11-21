@@ -1,0 +1,18 @@
+{
+  "id": 23922186,
+  "name": "sagemath/auto-complete-sage",
+  "description": "An auto-complete source for sage-shell-mode",
+  "url": "https://github.com/sagemath/auto-complete-sage",
+  "stars": 9,
+  "updated": "2016-05-14T07:51:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "auto-complete-sage",
+    "fetcher": "github",
+    "repo": "sagemath/auto-complete-sage"
+  }
+}

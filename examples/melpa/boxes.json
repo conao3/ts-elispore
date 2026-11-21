@@ -1,0 +1,19 @@
+{
+  "id": 23404961,
+  "name": "ascii-boxes/boxes",
+  "description": "Command line ASCII boxes unlimited!",
+  "url": "https://github.com/ascii-boxes/boxes",
+  "stars": 692,
+  "updated": "2026-08-30T13:49:29Z",
+  "archived": false,
+  "topics": ["ascii", "ascii-art", "ascii-graphics", "command-line", "filter"],
+  "license": "GPL-3.0",
+  "language": "C",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "boxes",
+    "fetcher": "github",
+    "repo": "ascii-boxes/boxes",
+    "files": "(\"doc/*.el\")"
+  }
+}

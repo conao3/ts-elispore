@@ -1,0 +1,18 @@
+{
+  "id": 461243028,
+  "name": "nbarrientos/archive-rpm",
+  "description": "Browse RPM and CPIO archives in Emacs with archive-mode",
+  "url": "https://github.com/nbarrientos/archive-rpm",
+  "stars": 6,
+  "updated": "2023-04-19T23:52:06Z",
+  "archived": false,
+  "topics": ["cpio", "emacs", "rpm"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "archive-rpm",
+    "fetcher": "github",
+    "repo": "nbarrientos/archive-rpm"
+  }
+}

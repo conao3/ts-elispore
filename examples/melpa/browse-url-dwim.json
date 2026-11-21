@@ -1,0 +1,18 @@
+{
+  "id": 5643619,
+  "name": "rolandwalker/browse-url-dwim",
+  "description": "Context-sensitive external browse URL or Internet search from Emacs",
+  "url": "https://github.com/rolandwalker/browse-url-dwim",
+  "stars": 9,
+  "updated": "2014-08-04T19:22:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "browse-url-dwim",
+    "fetcher": "github",
+    "repo": "rolandwalker/browse-url-dwim"
+  }
+}

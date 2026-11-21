@@ -1,0 +1,18 @@
+{
+  "id": 14458125,
+  "name": "manzyuk/bert-el",
+  "description": "BERT serialization library for Emacs",
+  "url": "https://github.com/manzyuk/bert-el",
+  "stars": 1,
+  "updated": "2013-11-17T10:58:46Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bert",
+    "fetcher": "github",
+    "repo": "manzyuk/bert-el"
+  }
+}

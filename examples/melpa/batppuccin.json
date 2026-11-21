@@ -1,0 +1,18 @@
+{
+  "id": 1194618109,
+  "name": "bbatsov/batppuccin-emacs",
+  "description": "An opinionated Emacs port of the Catppuccin color scheme",
+  "url": "https://github.com/bbatsov/batppuccin-emacs",
+  "stars": 43,
+  "updated": "2026-09-01T12:32:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "batppuccin",
+    "fetcher": "github",
+    "repo": "bbatsov/batppuccin-emacs"
+  }
+}

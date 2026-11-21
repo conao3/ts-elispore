@@ -1,0 +1,18 @@
+{
+  "id": 14448402,
+  "name": "emacsorphanage/ac-etags",
+  "description": "Etags/ctags completion source for auto-complete",
+  "url": "https://github.com/emacsorphanage/ac-etags",
+  "stars": 29,
+  "updated": "2016-10-01T15:09:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ac-etags",
+    "fetcher": "github",
+    "repo": "emacsorphanage/ac-etags"
+  }
+}

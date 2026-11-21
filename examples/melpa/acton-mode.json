@@ -1,0 +1,18 @@
+{
+  "id": 912846526,
+  "name": "actonlang/acton-mode",
+  "description": "An Emacs major mode for the Acton programming language.",
+  "url": "https://github.com/actonlang/acton-mode",
+  "stars": 1,
+  "updated": "2025-01-13T10:59:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "acton-mode",
+    "fetcher": "github",
+    "repo": "actonlang/acton-mode"
+  }
+}

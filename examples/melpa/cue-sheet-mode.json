@@ -1,0 +1,18 @@
+{
+  "id": 251299531,
+  "name": "peterhoeg/cue-sheet-mode",
+  "description": ".cue file support for emacs",
+  "url": "https://github.com/peterhoeg/cue-sheet-mode",
+  "stars": 0,
+  "updated": "2023-05-30T02:10:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cue-sheet-mode",
+    "fetcher": "github",
+    "repo": "peterhoeg/cue-sheet-mode"
+  }
+}

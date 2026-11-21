@@ -1,0 +1,18 @@
+{
+  "id": 390936052,
+  "name": "karthink/consult-dir",
+  "description": "Insert paths into the minibuffer prompt in Emacs",
+  "url": "https://github.com/karthink/consult-dir",
+  "stars": 211,
+  "updated": "2025-10-20T04:17:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-dir",
+    "fetcher": "github",
+    "repo": "karthink/consult-dir"
+  }
+}

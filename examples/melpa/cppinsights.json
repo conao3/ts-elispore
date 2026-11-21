@@ -1,0 +1,18 @@
+{
+  "id": 963021829,
+  "name": "ignity21/cppinsights.el",
+  "description": "emacs package for C++ Insights",
+  "url": "https://github.com/ignity21/cppinsights.el",
+  "stars": 1,
+  "updated": "2026-09-14T12:52:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cppinsights",
+    "fetcher": "github",
+    "repo": "ignity21/cppinsights.el"
+  }
+}

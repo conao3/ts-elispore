@@ -1,0 +1,18 @@
+{
+  "id": 1188930570,
+  "name": "dcj/clj-doc-browse-el",
+  "description": "Emacs package for browsing Clojure library docs from classpath JARs via CIDER",
+  "url": "https://github.com/dcj/clj-doc-browse-el",
+  "stars": 0,
+  "updated": "2026-03-29T19:12:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clj-doc-browse",
+    "fetcher": "github",
+    "repo": "dcj/clj-doc-browse-el"
+  }
+}

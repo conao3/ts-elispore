@@ -1,0 +1,18 @@
+{
+  "id": 104849066,
+  "name": "lepisma/colormaps.el",
+  "description": "Color maps for emacs",
+  "url": "https://github.com/lepisma/colormaps.el",
+  "stars": 7,
+  "updated": "2017-10-08T22:28:24Z",
+  "archived": false,
+  "topics": ["color-scheme", "elisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "colormaps",
+    "fetcher": "github",
+    "repo": "lepisma/colormaps.el"
+  }
+}

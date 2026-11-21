@@ -1,0 +1,18 @@
+{
+  "id": 226902381,
+  "name": "jcs-legacy/company-quickhelp-terminal",
+  "description": "Terminal support for `company-quickhelp'.",
+  "url": "https://github.com/jcs-legacy/company-quickhelp-terminal",
+  "stars": 14,
+  "updated": "2026-06-18T17:30:11Z",
+  "archived": false,
+  "topics": ["company", "emacs", "extend", "help", "shell", "terminal"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "company-quickhelp-terminal",
+    "fetcher": "github",
+    "repo": "jcs-legacy/company-quickhelp-terminal"
+  }
+}

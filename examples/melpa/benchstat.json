@@ -1,0 +1,18 @@
+{
+  "id": 106124377,
+  "name": "quasilyte/benchstat.el",
+  "description": "Proper Emacs Lisp benchmarking made simple.",
+  "url": "https://github.com/quasilyte/benchstat.el",
+  "stars": 8,
+  "updated": "2017-10-14T09:07:52Z",
+  "archived": false,
+  "topics": ["benchmark", "emacs-lisp", "performance-analysis"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "benchstat",
+    "fetcher": "github",
+    "repo": "quasilyte/benchstat.el"
+  }
+}

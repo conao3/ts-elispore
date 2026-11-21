@@ -1,0 +1,37 @@
+{
+  "id": 23216641,
+  "name": "atilaneves/cmake-ide",
+  "description": "Use Emacs as a C/C++ IDE",
+  "url": "https://github.com/atilaneves/cmake-ide",
+  "stars": 723,
+  "updated": "2021-06-10T15:25:22Z",
+  "archived": false,
+  "topics": [
+    "autocomplete",
+    "autocompletion",
+    "clang",
+    "cmake",
+    "cmake-ide",
+    "cpp",
+    "cpp11",
+    "cpp14",
+    "cpp17",
+    "emacs",
+    "emacs-lisp",
+    "flycheck",
+    "flycheck-extension",
+    "goto-definition",
+    "ide",
+    "libclang",
+    "melpa",
+    "rtags"
+  ],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cmake-ide",
+    "fetcher": "github",
+    "repo": "atilaneves/cmake-ide"
+  }
+}

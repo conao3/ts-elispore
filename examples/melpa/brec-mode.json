@@ -1,0 +1,18 @@
+{
+  "id": 203785391,
+  "name": "Michael-Allan/Breccia.Emacs",
+  "description": "Brec Mode for Emacs. (mirror)",
+  "url": "https://github.com/Michael-Allan/Breccia.Emacs",
+  "stars": 1,
+  "updated": "2024-06-20T12:16:46Z",
+  "archived": false,
+  "topics": ["breccia", "emacs"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "brec-mode",
+    "fetcher": "github",
+    "repo": "Michael-Allan/Breccia.Emacs"
+  }
+}

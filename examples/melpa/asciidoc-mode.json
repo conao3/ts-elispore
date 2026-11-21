@@ -1,0 +1,18 @@
+{
+  "id": 1162837485,
+  "name": "bbatsov/asciidoc-mode",
+  "description": "A modern Emacs major mode for editing AsciiDoc files, powered by TreeSitter",
+  "url": "https://github.com/bbatsov/asciidoc-mode",
+  "stars": 28,
+  "updated": "2026-11-19T12:19:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "asciidoc-mode",
+    "fetcher": "github",
+    "repo": "bbatsov/asciidoc-mode"
+  }
+}

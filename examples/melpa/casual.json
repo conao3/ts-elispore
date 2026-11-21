@@ -1,0 +1,19 @@
+{
+  "id": 873245497,
+  "name": "kickingvegas/casual",
+  "description": "A collection of opinionated keyboard-driven user interfaces for various built-in Emacs modes.",
+  "url": "https://github.com/kickingvegas/casual",
+  "stars": 358,
+  "updated": "2026-11-12T02:17:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "casual",
+    "fetcher": "github",
+    "repo": "kickingvegas/casual",
+    "files": "(:defaults \"docs/images\")"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": 30835336,
+  "name": "cpitclaudel/company-coq",
+  "description": "A Coq IDE build on top of Proof General's Coq mode",
+  "url": "https://github.com/cpitclaudel/company-coq",
+  "stars": 360,
+  "updated": "2026-02-23T17:21:09Z",
+  "archived": false,
+  "topics": [
+    "company-mode",
+    "coq",
+    "emacs",
+    "integrated-development-environment",
+    "proof-assistant",
+    "proof-general"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-coq",
+    "fetcher": "github",
+    "repo": "cpitclaudel/company-coq",
+    "files": "(:defaults \"refman\")"
+  }
+}

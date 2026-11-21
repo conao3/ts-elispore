@@ -1,0 +1,18 @@
+{
+  "id": 30024766,
+  "name": "company-mode/company-quickhelp",
+  "description": "Documentation popup for Company",
+  "url": "https://github.com/company-mode/company-quickhelp",
+  "stars": 381,
+  "updated": "2023-10-26T17:14:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "company-quickhelp",
+    "fetcher": "github",
+    "repo": "company-mode/company-quickhelp"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 30000430,
+  "name": "xcwen/ac-php",
+  "description": "emacs auto-complete  & company-mode  for php",
+  "url": "https://github.com/xcwen/ac-php",
+  "stars": 165,
+  "updated": "2026-11-06T01:59:59Z",
+  "archived": false,
+  "topics": ["ac-php", "auto-complete", "company-php", "emacs", "php", "spacemacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-php",
+    "fetcher": "github",
+    "repo": "xcwen/ac-php",
+    "files": "(\"ac-php.el\" )"
+  }
+}

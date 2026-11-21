@@ -1,0 +1,19 @@
+{
+  "id": 377962311,
+  "name": "mohkale/consult-eglot",
+  "description": "Jump to workspace symbols with eglot and consult",
+  "url": "https://github.com/mohkale/consult-eglot",
+  "stars": 102,
+  "updated": "2026-06-13T14:43:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-eglot-embark",
+    "fetcher": "github",
+    "repo": "mohkale/consult-eglot",
+    "files": "(\"extensions/consult-eglot-embark/consult-eglot-embark*.el\")"
+  }
+}

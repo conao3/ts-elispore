@@ -1,0 +1,18 @@
+{
+  "id": 497079015,
+  "name": "bbatsov/adoc-mode",
+  "description": "A major-mode for editing AsciiDoc files in Emacs",
+  "url": "https://github.com/bbatsov/adoc-mode",
+  "stars": 90,
+  "updated": "2026-10-10T06:52:21Z",
+  "archived": false,
+  "topics": ["asciidoc", "asciidoctor", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "adoc-mode",
+    "fetcher": "github",
+    "repo": "bbatsov/adoc-mode"
+  }
+}

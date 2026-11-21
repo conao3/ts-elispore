@@ -1,0 +1,18 @@
+{
+  "id": 93153522,
+  "name": "davep/cheat-sh.el",
+  "description": "Simple Emacs interface for cheat.sh",
+  "url": "https://github.com/davep/cheat-sh.el",
+  "stars": 60,
+  "updated": "2021-06-07T13:07:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cheat-sh",
+    "fetcher": "github",
+    "repo": "davep/cheat-sh.el"
+  }
+}

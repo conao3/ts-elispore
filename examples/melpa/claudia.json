@@ -1,0 +1,18 @@
+{
+  "id": 875775422,
+  "name": "mzacho/claudia",
+  "description": "Claudia is an Emacs integration for the Claude AI assistant, providing an interface between Emacs and Anthropic's language models.",
+  "url": "https://github.com/mzacho/claudia",
+  "stars": 30,
+  "updated": "2025-08-24T17:04:46Z",
+  "archived": false,
+  "topics": ["ai", "anthropic", "emacs", "tool-use"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "claudia",
+    "fetcher": "github",
+    "repo": "mzacho/claudia"
+  }
+}

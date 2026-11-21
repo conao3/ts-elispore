@@ -1,0 +1,18 @@
+{
+  "id": 106498336,
+  "name": "co-dh/pydoc_utils",
+  "description": "",
+  "url": "https://github.com/co-dh/pydoc_utils",
+  "stars": 1,
+  "updated": "2017-10-19T01:12:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Python",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-pydoc",
+    "fetcher": "github",
+    "repo": "co-dh/pydoc_utils"
+  }
+}

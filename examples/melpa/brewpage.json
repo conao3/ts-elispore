@@ -1,0 +1,18 @@
+{
+  "id": 1230942354,
+  "name": "kochetkov-ma/brewpage-emacs",
+  "description": "Publish buffers/regions to brewpage.app from Emacs",
+  "url": "https://github.com/kochetkov-ma/brewpage-emacs",
+  "stars": 1,
+  "updated": "2026-11-20T21:51:36Z",
+  "archived": false,
+  "topics": ["brewpage", "elisp", "emacs", "mcp", "pastebin"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "brewpage",
+    "fetcher": "github",
+    "repo": "kochetkov-ma/brewpage-emacs"
+  }
+}

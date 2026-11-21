@@ -1,0 +1,18 @@
+{
+  "id": 29073367,
+  "name": "davidshepherd7/aggressive-fill-paragraph-mode",
+  "description": "An emacs minor-mode for keeping paragraphs filled (in both comments and prose)",
+  "url": "https://github.com/davidshepherd7/aggressive-fill-paragraph-mode",
+  "stars": 24,
+  "updated": "2026-03-14T13:32:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aggressive-fill-paragraph",
+    "fetcher": "github",
+    "repo": "davidshepherd7/aggressive-fill-paragraph-mode"
+  }
+}

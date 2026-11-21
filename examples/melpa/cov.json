@@ -1,0 +1,27 @@
+{
+  "id": 65506338,
+  "name": "AdamNiederer/cov",
+  "description": "An emacs extension for displaying coverage data on your code",
+  "url": "https://github.com/AdamNiederer/cov",
+  "stars": 96,
+  "updated": "2025-01-26T23:33:54Z",
+  "archived": false,
+  "topics": [
+    "clover",
+    "coverage",
+    "coverage-data",
+    "coveralls",
+    "emacs",
+    "gcov",
+    "lcov",
+    "profiling"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cov",
+    "fetcher": "github",
+    "repo": "AdamNiederer/cov"
+  }
+}

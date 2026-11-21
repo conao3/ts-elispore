@@ -1,0 +1,19 @@
+{
+  "id": 48202684,
+  "name": "osv/ac-html-angular",
+  "description": "auto complete angular15 data for `ac-html' and `company-web' Emacs's modes",
+  "url": "https://github.com/osv/ac-html-angular",
+  "stars": 5,
+  "updated": "2015-12-25T07:20:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Perl",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-html-angular",
+    "fetcher": "github",
+    "repo": "osv/ac-html-angular",
+    "files": "(:defaults \"html-stuff\")"
+  }
+}

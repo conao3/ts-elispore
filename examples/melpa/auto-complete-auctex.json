@@ -1,0 +1,18 @@
+{
+  "id": 753305411,
+  "name": "emacsattic/auto-complete-auctex",
+  "description": "",
+  "url": "https://github.com/emacsattic/auto-complete-auctex",
+  "stars": 0,
+  "updated": "2024-02-05T21:26:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "auto-complete-auctex",
+    "fetcher": "github",
+    "repo": "emacsattic/auto-complete-auctex"
+  }
+}

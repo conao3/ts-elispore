@@ -1,0 +1,18 @@
+{
+  "id": 50075001,
+  "name": "trezona-lecomte/coverage",
+  "description": "Emacs minor mode for Code coverage highlighting",
+  "url": "https://github.com/trezona-lecomte/coverage",
+  "stars": 23,
+  "updated": "2020-06-04T00:36:46Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "coverage",
+    "fetcher": "github",
+    "repo": "trezona-lecomte/coverage"
+  }
+}

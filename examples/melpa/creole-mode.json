@@ -1,0 +1,18 @@
+{
+  "id": 7416198,
+  "name": "nicferrier/creole-mode",
+  "description": "A WikiCreole mode for Emacs.",
+  "url": "https://github.com/nicferrier/creole-mode",
+  "stars": 4,
+  "updated": "2013-07-22T00:50:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "creole-mode",
+    "fetcher": "github",
+    "repo": "nicferrier/creole-mode"
+  }
+}

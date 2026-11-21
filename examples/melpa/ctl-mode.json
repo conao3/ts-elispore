@@ -1,0 +1,19 @@
+{
+  "id": 1479400,
+  "name": "yyr/emacs-grads",
+  "description": "kept here to serve el-get",
+  "url": "https://github.com/yyr/emacs-grads",
+  "stars": 3,
+  "updated": "2015-12-02T10:06:44Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ctl-mode",
+    "fetcher": "github",
+    "repo": "yyr/emacs-grads",
+    "files": "(\"ctl-mode.el\")"
+  }
+}

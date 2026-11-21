@@ -1,0 +1,19 @@
+{
+  "id": 59119789,
+  "name": "emacscollective/borg",
+  "description": "Assimilate Emacs packages as Git submodules",
+  "url": "https://github.com/emacscollective/borg",
+  "stars": 294,
+  "updated": "2026-11-09T21:54:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "borg",
+    "fetcher": "github",
+    "repo": "emacscollective/borg",
+    "files": "(:defaults \"borg.mk\")"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 23272017,
+  "name": "neuromage/ycm.el",
+  "description": "Emacs client for the YCM code-completion engine.",
+  "url": "https://github.com/neuromage/ycm.el",
+  "stars": 3,
+  "updated": "2015-08-22T18:39:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-ycm",
+    "fetcher": "github",
+    "repo": "neuromage/ycm.el",
+    "files": "(\"company-ycm.el\")"
+  }
+}

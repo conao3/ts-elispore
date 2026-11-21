@@ -1,0 +1,19 @@
+{
+  "id": 8233398,
+  "name": "kawabata/aozora-view",
+  "description": "青空文庫 Emacs ビューア",
+  "url": "https://github.com/kawabata/aozora-view",
+  "stars": 7,
+  "updated": "2015-06-08T01:44:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aozora-view",
+    "fetcher": "github",
+    "repo": "kawabata/aozora-view",
+    "files": "(:defaults \"*.txt\")"
+  }
+}

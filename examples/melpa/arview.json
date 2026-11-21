@@ -1,0 +1,18 @@
+{
+  "id": 56380945,
+  "name": "afainer/arview",
+  "description": "An Emacs package for viewing archives in temporary directories",
+  "url": "https://github.com/afainer/arview",
+  "stars": 5,
+  "updated": "2016-04-19T22:13:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "arview",
+    "fetcher": "github",
+    "repo": "afainer/arview"
+  }
+}

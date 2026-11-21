@@ -1,0 +1,18 @@
+{
+  "id": 201542025,
+  "name": "SavchenkoValeriy/emacs-clang-format-plus",
+  "description": "Emacs minor mode for automatic clang-format application",
+  "url": "https://github.com/SavchenkoValeriy/emacs-clang-format-plus",
+  "stars": 45,
+  "updated": "2019-08-24T22:16:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clang-format+",
+    "fetcher": "github",
+    "repo": "SavchenkoValeriy/emacs-clang-format-plus"
+  }
+}

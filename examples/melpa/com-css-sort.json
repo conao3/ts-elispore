@@ -1,0 +1,18 @@
+{
+  "id": 131587347,
+  "name": "jcs-elpa/com-css-sort",
+  "description": "Common way of sorting the CSS attributes.",
+  "url": "https://github.com/jcs-elpa/com-css-sort",
+  "stars": 16,
+  "updated": "2026-06-19T13:55:42Z",
+  "archived": false,
+  "topics": ["attribute", "css", "element", "emacs", "handy"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "com-css-sort",
+    "fetcher": "github",
+    "repo": "jcs-elpa/com-css-sort"
+  }
+}

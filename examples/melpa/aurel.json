@@ -1,0 +1,18 @@
+{
+  "id": 16828395,
+  "name": "alezost/aurel",
+  "description": "Search, vote for and download AUR packages from Emacs",
+  "url": "https://github.com/alezost/aurel",
+  "stars": 52,
+  "updated": "2026-04-30T15:55:25Z",
+  "archived": false,
+  "topics": ["aur-packages", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aurel",
+    "fetcher": "github",
+    "repo": "alezost/aurel"
+  }
+}

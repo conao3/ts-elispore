@@ -1,0 +1,18 @@
+{
+  "id": 659839866,
+  "name": "emiflake/counsel-toki",
+  "description": "ivy based searching in toki pona word dictionary",
+  "url": "https://github.com/emiflake/counsel-toki",
+  "stars": 4,
+  "updated": "2023-08-06T13:19:54Z",
+  "archived": false,
+  "topics": ["toki-pona"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-toki",
+    "fetcher": "github",
+    "repo": "emiflake/counsel-toki"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 944747148,
+  "name": "MArpogaus/auto-side-windows",
+  "description": "Emacs window management made simple",
+  "url": "https://github.com/MArpogaus/auto-side-windows",
+  "stars": 47,
+  "updated": "2026-10-29T20:44:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-side-windows",
+    "fetcher": "github",
+    "repo": "MArpogaus/auto-side-windows"
+  }
+}

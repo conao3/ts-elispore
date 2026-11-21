@@ -1,0 +1,18 @@
+{
+  "id": 31397201,
+  "name": "horellana/company-ghci",
+  "description": "A company backend for haskell",
+  "url": "https://github.com/horellana/company-ghci",
+  "stars": 21,
+  "updated": "2019-07-07T03:11:50Z",
+  "archived": false,
+  "topics": ["company-mode", "emacs", "haskell"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-ghci",
+    "fetcher": "github",
+    "repo": "horellana/company-ghci"
+  }
+}

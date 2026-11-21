@@ -1,0 +1,18 @@
+{
+  "id": 5768859,
+  "name": "yuutayamada/bpe",
+  "description": "Post blog article of org-mode to Blogger from Emacs",
+  "url": "https://github.com/yuutayamada/bpe",
+  "stars": 4,
+  "updated": "2014-12-28T22:05:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bpe",
+    "fetcher": "github",
+    "repo": "yuutayamada/bpe"
+  }
+}

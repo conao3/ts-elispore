@@ -1,0 +1,18 @@
+{
+  "id": 591587872,
+  "name": "positron-solutions/champagne",
+  "description": "Countdown timer for bubbly events",
+  "url": "https://github.com/positron-solutions/champagne",
+  "stars": 22,
+  "updated": "2024-05-15T03:11:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "champagne",
+    "fetcher": "github",
+    "repo": "positron-solutions/champagne"
+  }
+}

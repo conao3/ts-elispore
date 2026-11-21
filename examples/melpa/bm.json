@@ -1,0 +1,18 @@
+{
+  "id": 1321993,
+  "name": "joodland/bm",
+  "description": "bm.el -- Visual Bookmarks for GNU Emacs",
+  "url": "https://github.com/joodland/bm",
+  "stars": 288,
+  "updated": "2026-03-29T19:36:36Z",
+  "archived": false,
+  "topics": ["bookmark", "emacs", "fringe", "gnu-emacs", "melpa", "visual-bookmarks"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bm",
+    "fetcher": "github",
+    "repo": "joodland/bm"
+  }
+}

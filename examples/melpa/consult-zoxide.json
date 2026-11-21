@@ -1,0 +1,18 @@
+{
+  "id": 1333673654,
+  "name": "agzam/consult-zoxide.el",
+  "description": "zoxide integration for consult",
+  "url": "https://github.com/agzam/consult-zoxide.el",
+  "stars": 1,
+  "updated": "2026-09-21T23:33:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-zoxide",
+    "fetcher": "github",
+    "repo": "agzam/consult-zoxide.el"
+  }
+}

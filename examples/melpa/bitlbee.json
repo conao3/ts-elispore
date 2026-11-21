@@ -1,0 +1,18 @@
+{
+  "id": 47296455,
+  "name": "pjones/bitlbee-el",
+  "description": "Help get Bitlbee (http://www.bitlbee.org) up and running.",
+  "url": "https://github.com/pjones/bitlbee-el",
+  "stars": 4,
+  "updated": "2015-12-03T00:13:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bitlbee",
+    "fetcher": "github",
+    "repo": "pjones/bitlbee-el"
+  }
+}

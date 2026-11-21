@@ -1,0 +1,18 @@
+{
+  "id": 533093422,
+  "name": "t4ccer/agenix.el",
+  "description": "Transparent editing for agenix secrets inside Emacs",
+  "url": "https://github.com/t4ccer/agenix.el",
+  "stars": 20,
+  "updated": "2025-02-09T05:52:43Z",
+  "archived": false,
+  "topics": ["age", "agenix", "emacs-package", "nix", "nixos", "secret-management"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "agenix",
+    "fetcher": "github",
+    "repo": "t4ccer/agenix.el"
+  }
+}

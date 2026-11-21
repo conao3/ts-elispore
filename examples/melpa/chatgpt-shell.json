@@ -1,0 +1,19 @@
+{
+  "id": 616363358,
+  "name": "xenodium/chatgpt-shell",
+  "description": "A multi-llm Emacs shell (ChatGPT, Claude, DeepSeek, Gemini, Kagi, Ollama, Perplexity) + editing integrations",
+  "url": "https://github.com/xenodium/chatgpt-shell",
+  "stars": 1211,
+  "updated": "2026-09-18T20:23:43Z",
+  "archived": false,
+  "topics": ["chatgpt", "dall-e", "emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chatgpt-shell",
+    "fetcher": "github",
+    "repo": "xenodium/chatgpt-shell",
+    "files": "(\"*.el\" (:exclude \"test_chatgpt-shell.el\"\n                          \"shell-maker.el\"\n                          \"ob-chatgpt-shell.el\"\n                          \"dall-e-shell.el\"\n                          \"ob-dall-e-shell.el\"))"
+  }
+}

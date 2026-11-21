@@ -1,0 +1,18 @@
+{
+  "id": 309735598,
+  "name": "gkowzan/alert-toast",
+  "description": "Windows 10 toast notifications for Emacs",
+  "url": "https://github.com/gkowzan/alert-toast",
+  "stars": 22,
+  "updated": "2022-03-18T02:09:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "alert-toast",
+    "fetcher": "github",
+    "repo": "gkowzan/alert-toast"
+  }
+}

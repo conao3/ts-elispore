@@ -1,0 +1,18 @@
+{
+  "id": 720955365,
+  "name": "akirak/bookmark-frecency.el",
+  "description": "Sort Emacs bookmarks by frecency",
+  "url": "https://github.com/akirak/bookmark-frecency.el",
+  "stars": 5,
+  "updated": "2025-02-20T14:07:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bookmark-frecency",
+    "fetcher": "github",
+    "repo": "akirak/bookmark-frecency.el"
+  }
+}

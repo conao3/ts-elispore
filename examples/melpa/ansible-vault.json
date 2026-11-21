@@ -1,0 +1,18 @@
+{
+  "id": 69209121,
+  "name": "freehck/ansible-vault-mode",
+  "description": "Minor mode for manipulating ansible-vault files",
+  "url": "https://github.com/freehck/ansible-vault-mode",
+  "stars": 26,
+  "updated": "2026-01-14T11:49:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ansible-vault",
+    "fetcher": "github",
+    "repo": "freehck/ansible-vault-mode"
+  }
+}

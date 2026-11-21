@@ -1,0 +1,18 @@
+{
+  "id": 285763393,
+  "name": "llaisdy/clingo-mode",
+  "description": "An Emacs Major Mode for editing Answer Set Programs",
+  "url": "https://github.com/llaisdy/clingo-mode",
+  "stars": 10,
+  "updated": "2024-07-24T11:35:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clingo-mode",
+    "fetcher": "github",
+    "repo": "llaisdy/clingo-mode"
+  }
+}

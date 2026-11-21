@@ -1,0 +1,19 @@
+{
+  "id": 187923615,
+  "name": "maurooaranda/ctune",
+  "description": "Emacs package to tune out those CC Mode Noise Macros",
+  "url": "https://github.com/maurooaranda/ctune",
+  "stars": 2,
+  "updated": "2025-03-10T20:35:33Z",
+  "archived": false,
+  "topics": ["c", "c-plus-plus", "emacs-package", "objective-c"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ctune",
+    "fetcher": "github",
+    "repo": "maurooaranda/ctune",
+    "files": "(:defaults (:exclude \"doclicense.texi\" \"docstyle.texi\"))"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 5411238,
+  "name": "magnars/crappy-jsp-mode",
+  "description": "Seriously, this is not a good jsp-mode, it just solves some of my problems",
+  "url": "https://github.com/magnars/crappy-jsp-mode",
+  "stars": 3,
+  "updated": "2014-03-11T09:31:16Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "crappy-jsp-mode",
+    "fetcher": "github",
+    "repo": "magnars/crappy-jsp-mode"
+  }
+}

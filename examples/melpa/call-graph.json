@@ -1,0 +1,18 @@
+{
+  "id": 894787285,
+  "name": "beacoder/call-graph",
+  "description": "Generate call graph for c/c++ functions",
+  "url": "https://github.com/beacoder/call-graph",
+  "stars": 6,
+  "updated": "2026-07-15T02:09:49Z",
+  "archived": false,
+  "topics": ["call-graph", "call-hierarchy", "cpp", "git-grep", "gnu-global", "programming-tool"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "call-graph",
+    "fetcher": "github",
+    "repo": "beacoder/call-graph"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 56003755,
+  "name": "lafrenierejm/counsel-projectile",
+  "description": "Ivy UI for Projectile",
+  "url": "https://github.com/lafrenierejm/counsel-projectile",
+  "stars": 293,
+  "updated": "2026-09-18T07:25:26Z",
+  "archived": false,
+  "topics": ["counsel", "emacs", "emacs-lisp", "ivy", "project-management", "projectile"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-projectile",
+    "fetcher": "github",
+    "repo": "lafrenierejm/counsel-projectile"
+  }
+}

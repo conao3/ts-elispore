@@ -1,0 +1,18 @@
+{
+  "id": 25408605,
+  "name": "jyp/boon",
+  "description": "Ergonomic Command Mode for Emacs",
+  "url": "https://github.com/jyp/boon",
+  "stars": 385,
+  "updated": "2026-02-15T09:30:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "boon",
+    "fetcher": "github",
+    "repo": "jyp/boon"
+  }
+}

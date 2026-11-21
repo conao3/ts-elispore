@@ -1,0 +1,18 @@
+{
+  "id": 337640142,
+  "name": "astoff/buffer-env",
+  "description": "Buffer-local process environments for Emacs",
+  "url": "https://github.com/astoff/buffer-env",
+  "stars": 84,
+  "updated": "2026-06-04T06:51:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "buffer-env",
+    "fetcher": "github",
+    "repo": "astoff/buffer-env"
+  }
+}

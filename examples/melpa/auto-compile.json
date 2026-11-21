@@ -1,0 +1,18 @@
+{
+  "id": 128904,
+  "name": "emacscollective/auto-compile",
+  "description": "Automatically compile Emacs Lisp libraries",
+  "url": "https://github.com/emacscollective/auto-compile",
+  "stars": 185,
+  "updated": "2026-10-01T15:33:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "auto-compile",
+    "fetcher": "github",
+    "repo": "emacscollective/auto-compile"
+  }
+}

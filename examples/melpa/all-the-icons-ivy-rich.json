@@ -1,0 +1,18 @@
+{
+  "id": 237633663,
+  "name": "seagle0128/all-the-icons-ivy-rich",
+  "description": "Better experience with icons for ivy",
+  "url": "https://github.com/seagle0128/all-the-icons-ivy-rich",
+  "stars": 145,
+  "updated": "2025-03-07T09:53:52Z",
+  "archived": false,
+  "topics": ["all-the-icons", "elisp", "emacs", "emacs-lisp", "ivy"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "all-the-icons-ivy-rich",
+    "fetcher": "github",
+    "repo": "seagle0128/all-the-icons-ivy-rich"
+  }
+}

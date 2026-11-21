@@ -1,0 +1,18 @@
+{
+  "id": 462812095,
+  "name": "NicholasBHubbard/clean-kill-ring.el",
+  "description": "Keep your kill ring clean",
+  "url": "https://github.com/NicholasBHubbard/clean-kill-ring.el",
+  "stars": 13,
+  "updated": "2026-07-24T18:48:28Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "kill-ring"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clean-kill-ring",
+    "fetcher": "github",
+    "repo": "NicholasBHubbard/clean-kill-ring.el"
+  }
+}

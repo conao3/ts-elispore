@@ -1,0 +1,18 @@
+{
+  "id": 327932655,
+  "name": "gexplorer/counsel-ag-popup",
+  "description": "The power of searching with ag using counsel with transient popups Magit style.",
+  "url": "https://github.com/gexplorer/counsel-ag-popup",
+  "stars": 14,
+  "updated": "2021-01-21T08:05:10Z",
+  "archived": false,
+  "topics": ["emacs", "ivy", "search"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-ag-popup",
+    "fetcher": "github",
+    "repo": "gexplorer/counsel-ag-popup"
+  }
+}

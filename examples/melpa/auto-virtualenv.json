@@ -1,0 +1,18 @@
+{
+  "id": 51458408,
+  "name": "marcwebbie/auto-virtualenv",
+  "description": "Automatically activate python virtualenv on Emacs",
+  "url": "https://github.com/marcwebbie/auto-virtualenv",
+  "stars": 57,
+  "updated": "2026-01-06T14:39:41Z",
+  "archived": false,
+  "topics": ["development-environment", "emacs", "emacs-package", "pyenv", "python", "virtualenv"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-virtualenv",
+    "fetcher": "github",
+    "repo": "marcwebbie/auto-virtualenv"
+  }
+}

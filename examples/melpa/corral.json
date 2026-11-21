@@ -1,0 +1,18 @@
+{
+  "id": 35771905,
+  "name": "nivekuil/corral",
+  "description": "Quickly surround text with delimiters in emacs",
+  "url": "https://github.com/nivekuil/corral",
+  "stars": 93,
+  "updated": "2021-10-12T19:34:04Z",
+  "archived": false,
+  "topics": ["emacs", "productivity"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "corral",
+    "fetcher": "github",
+    "repo": "nivekuil/corral"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 33952499,
+  "name": "cute-jumper/ace-jump-helm-line",
+  "description": "Ace-jump to a candidate in helm window",
+  "url": "https://github.com/cute-jumper/ace-jump-helm-line",
+  "stars": 35,
+  "updated": "2020-08-23T19:43:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ace-jump-helm-line",
+    "fetcher": "github",
+    "repo": "cute-jumper/ace-jump-helm-line"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 2168892,
+  "name": "jimeh/birds-of-paradise-plus-theme.el",
+  "description": "A Emacs port of Joseph Bergantine's light-on-dark theme by the same name.",
+  "url": "https://github.com/jimeh/birds-of-paradise-plus-theme.el",
+  "stars": 39,
+  "updated": "2013-04-19T21:29:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "birds-of-paradise-plus-theme",
+    "fetcher": "github",
+    "repo": "jimeh/birds-of-paradise-plus-theme.el"
+  }
+}

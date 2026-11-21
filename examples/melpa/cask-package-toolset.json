@@ -1,0 +1,19 @@
+{
+  "id": 35626569,
+  "name": "AdrieanKhisbe/cask-package-toolset.el",
+  "description": "🛠 Toolsettize your emacs package! 🛠",
+  "url": "https://github.com/AdrieanKhisbe/cask-package-toolset.el",
+  "stars": 32,
+  "updated": "2017-09-21T22:57:07Z",
+  "archived": false,
+  "topics": ["continuous-integration", "emacs", "emacs-packages", "scaffolding"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cask-package-toolset",
+    "fetcher": "github",
+    "repo": "AdrieanKhisbe/cask-package-toolset.el",
+    "files": "(:defaults \"bin\" \"templates\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 27282442,
+  "name": "Malabarba/camcorder.el",
+  "description": "Tool for capturing screencasts directly from Emacs.",
+  "url": "https://github.com/Malabarba/camcorder.el",
+  "stars": 112,
+  "updated": "2019-03-18T21:45:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "camcorder",
+    "fetcher": "github",
+    "repo": "Malabarba/camcorder.el"
+  }
+}

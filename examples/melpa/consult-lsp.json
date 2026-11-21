@@ -1,0 +1,18 @@
+{
+  "id": 354580952,
+  "name": "gagbo/consult-lsp",
+  "description": "LSP-mode and consult.el helping each other",
+  "url": "https://github.com/gagbo/consult-lsp",
+  "stars": 122,
+  "updated": "2026-06-19T06:43:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-lsp",
+    "fetcher": "github",
+    "repo": "gagbo/consult-lsp"
+  }
+}

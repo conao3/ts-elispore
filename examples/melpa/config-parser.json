@@ -1,0 +1,18 @@
+{
+  "id": 49133304,
+  "name": "lujun9972/el-config-parser",
+  "description": " a library for parsing config file with similar interface of config parser module in python",
+  "url": "https://github.com/lujun9972/el-config-parser",
+  "stars": 4,
+  "updated": "2016-04-26T12:19:56Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "config-parser",
+    "fetcher": "github",
+    "repo": "lujun9972/el-config-parser"
+  }
+}

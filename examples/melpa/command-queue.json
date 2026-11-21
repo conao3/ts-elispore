@@ -1,0 +1,18 @@
+{
+  "id": 53235628,
+  "name": "Yuki-Inoue/command-queue",
+  "description": "Implementing shell command queue in emacs.",
+  "url": "https://github.com/Yuki-Inoue/command-queue",
+  "stars": 2,
+  "updated": "2016-03-28T17:25:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "command-queue",
+    "fetcher": "github",
+    "repo": "Yuki-Inoue/command-queue"
+  }
+}

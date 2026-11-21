@@ -1,0 +1,18 @@
+{
+  "id": 298028111,
+  "name": "bsless/clj-decompiler.el",
+  "description": "Small wrapper for clj-java-decompiler in GNU Emacs on top of Cider",
+  "url": "https://github.com/bsless/clj-decompiler.el",
+  "stars": 29,
+  "updated": "2022-01-03T17:46:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clj-decompiler",
+    "fetcher": "github",
+    "repo": "bsless/clj-decompiler.el"
+  }
+}

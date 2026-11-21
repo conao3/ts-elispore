@@ -1,0 +1,18 @@
+{
+  "id": 9431906,
+  "name": "yasuyk/coffee-fof",
+  "description": "A coffee-mode configuration for ff-find-other-file.",
+  "url": "https://github.com/yasuyk/coffee-fof",
+  "stars": 2,
+  "updated": "2013-10-12T12:33:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "coffee-fof",
+    "fetcher": "github",
+    "repo": "yasuyk/coffee-fof"
+  }
+}

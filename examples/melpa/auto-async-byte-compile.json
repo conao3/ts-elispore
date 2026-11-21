@@ -1,0 +1,18 @@
+{
+  "id": 58029904,
+  "name": "rubikitch/auto-async-byte-compile",
+  "description": "",
+  "url": "https://github.com/rubikitch/auto-async-byte-compile",
+  "stars": 2,
+  "updated": "2016-09-16T04:54:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-async-byte-compile",
+    "fetcher": "github",
+    "repo": "rubikitch/auto-async-byte-compile"
+  }
+}

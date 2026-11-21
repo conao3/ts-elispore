@@ -1,0 +1,18 @@
+{
+  "id": 91501337,
+  "name": "Lautaro-Garcia/counsel-spotify",
+  "description": "Control Spotify App through Emacs",
+  "url": "https://github.com/Lautaro-Garcia/counsel-spotify",
+  "stars": 59,
+  "updated": "2020-10-04T00:41:13Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "hacktoberfest", "ivy", "spotify"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-spotify",
+    "fetcher": "github",
+    "repo": "Lautaro-Garcia/counsel-spotify"
+  }
+}

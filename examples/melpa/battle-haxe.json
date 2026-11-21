@@ -1,0 +1,18 @@
+{
+  "id": 177230182,
+  "name": "AlonTzarafi/battle-haxe",
+  "description": "Full Haxe support inside Emacs: code completion, find references, Eldoc and more...",
+  "url": "https://github.com/AlonTzarafi/battle-haxe",
+  "stars": 27,
+  "updated": "2022-10-10T15:36:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "battle-haxe",
+    "fetcher": "github",
+    "repo": "AlonTzarafi/battle-haxe"
+  }
+}

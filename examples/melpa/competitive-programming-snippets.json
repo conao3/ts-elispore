@@ -1,0 +1,19 @@
+{
+  "id": 124976716,
+  "name": "sei40kr/competitive-programming-snippets",
+  "description": "Competitive Programming snippets for yasnippet",
+  "url": "https://github.com/sei40kr/competitive-programming-snippets",
+  "stars": 15,
+  "updated": "2020-11-15T17:03:07Z",
+  "archived": false,
+  "topics": ["competitive-programming-snippets", "yasnippets"],
+  "license": "GPL-3.0",
+  "language": "YASnippet",
+  "ownerType": "User",
+  "melpa": {
+    "name": "competitive-programming-snippets",
+    "fetcher": "github",
+    "repo": "sei40kr/competitive-programming-snippets",
+    "files": "(:defaults \"snippets\")"
+  }
+}

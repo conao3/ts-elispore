@@ -1,0 +1,18 @@
+{
+  "id": 1260171756,
+  "name": "Anoncheg1/emacs-cui",
+  "description": "Call LLMs and agents from Org-mode blocks. ",
+  "url": "https://github.com/Anoncheg1/emacs-cui",
+  "stars": 3,
+  "updated": "2026-11-21T07:25:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cui",
+    "fetcher": "github",
+    "repo": "Anoncheg1/emacs-cui"
+  }
+}

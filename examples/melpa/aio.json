@@ -1,0 +1,19 @@
+{
+  "id": 174774438,
+  "name": "skeeto/emacs-aio",
+  "description": "async/await for Emacs Lisp ",
+  "url": "https://github.com/skeeto/emacs-aio",
+  "stars": 250,
+  "updated": "2026-09-30T11:09:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aio",
+    "fetcher": "github",
+    "repo": "skeeto/emacs-aio",
+    "files": "(\"aio.el\" \"README.md\" \"UNLICENSE\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 8196829,
+  "name": "joostkremers/criticmarkup-emacs",
+  "description": "Emacs minor mode for handling CriticMarkup.",
+  "url": "https://github.com/joostkremers/criticmarkup-emacs",
+  "stars": 59,
+  "updated": "2026-05-18T19:21:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cm-mode",
+    "fetcher": "github",
+    "repo": "joostkremers/criticmarkup-emacs"
+  }
+}

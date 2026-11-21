@@ -1,0 +1,19 @@
+{
+  "id": 10743472,
+  "name": "clojure-emacs/clomacs",
+  "description": "Simplifies Emacs Lisp interaction with Clojure and vice versa.",
+  "url": "https://github.com/clojure-emacs/clomacs",
+  "stars": 213,
+  "updated": "2026-09-17T22:14:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "clomacs",
+    "fetcher": "github",
+    "repo": "clojure-emacs/clomacs",
+    "files": "(\"src/elisp/*.el\")"
+  }
+}

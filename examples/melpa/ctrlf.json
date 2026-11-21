@@ -1,0 +1,18 @@
+{
+  "id": 229998424,
+  "name": "radian-software/ctrlf",
+  "description": "⌨️ Emacs finally learns how to ctrl+F.",
+  "url": "https://github.com/radian-software/ctrlf",
+  "stars": 367,
+  "updated": "2026-11-13T22:58:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ctrlf",
+    "fetcher": "github",
+    "repo": "radian-software/ctrlf"
+  }
+}

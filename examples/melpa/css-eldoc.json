@@ -1,0 +1,19 @@
+{
+  "id": 6964137,
+  "name": "zenozeng/css-eldoc",
+  "description": "eldoc-mode plugin for CSS",
+  "url": "https://github.com/zenozeng/css-eldoc",
+  "stars": 29,
+  "updated": "2022-04-15T16:29:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "css-eldoc",
+    "fetcher": "github",
+    "repo": "zenozeng/css-eldoc",
+    "files": "(\"css-eldoc.el\" \"css-eldoc-hash-table.el\")"
+  }
+}

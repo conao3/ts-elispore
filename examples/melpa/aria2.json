@@ -1,0 +1,18 @@
+{
+  "id": 342113117,
+  "name": "ukaszg/aria2",
+  "description": "a bittorrent client for Emacs",
+  "url": "https://github.com/ukaszg/aria2",
+  "stars": 4,
+  "updated": "2023-03-14T21:31:53Z",
+  "archived": false,
+  "topics": ["emacs", "torrent-client"],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aria2",
+    "fetcher": "github",
+    "repo": "ukaszg/aria2"
+  }
+}

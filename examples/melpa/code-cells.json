@@ -1,0 +1,18 @@
+{
+  "id": 266047199,
+  "name": "astoff/code-cells.el",
+  "description": "Emacs utilities for code split into cells, including Jupyter notebooks",
+  "url": "https://github.com/astoff/code-cells.el",
+  "stars": 249,
+  "updated": "2025-06-08T14:39:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "code-cells",
+    "fetcher": "github",
+    "repo": "astoff/code-cells.el"
+  }
+}

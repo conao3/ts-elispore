@@ -1,0 +1,18 @@
+{
+  "id": 763296651,
+  "name": "ernstvanderlinden/emacs-afterglow",
+  "description": "Afterglow - Temporary Highlighting after Function Calls",
+  "url": "https://github.com/ernstvanderlinden/emacs-afterglow",
+  "stars": 5,
+  "updated": "2024-03-12T09:53:18Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-package", "melpa"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "afterglow",
+    "fetcher": "github",
+    "repo": "ernstvanderlinden/emacs-afterglow"
+  }
+}

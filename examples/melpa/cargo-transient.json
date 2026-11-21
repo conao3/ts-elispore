@@ -1,0 +1,18 @@
+{
+  "id": 501597098,
+  "name": "peterstuart/cargo-transient",
+  "description": "A transient UI for Cargo, Rust's package manager",
+  "url": "https://github.com/peterstuart/cargo-transient",
+  "stars": 11,
+  "updated": "2026-08-01T05:32:41Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cargo-transient",
+    "fetcher": "github",
+    "repo": "peterstuart/cargo-transient"
+  }
+}

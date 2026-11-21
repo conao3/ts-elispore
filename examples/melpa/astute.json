@@ -1,0 +1,18 @@
+{
+  "id": 698904363,
+  "name": "rnkn/astute",
+  "description": "A minor mode to redisplay smart typography in GNU Emacs",
+  "url": "https://github.com/rnkn/astute",
+  "stars": 6,
+  "updated": "2024-11-09T05:04:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "astute",
+    "fetcher": "github",
+    "repo": "rnkn/astute"
+  }
+}

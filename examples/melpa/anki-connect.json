@@ -1,0 +1,18 @@
+{
+  "id": 79920345,
+  "name": "lujun9972/anki-connect.el",
+  "description": "AnkiConnect API for Emacs",
+  "url": "https://github.com/lujun9972/anki-connect.el",
+  "stars": 14,
+  "updated": "2025-04-14T13:01:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "anki-connect",
+    "fetcher": "github",
+    "repo": "lujun9972/anki-connect.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 871719454,
+  "name": "lejicore/coc-damage-calculator",
+  "description": "Emacs package to calculate various Clash of Clans equipements and spells damages right from home.",
+  "url": "https://github.com/lejicore/coc-damage-calculator",
+  "stars": 3,
+  "updated": "2026-07-07T04:44:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "coc-dc",
+    "fetcher": "github",
+    "repo": "lejicore/coc-damage-calculator"
+  }
+}

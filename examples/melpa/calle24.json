@@ -1,0 +1,19 @@
+{
+  "id": 926642443,
+  "name": "kickingvegas/calle24",
+  "description": "Calle 24 - Proxy Emacs image assets with SF Symbols",
+  "url": "https://github.com/kickingvegas/calle24",
+  "stars": 37,
+  "updated": "2026-05-06T22:12:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "calle24",
+    "fetcher": "github",
+    "repo": "kickingvegas/calle24",
+    "files": "(:defaults \"images\")"
+  }
+}

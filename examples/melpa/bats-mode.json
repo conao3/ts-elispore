@@ -1,0 +1,18 @@
+{
+  "id": 26303051,
+  "name": "dougm/bats-mode",
+  "description": "Emacs mode for editing and running Bats tests",
+  "url": "https://github.com/dougm/bats-mode",
+  "stars": 22,
+  "updated": "2024-02-15T07:27:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bats-mode",
+    "fetcher": "github",
+    "repo": "dougm/bats-mode"
+  }
+}

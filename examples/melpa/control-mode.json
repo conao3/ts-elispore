@@ -1,0 +1,18 @@
+{
+  "id": 13419643,
+  "name": "stephendavidmarsh/control-mode",
+  "description": "Control mode",
+  "url": "https://github.com/stephendavidmarsh/control-mode",
+  "stars": 41,
+  "updated": "2016-06-25T15:24:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "control-mode",
+    "fetcher": "github",
+    "repo": "stephendavidmarsh/control-mode"
+  }
+}

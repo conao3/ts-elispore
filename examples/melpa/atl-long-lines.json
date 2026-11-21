@@ -1,0 +1,18 @@
+{
+  "id": 284211747,
+  "name": "jcs-legacy/atl-long-lines",
+  "description": "Turn off truncate-lines when the line is long.",
+  "url": "https://github.com/jcs-legacy/atl-long-lines",
+  "stars": 6,
+  "updated": "2026-06-18T17:30:49Z",
+  "archived": false,
+  "topics": ["emacs", "line", "lisp", "long", "truncate"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "atl-long-lines",
+    "fetcher": "github",
+    "repo": "jcs-legacy/atl-long-lines"
+  }
+}

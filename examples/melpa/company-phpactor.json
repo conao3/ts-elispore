@@ -1,0 +1,19 @@
+{
+  "id": 129750938,
+  "name": "emacs-php/phpactor.el",
+  "description": "Interface to Phpactor (an intelligent code-completion and refactoring tool for PHP)",
+  "url": "https://github.com/emacs-php/phpactor.el",
+  "stars": 47,
+  "updated": "2026-10-07T20:47:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "company-phpactor",
+    "fetcher": "github",
+    "repo": "emacs-php/phpactor.el",
+    "files": "( \"company-phpactor.el\")"
+  }
+}

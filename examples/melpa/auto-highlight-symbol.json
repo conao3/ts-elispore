@@ -1,0 +1,28 @@
+{
+  "id": 8725668,
+  "name": "elp-revive/auto-highlight-symbol",
+  "description": "Automatic highlighting current symbol minor mode.",
+  "url": "https://github.com/elp-revive/auto-highlight-symbol",
+  "stars": 59,
+  "updated": "2026-06-19T13:59:56Z",
+  "archived": false,
+  "topics": [
+    "auto",
+    "automatic",
+    "emacs",
+    "emacs-package",
+    "emacs-plugin",
+    "highlight",
+    "package",
+    "plugin",
+    "symbol"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "auto-highlight-symbol",
+    "fetcher": "github",
+    "repo": "elp-revive/auto-highlight-symbol"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 58029871,
+  "name": "rubikitch/archive-region",
+  "description": "",
+  "url": "https://github.com/rubikitch/archive-region",
+  "stars": 1,
+  "updated": "2020-03-16T14:25:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "archive-region",
+    "fetcher": "github",
+    "repo": "rubikitch/archive-region"
+  }
+}

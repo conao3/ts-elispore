@@ -1,0 +1,18 @@
+{
+  "id": 1330092012,
+  "name": "kickingvegas/aqui",
+  "description": "Location update for GNU Emacs with optimization for high accuracy on macOS.",
+  "url": "https://github.com/kickingvegas/aqui",
+  "stars": 3,
+  "updated": "2026-09-27T19:09:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aqui",
+    "fetcher": "github",
+    "repo": "kickingvegas/aqui"
+  }
+}

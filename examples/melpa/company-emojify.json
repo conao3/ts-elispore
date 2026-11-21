@@ -1,0 +1,18 @@
+{
+  "id": 386539484,
+  "name": "jcs-elpa/company-emojify",
+  "description": "Company completion for Emojify",
+  "url": "https://github.com/jcs-elpa/company-emojify",
+  "stars": 10,
+  "updated": "2026-06-19T13:58:56Z",
+  "archived": false,
+  "topics": ["company", "emacs", "emoji", "emojify"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "company-emojify",
+    "fetcher": "github",
+    "repo": "jcs-elpa/company-emojify"
+  }
+}

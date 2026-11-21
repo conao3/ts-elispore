@@ -1,0 +1,18 @@
+{
+  "id": 326087539,
+  "name": "tyler-dodge/counsel-edit-mode",
+  "description": "Edit the results from counsel search commands in-place in a buffer",
+  "url": "https://github.com/tyler-dodge/counsel-edit-mode",
+  "stars": 6,
+  "updated": "2023-04-29T06:06:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-edit-mode",
+    "fetcher": "github",
+    "repo": "tyler-dodge/counsel-edit-mode"
+  }
+}

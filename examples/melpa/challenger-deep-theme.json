@@ -1,0 +1,18 @@
+{
+  "id": 86984998,
+  "name": "challenger-deep-theme/emacs",
+  "description": "Emacs Theme",
+  "url": "https://github.com/challenger-deep-theme/emacs",
+  "stars": 148,
+  "updated": "2024-09-13T09:37:28Z",
+  "archived": false,
+  "topics": ["emacs-theme", "theme"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "challenger-deep-theme",
+    "fetcher": "github",
+    "repo": "challenger-deep-theme/emacs"
+  }
+}

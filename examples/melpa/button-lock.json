@@ -1,0 +1,19 @@
+{
+  "id": 1713327,
+  "name": "rolandwalker/button-lock",
+  "description": "clickable text in Emacs",
+  "url": "https://github.com/rolandwalker/button-lock",
+  "stars": 41,
+  "updated": "2023-03-04T22:12:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "button-lock",
+    "fetcher": "github",
+    "repo": "rolandwalker/button-lock",
+    "files": "(\"button-lock.el\")"
+  }
+}

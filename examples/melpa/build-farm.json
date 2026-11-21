@@ -1,0 +1,18 @@
+{
+  "id": 142557308,
+  "name": "alezost/build-farm.el",
+  "description": "Interface for Hydra and Cuirass (Nix and Guix build farms)",
+  "url": "https://github.com/alezost/build-farm.el",
+  "stars": 8,
+  "updated": "2018-12-18T20:04:10Z",
+  "archived": false,
+  "topics": ["emacs", "guix", "hydra", "nix"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "build-farm",
+    "fetcher": "github",
+    "repo": "alezost/build-farm.el"
+  }
+}

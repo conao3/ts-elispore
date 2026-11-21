@@ -1,0 +1,18 @@
+{
+  "id": 807848784,
+  "name": "kickingvegas/casual-suite",
+  "description": "Casual Suite - An umbrella package to support a single install point for all Casual user interfaces.",
+  "url": "https://github.com/kickingvegas/casual-suite",
+  "stars": 157,
+  "updated": "2026-10-23T23:05:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Makefile",
+  "ownerType": "User",
+  "melpa": {
+    "name": "casual-suite",
+    "fetcher": "github",
+    "repo": "kickingvegas/casual-suite"
+  }
+}

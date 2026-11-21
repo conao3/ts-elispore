@@ -1,0 +1,18 @@
+{
+  "id": 7574903,
+  "name": "sabof/auto-auto-indent",
+  "description": "A minor mode that indents code as you type",
+  "url": "https://github.com/sabof/auto-auto-indent",
+  "stars": 4,
+  "updated": "2015-11-22T02:42:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-auto-indent",
+    "fetcher": "github",
+    "repo": "sabof/auto-auto-indent"
+  }
+}

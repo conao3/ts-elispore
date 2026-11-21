@@ -1,0 +1,18 @@
+{
+  "id": 370592564,
+  "name": "minad/consult-flycheck",
+  "description": "Consult integration for Flycheck",
+  "url": "https://github.com/minad/consult-flycheck",
+  "stars": 47,
+  "updated": "2026-06-28T13:11:34Z",
+  "archived": false,
+  "topics": ["completion", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-flycheck",
+    "fetcher": "github",
+    "repo": "minad/consult-flycheck"
+  }
+}

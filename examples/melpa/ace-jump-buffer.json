@@ -1,0 +1,18 @@
+{
+  "id": 10751711,
+  "name": "waymondo/ace-jump-buffer",
+  "description": "Super fast Emacs buffer switching extension for avy",
+  "url": "https://github.com/waymondo/ace-jump-buffer",
+  "stars": 69,
+  "updated": "2019-03-18T21:15:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ace-jump-buffer",
+    "fetcher": "github",
+    "repo": "waymondo/ace-jump-buffer"
+  }
+}

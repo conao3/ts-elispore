@@ -1,0 +1,18 @@
+{
+  "id": 947110879,
+  "name": "rtrppl/cuckoo-search",
+  "description": "Content-based search for Elfeed.",
+  "url": "https://github.com/rtrppl/cuckoo-search",
+  "stars": 14,
+  "updated": "2025-10-04T18:51:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cuckoo-search",
+    "fetcher": "github",
+    "repo": "rtrppl/cuckoo-search"
+  }
+}

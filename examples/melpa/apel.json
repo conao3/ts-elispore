@@ -1,0 +1,19 @@
+{
+  "id": 100737290,
+  "name": "emacsmirror/apel",
+  "description": "Support for portable Emacs Lisp programs",
+  "url": "https://github.com/emacsmirror/apel",
+  "stars": 0,
+  "updated": "2025-06-16T21:52:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Roff",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "apel",
+    "fetcher": "github",
+    "repo": "emacsmirror/apel",
+    "files": "(\"alist.el\"\n         \"apel-ver.el\"\n         \"apel.el\"\n         ;; This was already not included before switching to the\n         ;; Emacsmirror and is not used by anything as far as I can\n         ;; tell.  The Emacsmirror does NOT remove this file for now.\n         \"atype.el\"\n         \"broken.el\"\n         \"calist.el\"\n         \"emu.el\"\n         \"filename.el\"\n         ;; This is an homegrown and obsolete tool to install this\n         ;; package.  The Emacsmirror removes this file.\n         ;; \"install.el\"\n         \"inv-23.el\"\n         \"invisible.el\"\n         \"mcharset.el\"\n         \"mcs-20.el\"\n         \"mcs-e20.el\"\n         \"mule-caesar.el\"\n         \"path-util.el\"\n         \"pccl-20.el\"\n         \"pccl.el\"\n         \"pces-20.el\"\n         \"pces-e20.el\"\n         \"pces.el\"\n         \"pcustom.el\"\n         \"poe.el\"\n         \"poem-e20.el\"\n         \"poem-e20_3.el\"\n         \"poem.el\"\n         \"product.el\"\n         \"pym.el\"\n         \"richtext.el\"\n         \"static.el\")"
+  }
+}

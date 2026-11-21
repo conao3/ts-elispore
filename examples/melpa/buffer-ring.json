@@ -1,0 +1,18 @@
+{
+  "id": 353131715,
+  "name": "countvajhula/buffer-ring",
+  "description": "A torus for buffer navigation. A ring of buffers, and a ring of buffer rings",
+  "url": "https://github.com/countvajhula/buffer-ring",
+  "stars": 0,
+  "updated": "2025-11-05T00:41:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "buffer-ring",
+    "fetcher": "github",
+    "repo": "countvajhula/buffer-ring"
+  }
+}

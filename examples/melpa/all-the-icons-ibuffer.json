@@ -1,0 +1,18 @@
+{
+  "id": 237489278,
+  "name": "seagle0128/all-the-icons-ibuffer",
+  "description": " Display icons for all buffers in ibuffer.",
+  "url": "https://github.com/seagle0128/all-the-icons-ibuffer",
+  "stars": 50,
+  "updated": "2025-03-03T02:31:00Z",
+  "archived": false,
+  "topics": ["all-the-icons", "elisp", "emacs", "emacs-lisp", "ibuffer"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "all-the-icons-ibuffer",
+    "fetcher": "github",
+    "repo": "seagle0128/all-the-icons-ibuffer"
+  }
+}

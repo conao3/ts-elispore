@@ -1,0 +1,40 @@
+{
+  "id": 1022409312,
+  "name": "tninja/ai-code-interface.el",
+  "description": "Unified Emacs interface supporting OpenAI Codex, Antigravity CLI, Claude Code, Pi agent, Muse Code, and more",
+  "url": "https://github.com/tninja/ai-code-interface.el",
+  "stars": 304,
+  "updated": "2026-11-20T00:15:58Z",
+  "archived": false,
+  "topics": [
+    "agile-development",
+    "ai-coding-assistant",
+    "aider",
+    "antigravity-cli",
+    "claude-code",
+    "codebuddy",
+    "codex-cli",
+    "context-enginnering",
+    "cursor-cli",
+    "emacs",
+    "ghostty",
+    "github-copilot-cli",
+    "grok-cli",
+    "harness-engineering",
+    "kiro-cli",
+    "mcp-server",
+    "muse-code",
+    "openai-codex",
+    "opencode",
+    "pi-coding-agent"
+  ],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ai-code",
+    "fetcher": "github",
+    "repo": "tninja/ai-code-interface.el",
+    "files": "(:defaults \"snippets\" (\"prompt\" \"prompt/*.md\"))"
+  }
+}

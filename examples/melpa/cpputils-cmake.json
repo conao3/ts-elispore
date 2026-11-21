@@ -1,0 +1,18 @@
+{
+  "id": 6867171,
+  "name": "redguardtoo/cpputils-cmake",
+  "description": "Easy real time C++ syntax check and intellisense if you use CMake",
+  "url": "https://github.com/redguardtoo/cpputils-cmake",
+  "stars": 193,
+  "updated": "2018-10-06T03:31:02Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cpputils-cmake",
+    "fetcher": "github",
+    "repo": "redguardtoo/cpputils-cmake"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 360627334,
+  "name": "lassik/emacs-cowsay",
+  "description": "Port of cowsay to pure Emacs Lisp",
+  "url": "https://github.com/lassik/emacs-cowsay",
+  "stars": 14,
+  "updated": "2022-07-25T21:30:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cowsay",
+    "fetcher": "github",
+    "repo": "lassik/emacs-cowsay"
+  }
+}

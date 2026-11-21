@@ -1,0 +1,18 @@
+{
+  "id": 33281782,
+  "name": "cute-jumper/ace-flyspell",
+  "description": "Jump to and correct spelling errors using ace-jump-mode and flyspell",
+  "url": "https://github.com/cute-jumper/ace-flyspell",
+  "stars": 13,
+  "updated": "2017-03-09T05:10:16Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ace-flyspell",
+    "fetcher": "github",
+    "repo": "cute-jumper/ace-flyspell"
+  }
+}

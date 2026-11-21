@@ -1,0 +1,18 @@
+{
+  "id": 71042215,
+  "name": "gbgar/company-bibtex",
+  "description": "Emacs company-mode completion back-end for Bibtex keys.",
+  "url": "https://github.com/gbgar/company-bibtex",
+  "stars": 16,
+  "updated": "2022-12-28T14:12:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-bibtex",
+    "fetcher": "github",
+    "repo": "gbgar/company-bibtex"
+  }
+}

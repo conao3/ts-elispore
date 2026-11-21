@@ -1,0 +1,18 @@
+{
+  "id": 1218831085,
+  "name": "fvi-att/blamee",
+  "description": "Chunked git-blame overlays with popup details for Emacs",
+  "url": "https://github.com/fvi-att/blamee",
+  "stars": 2,
+  "updated": "2026-07-24T03:30:41Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "git-blame"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "blamee",
+    "fetcher": "github",
+    "repo": "fvi-att/blamee"
+  }
+}

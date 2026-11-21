@@ -1,0 +1,18 @@
+{
+  "id": 6860223,
+  "name": "chumpage/ack-menu",
+  "description": "Emacs: a menu-based front-end for ack",
+  "url": "https://github.com/chumpage/ack-menu",
+  "stars": 10,
+  "updated": "2015-05-04T20:23:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ack-menu",
+    "fetcher": "github",
+    "repo": "chumpage/ack-menu"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 125008190,
+  "name": "akirak/counsel-org-clock",
+  "description": "Counsel (Ivy) interface for org-clock",
+  "url": "https://github.com/akirak/counsel-org-clock",
+  "stars": 45,
+  "updated": "2022-03-06T04:17:30Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "ivy", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-org-clock",
+    "fetcher": "github",
+    "repo": "akirak/counsel-org-clock"
+  }
+}

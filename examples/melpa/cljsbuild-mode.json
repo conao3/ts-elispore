@@ -1,0 +1,18 @@
+{
+  "id": 6264730,
+  "name": "kototama/cljsbuild-mode",
+  "description": "A minor mode for the ClojureScript 'lein cljsbuild' command",
+  "url": "https://github.com/kototama/cljsbuild-mode",
+  "stars": 32,
+  "updated": "2016-04-02T17:01:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cljsbuild-mode",
+    "fetcher": "github",
+    "repo": "kototama/cljsbuild-mode"
+  }
+}

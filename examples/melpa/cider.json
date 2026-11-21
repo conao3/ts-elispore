@@ -1,0 +1,19 @@
+{
+  "id": 4118920,
+  "name": "clojure-emacs/cider",
+  "description": "The Clojure Interactive Development Environment that Rocks for Emacs",
+  "url": "https://github.com/clojure-emacs/cider",
+  "stars": 3680,
+  "updated": "2026-11-11T09:20:44Z",
+  "archived": false,
+  "topics": ["cider", "clojure", "clojure-development", "emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "cider",
+    "fetcher": "github",
+    "repo": "clojure-emacs/cider",
+    "files": "(;; new code layout:\n               \"lisp/*.el\" \"bin/*.sh\"\n               ;; old code layout - will be kept for a while during the transition:\n               \"*.el\" \"clojure.sh\" \"lein.sh\" (:exclude \".dir-locals.el\"))"
+  }
+}

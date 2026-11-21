@@ -1,0 +1,18 @@
+{
+  "id": 68238292,
+  "name": "necaris/conda.el",
+  "description": "Emacs helper library (and minor mode) to work with conda environments",
+  "url": "https://github.com/necaris/conda.el",
+  "stars": 164,
+  "updated": "2026-08-08T00:51:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "conda",
+    "fetcher": "github",
+    "repo": "necaris/conda.el"
+  }
+}

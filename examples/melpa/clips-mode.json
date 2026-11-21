@@ -1,0 +1,18 @@
+{
+  "id": 13527025,
+  "name": "clips-mode/clips-mode",
+  "description": "Clips editing mode",
+  "url": "https://github.com/clips-mode/clips-mode",
+  "stars": 7,
+  "updated": "2017-09-09T08:24:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "clips-mode",
+    "fetcher": "github",
+    "repo": "clips-mode/clips-mode"
+  }
+}

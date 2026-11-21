@@ -1,0 +1,18 @@
+{
+  "id": 223278765,
+  "name": "motform/arduino-cli-mode",
+  "description": "emacs support for the arduino-cli",
+  "url": "https://github.com/motform/arduino-cli-mode",
+  "stars": 30,
+  "updated": "2026-11-18T23:00:27Z",
+  "archived": false,
+  "topics": ["arduino", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "arduino-cli-mode",
+    "fetcher": "github",
+    "repo": "motform/arduino-cli-mode"
+  }
+}

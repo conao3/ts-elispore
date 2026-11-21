@@ -1,0 +1,18 @@
+{
+  "id": 603327,
+  "name": "jschaf/CleverCSS-Mode",
+  "description": "An Emacs major mode for CleverCSS files",
+  "url": "https://github.com/jschaf/CleverCSS-Mode",
+  "stars": 6,
+  "updated": "2013-12-29T01:55:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clevercss",
+    "fetcher": "github",
+    "repo": "jschaf/CleverCSS-Mode"
+  }
+}

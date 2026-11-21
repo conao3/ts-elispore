@@ -1,0 +1,19 @@
+{
+  "id": 29953036,
+  "name": "baohaojun/bbyac",
+  "description": "For when 'M-/ M-/ M-/ C-/' gets you down",
+  "url": "https://github.com/baohaojun/bbyac",
+  "stars": 30,
+  "updated": "2018-02-06T14:41:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bbyac",
+    "fetcher": "github",
+    "repo": "baohaojun/bbyac",
+    "files": "(:defaults \"*.bbyac\")"
+  }
+}

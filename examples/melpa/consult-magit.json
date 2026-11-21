@@ -1,0 +1,18 @@
+{
+  "id": 1295247866,
+  "name": "nhojb/consult-magit",
+  "description": "",
+  "url": "https://github.com/nhojb/consult-magit",
+  "stars": 1,
+  "updated": "2026-08-27T13:33:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-magit",
+    "fetcher": "github",
+    "repo": "nhojb/consult-magit"
+  }
+}

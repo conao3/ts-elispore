@@ -1,0 +1,18 @@
+{
+  "id": 547988016,
+  "name": "erickgnavar/cloak-mode",
+  "description": "A minor mode to hide sensitive values in buffers per major mode",
+  "url": "https://github.com/erickgnavar/cloak-mode",
+  "stars": 22,
+  "updated": "2026-03-09T14:55:58Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cloak-mode",
+    "fetcher": "github",
+    "repo": "erickgnavar/cloak-mode"
+  }
+}

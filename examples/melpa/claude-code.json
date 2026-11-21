@@ -1,0 +1,19 @@
+{
+  "id": 993857256,
+  "name": "yuya373/claude-code-emacs",
+  "description": "This package provides seamless integration with Claude Code, allowing you to run AI-powered coding sessions directly in your Emacs environment.",
+  "url": "https://github.com/yuya373/claude-code-emacs",
+  "stars": 67,
+  "updated": "2026-09-24T17:04:02Z",
+  "archived": false,
+  "topics": ["claude", "claude-code", "emacs", "mcp", "mcp-server"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "claude-code",
+    "fetcher": "github",
+    "repo": "yuya373/claude-code-emacs",
+    "files": "(:defaults (:exclude \"install-deps.el\"))"
+  }
+}

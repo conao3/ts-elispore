@@ -1,0 +1,18 @@
+{
+  "id": 67492947,
+  "name": "codesuki/add-node-modules-path",
+  "description": "Adds the node_modules/.bin directory to the buffer exec_path. E.g. support project local eslint installations.",
+  "url": "https://github.com/codesuki/add-node-modules-path",
+  "stars": 146,
+  "updated": "2023-03-07T06:55:06Z",
+  "archived": false,
+  "topics": ["emacs", "exec-path", "node", "node-modules", "path"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "add-node-modules-path",
+    "fetcher": "github",
+    "repo": "codesuki/add-node-modules-path"
+  }
+}

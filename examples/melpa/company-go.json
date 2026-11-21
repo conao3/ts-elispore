@@ -1,0 +1,18 @@
+{
+  "id": 414316370,
+  "name": "emacsattic/company-go",
+  "description": "",
+  "url": "https://github.com/emacsattic/company-go",
+  "stars": 0,
+  "updated": "2021-10-06T17:53:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "company-go",
+    "fetcher": "github",
+    "repo": "emacsattic/company-go"
+  }
+}

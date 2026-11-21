@@ -1,0 +1,18 @@
+{
+  "id": 149032817,
+  "name": "erjoalgo/emacs-buttons",
+  "description": "An emacs lisp framework to help organize emacs-lisp commands and code templates into a hierarchy of keymaps, and to facilitate installing and visualizing them",
+  "url": "https://github.com/erjoalgo/emacs-buttons",
+  "stars": 14,
+  "updated": "2023-09-06T16:31:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "buttons",
+    "fetcher": "github",
+    "repo": "erjoalgo/emacs-buttons"
+  }
+}

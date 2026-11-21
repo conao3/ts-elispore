@@ -1,0 +1,19 @@
+{
+  "id": 927145,
+  "name": "dbrock/bongo",
+  "description": "Play music with GNU Emacs",
+  "url": "https://github.com/dbrock/bongo",
+  "stars": 218,
+  "updated": "2023-12-20T13:05:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bongo",
+    "fetcher": "github",
+    "repo": "dbrock/bongo",
+    "files": "(\"*.el\" \"*.texi\" \"images\" \"*.rb\")"
+  }
+}

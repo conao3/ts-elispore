@@ -1,0 +1,18 @@
+{
+  "id": 567248350,
+  "name": "eki3z/binky.el",
+  "description": "A package helping you jumping between buffers and files in Emacs",
+  "url": "https://github.com/eki3z/binky.el",
+  "stars": 67,
+  "updated": "2026-07-19T15:38:13Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp-programming", "emacs-package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "binky",
+    "fetcher": "github",
+    "repo": "eki3z/binky.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 732651022,
+  "name": "scicloj/clay.el",
+  "description": "Emacs bindings for the Clojure Clay tool",
+  "url": "https://github.com/scicloj/clay.el",
+  "stars": 18,
+  "updated": "2025-11-23T01:09:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "clay",
+    "fetcher": "github",
+    "repo": "scicloj/clay.el"
+  }
+}

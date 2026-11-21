@@ -1,0 +1,18 @@
+{
+  "id": 126570393,
+  "name": "juergenhoetzel/company-suggest",
+  "description": "company-mode back-end for auto-completing using search engine suggestions.",
+  "url": "https://github.com/juergenhoetzel/company-suggest",
+  "stars": 16,
+  "updated": "2020-09-11T18:45:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-suggest",
+    "fetcher": "github",
+    "repo": "juergenhoetzel/company-suggest"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 52434977,
+  "name": "eikek/chee",
+  "description": "A command line tool for managing photos.",
+  "url": "https://github.com/eikek/chee",
+  "stars": 31,
+  "updated": "2017-11-23T22:40:16Z",
+  "archived": false,
+  "topics": ["bouncy-castle", "command-line", "exif", "photo-manager", "photo-organizer", "scala"],
+  "license": "GPL-3.0",
+  "language": "Scala",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chee",
+    "fetcher": "github",
+    "repo": "eikek/chee",
+    "files": "(\"emacs/*.el\")"
+  }
+}

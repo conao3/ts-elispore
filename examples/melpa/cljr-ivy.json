@@ -1,0 +1,18 @@
+{
+  "id": 268666158,
+  "name": "wandersoncferreira/cljr-ivy",
+  "description": "Access clojure refactor tool from ivy",
+  "url": "https://github.com/wandersoncferreira/cljr-ivy",
+  "stars": 15,
+  "updated": "2020-06-08T00:18:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "EPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cljr-ivy",
+    "fetcher": "github",
+    "repo": "wandersoncferreira/cljr-ivy"
+  }
+}

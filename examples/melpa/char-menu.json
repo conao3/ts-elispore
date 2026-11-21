@@ -1,0 +1,18 @@
+{
+  "id": 50230799,
+  "name": "mrkkrp/char-menu",
+  "description": "Create a menu for fast insertion of arbitrary symbols",
+  "url": "https://github.com/mrkkrp/char-menu",
+  "stars": 23,
+  "updated": "2026-08-02T09:39:36Z",
+  "archived": false,
+  "topics": ["emacs", "menu", "paired-characters", "unicode-characters"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "char-menu",
+    "fetcher": "github",
+    "repo": "mrkkrp/char-menu"
+  }
+}

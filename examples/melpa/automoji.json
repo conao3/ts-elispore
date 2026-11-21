@@ -1,0 +1,19 @@
+{
+  "id": 1037751869,
+  "name": "Dev380/automoji-el",
+  "description": "Discord-style emoji completion with shortcodes for Emacs",
+  "url": "https://github.com/Dev380/automoji-el",
+  "stars": 8,
+  "updated": "2025-08-14T22:09:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "automoji",
+    "fetcher": "github",
+    "repo": "Dev380/automoji-el",
+    "files": "(:defaults \"generated.data\")"
+  }
+}

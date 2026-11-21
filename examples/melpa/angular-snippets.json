@@ -1,0 +1,19 @@
+{
+  "id": 9821371,
+  "name": "magnars/angular-snippets.el",
+  "description": "Yasnippets for AngularJS",
+  "url": "https://github.com/magnars/angular-snippets.el",
+  "stars": 43,
+  "updated": "2014-05-14T05:23:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "angular-snippets",
+    "fetcher": "github",
+    "repo": "magnars/angular-snippets.el",
+    "files": "(\"*.el\" \"*.info\" \"dir\" \"snippets\")"
+  }
+}

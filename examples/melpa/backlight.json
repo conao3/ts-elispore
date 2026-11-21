@@ -1,0 +1,18 @@
+{
+  "id": 137566232,
+  "name": "mschuldt/backlight.el",
+  "description": "backlight brightness control",
+  "url": "https://github.com/mschuldt/backlight.el",
+  "stars": 3,
+  "updated": "2021-05-13T01:30:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "backlight",
+    "fetcher": "github",
+    "repo": "mschuldt/backlight.el"
+  }
+}

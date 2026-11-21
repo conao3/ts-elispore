@@ -1,0 +1,18 @@
+{
+  "id": 257901992,
+  "name": "ianyepan/acme-emacs-theme",
+  "description": "An Emacs theme inspired by Plan 9's Acme & Sam Editor",
+  "url": "https://github.com/ianyepan/acme-emacs-theme",
+  "stars": 101,
+  "updated": "2021-04-30T03:28:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "acme-theme",
+    "fetcher": "github",
+    "repo": "ianyepan/acme-emacs-theme"
+  }
+}

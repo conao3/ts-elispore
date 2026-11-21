@@ -1,0 +1,18 @@
+{
+  "id": 1194081728,
+  "name": "mrx-xo/agent-recall",
+  "description": "Search and browse agent-shell conversation transcripts from Emacs",
+  "url": "https://github.com/mrx-xo/agent-recall",
+  "stars": 29,
+  "updated": "2026-11-04T17:46:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "agent-recall",
+    "fetcher": "github",
+    "repo": "mrx-xo/agent-recall"
+  }
+}

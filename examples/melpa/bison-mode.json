@@ -1,0 +1,18 @@
+{
+  "id": 21256505,
+  "name": "Wilfred/bison-mode",
+  "description": "Emacs major mode for Bison/Jison, Yacc and Lex grammars",
+  "url": "https://github.com/Wilfred/bison-mode",
+  "stars": 26,
+  "updated": "2022-01-04T15:30:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bison-mode",
+    "fetcher": "github",
+    "repo": "Wilfred/bison-mode"
+  }
+}

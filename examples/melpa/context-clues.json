@@ -1,0 +1,18 @@
+{
+  "id": 1107994406,
+  "name": "mrcnski/context-clues",
+  "description": "[Emacs] Easily access context like the current file name and path",
+  "url": "https://github.com/mrcnski/context-clues",
+  "stars": 5,
+  "updated": "2026-08-13T23:20:10Z",
+  "archived": false,
+  "topics": ["context-engineering", "emacs", "emacs-package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "context-clues",
+    "fetcher": "github",
+    "repo": "mrcnski/context-clues"
+  }
+}

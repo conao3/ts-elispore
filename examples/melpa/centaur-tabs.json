@@ -1,0 +1,18 @@
+{
+  "id": 192826349,
+  "name": "ema2159/centaur-tabs",
+  "description": "Emacs plugin aiming to become an aesthetic, modern looking tabs plugin",
+  "url": "https://github.com/ema2159/centaur-tabs",
+  "stars": 867,
+  "updated": "2026-06-19T13:55:43Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-lisp", "emacs-package", "emacs-plugin"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "centaur-tabs",
+    "fetcher": "github",
+    "repo": "ema2159/centaur-tabs"
+  }
+}

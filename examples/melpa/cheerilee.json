@@ -1,0 +1,19 @@
+{
+  "id": 49684791,
+  "name": "Vannil/cheerilee.el",
+  "description": "X Window System toolkit library for Emacs",
+  "url": "https://github.com/Vannil/cheerilee.el",
+  "stars": 7,
+  "updated": "2016-03-13T17:37:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cheerilee",
+    "fetcher": "github",
+    "repo": "Vannil/cheerilee.el",
+    "files": "(:defaults (:exclude \"cheerilee.texi\"))"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 5143802,
+  "name": "pzorin/bibretrieve",
+  "description": "BibRetrieve: An Emacs library for searching and downloading BibTeX entries from the web.",
+  "url": "https://github.com/pzorin/bibretrieve",
+  "stars": 18,
+  "updated": "2019-11-24T18:55:33Z",
+  "archived": false,
+  "topics": ["arxiv", "bibtex", "emacs", "latex"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bibretrieve",
+    "fetcher": "github",
+    "repo": "pzorin/bibretrieve"
+  }
+}

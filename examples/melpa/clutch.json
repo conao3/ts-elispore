@@ -1,0 +1,29 @@
+{
+  "id": 1155466650,
+  "name": "LuciusChen/clutch",
+  "description": "Interactive Emacs database client for MySQL, PostgreSQL, SQLite, MongoDB, Redis, and JDBC.",
+  "url": "https://github.com/LuciusChen/clutch",
+  "stars": 142,
+  "updated": "2026-11-21T15:26:47Z",
+  "archived": false,
+  "topics": [
+    "database",
+    "emacs",
+    "emacs-lisp",
+    "jdbc",
+    "mongodb",
+    "mysql",
+    "postgresql",
+    "redis",
+    "sql",
+    "sqlite"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clutch",
+    "fetcher": "github",
+    "repo": "LuciusChen/clutch"
+  }
+}

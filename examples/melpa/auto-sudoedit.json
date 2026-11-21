@@ -1,0 +1,18 @@
+{
+  "id": 12633321,
+  "name": "ncaq/auto-sudoedit",
+  "description": "automatic do sudo by tramp when need root file",
+  "url": "https://github.com/ncaq/auto-sudoedit",
+  "stars": 36,
+  "updated": "2026-11-21T03:13:20Z",
+  "archived": false,
+  "topics": ["emacs-lisp"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-sudoedit",
+    "fetcher": "github",
+    "repo": "ncaq/auto-sudoedit"
+  }
+}

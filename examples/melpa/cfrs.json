@@ -1,0 +1,18 @@
+{
+  "id": 187702160,
+  "name": "Alexander-Miller/cfrs",
+  "description": "Child Frame Read String",
+  "url": "https://github.com/Alexander-Miller/cfrs",
+  "stars": 65,
+  "updated": "2025-07-29T14:23:42Z",
+  "archived": false,
+  "topics": ["emacs", "input", "utils"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cfrs",
+    "fetcher": "github",
+    "repo": "Alexander-Miller/cfrs"
+  }
+}

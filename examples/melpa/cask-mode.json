@@ -1,0 +1,18 @@
+{
+  "id": 55267398,
+  "name": "Wilfred/cask-mode",
+  "description": "Major mode for editing Cask files",
+  "url": "https://github.com/Wilfred/cask-mode",
+  "stars": 12,
+  "updated": "2022-03-26T19:17:50Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cask-mode",
+    "fetcher": "github",
+    "repo": "Wilfred/cask-mode"
+  }
+}

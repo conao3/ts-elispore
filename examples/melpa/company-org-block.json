@@ -1,0 +1,18 @@
+{
+  "id": 371974455,
+  "name": "xenodium/company-org-block",
+  "description": "",
+  "url": "https://github.com/xenodium/company-org-block",
+  "stars": 148,
+  "updated": "2023-03-24T09:10:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-org-block",
+    "fetcher": "github",
+    "repo": "xenodium/company-org-block"
+  }
+}

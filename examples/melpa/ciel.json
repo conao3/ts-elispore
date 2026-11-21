@@ -1,0 +1,18 @@
+{
+  "id": 62448667,
+  "name": "takumatt/ciel.el",
+  "description": "An emacs command that is clone of \"ci\" in vim.",
+  "url": "https://github.com/takumatt/ciel.el",
+  "stars": 13,
+  "updated": "2018-09-14T08:15:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ciel",
+    "fetcher": "github",
+    "repo": "takumatt/ciel.el"
+  }
+}

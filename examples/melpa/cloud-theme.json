@@ -1,0 +1,18 @@
+{
+  "id": 169981153,
+  "name": "vallyscode/cloud-theme",
+  "description": "Light theme for emacs",
+  "url": "https://github.com/vallyscode/cloud-theme",
+  "stars": 24,
+  "updated": "2022-02-05T13:40:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cloud-theme",
+    "fetcher": "github",
+    "repo": "vallyscode/cloud-theme"
+  }
+}

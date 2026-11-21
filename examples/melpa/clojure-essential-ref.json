@@ -1,0 +1,19 @@
+{
+  "id": 269317934,
+  "name": "p3r7/clojure-essential-ref",
+  "description": "🔖 cider-doc to \"Clojure, The Essential Reference\"",
+  "url": "https://github.com/p3r7/clojure-essential-ref",
+  "stars": 47,
+  "updated": "2022-12-15T14:27:51Z",
+  "archived": false,
+  "topics": ["cider", "clojure", "documentation", "emacs"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clojure-essential-ref",
+    "fetcher": "github",
+    "repo": "p3r7/clojure-essential-ref",
+    "files": "(:defaults (:exclude \"clojure-essential-ref-nov.el\"))"
+  }
+}

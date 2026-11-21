@@ -1,0 +1,19 @@
+{
+  "id": 1263640,
+  "name": "myuhe/calfw-gcal.el",
+  "description": "",
+  "url": "https://github.com/myuhe/calfw-gcal.el",
+  "stars": 18,
+  "updated": "2012-01-11T10:01:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "calfw-gcal",
+    "fetcher": "github",
+    "repo": "myuhe/calfw-gcal.el",
+    "files": "(\"*.el\" \"*.py\")"
+  }
+}

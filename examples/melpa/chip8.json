@@ -1,0 +1,18 @@
+{
+  "id": 662654920,
+  "name": "gabrielelana/chip8.el",
+  "description": "A CHIP-8 emulator written in EmacsLisp running in Emacs",
+  "url": "https://github.com/gabrielelana/chip8.el",
+  "stars": 12,
+  "updated": "2025-04-05T14:09:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chip8",
+    "fetcher": "github",
+    "repo": "gabrielelana/chip8.el"
+  }
+}

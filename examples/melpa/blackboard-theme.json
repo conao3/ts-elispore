@@ -1,0 +1,18 @@
+{
+  "id": 3686774,
+  "name": "don9z/blackboard-theme",
+  "description": "Port the color-theme-blackboard in emacs to it's own theming mechanism",
+  "url": "https://github.com/don9z/blackboard-theme",
+  "stars": 49,
+  "updated": "2019-09-04T02:52:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "blackboard-theme",
+    "fetcher": "github",
+    "repo": "don9z/blackboard-theme"
+  }
+}

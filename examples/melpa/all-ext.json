@@ -1,0 +1,18 @@
+{
+  "id": 58029845,
+  "name": "rubikitch/all-ext",
+  "description": "",
+  "url": "https://github.com/rubikitch/all-ext",
+  "stars": 11,
+  "updated": "2020-03-15T14:43:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "all-ext",
+    "fetcher": "github",
+    "repo": "rubikitch/all-ext"
+  }
+}

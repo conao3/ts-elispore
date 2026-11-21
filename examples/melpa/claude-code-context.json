@@ -1,0 +1,18 @@
+{
+  "id": 1068708374,
+  "name": "lukehoersten/claude-code-context",
+  "description": "Claude Code Emacs context sharing",
+  "url": "https://github.com/lukehoersten/claude-code-context",
+  "stars": 4,
+  "updated": "2026-05-03T22:13:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "claude-code-context",
+    "fetcher": "github",
+    "repo": "lukehoersten/claude-code-context"
+  }
+}

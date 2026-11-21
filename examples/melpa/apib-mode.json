@@ -1,0 +1,18 @@
+{
+  "id": 56804395,
+  "name": "w-vi/apib-mode",
+  "description": "Emacs API Blueprint major mode",
+  "url": "https://github.com/w-vi/apib-mode",
+  "stars": 44,
+  "updated": "2020-01-01T10:19:47Z",
+  "archived": false,
+  "topics": ["api-blueprint", "emacs-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "apib-mode",
+    "fetcher": "github",
+    "repo": "w-vi/apib-mode"
+  }
+}

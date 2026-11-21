@@ -1,0 +1,18 @@
+{
+  "id": 167498739,
+  "name": "erjoalgo/autobuild",
+  "description": "A framework for defining and executing arbitrary build rules and synchronous or asynchronous compilation pipelines.",
+  "url": "https://github.com/erjoalgo/autobuild",
+  "stars": 10,
+  "updated": "2026-11-20T03:11:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "autobuild",
+    "fetcher": "github",
+    "repo": "erjoalgo/autobuild"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 12359458,
+  "name": "yasuyk/ac-emmet",
+  "description": "auto-complete sources for emmet-mode's snippets",
+  "url": "https://github.com/yasuyk/ac-emmet",
+  "stars": 16,
+  "updated": "2013-10-15T15:58:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-emmet",
+    "fetcher": "github",
+    "repo": "yasuyk/ac-emmet"
+  }
+}

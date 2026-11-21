@@ -1,0 +1,18 @@
+{
+  "id": 87574997,
+  "name": "emacs-php/apache-mode",
+  "description": "Major mode for editing Apache configuration files",
+  "url": "https://github.com/emacs-php/apache-mode",
+  "stars": 10,
+  "updated": "2026-06-18T19:49:08Z",
+  "archived": false,
+  "topics": ["apache-httpd", "emacs", "major-mode", "melpa"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "apache-mode",
+    "fetcher": "github",
+    "repo": "emacs-php/apache-mode"
+  }
+}

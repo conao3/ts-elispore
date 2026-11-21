@@ -1,0 +1,19 @@
+{
+  "id": 197069872,
+  "name": "xmagpie/counsel-test",
+  "description": "An emacs package that integrates ivy/counsel with different testing frameworks (e.g. ctest, pytest etc)",
+  "url": "https://github.com/xmagpie/counsel-test",
+  "stars": 10,
+  "updated": "2019-08-28T08:13:32Z",
+  "archived": false,
+  "topics": ["counsel", "ctest", "emacs", "ivy"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-test",
+    "fetcher": "github",
+    "repo": "xmagpie/counsel-test",
+    "files": "(\"counsel-test*.el\")"
+  }
+}

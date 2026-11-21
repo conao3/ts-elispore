@@ -1,0 +1,18 @@
+{
+  "id": 55002255,
+  "name": "xcezx/blockdiag-mode",
+  "description": "",
+  "url": "https://github.com/xcezx/blockdiag-mode",
+  "stars": 2,
+  "updated": "2021-09-16T09:53:06Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "blockdiag-mode",
+    "fetcher": "github",
+    "repo": "xcezx/blockdiag-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 617694239,
+  "name": "Fuco1/emacs-cats",
+  "description": "Functors, Monads, Categories for Emacs",
+  "url": "https://github.com/Fuco1/emacs-cats",
+  "stars": 58,
+  "updated": "2023-04-11T13:33:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cats",
+    "fetcher": "github",
+    "repo": "Fuco1/emacs-cats"
+  }
+}

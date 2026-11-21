@@ -1,0 +1,18 @@
+{
+  "id": 12514023,
+  "name": "pmarinov/clean-aindent-mode",
+  "description": "Emacs extension for simple indent and unindent",
+  "url": "https://github.com/pmarinov/clean-aindent-mode",
+  "stars": 33,
+  "updated": "2017-10-17T20:43:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clean-aindent-mode",
+    "fetcher": "github",
+    "repo": "pmarinov/clean-aindent-mode"
+  }
+}

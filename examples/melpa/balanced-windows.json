@@ -1,0 +1,18 @@
+{
+  "id": 204877984,
+  "name": "wbolster/emacs-balanced-windows",
+  "description": "emacs minor mode to automatically keep windows balanced",
+  "url": "https://github.com/wbolster/emacs-balanced-windows",
+  "stars": 20,
+  "updated": "2026-07-06T15:45:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "balanced-windows",
+    "fetcher": "github",
+    "repo": "wbolster/emacs-balanced-windows"
+  }
+}

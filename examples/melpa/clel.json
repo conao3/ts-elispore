@@ -1,0 +1,19 @@
+{
+  "id": 1126077160,
+  "name": "BuddhiLW/clojure-elisp",
+  "description": "A Clojure dialect that compiles to Emacs Lisp",
+  "url": "https://github.com/BuddhiLW/clojure-elisp",
+  "stars": 36,
+  "updated": "2026-10-08T23:39:43Z",
+  "archived": false,
+  "topics": ["cljel", "clojure", "compiler", "elisp", "emacs", "emacs-lisp", "lisp", "transpiler"],
+  "license": "MIT",
+  "language": "Clojure",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clel",
+    "fetcher": "github",
+    "repo": "BuddhiLW/clojure-elisp",
+    "files": "(\"resources/clojure-elisp/clel.el\")"
+  }
+}

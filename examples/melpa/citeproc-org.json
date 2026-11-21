@@ -1,0 +1,28 @@
+{
+  "id": 114968722,
+  "name": "andras-simonyi/citeproc-org",
+  "description": "Renders Org-mode citations in CSL styles using citeproc-el.",
+  "url": "https://github.com/andras-simonyi/citeproc-org",
+  "stars": 68,
+  "updated": "2022-07-17T10:20:17Z",
+  "archived": false,
+  "topics": [
+    "bibliographies",
+    "bibtex",
+    "citation",
+    "citation-style-language",
+    "csl-style",
+    "emacs",
+    "org-ref",
+    "orgmode"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "citeproc-org",
+    "fetcher": "github",
+    "repo": "andras-simonyi/citeproc-org",
+    "files": "(:defaults \"chicago-author-date.csl\" \"locales-en-US.xml\")"
+  }
+}

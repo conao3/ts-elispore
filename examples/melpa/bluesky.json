@@ -1,0 +1,18 @@
+{
+  "id": 896633345,
+  "name": "ahyatt/emacs-bluesky",
+  "description": "An emacs client for Bluesky",
+  "url": "https://github.com/ahyatt/emacs-bluesky",
+  "stars": 19,
+  "updated": "2026-11-13T01:39:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bluesky",
+    "fetcher": "github",
+    "repo": "ahyatt/emacs-bluesky"
+  }
+}

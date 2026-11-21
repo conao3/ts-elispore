@@ -1,0 +1,18 @@
+{
+  "id": 911349942,
+  "name": "NicholasBHubbard/comint-histories",
+  "description": "Multiple comint histories",
+  "url": "https://github.com/NicholasBHubbard/comint-histories",
+  "stars": 20,
+  "updated": "2026-06-08T18:36:26Z",
+  "archived": false,
+  "topics": ["comint-mode", "emacs", "emacs-package"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "comint-histories",
+    "fetcher": "github",
+    "repo": "NicholasBHubbard/comint-histories"
+  }
+}

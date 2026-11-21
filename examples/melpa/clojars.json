@@ -1,0 +1,18 @@
+{
+  "id": 28063953,
+  "name": "joshuamiller/clojars.el",
+  "description": "Emacs Interface to Clojars",
+  "url": "https://github.com/joshuamiller/clojars.el",
+  "stars": 17,
+  "updated": "2018-08-25T19:55:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clojars",
+    "fetcher": "github",
+    "repo": "joshuamiller/clojars.el"
+  }
+}

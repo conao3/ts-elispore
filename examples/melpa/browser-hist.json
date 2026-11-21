@@ -1,0 +1,18 @@
+{
+  "id": 565638584,
+  "name": "agzam/browser-hist.el",
+  "description": "Search through browser history, in Emacs",
+  "url": "https://github.com/agzam/browser-hist.el",
+  "stars": 56,
+  "updated": "2026-04-25T19:30:41Z",
+  "archived": false,
+  "topics": ["browser-history", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "browser-hist",
+    "fetcher": "github",
+    "repo": "agzam/browser-hist.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 105182806,
+  "name": "dykstrom/basic-mode",
+  "description": "Emacs major mode for editing BASIC code",
+  "url": "https://github.com/dykstrom/basic-mode",
+  "stars": 8,
+  "updated": "2023-11-27T09:37:13Z",
+  "archived": false,
+  "topics": ["basic", "emacs-lisp", "emacs-mode", "programming"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "basic-mode",
+    "fetcher": "github",
+    "repo": "dykstrom/basic-mode",
+    "files": "(\"src/*.el\")"
+  }
+}

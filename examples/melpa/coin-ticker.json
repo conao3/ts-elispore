@@ -1,0 +1,18 @@
+{
+  "id": 93704408,
+  "name": "eklitzke/coin-ticker-mode",
+  "description": "Emacs minor mode for showing the price of Bitcoin, Ethereum, and other cryptocurrencies.",
+  "url": "https://github.com/eklitzke/coin-ticker-mode",
+  "stars": 22,
+  "updated": "2017-12-05T14:37:23Z",
+  "archived": false,
+  "topics": ["bitcoin", "cryptocurrencies", "emacs", "ethereum", "melpa", "minor-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "coin-ticker",
+    "fetcher": "github",
+    "repo": "eklitzke/coin-ticker-mode"
+  }
+}

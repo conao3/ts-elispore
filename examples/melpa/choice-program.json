@@ -1,0 +1,18 @@
+{
+  "id": 77302427,
+  "name": "plandes/choice-program",
+  "description": "Invoke Programs With Choice Options",
+  "url": "https://github.com/plandes/choice-program",
+  "stars": 4,
+  "updated": "2026-01-27T20:22:53Z",
+  "archived": false,
+  "topics": ["command-line", "emacs", "melpa"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "choice-program",
+    "fetcher": "github",
+    "repo": "plandes/choice-program"
+  }
+}

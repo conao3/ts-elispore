@@ -1,0 +1,19 @@
+{
+  "id": 35614265,
+  "name": "Beluga-lang/Beluga",
+  "description": "Contextual types meet mechanized metatheory!",
+  "url": "https://github.com/Beluga-lang/Beluga",
+  "stars": 215,
+  "updated": "2025-09-30T07:00:58Z",
+  "archived": false,
+  "topics": ["beluga", "dependent-types", "hoas", "lf", "ocaml"],
+  "license": "GPL-3.0",
+  "language": "OCaml",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "beluga-mode",
+    "fetcher": "github",
+    "repo": "Beluga-lang/Beluga",
+    "files": "(\"tools/beluga-mode.el\")"
+  }
+}

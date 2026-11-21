@@ -1,0 +1,18 @@
+{
+  "id": 11682181,
+  "name": "clojure-emacs/cider-decompile",
+  "description": "An extension to CIDER which provides a decompilation command",
+  "url": "https://github.com/clojure-emacs/cider-decompile",
+  "stars": 28,
+  "updated": "2015-11-22T05:37:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "cider-decompile",
+    "fetcher": "github",
+    "repo": "clojure-emacs/cider-decompile"
+  }
+}

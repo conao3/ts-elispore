@@ -1,0 +1,18 @@
+{
+  "id": 172387887,
+  "name": "Malabarba/comment-or-uncomment-sexp",
+  "description": "Emacs-lisp command for inteligently commenting and commenting the sexp under point.",
+  "url": "https://github.com/Malabarba/comment-or-uncomment-sexp",
+  "stars": 10,
+  "updated": "2019-02-25T11:22:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "comment-or-uncomment-sexp",
+    "fetcher": "github",
+    "repo": "Malabarba/comment-or-uncomment-sexp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 295905028,
+  "name": "cyruseuros/compdef",
+  "description": "",
+  "url": "https://github.com/cyruseuros/compdef",
+  "stars": 2,
+  "updated": "2020-09-16T02:44:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "compdef",
+    "fetcher": "github",
+    "repo": "cyruseuros/compdef"
+  }
+}

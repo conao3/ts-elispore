@@ -1,0 +1,18 @@
+{
+  "id": 15967014,
+  "name": "hchbaw/bracketed-paste.el",
+  "description": "Bracketed Paste Mode support within emacs -nw (obsolete for Emacs 25.1) ",
+  "url": "https://github.com/hchbaw/bracketed-paste.el",
+  "stars": 4,
+  "updated": "2016-04-07T23:49:46Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bracketed-paste",
+    "fetcher": "github",
+    "repo": "hchbaw/bracketed-paste.el"
+  }
+}

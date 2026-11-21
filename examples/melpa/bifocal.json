@@ -1,0 +1,18 @@
+{
+  "id": 92087278,
+  "name": "riscy/bifocal-mode",
+  "description": "A minor mode enabling split-screen scrolling in any Emacs 'comint-mode' buffer (such as shell-mode, inferior-python-mode, etc.)",
+  "url": "https://github.com/riscy/bifocal-mode",
+  "stars": 16,
+  "updated": "2026-01-05T00:53:50Z",
+  "archived": false,
+  "topics": ["comint-mode", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bifocal",
+    "fetcher": "github",
+    "repo": "riscy/bifocal-mode"
+  }
+}

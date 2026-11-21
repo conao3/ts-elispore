@@ -1,0 +1,18 @@
+{
+  "id": 51969161,
+  "name": "bmalehorn/click-mode",
+  "description": "Emacs major mode for the Click Modular Router Project",
+  "url": "https://github.com/bmalehorn/click-mode",
+  "stars": 2,
+  "updated": "2018-06-11T00:45:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "click-mode",
+    "fetcher": "github",
+    "repo": "bmalehorn/click-mode"
+  }
+}

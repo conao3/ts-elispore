@@ -1,0 +1,18 @@
+{
+  "id": 19815918,
+  "name": "danielcmccarthy/bitbake-el",
+  "description": "Integrates Bitbake into emacs",
+  "url": "https://github.com/danielcmccarthy/bitbake-el",
+  "stars": 10,
+  "updated": "2026-11-18T16:50:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bitbake",
+    "fetcher": "github",
+    "repo": "danielcmccarthy/bitbake-el"
+  }
+}

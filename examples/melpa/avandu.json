@@ -1,0 +1,18 @@
+{
+  "id": 77394671,
+  "name": "ryuslash/avandu",
+  "description": "Emacs interface to tt-rss",
+  "url": "https://github.com/ryuslash/avandu",
+  "stars": 10,
+  "updated": "2022-11-06T09:34:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "avandu",
+    "fetcher": "github",
+    "repo": "ryuslash/avandu"
+  }
+}

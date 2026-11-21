@@ -1,0 +1,18 @@
+{
+  "id": 844335631,
+  "name": "kickingvegas/casual-symbol-overlay",
+  "description": "Casual Symbol Overlay - An opinionated Transient user interface for the Emacs package Symbol Overlay.",
+  "url": "https://github.com/kickingvegas/casual-symbol-overlay",
+  "stars": 20,
+  "updated": "2026-10-30T15:56:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "casual-symbol-overlay",
+    "fetcher": "github",
+    "repo": "kickingvegas/casual-symbol-overlay"
+  }
+}

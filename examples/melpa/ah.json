@@ -1,0 +1,18 @@
+{
+  "id": 206542806,
+  "name": "takaxp/ah",
+  "description": "Additional hooks for Emacs",
+  "url": "https://github.com/takaxp/ah",
+  "stars": 8,
+  "updated": "2022-07-30T10:58:54Z",
+  "archived": false,
+  "topics": ["emacs", "hook"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ah",
+    "fetcher": "github",
+    "repo": "takaxp/ah"
+  }
+}

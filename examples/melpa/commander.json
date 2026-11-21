@@ -1,0 +1,18 @@
+{
+  "id": 10545476,
+  "name": "rejeep/commander.el",
+  "description": "Emacs command line parser",
+  "url": "https://github.com/rejeep/commander.el",
+  "stars": 60,
+  "updated": "2021-10-06T21:56:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "commander",
+    "fetcher": "github",
+    "repo": "rejeep/commander.el"
+  }
+}

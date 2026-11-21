@@ -1,0 +1,18 @@
+{
+  "id": 2061153,
+  "name": "winterTTr/ace-jump-mode",
+  "description": "a quick cursor jump mode for emacs",
+  "url": "https://github.com/winterTTr/ace-jump-mode",
+  "stars": 612,
+  "updated": "2026-10-09T13:28:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ace-jump-mode",
+    "fetcher": "github",
+    "repo": "winterTTr/ace-jump-mode"
+  }
+}

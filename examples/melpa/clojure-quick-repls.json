@@ -1,0 +1,18 @@
+{
+  "id": 15796852,
+  "name": "symfrog/clojure-quick-repls",
+  "description": "Emacs functions for quickly creating Clojure and ClojureScript repls for a project",
+  "url": "https://github.com/symfrog/clojure-quick-repls",
+  "stars": 33,
+  "updated": "2016-06-20T18:44:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clojure-quick-repls",
+    "fetcher": "github",
+    "repo": "symfrog/clojure-quick-repls"
+  }
+}

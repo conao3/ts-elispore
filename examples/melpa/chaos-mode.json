@@ -1,0 +1,18 @@
+{
+  "id": 570831197,
+  "name": "thechampagne/chaos-mode",
+  "description": "Chaos mode for Emacs.",
+  "url": "https://github.com/thechampagne/chaos-mode",
+  "stars": 0,
+  "updated": "2022-12-27T01:23:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chaos-mode",
+    "fetcher": "github",
+    "repo": "thechampagne/chaos-mode"
+  }
+}

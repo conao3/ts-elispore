@@ -1,0 +1,18 @@
+{
+  "id": 88438536,
+  "name": "mschuldt/bart-mode",
+  "description": "Display real time BART departures in Emacs!",
+  "url": "https://github.com/mschuldt/bart-mode",
+  "stars": 16,
+  "updated": "2019-06-01T10:05:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bart-mode",
+    "fetcher": "github",
+    "repo": "mschuldt/bart-mode"
+  }
+}

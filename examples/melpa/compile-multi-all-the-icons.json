@@ -1,0 +1,19 @@
+{
+  "id": 409200797,
+  "name": "mohkale/compile-multi",
+  "description": "Multi target interface to compile.",
+  "url": "https://github.com/mohkale/compile-multi",
+  "stars": 38,
+  "updated": "2026-06-13T15:03:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "compile-multi-all-the-icons",
+    "fetcher": "github",
+    "repo": "mohkale/compile-multi",
+    "files": "(\"extensions/compile-multi-all-the-icons/compile-multi-all-the-icons*.el\")"
+  }
+}

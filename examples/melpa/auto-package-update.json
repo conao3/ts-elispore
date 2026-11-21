@@ -1,0 +1,18 @@
+{
+  "id": 28003649,
+  "name": "rranelli/auto-package-update.el",
+  "description": "Automatically update Emacs packages.",
+  "url": "https://github.com/rranelli/auto-package-update.el",
+  "stars": 164,
+  "updated": "2026-06-01T18:04:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-package-update",
+    "fetcher": "github",
+    "repo": "rranelli/auto-package-update.el"
+  }
+}

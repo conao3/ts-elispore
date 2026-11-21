@@ -1,0 +1,18 @@
+{
+  "id": 692321772,
+  "name": "aiken-lang/aiken-mode",
+  "description": "Emacs mode for https://github.com/aiken-lang/aiken",
+  "url": "https://github.com/aiken-lang/aiken-mode",
+  "stars": 9,
+  "updated": "2024-05-10T05:24:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "MPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "aiken-mode",
+    "fetcher": "github",
+    "repo": "aiken-lang/aiken-mode"
+  }
+}

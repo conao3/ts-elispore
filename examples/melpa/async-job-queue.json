@@ -1,0 +1,18 @@
+{
+  "id": 628111915,
+  "name": "owinebar/emacs-async-job-queue",
+  "description": "Elisp package for managing an arbitrary number of queued async jobs",
+  "url": "https://github.com/owinebar/emacs-async-job-queue",
+  "stars": 9,
+  "updated": "2023-04-27T21:21:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "async-job-queue",
+    "fetcher": "github",
+    "repo": "owinebar/emacs-async-job-queue"
+  }
+}

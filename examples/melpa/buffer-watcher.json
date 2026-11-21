@@ -1,0 +1,18 @@
+{
+  "id": 80504943,
+  "name": "NicolasPetton/buffer-watcher",
+  "description": "Makes it easy to run shell scripts per filetype/directory when a buffer is saved in Emacs.",
+  "url": "https://github.com/NicolasPetton/buffer-watcher",
+  "stars": 6,
+  "updated": "2017-09-13T08:39:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "buffer-watcher",
+    "fetcher": "github",
+    "repo": "NicolasPetton/buffer-watcher"
+  }
+}

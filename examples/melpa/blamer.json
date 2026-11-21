@@ -1,0 +1,18 @@
+{
+  "id": 416461503,
+  "name": "Artawower/blamer.el",
+  "description": "A git blame plugin for emacs inspired by VS Code's GitLens plugin",
+  "url": "https://github.com/Artawower/blamer.el",
+  "stars": 467,
+  "updated": "2026-01-08T20:14:57Z",
+  "archived": false,
+  "topics": ["blamer", "emacs", "emacs-lisp", "git", "gitlens"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "blamer",
+    "fetcher": "github",
+    "repo": "Artawower/blamer.el"
+  }
+}

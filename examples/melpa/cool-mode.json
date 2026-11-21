@@ -1,0 +1,18 @@
+{
+  "id": 61263673,
+  "name": "nverno/cool-mode",
+  "description": "Cool-mode: emacs major mode for editing cool compiler language",
+  "url": "https://github.com/nverno/cool-mode",
+  "stars": 1,
+  "updated": "2023-10-26T04:57:00Z",
+  "archived": false,
+  "topics": ["compiler-design", "cool-compiler", "cool-mode", "emacs"],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cool-mode",
+    "fetcher": "github",
+    "repo": "nverno/cool-mode"
+  }
+}

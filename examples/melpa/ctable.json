@@ -1,0 +1,19 @@
+{
+  "id": 3082941,
+  "name": "kiwanami/emacs-ctable",
+  "description": "Table Component for elisp",
+  "url": "https://github.com/kiwanami/emacs-ctable",
+  "stars": 213,
+  "updated": "2022-03-01T21:38:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ctable",
+    "fetcher": "github",
+    "repo": "kiwanami/emacs-ctable",
+    "files": "(\"ctable.el\")"
+  }
+}

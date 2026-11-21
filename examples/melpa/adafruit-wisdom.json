@@ -1,0 +1,18 @@
+{
+  "id": 110131923,
+  "name": "gonewest818/adafruit-wisdom.el",
+  "description": "Grab a quote at random from adafruit.com",
+  "url": "https://github.com/gonewest818/adafruit-wisdom.el",
+  "stars": 9,
+  "updated": "2020-12-03T05:37:02Z",
+  "archived": false,
+  "topics": ["adafruit", "emacs", "quotes"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "adafruit-wisdom",
+    "fetcher": "github",
+    "repo": "gonewest818/adafruit-wisdom.el"
+  }
+}

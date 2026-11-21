@@ -1,0 +1,19 @@
+{
+  "id": 27259590,
+  "name": "victorteokw/ac-html",
+  "description": "Emacs auto complete source for html.",
+  "url": "https://github.com/victorteokw/ac-html",
+  "stars": 22,
+  "updated": "2017-11-13T17:30:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-html",
+    "fetcher": "github",
+    "repo": "victorteokw/ac-html",
+    "files": "(:defaults \"completion-data\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 13593949,
+  "name": "fizban007/arxiv-mode",
+  "description": "Emacs major mode for viewing updates on arXiv.org",
+  "url": "https://github.com/fizban007/arxiv-mode",
+  "stars": 46,
+  "updated": "2024-01-16T16:45:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "arxiv-mode",
+    "fetcher": "github",
+    "repo": "fizban007/arxiv-mode"
+  }
+}

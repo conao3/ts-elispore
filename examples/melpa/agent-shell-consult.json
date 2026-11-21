@@ -1,0 +1,18 @@
+{
+  "id": 1341027830,
+  "name": "Gleek/agent-shell-consult",
+  "description": "Project-grouped completing-read switcher for agent-shell buffers",
+  "url": "https://github.com/Gleek/agent-shell-consult",
+  "stars": 8,
+  "updated": "2026-11-15T04:54:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "agent-shell-consult",
+    "fetcher": "github",
+    "repo": "Gleek/agent-shell-consult"
+  }
+}

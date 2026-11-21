@@ -1,0 +1,18 @@
+{
+  "id": 49388104,
+  "name": "tie-rack/anybar-el",
+  "description": "Control AnyBar from Emacs",
+  "url": "https://github.com/tie-rack/anybar-el",
+  "stars": 2,
+  "updated": "2016-08-16T14:21:33Z",
+  "archived": false,
+  "topics": ["anybar", "emacs"],
+  "license": "MPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "anybar",
+    "fetcher": "github",
+    "repo": "tie-rack/anybar-el"
+  }
+}

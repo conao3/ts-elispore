@@ -1,0 +1,19 @@
+{
+  "id": 2860167,
+  "name": "magnars/buster-snippets.el",
+  "description": "Yasnippets for the Buster test framework.",
+  "url": "https://github.com/magnars/buster-snippets.el",
+  "stars": 2,
+  "updated": "2015-11-25T10:10:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "buster-snippets",
+    "fetcher": "github",
+    "repo": "magnars/buster-snippets.el",
+    "files": "(\"*.el\" \"snippets\")"
+  }
+}

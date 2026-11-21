@@ -1,0 +1,27 @@
+{
+  "id": 281923382,
+  "name": "jcs-elpa/better-scroll",
+  "description": "Improve user experience when scrolling window.",
+  "url": "https://github.com/jcs-elpa/better-scroll",
+  "stars": 14,
+  "updated": "2026-06-19T17:18:38Z",
+  "archived": false,
+  "topics": [
+    "better",
+    "emacs",
+    "experience",
+    "improve",
+    "improvement",
+    "scroll",
+    "scrolling",
+    "user-experience"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "better-scroll",
+    "fetcher": "github",
+    "repo": "jcs-elpa/better-scroll"
+  }
+}

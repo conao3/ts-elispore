@@ -1,0 +1,19 @@
+{
+  "id": 48069387,
+  "name": "CestDiego/c-c-combo.el",
+  "description": "Make Stuff happen after you reach a point of ~60wpm",
+  "url": "https://github.com/CestDiego/c-c-combo.el",
+  "stars": 25,
+  "updated": "2015-12-24T02:55:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "c-c-combo",
+    "fetcher": "github",
+    "repo": "CestDiego/c-c-combo.el",
+    "files": "(:defaults \"*.wav\")"
+  }
+}

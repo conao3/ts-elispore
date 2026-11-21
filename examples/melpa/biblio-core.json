@@ -1,0 +1,19 @@
+{
+  "id": 54229635,
+  "name": "cpitclaudel/biblio.el",
+  "description": "Browse and import bibliographic references from CrossRef, DBLP, HAL, arXiv, Dissemin, and doi.org from Emacs",
+  "url": "https://github.com/cpitclaudel/biblio.el",
+  "stars": 220,
+  "updated": "2025-08-12T14:08:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "biblio-core",
+    "fetcher": "github",
+    "repo": "cpitclaudel/biblio.el",
+    "files": "(\"biblio-core.el\")"
+  }
+}

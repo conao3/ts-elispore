@@ -1,0 +1,18 @@
+{
+  "id": 550681,
+  "name": "defunkt/coffee-mode",
+  "description": "Emacs Major Mode for CoffeeScript",
+  "url": "https://github.com/defunkt/coffee-mode",
+  "stars": 579,
+  "updated": "2023-09-08T10:30:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "coffee-mode",
+    "fetcher": "github",
+    "repo": "defunkt/coffee-mode"
+  }
+}

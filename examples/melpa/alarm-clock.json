@@ -1,0 +1,19 @@
+{
+  "id": 156855102,
+  "name": "wlemuel/alarm-clock",
+  "description": "An alarm clock for Emacs",
+  "url": "https://github.com/wlemuel/alarm-clock",
+  "stars": 25,
+  "updated": "2025-01-23T05:56:52Z",
+  "archived": false,
+  "topics": ["clock", "emacs", "emacs-lisp", "melpa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "alarm-clock",
+    "fetcher": "github",
+    "repo": "wlemuel/alarm-clock",
+    "files": "(:defaults \"*.mp3\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 48539486,
+  "name": "bbatsov/crux",
+  "description": "A Collection of Ridiculously Useful eXtensions for Emacs",
+  "url": "https://github.com/bbatsov/crux",
+  "stars": 1048,
+  "updated": "2026-10-02T13:40:17Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "crux",
+    "fetcher": "github",
+    "repo": "bbatsov/crux"
+  }
+}

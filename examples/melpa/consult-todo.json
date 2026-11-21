@@ -1,0 +1,18 @@
+{
+  "id": 386874933,
+  "name": "eki3z/consult-todo",
+  "description": "",
+  "url": "https://github.com/eki3z/consult-todo",
+  "stars": 70,
+  "updated": "2025-04-17T19:03:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-todo",
+    "fetcher": "github",
+    "repo": "eki3z/consult-todo"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 28727373,
+  "name": "osv/ac-html-csswatcher",
+  "description": "HTML Class and ID completion for emacs by using ac-html.el and csswatcher projects",
+  "url": "https://github.com/osv/ac-html-csswatcher",
+  "stars": 14,
+  "updated": "2015-12-08T21:13:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-html-csswatcher",
+    "fetcher": "github",
+    "repo": "osv/ac-html-csswatcher"
+  }
+}

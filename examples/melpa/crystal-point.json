@@ -1,0 +1,18 @@
+{
+  "id": 831479394,
+  "name": "laluxx/crystal-point",
+  "description": "a crystal clear cursor for Emacs",
+  "url": "https://github.com/laluxx/crystal-point",
+  "stars": 20,
+  "updated": "2025-09-15T11:07:10Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "crystal-point",
+    "fetcher": "github",
+    "repo": "laluxx/crystal-point"
+  }
+}

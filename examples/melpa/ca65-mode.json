@@ -1,0 +1,18 @@
+{
+  "id": 334157453,
+  "name": "wendelscardua/ca65-mode",
+  "description": "Emacs major mode for editing ca65 assembly files",
+  "url": "https://github.com/wendelscardua/ca65-mode",
+  "stars": 10,
+  "updated": "2021-02-18T01:08:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ca65-mode",
+    "fetcher": "github",
+    "repo": "wendelscardua/ca65-mode"
+  }
+}

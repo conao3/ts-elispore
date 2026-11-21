@@ -1,0 +1,18 @@
+{
+  "id": 584529368,
+  "name": "triplem/auth-source-gopass",
+  "description": "An emacs package for the gopass password manager",
+  "url": "https://github.com/triplem/auth-source-gopass",
+  "stars": 4,
+  "updated": "2023-01-16T14:34:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auth-source-gopass",
+    "fetcher": "github",
+    "repo": "triplem/auth-source-gopass"
+  }
+}

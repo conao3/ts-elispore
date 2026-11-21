@@ -1,0 +1,18 @@
+{
+  "id": 38590320,
+  "name": "AnthonyDiGirolamo/airline-themes",
+  "description": "vim-airline themes https://github.com/vim-airline/vim-airline-themes for emacs powerline https://github.com/milkypostman/powerline",
+  "url": "https://github.com/AnthonyDiGirolamo/airline-themes",
+  "stars": 127,
+  "updated": "2025-05-02T19:20:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "airline-themes",
+    "fetcher": "github",
+    "repo": "AnthonyDiGirolamo/airline-themes"
+  }
+}

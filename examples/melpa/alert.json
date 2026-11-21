@@ -1,0 +1,18 @@
+{
+  "id": 2272401,
+  "name": "jwiegley/alert",
+  "description": "A Growl-like alerts notifier for Emacs",
+  "url": "https://github.com/jwiegley/alert",
+  "stars": 470,
+  "updated": "2026-03-17T18:08:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "alert",
+    "fetcher": "github",
+    "repo": "jwiegley/alert"
+  }
+}

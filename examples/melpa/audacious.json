@@ -1,0 +1,18 @@
+{
+  "id": 389299041,
+  "name": "shishimaru/audacious.el",
+  "description": "",
+  "url": "https://github.com/shishimaru/audacious.el",
+  "stars": 2,
+  "updated": "2026-09-17T12:47:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "audacious",
+    "fetcher": "github",
+    "repo": "shishimaru/audacious.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1559078,
+  "name": "purcell/color-theme-sanityinc-solarized",
+  "description": "A pair of Emacs color themes based on Ethan Schoonover's 'solarized' theme",
+  "url": "https://github.com/purcell/color-theme-sanityinc-solarized",
+  "stars": 87,
+  "updated": "2026-04-22T12:25:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "color-theme-sanityinc-solarized",
+    "fetcher": "github",
+    "repo": "purcell/color-theme-sanityinc-solarized"
+  }
+}

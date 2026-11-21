@@ -1,0 +1,18 @@
+{
+  "id": 186270588,
+  "name": "xuchunyang/countdown.el",
+  "description": "10 9 8 7 6 5...",
+  "url": "https://github.com/xuchunyang/countdown.el",
+  "stars": 10,
+  "updated": "2019-06-26T02:45:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "countdown",
+    "fetcher": "github",
+    "repo": "xuchunyang/countdown.el"
+  }
+}

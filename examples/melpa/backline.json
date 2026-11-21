@@ -1,0 +1,18 @@
+{
+  "id": 155408688,
+  "name": "tarsius/backline",
+  "description": "Preserve appearance of collapsed outline headings until right window edge",
+  "url": "https://github.com/tarsius/backline",
+  "stars": 34,
+  "updated": "2026-10-01T15:34:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "backline",
+    "fetcher": "github",
+    "repo": "tarsius/backline"
+  }
+}

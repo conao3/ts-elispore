@@ -1,0 +1,18 @@
+{
+  "id": 63107896,
+  "name": "michaeljb/bool-flip",
+  "description": "",
+  "url": "https://github.com/michaeljb/bool-flip",
+  "stars": 14,
+  "updated": "2016-12-15T15:48:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bool-flip",
+    "fetcher": "github",
+    "repo": "michaeljb/bool-flip"
+  }
+}

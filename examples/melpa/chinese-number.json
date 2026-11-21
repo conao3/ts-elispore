@@ -1,0 +1,18 @@
+{
+  "id": 68785630,
+  "name": "zhcosin/chinese-number",
+  "description": "阿拉伯数与中文间的转换，本 package 已由 zhcosin/cn-num 完全代替，不再维护.",
+  "url": "https://github.com/zhcosin/chinese-number",
+  "stars": 7,
+  "updated": "2016-10-08T09:06:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chinese-number",
+    "fetcher": "github",
+    "repo": "zhcosin/chinese-number"
+  }
+}

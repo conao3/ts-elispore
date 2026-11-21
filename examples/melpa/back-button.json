@@ -1,0 +1,18 @@
+{
+  "id": 5481425,
+  "name": "rolandwalker/back-button",
+  "description": "Visual navigation through mark rings in Emacs",
+  "url": "https://github.com/rolandwalker/back-button",
+  "stars": 94,
+  "updated": "2022-08-27T17:33:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "back-button",
+    "fetcher": "github",
+    "repo": "rolandwalker/back-button"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": 866629172,
+  "name": "tninja/aider.el",
+  "description": "AI assisted programming in Emacs with Aider",
+  "url": "https://github.com/tninja/aider.el",
+  "stars": 688,
+  "updated": "2026-10-04T19:10:50Z",
+  "archived": false,
+  "topics": [
+    "agile-development",
+    "ai",
+    "ai-assisted-coding",
+    "aider",
+    "code-reading",
+    "deepseek",
+    "emacs",
+    "emacs-lisp",
+    "gemini-pro",
+    "gpt",
+    "llm",
+    "sonnet"
+  ],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aider",
+    "fetcher": "github",
+    "repo": "tninja/aider.el",
+    "files": "(:defaults \"snippets\")"
+  }
+}

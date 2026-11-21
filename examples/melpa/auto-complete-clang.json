@@ -1,0 +1,18 @@
+{
+  "id": 808417,
+  "name": "brianjcj/auto-complete-clang",
+  "description": "auto complete source for clang. AC+Clang+Yasnippet!",
+  "url": "https://github.com/brianjcj/auto-complete-clang",
+  "stars": 188,
+  "updated": "2014-04-09T07:52:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-complete-clang",
+    "fetcher": "github",
+    "repo": "brianjcj/auto-complete-clang"
+  }
+}

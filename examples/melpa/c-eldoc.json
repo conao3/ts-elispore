@@ -1,0 +1,18 @@
+{
+  "id": 471317,
+  "name": "nflath/c-eldoc",
+  "description": "eldoc-mode plugin for C source code",
+  "url": "https://github.com/nflath/c-eldoc",
+  "stars": 33,
+  "updated": "2020-10-04T23:47:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "c-eldoc",
+    "fetcher": "github",
+    "repo": "nflath/c-eldoc"
+  }
+}

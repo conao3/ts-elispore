@@ -1,0 +1,18 @@
+{
+  "id": 249034249,
+  "name": "xuchunyang/bencoding.el",
+  "description": "BitTorrent Bencode library for Emacs Lisp",
+  "url": "https://github.com/xuchunyang/bencoding.el",
+  "stars": 0,
+  "updated": "2020-10-20T09:28:29Z",
+  "archived": false,
+  "topics": ["bencode", "bittorrent-bencode-library", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bencoding",
+    "fetcher": "github",
+    "repo": "xuchunyang/bencoding.el"
+  }
+}

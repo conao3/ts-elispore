@@ -1,0 +1,18 @@
+{
+  "id": 824806139,
+  "name": "chyla/ChylaDarkThemeForEmacs",
+  "description": "Dark green color scheme for Emacs.",
+  "url": "https://github.com/chyla/ChylaDarkThemeForEmacs",
+  "stars": 0,
+  "updated": "2024-08-24T16:16:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chyla-dark-theme",
+    "fetcher": "github",
+    "repo": "chyla/ChylaDarkThemeForEmacs"
+  }
+}

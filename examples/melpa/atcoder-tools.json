@@ -1,0 +1,18 @@
+{
+  "id": 220811735,
+  "name": "sei40kr/emacs-atcoder-tools",
+  "description": "Test your solution for an AtCoder's contest task problem from Emacs.",
+  "url": "https://github.com/sei40kr/emacs-atcoder-tools",
+  "stars": 0,
+  "updated": "2020-01-09T12:36:11Z",
+  "archived": false,
+  "topics": ["competitive-programming", "emacs", "emacs-package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "atcoder-tools",
+    "fetcher": "github",
+    "repo": "sei40kr/emacs-atcoder-tools"
+  }
+}

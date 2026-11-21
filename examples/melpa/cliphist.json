@@ -1,0 +1,18 @@
+{
+  "id": 43955743,
+  "name": "redguardtoo/cliphist",
+  "description": "Paste from clipboard manager into Emacs",
+  "url": "https://github.com/redguardtoo/cliphist",
+  "stars": 74,
+  "updated": "2022-05-25T10:34:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cliphist",
+    "fetcher": "github",
+    "repo": "redguardtoo/cliphist"
+  }
+}

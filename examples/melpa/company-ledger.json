@@ -1,0 +1,18 @@
+{
+  "id": 129617615,
+  "name": "debanjum/company-ledger",
+  "description": "Fuzzy auto-completion for Beancount & other Ledger-likes",
+  "url": "https://github.com/debanjum/company-ledger",
+  "stars": 16,
+  "updated": "2021-09-11T08:12:16Z",
+  "archived": false,
+  "topics": ["beancount", "company-mode", "completion", "emacs", "fuzzy-search", "ledger-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-ledger",
+    "fetcher": "github",
+    "repo": "debanjum/company-ledger"
+  }
+}

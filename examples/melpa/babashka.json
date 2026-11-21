@@ -1,0 +1,18 @@
+{
+  "id": 652280195,
+  "name": "licht1stein/babashka.el",
+  "description": "Babashka Tasks for Emacs",
+  "url": "https://github.com/licht1stein/babashka.el",
+  "stars": 45,
+  "updated": "2024-05-27T12:06:45Z",
+  "archived": false,
+  "topics": ["babashka", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "babashka",
+    "fetcher": "github",
+    "repo": "licht1stein/babashka.el"
+  }
+}

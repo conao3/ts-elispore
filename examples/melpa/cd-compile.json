@@ -1,0 +1,18 @@
+{
+  "id": 21922217,
+  "name": "jamienicol/emacs-cd-compile",
+  "description": "Emacs command to run compile in a specific directory",
+  "url": "https://github.com/jamienicol/emacs-cd-compile",
+  "stars": 7,
+  "updated": "2014-11-08T19:58:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cd-compile",
+    "fetcher": "github",
+    "repo": "jamienicol/emacs-cd-compile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 99387949,
+  "name": "vincekd/comment-tags",
+  "description": "Emacs package to highlight and manage comment tags like TODO, BUG, FIXME, etc.",
+  "url": "https://github.com/vincekd/comment-tags",
+  "stars": 14,
+  "updated": "2023-05-25T05:47:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "comment-tags",
+    "fetcher": "github",
+    "repo": "vincekd/comment-tags"
+  }
+}

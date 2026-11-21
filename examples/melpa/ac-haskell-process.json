@@ -1,0 +1,18 @@
+{
+  "id": 22812846,
+  "name": "purcell/ac-haskell-process",
+  "description": "Haskell completion source for Emacs auto-complete package",
+  "url": "https://github.com/purcell/ac-haskell-process",
+  "stars": 16,
+  "updated": "2026-04-22T12:26:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-haskell-process",
+    "fetcher": "github",
+    "repo": "purcell/ac-haskell-process"
+  }
+}

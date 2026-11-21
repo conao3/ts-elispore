@@ -1,0 +1,18 @@
+{
+  "id": 801207675,
+  "name": "kickingvegas/casual-avy",
+  "description": "Casual Avy - An opinionated Transient menu for Avy.",
+  "url": "https://github.com/kickingvegas/casual-avy",
+  "stars": 60,
+  "updated": "2026-08-31T22:12:35Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "casual-avy",
+    "fetcher": "github",
+    "repo": "kickingvegas/casual-avy"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 26707184,
+  "name": "vspinu/company-math",
+  "description": "Completion back-ends for for math unicode symbols and latex tags",
+  "url": "https://github.com/vspinu/company-math",
+  "stars": 128,
+  "updated": "2022-12-27T13:48:02Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-math",
+    "fetcher": "github",
+    "repo": "vspinu/company-math"
+  }
+}

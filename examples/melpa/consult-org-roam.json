@@ -1,0 +1,18 @@
+{
+  "id": 466676479,
+  "name": "jgru/consult-org-roam",
+  "description": "A bunch of convenience functions for operating org-roam with the help of consult ",
+  "url": "https://github.com/jgru/consult-org-roam",
+  "stars": 159,
+  "updated": "2026-09-17T04:42:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-org-roam",
+    "fetcher": "github",
+    "repo": "jgru/consult-org-roam"
+  }
+}

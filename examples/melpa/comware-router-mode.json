@@ -1,0 +1,18 @@
+{
+  "id": 198439452,
+  "name": "daviderestivo/comware-router-mode",
+  "description": "Major mode for editing Comware configuration files",
+  "url": "https://github.com/daviderestivo/comware-router-mode",
+  "stars": 2,
+  "updated": "2025-01-03T13:25:18Z",
+  "archived": false,
+  "topics": ["comware", "elisp", "emacs", "major-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "comware-router-mode",
+    "fetcher": "github",
+    "repo": "daviderestivo/comware-router-mode"
+  }
+}

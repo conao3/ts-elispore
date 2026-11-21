@@ -1,0 +1,18 @@
+{
+  "id": 930786354,
+  "name": "MatthewZMD/aidermacs",
+  "description": "AI Pair Programming in Emacs with Aider",
+  "url": "https://github.com/MatthewZMD/aidermacs",
+  "stars": 936,
+  "updated": "2026-11-20T06:51:10Z",
+  "archived": false,
+  "topics": ["ai", "ai-programming", "aider", "chatgpt", "claude", "deepseek", "emacs", "llm"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aidermacs",
+    "fetcher": "github",
+    "repo": "MatthewZMD/aidermacs"
+  }
+}

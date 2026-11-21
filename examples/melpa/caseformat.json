@@ -1,0 +1,18 @@
+{
+  "id": 48609409,
+  "name": "HKey/caseformat",
+  "description": "Format based letter case converter",
+  "url": "https://github.com/HKey/caseformat",
+  "stars": 3,
+  "updated": "2020-11-09T12:12:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "caseformat",
+    "fetcher": "github",
+    "repo": "HKey/caseformat"
+  }
+}

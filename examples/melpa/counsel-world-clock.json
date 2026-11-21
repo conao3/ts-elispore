@@ -1,0 +1,18 @@
+{
+  "id": 112162686,
+  "name": "kchenphy/counsel-world-clock",
+  "description": "Display world clock using Ivy",
+  "url": "https://github.com/kchenphy/counsel-world-clock",
+  "stars": 7,
+  "updated": "2019-07-09T22:11:12Z",
+  "archived": false,
+  "topics": ["elisp", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-world-clock",
+    "fetcher": "github",
+    "repo": "kchenphy/counsel-world-clock"
+  }
+}

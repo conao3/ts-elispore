@@ -1,0 +1,18 @@
+{
+  "id": 106973407,
+  "name": "redguardtoo/counsel-etags",
+  "description": "Fast, energy-saving, and powerful code navigation solution",
+  "url": "https://github.com/redguardtoo/counsel-etags",
+  "stars": 177,
+  "updated": "2026-05-13T10:48:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-etags",
+    "fetcher": "github",
+    "repo": "redguardtoo/counsel-etags"
+  }
+}

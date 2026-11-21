@@ -1,0 +1,18 @@
+{
+  "id": 5642454,
+  "name": "rolandwalker/buffer-utils",
+  "description": "Buffer-manipulation utility functions for Emacs",
+  "url": "https://github.com/rolandwalker/buffer-utils",
+  "stars": 4,
+  "updated": "2014-08-04T19:22:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "buffer-utils",
+    "fetcher": "github",
+    "repo": "rolandwalker/buffer-utils"
+  }
+}

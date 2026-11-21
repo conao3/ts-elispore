@@ -1,0 +1,19 @@
+{
+  "id": 27008670,
+  "name": "yaruopooner/ac-clang",
+  "description": "auto-complete + clang for MSVC",
+  "url": "https://github.com/yaruopooner/ac-clang",
+  "stars": 50,
+  "updated": "2021-05-10T00:20:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "C++",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-clang",
+    "fetcher": "github",
+    "repo": "yaruopooner/ac-clang",
+    "files": "(:defaults \"*.png\" \"build\" \"clang-server\")"
+  }
+}

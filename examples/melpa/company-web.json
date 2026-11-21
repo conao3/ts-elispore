@@ -1,0 +1,18 @@
+{
+  "id": 34863128,
+  "name": "osv/company-web",
+  "description": "Emacs company backend for html, jade, slim",
+  "url": "https://github.com/osv/company-web",
+  "stars": 77,
+  "updated": "2022-01-15T21:46:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-web",
+    "fetcher": "github",
+    "repo": "osv/company-web"
+  }
+}

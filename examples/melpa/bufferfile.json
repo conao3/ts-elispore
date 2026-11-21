@@ -1,0 +1,26 @@
+{
+  "id": 933461327,
+  "name": "jamescherti/bufferfile.el",
+  "description": "Emacs 'bufferfile': Rename, Delete, or Copy Files and Associated Buffers (e.g., clones/indirect buffers)",
+  "url": "https://github.com/jamescherti/bufferfile.el",
+  "stars": 27,
+  "updated": "2026-11-13T22:15:31Z",
+  "archived": false,
+  "topics": [
+    "delete-file",
+    "delete-files",
+    "emacs",
+    "rename-buffer",
+    "rename-buffers",
+    "rename-file",
+    "rename-files"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bufferfile",
+    "fetcher": "github",
+    "repo": "jamescherti/bufferfile.el"
+  }
+}

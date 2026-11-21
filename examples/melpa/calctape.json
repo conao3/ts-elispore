@@ -1,0 +1,18 @@
+{
+  "id": 1057005762,
+  "name": "Boruch-Baum/emacs-calctape",
+  "description": "Emacs adding-machine, tape calculator, column sum-mer",
+  "url": "https://github.com/Boruch-Baum/emacs-calctape",
+  "stars": 2,
+  "updated": "2025-10-28T11:19:12Z",
+  "archived": false,
+  "topics": ["emacs", "tape-calculator"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "calctape",
+    "fetcher": "github",
+    "repo": "Boruch-Baum/emacs-calctape"
+  }
+}

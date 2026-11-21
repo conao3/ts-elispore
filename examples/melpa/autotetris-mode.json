@@ -1,0 +1,18 @@
+{
+  "id": 12985646,
+  "name": "skeeto/autotetris-mode",
+  "description": "Automatically play Emacs Tetris",
+  "url": "https://github.com/skeeto/autotetris-mode",
+  "stars": 44,
+  "updated": "2018-06-09T01:11:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "autotetris-mode",
+    "fetcher": "github",
+    "repo": "skeeto/autotetris-mode"
+  }
+}
