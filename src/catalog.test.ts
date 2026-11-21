@@ -254,6 +254,21 @@ test("ranks matching MELPA recipes by the number of terms, exact name, then shor
 const published = catalogSchema.parse(
   JSON.parse(publishedCatalog(fileURLToPath(new URL("..", import.meta.url)))),
 )
+const ada = published.entries.find((entry) => entry.name === "ada-mode")!
+
+test("does not treat unknown repository activity as zero stars, an early push, or not archived", () => {
+  expect(ada.stars).toBeUndefined()
+  expect(ada.updated).toBeUndefined()
+  expect(ada.archived).toBeUndefined()
+  for (const query of ["stars:0", "pushed:<2026-01-01", "archived:false"]) {
+    expect(searchEntries([ada], query, "stars")).toEqual([])
+    expect(searchEntries([ada], `-${query}`, "stars")).toEqual([ada])
+  }
+  expect(searchEntries([ada], "-archived:true", "stars")).toEqual([ada])
+  const known = { ...entry, stars: 0, updated: "2025-01-01T00:00:00Z" }
+  for (const sort of ["stars", "updated"])
+    expect(searchEntries([ada, known], "", sort)).toEqual([known, ada])
+})
 
 test.each([
   ["annotation", "agda/agda", "", "src/data/emacs-mode"],

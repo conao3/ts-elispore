@@ -81,6 +81,7 @@ function PackageRow({
 }) {
   const [owner, name] = entry.name.split("/")
   const github = new URL(entry.url).hostname === "github.com" && Boolean(name)
+  const stars = entry.stars?.toLocaleString("en")
   const [format, setFormat] = useState<SnippetFormat>("leaf")
   const [method, setMethod] = useState<SnippetMethod>("vc")
   const { code, note, hasArchive } = installationExample(entry, format, filters, method)
@@ -176,7 +177,7 @@ function PackageRow({
         </span>
         <span className="stars">
           <Star size={14} aria-hidden="true" />
-          {github ? entry.stars.toLocaleString("en") : "—"}
+          {stars ?? "—"}
         </span>
         <time dateTime={entry.updated} title={entry.updated}>
           {entry.updated ? relativeTime(entry.updated) : "—"}
@@ -193,7 +194,7 @@ function PackageRow({
               {entry.license && entry.license !== "NOASSERTION" ? entry.license : "See repository"}
             </dd>
             <dt>Stars</dt>
-            <dd>{github ? entry.stars.toLocaleString("en") : "Not available"}</dd>
+            <dd>{stars ?? "Not available"}</dd>
             <dt>Last push</dt>
             <dd>
               {entry.updated
@@ -355,7 +356,7 @@ function App() {
     [loadError, setLoadError] = useState(""),
     [reload, setReload] = useState(0)
   const [query, setQuery] = useState(
-    () => new URLSearchParams(location.search).get("q") ?? "archived:false",
+    () => new URLSearchParams(location.search).get("q") ?? "-archived:true",
   )
   const [sort, setSort] = useState("stars"),
     [limit, setLimit] = useState(30),
@@ -393,7 +394,7 @@ function App() {
     setLimit(30)
   }, [query])
   useEffect(() => {
-    const pop = () => setQuery(new URLSearchParams(location.search).get("q") ?? "archived:false")
+    const pop = () => setQuery(new URLSearchParams(location.search).get("q") ?? "-archived:true")
     const key = (event: KeyboardEvent) => {
       if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
         event.preventDefault()
@@ -433,9 +434,9 @@ function App() {
     const present = new Set(entries.flatMap((entry) => entry.sources ?? []))
     return sourceSchema.options.filter((source) => present.has(source))
   }, [entries])
-  function qualify(key: string, value: string, append = false) {
+  function qualify(key: string, value: string, append = false, exclude = false) {
     try {
-      setQuery(setQualifier(query, key, value, append))
+      setQuery(setQualifier(query, key, value, append, exclude))
     } catch {
       input.current?.focus()
     }
@@ -539,8 +540,13 @@ function App() {
         <Checkbox
           className="check"
 
-          isSelected={!values("archived").includes("false")}
-          onChange={(checked) => qualify("archived", checked ? "" : "false")}
+          isSelected={
+            !state.filters.some(
+              ({ key, value, exclude }) =>
+                key === "archived" && value === (exclude ? "true" : "false"),
+            )
+          }
+          onChange={(checked) => qualify("archived", checked ? "" : "true", false, !checked)}
         >
           <span className="checkbox-mark" />
           Include archived

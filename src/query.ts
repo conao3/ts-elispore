@@ -52,18 +52,25 @@ export function parseQuery(value: string): Filter[] {
     return { raw, key, value: tokenValue, exclude: match[1] === "-" }
   })
 }
-export function setQualifier(query: string, key: string, value: string, append = false): string {
+export function setQualifier(
+  query: string,
+  key: string,
+  value: string,
+  append = false,
+  exclude = false,
+): string {
   let tokens = tokenize(query)
   if (!append)
     tokens = tokens.filter((token) => /^-?([a-z]+):/i.exec(token)?.[1].toLowerCase() !== key)
   if (value) {
-    const token = `${key}:${/\s/.test(value) ? JSON.stringify(value) : value}`
+    const token = `${exclude ? "-" : ""}${key}:${/\s/.test(value) ? JSON.stringify(value) : value}`
     if (!tokens.some((existing) => existing.toLowerCase() === token.toLowerCase()))
       tokens.push(token)
   }
   return tokens.join(" ")
 }
-function compare(value: string | number, condition: string): boolean {
+function compare(value: string | number | undefined, condition: string): boolean {
+  if (value === undefined || value === "") return false
   if (condition.includes("..")) {
     const [lo, hi] = condition.split("..")
     return typeof value === "number"
@@ -130,7 +137,7 @@ export function matches(entry: Entry, filters: Filter[]): boolean {
       case "archived":
         return entry.archived === (filter.value === "true")
       case "pushed":
-        return compare(entry.updated.slice(0, 10), filter.value)
+        return compare(entry.updated?.slice(0, 10), filter.value)
       case "stars":
         return compare(entry.stars, filter.value)
       case "language":
@@ -188,9 +195,11 @@ export function searchEntries(entries: Entry[], query: string, sort: string): En
     .filter((entry) => matches(entry, filters))
     .sort((a, b) =>
       sort === "stars"
-        ? b.stars - a.stars || a.name.localeCompare(b.name)
+        ? Number(a.stars === undefined) - Number(b.stars === undefined) ||
+          (b.stars ?? 0) - (a.stars ?? 0) ||
+          a.name.localeCompare(b.name)
         : sort === "updated"
-          ? b.updated.localeCompare(a.updated) || a.name.localeCompare(b.name)
+          ? (b.updated ?? "").localeCompare(a.updated ?? "") || a.name.localeCompare(b.name)
           : a.name.localeCompare(b.name),
     )
 }
