@@ -1,7 +1,8 @@
-import { readFileSync } from "node:fs"
+import { fileURLToPath } from "node:url"
 import { installationSnippet } from "./snippet"
 import { test, expect } from "vite-plus/test"
-import { catalogSchema, entrySchema, melpaRecipeSchema } from "./catalog"
+import { publishedCatalog } from "../scripts/catalog-import"
+import { catalogSchema } from "./catalog"
 import type { Entry } from "./catalog"
 import { parseQuery, searchEntries, setQualifier } from "./query"
 const entry: Entry = {
@@ -155,6 +156,7 @@ test("uses the queried MELPA recipe's name, branch, and exact source directory i
         branch: "stable",
         files:
           '("src/elisp/pkg-mode.el" ("target" "extra/pkg-mode.el") (:exclude "test/pkg-mode.el"))',
+        lispDir: "src/elisp",
       },
     ],
   }
@@ -173,30 +175,33 @@ test("uses the queried MELPA recipe's name, branch, and exact source directory i
   }
 })
 
-test("uses a single Lisp glob directory and omits only the directory for ambiguous layouts", () => {
-  function snippet(files: string) {
-    return installationSnippet({
-      ...entry,
-      melpaRecipes: [{ name: "alias", fetcher: "github", files, branch: "stable" }],
-    })
+test("ranks matching MELPA recipes by the number of terms, exact name, then shortest name", () => {
+  const imported = {
+    ...entry,
+    melpaRecipes: [
+      { name: "prescient", fetcher: "github" },
+      { name: "company-prescient", fetcher: "github" },
+      { name: "vertico-prescient-extension", fetcher: "github" },
+      { name: "vertico-prescient", fetcher: "github" },
+    ],
   }
-  expect(snippet('("./src/*.el" "snippets")')).toBe(
-    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable" :lisp-dir "src"))',
-  )
-  const withoutDirectory =
-    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable"))'
-  expect(snippet('("src/other.el" (:exclude "tests/alias.el"))')).toBe(withoutDirectory)
-  expect(snippet('("src/alias.el" "other/alias.el")')).toBe(withoutDirectory)
-  expect(snippet('("src/*.el" "other/*.el")')).toBe(withoutDirectory)
-  expect(snippet('("src/*.el" "src/nested/*.el")')).toBe(
-    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable" :lisp-dir "src"))',
-  )
-  expect(snippet('("src/*.el" "src/nested/alias*.el")')).toBe(
-    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable" :lisp-dir "src"))',
-  )
-  expect(snippet('("*.el" "src/alias.el")')).toBe(withoutDirectory)
-  expect(snippet('("alias.el" "src/alias*.el")')).toBe(withoutDirectory)
+  for (const [query, name] of [
+    ["vertico prescient", "vertico-prescient"],
+    ["prescient vertico", "vertico-prescient"],
+    ["prescient", "prescient"],
+    ["vertico", "vertico-prescient"],
+    ["vertico vertico-prescient-extension", "vertico-prescient-extension"],
+    ["nonexistent", "prescient"],
+  ]) {
+    expect(installationSnippet(imported, "leaf", parseQuery(query))).toBe(
+      `(leaf ${name}\n  :vc (:url "https://github.com/minad/vertico"))`,
+    )
+  }
 })
+
+const published = catalogSchema.parse(
+  JSON.parse(publishedCatalog(fileURLToPath(new URL("..", import.meta.url)))),
+)
 
 test.each([
   ["annotation", "agda/agda", "", "src/data/emacs-mode"],
@@ -205,15 +210,18 @@ test.each([
   ["ess", "emacs-ess/ESS", "", "lisp"],
   ["easysession", "jamescherti/easysession.el", "", ""],
   ["guava-themes", "bormoge/guava-themes", "", ""],
+  ["treemacs", "Alexander-Miller/treemacs", "", "src/elisp"],
+  ["cider", "clojure-emacs/cider", "", "lisp"],
+  ["project-persist", "rdallasgray/project-persist", "", "lib"],
 ])(
   "generates the installation example from the real %s recipe",
   (name, repository, branch, directory) => {
-    const file = new URL(`../examples/melpa/${name}.json`, import.meta.url)
-    const staged: unknown = JSON.parse(readFileSync(file, "utf8"))
-    const { melpa, ...entry } = entrySchema.extend({ melpa: melpaRecipeSchema }).parse(staged)
+    const entry = published.entries.find((entry) => entry.name === repository)!
+    const melpa = entry.melpaRecipes?.find((recipe) => recipe.name === name)
+    expect(melpa).toBeDefined()
     const imported = {
       ...entry,
-      melpaRecipes: [{ name: "other-package", fetcher: "github" }, melpa],
+      melpaRecipes: [{ name: "other-package", fetcher: "github" }, melpa!],
     }
     const options = [
       `:url "https://github.com/${repository}"`,

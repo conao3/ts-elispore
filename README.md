@@ -96,8 +96,22 @@ nix develop --command node scripts/catalog-import.ts /path/to/catalog.json
 Each GitHub repository ID appears once. GitHub discovery supplies repository metadata when a
 repository is in both inputs. For MELPA-only repositories, the first staged recipe by name
 supplies the metadata. The combined entry preserves every associated recipe in `melpaRecipes`,
-including package names, upstreams, branches, commits and explicit file lists. The displayed
+including package names, upstreams, branches, commits and explicit file lists. The build adds
+verified Lisp directories from `examples/melpa-lisp-dirs.json`. The displayed
 refresh date is for GitHub discovery; MELPA-only metadata comes from the staged snapshots.
+
+When replacing the staged recipes, regenerate the Lisp directory snapshot with authenticated
+GitHub CLI access, then commit it with the recipes:
+
+```sh
+nix develop --command node scripts/melpa-lisp-dirs.ts
+```
+
+The updater checks for each recipe's main Lisp file on its branch (or the default branch),
+at the root, under `lisp/`, and in literal directories named by top-level source patterns.
+An explicitly matched root file wins; otherwise recipe directories take priority over the
+root and `lisp/` fallbacks.
+The installation example omits the directory for root files or when it cannot identify a directory.
 
 ### Converting MELPA recipes
 
