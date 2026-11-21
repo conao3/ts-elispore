@@ -1,0 +1,19 @@
+{
+  "id": 23284173,
+  "name": "mihaimaruseac/hindent",
+  "description": "Haskell pretty printer",
+  "url": "https://github.com/mihaimaruseac/hindent",
+  "stars": 580,
+  "updated": "2026-11-14T18:09:09Z",
+  "archived": false,
+  "topics": ["code-formatter", "hacktoberfest", "haskell"],
+  "license": "NOASSERTION",
+  "language": "Haskell",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hindent",
+    "fetcher": "github",
+    "repo": "mihaimaruseac/hindent",
+    "files": "(\"elisp/*.el\")"
+  }
+}

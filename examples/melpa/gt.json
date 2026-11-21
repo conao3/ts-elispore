@@ -1,0 +1,18 @@
+{
+  "id": 291507555,
+  "name": "lorniu/gt.el",
+  "description": "Translator on Emacs.  Support multiple engines such as Google, Bing, deepL, StarDict and Youdao, also support LLMs like ChatGPT, DeepSeek and so on.",
+  "url": "https://github.com/lorniu/gt.el",
+  "stars": 358,
+  "updated": "2025-07-27T11:14:38Z",
+  "archived": false,
+  "topics": ["chatgpt", "deepseek", "text-utility", "translation"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gt",
+    "fetcher": "github",
+    "repo": "lorniu/gt.el"
+  }
+}

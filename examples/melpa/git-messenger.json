@@ -1,0 +1,18 @@
+{
+  "id": 10096443,
+  "name": "emacsorphanage/git-messenger",
+  "description": "Emacs Port of git-messenger.vim",
+  "url": "https://github.com/emacsorphanage/git-messenger",
+  "stars": 150,
+  "updated": "2023-12-20T10:35:56Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "git-messenger",
+    "fetcher": "github",
+    "repo": "emacsorphanage/git-messenger"
+  }
+}

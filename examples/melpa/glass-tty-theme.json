@@ -1,0 +1,18 @@
+{
+  "id": 851197143,
+  "name": "irtnog/glass-tty-theme",
+  "description": "Reverse video-like Emacs color theme for use with the Glass TTY VT220 font",
+  "url": "https://github.com/irtnog/glass-tty-theme",
+  "stars": 1,
+  "updated": "2024-09-09T13:02:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "glass-tty-theme",
+    "fetcher": "github",
+    "repo": "irtnog/glass-tty-theme"
+  }
+}

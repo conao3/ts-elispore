@@ -1,0 +1,18 @@
+{
+  "id": 59997007,
+  "name": "ptrv/helm-smex",
+  "description": "Helm interface for smex",
+  "url": "https://github.com/ptrv/helm-smex",
+  "stars": 14,
+  "updated": "2020-11-06T07:47:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-smex",
+    "fetcher": "github",
+    "repo": "ptrv/helm-smex"
+  }
+}

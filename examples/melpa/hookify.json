@@ -1,0 +1,18 @@
+{
+  "id": 23936442,
+  "name": "Silex/hookify",
+  "description": "Interactive commands to create temporary hooks.",
+  "url": "https://github.com/Silex/hookify",
+  "stars": 3,
+  "updated": "2017-03-15T19:22:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hookify",
+    "fetcher": "github",
+    "repo": "Silex/hookify"
+  }
+}

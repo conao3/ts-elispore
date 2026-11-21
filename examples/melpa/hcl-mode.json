@@ -1,0 +1,18 @@
+{
+  "id": 227265875,
+  "name": "hcl-emacs/hcl-mode",
+  "description": "Emacs major mode of HCL(Hashicorp Configuration Language)",
+  "url": "https://github.com/hcl-emacs/hcl-mode",
+  "stars": 34,
+  "updated": "2024-10-15T08:53:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "hcl-mode",
+    "fetcher": "github",
+    "repo": "hcl-emacs/hcl-mode"
+  }
+}

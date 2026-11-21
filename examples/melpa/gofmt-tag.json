@@ -1,0 +1,18 @@
+{
+  "id": 697999558,
+  "name": "M1ndo/gofmt-tag",
+  "description": "An Emacs package to align Golang struct tags (like gofmt but better)",
+  "url": "https://github.com/M1ndo/gofmt-tag",
+  "stars": 3,
+  "updated": "2024-01-11T20:43:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gofmt-tag",
+    "fetcher": "github",
+    "repo": "M1ndo/gofmt-tag"
+  }
+}

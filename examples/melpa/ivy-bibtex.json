@@ -1,0 +1,19 @@
+{
+  "id": 18513154,
+  "name": "tmalsburg/helm-bibtex",
+  "description": "Search and manage bibliographies in Emacs",
+  "url": "https://github.com/tmalsburg/helm-bibtex",
+  "stars": 480,
+  "updated": "2024-11-16T07:26:45Z",
+  "archived": false,
+  "topics": ["bibliography", "bibtex", "emacs", "emacs-lisp", "search-engine"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-bibtex",
+    "fetcher": "github",
+    "repo": "tmalsburg/helm-bibtex",
+    "files": "(\"ivy-bibtex.el\")"
+  }
+}

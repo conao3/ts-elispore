@@ -1,0 +1,18 @@
+{
+  "id": 36200553,
+  "name": "raghavgautam/helm-wordnet",
+  "description": "Helm interface for wordnet",
+  "url": "https://github.com/raghavgautam/helm-wordnet",
+  "stars": 9,
+  "updated": "2017-01-25T14:13:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-wordnet",
+    "fetcher": "github",
+    "repo": "raghavgautam/helm-wordnet"
+  }
+}

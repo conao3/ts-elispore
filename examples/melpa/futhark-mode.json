@@ -1,0 +1,18 @@
+{
+  "id": 136220767,
+  "name": "diku-dk/futhark-mode",
+  "description": "Emacs major mode for editing Futhark programs",
+  "url": "https://github.com/diku-dk/futhark-mode",
+  "stars": 15,
+  "updated": "2026-10-17T08:53:11Z",
+  "archived": false,
+  "topics": ["emacs", "futhark"],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "futhark-mode",
+    "fetcher": "github",
+    "repo": "diku-dk/futhark-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 22206504,
+  "name": "emacsorphanage/go-impl",
+  "description": "Impl for Emacs",
+  "url": "https://github.com/emacsorphanage/go-impl",
+  "stars": 35,
+  "updated": "2021-06-21T07:43:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "go-impl",
+    "fetcher": "github",
+    "repo": "emacsorphanage/go-impl"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 8242255,
+  "name": "Fuco1/indicators.el",
+  "description": "Display the buffer relative location of line in the fringe.",
+  "url": "https://github.com/Fuco1/indicators.el",
+  "stars": 45,
+  "updated": "2024-03-21T20:30:02Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "indicators",
+    "fetcher": "github",
+    "repo": "Fuco1/indicators.el"
+  }
+}

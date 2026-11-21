@@ -1,0 +1,19 @@
+{
+  "id": 10048884,
+  "name": "toumorokoshi/go-snippets",
+  "description": "yasnippet snippets for Go",
+  "url": "https://github.com/toumorokoshi/go-snippets",
+  "stars": 16,
+  "updated": "2018-01-13T06:11:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go-snippets",
+    "fetcher": "github",
+    "repo": "toumorokoshi/go-snippets",
+    "files": "(\"*.el\" \"snippets\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 539729806,
+  "name": "erickgnavar/flymake-sqlfluff",
+  "description": "flymake plugin for SQL using sqlfluff",
+  "url": "https://github.com/erickgnavar/flymake-sqlfluff",
+  "stars": 16,
+  "updated": "2024-06-11T12:57:45Z",
+  "archived": false,
+  "topics": ["emacs", "flymake", "flymake-backend", "sql", "sqlfluff"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-sqlfluff",
+    "fetcher": "github",
+    "repo": "erickgnavar/flymake-sqlfluff"
+  }
+}

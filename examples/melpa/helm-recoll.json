@@ -1,0 +1,18 @@
+{
+  "id": 11948191,
+  "name": "emacs-helm/helm-recoll",
+  "description": "helm interface for the recoll desktop search tool.",
+  "url": "https://github.com/emacs-helm/helm-recoll",
+  "stars": 37,
+  "updated": "2022-12-03T12:58:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-recoll",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-recoll"
+  }
+}

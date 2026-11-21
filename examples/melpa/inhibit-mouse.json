@@ -1,0 +1,25 @@
+{
+  "id": 882673166,
+  "name": "jamescherti/inhibit-mouse.el",
+  "description": "Disable the mouse in Emacs (Alternative to disable-mouse)",
+  "url": "https://github.com/jamescherti/inhibit-mouse.el",
+  "stars": 38,
+  "updated": "2026-11-10T15:12:51Z",
+  "archived": false,
+  "topics": [
+    "deactivate-mouse",
+    "disable-mouse",
+    "emacs",
+    "emacs-package",
+    "inhibit-mouse",
+    "mouse"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "inhibit-mouse",
+    "fetcher": "github",
+    "repo": "jamescherti/inhibit-mouse.el"
+  }
+}

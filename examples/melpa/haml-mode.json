@@ -1,0 +1,18 @@
+{
+  "id": 947614,
+  "name": "nex3/haml-mode",
+  "description": "Emacs mode for Haml.",
+  "url": "https://github.com/nex3/haml-mode",
+  "stars": 152,
+  "updated": "2025-07-14T14:41:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "haml-mode",
+    "fetcher": "github",
+    "repo": "nex3/haml-mode"
+  }
+}

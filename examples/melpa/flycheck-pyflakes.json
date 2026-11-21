@@ -1,0 +1,18 @@
+{
+  "id": 19257064,
+  "name": "Wilfred/flycheck-pyflakes",
+  "description": "flycheck support for pyflakes",
+  "url": "https://github.com/Wilfred/flycheck-pyflakes",
+  "stars": 11,
+  "updated": "2024-01-24T01:01:06Z",
+  "archived": false,
+  "topics": ["emacs", "flycheck", "pyflakes"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-pyflakes",
+    "fetcher": "github",
+    "repo": "Wilfred/flycheck-pyflakes"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 67700942,
+  "name": "shlevy/inherit-local",
+  "description": "An emacs library for inheriting buffer-local variables",
+  "url": "https://github.com/shlevy/inherit-local",
+  "stars": 3,
+  "updated": "2017-04-09T16:49:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "inherit-local",
+    "fetcher": "github",
+    "repo": "shlevy/inherit-local"
+  }
+}

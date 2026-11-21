@@ -1,0 +1,18 @@
+{
+  "id": 93094785,
+  "name": "tokenrove/goose-theme",
+  "description": "A gray color theme",
+  "url": "https://github.com/tokenrove/goose-theme",
+  "stars": 6,
+  "updated": "2016-09-15T14:34:42Z",
+  "archived": false,
+  "topics": ["color-theme", "emacs-theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "goose-theme",
+    "fetcher": "github",
+    "repo": "tokenrove/goose-theme"
+  }
+}

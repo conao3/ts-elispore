@@ -1,0 +1,18 @@
+{
+  "id": 82884749,
+  "name": "vermiculus/ghub-plus",
+  "description": "Wrappers for GitHub API resources built on ghub",
+  "url": "https://github.com/vermiculus/ghub-plus",
+  "stars": 20,
+  "updated": "2019-12-29T17:48:22Z",
+  "archived": false,
+  "topics": ["api-wrapper", "emacs", "github"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ghub+",
+    "fetcher": "github",
+    "repo": "vermiculus/ghub-plus"
+  }
+}

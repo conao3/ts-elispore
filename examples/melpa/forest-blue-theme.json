@@ -1,0 +1,18 @@
+{
+  "id": 60799145,
+  "name": "olkinn/forest-blue-emacs",
+  "description": ":evergreen_tree: Forest Blue, a fresh calm color theme inspired by rainy days and blue misty forests. ",
+  "url": "https://github.com/olkinn/forest-blue-emacs",
+  "stars": 22,
+  "updated": "2016-06-27T08:42:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "forest-blue-theme",
+    "fetcher": "github",
+    "repo": "olkinn/forest-blue-emacs"
+  }
+}

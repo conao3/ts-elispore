@@ -1,0 +1,18 @@
+{
+  "id": 8899327,
+  "name": "yasuyk/flymake-gjshint-el",
+  "description": "A flymake handler for javascript using both jshint and gjslint",
+  "url": "https://github.com/yasuyk/flymake-gjshint-el",
+  "stars": 1,
+  "updated": "2013-12-11T12:59:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-gjshint",
+    "fetcher": "github",
+    "repo": "yasuyk/flymake-gjshint-el"
+  }
+}

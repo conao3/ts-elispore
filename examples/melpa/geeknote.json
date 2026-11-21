@@ -1,0 +1,18 @@
+{
+  "id": 30143527,
+  "name": "avendael/emacs-geeknote",
+  "description": "Use Evernote in Emacs through geeknote",
+  "url": "https://github.com/avendael/emacs-geeknote",
+  "stars": 130,
+  "updated": "2022-02-13T06:12:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "geeknote",
+    "fetcher": "github",
+    "repo": "avendael/emacs-geeknote"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 1124749,
+  "name": "k-talo/foreign-regexp.el",
+  "description": "Search and replace by foreign regexp. STATUS: *EXPERIMENTAL* ",
+  "url": "https://github.com/k-talo/foreign-regexp.el",
+  "stars": 32,
+  "updated": "2020-03-25T00:52:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "foreign-regexp",
+    "fetcher": "github",
+    "repo": "k-talo/foreign-regexp.el",
+    "files": "(\"*.el\" (\"bin\" \"bin/*.pl\" \"bin/*.rb\"))"
+  }
+}

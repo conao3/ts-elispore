@@ -1,0 +1,18 @@
+{
+  "id": 333610778,
+  "name": "casouri/iscroll",
+  "description": "Smooth scrolling over images in Emacs",
+  "url": "https://github.com/casouri/iscroll",
+  "stars": 67,
+  "updated": "2023-05-17T07:06:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "iscroll",
+    "fetcher": "github",
+    "repo": "casouri/iscroll"
+  }
+}

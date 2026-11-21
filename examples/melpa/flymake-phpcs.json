@@ -1,0 +1,18 @@
+{
+  "id": 15355135,
+  "name": "flymake/flymake-phpcs",
+  "description": "PHP CodeSniffer for Emacs with flymake",
+  "url": "https://github.com/flymake/flymake-phpcs",
+  "stars": 9,
+  "updated": "2026-06-19T08:45:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flymake-phpcs",
+    "fetcher": "github",
+    "repo": "flymake/flymake-phpcs"
+  }
+}

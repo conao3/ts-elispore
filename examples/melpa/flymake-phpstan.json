@@ -1,0 +1,19 @@
+{
+  "id": 125286999,
+  "name": "emacs-php/phpstan.el",
+  "description": "Interface to PHPStan (PHP static analyzer)",
+  "url": "https://github.com/emacs-php/phpstan.el",
+  "stars": 28,
+  "updated": "2026-07-18T14:28:32Z",
+  "archived": false,
+  "topics": ["emacs", "flycheck", "php", "static-analysis"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flymake-phpstan",
+    "fetcher": "github",
+    "repo": "emacs-php/phpstan.el",
+    "files": "(\"flymake-phpstan.el\")"
+  }
+}

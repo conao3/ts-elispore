@@ -1,0 +1,18 @@
+{
+  "id": 295904885,
+  "name": "cyruseuros/handle",
+  "description": "",
+  "url": "https://github.com/cyruseuros/handle",
+  "stars": 1,
+  "updated": "2020-09-16T02:43:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "handle",
+    "fetcher": "github",
+    "repo": "cyruseuros/handle"
+  }
+}

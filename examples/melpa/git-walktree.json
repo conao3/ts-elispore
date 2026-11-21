@@ -1,0 +1,18 @@
+{
+  "id": 152722068,
+  "name": "10sr/git-walktree-el",
+  "description": "Browse Git Tree and Blob Objects",
+  "url": "https://github.com/10sr/git-walktree-el",
+  "stars": 11,
+  "updated": "2020-01-10T07:26:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-walktree",
+    "fetcher": "github",
+    "repo": "10sr/git-walktree-el"
+  }
+}

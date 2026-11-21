@@ -1,0 +1,19 @@
+{
+  "id": 44476,
+  "name": "eschulte/jump.el",
+  "description": "elisp utility for defining functions which contextually jump between files",
+  "url": "https://github.com/eschulte/jump.el",
+  "stars": 50,
+  "updated": "2022-06-23T11:22:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "inflections",
+    "fetcher": "github",
+    "repo": "eschulte/jump.el",
+    "files": "(\"inflections.el\")"
+  }
+}

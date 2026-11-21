@@ -1,0 +1,19 @@
+{
+  "id": 141378194,
+  "name": "magit/forge",
+  "description": "Work with Git forges from the comfort of Magit",
+  "url": "https://github.com/magit/forge",
+  "stars": 1587,
+  "updated": "2026-11-21T11:42:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "forge",
+    "fetcher": "github",
+    "repo": "magit/forge",
+    "files": "(\"lisp/*.el\" \"docs/*.texi\" \".dir-locals.el\")"
+  }
+}

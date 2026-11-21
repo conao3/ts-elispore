@@ -1,0 +1,18 @@
+{
+  "id": 37223713,
+  "name": "choppsv1/ietf-docs",
+  "description": "Load various ietf documents",
+  "url": "https://github.com/choppsv1/ietf-docs",
+  "stars": 5,
+  "updated": "2022-05-25T02:27:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ietf-docs",
+    "fetcher": "github",
+    "repo": "choppsv1/ietf-docs"
+  }
+}

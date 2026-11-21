@@ -1,0 +1,18 @@
+{
+  "id": 657438818,
+  "name": "ywkim/gpt-commit",
+  "description": "Generate conventional commit messages using GPT.",
+  "url": "https://github.com/ywkim/gpt-commit",
+  "stars": 26,
+  "updated": "2023-12-26T17:52:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gpt-commit",
+    "fetcher": "github",
+    "repo": "ywkim/gpt-commit"
+  }
+}

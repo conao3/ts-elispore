@@ -1,0 +1,19 @@
+{
+  "id": 71239094,
+  "name": "bomgar/helm-rage",
+  "description": "A Helm source for raging.",
+  "url": "https://github.com/bomgar/helm-rage",
+  "stars": 8,
+  "updated": "2024-02-02T08:22:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-rage",
+    "fetcher": "github",
+    "repo": "bomgar/helm-rage",
+    "files": "(:defaults \"meme\")"
+  }
+}

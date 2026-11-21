@@ -1,0 +1,18 @@
+{
+  "id": 3178312,
+  "name": "victorhge/iedit",
+  "description": "Modify multiple occurrences simultaneously",
+  "url": "https://github.com/victorhge/iedit",
+  "stars": 436,
+  "updated": "2026-07-27T06:55:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "iedit",
+    "fetcher": "github",
+    "repo": "victorhge/iedit"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1047919968,
+  "name": "thanhvg/emacs-insta-pocket",
+  "description": "instapaper client for emacs",
+  "url": "https://github.com/thanhvg/emacs-insta-pocket",
+  "stars": 2,
+  "updated": "2025-09-21T22:01:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "insta-pocket",
+    "fetcher": "github",
+    "repo": "thanhvg/emacs-insta-pocket"
+  }
+}

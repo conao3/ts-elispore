@@ -1,0 +1,18 @@
+{
+  "id": 3752818,
+  "name": "emacs-helm/helm-descbinds",
+  "description": "A helm frontend for describe-bindings.",
+  "url": "https://github.com/emacs-helm/helm-descbinds",
+  "stars": 123,
+  "updated": "2025-07-05T09:43:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-descbinds",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-descbinds"
+  }
+}

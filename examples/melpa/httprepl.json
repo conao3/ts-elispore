@@ -1,0 +1,18 @@
+{
+  "id": 16240853,
+  "name": "gregsexton/httprepl.el",
+  "description": "An HTTP REPL for Emacs",
+  "url": "https://github.com/gregsexton/httprepl.el",
+  "stars": 129,
+  "updated": "2014-11-01T17:36:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "httprepl",
+    "fetcher": "github",
+    "repo": "gregsexton/httprepl.el"
+  }
+}

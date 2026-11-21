@@ -1,0 +1,19 @@
+{
+  "id": 88371649,
+  "name": "alphapapa/org-recent-headings",
+  "description": "Go to recently used Org headings",
+  "url": "https://github.com/alphapapa/org-recent-headings",
+  "stars": 61,
+  "updated": "2023-08-21T12:53:08Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode"],
+  "license": null,
+  "language": "Shell",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-org-recent-headings",
+    "fetcher": "github",
+    "repo": "alphapapa/org-recent-headings",
+    "files": "(\"helm-org-recent-headings.el\")"
+  }
+}

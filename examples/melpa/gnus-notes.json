@@ -1,0 +1,18 @@
+{
+  "id": 163195899,
+  "name": "deusmax/gnus-notes",
+  "description": "Keep handy notes of Gnus articles with helm and org",
+  "url": "https://github.com/deusmax/gnus-notes",
+  "stars": 4,
+  "updated": "2023-02-21T19:46:06Z",
+  "archived": false,
+  "topics": ["emacs", "gnus", "helm", "mail", "orgmode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gnus-notes",
+    "fetcher": "github",
+    "repo": "deusmax/gnus-notes"
+  }
+}

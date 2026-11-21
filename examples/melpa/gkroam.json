@@ -1,0 +1,18 @@
+{
+  "id": 292859275,
+  "name": "Kinneyzhang/gkroam",
+  "description": "A lightweight roam replica on top of emacs org-mode.",
+  "url": "https://github.com/Kinneyzhang/gkroam",
+  "stars": 199,
+  "updated": "2025-11-14T06:48:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gkroam",
+    "fetcher": "github",
+    "repo": "Kinneyzhang/gkroam"
+  }
+}

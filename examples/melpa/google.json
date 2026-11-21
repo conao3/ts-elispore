@@ -1,0 +1,18 @@
+{
+  "id": 220388,
+  "name": "hober/google-el",
+  "description": "Emacs client for Google's search API",
+  "url": "https://github.com/hober/google-el",
+  "stars": 7,
+  "updated": "2014-04-16T17:48:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "google",
+    "fetcher": "github",
+    "repo": "hober/google-el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 1183891868,
+  "name": "awdeorio/flywrite",
+  "description": "An Emacs minor mode for LLM-powered grammar, style, and academic writing feedback. Suggestions appear as flymake diagnostics with inline explanations. Features a customizable prompt and flexible API provider support.",
+  "url": "https://github.com/awdeorio/flywrite",
+  "stars": 1,
+  "updated": "2026-05-26T14:18:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flywrite",
+    "fetcher": "github",
+    "repo": "awdeorio/flywrite",
+    "files": "(\"flywrite.el\")"
+  }
+}

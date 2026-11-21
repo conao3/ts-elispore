@@ -1,0 +1,18 @@
+{
+  "id": 964862589,
+  "name": "helheim-emacs/hel",
+  "description": "Helix emulation layer for Emacs",
+  "url": "https://github.com/helheim-emacs/hel",
+  "stars": 153,
+  "updated": "2026-11-21T14:24:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "hel",
+    "fetcher": "github",
+    "repo": "helheim-emacs/hel"
+  }
+}

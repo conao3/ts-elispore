@@ -1,0 +1,18 @@
+{
+  "id": 14957093,
+  "name": "abo-abo/helm-j-cheatsheet",
+  "description": "Quick J reference for Emacs",
+  "url": "https://github.com/abo-abo/helm-j-cheatsheet",
+  "stars": 18,
+  "updated": "2017-02-17T08:30:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-j-cheatsheet",
+    "fetcher": "github",
+    "repo": "abo-abo/helm-j-cheatsheet"
+  }
+}

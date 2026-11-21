@@ -1,0 +1,18 @@
+{
+  "id": 949005828,
+  "name": "Prikaz98/grpclient.el",
+  "description": "gRPC client for Emacs based on beautiful grpcurl",
+  "url": "https://github.com/Prikaz98/grpclient.el",
+  "stars": 13,
+  "updated": "2026-07-27T12:25:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "grpclient",
+    "fetcher": "github",
+    "repo": "Prikaz98/grpclient.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 157775149,
+  "name": "theneosloth/flymake-vnu",
+  "description": "Flymake backend for the v.NU HTML validator",
+  "url": "https://github.com/theneosloth/flymake-vnu",
+  "stars": 0,
+  "updated": "2023-03-10T04:40:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-vnu",
+    "fetcher": "github",
+    "repo": "theneosloth/flymake-vnu"
+  }
+}

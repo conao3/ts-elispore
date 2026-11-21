@@ -1,0 +1,18 @@
+{
+  "id": 21705630,
+  "name": "Fanael/highlight-numbers",
+  "description": "Highlight numbers in source code",
+  "url": "https://github.com/Fanael/highlight-numbers",
+  "stars": 66,
+  "updated": "2018-10-13T17:44:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "highlight-numbers",
+    "fetcher": "github",
+    "repo": "Fanael/highlight-numbers"
+  }
+}

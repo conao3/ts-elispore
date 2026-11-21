@@ -1,0 +1,19 @@
+{
+  "id": 34913592,
+  "name": "haskell/haskell-snippets",
+  "description": "Official collection of YASnippet Haskell snippets for Emacs.",
+  "url": "https://github.com/haskell/haskell-snippets",
+  "stars": 14,
+  "updated": "2021-02-28T03:44:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "YASnippet",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "haskell-snippets",
+    "fetcher": "github",
+    "repo": "haskell/haskell-snippets",
+    "files": "(\"*.el\" \"snippets\")"
+  }
+}

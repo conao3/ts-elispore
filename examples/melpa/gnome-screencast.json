@@ -1,0 +1,18 @@
+{
+  "id": 228039085,
+  "name": "juergenhoetzel/emacs-gnome-screencast",
+  "description": "Use Gnome shell’s screen recorder from within Emacs",
+  "url": "https://github.com/juergenhoetzel/emacs-gnome-screencast",
+  "stars": 7,
+  "updated": "2021-01-25T20:12:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gnome-screencast",
+    "fetcher": "github",
+    "repo": "juergenhoetzel/emacs-gnome-screencast"
+  }
+}

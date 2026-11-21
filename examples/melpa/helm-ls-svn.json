@@ -1,0 +1,18 @@
+{
+  "id": 176029656,
+  "name": "emacsmirror/helm-ls-svn",
+  "description": "Helm extension to list svn files",
+  "url": "https://github.com/emacsmirror/helm-ls-svn",
+  "stars": 0,
+  "updated": "2019-03-16T22:03:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-ls-svn",
+    "fetcher": "github",
+    "repo": "emacsmirror/helm-ls-svn"
+  }
+}

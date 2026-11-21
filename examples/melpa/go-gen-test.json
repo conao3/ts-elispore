@@ -1,0 +1,19 @@
+{
+  "id": 107164975,
+  "name": "s-kostyaev/go-gen-test",
+  "description": "Generate tests for go code from emacs",
+  "url": "https://github.com/s-kostyaev/go-gen-test",
+  "stars": 32,
+  "updated": "2023-06-16T20:53:53Z",
+  "archived": false,
+  "topics": ["emacs", "golang"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go-gen-test",
+    "fetcher": "github",
+    "repo": "s-kostyaev/go-gen-test",
+    "files": "(\"go-gen-test.el\")"
+  }
+}

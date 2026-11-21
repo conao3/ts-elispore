@@ -1,0 +1,19 @@
+{
+  "id": 28738489,
+  "name": "tcw165/history",
+  "description": "Emacs - History utility for source code navigation.",
+  "url": "https://github.com/tcw165/history",
+  "stars": 53,
+  "updated": "2024-05-06T09:14:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "history",
+    "fetcher": "github",
+    "repo": "tcw165/history",
+    "files": "(:defaults (\"images\" \"images/*.xpm\" \"images/*.png\"))"
+  }
+}

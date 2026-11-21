@@ -1,0 +1,18 @@
+{
+  "id": 82997548,
+  "name": "cute-jumper/helm-ext",
+  "description": "Extensions to helm (dirty hacks)",
+  "url": "https://github.com/cute-jumper/helm-ext",
+  "stars": 19,
+  "updated": "2020-07-22T01:07:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-ext",
+    "fetcher": "github",
+    "repo": "cute-jumper/helm-ext"
+  }
+}

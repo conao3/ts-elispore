@@ -1,0 +1,18 @@
+{
+  "id": 227441340,
+  "name": "twmr/gerrit.el",
+  "description": "gerrit integration in emacs",
+  "url": "https://github.com/twmr/gerrit.el",
+  "stars": 48,
+  "updated": "2026-05-12T06:21:19Z",
+  "archived": false,
+  "topics": ["dashboard", "emacs", "gerrit", "magit", "melpa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gerrit",
+    "fetcher": "github",
+    "repo": "twmr/gerrit.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 328248865,
+  "name": "kwrooijen/hiccup-cli",
+  "description": "Command line tool / Emacs plugin to convert HTML to Hiccup syntax.",
+  "url": "https://github.com/kwrooijen/hiccup-cli",
+  "stars": 50,
+  "updated": "2023-07-14T13:18:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hiccup-cli",
+    "fetcher": "github",
+    "repo": "kwrooijen/hiccup-cli",
+    "files": "(\"elisp/*.el\")"
+  }
+}

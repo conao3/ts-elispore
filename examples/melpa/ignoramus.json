@@ -1,0 +1,18 @@
+{
+  "id": 5664808,
+  "name": "rolandwalker/ignoramus",
+  "description": "Ignore backups, build files, et al. in Emacs",
+  "url": "https://github.com/rolandwalker/ignoramus",
+  "stars": 16,
+  "updated": "2022-06-11T15:15:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ignoramus",
+    "fetcher": "github",
+    "repo": "rolandwalker/ignoramus"
+  }
+}

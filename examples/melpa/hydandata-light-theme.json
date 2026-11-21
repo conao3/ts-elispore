@@ -1,0 +1,18 @@
+{
+  "id": 48882847,
+  "name": "chkhd/hydandata-light-theme",
+  "description": "Light color theme that is easy on the eyes",
+  "url": "https://github.com/chkhd/hydandata-light-theme",
+  "stars": 12,
+  "updated": "2019-08-12T03:57:35Z",
+  "archived": false,
+  "topics": ["color-theme", "emacs", "emacs-theme"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hydandata-light-theme",
+    "fetcher": "github",
+    "repo": "chkhd/hydandata-light-theme"
+  }
+}

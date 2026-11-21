@@ -1,0 +1,18 @@
+{
+  "id": 53162245,
+  "name": "jwiegley/helm-hoogle",
+  "description": "Use helm to navigate query results from Hoogle",
+  "url": "https://github.com/jwiegley/helm-hoogle",
+  "stars": 2,
+  "updated": "2016-10-27T05:34:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-hoogle",
+    "fetcher": "github",
+    "repo": "jwiegley/helm-hoogle"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 468494,
+  "name": "nflath/hungry-delete",
+  "description": "Enables hungry deletion in all modes.",
+  "url": "https://github.com/nflath/hungry-delete",
+  "stars": 99,
+  "updated": "2021-04-09T16:43:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hungry-delete",
+    "fetcher": "github",
+    "repo": "nflath/hungry-delete"
+  }
+}

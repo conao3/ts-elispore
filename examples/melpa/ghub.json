@@ -1,0 +1,19 @@
+{
+  "id": 56720017,
+  "name": "magit/ghub",
+  "description": "Client libraries for the APIs of various Git forges",
+  "url": "https://github.com/magit/ghub",
+  "stars": 175,
+  "updated": "2026-11-12T21:06:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ghub",
+    "fetcher": "github",
+    "repo": "magit/ghub",
+    "files": "(\"lisp/*.el\" \"docs/*.texi\" \".dir-locals.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 11069692,
+  "name": "yasuyk/helm-sheet",
+  "description": "helm sources for sheet",
+  "url": "https://github.com/yasuyk/helm-sheet",
+  "stars": 0,
+  "updated": "2013-06-30T12:39:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-sheet",
+    "fetcher": "github",
+    "repo": "yasuyk/helm-sheet"
+  }
+}

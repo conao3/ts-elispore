@@ -1,0 +1,18 @@
+{
+  "id": 238563822,
+  "name": "gonewest818/geolocation.el",
+  "description": "Get your location on Earth",
+  "url": "https://github.com/gonewest818/geolocation.el",
+  "stars": 7,
+  "updated": "2020-12-06T21:06:40Z",
+  "archived": false,
+  "topics": ["emacs", "geolocation-services", "wifi-scanning"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "geolocation",
+    "fetcher": "github",
+    "repo": "gonewest818/geolocation.el"
+  }
+}

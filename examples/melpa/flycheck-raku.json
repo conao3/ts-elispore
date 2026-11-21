@@ -1,0 +1,18 @@
+{
+  "id": 345306054,
+  "name": "Raku/flycheck-raku",
+  "description": "Raku support for Flycheck",
+  "url": "https://github.com/Raku/flycheck-raku",
+  "stars": 6,
+  "updated": "2022-04-20T07:33:43Z",
+  "archived": false,
+  "topics": ["flycheck", "raku", "raku-flycheck", "syntax-checker"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-raku",
+    "fetcher": "github",
+    "repo": "Raku/flycheck-raku"
+  }
+}

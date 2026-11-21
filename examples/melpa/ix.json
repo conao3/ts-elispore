@@ -1,0 +1,18 @@
+{
+  "id": 13263189,
+  "name": "theanalyst/ix.el",
+  "description": "An emacs client to http://ix.io pastebin",
+  "url": "https://github.com/theanalyst/ix.el",
+  "stars": 21,
+  "updated": "2015-11-30T03:58:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ix",
+    "fetcher": "github",
+    "repo": "theanalyst/ix.el"
+  }
+}

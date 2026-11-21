@@ -1,0 +1,18 @@
+{
+  "id": 933492680,
+  "name": "mgmarlow/helix-mode",
+  "description": "Helix keybindings in Emacs",
+  "url": "https://github.com/mgmarlow/helix-mode",
+  "stars": 138,
+  "updated": "2026-10-05T16:37:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helix",
+    "fetcher": "github",
+    "repo": "mgmarlow/helix-mode"
+  }
+}

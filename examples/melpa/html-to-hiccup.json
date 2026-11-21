@@ -1,0 +1,18 @@
+{
+  "id": 72107232,
+  "name": "plexus/html-to-hiccup",
+  "description": "Emacs package that turns HTML into Hiccup syntax",
+  "url": "https://github.com/plexus/html-to-hiccup",
+  "stars": 75,
+  "updated": "2023-07-27T10:13:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "MPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "html-to-hiccup",
+    "fetcher": "github",
+    "repo": "plexus/html-to-hiccup"
+  }
+}

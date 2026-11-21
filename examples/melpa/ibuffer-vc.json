@@ -1,0 +1,18 @@
+{
+  "id": 1511700,
+  "name": "purcell/ibuffer-vc",
+  "description": "Let Emacs' ibuffer-mode group files by git project etc., and show file state",
+  "url": "https://github.com/purcell/ibuffer-vc",
+  "stars": 184,
+  "updated": "2026-06-19T12:00:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ibuffer-vc",
+    "fetcher": "github",
+    "repo": "purcell/ibuffer-vc"
+  }
+}

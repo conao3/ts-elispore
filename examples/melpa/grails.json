@@ -1,0 +1,18 @@
+{
+  "id": 53065338,
+  "name": "lifeisfoo/emacs-grails",
+  "description": "A minor mode for Grails projects",
+  "url": "https://github.com/lifeisfoo/emacs-grails",
+  "stars": 2,
+  "updated": "2022-11-10T09:31:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "grails",
+    "fetcher": "github",
+    "repo": "lifeisfoo/emacs-grails"
+  }
+}

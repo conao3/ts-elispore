@@ -1,0 +1,19 @@
+{
+  "id": 58137766,
+  "name": "d12frosted/flyspell-correct",
+  "description": "Distraction-free words correction with flyspell via selected interface.",
+  "url": "https://github.com/d12frosted/flyspell-correct",
+  "stars": 207,
+  "updated": "2026-06-29T07:57:56Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "flyspell-correct", "spelling-correction"],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flyspell-correct",
+    "fetcher": "github",
+    "repo": "d12frosted/flyspell-correct",
+    "files": "(\"flyspell-correct.el\"\n                          \"flyspell-correct-ido.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 80054065,
+  "name": "Lindydancer/font-lock-profiler",
+  "description": "Coverage and timing tool for font-lock keywords",
+  "url": "https://github.com/Lindydancer/font-lock-profiler",
+  "stars": 17,
+  "updated": "2025-01-04T22:48:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "font-lock-profiler",
+    "fetcher": "github",
+    "repo": "Lindydancer/font-lock-profiler"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1313565802,
+  "name": "Dspil/guard.el",
+  "description": "",
+  "url": "https://github.com/Dspil/guard.el",
+  "stars": 10,
+  "updated": "2026-10-09T06:54:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "guard",
+    "fetcher": "github",
+    "repo": "Dspil/guard.el"
+  }
+}

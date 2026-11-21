@@ -1,0 +1,18 @@
+{
+  "id": 120876960,
+  "name": "tumashu/ivy-posframe",
+  "description": "ivy-posframe is a ivy extension, which let ivy use posframe to show its candidate menu, ivy-posframe is a **GNU ELPA** package.",
+  "url": "https://github.com/tumashu/ivy-posframe",
+  "stars": 423,
+  "updated": "2026-01-27T00:50:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-posframe",
+    "fetcher": "github",
+    "repo": "tumashu/ivy-posframe"
+  }
+}

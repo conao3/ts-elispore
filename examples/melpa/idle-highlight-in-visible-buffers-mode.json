@@ -1,0 +1,18 @@
+{
+  "id": 144320478,
+  "name": "ignacy/idle-highlight-in-visible-buffers-mode",
+  "description": "An Emacs minor mode that highlights current word in all visible buffers",
+  "url": "https://github.com/ignacy/idle-highlight-in-visible-buffers-mode",
+  "stars": 13,
+  "updated": "2024-01-07T13:44:09Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "idle-highlight-in-visible-buffers-mode",
+    "fetcher": "github",
+    "repo": "ignacy/idle-highlight-in-visible-buffers-mode"
+  }
+}

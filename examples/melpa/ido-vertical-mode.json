@@ -1,0 +1,18 @@
+{
+  "id": 9598221,
+  "name": "creichert/ido-vertical-mode.el",
+  "description": "makes ido-mode display vertically",
+  "url": "https://github.com/creichert/ido-vertical-mode.el",
+  "stars": 209,
+  "updated": "2026-04-20T18:55:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ido-vertical-mode",
+    "fetcher": "github",
+    "repo": "creichert/ido-vertical-mode.el"
+  }
+}

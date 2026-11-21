@@ -1,0 +1,18 @@
+{
+  "id": 221712501,
+  "name": "emacs-helm/helm-fish-completion",
+  "description": "Helm interface for Emacs fish-completion",
+  "url": "https://github.com/emacs-helm/helm-fish-completion",
+  "stars": 7,
+  "updated": "2021-04-14T09:57:53Z",
+  "archived": false,
+  "topics": ["emacs", "fish", "helm", "shell"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-fish-completion",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-fish-completion"
+  }
+}

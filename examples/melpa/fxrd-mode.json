@@ -1,0 +1,19 @@
+{
+  "id": 47472797,
+  "name": "msherry/fxrd-mode",
+  "description": "Emacs major mode for working with fixed-field-width files (NACHA, TSO6, RM37, etc.)",
+  "url": "https://github.com/msherry/fxrd-mode",
+  "stars": 3,
+  "updated": "2025-07-05T01:16:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fxrd-mode",
+    "fetcher": "github",
+    "repo": "msherry/fxrd-mode",
+    "files": "(:defaults \"fxrd-modes/*el\")"
+  }
+}

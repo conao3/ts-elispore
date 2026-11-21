@@ -1,0 +1,28 @@
+{
+  "id": 498617570,
+  "name": "dangduc/fzf-native",
+  "description": "Emacs package for fuzzy match scoring",
+  "url": "https://github.com/dangduc/fzf-native",
+  "stars": 28,
+  "updated": "2026-11-11T09:47:59Z",
+  "archived": false,
+  "topics": [
+    "building-block",
+    "c99",
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "fuzzy",
+    "fuzzy-matching",
+    "native"
+  ],
+  "license": "GPL-3.0",
+  "language": "C",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fzf-native",
+    "fetcher": "github",
+    "repo": "dangduc/fzf-native",
+    "files": "(:defaults\n         \"bin\"\n         \"CMakeLists.txt\"\n         \"*.c\" \"*.h\" \"*.inc\" \"*.def\" \"*.map\"\n         (\"utf8proc-2.10.0\"\n          \"utf8proc-2.10.0/*.c\"\n          \"utf8proc-2.10.0/*.h\")\n         (:exclude \"*test*\" \"*probe*\"))"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 80341745,
+  "name": "emacsattic/fuff",
+  "description": "Find files with findutils, recursively",
+  "url": "https://github.com/emacsattic/fuff",
+  "stars": 0,
+  "updated": "2017-02-04T16:25:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "fuff",
+    "fetcher": "github",
+    "repo": "emacsattic/fuff"
+  }
+}

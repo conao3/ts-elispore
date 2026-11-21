@@ -1,0 +1,18 @@
+{
+  "id": 20510101,
+  "name": "danlamanna/i2b2-mode",
+  "description": "Highlights corresponding PHI data in the text portion of an i2b2 XML Document.",
+  "url": "https://github.com/danlamanna/i2b2-mode",
+  "stars": 1,
+  "updated": "2014-07-10T01:04:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "i2b2-mode",
+    "fetcher": "github",
+    "repo": "danlamanna/i2b2-mode"
+  }
+}

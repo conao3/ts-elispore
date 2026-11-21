@@ -1,0 +1,19 @@
+{
+  "id": 291655117,
+  "name": "jcs-elpa/impatient-showdown",
+  "description": "Preview markdown buffer live over HTTP.",
+  "url": "https://github.com/jcs-elpa/impatient-showdown",
+  "stars": 16,
+  "updated": "2026-06-19T08:48:15Z",
+  "archived": false,
+  "topics": ["emacs", "impatient", "live", "server"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "impatient-showdown",
+    "fetcher": "github",
+    "repo": "jcs-elpa/impatient-showdown",
+    "files": "(:defaults \"preview.html\")"
+  }
+}

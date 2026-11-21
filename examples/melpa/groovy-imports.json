@@ -1,0 +1,18 @@
+{
+  "id": 68686944,
+  "name": "mbezjak/emacs-groovy-imports",
+  "description": "Add groovy imports easily in Emacs",
+  "url": "https://github.com/mbezjak/emacs-groovy-imports",
+  "stars": 3,
+  "updated": "2021-05-05T18:07:51Z",
+  "archived": false,
+  "topics": ["emacs", "groovy", "import"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "groovy-imports",
+    "fetcher": "github",
+    "repo": "mbezjak/emacs-groovy-imports"
+  }
+}

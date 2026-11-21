@@ -1,0 +1,18 @@
+{
+  "id": 797875504,
+  "name": "melissaboiko/girly-notebook-theme",
+  "description": "light Emacs theme with playful colours and cursive text",
+  "url": "https://github.com/melissaboiko/girly-notebook-theme",
+  "stars": 10,
+  "updated": "2024-05-20T22:01:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "girly-notebook-theme",
+    "fetcher": "github",
+    "repo": "melissaboiko/girly-notebook-theme"
+  }
+}

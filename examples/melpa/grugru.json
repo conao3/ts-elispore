@@ -1,0 +1,18 @@
+{
+  "id": 230588817,
+  "name": "ROCKTAKEY/grugru",
+  "description": "Rotate text at point in Emacs.",
+  "url": "https://github.com/ROCKTAKEY/grugru",
+  "stars": 69,
+  "updated": "2023-12-02T02:50:32Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-package", "emacs-plugin"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "grugru",
+    "fetcher": "github",
+    "repo": "ROCKTAKEY/grugru"
+  }
+}

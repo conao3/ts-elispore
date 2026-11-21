@@ -1,0 +1,18 @@
+{
+  "id": 73577997,
+  "name": "Wilfred/flycheck-title",
+  "description": "show flycheck errors in the frame title",
+  "url": "https://github.com/Wilfred/flycheck-title",
+  "stars": 10,
+  "updated": "2021-03-21T05:57:20Z",
+  "archived": false,
+  "topics": ["emacs", "flycheck"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-title",
+    "fetcher": "github",
+    "repo": "Wilfred/flycheck-title"
+  }
+}

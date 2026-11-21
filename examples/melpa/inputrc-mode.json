@@ -1,0 +1,18 @@
+{
+  "id": 725583165,
+  "name": "nverno/inputrc-mode",
+  "description": "Emacs major mode for readline inputrc configs",
+  "url": "https://github.com/nverno/inputrc-mode",
+  "stars": 6,
+  "updated": "2024-11-09T00:10:40Z",
+  "archived": false,
+  "topics": ["emacs", "inputrc", "readline"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "inputrc-mode",
+    "fetcher": "github",
+    "repo": "nverno/inputrc-mode"
+  }
+}

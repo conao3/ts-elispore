@@ -1,0 +1,18 @@
+{
+  "id": 8275485,
+  "name": "nicferrier/emacs-framesize",
+  "description": "allow frame font size to be controlled with keys.",
+  "url": "https://github.com/nicferrier/emacs-framesize",
+  "stars": 1,
+  "updated": "2013-11-12T20:24:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "framesize",
+    "fetcher": "github",
+    "repo": "nicferrier/emacs-framesize"
+  }
+}

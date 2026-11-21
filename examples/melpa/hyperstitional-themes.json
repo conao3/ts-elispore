@@ -1,0 +1,18 @@
+{
+  "id": 788704074,
+  "name": "precompute/hyperstitional-themes",
+  "description": "Weird themes for Emacs.",
+  "url": "https://github.com/precompute/hyperstitional-themes",
+  "stars": 6,
+  "updated": "2026-09-18T20:16:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hyperstitional-themes",
+    "fetcher": "github",
+    "repo": "precompute/hyperstitional-themes"
+  }
+}

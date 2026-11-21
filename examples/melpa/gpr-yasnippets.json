@@ -1,0 +1,19 @@
+{
+  "id": 641277116,
+  "name": "brownts/gpr-yasnippets",
+  "description": "Yasnippets for GNAT Project files",
+  "url": "https://github.com/brownts/gpr-yasnippets",
+  "stars": 1,
+  "updated": "2023-05-16T06:32:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gpr-yasnippets",
+    "fetcher": "github",
+    "repo": "brownts/gpr-yasnippets",
+    "files": "(:defaults \"snippets\")"
+  }
+}

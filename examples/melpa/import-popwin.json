@@ -1,0 +1,18 @@
+{
+  "id": 7627252,
+  "name": "emacsorphanage/import-popwin",
+  "description": "Pop up buffer near by import statements with popwin",
+  "url": "https://github.com/emacsorphanage/import-popwin",
+  "stars": 4,
+  "updated": "2017-02-18T14:07:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "import-popwin",
+    "fetcher": "github",
+    "repo": "emacsorphanage/import-popwin"
+  }
+}

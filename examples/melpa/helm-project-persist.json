@@ -1,0 +1,18 @@
+{
+  "id": 10423342,
+  "name": "Sliim/helm-project-persist",
+  "description": "Helm integration for project-persist",
+  "url": "https://github.com/Sliim/helm-project-persist",
+  "stars": 3,
+  "updated": "2015-12-10T15:43:15Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "helm", "project-management"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-project-persist",
+    "fetcher": "github",
+    "repo": "Sliim/helm-project-persist"
+  }
+}

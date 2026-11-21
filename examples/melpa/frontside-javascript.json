@@ -1,0 +1,27 @@
+{
+  "id": 74063859,
+  "name": "thefrontside/frontmacs",
+  "description": "Package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution",
+  "url": "https://github.com/thefrontside/frontmacs",
+  "stars": 503,
+  "updated": "2023-09-14T20:34:35Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-add-on",
+    "emacs-configuration",
+    "emacs-customizations",
+    "emacs-initialization",
+    "emacs-packages",
+    "starterkit"
+  ],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "frontside-javascript",
+    "fetcher": "github",
+    "repo": "thefrontside/frontmacs",
+    "files": "(\"packages/javascript/frontside-javascript*.el\"\n         (:exclude \"packages/javascript/*-test.el\"))"
+  }
+}

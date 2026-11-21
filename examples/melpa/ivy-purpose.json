@@ -1,0 +1,18 @@
+{
+  "id": 64059463,
+  "name": "bmag/ivy-purpose",
+  "description": "Ivy Interface for Purpose",
+  "url": "https://github.com/bmag/ivy-purpose",
+  "stars": 5,
+  "updated": "2016-07-24T10:24:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-purpose",
+    "fetcher": "github",
+    "repo": "bmag/ivy-purpose"
+  }
+}

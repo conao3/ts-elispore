@@ -1,0 +1,18 @@
+{
+  "id": 365669912,
+  "name": "pnor/huecycle",
+  "description": "Idle color animations in Emacs",
+  "url": "https://github.com/pnor/huecycle",
+  "stars": 13,
+  "updated": "2024-11-29T17:17:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "huecycle",
+    "fetcher": "github",
+    "repo": "pnor/huecycle"
+  }
+}

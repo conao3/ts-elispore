@@ -1,0 +1,18 @@
+{
+  "id": 10422480,
+  "name": "mkjunker/ggo-mode",
+  "description": "An Emacs major mode for editing gengetopt files.",
+  "url": "https://github.com/mkjunker/ggo-mode",
+  "stars": 1,
+  "updated": "2021-03-10T13:52:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ggo-mode",
+    "fetcher": "github",
+    "repo": "mkjunker/ggo-mode"
+  }
+}

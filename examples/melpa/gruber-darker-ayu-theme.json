@@ -1,0 +1,18 @@
+{
+  "id": 1269321596,
+  "name": "Hadi493/gruber-darker-ayu-theme",
+  "description": "Gruber Darker Ayu color theme for Emacs & Zed",
+  "url": "https://github.com/Hadi493/gruber-darker-ayu-theme",
+  "stars": 1,
+  "updated": "2026-08-02T15:08:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gruber-darker-ayu-theme",
+    "fetcher": "github",
+    "repo": "Hadi493/gruber-darker-ayu-theme"
+  }
+}

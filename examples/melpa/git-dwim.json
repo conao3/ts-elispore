@@ -1,0 +1,18 @@
+{
+  "id": 58030037,
+  "name": "rubikitch/emacs-git-dwim",
+  "description": "",
+  "url": "https://github.com/rubikitch/emacs-git-dwim",
+  "stars": 0,
+  "updated": "2017-01-26T12:14:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-dwim",
+    "fetcher": "github",
+    "repo": "rubikitch/emacs-git-dwim"
+  }
+}

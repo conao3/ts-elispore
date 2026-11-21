@@ -1,0 +1,18 @@
+{
+  "id": 116504098,
+  "name": "jojojames/flycheck-swiftlint",
+  "description": "Flycheck extension for swiftlint",
+  "url": "https://github.com/jojojames/flycheck-swiftlint",
+  "stars": 12,
+  "updated": "2018-12-27T03:48:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-swiftlint",
+    "fetcher": "github",
+    "repo": "jojojames/flycheck-swiftlint"
+  }
+}

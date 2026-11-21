@@ -1,0 +1,18 @@
+{
+  "id": 49497321,
+  "name": "xuchunyang/helm-safari",
+  "description": "Helm interface for Safari Bookmarks & History",
+  "url": "https://github.com/xuchunyang/helm-safari",
+  "stars": 1,
+  "updated": "2016-04-04T03:24:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-safari",
+    "fetcher": "github",
+    "repo": "xuchunyang/helm-safari"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1069747,
+  "name": "nibrahim/Hyde",
+  "description": "An Emacs mode to manage Jekyll blogs",
+  "url": "https://github.com/nibrahim/Hyde",
+  "stars": 117,
+  "updated": "2016-10-24T06:37:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hyde",
+    "fetcher": "github",
+    "repo": "nibrahim/Hyde"
+  }
+}

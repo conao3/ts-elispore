@@ -1,0 +1,18 @@
+{
+  "id": 67365046,
+  "name": "narendraj9/hledger-mode",
+  "description": "An Emacs major mode for Hledger",
+  "url": "https://github.com/narendraj9/hledger-mode",
+  "stars": 273,
+  "updated": "2025-10-23T18:34:35Z",
+  "archived": false,
+  "topics": ["accounting", "emacs", "hledger", "hledger-mode", "ledger"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hledger-mode",
+    "fetcher": "github",
+    "repo": "narendraj9/hledger-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 148980526,
+  "name": "guidoschmidt/emacs-hemera-theme",
+  "description": "Light Emacs theme",
+  "url": "https://github.com/guidoschmidt/emacs-hemera-theme",
+  "stars": 2,
+  "updated": "2018-09-16T09:25:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hemera-theme",
+    "fetcher": "github",
+    "repo": "guidoschmidt/emacs-hemera-theme"
+  }
+}

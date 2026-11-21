@@ -1,0 +1,18 @@
+{
+  "id": 3763086,
+  "name": "ryuslash/git-auto-commit-mode",
+  "description": "Automatically commit to git after each save",
+  "url": "https://github.com/ryuslash/git-auto-commit-mode",
+  "stars": 193,
+  "updated": "2022-12-07T16:48:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-auto-commit-mode",
+    "fetcher": "github",
+    "repo": "ryuslash/git-auto-commit-mode"
+  }
+}

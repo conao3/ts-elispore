@@ -1,0 +1,18 @@
+{
+  "id": 594863469,
+  "name": "fritzgrabo/flymake-cspell",
+  "description": "Emacs: A Flymake backend for CSpell",
+  "url": "https://github.com/fritzgrabo/flymake-cspell",
+  "stars": 6,
+  "updated": "2024-03-04T13:49:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-cspell",
+    "fetcher": "github",
+    "repo": "fritzgrabo/flymake-cspell"
+  }
+}

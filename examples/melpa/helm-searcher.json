@@ -1,0 +1,35 @@
+{
+  "id": 274579768,
+  "name": "emacs-helm/helm-searcher",
+  "description": "Helm interface to use searcher",
+  "url": "https://github.com/emacs-helm/helm-searcher",
+  "stars": 8,
+  "updated": "2026-06-19T08:34:58Z",
+  "archived": false,
+  "topics": [
+    "ag",
+    "elisp",
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "emacs-plugin",
+    "filter",
+    "grep",
+    "helm",
+    "lisp",
+    "package",
+    "plugin",
+    "replace",
+    "rg",
+    "search",
+    "searcher"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-searcher",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-searcher"
+  }
+}

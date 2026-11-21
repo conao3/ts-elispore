@@ -1,0 +1,18 @@
+{
+  "id": 47969184,
+  "name": "mrBliss/highlight-leading-spaces",
+  "description": "Higlight leading spaces that are part of the indentation",
+  "url": "https://github.com/mrBliss/highlight-leading-spaces",
+  "stars": 6,
+  "updated": "2015-12-16T12:23:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "highlight-leading-spaces",
+    "fetcher": "github",
+    "repo": "mrBliss/highlight-leading-spaces"
+  }
+}

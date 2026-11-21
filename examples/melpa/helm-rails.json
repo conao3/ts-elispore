@@ -1,0 +1,19 @@
+{
+  "id": 6509776,
+  "name": "asok/helm-rails",
+  "description": "Helm extension for rails projects",
+  "url": "https://github.com/asok/helm-rails",
+  "stars": 12,
+  "updated": "2017-02-11T14:03:46Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-rails",
+    "fetcher": "github",
+    "repo": "asok/helm-rails",
+    "files": "(\"helm-rails.el\")"
+  }
+}

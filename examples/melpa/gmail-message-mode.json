@@ -1,0 +1,18 @@
+{
+  "id": 14950887,
+  "name": "Malabarba/gmail-mode",
+  "description": "A major-mode for editing gmail messages using markdown syntax (in emacs).",
+  "url": "https://github.com/Malabarba/gmail-mode",
+  "stars": 58,
+  "updated": "2016-06-27T18:48:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gmail-message-mode",
+    "fetcher": "github",
+    "repo": "Malabarba/gmail-mode"
+  }
+}

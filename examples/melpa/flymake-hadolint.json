@@ -1,0 +1,18 @@
+{
+  "id": 469390731,
+  "name": "buzztaiki/flymake-hadolint",
+  "description": "Flymake backend for hadolint, a Dockerfile linter.",
+  "url": "https://github.com/buzztaiki/flymake-hadolint",
+  "stars": 2,
+  "updated": "2022-03-28T08:25:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-hadolint",
+    "fetcher": "github",
+    "repo": "buzztaiki/flymake-hadolint"
+  }
+}

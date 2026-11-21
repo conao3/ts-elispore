@@ -1,0 +1,18 @@
+{
+  "id": 285858310,
+  "name": "sam030820/insert-esv",
+  "description": "Emacs package for inserting ESV Bible passages.",
+  "url": "https://github.com/sam030820/insert-esv",
+  "stars": 4,
+  "updated": "2020-12-01T07:23:40Z",
+  "archived": false,
+  "topics": ["emacs-package", "emacs-plugin", "esv-bible"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "insert-esv",
+    "fetcher": "github",
+    "repo": "sam030820/insert-esv"
+  }
+}

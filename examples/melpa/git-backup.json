@@ -1,0 +1,18 @@
+{
+  "id": 218141505,
+  "name": "antham/git-backup",
+  "description": "Backup files on Emacs through git",
+  "url": "https://github.com/antham/git-backup",
+  "stars": 10,
+  "updated": "2020-11-11T17:26:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-backup",
+    "fetcher": "github",
+    "repo": "antham/git-backup"
+  }
+}

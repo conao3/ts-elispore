@@ -1,0 +1,18 @@
+{
+  "id": 145487935,
+  "name": "jojojames/flymake-racket",
+  "description": "Flymake extension for Racket",
+  "url": "https://github.com/jojojames/flymake-racket",
+  "stars": 9,
+  "updated": "2021-01-05T06:06:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-racket",
+    "fetcher": "github",
+    "repo": "jojojames/flymake-racket"
+  }
+}

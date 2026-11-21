@@ -1,0 +1,18 @@
+{
+  "id": 119364662,
+  "name": "cosmicexplorer/helm-rg",
+  "description": "ripgrep is nice",
+  "url": "https://github.com/cosmicexplorer/helm-rg",
+  "stars": 109,
+  "updated": "2024-03-30T10:59:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-rg",
+    "fetcher": "github",
+    "repo": "cosmicexplorer/helm-rg"
+  }
+}

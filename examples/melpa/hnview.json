@@ -1,0 +1,18 @@
+{
+  "id": 1230702188,
+  "name": "LuciusChen/hnview",
+  "description": "Modern Emacs-native Hacker News reader with keyboard-first threads and LLM-assisted translation.",
+  "url": "https://github.com/LuciusChen/hnview",
+  "stars": 3,
+  "updated": "2026-07-20T06:41:20Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "hacker-news"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hnview",
+    "fetcher": "github",
+    "repo": "LuciusChen/hnview"
+  }
+}

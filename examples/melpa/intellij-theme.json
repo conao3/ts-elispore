@@ -1,0 +1,18 @@
+{
+  "id": 1021390890,
+  "name": "fommil/intellij-theme.el",
+  "description": "intellij theme for emacs",
+  "url": "https://github.com/fommil/intellij-theme.el",
+  "stars": 0,
+  "updated": "2026-09-14T09:35:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "intellij-theme",
+    "fetcher": "github",
+    "repo": "fommil/intellij-theme.el"
+  }
+}

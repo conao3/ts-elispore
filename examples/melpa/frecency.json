@@ -1,0 +1,18 @@
+{
+  "id": 101930361,
+  "name": "alphapapa/frecency.el",
+  "description": "Library to sort items by \"frecency\" in Emacs",
+  "url": "https://github.com/alphapapa/frecency.el",
+  "stars": 15,
+  "updated": "2024-01-11T06:28:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "frecency",
+    "fetcher": "github",
+    "repo": "alphapapa/frecency.el"
+  }
+}

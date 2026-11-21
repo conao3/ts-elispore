@@ -1,0 +1,18 @@
+{
+  "id": 856023942,
+  "name": "jamescherti/flymake-ansible-lint.el",
+  "description": "A Flymake backend for ansible-lint: Real-time syntax and style checking for Ansible playbooks and roles within Emacs.",
+  "url": "https://github.com/jamescherti/flymake-ansible-lint.el",
+  "stars": 12,
+  "updated": "2026-11-10T15:12:50Z",
+  "archived": false,
+  "topics": ["ansible-lint", "emacs", "emacs-package", "flycheck", "flymake"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-ansible-lint",
+    "fetcher": "github",
+    "repo": "jamescherti/flymake-ansible-lint.el"
+  }
+}

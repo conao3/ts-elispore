@@ -1,0 +1,19 @@
+{
+  "id": 766347610,
+  "name": "BriansEmacs/insert-pair-edit.el",
+  "description": "GNU Emacs Lisp - insert-pair-edit.el - 'M-(' with interactive editing and modal pairs",
+  "url": "https://github.com/BriansEmacs/insert-pair-edit.el",
+  "stars": 8,
+  "updated": "2024-12-29T01:14:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ipe",
+    "fetcher": "github",
+    "repo": "BriansEmacs/insert-pair-edit.el",
+    "files": "(:defaults \"modes/ipe-*.el\")"
+  }
+}

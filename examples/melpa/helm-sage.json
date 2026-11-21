@@ -1,0 +1,18 @@
+{
+  "id": 23922297,
+  "name": "sagemath/helm-sage",
+  "description": "A helm extension for sage-shell-mode",
+  "url": "https://github.com/sagemath/helm-sage",
+  "stars": 5,
+  "updated": "2016-05-14T07:51:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-sage",
+    "fetcher": "github",
+    "repo": "sagemath/helm-sage"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 7926533,
+  "name": "dominikh/go-mode.el",
+  "description": "Emacs mode for the Go programming language",
+  "url": "https://github.com/dominikh/go-mode.el",
+  "stars": 1455,
+  "updated": "2026-05-29T13:55:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go-rename",
+    "fetcher": "github",
+    "repo": "dominikh/go-mode.el",
+    "files": "(\"go-rename.el\")"
+  }
+}

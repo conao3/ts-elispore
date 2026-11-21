@@ -1,0 +1,18 @@
+{
+  "id": 32980849,
+  "name": "mrBliss/helm-rhythmbox",
+  "description": "Control Rhythmbox's play queue via Helm",
+  "url": "https://github.com/mrBliss/helm-rhythmbox",
+  "stars": 4,
+  "updated": "2016-05-24T11:58:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-rhythmbox",
+    "fetcher": "github",
+    "repo": "mrBliss/helm-rhythmbox"
+  }
+}

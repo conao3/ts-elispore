@@ -1,0 +1,18 @@
+{
+  "id": 182048412,
+  "name": "emacs-vs/goto-char-preview",
+  "description": "Preview character when executing `goto-char` command",
+  "url": "https://github.com/emacs-vs/goto-char-preview",
+  "stars": 12,
+  "updated": "2026-06-19T08:38:54Z",
+  "archived": false,
+  "topics": ["vsc", "vscode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "goto-char-preview",
+    "fetcher": "github",
+    "repo": "emacs-vs/goto-char-preview"
+  }
+}

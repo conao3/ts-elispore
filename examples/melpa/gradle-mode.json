@@ -1,0 +1,18 @@
+{
+  "id": 7677282,
+  "name": "scubacabra/emacs-gradle-mode",
+  "description": "minor mode for emacs to run gradle from emacs and not have to go to a terminal",
+  "url": "https://github.com/scubacabra/emacs-gradle-mode",
+  "stars": 58,
+  "updated": "2023-08-28T09:12:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gradle-mode",
+    "fetcher": "github",
+    "repo": "scubacabra/emacs-gradle-mode"
+  }
+}

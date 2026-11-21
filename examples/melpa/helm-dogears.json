@@ -1,0 +1,19 @@
+{
+  "id": 395573209,
+  "name": "alphapapa/dogears.el",
+  "description": "Never lose your place in Emacs again",
+  "url": "https://github.com/alphapapa/dogears.el",
+  "stars": 221,
+  "updated": "2024-06-15T22:59:29Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-dogears",
+    "fetcher": "github",
+    "repo": "alphapapa/dogears.el",
+    "files": "(\"helm-dogears.el\")"
+  }
+}

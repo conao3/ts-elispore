@@ -1,0 +1,26 @@
+{
+  "id": 533254699,
+  "name": "KarimAziev/igist",
+  "description": "Work seamlessly with GitHub gists from Emacs.",
+  "url": "https://github.com/KarimAziev/igist",
+  "stars": 52,
+  "updated": "2026-08-27T09:45:12Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-package",
+    "emacs-packages",
+    "gist",
+    "gist-client",
+    "gist-manager",
+    "gists"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "igist",
+    "fetcher": "github",
+    "repo": "KarimAziev/igist"
+  }
+}

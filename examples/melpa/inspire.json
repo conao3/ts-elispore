@@ -1,0 +1,18 @@
+{
+  "id": 589733887,
+  "name": "Simon-Lin/inspire.el",
+  "description": "Emacs interface for inspirehep.net",
+  "url": "https://github.com/Simon-Lin/inspire.el",
+  "stars": 2,
+  "updated": "2023-05-14T10:32:39Z",
+  "archived": false,
+  "topics": ["bibliography", "emacs", "inspirehep"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "inspire",
+    "fetcher": "github",
+    "repo": "Simon-Lin/inspire.el"
+  }
+}

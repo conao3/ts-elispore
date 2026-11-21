@@ -1,0 +1,19 @@
+{
+  "id": 15019578,
+  "name": "rodw/gvpr-lib",
+  "description": "Rod's little library for augmenting and extending gvpr, the graph processing tool bundled with Graphviz.",
+  "url": "https://github.com/rodw/gvpr-lib",
+  "stars": 24,
+  "updated": "2026-07-20T08:02:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "JavaScript",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gvpr-mode",
+    "fetcher": "github",
+    "repo": "rodw/gvpr-lib",
+    "files": "(\"extra/*.el\")"
+  }
+}

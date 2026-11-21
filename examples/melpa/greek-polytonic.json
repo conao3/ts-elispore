@@ -1,0 +1,18 @@
+{
+  "id": 78498559,
+  "name": "jhanschoo/greek-polytonic",
+  "description": "A Polytonic Greek Input Method for Emacs using Quail",
+  "url": "https://github.com/jhanschoo/greek-polytonic",
+  "stars": 4,
+  "updated": "2019-03-03T13:58:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "greek-polytonic",
+    "fetcher": "github",
+    "repo": "jhanschoo/greek-polytonic"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 63182728,
+  "name": "bdc34/helm-taskswitch",
+  "description": "Helm source for switching between X windows",
+  "url": "https://github.com/bdc34/helm-taskswitch",
+  "stars": 12,
+  "updated": "2026-11-04T15:09:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-taskswitch",
+    "fetcher": "github",
+    "repo": "bdc34/helm-taskswitch"
+  }
+}

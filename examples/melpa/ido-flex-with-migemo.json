@@ -1,0 +1,18 @@
+{
+  "id": 80996519,
+  "name": "ROCKTAKEY/ido-flex-with-migemo",
+  "description": "You can use ido with both flex and migemo",
+  "url": "https://github.com/ROCKTAKEY/ido-flex-with-migemo",
+  "stars": 1,
+  "updated": "2019-12-20T13:17:15Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "ido", "migemo"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ido-flex-with-migemo",
+    "fetcher": "github",
+    "repo": "ROCKTAKEY/ido-flex-with-migemo"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 203098581,
+  "name": "thanhvg/emacs-hnreader",
+  "description": "Read Hacker News inside Emacs",
+  "url": "https://github.com/thanhvg/emacs-hnreader",
+  "stars": 54,
+  "updated": "2026-11-09T00:28:06Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "hacker-news", "hacker-news-reader"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hnreader",
+    "fetcher": "github",
+    "repo": "thanhvg/emacs-hnreader"
+  }
+}

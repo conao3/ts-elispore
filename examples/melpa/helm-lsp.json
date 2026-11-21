@@ -1,0 +1,18 @@
+{
+  "id": 133181305,
+  "name": "emacs-lsp/helm-lsp",
+  "description": "lsp-mode :heart: helm",
+  "url": "https://github.com/emacs-lsp/helm-lsp",
+  "stars": 104,
+  "updated": "2026-06-19T08:32:59Z",
+  "archived": false,
+  "topics": ["emacs", "helm", "lsp-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-lsp",
+    "fetcher": "github",
+    "repo": "emacs-lsp/helm-lsp"
+  }
+}

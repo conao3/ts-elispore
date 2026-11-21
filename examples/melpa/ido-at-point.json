@@ -1,0 +1,18 @@
+{
+  "id": 12104959,
+  "name": "katspaugh/ido-at-point",
+  "description": "ido-at-point",
+  "url": "https://github.com/katspaugh/ido-at-point",
+  "stars": 49,
+  "updated": "2016-04-30T17:46:18Z",
+  "archived": false,
+  "topics": ["autocomplete", "emacs", "emacs-lisp", "ido"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ido-at-point",
+    "fetcher": "github",
+    "repo": "katspaugh/ido-at-point"
+  }
+}

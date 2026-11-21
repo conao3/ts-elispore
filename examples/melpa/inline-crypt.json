@@ -1,0 +1,18 @@
+{
+  "id": 7538873,
+  "name": "Sodel-the-Vociferous/inline-crypt-el",
+  "description": "DEPRECATED. Simple inline AES encryption for emacs.",
+  "url": "https://github.com/Sodel-the-Vociferous/inline-crypt-el",
+  "stars": 1,
+  "updated": "2017-08-24T09:04:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "inline-crypt",
+    "fetcher": "github",
+    "repo": "Sodel-the-Vociferous/inline-crypt-el"
+  }
+}

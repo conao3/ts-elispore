@@ -1,0 +1,18 @@
+{
+  "id": 848751416,
+  "name": "port19x/geiser-overlay",
+  "description": "Overlay Scheme Evaluation Results",
+  "url": "https://github.com/port19x/geiser-overlay",
+  "stars": 14,
+  "updated": "2024-09-20T08:16:20Z",
+  "archived": false,
+  "topics": ["scheme", "scheme-tools"],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "geiser-overlay",
+    "fetcher": "github",
+    "repo": "port19x/geiser-overlay"
+  }
+}

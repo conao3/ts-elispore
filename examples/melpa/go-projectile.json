@@ -1,0 +1,18 @@
+{
+  "id": 19219068,
+  "name": "dougm/go-projectile",
+  "description": "Go language related add-ons for Projectile",
+  "url": "https://github.com/dougm/go-projectile",
+  "stars": 57,
+  "updated": "2023-08-10T23:56:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go-projectile",
+    "fetcher": "github",
+    "repo": "dougm/go-projectile"
+  }
+}

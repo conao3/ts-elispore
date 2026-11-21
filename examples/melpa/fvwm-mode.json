@@ -1,0 +1,18 @@
+{
+  "id": 9430599,
+  "name": "theBlackDragon/fvwm-mode",
+  "description": "Emacs major-mode for editing Fvwm configuration files",
+  "url": "https://github.com/theBlackDragon/fvwm-mode",
+  "stars": 3,
+  "updated": "2023-02-14T21:50:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fvwm-mode",
+    "fetcher": "github",
+    "repo": "theBlackDragon/fvwm-mode"
+  }
+}

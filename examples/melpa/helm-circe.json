@@ -1,0 +1,18 @@
+{
+  "id": 32286910,
+  "name": "lesharris/helm-circe",
+  "description": "Helm bindings for circe",
+  "url": "https://github.com/lesharris/helm-circe",
+  "stars": 6,
+  "updated": "2016-02-07T06:59:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-circe",
+    "fetcher": "github",
+    "repo": "lesharris/helm-circe"
+  }
+}

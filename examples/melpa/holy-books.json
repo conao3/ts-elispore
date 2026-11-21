@@ -1,0 +1,18 @@
+{
+  "id": 327614966,
+  "name": "alhassy/holy-books",
+  "description": "An Emacs interface to the Quran and the Bible: Org-mode links, tooltips, and Lisp look-ups",
+  "url": "https://github.com/alhassy/holy-books",
+  "stars": 29,
+  "updated": "2026-10-15T14:51:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "holy-books",
+    "fetcher": "github",
+    "repo": "alhassy/holy-books"
+  }
+}

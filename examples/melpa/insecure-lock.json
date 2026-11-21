@@ -1,0 +1,18 @@
+{
+  "id": 548085196,
+  "name": "kchanqvq/insecure-lock",
+  "description": "Screen locker in pure Emacs Lisp",
+  "url": "https://github.com/kchanqvq/insecure-lock",
+  "stars": 24,
+  "updated": "2023-04-26T00:53:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "insecure-lock",
+    "fetcher": "github",
+    "repo": "kchanqvq/insecure-lock"
+  }
+}

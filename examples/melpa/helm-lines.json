@@ -1,0 +1,18 @@
+{
+  "id": 121116739,
+  "name": "torgeir/helm-lines.el",
+  "description": "A helm interface for completing by lines typed elswhere in your git project.",
+  "url": "https://github.com/torgeir/helm-lines.el",
+  "stars": 15,
+  "updated": "2022-01-03T19:09:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-lines",
+    "fetcher": "github",
+    "repo": "torgeir/helm-lines.el"
+  }
+}

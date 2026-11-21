@@ -1,0 +1,18 @@
+{
+  "id": 14071986,
+  "name": "greduan/emacs-theme-gruvbox",
+  "description": "Gruvbox is a retro groove color scheme for Emacs. Port of the Vim version.",
+  "url": "https://github.com/greduan/emacs-theme-gruvbox",
+  "stars": 690,
+  "updated": "2026-11-10T02:42:38Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "gruvbox"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gruvbox-theme",
+    "fetcher": "github",
+    "repo": "greduan/emacs-theme-gruvbox"
+  }
+}

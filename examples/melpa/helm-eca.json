@@ -1,0 +1,18 @@
+{
+  "id": 1168918827,
+  "name": "PalaceChan/helm-eca",
+  "description": "A helm frontend for eca-emacs",
+  "url": "https://github.com/PalaceChan/helm-eca",
+  "stars": 0,
+  "updated": "2026-09-19T14:04:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-eca",
+    "fetcher": "github",
+    "repo": "PalaceChan/helm-eca"
+  }
+}

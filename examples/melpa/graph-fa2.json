@@ -1,0 +1,18 @@
+{
+  "id": 1277698721,
+  "name": "elij/graph-fa2",
+  "description": "Optimised ForceAtlas2 simulation using librsvg to allow dynamic graphs directly within emacs buffers without a browser engine.",
+  "url": "https://github.com/elij/graph-fa2",
+  "stars": 34,
+  "updated": "2026-11-21T07:04:01Z",
+  "archived": false,
+  "topics": ["emacs", "forceatlas2", "librsvg"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "graph-fa2",
+    "fetcher": "github",
+    "repo": "elij/graph-fa2"
+  }
+}

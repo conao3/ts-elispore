@@ -1,0 +1,18 @@
+{
+  "id": 32939642,
+  "name": "xuchunyang/helm-zhihu-daily",
+  "description": "[Emacs] Helm interface for 知乎日报",
+  "url": "https://github.com/xuchunyang/helm-zhihu-daily",
+  "stars": 10,
+  "updated": "2016-06-25T11:46:15Z",
+  "archived": false,
+  "topics": ["helm", "zhihu"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-zhihu-daily",
+    "fetcher": "github",
+    "repo": "xuchunyang/helm-zhihu-daily"
+  }
+}

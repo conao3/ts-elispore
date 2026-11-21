@@ -1,0 +1,18 @@
+{
+  "id": 50182543,
+  "name": "mswift42/hamburg-theme",
+  "description": "Emacs Color Theme with a dark background.",
+  "url": "https://github.com/mswift42/hamburg-theme",
+  "stars": 6,
+  "updated": "2016-01-23T14:02:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hamburg-theme",
+    "fetcher": "github",
+    "repo": "mswift42/hamburg-theme"
+  }
+}

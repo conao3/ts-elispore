@@ -1,0 +1,18 @@
+{
+  "id": 1156993025,
+  "name": "nhojb/fnm.el",
+  "description": "Manage Node versions within Emacs using fnm",
+  "url": "https://github.com/nhojb/fnm.el",
+  "stars": 0,
+  "updated": "2026-07-21T09:30:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fnm",
+    "fetcher": "github",
+    "repo": "nhojb/fnm.el"
+  }
+}

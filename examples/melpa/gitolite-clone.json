@@ -1,0 +1,18 @@
+{
+  "id": 40698225,
+  "name": "colonelpanic8/gitolite-clone",
+  "description": "Clone repositories from a gitolite host",
+  "url": "https://github.com/colonelpanic8/gitolite-clone",
+  "stars": 2,
+  "updated": "2016-06-09T23:55:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gitolite-clone",
+    "fetcher": "github",
+    "repo": "colonelpanic8/gitolite-clone"
+  }
+}

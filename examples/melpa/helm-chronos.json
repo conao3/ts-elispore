@@ -1,0 +1,18 @@
+{
+  "id": 36061555,
+  "name": "dxknight/helm-chronos",
+  "description": "Helm interface to chronos.",
+  "url": "https://github.com/dxknight/helm-chronos",
+  "stars": 5,
+  "updated": "2017-03-01T19:46:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-chronos",
+    "fetcher": "github",
+    "repo": "dxknight/helm-chronos"
+  }
+}

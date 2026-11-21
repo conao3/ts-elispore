@@ -1,0 +1,26 @@
+{
+  "id": 80560495,
+  "name": "tmalsburg/guess-language.el",
+  "description": "Emacs minor mode that detects the language you're typing in. Automatically switches spell checker. Supports multiple languages per document.",
+  "url": "https://github.com/tmalsburg/guess-language.el",
+  "stars": 128,
+  "updated": "2026-06-25T06:28:09Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-lisp",
+    "language",
+    "language-detection",
+    "language-statistics",
+    "spellcheck"
+  ],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "guess-language",
+    "fetcher": "github",
+    "repo": "tmalsburg/guess-language.el",
+    "files": "(\"guess-language.el\" \"trigrams/*\")"
+  }
+}

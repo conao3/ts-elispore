@@ -1,0 +1,34 @@
+{
+  "id": 14579096,
+  "name": "sshaw/git-link",
+  "description": "Emacs package to get the GitHub/Bitbucket/GitLab/... URL for a buffer location",
+  "url": "https://github.com/sshaw/git-link",
+  "stars": 474,
+  "updated": "2026-07-23T22:13:00Z",
+  "archived": false,
+  "topics": [
+    "aws-codecommit",
+    "azure-devops",
+    "bitbucket",
+    "codeberg",
+    "dired",
+    "emacs",
+    "git",
+    "github",
+    "gitlab",
+    "magit",
+    "sourcegraph",
+    "sourcehut",
+    "spacemacs",
+    "tramp",
+    "urls"
+  ],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-link",
+    "fetcher": "github",
+    "repo": "sshaw/git-link"
+  }
+}

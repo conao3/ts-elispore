@@ -1,0 +1,18 @@
+{
+  "id": 13899105,
+  "name": "sergey-pashaev/gore-mode",
+  "description": "A simple comint-based mode for gore (command-line evaluator for golang code)",
+  "url": "https://github.com/sergey-pashaev/gore-mode",
+  "stars": 5,
+  "updated": "2015-11-23T19:27:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gore-mode",
+    "fetcher": "github",
+    "repo": "sergey-pashaev/gore-mode"
+  }
+}

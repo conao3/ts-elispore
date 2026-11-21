@@ -1,0 +1,18 @@
+{
+  "id": 1114450460,
+  "name": "ArthurHeymans/gptel-forge-prs",
+  "description": "Use gptel to create PR messages from forge",
+  "url": "https://github.com/ArthurHeymans/gptel-forge-prs",
+  "stars": 5,
+  "updated": "2026-06-24T09:03:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gptel-forge-prs",
+    "fetcher": "github",
+    "repo": "ArthurHeymans/gptel-forge-prs"
+  }
+}

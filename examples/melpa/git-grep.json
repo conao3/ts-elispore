@@ -1,0 +1,18 @@
+{
+  "id": 294996259,
+  "name": "tychoish/git-grep.el",
+  "description": "",
+  "url": "https://github.com/tychoish/git-grep.el",
+  "stars": 5,
+  "updated": "2020-09-20T17:51:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-grep",
+    "fetcher": "github",
+    "repo": "tychoish/git-grep.el"
+  }
+}

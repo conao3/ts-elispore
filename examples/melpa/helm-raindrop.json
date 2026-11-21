@@ -1,0 +1,18 @@
+{
+  "id": 1027058034,
+  "name": "masutaka/emacs-helm-raindrop",
+  "description": "Helm interface for Raindrop.io",
+  "url": "https://github.com/masutaka/emacs-helm-raindrop",
+  "stars": 5,
+  "updated": "2026-09-19T03:42:06Z",
+  "archived": false,
+  "topics": ["emacs-helm", "emacs-lisp", "raindrop-io"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-raindrop",
+    "fetcher": "github",
+    "repo": "masutaka/emacs-helm-raindrop"
+  }
+}

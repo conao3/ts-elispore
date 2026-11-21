@@ -1,0 +1,19 @@
+{
+  "id": 2564641,
+  "name": "Sarcasm/irony-mode",
+  "description": "A C/C++ minor mode for Emacs powered by libclang",
+  "url": "https://github.com/Sarcasm/irony-mode",
+  "stars": 907,
+  "updated": "2023-10-18T19:21:46Z",
+  "archived": false,
+  "topics": ["clang", "compilation-database", "emacs", "irony-mode", "libclang"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "irony",
+    "fetcher": "github",
+    "repo": "Sarcasm/irony-mode",
+    "files": "(:defaults \"server\")"
+  }
+}

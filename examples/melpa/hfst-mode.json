@@ -1,0 +1,18 @@
+{
+  "id": 462020,
+  "name": "unhammer/hfst-mode",
+  "description": "📜 Major mode for editing Helsinki Finite State Tools files in Emacs",
+  "url": "https://github.com/unhammer/hfst-mode",
+  "stars": 1,
+  "updated": "2016-07-11T10:21:56Z",
+  "archived": false,
+  "topics": ["emacs", "finite-state", "hfst"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hfst-mode",
+    "fetcher": "github",
+    "repo": "unhammer/hfst-mode"
+  }
+}

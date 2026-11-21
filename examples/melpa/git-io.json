@@ -1,0 +1,18 @@
+{
+  "id": 122520024,
+  "name": "tejasbubane/emacs-git-io",
+  "description": "URL shortner for emacs using https://git.io/",
+  "url": "https://github.com/tejasbubane/emacs-git-io",
+  "stars": 1,
+  "updated": "2023-03-22T10:38:50Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "github", "gitio", "url-shortener"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-io",
+    "fetcher": "github",
+    "repo": "tejasbubane/emacs-git-io"
+  }
+}

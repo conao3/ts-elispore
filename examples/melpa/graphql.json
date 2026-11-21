@@ -1,0 +1,18 @@
+{
+  "id": 110643121,
+  "name": "vermiculus/graphql.el",
+  "description": "GraphQL utilities",
+  "url": "https://github.com/vermiculus/graphql.el",
+  "stars": 64,
+  "updated": "2026-02-06T21:10:44Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "graphql"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "graphql",
+    "fetcher": "github",
+    "repo": "vermiculus/graphql.el"
+  }
+}

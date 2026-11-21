@@ -1,0 +1,18 @@
+{
+  "id": 1007379642,
+  "name": "emacsattic/glab",
+  "description": "Client library for the Gitlab API",
+  "url": "https://github.com/emacsattic/glab",
+  "stars": 0,
+  "updated": "2025-06-23T22:53:24Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": null,
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "glab",
+    "fetcher": "github",
+    "repo": "emacsattic/glab"
+  }
+}

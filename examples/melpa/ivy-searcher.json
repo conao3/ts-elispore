@@ -1,0 +1,18 @@
+{
+  "id": 273525681,
+  "name": "jcs-legacy/ivy-searcher",
+  "description": "Ivy interface to use searcher.",
+  "url": "https://github.com/jcs-legacy/ivy-searcher",
+  "stars": 3,
+  "updated": "2026-06-19T08:48:16Z",
+  "archived": false,
+  "topics": ["emacs", "ivy", "searcher"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ivy-searcher",
+    "fetcher": "github",
+    "repo": "jcs-legacy/ivy-searcher"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 421275724,
+  "name": "dantecatalfamo/himalaya-emacs",
+  "description": "Emacs front-end for the himalaya email client",
+  "url": "https://github.com/dantecatalfamo/himalaya-emacs",
+  "stars": 48,
+  "updated": "2026-09-30T21:31:12Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "email"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "himalaya",
+    "fetcher": "github",
+    "repo": "dantecatalfamo/himalaya-emacs"
+  }
+}

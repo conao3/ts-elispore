@@ -1,0 +1,18 @@
+{
+  "id": 5576970,
+  "name": "rolandwalker/ido-load-library",
+  "description": "Load-library alternative for Emacs using ido-completing-read",
+  "url": "https://github.com/rolandwalker/ido-load-library",
+  "stars": 1,
+  "updated": "2014-08-04T19:22:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ido-load-library",
+    "fetcher": "github",
+    "repo": "rolandwalker/ido-load-library"
+  }
+}

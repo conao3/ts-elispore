@@ -1,0 +1,18 @@
+{
+  "id": 848987933,
+  "name": "jamescherti/flymake-bashate.el",
+  "description": " A Flymake backend for bashate: Real-time style checking for Bash shell scripts within Emacs. ",
+  "url": "https://github.com/jamescherti/flymake-bashate.el",
+  "stars": 10,
+  "updated": "2026-11-10T15:12:50Z",
+  "archived": false,
+  "topics": ["bashate", "emacs", "emacs-flymake", "emacs-package", "flymake", "flymake-backend"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-bashate",
+    "fetcher": "github",
+    "repo": "jamescherti/flymake-bashate.el"
+  }
+}

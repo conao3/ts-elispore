@@ -1,0 +1,18 @@
+{
+  "id": 173762964,
+  "name": "TxGVNN/gnus-summary-repo",
+  "description": "Import and export files between IMAP and local by using GNUS",
+  "url": "https://github.com/TxGVNN/gnus-summary-repo",
+  "stars": 11,
+  "updated": "2022-01-14T16:32:24Z",
+  "archived": false,
+  "topics": ["emacs", "gnus", "imap", "repository"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gnus-summary-repo",
+    "fetcher": "github",
+    "repo": "TxGVNN/gnus-summary-repo"
+  }
+}

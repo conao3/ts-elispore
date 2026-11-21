@@ -1,0 +1,18 @@
+{
+  "id": 129704182,
+  "name": "emacs-helm/helm-eww",
+  "description": "Helm interface to EWW",
+  "url": "https://github.com/emacs-helm/helm-eww",
+  "stars": 9,
+  "updated": "2019-03-15T09:08:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-eww",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-eww"
+  }
+}

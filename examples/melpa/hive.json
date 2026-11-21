@@ -1,0 +1,18 @@
+{
+  "id": 8181083,
+  "name": "r0man/hive-el",
+  "description": "Hive SQL mode extension for Emacs",
+  "url": "https://github.com/r0man/hive-el",
+  "stars": 7,
+  "updated": "2014-02-15T13:58:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hive",
+    "fetcher": "github",
+    "repo": "r0man/hive-el"
+  }
+}

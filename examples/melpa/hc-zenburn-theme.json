@@ -1,0 +1,18 @@
+{
+  "id": 22799752,
+  "name": "edran/hc-zenburn-emacs",
+  "description": "An higher contrast version of the popular Zenburn theme for Emacs",
+  "url": "https://github.com/edran/hc-zenburn-emacs",
+  "stars": 46,
+  "updated": "2018-01-04T22:12:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hc-zenburn-theme",
+    "fetcher": "github",
+    "repo": "edran/hc-zenburn-emacs"
+  }
+}

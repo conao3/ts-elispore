@@ -1,0 +1,18 @@
+{
+  "id": 112699564,
+  "name": "alexmurray/ivy-xref",
+  "description": "Ivy interface for xref results",
+  "url": "https://github.com/alexmurray/ivy-xref",
+  "stars": 58,
+  "updated": "2022-11-07T14:50:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-xref",
+    "fetcher": "github",
+    "repo": "alexmurray/ivy-xref"
+  }
+}

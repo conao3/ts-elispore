@@ -1,0 +1,19 @@
+{
+  "id": 2070482,
+  "name": "Andersbakken/rtags",
+  "description": "A client/server indexer for c/c++/objc[++] with integration for Emacs based on clang.",
+  "url": "https://github.com/Andersbakken/rtags",
+  "stars": 1846,
+  "updated": "2026-10-16T16:13:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "C++",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-rtags",
+    "fetcher": "github",
+    "repo": "Andersbakken/rtags",
+    "files": "(\"src/helm-rtags.el\")"
+  }
+}

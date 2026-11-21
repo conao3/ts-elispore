@@ -1,0 +1,18 @@
+{
+  "id": 40371789,
+  "name": "mpickering/hlint-refactor-mode",
+  "description": "Emacs bindings for hlint's --refactor option",
+  "url": "https://github.com/mpickering/hlint-refactor-mode",
+  "stars": 27,
+  "updated": "2019-01-15T09:00:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hlint-refactor",
+    "fetcher": "github",
+    "repo": "mpickering/hlint-refactor-mode"
+  }
+}

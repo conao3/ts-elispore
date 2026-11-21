@@ -1,0 +1,18 @@
+{
+  "id": 9361369,
+  "name": "syl20bnr/flymake-elixir",
+  "description": "Emacs flymake syntax-checker for elixir .ex files ",
+  "url": "https://github.com/syl20bnr/flymake-elixir",
+  "stars": 1,
+  "updated": "2013-08-10T14:18:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-elixir",
+    "fetcher": "github",
+    "repo": "syl20bnr/flymake-elixir"
+  }
+}

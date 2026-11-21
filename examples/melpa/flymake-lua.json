@@ -1,0 +1,18 @@
+{
+  "id": 80323537,
+  "name": "sroccaserra/flymake-lua",
+  "description": "Very small tool I built a long time ago to work with Lua.",
+  "url": "https://github.com/sroccaserra/flymake-lua",
+  "stars": 4,
+  "updated": "2017-01-29T13:38:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-lua",
+    "fetcher": "github",
+    "repo": "sroccaserra/flymake-lua"
+  }
+}

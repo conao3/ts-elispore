@@ -1,0 +1,18 @@
+{
+  "id": 523124,
+  "name": "emacsorphanage/http-post-simple",
+  "description": "HTTP POST requests using the url library",
+  "url": "https://github.com/emacsorphanage/http-post-simple",
+  "stars": 2,
+  "updated": "2017-07-15T09:41:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "http-post-simple",
+    "fetcher": "github",
+    "repo": "emacsorphanage/http-post-simple"
+  }
+}

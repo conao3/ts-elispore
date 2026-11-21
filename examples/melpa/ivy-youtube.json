@@ -1,0 +1,18 @@
+{
+  "id": 77866834,
+  "name": "squiter/ivy-youtube",
+  "description": "Search for an Youtube video inside Emacs with Ivy",
+  "url": "https://github.com/squiter/ivy-youtube",
+  "stars": 30,
+  "updated": "2023-05-03T15:09:27Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-packages", "ivy"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-youtube",
+    "fetcher": "github",
+    "repo": "squiter/ivy-youtube"
+  }
+}

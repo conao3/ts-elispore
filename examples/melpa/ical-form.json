@@ -1,0 +1,19 @@
+{
+  "id": 647816134,
+  "name": "haji-ali/maccalfw",
+  "description": "",
+  "url": "https://github.com/haji-ali/maccalfw",
+  "stars": 36,
+  "updated": "2026-09-25T05:33:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ical-form",
+    "fetcher": "github",
+    "repo": "haji-ali/maccalfw",
+    "files": "(\"ical-form.el\")"
+  }
+}

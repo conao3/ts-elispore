@@ -1,0 +1,18 @@
+{
+  "id": 340206949,
+  "name": "anticomputer/gh-notify",
+  "description": "Veneer for the Magit/Forge GitHub porcelain",
+  "url": "https://github.com/anticomputer/gh-notify",
+  "stars": 80,
+  "updated": "2026-07-01T15:12:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gh-notify",
+    "fetcher": "github",
+    "repo": "anticomputer/gh-notify"
+  }
+}

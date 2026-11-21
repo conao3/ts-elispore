@@ -1,0 +1,18 @@
+{
+  "id": 103853082,
+  "name": "emacs-evil/goto-chg",
+  "description": "",
+  "url": "https://github.com/emacs-evil/goto-chg",
+  "stars": 49,
+  "updated": "2024-05-31T11:18:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "goto-chg",
+    "fetcher": "github",
+    "repo": "emacs-evil/goto-chg"
+  }
+}

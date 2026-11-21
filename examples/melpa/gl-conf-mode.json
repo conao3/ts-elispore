@@ -1,0 +1,18 @@
+{
+  "id": 2950148,
+  "name": "llloret/gitolite-emacs",
+  "description": "emacs major mode for gitolite configuration files",
+  "url": "https://github.com/llloret/gitolite-emacs",
+  "stars": 9,
+  "updated": "2022-08-05T22:55:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gl-conf-mode",
+    "fetcher": "github",
+    "repo": "llloret/gitolite-emacs"
+  }
+}

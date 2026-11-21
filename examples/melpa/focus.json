@@ -1,0 +1,18 @@
+{
+  "id": 35511798,
+  "name": "larstvei/Focus",
+  "description": "Dim the font color of text in surrounding paragraphs",
+  "url": "https://github.com/larstvei/Focus",
+  "stars": 516,
+  "updated": "2025-03-11T18:56:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "focus",
+    "fetcher": "github",
+    "repo": "larstvei/Focus"
+  }
+}

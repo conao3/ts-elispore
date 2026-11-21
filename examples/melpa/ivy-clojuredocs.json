@@ -1,0 +1,18 @@
+{
+  "id": 200526954,
+  "name": "wandersoncferreira/ivy-clojuredocs",
+  "description": "Searching for help in ClojureDocs.org",
+  "url": "https://github.com/wandersoncferreira/ivy-clojuredocs",
+  "stars": 14,
+  "updated": "2020-11-29T23:55:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "EPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-clojuredocs",
+    "fetcher": "github",
+    "repo": "wandersoncferreira/ivy-clojuredocs"
+  }
+}

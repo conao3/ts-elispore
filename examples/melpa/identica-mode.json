@@ -1,0 +1,18 @@
+{
+  "id": 2668564,
+  "name": "gabrielsaldana/Emacs-Identica-mode",
+  "description": "Emacs major mode for sending and receiving notices on open microblogging sites based on the Status.net platform, like Identi.ca",
+  "url": "https://github.com/gabrielsaldana/Emacs-Identica-mode",
+  "stars": 3,
+  "updated": "2013-02-04T23:05:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "identica-mode",
+    "fetcher": "github",
+    "repo": "gabrielsaldana/Emacs-Identica-mode"
+  }
+}

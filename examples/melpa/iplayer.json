@@ -1,0 +1,18 @@
+{
+  "id": 4117440,
+  "name": "csrhodes/iplayer-el",
+  "description": "Emacs interface to the BBC's iPlayer (uses get_iplayer)",
+  "url": "https://github.com/csrhodes/iplayer-el",
+  "stars": 6,
+  "updated": "2024-03-05T16:33:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "iplayer",
+    "fetcher": "github",
+    "repo": "csrhodes/iplayer-el"
+  }
+}

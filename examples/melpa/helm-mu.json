@@ -1,0 +1,18 @@
+{
+  "id": 13589147,
+  "name": "emacs-helm/helm-mu",
+  "description": "Helm sources for searching emails and contacts using mu",
+  "url": "https://github.com/emacs-helm/helm-mu",
+  "stars": 57,
+  "updated": "2025-11-28T15:58:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-mu",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-mu"
+  }
+}

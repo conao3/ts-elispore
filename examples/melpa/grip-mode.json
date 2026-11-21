@@ -1,0 +1,18 @@
+{
+  "id": 202196903,
+  "name": "seagle0128/grip-mode",
+  "description": "Instant Github-flavored Markdown/Org preview using grip",
+  "url": "https://github.com/seagle0128/grip-mode",
+  "stars": 321,
+  "updated": "2026-10-15T08:03:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "grip-mode",
+    "fetcher": "github",
+    "repo": "seagle0128/grip-mode"
+  }
+}

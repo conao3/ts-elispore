@@ -1,0 +1,18 @@
+{
+  "id": 215445525,
+  "name": "J3RN/inf-elixir",
+  "description": "An Emacs plugin for interacting with an Elixir REPL",
+  "url": "https://github.com/J3RN/inf-elixir",
+  "stars": 57,
+  "updated": "2025-11-06T21:46:56Z",
+  "archived": false,
+  "topics": ["elixir", "elixir-lang", "elixir-repl", "emacs", "emacs-lisp", "iex", "inf-elixir"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "inf-elixir",
+    "fetcher": "github",
+    "repo": "J3RN/inf-elixir"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 97417621,
+  "name": "tumashu/gitpatch",
+  "description": "Mail git patch in emacs",
+  "url": "https://github.com/tumashu/gitpatch",
+  "stars": 9,
+  "updated": "2017-08-10T12:58:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gitpatch",
+    "fetcher": "github",
+    "repo": "tumashu/gitpatch"
+  }
+}

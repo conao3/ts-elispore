@@ -1,0 +1,18 @@
+{
+  "id": 3302201,
+  "name": "jmdeldin/ir-black-theme.el",
+  "description": "Emacs 24/deftheme port of IR Black theme",
+  "url": "https://github.com/jmdeldin/ir-black-theme.el",
+  "stars": 21,
+  "updated": "2015-10-03T04:01:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ir-black-theme",
+    "fetcher": "github",
+    "repo": "jmdeldin/ir-black-theme.el"
+  }
+}

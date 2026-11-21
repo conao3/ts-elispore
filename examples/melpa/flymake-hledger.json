@@ -1,0 +1,18 @@
+{
+  "id": 655036941,
+  "name": "DamienCassou/flymake-hledger",
+  "description": "Flymake module to check hledger journals",
+  "url": "https://github.com/DamienCassou/flymake-hledger",
+  "stars": 14,
+  "updated": "2026-10-25T16:41:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-hledger",
+    "fetcher": "github",
+    "repo": "DamienCassou/flymake-hledger"
+  }
+}

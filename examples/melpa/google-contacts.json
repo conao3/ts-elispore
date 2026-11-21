@@ -1,0 +1,18 @@
+{
+  "id": 23076925,
+  "name": "jd/google-contacts.el",
+  "description": "Google Contacts for Emacs",
+  "url": "https://github.com/jd/google-contacts.el",
+  "stars": 27,
+  "updated": "2020-10-12T10:56:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "google-contacts",
+    "fetcher": "github",
+    "repo": "jd/google-contacts.el"
+  }
+}

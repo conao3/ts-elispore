@@ -1,0 +1,18 @@
+{
+  "id": 4805558,
+  "name": "ppareit/graphviz-dot-mode",
+  "description": "Emacs mode for the DOT language, used by graphviz.",
+  "url": "https://github.com/ppareit/graphviz-dot-mode",
+  "stars": 231,
+  "updated": "2026-09-04T15:26:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "graphviz-dot-mode",
+    "fetcher": "github",
+    "repo": "ppareit/graphviz-dot-mode"
+  }
+}

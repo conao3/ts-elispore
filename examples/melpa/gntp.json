@@ -1,0 +1,18 @@
+{
+  "id": 8992940,
+  "name": "tekai/gntp.el",
+  "description": "GNTP implementation for Emacs",
+  "url": "https://github.com/tekai/gntp.el",
+  "stars": 26,
+  "updated": "2015-03-04T09:55:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gntp",
+    "fetcher": "github",
+    "repo": "tekai/gntp.el"
+  }
+}

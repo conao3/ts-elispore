@@ -1,0 +1,18 @@
+{
+  "id": 86171826,
+  "name": "krzysztof-magosa/flycheck-yamllint",
+  "description": "Flycheck YAMLLint integration [not maintained]",
+  "url": "https://github.com/krzysztof-magosa/flycheck-yamllint",
+  "stars": 8,
+  "updated": "2019-10-29T08:14:29Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-packages", "flycheck", "linting", "yamllint"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-yamllint",
+    "fetcher": "github",
+    "repo": "krzysztof-magosa/flycheck-yamllint"
+  }
+}

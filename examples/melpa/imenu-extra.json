@@ -1,0 +1,18 @@
+{
+  "id": 317473485,
+  "name": "redguardtoo/imenu-extra",
+  "description": "Add extra items into lsp-mode/js2-mode imenu items",
+  "url": "https://github.com/redguardtoo/imenu-extra",
+  "stars": 15,
+  "updated": "2021-04-08T13:07:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "imenu-extra",
+    "fetcher": "github",
+    "repo": "redguardtoo/imenu-extra"
+  }
+}

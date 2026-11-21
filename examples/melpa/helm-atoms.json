@@ -1,0 +1,18 @@
+{
+  "id": 295872850,
+  "name": "dantecatalfamo/helm-atoms",
+  "description": "Perform reverse variable lookups for Emacs Lisp using Helm.",
+  "url": "https://github.com/dantecatalfamo/helm-atoms",
+  "stars": 8,
+  "updated": "2020-10-13T17:24:01Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "helm"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-atoms",
+    "fetcher": "github",
+    "repo": "dantecatalfamo/helm-atoms"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": 1289666671,
+  "name": "beacoder/gptel-agent-harness",
+  "description": "An execution harness for gptel-agent that adds reliable, autonomous coding-agent behavior. ",
+  "url": "https://github.com/beacoder/gptel-agent-harness",
+  "stars": 11,
+  "updated": "2026-11-12T12:50:23Z",
+  "archived": false,
+  "topics": [
+    "agent-harness",
+    "agent-runtim",
+    "ai-agent",
+    "coding-agent",
+    "harness-engineering",
+    "mini-opencode"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gptel-agent-harness",
+    "fetcher": "github",
+    "repo": "beacoder/gptel-agent-harness",
+    "files": "(:defaults \"agents\" \"prompts\")"
+  }
+}

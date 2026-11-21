@@ -1,0 +1,18 @@
+{
+  "id": 75499767,
+  "name": "emacsorphanage/htmlize",
+  "description": "Convert buffer text and decorations to HTML.",
+  "url": "https://github.com/emacsorphanage/htmlize",
+  "stars": 223,
+  "updated": "2025-11-30T20:06:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "htmlize",
+    "fetcher": "github",
+    "repo": "emacsorphanage/htmlize"
+  }
+}

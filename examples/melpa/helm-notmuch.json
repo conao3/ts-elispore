@@ -1,0 +1,18 @@
+{
+  "id": 55857939,
+  "name": "emacs-helm/helm-notmuch",
+  "description": "Search emails with Notmuch and Helm",
+  "url": "https://github.com/emacs-helm/helm-notmuch",
+  "stars": 13,
+  "updated": "2019-03-20T10:48:59Z",
+  "archived": false,
+  "topics": ["helm", "notmuch"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-notmuch",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-notmuch"
+  }
+}

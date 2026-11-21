@@ -1,0 +1,18 @@
+{
+  "id": 14153150,
+  "name": "antham/helm-backup",
+  "description": "Backup all file changes in emacs through git and retrieve them using helm ",
+  "url": "https://github.com/antham/helm-backup",
+  "stars": 31,
+  "updated": "2019-10-03T21:58:37Z",
+  "archived": false,
+  "topics": ["backup", "emacs", "helm", "helm-backup", "melpa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-backup",
+    "fetcher": "github",
+    "repo": "antham/helm-backup"
+  }
+}

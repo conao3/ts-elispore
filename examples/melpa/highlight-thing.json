@@ -1,0 +1,18 @@
+{
+  "id": 27027834,
+  "name": "fgeller/highlight-thing.el",
+  "description": "Emacs global minor mode to highlight thing under point.",
+  "url": "https://github.com/fgeller/highlight-thing.el",
+  "stars": 85,
+  "updated": "2025-04-16T11:08:25Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-mode", "highlighting"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "highlight-thing",
+    "fetcher": "github",
+    "repo": "fgeller/highlight-thing.el"
+  }
+}

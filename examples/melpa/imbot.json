@@ -1,0 +1,18 @@
+{
+  "id": 282109560,
+  "name": "emacs-rime/imbot",
+  "description": "an input method management bot for emacs",
+  "url": "https://github.com/emacs-rime/imbot",
+  "stars": 12,
+  "updated": "2026-06-06T04:28:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "imbot",
+    "fetcher": "github",
+    "repo": "QiangF/imbot"
+  }
+}

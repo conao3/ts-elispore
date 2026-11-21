@@ -1,0 +1,18 @@
+{
+  "id": 43414457,
+  "name": "emacs-jp/helm-orgcard",
+  "description": "browse the orgcard by helm",
+  "url": "https://github.com/emacs-jp/helm-orgcard",
+  "stars": 7,
+  "updated": "2022-07-21T07:57:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-orgcard",
+    "fetcher": "github",
+    "repo": "emacs-jp/helm-orgcard"
+  }
+}

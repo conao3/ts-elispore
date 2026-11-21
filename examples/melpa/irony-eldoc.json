@@ -1,0 +1,18 @@
+{
+  "id": 28529563,
+  "name": "ikirill/irony-eldoc",
+  "description": "irony-mode support for eldoc-mode",
+  "url": "https://github.com/ikirill/irony-eldoc",
+  "stars": 31,
+  "updated": "2020-06-22T22:14:51Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "irony-eldoc",
+    "fetcher": "github",
+    "repo": "ikirill/irony-eldoc"
+  }
+}

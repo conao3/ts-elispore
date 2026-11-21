@@ -1,0 +1,18 @@
+{
+  "id": 1219136536,
+  "name": "jmibanez/gnus-browse-url-in-article",
+  "description": "Smarter browse-url for Gnus articles",
+  "url": "https://github.com/jmibanez/gnus-browse-url-in-article",
+  "stars": 0,
+  "updated": "2026-08-06T23:59:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gnus-browse-url-in-article",
+    "fetcher": "github",
+    "repo": "jmibanez/gnus-browse-url-in-article"
+  }
+}

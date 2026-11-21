@@ -1,0 +1,18 @@
+{
+  "id": 83743628,
+  "name": "eric-hansen/helm-sql-connect",
+  "description": "Integrate SQL mode with Helm",
+  "url": "https://github.com/eric-hansen/helm-sql-connect",
+  "stars": 3,
+  "updated": "2017-03-19T12:51:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-sql-connect",
+    "fetcher": "github",
+    "repo": "eric-hansen/helm-sql-connect"
+  }
+}

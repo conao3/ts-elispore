@@ -1,0 +1,18 @@
+{
+  "id": 63703142,
+  "name": "davidlandry93/helm-ros",
+  "description": "A set of helm sources for ros",
+  "url": "https://github.com/davidlandry93/helm-ros",
+  "stars": 4,
+  "updated": "2016-08-12T17:54:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-ros",
+    "fetcher": "github",
+    "repo": "davidlandry93/helm-ros"
+  }
+}

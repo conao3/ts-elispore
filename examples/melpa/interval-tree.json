@@ -1,0 +1,18 @@
+{
+  "id": 8990838,
+  "name": "Fuco1/interval-tree",
+  "description": "Interval tree implementation in emacs lisp",
+  "url": "https://github.com/Fuco1/interval-tree",
+  "stars": 1,
+  "updated": "2013-03-25T14:08:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "interval-tree",
+    "fetcher": "github",
+    "repo": "Fuco1/interval-tree"
+  }
+}

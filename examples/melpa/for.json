@@ -1,0 +1,18 @@
+{
+  "id": 516753863,
+  "name": "usaoc/elisp-for",
+  "description": "Racket-inspired iteration and sequence forms for Elisp",
+  "url": "https://github.com/usaoc/elisp-for",
+  "stars": 17,
+  "updated": "2026-04-17T05:34:49Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "for",
+    "fetcher": "github",
+    "repo": "usaoc/elisp-for"
+  }
+}

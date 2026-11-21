@@ -1,0 +1,19 @@
+{
+  "id": 564579006,
+  "name": "stuhlmueller/gpt.el",
+  "description": "A simple Emacs package for calling instruction-following language models",
+  "url": "https://github.com/stuhlmueller/gpt.el",
+  "stars": 80,
+  "updated": "2026-09-06T22:47:55Z",
+  "archived": false,
+  "topics": ["chatgpt", "emacs", "gpt4", "openai"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gpt",
+    "fetcher": "github",
+    "repo": "stuhlmueller/gpt.el",
+    "files": "(:defaults \"gpt.py\" \"providers\" \"providers/*.py\")"
+  }
+}

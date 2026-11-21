@@ -1,0 +1,19 @@
+{
+  "id": 1086797395,
+  "name": "karthink/gptel-agent",
+  "description": "Agent mode for gptel",
+  "url": "https://github.com/karthink/gptel-agent",
+  "stars": 321,
+  "updated": "2026-10-12T06:00:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gptel-agent",
+    "fetcher": "github",
+    "repo": "karthink/gptel-agent",
+    "files": "(:defaults \"agents\")"
+  }
+}

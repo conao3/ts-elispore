@@ -1,0 +1,18 @@
+{
+  "id": 86309577,
+  "name": "emacs-helm/helm-navi",
+  "description": "Navigate headings and keywords provided by navi-mode and outshine using Helm",
+  "url": "https://github.com/emacs-helm/helm-navi",
+  "stars": 11,
+  "updated": "2023-05-17T11:43:14Z",
+  "archived": false,
+  "topics": ["emacs", "helm", "navi-mode", "outorg", "outshine"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-navi",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-navi"
+  }
+}

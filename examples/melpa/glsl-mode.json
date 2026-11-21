@@ -1,0 +1,18 @@
+{
+  "id": 2704466,
+  "name": "jimhourihan/glsl-mode",
+  "description": "GLSL emacs mode",
+  "url": "https://github.com/jimhourihan/glsl-mode",
+  "stars": 105,
+  "updated": "2026-10-17T16:08:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "glsl-mode",
+    "fetcher": "github",
+    "repo": "jimhourihan/glsl-mode"
+  }
+}

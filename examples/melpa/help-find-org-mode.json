@@ -1,0 +1,18 @@
+{
+  "id": 33055646,
+  "name": "emacsorphanage/help-find-org-mode",
+  "description": "Advise help functions to find org babel source blocks instead of tangled source",
+  "url": "https://github.com/emacsorphanage/help-find-org-mode",
+  "stars": 4,
+  "updated": "2018-12-15T20:15:10Z",
+  "archived": false,
+  "topics": ["babel-source", "emacs", "emacs-lisp", "gnu", "package"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "help-find-org-mode",
+    "fetcher": "github",
+    "repo": "emacsorphanage/help-find-org-mode"
+  }
+}

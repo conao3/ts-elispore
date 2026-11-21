@@ -1,0 +1,18 @@
+{
+  "id": 12307062,
+  "name": "psachin/insert-shebang",
+  "description": "An extension to insert shebang line for GNU Emacs",
+  "url": "https://github.com/psachin/insert-shebang",
+  "stars": 29,
+  "updated": "2020-12-03T16:49:59Z",
+  "archived": false,
+  "topics": ["emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "insert-shebang",
+    "fetcher": "github",
+    "repo": "psachin/insert-shebang"
+  }
+}

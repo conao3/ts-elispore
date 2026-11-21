@@ -1,0 +1,18 @@
+{
+  "id": 7224532,
+  "name": "emacsorphanage/git-gutter",
+  "description": "Emacs port of GitGutter which is Sublime Text Plugin",
+  "url": "https://github.com/emacsorphanage/git-gutter",
+  "stars": 888,
+  "updated": "2026-10-21T16:33:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "git-gutter",
+    "fetcher": "github",
+    "repo": "emacsorphanage/git-gutter"
+  }
+}

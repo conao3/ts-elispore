@@ -1,0 +1,18 @@
+{
+  "id": 1132120059,
+  "name": "ntalbs/hanfix-mode",
+  "description": "Emacs minor mode for checking Korean grammar and spelling",
+  "url": "https://github.com/ntalbs/hanfix-mode",
+  "stars": 4,
+  "updated": "2026-02-09T13:00:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hanfix-mode",
+    "fetcher": "github",
+    "repo": "ntalbs/hanfix-mode"
+  }
+}

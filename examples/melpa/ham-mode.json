@@ -1,0 +1,18 @@
+{
+  "id": 14968285,
+  "name": "Malabarba/ham-mode",
+  "description": "Html As Markdown. Transparently edit an html file using markdown.",
+  "url": "https://github.com/Malabarba/ham-mode",
+  "stars": 43,
+  "updated": "2015-08-11T13:06:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ham-mode",
+    "fetcher": "github",
+    "repo": "Malabarba/ham-mode"
+  }
+}

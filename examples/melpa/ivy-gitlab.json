@@ -1,0 +1,19 @@
+{
+  "id": 26180614,
+  "name": "nlamirault/emacs-gitlab",
+  "description": "A Gitlab client for Emacs",
+  "url": "https://github.com/nlamirault/emacs-gitlab",
+  "stars": 137,
+  "updated": "2022-01-14T14:42:32Z",
+  "archived": false,
+  "topics": ["emacs", "gitlab"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-gitlab",
+    "fetcher": "github",
+    "repo": "nlamirault/emacs-gitlab",
+    "files": "(\"ivy-gitlab.el\")"
+  }
+}

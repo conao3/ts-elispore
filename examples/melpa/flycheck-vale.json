@@ -1,0 +1,18 @@
+{
+  "id": 91247949,
+  "name": "abingham/flycheck-vale",
+  "description": "Flycheck integration for the vale natural language linter",
+  "url": "https://github.com/abingham/flycheck-vale",
+  "stars": 68,
+  "updated": "2022-09-29T06:08:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-vale",
+    "fetcher": "github",
+    "repo": "abingham/flycheck-vale"
+  }
+}

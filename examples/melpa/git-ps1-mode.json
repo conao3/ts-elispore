@@ -1,0 +1,18 @@
+{
+  "id": 34037518,
+  "name": "10sr/git-ps1-mode-el",
+  "description": "Global Minor-mode to Print __git_ps1 in Mode-line",
+  "url": "https://github.com/10sr/git-ps1-mode-el",
+  "stars": 8,
+  "updated": "2020-01-13T07:04:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-ps1-mode",
+    "fetcher": "github",
+    "repo": "10sr/git-ps1-mode-el"
+  }
+}

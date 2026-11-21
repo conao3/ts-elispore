@@ -1,0 +1,18 @@
+{
+  "id": 49737828,
+  "name": "TobiasZawada/html-check-frag",
+  "description": "Emacs minor mode for checking matching tags in html/xml text",
+  "url": "https://github.com/TobiasZawada/html-check-frag",
+  "stars": 5,
+  "updated": "2020-11-06T17:48:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "html-check-frag",
+    "fetcher": "github",
+    "repo": "TobiasZawada/html-check-frag"
+  }
+}

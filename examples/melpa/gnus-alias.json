@@ -1,0 +1,18 @@
+{
+  "id": 31767825,
+  "name": "hexmode/gnus-alias",
+  "description": "An alternative to gnus-posting-styles",
+  "url": "https://github.com/hexmode/gnus-alias",
+  "stars": 1,
+  "updated": "2026-02-24T00:28:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gnus-alias",
+    "fetcher": "github",
+    "repo": "hexmode/gnus-alias"
+  }
+}

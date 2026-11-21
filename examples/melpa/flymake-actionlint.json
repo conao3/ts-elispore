@@ -1,0 +1,18 @@
+{
+  "id": 670544678,
+  "name": "ROCKTAKEY/flymake-actionlint",
+  "description": "",
+  "url": "https://github.com/ROCKTAKEY/flymake-actionlint",
+  "stars": 5,
+  "updated": "2024-09-29T09:04:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-actionlint",
+    "fetcher": "github",
+    "repo": "ROCKTAKEY/flymake-actionlint"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 6312556,
+  "name": "jwiegley/git-annex-el",
+  "description": "Emacs integration for the git-annex tool by Joey Hess",
+  "url": "https://github.com/jwiegley/git-annex-el",
+  "stars": 46,
+  "updated": "2025-06-26T23:44:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-annex",
+    "fetcher": "github",
+    "repo": "jwiegley/git-annex-el"
+  }
+}

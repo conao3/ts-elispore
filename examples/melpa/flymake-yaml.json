@@ -1,0 +1,18 @@
+{
+  "id": 9622493,
+  "name": "yasuyk/flymake-yaml",
+  "description": "A flymake handler for YAML",
+  "url": "https://github.com/yasuyk/flymake-yaml",
+  "stars": 6,
+  "updated": "2013-12-11T12:58:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-yaml",
+    "fetcher": "github",
+    "repo": "yasuyk/flymake-yaml"
+  }
+}

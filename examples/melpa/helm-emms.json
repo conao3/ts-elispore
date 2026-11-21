@@ -1,0 +1,18 @@
+{
+  "id": 31759150,
+  "name": "emacs-helm/helm-emms",
+  "description": "Helm interface to EMMS",
+  "url": "https://github.com/emacs-helm/helm-emms",
+  "stars": 20,
+  "updated": "2026-01-02T05:37:13Z",
+  "archived": false,
+  "topics": ["emacs", "emms", "helm", "music"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-emms",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-emms"
+  }
+}

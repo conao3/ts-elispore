@@ -1,0 +1,18 @@
+{
+  "id": 857621787,
+  "name": "larme/genexpr-mode",
+  "description": "A emacs mode for developing GenExpr",
+  "url": "https://github.com/larme/genexpr-mode",
+  "stars": 1,
+  "updated": "2026-07-01T14:00:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "genexpr-mode",
+    "fetcher": "github",
+    "repo": "larme/genexpr-mode"
+  }
+}

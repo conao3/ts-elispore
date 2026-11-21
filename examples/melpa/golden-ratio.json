@@ -1,0 +1,18 @@
+{
+  "id": 6206079,
+  "name": "roman/golden-ratio.el",
+  "description": "Automatic resizing of Emacs windows to the golden ratio",
+  "url": "https://github.com/roman/golden-ratio.el",
+  "stars": 633,
+  "updated": "2023-09-12T18:25:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "golden-ratio",
+    "fetcher": "github",
+    "repo": "roman/golden-ratio.el"
+  }
+}

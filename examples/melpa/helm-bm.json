@@ -1,0 +1,18 @@
+{
+  "id": 833680169,
+  "name": "emacs-helm/helm-bm",
+  "description": "helm sources for bm.el",
+  "url": "https://github.com/emacs-helm/helm-bm",
+  "stars": 0,
+  "updated": "2024-08-12T17:35:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-bm",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-bm"
+  }
+}

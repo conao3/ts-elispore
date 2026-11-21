@@ -1,0 +1,19 @@
+{
+  "id": 17230808,
+  "name": "kawabata/ids-edit",
+  "description": "Ideographic Description Sequence editing tool for Emacs",
+  "url": "https://github.com/kawabata/ids-edit",
+  "stars": 12,
+  "updated": "2017-08-18T15:03:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ids-edit",
+    "fetcher": "github",
+    "repo": "kawabata/ids-edit",
+    "files": "(\"ids-edit.el\" \"ids-cdp.txt\" \"ucs-strokes.txt\")"
+  }
+}

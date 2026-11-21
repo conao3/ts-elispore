@@ -1,0 +1,18 @@
+{
+  "id": 51879003,
+  "name": "mbuczko/helm-clojuredocs",
+  "description": "Searching for help in clojurdocs.org with helm",
+  "url": "https://github.com/mbuczko/helm-clojuredocs",
+  "stars": 10,
+  "updated": "2016-04-05T07:23:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-clojuredocs",
+    "fetcher": "github",
+    "repo": "mbuczko/helm-clojuredocs"
+  }
+}

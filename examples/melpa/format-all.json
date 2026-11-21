@@ -1,0 +1,18 @@
+{
+  "id": 126598073,
+  "name": "lassik/emacs-format-all-the-code",
+  "description": "Auto-format source code in many languages with one command",
+  "url": "https://github.com/lassik/emacs-format-all-the-code",
+  "stars": 683,
+  "updated": "2026-06-20T18:24:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "format-all",
+    "fetcher": "github",
+    "repo": "lassik/emacs-format-all-the-code"
+  }
+}

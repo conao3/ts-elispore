@@ -1,0 +1,18 @@
+{
+  "id": 10561556,
+  "name": "jacott/handlebars-sgml-mode",
+  "description": "This package provides Handlebars support for Emacs sgml-mode (html).",
+  "url": "https://github.com/jacott/handlebars-sgml-mode",
+  "stars": 6,
+  "updated": "2015-11-21T21:12:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "handlebars-sgml-mode",
+    "fetcher": "github",
+    "repo": "jacott/handlebars-sgml-mode"
+  }
+}

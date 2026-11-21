@@ -1,0 +1,18 @@
+{
+  "id": 30131901,
+  "name": "dfdeshom/helm-mt",
+  "description": "Helm bindings for managing multi-term terminals",
+  "url": "https://github.com/dfdeshom/helm-mt",
+  "stars": 21,
+  "updated": "2020-11-08T00:02:04Z",
+  "archived": false,
+  "topics": ["emacs", "helm-bindings", "melpa"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-mt",
+    "fetcher": "github",
+    "repo": "dfdeshom/helm-mt"
+  }
+}

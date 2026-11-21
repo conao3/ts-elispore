@@ -1,0 +1,18 @@
+{
+  "id": 242149969,
+  "name": "bepvte/gtk-variant.el",
+  "description": "A package to set the GTK titlebar color of emacs",
+  "url": "https://github.com/bepvte/gtk-variant.el",
+  "stars": 3,
+  "updated": "2021-05-29T19:09:05Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gtk-variant",
+    "fetcher": "github",
+    "repo": "bepvte/gtk-variant.el"
+  }
+}

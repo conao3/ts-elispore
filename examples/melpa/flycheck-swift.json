@@ -1,0 +1,26 @@
+{
+  "id": 67872476,
+  "name": "swift-emacs/flycheck-swift",
+  "description": "Flycheck extension for Apple's Swift programming language.",
+  "url": "https://github.com/swift-emacs/flycheck-swift",
+  "stars": 13,
+  "updated": "2017-09-09T11:13:41Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-lisp",
+    "flycheck",
+    "flycheck-extension",
+    "flycheck-swift",
+    "swift",
+    "swift-programming-language"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-swift",
+    "fetcher": "github",
+    "repo": "swift-emacs/flycheck-swift"
+  }
+}

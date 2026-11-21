@@ -1,0 +1,18 @@
+{
+  "id": 383219715,
+  "name": "axelf4/hotfuzz",
+  "description": "🚓 Fuzzy Emacs completion style",
+  "url": "https://github.com/axelf4/hotfuzz",
+  "stars": 139,
+  "updated": "2025-01-23T19:07:47Z",
+  "archived": false,
+  "topics": ["emacs", "fuzzy-search"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hotfuzz",
+    "fetcher": "github",
+    "repo": "axelf4/hotfuzz"
+  }
+}

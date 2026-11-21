@@ -1,0 +1,30 @@
+{
+  "id": 336384611,
+  "name": "Justintime50/github-dark-vscode-emacs-theme",
+  "description": "The GitHub Dark Theme from Visual Studio Code ported to Emacs.",
+  "url": "https://github.com/Justintime50/github-dark-vscode-emacs-theme",
+  "stars": 12,
+  "updated": "2026-07-06T21:36:00Z",
+  "archived": false,
+  "topics": [
+    "code",
+    "dark",
+    "dark-theme",
+    "emacs",
+    "github",
+    "lisp",
+    "port",
+    "studio",
+    "theme",
+    "visual",
+    "vscode"
+  ],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "github-dark-vscode-theme",
+    "fetcher": "github",
+    "repo": "Justintime50/github-dark-vscode-emacs-theme"
+  }
+}

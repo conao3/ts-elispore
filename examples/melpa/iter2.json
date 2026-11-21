@@ -1,0 +1,18 @@
+{
+  "id": 108428720,
+  "name": "doublep/iter2",
+  "description": "Reimplementation of Elisp generators",
+  "url": "https://github.com/doublep/iter2",
+  "stars": 14,
+  "updated": "2025-11-21T15:09:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "iter2",
+    "fetcher": "github",
+    "repo": "doublep/iter2"
+  }
+}

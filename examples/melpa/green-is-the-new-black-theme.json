@@ -1,0 +1,18 @@
+{
+  "id": 101330577,
+  "name": "fredcamps/green-is-the-new-black-emacs",
+  "description": "A blackened and minimalist Emacs theme",
+  "url": "https://github.com/fredcamps/green-is-the-new-black-emacs",
+  "stars": 15,
+  "updated": "2023-08-28T22:25:20Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-packages", "emacs-theme"],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "green-is-the-new-black-theme",
+    "fetcher": "github",
+    "repo": "fredcamps/green-is-the-new-black-emacs"
+  }
+}

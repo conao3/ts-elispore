@@ -1,0 +1,18 @@
+{
+  "id": 420365878,
+  "name": "jollm/fontsloth",
+  "description": "inspired by fontdue, an OTF/TTF font loader and renderer written in pure elisp",
+  "url": "https://github.com/jollm/fontsloth",
+  "stars": 7,
+  "updated": "2026-11-14T13:56:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fontsloth",
+    "fetcher": "github",
+    "repo": "jollm/fontsloth"
+  }
+}

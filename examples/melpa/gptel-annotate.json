@@ -1,0 +1,18 @@
+{
+  "id": 1336963289,
+  "name": "karthink/gptel-annotate",
+  "description": "Annotate files and buffers with LLM responses",
+  "url": "https://github.com/karthink/gptel-annotate",
+  "stars": 23,
+  "updated": "2026-09-28T01:22:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gptel-annotate",
+    "fetcher": "github",
+    "repo": "karthink/gptel-annotate"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 37880616,
+  "name": "Lindydancer/highlight2clipboard",
+  "description": "Copy text from Emacs to clipboard with highlighting",
+  "url": "https://github.com/Lindydancer/highlight2clipboard",
+  "stars": 16,
+  "updated": "2024-05-16T19:42:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "highlight2clipboard",
+    "fetcher": "github",
+    "repo": "Lindydancer/highlight2clipboard",
+    "files": "(:defaults \"bin\")"
+  }
+}

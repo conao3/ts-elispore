@@ -1,0 +1,18 @@
+{
+  "id": 67349750,
+  "name": "Alexander-Miller/i3wm-Config-Mode",
+  "description": "",
+  "url": "https://github.com/Alexander-Miller/i3wm-Config-Mode",
+  "stars": 29,
+  "updated": "2022-09-13T11:21:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "i3wm-config-mode",
+    "fetcher": "github",
+    "repo": "Alexander-Miller/i3wm-Config-Mode"
+  }
+}

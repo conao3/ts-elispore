@@ -1,0 +1,19 @@
+{
+  "id": 23416224,
+  "name": "abingham/emacs-ycmd",
+  "description": "Emacs client for ycmd, the code completion system.",
+  "url": "https://github.com/abingham/emacs-ycmd",
+  "stars": 377,
+  "updated": "2022-01-20T19:04:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-ycmd",
+    "fetcher": "github",
+    "repo": "abingham/emacs-ycmd",
+    "files": "(\"flycheck-ycmd.el\")"
+  }
+}

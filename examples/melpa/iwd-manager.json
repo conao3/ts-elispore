@@ -1,0 +1,19 @@
+{
+  "id": 611194089,
+  "name": "sarg/wifi-manager",
+  "description": "Emacs package to manage wpa_supplicant via the D-Bus interface",
+  "url": "https://github.com/sarg/wifi-manager",
+  "stars": 2,
+  "updated": "2026-08-30T05:47:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "iwd-manager",
+    "fetcher": "github",
+    "repo": "sarg/wifi-manager",
+    "files": "(\"iwd-manager.el\")"
+  }
+}

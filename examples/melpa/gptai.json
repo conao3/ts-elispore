@@ -1,0 +1,18 @@
+{
+  "id": 599386973,
+  "name": "antonhibl/gptai",
+  "description": "OpenAI API toolings for emacs. Allows interacting with various GPT and DALL-E Models directly in emacs",
+  "url": "https://github.com/antonhibl/gptai",
+  "stars": 69,
+  "updated": "2025-02-20T17:35:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gptai",
+    "fetcher": "github",
+    "repo": "antonhibl/gptai"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 886969274,
+  "name": "KeyWeeUsr/imgur",
+  "description": "Imgur client for Emacs",
+  "url": "https://github.com/KeyWeeUsr/imgur",
+  "stars": 2,
+  "updated": "2024-12-01T15:15:36Z",
+  "archived": false,
+  "topics": ["client", "elisp", "emacs", "imgur", "melpa", "melpa-badge", "package", "upload"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "imgur",
+    "fetcher": "github",
+    "repo": "KeyWeeUsr/imgur"
+  }
+}

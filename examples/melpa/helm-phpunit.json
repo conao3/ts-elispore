@@ -1,0 +1,18 @@
+{
+  "id": 58634186,
+  "name": "eric-hansen/helm-phpunit",
+  "description": "Helm integration with phpunit.el",
+  "url": "https://github.com/eric-hansen/helm-phpunit",
+  "stars": 1,
+  "updated": "2016-05-13T08:53:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-phpunit",
+    "fetcher": "github",
+    "repo": "eric-hansen/helm-phpunit"
+  }
+}

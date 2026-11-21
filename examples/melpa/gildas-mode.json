@@ -1,0 +1,18 @@
+{
+  "id": 22870127,
+  "name": "smaret/gildas-mode",
+  "description": "Emacs mode for Gildas",
+  "url": "https://github.com/smaret/gildas-mode",
+  "stars": 2,
+  "updated": "2018-10-22T06:49:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gildas-mode",
+    "fetcher": "github",
+    "repo": "smaret/gildas-mode"
+  }
+}

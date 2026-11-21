@@ -1,0 +1,18 @@
+{
+  "id": 68432379,
+  "name": "hex2010/emacs-ivy-xcdoc",
+  "description": "Search Xcode documents with ivy interface, within GNU Emacs.",
+  "url": "https://github.com/hex2010/emacs-ivy-xcdoc",
+  "stars": 3,
+  "updated": "2016-09-17T12:04:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-xcdoc",
+    "fetcher": "github",
+    "repo": "hex2010/emacs-ivy-xcdoc"
+  }
+}

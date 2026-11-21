@@ -1,0 +1,18 @@
+{
+  "id": 37178263,
+  "name": "xuchunyang/helm-fuzzy-find",
+  "description": "Find files using Fuzzy Search",
+  "url": "https://github.com/xuchunyang/helm-fuzzy-find",
+  "stars": 5,
+  "updated": "2017-11-06T04:02:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-fuzzy-find",
+    "fetcher": "github",
+    "repo": "xuchunyang/helm-fuzzy-find"
+  }
+}

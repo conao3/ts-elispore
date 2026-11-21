@@ -1,0 +1,18 @@
+{
+  "id": 826338756,
+  "name": "vhqr0/helm-roam",
+  "description": "",
+  "url": "https://github.com/vhqr0/helm-roam",
+  "stars": 0,
+  "updated": "2024-07-23T14:43:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-roam",
+    "fetcher": "github",
+    "repo": "vhqr0/helm-roam"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 99861036,
+  "name": "alphapapa/highlight-function-calls",
+  "description": "Highlight function/macro calls in Emacs",
+  "url": "https://github.com/alphapapa/highlight-function-calls",
+  "stars": 25,
+  "updated": "2024-09-22T18:30:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "highlight-function-calls",
+    "fetcher": "github",
+    "repo": "alphapapa/highlight-function-calls"
+  }
+}

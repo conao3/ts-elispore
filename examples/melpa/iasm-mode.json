@@ -1,0 +1,18 @@
+{
+  "id": 10445698,
+  "name": "RAttab/iasm-mode",
+  "description": "Interactive assembly mode for emacs",
+  "url": "https://github.com/RAttab/iasm-mode",
+  "stars": 15,
+  "updated": "2017-10-23T14:22:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "iasm-mode",
+    "fetcher": "github",
+    "repo": "RAttab/iasm-mode"
+  }
+}

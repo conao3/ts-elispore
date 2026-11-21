@@ -1,0 +1,18 @@
+{
+  "id": 194549975,
+  "name": "s-kostyaev/flymake-go-staticcheck",
+  "description": "Flymake backend for Go using staticcheck.",
+  "url": "https://github.com/s-kostyaev/flymake-go-staticcheck",
+  "stars": 4,
+  "updated": "2022-08-04T19:07:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-go-staticcheck",
+    "fetcher": "github",
+    "repo": "s-kostyaev/flymake-go-staticcheck"
+  }
+}

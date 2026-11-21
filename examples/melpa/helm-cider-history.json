@@ -1,0 +1,18 @@
+{
+  "id": 39325993,
+  "name": "Kungi/helm-cider-history",
+  "description": "A helm resource for displaying the cider history.",
+  "url": "https://github.com/Kungi/helm-cider-history",
+  "stars": 2,
+  "updated": "2015-07-19T21:21:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-cider-history",
+    "fetcher": "github",
+    "repo": "Kungi/helm-cider-history"
+  }
+}

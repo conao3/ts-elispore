@@ -1,0 +1,18 @@
+{
+  "id": 1539766,
+  "name": "slackorama/io-emacs",
+  "description": "Inferior mode for the Io language.",
+  "url": "https://github.com/slackorama/io-emacs",
+  "stars": 7,
+  "updated": "2014-01-28T19:34:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "io-mode-inf",
+    "fetcher": "github",
+    "repo": "slackorama/io-emacs"
+  }
+}

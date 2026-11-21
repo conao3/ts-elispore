@@ -1,0 +1,18 @@
+{
+  "id": 176368788,
+  "name": "waymondo/frog-jump-buffer",
+  "description": "The fastest buffer-jumping Emacs lisp package around",
+  "url": "https://github.com/waymondo/frog-jump-buffer",
+  "stars": 166,
+  "updated": "2025-12-28T05:56:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "frog-jump-buffer",
+    "fetcher": "github",
+    "repo": "waymondo/frog-jump-buffer"
+  }
+}

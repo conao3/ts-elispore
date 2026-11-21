@@ -1,0 +1,18 @@
+{
+  "id": 20410615,
+  "name": "yuutayamada/gold-mode-el",
+  "description": "Emacs's major-mode for editing .gold files",
+  "url": "https://github.com/yuutayamada/gold-mode-el",
+  "stars": 1,
+  "updated": "2014-06-07T06:46:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gold-mode",
+    "fetcher": "github",
+    "repo": "yuutayamada/gold-mode-el"
+  }
+}

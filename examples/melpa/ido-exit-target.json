@@ -1,0 +1,18 @@
+{
+  "id": 41892058,
+  "name": "waymondo/ido-exit-target",
+  "description": "Commands and keys for selecting other window and frame targets within ido",
+  "url": "https://github.com/waymondo/ido-exit-target",
+  "stars": 0,
+  "updated": "2017-07-17T18:51:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ido-exit-target",
+    "fetcher": "github",
+    "repo": "waymondo/ido-exit-target"
+  }
+}

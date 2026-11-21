@@ -1,0 +1,18 @@
+{
+  "id": 128037488,
+  "name": "emacsattic/fold-dwim",
+  "description": "",
+  "url": "https://github.com/emacsattic/fold-dwim",
+  "stars": 1,
+  "updated": "2018-04-04T09:11:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "fold-dwim",
+    "fetcher": "github",
+    "repo": "emacsattic/fold-dwim"
+  }
+}

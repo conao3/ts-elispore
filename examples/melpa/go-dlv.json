@@ -1,0 +1,18 @@
+{
+  "id": 38899888,
+  "name": "benma/go-dlv.el",
+  "description": "Go Delve - Debug Go programs interactively with the GUD.",
+  "url": "https://github.com/benma/go-dlv.el",
+  "stars": 99,
+  "updated": "2022-01-26T14:36:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go-dlv",
+    "fetcher": "github",
+    "repo": "benma/go-dlv.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 98239830,
+  "name": "msherry/flycheck-pycheckers",
+  "description": "Multiple syntax checker for Python in Emacs, using Flycheck",
+  "url": "https://github.com/msherry/flycheck-pycheckers",
+  "stars": 65,
+  "updated": "2026-06-24T04:39:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Python",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-pycheckers",
+    "fetcher": "github",
+    "repo": "msherry/flycheck-pycheckers",
+    "files": "(:defaults (\"bin\" \"bin/pycheckers.py\"))"
+  }
+}

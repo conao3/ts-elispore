@@ -1,0 +1,18 @@
+{
+  "id": 215251059,
+  "name": "emacs-helm/helm-sly",
+  "description": "Helm for SLY",
+  "url": "https://github.com/emacs-helm/helm-sly",
+  "stars": 15,
+  "updated": "2021-02-05T14:26:48Z",
+  "archived": false,
+  "topics": ["common-lisp", "emacs", "helm", "lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-sly",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-sly"
+  }
+}

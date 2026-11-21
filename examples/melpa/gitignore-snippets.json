@@ -1,0 +1,19 @@
+{
+  "id": 312860484,
+  "name": "sei40kr/gitignore-snippets",
+  "description": "gitignore.io templates for yasnippet",
+  "url": "https://github.com/sei40kr/gitignore-snippets",
+  "stars": 1,
+  "updated": "2020-12-12T20:07:24Z",
+  "archived": false,
+  "topics": ["yasnippets"],
+  "license": "GPL-3.0",
+  "language": "YASnippet",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gitignore-snippets",
+    "fetcher": "github",
+    "repo": "sei40kr/gitignore-snippets",
+    "files": "(:defaults \"snippets\")"
+  }
+}

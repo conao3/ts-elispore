@@ -1,0 +1,18 @@
+{
+  "id": 3998236,
+  "name": "rlister/emacs-haste-client",
+  "description": "Native emacs lisp client for hastebin.com.",
+  "url": "https://github.com/rlister/emacs-haste-client",
+  "stars": 5,
+  "updated": "2017-01-26T05:25:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "haste",
+    "fetcher": "github",
+    "repo": "rlister/emacs-haste-client"
+  }
+}

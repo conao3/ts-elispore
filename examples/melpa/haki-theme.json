@@ -1,0 +1,18 @@
+{
+  "id": 654187211,
+  "name": "idlip/haki",
+  "description": "🎨 Pleasant, Dark theme in Modern Sense for Emacs",
+  "url": "https://github.com/idlip/haki",
+  "stars": 42,
+  "updated": "2025-05-14T10:23:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "haki-theme",
+    "fetcher": "github",
+    "repo": "idlip/haki"
+  }
+}

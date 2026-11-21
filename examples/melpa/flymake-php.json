@@ -1,0 +1,18 @@
+{
+  "id": 2599860,
+  "name": "purcell/flymake-php",
+  "description": "Emacs flymake syntax-checker for php files",
+  "url": "https://github.com/purcell/flymake-php",
+  "stars": 16,
+  "updated": "2026-04-22T12:28:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-php",
+    "fetcher": "github",
+    "repo": "purcell/flymake-php"
+  }
+}

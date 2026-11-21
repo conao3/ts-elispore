@@ -1,0 +1,18 @@
+{
+  "id": 3658017,
+  "name": "lightquake/hamlet-mode",
+  "description": "Emacs major mode for editing Hamlet files",
+  "url": "https://github.com/lightquake/hamlet-mode",
+  "stars": 8,
+  "updated": "2022-01-12T23:35:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hamlet-mode",
+    "fetcher": "github",
+    "repo": "lightquake/hamlet-mode"
+  }
+}

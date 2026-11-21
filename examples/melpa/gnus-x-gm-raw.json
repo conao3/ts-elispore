@@ -1,0 +1,18 @@
+{
+  "id": 20675095,
+  "name": "aki2o/gnus-x-gm-raw",
+  "description": "Search mail of Gmail using X-GM-RAW as web interface",
+  "url": "https://github.com/aki2o/gnus-x-gm-raw",
+  "stars": 2,
+  "updated": "2014-11-22T00:20:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gnus-x-gm-raw",
+    "fetcher": "github",
+    "repo": "aki2o/gnus-x-gm-raw"
+  }
+}

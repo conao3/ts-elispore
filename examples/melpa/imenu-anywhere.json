@@ -1,0 +1,18 @@
+{
+  "id": 8344215,
+  "name": "vspinu/imenu-anywhere",
+  "description": "ido/ivy/helm imenu tag selection across buffers with the same mode/project etc ",
+  "url": "https://github.com/vspinu/imenu-anywhere",
+  "stars": 131,
+  "updated": "2021-02-01T17:05:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "imenu-anywhere",
+    "fetcher": "github",
+    "repo": "vspinu/imenu-anywhere"
+  }
+}

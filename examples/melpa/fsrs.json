@@ -1,0 +1,18 @@
+{
+  "id": 891601826,
+  "name": "open-spaced-repetition/lisp-fsrs",
+  "description": "Common/Emacs Lisp implementation for FSRS",
+  "url": "https://github.com/open-spaced-repetition/lisp-fsrs",
+  "stars": 34,
+  "updated": "2025-11-19T16:31:16Z",
+  "archived": false,
+  "topics": ["emacs", "fsrs", "lisp", "spaced-repetition"],
+  "license": "MIT",
+  "language": "Common Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "fsrs",
+    "fetcher": "github",
+    "repo": "open-spaced-repetition/lisp-fsrs"
+  }
+}

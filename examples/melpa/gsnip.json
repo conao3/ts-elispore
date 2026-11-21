@@ -1,0 +1,18 @@
+{
+  "id": 277270125,
+  "name": "kaiwk/gsnip",
+  "description": "A Gitlab Snippet Client.",
+  "url": "https://github.com/kaiwk/gsnip",
+  "stars": 3,
+  "updated": "2022-02-06T15:26:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gsnip",
+    "fetcher": "github",
+    "repo": "kaiwk/gsnip"
+  }
+}

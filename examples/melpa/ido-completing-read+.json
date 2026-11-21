@@ -1,0 +1,18 @@
+{
+  "id": 2435411,
+  "name": "DarwinAwardWinner/ido-completing-read-plus",
+  "description": "Fancy completion all over Emacs, not just for buffers and files.",
+  "url": "https://github.com/DarwinAwardWinner/ido-completing-read-plus",
+  "stars": 251,
+  "updated": "2024-12-28T01:13:12Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-completion", "ido"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ido-completing-read+",
+    "fetcher": "github",
+    "repo": "DarwinAwardWinner/ido-completing-read-plus"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 483640001,
+  "name": "Raku/flymake-rakudo",
+  "description": "Raku(do) support for Flymake",
+  "url": "https://github.com/Raku/flymake-rakudo",
+  "stars": 3,
+  "updated": "2022-04-25T04:54:23Z",
+  "archived": false,
+  "topics": ["emacs", "flymake", "raku", "rakudo", "syntax-checker"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flymake-rakudo",
+    "fetcher": "github",
+    "repo": "Raku/flymake-rakudo"
+  }
+}

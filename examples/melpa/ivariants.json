@@ -1,0 +1,19 @@
+{
+  "id": 18037213,
+  "name": "kawabata/emacs-ivariants",
+  "description": "Ideographic Variants Editor and Browser for Emacs.",
+  "url": "https://github.com/kawabata/emacs-ivariants",
+  "stars": 1,
+  "updated": "2017-08-23T14:30:43Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivariants",
+    "fetcher": "github",
+    "repo": "kawabata/emacs-ivariants",
+    "files": "(\"ivariants*.el\" \"tables\")"
+  }
+}

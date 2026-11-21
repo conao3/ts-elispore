@@ -1,0 +1,18 @@
+{
+  "id": 44936594,
+  "name": "zonuexe/init-open-recentf.el",
+  "description": "open-recentf on Emacs startup",
+  "url": "https://github.com/zonuexe/init-open-recentf.el",
+  "stars": 8,
+  "updated": "2022-02-20T20:04:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "init-open-recentf",
+    "fetcher": "github",
+    "repo": "zonuexe/init-open-recentf.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 7971503,
+  "name": "rrthomas/inform-mode",
+  "description": "An Emacs major mode for editing Inform 6 source code.",
+  "url": "https://github.com/rrthomas/inform-mode",
+  "stars": 8,
+  "updated": "2025-06-02T23:51:42Z",
+  "archived": false,
+  "topics": ["emacs", "inform", "inform6", "interactive-fiction"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "inform-mode",
+    "fetcher": "github",
+    "repo": "rrthomas/inform-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 22594063,
+  "name": "dgtized/github-clone.el",
+  "description": "Fork and clone Github projects from Emacs",
+  "url": "https://github.com/dgtized/github-clone.el",
+  "stars": 57,
+  "updated": "2021-01-08T19:32:49Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "github-clone",
+    "fetcher": "github",
+    "repo": "dgtized/github-clone.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 6314666,
+  "name": "mkmcc/gnuplot-mode",
+  "description": "An emacs major mode for editing gnuplot scripts.",
+  "url": "https://github.com/mkmcc/gnuplot-mode",
+  "stars": 31,
+  "updated": "2024-03-17T13:00:21Z",
+  "archived": false,
+  "topics": ["emacs-packages", "gnuplot"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gnuplot-mode",
+    "fetcher": "github",
+    "repo": "mkmcc/gnuplot-mode"
+  }
+}

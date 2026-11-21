@@ -1,0 +1,18 @@
+{
+  "id": 260917439,
+  "name": "vifon/hyperlist-mode",
+  "description": "An Emacs major-mode for Hyperlists",
+  "url": "https://github.com/vifon/hyperlist-mode",
+  "stars": 5,
+  "updated": "2023-01-19T00:31:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hyperlist-mode",
+    "fetcher": "github",
+    "repo": "vifon/hyperlist-mode"
+  }
+}

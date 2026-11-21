@@ -1,0 +1,18 @@
+{
+  "id": 93987079,
+  "name": "mandoku/helm-charinfo",
+  "description": "Helm interface to the readings of Chinese characters",
+  "url": "https://github.com/mandoku/helm-charinfo",
+  "stars": 1,
+  "updated": "2017-08-10T12:31:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-charinfo",
+    "fetcher": "github",
+    "repo": "mandoku/helm-charinfo"
+  }
+}

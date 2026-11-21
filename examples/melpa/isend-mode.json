@@ -1,0 +1,18 @@
+{
+  "id": 6756620,
+  "name": "ffevotte/isend-mode.el",
+  "description": "Interactively send parts of an Emacs buffer to an interpreter",
+  "url": "https://github.com/ffevotte/isend-mode.el",
+  "stars": 82,
+  "updated": "2025-01-15T21:05:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "isend-mode",
+    "fetcher": "github",
+    "repo": "ffevotte/isend-mode.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 845520956,
+  "name": "ErikPrantare/hatty.el",
+  "description": "Instantly address any visible text in Emacs via hats",
+  "url": "https://github.com/ErikPrantare/hatty.el",
+  "stars": 33,
+  "updated": "2026-10-18T13:09:54Z",
+  "archived": false,
+  "topics": ["cursorless", "emacs"],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hatty",
+    "fetcher": "github",
+    "repo": "ErikPrantare/hatty.el"
+  }
+}

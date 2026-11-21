@@ -1,0 +1,18 @@
+{
+  "id": 354082620,
+  "name": "emacs-languagetool/flymake-languagetool",
+  "description": "Flymake support for LanguageTool",
+  "url": "https://github.com/emacs-languagetool/flymake-languagetool",
+  "stars": 48,
+  "updated": "2026-06-18T17:30:55Z",
+  "archived": false,
+  "topics": ["checker", "emacs", "flymake", "languagetool"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flymake-languagetool",
+    "fetcher": "github",
+    "repo": "emacs-languagetool/flymake-languagetool"
+  }
+}

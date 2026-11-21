@@ -1,0 +1,18 @@
+{
+  "id": 684907494,
+  "name": "emacs-helm/helm-comint",
+  "description": "",
+  "url": "https://github.com/emacs-helm/helm-comint",
+  "stars": 1,
+  "updated": "2023-11-02T20:29:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-comint",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-comint"
+  }
+}

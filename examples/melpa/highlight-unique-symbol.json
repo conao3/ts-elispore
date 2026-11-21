@@ -1,0 +1,18 @@
+{
+  "id": 8138583,
+  "name": "hitode909/emacs-highlight-unique-symbol",
+  "description": "typo finder",
+  "url": "https://github.com/hitode909/emacs-highlight-unique-symbol",
+  "stars": 16,
+  "updated": "2014-09-08T02:45:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "highlight-unique-symbol",
+    "fetcher": "github",
+    "repo": "hitode909/emacs-highlight-unique-symbol"
+  }
+}

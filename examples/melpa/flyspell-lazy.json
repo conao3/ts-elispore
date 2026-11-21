@@ -1,0 +1,18 @@
+{
+  "id": 5642461,
+  "name": "rolandwalker/flyspell-lazy",
+  "description": "Improve Emacs flyspell responsiveness using idle timers",
+  "url": "https://github.com/rolandwalker/flyspell-lazy",
+  "stars": 47,
+  "updated": "2021-03-08T12:53:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flyspell-lazy",
+    "fetcher": "github",
+    "repo": "rolandwalker/flyspell-lazy"
+  }
+}

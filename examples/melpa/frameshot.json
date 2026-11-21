@@ -1,0 +1,18 @@
+{
+  "id": 122976653,
+  "name": "tarsius/frameshot",
+  "description": "Take screenshots of a frame",
+  "url": "https://github.com/tarsius/frameshot",
+  "stars": 51,
+  "updated": "2026-10-01T16:16:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "frameshot",
+    "fetcher": "github",
+    "repo": "tarsius/frameshot"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 24778375,
+  "name": "gergelypolonkai/gobgen.el",
+  "description": "",
+  "url": "https://github.com/gergelypolonkai/gobgen.el",
+  "stars": 3,
+  "updated": "2016-10-20T15:25:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gobgen",
+    "fetcher": "github",
+    "repo": "gergelypolonkai/gobgen.el"
+  }
+}

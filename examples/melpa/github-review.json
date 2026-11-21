@@ -1,0 +1,18 @@
+{
+  "id": 170053241,
+  "name": "charignon/github-review",
+  "description": "Github code reviews with Emacs.",
+  "url": "https://github.com/charignon/github-review",
+  "stars": 334,
+  "updated": "2021-10-29T02:43:48Z",
+  "archived": false,
+  "topics": ["code-review", "emacs", "emacs-lisp", "github"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "github-review",
+    "fetcher": "github",
+    "repo": "charignon/github-review"
+  }
+}

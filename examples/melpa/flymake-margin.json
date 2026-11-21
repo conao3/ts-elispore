@@ -1,0 +1,18 @@
+{
+  "id": 777518388,
+  "name": "LionyxML/flymake-margin",
+  "description": "A package to provide flymake into the margin world",
+  "url": "https://github.com/LionyxML/flymake-margin",
+  "stars": 4,
+  "updated": "2025-05-19T23:57:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-margin",
+    "fetcher": "github",
+    "repo": "LionyxML/flymake-margin"
+  }
+}

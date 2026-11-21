@@ -1,0 +1,18 @@
+{
+  "id": 14077023,
+  "name": "Sliim/helm-github-stars",
+  "description": "Browse your starred repositories with Emacs helm interface",
+  "url": "https://github.com/Sliim/helm-github-stars",
+  "stars": 69,
+  "updated": "2019-04-28T10:48:34Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "github", "helm"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-github-stars",
+    "fetcher": "github",
+    "repo": "Sliim/helm-github-stars"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 252500453,
+  "name": "oantolin/icomplete-vertical",
+  "description": "Global Emacs minor mode to display icomplete candidates vertically",
+  "url": "https://github.com/oantolin/icomplete-vertical",
+  "stars": 94,
+  "updated": "2022-04-18T21:19:55Z",
+  "archived": false,
+  "topics": ["completion", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "icomplete-vertical",
+    "fetcher": "github",
+    "repo": "oantolin/icomplete-vertical"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 188655979,
+  "name": "masutaka/emacs-helm-esa",
+  "description": "Helm interface for esa (\\( ⁰⊖⁰)/)",
+  "url": "https://github.com/masutaka/emacs-helm-esa",
+  "stars": 1,
+  "updated": "2019-07-21T14:30:19Z",
+  "archived": false,
+  "topics": ["emacs-helm", "emacs-lisp", "esa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-esa",
+    "fetcher": "github",
+    "repo": "masutaka/emacs-helm-esa"
+  }
+}

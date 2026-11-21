@@ -1,0 +1,18 @@
+{
+  "id": 18485445,
+  "name": "aki2o/guide-key-tip",
+  "description": "Interface of guide-key.el using pos-tip.el in Emacs",
+  "url": "https://github.com/aki2o/guide-key-tip",
+  "stars": 29,
+  "updated": "2016-10-11T08:23:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "guide-key-tip",
+    "fetcher": "github",
+    "repo": "aki2o/guide-key-tip"
+  }
+}

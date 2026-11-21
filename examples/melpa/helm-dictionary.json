@@ -1,0 +1,18 @@
+{
+  "id": 13827331,
+  "name": "emacs-helm/helm-dictionary",
+  "description": "Helm source for looking up dictionaries",
+  "url": "https://github.com/emacs-helm/helm-dictionary",
+  "stars": 33,
+  "updated": "2026-06-11T07:22:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-dictionary",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-dictionary"
+  }
+}

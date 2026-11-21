@@ -1,0 +1,19 @@
+{
+  "id": 78082173,
+  "name": "PythonNut/historian.el",
+  "description": " :books: Persistently store selected minibuffer candidates",
+  "url": "https://github.com/PythonNut/historian.el",
+  "stars": 29,
+  "updated": "2021-07-14T00:58:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "historian",
+    "fetcher": "github",
+    "repo": "PythonNut/historian.el",
+    "files": "(\"historian.el\")"
+  }
+}

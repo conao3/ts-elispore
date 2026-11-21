@@ -1,0 +1,18 @@
+{
+  "id": 290935197,
+  "name": "maxking/hyperkitty.el",
+  "description": "Emacs library for reading Hyperkitty archives.",
+  "url": "https://github.com/maxking/hyperkitty.el",
+  "stars": 6,
+  "updated": "2022-02-26T19:51:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hyperkitty",
+    "fetcher": "github",
+    "repo": "maxking/hyperkitty.el"
+  }
+}

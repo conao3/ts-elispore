@@ -1,0 +1,18 @@
+{
+  "id": 534187054,
+  "name": "flymake/flymake-eask",
+  "description": "Eask support in Flymake",
+  "url": "https://github.com/flymake/flymake-eask",
+  "stars": 5,
+  "updated": "2026-06-18T19:49:51Z",
+  "archived": false,
+  "topics": ["eask", "emacs", "flymake"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flymake-eask",
+    "fetcher": "github",
+    "repo": "flymake/flymake-eask"
+  }
+}

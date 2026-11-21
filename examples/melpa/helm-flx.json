@@ -1,0 +1,18 @@
+{
+  "id": 44204744,
+  "name": "PythonNut/helm-flx",
+  "description": ":twisted_rightwards_arrows: Flx-based fuzzy sorting for helm",
+  "url": "https://github.com/PythonNut/helm-flx",
+  "stars": 50,
+  "updated": "2022-10-20T17:39:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-flx",
+    "fetcher": "github",
+    "repo": "PythonNut/helm-flx"
+  }
+}

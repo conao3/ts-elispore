@@ -1,0 +1,18 @@
+{
+  "id": 21095181,
+  "name": "masutaka/emacs-helm-ghq",
+  "description": "Helm interface for ghq",
+  "url": "https://github.com/masutaka/emacs-helm-ghq",
+  "stars": 25,
+  "updated": "2025-08-09T04:29:46Z",
+  "archived": false,
+  "topics": ["emacs-helm", "emacs-lisp", "ghq"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-ghq",
+    "fetcher": "github",
+    "repo": "masutaka/emacs-helm-ghq"
+  }
+}

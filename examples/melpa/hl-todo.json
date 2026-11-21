@@ -1,0 +1,18 @@
+{
+  "id": 8691972,
+  "name": "tarsius/hl-todo",
+  "description": "Highlight TODO keywords",
+  "url": "https://github.com/tarsius/hl-todo",
+  "stars": 468,
+  "updated": "2026-10-01T15:47:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hl-todo",
+    "fetcher": "github",
+    "repo": "tarsius/hl-todo"
+  }
+}

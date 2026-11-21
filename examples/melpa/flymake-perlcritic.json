@@ -1,0 +1,19 @@
+{
+  "id": 2097936,
+  "name": "flymake/emacs-flymake-perlcritic",
+  "description": "Run Perl::Critic static analysis \"While U Type\" via Emacs Flymake.",
+  "url": "https://github.com/flymake/emacs-flymake-perlcritic",
+  "stars": 21,
+  "updated": "2026-06-18T17:29:18Z",
+  "archived": false,
+  "topics": ["emacs", "flymake", "perl"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flymake-perlcritic",
+    "fetcher": "github",
+    "repo": "flymake/emacs-flymake-perlcritic",
+    "files": "(\"*.el\" (\"bin\" \"bin/flymake_perlcritic\"))"
+  }
+}

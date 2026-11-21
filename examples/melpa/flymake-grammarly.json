@@ -1,0 +1,18 @@
+{
+  "id": 289672383,
+  "name": "emacs-grammarly/flymake-grammarly",
+  "description": "Flymake support for Grammarly",
+  "url": "https://github.com/emacs-grammarly/flymake-grammarly",
+  "stars": 40,
+  "updated": "2026-06-19T08:48:42Z",
+  "archived": false,
+  "topics": ["elisp", "flymake", "grammar", "grammarly"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flymake-grammarly",
+    "fetcher": "github",
+    "repo": "emacs-grammarly/flymake-grammarly"
+  }
+}

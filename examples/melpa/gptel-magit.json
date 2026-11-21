@@ -1,0 +1,18 @@
+{
+  "id": 976145841,
+  "name": "ragnard/gptel-magit",
+  "description": "",
+  "url": "https://github.com/ragnard/gptel-magit",
+  "stars": 74,
+  "updated": "2025-05-20T08:33:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gptel-magit",
+    "fetcher": "github",
+    "repo": "ragnard/gptel-magit"
+  }
+}

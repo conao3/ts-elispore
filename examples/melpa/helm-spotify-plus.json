@@ -1,0 +1,18 @@
+{
+  "id": 80783502,
+  "name": "wandersoncferreira/helm-spotify-plus",
+  "description": "New version of Emacs package Helm-spotify",
+  "url": "https://github.com/wandersoncferreira/helm-spotify-plus",
+  "stars": 51,
+  "updated": "2019-09-13T22:36:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-spotify-plus",
+    "fetcher": "github",
+    "repo": "wandersoncferreira/helm-spotify-plus"
+  }
+}

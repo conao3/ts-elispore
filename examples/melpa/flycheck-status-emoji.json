@@ -1,0 +1,18 @@
+{
+  "id": 41830153,
+  "name": "liblit/flycheck-status-emoji",
+  "description": "Show Emacs Flycheck status using cute, compact emoji",
+  "url": "https://github.com/liblit/flycheck-status-emoji",
+  "stars": 32,
+  "updated": "2018-05-16T02:37:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-status-emoji",
+    "fetcher": "github",
+    "repo": "liblit/flycheck-status-emoji"
+  }
+}

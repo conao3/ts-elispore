@@ -1,0 +1,18 @@
+{
+  "id": 166563071,
+  "name": "akirak/ivy-omni-org",
+  "description": "An Ivy command which lets you visit Org buffers, files, bookmarks, and agenda commands",
+  "url": "https://github.com/akirak/ivy-omni-org",
+  "stars": 19,
+  "updated": "2024-09-17T15:12:26Z",
+  "archived": false,
+  "topics": ["convenience", "emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-omni-org",
+    "fetcher": "github",
+    "repo": "akirak/ivy-omni-org"
+  }
+}

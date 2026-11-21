@@ -1,0 +1,18 @@
+{
+  "id": 45632761,
+  "name": "cute-jumper/gmpl-mode",
+  "description": "Major mode for editing GMPL (MathProg) files",
+  "url": "https://github.com/cute-jumper/gmpl-mode",
+  "stars": 7,
+  "updated": "2022-01-21T06:31:49Z",
+  "archived": false,
+  "topics": ["emacs", "gmpl", "major-mode", "mathprog"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gmpl-mode",
+    "fetcher": "github",
+    "repo": "cute-jumper/gmpl-mode"
+  }
+}

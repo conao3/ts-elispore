@@ -1,0 +1,18 @@
+{
+  "id": 233926007,
+  "name": "godotengine/emacs-gdscript-mode",
+  "description": "An Emacs package to get GDScript support and syntax highlighting.",
+  "url": "https://github.com/godotengine/emacs-gdscript-mode",
+  "stars": 401,
+  "updated": "2026-09-28T08:57:53Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-packages", "gdscript", "gdscript-mode", "godot"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "gdscript-mode",
+    "fetcher": "github",
+    "repo": "godotengine/emacs-gdscript-mode"
+  }
+}

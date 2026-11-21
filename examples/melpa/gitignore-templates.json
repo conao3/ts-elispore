@@ -1,0 +1,18 @@
+{
+  "id": 126968421,
+  "name": "xuchunyang/gitignore-templates.el",
+  "description": "Create .gitignore using GitHub or gitignore.io API",
+  "url": "https://github.com/xuchunyang/gitignore-templates.el",
+  "stars": 22,
+  "updated": "2021-08-14T01:44:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gitignore-templates",
+    "fetcher": "github",
+    "repo": "xuchunyang/gitignore-templates.el"
+  }
+}

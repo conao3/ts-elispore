@@ -1,0 +1,18 @@
+{
+  "id": 57930107,
+  "name": "rubikitch/hippie-exp-ext",
+  "description": "",
+  "url": "https://github.com/rubikitch/hippie-exp-ext",
+  "stars": 1,
+  "updated": "2016-05-03T00:34:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hippie-exp-ext",
+    "fetcher": "github",
+    "repo": "rubikitch/hippie-exp-ext"
+  }
+}

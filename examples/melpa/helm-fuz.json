@@ -1,0 +1,19 @@
+{
+  "id": 197420042,
+  "name": "rustify-emacs/fuz.el",
+  "description": "Fast and precise fuzzy scoring/matching utils for Emacs, powered by rust",
+  "url": "https://github.com/rustify-emacs/fuz.el",
+  "stars": 83,
+  "updated": "2020-08-12T12:22:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-fuz",
+    "fetcher": "github",
+    "repo": "rustify-emacs/fuz.el",
+    "files": "(\"helm-fuz.el\")"
+  }
+}

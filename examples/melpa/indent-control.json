@@ -1,0 +1,18 @@
+{
+  "id": 199570078,
+  "name": "jcs-elpa/indent-control",
+  "description": "Generic control the indentation level for each mode.",
+  "url": "https://github.com/jcs-elpa/indent-control",
+  "stars": 19,
+  "updated": "2026-06-18T17:26:29Z",
+  "archived": false,
+  "topics": ["emacs", "indent"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "indent-control",
+    "fetcher": "github",
+    "repo": "jcs-elpa/indent-control"
+  }
+}

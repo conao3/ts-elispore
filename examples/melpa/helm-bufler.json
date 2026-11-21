@@ -1,0 +1,19 @@
+{
+  "id": 241058018,
+  "name": "alphapapa/bufler.el",
+  "description": "A butler for your buffers.  Group buffers into workspaces with programmable rules, and easily switch to and manipulate them.",
+  "url": "https://github.com/alphapapa/bufler.el",
+  "stars": 491,
+  "updated": "2025-03-27T22:46:06Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-bufler",
+    "fetcher": "github",
+    "repo": "alphapapa/bufler.el",
+    "files": "(\"helm-bufler.el\")"
+  }
+}

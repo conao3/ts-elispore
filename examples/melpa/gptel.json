@@ -1,0 +1,18 @@
+{
+  "id": 610038902,
+  "name": "karthink/gptel",
+  "description": "A simple, extensible LLM client for Emacs",
+  "url": "https://github.com/karthink/gptel",
+  "stars": 3572,
+  "updated": "2026-11-21T08:53:54Z",
+  "archived": false,
+  "topics": ["chatgpt", "emacs", "llms", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gptel",
+    "fetcher": "github",
+    "repo": "karthink/gptel"
+  }
+}

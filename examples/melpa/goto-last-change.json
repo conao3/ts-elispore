@@ -1,0 +1,18 @@
+{
+  "id": 28154153,
+  "name": "camdez/goto-last-change.el",
+  "description": "An Emacs package to move point through buffer-undo-list positions.",
+  "url": "https://github.com/camdez/goto-last-change.el",
+  "stars": 58,
+  "updated": "2026-10-23T23:39:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "goto-last-change",
+    "fetcher": "github",
+    "repo": "camdez/goto-last-change.el"
+  }
+}

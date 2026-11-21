@@ -1,0 +1,18 @@
+{
+  "id": 1999868,
+  "name": "purcell/flymake-coffee",
+  "description": "Emacs flymake handler for CoffeeScript",
+  "url": "https://github.com/purcell/flymake-coffee",
+  "stars": 16,
+  "updated": "2026-04-22T12:28:46Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-coffee",
+    "fetcher": "github",
+    "repo": "purcell/flymake-coffee"
+  }
+}

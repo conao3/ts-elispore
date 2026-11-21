@@ -1,0 +1,18 @@
+{
+  "id": 242256243,
+  "name": "purcell/flycheck-relint",
+  "description": "Flycheck integration for `relint`, which checks regexps in emacs lisp",
+  "url": "https://github.com/purcell/flycheck-relint",
+  "stars": 9,
+  "updated": "2026-06-19T12:38:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-relint",
+    "fetcher": "github",
+    "repo": "purcell/flycheck-relint"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 122075144,
+  "name": "mpdel/ivy-mpdel",
+  "description": "Emacs' ivy interface to communicate with Music Player Daemon (MPD)",
+  "url": "https://github.com/mpdel/ivy-mpdel",
+  "stars": 4,
+  "updated": "2019-04-28T13:02:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ivy-mpdel",
+    "fetcher": "github",
+    "repo": "mpdel/ivy-mpdel"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1079091551,
+  "name": "thndrbrrr/gtasks",
+  "description": "Synchronous Emacs client library for Google Tasks REST API",
+  "url": "https://github.com/thndrbrrr/gtasks",
+  "stars": 5,
+  "updated": "2025-10-28T03:36:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gtasks",
+    "fetcher": "github",
+    "repo": "thndrbrrr/gtasks"
+  }
+}

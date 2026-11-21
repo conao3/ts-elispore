@@ -1,0 +1,18 @@
+{
+  "id": 163101714,
+  "name": "enisozgen/idle-org-agenda",
+  "description": "A package that shows your agenda when Emacs is idle",
+  "url": "https://github.com/enisozgen/idle-org-agenda",
+  "stars": 43,
+  "updated": "2019-01-23T11:03:20Z",
+  "archived": false,
+  "topics": ["agenda", "emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "idle-org-agenda",
+    "fetcher": "github",
+    "repo": "enisozgen/idle-org-agenda"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 54150534,
+  "name": "andaru/flycheck-yang",
+  "description": "Flycheck syntax checker for YANG modules using pyang",
+  "url": "https://github.com/andaru/flycheck-yang",
+  "stars": 0,
+  "updated": "2018-03-12T18:31:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-yang",
+    "fetcher": "github",
+    "repo": "andaru/flycheck-yang"
+  }
+}

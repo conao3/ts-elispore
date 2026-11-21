@@ -1,0 +1,18 @@
+{
+  "id": 450518150,
+  "name": "djangoliv/git-modeline",
+  "description": "",
+  "url": "https://github.com/djangoliv/git-modeline",
+  "stars": 4,
+  "updated": "2026-09-14T06:31:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-modeline",
+    "fetcher": "github",
+    "repo": "djangoliv/git-modeline"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 319045895,
+  "name": "ROCKTAKEY/ivy-migemo",
+  "description": "Use migemo on ivy in Emacs.",
+  "url": "https://github.com/ROCKTAKEY/ivy-migemo",
+  "stars": 9,
+  "updated": "2023-01-21T19:34:41Z",
+  "archived": false,
+  "topics": ["counsel", "emacs", "emacs-configuration", "ivy", "migemo", "swiper"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-migemo",
+    "fetcher": "github",
+    "repo": "ROCKTAKEY/ivy-migemo"
+  }
+}

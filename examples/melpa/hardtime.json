@@ -1,0 +1,18 @@
+{
+  "id": 890998857,
+  "name": "ichernyshovvv/hardtime.el",
+  "description": "Emacs package that prevents overuse of specified commands.",
+  "url": "https://github.com/ichernyshovvv/hardtime.el",
+  "stars": 27,
+  "updated": "2024-12-03T16:51:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hardtime",
+    "fetcher": "github",
+    "repo": "ichernyshovvv/hardtime.el"
+  }
+}

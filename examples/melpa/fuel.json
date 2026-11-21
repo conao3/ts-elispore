@@ -1,0 +1,18 @@
+{
+  "id": 867888057,
+  "name": "factor/fuel",
+  "description": "Factor's Ultimate Emacs Library",
+  "url": "https://github.com/factor/fuel",
+  "stars": 6,
+  "updated": "2026-10-04T04:17:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "fuel",
+    "fetcher": "github",
+    "repo": "factor/fuel"
+  }
+}

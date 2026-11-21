@@ -1,0 +1,18 @@
+{
+  "id": 398376157,
+  "name": "matsuyoshi30/germanium-el",
+  "description": "Tool for generating image from source code using germanium",
+  "url": "https://github.com/matsuyoshi30/germanium-el",
+  "stars": 9,
+  "updated": "2022-07-16T15:00:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "germanium",
+    "fetcher": "github",
+    "repo": "matsuyoshi30/germanium-el"
+  }
+}

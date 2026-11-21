@@ -1,0 +1,19 @@
+{
+  "id": 27609372,
+  "name": "knupfer/haskell-emacs",
+  "description": "Write Emacs extensions in Haskell",
+  "url": "https://github.com/knupfer/haskell-emacs",
+  "stars": 387,
+  "updated": "2024-02-05T22:25:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Haskell",
+  "ownerType": "User",
+  "melpa": {
+    "name": "haskell-emacs-base",
+    "fetcher": "github",
+    "repo": "knupfer/haskell-emacs",
+    "files": "(\"modules/base/*.el\"\n         \"modules/base/*.hs\")"
+  }
+}

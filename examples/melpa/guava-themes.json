@@ -1,0 +1,33 @@
+{
+  "id": 1122532040,
+  "name": "bormoge/guava-themes",
+  "description": "A pack of plant-inspired themes for Emacs.",
+  "url": "https://github.com/bormoge/guava-themes",
+  "stars": 0,
+  "updated": "2026-11-20T21:33:50Z",
+  "archived": false,
+  "topics": [
+    "color-scheme",
+    "color-theme",
+    "color-themes",
+    "colorscheme",
+    "dark-theme",
+    "elisp",
+    "emacs",
+    "emacs-lisp",
+    "emacs-theme",
+    "emacs-themes",
+    "light-theme",
+    "theme",
+    "themes"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "guava-themes",
+    "fetcher": "github",
+    "repo": "bormoge/guava-themes",
+    "files": "(:defaults\n         \"themes/guava-themes*.el\")"
+  }
+}

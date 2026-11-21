@@ -1,0 +1,18 @@
+{
+  "id": 53416922,
+  "name": "javaguirre/ghost-blog-emacs",
+  "description": "Ghost mode for Emacs",
+  "url": "https://github.com/javaguirre/ghost-blog-emacs",
+  "stars": 18,
+  "updated": "2017-10-23T07:42:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ghost-blog",
+    "fetcher": "github",
+    "repo": "javaguirre/ghost-blog-emacs"
+  }
+}

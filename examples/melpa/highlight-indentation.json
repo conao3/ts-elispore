@@ -1,0 +1,18 @@
+{
+  "id": 1173602,
+  "name": "antonj/Highlight-Indentation-for-Emacs",
+  "description": "Minor modes to highlight indentation guides in emacs.",
+  "url": "https://github.com/antonj/Highlight-Indentation-for-Emacs",
+  "stars": 473,
+  "updated": "2024-04-07T09:31:56Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "highlight-indentation",
+    "fetcher": "github",
+    "repo": "antonj/Highlight-Indentation-for-Emacs"
+  }
+}
