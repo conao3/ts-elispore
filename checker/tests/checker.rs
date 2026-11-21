@@ -181,7 +181,15 @@ fn excludes_generated_and_tests() {
 
 #[test]
 fn parser_and_scanner_errors() {
-    for text in ["(", "\"unterminated", ")"] {
+    for text in [
+        "(",
+        "\"unterminated",
+        ")",
+        "(provide 'sample]",
+        "[require 'cl)",
+        "([)]",
+        "[(])",
+    ] {
         assert!(sexp::parse(text).is_err());
         assert!(scanner::scan("sample.el", text).is_err());
     }

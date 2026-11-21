@@ -85,7 +85,10 @@ impl Parser<'_> {
                     self.space();
                     match self.chars.peek() {
                         Some(')' | ']') => {
-                            self.chars.next();
+                            let close = self.chars.next().unwrap();
+                            if close != if open == '(' { ')' } else { ']' } {
+                                bail!("mismatched closing delimiter");
+                            }
                             break;
                         }
                         None => bail!("unterminated list"),
