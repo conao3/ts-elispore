@@ -302,9 +302,15 @@ try {
     await evaluate("document.querySelector('.prefix-status').textContent"),
     /is free in this catalog/,
   )
-  await edit("repo:ada-mode")
+  await edit("ada-mode -archived:true -user:ada-mode")
   await waitFor(`Boolean(document.querySelector('.package[data-name="ada-mode"]'))`)
   await click('.package[data-name="ada-mode"] .repo-trigger')
+  assert.deepEqual(
+    await evaluate(
+      `Array.from(document.querySelector('.package[data-name="ada-mode"] .metadata').querySelectorAll('dd')).slice(2,4).map(e=>e.textContent)`,
+    ),
+    ["Not available", "Not available"],
+  )
   await click(".method-switch button:last-child")
   assert.equal(
     await evaluate("document.querySelector('.code-block code').textContent"),

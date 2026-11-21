@@ -40,7 +40,7 @@ export const entrySchema = z.object({
   topics: z.array(z.string()),
   license: z.string().nullable(),
   language: z.string().nullable().default(null),
-  ownerType: z.enum(["User", "Organization"]).default("User"),
+  ownerType: z.enum(["User", "Organization"]).optional(),
   melpaRecipes: z.array(melpaRecipeSchema).optional(),
   archives: z.array(archivePackageSchema).optional(),
   sources: z.array(sourceSchema).optional(),

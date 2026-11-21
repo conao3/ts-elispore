@@ -81,7 +81,6 @@ export function mergeCatalog(
           topics: [],
           license: null,
           language: "Emacs Lisp",
-          ownerType: "User",
         })
       }
     }

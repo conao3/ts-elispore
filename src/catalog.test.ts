@@ -270,6 +270,15 @@ test("does not treat unknown repository activity as zero stars, an early push, o
     expect(searchEntries([ada, known], "", sort)).toEqual([known, ada])
 })
 
+test("does not use package names as repository identities or owners", () => {
+  expect(ada.ownerType).toBeUndefined()
+  for (const query of ["user:ada-mode", "org:ada-mode", "repo:ada-mode"]) {
+    expect(searchEntries([ada], query, "stars")).toEqual([])
+    expect(searchEntries([ada], `-${query}`, "stars")).toEqual([ada])
+  }
+  expect(searchEntries([ada], "ada-mode source:gnu-elpa", "stars")).toEqual([ada])
+})
+
 test.each([
   ["annotation", "agda/agda", "", "src/data/emacs-mode"],
   ["compile-multi-embark", "mohkale/compile-multi", "", "extensions/compile-multi-embark"],

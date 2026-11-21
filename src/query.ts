@@ -102,7 +102,7 @@ function compare(value: string | number | undefined, condition: string): boolean
           : left === target
 }
 export function matches(entry: Entry, filters: Filter[]): boolean {
-  const [owner] = entry.name.split("/")
+  const [owner, repository] = entry.name.toLowerCase().split("/")
   const haystack = [
     entry.name,
     entry.description,
@@ -117,11 +117,11 @@ export function matches(entry: Entry, filters: Filter[]): boolean {
       case null:
         return haystack.includes(filter.value)
       case "user":
-        return owner.toLowerCase() === filter.value
+        return Boolean(repository) && owner === filter.value
       case "org":
-        return entry.ownerType === "Organization" && owner.toLowerCase() === filter.value
+        return Boolean(repository) && entry.ownerType === "Organization" && owner === filter.value
       case "repo":
-        return entry.name.toLowerCase() === filter.value
+        return Boolean(repository) && entry.name.toLowerCase() === filter.value
       case "source":
         return entry.sources?.some((source) => source === filter.value) ?? false
       case "topic":
