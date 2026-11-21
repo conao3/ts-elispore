@@ -1,11 +1,26 @@
 import { useEffect, useMemo, useRef, useState } from "react"
 import { createRoot } from "react-dom/client"
-import { Search } from "lucide-react"
+import {
+  Search,
+  BookOpen,
+  ExternalLink,
+  Star,
+  ChevronDown,
+  Copy,
+  Check,
+  X,
+  SlidersHorizontal,
+} from "lucide-react"
 import {
   Button,
   Checkbox,
   Disclosure,
   DisclosurePanel,
+  DialogTrigger,
+  Dialog,
+  Heading,
+  Modal,
+  ModalOverlay,
   Input,
   Label,
   Link,
@@ -22,31 +37,44 @@ import {
 } from "react-aria-components"
 import { catalogSchema } from "./catalog"
 import type { Entry } from "./catalog"
+import { deriveCategories } from "./categories"
+import { normalizeTopic } from "./topics"
 import { parseQuery, searchEntries, setQualifier } from "./query"
 import { installationSnippet } from "./snippet"
 import type { SnippetFormat } from "./snippet"
+import { relativeTime, tokenizeSnippet } from "./presentation"
 import "./style.css"
 
-const categories = [
-  { label: "All packages", topic: "" },
-  { label: "Completion", topic: "completion" },
-  { label: "Editing", topic: "editing" },
-  { label: "Languages", topic: "programming-languages" },
-  { label: "Org mode", topic: "org-mode" },
-  { label: "Themes", topic: "theme" },
-  { label: "Tools", topic: "tools" },
-]
 const yearAgo = new Date(Date.now() - 365 * 86400000).toISOString().slice(0, 10)
+function Github({ size = 16 }: { size?: number }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M9 19c-4.3 1.3-4.3-2.2-6-2.7M15 22v-3.9a3.4 3.4 0 0 0-.9-2.7c3-.3 6.2-1.5 6.2-7A5.4 5.4 0 0 0 18.8 4a5 5 0 0 0-.1-3S17.5.7 15 2.4a13.4 13.4 0 0 0-7 0C5.5.7 4.3 1 4.3 1a5 5 0 0 0-.1 3 5.4 5.4 0 0 0-1.5 3.8c0 5.5 3.2 6.7 6.2 7A3.4 3.4 0 0 0 8 17.5V22" />
+    </svg>
+  )
+}
 function PackageRow({
   entry,
   opened,
   onOpen,
   onOwner,
+  onTopic,
 }: {
   entry: Entry
   opened: boolean
   onOpen: (open: boolean) => void
   onOwner: (owner: string) => void
+  onTopic: (topic: string) => void
 }) {
   const [owner, name] = entry.name.split("/")
   const [format, setFormat] = useState<SnippetFormat>("leaf")
@@ -99,8 +127,8 @@ function PackageRow({
           <img
             src={`https://github.com/${owner}.png?size=80`}
             alt=""
-            width={40}
-            height={40}
+            width={36}
+            height={36}
             loading="lazy"
             referrerPolicy="no-referrer"
           />
@@ -123,37 +151,76 @@ function PackageRow({
               {name}
             </Button>
           </strong>
-          {entry.description && <span>{entry.description}</span>}
+          {entry.description && (
+            <span className="description" title={entry.description}>
+              {entry.description}
+            </span>
+          )}
         </span>
-        <span className="stars">☆ {entry.stars.toLocaleString("en")}</span>
+        <span className="stars">
+          <Star size={14} aria-hidden="true" />
+          {entry.stars.toLocaleString("en")}
+        </span>
         <time dateTime={entry.updated} title={entry.updated}>
-          {new Date(entry.updated).toLocaleDateString("en", {
-            month: "short",
-            day: "2-digit",
-            timeZone: "UTC",
-          })}
+          {relativeTime(entry.updated)}
         </time>
-        <span className="chevron" aria-hidden="true">
-          ⌄
-        </span>
+        <ChevronDown className="chevron" size={16} aria-hidden="true" />
       </div>
       <DisclosurePanel className="expanded" aria-label={`${entry.name} details`}>
         <div className="explanation">
-          <div className="badges">
-            {entry.language && <span>{entry.language}</span>}
-            <span>
-              {entry.license && entry.license !== "NOASSERTION"
-                ? entry.license
-                : "License: see repository"}
-            </span>
-            {entry.archived && <span>Archived</span>}
-          </div>
+          <dl className="metadata">
+            <dt>Language</dt>
+            <dd>{entry.language ?? "Not specified"}</dd>
+            <dt>License</dt>
+            <dd>
+              {entry.license && entry.license !== "NOASSERTION" ? entry.license : "See repository"}
+            </dd>
+            <dt>Stars</dt>
+            <dd>{entry.stars.toLocaleString("en")}</dd>
+            <dt>Last push</dt>
+            <dd>
+              {new Date(entry.updated).toLocaleDateString("en", {
+                year: "numeric",
+                month: "short",
+                day: "numeric",
+                timeZone: "UTC",
+              })}
+            </dd>
+            {entry.topics.length > 0 && (
+              <>
+                <dt>Topics</dt>
+                <dd className="topics">
+                  {entry.topics.map((topic) => (
+                    <Button
+                      key={topic}
+                      className="topic"
+                      data-topic={topic}
+                      aria-label={`Add topic:${topic} to the search query`}
+                      onPress={() => onTopic(topic)}
+                    >
+                      {topic}
+                    </Button>
+                  ))}
+                </dd>
+              </>
+            )}
+            {entry.archived && (
+              <>
+                <dt>Status</dt>
+                <dd className="archived">Archived</dd>
+              </>
+            )}
+          </dl>
           <div className="links">
             <Link href={entry.url} target="_blank" rel="noopener">
+              <Github size={14} aria-hidden="true" />
               GitHub
+              <ExternalLink size={11} aria-hidden="true" />
             </Link>
             <Link href={`${entry.url}#readme`} target="_blank" rel="noopener">
+              <BookOpen size={14} aria-hidden="true" />
               README
+              <ExternalLink size={11} aria-hidden="true" />
             </Link>
           </div>
         </div>
@@ -178,15 +245,29 @@ function PackageRow({
                 ))}
               </ToggleButtonGroup>
               <Button className="copy" type="button" onPress={() => void copy()}>
+                {copied ? (
+                  <Check size={13} aria-hidden="true" />
+                ) : (
+                  <Copy size={13} aria-hidden="true" />
+                )}
                 {copied ? "Copied" : "Copy"}
               </Button>
             </div>
             <pre ref={pre} tabIndex={0}>
-              <code>{code}</code>
+              <code>
+                {tokenizeSnippet(code).map((token, i) => (
+                  <span key={i} className={`syntax-${token.kind}`}>
+                    {token.text}
+                  </span>
+                ))}
+              </code>
             </pre>
           </div>
           <Disclosure className="requirements">
-            <Button slot="trigger">Requirements</Button>
+            <Button slot="trigger">
+              <ChevronDown size={12} aria-hidden="true" />
+              Requirements
+            </Button>
             <DisclosurePanel>
               <p className="code-note">
                 {format === "leaf"
@@ -276,9 +357,10 @@ function App() {
     state.filters
       .filter((filter) => filter.key === key && !filter.exclude)
       .map((filter) => filter.value)
-  const topics = values("topic"),
+  const topics = values("topic").map(normalizeTopic),
     licenses = values("license"),
     pushed = values("pushed")
+  const categories = deriveCategories(entries, values("topic"))
   function qualify(key: string, value: string, append = false) {
     try {
       setQuery(setQualifier(query, key, value, append))
@@ -303,93 +385,102 @@ function App() {
         .slice(0, 5),
     [entries],
   )
+  const filters = (
+    <div className="sidebar-content">
+      <fieldset className="group">
+        <legend>Category</legend>
+        {categories.map((category) => (
+          <ToggleButton
+            key={category.label}
+            className="category"
+            data-category={category.label}
+            isSelected={category.topic ? topics.includes(category.topic) : !topics.length}
+            onPress={() => qualify("topic", category.topic)}
+          >
+            {category.label}
+            <span>{category.count}</span>
+          </ToggleButton>
+        ))}
+      </fieldset>
+      <RadioGroup
+        className="group"
+        value={licenses[0] ?? ""}
+        onChange={(value) => qualify("license", value)}
+      >
+        <Label>License</Label>
+        <Radio className="check" value="">
+          <span className="radio-mark" />
+          Any license
+        </Radio>
+        {licenseOptions.map((license) => (
+          <Radio key={license} className="check" value={license.toLowerCase()}>
+            <span className="radio-mark" />
+            {license}
+          </Radio>
+        ))}
+      </RadioGroup>
+      <fieldset className="group">
+        <legend>Activity</legend>
+        <Checkbox
+          className="check"
+
+          isSelected={pushed.includes(`>=${yearAgo}`)}
+          isIndeterminate={pushed.length > 0 && !pushed.includes(`>=${yearAgo}`)}
+          onChange={(checked) => qualify("pushed", checked ? `>=${yearAgo}` : "")}
+        >
+          <span className="checkbox-mark" />
+          Updated in the last year
+        </Checkbox>
+        <Checkbox
+          className="check"
+
+          isSelected={!values("archived").includes("false")}
+          onChange={(checked) => qualify("archived", checked ? "" : "false")}
+        >
+          <span className="checkbox-mark" />
+          Include archived
+        </Checkbox>
+      </fieldset>
+      <Button className="clear" onPress={() => setQuery("")}>
+        Clear all filters
+      </Button>
+    </div>
+  )
   return (
     <>
       <header>
-        <Link className="brand" href="/" aria-label="Elispore home">
-          <svg width="23" height="23" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 1v22M1 12h22M4 4l16 16M4 20L20 4" stroke="#CC785C" strokeWidth="2.2" />
-          </svg>
-          elispore
-        </Link>
-        <Link
-          className="github"
-          href="https://github.com/conao3/ts-elispore"
-          target="_blank"
-          rel="noopener"
-        >
-          Source
-        </Link>
-      </header>
-      <div className={`layout${mobileFilters ? " show-filters" : ""}`}>
-        <aside aria-label="Package filters">
-          <div className="sidebar-content">
-            <fieldset className="group">
-              <legend>Category</legend>
-              {categories.map((category) => (
-                <ToggleButton
-                  key={category.label}
-                  className="category"
-                  data-category={category.label}
-                  isSelected={category.topic ? topics.includes(category.topic) : !topics.length}
-                  onPress={() => qualify("topic", category.topic)}
-                >
-                  {category.label}
-                  <span>
-                    {category.topic
-                      ? entries.filter((entry) => entry.topics.includes(category.topic)).length
-                      : entries.length}
-                  </span>
-                </ToggleButton>
-              ))}
-            </fieldset>
-            <RadioGroup
-              className="group"
-              value={licenses[0] ?? ""}
-              onChange={(value) => qualify("license", value)}
-            >
-              <Label>License</Label>
-              <Radio className="check" value="">
-                <span className="radio-mark" />
-                Any license
-              </Radio>
-              {licenseOptions.map((license) => (
-                <Radio key={license} className="check" value={license.toLowerCase()}>
-                  <span className="radio-mark" />
-                  {license}
-                </Radio>
-              ))}
-            </RadioGroup>
-            <fieldset className="group">
-              <legend>Activity</legend>
-              <Checkbox
-                className="check"
-                id="active"
-                isSelected={pushed.includes(`>=${yearAgo}`)}
-                isIndeterminate={pushed.length > 0 && !pushed.includes(`>=${yearAgo}`)}
-                onChange={(checked) => qualify("pushed", checked ? `>=${yearAgo}` : "")}
-              >
-                <span className="checkbox-mark" />
-                Updated in the last year
-              </Checkbox>
-              <Checkbox
-                className="check"
-                id="archived"
-                isSelected={!values("archived").includes("false")}
-                onChange={(checked) => qualify("archived", checked ? "" : "false")}
-              >
-                <span className="checkbox-mark" />
-                Include archived
-              </Checkbox>
-            </fieldset>
-            <Button className="clear" id="clear" onPress={() => setQuery("")}>
-              Clear all filters
-            </Button>
-            <div className="sidebar-bottom">
-              {date ? `Refreshed ${new Date(date).toLocaleDateString("en")}` : "Loading catalog…"}
-            </div>
+        <div className="header-inner">
+          <Link className="brand" href="/" aria-label="Elispore home">
+            <svg width="21" height="21" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 1v22M1 12h22M4 4l16 16M4 20L20 4"
+                stroke="currentColor"
+                strokeWidth="2"
+              />
+            </svg>
+            elispore
+          </Link>
+          <div className="catalog-meta">
+            <span>{entries.length.toLocaleString("en")} packages</span>
+            <span>
+              {date
+                ? `Refreshed ${new Date(date).toLocaleDateString("en", { month: "short", day: "numeric", timeZone: "UTC" })}`
+                : "Loading catalog…"}
+            </span>
           </div>
-        </aside>
+          <Link
+            className="source-link"
+            href="https://github.com/conao3/ts-elispore"
+            target="_blank"
+            rel="noopener"
+            aria-label="Source on GitHub"
+          >
+            <Github size={19} aria-hidden="true" />
+          </Link>
+        </div>
+      </header>
+      <div className="layout">
+        <aside aria-label="Package filters">{filters}</aside>
         <main>
           <h1 className="sr-only">Emacs packages</h1>
           <SearchField
@@ -408,7 +499,7 @@ function App() {
               aria-describedby="query-status"
               placeholder="Search packages or user:minad topic:completion"
             />
-            <kbd>⌘ K</kbd>
+            <kbd>{/Mac|iPhone|iPad/.test(navigator.platform) ? "⌘K" : "Ctrl K"}</kbd>
           </SearchField>
           <p
             id="query-status"
@@ -422,17 +513,41 @@ function App() {
               <span id="count" aria-live="polite">
                 {loading
                   ? "Loading…"
-                  : `${state.results.length.toLocaleString("en")} ${state.results.length === 1 ? "repository" : "repositories"}`}
+                  : `${state.results.length.toLocaleString("en")} ${state.results.length === 1 ? "package" : "packages"}`}
               </span>
             </h2>
-            <Button
-              className="mobile-filter"
-              id="mobile-filter"
-              aria-expanded={mobileFilters}
-              onPress={() => setMobileFilters(!mobileFilters)}
-            >
-              Filters
-            </Button>
+            <DialogTrigger isOpen={mobileFilters} onOpenChange={setMobileFilters}>
+              <Button className="mobile-filter" id="mobile-filter" aria-expanded={mobileFilters}>
+                <SlidersHorizontal size={14} aria-hidden="true" />
+                Filters
+              </Button>
+              <ModalOverlay className="filter-overlay" isDismissable>
+                <Modal className="filter-modal">
+                  <Dialog className="filter-dialog" aria-label="Package filters">
+                    {({ close }) => (
+                      <>
+                        <div className="sheet-heading">
+                          <Heading slot="title">Filters</Heading>
+                          <Button
+                            className="icon-button"
+                            aria-label="Close filters"
+                            onPress={close}
+                          >
+                            <X size={20} aria-hidden="true" />
+                          </Button>
+                        </div>
+                        <div className="sheet-content">{filters}</div>
+                        <div className="sheet-footer">
+                          <Button className="show-results" onPress={close}>
+                            Show {state.results.length.toLocaleString("en")} packages
+                          </Button>
+                        </div>
+                      </>
+                    )}
+                  </Dialog>
+                </Modal>
+              </ModalOverlay>
+            </DialogTrigger>
             <Select
               aria-label="Sort packages"
               value={sort}
@@ -442,7 +557,7 @@ function App() {
             >
               <Button id="sort" className="sort-trigger">
                 <SelectValue />
-                <span aria-hidden="true">⌄</span>
+                <ChevronDown size={14} aria-hidden="true" />
               </Button>
               <Popover className="sort-popover">
                 <ListBox className="sort-options">
@@ -454,59 +569,75 @@ function App() {
             </Select>
           </div>
           <div className="columns" aria-hidden="true">
-            <span className="colname">PACKAGE</span>
-            <span>STARS</span>
-            <span className="date-head">LAST PUSH</span>
+            <span className="colname">Package</span>
+            <span>Stars</span>
+            <span className="date-head">Updated</span>
             <span />
           </div>
-          {loading ? (
-            <div className="loader" role="status">
-              Loading the package catalog…
-            </div>
-          ) : loadError ? (
-            <div className="result-error" role="alert">
-              <p>{loadError}</p>
-              <Button className="clear" onPress={() => setReload(reload + 1)}>
-                Try again
-              </Button>
-            </div>
-          ) : (
-            <>
-              <div id="results">
-                {state.results.slice(0, limit).map((entry) => (
-                  <PackageRow
-                    key={entry.id}
-                    entry={entry}
-                    opened={openIds.has(entry.id)}
-                    onOpen={(open) =>
-                      setOpenIds((current) => {
-                        if (current.has(entry.id) === open) return current
-                        const next = new Set(current)
-                        if (open) next.add(entry.id)
-                        else next.delete(entry.id)
-                        return next
-                      })
-                    }
-                    onOwner={(owner) => qualify("user", owner, true)}
-                  />
+          <div className="results-card">
+            {loading ? (
+              <div className="loader" role="status">
+                <span className="sr-only">Loading the package catalog…</span>
+                {Array.from({ length: 6 }, (_, i) => (
+                  <div className="skeleton-row" key={i} aria-hidden="true">
+                    <span />
+                    <div>
+                      <i />
+                      <i />
+                    </div>
+                  </div>
                 ))}
               </div>
-              {!state.results.length && !state.error && (
-                <div className="empty">
-                  No packages match these filters.
-                  <br />
-                  <Button className="clear" style={{ marginTop: 14 }} onPress={() => setQuery("")}>
-                    Clear filters
-                  </Button>
-                </div>
-              )}
-              {state.results.length > limit && (
-                <Button className="more" onPress={() => setLimit(limit + 30)}>
-                  Show more packages ↓
+            ) : loadError ? (
+              <div className="result-error" role="alert">
+                <p>{loadError}</p>
+                <Button className="clear" onPress={() => setReload(reload + 1)}>
+                  Try again
                 </Button>
-              )}
-            </>
-          )}
+              </div>
+            ) : (
+              <>
+                <div id="results">
+                  {state.results.slice(0, limit).map((entry) => (
+                    <PackageRow
+                      key={entry.id}
+                      entry={entry}
+                      opened={openIds.has(entry.id)}
+                      onOpen={(open) =>
+                        setOpenIds((current) => {
+                          if (current.has(entry.id) === open) return current
+                          const next = new Set(current)
+                          if (open) next.add(entry.id)
+                          else next.delete(entry.id)
+                          return next
+                        })
+                      }
+                      onOwner={(owner) => qualify("user", owner, true)}
+                      onTopic={(topic) => qualify("topic", topic, true)}
+                    />
+                  ))}
+                </div>
+                {!state.results.length && !state.error && (
+                  <div className="empty">
+                    No packages match these filters.
+                    <br />
+                    <Button
+                      className="clear"
+                      style={{ marginTop: 14 }}
+                      onPress={() => setQuery("")}
+                    >
+                      Clear filters
+                    </Button>
+                  </div>
+                )}
+                {state.results.length > limit && (
+                  <Button className="more" onPress={() => setLimit(limit + 30)}>
+                    Show more packages ↓
+                  </Button>
+                )}
+              </>
+            )}
+          </div>
         </main>
       </div>
     </>

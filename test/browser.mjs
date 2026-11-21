@@ -141,7 +141,7 @@ try {
   })
   await send("Page.navigate", { url: origin + "/?q=repo:minad/vertico" })
   await waitFor(
-    `document.querySelector('.package') && document.querySelector('#count').textContent==='1 repository'`,
+    `document.querySelector('.package') && document.querySelector('#count').textContent==='1 package'`,
   )
   await settle()
   assert.equal(
@@ -181,6 +181,12 @@ try {
       await evaluate(`document.querySelector('.package').hasAttribute('data-expanded')`),
       expected,
     )
+    if (expected) {
+      const rotation = await evaluate(
+        `(()=>{const m=new DOMMatrix(getComputedStyle(document.querySelector('.chevron')).transform);return [m.a,m.b,m.c,m.d]})()`,
+      )
+      assert.ok(rotation.every((value, i) => Math.abs(value - [-1, 0, 0, -1][i]) < 0.001))
+    }
     const after = await measure()
     for (const key of Object.keys(before))
       assert.ok(Math.abs(before[key] - after[key]) < 0.01, `${key} changed on toggle`)
@@ -188,9 +194,41 @@ try {
   await evaluate(`document.querySelectorAll('.package > .package-row')[1].click()`)
   await settle()
   assert.equal(await evaluate(`document.querySelectorAll('.package[data-expanded]').length`), 2)
-  await evaluate(`document.querySelector('[data-category=Completion]').click()`)
+  await edit("repo:minad/consult")
+  await evaluate(`document.querySelector('.package > .package-row').click()`)
   await settle()
-  assert.ok(await evaluate(`document.querySelector('#query').value.includes('topic:completion')`))
+  const topic = await evaluate(`document.querySelector('.package .topic').dataset.topic`)
+  await click(".package .topic")
+  assert.ok(
+    await evaluate(
+      `document.querySelector('#query').value.includes(${JSON.stringify("topic:")} + ${JSON.stringify(topic)})`,
+    ),
+  )
+  assert.equal(await evaluate(`document.querySelectorAll('.package[data-expanded]').length`), 1)
+  assert.equal(
+    await evaluate(
+      `[...document.querySelectorAll('.category')].find(b=>b.textContent.startsWith(${JSON.stringify(topic.charAt(0).toUpperCase() + topic.slice(1).replaceAll("-", " "))})).getAttribute('aria-pressed')`,
+    ),
+    "true",
+  )
+  await edit("repo:minad/consult")
+  await evaluate(`document.querySelector('.package .topic').focus()`)
+  await key("Enter", "Enter", 13)
+  assert.ok(
+    await evaluate(
+      `document.querySelector('#query').value.includes(${JSON.stringify("topic:" + topic)})`,
+    ),
+  )
+  assert.equal(await evaluate(`document.querySelectorAll('.package[data-expanded]').length`), 1)
+  const topicsImage = await send("Page.captureScreenshot", {
+    format: "png",
+    captureBeyondViewport: false,
+  })
+  await writeFile(path.join(scratch, "topics-desktop.png"), Buffer.from(topicsImage.data, "base64"))
+  await edit("user:minad")
+  await click('[data-category="Org mode"]')
+  await settle()
+  assert.ok(await evaluate(`document.querySelector('#query').value.includes('topic:org-mode')`))
   await edit("user:minad stars:>=1500")
   assert.equal(
     await evaluate(
@@ -297,17 +335,25 @@ try {
   await settle()
   assert.ok(await evaluate(`document.documentElement.scrollWidth<=390`))
   assert.equal(await evaluate(`getComputedStyle(document.querySelector('aside')).display`), "none")
-  await evaluate(`document.querySelector('#mobile-filter').click()`)
+  await click("#mobile-filter")
   await settle()
   assert.equal(
     await evaluate(`document.querySelector('#mobile-filter').getAttribute('aria-expanded')`),
     "true",
   )
-  assert.notEqual(
-    await evaluate(`getComputedStyle(document.querySelector('aside')).display`),
-    "none",
+  assert.ok(
+    await evaluate(
+      `Boolean(document.querySelector('[role=dialog][aria-label="Package filters"]'))`,
+    ),
   )
-  await evaluate(`document.querySelector('#mobile-filter').click()`)
+  await click('[role=dialog] [data-category="Themes"]')
+  assert.ok(await evaluate(`document.querySelector('#query').value.includes('topic:theme')`))
+  await key("Escape", "Escape", 27)
+  assert.equal(await evaluate(`document.querySelector('[role=dialog]')`), null)
+  assert.equal(await evaluate(`document.activeElement.id`), "mobile-filter")
+  await edit("repo:minad/vertico")
+  await click("#mobile-filter")
+  await click(".show-results")
   await settle()
   await evaluate(
     `document.querySelectorAll('.snippet-switch button')[1].click(); document.querySelector('.code-block').scrollIntoView({block:'center'})`,
