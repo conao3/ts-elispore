@@ -818,6 +818,14 @@ code {
   .repo-name {
     font-size: 13px;
   }
+  .repo-owner {
+    max-width: 20%;
+    vertical-align: bottom;
+  }
+  .repo-trigger {
+    max-width: calc(80% - 18px);
+    vertical-align: bottom;
+  }
   .stars {
     font-size: 11px;
     gap: 4px;
