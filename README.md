@@ -29,7 +29,9 @@
 
 Search a GitHub metadata catalog with `user:minad`, `topic:completion`, `license:gpl-3.0`, `pushed:>=2026-01-01`, `stars:>=1000`, and `language:"Emacs Lisp"`. Sidebar selections appear directly in the query.
 
-Click an owner to add a user filter. Select an `owner/repo` label to copy it without spaces. Rows expand in place and keep their position, and multiple rows can stay open for comparison.
+Click an owner to add a user filter, or a topic in an expanded row to add a topic filter. Select an `owner/repo` label to copy it without spaces. Rows expand in place and keep their geometry, and multiple rows can stay open for comparison.
+
+Categories show the ten most frequent informative catalog topics, plus any selected topic outside that list. Topic matching ignores case, drops a leading `emacs-` and a trailing plural `s`, folds theme variants such as `dark-theme` into `theme`, and maps `mode` and `major-mode` to `major-mode`. Category counts deduplicate aliases within each repository.
 
 ## Installation examples
 
@@ -51,26 +53,30 @@ Browser validation uses `nix develop .#browser --command node test/browser.mjs` 
 
 ### UI
 
-Interactive UI uses Adobe's `react-aria-components`: SearchField, RadioGroup, Checkbox, Select/ListBox/Popover, Disclosure, ToggleButtonGroup, Button and Link. Components own keyboard navigation, ARIA state and focus handling. Tailwind CSS v4 is integrated through `@tailwindcss/vite`, and existing custom styles preserve the approved design. References: [React Aria](https://react-aria.adobe.com/), [Disclosure](https://react-aria.adobe.com/Disclosure), [Select](https://react-aria.adobe.com/Select).
+Interactive UI uses Adobe's `react-aria-components`: SearchField, RadioGroup, Checkbox, Select/ListBox/Popover, Disclosure, ToggleButtonGroup, Button, Link and DialogTrigger/Modal/Dialog. Components own keyboard navigation, ARIA state and focus handling. Tailwind CSS v4 is integrated through `@tailwindcss/vite`; custom CSS defines the warm palette with a coral accent and system light/dark themes. References: [React Aria](https://react-aria.adobe.com/), [Disclosure](https://react-aria.adobe.com/Disclosure), [Select](https://react-aria.adobe.com/Select).
 
-The interface applies [avoid-ai-design](https://github.com/funboy322/avoid-ai-design) with a surgical pass over the approved list/sidebar design:
+The layout keeps search and results first:
 
 - Search comes first.
-- Expanded rows add metadata and installation code without repeating the row title or description.
+- A sticky header shows catalog size, refresh date and the source link.
+- Left filters sit beside one grouped result card with row dividers.
+- Expanded rows add metadata, topic buttons and syntax-colored installation code without repeating the row title or description.
 - Requirements appear on request.
+- On mobile, Filters opens a modal sheet with a close control and a Show packages button.
 
-The promotional hero, eyebrow labels, active-state badges and repeated footer copy came from the initial design prototype and added no search or installation information. Keep the approved cream/coral palette, and review text for a concrete purpose before adding it.
+Keep copy sparse; avoid promotional heroes, eyebrow labels and routine active-state badges.
 
 ## Catalog
 
 `nix develop --command pnpm run catalog` uses authenticated GitHub CLI requests to refresh `public/catalog.json`. Discovery combines:
 
-- the 100 most starred Emacs Lisp repositories
-- 100 repositories tagged `emacs-package`
-- 100 recently updated Emacs Lisp repositories
+- up to 400 Emacs Lisp repositories with at least 20 stars, sorted by stars
+- up to 200 repositories tagged `emacs-package`
+- up to 200 Emacs Lisp repositories pushed after 2026-01-01, sorted by update
+- up to 100 repositories each tagged `emacs-packages`, `emacs-theme`, `emacs-mode`, `org-mode` or `melpa`
 - explicit seeds
 
-IDs are deduplicated and common configuration distributions are filtered. It's a bounded discovery catalog, and repository documentation determines installation and compatibility.
+Search uses 100 results per page and excludes forks. IDs are deduplicated; batched GraphQL tree checks require an `.el` file at the root or directly inside `lisp/`. Exclusions remove flagged forks, `mirror`/`style-guide`/`styleguide` topics, common configuration distributions, `awesome-*` lists and repositories named `emacs` or `remacs`. This is a bounded discovery heuristic, not an installation guarantee; upstream documentation determines compatibility.
 
 GitHub Actions refreshes it daily, validates and builds the site, deploys the catalog with the Worker, and commits the refreshed metadata. The browser fetches same-origin `/catalog.json`. GitHub credentials stay in the updater environment.
 
