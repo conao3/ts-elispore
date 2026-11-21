@@ -13,6 +13,14 @@
       ];
       imports = [ inputs.treefmt-nix.flakeModule ];
       perSystem = { pkgs, ... }: {
+        packages.checker = pkgs.rustPlatform.buildRustPackage {
+          pname = "elispore-check";
+          version = "0.1.0";
+          src = ./checker;
+          cargoLock.lockFile = ./checker/Cargo.lock;
+          LEANFRAN_OFFLINE = "1";
+          meta.mainProgram = "elispore-check";
+        };
         packages.default = pkgs.stdenvNoCC.mkDerivation (final: {
           pname = "elispore";
           version = "0.1.0";
@@ -50,6 +58,10 @@
             pkgs.nodejs_26
             pkgs.pnpm
             pkgs.gh
+            pkgs.cargo
+            pkgs.rustc
+            pkgs.clippy
+            pkgs.rustfmt
           ];
         };
       };

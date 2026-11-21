@@ -51,6 +51,9 @@ nix run
 
 `nix run` serves the built site at `http://127.0.0.1:4173`.
 
+`nix develop --command pnpm run checks` refreshes cached Lean-defined package checks at `/checks.json` (add `--force` to recompute all); `nix run .#checker -- --help` exposes the standalone Rust checker.
+Checks refresh only on explicit local runs or manual CI dispatch with `checks: update`/`all`, never on the daily schedule.
+
 Browser validation uses `nix develop .#browser --command node test/browser.mjs` on Linux. It creates an isolated Chromium profile and checks the built `dist/` files. Screenshots go to the ignored `.claude-dev/scratch/`.
 
 ### UI
