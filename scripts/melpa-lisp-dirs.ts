@@ -1,20 +1,27 @@
 import { writeFileSync } from "node:fs"
+import { posix } from "node:path"
 import { pathToFileURL } from "node:url"
 import * as z from "zod"
 import { readList } from "../src/recipe-form.ts"
 import { readStagedEntries, type StagedEntry } from "./catalog-import.ts"
 import { api, repositoryField } from "./catalog.ts"
 
-export function candidateDirectories(files?: string) {
-  const directories = new Set(["", "lisp"])
+function candidateDirectories(name: string, files?: string) {
+  const directories = new Map([
+    ["", 2],
+    ["lisp", 3],
+  ])
   for (const form of files ? readList(files) : []) {
     if (form.kind !== "string") continue
     const parts = form.value.replace(/^(?:\.\/)+/, "").split("/")
-    parts.pop()
+    const pattern = parts.pop()!
     if (parts.some((part) => !part || part === ".." || /[*?[\]]/.test(part))) continue
-    directories.add(parts.join("/"))
+    const directory = parts.join("/")
+    if (directory) directories.set(directory, 1)
+    else if (posix.matchesGlob(`${name}.el`, pattern)) directories.set("", 0)
   }
-  return [...directories]
+  const depth = (directory: string) => (directory ? directory.split("/").length : 0)
+  return [...directories].map(([path, priority]) => ({ path, priority, depth: depth(path) }))
 }
 
 const resultSchema = z.object({
@@ -33,14 +40,14 @@ export function resolveDirectories(entries: StagedEntry[], query: (query: string
     const batch = entries.slice(start, start + 25).map(({ name, melpa }) => ({
       name,
       melpa,
-      directories: candidateDirectories(melpa.files),
+      directories: candidateDirectories(melpa.name, melpa.files),
     }))
     const fields = batch.map(({ name, melpa, directories }, i) =>
       repositoryField(
         `r${i}`,
         name,
         directories
-          .map((dir, index) => {
+          .map(({ path: dir }, index) => {
             const path = `${dir ? dir + "/" : ""}${melpa.name}.el`
             return `d${index}: object(expression: ${JSON.stringify(`${melpa.branch ?? "HEAD"}:${path}`)}) { __typename }`
           })
@@ -56,11 +63,12 @@ export function resolveDirectories(entries: StagedEntry[], query: (query: string
       if (!result || directories.some((_, index) => !(`d${index}` in result)))
         throw new Error(`Incomplete GitHub response for ${melpa.name}`)
       const found = directories.filter((_, index) => result[`d${index}`]?.__typename === "Blob")
-      const depth = (dir: string) => (dir ? dir.split("/").length : 0)
-      found.sort((a, b) => depth(a) - depth(b))
+      const compare = (a: (typeof found)[number], b: (typeof found)[number]) =>
+        a.priority - b.priority || a.depth - b.depth
+      found.sort(compare)
       const [first, second] = found
-      if (first !== undefined && (second === undefined || depth(first) < depth(second))) {
-        resolved.set(melpa.name, first)
+      if (first && (!second || compare(first, second) < 0)) {
+        resolved.set(melpa.name, first.path)
       }
     }
   }

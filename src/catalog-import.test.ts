@@ -73,6 +73,11 @@ test.each([
   ['("src/*.el" "src/nested/alias*.el")', ["src", "src/nested"], "src"],
   ['("*.el" "src/alias.el")', ["", "src"], ""],
   ['("alias.el" "src/alias*.el")', ["", "src"], ""],
+  ['("other.el" "src/alias*.el")', ["", "src"], "src"],
+  ['("lib/*")', ["", "lib", "lisp"], "lib"],
+  ['(:defaults "lib/*")', ["", "lib"], "lib"],
+  ["(:defaults)", ["", "lisp"], ""],
+  ['("lib/*")', ["", "lisp"], ""],
   ['(:defaults "src/alias*.el" ("doc" "doc/alias.el"))', ["src", "doc"], "src"],
 ] as const)("resolves %s only where a blob exists", (files, existing, expected) => {
   const staged = {

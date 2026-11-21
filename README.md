@@ -107,6 +107,8 @@ nix develop --command node scripts/melpa-lisp-dirs.ts
 
 The updater checks for each recipe's main Lisp file on its branch (or the default branch),
 at the root, under `lisp/`, and in literal directories named by top-level source patterns.
+An explicitly matched root file wins; otherwise recipe directories take priority over the
+root and `lisp/` fallbacks.
 The installation example omits the directory for root files or when it cannot identify a directory.
 
 ### Converting MELPA recipes

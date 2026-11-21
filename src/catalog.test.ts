@@ -212,6 +212,7 @@ test.each([
   ["guava-themes", "bormoge/guava-themes", "", ""],
   ["treemacs", "Alexander-Miller/treemacs", "", "src/elisp"],
   ["cider", "clojure-emacs/cider", "", "lisp"],
+  ["project-persist", "rdallasgray/project-persist", "", "lib"],
 ])(
   "generates the installation example from the real %s recipe",
   (name, repository, branch, directory) => {
