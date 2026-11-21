@@ -35,25 +35,17 @@ function recipeDirectory(name: string, files?: string) {
   if (!files) return ""
   try {
     const forms = readList(files)
+    if (forms.some((form) => form.kind === "symbol" && form.value === ":defaults")) return ""
     const mainFile = `${name}.el`
-    const exact = new Set<string>()
-    const named = new Set<string>()
-    const wildcards = new Set<string>()
+    const directories = new Set<string>()
     for (const form of forms) {
       if (form.kind !== "string") continue
       const parts = form.value.replace(/^(?:\.\/)+/, "").split("/")
       const file = parts.pop()
       if (parts.some((part) => !part || part === ".." || /[*?[\]]/.test(part))) continue
-      if (file === mainFile) exact.add(parts.join("/"))
-      else if (file && matchesFileGlob(file, mainFile)) {
-        const candidates = file.includes(name) ? named : wildcards
-        candidates.add(parts.join("/"))
-      }
+      if (file && matchesFileGlob(file, mainFile)) directories.add(parts.join("/"))
     }
-    if (exact.size) return shallowestDirectory(exact)
-    if (named.size) return shallowestDirectory(named)
-    if (forms.some((form) => form.kind === "symbol" && form.value === ":defaults")) return ""
-    return shallowestDirectory(wildcards)
+    return shallowestDirectory(directories)
   } catch {
     return undefined
   }

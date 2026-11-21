@@ -1,6 +1,7 @@
+import { readFileSync } from "node:fs"
 import { installationSnippet } from "./snippet"
 import { test, expect } from "vite-plus/test"
-import { catalogSchema } from "./catalog"
+import { catalogSchema, entrySchema, melpaRecipeSchema } from "./catalog"
 import type { Entry } from "./catalog"
 import { parseQuery, searchEntries, setQualifier } from "./query"
 const entry: Entry = {
@@ -153,7 +154,7 @@ test("uses the queried MELPA recipe's name, branch, and exact source directory i
         fetcher: "github",
         branch: "stable",
         files:
-          '(:defaults "src/elisp/pkg-mode.el" ("target" "extra/pkg-mode.el") (:exclude "test/pkg-mode.el"))',
+          '("src/elisp/pkg-mode.el" ("target" "extra/pkg-mode.el") (:exclude "test/pkg-mode.el"))',
       },
     ],
   }
@@ -191,54 +192,36 @@ test("uses a single Lisp glob directory and omits only the directory for ambiguo
     '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable" :lisp-dir "src"))',
   )
   expect(snippet('("src/*.el" "src/nested/alias*.el")')).toBe(
-    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable" :lisp-dir "src/nested"))',
+    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable" :lisp-dir "src"))',
   )
+  expect(snippet('("*.el" "src/alias.el")')).toBe(withoutDirectory)
+  expect(snippet('("alias.el" "src/alias*.el")')).toBe(withoutDirectory)
 })
 
-test("uses the main file matched by a named MELPA glob", () => {
-  const imported = {
-    ...entry,
-    name: "mohkale/compile-multi",
-    url: "https://github.com/mohkale/compile-multi",
-    melpaRecipes: [
-      { name: "compile-multi", fetcher: "github" },
-      {
-        name: "compile-multi-embark",
-        fetcher: "github",
-        files: '("extensions/compile-multi-embark/compile-multi-embark*.el")',
-      },
-    ],
-  }
-  expect(installationSnippet(imported, "leaf", parseQuery("compile-multi-embark"))).toBe(
-    '(leaf compile-multi-embark\n  :vc (:url "https://github.com/mohkale/compile-multi" :lisp-dir "extensions/compile-multi-embark"))',
-  )
-})
-
-test("keeps ElNode's MELPA branch even when its globs do not specify a Lisp directory", () => {
-  expect(
-    installationSnippet({
+test.each([
+  ["annotation", "agda/agda", "", "src/data/emacs-mode"],
+  ["compile-multi-embark", "mohkale/compile-multi", "", "extensions/compile-multi-embark"],
+  ["elnode", "jcaw/elnode", "melpa", ""],
+  ["ess", "emacs-ess/ESS", "", "lisp"],
+  ["easysession", "jamescherti/easysession.el", "", ""],
+  ["guava-themes", "bormoge/guava-themes", "", ""],
+])(
+  "generates the installation example from the real %s recipe",
+  (name, repository, branch, directory) => {
+    const file = new URL(`../examples/melpa/${name}.json`, import.meta.url)
+    const staged: unknown = JSON.parse(readFileSync(file, "utf8"))
+    const { melpa, ...entry } = entrySchema.extend({ melpa: melpaRecipeSchema }).parse(staged)
+    const imported = {
       ...entry,
-      name: "jcaw/elnode",
-      url: "https://github.com/jcaw/elnode",
-      melpaRecipes: [
-        { name: "elnode", fetcher: "github", branch: "melpa", files: '("default*" "elnode*")' },
-      ],
-    }),
-  ).toBe('(leaf elnode\n  :vc (:url "https://github.com/jcaw/elnode" :branch "melpa"))')
-})
-
-test("uses ESS's top-level Lisp glob, ignoring destination and exclusion lists", () => {
-  const files = `("lisp/*.el"
-         "doc/ess.texi"
-         ("etc" "etc/*")
-         ("obsolete" "lisp/obsolete/*")
-         (:exclude "etc/other"))`
-  expect(
-    installationSnippet({
-      ...entry,
-      name: "emacs-ess/ESS",
-      url: "https://github.com/emacs-ess/ESS",
-      melpaRecipes: [{ name: "ess", fetcher: "github", repo: "emacs-ess/ESS", files }],
-    }),
-  ).toBe('(leaf ess\n  :vc (:url "https://github.com/emacs-ess/ESS" :lisp-dir "lisp"))')
-})
+      melpaRecipes: [{ name: "other-package", fetcher: "github" }, melpa],
+    }
+    const options = [
+      `:url "https://github.com/${repository}"`,
+      ...(branch ? [`:branch "${branch}"`] : []),
+      ...(directory ? [`:lisp-dir "${directory}"`] : []),
+    ]
+    expect(installationSnippet(imported, "leaf", parseQuery(name))).toBe(
+      `(leaf ${name}\n  :vc (${options.join(" ")}))`,
+    )
+  },
+)
