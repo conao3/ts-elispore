@@ -7,6 +7,7 @@ export const melpaRecipeSchema = z.object({
   branch: z.string().min(1).optional(),
   commit: z.string().min(1).optional(),
   files: z.string().optional(),
+  lispDir: z.string().optional(),
 })
 export const entrySchema = z.object({
   id: z.number(),

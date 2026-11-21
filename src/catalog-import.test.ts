@@ -1,5 +1,6 @@
 import { expect, test } from "vite-plus/test"
 import { mergeCatalog } from "../scripts/catalog-import"
+import { resolveDirectories } from "../scripts/melpa-lisp-dirs"
 import { catalogSchema } from "./catalog"
 import type { Entry } from "./catalog"
 
@@ -61,4 +62,41 @@ test("adds MELPA-only repositories with deterministic metadata and retains searc
     { ...staged, stars: 10, melpa: first },
   ]).entries
   expect(entries).toEqual([{ ...staged, stars: 10, melpaRecipes: [first, second] }, discoveryEntry])
+})
+
+test.each([
+  ['("./src/*.el" "snippets")', ["src"], "src"],
+  ['("src/other.el" (:exclude "tests/alias.el"))', ["tests"], undefined],
+  ['("src/alias.el" "other/alias.el")', ["src", "other"], undefined],
+  ['("src/*.el" "other/*.el")', ["src", "other"], undefined],
+  ['("src/*.el" "src/nested/*.el")', ["src", "src/nested"], "src"],
+  ['("src/*.el" "src/nested/alias*.el")', ["src", "src/nested"], "src"],
+  ['("*.el" "src/alias.el")', ["", "src"], ""],
+  ['("alias.el" "src/alias*.el")', ["", "src"], ""],
+  ['(:defaults "src/alias*.el" ("doc" "doc/alias.el"))', ["src", "doc"], "src"],
+] as const)("resolves %s only where a blob exists", (files, existing, expected) => {
+  const staged = {
+    ...discoveryEntry,
+    melpa: { name: "alias", fetcher: "github", branch: "stable", files },
+  }
+  const directories = resolveDirectories([staged], (query) => {
+    expect(query).toContain('repository(owner: "owner", name: "current")')
+    expect(query).toContain('expression: "stable:alias.el"')
+    expect(query).toContain('expression: "stable:lisp/alias.el"')
+    expect(query).not.toContain("/tests/")
+    expect(query).not.toContain("stable:tests/")
+    expect(query).not.toContain("stable:doc/")
+    const objects = Array.from(query.matchAll(/(d\d+): object\(expression: "stable:(.*?)"\)/g))
+    const found = objects.map(([, key, path]) => [
+      key,
+      existing.some((directory) => path === (directory ? directory + "/alias.el" : "alias.el"))
+        ? { __typename: "Blob" }
+        : null,
+    ])
+    return { data: { r0: Object.fromEntries(found) } }
+  })
+  expect(directories).toEqual(expected === undefined ? {} : { alias: expected })
+  expect(mergeCatalog(discovery, [staged], directories).entries[0].melpaRecipes?.[0].lispDir).toBe(
+    expected,
+  )
 })

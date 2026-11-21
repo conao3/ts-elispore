@@ -22,6 +22,12 @@ export function api(path: string, args: string[] = []): unknown {
     execFileSync("gh", ["api", path, ...args], { encoding: "utf8", maxBuffer: 20 * 1024 * 1024 }),
   )
 }
+export function repositoryField(alias: string, repository: string, fields: string) {
+  const [owner, name] = repository.split("/")
+  return `${alias}: repository(owner: ${JSON.stringify(owner)}, name: ${JSON.stringify(name)}) {
+    ${fields}
+  }`
+}
 export function githubCatalogEntry(value: unknown) {
   const r = repo.parse(value)
   return entrySchema.parse({
@@ -94,13 +100,16 @@ function refresh() {
   const packages: z.infer<typeof repo>[] = []
   for (let start = 0; start < candidates.length; start += 25) {
     const batch = candidates.slice(start, start + 25)
-    const fields = batch.map((r, i) => {
-      const [owner, name] = r.full_name.split("/")
-      return `r${i}: repository(owner: ${JSON.stringify(owner)}, name: ${JSON.stringify(name)}) {
+    const fields = batch.map((r, i) =>
+      repositoryField(
+        `r${i}`,
+        r.full_name,
+        `
       root: object(expression: "HEAD:") { ... on Tree { entries { name type } } }
       lisp: object(expression: "HEAD:lisp") { ... on Tree { entries { name type } } }
-    }`
-    })
+    `,
+      ),
+    )
     const result = z
       .object({ data: z.record(z.string(), packageTreesSchema), errors: z.never().optional() })
       .parse(api("graphql", ["-f", `query={ ${fields.join("\n")} }`]))
