@@ -57,6 +57,18 @@ test("matches actual metadata for topics and licenses", () => {
   ])
   expect(searchEntries([entry], "license:mit", "stars")).toEqual([])
 })
+test("matches normalized topic aliases including exclusions without substring matching", () => {
+  const theme = { ...entry, topics: ["emacs-themes", "dark-theme"] }
+  const mode = { ...second, topics: ["emacs-mode"] }
+  for (const query of ["topic:theme", "topic:EMACS-THEMES", "topic:color-theme"]) {
+    expect(searchEntries([theme, mode], query, "stars")).toEqual([theme])
+  }
+  expect(searchEntries([theme, mode], "topic:major-mode", "stars")).toEqual([mode])
+  expect(searchEntries([theme, mode], "-topic:light-theme", "stars")).toEqual([mode])
+  expect(searchEntries([entry, second], "topic:action", "stars")).toEqual([second])
+  expect(searchEntries([entry], "topic:complete", "stars")).toEqual([])
+  expect(searchEntries([{ ...entry, topics: [] }], "topic:theme", "stars")).toEqual([])
+})
 test("combines multiple owners and excluded repositories", () => {
   expect(
     searchEntries([entry, second], "user:minad user:oantolin -repo:minad/vertico", "stars"),

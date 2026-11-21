@@ -1,4 +1,5 @@
 import type { Entry } from "./catalog"
+import { normalizeTopic } from "./topics"
 
 export type Filter = { raw: string; key: string | null; value: string; exclude: boolean }
 const supported = new Set([
@@ -106,7 +107,7 @@ export function matches(entry: Entry, filters: Filter[]): boolean {
       case "repo":
         return entry.name.toLowerCase() === filter.value
       case "topic":
-        return entry.topics.some((topic) => topic.toLowerCase() === filter.value)
+        return entry.topics.some((topic) => normalizeTopic(topic) === normalizeTopic(filter.value))
       case "license": {
         const license = entry.license?.toLowerCase() ?? ""
         return (
