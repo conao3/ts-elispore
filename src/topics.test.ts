@@ -25,3 +25,13 @@ test("folds theme and major-mode variants", () => {
     expect(normalizeTopic(topic)).toBe("major-mode")
   }
 })
+
+test("preserves ss endings, short names and emacs", () => {
+  for (const topic of ["css", "ess", "class", "chess", "emacs", "s", "as", "js"]) {
+    expect(normalizeTopic(topic)).toBe(topic)
+    expect(normalizeTopic(topic.toUpperCase())).toBe(topic)
+  }
+  expect(normalizeTopic("emacs-css")).toBe("css")
+  expect(normalizeTopic("emacs-ess")).toBe("ess")
+  expect(normalizeTopic("tags")).toBe("tag")
+})

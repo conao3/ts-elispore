@@ -43,7 +43,7 @@ test("appends selected rare, generic, and unknown topics without duplicates", ()
     ).slice(1),
   ).toEqual([
     { label: "Org mode", topic: "org-mode", count: 1 },
-    { label: "Emac", topic: "emac", count: 1 },
+    { label: "Emacs", topic: "emacs", count: 1 },
     { label: "Unknown", topic: "unknown", count: 0 },
   ])
 })
