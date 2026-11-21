@@ -12,19 +12,25 @@ const server = createServer(async (req, res) => {
     const pathname = decodeURIComponent(new URL(req.url, "http://localhost").pathname)
     const file = path.resolve(dist, "." + (pathname === "/" ? "/index.html" : pathname))
     if (!file.startsWith(dist + path.sep)) throw Error("Invalid path")
-    const body = await readFile(file)
-    res.setHeader(
-      "Content-Type",
-      file.endsWith(".html")
-        ? "text/html"
-        : file.endsWith(".js")
-          ? "text/javascript"
-          : file.endsWith(".css")
-            ? "text/css"
-            : file.endsWith(".json")
-              ? "application/json"
-              : "application/octet-stream",
-    )
+    // Mirror the Worker's single-page-application fallback for client routes.
+    const body = await readFile(file).catch((error) => {
+      if (path.extname(file)) throw error
+      res.setHeader("Content-Type", "text/html")
+      return readFile(path.join(dist, "index.html"))
+    })
+    if (!res.hasHeader("Content-Type"))
+      res.setHeader(
+        "Content-Type",
+        file.endsWith(".html")
+          ? "text/html"
+          : file.endsWith(".js")
+            ? "text/javascript"
+            : file.endsWith(".css")
+              ? "text/css"
+              : file.endsWith(".json")
+                ? "application/json"
+                : "application/octet-stream",
+      )
     res.end(body)
   } catch {
     res.statusCode = 404
@@ -404,9 +410,63 @@ try {
     captureBeyondViewport: false,
   })
   await writeFile(path.join(scratch, "production-mobile.png"), Buffer.from(mobile.data, "base64"))
+  const shots = "/home/ubuntu/shots"
+  await mkdir(shots, { recursive: true })
+  async function screenshot(name) {
+    const result = await send("Page.captureScreenshot", {
+      format: "png",
+      captureBeyondViewport: false,
+    })
+    await writeFile(path.join(shots, name + ".png"), Buffer.from(result.data, "base64"))
+  }
+  await evaluate("window.scrollTo(0,0)")
+  await settle()
+  await screenshot("elispore-header-mobile")
+  await click(".add-recipe")
+  await waitFor(`document.querySelector('#why-elispore') && location.pathname==='/about/'`)
+  assert.equal(await evaluate("document.querySelector('h1').textContent"), "Add recipe")
+  assert.ok(await evaluate("document.documentElement.scrollWidth<=390"))
+  assert.ok(
+    await evaluate(`document.querySelector('.about-page').textContent.includes('up to 200')`),
+  )
+  await screenshot("elispore-about-mobile")
+  await click(".back-link")
+  await waitFor(`Boolean(document.querySelector('#query'))`)
+  await send("Emulation.setDeviceMetricsOverride", {
+    width: 1440,
+    height: 1200,
+    deviceScaleFactor: 1,
+    mobile: false,
+  })
+  await send("Emulation.setEmulatedMedia", {
+    features: [{ name: "prefers-color-scheme", value: "light" }],
+  })
+  await settle()
+  await screenshot("elispore-header-desktop")
+  await evaluate("document.querySelector('.add-recipe').focus()")
+  await key("Enter", "Enter", 13)
+  await waitFor(`Boolean(document.querySelector('#why-elispore'))`)
+  await screenshot("elispore-about-light")
+  await send("Page.navigate", { url: origin + "/about/" })
+  await waitFor(`Boolean(document.querySelector('#why-elispore'))`)
+  assert.equal(
+    await evaluate(`document.querySelector('.add-recipe').getAttribute('aria-current')`),
+    "page",
+  )
+  assert.equal(
+    await evaluate(
+      `document.querySelector('a[href="https://github.com/melpa/melpa/blob/master/CONTRIBUTING.org#using-ai"]').textContent`,
+    ),
+    "MELPA’s AI guidelines",
+  )
+  await send("Emulation.setEmulatedMedia", {
+    features: [{ name: "prefers-color-scheme", value: "dark" }],
+  })
+  await settle()
+  await screenshot("elispore-about-dark")
   assert.deepEqual(errors, [])
   console.log(
-    "Browser checks passed: production chrome, repository copy, avatars, owner/topic query sync, accordion stability, multiple expansion, errors, and mobile filters.",
+    "Browser checks passed: production chrome, repository copy, avatars, owner/topic query sync, accordion stability, multiple expansion, errors, mobile filters, Add recipe pointer/keyboard navigation, direct about load, and light/dark screenshots.",
   )
 } finally {
   socket?.close()
