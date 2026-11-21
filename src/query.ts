@@ -95,7 +95,14 @@ function compare(value: string | number, condition: string): boolean {
 }
 export function matches(entry: Entry, filters: Filter[]): boolean {
   const [owner] = entry.name.split("/")
-  const haystack = `${entry.name} ${entry.description} ${entry.topics.join(" ")}`.toLowerCase()
+  const haystack = [
+    entry.name,
+    entry.description,
+    ...entry.topics,
+    ...(entry.melpaRecipes?.map((recipe) => recipe.name) ?? []),
+  ]
+    .join(" ")
+    .toLowerCase()
   const match = (filter: Filter): boolean => {
     switch (filter.key) {
       case null:

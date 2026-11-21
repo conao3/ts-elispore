@@ -40,6 +40,7 @@ import type { Entry } from "./catalog"
 import { deriveCategories } from "./categories"
 import { normalizeTopic } from "./topics"
 import { parseQuery, searchEntries, setQualifier } from "./query"
+import type { Filter } from "./query"
 import { installationSnippet } from "./snippet"
 import type { SnippetFormat } from "./snippet"
 import { relativeTime, tokenizeSnippet } from "./presentation"
@@ -65,12 +66,14 @@ function Github({ size = 16 }: { size?: number }) {
 }
 function PackageRow({
   entry,
+  filters,
   opened,
   onOpen,
   onOwner,
   onTopic,
 }: {
   entry: Entry
+  filters: Filter[]
   opened: boolean
   onOpen: (open: boolean) => void
   onOwner: (owner: string) => void
@@ -78,20 +81,21 @@ function PackageRow({
 }) {
   const [owner, name] = entry.name.split("/")
   const [format, setFormat] = useState<SnippetFormat>("leaf")
-  const code = installationSnippet(entry, format)
+  const code = installationSnippet(entry, format, filters)
   const copyVersion = useRef(0)
   function selectFormat(next: SnippetFormat) {
     copyVersion.current++
-    setCopied(false)
+    setCopiedCode(null)
     setFormat(next)
   }
   const pre = useRef<HTMLPreElement>(null)
-  const [copied, setCopied] = useState(false)
+  const [copiedCode, setCopiedCode] = useState<string | null>(null)
+  const copied = copiedCode === code
   async function copy() {
     const version = ++copyVersion.current
     try {
       await navigator.clipboard.writeText(code)
-      if (copyVersion.current === version) setCopied(true)
+      if (copyVersion.current === version) setCopiedCode(code)
     } catch {
       const range = document.createRange()
       if (pre.current) {
@@ -602,6 +606,7 @@ function App() {
                     <PackageRow
                       key={entry.id}
                       entry={entry}
+                      filters={state.filters}
                       opened={openIds.has(entry.id)}
                       onOpen={(open) =>
                         setOpenIds((current) => {

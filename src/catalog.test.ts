@@ -1,6 +1,7 @@
+import { readFileSync } from "node:fs"
 import { installationSnippet } from "./snippet"
 import { test, expect } from "vite-plus/test"
-import { catalogSchema } from "./catalog"
+import { catalogSchema, entrySchema, melpaRecipeSchema } from "./catalog"
 import type { Entry } from "./catalog"
 import { parseQuery, searchEntries, setQualifier } from "./query"
 const entry: Entry = {
@@ -27,6 +28,16 @@ const second: Entry = {
 test("matches all words across repository metadata", () => {
   expect(searchEntries([entry], "VERTICAL completion", "stars")).toEqual([entry])
   expect(searchEntries([entry], "completion python", "stars")).toEqual([])
+})
+test("matches MELPA package names in free-text search without changing repo qualifiers", () => {
+  const imported = {
+    ...entry,
+    melpaRecipes: [{ name: "package-alias", fetcher: "github", repo: entry.name }],
+  }
+  expect(searchEntries([imported, second], "PACKAGE-ALIAS repo:minad/vertico", "stars")).toEqual([
+    imported,
+  ])
+  expect(searchEntries([imported], "repo:package-alias", "stars")).toEqual([])
 })
 test("applies and removes explicit archived filtering", () => {
   expect(searchEntries([{ ...entry, archived: true }], "archived:false", "stars")).toEqual([])
@@ -130,3 +141,87 @@ test("generates a use-package VC declaration when selected", () => {
     '(use-package vertico\n  :vc (:url "https://github.com/minad/vertico"))',
   )
 })
+
+test("uses the queried MELPA recipe's name, branch, and exact source directory in both formats", () => {
+  const imported = {
+    ...entry,
+    name: "owner/monorepo",
+    url: "https://github.com/owner/monorepo",
+    melpaRecipes: [
+      { name: "pkg", fetcher: "github", files: '("pkg.el")' },
+      {
+        name: "pkg-mode",
+        fetcher: "github",
+        branch: "stable",
+        files:
+          '("src/elisp/pkg-mode.el" ("target" "extra/pkg-mode.el") (:exclude "test/pkg-mode.el"))',
+      },
+    ],
+  }
+  const options =
+    ':vc (:url "https://github.com/owner/monorepo" :branch "stable" :lisp-dir "src/elisp")'
+  expect(installationSnippet(imported, "leaf", parseQuery('repo:owner/monorepo "PKG-MODE"'))).toBe(
+    `(leaf pkg-mode\n  ${options})`,
+  )
+  expect(installationSnippet(imported, "use-package", parseQuery("mode"))).toBe(
+    `(use-package pkg-mode\n  ${options})`,
+  )
+  for (const filters of [parseQuery("repo:owner/monorepo"), parseQuery("pkg")]) {
+    expect(installationSnippet(imported, "leaf", filters)).toBe(
+      '(leaf pkg\n  :vc (:url "https://github.com/owner/monorepo"))',
+    )
+  }
+})
+
+test("uses a single Lisp glob directory and omits only the directory for ambiguous layouts", () => {
+  function snippet(files: string) {
+    return installationSnippet({
+      ...entry,
+      melpaRecipes: [{ name: "alias", fetcher: "github", files, branch: "stable" }],
+    })
+  }
+  expect(snippet('("./src/*.el" "snippets")')).toBe(
+    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable" :lisp-dir "src"))',
+  )
+  const withoutDirectory =
+    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable"))'
+  expect(snippet('("src/other.el" (:exclude "tests/alias.el"))')).toBe(withoutDirectory)
+  expect(snippet('("src/alias.el" "other/alias.el")')).toBe(withoutDirectory)
+  expect(snippet('("src/*.el" "other/*.el")')).toBe(withoutDirectory)
+  expect(snippet('("src/*.el" "src/nested/*.el")')).toBe(
+    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable" :lisp-dir "src"))',
+  )
+  expect(snippet('("src/*.el" "src/nested/alias*.el")')).toBe(
+    '(leaf alias\n  :vc (:url "https://github.com/minad/vertico" :branch "stable" :lisp-dir "src"))',
+  )
+  expect(snippet('("*.el" "src/alias.el")')).toBe(withoutDirectory)
+  expect(snippet('("alias.el" "src/alias*.el")')).toBe(withoutDirectory)
+})
+
+test.each([
+  ["annotation", "agda/agda", "", "src/data/emacs-mode"],
+  ["compile-multi-embark", "mohkale/compile-multi", "", "extensions/compile-multi-embark"],
+  ["elnode", "jcaw/elnode", "melpa", ""],
+  ["ess", "emacs-ess/ESS", "", "lisp"],
+  ["easysession", "jamescherti/easysession.el", "", ""],
+  ["guava-themes", "bormoge/guava-themes", "", ""],
+])(
+  "generates the installation example from the real %s recipe",
+  (name, repository, branch, directory) => {
+    const file = new URL(`../examples/melpa/${name}.json`, import.meta.url)
+    const staged: unknown = JSON.parse(readFileSync(file, "utf8"))
+    const { melpa, ...entry } = entrySchema.extend({ melpa: melpaRecipeSchema }).parse(staged)
+    const imported = {
+      ...entry,
+      melpaRecipes: [{ name: "other-package", fetcher: "github" }, melpa],
+    }
+    const options = [
+      `:url "https://github.com/${repository}"`,
+      ...(branch ? [`:branch "${branch}"`] : []),
+      ...(directory ? [`:lisp-dir "${directory}"`] : []),
+    ]
+    expect(installationSnippet(imported, "leaf", parseQuery(name))).toBe(
+      `(leaf ${name}\n  :vc (${options.join(" ")}))`,
+    )
+  },
+)
