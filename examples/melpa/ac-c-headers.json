@@ -1,0 +1,18 @@
+{
+  "id": 13611334,
+  "name": "zk-phi/ac-c-headers",
+  "description": "auto-complete source for C headers and symbols in headers",
+  "url": "https://github.com/zk-phi/ac-c-headers",
+  "stars": 24,
+  "updated": "2020-08-16T10:09:21Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-c-headers",
+    "fetcher": "github",
+    "repo": "zk-phi/ac-c-headers"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 695643744,
+  "name": "stephenwithav/aangit",
+  "description": "Magit-like interface for ng (Angular) cli",
+  "url": "https://github.com/stephenwithav/aangit",
+  "stars": 5,
+  "updated": "2024-03-07T20:24:19Z",
+  "archived": false,
+  "topics": ["angular", "emacs"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aangit",
+    "fetcher": "github",
+    "repo": "stephenwithav/aangit"
+  }
+}

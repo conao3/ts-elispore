@@ -1,0 +1,18 @@
+{
+  "id": 22047897,
+  "name": "emacsorphanage/ac-capf",
+  "description": "Auto-complete source of completion-at-point",
+  "url": "https://github.com/emacsorphanage/ac-capf",
+  "stars": 14,
+  "updated": "2015-11-01T02:17:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ac-capf",
+    "fetcher": "github",
+    "repo": "emacsorphanage/ac-capf"
+  }
+}

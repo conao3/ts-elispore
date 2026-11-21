@@ -1,0 +1,18 @@
+{
+  "id": 52686616,
+  "name": "zonuexe/aa-edit-mode",
+  "description": "Major mode for AA (アスキーアート, known as Shift_JIS art)",
+  "url": "https://github.com/zonuexe/aa-edit-mode",
+  "stars": 8,
+  "updated": "2017-01-19T03:20:16Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aa-edit-mode",
+    "fetcher": "github",
+    "repo": "zonuexe/aa-edit-mode"
+  }
+}

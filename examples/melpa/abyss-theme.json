@@ -1,0 +1,18 @@
+{
+  "id": 43646854,
+  "name": "mgrbyte/emacs-abyss-theme",
+  "description": "A dark theme for Emacs",
+  "url": "https://github.com/mgrbyte/emacs-abyss-theme",
+  "stars": 25,
+  "updated": "2026-01-25T20:04:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "abyss-theme",
+    "fetcher": "github",
+    "repo": "mgrbyte/emacs-abyss-theme"
+  }
+}

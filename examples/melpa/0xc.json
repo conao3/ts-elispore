@@ -1,0 +1,18 @@
+{
+  "id": 69135810,
+  "name": "AdamNiederer/0xc",
+  "description": "Easy base conversion in emacs",
+  "url": "https://github.com/AdamNiederer/0xc",
+  "stars": 45,
+  "updated": "2022-11-23T04:24:35Z",
+  "archived": false,
+  "topics": ["base", "conversion", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "0xc",
+    "fetcher": "github",
+    "repo": "AdamNiederer/0xc"
+  }
+}
