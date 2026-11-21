@@ -10,27 +10,24 @@ const dist = path.resolve("dist")
 const server = createServer(async (req, res) => {
   try {
     const pathname = decodeURIComponent(new URL(req.url, "http://localhost").pathname)
-    const file = path.resolve(dist, "." + (pathname === "/" ? "/index.html" : pathname))
+    const file = path.resolve(
+      dist,
+      "." + (pathname.endsWith("/") ? pathname + "index.html" : pathname),
+    )
     if (!file.startsWith(dist + path.sep)) throw Error("Invalid path")
-    // Mirror the Worker's single-page-application fallback for client routes.
-    const body = await readFile(file).catch((error) => {
-      if (path.extname(file)) throw error
-      res.setHeader("Content-Type", "text/html")
-      return readFile(path.join(dist, "index.html"))
-    })
-    if (!res.hasHeader("Content-Type"))
-      res.setHeader(
-        "Content-Type",
-        file.endsWith(".html")
-          ? "text/html"
-          : file.endsWith(".js")
-            ? "text/javascript"
-            : file.endsWith(".css")
-              ? "text/css"
-              : file.endsWith(".json")
-                ? "application/json"
-                : "application/octet-stream",
-      )
+    const body = await readFile(file)
+    res.setHeader(
+      "Content-Type",
+      file.endsWith(".html")
+        ? "text/html"
+        : file.endsWith(".js")
+          ? "text/javascript"
+          : file.endsWith(".css")
+            ? "text/css"
+            : file.endsWith(".json")
+              ? "application/json"
+              : "application/octet-stream",
+    )
     res.end(body)
   } catch {
     res.statusCode = 404
