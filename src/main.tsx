@@ -45,6 +45,7 @@ import { installationSnippet } from "./snippet"
 import type { SnippetFormat } from "./snippet"
 import { relativeTime, tokenizeSnippet } from "./presentation"
 import "./style.css"
+import { About } from "./about"
 
 const yearAgo = new Date(Date.now() - 365 * 86400000).toISOString().slice(0, 10)
 function Github({ size = 16 }: { size?: number }) {
@@ -473,6 +474,13 @@ function App() {
             </span>
           </div>
           <Link
+            className="add-recipe"
+            href="/about/"
+            aria-current={window.location.pathname === "/about/" ? "page" : undefined}
+          >
+            Add recipe
+          </Link>
+          <Link
             className="source-link"
             href="https://github.com/conao3/ts-elispore"
             target="_blank"
@@ -483,168 +491,172 @@ function App() {
           </Link>
         </div>
       </header>
-      <div className="layout">
-        <aside aria-label="Package filters">{filters}</aside>
-        <main>
-          <h1 className="sr-only">Emacs packages</h1>
-          <SearchField
-            className="searchbox"
-            aria-label="Search packages"
-            value={query}
-            onChange={setQuery}
-            isInvalid={Boolean(state.error)}
-          >
-            <Search size={18} />
-            <Input
-              ref={input}
-              id="query"
-              type="search"
-              aria-invalid={Boolean(state.error)}
-              aria-describedby="query-status"
-              placeholder="Search packages or user:minad topic:completion"
-            />
-            <kbd>{/Mac|iPhone|iPad/.test(navigator.platform) ? "⌘K" : "Ctrl K"}</kbd>
-          </SearchField>
-          <p
-            id="query-status"
-            className={`query-status${state.error ? " query-error" : ""}`}
-            role="status"
-          >
-            {state.error}
-          </p>
-          <div className="toolbar">
-            <h2>
-              <span id="count" aria-live="polite">
-                {loading
-                  ? "Loading…"
-                  : `${state.results.length.toLocaleString("en")} ${state.results.length === 1 ? "package" : "packages"}`}
-              </span>
-            </h2>
-            <DialogTrigger isOpen={mobileFilters} onOpenChange={setMobileFilters}>
-              <Button className="mobile-filter" id="mobile-filter" aria-expanded={mobileFilters}>
-                <SlidersHorizontal size={14} aria-hidden="true" />
-                Filters
-              </Button>
-              <ModalOverlay className="filter-overlay" isDismissable>
-                <Modal className="filter-modal">
-                  <Dialog className="filter-dialog" aria-label="Package filters">
-                    {({ close }) => (
-                      <>
-                        <div className="sheet-heading">
-                          <Heading slot="title">Filters</Heading>
-                          <Button
-                            className="icon-button"
-                            aria-label="Close filters"
-                            onPress={close}
-                          >
-                            <X size={20} aria-hidden="true" />
-                          </Button>
-                        </div>
-                        <div className="sheet-content">{filters}</div>
-                        <div className="sheet-footer">
-                          <Button className="show-results" onPress={close}>
-                            Show {state.results.length.toLocaleString("en")} packages
-                          </Button>
-                        </div>
-                      </>
-                    )}
-                  </Dialog>
-                </Modal>
-              </ModalOverlay>
-            </DialogTrigger>
-            <Select
-              aria-label="Sort packages"
-              value={sort}
-              onChange={(value) => {
-                if (value) setSort(String(value))
-              }}
+      {window.location.pathname.replace(/\/$/, "") === "/about" ? (
+        <About />
+      ) : (
+        <div className="layout">
+          <aside aria-label="Package filters">{filters}</aside>
+          <main>
+            <h1 className="sr-only">Emacs packages</h1>
+            <SearchField
+              className="searchbox"
+              aria-label="Search packages"
+              value={query}
+              onChange={setQuery}
+              isInvalid={Boolean(state.error)}
             >
-              <Button id="sort" className="sort-trigger">
-                <SelectValue />
-                <ChevronDown size={14} aria-hidden="true" />
-              </Button>
-              <Popover className="sort-popover">
-                <ListBox className="sort-options">
-                  <ListBoxItem id="stars">Most starred</ListBoxItem>
-                  <ListBoxItem id="updated">Recently updated</ListBoxItem>
-                  <ListBoxItem id="name">Name A–Z</ListBoxItem>
-                </ListBox>
-              </Popover>
-            </Select>
-          </div>
-          <div className="columns" aria-hidden="true">
-            <span className="colname">Package</span>
-            <span>Stars</span>
-            <span className="date-head">Updated</span>
-            <span />
-          </div>
-          <div className="results-card">
-            {loading ? (
-              <div className="loader" role="status">
-                <span className="sr-only">Loading the package catalog…</span>
-                {Array.from({ length: 6 }, (_, i) => (
-                  <div className="skeleton-row" key={i} aria-hidden="true">
-                    <span />
-                    <div>
-                      <i />
-                      <i />
-                    </div>
-                  </div>
-                ))}
-              </div>
-            ) : loadError ? (
-              <div className="result-error" role="alert">
-                <p>{loadError}</p>
-                <Button className="clear" onPress={() => setReload(reload + 1)}>
-                  Try again
+              <Search size={18} />
+              <Input
+                ref={input}
+                id="query"
+                type="search"
+                aria-invalid={Boolean(state.error)}
+                aria-describedby="query-status"
+                placeholder="Search packages or user:minad topic:completion"
+              />
+              <kbd>{/Mac|iPhone|iPad/.test(navigator.platform) ? "⌘K" : "Ctrl K"}</kbd>
+            </SearchField>
+            <p
+              id="query-status"
+              className={`query-status${state.error ? " query-error" : ""}`}
+              role="status"
+            >
+              {state.error}
+            </p>
+            <div className="toolbar">
+              <h2>
+                <span id="count" aria-live="polite">
+                  {loading
+                    ? "Loading…"
+                    : `${state.results.length.toLocaleString("en")} ${state.results.length === 1 ? "package" : "packages"}`}
+                </span>
+              </h2>
+              <DialogTrigger isOpen={mobileFilters} onOpenChange={setMobileFilters}>
+                <Button className="mobile-filter" id="mobile-filter" aria-expanded={mobileFilters}>
+                  <SlidersHorizontal size={14} aria-hidden="true" />
+                  Filters
                 </Button>
-              </div>
-            ) : (
-              <>
-                <div id="results">
-                  {state.results.slice(0, limit).map((entry) => (
-                    <PackageRow
-                      key={entry.id}
-                      entry={entry}
-                      filters={state.filters}
-                      opened={openIds.has(entry.id)}
-                      onOpen={(open) =>
-                        setOpenIds((current) => {
-                          if (current.has(entry.id) === open) return current
-                          const next = new Set(current)
-                          if (open) next.add(entry.id)
-                          else next.delete(entry.id)
-                          return next
-                        })
-                      }
-                      onOwner={(owner) => qualify("user", owner, true)}
-                      onTopic={(topic) => qualify("topic", topic, true)}
-                    />
+                <ModalOverlay className="filter-overlay" isDismissable>
+                  <Modal className="filter-modal">
+                    <Dialog className="filter-dialog" aria-label="Package filters">
+                      {({ close }) => (
+                        <>
+                          <div className="sheet-heading">
+                            <Heading slot="title">Filters</Heading>
+                            <Button
+                              className="icon-button"
+                              aria-label="Close filters"
+                              onPress={close}
+                            >
+                              <X size={20} aria-hidden="true" />
+                            </Button>
+                          </div>
+                          <div className="sheet-content">{filters}</div>
+                          <div className="sheet-footer">
+                            <Button className="show-results" onPress={close}>
+                              Show {state.results.length.toLocaleString("en")} packages
+                            </Button>
+                          </div>
+                        </>
+                      )}
+                    </Dialog>
+                  </Modal>
+                </ModalOverlay>
+              </DialogTrigger>
+              <Select
+                aria-label="Sort packages"
+                value={sort}
+                onChange={(value) => {
+                  if (value) setSort(String(value))
+                }}
+              >
+                <Button id="sort" className="sort-trigger">
+                  <SelectValue />
+                  <ChevronDown size={14} aria-hidden="true" />
+                </Button>
+                <Popover className="sort-popover">
+                  <ListBox className="sort-options">
+                    <ListBoxItem id="stars">Most starred</ListBoxItem>
+                    <ListBoxItem id="updated">Recently updated</ListBoxItem>
+                    <ListBoxItem id="name">Name A–Z</ListBoxItem>
+                  </ListBox>
+                </Popover>
+              </Select>
+            </div>
+            <div className="columns" aria-hidden="true">
+              <span className="colname">Package</span>
+              <span>Stars</span>
+              <span className="date-head">Updated</span>
+              <span />
+            </div>
+            <div className="results-card">
+              {loading ? (
+                <div className="loader" role="status">
+                  <span className="sr-only">Loading the package catalog…</span>
+                  {Array.from({ length: 6 }, (_, i) => (
+                    <div className="skeleton-row" key={i} aria-hidden="true">
+                      <span />
+                      <div>
+                        <i />
+                        <i />
+                      </div>
+                    </div>
                   ))}
                 </div>
-                {!state.results.length && !state.error && (
-                  <div className="empty">
-                    No packages match these filters.
-                    <br />
-                    <Button
-                      className="clear"
-                      style={{ marginTop: 14 }}
-                      onPress={() => setQuery("")}
-                    >
-                      Clear filters
-                    </Button>
-                  </div>
-                )}
-                {state.results.length > limit && (
-                  <Button className="more" onPress={() => setLimit(limit + 30)}>
-                    Show more packages ↓
+              ) : loadError ? (
+                <div className="result-error" role="alert">
+                  <p>{loadError}</p>
+                  <Button className="clear" onPress={() => setReload(reload + 1)}>
+                    Try again
                   </Button>
-                )}
-              </>
-            )}
-          </div>
-        </main>
-      </div>
+                </div>
+              ) : (
+                <>
+                  <div id="results">
+                    {state.results.slice(0, limit).map((entry) => (
+                      <PackageRow
+                        key={entry.id}
+                        entry={entry}
+                        filters={state.filters}
+                        opened={openIds.has(entry.id)}
+                        onOpen={(open) =>
+                          setOpenIds((current) => {
+                            if (current.has(entry.id) === open) return current
+                            const next = new Set(current)
+                            if (open) next.add(entry.id)
+                            else next.delete(entry.id)
+                            return next
+                          })
+                        }
+                        onOwner={(owner) => qualify("user", owner, true)}
+                        onTopic={(topic) => qualify("topic", topic, true)}
+                      />
+                    ))}
+                  </div>
+                  {!state.results.length && !state.error && (
+                    <div className="empty">
+                      No packages match these filters.
+                      <br />
+                      <Button
+                        className="clear"
+                        style={{ marginTop: 14 }}
+                        onPress={() => setQuery("")}
+                      >
+                        Clear filters
+                      </Button>
+                    </div>
+                  )}
+                  {state.results.length > limit && (
+                    <Button className="more" onPress={() => setLimit(limit + 30)}>
+                      Show more packages ↓
+                    </Button>
+                  )}
+                </>
+              )}
+            </div>
+          </main>
+        </div>
+      )}
     </>
   )
 }

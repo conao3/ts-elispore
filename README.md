@@ -25,6 +25,8 @@
 
 [elispore.conao3.com](https://elispore.conao3.com) finds Emacs packages and libraries hosted on GitHub.
 
+[Add recipe / Why Elispore](https://elispore.conao3.com/about/) explains catalog inclusion and why the site was built.
+
 ## Search
 
 Search repository metadata and MELPA package names, or use qualifiers like `user:minad`, `topic:completion`, `license:gpl-3.0`, `pushed:>=2026-01-01`, `stars:>=1000`, and `language:"Emacs Lisp"`. Sidebar selections appear directly in the query.

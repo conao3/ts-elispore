@@ -2,10 +2,21 @@ import { defineConfig } from "vite-plus"
 import react from "@vitejs/plugin-react"
 import tailwindcss from "@tailwindcss/vite"
 import { publishedCatalog } from "./scripts/catalog-import.ts"
+import { copyFileSync, mkdirSync } from "node:fs"
+import { join } from "node:path"
 export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
+    {
+      name: "elispore-about-page",
+      writeBundle(options) {
+        if (!options.dir) throw new Error("Expected a build output directory")
+        const directory = join(options.dir, "about")
+        mkdirSync(directory, { recursive: true })
+        copyFileSync(join(options.dir, "index.html"), join(directory, "index.html"))
+      },
+    },
     {
       name: "elispore-catalog",
       configureServer(server) {
