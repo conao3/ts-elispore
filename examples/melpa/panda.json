@@ -1,0 +1,18 @@
+{
+  "id": 167314159,
+  "name": "sebasmonia/panda",
+  "description": "Emacs package that consumes Bamboo's REST API to do useful things.",
+  "url": "https://github.com/sebasmonia/panda",
+  "stars": 3,
+  "updated": "2024-01-02T03:48:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "panda",
+    "fetcher": "github",
+    "repo": "sebasmonia/panda"
+  }
+}

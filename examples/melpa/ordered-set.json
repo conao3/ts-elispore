@@ -1,0 +1,18 @@
+{
+  "id": 660641645,
+  "name": "kisaragi-hiu/ordered-set.el",
+  "description": "Insertion-order once-only collections",
+  "url": "https://github.com/kisaragi-hiu/ordered-set.el",
+  "stars": 5,
+  "updated": "2025-06-16T14:46:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ordered-set",
+    "fetcher": "github",
+    "repo": "kisaragi-hiu/ordered-set.el"
+  }
+}

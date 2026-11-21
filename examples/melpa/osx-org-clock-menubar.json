@@ -1,0 +1,19 @@
+{
+  "id": 30248126,
+  "name": "jordonbiondo/osx-org-clock-menubar",
+  "description": "Simple OSX Menu Bar Visibility for org-clock.",
+  "url": "https://github.com/jordonbiondo/osx-org-clock-menubar",
+  "stars": 38,
+  "updated": "2015-02-05T21:11:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "osx-org-clock-menubar",
+    "fetcher": "github",
+    "repo": "jordonbiondo/osx-org-clock-menubar",
+    "files": "(:defaults \"*.rb\")"
+  }
+}

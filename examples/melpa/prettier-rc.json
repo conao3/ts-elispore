@@ -1,0 +1,18 @@
+{
+  "id": 467860328,
+  "name": "jjuliano/prettier-rc-emacs",
+  "description": "MELPA package to use local rc rules with prettier",
+  "url": "https://github.com/jjuliano/prettier-rc-emacs",
+  "stars": 4,
+  "updated": "2022-03-30T01:45:29Z",
+  "archived": false,
+  "topics": ["editorconfig", "emacs", "html", "javascript", "melpa", "prettier", "typescript"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prettier-rc",
+    "fetcher": "github",
+    "repo": "jjuliano/prettier-rc-emacs"
+  }
+}

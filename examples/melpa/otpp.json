@@ -1,0 +1,18 @@
+{
+  "id": 825996827,
+  "name": "abougouffa/one-tab-per-project",
+  "description": "Automatically create a tab per project, providing a light tab-bar based workspace management for Emacs",
+  "url": "https://github.com/abougouffa/one-tab-per-project",
+  "stars": 62,
+  "updated": "2026-08-13T09:11:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "otpp",
+    "fetcher": "github",
+    "repo": "abougouffa/one-tab-per-project"
+  }
+}

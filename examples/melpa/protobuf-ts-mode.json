@@ -1,0 +1,18 @@
+{
+  "id": 771777721,
+  "name": "emacsattic/protobuf-ts-mode",
+  "description": "",
+  "url": "https://github.com/emacsattic/protobuf-ts-mode",
+  "stars": 3,
+  "updated": "2024-03-13T23:43:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "protobuf-ts-mode",
+    "fetcher": "github",
+    "repo": "emacsattic/protobuf-ts-mode"
+  }
+}

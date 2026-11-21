@@ -1,0 +1,18 @@
+{
+  "id": 36542725,
+  "name": "emacs-pe/redis.el",
+  "description": "Redis integration",
+  "url": "https://github.com/emacs-pe/redis.el",
+  "stars": 6,
+  "updated": "2023-11-11T17:33:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "redis",
+    "fetcher": "github",
+    "repo": "emacs-pe/redis.el"
+  }
+}

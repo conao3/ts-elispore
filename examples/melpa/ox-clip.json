@@ -1,0 +1,18 @@
+{
+  "id": 99417906,
+  "name": "jkitchin/ox-clip",
+  "description": "Copy formatted content from org-mode",
+  "url": "https://github.com/jkitchin/ox-clip",
+  "stars": 80,
+  "updated": "2024-03-10T15:14:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-clip",
+    "fetcher": "github",
+    "repo": "jkitchin/ox-clip"
+  }
+}

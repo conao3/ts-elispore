@@ -1,0 +1,18 @@
+{
+  "id": 85771415,
+  "name": "et2010/org-edit-latex",
+  "description": "Edit LaTeX fragments like editing src blocks",
+  "url": "https://github.com/et2010/org-edit-latex",
+  "stars": 67,
+  "updated": "2017-09-08T15:25:14Z",
+  "archived": false,
+  "topics": ["edit", "emacs", "emacs-mode", "latex", "latex-fragment", "org-mode", "orgmode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-edit-latex",
+    "fetcher": "github",
+    "repo": "et2010/org-edit-latex"
+  }
+}

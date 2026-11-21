@@ -1,0 +1,19 @@
+{
+  "id": 149674986,
+  "name": "realgud/realgud-trepan-ni",
+  "description": "Realgud debugger front-end support for trepan-ni",
+  "url": "https://github.com/realgud/realgud-trepan-ni",
+  "stars": 4,
+  "updated": "2021-05-13T22:38:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "realgud-trepan-ni",
+    "fetcher": "github",
+    "repo": "realgud/realgud-trepan-ni",
+    "files": "(:defaults\n         (\"trepan-ni\" \"trepan-ni/*.el\"))"
+  }
+}

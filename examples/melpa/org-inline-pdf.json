@@ -1,0 +1,18 @@
+{
+  "id": 317437910,
+  "name": "shg/org-inline-pdf.el",
+  "description": "Inline PDF previewing for Org",
+  "url": "https://github.com/shg/org-inline-pdf.el",
+  "stars": 55,
+  "updated": "2023-08-29T09:46:18Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-inline-pdf",
+    "fetcher": "github",
+    "repo": "shg/org-inline-pdf.el"
+  }
+}

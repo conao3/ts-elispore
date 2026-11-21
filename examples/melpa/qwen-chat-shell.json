@@ -1,0 +1,18 @@
+{
+  "id": 804394265,
+  "name": "Pavinberg/qwen-chat-shell",
+  "description": "Qwen chat shell in Emacs",
+  "url": "https://github.com/Pavinberg/qwen-chat-shell",
+  "stars": 7,
+  "updated": "2024-06-12T03:44:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "qwen-chat-shell",
+    "fetcher": "github",
+    "repo": "Pavinberg/qwen-chat-shell"
+  }
+}

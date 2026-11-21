@@ -1,0 +1,18 @@
+{
+  "id": 200592138,
+  "name": "lukateras/plain-theme",
+  "description": "Plain Emacs theme with no syntax highlighting",
+  "url": "https://github.com/lukateras/plain-theme",
+  "stars": 5,
+  "updated": "2019-09-09T09:04:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "CC0-1.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "plain-theme",
+    "fetcher": "github",
+    "repo": "lukateras/plain-theme"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 268952984,
+  "name": "RyanMillerC/poke-line",
+  "description": "Minor Emacs mode to show buffer position using a Pokémon!",
+  "url": "https://github.com/RyanMillerC/poke-line",
+  "stars": 37,
+  "updated": "2020-10-23T02:47:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "poke-line",
+    "fetcher": "github",
+    "repo": "RyanMillerC/poke-line",
+    "files": "(:defaults \"img\")"
+  }
+}

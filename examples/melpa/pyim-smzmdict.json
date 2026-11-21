@@ -1,0 +1,19 @@
+{
+  "id": 342272341,
+  "name": "a5corpii/pyim-smzmdict",
+  "description": "sanma(triple) zhengma dict for [pyim](https://github.com/tumashu/pyim)",
+  "url": "https://github.com/a5corpii/pyim-smzmdict",
+  "stars": 2,
+  "updated": "2025-06-21T08:28:10Z",
+  "archived": false,
+  "topics": ["pyim", "pyim-smzmdict"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pyim-smzmdict",
+    "fetcher": "github",
+    "repo": "a5corpii/pyim-smzmdict",
+    "files": "(:defaults \"*.pyim\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 58069472,
+  "name": "cute-jumper/pinyinlib.el",
+  "description": "Elisp library for converting first letter of Pinyin to Simplified/Traditional Chinese characters",
+  "url": "https://github.com/cute-jumper/pinyinlib.el",
+  "stars": 37,
+  "updated": "2023-09-20T13:01:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pinyinlib",
+    "fetcher": "github",
+    "repo": "cute-jumper/pinyinlib.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 92754468,
+  "name": "prettier/prettier-emacs",
+  "description": "Minor mode to format code on file save",
+  "url": "https://github.com/prettier/prettier-emacs",
+  "stars": 399,
+  "updated": "2026-05-26T08:44:07Z",
+  "archived": false,
+  "topics": ["emacs", "prettier"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "prettier-js",
+    "fetcher": "github",
+    "repo": "prettier/prettier-emacs"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 906195801,
+  "name": "Endi1/org-shortcut",
+  "description": "",
+  "url": "https://github.com/Endi1/org-shortcut",
+  "stars": 1,
+  "updated": "2025-02-23T00:02:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-shortcut",
+    "fetcher": "github",
+    "repo": "Endi1/org-shortcut"
+  }
+}

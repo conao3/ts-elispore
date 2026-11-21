@@ -1,0 +1,18 @@
+{
+  "id": 106057138,
+  "name": "alphapapa/pocket-lib.el",
+  "description": "Emacs library for the getpocket.com API",
+  "url": "https://github.com/alphapapa/pocket-lib.el",
+  "stars": 22,
+  "updated": "2024-07-13T15:29:43Z",
+  "archived": false,
+  "topics": ["emacs", "getpocket", "pocket", "pocket-api"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pocket-lib",
+    "fetcher": "github",
+    "repo": "alphapapa/pocket-lib.el"
+  }
+}

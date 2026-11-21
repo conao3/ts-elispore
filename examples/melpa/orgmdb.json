@@ -1,0 +1,18 @@
+{
+  "id": 331123872,
+  "name": "isamert/orgmdb.el",
+  "description": "An Emacs/org-mode watchlist manager and OMDb API client",
+  "url": "https://github.com/isamert/orgmdb.el",
+  "stars": 39,
+  "updated": "2026-01-20T17:38:29Z",
+  "archived": false,
+  "topics": ["emacs", "movies", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "orgmdb",
+    "fetcher": "github",
+    "repo": "isamert/orgmdb.el"
+  }
+}

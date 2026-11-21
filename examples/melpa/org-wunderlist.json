@@ -1,0 +1,18 @@
+{
+  "id": 230282278,
+  "name": "emacsattic/org-wunderlist",
+  "description": "Org sync with Wunderlist",
+  "url": "https://github.com/emacsattic/org-wunderlist",
+  "stars": 0,
+  "updated": "2019-12-26T15:07:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "org-wunderlist",
+    "fetcher": "github",
+    "repo": "emacsattic/org-wunderlist"
+  }
+}

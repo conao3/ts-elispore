@@ -1,0 +1,19 @@
+{
+  "id": 33302032,
+  "name": "tumashu/org2web",
+  "description": "A static site generator based on org-mode                ",
+  "url": "https://github.com/tumashu/org2web",
+  "stars": 91,
+  "updated": "2024-12-27T00:40:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org2web",
+    "fetcher": "github",
+    "repo": "tumashu/org2web",
+    "files": "(\"org2web*.el\" \"documents\" \"themes\" \"uploaders\")"
+  }
+}

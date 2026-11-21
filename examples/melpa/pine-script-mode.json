@@ -1,0 +1,18 @@
+{
+  "id": 153198402,
+  "name": "darrylhebbes/pine-script-mode",
+  "description": "GNU Emacs Major mode for Trading View pine script",
+  "url": "https://github.com/darrylhebbes/pine-script-mode",
+  "stars": 28,
+  "updated": "2025-08-26T09:01:04Z",
+  "archived": false,
+  "topics": ["dsl", "emacs", "major-mode", "package", "pine", "pinescript", "trading", "view"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pine-script-mode",
+    "fetcher": "github",
+    "repo": "darrylhebbes/pine-script-mode"
+  }
+}

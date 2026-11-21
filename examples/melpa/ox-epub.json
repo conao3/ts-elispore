@@ -1,0 +1,18 @@
+{
+  "id": 83170926,
+  "name": "ofosos/ox-epub",
+  "description": "Org mode epub export",
+  "url": "https://github.com/ofosos/ox-epub",
+  "stars": 108,
+  "updated": "2022-08-12T02:05:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-epub",
+    "fetcher": "github",
+    "repo": "ofosos/ox-epub"
+  }
+}

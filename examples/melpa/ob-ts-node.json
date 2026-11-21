@@ -1,0 +1,18 @@
+{
+  "id": 320951754,
+  "name": "tmythicator/ob-ts-node",
+  "description": "Literate programming in Typescript made easy",
+  "url": "https://github.com/tmythicator/ob-ts-node",
+  "stars": 5,
+  "updated": "2026-01-23T00:15:30Z",
+  "archived": false,
+  "topics": ["emacs", "literate-programming", "ts-node", "typescript"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-ts-node",
+    "fetcher": "github",
+    "repo": "tmythicator/ob-ts-node"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 11982762,
+  "name": "OmniSharp/omnisharp-emacs",
+  "description": "Troll coworkers - use Emacs at work for csharp!",
+  "url": "https://github.com/OmniSharp/omnisharp-emacs",
+  "stars": 520,
+  "updated": "2023-06-16T12:22:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "omnisharp",
+    "fetcher": "github",
+    "repo": "OmniSharp/omnisharp-emacs"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 7610851,
+  "name": "danielsz/Palimpsest",
+  "description": "Palimpsest, an Emacs minor mode providing various strategies when deleting text",
+  "url": "https://github.com/danielsz/Palimpsest",
+  "stars": 52,
+  "updated": "2026-09-07T11:00:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "palimpsest",
+    "fetcher": "github",
+    "repo": "danielsz/Palimpsest"
+  }
+}

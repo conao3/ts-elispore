@@ -1,0 +1,18 @@
+{
+  "id": 5016515,
+  "name": "dengste/org-caldav",
+  "description": "Caldav sync for Emacs orgmode",
+  "url": "https://github.com/dengste/org-caldav",
+  "stars": 784,
+  "updated": "2026-11-16T02:29:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-caldav",
+    "fetcher": "github",
+    "repo": "dengste/org-caldav"
+  }
+}

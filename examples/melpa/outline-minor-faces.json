@@ -1,0 +1,18 @@
+{
+  "id": 155408616,
+  "name": "tarsius/outline-minor-faces",
+  "description": "Heading faces for outline-minor-mode",
+  "url": "https://github.com/tarsius/outline-minor-faces",
+  "stars": 30,
+  "updated": "2026-10-01T15:34:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "outline-minor-faces",
+    "fetcher": "github",
+    "repo": "tarsius/outline-minor-faces"
+  }
+}

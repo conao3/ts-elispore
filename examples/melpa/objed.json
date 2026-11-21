@@ -1,0 +1,18 @@
+{
+  "id": 155398246,
+  "name": "clemera/objed",
+  "description": "Navigate and edit text objects with Emacs. Development on pause.",
+  "url": "https://github.com/clemera/objed",
+  "stars": 333,
+  "updated": "2022-07-25T15:54:02Z",
+  "archived": false,
+  "topics": ["emacs", "text-objects", "textedit", "texteditor"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "objed",
+    "fetcher": "github",
+    "repo": "clemera/objed"
+  }
+}

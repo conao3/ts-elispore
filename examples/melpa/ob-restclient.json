@@ -1,0 +1,18 @@
+{
+  "id": 47611623,
+  "name": "alf/ob-restclient.el",
+  "description": "An org-mode extension to restclient.el",
+  "url": "https://github.com/alf/ob-restclient.el",
+  "stars": 224,
+  "updated": "2025-08-06T21:53:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-restclient",
+    "fetcher": "github",
+    "repo": "alf/ob-restclient.el"
+  }
+}

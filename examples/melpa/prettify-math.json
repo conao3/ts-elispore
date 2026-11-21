@@ -1,0 +1,19 @@
+{
+  "id": 439605196,
+  "name": "shaqtsui/prettify-math",
+  "description": "emacs minor mode to view latex math, asicii math on fly",
+  "url": "https://github.com/shaqtsui/prettify-math",
+  "stars": 10,
+  "updated": "2023-12-15T02:04:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prettify-math",
+    "fetcher": "github",
+    "repo": "shaqtsui/prettify-math",
+    "files": "(:defaults \"mathjax-jsonrpc.js\")"
+  }
+}

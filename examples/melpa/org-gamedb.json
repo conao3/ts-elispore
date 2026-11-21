@@ -1,0 +1,18 @@
+{
+  "id": 342719296,
+  "name": "repelliuss/org-gamedb",
+  "description": "A game API client for Emacs org-mode.",
+  "url": "https://github.com/repelliuss/org-gamedb",
+  "stars": 8,
+  "updated": "2021-05-25T23:38:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-gamedb",
+    "fetcher": "github",
+    "repo": "repelliuss/org-gamedb"
+  }
+}

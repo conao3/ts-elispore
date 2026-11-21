@@ -1,0 +1,18 @@
+{
+  "id": 1191946972,
+  "name": "agzam/occult.el",
+  "description": "Collapse selected region to a single-line summary",
+  "url": "https://github.com/agzam/occult.el",
+  "stars": 35,
+  "updated": "2026-10-23T19:53:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "occult",
+    "fetcher": "github",
+    "repo": "agzam/occult.el"
+  }
+}

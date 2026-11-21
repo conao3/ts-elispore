@@ -1,0 +1,18 @@
+{
+  "id": 454866039,
+  "name": "LaurenceWarne/prefab.el",
+  "description": "Create projects from templates in Emacs (Cookiecutter, etc)",
+  "url": "https://github.com/LaurenceWarne/prefab.el",
+  "stars": 15,
+  "updated": "2024-07-20T18:58:55Z",
+  "archived": false,
+  "topics": ["cookiecutter", "emacs", "projects"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prefab",
+    "fetcher": "github",
+    "repo": "LaurenceWarne/prefab.el"
+  }
+}

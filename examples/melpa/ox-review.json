@@ -1,0 +1,18 @@
+{
+  "id": 484712017,
+  "name": "masfj/ox-review",
+  "description": "Re:VIEW Back-End for Org Export Engine (org-mode)",
+  "url": "https://github.com/masfj/ox-review",
+  "stars": 4,
+  "updated": "2025-08-26T12:57:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-review",
+    "fetcher": "github",
+    "repo": "masfj/ox-review"
+  }
+}

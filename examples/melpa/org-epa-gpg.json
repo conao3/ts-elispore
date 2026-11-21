@@ -1,0 +1,31 @@
+{
+  "id": 445755927,
+  "name": "KeyWeeUsr/org-epa-gpg",
+  "description": "Enable toggling inline images in org-mode for epa-enabled / encrypted files",
+  "url": "https://github.com/KeyWeeUsr/org-epa-gpg",
+  "stars": 4,
+  "updated": "2024-12-07T00:00:26Z",
+  "archived": false,
+  "topics": [
+    "easypg",
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "epa",
+    "gpg",
+    "gpg-encryption",
+    "melpa",
+    "melpa-badge",
+    "org",
+    "org-mode",
+    "package"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-epa-gpg",
+    "fetcher": "github",
+    "repo": "KeyWeeUsr/org-epa-gpg"
+  }
+}

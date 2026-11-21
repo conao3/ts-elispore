@@ -1,0 +1,18 @@
+{
+  "id": 42581088,
+  "name": "ibukanov/pc-bufsw",
+  "description": "quick buffer switcher for Emacs according mru/lru order",
+  "url": "https://github.com/ibukanov/pc-bufsw",
+  "stars": 8,
+  "updated": "2020-10-11T19:18:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pc-bufsw",
+    "fetcher": "github",
+    "repo": "ibukanov/pc-bufsw"
+  }
+}

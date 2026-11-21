@@ -1,0 +1,18 @@
+{
+  "id": 945237825,
+  "name": "emacsomancer/pdffontetc",
+  "description": "Emacs interface to pdffonts and other PDF metadata",
+  "url": "https://github.com/emacsomancer/pdffontetc",
+  "stars": 6,
+  "updated": "2026-10-12T21:49:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pdffontetc",
+    "fetcher": "github",
+    "repo": "emacsomancer/pdffontetc"
+  }
+}

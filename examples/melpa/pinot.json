@@ -1,0 +1,19 @@
+{
+  "id": 5251594,
+  "name": "tkf/emacs-pinot-search",
+  "description": "Use pinot desktop meta search engine via Emacs anything/helm interface",
+  "url": "https://github.com/tkf/emacs-pinot-search",
+  "stars": 3,
+  "updated": "2014-02-24T05:31:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pinot",
+    "fetcher": "github",
+    "repo": "tkf/emacs-pinot-search",
+    "files": "(\"*.el\" \"*.py\")"
+  }
+}

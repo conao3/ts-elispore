@@ -1,0 +1,18 @@
+{
+  "id": 449443208,
+  "name": "a13/open-color.el",
+  "description": "Emacs colors based on https://github.com/yeun/open-color.",
+  "url": "https://github.com/a13/open-color.el",
+  "stars": 3,
+  "updated": "2024-04-16T16:02:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "open-color",
+    "fetcher": "github",
+    "repo": "a13/open-color.el"
+  }
+}

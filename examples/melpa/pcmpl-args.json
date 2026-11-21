@@ -1,0 +1,18 @@
+{
+  "id": 5200336,
+  "name": "JonWaltman/pcmpl-args.el",
+  "description": "Enhanced shell completion in Emacs",
+  "url": "https://github.com/JonWaltman/pcmpl-args.el",
+  "stars": 81,
+  "updated": "2025-02-17T03:42:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pcmpl-args",
+    "fetcher": "github",
+    "repo": "JonWaltman/pcmpl-args.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 9654611,
+  "name": "pretty-mode/pretty-mode",
+  "description": "Redisplay parts of the Emacs buffer as pretty symbols.",
+  "url": "https://github.com/pretty-mode/pretty-mode",
+  "stars": 107,
+  "updated": "2021-05-26T16:47:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "pretty-mode",
+    "fetcher": "github",
+    "repo": "pretty-mode/pretty-mode"
+  }
+}

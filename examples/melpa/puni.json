@@ -1,0 +1,18 @@
+{
+  "id": 395723799,
+  "name": "AmaiKinono/puni",
+  "description": "Structured editing (soft deletion, expression navigating & manipulating) that supports many major modes out of the box.",
+  "url": "https://github.com/AmaiKinono/puni",
+  "stars": 497,
+  "updated": "2026-05-19T15:28:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "puni",
+    "fetcher": "github",
+    "repo": "AmaiKinono/puni"
+  }
+}

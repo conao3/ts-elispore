@@ -1,0 +1,18 @@
+{
+  "id": 26967562,
+  "name": "zk-phi/phi-search-dired",
+  "description": "Interactive filtering for dired powered by phi-search",
+  "url": "https://github.com/zk-phi/phi-search-dired",
+  "stars": 1,
+  "updated": "2020-08-16T15:42:11Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "phi-search-dired",
+    "fetcher": "github",
+    "repo": "zk-phi/phi-search-dired"
+  }
+}

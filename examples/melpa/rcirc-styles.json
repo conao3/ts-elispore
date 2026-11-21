@@ -1,0 +1,18 @@
+{
+  "id": 39390226,
+  "name": "aaron-em/rcirc-styles.el",
+  "description": "Giving rcirc correct and complete support for mIRC-style color and attribute codes",
+  "url": "https://github.com/aaron-em/rcirc-styles.el",
+  "stars": 7,
+  "updated": "2021-04-14T17:12:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rcirc-styles",
+    "fetcher": "github",
+    "repo": "aaron-em/rcirc-styles.el"
+  }
+}

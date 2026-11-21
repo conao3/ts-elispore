@@ -1,0 +1,18 @@
+{
+  "id": 330007681,
+  "name": "yilkalargaw/org-auto-tangle",
+  "description": "a simple emacs package to allow org file tangling upon save",
+  "url": "https://github.com/yilkalargaw/org-auto-tangle",
+  "stars": 156,
+  "updated": "2025-12-30T14:18:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-auto-tangle",
+    "fetcher": "github",
+    "repo": "yilkalargaw/org-auto-tangle"
+  }
+}

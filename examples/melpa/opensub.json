@@ -1,0 +1,18 @@
+{
+  "id": 626371567,
+  "name": "danielfleischer/opensub",
+  "description": "Query and fetch from opensubtitles inside of Emacs.",
+  "url": "https://github.com/danielfleischer/opensub",
+  "stars": 2,
+  "updated": "2025-03-29T07:18:13Z",
+  "archived": false,
+  "topics": ["emacs", "opensubtitles", "subtitles"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "opensub",
+    "fetcher": "github",
+    "repo": "danielfleischer/opensub"
+  }
+}

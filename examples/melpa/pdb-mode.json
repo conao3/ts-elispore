@@ -1,0 +1,18 @@
+{
+  "id": 27157420,
+  "name": "sixpi/pdb-mode",
+  "description": "Emacs major mode for editing Protein Data Bank (PDB) files.",
+  "url": "https://github.com/sixpi/pdb-mode",
+  "stars": 2,
+  "updated": "2020-04-19T07:16:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pdb-mode",
+    "fetcher": "github",
+    "repo": "sixpi/pdb-mode"
+  }
+}

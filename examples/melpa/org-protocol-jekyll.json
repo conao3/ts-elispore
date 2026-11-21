@@ -1,0 +1,18 @@
+{
+  "id": 11456403,
+  "name": "vonavi/org-protocol-jekyll",
+  "description": "Jekyll's handler for org-protocol",
+  "url": "https://github.com/vonavi/org-protocol-jekyll",
+  "stars": 3,
+  "updated": "2017-03-28T16:39:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-protocol-jekyll",
+    "fetcher": "github",
+    "repo": "vonavi/org-protocol-jekyll"
+  }
+}

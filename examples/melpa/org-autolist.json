@@ -1,0 +1,18 @@
+{
+  "id": 27952855,
+  "name": "calvinwyoung/org-autolist",
+  "description": "Making it even easier to edit lists in org-mode!",
+  "url": "https://github.com/calvinwyoung/org-autolist",
+  "stars": 123,
+  "updated": "2024-06-21T12:31:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-autolist",
+    "fetcher": "github",
+    "repo": "calvinwyoung/org-autolist"
+  }
+}

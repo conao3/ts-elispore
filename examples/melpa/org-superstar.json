@@ -1,0 +1,18 @@
+{
+  "id": 237298620,
+  "name": "integral-dw/org-superstar-mode",
+  "description": "Make org-mode stars a little more super",
+  "url": "https://github.com/integral-dw/org-superstar-mode",
+  "stars": 557,
+  "updated": "2025-09-14T13:09:27Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "org-mode", "org-mode-configuration"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-superstar",
+    "fetcher": "github",
+    "repo": "integral-dw/org-superstar-mode"
+  }
+}

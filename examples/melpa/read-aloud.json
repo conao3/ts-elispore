@@ -1,0 +1,18 @@
+{
+  "id": 64797318,
+  "name": "gromnitsky/read-aloud.el",
+  "description": "A simple Emacs interface to TTS (text-to-speech) engines",
+  "url": "https://github.com/gromnitsky/read-aloud.el",
+  "stars": 35,
+  "updated": "2024-03-31T13:33:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "read-aloud",
+    "fetcher": "github",
+    "repo": "gromnitsky/read-aloud.el"
+  }
+}

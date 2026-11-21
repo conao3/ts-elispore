@@ -1,0 +1,18 @@
+{
+  "id": 106058711,
+  "name": "alphapapa/pocket-reader.el",
+  "description": "Emacs client for Pocket reading list (getpocket.com)",
+  "url": "https://github.com/alphapapa/pocket-reader.el",
+  "stars": 224,
+  "updated": "2024-12-25T01:19:52Z",
+  "archived": false,
+  "topics": ["emacs", "getpocket", "pocket"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pocket-reader",
+    "fetcher": "github",
+    "repo": "alphapapa/pocket-reader.el"
+  }
+}

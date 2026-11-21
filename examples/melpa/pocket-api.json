@@ -1,0 +1,18 @@
+{
+  "id": 59415523,
+  "name": "lujun9972/pocket-api.el",
+  "description": "Another pocket api which is rewriten from el-pocket.",
+  "url": "https://github.com/lujun9972/pocket-api.el",
+  "stars": 4,
+  "updated": "2018-04-03T01:10:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pocket-api",
+    "fetcher": "github",
+    "repo": "lujun9972/pocket-api.el"
+  }
+}

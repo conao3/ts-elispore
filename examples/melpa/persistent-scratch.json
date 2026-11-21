@@ -1,0 +1,18 @@
+{
+  "id": 29407705,
+  "name": "Fanael/persistent-scratch",
+  "description": "Preserve the scratch buffer across Emacs sessions",
+  "url": "https://github.com/Fanael/persistent-scratch",
+  "stars": 150,
+  "updated": "2024-03-02T20:26:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "persistent-scratch",
+    "fetcher": "github",
+    "repo": "Fanael/persistent-scratch"
+  }
+}

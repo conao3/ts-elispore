@@ -1,0 +1,18 @@
+{
+  "id": 2850402,
+  "name": "emacsorphanage/quickrun",
+  "description": "Run command quickly. This packages is inspired quickrun.vim",
+  "url": "https://github.com/emacsorphanage/quickrun",
+  "stars": 500,
+  "updated": "2026-06-19T14:08:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "quickrun",
+    "fetcher": "github",
+    "repo": "emacsorphanage/quickrun"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 94754755,
+  "name": "micanzhang/ob-rust",
+  "description": "",
+  "url": "https://github.com/micanzhang/ob-rust",
+  "stars": 42,
+  "updated": "2022-08-24T19:23:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-rust",
+    "fetcher": "github",
+    "repo": "micanzhang/ob-rust"
+  }
+}

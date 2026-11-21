@@ -1,0 +1,18 @@
+{
+  "id": 1116415959,
+  "name": "abidanBrito/region-cursors",
+  "description": "Cursor overlays for the active region ends.",
+  "url": "https://github.com/abidanBrito/region-cursors",
+  "stars": 1,
+  "updated": "2026-10-25T18:23:56Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "overlays"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "region-cursors",
+    "fetcher": "github",
+    "repo": "abidanBrito/region-cursors"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 845254703,
+  "name": "pjones/org-clock-dbus",
+  "description": "Monitor org-clock from outside Emacs",
+  "url": "https://github.com/pjones/org-clock-dbus",
+  "stars": 4,
+  "updated": "2026-09-14T10:28:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Rust",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-clock-dbus",
+    "fetcher": "github",
+    "repo": "pjones/org-clock-dbus"
+  }
+}

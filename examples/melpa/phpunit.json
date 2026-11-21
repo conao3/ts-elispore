@@ -1,0 +1,18 @@
+{
+  "id": 18328271,
+  "name": "nlamirault/phpunit.el",
+  "description": "Emacs mode to phpunit and test command line tool",
+  "url": "https://github.com/nlamirault/phpunit.el",
+  "stars": 36,
+  "updated": "2024-02-17T22:37:29Z",
+  "archived": false,
+  "topics": ["emacs", "phpunit"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "phpunit",
+    "fetcher": "github",
+    "repo": "nlamirault/phpunit.el"
+  }
+}

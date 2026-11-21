@@ -1,0 +1,26 @@
+{
+  "id": 42843402,
+  "name": "ProofGeneral/PG",
+  "description": "This repo is the new home of Proof General",
+  "url": "https://github.com/ProofGeneral/PG",
+  "stars": 566,
+  "updated": "2026-11-18T23:04:11Z",
+  "archived": false,
+  "topics": [
+    "coq",
+    "docker-coq-action",
+    "emacs",
+    "integrated-development-environment",
+    "proof-assistant",
+    "proof-general"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "proof-general",
+    "fetcher": "github",
+    "repo": "ProofGeneral/PG",
+    "files": "(:defaults \"CHANGES\" \"AUTHORS\" \"COPYING\"\n                   \"generic\" \"images\" \"lib\"\n                   (\"coq\" \"coq/*.el\")\n                   \"easycrypt\" \"phox\" \"qrhl\"\n                   \"pghaskell\" \"pgocaml\" \"pgshell\")"
+  }
+}

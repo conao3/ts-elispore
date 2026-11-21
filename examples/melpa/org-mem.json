@@ -1,0 +1,18 @@
+{
+  "id": 949465616,
+  "name": "meedstrom/org-mem",
+  "description": "Turn thousands of Org files into a database in seconds",
+  "url": "https://github.com/meedstrom/org-mem",
+  "stars": 148,
+  "updated": "2026-03-26T11:46:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-mem",
+    "fetcher": "github",
+    "repo": "meedstrom/org-mem"
+  }
+}

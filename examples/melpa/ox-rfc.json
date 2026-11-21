@@ -1,0 +1,18 @@
+{
+  "id": 169827438,
+  "name": "choppsv1/org-rfc-export",
+  "description": "Org-mode export back-end for creating internet-drafts and RFCs using xml2rfc.",
+  "url": "https://github.com/choppsv1/org-rfc-export",
+  "stars": 5,
+  "updated": "2024-09-03T00:02:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-rfc",
+    "fetcher": "github",
+    "repo": "choppsv1/org-rfc-export"
+  }
+}

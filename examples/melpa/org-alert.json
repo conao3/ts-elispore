@@ -1,0 +1,18 @@
+{
+  "id": 43798958,
+  "name": "spegoraro/org-alert",
+  "description": "System notifications of org agenda items",
+  "url": "https://github.com/spegoraro/org-alert",
+  "stars": 309,
+  "updated": "2024-12-26T00:04:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-alert",
+    "fetcher": "github",
+    "repo": "spegoraro/org-alert"
+  }
+}

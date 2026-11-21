@@ -1,0 +1,18 @@
+{
+  "id": 125122147,
+  "name": "hinman/ox-mom",
+  "description": "Org Mode exporter for groff MOM macro",
+  "url": "https://github.com/hinman/ox-mom",
+  "stars": 0,
+  "updated": "2026-07-07T02:44:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-mom",
+    "fetcher": "github",
+    "repo": "hinman/ox-mom"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 515382509,
+  "name": "jxq0/org-bookmarks-extractor",
+  "description": "",
+  "url": "https://github.com/jxq0/org-bookmarks-extractor",
+  "stars": 9,
+  "updated": "2022-09-13T00:13:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-bookmarks-extractor",
+    "fetcher": "github",
+    "repo": "jxq0/org-bookmarks-extractor"
+  }
+}

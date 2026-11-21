@@ -1,0 +1,18 @@
+{
+  "id": 425167178,
+  "name": "gsingh93/org-custom-cookies",
+  "description": "An Emacs package that allows you to create custom cookies in org-mode",
+  "url": "https://github.com/gsingh93/org-custom-cookies",
+  "stars": 20,
+  "updated": "2024-04-16T07:15:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-custom-cookies",
+    "fetcher": "github",
+    "repo": "gsingh93/org-custom-cookies"
+  }
+}

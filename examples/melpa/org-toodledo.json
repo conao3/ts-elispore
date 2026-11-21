@@ -1,0 +1,18 @@
+{
+  "id": 2492973,
+  "name": "myuhe/org-toodledo",
+  "description": "Latest release 2.1.0 brings in some good fixes, support for subtasks and https for secure transactions. Revamped org-toodledo based on the 2.0 API from Toodledo.com.  I started with the latest from Sacha's branch, but ended up rewriting a good portion of it as I went...  This version is working at least on Emacs running native on Windows 7.",
+  "url": "https://github.com/myuhe/org-toodledo",
+  "stars": 12,
+  "updated": "2017-03-16T20:47:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-toodledo",
+    "fetcher": "github",
+    "repo": "myuhe/org-toodledo"
+  }
+}

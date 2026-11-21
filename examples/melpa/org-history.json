@@ -1,0 +1,18 @@
+{
+  "id": 1256617192,
+  "name": "Anoncheg1/emacs-org-history",
+  "description": "Show Dates column in Org for headers from git VCS + auto-commit with --amend per day",
+  "url": "https://github.com/Anoncheg1/emacs-org-history",
+  "stars": 1,
+  "updated": "2026-08-03T18:35:18Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode"],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-history",
+    "fetcher": "github",
+    "repo": "Anoncheg1/emacs-org-history"
+  }
+}

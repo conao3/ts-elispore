@@ -1,0 +1,19 @@
+{
+  "id": 14931285,
+  "name": "tarsius/paren-face",
+  "description": "A face dedicated to lisp parentheses",
+  "url": "https://github.com/tarsius/paren-face",
+  "stars": 190,
+  "updated": "2026-10-01T16:30:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "paren-face",
+    "fetcher": "github",
+    "repo": "tarsius/paren-face",
+    "files": "(\"paren-face.el\")"
+  }
+}

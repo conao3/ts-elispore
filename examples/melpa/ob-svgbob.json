@@ -1,0 +1,18 @@
+{
+  "id": 154409980,
+  "name": "mgxm/ob-svgbob",
+  "description": "Org-Babel support for svgbob",
+  "url": "https://github.com/mgxm/ob-svgbob",
+  "stars": 6,
+  "updated": "2019-09-11T03:00:56Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "org-babel", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-svgbob",
+    "fetcher": "github",
+    "repo": "mgxm/ob-svgbob"
+  }
+}

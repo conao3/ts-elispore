@@ -1,0 +1,18 @@
+{
+  "id": 15041332,
+  "name": "rejeep/prodigy.el",
+  "description": "Manage external services from within Emacs",
+  "url": "https://github.com/rejeep/prodigy.el",
+  "stars": 565,
+  "updated": "2025-04-02T06:47:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prodigy",
+    "fetcher": "github",
+    "repo": "rejeep/prodigy.el"
+  }
+}

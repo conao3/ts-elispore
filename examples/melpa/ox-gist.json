@@ -1,0 +1,18 @@
+{
+  "id": 467239043,
+  "name": "punchagan/ox-gist",
+  "description": "Export Org mode buffers and subtrees to GitHub gists",
+  "url": "https://github.com/punchagan/ox-gist",
+  "stars": 11,
+  "updated": "2022-04-10T20:34:29Z",
+  "archived": false,
+  "topics": ["emacs", "gist", "github", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-gist",
+    "fetcher": "github",
+    "repo": "punchagan/ox-gist"
+  }
+}

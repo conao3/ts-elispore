@@ -1,0 +1,18 @@
+{
+  "id": 33222724,
+  "name": "john2x/plan9-theme.el",
+  "description": "Emacs theme inspired by the Plan9 project",
+  "url": "https://github.com/john2x/plan9-theme.el",
+  "stars": 101,
+  "updated": "2019-03-09T09:02:16Z",
+  "archived": false,
+  "topics": ["colorscheme", "emacs", "theme"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "plan9-theme",
+    "fetcher": "github",
+    "repo": "john2x/plan9-theme.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 4941421,
+  "name": "milkypostman/powerline",
+  "description": "emacs powerline",
+  "url": "https://github.com/milkypostman/powerline",
+  "stars": 820,
+  "updated": "2024-02-14T08:36:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "powerline",
+    "fetcher": "github",
+    "repo": "milkypostman/powerline"
+  }
+}

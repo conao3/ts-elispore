@@ -1,0 +1,18 @@
+{
+  "id": 416883096,
+  "name": "fritzgrabo/project-tab-groups",
+  "description": "Emacs: Support a \"one tab group per project\" workflow",
+  "url": "https://github.com/fritzgrabo/project-tab-groups",
+  "stars": 52,
+  "updated": "2024-11-06T20:00:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "project-tab-groups",
+    "fetcher": "github",
+    "repo": "fritzgrabo/project-tab-groups"
+  }
+}

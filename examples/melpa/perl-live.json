@@ -1,0 +1,19 @@
+{
+  "id": 9990561,
+  "name": "vividsnow/perl-live",
+  "description": "perl live coding",
+  "url": "https://github.com/vividsnow/perl-live",
+  "stars": 21,
+  "updated": "2026-10-26T19:56:59Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "livecoding", "perl", "perl5"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "perl-live",
+    "fetcher": "github",
+    "repo": "vividsnow/perl-live",
+    "files": "(:defaults \"perl-live.pl\")"
+  }
+}

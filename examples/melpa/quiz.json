@@ -1,0 +1,18 @@
+{
+  "id": 99941790,
+  "name": "davep/quiz.el",
+  "description": "Trivia quiz game for GNU Emacs, using Open Trivia DB as the back end",
+  "url": "https://github.com/davep/quiz.el",
+  "stars": 0,
+  "updated": "2026-04-08T15:44:23Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-lisp", "game", "lisp", "quiz", "trivia"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "quiz",
+    "fetcher": "github",
+    "repo": "davep/quiz.el"
+  }
+}

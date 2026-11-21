@@ -1,0 +1,19 @@
+{
+  "id": 49813381,
+  "name": "ponylang/pony-snippets",
+  "description": ":horse: YASnippet Pony snippets for Emacs",
+  "url": "https://github.com/ponylang/pony-snippets",
+  "stars": 3,
+  "updated": "2026-03-11T20:42:48Z",
+  "archived": false,
+  "topics": ["emacs", "pony-language"],
+  "license": "GPL-3.0",
+  "language": "YASnippet",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "pony-snippets",
+    "fetcher": "github",
+    "repo": "ponylang/pony-snippets",
+    "files": "(:defaults \"snippets\")"
+  }
+}

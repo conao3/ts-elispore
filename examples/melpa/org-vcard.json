@@ -1,0 +1,19 @@
+{
+  "id": 22449214,
+  "name": "pinoaffe/org-vcard",
+  "description": "Export and import vCards from within GNU Emacs' Org mode.",
+  "url": "https://github.com/pinoaffe/org-vcard",
+  "stars": 76,
+  "updated": "2025-08-28T08:11:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-vcard",
+    "fetcher": "github",
+    "repo": "pinoaffe/org-vcard",
+    "files": "(\"org-vcard.el\"\n         \"styles\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 806434375,
+  "name": "skitov/regswap",
+  "description": "",
+  "url": "https://github.com/skitov/regswap",
+  "stars": 0,
+  "updated": "2024-06-02T20:54:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "regswap",
+    "fetcher": "github",
+    "repo": "skitov/regswap"
+  }
+}

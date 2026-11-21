@@ -1,0 +1,18 @@
+{
+  "id": 745799978,
+  "name": "kimim/org-drawio",
+  "description": "Handle drawio in orgmode",
+  "url": "https://github.com/kimim/org-drawio",
+  "stars": 18,
+  "updated": "2026-10-30T00:02:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-drawio",
+    "fetcher": "github",
+    "repo": "kimim/org-drawio"
+  }
+}

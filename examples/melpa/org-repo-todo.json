@@ -1,0 +1,18 @@
+{
+  "id": 16534176,
+  "name": "waymondo/org-repo-todo",
+  "description": "Simple repository todo management with org-mode",
+  "url": "https://github.com/waymondo/org-repo-todo",
+  "stars": 21,
+  "updated": "2017-12-28T01:20:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-repo-todo",
+    "fetcher": "github",
+    "repo": "waymondo/org-repo-todo"
+  }
+}

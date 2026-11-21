@@ -1,0 +1,18 @@
+{
+  "id": 65353354,
+  "name": "kaushalmodi/ox-minutes",
+  "description": "Plain text backend for Org for meeting minutes",
+  "url": "https://github.com/kaushalmodi/ox-minutes",
+  "stars": 9,
+  "updated": "2018-02-02T17:35:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-minutes",
+    "fetcher": "github",
+    "repo": "kaushalmodi/ox-minutes"
+  }
+}

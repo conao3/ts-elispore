@@ -1,0 +1,28 @@
+{
+  "id": 187370972,
+  "name": "davep/pinboard.el",
+  "description": "A pinboard.in client for Emacs.",
+  "url": "https://github.com/davep/pinboard.el",
+  "stars": 42,
+  "updated": "2023-01-01T08:53:27Z",
+  "archived": false,
+  "topics": [
+    "bookmarking",
+    "bookmarking-application",
+    "bookmarks",
+    "elisp",
+    "emacs",
+    "emacs-lisp",
+    "lisp",
+    "pinboard",
+    "pinboard-api"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pinboard",
+    "fetcher": "github",
+    "repo": "davep/pinboard.el"
+  }
+}

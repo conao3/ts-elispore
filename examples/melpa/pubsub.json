@@ -1,0 +1,18 @@
+{
+  "id": 985154682,
+  "name": "countvajhula/pubsub",
+  "description": "A basic publish/subscribe system for Emacs",
+  "url": "https://github.com/countvajhula/pubsub",
+  "stars": 10,
+  "updated": "2026-02-28T06:53:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pubsub",
+    "fetcher": "github",
+    "repo": "countvajhula/pubsub"
+  }
+}

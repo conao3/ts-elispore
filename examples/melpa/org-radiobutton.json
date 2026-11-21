@@ -1,0 +1,18 @@
+{
+  "id": 124680291,
+  "name": "Fuco1/org-radiobutton",
+  "description": "[SEMI-DEPRECATED] Radiobutton for org-mode lists.",
+  "url": "https://github.com/Fuco1/org-radiobutton",
+  "stars": 32,
+  "updated": "2022-01-04T14:48:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-radiobutton",
+    "fetcher": "github",
+    "repo": "Fuco1/org-radiobutton"
+  }
+}

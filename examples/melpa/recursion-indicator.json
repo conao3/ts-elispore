@@ -1,0 +1,18 @@
+{
+  "id": 314225163,
+  "name": "minad/recursion-indicator",
+  "description": "Recursion indicator for the mode-line",
+  "url": "https://github.com/minad/recursion-indicator",
+  "stars": 33,
+  "updated": "2026-06-28T13:33:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "recursion-indicator",
+    "fetcher": "github",
+    "repo": "minad/recursion-indicator"
+  }
+}

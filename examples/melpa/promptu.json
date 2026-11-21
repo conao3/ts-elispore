@@ -1,0 +1,18 @@
+{
+  "id": 1283323911,
+  "name": "mrcnski/promptu.el",
+  "description": "[Emacs] Compose LLM prompts from building blocks.",
+  "url": "https://github.com/mrcnski/promptu.el",
+  "stars": 3,
+  "updated": "2026-09-27T20:15:52Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "prompt-engineering"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "promptu",
+    "fetcher": "github",
+    "repo": "mrcnski/promptu.el"
+  }
+}

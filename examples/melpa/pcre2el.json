@@ -1,0 +1,18 @@
+{
+  "id": 3570272,
+  "name": "joddie/pcre2el",
+  "description": "convert between PCRE, Emacs and rx regexp syntax",
+  "url": "https://github.com/joddie/pcre2el",
+  "stars": 268,
+  "updated": "2024-06-29T23:22:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pcre2el",
+    "fetcher": "github",
+    "repo": "joddie/pcre2el"
+  }
+}

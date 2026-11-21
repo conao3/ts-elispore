@@ -1,0 +1,18 @@
+{
+  "id": 899134912,
+  "name": "oxidecomputer/p4-ts-mode",
+  "description": "P4_16 mode for emacs using treesitter ",
+  "url": "https://github.com/oxidecomputer/p4-ts-mode",
+  "stars": 5,
+  "updated": "2024-12-23T03:53:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "MPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "p4-ts-mode",
+    "fetcher": "github",
+    "repo": "oxidecomputer/p4-ts-mode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 154632913,
+  "name": "purescript-emacs/purescript-mode",
+  "description": "Emacs major mode and related tools for Purescript",
+  "url": "https://github.com/purescript-emacs/purescript-mode",
+  "stars": 24,
+  "updated": "2026-07-17T16:54:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "purescript-mode",
+    "fetcher": "github",
+    "repo": "purescript-emacs/purescript-mode",
+    "files": "(:defaults\n         \"NEWS\"\n         \"snippets\")"
+  }
+}

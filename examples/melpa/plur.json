@@ -1,0 +1,18 @@
+{
+  "id": 54904628,
+  "name": "xuchunyang/plur",
+  "description": "Easily (I hope) search and replace multiple variants of a word",
+  "url": "https://github.com/xuchunyang/plur",
+  "stars": 29,
+  "updated": "2016-05-04T09:26:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "plur",
+    "fetcher": "github",
+    "repo": "xuchunyang/plur"
+  }
+}

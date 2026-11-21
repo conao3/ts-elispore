@@ -1,0 +1,18 @@
+{
+  "id": 101498528,
+  "name": "emacs-php/php-runtime.el",
+  "description": "PHP-Emacs bridge, call PHP function from Emacs",
+  "url": "https://github.com/emacs-php/php-runtime.el",
+  "stars": 8,
+  "updated": "2025-04-23T00:20:55Z",
+  "archived": false,
+  "topics": ["emacs", "melpa", "php"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "php-runtime",
+    "fetcher": "github",
+    "repo": "emacs-php/php-runtime.el"
+  }
+}

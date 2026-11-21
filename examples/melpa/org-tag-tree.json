@@ -1,0 +1,18 @@
+{
+  "id": 1081741852,
+  "name": "p-snow/org-tag-tree",
+  "description": "Define Org-mode tag hierarchies from Org subtrees",
+  "url": "https://github.com/p-snow/org-tag-tree",
+  "stars": 4,
+  "updated": "2026-03-06T04:44:21Z",
+  "archived": false,
+  "topics": ["emacs", "org-mo", "tag-hierarchy"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-tag-tree",
+    "fetcher": "github",
+    "repo": "p-snow/org-tag-tree"
+  }
+}

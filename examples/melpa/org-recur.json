@@ -1,0 +1,18 @@
+{
+  "id": 171030079,
+  "name": "mrcnski/org-recur",
+  "description": "[Emacs] Simple recurring org-mode tasks.",
+  "url": "https://github.com/mrcnski/org-recur",
+  "stars": 131,
+  "updated": "2026-07-07T22:24:52Z",
+  "archived": false,
+  "topics": ["emacs", "org", "org-agenda", "org-mode", "package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-recur",
+    "fetcher": "github",
+    "repo": "mrcnski/org-recur"
+  }
+}

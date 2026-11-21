@@ -1,0 +1,18 @@
+{
+  "id": 977948,
+  "name": "mhayashi1120/Emacs-pcsv",
+  "description": "",
+  "url": "https://github.com/mhayashi1120/Emacs-pcsv",
+  "stars": 25,
+  "updated": "2025-01-21T03:00:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pcsv",
+    "fetcher": "github",
+    "repo": "mhayashi1120/Emacs-pcsv"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 44972008,
+  "name": "JalapenoGremlin/ox-trac",
+  "description": "Org Mode Export Backend to Trac WikiFormat",
+  "url": "https://github.com/JalapenoGremlin/ox-trac",
+  "stars": 4,
+  "updated": "2017-10-26T18:50:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-trac",
+    "fetcher": "github",
+    "repo": "JalapenoGremlin/ox-trac"
+  }
+}

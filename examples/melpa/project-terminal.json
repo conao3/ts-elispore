@@ -1,0 +1,18 @@
+{
+  "id": 1163120537,
+  "name": "cowboyd/project-terminal.el",
+  "description": "Manage a drawer of terminals in Emacs similar to VSCode",
+  "url": "https://github.com/cowboyd/project-terminal.el",
+  "stars": 2,
+  "updated": "2026-02-23T19:20:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "project-terminal",
+    "fetcher": "github",
+    "repo": "cowboyd/project-terminal.el"
+  }
+}

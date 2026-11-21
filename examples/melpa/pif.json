@@ -1,0 +1,18 @@
+{
+  "id": 918427183,
+  "name": "oliverepper/pif",
+  "description": "Prevent Initial Flash of Light",
+  "url": "https://github.com/oliverepper/pif",
+  "stars": 7,
+  "updated": "2026-05-04T16:21:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pif",
+    "fetcher": "github",
+    "repo": "oliverepper/pif"
+  }
+}

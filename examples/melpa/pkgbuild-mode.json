@@ -1,0 +1,18 @@
+{
+  "id": 485304,
+  "name": "juergenhoetzel/pkgbuild-mode",
+  "description": "Major mode for editing PKGBUILD files",
+  "url": "https://github.com/juergenhoetzel/pkgbuild-mode",
+  "stars": 53,
+  "updated": "2026-10-11T17:34:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pkgbuild-mode",
+    "fetcher": "github",
+    "repo": "juergenhoetzel/pkgbuild-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 140501260,
+  "name": "nickdrozd/reazon",
+  "description": "miniKanren for Emacs",
+  "url": "https://github.com/nickdrozd/reazon",
+  "stars": 118,
+  "updated": "2026-01-01T19:31:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "reazon",
+    "fetcher": "github",
+    "repo": "nickdrozd/reazon"
+  }
+}

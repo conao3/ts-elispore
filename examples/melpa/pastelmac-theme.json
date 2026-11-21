@@ -1,0 +1,18 @@
+{
+  "id": 45280632,
+  "name": "bmastenbrook/pastelmac-theme-el",
+  "description": "A soothing theme with a pastel color palette",
+  "url": "https://github.com/bmastenbrook/pastelmac-theme-el",
+  "stars": 11,
+  "updated": "2015-10-31T16:53:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pastelmac-theme",
+    "fetcher": "github",
+    "repo": "bmastenbrook/pastelmac-theme-el"
+  }
+}

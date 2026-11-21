@@ -1,0 +1,18 @@
+{
+  "id": 145260670,
+  "name": "polymode/poly-org",
+  "description": "Polymode for org-mode",
+  "url": "https://github.com/polymode/poly-org",
+  "stars": 62,
+  "updated": "2025-06-30T07:16:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "poly-org",
+    "fetcher": "github",
+    "repo": "polymode/poly-org"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1343561975,
+  "name": "Gleek/org-timegrid",
+  "description": "An SVG week calendar for Emacs, backed by Org files. Drag to create, move and resize; a read-only day strip for Org Agenda.",
+  "url": "https://github.com/Gleek/org-timegrid",
+  "stars": 226,
+  "updated": "2026-11-21T06:21:49Z",
+  "archived": false,
+  "topics": ["calendar", "emacs", "org-mode", "planner", "productivity", "svg"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-timegrid",
+    "fetcher": "github",
+    "repo": "Gleek/org-timegrid"
+  }
+}

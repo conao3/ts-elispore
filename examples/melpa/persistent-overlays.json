@@ -1,0 +1,19 @@
+{
+  "id": 52147325,
+  "name": "mneilly/Emacs-Persistent-Overlays",
+  "description": "This is an Emacs mode that allows you to store overlays between sessions. This is useful for keeping your code folding in hideshow mode, your outline folding in outline mode, etc between Emacs sessions.",
+  "url": "https://github.com/mneilly/Emacs-Persistent-Overlays",
+  "stars": 12,
+  "updated": "2016-11-28T07:00:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "persistent-overlays",
+    "fetcher": "github",
+    "repo": "mneilly/Emacs-Persistent-Overlays",
+    "files": "(\"persistent-overlays.el\"\n\t \"README.md\"\n\t \"LICENSE\")"
+  }
+}

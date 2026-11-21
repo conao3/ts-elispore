@@ -1,0 +1,19 @@
+{
+  "id": 72280161,
+  "name": "tumashu/pyim-wbdict",
+  "description": "Wubi dicts for pyim",
+  "url": "https://github.com/tumashu/pyim-wbdict",
+  "stars": 14,
+  "updated": "2023-01-13T07:45:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pyim-wbdict",
+    "fetcher": "github",
+    "repo": "tumashu/pyim-wbdict",
+    "files": "(:defaults \"*.pyim\" \"*.pyim.gz\")"
+  }
+}

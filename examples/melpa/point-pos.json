@@ -1,0 +1,18 @@
+{
+  "id": 21505799,
+  "name": "alezost/point-pos.el",
+  "description": "Save and restore point positions",
+  "url": "https://github.com/alezost/point-pos.el",
+  "stars": 4,
+  "updated": "2017-05-07T19:17:11Z",
+  "archived": false,
+  "topics": ["emacs", "point"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "point-pos",
+    "fetcher": "github",
+    "repo": "alezost/point-pos.el"
+  }
+}

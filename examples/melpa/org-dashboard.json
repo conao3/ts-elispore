@@ -1,0 +1,18 @@
+{
+  "id": 37313867,
+  "name": "bard/org-dashboard",
+  "description": "Visual summary of progress in projects and tasks for Emacs Org Mode",
+  "url": "https://github.com/bard/org-dashboard",
+  "stars": 108,
+  "updated": "2019-02-11T21:22:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-dashboard",
+    "fetcher": "github",
+    "repo": "bard/org-dashboard"
+  }
+}

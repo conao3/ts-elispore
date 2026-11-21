@@ -1,0 +1,18 @@
+{
+  "id": 53132964,
+  "name": "brocode/play-routes-mode",
+  "description": "syntax highlighting for play routes file",
+  "url": "https://github.com/brocode/play-routes-mode",
+  "stars": 8,
+  "updated": "2017-07-01T12:07:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "play-routes-mode",
+    "fetcher": "github",
+    "repo": "brocode/play-routes-mode"
+  }
+}

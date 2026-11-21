@@ -1,0 +1,18 @@
+{
+  "id": 804463722,
+  "name": "jamescherti/quick-sdcv.el",
+  "description": "Emacs offline dictionary using 'sdcv'",
+  "url": "https://github.com/jamescherti/quick-sdcv.el",
+  "stars": 34,
+  "updated": "2026-11-21T17:27:44Z",
+  "archived": false,
+  "topics": ["command-line", "dictionary", "emacs", "sdcv", "stardict", "translate", "translation"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "quick-sdcv",
+    "fetcher": "github",
+    "repo": "jamescherti/quick-sdcv.el"
+  }
+}

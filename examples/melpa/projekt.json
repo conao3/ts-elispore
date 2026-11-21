@@ -1,0 +1,18 @@
+{
+  "id": 9267521,
+  "name": "tekai/projekt",
+  "description": "some kind of staging for CSV",
+  "url": "https://github.com/tekai/projekt",
+  "stars": 0,
+  "updated": "2015-03-24T08:49:02Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "projekt",
+    "fetcher": "github",
+    "repo": "tekai/projekt"
+  }
+}

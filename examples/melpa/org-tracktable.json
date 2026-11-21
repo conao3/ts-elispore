@@ -1,0 +1,18 @@
+{
+  "id": 45599080,
+  "name": "tty-tourist/org-tracktable",
+  "description": "Track your writing progress in an org-table",
+  "url": "https://github.com/tty-tourist/org-tracktable",
+  "stars": 36,
+  "updated": "2016-11-24T09:54:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-tracktable",
+    "fetcher": "github",
+    "repo": "tty-tourist/org-tracktable"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 762838231,
+  "name": "ArneBab/emacs-org-clock-daytime",
+  "description": "Emacs mode to display the time clocked today in the modeline",
+  "url": "https://github.com/ArneBab/emacs-org-clock-daytime",
+  "stars": 16,
+  "updated": "2024-04-03T11:15:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-clock-agenda-daytime-mode",
+    "fetcher": "github",
+    "repo": "ArneBab/emacs-org-clock-daytime"
+  }
+}

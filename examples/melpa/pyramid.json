@@ -1,0 +1,19 @@
+{
+  "id": 129383436,
+  "name": "dakra/pyramid.el",
+  "description": "Emacs minor mode for working with the python web framework pyramid",
+  "url": "https://github.com/dakra/pyramid.el",
+  "stars": 7,
+  "updated": "2023-01-14T10:49:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pyramid",
+    "fetcher": "github",
+    "repo": "dakra/pyramid.el",
+    "files": "(:defaults \"snippets\")"
+  }
+}

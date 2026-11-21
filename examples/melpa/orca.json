@@ -1,0 +1,18 @@
+{
+  "id": 108677824,
+  "name": "abo-abo/orca",
+  "description": "ORg CApture",
+  "url": "https://github.com/abo-abo/orca",
+  "stars": 107,
+  "updated": "2025-02-05T17:27:43Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "orca",
+    "fetcher": "github",
+    "repo": "abo-abo/orca"
+  }
+}

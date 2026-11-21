@@ -1,0 +1,19 @@
+{
+  "id": 42073539,
+  "name": "torgeir/remark-mode.el",
+  "description": "an emacs major mode for remark - the simple, in-browser, markdown-driven slideshow tool",
+  "url": "https://github.com/torgeir/remark-mode.el",
+  "stars": 30,
+  "updated": "2022-11-23T21:30:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "remark-mode",
+    "fetcher": "github",
+    "repo": "torgeir/remark-mode.el",
+    "files": "(:defaults \"remark.html\" \"server.js\")"
+  }
+}

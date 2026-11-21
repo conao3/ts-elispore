@@ -1,0 +1,18 @@
+{
+  "id": 537609182,
+  "name": "jdtsmith/outli",
+  "description": "Simple comment-based outline folding for Emacs",
+  "url": "https://github.com/jdtsmith/outli",
+  "stars": 150,
+  "updated": "2026-04-03T12:18:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "outli",
+    "fetcher": "github",
+    "repo": "jdtsmith/outli"
+  }
+}

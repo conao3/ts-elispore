@@ -1,0 +1,19 @@
+{
+  "id": 1125438750,
+  "name": "dnouri/pilish",
+  "description": "The ergonomic agent harness for Emacs.",
+  "url": "https://github.com/dnouri/pilish",
+  "stars": 329,
+  "updated": "2026-11-16T04:45:11Z",
+  "archived": false,
+  "topics": ["agentic-coding", "emacs", "harness-engineering", "pi"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pilish",
+    "fetcher": "github",
+    "repo": "dnouri/pilish",
+    "files": "(:defaults (\"assets\" \"assets/pilish-logo.svg\"))"
+  }
+}

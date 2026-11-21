@@ -1,0 +1,18 @@
+{
+  "id": 97963919,
+  "name": "alphapapa/org-web-tools",
+  "description": "View, capture, and archive Web pages in Org-mode",
+  "url": "https://github.com/alphapapa/org-web-tools",
+  "stars": 717,
+  "updated": "2024-02-10T08:03:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-web-tools",
+    "fetcher": "github",
+    "repo": "alphapapa/org-web-tools"
+  }
+}

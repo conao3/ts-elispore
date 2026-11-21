@@ -1,0 +1,19 @@
+{
+  "id": 455591686,
+  "name": "r0man/paimon.el",
+  "description": "An Emacs mode for Splunk",
+  "url": "https://github.com/r0man/paimon.el",
+  "stars": 10,
+  "updated": "2024-09-04T18:57:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "paimon",
+    "fetcher": "github",
+    "repo": "r0man/paimon.el",
+    "files": "(:defaults \"src/*.el\")"
+  }
+}

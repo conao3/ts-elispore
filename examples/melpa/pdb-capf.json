@@ -1,0 +1,18 @@
+{
+  "id": 255686698,
+  "name": "muffinmad/emacs-pdb-capf",
+  "description": "Completion-at-point function for pdb (Python debugger)",
+  "url": "https://github.com/muffinmad/emacs-pdb-capf",
+  "stars": 13,
+  "updated": "2023-06-05T16:19:14Z",
+  "archived": false,
+  "topics": ["emacs", "pdb"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pdb-capf",
+    "fetcher": "github",
+    "repo": "muffinmad/emacs-pdb-capf"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1094070786,
+  "name": "p-snow/ol-locate-file",
+  "description": "A custom Org link type that uses the locate command to allow specifying files with only a partial path.",
+  "url": "https://github.com/p-snow/ol-locate-file",
+  "stars": 0,
+  "updated": "2026-07-07T09:55:07Z",
+  "archived": false,
+  "topics": ["file", "link", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ol-locate-file",
+    "fetcher": "github",
+    "repo": "p-snow/ol-locate-file"
+  }
+}

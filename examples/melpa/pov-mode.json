@@ -1,0 +1,18 @@
+{
+  "id": 40715474,
+  "name": "melmothx/pov-mode",
+  "description": "Emacs major mode for POV-Ray ",
+  "url": "https://github.com/melmothx/pov-mode",
+  "stars": 3,
+  "updated": "2016-11-15T07:43:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pov-mode",
+    "fetcher": "github",
+    "repo": "melmothx/pov-mode"
+  }
+}

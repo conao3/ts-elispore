@@ -1,0 +1,18 @@
+{
+  "id": 390338786,
+  "name": "Boruch-Baum/emacs-pkg-overview",
+  "description": "Make org documentation from elisp source file",
+  "url": "https://github.com/Boruch-Baum/emacs-pkg-overview",
+  "stars": 1,
+  "updated": "2021-08-02T15:12:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pkg-overview",
+    "fetcher": "github",
+    "repo": "Boruch-Baum/emacs-pkg-overview"
+  }
+}

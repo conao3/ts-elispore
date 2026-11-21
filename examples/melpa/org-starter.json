@@ -1,0 +1,19 @@
+{
+  "id": 132109894,
+  "name": "akirak/org-starter",
+  "description": "Configure files and directories in Org mode more easily",
+  "url": "https://github.com/akirak/org-starter",
+  "stars": 87,
+  "updated": "2024-09-17T15:12:16Z",
+  "archived": false,
+  "topics": ["configuration", "emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-starter",
+    "fetcher": "github",
+    "repo": "akirak/org-starter",
+    "files": "(:defaults\n                     (:exclude \"counsel-org-starter.el\"\n                               \"helm-org-starter.el\"\n                               \"org-starter-swiper.el\"\n                               \"org-starter-extras.el\"))"
+  }
+}

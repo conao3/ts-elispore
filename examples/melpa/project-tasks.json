@@ -1,0 +1,18 @@
+{
+  "id": 619090958,
+  "name": "TxGVNN/project-tasks",
+  "description": "Efficient task management for your project.",
+  "url": "https://github.com/TxGVNN/project-tasks",
+  "stars": 34,
+  "updated": "2026-06-02T04:54:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "project-tasks",
+    "fetcher": "github",
+    "repo": "TxGVNN/project-tasks"
+  }
+}

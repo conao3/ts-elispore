@@ -1,0 +1,19 @@
+{
+  "id": 11720707,
+  "name": "coldnew/org-ioslide",
+  "description": "Export org-mode to Google I/O HTML5 slide.",
+  "url": "https://github.com/coldnew/org-ioslide",
+  "stars": 273,
+  "updated": "2016-10-15T13:38:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "JavaScript",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-ioslide",
+    "fetcher": "github",
+    "repo": "coldnew/org-ioslide",
+    "files": "(:defaults \"js\" \"theme\" \"images\")"
+  }
+}

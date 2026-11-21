@@ -1,0 +1,18 @@
+{
+  "id": 31354840,
+  "name": "tripleee/recover-buffers",
+  "description": "Emacs recover-session replacement which really does",
+  "url": "https://github.com/tripleee/recover-buffers",
+  "stars": 5,
+  "updated": "2017-10-09T04:37:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "recover-buffers",
+    "fetcher": "github",
+    "repo": "tripleee/recover-buffers"
+  }
+}

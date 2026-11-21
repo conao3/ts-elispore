@@ -1,0 +1,18 @@
+{
+  "id": 1137690558,
+  "name": "GerardoCendejas/ox-reveal-layouts",
+  "description": "Professional layouts for ox-reveal (Grids, Splits, Stickers)",
+  "url": "https://github.com/GerardoCendejas/ox-reveal-layouts",
+  "stars": 16,
+  "updated": "2026-02-16T01:52:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-reveal-layouts",
+    "fetcher": "github",
+    "repo": "GerardoCendejas/ox-reveal-layouts"
+  }
+}

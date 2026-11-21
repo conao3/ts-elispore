@@ -1,0 +1,19 @@
+{
+  "id": 263170372,
+  "name": "atomontage/osa-chrome",
+  "description": "Emacs remote tab control for Google Chrome",
+  "url": "https://github.com/atomontage/osa-chrome",
+  "stars": 50,
+  "updated": "2025-01-29T21:32:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "osa-chrome",
+    "fetcher": "github",
+    "repo": "atomontage/osa-chrome",
+    "files": "(:defaults (\"scripts\" \"scripts/*.js\"))"
+  }
+}

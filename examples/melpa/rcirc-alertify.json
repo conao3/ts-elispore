@@ -1,0 +1,18 @@
+{
+  "id": 18502150,
+  "name": "fgallina/rcirc-alertify",
+  "description": "Cross platform notifications for rcirc",
+  "url": "https://github.com/fgallina/rcirc-alertify",
+  "stars": 1,
+  "updated": "2014-04-07T01:19:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rcirc-alertify",
+    "fetcher": "github",
+    "repo": "fgallina/rcirc-alertify"
+  }
+}

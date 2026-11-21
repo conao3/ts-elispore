@@ -1,0 +1,19 @@
+{
+  "id": 99459426,
+  "name": "alphapapa/org-ql",
+  "description": "A searching tool for Org-mode, including custom query languages, commands, saved searches and agenda-like views, etc.",
+  "url": "https://github.com/alphapapa/org-ql",
+  "stars": 1593,
+  "updated": "2025-04-21T01:33:00Z",
+  "archived": false,
+  "topics": ["emacs", "org-agenda", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-ql",
+    "fetcher": "github",
+    "repo": "alphapapa/org-ql",
+    "files": "(:defaults (:exclude \"helm-org-ql.el\"))"
+  }
+}

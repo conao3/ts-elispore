@@ -1,0 +1,18 @@
+{
+  "id": 124177867,
+  "name": "kunalb/poet",
+  "description": "An emacs theme that's well suited for modes using variable pitch: particularly org-mode and markdown-mode.",
+  "url": "https://github.com/kunalb/poet",
+  "stars": 538,
+  "updated": "2020-06-06T23:39:32Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-theme", "minimal", "theme"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "poet-theme",
+    "fetcher": "github",
+    "repo": "kunalb/poet"
+  }
+}

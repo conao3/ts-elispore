@@ -1,0 +1,18 @@
+{
+  "id": 90491399,
+  "name": "Alexander-Miller/pfuture",
+  "description": "",
+  "url": "https://github.com/Alexander-Miller/pfuture",
+  "stars": 57,
+  "updated": "2022-09-13T13:58:13Z",
+  "archived": false,
+  "topics": ["asynchronous", "emacs", "emacs-lisp", "process"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pfuture",
+    "fetcher": "github",
+    "repo": "Alexander-Miller/pfuture"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 858069010,
+  "name": "themkat/pink-bliss-uwu",
+  "description": "Pink bliss UwU theme for Emacs. Using the pink bliss theme by Alex Schroeder as a base, but with modifications. More pink, more modern, more vibrant UwU",
+  "url": "https://github.com/themkat/pink-bliss-uwu",
+  "stars": 17,
+  "updated": "2026-09-22T09:32:16Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-theme", "pink", "uwu"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pink-bliss-uwu-theme",
+    "fetcher": "github",
+    "repo": "themkat/pink-bliss-uwu"
+  }
+}

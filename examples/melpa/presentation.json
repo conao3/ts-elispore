@@ -1,0 +1,18 @@
+{
+  "id": 128422098,
+  "name": "zonuexe/emacs-presentation-mode",
+  "description": "Scale text globally and adjust UI for presentations / live demos",
+  "url": "https://github.com/zonuexe/emacs-presentation-mode",
+  "stars": 48,
+  "updated": "2026-01-31T21:14:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "presentation",
+    "fetcher": "github",
+    "repo": "zonuexe/emacs-presentation-mode"
+  }
+}

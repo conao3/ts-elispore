@@ -1,0 +1,18 @@
+{
+  "id": 252651882,
+  "name": "tyler-dodge/org-runbook",
+  "description": "org mode for runbooks.",
+  "url": "https://github.com/tyler-dodge/org-runbook",
+  "stars": 46,
+  "updated": "2023-05-03T03:19:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-runbook",
+    "fetcher": "github",
+    "repo": "tyler-dodge/org-runbook"
+  }
+}

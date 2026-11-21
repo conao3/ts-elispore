@@ -1,0 +1,19 @@
+{
+  "id": 28233840,
+  "name": "purcell/package-lint",
+  "description": "A linting library for elisp package metadata",
+  "url": "https://github.com/purcell/package-lint",
+  "stars": 224,
+  "updated": "2026-09-03T21:19:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "package-lint",
+    "fetcher": "github",
+    "repo": "purcell/package-lint",
+    "files": "(:defaults \"data\" (:exclude \"*flymake.el\"))"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 26956199,
+  "name": "Bogdanp/py-test.el",
+  "description": "A test runner for Python code.",
+  "url": "https://github.com/Bogdanp/py-test.el",
+  "stars": 3,
+  "updated": "2023-07-14T05:18:26Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "pytest", "python"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "py-test",
+    "fetcher": "github",
+    "repo": "Bogdanp/py-test.el",
+    "files": "(\"py-test.el\")"
+  }
+}

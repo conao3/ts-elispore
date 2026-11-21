@@ -1,0 +1,26 @@
+{
+  "id": 74133026,
+  "name": "diadochos/org-babel-eval-in-repl",
+  "description": "Send and eval org-mode babel code blocks in various REPLs (therefore it's async)",
+  "url": "https://github.com/diadochos/org-babel-eval-in-repl",
+  "stars": 60,
+  "updated": "2021-10-29T06:12:25Z",
+  "archived": false,
+  "topics": [
+    "async",
+    "babel-eval",
+    "emacs",
+    "emacs-lisp",
+    "literate-programming",
+    "org-mode",
+    "repl"
+  ],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-babel-eval-in-repl",
+    "fetcher": "github",
+    "repo": "diadochos/org-babel-eval-in-repl"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 38197883,
+  "name": "david-christiansen/prop-menu-el",
+  "description": "Compute pop-up menus from text and overlay properties",
+  "url": "https://github.com/david-christiansen/prop-menu-el",
+  "stars": 11,
+  "updated": "2015-07-28T11:19:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prop-menu",
+    "fetcher": "github",
+    "repo": "david-christiansen/prop-menu-el"
+  }
+}

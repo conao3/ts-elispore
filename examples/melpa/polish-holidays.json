@@ -1,0 +1,18 @@
+{
+  "id": 980881835,
+  "name": "przemarbor/polish-holidays",
+  "description": "Polish holidays for Emacs calendar",
+  "url": "https://github.com/przemarbor/polish-holidays",
+  "stars": 3,
+  "updated": "2025-06-13T22:48:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "polish-holidays",
+    "fetcher": "github",
+    "repo": "przemarbor/polish-holidays"
+  }
+}

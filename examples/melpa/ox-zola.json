@@ -1,0 +1,19 @@
+{
+  "id": 518694293,
+  "name": "gicrisf/ox-zola",
+  "description": "A carefully crafted Org exporter back-end for Zola ",
+  "url": "https://github.com/gicrisf/ox-zola",
+  "stars": 63,
+  "updated": "2026-10-31T18:02:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-zola",
+    "fetcher": "github",
+    "repo": "gicrisf/ox-zola",
+    "files": "(\"ox-zola.el\")"
+  }
+}

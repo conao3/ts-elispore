@@ -1,0 +1,19 @@
+{
+  "id": 538061644,
+  "name": "Xaldew/py-snippets",
+  "description": "",
+  "url": "https://github.com/Xaldew/py-snippets",
+  "stars": 2,
+  "updated": "2022-09-18T11:11:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "py-snippets",
+    "fetcher": "github",
+    "repo": "Xaldew/py-snippets",
+    "files": "(:defaults \"snippets\")"
+  }
+}

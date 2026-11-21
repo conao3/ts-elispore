@@ -1,0 +1,18 @@
+{
+  "id": 69471824,
+  "name": "thegeorgeous/railscasts-reloaded-theme",
+  "description": "An Emacs port of the Ryan Bates's famous Railscasts theme",
+  "url": "https://github.com/thegeorgeous/railscasts-reloaded-theme",
+  "stars": 14,
+  "updated": "2020-11-30T09:06:48Z",
+  "archived": false,
+  "topics": ["emacs", "melpa", "rails", "railscasts", "ruby", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "railscasts-reloaded-theme",
+    "fetcher": "github",
+    "repo": "thegeorgeous/railscasts-reloaded-theme"
+  }
+}

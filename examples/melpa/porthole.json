@@ -1,0 +1,18 @@
+{
+  "id": 189498119,
+  "name": "jcaw/porthole",
+  "description": "⚓ RPC servers for Emacs.",
+  "url": "https://github.com/jcaw/porthole",
+  "stars": 31,
+  "updated": "2023-12-03T17:33:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "porthole",
+    "fetcher": "github",
+    "repo": "jcaw/porthole"
+  }
+}

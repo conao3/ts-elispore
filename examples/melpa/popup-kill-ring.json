@@ -1,0 +1,18 @@
+{
+  "id": 11345768,
+  "name": "doomchild/popup-kill-ring",
+  "description": "browse your emacs kill ring in an autocomplete style popup menu",
+  "url": "https://github.com/doomchild/popup-kill-ring",
+  "stars": 19,
+  "updated": "2025-11-30T20:00:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "popup-kill-ring",
+    "fetcher": "github",
+    "repo": "doomchild/popup-kill-ring"
+  }
+}

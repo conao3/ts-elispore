@@ -1,0 +1,18 @@
+{
+  "id": 45336721,
+  "name": "leoc/org-time-budgets",
+  "description": "Define time budgets and display daily/weekly progress.",
+  "url": "https://github.com/leoc/org-time-budgets",
+  "stars": 48,
+  "updated": "2022-07-22T02:41:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-time-budgets",
+    "fetcher": "github",
+    "repo": "leoc/org-time-budgets"
+  }
+}

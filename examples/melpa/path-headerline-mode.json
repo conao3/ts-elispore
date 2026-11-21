@@ -1,0 +1,18 @@
+{
+  "id": 5724855,
+  "name": "7696122/path-headerline-mode",
+  "description": "",
+  "url": "https://github.com/7696122/path-headerline-mode",
+  "stars": 4,
+  "updated": "2014-04-23T13:33:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "path-headerline-mode",
+    "fetcher": "github",
+    "repo": "7696122/path-headerline-mode"
+  }
+}

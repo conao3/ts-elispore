@@ -1,0 +1,19 @@
+{
+  "id": 140984154,
+  "name": "Reagankm/renpy-mode",
+  "description": "Emacs major mode for editing Ren'Py files",
+  "url": "https://github.com/Reagankm/renpy-mode",
+  "stars": 26,
+  "updated": "2025-11-18T19:23:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "renpy-mode",
+    "fetcher": "github",
+    "repo": "Reagankm/renpy-mode",
+    "files": "(:defaults \"emacs.edit.py\")"
+  }
+}

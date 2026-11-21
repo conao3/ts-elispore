@@ -1,0 +1,18 @@
+{
+  "id": 77304331,
+  "name": "vic/rebecca-theme",
+  "description": "The purple turtle theme for Spacemacs",
+  "url": "https://github.com/vic/rebecca-theme",
+  "stars": 130,
+  "updated": "2025-07-15T04:28:35Z",
+  "archived": false,
+  "topics": ["emacs-theme", "purple", "purple-turtle", "spacemacs"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rebecca-theme",
+    "fetcher": "github",
+    "repo": "vic/rebecca-theme"
+  }
+}

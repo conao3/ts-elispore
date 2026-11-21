@@ -1,0 +1,19 @@
+{
+  "id": 27714173,
+  "name": "colonelpanic8/org-project-capture",
+  "description": "Manage org-mode TODOs for your projectile projects",
+  "url": "https://github.com/colonelpanic8/org-project-capture",
+  "stars": 346,
+  "updated": "2026-03-13T17:47:18Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "org-mode", "projectile"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-category-capture",
+    "fetcher": "github",
+    "repo": "colonelpanic8/org-project-capture",
+    "files": "(\"org-category-capture*.el\")"
+  }
+}

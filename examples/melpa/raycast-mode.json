@@ -1,0 +1,18 @@
+{
+  "id": 529333765,
+  "name": "nhojb/raycast-mode",
+  "description": "A minor mode for Emacs for developers building Raycast extensions.",
+  "url": "https://github.com/nhojb/raycast-mode",
+  "stars": 8,
+  "updated": "2023-06-07T21:10:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "raycast-mode",
+    "fetcher": "github",
+    "repo": "nhojb/raycast-mode"
+  }
+}

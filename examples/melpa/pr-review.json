@@ -1,0 +1,19 @@
+{
+  "id": 410721395,
+  "name": "blahgeek/emacs-pr-review",
+  "description": "",
+  "url": "https://github.com/blahgeek/emacs-pr-review",
+  "stars": 116,
+  "updated": "2026-05-09T14:34:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pr-review",
+    "fetcher": "github",
+    "repo": "blahgeek/emacs-pr-review",
+    "files": "(:defaults \"graphql\")"
+  }
+}

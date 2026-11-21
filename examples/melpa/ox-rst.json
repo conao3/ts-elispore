@@ -1,0 +1,18 @@
+{
+  "id": 14111828,
+  "name": "msnoigrs/ox-rst",
+  "description": "reStructuredText Back-End for Org-Mode Export Engine",
+  "url": "https://github.com/msnoigrs/ox-rst",
+  "stars": 115,
+  "updated": "2025-04-28T05:34:32Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "org-mode", "restructuredtext"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-rst",
+    "fetcher": "github",
+    "repo": "msnoigrs/ox-rst"
+  }
+}

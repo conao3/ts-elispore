@@ -1,0 +1,18 @@
+{
+  "id": 155554878,
+  "name": "arouanet/path-helper",
+  "description": "Emacs Lisp package to set PATH environment variables from configuration files",
+  "url": "https://github.com/arouanet/path-helper",
+  "stars": 3,
+  "updated": "2018-12-12T08:49:22Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "environment", "macos"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "path-helper",
+    "fetcher": "github",
+    "repo": "arouanet/path-helper"
+  }
+}

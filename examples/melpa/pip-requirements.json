@@ -1,0 +1,18 @@
+{
+  "id": 23936027,
+  "name": "Wilfred/pip-requirements.el",
+  "description": "Major mode for editing pip requirements files",
+  "url": "https://github.com/Wilfred/pip-requirements.el",
+  "stars": 54,
+  "updated": "2024-06-21T21:51:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pip-requirements",
+    "fetcher": "github",
+    "repo": "Wilfred/pip-requirements.el"
+  }
+}

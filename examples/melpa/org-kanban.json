@@ -1,0 +1,18 @@
+{
+  "id": 57056022,
+  "name": "gizmomogwai/org-kanban",
+  "description": "Kanban table for org-mode",
+  "url": "https://github.com/gizmomogwai/org-kanban",
+  "stars": 271,
+  "updated": "2026-09-16T19:15:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-kanban",
+    "fetcher": "github",
+    "repo": "gizmomogwai/org-kanban"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 10309904,
+  "name": "tomterl/php-boris",
+  "description": "Run the boris php-repl in emacs",
+  "url": "https://github.com/tomterl/php-boris",
+  "stars": 9,
+  "updated": "2016-05-12T16:50:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "php-boris",
+    "fetcher": "github",
+    "repo": "tomterl/php-boris"
+  }
+}

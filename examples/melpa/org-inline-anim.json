@@ -1,0 +1,18 @@
+{
+  "id": 420698328,
+  "name": "shg/org-inline-anim.el",
+  "description": "Inline playback of animated GIF/PNG for Org",
+  "url": "https://github.com/shg/org-inline-anim.el",
+  "stars": 32,
+  "updated": "2026-11-19T23:25:25Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-inline-anim",
+    "fetcher": "github",
+    "repo": "shg/org-inline-anim.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1061376523,
+  "name": "nullvec/remember-last-theme",
+  "description": "",
+  "url": "https://github.com/nullvec/remember-last-theme",
+  "stars": 0,
+  "updated": "2025-09-21T21:05:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "remember-last-theme",
+    "fetcher": "github",
+    "repo": "nullvec/remember-last-theme"
+  }
+}

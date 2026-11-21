@@ -1,0 +1,18 @@
+{
+  "id": 461440352,
+  "name": "ryotaro612/pyvenv-auto",
+  "description": "",
+  "url": "https://github.com/ryotaro612/pyvenv-auto",
+  "stars": 8,
+  "updated": "2023-01-06T04:18:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pyvenv-auto",
+    "fetcher": "github",
+    "repo": "ryotaro612/pyvenv-auto"
+  }
+}

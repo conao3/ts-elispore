@@ -1,0 +1,18 @@
+{
+  "id": 84992768,
+  "name": "unhammer/org-mru-clock",
+  "description": "⏲️ Effortlessly clock in/out of org-mode tasks, with completion and persistent history",
+  "url": "https://github.com/unhammer/org-mru-clock",
+  "stars": 110,
+  "updated": "2024-05-22T08:26:33Z",
+  "archived": false,
+  "topics": ["emacs", "helm", "ivy", "org-mode", "pomodoro", "productivity", "time-management"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-mru-clock",
+    "fetcher": "github",
+    "repo": "unhammer/org-mru-clock"
+  }
+}

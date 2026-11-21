@@ -1,0 +1,19 @@
+{
+  "id": 613057882,
+  "name": "org-noter/org-noter",
+  "description": "Emacs document annotator, using Org-mode",
+  "url": "https://github.com/org-noter/org-noter",
+  "stars": 237,
+  "updated": "2026-10-25T19:04:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "org-noter",
+    "fetcher": "github",
+    "repo": "org-noter/org-noter",
+    "files": "(\"*.el\" \"modules\"\n                  (:exclude \"*-test-utils.el\" \"*-devel.el\"))"
+  }
+}

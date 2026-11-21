@@ -1,0 +1,18 @@
+{
+  "id": 451885359,
+  "name": "SqrtMinusOne/org-journal-tags",
+  "description": "Tagging and querying system for org-journal",
+  "url": "https://github.com/SqrtMinusOne/org-journal-tags",
+  "stars": 20,
+  "updated": "2026-01-02T15:51:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-journal-tags",
+    "fetcher": "github",
+    "repo": "SqrtMinusOne/org-journal-tags"
+  }
+}

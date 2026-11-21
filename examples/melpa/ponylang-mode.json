@@ -1,0 +1,18 @@
+{
+  "id": 49828780,
+  "name": "ponylang/ponylang-mode",
+  "description": "Pony syntax highlighting, Code formatting, Playground and more things for Emacs. ",
+  "url": "https://github.com/ponylang/ponylang-mode",
+  "stars": 35,
+  "updated": "2026-08-10T05:29:09Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-mode", "pony-language", "ponylang"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ponylang-mode",
+    "fetcher": "github",
+    "repo": "ponylang/ponylang-mode"
+  }
+}

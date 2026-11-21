@@ -1,0 +1,18 @@
+{
+  "id": 28150133,
+  "name": "anshulverma/projectile-speedbar",
+  "description": "make emacs' projectile and speedbar extensions work together",
+  "url": "https://github.com/anshulverma/projectile-speedbar",
+  "stars": 28,
+  "updated": "2019-08-07T20:10:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "projectile-speedbar",
+    "fetcher": "github",
+    "repo": "anshulverma/projectile-speedbar"
+  }
+}

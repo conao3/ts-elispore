@@ -1,0 +1,18 @@
+{
+  "id": 159822074,
+  "name": "xueeinstein/org-snooze.el",
+  "description": "Snooze your code, doc, feed in Emacs",
+  "url": "https://github.com/xueeinstein/org-snooze.el",
+  "stars": 4,
+  "updated": "2018-12-29T14:25:07Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-orgmode", "notifications"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-snooze",
+    "fetcher": "github",
+    "repo": "xueeinstein/org-snooze.el"
+  }
+}

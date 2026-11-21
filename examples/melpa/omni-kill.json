@@ -1,0 +1,18 @@
+{
+  "id": 23755404,
+  "name": "AdrieanKhisbe/omni-kill.el",
+  "description": "⚔️ M-x kill-all-the-thing ☠️",
+  "url": "https://github.com/AdrieanKhisbe/omni-kill.el",
+  "stars": 10,
+  "updated": "2017-10-16T21:41:39Z",
+  "archived": false,
+  "topics": ["emacs", "keybindings", "thing-at-point"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "omni-kill",
+    "fetcher": "github",
+    "repo": "AdrieanKhisbe/omni-kill.el"
+  }
+}

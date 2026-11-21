@@ -1,0 +1,18 @@
+{
+  "id": 335122117,
+  "name": "vmargb/project-x",
+  "description": "Ehancements to Emacs' built in project library and tab-bar mode.",
+  "url": "https://github.com/vmargb/project-x",
+  "stars": 102,
+  "updated": "2026-08-28T03:04:27Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "project-x",
+    "fetcher": "github",
+    "repo": "vmargb/project-x"
+  }
+}

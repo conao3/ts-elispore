@@ -1,0 +1,18 @@
+{
+  "id": 163921140,
+  "name": "ndwarshuis/org-sql",
+  "description": "SQL backend for Emacs Org-Mode",
+  "url": "https://github.com/ndwarshuis/org-sql",
+  "stars": 119,
+  "updated": "2025-05-31T13:16:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-sql",
+    "fetcher": "github",
+    "repo": "ndwarshuis/org-sql"
+  }
+}

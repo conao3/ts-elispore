@@ -1,0 +1,18 @@
+{
+  "id": 28861475,
+  "name": "emacsattic/rainbow-blocks",
+  "description": "Block syntax highlighting for lisp code",
+  "url": "https://github.com/emacsattic/rainbow-blocks",
+  "stars": 2,
+  "updated": "2021-07-16T17:40:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "rainbow-blocks",
+    "fetcher": "github",
+    "repo": "emacsattic/rainbow-blocks"
+  }
+}

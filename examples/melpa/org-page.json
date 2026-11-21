@@ -1,0 +1,19 @@
+{
+  "id": 5542635,
+  "name": "emacsorphanage/org-page",
+  "description": "[INACTIVE] A static site generator based on Emacs and org mode.",
+  "url": "https://github.com/emacsorphanage/org-page",
+  "stars": 682,
+  "updated": "2026-07-21T03:10:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "org-page",
+    "fetcher": "github",
+    "repo": "emacsorphanage/org-page",
+    "files": "(\"*.el\" \"doc\" \"themes\")"
+  }
+}

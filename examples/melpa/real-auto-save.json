@@ -1,0 +1,18 @@
+{
+  "id": 29951238,
+  "name": "ChillarAnand/real-auto-save",
+  "description": "Automatically save your all your buffers/files at regular intervals in Emacs!",
+  "url": "https://github.com/ChillarAnand/real-auto-save",
+  "stars": 54,
+  "updated": "2026-01-07T11:19:12Z",
+  "archived": false,
+  "topics": ["buffers", "elisp", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "real-auto-save",
+    "fetcher": "github",
+    "repo": "ChillarAnand/real-auto-save"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 512950248,
+  "name": "wyuenho/emacs-pet",
+  "description": "Tracks down the correct Python tooling executables from your virtualenvs so you can glue the binaries to Emacs and delete code in init.el",
+  "url": "https://github.com/wyuenho/emacs-pet",
+  "stars": 218,
+  "updated": "2026-07-16T22:14:28Z",
+  "archived": false,
+  "topics": ["emacs", "python", "virtualenv"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pet",
+    "fetcher": "github",
+    "repo": "wyuenho/emacs-pet"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 18453043,
+  "name": "aki2o/org-link-travis",
+  "description": "Insert/Export the link of Travis CI on org-mode in Emacs.",
+  "url": "https://github.com/aki2o/org-link-travis",
+  "stars": 3,
+  "updated": "2014-11-22T00:26:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-link-travis",
+    "fetcher": "github",
+    "repo": "aki2o/org-link-travis"
+  }
+}

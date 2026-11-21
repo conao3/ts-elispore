@@ -1,0 +1,18 @@
+{
+  "id": 4892295,
+  "name": "monsanto/readline-complete.el",
+  "description": "autocomplete in shell mode buffers",
+  "url": "https://github.com/monsanto/readline-complete.el",
+  "stars": 66,
+  "updated": "2016-06-29T19:38:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "readline-complete",
+    "fetcher": "github",
+    "repo": "monsanto/readline-complete.el"
+  }
+}

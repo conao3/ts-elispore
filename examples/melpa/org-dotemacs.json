@@ -1,0 +1,18 @@
+{
+  "id": 9716811,
+  "name": "vapniks/org-dotemacs",
+  "description": "Store your emacs config as an org file, and load code snippets based on tag matches.",
+  "url": "https://github.com/vapniks/org-dotemacs",
+  "stars": 63,
+  "updated": "2026-09-04T19:16:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-dotemacs",
+    "fetcher": "github",
+    "repo": "vapniks/org-dotemacs"
+  }
+}

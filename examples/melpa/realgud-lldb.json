@@ -1,0 +1,19 @@
+{
+  "id": 36896268,
+  "name": "realgud/realgud-lldb",
+  "description": "lldb module for realgud. LLDB is the LLVM project debugger using clang libraries",
+  "url": "https://github.com/realgud/realgud-lldb",
+  "stars": 43,
+  "updated": "2026-07-25T14:28:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "realgud-lldb",
+    "fetcher": "github",
+    "repo": "realgud/realgud-lldb",
+    "files": "(:defaults\n         (\"lldb\" \"lldb/*.el\"))"
+  }
+}

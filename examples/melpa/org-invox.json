@@ -1,0 +1,18 @@
+{
+  "id": 1190790775,
+  "name": "a-manumohan/org-invox",
+  "description": "",
+  "url": "https://github.com/a-manumohan/org-invox",
+  "stars": 2,
+  "updated": "2026-06-24T04:05:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-invox",
+    "fetcher": "github",
+    "repo": "a-manumohan/org-invox"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 233443368,
+  "name": "LesleyLai/emacs-qtcreator-theme",
+  "description": "An Emacs color theme that mimics the default theme of the Qt Creator IDE",
+  "url": "https://github.com/LesleyLai/emacs-qtcreator-theme",
+  "stars": 3,
+  "updated": "2020-12-15T15:24:10Z",
+  "archived": false,
+  "topics": ["color-theme", "emacs", "emacs-lisp", "emacs-theme"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "qtcreator-theme",
+    "fetcher": "github",
+    "repo": "LesleyLai/emacs-qtcreator-theme"
+  }
+}

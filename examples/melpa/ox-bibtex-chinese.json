@@ -1,0 +1,19 @@
+{
+  "id": 58308516,
+  "name": "tumashu/ox-bibtex-chinese",
+  "description": "Let ox-bibtex works well for chinese users",
+  "url": "https://github.com/tumashu/ox-bibtex-chinese",
+  "stars": 9,
+  "updated": "2017-07-23T03:09:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "TeX",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-bibtex-chinese",
+    "fetcher": "github",
+    "repo": "tumashu/ox-bibtex-chinese",
+    "files": "(\"*.el\" \"bibtex-styles\")"
+  }
+}

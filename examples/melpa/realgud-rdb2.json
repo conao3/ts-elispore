@@ -1,0 +1,19 @@
+{
+  "id": 51504033,
+  "name": "realgud/realgud-ruby-debugger2",
+  "description": "Debugger for Ruby debugger2 gem",
+  "url": "https://github.com/realgud/realgud-ruby-debugger2",
+  "stars": 1,
+  "updated": "2019-05-20T11:46:43Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "realgud-rdb2",
+    "fetcher": "github",
+    "repo": "realgud/realgud-ruby-debugger2",
+    "files": "(\"realgud-rdb2.el\"\n         (\"rdb2\" \"rdb2/*.el\"))"
+  }
+}

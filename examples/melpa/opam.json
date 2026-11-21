@@ -1,0 +1,18 @@
+{
+  "id": 203666897,
+  "name": "emacsorphanage/opam",
+  "description": "OPAM utilities for GNU Emacs",
+  "url": "https://github.com/emacsorphanage/opam",
+  "stars": 1,
+  "updated": "2019-08-21T21:27:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "opam",
+    "fetcher": "github",
+    "repo": "emacsorphanage/opam"
+  }
+}

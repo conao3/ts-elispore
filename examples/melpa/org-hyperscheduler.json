@@ -1,0 +1,27 @@
+{
+  "id": 452361778,
+  "name": "dmitrym0/org-hyperscheduler",
+  "description": "org-hyperscheduler is an Emacs package that helps you organize your day.",
+  "url": "https://github.com/dmitrym0/org-hyperscheduler",
+  "stars": 215,
+  "updated": "2025-08-13T00:51:17Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "org-mode",
+    "org-roam",
+    "productivity",
+    "scheduling"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-hyperscheduler",
+    "fetcher": "github",
+    "repo": "dmitrym0/org-hyperscheduler",
+    "files": "(:defaults\n                           (\"calendar\" \"calendar/index.html\" \"calendar/index.js\" \"calendar/org-hs.css\"))"
+  }
+}

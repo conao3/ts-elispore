@@ -1,0 +1,18 @@
+{
+  "id": 50184454,
+  "name": "emacs-php/psysh.el",
+  "description": "PsySH on Emacs, PHP interactive shell (REPL)",
+  "url": "https://github.com/emacs-php/psysh.el",
+  "stars": 34,
+  "updated": "2025-04-23T00:24:00Z",
+  "archived": false,
+  "topics": ["emacs", "melpa", "php", "repl"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "psysh",
+    "fetcher": "github",
+    "repo": "emacs-php/psysh.el"
+  }
+}

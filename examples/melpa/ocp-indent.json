@@ -1,0 +1,19 @@
+{
+  "id": 5258713,
+  "name": "OCamlPro/ocp-indent",
+  "description": "Indentation tool for OCaml, to be used from editors like Emacs and Vim.",
+  "url": "https://github.com/OCamlPro/ocp-indent",
+  "stars": 226,
+  "updated": "2026-09-07T08:08:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Raku",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ocp-indent",
+    "fetcher": "github",
+    "repo": "OCamlPro/ocp-indent",
+    "files": "(\"tools/ocp-indent.el\")"
+  }
+}

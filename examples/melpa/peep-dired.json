@@ -1,0 +1,18 @@
+{
+  "id": 9449991,
+  "name": "asok/peep-dired",
+  "description": "A convienent way to look up file contents in other window while browsing directory in dired",
+  "url": "https://github.com/asok/peep-dired",
+  "stars": 100,
+  "updated": "2023-07-20T20:02:35Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "peep-dired",
+    "fetcher": "github",
+    "repo": "asok/peep-dired"
+  }
+}

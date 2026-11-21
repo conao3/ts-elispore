@@ -1,0 +1,19 @@
+{
+  "id": 49373401,
+  "name": "realgud/realgud-pry",
+  "description": "Ruby pry debugger support in emacs realgud",
+  "url": "https://github.com/realgud/realgud-pry",
+  "stars": 4,
+  "updated": "2020-10-11T18:16:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "realgud-pry",
+    "fetcher": "github",
+    "repo": "realgud/realgud-pry",
+    "files": "(\"realgud-pry.el\"\n         (\"pry\" \"pry/*.el\"))"
+  }
+}

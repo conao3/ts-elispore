@@ -1,0 +1,18 @@
+{
+  "id": 237648521,
+  "name": "gonewest818/osx-plist",
+  "description": "Elisp parser for Mac OS X plist files",
+  "url": "https://github.com/gonewest818/osx-plist",
+  "stars": 11,
+  "updated": "2020-12-06T21:15:36Z",
+  "archived": false,
+  "topics": ["emacs", "macos", "property-list"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "osx-plist",
+    "fetcher": "github",
+    "repo": "gonewest818/osx-plist"
+  }
+}

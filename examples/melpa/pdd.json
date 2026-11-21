@@ -1,0 +1,18 @@
+{
+  "id": 945060919,
+  "name": "lorniu/pdd.el",
+  "description": "HTTP library & Async Toolkit for Emacs",
+  "url": "https://github.com/lorniu/pdd.el",
+  "stars": 21,
+  "updated": "2025-08-09T05:09:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pdd",
+    "fetcher": "github",
+    "repo": "lorniu/pdd.el"
+  }
+}

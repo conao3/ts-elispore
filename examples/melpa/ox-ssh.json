@@ -1,0 +1,18 @@
+{
+  "id": 303206237,
+  "name": "dantecatalfamo/ox-ssh",
+  "description": "SSH config export for org-mode",
+  "url": "https://github.com/dantecatalfamo/ox-ssh",
+  "stars": 40,
+  "updated": "2021-09-17T15:17:25Z",
+  "archived": false,
+  "topics": ["configuration", "elisp", "emacs", "exporter", "org-mode", "ssh"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-ssh",
+    "fetcher": "github",
+    "repo": "dantecatalfamo/ox-ssh"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 351333443,
+  "name": "ralph-schleicher/emacs-openfoam",
+  "description": "An Emacs major mode for editing OpenFOAM data files and utility commands for OpenFOAM case directories.",
+  "url": "https://github.com/ralph-schleicher/emacs-openfoam",
+  "stars": 4,
+  "updated": "2022-01-11T07:28:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "openfoam",
+    "fetcher": "github",
+    "repo": "ralph-schleicher/emacs-openfoam",
+    "files": "(\"openfoam.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 41903255,
+  "name": "pivaldi/php-cs-fixer",
+  "description": "php-cs-fixer wrapper for the Emacs editor",
+  "url": "https://github.com/pivaldi/php-cs-fixer",
+  "stars": 19,
+  "updated": "2026-05-15T17:15:59Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-configuration", "php-cs-fixer"],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "php-cs-fixer",
+    "fetcher": "github",
+    "repo": "pivaldi/php-cs-fixer"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 8677769,
+  "name": "polymode/polymode",
+  "description": "Framework for Multiple Major Modes in Emacs (core library)",
+  "url": "https://github.com/polymode/polymode",
+  "stars": 766,
+  "updated": "2026-11-19T12:16:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "polymode",
+    "fetcher": "github",
+    "repo": "polymode/polymode"
+  }
+}

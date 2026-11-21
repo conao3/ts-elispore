@@ -1,0 +1,18 @@
+{
+  "id": 37145034,
+  "name": "NicolasPetton/pass",
+  "description": "A major mode for password-store",
+  "url": "https://github.com/NicolasPetton/pass",
+  "stars": 200,
+  "updated": "2026-02-14T21:30:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pass",
+    "fetcher": "github",
+    "repo": "NicolasPetton/pass"
+  }
+}

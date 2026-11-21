@@ -1,0 +1,18 @@
+{
+  "id": 27218345,
+  "name": "zk-phi/phi-search-migemo",
+  "description": "migemo extension for phi-search",
+  "url": "https://github.com/zk-phi/phi-search-migemo",
+  "stars": 3,
+  "updated": "2017-06-18T09:28:13Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "phi-search-migemo",
+    "fetcher": "github",
+    "repo": "zk-phi/phi-search-migemo"
+  }
+}

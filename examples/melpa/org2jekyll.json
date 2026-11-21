@@ -1,0 +1,18 @@
+{
+  "id": 28243134,
+  "name": "ardumont/org2jekyll",
+  "description": "Blogging with org-mode and jekyll without alien yaml headers.",
+  "url": "https://github.com/ardumont/org2jekyll",
+  "stars": 72,
+  "updated": "2023-04-12T05:47:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org2jekyll",
+    "fetcher": "github",
+    "repo": "ardumont/org2jekyll"
+  }
+}

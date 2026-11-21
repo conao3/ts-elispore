@@ -1,0 +1,19 @@
+{
+  "id": 424361085,
+  "name": "SqrtMinusOne/pomm.el",
+  "description": "Implementation of Pomodoro and Third Time techniques for Emacs",
+  "url": "https://github.com/SqrtMinusOne/pomm.el",
+  "stars": 97,
+  "updated": "2025-12-23T13:44:20Z",
+  "archived": false,
+  "topics": ["emacs", "pomodoro", "third-time", "transient"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pomm",
+    "fetcher": "github",
+    "repo": "SqrtMinusOne/pomm.el",
+    "files": "(:defaults \"resources\")"
+  }
+}

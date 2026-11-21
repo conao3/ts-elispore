@@ -1,0 +1,18 @@
+{
+  "id": 20772091,
+  "name": "QBobWatson/poporg",
+  "description": "Emacs programming tool for editing strings or comments in Org mode or any other text mode",
+  "url": "https://github.com/QBobWatson/poporg",
+  "stars": 93,
+  "updated": "2024-02-12T16:19:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "poporg",
+    "fetcher": "github",
+    "repo": "QBobWatson/poporg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 116042369,
+  "name": "ahendriksen/ob-tmux",
+  "description": "Ob-tmux is an Emacs library that allows org mode to evaluate code blocks in a tmux session.",
+  "url": "https://github.com/ahendriksen/ob-tmux",
+  "stars": 97,
+  "updated": "2023-08-27T21:15:36Z",
+  "archived": false,
+  "topics": ["emacs", "org-babel", "org-mode", "tmux"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-tmux",
+    "fetcher": "github",
+    "repo": "ahendriksen/ob-tmux"
+  }
+}

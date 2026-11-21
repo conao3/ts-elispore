@@ -1,0 +1,18 @@
+{
+  "id": 937924442,
+  "name": "fjesser/ox-beamer-lecture",
+  "description": "Emacs org mode export backend for beamer lectures.",
+  "url": "https://github.com/fjesser/ox-beamer-lecture",
+  "stars": 10,
+  "updated": "2025-09-18T04:00:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-beamer-lecture",
+    "fetcher": "github",
+    "repo": "fjesser/ox-beamer-lecture"
+  }
+}

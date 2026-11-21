@@ -1,0 +1,18 @@
+{
+  "id": 204349720,
+  "name": "xendk/reaper",
+  "description": "Harvest client for Emacs",
+  "url": "https://github.com/xendk/reaper",
+  "stars": 19,
+  "updated": "2026-02-06T23:41:44Z",
+  "archived": false,
+  "topics": ["emacs-package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "reaper",
+    "fetcher": "github",
+    "repo": "xendk/reaper"
+  }
+}

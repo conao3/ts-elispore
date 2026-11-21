@@ -1,0 +1,18 @@
+{
+  "id": 11895194,
+  "name": "twmr/python-cell.el",
+  "description": "Matlab-like cells in python buffers",
+  "url": "https://github.com/twmr/python-cell.el",
+  "stars": 24,
+  "updated": "2024-05-15T19:39:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "python-cell",
+    "fetcher": "github",
+    "repo": "twmr/python-cell.el"
+  }
+}

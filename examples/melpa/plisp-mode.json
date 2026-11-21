@@ -1,0 +1,19 @@
+{
+  "id": 26793177,
+  "name": "flexibeast/plisp-mode",
+  "description": "PicoLisp support for Emacs.",
+  "url": "https://github.com/flexibeast/plisp-mode",
+  "stars": 18,
+  "updated": "2025-03-28T00:45:13Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "lisp-dialect", "picolisp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "plisp-mode",
+    "fetcher": "github",
+    "repo": "flexibeast/plisp-mode",
+    "files": "(\"plisp-mode.el\" \"inferior-plisp.el\")"
+  }
+}

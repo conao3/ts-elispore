@@ -1,0 +1,18 @@
+{
+  "id": 637075964,
+  "name": "kimim/pdf-view-pagemark",
+  "description": "Show page indicator of remaining text in PDF page",
+  "url": "https://github.com/kimim/pdf-view-pagemark",
+  "stars": 6,
+  "updated": "2024-05-18T06:26:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pdf-view-pagemark",
+    "fetcher": "github",
+    "repo": "kimim/pdf-view-pagemark"
+  }
+}

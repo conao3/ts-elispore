@@ -1,0 +1,18 @@
+{
+  "id": 66516787,
+  "name": "atheriel/org-clock-csv",
+  "description": "Export Emacs org-mode clock entries to CSV format.",
+  "url": "https://github.com/atheriel/org-clock-csv",
+  "stars": 92,
+  "updated": "2021-09-17T14:40:00Z",
+  "archived": false,
+  "topics": ["csv", "emacs", "orgmode", "time-estimation"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-clock-csv",
+    "fetcher": "github",
+    "repo": "atheriel/org-clock-csv"
+  }
+}

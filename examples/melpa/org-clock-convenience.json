@@ -1,0 +1,18 @@
+{
+  "id": 47490659,
+  "name": "dfeich/org-clock-convenience",
+  "description": "Convenience functions to work with emacs org mode clocking from the agenda view",
+  "url": "https://github.com/dfeich/org-clock-convenience",
+  "stars": 132,
+  "updated": "2025-06-07T08:59:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-clock-convenience",
+    "fetcher": "github",
+    "repo": "dfeich/org-clock-convenience"
+  }
+}

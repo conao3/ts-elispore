@@ -1,0 +1,18 @@
+{
+  "id": 19805916,
+  "name": "knu/operate-on-number.el",
+  "description": "Operate on number at point with arithmetic functions",
+  "url": "https://github.com/knu/operate-on-number.el",
+  "stars": 15,
+  "updated": "2023-11-14T19:21:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "operate-on-number",
+    "fetcher": "github",
+    "repo": "knu/operate-on-number.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 12808584,
+  "name": "w-vi/ox-wk.el",
+  "description": "Emacs org-mode export backend to some wiki formats",
+  "url": "https://github.com/w-vi/ox-wk.el",
+  "stars": 20,
+  "updated": "2019-12-31T21:07:35Z",
+  "archived": false,
+  "topics": ["creole", "dokuwiki", "emacs", "org-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-wk",
+    "fetcher": "github",
+    "repo": "w-vi/ox-wk.el"
+  }
+}

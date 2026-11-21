@@ -1,0 +1,18 @@
+{
+  "id": 41726417,
+  "name": "racer-rust/emacs-racer",
+  "description": "Racer support for Emacs",
+  "url": "https://github.com/racer-rust/emacs-racer",
+  "stars": 393,
+  "updated": "2021-03-07T02:43:27Z",
+  "archived": false,
+  "topics": ["completion-racer", "emacs", "racer", "rust"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "racer",
+    "fetcher": "github",
+    "repo": "racer-rust/emacs-racer"
+  }
+}

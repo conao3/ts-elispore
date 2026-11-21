@@ -1,0 +1,18 @@
+{
+  "id": 164110523,
+  "name": "zonuexe/ordinal.el",
+  "description": "Convert number to ordinal number notation",
+  "url": "https://github.com/zonuexe/ordinal.el",
+  "stars": 5,
+  "updated": "2021-05-19T14:42:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ordinal",
+    "fetcher": "github",
+    "repo": "zonuexe/ordinal.el"
+  }
+}

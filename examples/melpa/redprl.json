@@ -1,0 +1,19 @@
+{
+  "id": 49043384,
+  "name": "RedPRL/sml-redprl",
+  "description": "The People's Refinement Logic",
+  "url": "https://github.com/RedPRL/sml-redprl",
+  "stars": 229,
+  "updated": "2023-01-01T19:34:01Z",
+  "archived": true,
+  "topics": ["cubical-type-theory", "nuprl", "proof-assistant", "type-theory"],
+  "license": "MIT",
+  "language": "Standard ML",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "redprl",
+    "fetcher": "github",
+    "repo": "RedPRL/sml-redprl",
+    "files": "(\"emacs/*.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 41870579,
+  "name": "purescript-emacs/psc-ide-emacs",
+  "description": "Emacs integration for PureScript's psc-ide tool.",
+  "url": "https://github.com/purescript-emacs/psc-ide-emacs",
+  "stars": 130,
+  "updated": "2025-05-23T18:54:53Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode", "ide", "purescript"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "psc-ide",
+    "fetcher": "github",
+    "repo": "purescript-emacs/psc-ide-emacs"
+  }
+}

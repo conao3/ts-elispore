@@ -1,0 +1,18 @@
+{
+  "id": 928421751,
+  "name": "captainflasmr/ollama-buddy",
+  "description": "A friendly Emacs interface for interacting with Ollama models",
+  "url": "https://github.com/captainflasmr/ollama-buddy",
+  "stars": 104,
+  "updated": "2026-10-21T13:20:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ollama-buddy",
+    "fetcher": "github",
+    "repo": "captainflasmr/ollama-buddy"
+  }
+}

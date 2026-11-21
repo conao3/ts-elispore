@@ -1,0 +1,18 @@
+{
+  "id": 11852860,
+  "name": "theanalyst/revolver",
+  "description": "An emacs client for the pushbullet android app",
+  "url": "https://github.com/theanalyst/revolver",
+  "stars": 18,
+  "updated": "2014-08-09T12:36:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pushbullet",
+    "fetcher": "github",
+    "repo": "theanalyst/revolver"
+  }
+}

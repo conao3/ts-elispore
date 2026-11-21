@@ -1,0 +1,18 @@
+{
+  "id": 18182133,
+  "name": "thierryvolpiatto/psession",
+  "description": "Yet another package for emacs persistent sessions",
+  "url": "https://github.com/thierryvolpiatto/psession",
+  "stars": 68,
+  "updated": "2026-01-05T04:57:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "psession",
+    "fetcher": "github",
+    "repo": "thierryvolpiatto/psession"
+  }
+}

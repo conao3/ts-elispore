@@ -1,0 +1,18 @@
+{
+  "id": 204999000,
+  "name": "marcIhm/org-working-set",
+  "description": "Manage and visit a small and changing set of org-nodes that you work on. Available on MELPA.",
+  "url": "https://github.com/marcIhm/org-working-set",
+  "stars": 16,
+  "updated": "2025-06-20T15:03:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-working-set",
+    "fetcher": "github",
+    "repo": "marcIhm/org-working-set"
+  }
+}

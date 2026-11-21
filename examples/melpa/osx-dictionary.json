@@ -1,0 +1,19 @@
+{
+  "id": 28071450,
+  "name": "xuchunyang/osx-dictionary.el",
+  "description": "Mac OS X Dictionary.app interface for Emacs",
+  "url": "https://github.com/xuchunyang/osx-dictionary.el",
+  "stars": 150,
+  "updated": "2026-10-09T12:57:46Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "osx-dictionary",
+    "fetcher": "github",
+    "repo": "xuchunyang/osx-dictionary.el",
+    "files": "(\"osx-dictionary.el\" \"osx-dictionary.m\")"
+  }
+}

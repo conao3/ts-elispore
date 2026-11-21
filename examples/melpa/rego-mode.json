@@ -1,0 +1,18 @@
+{
+  "id": 250740501,
+  "name": "psibi/rego-mode",
+  "description": "Emacs major mode for OPA's rego language",
+  "url": "https://github.com/psibi/rego-mode",
+  "stars": 30,
+  "updated": "2021-07-22T14:58:18Z",
+  "archived": false,
+  "topics": ["major-mode", "opa", "open-policy-agent", "rego"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rego-mode",
+    "fetcher": "github",
+    "repo": "psibi/rego-mode"
+  }
+}

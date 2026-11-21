@@ -1,0 +1,18 @@
+{
+  "id": 289002723,
+  "name": "DarkBuffalo/ox-report",
+  "description": "Export your org file to minutes report PDF file",
+  "url": "https://github.com/DarkBuffalo/ox-report",
+  "stars": 88,
+  "updated": "2025-06-11T20:54:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-report",
+    "fetcher": "github",
+    "repo": "DarkBuffalo/ox-report"
+  }
+}

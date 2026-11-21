@@ -1,0 +1,18 @@
+{
+  "id": 11789009,
+  "name": "psibi/emacs-py-import-check",
+  "description": "Finds the unused python imports using importchecker in Emacs",
+  "url": "https://github.com/psibi/emacs-py-import-check",
+  "stars": 2,
+  "updated": "2015-12-10T01:00:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "py-import-check",
+    "fetcher": "github",
+    "repo": "psibi/emacs-py-import-check"
+  }
+}

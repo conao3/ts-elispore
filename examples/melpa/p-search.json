@@ -1,0 +1,19 @@
+{
+  "id": 752922821,
+  "name": "zkry/p-search",
+  "description": "Seach engine for Emacs",
+  "url": "https://github.com/zkry/p-search",
+  "stars": 123,
+  "updated": "2025-08-02T05:38:46Z",
+  "archived": false,
+  "topics": ["emacs", "search-engine"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "p-search",
+    "fetcher": "github",
+    "repo": "zkry/p-search",
+    "files": "(:defaults \"extensions/p-search-*.el\")"
+  }
+}

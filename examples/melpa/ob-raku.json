@@ -1,0 +1,18 @@
+{
+  "id": 541757107,
+  "name": "masukomi/ob-raku",
+  "description": "Raku support for org-babel",
+  "url": "https://github.com/masukomi/ob-raku",
+  "stars": 3,
+  "updated": "2022-10-13T19:45:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-raku",
+    "fetcher": "github",
+    "repo": "masukomi/ob-raku"
+  }
+}

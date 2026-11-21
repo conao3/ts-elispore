@@ -1,0 +1,19 @@
+{
+  "id": 497570640,
+  "name": "mohkale/projection",
+  "description": "Projectile like project management library built on Emacs project.el",
+  "url": "https://github.com/mohkale/projection",
+  "stars": 86,
+  "updated": "2026-06-14T18:59:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "projection",
+    "fetcher": "github",
+    "repo": "mohkale/projection",
+    "files": "(:defaults \"src/*.el\")"
+  }
+}

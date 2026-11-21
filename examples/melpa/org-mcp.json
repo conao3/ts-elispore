@@ -1,0 +1,18 @@
+{
+  "id": 1029433640,
+  "name": "laurynas-biveinis/org-mcp",
+  "description": "Emacs Org-mode integration with Model Context Protocol (MCP) for AI-assisted task management",
+  "url": "https://github.com/laurynas-biveinis/org-mcp",
+  "stars": 78,
+  "updated": "2026-08-25T08:19:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-mcp",
+    "fetcher": "github",
+    "repo": "laurynas-biveinis/org-mcp"
+  }
+}

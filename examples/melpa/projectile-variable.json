@@ -1,0 +1,18 @@
+{
+  "id": 67882592,
+  "name": "emacs-php/projectile-variable",
+  "description": "Store project local variables",
+  "url": "https://github.com/emacs-php/projectile-variable",
+  "stars": 12,
+  "updated": "2026-06-19T13:52:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "projectile-variable",
+    "fetcher": "github",
+    "repo": "emacs-php/projectile-variable"
+  }
+}

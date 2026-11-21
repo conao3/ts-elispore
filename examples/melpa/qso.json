@@ -1,0 +1,29 @@
+{
+  "id": 584934386,
+  "name": "K6SM/Emacs-QSO-Logger",
+  "description": "QSO logging functions for Emacs",
+  "url": "https://github.com/K6SM/Emacs-QSO-Logger",
+  "stars": 9,
+  "updated": "2026-09-30T02:55:52Z",
+  "archived": false,
+  "topics": [
+    "adif",
+    "amateur-radio",
+    "contesting",
+    "contests",
+    "emacs",
+    "emacs-lisp",
+    "ham-radio",
+    "logger",
+    "logging",
+    "qso"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "qso",
+    "fetcher": "github",
+    "repo": "K6SM/Emacs-QSO-Logger"
+  }
+}

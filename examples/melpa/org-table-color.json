@@ -1,0 +1,18 @@
+{
+  "id": 468536763,
+  "name": "fosskers/org-table-color",
+  "description": "Add colour to your org-mode table cells.",
+  "url": "https://github.com/fosskers/org-table-color",
+  "stars": 7,
+  "updated": "2022-03-11T19:27:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-table-color",
+    "fetcher": "github",
+    "repo": "fosskers/org-table-color"
+  }
+}

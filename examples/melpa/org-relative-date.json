@@ -1,0 +1,18 @@
+{
+  "id": 1313962253,
+  "name": "RobertPlant/org-relative-date",
+  "description": "Live relative-date overlays on Org timestamps (N days away / N days ago)",
+  "url": "https://github.com/RobertPlant/org-relative-date",
+  "stars": 7,
+  "updated": "2026-11-11T21:41:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-relative-date",
+    "fetcher": "github",
+    "repo": "RobertPlant/org-relative-date"
+  }
+}

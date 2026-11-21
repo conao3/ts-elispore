@@ -1,0 +1,18 @@
+{
+  "id": 13622018,
+  "name": "abo-abo/org-download",
+  "description": "Drag and drop images to Emacs org-mode",
+  "url": "https://github.com/abo-abo/org-download",
+  "stars": 1229,
+  "updated": "2024-11-18T18:46:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-download",
+    "fetcher": "github",
+    "repo": "abo-abo/org-download"
+  }
+}

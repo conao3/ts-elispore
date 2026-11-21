@@ -1,0 +1,18 @@
+{
+  "id": 11010967,
+  "name": "nflath/pager-default-keybindings",
+  "description": "Emacs module that installs the default keybindings for pager.el",
+  "url": "https://github.com/nflath/pager-default-keybindings",
+  "stars": 2,
+  "updated": "2013-07-19T20:58:02Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pager-default-keybindings",
+    "fetcher": "github",
+    "repo": "nflath/pager-default-keybindings"
+  }
+}

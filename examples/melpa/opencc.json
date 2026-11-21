@@ -1,0 +1,18 @@
+{
+  "id": 94415472,
+  "name": "xuchunyang/emacs-opencc",
+  "description": "中文简繁转换 <-> 中文簡繁轉換",
+  "url": "https://github.com/xuchunyang/emacs-opencc",
+  "stars": 20,
+  "updated": "2017-07-23T17:18:59Z",
+  "archived": false,
+  "topics": ["chinese", "emacs", "opencc"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "opencc",
+    "fetcher": "github",
+    "repo": "xuchunyang/emacs-opencc"
+  }
+}

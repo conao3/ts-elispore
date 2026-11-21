@@ -1,0 +1,18 @@
+{
+  "id": 834963552,
+  "name": "emacsomancer/org-daily-reflection",
+  "description": "Reflect on your org-roam daily entries, comparing N org-roam dailies at M intervals (years, months, fortnights, weeks, days).",
+  "url": "https://github.com/emacsomancer/org-daily-reflection",
+  "stars": 34,
+  "updated": "2026-01-02T00:35:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-daily-reflection",
+    "fetcher": "github",
+    "repo": "emacsomancer/org-daily-reflection"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 98127938,
+  "name": "alphapapa/org-super-agenda",
+  "description": "Supercharge your Org daily/weekly agenda by grouping items",
+  "url": "https://github.com/alphapapa/org-super-agenda",
+  "stars": 1544,
+  "updated": "2025-04-21T01:30:46Z",
+  "archived": false,
+  "topics": ["emacs", "org-agenda", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-super-agenda",
+    "fetcher": "github",
+    "repo": "alphapapa/org-super-agenda"
+  }
+}

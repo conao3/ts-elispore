@@ -1,0 +1,18 @@
+{
+  "id": 32143746,
+  "name": "kakakaya/random-splash-image",
+  "description": "It randomizes Emacs's splash image",
+  "url": "https://github.com/kakakaya/random-splash-image",
+  "stars": 27,
+  "updated": "2024-05-01T15:50:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "random-splash-image",
+    "fetcher": "github",
+    "repo": "kakakaya/random-splash-image"
+  }
+}

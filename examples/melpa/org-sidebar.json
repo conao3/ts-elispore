@@ -1,0 +1,18 @@
+{
+  "id": 134572207,
+  "name": "alphapapa/org-sidebar",
+  "description": "A helpful sidebar for Org mode",
+  "url": "https://github.com/alphapapa/org-sidebar",
+  "stars": 559,
+  "updated": "2024-01-02T00:59:26Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Shell",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-sidebar",
+    "fetcher": "github",
+    "repo": "alphapapa/org-sidebar"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 573069533,
+  "name": "tinloaf/org-incoming",
+  "description": "Emacs package to annotate and sort incoming PDFs into your org files.",
+  "url": "https://github.com/tinloaf/org-incoming",
+  "stars": 29,
+  "updated": "2025-05-22T07:52:39Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "org-mode"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-incoming",
+    "fetcher": "github",
+    "repo": "tinloaf/org-incoming",
+    "files": "(:defaults (\"doc\" \"doc/*.png\"))"
+  }
+}

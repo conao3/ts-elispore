@@ -1,0 +1,18 @@
+{
+  "id": 332238647,
+  "name": "awth13/org-appear",
+  "description": "Toggle visibility of hidden Org mode element parts upon entering and leaving an element",
+  "url": "https://github.com/awth13/org-appear",
+  "stars": 480,
+  "updated": "2026-07-16T21:20:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-appear",
+    "fetcher": "github",
+    "repo": "awth13/org-appear"
+  }
+}

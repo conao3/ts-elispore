@@ -1,0 +1,20 @@
+{
+  "id": 156604699,
+  "name": "jscheid/prettier.el",
+  "description": "Prettier code formatting for Emacs.",
+  "url": "https://github.com/jscheid/prettier.el",
+  "stars": 189,
+  "updated": "2024-09-24T21:54:13Z",
+  "archived": false,
+  "topics": ["emacs", "prettier"],
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prettier",
+    "fetcher": "github",
+    "repo": "jscheid/prettier.el",
+    "branch": "release",
+    "files": "(:defaults \"*.js\" \"*.base64\")"
+  }
+}

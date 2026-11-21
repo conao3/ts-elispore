@@ -1,0 +1,19 @@
+{
+  "id": 10870031,
+  "name": "org-trello/org-trello",
+  "description": "Org minor mode - 2-way sync org & trello",
+  "url": "https://github.com/org-trello/org-trello",
+  "stars": 619,
+  "updated": "2022-01-22T09:48:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "org-trello",
+    "fetcher": "github",
+    "repo": "org-trello/org-trello",
+    "files": "(\"org-trello*.el\"\n                    (:exclude \"org-trello-tools*.el\"))"
+  }
+}

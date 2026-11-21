@@ -1,0 +1,18 @@
+{
+  "id": 13746168,
+  "name": "zk-phi/phi-autopair",
+  "description": "Anohter simple-minded autopiar",
+  "url": "https://github.com/zk-phi/phi-autopair",
+  "stars": 3,
+  "updated": "2021-03-06T04:25:07Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "phi-autopair",
+    "fetcher": "github",
+    "repo": "zk-phi/phi-autopair"
+  }
+}

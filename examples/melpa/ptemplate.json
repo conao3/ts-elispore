@@ -1,0 +1,18 @@
+{
+  "id": 296660891,
+  "name": "nbfalcon/ptemplate",
+  "description": "Powerful project (directory) templates for Emacs",
+  "url": "https://github.com/nbfalcon/ptemplate",
+  "stars": 15,
+  "updated": "2021-03-24T14:46:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ptemplate",
+    "fetcher": "github",
+    "repo": "nbfalcon/ptemplate"
+  }
+}

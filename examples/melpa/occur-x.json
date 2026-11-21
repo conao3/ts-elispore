@@ -1,0 +1,18 @@
+{
+  "id": 10526774,
+  "name": "juan-leon/occur-x",
+  "description": "Emacs package: extra functionality for occur",
+  "url": "https://github.com/juan-leon/occur-x",
+  "stars": 7,
+  "updated": "2013-06-10T13:43:50Z",
+  "archived": false,
+  "topics": ["emacs", "occur"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "occur-x",
+    "fetcher": "github",
+    "repo": "juan-leon/occur-x"
+  }
+}

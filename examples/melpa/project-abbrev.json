@@ -1,0 +1,18 @@
+{
+  "id": 135889884,
+  "name": "jcs-elpa/project-abbrev",
+  "description": "Customize your own abbreviation expansion in the project.",
+  "url": "https://github.com/jcs-elpa/project-abbrev",
+  "stars": 11,
+  "updated": "2026-06-19T08:12:31Z",
+  "archived": false,
+  "topics": ["abbreviations", "emacs", "expression", "productivity"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "project-abbrev",
+    "fetcher": "github",
+    "repo": "jcs-elpa/project-abbrev"
+  }
+}

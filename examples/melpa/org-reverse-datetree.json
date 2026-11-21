@@ -1,0 +1,18 @@
+{
+  "id": 147433162,
+  "name": "akirak/org-reverse-datetree",
+  "description": "An alternative date tree implementation for Emacs Org mode",
+  "url": "https://github.com/akirak/org-reverse-datetree",
+  "stars": 95,
+  "updated": "2025-10-20T05:56:19Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-reverse-datetree",
+    "fetcher": "github",
+    "repo": "akirak/org-reverse-datetree"
+  }
+}

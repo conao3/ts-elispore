@@ -1,0 +1,18 @@
+{
+  "id": 11818197,
+  "name": "dfeich/org-screenshot",
+  "description": "screenshots integrated with emacs org mode attachments",
+  "url": "https://github.com/dfeich/org-screenshot",
+  "stars": 177,
+  "updated": "2022-01-18T12:44:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-attach-screenshot",
+    "fetcher": "github",
+    "repo": "dfeich/org-screenshot"
+  }
+}

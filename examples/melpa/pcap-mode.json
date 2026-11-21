@@ -1,0 +1,18 @@
+{
+  "id": 65859742,
+  "name": "apconole/pcap-mode",
+  "description": "emacs lisp pcap file viewer",
+  "url": "https://github.com/apconole/pcap-mode",
+  "stars": 61,
+  "updated": "2016-10-25T14:50:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pcap-mode",
+    "fetcher": "github",
+    "repo": "apconole/pcap-mode"
+  }
+}

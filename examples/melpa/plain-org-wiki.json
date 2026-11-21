@@ -1,0 +1,18 @@
+{
+  "id": 26016223,
+  "name": "abo-abo/plain-org-wiki",
+  "description": "Simple jump-to-org-files in a directory package",
+  "url": "https://github.com/abo-abo/plain-org-wiki",
+  "stars": 52,
+  "updated": "2020-12-17T10:27:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "plain-org-wiki",
+    "fetcher": "github",
+    "repo": "abo-abo/plain-org-wiki"
+  }
+}

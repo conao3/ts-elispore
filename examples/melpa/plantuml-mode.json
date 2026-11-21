@@ -1,0 +1,18 @@
+{
+  "id": 4624134,
+  "name": "skuro/plantuml-mode",
+  "description": "A major mode for editing PlantUML sources in Emacs",
+  "url": "https://github.com/skuro/plantuml-mode",
+  "stars": 575,
+  "updated": "2026-05-14T17:46:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "plantuml-mode",
+    "fetcher": "github",
+    "repo": "skuro/plantuml-mode"
+  }
+}

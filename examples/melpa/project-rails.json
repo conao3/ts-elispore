@@ -1,0 +1,18 @@
+{
+  "id": 1146927044,
+  "name": "harrybournis/project.el-rails",
+  "description": "Emacs project.el helper functions for Ruby on Rails projects",
+  "url": "https://github.com/harrybournis/project.el-rails",
+  "stars": 2,
+  "updated": "2026-04-25T13:15:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "project-rails",
+    "fetcher": "github",
+    "repo": "harrybournis/project.el-rails"
+  }
+}

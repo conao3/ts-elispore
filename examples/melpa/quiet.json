@@ -1,0 +1,18 @@
+{
+  "id": 58205923,
+  "name": "zzkt/quiet",
+  "description": "A simple emacs package to disconnect from the online world.",
+  "url": "https://github.com/zzkt/quiet",
+  "stars": 7,
+  "updated": "2023-05-30T08:59:47Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "offline"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "quiet",
+    "fetcher": "github",
+    "repo": "zzkt/quiet"
+  }
+}

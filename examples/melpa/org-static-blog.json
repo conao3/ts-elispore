@@ -1,0 +1,18 @@
+{
+  "id": 33977170,
+  "name": "bastibe/org-static-blog",
+  "description": "A static site generator using org-mode",
+  "url": "https://github.com/bastibe/org-static-blog",
+  "stars": 400,
+  "updated": "2026-04-13T14:02:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-static-blog",
+    "fetcher": "github",
+    "repo": "bastibe/org-static-blog"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": 135834394,
+  "name": "jeremy-compostella/org-msg",
+  "description": "OrgMsg is a GNU/Emacs global minor mode mixing up Org mode and Message mode to compose and reply to emails in a Outlook HTML friendly style.",
+  "url": "https://github.com/jeremy-compostella/org-msg",
+  "stars": 311,
+  "updated": "2026-05-07T07:25:51Z",
+  "archived": false,
+  "topics": [
+    "composing",
+    "emacs",
+    "emacs-mode",
+    "emacs-packages",
+    "html",
+    "mail",
+    "org-mode",
+    "orgmode",
+    "outlook"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-msg",
+    "fetcher": "github",
+    "repo": "jeremy-compostella/org-msg"
+  }
+}

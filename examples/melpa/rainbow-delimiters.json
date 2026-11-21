@@ -1,0 +1,18 @@
+{
+  "id": 25777955,
+  "name": "Fanael/rainbow-delimiters",
+  "description": "Emacs rainbow delimiters mode",
+  "url": "https://github.com/Fanael/rainbow-delimiters",
+  "stars": 754,
+  "updated": "2023-08-30T16:00:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rainbow-delimiters",
+    "fetcher": "github",
+    "repo": "Fanael/rainbow-delimiters"
+  }
+}

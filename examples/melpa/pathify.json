@@ -1,0 +1,18 @@
+{
+  "id": 36089152,
+  "name": "alezost/pathify.el",
+  "description": "Symlink your scripts into a PATH directory",
+  "url": "https://github.com/alezost/pathify.el",
+  "stars": 1,
+  "updated": "2016-04-25T16:33:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pathify",
+    "fetcher": "github",
+    "repo": "alezost/pathify.el"
+  }
+}

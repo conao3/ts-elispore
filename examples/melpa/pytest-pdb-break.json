@@ -1,0 +1,19 @@
+{
+  "id": 160600716,
+  "name": "poppyschmo/pytest-pdb-break",
+  "description": "A pytest plugin to help text editors launch a debugging session",
+  "url": "https://github.com/poppyschmo/pytest-pdb-break",
+  "stars": 4,
+  "updated": "2020-11-14T08:50:39Z",
+  "archived": false,
+  "topics": ["emacs", "pdb", "pytest", "vim"],
+  "license": "Apache-2.0",
+  "language": "Python",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pytest-pdb-break",
+    "fetcher": "github",
+    "repo": "poppyschmo/pytest-pdb-break",
+    "files": "(\"emacs/*.el\"\n         (\"lib\" \"*.py\" \"helpers\")\n         (\"lib/emacs\" \"emacs/*.py\")\n         (:exclude \"emacs/*-test.el\"))"
+  }
+}

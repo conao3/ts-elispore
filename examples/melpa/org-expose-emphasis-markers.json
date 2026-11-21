@@ -1,0 +1,18 @@
+{
+  "id": 943101643,
+  "name": "lorniu/org-expose-emphasis-markers",
+  "description": "Automatically show hidden emphasis markers at point in org mode.",
+  "url": "https://github.com/lorniu/org-expose-emphasis-markers",
+  "stars": 17,
+  "updated": "2025-07-27T02:57:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-expose-emphasis-markers",
+    "fetcher": "github",
+    "repo": "lorniu/org-expose-emphasis-markers"
+  }
+}

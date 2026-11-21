@@ -1,0 +1,18 @@
+{
+  "id": 297964294,
+  "name": "conao3/ox-zenn.el",
+  "description": "",
+  "url": "https://github.com/conao3/ox-zenn.el",
+  "stars": 12,
+  "updated": "2026-11-15T21:45:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-zenn",
+    "fetcher": "github",
+    "repo": "conao3/ox-zenn.el"
+  }
+}

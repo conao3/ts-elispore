@@ -1,0 +1,19 @@
+{
+  "id": 111034010,
+  "name": "dp12/parrot",
+  "description": "A package to rotate text and party with parrots at the same time",
+  "url": "https://github.com/dp12/parrot",
+  "stars": 191,
+  "updated": "2026-01-11T21:37:18Z",
+  "archived": false,
+  "topics": ["emacs", "parrot", "party-parrot", "partyparrot", "plugin", "rotate", "slack"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "parrot",
+    "fetcher": "github",
+    "repo": "dp12/parrot",
+    "files": "(:defaults \"img\")"
+  }
+}

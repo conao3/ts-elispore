@@ -1,0 +1,18 @@
+{
+  "id": 10031692,
+  "name": "unhammer/org-random-todo",
+  "description": "🍃 Pop up a random TODO from your agenda every so often, using alert.el",
+  "url": "https://github.com/unhammer/org-random-todo",
+  "stars": 8,
+  "updated": "2020-05-13T10:40:09Z",
+  "archived": false,
+  "topics": ["alert", "org-mode", "serendipity", "todo"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-random-todo",
+    "fetcher": "github",
+    "repo": "unhammer/org-random-todo"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 15659935,
+  "name": "milkypostman/package-filter",
+  "description": "Add filtering functionality to Emacs package.el.",
+  "url": "https://github.com/milkypostman/package-filter",
+  "stars": 6,
+  "updated": "2017-07-28T04:46:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "package-filter",
+    "fetcher": "github",
+    "repo": "milkypostman/package-filter"
+  }
+}

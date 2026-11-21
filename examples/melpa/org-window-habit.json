@@ -1,0 +1,18 @@
+{
+  "id": 690691298,
+  "name": "colonelpanic8/org-window-habit",
+  "description": "Advanced org-agenda habits",
+  "url": "https://github.com/colonelpanic8/org-window-habit",
+  "stars": 56,
+  "updated": "2026-10-10T02:55:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-window-habit",
+    "fetcher": "github",
+    "repo": "colonelpanic8/org-window-habit"
+  }
+}

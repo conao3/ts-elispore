@@ -1,0 +1,32 @@
+{
+  "id": 81684869,
+  "name": "kaushalmodi/ox-hugo",
+  "description": "A carefully crafted Org exporter back-end for Hugo ",
+  "url": "https://github.com/kaushalmodi/ox-hugo",
+  "stars": 947,
+  "updated": "2025-12-06T17:38:45Z",
+  "archived": false,
+  "topics": [
+    "blackfriday",
+    "blog",
+    "commonmark",
+    "elisp",
+    "emacs",
+    "emacs-lisp",
+    "exporter",
+    "goldmark",
+    "hugo",
+    "markdown",
+    "org",
+    "org-mode",
+    "static-site-generator"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-hugo",
+    "fetcher": "github",
+    "repo": "kaushalmodi/ox-hugo"
+  }
+}

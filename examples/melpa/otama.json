@@ -1,0 +1,18 @@
+{
+  "id": 55336259,
+  "name": "yoshinari-nomura/otama",
+  "description": "Simple org-table based database, intended to be a light version of BBDB and helm-friendly",
+  "url": "https://github.com/yoshinari-nomura/otama",
+  "stars": 1,
+  "updated": "2016-04-04T10:49:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "otama",
+    "fetcher": "github",
+    "repo": "yoshinari-nomura/otama"
+  }
+}

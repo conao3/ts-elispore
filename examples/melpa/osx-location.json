@@ -1,0 +1,19 @@
+{
+  "id": 6727862,
+  "name": "purcell/osx-location",
+  "description": "Make Emacs watch and respond to changes in geographical location on OS X",
+  "url": "https://github.com/purcell/osx-location",
+  "stars": 20,
+  "updated": "2026-04-22T12:29:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "osx-location",
+    "fetcher": "github",
+    "repo": "purcell/osx-location",
+    "files": "(\"*.el\" \"EmacsLocationHelper\")"
+  }
+}

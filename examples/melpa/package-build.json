@@ -1,0 +1,19 @@
+{
+  "id": 65532446,
+  "name": "melpa/package-build",
+  "description": "Tools for assembling a package archive",
+  "url": "https://github.com/melpa/package-build",
+  "stars": 34,
+  "updated": "2026-11-01T11:16:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "package-build",
+    "fetcher": "github",
+    "repo": "melpa/package-build",
+    "files": "(:defaults \"package-build.mk\")"
+  }
+}

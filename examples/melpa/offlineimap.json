@@ -1,0 +1,18 @@
+{
+  "id": 23077138,
+  "name": "jd/offlineimap.el",
+  "description": "OfflineIMAP support for Emacs",
+  "url": "https://github.com/jd/offlineimap.el",
+  "stars": 12,
+  "updated": "2018-10-09T16:19:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "offlineimap",
+    "fetcher": "github",
+    "repo": "jd/offlineimap.el"
+  }
+}

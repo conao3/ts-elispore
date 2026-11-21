@@ -1,0 +1,18 @@
+{
+  "id": 99224320,
+  "name": "alphapapa/org-make-toc",
+  "description": "Automatic tables of contents for Org-mode files",
+  "url": "https://github.com/alphapapa/org-make-toc",
+  "stars": 116,
+  "updated": "2024-08-30T20:47:26Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-make-toc",
+    "fetcher": "github",
+    "repo": "alphapapa/org-make-toc"
+  }
+}

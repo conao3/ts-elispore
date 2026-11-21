@@ -1,0 +1,18 @@
+{
+  "id": 18403574,
+  "name": "Malabarba/paradox",
+  "description": "Project for modernizing Emacs' Package Menu. With package ratings, usage statistics, customizability, and more.",
+  "url": "https://github.com/Malabarba/paradox",
+  "stars": 555,
+  "updated": "2022-10-21T13:51:20Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "paradox",
+    "fetcher": "github",
+    "repo": "Malabarba/paradox"
+  }
+}

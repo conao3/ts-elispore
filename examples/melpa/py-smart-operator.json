@@ -1,0 +1,18 @@
+{
+  "id": 34844909,
+  "name": "rmuslimov/py-smart-operator",
+  "description": "Smart operator mode for python",
+  "url": "https://github.com/rmuslimov/py-smart-operator",
+  "stars": 9,
+  "updated": "2017-05-31T12:09:46Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "py-smart-operator",
+    "fetcher": "github",
+    "repo": "rmuslimov/py-smart-operator"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 6253638,
+  "name": "rolandwalker/osx-browse",
+  "description": "Web browsing helpers for Emacs on OS X.",
+  "url": "https://github.com/rolandwalker/osx-browse",
+  "stars": 15,
+  "updated": "2014-08-04T19:23:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "osx-browse",
+    "fetcher": "github",
+    "repo": "rolandwalker/osx-browse"
+  }
+}

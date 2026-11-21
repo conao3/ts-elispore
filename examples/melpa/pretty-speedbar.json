@@ -1,0 +1,18 @@
+{
+  "id": 447403865,
+  "name": "kcyarn/pretty-speedbar",
+  "description": "SVG icons for Emacs Speedbar",
+  "url": "https://github.com/kcyarn/pretty-speedbar",
+  "stars": 18,
+  "updated": "2022-03-03T17:26:18Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pretty-speedbar",
+    "fetcher": "github",
+    "repo": "kcyarn/pretty-speedbar"
+  }
+}

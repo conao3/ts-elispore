@@ -1,0 +1,18 @@
+{
+  "id": 462374601,
+  "name": "minad/org-modern",
+  "description": ":unicorn: Modern Org Style",
+  "url": "https://github.com/minad/org-modern",
+  "stars": 1966,
+  "updated": "2026-11-16T07:39:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-modern",
+    "fetcher": "github",
+    "repo": "minad/org-modern"
+  }
+}

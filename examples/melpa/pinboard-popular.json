@@ -1,0 +1,18 @@
+{
+  "id": 131237792,
+  "name": "asimpson/pinboard-popular",
+  "description": " 📈 An Emacs extension that displays the links from the pinboard.in popular page.",
+  "url": "https://github.com/asimpson/pinboard-popular",
+  "stars": 3,
+  "updated": "2018-05-11T17:26:21Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "pinboard"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pinboard-popular",
+    "fetcher": "github",
+    "repo": "asimpson/pinboard-popular"
+  }
+}

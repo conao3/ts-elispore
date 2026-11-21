@@ -1,0 +1,18 @@
+{
+  "id": 868148196,
+  "name": "Y0ngg4n/org-auto-export-pandoc",
+  "description": "",
+  "url": "https://github.com/Y0ngg4n/org-auto-export-pandoc",
+  "stars": 3,
+  "updated": "2024-10-26T08:32:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-auto-export-pandoc",
+    "fetcher": "github",
+    "repo": "Y0ngg4n/org-auto-export-pandoc"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 790149816,
+  "name": "meedstrom/org-node",
+  "description": "A notetaking system like Roam using Emacs Org-mode",
+  "url": "https://github.com/meedstrom/org-node",
+  "stars": 418,
+  "updated": "2026-08-19T12:33:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-node",
+    "fetcher": "github",
+    "repo": "meedstrom/org-node"
+  }
+}

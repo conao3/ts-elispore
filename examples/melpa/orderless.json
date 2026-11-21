@@ -1,0 +1,18 @@
+{
+  "id": 255443744,
+  "name": "oantolin/orderless",
+  "description": "Emacs completion style that matches multiple regexps in any order",
+  "url": "https://github.com/oantolin/orderless",
+  "stars": 1059,
+  "updated": "2026-10-13T19:28:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "orderless",
+    "fetcher": "github",
+    "repo": "oantolin/orderless"
+  }
+}

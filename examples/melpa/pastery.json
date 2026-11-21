@@ -1,0 +1,18 @@
+{
+  "id": 77015809,
+  "name": "diasbruno/pastery.el",
+  "description": "pastery for emacs.",
+  "url": "https://github.com/diasbruno/pastery.el",
+  "stars": 4,
+  "updated": "2017-11-23T20:58:47Z",
+  "archived": false,
+  "topics": ["emacs", "pastery"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pastery",
+    "fetcher": "github",
+    "repo": "diasbruno/pastery.el"
+  }
+}

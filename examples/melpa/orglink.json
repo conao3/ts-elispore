@@ -1,0 +1,18 @@
+{
+  "id": 9782696,
+  "name": "tarsius/orglink",
+  "description": "Use Org Mode links in other modes",
+  "url": "https://github.com/tarsius/orglink",
+  "stars": 64,
+  "updated": "2026-10-01T16:05:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "orglink",
+    "fetcher": "github",
+    "repo": "tarsius/orglink"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 13700932,
+  "name": "sabof/project-explorer",
+  "description": " A project explorer sidebar",
+  "url": "https://github.com/sabof/project-explorer",
+  "stars": 265,
+  "updated": "2015-11-12T14:10:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "project-explorer",
+    "fetcher": "github",
+    "repo": "sabof/project-explorer"
+  }
+}

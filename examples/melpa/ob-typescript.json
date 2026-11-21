@@ -1,0 +1,18 @@
+{
+  "id": 39947231,
+  "name": "lurdan/ob-typescript",
+  "description": "Emacs org-mode babel support for typescript",
+  "url": "https://github.com/lurdan/ob-typescript",
+  "stars": 38,
+  "updated": "2023-12-27T03:11:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-typescript",
+    "fetcher": "github",
+    "repo": "lurdan/ob-typescript"
+  }
+}

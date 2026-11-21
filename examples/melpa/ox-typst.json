@@ -1,0 +1,18 @@
+{
+  "id": 748339187,
+  "name": "jmpunkt/ox-typst",
+  "description": "Org-mode to Typst exporter.",
+  "url": "https://github.com/jmpunkt/ox-typst",
+  "stars": 148,
+  "updated": "2026-05-02T10:09:08Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode", "typst"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-typst",
+    "fetcher": "github",
+    "repo": "jmpunkt/ox-typst"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 34764364,
+  "name": "ocodo-labs/ocodo-svg-modelines",
+  "description": "a collection of beautiful, modern SVG modelines for Emacs",
+  "url": "https://github.com/ocodo-labs/ocodo-svg-modelines",
+  "stars": 97,
+  "updated": "2015-05-17T07:49:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ocodo-svg-modelines",
+    "fetcher": "github",
+    "repo": "ocodo-labs/ocodo-svg-modelines",
+    "files": "(:defaults (\"images\" \"images/*.base64\"))"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 151856877,
+  "name": "gnuvince/purp",
+  "description": "A theme for Emacs with few colors",
+  "url": "https://github.com/gnuvince/purp",
+  "stars": 21,
+  "updated": "2021-09-12T19:40:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "purp-theme",
+    "fetcher": "github",
+    "repo": "gnuvince/purp"
+  }
+}

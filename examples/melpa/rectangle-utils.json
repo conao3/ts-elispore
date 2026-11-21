@@ -1,0 +1,18 @@
+{
+  "id": 18182290,
+  "name": "thierryvolpiatto/rectangle-utils",
+  "description": "Provide some more features to emacs rectangles",
+  "url": "https://github.com/thierryvolpiatto/rectangle-utils",
+  "stars": 7,
+  "updated": "2026-01-05T05:01:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rectangle-utils",
+    "fetcher": "github",
+    "repo": "thierryvolpiatto/rectangle-utils"
+  }
+}

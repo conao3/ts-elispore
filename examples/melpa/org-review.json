@@ -1,0 +1,18 @@
+{
+  "id": 19198768,
+  "name": "brabalan/org-review",
+  "description": "Track when you have done a review in org mode",
+  "url": "https://github.com/brabalan/org-review",
+  "stars": 67,
+  "updated": "2025-04-16T08:04:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-review",
+    "fetcher": "github",
+    "repo": "brabalan/org-review"
+  }
+}

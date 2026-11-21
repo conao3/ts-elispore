@@ -1,0 +1,18 @@
+{
+  "id": 9054462,
+  "name": "zk-phi/phi-search",
+  "description": "Another incremental search command, compatible with “multiple-cursors”",
+  "url": "https://github.com/zk-phi/phi-search",
+  "stars": 132,
+  "updated": "2025-06-11T17:25:25Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "phi-search",
+    "fetcher": "github",
+    "repo": "zk-phi/phi-search"
+  }
+}

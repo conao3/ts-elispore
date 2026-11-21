@@ -1,0 +1,19 @@
+{
+  "id": 48895159,
+  "name": "storax/org-tfl",
+  "description": "Transport for London meets Emacs Orgmode",
+  "url": "https://github.com/storax/org-tfl",
+  "stars": 59,
+  "updated": "2017-09-23T12:16:14Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "org-mode", "tfl"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-tfl",
+    "fetcher": "github",
+    "repo": "storax/org-tfl",
+    "files": "(:defaults \"*.svg\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1201686462,
+  "name": "krvkir/org-mindmap",
+  "description": "Editable mindmaps for org-mode.",
+  "url": "https://github.com/krvkir/org-mindmap",
+  "stars": 122,
+  "updated": "2026-06-17T16:09:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-mindmap",
+    "fetcher": "github",
+    "repo": "krvkir/org-mindmap"
+  }
+}

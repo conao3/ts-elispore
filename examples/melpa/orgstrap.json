@@ -1,0 +1,19 @@
+{
+  "id": 138340635,
+  "name": "tgbugs/orgstrap",
+  "description": "Executable Org files",
+  "url": "https://github.com/tgbugs/orgstrap",
+  "stars": 53,
+  "updated": "2025-11-25T05:33:31Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "orgstrap",
+    "fetcher": "github",
+    "repo": "tgbugs/orgstrap",
+    "files": "(\"orgstrap.el\")"
+  }
+}

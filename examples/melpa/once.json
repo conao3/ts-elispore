@@ -1,0 +1,18 @@
+{
+  "id": 1115624556,
+  "name": "meedstrom/once",
+  "description": "add-hook but just once",
+  "url": "https://github.com/meedstrom/once",
+  "stars": 8,
+  "updated": "2026-02-21T22:37:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "once",
+    "fetcher": "github",
+    "repo": "meedstrom/once"
+  }
+}

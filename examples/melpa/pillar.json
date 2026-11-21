@@ -1,0 +1,18 @@
+{
+  "id": 19605291,
+  "name": "pillar-markup/pillar-mode",
+  "description": "Major mode for editing Pillar files in Emacs",
+  "url": "https://github.com/pillar-markup/pillar-mode",
+  "stars": 2,
+  "updated": "2016-05-15T18:13:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "pillar",
+    "fetcher": "github",
+    "repo": "pillar-markup/pillar-mode"
+  }
+}

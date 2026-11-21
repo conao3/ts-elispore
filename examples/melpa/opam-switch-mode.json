@@ -1,0 +1,18 @@
+{
+  "id": 497592196,
+  "name": "ProofGeneral/opam-switch-mode",
+  "description": "Select OCaml opam switches via a menu or using a command",
+  "url": "https://github.com/ProofGeneral/opam-switch-mode",
+  "stars": 9,
+  "updated": "2023-08-02T09:17:29Z",
+  "archived": false,
+  "topics": ["emacs", "merlin", "ocaml", "opam", "proof-general", "tuareg"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "opam-switch-mode",
+    "fetcher": "github",
+    "repo": "ProofGeneral/opam-switch-mode"
+  }
+}

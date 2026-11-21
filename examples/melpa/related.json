@@ -1,0 +1,18 @@
+{
+  "id": 177971193,
+  "name": "julien-montmartin/related",
+  "description": "Related is an Emacs global minor mode which helps you to navigate across similarly named buffers",
+  "url": "https://github.com/julien-montmartin/related",
+  "stars": 1,
+  "updated": "2019-03-27T10:31:41Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "emacs-packages"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "related",
+    "fetcher": "github",
+    "repo": "julien-montmartin/related"
+  }
+}

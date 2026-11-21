@@ -1,0 +1,18 @@
+{
+  "id": 120900916,
+  "name": "unhammer/org-rich-yank",
+  "description": "📋 Rich text clipboard for org-mode: Paste as a #+BEGIN_SRC block of correct mode, with link to where it came from",
+  "url": "https://github.com/unhammer/org-rich-yank",
+  "stars": 111,
+  "updated": "2026-09-30T09:48:09Z",
+  "archived": false,
+  "topics": ["clipboard", "emacs", "org-mode", "paste", "rich-text", "yank"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-rich-yank",
+    "fetcher": "github",
+    "repo": "unhammer/org-rich-yank"
+  }
+}

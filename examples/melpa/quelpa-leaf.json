@@ -1,0 +1,18 @@
+{
+  "id": 324597671,
+  "name": "quelpa/quelpa-leaf",
+  "description": "Emacs quelpa handler for leaf",
+  "url": "https://github.com/quelpa/quelpa-leaf",
+  "stars": 9,
+  "updated": "2026-06-18T19:48:25Z",
+  "archived": false,
+  "topics": ["emacs", "leaf", "package-manager", "quelpa"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "quelpa-leaf",
+    "fetcher": "github",
+    "repo": "quelpa/quelpa-leaf"
+  }
+}

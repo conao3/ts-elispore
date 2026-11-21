@@ -1,0 +1,18 @@
+{
+  "id": 1205402647,
+  "name": "jb3/python-unicode-escape",
+  "description": "Emacs autocompletion of Python \\N{...} unicode character escapes",
+  "url": "https://github.com/jb3/python-unicode-escape",
+  "stars": 1,
+  "updated": "2026-04-22T02:09:01Z",
+  "archived": false,
+  "topics": ["editor-plugin", "emacs", "emacs-mode", "emacs-package", "python"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "python-unicode-escape",
+    "fetcher": "github",
+    "repo": "jb3/python-unicode-escape"
+  }
+}

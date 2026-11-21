@@ -1,0 +1,18 @@
+{
+  "id": 23295090,
+  "name": "dgtized/occur-context-resize.el",
+  "description": "Dynamically resize context around matches in occur-mode",
+  "url": "https://github.com/dgtized/occur-context-resize.el",
+  "stars": 5,
+  "updated": "2025-05-10T14:47:44Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-customizations", "emacs-package"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "occur-context-resize",
+    "fetcher": "github",
+    "repo": "dgtized/occur-context-resize.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1021388259,
+  "name": "fommil/prettify-greek.el",
+  "description": "greek symbols in emacs",
+  "url": "https://github.com/fommil/prettify-greek.el",
+  "stars": 0,
+  "updated": "2025-07-17T10:18:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prettify-greek",
+    "fetcher": "github",
+    "repo": "fommil/prettify-greek.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 123937797,
+  "name": "gonsie/ox-jekyll-md",
+  "description": "Org export engine for Jekyll on Markdown",
+  "url": "https://github.com/gonsie/ox-jekyll-md",
+  "stars": 12,
+  "updated": "2022-05-12T19:52:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-jekyll-md",
+    "fetcher": "github",
+    "repo": "gonsie/ox-jekyll-md"
+  }
+}

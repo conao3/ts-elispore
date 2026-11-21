@@ -1,0 +1,18 @@
+{
+  "id": 59492670,
+  "name": "lujun9972/pocket-mode",
+  "description": "Manage your pocket",
+  "url": "https://github.com/lujun9972/pocket-mode",
+  "stars": 12,
+  "updated": "2017-12-01T13:14:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pocket-mode",
+    "fetcher": "github",
+    "repo": "lujun9972/pocket-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 22399912,
+  "name": "YangZhao11/register-channel",
+  "description": "Register Channel is an emacs package that let you move around buffer like switching TV channels.",
+  "url": "https://github.com/YangZhao11/register-channel",
+  "stars": 7,
+  "updated": "2021-01-20T16:19:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "register-channel",
+    "fetcher": "github",
+    "repo": "YangZhao11/register-channel"
+  }
+}

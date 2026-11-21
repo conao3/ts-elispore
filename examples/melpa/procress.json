@@ -1,0 +1,18 @@
+{
+  "id": 514400696,
+  "name": "haji-ali/procress",
+  "description": "A simple emacs package to indicate progress of a process in the modeline",
+  "url": "https://github.com/haji-ali/procress",
+  "stars": 38,
+  "updated": "2026-07-30T17:07:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "procress",
+    "fetcher": "github",
+    "repo": "haji-ali/procress"
+  }
+}

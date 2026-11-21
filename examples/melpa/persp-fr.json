@@ -1,0 +1,18 @@
+{
+  "id": 72209653,
+  "name": "rocher/persp-fr",
+  "description": "Show perspective list in the GUI window frame",
+  "url": "https://github.com/rocher/persp-fr",
+  "stars": 6,
+  "updated": "2019-11-08T07:56:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "persp-fr",
+    "fetcher": "github",
+    "repo": "rocher/persp-fr"
+  }
+}

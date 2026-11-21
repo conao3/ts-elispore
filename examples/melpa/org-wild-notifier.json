@@ -1,0 +1,18 @@
+{
+  "id": 116600807,
+  "name": "emacsorphanage/org-wild-notifier",
+  "description": "Alert notifications for org-agenda",
+  "url": "https://github.com/emacsorphanage/org-wild-notifier",
+  "stars": 154,
+  "updated": "2026-01-27T18:09:28Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "notifications", "org-agenda", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "org-wild-notifier",
+    "fetcher": "github",
+    "repo": "emacsorphanage/org-wild-notifier"
+  }
+}

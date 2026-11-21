@@ -1,0 +1,19 @@
+{
+  "id": 124154053,
+  "name": "RedPRL/redtt",
+  "description": "\"Between the darkness and the dawn, a red cube rises!\":  a proof assistant for cartesian cubical type theory",
+  "url": "https://github.com/RedPRL/redtt",
+  "stars": 224,
+  "updated": "2022-03-25T17:58:17Z",
+  "archived": false,
+  "topics": ["cubical-type-theory", "ocaml", "proof-assistant", "type-theory"],
+  "license": "Apache-2.0",
+  "language": "OCaml",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "redtt",
+    "fetcher": "github",
+    "repo": "RedPRL/redtt",
+    "files": "(\"emacs/*.el\")"
+  }
+}

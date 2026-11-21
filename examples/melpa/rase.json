@@ -1,0 +1,18 @@
+{
+  "id": 5640562,
+  "name": "m00natic/rase",
+  "description": "Run At Sun Events extension to Emacs",
+  "url": "https://github.com/m00natic/rase",
+  "stars": 5,
+  "updated": "2014-05-31T21:12:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rase",
+    "fetcher": "github",
+    "repo": "m00natic/rase"
+  }
+}

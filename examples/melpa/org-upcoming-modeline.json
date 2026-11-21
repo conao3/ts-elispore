@@ -1,0 +1,18 @@
+{
+  "id": 316331617,
+  "name": "unhammer/org-upcoming-modeline",
+  "description": "📅  Show upcoming org event in modeline ",
+  "url": "https://github.com/unhammer/org-upcoming-modeline",
+  "stars": 43,
+  "updated": "2026-09-22T07:48:48Z",
+  "archived": false,
+  "topics": ["calendar", "emacs", "events", "org-mode"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-upcoming-modeline",
+    "fetcher": "github",
+    "repo": "unhammer/org-upcoming-modeline"
+  }
+}

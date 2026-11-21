@@ -1,0 +1,19 @@
+{
+  "id": 872801,
+  "name": "motus/pig-mode",
+  "description": "Emacs mode for Pig",
+  "url": "https://github.com/motus/pig-mode",
+  "stars": 25,
+  "updated": "2023-03-08T05:39:36Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "pig", "pig-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pig-mode",
+    "fetcher": "github",
+    "repo": "motus/pig-mode",
+    "files": "(\"pig-mode.el\")"
+  }
+}

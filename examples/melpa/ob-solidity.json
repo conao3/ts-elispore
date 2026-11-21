@@ -1,0 +1,18 @@
+{
+  "id": 268270262,
+  "name": "hrkrshnn/ob-solidity",
+  "description": "An org-babel extension for Solidity",
+  "url": "https://github.com/hrkrshnn/ob-solidity",
+  "stars": 9,
+  "updated": "2022-02-13T19:10:36Z",
+  "archived": false,
+  "topics": ["emacs", "literate-programming", "org-babel", "org-mode", "solidity"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-solidity",
+    "fetcher": "github",
+    "repo": "hrkrshnn/ob-solidity"
+  }
+}

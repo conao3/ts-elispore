@@ -1,0 +1,19 @@
+{
+  "id": 231891986,
+  "name": "org-roam/org-roam",
+  "description": "Rudimentary Roam replica with Org-mode",
+  "url": "https://github.com/org-roam/org-roam",
+  "stars": 6056,
+  "updated": "2026-04-27T03:16:28Z",
+  "archived": false,
+  "topics": ["hacktoberfest", "memex", "org-mode", "pkm", "roam", "zettelkasten"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "org-roam",
+    "fetcher": "github",
+    "repo": "org-roam/org-roam",
+    "files": "(:defaults \"extensions/*\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 82217554,
+  "name": "cute-jumper/org-table-sticky-header",
+  "description": "Sticky header for org-mode tables",
+  "url": "https://github.com/cute-jumper/org-table-sticky-header",
+  "stars": 36,
+  "updated": "2019-09-24T05:06:35Z",
+  "archived": false,
+  "topics": ["emacs", "header-line", "org-mode", "table"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-table-sticky-header",
+    "fetcher": "github",
+    "repo": "cute-jumper/org-table-sticky-header"
+  }
+}

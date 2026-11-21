@@ -1,0 +1,19 @@
+{
+  "id": 214120252,
+  "name": "jcs-elpa/parse-it",
+  "description": "Basic Parser in Emacs Lisp.",
+  "url": "https://github.com/jcs-elpa/parse-it",
+  "stars": 28,
+  "updated": "2026-06-19T13:54:59Z",
+  "archived": false,
+  "topics": ["ast", "emacs", "grammar", "lex", "lexer", "lexing", "parse", "parser"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "parse-it",
+    "fetcher": "github",
+    "repo": "jcs-elpa/parse-it",
+    "files": "(:defaults \"langs/*.el\")"
+  }
+}

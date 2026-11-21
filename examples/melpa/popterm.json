@@ -1,0 +1,18 @@
+{
+  "id": 1178410976,
+  "name": "ChetanKoneru/popterm.el",
+  "description": "Smart Emacs terminal toggler with posframe/window/fullscreen display, vterm/eat/shell/eshell backends, named instances, project-scoped cycling, and TRAMP-aware cd.",
+  "url": "https://github.com/ChetanKoneru/popterm.el",
+  "stars": 33,
+  "updated": "2026-09-17T19:31:28Z",
+  "archived": false,
+  "topics": ["eat", "emacs", "emacs-lisp", "eshell", "posframe", "tramp", "vterm"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "popterm",
+    "fetcher": "github",
+    "repo": "ChetanKoneru/popterm.el"
+  }
+}

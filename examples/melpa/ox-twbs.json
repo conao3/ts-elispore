@@ -1,0 +1,18 @@
+{
+  "id": 27338804,
+  "name": "marsmining/ox-twbs",
+  "description": "Export org-mode docs as HTML compatible with Twitter Bootstrap.",
+  "url": "https://github.com/marsmining/ox-twbs",
+  "stars": 300,
+  "updated": "2022-07-09T11:19:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-twbs",
+    "fetcher": "github",
+    "repo": "marsmining/ox-twbs"
+  }
+}

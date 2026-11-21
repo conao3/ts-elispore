@@ -1,0 +1,18 @@
+{
+  "id": 17029252,
+  "name": "aki2o/plsense-direx",
+  "description": "Perl Package Explorer in Emacs.",
+  "url": "https://github.com/aki2o/plsense-direx",
+  "stars": 1,
+  "updated": "2014-11-22T00:23:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "plsense-direx",
+    "fetcher": "github",
+    "repo": "aki2o/plsense-direx"
+  }
+}

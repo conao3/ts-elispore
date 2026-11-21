@@ -1,0 +1,18 @@
+{
+  "id": 1060796569,
+  "name": "rocky/emacs-pyasm-mode",
+  "description": "GNU Emacs font-lock mode for Python bytecode disassembly: `dis` in the Python's standard library and `pydisasm` in `xdis`",
+  "url": "https://github.com/rocky/emacs-pyasm-mode",
+  "stars": 3,
+  "updated": "2026-01-22T01:37:17Z",
+  "archived": false,
+  "topics": ["bytecode", "disassembly", "emacs-package", "python"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pyasm-mode",
+    "fetcher": "github",
+    "repo": "rocky/emacs-pyasm-mode"
+  }
+}

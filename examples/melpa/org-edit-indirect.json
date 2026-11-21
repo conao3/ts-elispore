@@ -1,0 +1,18 @@
+{
+  "id": 428873890,
+  "name": "agzam/org-edit-indirect.el",
+  "description": "Edit any kind of Org element the same way as source blocks.",
+  "url": "https://github.com/agzam/org-edit-indirect.el",
+  "stars": 16,
+  "updated": "2026-11-18T00:30:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-edit-indirect",
+    "fetcher": "github",
+    "repo": "agzam/org-edit-indirect.el"
+  }
+}

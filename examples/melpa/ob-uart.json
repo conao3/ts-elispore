@@ -1,0 +1,18 @@
+{
+  "id": 82355711,
+  "name": "andrmuel/ob-uart",
+  "description": "org babel support for UART communication",
+  "url": "https://github.com/andrmuel/ob-uart",
+  "stars": 4,
+  "updated": "2017-05-23T18:32:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-uart",
+    "fetcher": "github",
+    "repo": "andrmuel/ob-uart"
+  }
+}

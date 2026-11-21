@@ -1,0 +1,25 @@
+{
+  "id": 955686232,
+  "name": "jamescherti/persist-text-scale.el",
+  "description": "Emacs: Persist and Restore Text Scale",
+  "url": "https://github.com/jamescherti/persist-text-scale.el",
+  "stars": 27,
+  "updated": "2026-11-10T15:12:49Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "persist-text-scale-mode",
+    "text-scale",
+    "text-scale-decrease",
+    "text-scale-increase",
+    "text-scale-mode"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "persist-text-scale",
+    "fetcher": "github",
+    "repo": "jamescherti/persist-text-scale.el"
+  }
+}

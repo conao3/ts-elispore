@@ -1,0 +1,18 @@
+{
+  "id": 456596284,
+  "name": "skx/org-tag-cloud",
+  "description": "Easily maintain a tag-cloud of org-mode tags.",
+  "url": "https://github.com/skx/org-tag-cloud",
+  "stars": 4,
+  "updated": "2026-03-23T18:23:15Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "org-mode", "tag-cloud", "tags"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-tag-cloud",
+    "fetcher": "github",
+    "repo": "skx/org-tag-cloud"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 6062787,
+  "name": "fgallina/region-bindings-mode",
+  "description": "A minor mode that enables custom bindings when mark is active.",
+  "url": "https://github.com/fgallina/region-bindings-mode",
+  "stars": 43,
+  "updated": "2015-11-17T09:54:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "region-bindings-mode",
+    "fetcher": "github",
+    "repo": "fgallina/region-bindings-mode"
+  }
+}

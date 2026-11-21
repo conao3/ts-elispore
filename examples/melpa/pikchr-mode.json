@@ -1,0 +1,18 @@
+{
+  "id": 313414073,
+  "name": "kljohann/pikchr-mode",
+  "description": "Emacs major mode for the pikchr diagram markup language",
+  "url": "https://github.com/kljohann/pikchr-mode",
+  "stars": 18,
+  "updated": "2024-11-27T21:46:58Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode", "emacs-package", "emacs-packages", "major-mode", "pikchr"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pikchr-mode",
+    "fetcher": "github",
+    "repo": "kljohann/pikchr-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 24953462,
+  "name": "Lindydancer/preproc-font-lock",
+  "description": "Highlight C-style preprocessor directives in Emacs",
+  "url": "https://github.com/Lindydancer/preproc-font-lock",
+  "stars": 2,
+  "updated": "2025-01-03T15:47:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "preproc-font-lock",
+    "fetcher": "github",
+    "repo": "Lindydancer/preproc-font-lock"
+  }
+}

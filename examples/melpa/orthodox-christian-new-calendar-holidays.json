@@ -1,0 +1,18 @@
+{
+  "id": 362157920,
+  "name": "cmchittom/orthodox-christian-new-calendar-holidays",
+  "description": "Package to add Orthodox Christian (new calendar) holidays to Emacs",
+  "url": "https://github.com/cmchittom/orthodox-christian-new-calendar-holidays",
+  "stars": 5,
+  "updated": "2021-08-30T17:00:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "orthodox-christian-new-calendar-holidays",
+    "fetcher": "github",
+    "repo": "cmchittom/orthodox-christian-new-calendar-holidays"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 137898075,
+  "name": "xuchunyang/pinyin.el",
+  "description": "汉字转拼音",
+  "url": "https://github.com/xuchunyang/pinyin.el",
+  "stars": 15,
+  "updated": "2026-08-18T01:36:44Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Python",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pinyin",
+    "fetcher": "github",
+    "repo": "xuchunyang/pinyin.el",
+    "files": "(:defaults (\"pinyin-data\" \"pinyin-data/pinyin.txt\"))"
+  }
+}

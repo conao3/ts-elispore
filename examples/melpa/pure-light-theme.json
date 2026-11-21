@@ -1,0 +1,18 @@
+{
+  "id": 993834632,
+  "name": "nyrell/pure-light-eink-color",
+  "description": "An emacs theme designed for e-ink color monitors such as Dasung Paperlike 13K color",
+  "url": "https://github.com/nyrell/pure-light-eink-color",
+  "stars": 2,
+  "updated": "2026-06-13T08:31:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pure-light-theme",
+    "fetcher": "github",
+    "repo": "nyrell/pure-light-eink-color"
+  }
+}

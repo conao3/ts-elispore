@@ -1,0 +1,26 @@
+{
+  "id": 10152852,
+  "name": "coldnew/pangu-spacing",
+  "description": "emacs minor-mode to add space between Chinese/Japanese/Korean and English characters.",
+  "url": "https://github.com/coldnew/pangu-spacing",
+  "stars": 156,
+  "updated": "2026-07-17T02:30:19Z",
+  "archived": false,
+  "topics": [
+    "chinese-characters",
+    "emacs",
+    "emacs-lisp",
+    "melpa",
+    "pangu",
+    "pangu-spacing",
+    "separator"
+  ],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pangu-spacing",
+    "fetcher": "github",
+    "repo": "coldnew/pangu-spacing"
+  }
+}

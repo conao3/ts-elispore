@@ -1,0 +1,18 @@
+{
+  "id": 37069114,
+  "name": "psaris/q-mode",
+  "description": "Emacs mode for editing q scripts and communicating with inferior q/qcon buffers",
+  "url": "https://github.com/psaris/q-mode",
+  "stars": 29,
+  "updated": "2026-10-19T02:09:55Z",
+  "archived": false,
+  "topics": ["emacs", "kdb", "q"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "q-mode",
+    "fetcher": "github",
+    "repo": "psaris/q-mode"
+  }
+}

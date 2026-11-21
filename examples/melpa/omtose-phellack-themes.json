@@ -1,0 +1,18 @@
+{
+  "id": 864504188,
+  "name": "emacsorphanage/omtose-phellack-themes",
+  "description": "Dark theme with cold bluish touch",
+  "url": "https://github.com/emacsorphanage/omtose-phellack-themes",
+  "stars": 0,
+  "updated": "2024-09-28T12:42:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "omtose-phellack-themes",
+    "fetcher": "github",
+    "repo": "emacsorphanage/omtose-phellack-themes"
+  }
+}

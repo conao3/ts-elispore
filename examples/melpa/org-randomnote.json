@@ -1,0 +1,18 @@
+{
+  "id": 110835327,
+  "name": "tasshin/org-randomnote",
+  "description": "Find a random note in your Org-Mode files",
+  "url": "https://github.com/tasshin/org-randomnote",
+  "stars": 48,
+  "updated": "2020-01-10T14:07:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-randomnote",
+    "fetcher": "github",
+    "repo": "tasshin/org-randomnote"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 25733440,
+  "name": "tbanel/orgaggregate",
+  "description": "Aggregate tables | + | + | in Org mode",
+  "url": "https://github.com/tbanel/orgaggregate",
+  "stars": 190,
+  "updated": "2026-11-18T09:10:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "orgtbl-aggregate",
+    "fetcher": "github",
+    "repo": "tbanel/orgaggregate"
+  }
+}

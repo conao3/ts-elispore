@@ -1,0 +1,18 @@
+{
+  "id": 3045,
+  "name": "nex3/perspective-el",
+  "description": "Perspectives for Emacs.",
+  "url": "https://github.com/nex3/perspective-el",
+  "stars": 1064,
+  "updated": "2026-10-06T20:30:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "perspective",
+    "fetcher": "github",
+    "repo": "nex3/perspective-el"
+  }
+}

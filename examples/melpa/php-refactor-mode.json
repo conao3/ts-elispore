@@ -1,0 +1,18 @@
+{
+  "id": 20196609,
+  "name": "keelerm84/php-refactor-mode.el",
+  "description": "Minor mode to quickly and safely perform common refactorings",
+  "url": "https://github.com/keelerm84/php-refactor-mode.el",
+  "stars": 28,
+  "updated": "2017-11-24T06:46:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Gherkin",
+  "ownerType": "User",
+  "melpa": {
+    "name": "php-refactor-mode",
+    "fetcher": "github",
+    "repo": "keelerm84/php-refactor-mode.el"
+  }
+}

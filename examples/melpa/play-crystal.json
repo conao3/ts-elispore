@@ -1,0 +1,18 @@
+{
+  "id": 92530702,
+  "name": "veelenga/play-crystal.el",
+  "description": "Emacs to https://play.crystal-lang.org integration",
+  "url": "https://github.com/veelenga/play-crystal.el",
+  "stars": 7,
+  "updated": "2018-01-15T06:41:25Z",
+  "archived": false,
+  "topics": ["convenience", "crystal", "emacs-packages"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "play-crystal",
+    "fetcher": "github",
+    "repo": "veelenga/play-crystal.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 326213012,
+  "name": "jjuliano/org-simple-timeline",
+  "description": "MELPA package for org-mode html export of vertical/horizontal Timelines",
+  "url": "https://github.com/jjuliano/org-simple-timeline",
+  "stars": 43,
+  "updated": "2022-03-21T21:16:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-timeline",
+    "fetcher": "github",
+    "repo": "jjuliano/org-simple-timeline"
+  }
+}

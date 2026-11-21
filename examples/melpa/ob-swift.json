@@ -1,0 +1,18 @@
+{
+  "id": 47437121,
+  "name": "zweifisch/ob-swift",
+  "description": "org-babel functions for swift evaluation",
+  "url": "https://github.com/zweifisch/ob-swift",
+  "stars": 14,
+  "updated": "2018-12-24T00:27:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-swift",
+    "fetcher": "github",
+    "repo": "zweifisch/ob-swift"
+  }
+}

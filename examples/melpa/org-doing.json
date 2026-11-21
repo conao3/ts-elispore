@@ -1,0 +1,19 @@
+{
+  "id": 275577232,
+  "name": "emacsattic/org-doing",
+  "description": "",
+  "url": "https://github.com/emacsattic/org-doing",
+  "stars": 4,
+  "updated": "2020-06-28T12:12:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "org-doing",
+    "fetcher": "github",
+    "repo": "emacsattic/org-doing",
+    "files": "(:defaults \"bin\")"
+  }
+}

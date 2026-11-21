@@ -1,0 +1,18 @@
+{
+  "id": 492284,
+  "name": "joostkremers/pandoc-mode",
+  "description": "An Emacs minor mode for interacting with Pandoc.",
+  "url": "https://github.com/joostkremers/pandoc-mode",
+  "stars": 187,
+  "updated": "2026-01-14T12:56:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pandoc-mode",
+    "fetcher": "github",
+    "repo": "joostkremers/pandoc-mode"
+  }
+}

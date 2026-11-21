@@ -1,0 +1,18 @@
+{
+  "id": 977958,
+  "name": "mhayashi1120/Emacs-rectplus",
+  "description": "",
+  "url": "https://github.com/mhayashi1120/Emacs-rectplus",
+  "stars": 4,
+  "updated": "2025-01-24T03:59:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rect+",
+    "fetcher": "github",
+    "repo": "mhayashi1120/Emacs-rectplus"
+  }
+}

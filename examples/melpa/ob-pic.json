@@ -1,0 +1,18 @@
+{
+  "id": 899898826,
+  "name": "ddoherty03/ob-pic",
+  "description": "Org Babel adapter for the pic graphics language using pic2plot from GNU plotutils.",
+  "url": "https://github.com/ddoherty03/ob-pic",
+  "stars": 2,
+  "updated": "2025-06-04T21:26:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-pic",
+    "fetcher": "github",
+    "repo": "ddoherty03/ob-pic"
+  }
+}

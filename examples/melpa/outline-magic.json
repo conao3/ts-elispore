@@ -1,0 +1,18 @@
+{
+  "id": 8269473,
+  "name": "tj64/outline-magic",
+  "description": "This file implements extensions for (Emacs) outline(-minor)-mode.",
+  "url": "https://github.com/tj64/outline-magic",
+  "stars": 20,
+  "updated": "2019-04-19T15:10:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "outline-magic",
+    "fetcher": "github",
+    "repo": "tj64/outline-magic"
+  }
+}

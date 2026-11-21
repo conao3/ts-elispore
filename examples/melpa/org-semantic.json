@@ -1,0 +1,18 @@
+{
+  "id": 1327582818,
+  "name": "alberti42/org-semantic",
+  "description": "Semantic and lexical search for a large collection of org-mode notes. One static binary, no database, no Python.",
+  "url": "https://github.com/alberti42/org-semantic",
+  "stars": 34,
+  "updated": "2026-11-07T13:01:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Rust",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-semantic",
+    "fetcher": "github",
+    "repo": "alberti42/org-semantic"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1136656443,
+  "name": "yad-tahir/org-roam-latte",
+  "description": "Org-roam Latte is a minor mode that automatically highlights unlinked references to existing",
+  "url": "https://github.com/yad-tahir/org-roam-latte",
+  "stars": 11,
+  "updated": "2026-04-07T05:13:06Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode", "org-roam"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-roam-latte",
+    "fetcher": "github",
+    "repo": "yad-tahir/org-roam-latte"
+  }
+}

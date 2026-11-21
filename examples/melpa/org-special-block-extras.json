@@ -1,0 +1,29 @@
+{
+  "id": 256335447,
+  "name": "alhassy/org-special-block-extras",
+  "description": "Write once in Org, export everywhere: Org markup in any block; display maths with colours & calculational proofs; Org lists drawn as Graphviz graphs; folds, tooltips, glossaries, callouts; and org-defblock to make your own ^_^",
+  "url": "https://github.com/alhassy/org-special-block-extras",
+  "stars": 240,
+  "updated": "2026-11-18T20:44:31Z",
+  "archived": false,
+  "topics": [
+    "badges",
+    "css",
+    "emacs",
+    "extension",
+    "html",
+    "lisp",
+    "melpa",
+    "org-mode",
+    "pdf",
+    "shields"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-special-block-extras",
+    "fetcher": "github",
+    "repo": "alhassy/org-special-block-extras"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 433757855,
+  "name": "SqrtMinusOne/perspective-exwm.el",
+  "description": "perspective.el ❤️ EXWM",
+  "url": "https://github.com/SqrtMinusOne/perspective-exwm.el",
+  "stars": 20,
+  "updated": "2026-10-29T23:23:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "perspective-exwm",
+    "fetcher": "github",
+    "repo": "SqrtMinusOne/perspective-exwm.el"
+  }
+}

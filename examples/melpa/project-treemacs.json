@@ -1,0 +1,18 @@
+{
+  "id": 630581633,
+  "name": "cmccloud/project-treemacs",
+  "description": "",
+  "url": "https://github.com/cmccloud/project-treemacs",
+  "stars": 4,
+  "updated": "2023-05-30T12:29:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "project-treemacs",
+    "fetcher": "github",
+    "repo": "cmccloud/project-treemacs"
+  }
+}

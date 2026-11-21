@@ -1,0 +1,19 @@
+{
+  "id": 7608007,
+  "name": "greghendershott/racket-mode",
+  "description": "Emacs major and minor modes for Racket: edit, REPL, check-syntax, debug, profile, packages, and more.",
+  "url": "https://github.com/greghendershott/racket-mode",
+  "stars": 723,
+  "updated": "2026-10-26T01:18:27Z",
+  "archived": false,
+  "topics": ["drracket", "emacs", "emacs-lisp", "gnu-emacs", "racket", "racket-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "racket-mode",
+    "fetcher": "github",
+    "repo": "greghendershott/racket-mode",
+    "files": "(:defaults\n         \"*.rkt\"\n         (\"racket\" \"racket/*\")\n         (:exclude \"racket/example/*\"\n                   \"racket/test/*\"))"
+  }
+}

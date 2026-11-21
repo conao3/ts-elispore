@@ -1,0 +1,18 @@
+{
+  "id": 823700183,
+  "name": "xenodium/ready-player",
+  "description": "",
+  "url": "https://github.com/xenodium/ready-player",
+  "stars": 242,
+  "updated": "2026-02-24T09:16:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ready-player",
+    "fetcher": "github",
+    "repo": "xenodium/ready-player"
+  }
+}

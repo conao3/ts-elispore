@@ -1,0 +1,18 @@
+{
+  "id": 24117453,
+  "name": "phillord/pabbrev",
+  "description": "Predictive Abbreviation Expansion for Emacs",
+  "url": "https://github.com/phillord/pabbrev",
+  "stars": 22,
+  "updated": "2024-06-17T16:22:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pabbrev",
+    "fetcher": "github",
+    "repo": "phillord/pabbrev"
+  }
+}

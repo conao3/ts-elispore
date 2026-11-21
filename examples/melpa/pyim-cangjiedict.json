@@ -1,0 +1,19 @@
+{
+  "id": 97558009,
+  "name": "a5corpii/pyim-cangjiedict",
+  "description": "Cangjie dicts for [pyim](https://github.com/tumashu/pyim)",
+  "url": "https://github.com/a5corpii/pyim-cangjiedict",
+  "stars": 0,
+  "updated": "2025-09-24T13:20:22Z",
+  "archived": false,
+  "topics": ["pyim", "pyim-cangjiedict"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pyim-cangjiedict",
+    "fetcher": "github",
+    "repo": "a5corpii/pyim-cangjiedict",
+    "files": "(:defaults \"*.pyim\")"
+  }
+}

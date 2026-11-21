@@ -1,0 +1,18 @@
+{
+  "id": 227597312,
+  "name": "lassik/emacs-posix-manual",
+  "description": "POSIX manual page lookup from Emacs",
+  "url": "https://github.com/lassik/emacs-posix-manual",
+  "stars": 3,
+  "updated": "2023-12-15T16:04:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "posix-manual",
+    "fetcher": "github",
+    "repo": "lassik/emacs-posix-manual"
+  }
+}

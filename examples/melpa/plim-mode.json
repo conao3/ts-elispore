@@ -1,0 +1,18 @@
+{
+  "id": 22594203,
+  "name": "dongweiming/plim-mode",
+  "description": "Major mode for editing Plim files",
+  "url": "https://github.com/dongweiming/plim-mode",
+  "stars": 1,
+  "updated": "2014-08-13T10:38:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "plim-mode",
+    "fetcher": "github",
+    "repo": "dongweiming/plim-mode"
+  }
+}

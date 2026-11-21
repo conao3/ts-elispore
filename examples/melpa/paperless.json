@@ -1,0 +1,18 @@
+{
+  "id": 81489219,
+  "name": "atgreen/paperless",
+  "description": "Emacs-assisted PDF document filing",
+  "url": "https://github.com/atgreen/paperless",
+  "stars": 143,
+  "updated": "2024-01-30T10:49:24Z",
+  "archived": false,
+  "topics": ["emacs", "melpa", "paperless", "pdf", "scanned-documents"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "paperless",
+    "fetcher": "github",
+    "repo": "atgreen/paperless"
+  }
+}

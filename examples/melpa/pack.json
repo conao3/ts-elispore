@@ -1,0 +1,18 @@
+{
+  "id": 90604272,
+  "name": "10sr/pack-el",
+  "description": "Pack and Unpack Archive Files",
+  "url": "https://github.com/10sr/pack-el",
+  "stars": 10,
+  "updated": "2019-10-17T04:57:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pack",
+    "fetcher": "github",
+    "repo": "10sr/pack-el"
+  }
+}

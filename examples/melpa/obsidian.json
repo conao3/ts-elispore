@@ -1,0 +1,18 @@
+{
+  "id": 517187468,
+  "name": "licht1stein/obsidian.el",
+  "description": "Obsidian Notes for Emacs",
+  "url": "https://github.com/licht1stein/obsidian.el",
+  "stars": 570,
+  "updated": "2025-04-09T02:54:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "obsidian",
+    "fetcher": "github",
+    "repo": "licht1stein/obsidian.el"
+  }
+}

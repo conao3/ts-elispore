@@ -1,0 +1,19 @@
+{
+  "id": 63728554,
+  "name": "smaximov/org-commentary",
+  "description": "Generate and update ELisp library headers using Org mode files",
+  "url": "https://github.com/smaximov/org-commentary",
+  "stars": 9,
+  "updated": "2016-08-02T06:37:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-commentary",
+    "fetcher": "github",
+    "repo": "smaximov/org-commentary",
+    "files": "(:defaults \"bin\")"
+  }
+}

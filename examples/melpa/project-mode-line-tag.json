@@ -1,0 +1,18 @@
+{
+  "id": 377260809,
+  "name": "fritzgrabo/project-mode-line-tag",
+  "description": "Emacs: Display a buffer's project in its mode line (rendered obsolete in Emacs 30)",
+  "url": "https://github.com/fritzgrabo/project-mode-line-tag",
+  "stars": 5,
+  "updated": "2024-05-27T12:56:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "project-mode-line-tag",
+    "fetcher": "github",
+    "repo": "fritzgrabo/project-mode-line-tag"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1005927208,
+  "name": "llcc/org-table-highlight",
+  "description": "Highlight Org-mode table columns and rows using colored overlays",
+  "url": "https://github.com/llcc/org-table-highlight",
+  "stars": 42,
+  "updated": "2025-11-05T00:07:11Z",
+  "archived": false,
+  "topics": ["org-mode", "org-table"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-table-highlight",
+    "fetcher": "github",
+    "repo": "llcc/org-table-highlight"
+  }
+}

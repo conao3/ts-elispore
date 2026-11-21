@@ -1,0 +1,18 @@
+{
+  "id": 21184064,
+  "name": "salmanebah/opencl-mode",
+  "description": "Quick and dirty syntax coloring for opencl kernels",
+  "url": "https://github.com/salmanebah/opencl-mode",
+  "stars": 12,
+  "updated": "2025-05-17T12:45:22Z",
+  "archived": false,
+  "topics": ["c", "emacs", "emacs-lisp", "melpa", "opencl"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "opencl-c-mode",
+    "fetcher": "github",
+    "repo": "salmanebah/opencl-mode"
+  }
+}

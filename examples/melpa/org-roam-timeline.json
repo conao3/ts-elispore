@@ -1,0 +1,27 @@
+{
+  "id": 1114751002,
+  "name": "GerardoCendejas/org-roam-timeline",
+  "description": "Interactive timeline visualization for Org-roam.",
+  "url": "https://github.com/GerardoCendejas/org-roam-timeline",
+  "stars": 36,
+  "updated": "2026-09-16T00:47:24Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "org-mode",
+    "org-roam",
+    "org-roam-ui",
+    "timeline",
+    "visualization",
+    "zettelkasten"
+  ],
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-roam-timeline",
+    "fetcher": "github",
+    "repo": "GerardoCendejas/org-roam-timeline",
+    "files": "(:defaults \"html\")"
+  }
+}

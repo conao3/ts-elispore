@@ -1,0 +1,18 @@
+{
+  "id": 402062837,
+  "name": "ruediger/qrencode-el",
+  "description": "QRCode encoder for Emacs in pure elisp",
+  "url": "https://github.com/ruediger/qrencode-el",
+  "stars": 44,
+  "updated": "2026-11-05T01:22:25Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "lisp", "qrcode", "qrcode-generator"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "qrencode",
+    "fetcher": "github",
+    "repo": "ruediger/qrencode-el"
+  }
+}

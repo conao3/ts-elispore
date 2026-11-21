@@ -1,0 +1,18 @@
+{
+  "id": 377222678,
+  "name": "Phundrak/org-unique-id",
+  "description": "Create meaningful and persistant org IDs automatically",
+  "url": "https://github.com/Phundrak/org-unique-id",
+  "stars": 4,
+  "updated": "2022-09-07T08:29:38Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-orgmode", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-unique-id",
+    "fetcher": "github",
+    "repo": "Phundrak/org-unique-id"
+  }
+}

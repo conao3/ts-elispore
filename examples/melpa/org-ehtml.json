@@ -1,0 +1,19 @@
+{
+  "id": 5023044,
+  "name": "eschulte/org-ehtml",
+  "description": "Export Org-mode files as editable web pages",
+  "url": "https://github.com/eschulte/org-ehtml",
+  "stars": 175,
+  "updated": "2022-02-16T20:54:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-ehtml",
+    "fetcher": "github",
+    "repo": "eschulte/org-ehtml",
+    "files": "(\"src/*.el\"\n                   \"src/ox-ehtml.js\"\n                   \"src/ox-ehtml.css\")"
+  }
+}

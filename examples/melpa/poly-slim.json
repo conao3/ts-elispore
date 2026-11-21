@@ -1,0 +1,18 @@
+{
+  "id": 145259200,
+  "name": "polymode/poly-slim",
+  "description": "Polymodes for slim-mode",
+  "url": "https://github.com/polymode/poly-slim",
+  "stars": 2,
+  "updated": "2020-03-16T13:16:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "poly-slim",
+    "fetcher": "github",
+    "repo": "polymode/poly-slim"
+  }
+}
