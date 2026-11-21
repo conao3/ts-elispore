@@ -1,8 +1,9 @@
 import { Link } from "react-aria-components"
+import type { Checks } from "./checks"
 
 const repository = "https://github.com/conao3/ts-elispore"
 
-export function About() {
+export function About({ checks }: { checks: Checks | null }) {
   return (
     <main className="about-page">
       <Link href="/" className="back-link">
@@ -55,6 +56,23 @@ export function About() {
           <Link href="https://elpa.nongnu.org/nongnu/">NonGNU ELPA</Link> daily. Packages can be
           listed in more than one archive, regardless of where they are hosted.
         </p>
+      </section>
+      <section aria-labelledby="package-checks-about">
+        <h2 id="package-checks-about">Package checks</h2>
+        <p>
+          Checks scan package source without running it. Results are cached and refreshed only on
+          explicit re-run, not with the daily catalog update.
+        </p>
+        {checks && (
+          <dl className="about-check-rules">
+            {checks.rules.map((rule) => (
+              <div key={rule.id}>
+                <dt>{rule.title}</dt>
+                <dd>{rule.description}</dd>
+              </div>
+            ))}
+          </dl>
+        )}
       </section>
       <section aria-labelledby="why-elispore">
         <h2 id="why-elispore">Why Elispore</h2>
