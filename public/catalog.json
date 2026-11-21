@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T07:56:50.966Z",
+  "generatedAt": "2026-11-21T14:45:58.803Z",
   "sources": [
     "language:\"Emacs Lisp\" stars:>=20 fork:false",
     "topic:emacs-package fork:false",
@@ -132,6 +132,19 @@
       "archived": false,
       "topics": ["emacs-keybindings", "emacs-lisp", "emacs-packages", "keyboard-layout"],
       "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 805537600,
+      "name": "aarkun/config-emacs",
+      "description": "Emacs configuration",
+      "url": "https://github.com/aarkun/config-emacs",
+      "stars": 0,
+      "updated": "2026-11-21T11:47:17Z",
+      "archived": false,
+      "topics": [],
+      "license": "MIT",
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -326,6 +339,30 @@
       "ownerType": "User"
     },
     {
+      "id": 660620630,
+      "name": "adityaathalye/dotemacs",
+      "description": "My personal dotemacs configuration.",
+      "url": "https://github.com/adityaathalye/dotemacs",
+      "stars": 9,
+      "updated": "2026-11-21T07:48:27Z",
+      "archived": false,
+      "topics": [
+        "cider",
+        "clojure-development",
+        "clojure-lsp",
+        "emacs",
+        "emacs-configuration",
+        "emacs-lisp",
+        "ide",
+        "lsp-mode",
+        "org-mode",
+        "org-mode-configuration"
+      ],
+      "license": "NOASSERTION",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 35626569,
       "name": "AdrieanKhisbe/cask-package-toolset.el",
       "description": "🛠 Toolsettize your emacs package! 🛠",
@@ -404,15 +441,15 @@
       "ownerType": "User"
     },
     {
-      "id": 1319204888,
-      "name": "alberti42/latex-to-svg",
-      "description": "Preview LaTeX math as SVG images for Org, Markdown and LaTeX buffers.",
-      "url": "https://github.com/alberti42/latex-to-svg",
-      "stars": 18,
-      "updated": "2026-11-20T21:49:15Z",
+      "id": 443003581,
+      "name": "akirak/emacs-config",
+      "description": "An Emacs + home-manager configuration based on denix and twist.nix",
+      "url": "https://github.com/akirak/emacs-config",
+      "stars": 48,
+      "updated": "2026-11-21T11:02:59Z",
       "archived": false,
-      "topics": [],
-      "license": "GPL-3.0",
+      "topics": ["denix", "emacs-configuration", "nix-flake"],
+      "license": null,
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -841,6 +878,19 @@
       "ownerType": "User"
     },
     {
+      "id": 755600433,
+      "name": "Anoncheg1/firstly-search",
+      "description": "Modern navigation for Emacs in Dired, Bookmarks, Packages and Buffer menu.",
+      "url": "https://github.com/Anoncheg1/firstly-search",
+      "stars": 2,
+      "updated": "2026-11-21T12:00:32Z",
+      "archived": false,
+      "topics": ["emacs", "filemanager"],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 14153150,
       "name": "antham/helm-backup",
       "description": "Backup all file changes in emacs through git and retrieve them using helm ",
@@ -849,27 +899,6 @@
       "updated": "2019-10-03T21:58:37Z",
       "archived": false,
       "topics": ["backup", "emacs", "helm", "helm-backup", "melpa"],
-      "license": null,
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
-      "id": 829084679,
-      "name": "anton-dergunov/agentic-org-planner",
-      "description": "Org-mode planning system for Emacs with an LLM agent working on the plan: it adds, files and edits tasks in your own files, every change reviewed as a diff.",
-      "url": "https://github.com/anton-dergunov/agentic-org-planner",
-      "stars": 1,
-      "updated": "2026-11-20T22:59:47Z",
-      "archived": false,
-      "topics": [
-        "ai-agents",
-        "claude-code",
-        "context-engineering",
-        "emacs",
-        "org-mode",
-        "planning",
-        "productivity"
-      ],
       "license": null,
       "language": "Emacs Lisp",
       "ownerType": "User"
@@ -1374,19 +1403,6 @@
       "ownerType": "User"
     },
     {
-      "id": 1465887356,
-      "name": "benthamite/wsp",
-      "description": "WhatsApp client for Emacs, on wa-archive",
-      "url": "https://github.com/benthamite/wsp",
-      "stars": 0,
-      "updated": "2026-11-20T20:48:41Z",
-      "archived": false,
-      "topics": ["emacs", "emacs-lisp", "emacs-package", "messaging", "whatsapp"],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
       "id": 86759109,
       "name": "biojppm/cmany.el",
       "description": "Emacs package for the cmany build tool",
@@ -1477,29 +1493,15 @@
       "ownerType": "User"
     },
     {
-      "id": 1122532040,
-      "name": "bormoge/guava-themes",
-      "description": "A pack of plant-inspired themes for Emacs.",
-      "url": "https://github.com/bormoge/guava-themes",
-      "stars": 0,
-      "updated": "2026-11-20T21:33:50Z",
+      "id": 580687805,
+      "name": "boystrange/mac",
+      "description": "Script for new Mac installation and configuration",
+      "url": "https://github.com/boystrange/mac",
+      "stars": 1,
+      "updated": "2026-11-21T12:25:14Z",
       "archived": false,
-      "topics": [
-        "color-scheme",
-        "color-theme",
-        "color-themes",
-        "colorscheme",
-        "dark-theme",
-        "elisp",
-        "emacs",
-        "emacs-lisp",
-        "emacs-theme",
-        "emacs-themes",
-        "light-theme",
-        "theme",
-        "themes"
-      ],
-      "license": "GPL-3.0",
+      "topics": [],
+      "license": null,
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -1710,6 +1712,32 @@
       "ownerType": "User"
     },
     {
+      "id": 1255022317,
+      "name": "captainflasmr/simply-kanban",
+      "description": "Lightweight kanban board for Org files",
+      "url": "https://github.com/captainflasmr/simply-kanban",
+      "stars": 0,
+      "updated": "2026-11-21T09:28:00Z",
+      "archived": false,
+      "topics": [],
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 1465241824,
+      "name": "capturcus/syringe",
+      "description": "",
+      "url": "https://github.com/capturcus/syringe",
+      "stars": 0,
+      "updated": "2026-11-21T12:02:38Z",
+      "archived": false,
+      "topics": [],
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 6111046,
       "name": "cask/cask",
       "description": "Project management tool for Emacs",
@@ -1879,12 +1907,25 @@
       "ownerType": "User"
     },
     {
-      "id": 783384185,
-      "name": "cjennings/dotemacs",
-      "description": "My Emacs configuration",
-      "url": "https://github.com/cjennings/dotemacs",
+      "id": 2454866,
+      "name": "christophe-gouel/dotemacs",
+      "description": "My emacs configuration",
+      "url": "https://github.com/christophe-gouel/dotemacs",
+      "stars": 5,
+      "updated": "2026-11-21T12:09:34Z",
+      "archived": false,
+      "topics": ["dotemacs", "emacs", "emacs-configuration"],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 1317905294,
+      "name": "chungy/86box-guix",
+      "description": "Unofficial Guix channel for 86Box",
+      "url": "https://github.com/chungy/86box-guix",
       "stars": 0,
-      "updated": "2026-11-20T22:57:22Z",
+      "updated": "2026-11-21T13:00:31Z",
       "archived": false,
       "topics": [],
       "license": null,
@@ -1938,26 +1979,6 @@
       "license": null,
       "language": "Emacs Lisp",
       "ownerType": "Organization"
-    },
-    {
-      "id": 1464535668,
-      "name": "codeasone/lyrion",
-      "description": "Your Lyrion Music Server, from Emacs: what's playing, timed lyrics, and your whole library one search away.",
-      "url": "https://github.com/codeasone/lyrion",
-      "stars": 1,
-      "updated": "2026-11-20T22:05:32Z",
-      "archived": false,
-      "topics": [
-        "emacs",
-        "emacs-package",
-        "logitech-media-server",
-        "lyrion",
-        "squeezebox",
-        "squeezelite"
-      ],
-      "license": "CC0-1.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
     },
     {
       "id": 149945035,
@@ -2188,7 +2209,7 @@
       "description": "Manage native TUI agents in git worktrees and tmux, from Emacs",
       "url": "https://github.com/csheaff/roost",
       "stars": 15,
-      "updated": "2026-11-21T07:48:30Z",
+      "updated": "2026-11-21T08:21:30Z",
       "archived": false,
       "topics": [],
       "license": "GPL-3.0",
@@ -2831,19 +2852,6 @@
       "ownerType": "User"
     },
     {
-      "id": 1441911186,
-      "name": "dkdwn/licensel",
-      "description": "Licensel is an emacs package that allows you to insert common LICENSE in your working buffer easely",
-      "url": "https://github.com/dkdwn/licensel",
-      "stars": 4,
-      "updated": "2026-11-20T21:08:11Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "Organization"
-    },
-    {
       "id": 452361778,
       "name": "dmitrym0/org-hyperscheduler",
       "description": "org-hyperscheduler is an Emacs package that helps you organize your day.",
@@ -2917,12 +2925,12 @@
       "ownerType": "User"
     },
     {
-      "id": 1027531537,
-      "name": "Draune/emacs-config",
-      "description": "My Emacs personal config from scratch",
-      "url": "https://github.com/Draune/emacs-config",
+      "id": 426155991,
+      "name": "dvsdude2/doom",
+      "description": "my doom-Emacs configs",
+      "url": "https://github.com/dvsdude2/doom",
       "stars": 0,
-      "updated": "2026-11-20T22:00:25Z",
+      "updated": "2026-11-21T03:13:04Z",
       "archived": false,
       "topics": [],
       "license": null,
@@ -2930,12 +2938,12 @@
       "ownerType": "User"
     },
     {
-      "id": 426155991,
-      "name": "dvsdude2/doom",
-      "description": "my doom-Emacs configs",
-      "url": "https://github.com/dvsdude2/doom",
-      "stars": 0,
-      "updated": "2026-11-21T03:13:04Z",
+      "id": 8785179,
+      "name": "e40/emacs-mail-client",
+      "description": "my nmh + MH-E + mailfilter + misc hacks for reading email",
+      "url": "https://github.com/e40/emacs-mail-client",
+      "stars": 6,
+      "updated": "2026-11-21T11:57:14Z",
       "archived": false,
       "topics": [],
       "license": null,
@@ -3110,6 +3118,19 @@
       "ownerType": "User"
     },
     {
+      "id": 1277698721,
+      "name": "elij/graph-fa2",
+      "description": "Optimised ForceAtlas2 simulation using librsvg to allow dynamic graphs directly within emacs buffers without a browser engine.",
+      "url": "https://github.com/elij/graph-fa2",
+      "stars": 34,
+      "updated": "2026-11-21T07:04:01Z",
+      "archived": false,
+      "topics": ["emacs", "forceatlas2", "librsvg"],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 1228736718,
       "name": "elij/macher-agent",
       "description": "An Emacs-native LLM agent harness featuring isolated sandboxing, asynchronous sub-agent orchestration, and fail-fast sync file merging.",
@@ -3242,7 +3263,7 @@
       "description": "Packaging for Eask CLI",
       "url": "https://github.com/emacs-eask/packaging",
       "stars": 10,
-      "updated": "2026-11-21T04:33:49Z",
+      "updated": "2026-11-21T14:03:20Z",
       "archived": false,
       "topics": ["eask", "packaging", "publish"],
       "license": "GPL-3.0",
@@ -3531,7 +3552,7 @@
       "name": "emacs-lsp/lsp-mode",
       "description": "Emacs client/library for the Language Server Protocol",
       "url": "https://github.com/emacs-lsp/lsp-mode",
-      "stars": 5136,
+      "stars": 5137,
       "updated": "2026-11-09T07:51:50Z",
       "archived": false,
       "topics": [
@@ -3704,115 +3725,11 @@
       "name": "emacs-slack/emacs-slack",
       "description": "slack client for emacs",
       "url": "https://github.com/emacs-slack/emacs-slack",
-      "stars": 1236,
+      "stars": 1237,
       "updated": "2026-11-21T01:03:48Z",
       "archived": false,
       "topics": ["emacs", "slack"],
       "license": null,
-      "language": "Emacs Lisp",
-      "ownerType": "Organization"
-    },
-    {
-      "id": 140654788,
-      "name": "emacs-straight/company",
-      "description": "Mirror of the company package from GNU ELPA, current as of 2026-11-21",
-      "url": "https://github.com/emacs-straight/company",
-      "stars": 0,
-      "updated": "2026-11-21T00:15:00Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "Organization"
-    },
-    {
-      "id": 798517988,
-      "name": "emacs-straight/consult-denote",
-      "description": "Mirror of the consult-denote package from GNU ELPA, current as of 2026-11-21",
-      "url": "https://github.com/emacs-straight/consult-denote",
-      "stars": 1,
-      "updated": "2026-11-21T00:15:32Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "Organization"
-    },
-    {
-      "id": 508098088,
-      "name": "emacs-straight/denote",
-      "description": "Mirror of the denote package from GNU ELPA, current as of 2026-11-21",
-      "url": "https://github.com/emacs-straight/denote",
-      "stars": 0,
-      "updated": "2026-11-21T00:17:05Z",
-      "archived": false,
-      "topics": [],
-      "license": null,
-      "language": "Emacs Lisp",
-      "ownerType": "Organization"
-    },
-    {
-      "id": 140767302,
-      "name": "emacs-straight/ebdb",
-      "description": "Mirror of the ebdb package from GNU ELPA, current as of 2026-11-21",
-      "url": "https://github.com/emacs-straight/ebdb",
-      "stars": 0,
-      "updated": "2026-11-21T00:19:23Z",
-      "archived": false,
-      "topics": [],
-      "license": null,
-      "language": "Emacs Lisp",
-      "ownerType": "Organization"
-    },
-    {
-      "id": 732827542,
-      "name": "emacs-straight/ellama",
-      "description": "Mirror of the ellama package from GNU ELPA, current as of 2026-11-21",
-      "url": "https://github.com/emacs-straight/ellama",
-      "stars": 0,
-      "updated": "2026-11-21T00:20:13Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "Organization"
-    },
-    {
-      "id": 486784342,
-      "name": "emacs-straight/gtags-mode",
-      "description": "Mirror of the gtags-mode package from GNU ELPA, current as of 2026-11-21",
-      "url": "https://github.com/emacs-straight/gtags-mode",
-      "stars": 1,
-      "updated": "2026-11-21T00:23:42Z",
-      "archived": false,
-      "topics": [],
-      "license": null,
-      "language": "Emacs Lisp",
-      "ownerType": "Organization"
-    },
-    {
-      "id": 140767344,
-      "name": "emacs-straight/hyperbole",
-      "description": "Mirror of the hyperbole package from GNU ELPA, current as of 2026-11-21",
-      "url": "https://github.com/emacs-straight/hyperbole",
-      "stars": 5,
-      "updated": "2026-11-21T00:24:22Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "Organization"
-    },
-    {
-      "id": 692585984,
-      "name": "emacs-straight/llm",
-      "description": "Mirror of the llm package from GNU ELPA, current as of 2026-11-21",
-      "url": "https://github.com/emacs-straight/llm",
-      "stars": 5,
-      "updated": "2026-11-21T00:26:56Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0",
       "language": "Emacs Lisp",
       "ownerType": "Organization"
     },
@@ -4461,19 +4378,6 @@
       "ownerType": "User"
     },
     {
-      "id": 1457596794,
-      "name": "fjolliton/agent-shell-overview",
-      "description": "",
-      "url": "https://github.com/fjolliton/agent-shell-overview",
-      "stars": 0,
-      "updated": "2026-11-20T22:59:27Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
       "id": 221611799,
       "name": "flexibeast/ebuku",
       "description": "Emacs interface to the buku Web bookmark manager.",
@@ -4544,7 +4448,7 @@
       "description": "",
       "url": "https://github.com/FrauH0lle/niwa.el",
       "stars": 15,
-      "updated": "2026-11-21T06:51:08Z",
+      "updated": "2026-11-21T09:36:34Z",
       "archived": false,
       "topics": [],
       "license": "GPL-3.0",
@@ -4691,19 +4595,6 @@
       "archived": false,
       "topics": ["emacs", "org-mode", "pdf-tools"],
       "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
-      "id": 1016870184,
-      "name": "fuzzycode/approve.el",
-      "description": "Github PR reviews from the comfort of your favourite editor.",
-      "url": "https://github.com/fuzzycode/approve.el",
-      "stars": 0,
-      "updated": "2026-11-20T21:10:35Z",
-      "archived": false,
-      "topics": ["code-review", "emacs", "forge", "magit", "pull-requests"],
-      "license": "MIT",
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -4858,7 +4749,7 @@
       "description": "Postazione Emacs per C/C++, Common Lisp, Perl, web e sysadmin, in italiano: nucleo piccolo, moduli, debug, profilazione, agenti.",
       "url": "https://github.com/gipidevdor/GDev-Emacs",
       "stars": 1,
-      "updated": "2026-11-20T22:48:07Z",
+      "updated": "2026-11-21T12:17:21Z",
       "archived": false,
       "topics": [],
       "license": "GPL-3.0",
@@ -4871,7 +4762,20 @@
       "description": "Auto-Sync Mirror of GNU hyperbole",
       "url": "https://github.com/GitMirroring/hyperbole",
       "stars": 0,
-      "updated": "2026-11-20T23:52:26Z",
+      "updated": "2026-11-21T11:32:28Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
+    },
+    {
+      "id": 1102012600,
+      "name": "GitMirroring/tramp",
+      "description": "Auto-Sync Mirror of GNU tramp",
+      "url": "https://github.com/GitMirroring/tramp",
+      "stars": 0,
+      "updated": "2026-11-21T13:41:38Z",
       "archived": false,
       "topics": [],
       "license": "GPL-3.0",
@@ -5063,6 +4967,19 @@
       "license": "GPL-3.0",
       "language": "Emacs Lisp",
       "ownerType": "User"
+    },
+    {
+      "id": 1345546410,
+      "name": "hanzoai/hanzo.el",
+      "description": "Emacs package for AI-assisted code completion, explanation, and refactoring across multiple AI providers.",
+      "url": "https://github.com/hanzoai/hanzo.el",
+      "stars": 3,
+      "updated": "2026-11-21T09:22:36Z",
+      "archived": false,
+      "topics": [],
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
     },
     {
       "id": 3723999,
@@ -5347,19 +5264,6 @@
       "ownerType": "Organization"
     },
     {
-      "id": 929417251,
-      "name": "hvkwak/.doom.d",
-      "description": "my doom emacs config",
-      "url": "https://github.com/hvkwak/.doom.d",
-      "stars": 0,
-      "updated": "2026-11-20T21:07:31Z",
-      "archived": false,
-      "topics": [],
-      "license": "MIT",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
       "id": 154365673,
       "name": "ianyepan/yay-evil-emacs",
       "description": "😈 A lightweight literate Emacs config with even better \"better defaults\". Shipped with a custom theme!",
@@ -5468,6 +5372,19 @@
       "updated": "2022-11-13T19:51:05Z",
       "archived": false,
       "topics": ["emacs", "emacs-package", "git"],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 778905128,
+      "name": "include-yy/ox-w3ctr",
+      "description": "org export backend for W3C TR style",
+      "url": "https://github.com/include-yy/ox-w3ctr",
+      "stars": 9,
+      "updated": "2026-11-21T14:04:44Z",
+      "archived": false,
+      "topics": [],
       "license": "GPL-3.0",
       "language": "Emacs Lisp",
       "ownerType": "User"
@@ -5817,6 +5734,19 @@
       "ownerType": "User"
     },
     {
+      "id": 1036150614,
+      "name": "jamescherti/lightemacs",
+      "description": "Lightemacs - Fast and Lightweight Emacs Framework",
+      "url": "https://github.com/jamescherti/lightemacs",
+      "stars": 16,
+      "updated": "2026-11-21T14:40:44Z",
+      "archived": false,
+      "topics": ["emacs", "emacs-configuration", "emacs-framework", "evil", "minimal-emacs", "vim"],
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 876239050,
       "name": "jamescherti/org-ibullets.el",
       "description": "org-ibullets - Display Emacs org-mode heading stars as UTF-8 bullets",
@@ -6096,6 +6026,19 @@
       "ownerType": "User"
     },
     {
+      "id": 431175476,
+      "name": "jcs-emacs/jcs-elpa",
+      "description": "ELPA for jcs-emacs, using github-elpa",
+      "url": "https://github.com/jcs-emacs/jcs-elpa",
+      "stars": 23,
+      "updated": "2026-11-21T12:17:24Z",
+      "archived": false,
+      "topics": ["elpa", "emacs", "jcs", "jcs-emacs"],
+      "license": "NOASSERTION",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
+    },
+    {
       "id": 39029232,
       "name": "jdee-emacs/jdee",
       "description": "The JDEE is an add-on software package that turns Emacs into a comprehensive system for creating, editing, debugging, and documenting Java applications.",
@@ -6193,19 +6136,6 @@
       "ownerType": "User"
     },
     {
-      "id": 680403692,
-      "name": "JessebotX/lab-emacs",
-      "description": "Emacs configuration",
-      "url": "https://github.com/JessebotX/lab-emacs",
-      "stars": 0,
-      "updated": "2026-11-20T21:24:31Z",
-      "archived": false,
-      "topics": [],
-      "license": null,
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
       "id": 83689732,
       "name": "jethrokuan/braindump",
       "description": "knowledge repository managed with org-mode and org-roam.",
@@ -6278,19 +6208,6 @@
         "yanking"
       ],
       "license": "MIT",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
-      "id": 91419,
-      "name": "jimm/elisp",
-      "description": "My Emacs initialization files",
-      "url": "https://github.com/jimm/elisp",
-      "stars": 28,
-      "updated": "2026-11-20T21:31:04Z",
-      "archived": false,
-      "topics": ["emacs", "emacs-configuration", "emacs-initialization", "emacs-lisp"],
-      "license": null,
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -6562,6 +6479,19 @@
       "ownerType": "User"
     },
     {
+      "id": 1370693642,
+      "name": "jorgenorena/live-latex-preview",
+      "description": "",
+      "url": "https://github.com/jorgenorena/live-latex-preview",
+      "stars": 0,
+      "updated": "2026-11-21T12:48:25Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 6448654,
       "name": "jorgenschaefer/elpy",
       "description": "Emacs Python Development Environment",
@@ -6730,19 +6660,6 @@
       "ownerType": "User"
     },
     {
-      "id": 1400830167,
-      "name": "jucacrispim/alonso",
-      "description": "",
-      "url": "https://github.com/jucacrispim/alonso",
-      "stars": 0,
-      "updated": "2026-11-21T00:11:34Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
       "id": 1205204272,
       "name": "judaew/ronny.el",
       "description": "A dark Emacs colorscheme inspired by Monokai",
@@ -6890,7 +6807,7 @@
       "name": "jwiegley/emacs-async",
       "description": "Simple library for asynchronous processing in Emacs",
       "url": "https://github.com/jwiegley/emacs-async",
-      "stars": 915,
+      "stars": 916,
       "updated": "2026-10-25T15:43:43Z",
       "archived": false,
       "topics": [],
@@ -7058,7 +6975,7 @@
       "description": "A simple, extensible LLM client for Emacs",
       "url": "https://github.com/karthink/gptel",
       "stars": 3572,
-      "updated": "2026-11-21T04:44:31Z",
+      "updated": "2026-11-21T08:53:54Z",
       "archived": false,
       "topics": ["chatgpt", "emacs", "llms", "org-mode"],
       "license": "GPL-3.0",
@@ -7289,32 +7206,6 @@
       "ownerType": "User"
     },
     {
-      "id": 288631887,
-      "name": "knaveightt/knavemacs",
-      "description": "My .emacs config pulled together from various sources",
-      "url": "https://github.com/knaveightt/knavemacs",
-      "stars": 1,
-      "updated": "2026-11-20T22:37:59Z",
-      "archived": false,
-      "topics": [],
-      "license": "MIT",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
-      "id": 1230942354,
-      "name": "kochetkov-ma/brewpage-emacs",
-      "description": "Publish buffers/regions to brewpage.app from Emacs",
-      "url": "https://github.com/kochetkov-ma/brewpage-emacs",
-      "stars": 1,
-      "updated": "2026-11-20T21:51:36Z",
-      "archived": false,
-      "topics": ["brewpage", "elisp", "emacs", "mcp", "pastebin"],
-      "license": "MIT",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
       "id": 289619697,
       "name": "konstantine-v/Zola.el",
       "description": "Emacs commands to work with Zola static site generator",
@@ -7363,6 +7254,19 @@
       "archived": false,
       "topics": ["emacs", "emacs-packages", "flycheck", "linting", "yamllint"],
       "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 475084278,
+      "name": "ktak-007/my-emacs",
+      "description": "",
+      "url": "https://github.com/ktak-007/my-emacs",
+      "stars": 0,
+      "updated": "2026-11-21T11:49:09Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -7558,12 +7462,12 @@
       "ownerType": "User"
     },
     {
-      "id": 1239416211,
-      "name": "leaferiksen/obsidian-cli.el",
-      "description": "Access the power of the Obsidian CLI from within Emacs!",
-      "url": "https://github.com/leaferiksen/obsidian-cli.el",
+      "id": 544905289,
+      "name": "lcoder/.doom.d",
+      "description": "the config file of doom emacs",
+      "url": "https://github.com/lcoder/.doom.d",
       "stars": 0,
-      "updated": "2026-11-20T22:49:26Z",
+      "updated": "2026-11-21T13:47:57Z",
       "archived": false,
       "topics": [],
       "license": null,
@@ -7869,7 +7773,7 @@
       "name": "LuciusChen/ashen",
       "description": "low-saturation Emacs color theme with overridable semantic palettes (ashen-night / ashen-day), evolved from Rosé Pine.",
       "url": "https://github.com/LuciusChen/ashen",
-      "stars": 2,
+      "stars": 3,
       "updated": "2026-11-06T13:55:27Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-theme", "theme"],
@@ -7969,7 +7873,7 @@
       "description": "Work with Git forges from the comfort of Magit",
       "url": "https://github.com/magit/forge",
       "stars": 1587,
-      "updated": "2026-11-15T13:07:59Z",
+      "updated": "2026-11-21T11:42:11Z",
       "archived": false,
       "topics": [],
       "license": "GPL-3.0",
@@ -7982,7 +7886,7 @@
       "description": "It's Magit! A Git Porcelain inside Emacs.",
       "url": "https://github.com/magit/magit",
       "stars": 7261,
-      "updated": "2026-11-17T11:04:16Z",
+      "updated": "2026-11-21T11:42:41Z",
       "archived": false,
       "topics": [],
       "license": "GPL-3.0",
@@ -7995,7 +7899,7 @@
       "description": "Transient commands",
       "url": "https://github.com/magit/transient",
       "stars": 892,
-      "updated": "2026-11-13T14:59:49Z",
+      "updated": "2026-11-21T11:42:40Z",
       "archived": false,
       "topics": [],
       "license": "GPL-3.0",
@@ -8418,27 +8322,6 @@
       "ownerType": "User"
     },
     {
-      "id": 1236837796,
-      "name": "mathren/emjupy",
-      "description": "Jupyter python notebooks in Emacs with inline output, Eglot/Jupyter-LSP, remote kernels, and TRAMP support. Saves regular .ipynb and exports to .py. ",
-      "url": "https://github.com/mathren/emjupy",
-      "stars": 4,
-      "updated": "2026-11-21T00:09:26Z",
-      "archived": false,
-      "topics": [
-        "eglot",
-        "emacs",
-        "emacs-lisp",
-        "jupyter",
-        "jupyter-kernels",
-        "jupyter-notebooks",
-        "python"
-      ],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
       "id": 930786354,
       "name": "MatthewZMD/aidermacs",
       "description": "AI Pair Programming in Emacs with Aider",
@@ -8600,7 +8483,7 @@
       "name": "meow-edit/meow",
       "description": "Yet another modal editing on Emacs / 猫态编辑",
       "url": "https://github.com/meow-edit/meow",
-      "stars": 1737,
+      "stars": 1738,
       "updated": "2026-11-18T11:46:57Z",
       "archived": false,
       "topics": ["colemak", "dvorak", "emacs", "modal-editing"],
@@ -8743,7 +8626,7 @@
       "name": "minad/corfu",
       "description": ":desert_island: corfu.el - COmpletion in Region FUnction",
       "url": "https://github.com/minad/corfu",
-      "stars": 1557,
+      "stars": 1558,
       "updated": "2026-11-01T16:14:39Z",
       "archived": false,
       "topics": [],
@@ -8964,19 +8847,6 @@
       "ownerType": "User"
     },
     {
-      "id": 1465989950,
-      "name": "MooersLab/bandi-coot-el",
-      "description": "Send commands from Emacs to bandicoot, a crystallographic molecular graphics program for Macs Silicon.",
-      "url": "https://github.com/MooersLab/bandi-coot-el",
-      "stars": 0,
-      "updated": "2026-11-20T23:13:49Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
       "id": 563066,
       "name": "mooz/js2-mode",
       "description": "Improved JavaScript editing mode for GNU Emacs",
@@ -9133,7 +9003,7 @@
       "description": "Emacs tree-sitter mode for fortran",
       "url": "https://github.com/mscfd/emacs-f90-ts-mode",
       "stars": 7,
-      "updated": "2026-11-20T21:43:45Z",
+      "updated": "2026-11-21T13:55:12Z",
       "archived": false,
       "topics": ["emacs-mode", "f2003", "f2008", "f2018", "f2023", "f90", "fortran", "tree-sitter"],
       "license": "GPL-3.0",
@@ -9202,19 +9072,6 @@
       "archived": false,
       "topics": ["anki", "emacs", "emacs-package", "productivity", "supermemo"],
       "license": null,
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
-      "id": 1437692458,
-      "name": "nagy/emacs-openstack-modes",
-      "description": "Emacs major modes for displaying OpenStack resources ☁",
-      "url": "https://github.com/nagy/emacs-openstack-modes",
-      "stars": 0,
-      "updated": "2026-11-20T23:55:33Z",
-      "archived": false,
-      "topics": ["emacs", "openstack"],
-      "license": "AGPL-3.0",
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -9331,19 +9188,6 @@
       "ownerType": "User"
     },
     {
-      "id": 1328143898,
-      "name": "nick-maderight/envoy",
-      "description": "Delegate work from Emacs to a coding agent instead of to a model",
-      "url": "https://github.com/nick-maderight/envoy",
-      "stars": 1,
-      "updated": "2026-11-20T22:26:13Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
       "id": 87481603,
       "name": "nickserv/add-hooks",
       "description": "Emacs function for setting multiple hooks.",
@@ -9379,6 +9223,26 @@
       "archived": true,
       "topics": ["emacs", "emacs-package", "org-mode", "org-roam"],
       "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 264873674,
+      "name": "NightMachinery/doom.d",
+      "description": "My somewhat modular emacs config.",
+      "url": "https://github.com/NightMachinery/doom.d",
+      "stars": 5,
+      "updated": "2026-11-21T13:27:27Z",
+      "archived": false,
+      "topics": [
+        "doom-emacs",
+        "dotfiles",
+        "emacs",
+        "emacs-configuration",
+        "emacs-customizations",
+        "emacs-lisp"
+      ],
+      "license": null,
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -9500,19 +9364,6 @@
       "ownerType": "User"
     },
     {
-      "id": 1454742742,
-      "name": "nqminhuit/doom-lite",
-      "description": "lighter version of doom emacs for my personal use",
-      "url": "https://github.com/nqminhuit/doom-lite",
-      "stars": 0,
-      "updated": "2026-11-21T00:18:09Z",
-      "archived": false,
-      "topics": [],
-      "license": "MIT",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
       "id": 563947620,
       "name": "nylar/fleetish-emacs-theme",
       "description": "A take on the JetBrains Fleet theme for Emacs",
@@ -9537,7 +9388,7 @@
       "name": "oantolin/embark",
       "description": "Emacs Mini-Buffer Actions Rooted in Keymaps",
       "url": "https://github.com/oantolin/embark",
-      "stars": 1235,
+      "stars": 1236,
       "updated": "2026-08-12T10:35:46Z",
       "archived": false,
       "topics": [],
@@ -9559,6 +9410,19 @@
       "ownerType": "User"
     },
     {
+      "id": 1466529870,
+      "name": "oatiz/herdr-sanctum",
+      "description": "",
+      "url": "https://github.com/oatiz/herdr-sanctum",
+      "stars": 0,
+      "updated": "2026-11-21T12:39:51Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 15582353,
       "name": "ocaml/tuareg",
       "description": "Emacs OCaml mode",
@@ -9570,19 +9434,6 @@
       "license": "GPL-3.0",
       "language": "Emacs Lisp",
       "ownerType": "Organization"
-    },
-    {
-      "id": 1375741283,
-      "name": "oetr/ende-mode",
-      "description": "ENslop / DEslop",
-      "url": "https://github.com/oetr/ende-mode",
-      "stars": 0,
-      "updated": "2026-11-20T20:57:43Z",
-      "archived": false,
-      "topics": [],
-      "license": "AGPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
     },
     {
       "id": 81684637,
@@ -9743,6 +9594,19 @@
       "ownerType": "User"
     },
     {
+      "id": 722781617,
+      "name": "oscarfono/melancholy-theme",
+      "description": "A dark theme for emacs",
+      "url": "https://github.com/oscarfono/melancholy-theme",
+      "stars": 0,
+      "updated": "2026-11-21T11:50:53Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 4290226,
       "name": "overtone/emacs-live",
       "description": "M-x start-hacking",
@@ -9859,6 +9723,19 @@
       "archived": true,
       "topics": ["emacs", "emacs-package"],
       "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 169966943,
+      "name": "Peter-Chou/petmacs",
+      "description": ":sunny: Vim in Emacs :sunny: My Personal Emacs Configuration",
+      "url": "https://github.com/Peter-Chou/petmacs",
+      "stars": 5,
+      "updated": "2026-11-21T12:06:26Z",
+      "archived": false,
+      "topics": ["configuration", "emacs", "emacs-configuration", "vim"],
+      "license": null,
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -10026,19 +9903,6 @@
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-mode", "pony-language", "ponylang"],
       "license": null,
-      "language": "Emacs Lisp",
-      "ownerType": "Organization"
-    },
-    {
-      "id": 1465946417,
-      "name": "pooka-lang/pooka-emacs",
-      "description": "🐘 Pooka syntax highlighting for Emacs.",
-      "url": "https://github.com/pooka-lang/pooka-emacs",
-      "stars": 0,
-      "updated": "2026-11-20T22:05:52Z",
-      "archived": false,
-      "topics": ["beam", "elisp", "emacs", "pooka", "syntax-highlighting"],
-      "license": "Apache-2.0",
       "language": "Emacs Lisp",
       "ownerType": "Organization"
     },
@@ -10376,19 +10240,6 @@
       "license": "MIT",
       "language": "Emacs Lisp",
       "ownerType": "User"
-    },
-    {
-      "id": 1370997890,
-      "name": "quazilang/emacs-quazi",
-      "description": "Quazi LSP extension for Emacs.",
-      "url": "https://github.com/quazilang/emacs-quazi",
-      "stars": 0,
-      "updated": "2026-11-20T20:50:26Z",
-      "archived": false,
-      "topics": [],
-      "license": "0BSD",
-      "language": "Emacs Lisp",
-      "ownerType": "Organization"
     },
     {
       "id": 16803250,
@@ -10799,7 +10650,7 @@
       "description": "Emacs Configuration Files",
       "url": "https://github.com/rlridenour/emacs-config",
       "stars": 0,
-      "updated": "2026-11-21T00:34:13Z",
+      "updated": "2026-11-21T12:19:52Z",
       "archived": false,
       "topics": [],
       "license": null,
@@ -10915,7 +10766,7 @@
       "name": "rougier/nano-emacs",
       "description": "GNU Emacs / N Λ N O - Emacs made simple",
       "url": "https://github.com/rougier/nano-emacs",
-      "stars": 2957,
+      "stars": 2958,
       "updated": "2026-06-12T04:29:54Z",
       "archived": false,
       "topics": ["design", "emacs", "lisp"],
@@ -10981,7 +10832,7 @@
       "description": "GNU Hyperbole: The Everyday, Hypertextual Information Manager",
       "url": "https://github.com/rswgnu/hyperbole",
       "stars": 195,
-      "updated": "2026-11-20T23:29:20Z",
+      "updated": "2026-11-21T10:38:46Z",
       "archived": false,
       "topics": [
         "emacs",
@@ -11091,19 +10942,6 @@
       "ownerType": "User"
     },
     {
-      "id": 675026045,
-      "name": "sabjohnso/my-emacs",
-      "description": "",
-      "url": "https://github.com/sabjohnso/my-emacs",
-      "stars": 0,
-      "updated": "2026-11-21T00:18:22Z",
-      "archived": false,
-      "topics": [],
-      "license": null,
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
       "id": 6554105,
       "name": "sabof/org-bullets",
       "description": "utf-8 bullets for org-mode",
@@ -11181,7 +11019,20 @@
       "description": "An orchestration layout that permits to run multiple agents in some way that you define. Including in loops until condition, sequentially... You decide",
       "url": "https://github.com/SamuelVanie/gptel-runner",
       "stars": 3,
-      "updated": "2026-11-21T01:59:53Z",
+      "updated": "2026-11-21T14:16:32Z",
+      "archived": false,
+      "topics": [],
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 1466419060,
+      "name": "SamuelVanie/gptel-ui",
+      "description": "some sprinkles in my gptel buffers, making the experience better",
+      "url": "https://github.com/SamuelVanie/gptel-ui",
+      "stars": 0,
+      "updated": "2026-11-21T11:02:56Z",
       "archived": false,
       "topics": [],
       "license": null,
@@ -11198,19 +11049,6 @@
       "archived": false,
       "topics": ["clang", "compilation-database", "emacs", "irony-mode", "libclang"],
       "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
-      "id": 1327881346,
-      "name": "sceredi/doom.d",
-      "description": "",
-      "url": "https://github.com/sceredi/doom.d",
-      "stars": 0,
-      "updated": "2026-11-20T21:17:19Z",
-      "archived": false,
-      "topics": [],
-      "license": "MIT",
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -11298,6 +11136,19 @@
       "archived": false,
       "topics": [],
       "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 1338312193,
+      "name": "SenkiReign/denote-grid",
+      "description": "Grid view for denote inside emacs",
+      "url": "https://github.com/SenkiReign/denote-grid",
+      "stars": 8,
+      "updated": "2026-11-21T08:51:53Z",
+      "archived": false,
+      "topics": ["denote", "emacs", "moodboard", "org-mode", "pkm", "zettelkasten"],
+      "license": "GPL-2.0",
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -11413,19 +11264,6 @@
       "archived": false,
       "topics": ["awesomewm", "emacs", "emacs-mode", "emacs-packages", "fennel", "repl"],
       "license": null,
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
-      "id": 1166181822,
-      "name": "siggerajamae/fins",
-      "description": "",
-      "url": "https://github.com/siggerajamae/fins",
-      "stars": 3,
-      "updated": "2026-11-20T20:46:38Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0",
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -11563,6 +11401,19 @@
       "ownerType": "User"
     },
     {
+      "id": 743880820,
+      "name": "skyler544/roots",
+      "description": "Back to your roots.",
+      "url": "https://github.com/skyler544/roots",
+      "stars": 3,
+      "updated": "2026-11-21T12:44:15Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 67437605,
       "name": "SL-RU/stm32-emacs",
       "description": "Some functions to automatize work with STM32 microcontrollers in Emacs using irony-mode and rtags",
@@ -11648,6 +11499,19 @@
       "ownerType": "User"
     },
     {
+      "id": 1130425745,
+      "name": "so-vanilla/flake-my-emacs",
+      "description": "",
+      "url": "https://github.com/so-vanilla/flake-my-emacs",
+      "stars": 0,
+      "updated": "2026-11-21T07:54:04Z",
+      "archived": false,
+      "topics": [],
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 77260169,
       "name": "Somelauw/evil-org-mode",
       "description": "Supplemental evil-mode keybindings to emacs org-mode",
@@ -11683,19 +11547,6 @@
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-package"],
       "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
-      "id": 1455558169,
-      "name": "Spiritschaser/emacs-config",
-      "description": "",
-      "url": "https://github.com/Spiritschaser/emacs-config",
-      "stars": 0,
-      "updated": "2026-11-20T22:30:52Z",
-      "archived": false,
-      "topics": [],
-      "license": null,
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -11922,7 +11773,7 @@
       "description": "",
       "url": "https://github.com/Sylfrax/emacs-config",
       "stars": 0,
-      "updated": "2026-11-21T07:47:41Z",
+      "updated": "2026-11-21T08:44:30Z",
       "archived": false,
       "topics": [],
       "license": "MIT",
@@ -12188,19 +12039,6 @@
       "ownerType": "User"
     },
     {
-      "id": 1461661416,
-      "name": "thndrbrrr/earwig",
-      "description": "Dictation and voice commands for Emacs",
-      "url": "https://github.com/thndrbrrr/earwig",
-      "stars": 3,
-      "updated": "2026-11-20T21:55:02Z",
-      "archived": false,
-      "topics": ["dictation", "emacs", "voice-control"],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
       "id": 343893193,
       "name": "thornjad/aero-theme",
       "description": "A comfortable light/dark theme for Emacs",
@@ -12233,19 +12071,6 @@
       "url": "https://github.com/tibbe/haskell-style-guide",
       "stars": 957,
       "updated": "2021-11-30T18:31:25Z",
-      "archived": false,
-      "topics": [],
-      "license": null,
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
-      "id": 1458253363,
-      "name": "timurrte/Emacs-Config",
-      "description": "Emacs configuration",
-      "url": "https://github.com/timurrte/Emacs-Config",
-      "stars": 0,
-      "updated": "2026-11-20T23:03:31Z",
       "archived": false,
       "topics": [],
       "license": null,
@@ -12552,6 +12377,19 @@
       "ownerType": "User"
     },
     {
+      "id": 1089150270,
+      "name": "tuomok1010/emacs_init",
+      "description": "My emacs init file",
+      "url": "https://github.com/tuomok1010/emacs_init",
+      "stars": 0,
+      "updated": "2026-11-21T10:06:53Z",
+      "archived": false,
+      "topics": [],
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 227441340,
       "name": "twmr/gerrit.el",
       "description": "gerrit integration in emacs",
@@ -12565,15 +12403,28 @@
       "ownerType": "User"
     },
     {
-      "id": 1389417433,
-      "name": "tychoish/agent-shell-workflow",
-      "description": "Dynamic prompt composition, template expansion, and dispatching library for agent-shell",
-      "url": "https://github.com/tychoish/agent-shell-workflow",
+      "id": 1391644493,
+      "name": "tychoish/denote-dash",
+      "description": "Interactive dashboard, query engine, and dispatch menu for Denote",
+      "url": "https://github.com/tychoish/denote-dash",
       "stars": 0,
-      "updated": "2026-11-20T20:47:54Z",
+      "updated": "2026-11-21T13:56:11Z",
       "archived": false,
       "topics": [],
-      "license": null,
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
+      "id": 1391644359,
+      "name": "tychoish/denote-tree",
+      "description": "Structural sequence tree manipulation, linting, and refactoring for Denote",
+      "url": "https://github.com/tychoish/denote-tree",
+      "stars": 0,
+      "updated": "2026-11-21T14:30:43Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
       "language": "Emacs Lisp",
       "ownerType": "User"
     },
@@ -12583,7 +12434,7 @@
       "description": "Modular and lightweight HUD modeline engine for Emacs",
       "url": "https://github.com/tychoish/hud-modeline",
       "stars": 0,
-      "updated": "2026-11-21T06:01:51Z",
+      "updated": "2026-11-21T14:38:08Z",
       "archived": false,
       "topics": [],
       "license": "GPL-3.0",
@@ -12747,6 +12598,19 @@
       "ownerType": "User"
     },
     {
+      "id": 672459606,
+      "name": "vhqr0/emacs-init",
+      "description": "My Emacs configuration.",
+      "url": "https://github.com/vhqr0/emacs-init",
+      "stars": 0,
+      "updated": "2026-11-21T07:35:51Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 77304331,
       "name": "vic/rebecca-theme",
       "description": "The purple turtle theme for Spacemacs",
@@ -12760,6 +12624,19 @@
       "ownerType": "User"
     },
     {
+      "id": 1413610139,
+      "name": "VisualText/nlpplus-ts-mode",
+      "description": "Emacs major modes for NLP++ using tree-sitter",
+      "url": "https://github.com/VisualText/nlpplus-ts-mode",
+      "stars": 0,
+      "updated": "2026-11-21T14:04:01Z",
+      "archived": false,
+      "topics": ["emacs", "nlp-plus-plus", "tree-sitter"],
+      "license": "MIT",
+      "language": "Emacs Lisp",
+      "ownerType": "Organization"
+    },
+    {
       "id": 871107259,
       "name": "vkazanov/chunk-edit",
       "description": "Edit code chunks from multiple files in one buffer",
@@ -12768,19 +12645,6 @@
       "updated": "2024-10-14T12:42:44Z",
       "archived": false,
       "topics": ["emacs", "emacs-lisp", "emacs-mode"],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
-      "id": 1440740196,
-      "name": "vleonbonnet/drover",
-      "description": "Manage the sessions of coding agents in Emacs: attention, dashboards, actions across backends (opencode.el first)",
-      "url": "https://github.com/vleonbonnet/drover",
-      "stars": 0,
-      "updated": "2026-11-20T23:57:06Z",
-      "archived": false,
-      "topics": [],
       "license": "GPL-3.0",
       "language": "Emacs Lisp",
       "ownerType": "User"
@@ -12912,6 +12776,19 @@
       "ownerType": "User"
     },
     {
+      "id": 253970732,
+      "name": "wbeiluo/beiluo-emacs",
+      "description": "",
+      "url": "https://github.com/wbeiluo/beiluo-emacs",
+      "stars": 0,
+      "updated": "2026-11-21T10:25:05Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 86454643,
       "name": "weijiangan/emacs-snazzy",
       "description": "Elegant Emacs theme with bright colors",
@@ -12967,19 +12844,6 @@
         "lisp",
         "sourcehut"
       ],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
-      "id": 673177573,
-      "name": "wesnel/emacs-config",
-      "description": "Emacs configuration and executables built with nix",
-      "url": "https://github.com/wesnel/emacs-config",
-      "stars": 0,
-      "updated": "2026-11-21T00:20:46Z",
-      "archived": false,
-      "topics": ["emacs", "macos", "nix", "nixos"],
       "license": "GPL-3.0",
       "language": "Emacs Lisp",
       "ownerType": "User"
@@ -13148,11 +13012,24 @@
       "ownerType": "User"
     },
     {
+      "id": 1055020415,
+      "name": "xenodium/acp.el",
+      "description": "An ACP (Agent Client Protocol) implementation in Emacs lisp as per https://agentclientprotocol.com",
+      "url": "https://github.com/xenodium/acp.el",
+      "stars": 180,
+      "updated": "2026-11-21T12:19:30Z",
+      "archived": false,
+      "topics": [],
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 1053496366,
       "name": "xenodium/agent-shell",
       "description": "Brings your favorite AI agents to Emacs, keeping you at home: familiar buffers and bindings, no terminal emulation. Powered by ACP.",
       "url": "https://github.com/xenodium/agent-shell",
-      "stars": 2092,
+      "stars": 2093,
       "updated": "2026-11-20T13:05:32Z",
       "archived": false,
       "topics": [
@@ -13203,7 +13080,7 @@
       "description": "Native web views and Ghostty terminals inside macOS Emacs.",
       "url": "https://github.com/xiaoxinghu/portal",
       "stars": 40,
-      "updated": "2026-11-21T00:25:16Z",
+      "updated": "2026-11-21T12:40:04Z",
       "archived": false,
       "topics": [],
       "license": "GPL-3.0",
@@ -13211,12 +13088,12 @@
       "ownerType": "User"
     },
     {
-      "id": 1250603196,
-      "name": "Xk0nSid/dotemacs",
-      "description": "",
-      "url": "https://github.com/Xk0nSid/dotemacs",
+      "id": 1466506471,
+      "name": "Ximsa/emacs-config",
+      "description": "my personal emacs config",
+      "url": "https://github.com/Ximsa/emacs-config",
       "stars": 0,
-      "updated": "2026-11-20T21:47:13Z",
+      "updated": "2026-11-21T12:40:33Z",
       "archived": false,
       "topics": [],
       "license": "MIT",
@@ -13250,19 +13127,6 @@
       "ownerType": "User"
     },
     {
-      "id": 1278316877,
-      "name": "YardQuit/donkey",
-      "description": "An opinionated modal editing minor mode for Emacs, built on native commands, that leaves Emacs alone.",
-      "url": "https://github.com/YardQuit/donkey",
-      "stars": 1,
-      "updated": "2026-11-20T21:18:47Z",
-      "archived": false,
-      "topics": [],
-      "license": "GPL-3.0",
-      "language": "Emacs Lisp",
-      "ownerType": "User"
-    },
-    {
       "id": 1034553163,
       "name": "yibie/exc.el",
       "description": "A spreadsheet inside Emacs: Excel-style formulas, several sheets, charts, and xlsx read and written back",
@@ -13280,7 +13144,7 @@
       "name": "yibie/excali-mode",
       "description": "Excalidraw inside Emacs 32: edit .excalidraw files, drawn through the new canvas API",
       "url": "https://github.com/yibie/excali-mode",
-      "stars": 103,
+      "stars": 104,
       "updated": "2026-11-12T23:43:52Z",
       "archived": false,
       "topics": ["cairo", "diagrams", "emacs", "emacs-package", "excalidraw", "whiteboard"],
@@ -13341,6 +13205,19 @@
       "ownerType": "User"
     },
     {
+      "id": 208640101,
+      "name": "yurii-tov/emacs-config",
+      "description": "My emacs configuration",
+      "url": "https://github.com/yurii-tov/emacs-config",
+      "stars": 0,
+      "updated": "2026-11-21T10:05:09Z",
+      "archived": false,
+      "topics": [],
+      "license": null,
+      "language": "Emacs Lisp",
+      "ownerType": "User"
+    },
+    {
       "id": 1202420442,
       "name": "zachpodbielniak/cmacs",
       "description": "",
@@ -13385,7 +13262,7 @@
       "description": "Self-hosting Emacs Lisp runtime written alm ost entirely in Elisp — compiler, GC, reader, native code emitter, and standalone OS/syscall surface included .",
       "url": "https://github.com/zawatton/nelisp",
       "stars": 29,
-      "updated": "2026-11-21T06:58:35Z",
+      "updated": "2026-11-21T14:28:40Z",
       "archived": false,
       "topics": [],
       "license": "GPL-3.0",
