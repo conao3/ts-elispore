@@ -1,0 +1,18 @@
+{
+  "id": 299084925,
+  "name": "ymarco/auto-activating-snippets",
+  "description": "Snippets for Emacs that expand as you type",
+  "url": "https://github.com/ymarco/auto-activating-snippets",
+  "stars": 132,
+  "updated": "2023-09-15T23:00:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aas",
+    "fetcher": "github",
+    "repo": "ymarco/auto-activating-snippets"
+  }
+}

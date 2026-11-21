@@ -2,7 +2,7 @@ import { execFileSync } from "node:child_process"
 import { writeFileSync } from "node:fs"
 import { pathToFileURL } from "node:url"
 import * as z from "zod"
-import { catalogSchema } from "../src/catalog.ts"
+import { catalogSchema, entrySchema } from "../src/catalog.ts"
 const repo = z.object({
   id: z.number(),
   full_name: z.string(),
@@ -17,10 +17,26 @@ const repo = z.object({
   topics: z.array(z.string()).default([]),
   license: z.object({ spdx_id: z.string() }).nullable(),
 })
-function api(path: string, args: string[] = []): unknown {
+export function api(path: string, args: string[] = []): unknown {
   return JSON.parse(
     execFileSync("gh", ["api", path, ...args], { encoding: "utf8", maxBuffer: 20 * 1024 * 1024 }),
   )
+}
+export function githubCatalogEntry(value: unknown) {
+  const r = repo.parse(value)
+  return entrySchema.parse({
+    id: r.id,
+    name: r.full_name,
+    description: r.description ?? "",
+    url: r.html_url,
+    stars: r.stargazers_count,
+    updated: r.pushed_at,
+    archived: r.archived,
+    topics: r.topics,
+    license: r.license?.spdx_id ?? null,
+    language: r.language,
+    ownerType: r.owner.type,
+  })
 }
 const discovery = [
   { q: 'language:"Emacs Lisp" stars:>=20 fork:false', pages: 4 },
@@ -92,21 +108,7 @@ function refresh() {
       if (hasPackageFiles(result.data[`r${i}`])) packages.push(r)
     }
   }
-  const entries = packages
-    .map((r) => ({
-      id: r.id,
-      name: r.full_name,
-      description: r.description ?? "",
-      url: r.html_url,
-      stars: r.stargazers_count,
-      updated: r.pushed_at,
-      archived: r.archived,
-      topics: r.topics,
-      license: r.license?.spdx_id ?? null,
-      language: r.language,
-      ownerType: r.owner.type,
-    }))
-    .sort((a, b) => a.name.localeCompare(b.name))
+  const entries = packages.map(githubCatalogEntry).sort((a, b) => a.name.localeCompare(b.name))
   const data = catalogSchema.parse({
     generatedAt: new Date().toISOString(),
     sources: discovery.map(({ q }) => q),

@@ -1,0 +1,18 @@
+{
+  "id": 281548767,
+  "name": "jdtsmith/abridge-diff",
+  "description": "Emacs package for refining diff hunks with very long lines (as in LaTeX files)",
+  "url": "https://github.com/jdtsmith/abridge-diff",
+  "stars": 30,
+  "updated": "2026-01-21T17:57:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "abridge-diff",
+    "fetcher": "github",
+    "repo": "jdtsmith/abridge-diff"
+  }
+}

@@ -80,6 +80,36 @@ Search uses 100 results per page and excludes forks. IDs are deduplicated; batch
 
 GitHub Actions refreshes it daily, validates and builds the site, deploys the catalog with the Worker, and commits the refreshed metadata. The browser fetches same-origin `/catalog.json`. GitHub credentials stay in the updater environment.
 
+### Converting MELPA recipes
+
+Use an authenticated GitHub CLI and pin MELPA to the same commit for every shard. The sample in
+`examples/melpa/` comes from the first 20 recipes at the revision below.
+
+```sh
+git clone https://github.com/melpa/melpa.git ../melpa
+git -C ../melpa checkout 8d525bf492f8ae18a3855775eb2e3c65e957ad10
+nix develop --command node scripts/melpa.ts ../melpa/recipes examples/melpa 0 20
+nix develop --command pnpm exec vp fmt examples/melpa
+```
+
+The last two arguments are zero-based start (inclusive) and end (exclusive) indexes into the
+sorted recipe filenames, before filtering by fetcher. To split the remaining 6,331 recipes at
+this revision, use disjoint ranges such as `[20, 270)`, `[270, 520)`, …, `[6270, 6351)`.
+Give each worker a fresh output directory or use one shared directory with disjoint ranges;
+each converted recipe writes only `<recipe-name>.json`. Watch the authenticated API rate limit if
+workers share a token. Unsupported sources are listed on stderr; malformed recipes or GitHub API
+errors stop the run at the named recipe with a nonzero exit code.
+
+- `github` recipes and generic `git` recipes with a GitHub remote use GitHub's repository ID,
+  canonical name, URL and other catalog metadata. GitLab, Codeberg, SourceHut, Mercurial and other
+  non-GitHub sources are skipped because the catalog only supports GitHub repositories.
+- The extra `melpa` object keeps the package name, fetcher, upstream, optional branch or commit,
+  and the original `:files` list. A missing list means MELPA defaults; explicit lists are not
+  expanded or evaluated, and branch/commit selections do not change GitHub repository metadata.
+- These are staging entries, not the published catalog. Multiple recipes can refer to the same
+  repository; a later import should group them by GitHub ID before publishing. The regular catalog
+  refresh does not consume these files or change its GitHub discovery rules.
+
 ## Deployment
 
 Cloudflare Worker `elispore`, custom domain `elispore.conao3.com`, personal account `31d70a83a3750c0fd66140fe200f2f29`. Configuration is in `wrangler.jsonc`. Static assets are built into `dist/`, and Workers' static asset serving supplies the site and HTTP security headers.
