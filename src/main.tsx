@@ -14,6 +14,7 @@ import {
 import {
   Button,
   Checkbox,
+  CheckboxGroup,
   Disclosure,
   DisclosurePanel,
   DialogTrigger,
@@ -27,8 +28,6 @@ import {
   ListBox,
   ListBoxItem,
   Popover,
-  Radio,
-  RadioGroup,
   SearchField,
   Select,
   SelectValue,
@@ -407,23 +406,32 @@ function App() {
           </ToggleButton>
         ))}
       </fieldset>
-      <RadioGroup
+      <CheckboxGroup
         className="group"
-        value={licenses[0] ?? ""}
-        onChange={(value) => qualify("license", value)}
+        value={licenses}
+        onChange={(values) => {
+          try {
+            setQuery(
+              values.reduce(
+                (query, value) => setQualifier(query, "license", value, true),
+                setQualifier(query, "license", ""),
+              ),
+            )
+          } catch {
+            input.current?.focus()
+          }
+        }}
       >
         <Label>License</Label>
-        <Radio className="check" value="">
-          <span className="radio-mark" />
-          Any license
-        </Radio>
-        {licenseOptions.map((license) => (
-          <Radio key={license} className="check" value={license.toLowerCase()}>
-            <span className="radio-mark" />
-            {license}
-          </Radio>
-        ))}
-      </RadioGroup>
+        {[...new Set([...licenseOptions.map((license) => license.toLowerCase()), ...licenses])].map(
+          (license) => (
+            <Checkbox key={license} className="check" value={license}>
+              <span className="checkbox-mark" />
+              {licenseOptions.find((option) => option.toLowerCase() === license) ?? license}
+            </Checkbox>
+          ),
+        )}
+      </CheckboxGroup>
       <fieldset className="group">
         <legend>Activity</legend>
         <Checkbox

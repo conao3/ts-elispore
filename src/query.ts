@@ -138,10 +138,12 @@ export function matches(entry: Entry, filters: Filter[]): boolean {
   const owners = filters.filter(
     (filter) => ["user", "org"].includes(filter.key ?? "") && !filter.exclude,
   )
+  const licenses = filters.filter((filter) => filter.key === "license" && !filter.exclude)
   return (
     (!owners.length || owners.some(match)) &&
+    (!licenses.length || licenses.some(match)) &&
     filters
-      .filter((filter) => !owners.includes(filter))
+      .filter((filter) => !owners.includes(filter) && !licenses.includes(filter))
       .every((filter) => (filter.exclude ? !match(filter) : match(filter)))
   )
 }
