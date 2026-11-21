@@ -1,0 +1,18 @@
+{
+  "id": 197075185,
+  "name": "travisjeffery/proced-narrow",
+  "description": "Live-narrowing of search results for proced in Emacs.",
+  "url": "https://github.com/travisjeffery/proced-narrow",
+  "stars": 18,
+  "updated": "2019-09-11T18:18:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "proced-narrow",
+    "fetcher": "github",
+    "repo": "travisjeffery/proced-narrow"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 98781343,
+  "name": "amyers634/cfml-mode",
+  "description": "CFML Mode for Emacs",
+  "url": "https://github.com/amyers634/cfml-mode",
+  "stars": 5,
+  "updated": "2020-11-14T11:19:35Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cfml-mode",
+    "fetcher": "github",
+    "repo": "amyers634/cfml-mode"
+  }
+}

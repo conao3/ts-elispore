@@ -1,0 +1,18 @@
+{
+  "id": 1607202,
+  "name": "kentaro/perlbrew.el",
+  "description": "A perlbrew wrapper for Emacs",
+  "url": "https://github.com/kentaro/perlbrew.el",
+  "stars": 16,
+  "updated": "2023-08-23T16:52:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "perlbrew",
+    "fetcher": "github",
+    "repo": "kentaro/perlbrew.el"
+  }
+}

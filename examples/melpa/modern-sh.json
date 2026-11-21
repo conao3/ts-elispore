@@ -1,0 +1,18 @@
+{
+  "id": 284642829,
+  "name": "damon-kwok/modern-sh",
+  "description": ":guitar: An Emacs minor mode for editing shell script.",
+  "url": "https://github.com/damon-kwok/modern-sh",
+  "stars": 29,
+  "updated": "2025-03-20T08:58:19Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "emacs-mode", "emacs-package", "emacs-packages"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "modern-sh",
+    "fetcher": "github",
+    "repo": "damon-kwok/modern-sh"
+  }
+}

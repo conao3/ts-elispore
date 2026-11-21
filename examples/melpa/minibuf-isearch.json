@@ -1,0 +1,18 @@
+{
+  "id": 48621597,
+  "name": "knagano/minibuf-isearch",
+  "description": "minibuf-isearch.el --- incremental search on minibuffer history",
+  "url": "https://github.com/knagano/minibuf-isearch",
+  "stars": 0,
+  "updated": "2015-12-26T19:44:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "minibuf-isearch",
+    "fetcher": "github",
+    "repo": "knagano/minibuf-isearch"
+  }
+}

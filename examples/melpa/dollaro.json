@@ -1,0 +1,18 @@
+{
+  "id": 28859815,
+  "name": "emacsattic/dollaro",
+  "description": "Simple text templates",
+  "url": "https://github.com/emacsattic/dollaro",
+  "stars": 0,
+  "updated": "2026-02-10T15:15:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dollaro",
+    "fetcher": "github",
+    "repo": "emacsattic/dollaro"
+  }
+}

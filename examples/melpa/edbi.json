@@ -1,0 +1,19 @@
+{
+  "id": 3429553,
+  "name": "kiwanami/emacs-edbi",
+  "description": "Database Interface for Emacs Lisp",
+  "url": "https://github.com/kiwanami/emacs-edbi",
+  "stars": 351,
+  "updated": "2016-07-24T20:10:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "edbi",
+    "fetcher": "github",
+    "repo": "kiwanami/emacs-edbi",
+    "files": "(\"edbi*.el\" \"edbi*.pl\")"
+  }
+}

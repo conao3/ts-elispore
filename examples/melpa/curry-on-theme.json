@@ -1,0 +1,18 @@
+{
+  "id": 183288548,
+  "name": "mvarela/Curry-On-theme",
+  "description": "A nice, punchy, blue-orange-cream theme for Emacs",
+  "url": "https://github.com/mvarela/Curry-On-theme",
+  "stars": 11,
+  "updated": "2021-03-22T17:17:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "curry-on-theme",
+    "fetcher": "github",
+    "repo": "mvarela/Curry-On-theme"
+  }
+}

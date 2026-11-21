@@ -1,0 +1,18 @@
+{
+  "id": 861841152,
+  "name": "nverno/sml-ts-mode",
+  "description": "Standard ML (SML) major mode for Emacs using tree-sitter",
+  "url": "https://github.com/nverno/sml-ts-mode",
+  "stars": 4,
+  "updated": "2024-10-15T06:32:34Z",
+  "archived": false,
+  "topics": ["emacs", "sml", "smlnj", "standardml", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sml-ts-mode",
+    "fetcher": "github",
+    "repo": "nverno/sml-ts-mode"
+  }
+}

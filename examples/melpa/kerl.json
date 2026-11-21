@@ -1,0 +1,18 @@
+{
+  "id": 34538387,
+  "name": "correl/kerl.el",
+  "description": "Emacs integration for kerl",
+  "url": "https://github.com/correl/kerl.el",
+  "stars": 1,
+  "updated": "2015-04-24T20:05:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kerl",
+    "fetcher": "github",
+    "repo": "correl/kerl.el"
+  }
+}

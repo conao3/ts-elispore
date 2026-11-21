@@ -1,0 +1,18 @@
+{
+  "id": 863986,
+  "name": "apg/thumb-through",
+  "description": "quickly read an article from emacs",
+  "url": "https://github.com/apg/thumb-through",
+  "stars": 5,
+  "updated": "2012-01-19T12:29:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "thumb-through",
+    "fetcher": "github",
+    "repo": "apg/thumb-through"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 542170159,
+  "name": "CeleritasCelery/icl-mode",
+  "description": "Emacs support for IEEE 1687 ICL/PDL",
+  "url": "https://github.com/CeleritasCelery/icl-mode",
+  "stars": 0,
+  "updated": "2024-10-30T17:43:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "icl-mode",
+    "fetcher": "github",
+    "repo": "CeleritasCelery/icl-mode"
+  }
+}

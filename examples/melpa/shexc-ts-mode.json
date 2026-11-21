@@ -1,0 +1,19 @@
+{
+  "id": 29915658,
+  "name": "ericprud/shexc-mode-for-emacs",
+  "description": "",
+  "url": "https://github.com/ericprud/shexc-mode-for-emacs",
+  "stars": 5,
+  "updated": "2026-08-01T23:13:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shexc-ts-mode",
+    "fetcher": "github",
+    "repo": "ericprud/shexc-mode-for-emacs",
+    "files": "(:defaults (:exclude \"shexc-mode.el\"))"
+  }
+}

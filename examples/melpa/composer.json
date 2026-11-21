@@ -1,0 +1,23 @@
+{
+  "id": 47499357,
+  "name": "emacs-php/composer.el",
+  "description": "PHP Composer interface for Emacs",
+  "url": "https://github.com/emacs-php/composer.el",
+  "stars": 11,
+  "updated": "2026-01-13T08:48:21Z",
+  "archived": false,
+  "topics": [
+    "composer",
+    "emacs",
+    "melpa",
+    "php"
+  ],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "composer",
+    "fetcher": "github",
+    "repo": "emacs-php/composer.el"
+  }
+}

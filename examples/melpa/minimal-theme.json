@@ -1,0 +1,18 @@
+{
+  "id": 1061375798,
+  "name": "nullvec/minimal-theme",
+  "description": "",
+  "url": "https://github.com/nullvec/minimal-theme",
+  "stars": 2,
+  "updated": "2025-09-21T21:03:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "minimal-theme",
+    "fetcher": "github",
+    "repo": "nullvec/minimal-theme"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 2494214,
+  "name": "lewang/scf-mode",
+  "description": "Emacs minor-mode for shortening long file-names in compile/grep output.",
+  "url": "https://github.com/lewang/scf-mode",
+  "stars": 7,
+  "updated": "2015-11-22T02:48:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scf-mode",
+    "fetcher": "github",
+    "repo": "lewang/scf-mode"
+  }
+}

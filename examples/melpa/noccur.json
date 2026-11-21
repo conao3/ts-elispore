@@ -1,0 +1,18 @@
+{
+  "id": 23700330,
+  "name": "NicolasPetton/noccur.el",
+  "description": "Run multi-occur on project/dired files",
+  "url": "https://github.com/NicolasPetton/noccur.el",
+  "stars": 22,
+  "updated": "2020-01-20T11:42:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "noccur",
+    "fetcher": "github",
+    "repo": "NicolasPetton/noccur.el"
+  }
+}

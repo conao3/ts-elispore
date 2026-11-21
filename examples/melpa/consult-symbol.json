@@ -1,0 +1,18 @@
+{
+  "id": 1179156872,
+  "name": "danielfleischer/consult-symbol",
+  "description": "Search Emacs symbols with consult-powered narrowing by category.",
+  "url": "https://github.com/danielfleischer/consult-symbol",
+  "stars": 5,
+  "updated": "2026-03-23T18:48:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-symbol",
+    "fetcher": "github",
+    "repo": "danielfleischer/consult-symbol"
+  }
+}

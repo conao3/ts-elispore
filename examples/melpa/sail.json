@@ -1,0 +1,18 @@
+{
+  "id": 1153234800,
+  "name": "brannala/esail",
+  "description": "NOAA tide and wind reports for sailors (Emacs package)",
+  "url": "https://github.com/brannala/esail",
+  "stars": 2,
+  "updated": "2026-02-09T04:11:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sail",
+    "fetcher": "github",
+    "repo": "brannala/esail"
+  }
+}

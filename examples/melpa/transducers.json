@@ -1,0 +1,18 @@
+{
+  "id": 753456150,
+  "name": "fosskers/transducers.el",
+  "description": "Ergonomic, efficient data processing for Emacs Lisp.",
+  "url": "https://github.com/fosskers/transducers.el",
+  "stars": 55,
+  "updated": "2025-11-18T21:56:08Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "transducers"],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "transducers",
+    "fetcher": "github",
+    "repo": "fosskers/transducers.el"
+  }
+}

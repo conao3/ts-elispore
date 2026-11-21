@@ -1,0 +1,18 @@
+{
+  "id": 31922425,
+  "name": "ionrock/lodgeit-el",
+  "description": "Use a Lodgeit pastebin from Emacs",
+  "url": "https://github.com/ionrock/lodgeit-el",
+  "stars": 4,
+  "updated": "2019-08-02T13:08:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lodgeit",
+    "fetcher": "github",
+    "repo": "ionrock/lodgeit-el"
+  }
+}

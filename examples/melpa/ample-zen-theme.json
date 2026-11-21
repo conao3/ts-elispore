@@ -1,0 +1,18 @@
+{
+  "id": 13288899,
+  "name": "mjwall/ample-zen",
+  "description": "Ample Zen Theme for Emacs 24",
+  "url": "https://github.com/mjwall/ample-zen",
+  "stars": 43,
+  "updated": "2015-01-19T21:54:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ample-zen-theme",
+    "fetcher": "github",
+    "repo": "mjwall/ample-zen"
+  }
+}

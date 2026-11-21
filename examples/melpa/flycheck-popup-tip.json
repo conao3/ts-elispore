@@ -1,0 +1,18 @@
+{
+  "id": 90564668,
+  "name": "flycheck/flycheck-popup-tip",
+  "description": "Display Flycheck error messages using popup.el",
+  "url": "https://github.com/flycheck/flycheck-popup-tip",
+  "stars": 34,
+  "updated": "2026-08-10T07:59:56Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "flycheck", "flycheck-extension", "popup", "tooltip"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-popup-tip",
+    "fetcher": "github",
+    "repo": "flycheck/flycheck-popup-tip"
+  }
+}

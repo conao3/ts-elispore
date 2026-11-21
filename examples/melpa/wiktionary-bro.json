@@ -1,0 +1,18 @@
+{
+  "id": 581911809,
+  "name": "agzam/wiktionary-bro.el",
+  "description": "Etymology lookup/Wiktionary browser in Emacs",
+  "url": "https://github.com/agzam/wiktionary-bro.el",
+  "stars": 17,
+  "updated": "2026-09-27T02:24:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wiktionary-bro",
+    "fetcher": "github",
+    "repo": "agzam/wiktionary-bro.el"
+  }
+}

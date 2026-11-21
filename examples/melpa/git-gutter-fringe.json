@@ -1,0 +1,18 @@
+{
+  "id": 7787236,
+  "name": "emacsorphanage/git-gutter-fringe",
+  "description": "Fringe version of git-gutter.el",
+  "url": "https://github.com/emacsorphanage/git-gutter-fringe",
+  "stars": 171,
+  "updated": "2021-10-03T22:28:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "git-gutter-fringe",
+    "fetcher": "github",
+    "repo": "emacsorphanage/git-gutter-fringe"
+  }
+}

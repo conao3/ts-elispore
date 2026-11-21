@@ -1,0 +1,18 @@
+{
+  "id": 2805257,
+  "name": "mattfidler/r-autoyas.el",
+  "description": "Automatically create YaSnippets in R",
+  "url": "https://github.com/mattfidler/r-autoyas.el",
+  "stars": 25,
+  "updated": "2015-09-02T16:23:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "r-autoyas",
+    "fetcher": "github",
+    "repo": "mattfidler/r-autoyas.el"
+  }
+}

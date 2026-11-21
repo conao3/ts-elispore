@@ -1,0 +1,18 @@
+{
+  "id": 72152930,
+  "name": "mallt/cmd-to-echo",
+  "description": "Show the output of long-running commands in the emacs echo area",
+  "url": "https://github.com/mallt/cmd-to-echo",
+  "stars": 10,
+  "updated": "2016-12-03T21:33:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cmd-to-echo",
+    "fetcher": "github",
+    "repo": "mallt/cmd-to-echo"
+  }
+}

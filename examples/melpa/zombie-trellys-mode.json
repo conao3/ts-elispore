@@ -1,0 +1,18 @@
+{
+  "id": 31652393,
+  "name": "david-christiansen/zombie-trellys-mode",
+  "description": "An Emacs minor mode for interacting with the Zombie Trellys system",
+  "url": "https://github.com/david-christiansen/zombie-trellys-mode",
+  "stars": 0,
+  "updated": "2015-03-04T17:48:16Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zombie-trellys-mode",
+    "fetcher": "github",
+    "repo": "david-christiansen/zombie-trellys-mode"
+  }
+}

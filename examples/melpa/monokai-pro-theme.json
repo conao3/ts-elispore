@@ -1,0 +1,18 @@
+{
+  "id": 166128336,
+  "name": "belak/emacs-monokai-pro-theme",
+  "description": "",
+  "url": "https://github.com/belak/emacs-monokai-pro-theme",
+  "stars": 56,
+  "updated": "2025-01-16T16:21:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "monokai-pro-theme",
+    "fetcher": "github",
+    "repo": "belak/emacs-monokai-pro-theme"
+  }
+}

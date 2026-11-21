@@ -1,0 +1,18 @@
+{
+  "id": 149824875,
+  "name": "vifon/dired-rifle.el",
+  "description": "Run rifle(1) known from ranger from an Emacs Dired buffer",
+  "url": "https://github.com/vifon/dired-rifle.el",
+  "stars": 10,
+  "updated": "2025-03-07T01:37:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-rifle",
+    "fetcher": "github",
+    "repo": "vifon/dired-rifle.el"
+  }
+}

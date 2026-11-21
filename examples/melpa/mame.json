@@ -1,0 +1,18 @@
+{
+  "id": 206361235,
+  "name": "Iacob/elmame",
+  "description": "Mame Emacs Front-end",
+  "url": "https://github.com/Iacob/elmame",
+  "stars": 2,
+  "updated": "2024-08-28T15:59:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mame",
+    "fetcher": "github",
+    "repo": "Iacob/elmame"
+  }
+}

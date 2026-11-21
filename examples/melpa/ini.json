@@ -1,0 +1,18 @@
+{
+  "id": 527914170,
+  "name": "EsaLaine/ini.el",
+  "description": "An emacs plugin for converting INI files to/from association lists",
+  "url": "https://github.com/EsaLaine/ini.el",
+  "stars": 1,
+  "updated": "2022-08-27T20:11:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ini",
+    "fetcher": "github",
+    "repo": "EsaLaine/ini.el"
+  }
+}

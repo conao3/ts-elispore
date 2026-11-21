@@ -1,0 +1,18 @@
+{
+  "id": 89942621,
+  "name": "emacsorphanage/qt-pro-mode",
+  "description": "GNU Emacs major-mode for Qt build-system files",
+  "url": "https://github.com/emacsorphanage/qt-pro-mode",
+  "stars": 10,
+  "updated": "2018-12-10T17:46:46Z",
+  "archived": false,
+  "topics": ["build", "emacs", "emacs-lisp", "gnu", "qt", "qt5"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "qt-pro-mode",
+    "fetcher": "github",
+    "repo": "emacsorphanage/qt-pro-mode"
+  }
+}

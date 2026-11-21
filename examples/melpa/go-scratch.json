@@ -1,0 +1,18 @@
+{
+  "id": 40462956,
+  "name": "shosti/go-scratch.el",
+  "description": "Emacs scratch mode for go",
+  "url": "https://github.com/shosti/go-scratch.el",
+  "stars": 6,
+  "updated": "2018-01-18T02:15:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go-scratch",
+    "fetcher": "github",
+    "repo": "shosti/go-scratch.el"
+  }
+}

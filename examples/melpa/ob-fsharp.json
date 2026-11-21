@@ -1,0 +1,18 @@
+{
+  "id": 94116399,
+  "name": "juergenhoetzel/ob-fsharp",
+  "description": "",
+  "url": "https://github.com/juergenhoetzel/ob-fsharp",
+  "stars": 8,
+  "updated": "2023-04-22T17:30:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-fsharp",
+    "fetcher": "github",
+    "repo": "juergenhoetzel/ob-fsharp"
+  }
+}

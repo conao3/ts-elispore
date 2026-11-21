@@ -1,0 +1,18 @@
+{
+  "id": 450017906,
+  "name": "semenInRussia/simple-indentation.el",
+  "description": "Simple Define Indention Functions for your major-modes in Emacs",
+  "url": "https://github.com/semenInRussia/simple-indentation.el",
+  "stars": 2,
+  "updated": "2023-06-25T16:13:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simple-indentation",
+    "fetcher": "github",
+    "repo": "semenInRussia/simple-indentation.el"
+  }
+}

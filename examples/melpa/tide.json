@@ -1,0 +1,19 @@
+{
+  "id": 35371728,
+  "name": "ananthakumaran/tide",
+  "description": "Tide - TypeScript Interactive Development Environment for Emacs",
+  "url": "https://github.com/ananthakumaran/tide",
+  "stars": 1474,
+  "updated": "2026-02-19T03:37:34Z",
+  "archived": false,
+  "topics": ["emacs", "typescript"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tide",
+    "fetcher": "github",
+    "repo": "ananthakumaran/tide",
+    "files": "(:defaults \"tsserver\")"
+  }
+}

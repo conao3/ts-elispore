@@ -1,0 +1,19 @@
+{
+  "id": 1174903,
+  "name": "valpackett/django-mode",
+  "description": "Django mode and snippets for Emacs",
+  "url": "https://github.com/valpackett/django-mode",
+  "stars": 95,
+  "updated": "2017-05-22T07:14:29Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "django-snippets",
+    "fetcher": "github",
+    "repo": "unrelentingtech/django-mode",
+    "files": "(\"django-snippets.el\" \"snippets\")"
+  }
+}

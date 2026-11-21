@@ -1,0 +1,18 @@
+{
+  "id": 57886830,
+  "name": "onurtemizkan/paganini",
+  "description": "Dark Emacs Theme 🎻",
+  "url": "https://github.com/onurtemizkan/paganini",
+  "stars": 20,
+  "updated": "2018-08-15T19:21:07Z",
+  "archived": false,
+  "topics": ["color-scheme", "emacs"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "paganini-theme",
+    "fetcher": "github",
+    "repo": "onurtemizkan/paganini"
+  }
+}

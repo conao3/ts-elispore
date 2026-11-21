@@ -1,0 +1,18 @@
+{
+  "id": 818423833,
+  "name": "dmgerman/org-roam-gt",
+  "description": "org-roam-gt enhances org-roam with performance improvements and better capture templates",
+  "url": "https://github.com/dmgerman/org-roam-gt",
+  "stars": 24,
+  "updated": "2026-11-19T07:30:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-roam-gt",
+    "fetcher": "github",
+    "repo": "dmgerman/org-roam-gt"
+  }
+}

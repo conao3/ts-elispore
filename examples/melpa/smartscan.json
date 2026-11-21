@@ -1,0 +1,18 @@
+{
+  "id": 14023688,
+  "name": "mickeynp/smart-scan",
+  "description": "Quickly move between identical symbols at point",
+  "url": "https://github.com/mickeynp/smart-scan",
+  "stars": 136,
+  "updated": "2026-07-23T15:53:45Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "movement"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smartscan",
+    "fetcher": "github",
+    "repo": "mickeynp/smart-scan"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": 754929672,
+  "name": "kimim/chatu",
+  "description": "Quickly insert a generated image to orgmode or markdown, fast and conveniently.",
+  "url": "https://github.com/kimim/chatu",
+  "stars": 38,
+  "updated": "2026-09-16T02:43:08Z",
+  "archived": false,
+  "topics": [
+    "babashka",
+    "clojure",
+    "drawio",
+    "emacs",
+    "lilypond",
+    "markdown-mode",
+    "org-mode",
+    "plantuml",
+    "python",
+    "r"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chatu",
+    "fetcher": "github",
+    "repo": "kimim/chatu"
+  }
+}

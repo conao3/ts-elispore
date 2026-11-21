@@ -1,0 +1,19 @@
+{
+  "id": 114844569,
+  "name": "yasushi-saito/go-imports",
+  "description": "Emacs package for adding imports.",
+  "url": "https://github.com/yasushi-saito/go-imports",
+  "stars": 2,
+  "updated": "2019-07-15T16:53:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go-imports",
+    "fetcher": "github",
+    "repo": "yasushi-saito/go-imports",
+    "files": "(:defaults \"find-packages.pl\")"
+  }
+}

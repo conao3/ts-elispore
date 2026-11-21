@@ -1,0 +1,19 @@
+{
+  "id": 304541938,
+  "name": "abailly/sensei",
+  "description": "A sensei for improving one's development process",
+  "url": "https://github.com/abailly/sensei",
+  "stars": 6,
+  "updated": "2026-01-25T09:34:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Haskell",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sensei",
+    "fetcher": "github",
+    "repo": "abailly/sensei",
+    "files": "(\"elisp/sensei.el\")"
+  }
+}

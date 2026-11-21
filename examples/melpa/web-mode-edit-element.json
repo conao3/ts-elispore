@@ -1,0 +1,18 @@
+{
+  "id": 72790920,
+  "name": "jtkDvlp/web-mode-edit-element",
+  "description": "Helper-functions for attribute- and element-handling",
+  "url": "https://github.com/jtkDvlp/web-mode-edit-element",
+  "stars": 19,
+  "updated": "2023-01-28T20:46:34Z",
+  "archived": false,
+  "topics": ["emacs", "html", "melpa", "paredit", "paxedit", "web-mode", "xml"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "web-mode-edit-element",
+    "fetcher": "github",
+    "repo": "jtkDvlp/web-mode-edit-element"
+  }
+}

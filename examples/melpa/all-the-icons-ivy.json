@@ -1,0 +1,18 @@
+{
+  "id": 84188843,
+  "name": "asok/all-the-icons-ivy",
+  "description": "all-the-icons.el for Ivy/Counsel",
+  "url": "https://github.com/asok/all-the-icons-ivy",
+  "stars": 94,
+  "updated": "2020-12-02T10:54:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "all-the-icons-ivy",
+    "fetcher": "github",
+    "repo": "asok/all-the-icons-ivy"
+  }
+}

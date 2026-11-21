@@ -1,0 +1,18 @@
+{
+  "id": 11219501,
+  "name": "yasuyk/helm-go-package",
+  "description": "helm sources for Go programming language's package",
+  "url": "https://github.com/yasuyk/helm-go-package",
+  "stars": 18,
+  "updated": "2016-11-12T07:55:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-go-package",
+    "fetcher": "github",
+    "repo": "yasuyk/helm-go-package"
+  }
+}

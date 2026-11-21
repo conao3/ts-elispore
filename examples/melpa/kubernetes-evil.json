@@ -1,0 +1,19 @@
+{
+  "id": 86204086,
+  "name": "kubernetes-el/kubernetes-el",
+  "description": "Manage Kubernetes clusters with Emacs.",
+  "url": "https://github.com/kubernetes-el/kubernetes-el",
+  "stars": 691,
+  "updated": "2026-10-31T02:37:05Z",
+  "archived": false,
+  "topics": ["emacs", "kubernetes", "porcelain"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "kubernetes-evil",
+    "fetcher": "github",
+    "repo": "kubernetes-el/kubernetes-el",
+    "files": "(\"kubernetes-evil.el\")"
+  }
+}

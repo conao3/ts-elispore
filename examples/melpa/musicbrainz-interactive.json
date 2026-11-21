@@ -1,0 +1,19 @@
+{
+  "id": 642528315,
+  "name": "zzkt/metabrainz",
+  "description": "MusicBrainz & ListenBrainz & other",
+  "url": "https://github.com/zzkt/metabrainz",
+  "stars": 11,
+  "updated": "2026-08-03T03:42:17Z",
+  "archived": false,
+  "topics": ["emacs", "listenbrainz", "metabrainz", "metadata", "music", "musicbrainz"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "musicbrainz-interactive",
+    "fetcher": "github",
+    "repo": "zzkt/metabrainz",
+    "files": "(\"musicbrainz-interactive.el\")"
+  }
+}

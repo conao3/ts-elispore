@@ -1,0 +1,18 @@
+{
+  "id": 29925720,
+  "name": "marcelotoledo/chronometer",
+  "description": "A Chronometer for GNU Emacs",
+  "url": "https://github.com/marcelotoledo/chronometer",
+  "stars": 8,
+  "updated": "2019-03-04T15:28:47Z",
+  "archived": false,
+  "topics": ["alarm", "chronometer", "count", "emacs", "emacs-lisp", "gnu-emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chronometer",
+    "fetcher": "github",
+    "repo": "marcelotoledo/chronometer"
+  }
+}

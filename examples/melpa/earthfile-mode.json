@@ -1,0 +1,18 @@
+{
+  "id": 400650311,
+  "name": "earthly/earthly-emacs",
+  "description": "Major mode for editing Earthly Earthfile",
+  "url": "https://github.com/earthly/earthly-emacs",
+  "stars": 17,
+  "updated": "2024-07-03T14:51:33Z",
+  "archived": false,
+  "topics": ["earthfile", "earthly", "emacs", "emacs-mode"],
+  "license": "MPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "earthfile-mode",
+    "fetcher": "github",
+    "repo": "earthly/earthly-emacs"
+  }
+}

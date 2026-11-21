@@ -1,0 +1,18 @@
+{
+  "id": 49338764,
+  "name": "krzysztof-magosa/haxor-mode",
+  "description": "[NOT MAINTAINED] Major mode for editing Haxor Assembly Files",
+  "url": "https://github.com/krzysztof-magosa/haxor-mode",
+  "stars": 4,
+  "updated": "2016-06-18T11:29:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "haxor-mode",
+    "fetcher": "github",
+    "repo": "krzysztof-magosa/haxor-mode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 85971888,
+  "name": "emacs-elsa/Elsa",
+  "description": "Emacs Lisp Static Analyzer and gradual type system.",
+  "url": "https://github.com/emacs-elsa/Elsa",
+  "stars": 705,
+  "updated": "2025-07-17T12:05:20Z",
+  "archived": false,
+  "topics": ["elsa", "emacs", "emacs-lisp", "gradual-typing", "static-analysis"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "elsa",
+    "fetcher": "github",
+    "repo": "emacs-elsa/Elsa",
+    "files": "(:defaults \"bin\")"
+  }
+}

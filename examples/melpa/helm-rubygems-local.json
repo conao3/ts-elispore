@@ -1,0 +1,18 @@
+{
+  "id": 11347232,
+  "name": "hadashiA/helm-rubygems-local",
+  "description": "Find installed rubygems lib directory for Emacs helm.",
+  "url": "https://github.com/hadashiA/helm-rubygems-local",
+  "stars": 1,
+  "updated": "2015-11-21T09:06:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-rubygems-local",
+    "fetcher": "github",
+    "repo": "hadashiA/helm-rubygems-local"
+  }
+}

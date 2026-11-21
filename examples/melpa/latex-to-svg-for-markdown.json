@@ -1,0 +1,19 @@
+{
+  "id": 1319204888,
+  "name": "alberti42/latex-to-svg",
+  "description": "Preview LaTeX math as SVG images for Org, Markdown and LaTeX buffers.",
+  "url": "https://github.com/alberti42/latex-to-svg",
+  "stars": 18,
+  "updated": "2026-11-20T21:49:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "latex-to-svg-for-markdown",
+    "fetcher": "github",
+    "repo": "alberti42/latex-to-svg",
+    "files": "(\"latex-to-svg-for-markdown.el\")"
+  }
+}

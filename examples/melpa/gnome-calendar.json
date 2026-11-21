@@ -1,0 +1,18 @@
+{
+  "id": 15825515,
+  "name": "NicolasPetton/gnome-calendar.el",
+  "description": "Gnome calendar integration with emacs",
+  "url": "https://github.com/NicolasPetton/gnome-calendar.el",
+  "stars": 11,
+  "updated": "2016-11-10T12:59:27Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gnome-calendar",
+    "fetcher": "github",
+    "repo": "NicolasPetton/gnome-calendar.el"
+  }
+}

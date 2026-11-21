@@ -1,0 +1,18 @@
+{
+  "id": 126935983,
+  "name": "ShiroTakeda/gams-ac",
+  "description": "auto-complete source for GAMS mode",
+  "url": "https://github.com/ShiroTakeda/gams-ac",
+  "stars": 3,
+  "updated": "2019-10-15T04:34:25Z",
+  "archived": false,
+  "topics": ["auto-complete", "emacs", "emacs-lisp", "gams-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gams-ac",
+    "fetcher": "github",
+    "repo": "ShiroTakeda/gams-ac"
+  }
+}

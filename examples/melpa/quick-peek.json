@@ -1,0 +1,18 @@
+{
+  "id": 76080674,
+  "name": "cpitclaudel/quick-peek",
+  "description": "Quick-peek inline-window library for Emacs",
+  "url": "https://github.com/cpitclaudel/quick-peek",
+  "stars": 89,
+  "updated": "2021-02-15T12:53:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "quick-peek",
+    "fetcher": "github",
+    "repo": "cpitclaudel/quick-peek"
+  }
+}

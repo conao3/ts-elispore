@@ -1,0 +1,18 @@
+{
+  "id": 214003289,
+  "name": "jadler/brazilian-holidays",
+  "description": "Adds Brazilian holidays to the Emacs calendar.",
+  "url": "https://github.com/jadler/brazilian-holidays",
+  "stars": 2,
+  "updated": "2022-08-28T23:49:34Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "brazilian-holidays",
+    "fetcher": "github",
+    "repo": "jadler/brazilian-holidays"
+  }
+}

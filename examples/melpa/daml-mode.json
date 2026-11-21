@@ -1,0 +1,19 @@
+{
+  "id": 501993641,
+  "name": "bartfaitamas/daml-mode",
+  "description": "",
+  "url": "https://github.com/bartfaitamas/daml-mode",
+  "stars": 3,
+  "updated": "2026-11-04T21:05:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "daml-mode",
+    "fetcher": "github",
+    "repo": "bartfaitamas/daml-mode",
+    "files": "(\"daml-mode.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 88583047,
+  "name": "colonelpanic8/frame-mode",
+  "description": "",
+  "url": "https://github.com/colonelpanic8/frame-mode",
+  "stars": 26,
+  "updated": "2026-07-10T18:51:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "frame-mode",
+    "fetcher": "github",
+    "repo": "colonelpanic8/frame-mode"
+  }
+}

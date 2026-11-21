@@ -1,0 +1,18 @@
+{
+  "id": 117598344,
+  "name": "jyp/lcr",
+  "description": "Lightweight coroutines in elisp",
+  "url": "https://github.com/jyp/lcr",
+  "stars": 7,
+  "updated": "2022-10-12T07:43:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lcr",
+    "fetcher": "github",
+    "repo": "jyp/lcr"
+  }
+}

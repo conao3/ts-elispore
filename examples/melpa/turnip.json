@@ -1,0 +1,18 @@
+{
+  "id": 18494296,
+  "name": "kljohann/turnip.el",
+  "description": "Interacting with tmux from Emacs",
+  "url": "https://github.com/kljohann/turnip.el",
+  "stars": 18,
+  "updated": "2015-03-09T06:31:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "turnip",
+    "fetcher": "github",
+    "repo": "kljohann/turnip.el"
+  }
+}

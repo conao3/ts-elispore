@@ -1,0 +1,18 @@
+{
+  "id": 226555827,
+  "name": "artenator/somafm.el",
+  "description": "A simple somafm interface in emacs",
+  "url": "https://github.com/artenator/somafm.el",
+  "stars": 18,
+  "updated": "2025-10-12T19:42:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "somafm",
+    "fetcher": "github",
+    "repo": "artenator/somafm.el"
+  }
+}

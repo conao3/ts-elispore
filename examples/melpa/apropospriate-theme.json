@@ -1,0 +1,18 @@
+{
+  "id": 33081214,
+  "name": "waymondo/apropospriate-theme",
+  "description": "A colorful, low-contrast, light & dark theme set for Emacs with a fun name",
+  "url": "https://github.com/waymondo/apropospriate-theme",
+  "stars": 323,
+  "updated": "2025-10-10T01:21:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "apropospriate-theme",
+    "fetcher": "github",
+    "repo": "waymondo/apropospriate-theme"
+  }
+}

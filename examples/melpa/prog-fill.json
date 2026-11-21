@@ -1,0 +1,18 @@
+{
+  "id": 119134995,
+  "name": "ahungry/prog-fill",
+  "description": "Emacs prog-fill functionality (smartly break lines to use vertical space)",
+  "url": "https://github.com/ahungry/prog-fill",
+  "stars": 20,
+  "updated": "2018-06-07T01:32:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prog-fill",
+    "fetcher": "github",
+    "repo": "ahungry/prog-fill"
+  }
+}

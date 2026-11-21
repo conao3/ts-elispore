@@ -1,0 +1,18 @@
+{
+  "id": 145259424,
+  "name": "polymode/poly-erb",
+  "description": "Polymode for erb",
+  "url": "https://github.com/polymode/poly-erb",
+  "stars": 6,
+  "updated": "2020-03-16T13:15:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "poly-erb",
+    "fetcher": "github",
+    "repo": "polymode/poly-erb"
+  }
+}

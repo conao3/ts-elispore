@@ -1,0 +1,19 @@
+{
+  "id": 12336538,
+  "name": "emacs-elfeed/elfeed",
+  "description": "An Emacs web feeds client",
+  "url": "https://github.com/emacs-elfeed/elfeed",
+  "stars": 1814,
+  "updated": "2026-11-14T20:46:27Z",
+  "archived": false,
+  "topics": ["atom", "emacs", "jsonfeed", "rss"],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "elfeed",
+    "fetcher": "github",
+    "repo": "emacs-elfeed/elfeed",
+    "files": "(:defaults \"README.md\")"
+  }
+}

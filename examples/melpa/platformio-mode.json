@@ -1,0 +1,18 @@
+{
+  "id": 47958951,
+  "name": "ZachMassia/PlatformIO-Mode",
+  "description": "PlatformIO Integration for Emacs",
+  "url": "https://github.com/ZachMassia/PlatformIO-Mode",
+  "stars": 72,
+  "updated": "2024-04-07T12:45:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "platformio-mode",
+    "fetcher": "github",
+    "repo": "ZachMassia/PlatformIO-Mode"
+  }
+}

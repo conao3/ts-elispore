@@ -1,0 +1,19 @@
+{
+  "id": 188679008,
+  "name": "leotaku/flycheck-aspell",
+  "description": "Spell check in Emacs using Flycheck/Flymake and Aspell",
+  "url": "https://github.com/leotaku/flycheck-aspell",
+  "stars": 47,
+  "updated": "2026-01-26T20:25:49Z",
+  "archived": false,
+  "topics": ["aspell", "emacs", "flycheck", "spellcheck"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-aspell",
+    "fetcher": "github",
+    "repo": "leotaku/flycheck-aspell",
+    "files": "(\"flycheck-aspell.el\")"
+  }
+}

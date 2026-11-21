@@ -1,0 +1,18 @@
+{
+  "id": 4239566,
+  "name": "drothlis/pretty-symbols",
+  "description": "Emacs minor mode for drawing multi-character tokens as Unicode glyphs (lambda -> λ). A configurable replacement for pretty-mode and the like.",
+  "url": "https://github.com/drothlis/pretty-symbols",
+  "stars": 42,
+  "updated": "2014-09-30T14:27:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pretty-symbols",
+    "fetcher": "github",
+    "repo": "drothlis/pretty-symbols"
+  }
+}

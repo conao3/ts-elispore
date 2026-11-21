@@ -1,0 +1,19 @@
+{
+  "id": 417622199,
+  "name": "it-is-wednesday/pyinspect.el",
+  "description": "Python object inspector for Emacs",
+  "url": "https://github.com/it-is-wednesday/pyinspect.el",
+  "stars": 13,
+  "updated": "2023-02-16T11:22:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pyinspect",
+    "fetcher": "github",
+    "repo": "it-is-wednesday/pyinspect.el",
+    "files": "(:defaults \"pyinspect.py\")"
+  }
+}

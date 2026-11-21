@@ -1,0 +1,18 @@
+{
+  "id": 509062538,
+  "name": "Jesse-Millwood/calc-prog-utils",
+  "description": "Emacs package adding programming specfic utility functions to Emacs calc",
+  "url": "https://github.com/Jesse-Millwood/calc-prog-utils",
+  "stars": 3,
+  "updated": "2022-08-20T18:56:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "calc-prog-utils",
+    "fetcher": "github",
+    "repo": "Jesse-Millwood/calc-prog-utils"
+  }
+}

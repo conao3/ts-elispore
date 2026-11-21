@@ -1,0 +1,18 @@
+{
+  "id": 29571814,
+  "name": "hagleitn/stock-ticker",
+  "description": "Emacs minor mode to show stock information in mode line.",
+  "url": "https://github.com/hagleitn/stock-ticker",
+  "stars": 17,
+  "updated": "2015-11-19T09:15:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "stock-ticker",
+    "fetcher": "github",
+    "repo": "hagleitn/stock-ticker"
+  }
+}

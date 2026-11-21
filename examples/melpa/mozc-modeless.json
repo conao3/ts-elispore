@@ -1,0 +1,18 @@
+{
+  "id": 1104625942,
+  "name": "kiyoka/mozc-modeless-emacs",
+  "description": "This is a project to make mozc modeless.",
+  "url": "https://github.com/kiyoka/mozc-modeless-emacs",
+  "stars": 7,
+  "updated": "2026-07-05T11:44:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mozc-modeless",
+    "fetcher": "github",
+    "repo": "kiyoka/mozc-modeless-emacs"
+  }
+}

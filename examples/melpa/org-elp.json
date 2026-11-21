@@ -1,0 +1,18 @@
+{
+  "id": 211690910,
+  "name": "guanyilun/org-elp",
+  "description": "Preview equations live in org-mode",
+  "url": "https://github.com/guanyilun/org-elp",
+  "stars": 49,
+  "updated": "2026-03-31T18:02:43Z",
+  "archived": false,
+  "topics": ["emacs", "latex"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-elp",
+    "fetcher": "github",
+    "repo": "guanyilun/org-elp"
+  }
+}

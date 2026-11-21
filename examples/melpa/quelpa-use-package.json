@@ -1,0 +1,18 @@
+{
+  "id": 40022325,
+  "name": "quelpa/quelpa-use-package",
+  "description": "Emacs quelpa handler for use-package",
+  "url": "https://github.com/quelpa/quelpa-use-package",
+  "stars": 142,
+  "updated": "2026-11-15T08:27:53Z",
+  "archived": false,
+  "topics": ["emacs", "package-manager", "quelpa", "use-package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "quelpa-use-package",
+    "fetcher": "github",
+    "repo": "quelpa/quelpa-use-package"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 5557833,
+  "name": "myuhe/drill-instructor-AZIK-force.el",
+  "description": "",
+  "url": "https://github.com/myuhe/drill-instructor-AZIK-force.el",
+  "stars": 1,
+  "updated": "2015-11-23T05:14:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "drill-instructor-AZIK-force",
+    "fetcher": "github",
+    "repo": "myuhe/drill-instructor-AZIK-force.el"
+  }
+}

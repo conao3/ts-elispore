@@ -1,0 +1,18 @@
+{
+  "id": 108453829,
+  "name": "kuanyui/cakecrumbs.el",
+  "description": "Show parent-chain on header for HTML / Jade / Pug / LESS / SCSS / Sass / Stylus",
+  "url": "https://github.com/kuanyui/cakecrumbs.el",
+  "stars": 17,
+  "updated": "2018-10-08T14:00:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cakecrumbs",
+    "fetcher": "github",
+    "repo": "kuanyui/cakecrumbs.el"
+  }
+}

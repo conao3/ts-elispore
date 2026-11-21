@@ -1,0 +1,18 @@
+{
+  "id": 58682130,
+  "name": "jtkDvlp/simple-bookmarks",
+  "description": "A smart enhancement for emacs providing a simple but convenient interface to your recently and often used bookmarks / functioncalls",
+  "url": "https://github.com/jtkDvlp/simple-bookmarks",
+  "stars": 5,
+  "updated": "2019-02-04T14:27:30Z",
+  "archived": false,
+  "topics": ["bookmark", "emacs", "melpa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simple-bookmarks",
+    "fetcher": "github",
+    "repo": "jtkDvlp/simple-bookmarks"
+  }
+}

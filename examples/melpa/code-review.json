@@ -1,0 +1,18 @@
+{
+  "id": 418017082,
+  "name": "wandersoncferreira/code-review",
+  "description": "Code Reviews in Emacs",
+  "url": "https://github.com/wandersoncferreira/code-review",
+  "stars": 493,
+  "updated": "2024-05-29T03:40:43Z",
+  "archived": false,
+  "topics": ["bitbucket", "code-review", "emacs", "github", "gitlab"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "code-review",
+    "fetcher": "github",
+    "repo": "wandersoncferreira/code-review"
+  }
+}

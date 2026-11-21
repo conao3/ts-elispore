@@ -1,0 +1,18 @@
+{
+  "id": 423490144,
+  "name": "otavioschwanck/ruby-json-to-hash.el",
+  "description": "Convert json into hash on Ruby",
+  "url": "https://github.com/otavioschwanck/ruby-json-to-hash.el",
+  "stars": 6,
+  "updated": "2022-03-01T08:20:26Z",
+  "archived": false,
+  "topics": ["emacs", "plugins", "ruby"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ruby-json-to-hash",
+    "fetcher": "github",
+    "repo": "otavioschwanck/ruby-json-to-hash.el"
+  }
+}

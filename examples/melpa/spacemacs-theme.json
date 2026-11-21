@@ -1,0 +1,18 @@
+{
+  "id": 36573749,
+  "name": "nashamri/spacemacs-theme",
+  "description": "Light and dark theme for spacemacs that supports GUI and terminal",
+  "url": "https://github.com/nashamri/spacemacs-theme",
+  "stars": 617,
+  "updated": "2026-09-06T17:13:57Z",
+  "archived": false,
+  "topics": ["dark-theme", "emacs", "light-theme", "spacemacs", "spacemacs-theme", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "spacemacs-theme",
+    "fetcher": "github",
+    "repo": "nashamri/spacemacs-theme"
+  }
+}

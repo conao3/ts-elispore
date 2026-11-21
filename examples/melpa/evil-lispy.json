@@ -1,0 +1,18 @@
+{
+  "id": 55631648,
+  "name": "mikavilpas/evil-lispy",
+  "description": "precision Lisp editing with Evil and Lispy",
+  "url": "https://github.com/mikavilpas/evil-lispy",
+  "stars": 78,
+  "updated": "2019-05-02T07:39:57Z",
+  "archived": true,
+  "topics": ["emacs", "emacs-lisp", "evil-mode", "lispy"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-lispy",
+    "fetcher": "github",
+    "repo": "mikavilpas/evil-lispy"
+  }
+}

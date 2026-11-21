@@ -1,0 +1,18 @@
+{
+  "id": 23772803,
+  "name": "jschaf/emacs-lorem-ipsum",
+  "description": "Add lorem ipsum filler text to Emacs",
+  "url": "https://github.com/jschaf/emacs-lorem-ipsum",
+  "stars": 51,
+  "updated": "2023-04-23T02:23:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lorem-ipsum",
+    "fetcher": "github",
+    "repo": "jschaf/emacs-lorem-ipsum"
+  }
+}

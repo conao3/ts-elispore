@@ -1,0 +1,18 @@
+{
+  "id": 59743759,
+  "name": "NicolasPetton/Indium",
+  "description": "A JavaScript development environment for Emacs",
+  "url": "https://github.com/NicolasPetton/Indium",
+  "stars": 1128,
+  "updated": "2023-06-01T20:44:29Z",
+  "archived": true,
+  "topics": ["chrome", "debugger", "emacs", "inspector", "javascript", "nodejs", "repl"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "indium",
+    "fetcher": "github",
+    "repo": "NicolasPetton/Indium"
+  }
+}

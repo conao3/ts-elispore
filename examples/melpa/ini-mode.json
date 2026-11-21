@@ -1,0 +1,18 @@
+{
+  "id": 18014246,
+  "name": "Lindydancer/ini-mode",
+  "description": "Major mode for Windows-style ini files.",
+  "url": "https://github.com/Lindydancer/ini-mode",
+  "stars": 11,
+  "updated": "2025-01-03T19:03:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ini-mode",
+    "fetcher": "github",
+    "repo": "Lindydancer/ini-mode"
+  }
+}

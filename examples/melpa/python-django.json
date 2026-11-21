@@ -1,0 +1,18 @@
+{
+  "id": 6993194,
+  "name": "fgallina/python-django.el",
+  "description": "An Emacs package for managing Django projects.",
+  "url": "https://github.com/fgallina/python-django.el",
+  "stars": 66,
+  "updated": "2017-01-08T23:00:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "python-django",
+    "fetcher": "github",
+    "repo": "fgallina/python-django.el"
+  }
+}

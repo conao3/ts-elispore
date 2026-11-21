@@ -1,0 +1,18 @@
+{
+  "id": 475169713,
+  "name": "ber-ro/diffed",
+  "description": "Emacs major mode which uses diff output as a user interface for synchronization.",
+  "url": "https://github.com/ber-ro/diffed",
+  "stars": 10,
+  "updated": "2024-06-18T20:39:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "diffed",
+    "fetcher": "github",
+    "repo": "ber-ro/diffed"
+  }
+}

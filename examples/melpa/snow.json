@@ -1,0 +1,18 @@
+{
+  "id": 230031772,
+  "name": "alphapapa/snow.el",
+  "description": "Let it snow in Emacs!",
+  "url": "https://github.com/alphapapa/snow.el",
+  "stars": 86,
+  "updated": "2022-12-26T22:38:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "snow",
+    "fetcher": "github",
+    "repo": "alphapapa/snow.el"
+  }
+}

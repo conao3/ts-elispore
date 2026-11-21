@@ -1,0 +1,18 @@
+{
+  "id": 3975287,
+  "name": "svend/ibuffer-tramp",
+  "description": "Group ibuffer list by TRAMP connection (emacs)",
+  "url": "https://github.com/svend/ibuffer-tramp",
+  "stars": 10,
+  "updated": "2018-01-27T21:23:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ibuffer-tramp",
+    "fetcher": "github",
+    "repo": "svend/ibuffer-tramp"
+  }
+}

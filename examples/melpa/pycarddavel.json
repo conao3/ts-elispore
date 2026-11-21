@@ -1,0 +1,18 @@
+{
+  "id": 37024251,
+  "name": "DamienCassou/pycarddavel",
+  "description": "[OBSOLETE] Integrate pycarddav in Emacs",
+  "url": "https://github.com/DamienCassou/pycarddavel",
+  "stars": 0,
+  "updated": "2015-12-09T14:30:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pycarddavel",
+    "fetcher": "github",
+    "repo": "DamienCassou/pycarddavel"
+  }
+}

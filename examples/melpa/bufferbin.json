@@ -1,0 +1,18 @@
+{
+  "id": 658463884,
+  "name": "blueridge-data/bufferbin",
+  "description": "",
+  "url": "https://github.com/blueridge-data/bufferbin",
+  "stars": 14,
+  "updated": "2023-07-09T00:53:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bufferbin",
+    "fetcher": "github",
+    "repo": "blueridge-data/bufferbin"
+  }
+}

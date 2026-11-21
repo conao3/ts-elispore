@@ -1,0 +1,18 @@
+{
+  "id": 9151412,
+  "name": "skeeto/at-el",
+  "description": "Prototype-based Emacs Lisp object system",
+  "url": "https://github.com/skeeto/at-el",
+  "stars": 72,
+  "updated": "2024-09-23T13:20:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "@",
+    "fetcher": "github",
+    "repo": "skeeto/at-el"
+  }
+}

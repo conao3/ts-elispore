@@ -1,0 +1,19 @@
+{
+  "id": 506503,
+  "name": "ecukes/ecukes",
+  "description": "Cucumber for Emacs",
+  "url": "https://github.com/ecukes/ecukes",
+  "stars": 203,
+  "updated": "2025-12-11T23:08:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ecukes",
+    "fetcher": "github",
+    "repo": "ecukes/ecukes",
+    "files": "(\"ecukes*\" \"templates\" \"bin\" \"reporters\")"
+  }
+}

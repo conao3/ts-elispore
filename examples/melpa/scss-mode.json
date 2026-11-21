@@ -1,0 +1,18 @@
+{
+  "id": 1162619,
+  "name": "antonj/scss-mode",
+  "description": "Emacs mode for SCSS files (http://sass-lang.com)",
+  "url": "https://github.com/antonj/scss-mode",
+  "stars": 202,
+  "updated": "2018-01-23T17:08:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scss-mode",
+    "fetcher": "github",
+    "repo": "antonj/scss-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 31758579,
+  "name": "emacs-helm/helm-bbdb",
+  "description": "A Helm interface for bbdb",
+  "url": "https://github.com/emacs-helm/helm-bbdb",
+  "stars": 11,
+  "updated": "2026-08-29T22:02:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-bbdb",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-bbdb"
+  }
+}

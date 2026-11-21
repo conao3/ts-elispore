@@ -1,0 +1,18 @@
+{
+  "id": 266365474,
+  "name": "chenyanming/kana",
+  "description": "Learn Japanese kana (仮名，五十音) in emacs.",
+  "url": "https://github.com/chenyanming/kana",
+  "stars": 48,
+  "updated": "2021-05-31T14:27:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kana",
+    "fetcher": "github",
+    "repo": "chenyanming/kana"
+  }
+}

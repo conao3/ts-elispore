@@ -1,0 +1,18 @@
+{
+  "id": 2285514,
+  "name": "mpasternacki/chef-mode",
+  "description": "Emacs mode to edit Chef repositories",
+  "url": "https://github.com/mpasternacki/chef-mode",
+  "stars": 20,
+  "updated": "2018-06-28T14:54:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chef-mode",
+    "fetcher": "github",
+    "repo": "mpasternacki/chef-mode"
+  }
+}

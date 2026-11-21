@@ -1,0 +1,18 @@
+{
+  "id": 41065505,
+  "name": "dimalik/empos",
+  "description": "Emacs Paper Online Search",
+  "url": "https://github.com/dimalik/empos",
+  "stars": 6,
+  "updated": "2015-10-11T20:43:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "empos",
+    "fetcher": "github",
+    "repo": "dimalik/empos"
+  }
+}

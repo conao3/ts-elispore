@@ -1,0 +1,18 @@
+{
+  "id": 905555784,
+  "name": "TriAttack238/trope-mode",
+  "description": "A GNU Emacs major mode for the TV Tropes markup format",
+  "url": "https://github.com/TriAttack238/trope-mode",
+  "stars": 1,
+  "updated": "2025-01-20T20:29:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "trope-mode",
+    "fetcher": "github",
+    "repo": "TriAttack238/trope-mode"
+  }
+}

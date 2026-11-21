@@ -1,0 +1,26 @@
+{
+  "id": 580234415,
+  "name": "beacoder/org-ivy-search",
+  "description": "Full text search for org files.",
+  "url": "https://github.com/beacoder/org-ivy-search",
+  "stars": 4,
+  "updated": "2026-07-15T01:35:41Z",
+  "archived": false,
+  "topics": [
+    "full-text-search",
+    "fuzzy-matching",
+    "ivy",
+    "org",
+    "org-files",
+    "org-ivy-search",
+    "search-on-the-fly"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-ivy-search",
+    "fetcher": "github",
+    "repo": "beacoder/org-ivy-search"
+  }
+}

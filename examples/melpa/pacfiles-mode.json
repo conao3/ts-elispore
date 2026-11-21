@@ -1,0 +1,18 @@
+{
+  "id": 140158347,
+  "name": "UndeadKernel/pacfiles-mode",
+  "description": "Emacs major mode to manage pacnew and pacsave files left by the pacman Arch tool",
+  "url": "https://github.com/UndeadKernel/pacfiles-mode",
+  "stars": 45,
+  "updated": "2023-05-03T15:27:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pacfiles-mode",
+    "fetcher": "github",
+    "repo": "UndeadKernel/pacfiles-mode"
+  }
+}

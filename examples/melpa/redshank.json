@@ -1,0 +1,18 @@
+{
+  "id": 98401761,
+  "name": "emacsattic/redshank",
+  "description": "Common Lisp Editing Extensions",
+  "url": "https://github.com/emacsattic/redshank",
+  "stars": 12,
+  "updated": "2018-07-30T04:07:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "redshank",
+    "fetcher": "github",
+    "repo": "emacsattic/redshank"
+  }
+}

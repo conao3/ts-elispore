@@ -1,0 +1,18 @@
+{
+  "id": 73593862,
+  "name": "andreasjansson/language-detection.el",
+  "description": "Automatic programming language detection of code snippets, in Emacs Lisp",
+  "url": "https://github.com/andreasjansson/language-detection.el",
+  "stars": 81,
+  "updated": "2016-11-23T23:48:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "language-detection",
+    "fetcher": "github",
+    "repo": "andreasjansson/language-detection.el"
+  }
+}

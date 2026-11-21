@@ -1,0 +1,18 @@
+{
+  "id": 1124815899,
+  "name": "vshender/emacs-life-calendar",
+  "description": "Life Calendar for Emacs",
+  "url": "https://github.com/vshender/emacs-life-calendar",
+  "stars": 26,
+  "updated": "2026-01-11T23:26:14Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "self-improvement"],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "life-calendar",
+    "fetcher": "github",
+    "repo": "vshender/emacs-life-calendar"
+  }
+}

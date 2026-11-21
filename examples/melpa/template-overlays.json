@@ -1,0 +1,18 @@
+{
+  "id": 138051284,
+  "name": "mmontone/template-overlays",
+  "description": "Display template regions using Emacs overlays.",
+  "url": "https://github.com/mmontone/template-overlays",
+  "stars": 8,
+  "updated": "2018-07-06T11:47:16Z",
+  "archived": false,
+  "topics": ["emacs", "overlays", "templates"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "template-overlays",
+    "fetcher": "github",
+    "repo": "mmontone/template-overlays"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 58431892,
+  "name": "mola-T/flymd",
+  "description": "flymd - Emacs on the fly markdown preview",
+  "url": "https://github.com/mola-T/flymd",
+  "stars": 142,
+  "updated": "2019-04-09T04:59:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "CSS",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymd",
+    "fetcher": "github",
+    "repo": "mola-T/flymd",
+    "files": "(:defaults \"flymd.html\")"
+  }
+}

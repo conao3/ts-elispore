@@ -1,0 +1,18 @@
+{
+  "id": 107274640,
+  "name": "jamiguet/network-watch",
+  "description": "Emacs global minor mode for handling intermitent network connectivity.",
+  "url": "https://github.com/jamiguet/network-watch",
+  "stars": 6,
+  "updated": "2017-11-23T19:45:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "network-watch",
+    "fetcher": "github",
+    "repo": "jamiguet/network-watch"
+  }
+}

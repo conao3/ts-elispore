@@ -1,0 +1,19 @@
+{
+  "id": 5888437,
+  "name": "tinted-theming/base16-emacs",
+  "description": "Base16 themes for Emacs",
+  "url": "https://github.com/tinted-theming/base16-emacs",
+  "stars": 422,
+  "updated": "2026-11-15T04:54:36Z",
+  "archived": false,
+  "topics": ["base16", "emacs", "theme", "themes"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "base16-theme",
+    "fetcher": "github",
+    "repo": "tinted-theming/base16-emacs",
+    "files": "(:defaults \"build/*.el\")"
+  }
+}

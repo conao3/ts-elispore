@@ -1,0 +1,18 @@
+{
+  "id": 26717440,
+  "name": "niku/markdown-preview-eww",
+  "description": "Realtime markdown preview by eww",
+  "url": "https://github.com/niku/markdown-preview-eww",
+  "stars": 122,
+  "updated": "2021-04-30T02:07:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "markdown-preview-eww",
+    "fetcher": "github",
+    "repo": "niku/markdown-preview-eww"
+  }
+}

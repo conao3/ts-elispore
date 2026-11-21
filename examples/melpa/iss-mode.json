@@ -1,0 +1,18 @@
+{
+  "id": 24177472,
+  "name": "rasmus-toftdahl-olesen/iss-mode",
+  "description": "Import of Stefan Reichoer's InnoSetup mode for emacs (just imported here so it can be packaged with melpa)",
+  "url": "https://github.com/rasmus-toftdahl-olesen/iss-mode",
+  "stars": 2,
+  "updated": "2014-10-01T19:13:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "iss-mode",
+    "fetcher": "github",
+    "repo": "rasmus-toftdahl-olesen/iss-mode"
+  }
+}

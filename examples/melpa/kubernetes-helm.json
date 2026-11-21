@@ -1,0 +1,18 @@
+{
+  "id": 159884993,
+  "name": "abrochard/kubernetes-helm",
+  "description": "Emacs utility functions to interact with helm, the kubernetes package manager",
+  "url": "https://github.com/abrochard/kubernetes-helm",
+  "stars": 15,
+  "updated": "2023-02-21T14:38:43Z",
+  "archived": false,
+  "topics": ["emacs", "helm", "kubernetes"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kubernetes-helm",
+    "fetcher": "github",
+    "repo": "abrochard/kubernetes-helm"
+  }
+}

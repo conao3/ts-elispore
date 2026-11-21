@@ -1,0 +1,18 @@
+{
+  "id": 5906028,
+  "name": "clarete/hackernews.el",
+  "description": "Hacker News client for Emacs",
+  "url": "https://github.com/clarete/hackernews.el",
+  "stars": 261,
+  "updated": "2025-11-24T08:49:28Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "hacker-news", "hacker-news-client"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hackernews",
+    "fetcher": "github",
+    "repo": "clarete/hackernews.el"
+  }
+}

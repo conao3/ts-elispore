@@ -1,0 +1,18 @@
+{
+  "id": 14712157,
+  "name": "masutaka/emacs-helm-hatena-bookmark",
+  "description": "Helm interface for Hatena::Bookmark",
+  "url": "https://github.com/masutaka/emacs-helm-hatena-bookmark",
+  "stars": 8,
+  "updated": "2025-08-09T04:41:02Z",
+  "archived": false,
+  "topics": ["emacs-helm", "emacs-lisp", "hatena-bookmark"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-hatena-bookmark",
+    "fetcher": "github",
+    "repo": "masutaka/emacs-helm-hatena-bookmark"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 25470100,
+  "name": "iquiw/hyai",
+  "description": "Haskell Yet Another Indentation",
+  "url": "https://github.com/iquiw/hyai",
+  "stars": 3,
+  "updated": "2019-05-02T13:40:35Z",
+  "archived": false,
+  "topics": ["emacs", "haskell", "indentation"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hyai",
+    "fetcher": "github",
+    "repo": "iquiw/hyai"
+  }
+}

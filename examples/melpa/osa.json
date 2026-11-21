@@ -1,0 +1,19 @@
+{
+  "id": 260323914,
+  "name": "atomontage/osa",
+  "description": "Emacs Lisp to Open Scripting Architecture (AppleScript / JavaScript) bridge",
+  "url": "https://github.com/atomontage/osa",
+  "stars": 21,
+  "updated": "2020-05-22T21:03:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "osa",
+    "fetcher": "github",
+    "repo": "atomontage/osa",
+    "files": "(:defaults (\"scripts\" \"scripts/*.js\" \"scripts/*.applescript\"))"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 144344728,
+  "name": "walseb/blimp",
+  "description": "A complete wrapper around all imagemagick commands with autocompletion, descriptions and hints displayed in prompt",
+  "url": "https://github.com/walseb/blimp",
+  "stars": 115,
+  "updated": "2020-01-19T17:03:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "blimp",
+    "fetcher": "github",
+    "repo": "walseb/blimp"
+  }
+}

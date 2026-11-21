@@ -1,0 +1,18 @@
+{
+  "id": 106791631,
+  "name": "alan-platform/AlanForEmacs",
+  "description": "",
+  "url": "https://github.com/alan-platform/AlanForEmacs",
+  "stars": 6,
+  "updated": "2026-05-23T13:30:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "alan-mode",
+    "fetcher": "github",
+    "repo": "alan-platform/AlanForEmacs"
+  }
+}

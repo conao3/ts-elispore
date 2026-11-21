@@ -1,0 +1,18 @@
+{
+  "id": 262387336,
+  "name": "conao3/iceberg-theme.el",
+  "description": "Well-designed, eye-friendly, dark blue color scheme",
+  "url": "https://github.com/conao3/iceberg-theme.el",
+  "stars": 27,
+  "updated": "2026-11-03T07:50:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "iceberg-theme",
+    "fetcher": "github",
+    "repo": "conao3/iceberg-theme.el"
+  }
+}

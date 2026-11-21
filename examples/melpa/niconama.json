@@ -1,0 +1,18 @@
+{
+  "id": 61913292,
+  "name": "NOBUTOKA/niconama.el",
+  "description": "Niconico Live Broadcast tools in emacs.",
+  "url": "https://github.com/NOBUTOKA/niconama.el",
+  "stars": 4,
+  "updated": "2017-09-10T15:06:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "niconama",
+    "fetcher": "github",
+    "repo": "NOBUTOKA/niconama.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 1259923,
+  "name": "tequilasunset/apples-mode",
+  "description": "Major mode for editing and executing AppleScript code",
+  "url": "https://github.com/tequilasunset/apples-mode",
+  "stars": 13,
+  "updated": "2021-03-06T20:20:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "apples-mode",
+    "fetcher": "github",
+    "repo": "tequilasunset/apples-mode",
+    "files": "(\"*.el\" \"apples-mode\")"
+  }
+}

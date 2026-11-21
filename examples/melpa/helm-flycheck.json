@@ -1,0 +1,18 @@
+{
+  "id": 15396128,
+  "name": "yasuyk/helm-flycheck",
+  "description": "Show flycheck errors with helm",
+  "url": "https://github.com/yasuyk/helm-flycheck",
+  "stars": 28,
+  "updated": "2018-06-08T06:56:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-flycheck",
+    "fetcher": "github",
+    "repo": "yasuyk/helm-flycheck"
+  }
+}

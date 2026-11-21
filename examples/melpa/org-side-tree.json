@@ -1,0 +1,18 @@
+{
+  "id": 689089349,
+  "name": "localauthor/org-side-tree",
+  "description": "Navigate Org-mode outlines in Emacs via side window",
+  "url": "https://github.com/localauthor/org-side-tree",
+  "stars": 73,
+  "updated": "2024-06-01T10:02:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-side-tree",
+    "fetcher": "github",
+    "repo": "localauthor/org-side-tree"
+  }
+}

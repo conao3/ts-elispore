@@ -1,0 +1,18 @@
+{
+  "id": 67124560,
+  "name": "zpp0/flycheck-checkpatch",
+  "description": "Flycheck support for checkpatch.pl tool",
+  "url": "https://github.com/zpp0/flycheck-checkpatch",
+  "stars": 2,
+  "updated": "2024-08-14T20:00:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-checkpatch",
+    "fetcher": "github",
+    "repo": "zpp0/flycheck-checkpatch"
+  }
+}

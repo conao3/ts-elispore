@@ -1,0 +1,18 @@
+{
+  "id": 14086649,
+  "name": "Fuco1/free-keys",
+  "description": "Show free keybindings for modkeys or prefixes",
+  "url": "https://github.com/Fuco1/free-keys",
+  "stars": 118,
+  "updated": "2025-05-12T15:27:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "free-keys",
+    "fetcher": "github",
+    "repo": "Fuco1/free-keys"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": 885147054,
+  "name": "jamescherti/compile-angel.el",
+  "description": "Auto Byte/Native-Compile all Elisp files, to Speed up Emacs",
+  "url": "https://github.com/jamescherti/compile-angel.el",
+  "stars": 143,
+  "updated": "2026-11-10T15:12:53Z",
+  "archived": false,
+  "topics": [
+    "auto-compile",
+    "byte-compilation",
+    "byte-compile",
+    "compile-angel",
+    "elisp",
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "load",
+    "native-compilation",
+    "native-compile",
+    "require"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "compile-angel",
+    "fetcher": "github",
+    "repo": "jamescherti/compile-angel.el"
+  }
+}

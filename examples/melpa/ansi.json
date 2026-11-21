@@ -1,0 +1,18 @@
+{
+  "id": 1240885,
+  "name": "rejeep/ansi.el",
+  "description": "Emacs library to convert strings into ansi",
+  "url": "https://github.com/rejeep/ansi.el",
+  "stars": 30,
+  "updated": "2025-11-19T01:08:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ansi",
+    "fetcher": "github",
+    "repo": "rejeep/ansi.el"
+  }
+}

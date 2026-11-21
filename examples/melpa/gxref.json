@@ -1,0 +1,18 @@
+{
+  "id": 72270965,
+  "name": "dedi/gxref",
+  "description": "GNU Emacs xref backend using GNU Global",
+  "url": "https://github.com/dedi/gxref",
+  "stars": 19,
+  "updated": "2017-04-16T06:14:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gxref",
+    "fetcher": "github",
+    "repo": "dedi/gxref"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 23640362,
+  "name": "greenrd/magit-topgit",
+  "description": "Topgit extension for Magit",
+  "url": "https://github.com/greenrd/magit-topgit",
+  "stars": 2,
+  "updated": "2016-11-05T16:26:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-topgit",
+    "fetcher": "github",
+    "repo": "greenrd/magit-topgit"
+  }
+}

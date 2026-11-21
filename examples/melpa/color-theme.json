@@ -1,0 +1,19 @@
+{
+  "id": 155451503,
+  "name": "emacsattic/color-theme",
+  "description": "An OBSOLETE color-theme implementation",
+  "url": "https://github.com/emacsattic/color-theme",
+  "stars": 1,
+  "updated": "2019-04-04T19:23:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "color-theme",
+    "fetcher": "github",
+    "repo": "emacsattic/color-theme",
+    "files": "(:defaults \"themes\")"
+  }
+}

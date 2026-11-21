@@ -1,0 +1,18 @@
+{
+  "id": 75336833,
+  "name": "mgrachten/bln-mode",
+  "description": "Minor mode for binary line navigation in Emacs",
+  "url": "https://github.com/mgrachten/bln-mode",
+  "stars": 12,
+  "updated": "2018-11-21T09:18:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bln-mode",
+    "fetcher": "github",
+    "repo": "mgrachten/bln-mode"
+  }
+}

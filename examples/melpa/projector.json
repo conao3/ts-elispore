@@ -1,0 +1,18 @@
+{
+  "id": 13932553,
+  "name": "waymondo/projector.el",
+  "description": "lightweight Emacs library for managing project/repository-aware shell and shell command buffers",
+  "url": "https://github.com/waymondo/projector.el",
+  "stars": 16,
+  "updated": "2021-11-12T15:14:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "projector",
+    "fetcher": "github",
+    "repo": "waymondo/projector.el"
+  }
+}

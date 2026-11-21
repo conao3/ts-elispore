@@ -1,0 +1,18 @@
+{
+  "id": 64946760,
+  "name": "OpenSourceOrg/el-opensourceorg",
+  "description": "elisp API Bindings to the OSI License API",
+  "url": "https://github.com/OpenSourceOrg/el-opensourceorg",
+  "stars": 2,
+  "updated": "2020-04-05T14:26:26Z",
+  "archived": true,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "opensource",
+    "fetcher": "github",
+    "repo": "OpenSourceOrg/el-opensourceorg"
+  }
+}

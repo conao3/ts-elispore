@@ -1,0 +1,18 @@
+{
+  "id": 272974556,
+  "name": "laishulu/evil-pinyin",
+  "description": "Evil search Chinese characters by pinyin",
+  "url": "https://github.com/laishulu/evil-pinyin",
+  "stars": 32,
+  "updated": "2023-10-16T15:58:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-pinyin",
+    "fetcher": "github",
+    "repo": "laishulu/evil-pinyin"
+  }
+}

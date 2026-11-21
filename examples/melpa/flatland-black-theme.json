@@ -1,0 +1,18 @@
+{
+  "id": 26705074,
+  "name": "emacsfodder/emacs-flatland-black-theme",
+  "description": "",
+  "url": "https://github.com/emacsfodder/emacs-flatland-black-theme",
+  "stars": 8,
+  "updated": "2017-08-08T13:12:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flatland-black-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-flatland-black-theme"
+  }
+}

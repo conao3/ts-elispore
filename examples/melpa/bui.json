@@ -1,0 +1,18 @@
+{
+  "id": 71469130,
+  "name": "alezost/bui.el",
+  "description": "Buffer interface library for Emacs",
+  "url": "https://github.com/alezost/bui.el",
+  "stars": 121,
+  "updated": "2026-05-02T07:36:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bui",
+    "fetcher": "github",
+    "repo": "alezost/bui.el"
+  }
+}

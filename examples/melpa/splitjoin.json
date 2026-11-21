@@ -1,0 +1,18 @@
+{
+  "id": 22882748,
+  "name": "emacsorphanage/splitjoin",
+  "description": "Emacs port of splitjoin.vim",
+  "url": "https://github.com/emacsorphanage/splitjoin",
+  "stars": 9,
+  "updated": "2015-10-31T13:43:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "splitjoin",
+    "fetcher": "github",
+    "repo": "emacsorphanage/splitjoin"
+  }
+}

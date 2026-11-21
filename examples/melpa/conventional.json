@@ -1,0 +1,27 @@
+{
+  "id": 1002655661,
+  "name": "KeyWeeUsr/conventional",
+  "description": "A collection of minor modes supporting Conventional syntax.",
+  "url": "https://github.com/KeyWeeUsr/conventional",
+  "stars": 2,
+  "updated": "2025-06-30T06:04:21Z",
+  "archived": false,
+  "topics": [
+    "convention",
+    "conventional",
+    "conventional-comments",
+    "conventional-commits",
+    "elisp",
+    "emacs",
+    "emacs-package",
+    "minor-mode"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "conventional",
+    "fetcher": "github",
+    "repo": "KeyWeeUsr/conventional"
+  }
+}

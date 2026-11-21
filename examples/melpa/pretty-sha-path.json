@@ -1,0 +1,18 @@
+{
+  "id": 24567205,
+  "name": "alezost/pretty-sha-path.el",
+  "description": "Prettify Guix/Nix store paths in Emacs",
+  "url": "https://github.com/alezost/pretty-sha-path.el",
+  "stars": 6,
+  "updated": "2014-11-07T12:23:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pretty-sha-path",
+    "fetcher": "github",
+    "repo": "alezost/pretty-sha-path.el"
+  }
+}

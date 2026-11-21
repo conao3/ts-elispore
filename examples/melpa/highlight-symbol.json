@@ -1,0 +1,18 @@
+{
+  "id": 1113041,
+  "name": "nschum/highlight-symbol.el",
+  "description": "Emacs: automatic and manual symbol highlighting",
+  "url": "https://github.com/nschum/highlight-symbol.el",
+  "stars": 285,
+  "updated": "2023-02-17T04:52:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "highlight-symbol",
+    "fetcher": "github",
+    "repo": "nschum/highlight-symbol.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 88217868,
+  "name": "alphapapa/org-sticky-header",
+  "description": "Show off-screen Org heading at top of window",
+  "url": "https://github.com/alphapapa/org-sticky-header",
+  "stars": 158,
+  "updated": "2023-11-22T17:42:41Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-sticky-header",
+    "fetcher": "github",
+    "repo": "alphapapa/org-sticky-header"
+  }
+}

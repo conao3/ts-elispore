@@ -1,0 +1,18 @@
+{
+  "id": 226688421,
+  "name": "publicimageltd/notmuch-bookmarks",
+  "description": "Bookmark handling for notmuch buffers",
+  "url": "https://github.com/publicimageltd/notmuch-bookmarks",
+  "stars": 6,
+  "updated": "2025-12-03T20:59:49Z",
+  "archived": false,
+  "topics": ["bookmarks", "emacs-package", "mail", "notmuch"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "notmuch-bookmarks",
+    "fetcher": "github",
+    "repo": "publicimageltd/notmuch-bookmarks"
+  }
+}

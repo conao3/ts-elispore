@@ -1,0 +1,19 @@
+{
+  "id": 18561714,
+  "name": "atykhonov/iregister.el",
+  "description": "Interactive register commands for Emacs",
+  "url": "https://github.com/atykhonov/iregister.el",
+  "stars": 18,
+  "updated": "2015-05-15T21:07:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "iregister",
+    "fetcher": "github",
+    "repo": "atykhonov/iregister.el",
+    "files": "(:defaults (:exclude \".bump-version.el\"))"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 7747707,
+  "name": "knu/emacsc",
+  "description": "Emacs as a command line tool",
+  "url": "https://github.com/knu/emacsc",
+  "stars": 21,
+  "updated": "2026-11-21T15:35:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Perl",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emacsc",
+    "fetcher": "github",
+    "repo": "knu/emacsc",
+    "files": "(:defaults \"bin\")"
+  }
+}

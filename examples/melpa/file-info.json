@@ -1,0 +1,18 @@
+{
+  "id": 590594735,
+  "name": "Artawower/file-info.el",
+  "description": "All necessary information about current file in hydra + posframe",
+  "url": "https://github.com/Artawower/file-info.el",
+  "stars": 68,
+  "updated": "2026-10-31T09:49:06Z",
+  "archived": false,
+  "topics": ["emacs", "file", "hydra"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "file-info",
+    "fetcher": "github",
+    "repo": "Artawower/file-info.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 192029983,
+  "name": "cireu/counsel-ffdata",
+  "description": "Use ivy interface to access your firefox bookmarks and history in Emacs",
+  "url": "https://github.com/cireu/counsel-ffdata",
+  "stars": 33,
+  "updated": "2022-03-29T05:31:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-ffdata",
+    "fetcher": "github",
+    "repo": "cireu/counsel-ffdata"
+  }
+}

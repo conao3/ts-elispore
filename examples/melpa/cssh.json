@@ -1,0 +1,18 @@
+{
+  "id": 296891,
+  "name": "dimitri/cssh",
+  "description": "ClusterSSH meets Emacs",
+  "url": "https://github.com/dimitri/cssh",
+  "stars": 27,
+  "updated": "2015-08-10T17:09:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cssh",
+    "fetcher": "github",
+    "repo": "dimitri/cssh"
+  }
+}

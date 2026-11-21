@@ -1,0 +1,18 @@
+{
+  "id": 279930676,
+  "name": "jcs-legacy/undersea-theme",
+  "description": "Theme styled after undersea imagery.",
+  "url": "https://github.com/jcs-legacy/undersea-theme",
+  "stars": 3,
+  "updated": "2026-06-18T17:30:11Z",
+  "archived": false,
+  "topics": ["dark", "emacs", "sea", "theme", "under"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "undersea-theme",
+    "fetcher": "github",
+    "repo": "jcs-legacy/undersea-theme"
+  }
+}

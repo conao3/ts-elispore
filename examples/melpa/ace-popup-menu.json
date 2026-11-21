@@ -1,0 +1,18 @@
+{
+  "id": 38539108,
+  "name": "mrkkrp/ace-popup-menu",
+  "description": "Replace GUI popup menu in Emacs with something more efficient",
+  "url": "https://github.com/mrkkrp/ace-popup-menu",
+  "stars": 85,
+  "updated": "2026-08-02T09:38:17Z",
+  "archived": false,
+  "topics": ["avy", "emacs", "popup-menu"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ace-popup-menu",
+    "fetcher": "github",
+    "repo": "mrkkrp/ace-popup-menu"
+  }
+}

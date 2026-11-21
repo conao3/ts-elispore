@@ -1,0 +1,18 @@
+{
+  "id": 6554306,
+  "name": "sabof/stripe-buffer",
+  "description": "add stripes to \"list\" buffers",
+  "url": "https://github.com/sabof/stripe-buffer",
+  "stars": 71,
+  "updated": "2015-10-27T16:01:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "stripe-buffer",
+    "fetcher": "github",
+    "repo": "sabof/stripe-buffer"
+  }
+}

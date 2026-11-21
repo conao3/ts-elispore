@@ -1,0 +1,18 @@
+{
+  "id": 36087823,
+  "name": "metascript/metascript-mode",
+  "description": "Emacs major mode for the metascript programming language.",
+  "url": "https://github.com/metascript/metascript-mode",
+  "stars": 0,
+  "updated": "2015-07-09T00:58:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "metascript-mode",
+    "fetcher": "github",
+    "repo": "metascript/metascript-mode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 13235141,
+  "name": "mkmcc/jumblr",
+  "description": "an anagram game for emacs",
+  "url": "https://github.com/mkmcc/jumblr",
+  "stars": 6,
+  "updated": "2017-07-27T20:29:16Z",
+  "archived": false,
+  "topics": ["emacs-packages", "games", "word-games"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jumblr",
+    "fetcher": "github",
+    "repo": "mkmcc/jumblr",
+    "files": "(\"jumblr.el\" \"dict\")"
+  }
+}

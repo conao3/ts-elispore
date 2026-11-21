@@ -1,0 +1,18 @@
+{
+  "id": 198020537,
+  "name": "karlotness/flymake-quickdef",
+  "description": "Quickly define a new Flymake backend",
+  "url": "https://github.com/karlotness/flymake-quickdef",
+  "stars": 21,
+  "updated": "2020-03-08T23:44:12Z",
+  "archived": false,
+  "topics": ["emacs", "flymake"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-quickdef",
+    "fetcher": "github",
+    "repo": "karlotness/flymake-quickdef"
+  }
+}

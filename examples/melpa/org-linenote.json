@@ -1,0 +1,18 @@
+{
+  "id": 759315138,
+  "name": "seokbeomKim/org-linenote",
+  "description": "A Emacs note package inspired by Visual Studio Code's Linenote.",
+  "url": "https://github.com/seokbeomKim/org-linenote",
+  "stars": 37,
+  "updated": "2026-07-06T05:01:49Z",
+  "archived": false,
+  "topics": ["emacs", "linenote", "note", "org"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-linenote",
+    "fetcher": "github",
+    "repo": "seokbeomKim/org-linenote"
+  }
+}

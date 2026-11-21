@@ -1,0 +1,29 @@
+{
+  "id": 81684637,
+  "name": "ogdenwebb/emacs-kaolin-themes",
+  "description": "Set of eye pleasing themes for GNU Emacs. Supports both GUI and terminal. ",
+  "url": "https://github.com/ogdenwebb/emacs-kaolin-themes",
+  "stars": 823,
+  "updated": "2026-09-04T11:30:59Z",
+  "archived": false,
+  "topics": [
+    "color-theme",
+    "colorscheme",
+    "dark-theme",
+    "emacs",
+    "emacs-theme",
+    "light-theme",
+    "spacemacs",
+    "spacemacs-theme",
+    "theme"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kaolin-themes",
+    "fetcher": "github",
+    "repo": "ogdenwebb/emacs-kaolin-themes",
+    "files": "(:defaults \"themes/*.el\")"
+  }
+}

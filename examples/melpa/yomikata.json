@@ -1,0 +1,18 @@
+{
+  "id": 1168607139,
+  "name": "melissaboiko/yomikata-tips.el",
+  "description": "Emacs package to annotate Japanese text with furigana readings using MECAB",
+  "url": "https://github.com/melissaboiko/yomikata-tips.el",
+  "stars": 3,
+  "updated": "2026-03-04T18:11:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yomikata",
+    "fetcher": "github",
+    "repo": "melissaboiko/yomikata-tips.el"
+  }
+}

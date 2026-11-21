@@ -1,0 +1,18 @@
+{
+  "id": 558919459,
+  "name": "ROCKTAKEY/flymake-elisp-config",
+  "description": "Setup load-path for flymake on Emacs Lisp mode",
+  "url": "https://github.com/ROCKTAKEY/flymake-elisp-config",
+  "stars": 8,
+  "updated": "2026-10-18T15:58:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-elisp-config",
+    "fetcher": "github",
+    "repo": "ROCKTAKEY/flymake-elisp-config"
+  }
+}

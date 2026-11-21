@@ -1,0 +1,18 @@
+{
+  "id": 29083886,
+  "name": "xuchunyang/youdao-dictionary.el",
+  "description": "Youdao Dictionary(有道词典) interface for Emacs",
+  "url": "https://github.com/xuchunyang/youdao-dictionary.el",
+  "stars": 184,
+  "updated": "2023-10-05T19:20:28Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "youdao"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "youdao-dictionary",
+    "fetcher": "github",
+    "repo": "xuchunyang/youdao-dictionary.el"
+  }
+}

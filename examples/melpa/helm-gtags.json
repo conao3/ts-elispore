@@ -1,0 +1,18 @@
+{
+  "id": 4880828,
+  "name": "emacsorphanage/helm-gtags",
+  "description": "GNU GLOBAL helm interface",
+  "url": "https://github.com/emacsorphanage/helm-gtags",
+  "stars": 202,
+  "updated": "2026-06-19T08:37:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-gtags",
+    "fetcher": "github",
+    "repo": "emacsorphanage/helm-gtags"
+  }
+}

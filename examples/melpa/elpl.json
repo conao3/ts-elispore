@@ -1,0 +1,18 @@
+{
+  "id": 189696521,
+  "name": "twlz0ne/elpl",
+  "description": "Provides a simple interface to evaluating Emacs Lisp expressions but without contaminating current Emacs.",
+  "url": "https://github.com/twlz0ne/elpl",
+  "stars": 34,
+  "updated": "2022-06-12T02:35:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elpl",
+    "fetcher": "github",
+    "repo": "twlz0ne/elpl"
+  }
+}

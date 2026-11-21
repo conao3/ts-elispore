@@ -1,0 +1,18 @@
+{
+  "id": 10809,
+  "name": "rmm5t/maxframe.el",
+  "description": ":left_right_arrow::arrow_up_down: [Elisp] maxframe provides the ability to maximize the emacs frame and stay within the display resolution. ",
+  "url": "https://github.com/rmm5t/maxframe.el",
+  "stars": 53,
+  "updated": "2020-06-17T02:18:36Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "maxframe",
+    "fetcher": "github",
+    "repo": "rmm5t/maxframe.el"
+  }
+}

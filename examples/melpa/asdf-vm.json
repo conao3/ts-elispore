@@ -1,0 +1,18 @@
+{
+  "id": 1004675091,
+  "name": "zellio/emacs-asdf-vm",
+  "description": "",
+  "url": "https://github.com/zellio/emacs-asdf-vm",
+  "stars": 3,
+  "updated": "2025-07-10T10:54:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "asdf-vm",
+    "fetcher": "github",
+    "repo": "zellio/emacs-asdf-vm"
+  }
+}

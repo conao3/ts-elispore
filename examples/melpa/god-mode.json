@@ -1,0 +1,18 @@
+{
+  "id": 12019350,
+  "name": "emacsorphanage/god-mode",
+  "description": "Minor mode for God-like command entering",
+  "url": "https://github.com/emacsorphanage/god-mode",
+  "stars": 969,
+  "updated": "2026-04-28T01:16:12Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-keybindings", "emacs-packages", "modal-editing"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "god-mode",
+    "fetcher": "github",
+    "repo": "emacsorphanage/god-mode"
+  }
+}

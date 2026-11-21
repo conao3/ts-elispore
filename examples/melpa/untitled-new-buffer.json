@@ -1,0 +1,18 @@
+{
+  "id": 76232176,
+  "name": "emacs-jp/untitled-new-buffer.el",
+  "description": "Open untitled new buffer like other text editors in Emacs",
+  "url": "https://github.com/emacs-jp/untitled-new-buffer.el",
+  "stars": 5,
+  "updated": "2017-01-09T16:45:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "untitled-new-buffer",
+    "fetcher": "github",
+    "repo": "emacs-jp/untitled-new-buffer.el"
+  }
+}

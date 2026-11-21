@@ -1,0 +1,18 @@
+{
+  "id": 6106609,
+  "name": "jorgenschaefer/legalese",
+  "description": "Emacs extension to add legalese boilerplate code",
+  "url": "https://github.com/jorgenschaefer/legalese",
+  "stars": 9,
+  "updated": "2020-01-19T22:48:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "legalese",
+    "fetcher": "github",
+    "repo": "jorgenschaefer/legalese"
+  }
+}

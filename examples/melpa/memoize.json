@@ -1,0 +1,18 @@
+{
+  "id": 5319642,
+  "name": "skeeto/emacs-memoize",
+  "description": "Elisp memoization functions",
+  "url": "https://github.com/skeeto/emacs-memoize",
+  "stars": 58,
+  "updated": "2024-04-14T15:18:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "memoize",
+    "fetcher": "github",
+    "repo": "skeeto/emacs-memoize"
+  }
+}

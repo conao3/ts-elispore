@@ -1,0 +1,18 @@
+{
+  "id": 5501921,
+  "name": "rolandwalker/minimal-session-saver",
+  "description": "Very lean session saver for Emacs",
+  "url": "https://github.com/rolandwalker/minimal-session-saver",
+  "stars": 4,
+  "updated": "2025-02-28T10:21:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "minimal-session-saver",
+    "fetcher": "github",
+    "repo": "rolandwalker/minimal-session-saver"
+  }
+}

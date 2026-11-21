@@ -1,0 +1,18 @@
+{
+  "id": 17952042,
+  "name": "emacsorphanage/ov",
+  "description": "Overlay library for Emacs Lisp.",
+  "url": "https://github.com/emacsorphanage/ov",
+  "stars": 219,
+  "updated": "2023-05-22T11:17:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ov",
+    "fetcher": "github",
+    "repo": "emacsorphanage/ov"
+  }
+}

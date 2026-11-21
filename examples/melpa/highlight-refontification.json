@@ -1,0 +1,18 @@
+{
+  "id": 80058059,
+  "name": "Lindydancer/highlight-refontification",
+  "description": "Visualize how font-lock refontifies a buffer",
+  "url": "https://github.com/Lindydancer/highlight-refontification",
+  "stars": 22,
+  "updated": "2025-01-04T16:23:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "highlight-refontification",
+    "fetcher": "github",
+    "repo": "Lindydancer/highlight-refontification"
+  }
+}

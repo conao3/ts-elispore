@@ -1,0 +1,18 @@
+{
+  "id": 137567079,
+  "name": "mschuldt/code-archive",
+  "description": "git supported code archive and reference for org-mode",
+  "url": "https://github.com/mschuldt/code-archive",
+  "stars": 16,
+  "updated": "2021-07-11T22:03:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "code-archive",
+    "fetcher": "github",
+    "repo": "mschuldt/code-archive"
+  }
+}

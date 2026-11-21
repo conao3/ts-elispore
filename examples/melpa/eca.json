@@ -1,0 +1,18 @@
+{
+  "id": 1002984636,
+  "name": "editor-code-assistant/eca-emacs",
+  "description": "Editor Code Assistant (ECA) integration for Emacs",
+  "url": "https://github.com/editor-code-assistant/eca-emacs",
+  "stars": 534,
+  "updated": "2026-11-13T21:25:02Z",
+  "archived": false,
+  "topics": ["editor", "emacs", "hacktoberfest", "tools"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "eca",
+    "fetcher": "github",
+    "repo": "editor-code-assistant/eca-emacs"
+  }
+}

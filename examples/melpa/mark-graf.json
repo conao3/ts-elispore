@@ -1,0 +1,18 @@
+{
+  "id": 1156173972,
+  "name": "hyperZphere/mark-graf",
+  "description": "Emacs Markdown mode with inline rendering",
+  "url": "https://github.com/hyperZphere/mark-graf",
+  "stars": 11,
+  "updated": "2026-02-24T16:44:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mark-graf",
+    "fetcher": "github",
+    "repo": "hyperZphere/mark-graf"
+  }
+}

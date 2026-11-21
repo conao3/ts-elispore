@@ -1,0 +1,19 @@
+{
+  "id": 7905983,
+  "name": "sabof/php-eldoc",
+  "description": "eldoc backend for php - displays function arguments in the minibuffer when cursor is on top of them",
+  "url": "https://github.com/sabof/php-eldoc",
+  "stars": 19,
+  "updated": "2017-03-21T20:42:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "php-eldoc",
+    "fetcher": "github",
+    "repo": "sabof/php-eldoc",
+    "files": "(\"*.el\" \"*.php\")"
+  }
+}

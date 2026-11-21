@@ -1,0 +1,18 @@
+{
+  "id": 343108788,
+  "name": "lassik/emacs-desktop-mail-user-agent",
+  "description": "Use Linux/Windows/Mac mail program to send mail from Emacs",
+  "url": "https://github.com/lassik/emacs-desktop-mail-user-agent",
+  "stars": 3,
+  "updated": "2021-05-19T10:11:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "desktop-mail-user-agent",
+    "fetcher": "github",
+    "repo": "lassik/emacs-desktop-mail-user-agent"
+  }
+}

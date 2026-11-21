@@ -1,0 +1,18 @@
+{
+  "id": 108583429,
+  "name": "Lindydancer/dynamic-spaces",
+  "description": "When editing, make text separated by two or more spaces stay in place",
+  "url": "https://github.com/Lindydancer/dynamic-spaces",
+  "stars": 19,
+  "updated": "2025-01-02T07:37:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dynamic-spaces",
+    "fetcher": "github",
+    "repo": "Lindydancer/dynamic-spaces"
+  }
+}

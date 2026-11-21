@@ -1,0 +1,18 @@
+{
+  "id": 76696648,
+  "name": "tarsius/keycast",
+  "description": "Show current command and its key in the mode line",
+  "url": "https://github.com/tarsius/keycast",
+  "stars": 356,
+  "updated": "2026-10-01T16:17:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "keycast",
+    "fetcher": "github",
+    "repo": "tarsius/keycast"
+  }
+}

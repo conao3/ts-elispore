@@ -1,0 +1,18 @@
+{
+  "id": 112420175,
+  "name": "zonkyy/helm-z",
+  "description": "",
+  "url": "https://github.com/zonkyy/helm-z",
+  "stars": 2,
+  "updated": "2017-12-04T03:26:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-z",
+    "fetcher": "github",
+    "repo": "zonkyy/helm-z"
+  }
+}

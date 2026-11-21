@@ -1,0 +1,18 @@
+{
+  "id": 140871671,
+  "name": "xuchunyang/code-stats-emacs",
+  "description": "Code::Stats plugin for Emacs",
+  "url": "https://github.com/xuchunyang/code-stats-emacs",
+  "stars": 16,
+  "updated": "2020-12-09T21:35:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "code-stats",
+    "fetcher": "github",
+    "repo": "xuchunyang/code-stats-emacs"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 219071942,
+  "name": "wbolster/emacs-python-coverage",
+  "description": "show python coverage information directly in emacs",
+  "url": "https://github.com/wbolster/emacs-python-coverage",
+  "stars": 39,
+  "updated": "2026-07-06T15:41:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "python-coverage",
+    "fetcher": "github",
+    "repo": "wbolster/emacs-python-coverage"
+  }
+}

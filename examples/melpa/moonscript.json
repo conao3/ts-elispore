@@ -1,0 +1,18 @@
+{
+  "id": 12011969,
+  "name": "k2052/moonscript-mode",
+  "description": "An Emacs mode for moonscript",
+  "url": "https://github.com/k2052/moonscript-mode",
+  "stars": 16,
+  "updated": "2026-10-23T20:39:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "moonscript",
+    "fetcher": "github",
+    "repo": "k2052/moonscript-mode"
+  }
+}

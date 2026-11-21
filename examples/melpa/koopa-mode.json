@@ -1,0 +1,18 @@
+{
+  "id": 671014525,
+  "name": "sch0lars/koopa-mode",
+  "description": "A PowerShell mode for Emacs.",
+  "url": "https://github.com/sch0lars/koopa-mode",
+  "stars": 18,
+  "updated": "2023-09-05T22:46:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "koopa-mode",
+    "fetcher": "github",
+    "repo": "sch0lars/koopa-mode"
+  }
+}

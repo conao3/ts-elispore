@@ -1,0 +1,18 @@
+{
+  "id": 103028283,
+  "name": "guidoschmidt/emacs-nyx-theme",
+  "description": "Dark theme for Emacs",
+  "url": "https://github.com/guidoschmidt/emacs-nyx-theme",
+  "stars": 2,
+  "updated": "2017-09-10T13:07:37Z",
+  "archived": false,
+  "topics": ["dark-theme", "emacs", "emacs-theme", "emacs-themes", "theme"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nyx-theme",
+    "fetcher": "github",
+    "repo": "guidoschmidt/emacs-nyx-theme"
+  }
+}

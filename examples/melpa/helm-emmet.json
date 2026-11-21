@@ -1,0 +1,18 @@
+{
+  "id": 12359264,
+  "name": "yasuyk/helm-emmet",
+  "description": "helm sources for emmet-mode's snippets",
+  "url": "https://github.com/yasuyk/helm-emmet",
+  "stars": 7,
+  "updated": "2016-07-13T12:31:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-emmet",
+    "fetcher": "github",
+    "repo": "yasuyk/helm-emmet"
+  }
+}

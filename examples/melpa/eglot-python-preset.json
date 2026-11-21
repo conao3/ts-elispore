@@ -1,0 +1,19 @@
+{
+  "id": 1125439854,
+  "name": "mwolson/eglot-python-preset",
+  "description": "Configure Python LSP support for Emacs using Eglot",
+  "url": "https://github.com/mwolson/eglot-python-preset",
+  "stars": 25,
+  "updated": "2026-10-17T22:02:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eglot-python-preset",
+    "fetcher": "github",
+    "repo": "mwolson/eglot-python-preset",
+    "files": "(:defaults (\"templates\" \"templates/*.tpl.py\"))"
+  }
+}

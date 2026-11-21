@@ -1,0 +1,19 @@
+{
+  "id": 65940763,
+  "name": "NixOS/nix-mode",
+  "description": "An Emacs major mode for editing Nix expressions.",
+  "url": "https://github.com/NixOS/nix-mode",
+  "stars": 343,
+  "updated": "2026-08-10T17:40:58Z",
+  "archived": false,
+  "topics": ["emacs", "major-mode", "nix", "nixpkgs", "syntax-highlighting"],
+  "license": "LGPL-2.1",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "nix-mode",
+    "fetcher": "github",
+    "repo": "NixOS/nix-mode",
+    "files": "(:defaults (:exclude \"nix-company.el\" \"nix-mode-mmm.el\"))"
+  }
+}

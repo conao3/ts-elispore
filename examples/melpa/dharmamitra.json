@@ -1,0 +1,18 @@
+{
+  "id": 882148474,
+  "name": "dharmamitra/dharmamitra-emacs",
+  "description": "",
+  "url": "https://github.com/dharmamitra/dharmamitra-emacs",
+  "stars": 8,
+  "updated": "2026-09-24T05:49:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dharmamitra",
+    "fetcher": "github",
+    "repo": "dharmamitra/dharmamitra-emacs"
+  }
+}

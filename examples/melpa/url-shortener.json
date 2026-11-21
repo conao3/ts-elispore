@@ -1,0 +1,18 @@
+{
+  "id": 15068604,
+  "name": "yuyang0/url-shortener",
+  "description": "emacs url shortener",
+  "url": "https://github.com/yuyang0/url-shortener",
+  "stars": 7,
+  "updated": "2017-08-05T02:42:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "url-shortener",
+    "fetcher": "github",
+    "repo": "yuyang0/url-shortener"
+  }
+}

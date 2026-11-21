@@ -1,0 +1,18 @@
+{
+  "id": 718450660,
+  "name": "chaosemer/init-dir",
+  "description": "",
+  "url": "https://github.com/chaosemer/init-dir",
+  "stars": 10,
+  "updated": "2026-08-30T20:46:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "init-dir",
+    "fetcher": "github",
+    "repo": "chaosemer/init-dir"
+  }
+}

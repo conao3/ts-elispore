@@ -1,0 +1,18 @@
+{
+  "id": 14530377,
+  "name": "ccann/badger-theme",
+  "description": "An Emacs 24+ color theme.",
+  "url": "https://github.com/ccann/badger-theme",
+  "stars": 47,
+  "updated": "2018-02-26T00:50:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "badger-theme",
+    "fetcher": "github",
+    "repo": "ccann/badger-theme"
+  }
+}

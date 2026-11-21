@@ -1,0 +1,18 @@
+{
+  "id": 156245844,
+  "name": "c301/gtm-emacs-plugin",
+  "description": "Plugin for the Emacs editor to be used with the Git Time Metric platform.",
+  "url": "https://github.com/c301/gtm-emacs-plugin",
+  "stars": 3,
+  "updated": "2018-11-16T20:11:46Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-packages", "time-tracker"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-time-metric",
+    "fetcher": "github",
+    "repo": "c301/gtm-emacs-plugin"
+  }
+}

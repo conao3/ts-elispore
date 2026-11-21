@@ -1,0 +1,18 @@
+{
+  "id": 148958811,
+  "name": "AdamNiederer/metamorph",
+  "description": "Transform your code in turing-complete ways",
+  "url": "https://github.com/AdamNiederer/metamorph",
+  "stars": 14,
+  "updated": "2022-03-28T01:33:47Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "metaprogramming", "transforming-files"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "metamorph",
+    "fetcher": "github",
+    "repo": "AdamNiederer/metamorph"
+  }
+}

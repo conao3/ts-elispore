@@ -1,0 +1,18 @@
+{
+  "id": 641117768,
+  "name": "sdm-lang/emacs-sdml-mode",
+  "description": "Emacs major mode for the Simple Domain Modeling Language (SDML)",
+  "url": "https://github.com/sdm-lang/emacs-sdml-mode",
+  "stars": 1,
+  "updated": "2026-11-13T15:47:09Z",
+  "archived": false,
+  "topics": ["emacs", "sdml", "tree-sitter"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sdml-mode",
+    "fetcher": "github",
+    "repo": "sdm-lang/emacs-sdml-mode"
+  }
+}

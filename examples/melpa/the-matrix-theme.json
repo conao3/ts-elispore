@@ -1,0 +1,27 @@
+{
+  "id": 439158024,
+  "name": "monkeyjunglejuice/matrix-emacs-theme",
+  "description": "\"Unfortunately, no one can be told what The Matrix Theme is. You’ll have to see it for yourself.\" —Morpheus",
+  "url": "https://github.com/monkeyjunglejuice/matrix-emacs-theme",
+  "stars": 32,
+  "updated": "2026-10-06T11:35:22Z",
+  "archived": false,
+  "topics": [
+    "color-scheme",
+    "dark-mode",
+    "dark-theme",
+    "emacs-package",
+    "emacs-theme",
+    "matrix-theme",
+    "the-matrix",
+    "the-matrix-code"
+  ],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "the-matrix-theme",
+    "fetcher": "github",
+    "repo": "monkeyjunglejuice/matrix-emacs-theme"
+  }
+}

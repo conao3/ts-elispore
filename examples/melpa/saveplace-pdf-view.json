@@ -1,0 +1,18 @@
+{
+  "id": 279024705,
+  "name": "nicolaisingh/saveplace-pdf-view",
+  "description": "Save place in pdf-view buffers for Emacs",
+  "url": "https://github.com/nicolaisingh/saveplace-pdf-view",
+  "stars": 33,
+  "updated": "2025-06-25T14:46:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "saveplace-pdf-view",
+    "fetcher": "github",
+    "repo": "nicolaisingh/saveplace-pdf-view"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 32617879,
+  "name": "clojure-emacs/cider-eval-sexp-fu",
+  "description": "eval-sexp-fu.el extensions for CIDER.",
+  "url": "https://github.com/clojure-emacs/cider-eval-sexp-fu",
+  "stars": 15,
+  "updated": "2023-05-10T06:19:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "cider-eval-sexp-fu",
+    "fetcher": "github",
+    "repo": "clojure-emacs/cider-eval-sexp-fu"
+  }
+}

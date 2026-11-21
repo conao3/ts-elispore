@@ -1,0 +1,18 @@
+{
+  "id": 629331647,
+  "name": "meain/hima-theme",
+  "description": "A minimal theme with pretty colors",
+  "url": "https://github.com/meain/hima-theme",
+  "stars": 13,
+  "updated": "2025-10-19T03:59:50Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-theme", "theme"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hima-theme",
+    "fetcher": "github",
+    "repo": "meain/hima-theme"
+  }
+}

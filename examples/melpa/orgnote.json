@@ -1,0 +1,18 @@
+{
+  "id": 483767210,
+  "name": "Artawower/orgnote.el",
+  "description": "Package for syncing roam notes with external second brain service.",
+  "url": "https://github.com/Artawower/orgnote.el",
+  "stars": 53,
+  "updated": "2026-07-07T18:26:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "orgnote",
+    "fetcher": "github",
+    "repo": "Artawower/orgnote.el"
+  }
+}

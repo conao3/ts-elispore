@@ -1,0 +1,18 @@
+{
+  "id": 626683046,
+  "name": "drghirlanda/org-change",
+  "description": "Annotate changes in org-mode",
+  "url": "https://github.com/drghirlanda/org-change",
+  "stars": 16,
+  "updated": "2026-08-22T14:07:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-change",
+    "fetcher": "github",
+    "repo": "drghirlanda/org-change"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 26314778,
+  "name": "rexim/org-cliplink",
+  "description": "Insert org-mode links from clipboard",
+  "url": "https://github.com/rexim/org-cliplink",
+  "stars": 350,
+  "updated": "2023-04-30T23:53:53Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "hacktoberfest", "org-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-cliplink",
+    "fetcher": "github",
+    "repo": "rexim/org-cliplink"
+  }
+}

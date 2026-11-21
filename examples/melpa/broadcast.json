@@ -1,0 +1,18 @@
+{
+  "id": 27787976,
+  "name": "killdash9/broadcast.el",
+  "description": "A minor mode for linking buffers together for simultaneous navigation and  editing.  ",
+  "url": "https://github.com/killdash9/broadcast.el",
+  "stars": 19,
+  "updated": "2025-08-04T18:15:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "broadcast",
+    "fetcher": "github",
+    "repo": "killdash9/broadcast.el"
+  }
+}

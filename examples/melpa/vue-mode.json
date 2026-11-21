@@ -1,0 +1,18 @@
+{
+  "id": 55904598,
+  "name": "AdamNiederer/vue-mode",
+  "description": "Emacs major mode for vue.js",
+  "url": "https://github.com/AdamNiederer/vue-mode",
+  "stars": 341,
+  "updated": "2024-01-01T14:17:54Z",
+  "archived": false,
+  "topics": ["emacs", "vue", "vuejs", "vuejs-components"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vue-mode",
+    "fetcher": "github",
+    "repo": "AdamNiederer/vue-mode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 11463054,
+  "name": "jhradilek/emacs-docbook-snippets",
+  "description": "DocBook snippets for Emacs",
+  "url": "https://github.com/jhradilek/emacs-docbook-snippets",
+  "stars": 3,
+  "updated": "2015-07-14T16:25:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "docbook-snippets",
+    "fetcher": "github",
+    "repo": "jhradilek/emacs-docbook-snippets",
+    "files": "(\"docbook-snippets.el\" \"snippets\")"
+  }
+}

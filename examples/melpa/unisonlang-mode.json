@@ -1,0 +1,18 @@
+{
+  "id": 258519460,
+  "name": "dariooddenino/unison-mode-emacs",
+  "description": "Very simple syntax highlighting",
+  "url": "https://github.com/dariooddenino/unison-mode-emacs",
+  "stars": 21,
+  "updated": "2024-05-03T05:08:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unisonlang-mode",
+    "fetcher": "github",
+    "repo": "dariooddenino/unison-mode-emacs"
+  }
+}

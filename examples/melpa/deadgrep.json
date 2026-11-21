@@ -1,0 +1,18 @@
+{
+  "id": 136675069,
+  "name": "Wilfred/deadgrep",
+  "description": "fast, friendly searching with ripgrep and Emacs",
+  "url": "https://github.com/Wilfred/deadgrep",
+  "stars": 786,
+  "updated": "2026-08-18T21:31:39Z",
+  "archived": false,
+  "topics": ["emacs", "ripgrep"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "deadgrep",
+    "fetcher": "github",
+    "repo": "Wilfred/deadgrep"
+  }
+}

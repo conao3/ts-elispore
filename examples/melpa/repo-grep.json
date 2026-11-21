@@ -1,0 +1,18 @@
+{
+  "id": 760477267,
+  "name": "BHFock/repo-grep",
+  "description": "repo-grep performs a recursive grep through the folder structure of your cloned Git repository or your SVN working copy in Emacs. By default, it uses the string under the current cursor as the search term. You can modify this term interactively, and it supports regular expressions.",
+  "url": "https://github.com/BHFock/repo-grep",
+  "stars": 21,
+  "updated": "2026-06-06T05:33:11Z",
+  "archived": false,
+  "topics": ["emacs", "grep", "multi-repo", "project-search", "recursive-search", "ripgrep"],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "repo-grep",
+    "fetcher": "github",
+    "repo": "BHFock/repo-grep"
+  }
+}

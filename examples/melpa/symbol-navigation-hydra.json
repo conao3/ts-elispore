@@ -1,0 +1,18 @@
+{
+  "id": 274971975,
+  "name": "bgwines/symbol-navigation-hydra",
+  "description": "A hydra that augments existing Emacs navigation and editing functionality by adding awareness of symbols.",
+  "url": "https://github.com/bgwines/symbol-navigation-hydra",
+  "stars": 17,
+  "updated": "2021-11-02T04:39:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "symbol-navigation-hydra",
+    "fetcher": "github",
+    "repo": "bgwines/symbol-navigation-hydra"
+  }
+}

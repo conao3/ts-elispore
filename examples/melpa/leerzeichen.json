@@ -1,0 +1,18 @@
+{
+  "id": 27957091,
+  "name": "fgeller/leerzeichen.el",
+  "description": "Emacs minor mode to display whitespace characters efficiently",
+  "url": "https://github.com/fgeller/leerzeichen.el",
+  "stars": 16,
+  "updated": "2022-06-26T08:35:25Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-mode", "highlighting", "minor-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "leerzeichen",
+    "fetcher": "github",
+    "repo": "fgeller/leerzeichen.el"
+  }
+}

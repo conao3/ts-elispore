@@ -1,0 +1,18 @@
+{
+  "id": 1112219635,
+  "name": "mscfd/emacs-f90-ts-mode",
+  "description": "Emacs tree-sitter mode for fortran",
+  "url": "https://github.com/mscfd/emacs-f90-ts-mode",
+  "stars": 7,
+  "updated": "2026-11-21T13:55:12Z",
+  "archived": false,
+  "topics": ["emacs-mode", "f2003", "f2008", "f2018", "f2023", "f90", "fortran", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "f90-ts-mode",
+    "fetcher": "github",
+    "repo": "mscfd/emacs-f90-ts-mode"
+  }
+}

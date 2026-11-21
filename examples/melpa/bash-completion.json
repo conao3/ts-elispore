@@ -1,0 +1,18 @@
+{
+  "id": 1625684,
+  "name": "szermatt/emacs-bash-completion",
+  "description": "Add programmable bash completion to Emacs shell-mode",
+  "url": "https://github.com/szermatt/emacs-bash-completion",
+  "stars": 298,
+  "updated": "2026-11-05T22:49:58Z",
+  "archived": false,
+  "topics": ["bash", "bash-completion", "emacs", "emacs-lisp"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bash-completion",
+    "fetcher": "github",
+    "repo": "szermatt/emacs-bash-completion"
+  }
+}

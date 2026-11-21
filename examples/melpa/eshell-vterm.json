@@ -1,0 +1,18 @@
+{
+  "id": 381190991,
+  "name": "iostapyshyn/eshell-vterm",
+  "description": "Run eshell-visual-commands in Vterm",
+  "url": "https://github.com/iostapyshyn/eshell-vterm",
+  "stars": 46,
+  "updated": "2024-03-05T11:49:32Z",
+  "archived": false,
+  "topics": ["emacs", "eshell", "shell", "terminal-emulator", "vterm"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-vterm",
+    "fetcher": "github",
+    "repo": "iostapyshyn/eshell-vterm"
+  }
+}

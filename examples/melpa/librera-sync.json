@@ -1,0 +1,18 @@
+{
+  "id": 330165122,
+  "name": "jumper047/librera-sync",
+  "description": "Sync your reading with Librera Reader Android app",
+  "url": "https://github.com/jumper047/librera-sync",
+  "stars": 12,
+  "updated": "2023-09-02T10:07:20Z",
+  "archived": false,
+  "topics": ["emacs", "fb2", "pdf"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "librera-sync",
+    "fetcher": "github",
+    "repo": "jumper047/librera-sync"
+  }
+}

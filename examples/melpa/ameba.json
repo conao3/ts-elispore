@@ -1,0 +1,19 @@
+{
+  "id": 116136864,
+  "name": "crystal-ameba/ameba.el",
+  "description": "An Emacs interface to Ameba",
+  "url": "https://github.com/crystal-ameba/ameba.el",
+  "stars": 12,
+  "updated": "2020-01-03T14:54:26Z",
+  "archived": false,
+  "topics": ["ameba", "convenience", "crystal", "emacs", "emacs-package", "linter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ameba",
+    "fetcher": "github",
+    "repo": "crystal-ameba/ameba.el",
+    "files": "(\"ameba.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 54838158,
+  "name": "garvinguan/emacs-one-time-pad",
+  "description": "A convenient encryption using one-time-pad, great for short strings within files",
+  "url": "https://github.com/garvinguan/emacs-one-time-pad",
+  "stars": 5,
+  "updated": "2016-03-29T15:14:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "one-time-pad-encrypt",
+    "fetcher": "github",
+    "repo": "garvinguan/emacs-one-time-pad"
+  }
+}

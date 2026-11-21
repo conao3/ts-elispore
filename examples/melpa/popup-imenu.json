@@ -1,0 +1,18 @@
+{
+  "id": 38338763,
+  "name": "ancane/popup-imenu",
+  "description": "Emacs imenu popup",
+  "url": "https://github.com/ancane/popup-imenu",
+  "stars": 26,
+  "updated": "2021-04-04T11:54:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "popup-imenu",
+    "fetcher": "github",
+    "repo": "ancane/popup-imenu"
+  }
+}

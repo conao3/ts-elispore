@@ -1,0 +1,18 @@
+{
+  "id": 734151546,
+  "name": "jrasband/biblio-gbooks",
+  "description": "",
+  "url": "https://github.com/jrasband/biblio-gbooks",
+  "stars": 1,
+  "updated": "2024-10-25T14:00:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "biblio-gbooks",
+    "fetcher": "github",
+    "repo": "jrasband/biblio-gbooks"
+  }
+}

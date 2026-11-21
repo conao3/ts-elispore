@@ -1,0 +1,18 @@
+{
+  "id": 95468904,
+  "name": "magit/magit-tbdiff",
+  "description": "Magit extension for git-tbdiff and git-range-diff",
+  "url": "https://github.com/magit/magit-tbdiff",
+  "stars": 25,
+  "updated": "2026-08-11T00:47:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "magit-tbdiff",
+    "fetcher": "github",
+    "repo": "magit/magit-tbdiff"
+  }
+}

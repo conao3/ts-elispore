@@ -1,0 +1,18 @@
+{
+  "id": 277730488,
+  "name": "alexmurray/erc-matterircd",
+  "description": "",
+  "url": "https://github.com/alexmurray/erc-matterircd",
+  "stars": 1,
+  "updated": "2026-06-30T00:48:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erc-matterircd",
+    "fetcher": "github",
+    "repo": "alexmurray/erc-matterircd"
+  }
+}

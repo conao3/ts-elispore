@@ -1,0 +1,18 @@
+{
+  "id": 14964307,
+  "name": "danieroux/pinboard-api-el",
+  "description": "pinboard.in integration for Emacs",
+  "url": "https://github.com/danieroux/pinboard-api-el",
+  "stars": 8,
+  "updated": "2014-03-24T11:48:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pinboard-api",
+    "fetcher": "github",
+    "repo": "danieroux/pinboard-api-el"
+  }
+}

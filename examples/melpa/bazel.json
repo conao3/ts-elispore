@@ -1,0 +1,18 @@
+{
+  "id": 141580441,
+  "name": "bazel-contrib/bazel.el",
+  "description": "Emacs mode for Bazel",
+  "url": "https://github.com/bazel-contrib/bazel.el",
+  "stars": 95,
+  "updated": "2026-11-20T17:40:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "bazel",
+    "fetcher": "github",
+    "repo": "bazelbuild/emacs-bazel-mode"
+  }
+}

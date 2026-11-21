@@ -1,0 +1,19 @@
+{
+  "id": 20972074,
+  "name": "rosenbrockc/fortpy-el",
+  "description": "Emacs Package for Fortran Auto-Completion",
+  "url": "https://github.com/rosenbrockc/fortpy-el",
+  "stars": 7,
+  "updated": "2015-07-15T20:32:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fortpy",
+    "fetcher": "github",
+    "repo": "rosenbrockc/fortpy-el",
+    "files": "(\"fortpy*\" \"Makefile\" \"setup.py\")"
+  }
+}

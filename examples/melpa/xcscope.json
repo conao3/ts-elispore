@@ -1,0 +1,18 @@
+{
+  "id": 14052131,
+  "name": "dkogan/xcscope.el",
+  "description": "cscope interface for (X)Emacs",
+  "url": "https://github.com/dkogan/xcscope.el",
+  "stars": 121,
+  "updated": "2026-08-23T00:46:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xcscope",
+    "fetcher": "github",
+    "repo": "dkogan/xcscope.el"
+  }
+}

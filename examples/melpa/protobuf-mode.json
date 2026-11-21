@@ -1,0 +1,28 @@
+{
+  "id": 23357588,
+  "name": "protocolbuffers/protobuf",
+  "description": "Protocol Buffers - Google's data interchange format",
+  "url": "https://github.com/protocolbuffers/protobuf",
+  "stars": 72188,
+  "updated": "2026-11-21T18:30:53Z",
+  "archived": false,
+  "topics": [
+    "marshalling",
+    "protobuf",
+    "protobuf-runtime",
+    "protoc",
+    "protocol-buffers",
+    "protocol-compiler",
+    "rpc",
+    "serialization"
+  ],
+  "license": "NOASSERTION",
+  "language": "C++",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "protobuf-mode",
+    "fetcher": "github",
+    "repo": "protocolbuffers/protobuf",
+    "files": "(\"editors/protobuf-mode.el\")"
+  }
+}

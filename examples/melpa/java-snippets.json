@@ -1,0 +1,19 @@
+{
+  "id": 1097100,
+  "name": "nekop/yasnippet-java-mode",
+  "description": "Java snippets for yasnippet",
+  "url": "https://github.com/nekop/yasnippet-java-mode",
+  "stars": 52,
+  "updated": "2018-05-07T01:12:19Z",
+  "archived": true,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "java-snippets",
+    "fetcher": "github",
+    "repo": "nekop/yasnippet-java-mode",
+    "files": "(\"*.el\" \"snippets\")"
+  }
+}

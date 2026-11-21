@@ -1,0 +1,19 @@
+{
+  "id": 54848149,
+  "name": "ferfebles/redtick",
+  "description": "Smallest emacs pomodoro timer (1 char)",
+  "url": "https://github.com/ferfebles/redtick",
+  "stars": 33,
+  "updated": "2018-04-24T21:40:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "redtick",
+    "fetcher": "github",
+    "repo": "ferfebles/redtick",
+    "files": "(:defaults \"resources\")"
+  }
+}

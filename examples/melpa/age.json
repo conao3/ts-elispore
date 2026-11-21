@@ -1,0 +1,18 @@
+{
+  "id": 583165161,
+  "name": "anticomputer/age.el",
+  "description": "Transparent age encryption support for Emacs modeled after EPG/EPA",
+  "url": "https://github.com/anticomputer/age.el",
+  "stars": 102,
+  "updated": "2026-09-19T19:01:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "age",
+    "fetcher": "github",
+    "repo": "anticomputer/age.el"
+  }
+}

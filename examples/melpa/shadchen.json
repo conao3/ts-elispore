@@ -1,0 +1,18 @@
+{
+  "id": 3220436,
+  "name": "VincentToups/shadchen-el",
+  "description": "shadchen is an emacs lisp pattern matching library",
+  "url": "https://github.com/VincentToups/shadchen-el",
+  "stars": 51,
+  "updated": "2014-11-02T18:39:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shadchen",
+    "fetcher": "github",
+    "repo": "VincentToups/shadchen-el"
+  }
+}

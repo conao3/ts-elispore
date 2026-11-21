@@ -1,0 +1,18 @@
+{
+  "id": 328466199,
+  "name": "flashcode/impostman",
+  "description": "Import of Postman collections in Emacs",
+  "url": "https://github.com/flashcode/impostman",
+  "stars": 79,
+  "updated": "2026-08-05T10:21:12Z",
+  "archived": false,
+  "topics": ["api", "emacs", "http", "postman", "restclient", "verb"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "impostman",
+    "fetcher": "github",
+    "repo": "flashcode/impostman"
+  }
+}

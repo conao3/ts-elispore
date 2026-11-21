@@ -1,0 +1,18 @@
+{
+  "id": 1077081422,
+  "name": "gggion/lisp-docstring-toggle",
+  "description": "Docstring visibility control for Lisp code",
+  "url": "https://github.com/gggion/lisp-docstring-toggle",
+  "stars": 14,
+  "updated": "2026-03-26T12:36:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lisp-docstring-toggle",
+    "fetcher": "github",
+    "repo": "gggion/lisp-docstring-toggle"
+  }
+}

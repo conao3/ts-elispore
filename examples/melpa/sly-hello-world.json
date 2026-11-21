@@ -1,0 +1,19 @@
+{
+  "id": 48046549,
+  "name": "joaotavora/sly-hello-world",
+  "description": "A dummy template for writing SLY contribs",
+  "url": "https://github.com/joaotavora/sly-hello-world",
+  "stars": 9,
+  "updated": "2020-02-25T18:12:02Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sly-hello-world",
+    "fetcher": "github",
+    "repo": "joaotavora/sly-hello-world",
+    "files": "(:defaults\n                         \"*.lisp\"\n                         \"*.asd\")"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 59241255,
+  "name": "doublep/datetime",
+  "description": "Library for parsing, formatting, matching and recoding timestamps and date-time format strings.",
+  "url": "https://github.com/doublep/datetime",
+  "stars": 20,
+  "updated": "2025-11-21T09:07:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "datetime",
+    "fetcher": "github",
+    "repo": "doublep/datetime",
+    "files": "(:defaults \"*.extmap\")"
+  }
+}

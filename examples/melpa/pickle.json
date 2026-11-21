@@ -1,0 +1,18 @@
+{
+  "id": 121593568,
+  "name": "ahungry/pickle-mode",
+  "description": "An Emacs major mode for Gherkin (Cucumber) feature files.",
+  "url": "https://github.com/ahungry/pickle-mode",
+  "stars": 9,
+  "updated": "2019-09-23T03:54:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pickle",
+    "fetcher": "github",
+    "repo": "ahungry/pickle-mode"
+  }
+}

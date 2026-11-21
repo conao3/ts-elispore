@@ -1,0 +1,28 @@
+{
+  "id": 7909342,
+  "name": "clojure-emacs/clj-refactor.el",
+  "description": "A CIDER extension that provides powerful commands for refactoring Clojure code.",
+  "url": "https://github.com/clojure-emacs/clj-refactor.el",
+  "stars": 784,
+  "updated": "2026-11-13T13:36:49Z",
+  "archived": false,
+  "topics": [
+    "cider",
+    "clojure",
+    "emacs",
+    "emacs-lisp",
+    "emacs-mode",
+    "nrepl",
+    "refactoring-functions",
+    "refactorings"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "clj-refactor",
+    "fetcher": "github",
+    "repo": "clojure-emacs/clj-refactor.el",
+    "files": "(:defaults \"CHANGELOG.md\")"
+  }
+}

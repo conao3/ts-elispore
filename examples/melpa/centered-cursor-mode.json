@@ -1,0 +1,18 @@
+{
+  "id": 101796676,
+  "name": "andre-r/centered-cursor-mode.el",
+  "description": "An emacs minor mode for smooth scrolling",
+  "url": "https://github.com/andre-r/centered-cursor-mode.el",
+  "stars": 71,
+  "updated": "2023-09-14T13:58:53Z",
+  "archived": false,
+  "topics": ["cursor", "emacs", "scrolling", "smooth-scrolling"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "centered-cursor-mode",
+    "fetcher": "github",
+    "repo": "andre-r/centered-cursor-mode.el"
+  }
+}

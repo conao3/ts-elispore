@@ -1,0 +1,18 @@
+{
+  "id": 266363240,
+  "name": "Lindydancer/gameoflife",
+  "description": "Run Conway's Game of Life as a screensaver in Emacs",
+  "url": "https://github.com/Lindydancer/gameoflife",
+  "stars": 11,
+  "updated": "2025-01-02T09:02:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gameoflife",
+    "fetcher": "github",
+    "repo": "Lindydancer/gameoflife"
+  }
+}

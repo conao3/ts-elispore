@@ -1,0 +1,18 @@
+{
+  "id": 96867197,
+  "name": "nlamirault/all-the-icons-gnus",
+  "description": "Use all-the-icons inside Gnus",
+  "url": "https://github.com/nlamirault/all-the-icons-gnus",
+  "stars": 5,
+  "updated": "2022-01-14T14:36:33Z",
+  "archived": false,
+  "topics": ["all-the-things", "emacs", "gnus"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "all-the-icons-gnus",
+    "fetcher": "github",
+    "repo": "nlamirault/all-the-icons-gnus"
+  }
+}

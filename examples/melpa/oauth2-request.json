@@ -1,0 +1,18 @@
+{
+  "id": 338457340,
+  "name": "conao3/oauth2-request.el",
+  "description": "OAuth2 request package interface.",
+  "url": "https://github.com/conao3/oauth2-request.el",
+  "stars": 7,
+  "updated": "2026-11-15T16:55:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "oauth2-request",
+    "fetcher": "github",
+    "repo": "conao3/oauth2-request.el"
+  }
+}

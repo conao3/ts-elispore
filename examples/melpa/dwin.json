@@ -1,0 +1,19 @@
+{
+  "id": 1101898400,
+  "name": "lsth/dwin",
+  "description": "Emacs Desktop Window Manager (dwin)",
+  "url": "https://github.com/lsth/dwin",
+  "stars": 12,
+  "updated": "2025-12-09T06:49:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dwin",
+    "fetcher": "github",
+    "repo": "lsth/dwin",
+    "files": "(:defaults\n              \"etc/bin\"\n              \"etc/_local-share-applications\")"
+  }
+}

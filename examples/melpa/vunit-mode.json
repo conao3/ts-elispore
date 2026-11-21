@@ -1,0 +1,18 @@
+{
+  "id": 439235957,
+  "name": "embed-me/vunit-mode",
+  "description": "A simple Emacs minor mode for VUnit",
+  "url": "https://github.com/embed-me/vunit-mode",
+  "stars": 12,
+  "updated": "2025-07-14T05:23:01Z",
+  "archived": false,
+  "topics": ["emacs", "package", "vhdl", "vunit"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vunit-mode",
+    "fetcher": "github",
+    "repo": "embed-me/vunit-mode"
+  }
+}

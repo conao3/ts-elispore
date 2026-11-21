@@ -1,0 +1,19 @@
+{
+  "id": 27744658,
+  "name": "stoltene2/jasminejs-mode",
+  "description": "Minor mode for Jasmine tests",
+  "url": "https://github.com/stoltene2/jasminejs-mode",
+  "stars": 6,
+  "updated": "2015-05-27T11:49:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jasminejs-mode",
+    "fetcher": "github",
+    "repo": "stoltene2/jasminejs-mode",
+    "files": "(\"jasminejs-mode.el\" \"snippets/jasminejs-mode\")"
+  }
+}

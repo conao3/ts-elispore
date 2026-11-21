@@ -1,0 +1,19 @@
+{
+  "id": 2933801,
+  "name": "tkf/auto-complete-chunk",
+  "description": "Auto-completion for dot.separated.words.",
+  "url": "https://github.com/tkf/auto-complete-chunk",
+  "stars": 6,
+  "updated": "2019-01-05T15:45:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-complete-chunk",
+    "fetcher": "github",
+    "repo": "tkf/auto-complete-chunk",
+    "files": "(\"auto-complete-chunk.el\")"
+  }
+}

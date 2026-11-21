@@ -1,0 +1,18 @@
+{
+  "id": 8540782,
+  "name": "jeffgran/jg-quicknav",
+  "description": "Emacs Lisp package to quickly navigate and find a file.",
+  "url": "https://github.com/jeffgran/jg-quicknav",
+  "stars": 1,
+  "updated": "2017-08-09T01:30:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jg-quicknav",
+    "fetcher": "github",
+    "repo": "jeffgran/jg-quicknav"
+  }
+}

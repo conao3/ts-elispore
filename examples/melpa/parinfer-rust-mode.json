@@ -1,0 +1,18 @@
+{
+  "id": 189765737,
+  "name": "justinbarclay/parinfer-rust-mode",
+  "description": "Simplifying how you write Lisp",
+  "url": "https://github.com/justinbarclay/parinfer-rust-mode",
+  "stars": 262,
+  "updated": "2026-01-01T19:49:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "parinfer-rust-mode",
+    "fetcher": "github",
+    "repo": "justinbarclay/parinfer-rust-mode"
+  }
+}

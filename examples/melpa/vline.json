@@ -1,0 +1,18 @@
+{
+  "id": 392350796,
+  "name": "buzztaiki/vline",
+  "description": "column highlighting (vertical line displaying) mode",
+  "url": "https://github.com/buzztaiki/vline",
+  "stars": 1,
+  "updated": "2024-02-12T23:59:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vline",
+    "fetcher": "github",
+    "repo": "buzztaiki/vline"
+  }
+}

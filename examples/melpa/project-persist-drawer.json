@@ -1,0 +1,19 @@
+{
+  "id": 33030828,
+  "name": "rdallasgray/project-persist-drawer",
+  "description": "Use a project drawer with project-persist",
+  "url": "https://github.com/rdallasgray/project-persist-drawer",
+  "stars": 2,
+  "updated": "2015-11-08T12:22:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "project-persist-drawer",
+    "fetcher": "github",
+    "repo": "rdallasgray/project-persist-drawer",
+    "files": "(\"lib/*\")"
+  }
+}

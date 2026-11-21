@@ -1,0 +1,18 @@
+{
+  "id": 31368174,
+  "name": "mortberg/cubicaltt",
+  "description": "Experimental implementation of Cubical Type Theory",
+  "url": "https://github.com/mortberg/cubicaltt",
+  "stars": 613,
+  "updated": "2023-09-21T07:38:49Z",
+  "archived": false,
+  "topics": ["cubical-type-theory", "homotopy-type-theory", "type-theory", "univalent-foundations"],
+  "license": "MIT",
+  "language": "Haskell",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cubicaltt",
+    "fetcher": "github",
+    "repo": "mortberg/cubicaltt"
+  }
+}

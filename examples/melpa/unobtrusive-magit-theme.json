@@ -1,0 +1,18 @@
+{
+  "id": 249213778,
+  "name": "tee3/unobtrusive-magit-theme",
+  "description": "An unobtrusive Magit theme for Emacs.",
+  "url": "https://github.com/tee3/unobtrusive-magit-theme",
+  "stars": 4,
+  "updated": "2026-04-24T17:07:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unobtrusive-magit-theme",
+    "fetcher": "github",
+    "repo": "tee3/unobtrusive-magit-theme"
+  }
+}

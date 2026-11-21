@@ -1,0 +1,19 @@
+{
+  "id": 75593684,
+  "name": "futurist/js-format.el",
+  "description": "Emacs package to format or transform code style using different javascript formatter (standard, jsbeautify, esformatter, etc.)",
+  "url": "https://github.com/futurist/js-format.el",
+  "stars": 7,
+  "updated": "2017-01-19T01:02:34Z",
+  "archived": false,
+  "topics": ["emacs", "formatter", "js-beautify"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js-format",
+    "fetcher": "github",
+    "repo": "futurist/js-format.el",
+    "files": "(:defaults \"*.js\" \"*.json\" \"styles\")"
+  }
+}

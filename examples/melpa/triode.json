@@ -1,0 +1,19 @@
+{
+  "id": 1305904920,
+  "name": "kickingvegas/triode",
+  "description": "A GNU Emacs remote control interface to the Triode app (https://triode.app)",
+  "url": "https://github.com/kickingvegas/triode",
+  "stars": 0,
+  "updated": "2026-11-07T19:54:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "triode",
+    "fetcher": "github",
+    "repo": "kickingvegas/triode",
+    "files": "(:defaults \"docs/images\")"
+  }
+}

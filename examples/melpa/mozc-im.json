@@ -1,0 +1,18 @@
+{
+  "id": 33780202,
+  "name": "d5884/mozc-im",
+  "description": " Mozc with input-method-function interface.",
+  "url": "https://github.com/d5884/mozc-im",
+  "stars": 5,
+  "updated": "2016-04-12T00:22:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mozc-im",
+    "fetcher": "github",
+    "repo": "d5884/mozc-im"
+  }
+}

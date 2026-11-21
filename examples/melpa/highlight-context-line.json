@@ -1,0 +1,18 @@
+{
+  "id": 84604240,
+  "name": "ska2342/highlight-context-line",
+  "description": "An Emacs minor mode to improve orientation when scrolling",
+  "url": "https://github.com/ska2342/highlight-context-line",
+  "stars": 4,
+  "updated": "2018-11-26T16:27:06Z",
+  "archived": false,
+  "topics": ["elisp", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "highlight-context-line",
+    "fetcher": "github",
+    "repo": "ska2342/highlight-context-line"
+  }
+}

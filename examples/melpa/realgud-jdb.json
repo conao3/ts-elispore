@@ -1,0 +1,19 @@
+{
+  "id": 187996240,
+  "name": "realgud/realgud-jdb",
+  "description": "Provides realgud support for the Java's jdb debugger.",
+  "url": "https://github.com/realgud/realgud-jdb",
+  "stars": 7,
+  "updated": "2026-07-25T14:32:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "realgud-jdb",
+    "fetcher": "github",
+    "repo": "realgud/realgud-jdb",
+    "files": "(:defaults\n         (\"realgud-jdb\" \"realgud-jdb/*.el\"))"
+  }
+}

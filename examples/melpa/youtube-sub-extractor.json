@@ -1,0 +1,18 @@
+{
+  "id": 544720865,
+  "name": "agzam/youtube-sub-extractor.el",
+  "description": "Extract YouTube video subtitles",
+  "url": "https://github.com/agzam/youtube-sub-extractor.el",
+  "stars": 33,
+  "updated": "2022-11-16T06:53:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "youtube-sub-extractor",
+    "fetcher": "github",
+    "repo": "agzam/youtube-sub-extractor.el"
+  }
+}

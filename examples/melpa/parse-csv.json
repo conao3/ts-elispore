@@ -1,0 +1,19 @@
+{
+  "id": 1703786,
+  "name": "mrc/el-csv",
+  "description": "Parse CSV data in elisp",
+  "url": "https://github.com/mrc/el-csv",
+  "stars": 14,
+  "updated": "2024-12-14T02:46:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "parse-csv",
+    "fetcher": "github",
+    "repo": "mrc/el-csv",
+    "files": "(\"parse-csv.el\")"
+  }
+}

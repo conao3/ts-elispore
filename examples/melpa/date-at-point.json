@@ -1,0 +1,18 @@
+{
+  "id": 28690551,
+  "name": "alezost/date-at-point.el",
+  "description": "Add 'date' thing to 'thing-at-point' function",
+  "url": "https://github.com/alezost/date-at-point.el",
+  "stars": 3,
+  "updated": "2026-09-01T08:36:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "date-at-point",
+    "fetcher": "github",
+    "repo": "alezost/date-at-point.el"
+  }
+}

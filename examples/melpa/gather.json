@@ -1,0 +1,18 @@
+{
+  "id": 977949,
+  "name": "mhayashi1120/Emacs-gather",
+  "description": "Gather string in buffer",
+  "url": "https://github.com/mhayashi1120/Emacs-gather",
+  "stars": 2,
+  "updated": "2025-01-24T03:56:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gather",
+    "fetcher": "github",
+    "repo": "mhayashi1120/Emacs-gather"
+  }
+}

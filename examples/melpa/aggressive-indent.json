@@ -1,0 +1,18 @@
+{
+  "id": 25274069,
+  "name": "Malabarba/aggressive-indent-mode",
+  "description": "Emacs minor mode that keeps your code always indented. More reliable than electric-indent-mode.",
+  "url": "https://github.com/Malabarba/aggressive-indent-mode",
+  "stars": 881,
+  "updated": "2024-07-07T11:22:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aggressive-indent",
+    "fetcher": "github",
+    "repo": "Malabarba/aggressive-indent-mode"
+  }
+}

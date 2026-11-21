@@ -1,0 +1,18 @@
+{
+  "id": 12195963,
+  "name": "vermiculus/auctex-lua",
+  "description": "Lua editing utilities for AUCTeX",
+  "url": "https://github.com/vermiculus/auctex-lua",
+  "stars": 8,
+  "updated": "2015-11-21T16:10:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auctex-lua",
+    "fetcher": "github",
+    "repo": "vermiculus/auctex-lua"
+  }
+}

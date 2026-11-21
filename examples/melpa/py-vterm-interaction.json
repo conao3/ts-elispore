@@ -1,0 +1,19 @@
+{
+  "id": 799334253,
+  "name": "vale981/py-vterm-interaction.el",
+  "description": "A simple vterm-based mode for an inferior (i)Python REPL process in Emacs",
+  "url": "https://github.com/vale981/py-vterm-interaction.el",
+  "stars": 36,
+  "updated": "2025-10-24T22:09:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "py-vterm-interaction",
+    "fetcher": "github",
+    "repo": "vale981/py-vterm-interaction.el",
+    "files": "(\"py-vterm-interaction*.el\" (\"scripts/\" \"scripts/*.py\"))"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 718966917,
+  "name": "polhuang/ticktick.el",
+  "description": "Emacs / Org mode integration with TickTick task management API",
+  "url": "https://github.com/polhuang/ticktick.el",
+  "stars": 27,
+  "updated": "2026-11-02T13:03:44Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode", "ticktick"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ticktick",
+    "fetcher": "github",
+    "repo": "polhuang/ticktick.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 1183399013,
+  "name": "tjarvstrand/verdict.el",
+  "description": "Generic testrunner for Emacs",
+  "url": "https://github.com/tjarvstrand/verdict.el",
+  "stars": 7,
+  "updated": "2026-05-06T09:14:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "verdict",
+    "fetcher": "github",
+    "repo": "tjarvstrand/verdict.el",
+    "files": "(\"packages/verdict/verdict.el\")"
+  }
+}

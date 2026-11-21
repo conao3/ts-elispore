@@ -1,0 +1,18 @@
+{
+  "id": 23462636,
+  "name": "Kungsgeten/steam.el",
+  "description": "Organize and launch your Steam games from Emacs",
+  "url": "https://github.com/Kungsgeten/steam.el",
+  "stars": 90,
+  "updated": "2022-02-18T17:07:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "steam",
+    "fetcher": "github",
+    "repo": "Kungsgeten/steam.el"
+  }
+}

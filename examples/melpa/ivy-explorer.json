@@ -1,0 +1,18 @@
+{
+  "id": 160676105,
+  "name": "clemera/ivy-explorer",
+  "description": "Dynamic file browsing grid for Emacs",
+  "url": "https://github.com/clemera/ivy-explorer",
+  "stars": 57,
+  "updated": "2019-09-09T19:25:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-explorer",
+    "fetcher": "github",
+    "repo": "clemera/ivy-explorer"
+  }
+}

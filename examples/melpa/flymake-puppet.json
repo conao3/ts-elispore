@@ -1,0 +1,18 @@
+{
+  "id": 11776124,
+  "name": "benprew/flymake-puppet",
+  "description": "Emacs flymake integration for puppet-lint",
+  "url": "https://github.com/benprew/flymake-puppet",
+  "stars": 2,
+  "updated": "2026-06-25T00:06:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-puppet",
+    "fetcher": "github",
+    "repo": "benprew/flymake-puppet"
+  }
+}

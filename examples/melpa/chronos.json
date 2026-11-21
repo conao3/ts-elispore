@@ -1,0 +1,18 @@
+{
+  "id": 662245041,
+  "name": "DarkBuffalo/chronos",
+  "description": "Chronos: multiple simultaneous countdown / countup timers in Emacs.",
+  "url": "https://github.com/DarkBuffalo/chronos",
+  "stars": 6,
+  "updated": "2024-05-25T13:39:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chronos",
+    "fetcher": "github",
+    "repo": "DarkBuffalo/chronos"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 58030221,
+  "name": "rubikitch/sudo-ext",
+  "description": "",
+  "url": "https://github.com/rubikitch/sudo-ext",
+  "stars": 1,
+  "updated": "2017-01-26T12:14:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sudo-ext",
+    "fetcher": "github",
+    "repo": "rubikitch/sudo-ext"
+  }
+}

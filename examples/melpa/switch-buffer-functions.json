@@ -1,0 +1,18 @@
+{
+  "id": 62438851,
+  "name": "10sr/switch-buffer-functions-el",
+  "description": "Hook Run Just After Switching Current Buffer Interactively",
+  "url": "https://github.com/10sr/switch-buffer-functions-el",
+  "stars": 32,
+  "updated": "2021-10-27T08:53:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "switch-buffer-functions",
+    "fetcher": "github",
+    "repo": "10sr/switch-buffer-functions-el"
+  }
+}

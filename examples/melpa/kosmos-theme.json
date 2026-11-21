@@ -1,0 +1,18 @@
+{
+  "id": 66287940,
+  "name": "habamax/kosmos-theme",
+  "description": "emacs-theme mostly black and lightgray",
+  "url": "https://github.com/habamax/kosmos-theme",
+  "stars": 6,
+  "updated": "2017-05-02T18:51:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kosmos-theme",
+    "fetcher": "github",
+    "repo": "habamax/kosmos-theme"
+  }
+}

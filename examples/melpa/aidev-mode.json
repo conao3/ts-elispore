@@ -1,0 +1,18 @@
+{
+  "id": 944856680,
+  "name": "inaimathi/aidev-mode",
+  "description": "Minor mode for LLM interaction and chat-based refactoring",
+  "url": "https://github.com/inaimathi/aidev-mode",
+  "stars": 7,
+  "updated": "2025-03-18T21:44:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aidev-mode",
+    "fetcher": "github",
+    "repo": "inaimathi/aidev-mode"
+  }
+}

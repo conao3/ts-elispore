@@ -1,0 +1,18 @@
+{
+  "id": 682712437,
+  "name": "szermatt/mistty",
+  "description": "Alacritty-based terminal for Emacs with shell/comint behavior",
+  "url": "https://github.com/szermatt/mistty",
+  "stars": 241,
+  "updated": "2026-11-20T20:41:57Z",
+  "archived": false,
+  "topics": ["emacs", "fish-shell", "shell", "terminal"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mistty",
+    "fetcher": "github",
+    "repo": "szermatt/mistty"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": 225363431,
+  "name": "emacs-vs/vs-dark-theme",
+  "description": "Visual Studio IDE dark theme",
+  "url": "https://github.com/emacs-vs/vs-dark-theme",
+  "stars": 13,
+  "updated": "2026-06-18T19:46:36Z",
+  "archived": false,
+  "topics": [
+    "color",
+    "cutomize",
+    "dark",
+    "dark-theme",
+    "elisp",
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "emacs-plugin",
+    "ide",
+    "lisp",
+    "package",
+    "plugin",
+    "theme",
+    "visual-studio"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "vs-dark-theme",
+    "fetcher": "github",
+    "repo": "emacs-vs/vs-dark-theme"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 30524971,
+  "name": "rejeep/handoff.el",
+  "description": "Get your hand off that mouse!",
+  "url": "https://github.com/rejeep/handoff.el",
+  "stars": 5,
+  "updated": "2015-09-17T06:00:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "handoff",
+    "fetcher": "github",
+    "repo": "rejeep/handoff.el"
+  }
+}

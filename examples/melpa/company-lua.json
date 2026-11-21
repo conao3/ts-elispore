@@ -1,0 +1,19 @@
+{
+  "id": 39129398,
+  "name": "ptrv/company-lua",
+  "description": "company-mode completion backend for Lua",
+  "url": "https://github.com/ptrv/company-lua",
+  "stars": 17,
+  "updated": "2017-11-08T23:07:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Lua",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-lua",
+    "fetcher": "github",
+    "repo": "ptrv/company-lua",
+    "files": "(:defaults \"lua\")"
+  }
+}

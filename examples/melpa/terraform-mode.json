@@ -1,0 +1,18 @@
+{
+  "id": 22496184,
+  "name": "hcl-emacs/terraform-mode",
+  "description": "Major mode of Terraform configuration file",
+  "url": "https://github.com/hcl-emacs/terraform-mode",
+  "stars": 244,
+  "updated": "2025-11-15T22:11:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "terraform-mode",
+    "fetcher": "github",
+    "repo": "hcl-emacs/terraform-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1152751452,
+  "name": "function-artisans/magit-standup",
+  "description": "Collect recent git commits for standup notes",
+  "url": "https://github.com/function-artisans/magit-standup",
+  "stars": 32,
+  "updated": "2026-11-10T19:09:57Z",
+  "archived": false,
+  "topics": ["emacs", "git", "org-mode", "standup", "standup-meetings", "tools", "worklog"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "magit-standup",
+    "fetcher": "github",
+    "repo": "function-artisans/magit-standup"
+  }
+}

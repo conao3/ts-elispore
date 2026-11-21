@@ -1,0 +1,19 @@
+{
+  "id": 368531871,
+  "name": "zzamboni/750words-client",
+  "description": "A command-line client for 750words.com.",
+  "url": "https://github.com/zzamboni/750words-client",
+  "stars": 13,
+  "updated": "2022-06-25T14:54:33Z",
+  "archived": false,
+  "topics": ["750-words", "writing"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "750words",
+    "fetcher": "github",
+    "repo": "zzamboni/750words-client",
+    "files": "(\"750words.el\")"
+  }
+}

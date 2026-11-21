@@ -1,0 +1,18 @@
+{
+  "id": 50327644,
+  "name": "yuutayamada/commenter",
+  "description": "",
+  "url": "https://github.com/yuutayamada/commenter",
+  "stars": 5,
+  "updated": "2016-02-19T16:36:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "commenter",
+    "fetcher": "github",
+    "repo": "yuutayamada/commenter"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 40315057,
+  "name": "emacsorphanage/ac-alchemist",
+  "description": "Auto-complete source of alchemist",
+  "url": "https://github.com/emacsorphanage/ac-alchemist",
+  "stars": 19,
+  "updated": "2015-09-08T06:56:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ac-alchemist",
+    "fetcher": "github",
+    "repo": "emacsorphanage/ac-alchemist"
+  }
+}

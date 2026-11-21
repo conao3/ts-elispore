@@ -1,0 +1,18 @@
+{
+  "id": 20325501,
+  "name": "kwrooijen/indy",
+  "description": "A customizable indentation minor mode for Emacs",
+  "url": "https://github.com/kwrooijen/indy",
+  "stars": 5,
+  "updated": "2019-08-07T06:25:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "indy",
+    "fetcher": "github",
+    "repo": "kwrooijen/indy"
+  }
+}

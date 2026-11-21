@@ -1,0 +1,18 @@
+{
+  "id": 70326436,
+  "name": "microamp/godoctor.el",
+  "description": "Emacs frontend for godoctor",
+  "url": "https://github.com/microamp/godoctor.el",
+  "stars": 37,
+  "updated": "2019-12-09T06:39:26Z",
+  "archived": false,
+  "topics": ["emacs", "golang", "refactoring"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "godoctor",
+    "fetcher": "github",
+    "repo": "microamp/godoctor.el"
+  }
+}

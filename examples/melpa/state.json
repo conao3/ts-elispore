@@ -1,0 +1,18 @@
+{
+  "id": 10351668,
+  "name": "thisirs/state",
+  "description": "Quick navigation between workspaces in emacs",
+  "url": "https://github.com/thisirs/state",
+  "stars": 17,
+  "updated": "2026-11-18T10:14:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "state",
+    "fetcher": "github",
+    "repo": "thisirs/state"
+  }
+}

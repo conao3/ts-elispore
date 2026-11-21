@@ -1,0 +1,19 @@
+{
+  "id": 875281488,
+  "name": "AnselmC/le-gpt.el",
+  "description": "A comprehensive Emacs package for GPT support.",
+  "url": "https://github.com/AnselmC/le-gpt.el",
+  "stars": 28,
+  "updated": "2026-02-02T19:37:05Z",
+  "archived": false,
+  "topics": ["anthropic", "copilot", "cursor", "emacs", "gpt", "llm", "openai"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "le-gpt",
+    "fetcher": "github",
+    "repo": "AnselmC/le-gpt.el",
+    "files": "(:defaults \"le-gpt.py\")"
+  }
+}

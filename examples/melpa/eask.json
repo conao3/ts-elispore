@@ -1,0 +1,18 @@
+{
+  "id": 535935273,
+  "name": "emacs-eask/eask",
+  "description": "Core Eask APIs, for Eask CLI development",
+  "url": "https://github.com/emacs-eask/eask",
+  "stars": 24,
+  "updated": "2026-09-05T10:07:01Z",
+  "archived": false,
+  "topics": ["eask", "elisp", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "eask",
+    "fetcher": "github",
+    "repo": "emacs-eask/eask"
+  }
+}

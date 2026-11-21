@@ -1,0 +1,18 @@
+{
+  "id": 317103282,
+  "name": "cnngimenez/org-tree-slide-pauses",
+  "description": "Add pauses animation/effect to the org-tree-slide.",
+  "url": "https://github.com/cnngimenez/org-tree-slide-pauses",
+  "stars": 6,
+  "updated": "2020-12-15T01:48:53Z",
+  "archived": false,
+  "topics": ["beamer", "emacs", "org-tree-slides"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-tree-slide-pauses",
+    "fetcher": "github",
+    "repo": "cnngimenez/org-tree-slide-pauses"
+  }
+}

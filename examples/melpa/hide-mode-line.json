@@ -1,0 +1,18 @@
+{
+  "id": 123395137,
+  "name": "hlissner/emacs-hide-mode-line",
+  "description": "An Emacs plugin that hides (or masks) the current buffer's mode-line",
+  "url": "https://github.com/hlissner/emacs-hide-mode-line",
+  "stars": 94,
+  "updated": "2024-08-28T23:25:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hide-mode-line",
+    "fetcher": "github",
+    "repo": "hlissner/emacs-hide-mode-line"
+  }
+}

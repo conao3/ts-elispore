@@ -1,0 +1,19 @@
+{
+  "id": 49772792,
+  "name": "realgud/realgud-byebug",
+  "description": "Emacs realgud plugin for Ruby byebug debugger",
+  "url": "https://github.com/realgud/realgud-byebug",
+  "stars": 5,
+  "updated": "2019-05-20T11:41:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "realgud-byebug",
+    "fetcher": "github",
+    "repo": "realgud/realgud-byebug",
+    "files": "(\"realgud-byebug.el\"\n         (\"byebug\" \"byebug/*.el\"))"
+  }
+}

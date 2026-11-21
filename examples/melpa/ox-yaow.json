@@ -1,0 +1,18 @@
+{
+  "id": 263327875,
+  "name": "LaurenceWarne/ox-yaow.el",
+  "description": "A lightweight org -> html wiki export option",
+  "url": "https://github.com/LaurenceWarne/ox-yaow.el",
+  "stars": 2,
+  "updated": "2022-07-02T13:45:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-yaow",
+    "fetcher": "github",
+    "repo": "LaurenceWarne/ox-yaow.el"
+  }
+}

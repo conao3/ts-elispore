@@ -1,0 +1,18 @@
+{
+  "id": 1132632378,
+  "name": "yad-tahir/evil-insert-plus",
+  "description": "Enhances the standard Vim-like experience in Emacs by turning the basic insertion commands into Evil operators. ",
+  "url": "https://github.com/yad-tahir/evil-insert-plus",
+  "stars": 7,
+  "updated": "2026-02-01T20:14:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-insert-plus",
+    "fetcher": "github",
+    "repo": "yad-tahir/evil-insert-plus"
+  }
+}

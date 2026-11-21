@@ -1,0 +1,18 @@
+{
+  "id": 18843897,
+  "name": "nlamirault/cerbere",
+  "description": "A global mode for TDD",
+  "url": "https://github.com/nlamirault/cerbere",
+  "stars": 11,
+  "updated": "2022-01-14T14:43:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cerbere",
+    "fetcher": "github",
+    "repo": "nlamirault/cerbere"
+  }
+}

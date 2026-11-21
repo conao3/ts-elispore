@@ -1,0 +1,19 @@
+{
+  "id": 1049095,
+  "name": "kivy/kivy",
+  "description": "Open source UI framework written in Python, running on Windows, Linux, macOS, Android and iOS",
+  "url": "https://github.com/kivy/kivy",
+  "stars": 19028,
+  "updated": "2026-11-21T08:15:02Z",
+  "archived": false,
+  "topics": ["android", "app", "ios", "kivy", "linux", "macos", "python", "ui", "windows"],
+  "license": "MIT",
+  "language": "Python",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "kivy-mode",
+    "fetcher": "github",
+    "repo": "kivy/kivy",
+    "files": "(\"kivy/tools/highlight/kivy-mode.el\")"
+  }
+}

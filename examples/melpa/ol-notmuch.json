@@ -1,0 +1,18 @@
+{
+  "id": 838428175,
+  "name": "tarsius/ol-notmuch",
+  "description": "Links to Notmuch buffers from Org documents",
+  "url": "https://github.com/tarsius/ol-notmuch",
+  "stars": 17,
+  "updated": "2026-11-17T11:23:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ol-notmuch",
+    "fetcher": "github",
+    "repo": "tarsius/ol-notmuch"
+  }
+}

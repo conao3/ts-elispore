@@ -1,0 +1,18 @@
+{
+  "id": 30171916,
+  "name": "genovese/ess-smart-equals",
+  "description": "Better smart-assignment with = in R and S, with no underscores.",
+  "url": "https://github.com/genovese/ess-smart-equals",
+  "stars": 14,
+  "updated": "2021-04-11T13:33:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ess-smart-equals",
+    "fetcher": "github",
+    "repo": "genovese/ess-smart-equals"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 33197861,
+  "name": "paetzke/py-yapf.el",
+  "description": "Use yapf to beautify a Python buffer",
+  "url": "https://github.com/paetzke/py-yapf.el",
+  "stars": 40,
+  "updated": "2021-03-11T13:12:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "py-yapf",
+    "fetcher": "github",
+    "repo": "paetzke/py-yapf.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 90749143,
+  "name": "Olivia5k/makefile-executor.el",
+  "description": "Emacs helpers to run things from makefiles",
+  "url": "https://github.com/Olivia5k/makefile-executor.el",
+  "stars": 46,
+  "updated": "2026-07-22T15:56:28Z",
+  "archived": false,
+  "topics": ["emacs", "makefile"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "makefile-executor",
+    "fetcher": "github",
+    "repo": "Olivia5k/makefile-executor.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 205151412,
+  "name": "ragone/asx",
+  "description": "Ask StackExchange/StackOverflow in Emacs",
+  "url": "https://github.com/ragone/asx",
+  "stars": 17,
+  "updated": "2022-07-26T08:53:46Z",
+  "archived": false,
+  "topics": ["convenience", "emacs", "stackexchange", "stackoverflow"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "asx",
+    "fetcher": "github",
+    "repo": "ragone/asx"
+  }
+}

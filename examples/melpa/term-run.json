@@ -1,0 +1,18 @@
+{
+  "id": 30869900,
+  "name": "10sr/term-run-el",
+  "description": "Run Arbitrary Command in Terminal Buffer",
+  "url": "https://github.com/10sr/term-run-el",
+  "stars": 12,
+  "updated": "2020-01-28T07:03:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "term-run",
+    "fetcher": "github",
+    "repo": "10sr/term-run-el"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": 99871455,
+  "name": "masasam/emacs-easy-jekyll",
+  "description": "Emacs major mode for managing jekyll",
+  "url": "https://github.com/masasam/emacs-easy-jekyll",
+  "stars": 59,
+  "updated": "2025-10-16T21:44:34Z",
+  "archived": false,
+  "topics": [
+    "aws-s3",
+    "blog",
+    "emacs",
+    "emacs-lisp",
+    "emacspeak",
+    "firebase",
+    "firebase-hosting",
+    "github-pages",
+    "google-cloud-storage",
+    "jekyll",
+    "markdown",
+    "melpa",
+    "netlify",
+    "static-site-generator"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "easy-jekyll",
+    "fetcher": "github",
+    "repo": "masasam/emacs-easy-jekyll"
+  }
+}

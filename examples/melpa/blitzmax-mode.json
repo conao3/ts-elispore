@@ -1,0 +1,18 @@
+{
+  "id": 3756051,
+  "name": "Sodaware/blitzmax-mode",
+  "description": "An Emacs major mode for editing BlitzMax source files",
+  "url": "https://github.com/Sodaware/blitzmax-mode",
+  "stars": 3,
+  "updated": "2025-02-21T14:10:35Z",
+  "archived": false,
+  "topics": ["blitzmax", "emacs"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "blitzmax-mode",
+    "fetcher": "github",
+    "repo": "Sodaware/blitzmax-mode"
+  }
+}

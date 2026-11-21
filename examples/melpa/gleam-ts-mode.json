@@ -1,0 +1,19 @@
+{
+  "id": 179920806,
+  "name": "gleam-lang/gleam-mode",
+  "description": "🐙 Gleam support for Emacs",
+  "url": "https://github.com/gleam-lang/gleam-mode",
+  "stars": 118,
+  "updated": "2026-10-23T14:33:06Z",
+  "archived": false,
+  "topics": ["editor-plugin", "emacs", "gleam"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "gleam-ts-mode",
+    "fetcher": "github",
+    "repo": "gleam-lang/gleam-mode",
+    "files": "(\"gleam-ts-mode.el\")"
+  }
+}

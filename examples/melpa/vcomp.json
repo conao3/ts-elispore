@@ -1,0 +1,18 @@
+{
+  "id": 89316,
+  "name": "tarsius/vcomp",
+  "description": "Compare version strings",
+  "url": "https://github.com/tarsius/vcomp",
+  "stars": 9,
+  "updated": "2026-10-01T16:32:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vcomp",
+    "fetcher": "github",
+    "repo": "tarsius/vcomp"
+  }
+}

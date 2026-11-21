@@ -1,0 +1,18 @@
+{
+  "id": 401498784,
+  "name": "purplg/hass",
+  "description": "An Emacs package for interacting with Home Assistant",
+  "url": "https://github.com/purplg/hass",
+  "stars": 99,
+  "updated": "2026-09-04T02:48:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hass",
+    "fetcher": "github",
+    "repo": "purplg/hass"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 60275591,
+  "name": "cpitclaudel/synquid-emacs",
+  "description": "Edit Synquid files in Emacs!",
+  "url": "https://github.com/cpitclaudel/synquid-emacs",
+  "stars": 3,
+  "updated": "2016-09-30T15:50:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "synquid",
+    "fetcher": "github",
+    "repo": "cpitclaudel/synquid-emacs"
+  }
+}

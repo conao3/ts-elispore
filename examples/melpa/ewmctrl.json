@@ -1,0 +1,18 @@
+{
+  "id": 28949406,
+  "name": "flexibeast/ewmctrl",
+  "description": "Use wmctrl to manage desktop windows from Emacs",
+  "url": "https://github.com/flexibeast/ewmctrl",
+  "stars": 31,
+  "updated": "2019-08-02T01:00:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ewmctrl",
+    "fetcher": "github",
+    "repo": "flexibeast/ewmctrl"
+  }
+}

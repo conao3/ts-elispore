@@ -1,0 +1,19 @@
+{
+  "id": 5246755,
+  "name": "emacsorphanage/emamux-ruby-test",
+  "description": "Ruby test with emamux",
+  "url": "https://github.com/emacsorphanage/emamux-ruby-test",
+  "stars": 6,
+  "updated": "2013-08-12T20:36:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "emamux-ruby-test",
+    "fetcher": "github",
+    "repo": "emacsorphanage/emamux-ruby-test",
+    "files": "(\"emamux-ruby-test.el\")"
+  }
+}

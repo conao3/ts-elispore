@@ -1,0 +1,18 @@
+{
+  "id": 54050096,
+  "name": "alphapapa/org-bookmark-heading",
+  "description": "Emacs bookmark support for Org-mode",
+  "url": "https://github.com/alphapapa/org-bookmark-heading",
+  "stars": 98,
+  "updated": "2024-09-06T05:22:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-bookmark-heading",
+    "fetcher": "github",
+    "repo": "alphapapa/org-bookmark-heading"
+  }
+}

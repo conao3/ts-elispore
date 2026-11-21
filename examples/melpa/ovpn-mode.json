@@ -1,0 +1,18 @@
+{
+  "id": 40332193,
+  "name": "anticomputer/ovpn-mode",
+  "description": "OpenVPN management mode for Emacs",
+  "url": "https://github.com/anticomputer/ovpn-mode",
+  "stars": 28,
+  "updated": "2025-09-16T00:07:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ovpn-mode",
+    "fetcher": "github",
+    "repo": "anticomputer/ovpn-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 442853954,
+  "name": "jpe90/emacs-clj-deps-new",
+  "description": "Emacs interface to deps-new and clj-new",
+  "url": "https://github.com/jpe90/emacs-clj-deps-new",
+  "stars": 64,
+  "updated": "2024-11-21T14:37:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clj-deps-new",
+    "fetcher": "github",
+    "repo": "jpe90/emacs-clj-deps-new"
+  }
+}

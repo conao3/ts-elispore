@@ -1,0 +1,18 @@
+{
+  "id": 27537947,
+  "name": "josteink/wsd-mode",
+  "description": "A major-mode for Emacs and websequencediagrams.com ",
+  "url": "https://github.com/josteink/wsd-mode",
+  "stars": 344,
+  "updated": "2026-11-20T08:10:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wsd-mode",
+    "fetcher": "github",
+    "repo": "josteink/wsd-mode"
+  }
+}

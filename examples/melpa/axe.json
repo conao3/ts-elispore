@@ -1,0 +1,18 @@
+{
+  "id": 287177678,
+  "name": "cniles/axe",
+  "description": "AWS Extensions for Emacs",
+  "url": "https://github.com/cniles/axe",
+  "stars": 49,
+  "updated": "2023-02-20T17:55:35Z",
+  "archived": false,
+  "topics": ["aws", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "axe",
+    "fetcher": "github",
+    "repo": "cniles/axe"
+  }
+}

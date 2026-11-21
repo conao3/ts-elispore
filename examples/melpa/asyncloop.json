@@ -1,0 +1,18 @@
+{
+  "id": 560431860,
+  "name": "meedstrom/asyncloop",
+  "description": "Small Emacs-Lisp library for non-blocking threads, if by \"thread\" you mean \"list of functions\"",
+  "url": "https://github.com/meedstrom/asyncloop",
+  "stars": 16,
+  "updated": "2024-08-18T12:47:33Z",
+  "archived": false,
+  "topics": ["async", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "asyncloop",
+    "fetcher": "github",
+    "repo": "meedstrom/asyncloop"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 4841690,
+  "name": "jimeh/twilight-bright-theme.el",
+  "description": "A Emacs port of the TextMate theme by the same name with some minor tweaks and additions.",
+  "url": "https://github.com/jimeh/twilight-bright-theme.el",
+  "stars": 64,
+  "updated": "2023-08-11T13:07:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "twilight-bright-theme",
+    "fetcher": "github",
+    "repo": "jimeh/twilight-bright-theme.el"
+  }
+}

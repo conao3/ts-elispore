@@ -1,0 +1,18 @@
+{
+  "id": 32078190,
+  "name": "zweifisch/ob-kotlin",
+  "description": "org-babel functions for kotlin evaluation",
+  "url": "https://github.com/zweifisch/ob-kotlin",
+  "stars": 7,
+  "updated": "2021-02-03T19:25:23Z",
+  "archived": false,
+  "topics": ["kotlin", "literate-programming", "org-babel", "org-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-kotlin",
+    "fetcher": "github",
+    "repo": "zweifisch/ob-kotlin"
+  }
+}

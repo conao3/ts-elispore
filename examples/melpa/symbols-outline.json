@@ -1,0 +1,19 @@
+{
+  "id": 560358525,
+  "name": "liushihao456/symbols-outline.el",
+  "description": "Display symbols (functions, variables, etc) in a side window.",
+  "url": "https://github.com/liushihao456/symbols-outline.el",
+  "stars": 90,
+  "updated": "2025-08-12T10:27:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "symbols-outline",
+    "fetcher": "github",
+    "repo": "liushihao456/symbols-outline.el",
+    "files": "(:defaults\n                         \"icons\")"
+  }
+}

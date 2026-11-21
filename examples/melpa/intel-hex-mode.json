@@ -1,0 +1,18 @@
+{
+  "id": 127867179,
+  "name": "mschuldt/intel-hex-mode",
+  "description": "An Emacs mode for Intel hex files",
+  "url": "https://github.com/mschuldt/intel-hex-mode",
+  "stars": 3,
+  "updated": "2019-07-10T16:35:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "intel-hex-mode",
+    "fetcher": "github",
+    "repo": "mschuldt/intel-hex-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 219968481,
+  "name": "emacs-grammarly/flycheck-grammarly",
+  "description": "Grammarly support for Flycheck",
+  "url": "https://github.com/emacs-grammarly/flycheck-grammarly",
+  "stars": 132,
+  "updated": "2026-06-19T08:49:11Z",
+  "archived": false,
+  "topics": ["checker", "elisp", "emacs-lisp", "grammar"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-grammarly",
+    "fetcher": "github",
+    "repo": "emacs-grammarly/flycheck-grammarly"
+  }
+}

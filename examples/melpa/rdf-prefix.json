@@ -1,0 +1,18 @@
+{
+  "id": 16803065,
+  "name": "simenheg/rdf-prefix",
+  "description": "Prefix lookup for RDF in Emacs",
+  "url": "https://github.com/simenheg/rdf-prefix",
+  "stars": 7,
+  "updated": "2024-04-03T17:11:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rdf-prefix",
+    "fetcher": "github",
+    "repo": "simenheg/rdf-prefix"
+  }
+}

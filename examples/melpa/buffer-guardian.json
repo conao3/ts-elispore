@@ -1,0 +1,18 @@
+{
+  "id": 1181760758,
+  "name": "jamescherti/buffer-guardian.el",
+  "description": "buffer-guardian.el - Automatically save Emacs buffers without manual intervention",
+  "url": "https://github.com/jamescherti/buffer-guardian.el",
+  "stars": 28,
+  "updated": "2026-11-10T15:12:49Z",
+  "archived": false,
+  "topics": ["backup", "buffer", "emacs", "emacs-package", "emacs-packages", "save", "save-buffer"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "buffer-guardian",
+    "fetcher": "github",
+    "repo": "jamescherti/buffer-guardian.el"
+  }
+}

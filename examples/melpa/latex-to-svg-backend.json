@@ -1,0 +1,18 @@
+{
+  "id": 1319204736,
+  "name": "alberti42/latex-to-svg-backend",
+  "description": "Emacs library for rendering LaTeX math to SVG images with one of three engines (LaTeX, texres, RaTeX), cached on disk.",
+  "url": "https://github.com/alberti42/latex-to-svg-backend",
+  "stars": 7,
+  "updated": "2026-11-06T19:09:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "latex-to-svg-backend",
+    "fetcher": "github",
+    "repo": "alberti42/latex-to-svg-backend"
+  }
+}

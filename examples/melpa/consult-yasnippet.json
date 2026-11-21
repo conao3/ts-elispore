@@ -1,0 +1,18 @@
+{
+  "id": 409256736,
+  "name": "mohkale/consult-yasnippet",
+  "description": "",
+  "url": "https://github.com/mohkale/consult-yasnippet",
+  "stars": 45,
+  "updated": "2026-06-13T14:36:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-yasnippet",
+    "fetcher": "github",
+    "repo": "mohkale/consult-yasnippet"
+  }
+}

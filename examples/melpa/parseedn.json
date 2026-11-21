@@ -1,0 +1,18 @@
+{
+  "id": 122648960,
+  "name": "clojure-emacs/parseedn",
+  "description": "EDN parser for Emacs Lisp",
+  "url": "https://github.com/clojure-emacs/parseedn",
+  "stars": 62,
+  "updated": "2026-10-01T11:39:15Z",
+  "archived": false,
+  "topics": ["clojure", "edn", "edn-data", "edn-parser", "elisp", "emacs", "emacs-lisp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "parseedn",
+    "fetcher": "github",
+    "repo": "clojure-emacs/parseedn"
+  }
+}

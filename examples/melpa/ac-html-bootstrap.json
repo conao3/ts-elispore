@@ -1,0 +1,19 @@
+{
+  "id": 28028517,
+  "name": "osv/ac-html-bootstrap",
+  "description": "Bootstrap completion candidates for ac-html.el",
+  "url": "https://github.com/osv/ac-html-bootstrap",
+  "stars": 14,
+  "updated": "2016-03-02T17:02:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-html-bootstrap",
+    "fetcher": "github",
+    "repo": "osv/ac-html-bootstrap",
+    "files": "(\"*.el\" \"html-stuff\" \"fa-html-stuff\")"
+  }
+}

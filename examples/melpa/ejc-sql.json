@@ -1,0 +1,19 @@
+{
+  "id": 7165811,
+  "name": "kostafey/ejc-sql",
+  "description": "Emacs SQL client uses Clojure JDBC.",
+  "url": "https://github.com/kostafey/ejc-sql",
+  "stars": 321,
+  "updated": "2026-11-06T00:19:04Z",
+  "archived": false,
+  "topics": ["clojure", "clomacs", "emacs", "jdbc", "sql"],
+  "license": "GPL-2.0",
+  "language": "Clojure",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ejc-sql",
+    "fetcher": "github",
+    "repo": "kostafey/ejc-sql",
+    "files": "(:defaults \"project.clj\" \"src\" \"snippets\")"
+  }
+}

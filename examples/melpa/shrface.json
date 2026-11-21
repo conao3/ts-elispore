@@ -1,0 +1,18 @@
+{
+  "id": 254575771,
+  "name": "chenyanming/shrface",
+  "description": "Extend eww/nov with org-mode features, archive web pages to org files with shr.",
+  "url": "https://github.com/chenyanming/shrface",
+  "stars": 258,
+  "updated": "2026-08-10T13:12:55Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "package"],
+  "license": "GPL-3.0",
+  "language": "HTML",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shrface",
+    "fetcher": "github",
+    "repo": "chenyanming/shrface"
+  }
+}

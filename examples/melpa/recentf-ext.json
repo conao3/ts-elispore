@@ -1,0 +1,18 @@
+{
+  "id": 104816266,
+  "name": "rubikitch/recentf-ext",
+  "description": "",
+  "url": "https://github.com/rubikitch/recentf-ext",
+  "stars": 2,
+  "updated": "2019-09-11T10:24:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "recentf-ext",
+    "fetcher": "github",
+    "repo": "rubikitch/recentf-ext"
+  }
+}

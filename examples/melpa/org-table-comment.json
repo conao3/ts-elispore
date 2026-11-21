@@ -1,0 +1,18 @@
+{
+  "id": 2806129,
+  "name": "mattfidler/org-table-comment.el",
+  "description": "Org tables in comments",
+  "url": "https://github.com/mattfidler/org-table-comment.el",
+  "stars": 5,
+  "updated": "2015-09-16T01:46:16Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-table-comment",
+    "fetcher": "github",
+    "repo": "mattfidler/org-table-comment.el"
+  }
+}

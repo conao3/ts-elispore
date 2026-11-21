@@ -1,0 +1,18 @@
+{
+  "id": 5908179,
+  "name": "jscheid/kite",
+  "description": "Emacs front end for the WebKit Inspector",
+  "url": "https://github.com/jscheid/kite",
+  "stars": 107,
+  "updated": "2013-02-10T22:07:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kite",
+    "fetcher": "github",
+    "repo": "jscheid/kite"
+  }
+}

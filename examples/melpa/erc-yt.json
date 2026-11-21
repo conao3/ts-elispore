@@ -1,0 +1,18 @@
+{
+  "id": 34595829,
+  "name": "yhvh/erc-yt",
+  "description": "",
+  "url": "https://github.com/yhvh/erc-yt",
+  "stars": 7,
+  "updated": "2015-04-26T12:53:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erc-yt",
+    "fetcher": "github",
+    "repo": "yhvh/erc-yt"
+  }
+}

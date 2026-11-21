@@ -1,0 +1,18 @@
+{
+  "id": 527221451,
+  "name": "emarsden/ipp-el",
+  "description": "Emacs Lisp implementation of the Internet Printing Protocol",
+  "url": "https://github.com/emarsden/ipp-el",
+  "stars": 10,
+  "updated": "2026-06-27T10:24:05Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "ipp", "printing"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ipp",
+    "fetcher": "github",
+    "repo": "emarsden/ipp-el"
+  }
+}

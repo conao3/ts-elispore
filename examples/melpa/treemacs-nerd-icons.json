@@ -1,0 +1,18 @@
+{
+  "id": 614529443,
+  "name": "rainstormstudio/treemacs-nerd-icons",
+  "description": "",
+  "url": "https://github.com/rainstormstudio/treemacs-nerd-icons",
+  "stars": 36,
+  "updated": "2025-10-24T19:14:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "treemacs-nerd-icons",
+    "fetcher": "github",
+    "repo": "rainstormstudio/treemacs-nerd-icons"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 99721074,
+  "name": "akermu/emacs-libvterm",
+  "description": "Emacs libvterm integration",
+  "url": "https://github.com/akermu/emacs-libvterm",
+  "stars": 2003,
+  "updated": "2026-09-14T16:41:29Z",
+  "archived": false,
+  "topics": ["emacs", "libvterm", "terminal", "terminal-emulator"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vterm",
+    "fetcher": "github",
+    "repo": "akermu/emacs-libvterm",
+    "files": "(\"CMakeLists.txt\"\n         \"elisp.c\"\n         \"elisp.h\"\n         \"emacs-module.h\"\n         \"etc\"\n         \"utf8.c\"\n         \"utf8.h\"\n         \"vterm.el\"\n         \"vterm-module.c\"\n         \"vterm-module.h\")"
+  }
+}

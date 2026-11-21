@@ -1,0 +1,18 @@
+{
+  "id": 10652264,
+  "name": "sfllaw/emacs-launch",
+  "description": "Emacs library to launch files using OS-standard associated applications.",
+  "url": "https://github.com/sfllaw/emacs-launch",
+  "stars": 9,
+  "updated": "2024-04-20T20:21:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "launch",
+    "fetcher": "github",
+    "repo": "sfllaw/emacs-launch"
+  }
+}

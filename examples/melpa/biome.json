@@ -1,0 +1,18 @@
+{
+  "id": 659404592,
+  "name": "SqrtMinusOne/biome",
+  "description": "Bountiful Interface to Open Meteo for Emacs",
+  "url": "https://github.com/SqrtMinusOne/biome",
+  "stars": 72,
+  "updated": "2026-10-29T15:18:44Z",
+  "archived": false,
+  "topics": ["emacs", "open-meteo", "weather"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "biome",
+    "fetcher": "github",
+    "repo": "SqrtMinusOne/biome"
+  }
+}

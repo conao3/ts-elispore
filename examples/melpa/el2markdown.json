@@ -1,0 +1,18 @@
+{
+  "id": 9248463,
+  "name": "Lindydancer/el2markdown",
+  "description": "Convert Emacs Lisp comments to MarkDown",
+  "url": "https://github.com/Lindydancer/el2markdown",
+  "stars": 60,
+  "updated": "2025-01-05T18:39:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "el2markdown",
+    "fetcher": "github",
+    "repo": "Lindydancer/el2markdown"
+  }
+}

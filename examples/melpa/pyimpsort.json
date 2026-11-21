@@ -1,0 +1,19 @@
+{
+  "id": 28460344,
+  "name": "emacsorphanage/pyimpsort",
+  "description": "Sort python imports",
+  "url": "https://github.com/emacsorphanage/pyimpsort",
+  "stars": 6,
+  "updated": "2025-07-10T16:08:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Python",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "pyimpsort",
+    "fetcher": "github",
+    "repo": "emacsorphanage/pyimpsort",
+    "files": "(\"pyimpsort.el\" \"pyimpsort.py\")"
+  }
+}

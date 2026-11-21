@@ -1,0 +1,18 @@
+{
+  "id": 67666761,
+  "name": "my7h3le/org-easy-img-insert",
+  "description": "An emacs package that makes inserting images from the web much easier and quicker",
+  "url": "https://github.com/my7h3le/org-easy-img-insert",
+  "stars": 18,
+  "updated": "2016-09-15T20:15:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-easy-img-insert",
+    "fetcher": "github",
+    "repo": "my7h3le/org-easy-img-insert"
+  }
+}

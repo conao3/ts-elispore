@@ -1,0 +1,18 @@
+{
+  "id": 159707475,
+  "name": "functionreturnfunction/format-table",
+  "description": "Parse and reformat tabular data in emacs.",
+  "url": "https://github.com/functionreturnfunction/format-table",
+  "stars": 8,
+  "updated": "2019-02-02T01:53:39Z",
+  "archived": false,
+  "topics": ["emacs", "json", "library", "sql"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "format-table",
+    "fetcher": "github",
+    "repo": "functionreturnfunction/format-table"
+  }
+}

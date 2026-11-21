@@ -1,0 +1,18 @@
+{
+  "id": 15458747,
+  "name": "atykhonov/emacs-howdoi",
+  "description": "Emacs interface to the `howdoi` command line tool (https://github.com/gleitz/howdoi)",
+  "url": "https://github.com/atykhonov/emacs-howdoi",
+  "stars": 70,
+  "updated": "2018-03-25T10:14:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "howdoi",
+    "fetcher": "github",
+    "repo": "atykhonov/emacs-howdoi"
+  }
+}

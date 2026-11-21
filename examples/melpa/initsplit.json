@@ -1,0 +1,18 @@
+{
+  "id": 1207550,
+  "name": "dabrahams/initsplit",
+  "description": "John Wiegley's code to split customizations into different files, evolved!",
+  "url": "https://github.com/dabrahams/initsplit",
+  "stars": 26,
+  "updated": "2022-05-19T01:17:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "initsplit",
+    "fetcher": "github",
+    "repo": "dabrahams/initsplit"
+  }
+}

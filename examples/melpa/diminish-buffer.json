@@ -1,0 +1,18 @@
+{
+  "id": 205312401,
+  "name": "jcs-elpa/diminish-buffer",
+  "description": "Diminish (hide) buffers from buffer-menu.",
+  "url": "https://github.com/jcs-elpa/diminish-buffer",
+  "stars": 10,
+  "updated": "2026-06-19T08:24:12Z",
+  "archived": false,
+  "topics": ["buffer", "diminish", "emacs", "hide"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "diminish-buffer",
+    "fetcher": "github",
+    "repo": "jcs-elpa/diminish-buffer"
+  }
+}

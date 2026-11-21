@@ -1,0 +1,19 @@
+{
+  "id": 335610,
+  "name": "auto-complete/auto-complete",
+  "description": "Emacs auto-complete package",
+  "url": "https://github.com/auto-complete/auto-complete",
+  "stars": 1764,
+  "updated": "2026-06-19T08:32:49Z",
+  "archived": false,
+  "topics": ["auto-complete", "completion", "emacs", "melpa"],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "auto-complete",
+    "fetcher": "github",
+    "repo": "auto-complete/auto-complete",
+    "files": "(\"*.el\" \"dict\")"
+  }
+}

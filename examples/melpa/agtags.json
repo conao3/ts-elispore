@@ -1,0 +1,18 @@
+{
+  "id": 161751925,
+  "name": "vietor/agtags",
+  "description": "Another Emacs frontend to GNU Global",
+  "url": "https://github.com/vietor/agtags",
+  "stars": 12,
+  "updated": "2025-05-23T16:55:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "agtags",
+    "fetcher": "github",
+    "repo": "vietor/agtags"
+  }
+}

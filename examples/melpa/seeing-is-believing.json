@@ -1,0 +1,18 @@
+{
+  "id": 43844331,
+  "name": "jcinnamond/seeing-is-believing",
+  "description": "An emacs minor mode for running seeing_is_believing (https://github.com/JoshCheek/seeing_is_believing)",
+  "url": "https://github.com/jcinnamond/seeing-is-believing",
+  "stars": 22,
+  "updated": "2019-12-23T02:07:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "seeing-is-believing",
+    "fetcher": "github",
+    "repo": "jcinnamond/seeing-is-believing"
+  }
+}

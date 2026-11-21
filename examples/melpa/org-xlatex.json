@@ -1,0 +1,19 @@
+{
+  "id": 660709630,
+  "name": "ksqsf/org-xlatex",
+  "description": "Instant LaTeX preview using xwidget and MathJax",
+  "url": "https://github.com/ksqsf/org-xlatex",
+  "stars": 33,
+  "updated": "2024-07-07T13:43:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-xlatex",
+    "fetcher": "github",
+    "repo": "ksqsf/org-xlatex",
+    "files": "(:defaults \"org-xlatex.html\")"
+  }
+}

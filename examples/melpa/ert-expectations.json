@@ -1,0 +1,18 @@
+{
+  "id": 29159714,
+  "name": "emacsorphanage/ert-expectations",
+  "description": "The simplest unit test framework in the world",
+  "url": "https://github.com/emacsorphanage/ert-expectations",
+  "stars": 6,
+  "updated": "2023-05-22T12:02:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ert-expectations",
+    "fetcher": "github",
+    "repo": "emacsorphanage/ert-expectations"
+  }
+}

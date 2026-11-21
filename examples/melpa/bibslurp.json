@@ -1,0 +1,18 @@
+{
+  "id": 11654416,
+  "name": "mkmcc/bibslurp",
+  "description": "retrieve BibTeX entries from NASA ADS",
+  "url": "https://github.com/mkmcc/bibslurp",
+  "stars": 12,
+  "updated": "2019-11-04T21:15:18Z",
+  "archived": false,
+  "topics": ["astronomy", "astrophysics", "bibtex", "emacs-packages"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bibslurp",
+    "fetcher": "github",
+    "repo": "mkmcc/bibslurp"
+  }
+}

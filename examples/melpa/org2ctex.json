@@ -1,0 +1,18 @@
+{
+  "id": 104614313,
+  "name": "tumashu/org2ctex",
+  "description": "Export org to ctex (a latex macro for Chinese)",
+  "url": "https://github.com/tumashu/org2ctex",
+  "stars": 34,
+  "updated": "2020-03-31T05:51:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org2ctex",
+    "fetcher": "github",
+    "repo": "tumashu/org2ctex"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 50605507,
+  "name": "bddean/xml-plus",
+  "description": "XML/HTML utilities for Emacs Lisp",
+  "url": "https://github.com/bddean/xml-plus",
+  "stars": 4,
+  "updated": "2017-07-27T23:56:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xml+",
+    "fetcher": "github",
+    "repo": "bddean/xml-plus"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 155172433,
+  "name": "10sr/editorconfig-generate-el",
+  "description": "Generate .editorconfig",
+  "url": "https://github.com/10sr/editorconfig-generate-el",
+  "stars": 3,
+  "updated": "2019-05-13T04:33:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "editorconfig-generate",
+    "fetcher": "github",
+    "repo": "10sr/editorconfig-generate-el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 39019520,
+  "name": "akermu/cbm.el",
+  "description": "Cycle by major - Cycle through buffers with the same major-mode",
+  "url": "https://github.com/akermu/cbm.el",
+  "stars": 12,
+  "updated": "2017-11-16T12:42:29Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cbm",
+    "fetcher": "github",
+    "repo": "akermu/cbm.el"
+  }
+}

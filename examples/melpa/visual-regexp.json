@@ -1,0 +1,18 @@
+{
+  "id": 9169962,
+  "name": "benma/visual-regexp.el",
+  "description": "A regexp/replace command for Emacs with interactive visual feedback",
+  "url": "https://github.com/benma/visual-regexp.el",
+  "stars": 419,
+  "updated": "2021-05-02T20:19:43Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "visual-regexp",
+    "fetcher": "github",
+    "repo": "benma/visual-regexp.el"
+  }
+}

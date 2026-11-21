@@ -1,0 +1,19 @@
+{
+  "id": 50911543,
+  "name": "Christoph-D/latex-unicode-math-mode",
+  "description": "Emacs minor mode for entering unicode math symbols",
+  "url": "https://github.com/Christoph-D/latex-unicode-math-mode",
+  "stars": 11,
+  "updated": "2023-12-10T22:42:53Z",
+  "archived": false,
+  "topics": ["emacs-mode", "math-symbols", "unicode"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "latex-unicode-math-mode",
+    "fetcher": "github",
+    "repo": "Christoph-D/latex-unicode-math-mode",
+    "files": "(:defaults \"*.sty\")"
+  }
+}

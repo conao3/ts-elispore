@@ -1,0 +1,18 @@
+{
+  "id": 13597929,
+  "name": "apg/mvn-el",
+  "description": "helpers for working with maven via emacs (derives from ant-el)",
+  "url": "https://github.com/apg/mvn-el",
+  "stars": 17,
+  "updated": "2021-06-01T14:14:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mvn",
+    "fetcher": "github",
+    "repo": "apg/mvn-el"
+  }
+}

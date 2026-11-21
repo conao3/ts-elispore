@@ -1,0 +1,18 @@
+{
+  "id": 20361507,
+  "name": "gregsexton/origami.el",
+  "description": "A folding minor mode for Emacs",
+  "url": "https://github.com/gregsexton/origami.el",
+  "stars": 531,
+  "updated": "2023-04-20T15:21:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "origami",
+    "fetcher": "github",
+    "repo": "gregsexton/origami.el"
+  }
+}

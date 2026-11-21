@@ -1,0 +1,18 @@
+{
+  "id": 3314307,
+  "name": "coldnew/linum-relative",
+  "description": "display relative line number in the left margin in emacs",
+  "url": "https://github.com/coldnew/linum-relative",
+  "stars": 171,
+  "updated": "2022-10-25T05:17:15Z",
+  "archived": false,
+  "topics": ["display-line-numbers-mode", "emacs", "emacs-lisp", "linum", "linum-mode", "melpa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "linum-relative",
+    "fetcher": "github",
+    "repo": "coldnew/linum-relative"
+  }
+}

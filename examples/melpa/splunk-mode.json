@@ -1,0 +1,18 @@
+{
+  "id": 537703964,
+  "name": "jakewilliami/splunk-mode",
+  "description": "Syntax highlighting for Splunk in Emacs",
+  "url": "https://github.com/jakewilliami/splunk-mode",
+  "stars": 2,
+  "updated": "2024-10-17T04:59:19Z",
+  "archived": false,
+  "topics": ["emacs", "splunk"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "splunk-mode",
+    "fetcher": "github",
+    "repo": "jakewilliami/splunk-mode"
+  }
+}

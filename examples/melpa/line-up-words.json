@@ -1,0 +1,18 @@
+{
+  "id": 121385115,
+  "name": "janestreet/line-up-words",
+  "description": "a small cmd line tool to align words in a sequence of lines in a smart way",
+  "url": "https://github.com/janestreet/line-up-words",
+  "stars": 14,
+  "updated": "2026-11-03T18:14:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "OCaml",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "line-up-words",
+    "fetcher": "github",
+    "repo": "janestreet/line-up-words"
+  }
+}

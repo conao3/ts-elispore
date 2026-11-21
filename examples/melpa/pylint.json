@@ -1,0 +1,19 @@
+{
+  "id": 287930243,
+  "name": "emacsorphanage/pylint",
+  "description": "Minor mode for running `pylint'",
+  "url": "https://github.com/emacsorphanage/pylint",
+  "stars": 3,
+  "updated": "2023-10-29T18:23:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "pylint",
+    "fetcher": "github",
+    "repo": "emacsorphanage/pylint",
+    "files": "(:defaults \"epylint.py\")"
+  }
+}

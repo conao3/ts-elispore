@@ -1,0 +1,18 @@
+{
+  "id": 67769974,
+  "name": "avkoval/avk-emacs-themes",
+  "description": "My Emacs Themes",
+  "url": "https://github.com/avkoval/avk-emacs-themes",
+  "stars": 16,
+  "updated": "2023-08-25T09:22:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "avk-emacs-themes",
+    "fetcher": "github",
+    "repo": "avkoval/avk-emacs-themes"
+  }
+}

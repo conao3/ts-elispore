@@ -1,0 +1,18 @@
+{
+  "id": 79106683,
+  "name": "chuntaro/emacs-promise",
+  "description": "Promises/A+ for Emacs",
+  "url": "https://github.com/chuntaro/emacs-promise",
+  "stars": 63,
+  "updated": "2021-03-07T07:28:21Z",
+  "archived": false,
+  "topics": ["async", "emacs", "promise"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "promise",
+    "fetcher": "github",
+    "repo": "chuntaro/emacs-promise"
+  }
+}

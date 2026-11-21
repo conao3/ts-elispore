@@ -1,0 +1,18 @@
+{
+  "id": 6423391,
+  "name": "rolandwalker/truthy",
+  "description": "Test the content of a value in Emacs Lisp",
+  "url": "https://github.com/rolandwalker/truthy",
+  "stars": 3,
+  "updated": "2014-08-04T19:23:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "truthy",
+    "fetcher": "github",
+    "repo": "rolandwalker/truthy"
+  }
+}

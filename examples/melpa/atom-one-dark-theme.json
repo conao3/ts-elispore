@@ -1,0 +1,18 @@
+{
+  "id": 36964413,
+  "name": "jonathanchu/atom-one-dark-theme",
+  "description": "Atom One Dark - An Emacs port of the Atom One Dark theme from Atom.io.",
+  "url": "https://github.com/jonathanchu/atom-one-dark-theme",
+  "stars": 260,
+  "updated": "2026-08-25T12:46:25Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-theme", "emacs-theme-port", "emacs-themes"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "atom-one-dark-theme",
+    "fetcher": "github",
+    "repo": "jonathanchu/atom-one-dark-theme"
+  }
+}

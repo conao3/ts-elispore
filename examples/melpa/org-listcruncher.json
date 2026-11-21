@@ -1,0 +1,18 @@
+{
+  "id": 133256772,
+  "name": "dfeich/org-listcruncher",
+  "description": "Planning tool leveraging the power of org lists and parsing them into tables ",
+  "url": "https://github.com/dfeich/org-listcruncher",
+  "stars": 26,
+  "updated": "2025-06-07T12:19:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-listcruncher",
+    "fetcher": "github",
+    "repo": "dfeich/org-listcruncher"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 16932086,
+  "name": "preetpalS/decl.el",
+  "description": "Library for organizing code declaratively.",
+  "url": "https://github.com/preetpalS/decl.el",
+  "stars": 10,
+  "updated": "2026-09-28T12:52:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "decl",
+    "fetcher": "github",
+    "repo": "preetpalS/decl.el"
+  }
+}

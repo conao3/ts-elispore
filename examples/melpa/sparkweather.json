@@ -1,0 +1,18 @@
+{
+  "id": 1101371279,
+  "name": "aglet/sparkweather",
+  "description": "Sparkline weather forecasts in Emacs",
+  "url": "https://github.com/aglet/sparkweather",
+  "stars": 30,
+  "updated": "2026-04-15T08:30:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sparkweather",
+    "fetcher": "github",
+    "repo": "aglet/sparkweather"
+  }
+}

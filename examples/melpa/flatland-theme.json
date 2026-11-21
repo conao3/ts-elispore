@@ -1,0 +1,18 @@
+{
+  "id": 14066352,
+  "name": "gchp/flatland-emacs",
+  "description": "Emacs port of the Flatland theme for Sublime Text",
+  "url": "https://github.com/gchp/flatland-emacs",
+  "stars": 73,
+  "updated": "2022-12-15T18:54:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flatland-theme",
+    "fetcher": "github",
+    "repo": "gchp/flatland-emacs"
+  }
+}

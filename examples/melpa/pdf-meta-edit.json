@@ -1,0 +1,18 @@
+{
+  "id": 882220055,
+  "name": "krisbalintona/pdf-meta-edit",
+  "description": "Emacs code for editing a PDF's metadata, labels, and bookmarks.",
+  "url": "https://github.com/krisbalintona/pdf-meta-edit",
+  "stars": 8,
+  "updated": "2026-01-13T05:23:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pdf-meta-edit",
+    "fetcher": "github",
+    "repo": "krisbalintona/pdf-meta-edit"
+  }
+}

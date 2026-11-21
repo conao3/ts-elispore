@@ -1,0 +1,18 @@
+{
+  "id": 31603624,
+  "name": "emacsorphanage/company-jedi",
+  "description": "Company backend for Python jedi",
+  "url": "https://github.com/emacsorphanage/company-jedi",
+  "stars": 100,
+  "updated": "2021-10-03T22:52:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "company-jedi",
+    "fetcher": "github",
+    "repo": "emacsorphanage/company-jedi"
+  }
+}

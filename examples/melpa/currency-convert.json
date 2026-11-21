@@ -1,0 +1,18 @@
+{
+  "id": 268550940,
+  "name": "lassik/emacs-currency-convert",
+  "description": "Currency converter in Emacs",
+  "url": "https://github.com/lassik/emacs-currency-convert",
+  "stars": 1,
+  "updated": "2023-12-15T15:27:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "currency-convert",
+    "fetcher": "github",
+    "repo": "lassik/emacs-currency-convert"
+  }
+}

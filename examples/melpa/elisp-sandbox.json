@@ -1,0 +1,19 @@
+{
+  "id": 6055763,
+  "name": "joelmccracken/elisp-sandbox",
+  "description": "A library for elisp sandboxed evaluation",
+  "url": "https://github.com/joelmccracken/elisp-sandbox",
+  "stars": 15,
+  "updated": "2016-07-05T15:48:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elisp-sandbox",
+    "fetcher": "github",
+    "repo": "joelmccracken/elisp-sandbox",
+    "files": "(\"elisp-sandbox.el\")"
+  }
+}

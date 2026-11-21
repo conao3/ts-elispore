@@ -1,0 +1,18 @@
+{
+  "id": 280890362,
+  "name": "damon-kwok/verona-mode",
+  "description": ":bouquet: An Emacs major mode for the Verona programming language. ",
+  "url": "https://github.com/damon-kwok/verona-mode",
+  "stars": 2,
+  "updated": "2020-08-23T05:36:41Z",
+  "archived": false,
+  "topics": ["emacs-mode", "verona"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "verona-mode",
+    "fetcher": "github",
+    "repo": "damon-kwok/verona-mode"
+  }
+}

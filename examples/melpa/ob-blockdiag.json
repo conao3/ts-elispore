@@ -1,0 +1,18 @@
+{
+  "id": 90670479,
+  "name": "corpix/ob-blockdiag.el",
+  "description": "Org-babel support for blockdiag",
+  "url": "https://github.com/corpix/ob-blockdiag.el",
+  "stars": 11,
+  "updated": "2021-04-25T00:22:08Z",
+  "archived": false,
+  "topics": ["blockdiag", "emacs", "melpa", "ob-integration", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-blockdiag",
+    "fetcher": "github",
+    "repo": "corpix/ob-blockdiag.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 5055491,
+  "name": "mnuessler/jira-markup-mode",
+  "description": "Emacs major mode for JIRA-markup-formatted text files",
+  "url": "https://github.com/mnuessler/jira-markup-mode",
+  "stars": 18,
+  "updated": "2018-08-21T12:04:14Z",
+  "archived": false,
+  "topics": ["confluence-markup", "emacs-lisp", "emacs-mode", "jira"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jira-markup-mode",
+    "fetcher": "github",
+    "repo": "mnuessler/jira-markup-mode"
+  }
+}

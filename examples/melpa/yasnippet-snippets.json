@@ -1,0 +1,19 @@
+{
+  "id": 915438,
+  "name": "AndreaCrotti/yasnippet-snippets",
+  "description": "a collection of yasnippet snippets for many languages",
+  "url": "https://github.com/AndreaCrotti/yasnippet-snippets",
+  "stars": 1248,
+  "updated": "2026-03-09T21:36:53Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "yasnippet"],
+  "license": "GPL-3.0",
+  "language": "YASnippet",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yasnippet-snippets",
+    "fetcher": "github",
+    "repo": "AndreaCrotti/yasnippet-snippets",
+    "files": "(\"*.el\" \"snippets\" \".nosearch\")"
+  }
+}

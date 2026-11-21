@@ -1,0 +1,18 @@
+{
+  "id": 165345770,
+  "name": "purcell/emacs-reformatter",
+  "description": "Define commands which run reformatters on the current Emacs buffer",
+  "url": "https://github.com/purcell/emacs-reformatter",
+  "stars": 318,
+  "updated": "2026-06-19T11:58:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "reformatter",
+    "fetcher": "github",
+    "repo": "purcell/emacs-reformatter"
+  }
+}

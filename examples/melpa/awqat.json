@@ -1,0 +1,18 @@
+{
+  "id": 259975936,
+  "name": "zkry/awqat",
+  "description": "أوقات الصلاة",
+  "url": "https://github.com/zkry/awqat",
+  "stars": 21,
+  "updated": "2026-06-13T21:25:02Z",
+  "archived": false,
+  "topics": ["astronomy", "prayer-times"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "awqat",
+    "fetcher": "github",
+    "repo": "zkry/awqat"
+  }
+}

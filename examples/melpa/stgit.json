@@ -1,0 +1,19 @@
+{
+  "id": 93957881,
+  "name": "stacked-git/stgit",
+  "description": "Stacked Git",
+  "url": "https://github.com/stacked-git/stgit",
+  "stars": 679,
+  "updated": "2026-10-12T15:49:12Z",
+  "archived": false,
+  "topics": ["git"],
+  "license": "GPL-2.0",
+  "language": "Rust",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "stgit",
+    "fetcher": "github",
+    "repo": "stacked-git/stgit",
+    "files": "(\"contrib/stgit.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 7402870,
+  "name": "chumpage/mag-menu",
+  "description": "",
+  "url": "https://github.com/chumpage/mag-menu",
+  "stars": 17,
+  "updated": "2015-05-05T18:51:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mag-menu",
+    "fetcher": "github",
+    "repo": "chumpage/mag-menu"
+  }
+}

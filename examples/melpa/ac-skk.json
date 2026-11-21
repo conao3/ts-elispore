@@ -1,0 +1,18 @@
+{
+  "id": 27052028,
+  "name": "myuhe/ac-skk.el",
+  "description": "auto-complete-mode source for DDSKK a.k.a Japanese input method",
+  "url": "https://github.com/myuhe/ac-skk.el",
+  "stars": 5,
+  "updated": "2017-03-17T11:02:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-skk",
+    "fetcher": "github",
+    "repo": "myuhe/ac-skk.el"
+  }
+}

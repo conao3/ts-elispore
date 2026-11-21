@@ -1,0 +1,18 @@
+{
+  "id": 161758101,
+  "name": "10sr/with-venv-el",
+  "description": "Execute with Python Virtual Environment Activated",
+  "url": "https://github.com/10sr/with-venv-el",
+  "stars": 17,
+  "updated": "2024-11-12T05:41:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "with-venv",
+    "fetcher": "github",
+    "repo": "10sr/with-venv-el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 7254391,
+  "name": "tkf/emacs-request",
+  "description": "Request.el -- Easy HTTP request for Emacs Lisp",
+  "url": "https://github.com/tkf/emacs-request",
+  "stars": 647,
+  "updated": "2025-02-19T23:54:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "request-deferred",
+    "fetcher": "github",
+    "repo": "tkf/emacs-request",
+    "files": "(\"request-deferred.el\")"
+  }
+}

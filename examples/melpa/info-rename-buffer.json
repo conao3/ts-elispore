@@ -1,0 +1,18 @@
+{
+  "id": 207199591,
+  "name": "oitofelix/info-rename-buffer",
+  "description": "Rename Info buffers to match manuals",
+  "url": "https://github.com/oitofelix/info-rename-buffer",
+  "stars": 9,
+  "updated": "2020-03-28T14:50:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "info-rename-buffer",
+    "fetcher": "github",
+    "repo": "oitofelix/info-rename-buffer"
+  }
+}

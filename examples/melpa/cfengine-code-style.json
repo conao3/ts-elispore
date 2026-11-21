@@ -1,0 +1,18 @@
+{
+  "id": 564449772,
+  "name": "cfengine/cfengine-code-style",
+  "description": "C code style for the CFEngine project",
+  "url": "https://github.com/cfengine/cfengine-code-style",
+  "stars": 1,
+  "updated": "2022-11-14T16:11:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "cfengine-code-style",
+    "fetcher": "github",
+    "repo": "cfengine/cfengine-code-style"
+  }
+}

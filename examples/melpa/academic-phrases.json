@@ -1,0 +1,26 @@
+{
+  "id": 125651405,
+  "name": "nashamri/academic-phrases",
+  "description": "Bypass that mental block when writing your papers.",
+  "url": "https://github.com/nashamri/academic-phrases",
+  "stars": 338,
+  "updated": "2018-07-23T10:21:41Z",
+  "archived": false,
+  "topics": [
+    "academic",
+    "autocomplete",
+    "emacs",
+    "emacs-lisp",
+    "emacs-packages",
+    "papers",
+    "writing"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "academic-phrases",
+    "fetcher": "github",
+    "repo": "nashamri/academic-phrases"
+  }
+}

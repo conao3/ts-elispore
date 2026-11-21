@@ -1,0 +1,19 @@
+{
+  "id": 200504299,
+  "name": "fuxialexander/org-pdftools",
+  "description": "A custom org link type for pdf-tools",
+  "url": "https://github.com/fuxialexander/org-pdftools",
+  "stars": 367,
+  "updated": "2025-07-14T16:31:07Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode", "pdf-tools"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-noter-pdftools",
+    "fetcher": "github",
+    "repo": "fuxialexander/org-pdftools",
+    "files": "(\"org-noter-pdftools.el\")"
+  }
+}

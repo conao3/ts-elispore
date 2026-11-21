@@ -1,0 +1,19 @@
+{
+  "id": 15344025,
+  "name": "slime/slime",
+  "description": "The Superior Lisp Interaction Mode for Emacs",
+  "url": "https://github.com/slime/slime",
+  "stars": 2098,
+  "updated": "2026-11-08T21:46:29Z",
+  "archived": false,
+  "topics": ["common-lisp", "emacs"],
+  "license": null,
+  "language": "Common Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "slime",
+    "fetcher": "github",
+    "repo": "slime/slime",
+    "files": "(\"*.el\"\n         (\"lib\" \"lib/hyperspec.el\")\n         \"swank\"\n         \"*.lisp\"\n         \"*.asd\"\n         \"doc/slime.texi\"\n         \"doc/slime.info\"\n         \"doc/dir\"\n         \"ChangeLog\"\n         (\"contrib\" \"contrib/*\")\n         (:exclude \"contrib/test\" \"contrib/Makefile\"))"
+  }
+}

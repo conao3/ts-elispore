@@ -1,0 +1,18 @@
+{
+  "id": 38454317,
+  "name": "martenlienen/dictcc.el",
+  "description": "Lookup and insert translations from dict.cc without leaving emacs",
+  "url": "https://github.com/martenlienen/dictcc.el",
+  "stars": 18,
+  "updated": "2022-12-31T17:03:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dictcc",
+    "fetcher": "github",
+    "repo": "martenlienen/dictcc.el"
+  }
+}

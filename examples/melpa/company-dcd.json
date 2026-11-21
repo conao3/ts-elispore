@@ -1,0 +1,18 @@
+{
+  "id": 32011818,
+  "name": "tsukimizake/company-dcd",
+  "description": "company backend for DCD.",
+  "url": "https://github.com/tsukimizake/company-dcd",
+  "stars": 21,
+  "updated": "2024-10-24T11:52:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-dcd",
+    "fetcher": "github",
+    "repo": "tsukimizake/company-dcd"
+  }
+}

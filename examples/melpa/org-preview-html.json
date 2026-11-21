@@ -1,0 +1,18 @@
+{
+  "id": 48630110,
+  "name": "jakebox/org-preview-html",
+  "description": "Automatically preview org-exported HTML files within Emacs.",
+  "url": "https://github.com/jakebox/org-preview-html",
+  "stars": 195,
+  "updated": "2025-08-18T13:38:17Z",
+  "archived": false,
+  "topics": ["emacs", "html", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-preview-html",
+    "fetcher": "github",
+    "repo": "jakebox/org-preview-html"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 38511464,
+  "name": "MatthewBregg/paren-completer",
+  "description": "A package to automatically, language agnostically, fill in delimiters",
+  "url": "https://github.com/MatthewBregg/paren-completer",
+  "stars": 6,
+  "updated": "2016-05-01T10:54:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "paren-completer",
+    "fetcher": "github",
+    "repo": "MatthewBregg/paren-completer"
+  }
+}

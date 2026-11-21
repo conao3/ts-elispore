@@ -1,0 +1,19 @@
+{
+  "id": 129545425,
+  "name": "Lindydancer/svnwrapper",
+  "description": "Highlighting and paging for shell command \"svn\"",
+  "url": "https://github.com/Lindydancer/svnwrapper",
+  "stars": 4,
+  "updated": "2018-04-14T18:52:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "svnwrapper",
+    "fetcher": "github",
+    "repo": "Lindydancer/svnwrapper",
+    "files": "(:defaults \"bin\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 17664769,
+  "name": "mgrbyte/pungi",
+  "description": "An emacs library integrating python-mode, jedi, buildout and virtualenv",
+  "url": "https://github.com/mgrbyte/pungi",
+  "stars": 9,
+  "updated": "2015-10-04T17:45:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pungi",
+    "fetcher": "github",
+    "repo": "mgrbyte/pungi"
+  }
+}

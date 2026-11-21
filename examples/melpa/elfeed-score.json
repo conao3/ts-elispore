@@ -1,0 +1,18 @@
+{
+  "id": 229373613,
+  "name": "sp1ff/elfeed-score",
+  "description": "Gnus-style scoring for elfeed",
+  "url": "https://github.com/sp1ff/elfeed-score",
+  "stars": 78,
+  "updated": "2026-04-19T13:46:14Z",
+  "archived": false,
+  "topics": ["elfeed", "elfeed-rss-reader", "emacs", "emacs-lisp", "rss", "rss-reader", "scoring"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elfeed-score",
+    "fetcher": "github",
+    "repo": "sp1ff/elfeed-score"
+  }
+}

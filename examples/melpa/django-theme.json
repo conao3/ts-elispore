@@ -1,0 +1,18 @@
+{
+  "id": 2393535,
+  "name": "andrzejsliwa/django-theme.el",
+  "description": "Django Theme for Emacs 24",
+  "url": "https://github.com/andrzejsliwa/django-theme.el",
+  "stars": 10,
+  "updated": "2013-10-22T09:02:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "django-theme",
+    "fetcher": "github",
+    "repo": "andrzejsliwa/django-theme.el"
+  }
+}

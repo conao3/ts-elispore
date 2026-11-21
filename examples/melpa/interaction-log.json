@@ -1,0 +1,18 @@
+{
+  "id": 28863883,
+  "name": "emacsattic/interaction-log",
+  "description": "Exhaustive log of interactions with Emacs",
+  "url": "https://github.com/emacsattic/interaction-log",
+  "stars": 3,
+  "updated": "2016-07-31T17:16:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "interaction-log",
+    "fetcher": "github",
+    "repo": "emacsattic/interaction-log"
+  }
+}

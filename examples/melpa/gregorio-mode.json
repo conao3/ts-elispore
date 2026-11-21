@@ -1,0 +1,18 @@
+{
+  "id": 96321876,
+  "name": "jsrjenkins/gregorio-mode",
+  "description": "A major mode for Emacs for editing Gregorio project files.",
+  "url": "https://github.com/jsrjenkins/gregorio-mode",
+  "stars": 2,
+  "updated": "2017-07-06T07:37:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gregorio-mode",
+    "fetcher": "github",
+    "repo": "jsrjenkins/gregorio-mode"
+  }
+}

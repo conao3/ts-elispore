@@ -1,0 +1,18 @@
+{
+  "id": 4993925,
+  "name": "joostkremers/writeroom-mode",
+  "description": "Writeroom-mode: distraction-free writing for Emacs.",
+  "url": "https://github.com/joostkremers/writeroom-mode",
+  "stars": 672,
+  "updated": "2025-02-25T08:50:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "writeroom-mode",
+    "fetcher": "github",
+    "repo": "joostkremers/writeroom-mode"
+  }
+}

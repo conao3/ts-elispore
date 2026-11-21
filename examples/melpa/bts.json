@@ -1,0 +1,18 @@
+{
+  "id": 28112037,
+  "name": "aki2o/emacs-bts",
+  "description": "A unified user Interface for various bug tracking systems in Emacs",
+  "url": "https://github.com/aki2o/emacs-bts",
+  "stars": 32,
+  "updated": "2020-05-29T13:40:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bts",
+    "fetcher": "github",
+    "repo": "aki2o/emacs-bts"
+  }
+}

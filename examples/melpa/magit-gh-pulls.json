@@ -1,0 +1,18 @@
+{
+  "id": 2851521,
+  "name": "sigma/magit-gh-pulls",
+  "description": "Magit plugin for dealing with GitHub pull requests",
+  "url": "https://github.com/sigma/magit-gh-pulls",
+  "stars": 255,
+  "updated": "2020-03-25T22:33:01Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-gh-pulls",
+    "fetcher": "github",
+    "repo": "sigma/magit-gh-pulls"
+  }
+}

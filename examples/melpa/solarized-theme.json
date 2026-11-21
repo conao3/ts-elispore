@@ -1,0 +1,18 @@
+{
+  "id": 2903741,
+  "name": "bbatsov/solarized-emacs",
+  "description": "The Solarized colour theme, ported to Emacs.",
+  "url": "https://github.com/bbatsov/solarized-emacs",
+  "stars": 862,
+  "updated": "2026-11-14T20:09:32Z",
+  "archived": false,
+  "topics": ["color-theme", "emacs", "emacs-lisp", "solarized-emacs", "solarized-theme"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "solarized-theme",
+    "fetcher": "github",
+    "repo": "bbatsov/solarized-emacs"
+  }
+}

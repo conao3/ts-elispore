@@ -1,0 +1,18 @@
+{
+  "id": 327580478,
+  "name": "juergenhoetzel/flymake-nasm",
+  "description": "",
+  "url": "https://github.com/juergenhoetzel/flymake-nasm",
+  "stars": 2,
+  "updated": "2021-03-10T15:18:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-nasm",
+    "fetcher": "github",
+    "repo": "juergenhoetzel/flymake-nasm"
+  }
+}

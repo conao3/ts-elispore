@@ -1,0 +1,18 @@
+{
+  "id": 273988421,
+  "name": "magit/orgit-forge",
+  "description": "Org links to Forge Issue buffers",
+  "url": "https://github.com/magit/orgit-forge",
+  "stars": 50,
+  "updated": "2026-10-01T16:39:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "orgit-forge",
+    "fetcher": "github",
+    "repo": "magit/orgit-forge"
+  }
+}

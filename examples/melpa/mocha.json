@@ -1,0 +1,18 @@
+{
+  "id": 50267849,
+  "name": "scottaj/mocha.el",
+  "description": "Emacs mode for running mocha tests",
+  "url": "https://github.com/scottaj/mocha.el",
+  "stars": 70,
+  "updated": "2024-06-29T13:41:58Z",
+  "archived": false,
+  "topics": ["emacs", "melpa", "mocha-tests"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mocha",
+    "fetcher": "github",
+    "repo": "scottaj/mocha.el"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": 988640356,
+  "name": "KeyWeeUsr/elchacha",
+  "description": "ChaCha20 implementation as per RFC7539",
+  "url": "https://github.com/KeyWeeUsr/elchacha",
+  "stars": 0,
+  "updated": "2025-09-28T23:28:37Z",
+  "archived": false,
+  "topics": [
+    "chacha20",
+    "cryptography",
+    "cryptography-algorithms",
+    "elisp",
+    "emacs",
+    "melpa",
+    "melpa-badge",
+    "rfc7539"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elchacha",
+    "fetcher": "github",
+    "repo": "KeyWeeUsr/elchacha"
+  }
+}

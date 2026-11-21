@@ -1,0 +1,18 @@
+{
+  "id": 5379612,
+  "name": "myuhe/color-moccur.el",
+  "description": "multi-buffer occur (grep) mode",
+  "url": "https://github.com/myuhe/color-moccur.el",
+  "stars": 10,
+  "updated": "2023-08-10T21:12:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "color-moccur",
+    "fetcher": "github",
+    "repo": "myuhe/color-moccur.el"
+  }
+}

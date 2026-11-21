@@ -1,0 +1,18 @@
+{
+  "id": 470322959,
+  "name": "SqrtMinusOne/elfeed-summary",
+  "description": "Feed summary interface for elfeed",
+  "url": "https://github.com/SqrtMinusOne/elfeed-summary",
+  "stars": 62,
+  "updated": "2026-06-07T14:18:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elfeed-summary",
+    "fetcher": "github",
+    "repo": "SqrtMinusOne/elfeed-summary"
+  }
+}

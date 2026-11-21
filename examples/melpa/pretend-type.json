@@ -1,0 +1,18 @@
+{
+  "id": 1077576213,
+  "name": "haji-ali/pretend-type",
+  "description": "Reveal emacs buffer as you pretend to type",
+  "url": "https://github.com/haji-ali/pretend-type",
+  "stars": 12,
+  "updated": "2025-10-29T08:25:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pretend-type",
+    "fetcher": "github",
+    "repo": "haji-ali/pretend-type"
+  }
+}

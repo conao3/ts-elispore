@@ -1,0 +1,18 @@
+{
+  "id": 10905615,
+  "name": "tom-tan/esh-help",
+  "description": "This library adds some help features for Eshell",
+  "url": "https://github.com/tom-tan/esh-help",
+  "stars": 24,
+  "updated": "2020-11-30T13:10:44Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "eshell", "zsh"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "esh-help",
+    "fetcher": "github",
+    "repo": "tom-tan/esh-help"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 847977803,
+  "name": "lanceberge/elysium",
+  "description": "Automatically apply AI-generated code changes in Emacs",
+  "url": "https://github.com/lanceberge/elysium",
+  "stars": 286,
+  "updated": "2025-06-20T00:58:11Z",
+  "archived": false,
+  "topics": ["ai", "emacs", "gpt", "llm"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elysium",
+    "fetcher": "github",
+    "repo": "lanceberge/elysium"
+  }
+}

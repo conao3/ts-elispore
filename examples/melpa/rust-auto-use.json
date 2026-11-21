@@ -1,0 +1,18 @@
+{
+  "id": 155111517,
+  "name": "vmalloc/rust-auto-use.el",
+  "description": "Emacs Lisp Package for Auto-Inserting Rust \"use\" Statements",
+  "url": "https://github.com/vmalloc/rust-auto-use.el",
+  "stars": 5,
+  "updated": "2020-06-08T13:59:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rust-auto-use",
+    "fetcher": "github",
+    "repo": "vmalloc/rust-auto-use.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 32053079,
+  "name": "EricCrosson/unkillable-scratch",
+  "description": "Disallow the *scratch* buffer from being killed",
+  "url": "https://github.com/EricCrosson/unkillable-scratch",
+  "stars": 14,
+  "updated": "2022-10-15T13:23:51Z",
+  "archived": false,
+  "topics": ["buffer", "emacs", "gnu", "scratch", "unkillable"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unkillable-scratch",
+    "fetcher": "github",
+    "repo": "EricCrosson/unkillable-scratch"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 13276717,
+  "name": "dholm/benchmark-init-el",
+  "description": "Benchmark your Emacs initialization",
+  "url": "https://github.com/dholm/benchmark-init-el",
+  "stars": 191,
+  "updated": "2026-01-08T14:47:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "benchmark-init",
+    "fetcher": "github",
+    "repo": "dholm/benchmark-init-el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 250206041,
+  "name": "ruby/elisp-ruby-electric",
+  "description": "",
+  "url": "https://github.com/ruby/elisp-ruby-electric",
+  "stars": 8,
+  "updated": "2025-01-10T10:17:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ruby-electric",
+    "fetcher": "github",
+    "repo": "ruby/elisp-ruby-electric"
+  }
+}

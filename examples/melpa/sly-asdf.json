@@ -1,0 +1,19 @@
+{
+  "id": 178735389,
+  "name": "mmgeorge/sly-asdf",
+  "description": "ASDF contrib for SLY",
+  "url": "https://github.com/mmgeorge/sly-asdf",
+  "stars": 29,
+  "updated": "2026-06-14T21:42:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sly-asdf",
+    "fetcher": "github",
+    "repo": "mmgeorge/sly-asdf",
+    "files": "(:defaults\n                  \"*.lisp\"\n                  \"*.asd\")"
+  }
+}

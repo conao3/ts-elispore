@@ -1,0 +1,18 @@
+{
+  "id": 1063605799,
+  "name": "DiogoDoreto/emacs-tts",
+  "description": "Text-to-Speech (TTS) in Emacs",
+  "url": "https://github.com/DiogoDoreto/emacs-tts",
+  "stars": 15,
+  "updated": "2026-02-13T20:49:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tts",
+    "fetcher": "github",
+    "repo": "DiogoDoreto/emacs-tts"
+  }
+}

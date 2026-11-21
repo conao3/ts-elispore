@@ -1,0 +1,19 @@
+{
+  "id": 11343224,
+  "name": "rejeep/ert-runner.el",
+  "description": "Opinionated Ert testing workflow",
+  "url": "https://github.com/rejeep/ert-runner.el",
+  "stars": 88,
+  "updated": "2023-11-10T13:58:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ert-runner",
+    "fetcher": "github",
+    "repo": "rejeep/ert-runner.el",
+    "files": "(\"*.el\" \"bin\" \"reporters\")"
+  }
+}

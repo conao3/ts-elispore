@@ -1,0 +1,18 @@
+{
+  "id": 131445307,
+  "name": "diasjorge/emacs-load-env-vars",
+  "description": "A package to load environment variable files into emacs",
+  "url": "https://github.com/diasjorge/emacs-load-env-vars",
+  "stars": 10,
+  "updated": "2018-05-15T22:29:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "load-env-vars",
+    "fetcher": "github",
+    "repo": "diasjorge/emacs-load-env-vars"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 79991943,
+  "name": "aaronjensen/flycheck-dogma",
+  "description": "",
+  "url": "https://github.com/aaronjensen/flycheck-dogma",
+  "stars": 1,
+  "updated": "2017-04-01T16:41:57Z",
+  "archived": false,
+  "topics": ["dogma", "elixir", "emacs", "flycheck", "melpa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-dogma",
+    "fetcher": "github",
+    "repo": "aaronjensen/flycheck-dogma"
+  }
+}

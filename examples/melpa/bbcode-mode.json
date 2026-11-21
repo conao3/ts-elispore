@@ -1,0 +1,18 @@
+{
+  "id": 120892177,
+  "name": "lassik/emacs-bbcode-mode",
+  "description": "An Emacs major mode for writing BBCode",
+  "url": "https://github.com/lassik/emacs-bbcode-mode",
+  "stars": 6,
+  "updated": "2023-12-15T15:39:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bbcode-mode",
+    "fetcher": "github",
+    "repo": "lassik/emacs-bbcode-mode"
+  }
+}

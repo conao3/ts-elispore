@@ -1,0 +1,18 @@
+{
+  "id": 82426620,
+  "name": "legoscia/messages-are-flowing",
+  "description": "Make it easier to send \"flowed\" email messages from Emacs",
+  "url": "https://github.com/legoscia/messages-are-flowing",
+  "stars": 41,
+  "updated": "2024-07-06T21:25:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "messages-are-flowing",
+    "fetcher": "github",
+    "repo": "legoscia/messages-are-flowing"
+  }
+}

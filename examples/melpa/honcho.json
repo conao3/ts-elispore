@@ -1,0 +1,18 @@
+{
+  "id": 124337578,
+  "name": "emacs-pe/honcho.el",
+  "description": "",
+  "url": "https://github.com/emacs-pe/honcho.el",
+  "stars": 15,
+  "updated": "2023-04-10T05:19:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "honcho",
+    "fetcher": "github",
+    "repo": "emacs-pe/honcho.el"
+  }
+}

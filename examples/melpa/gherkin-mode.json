@@ -1,0 +1,18 @@
+{
+  "id": 14617760,
+  "name": "candera/gherkin-mode",
+  "description": "An emacs major mode for editing gherkin files.",
+  "url": "https://github.com/candera/gherkin-mode",
+  "stars": 8,
+  "updated": "2017-12-24T13:53:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gherkin-mode",
+    "fetcher": "github",
+    "repo": "candera/gherkin-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 684646596,
+  "name": "eki3z/git-cliff.el",
+  "description": "Genarate and update git repository CHANGELOG.md with git-cliff",
+  "url": "https://github.com/eki3z/git-cliff.el",
+  "stars": 30,
+  "updated": "2025-02-16T22:17:03Z",
+  "archived": false,
+  "topics": ["changelog-generator", "git-cliff", "repository-utilities"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-cliff",
+    "fetcher": "github",
+    "repo": "eki3z/git-cliff.el"
+  }
+}

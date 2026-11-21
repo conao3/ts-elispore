@@ -1,0 +1,18 @@
+{
+  "id": 83038025,
+  "name": "hying-caritas/project-shells",
+  "description": "Manage the shell buffers for each project",
+  "url": "https://github.com/hying-caritas/project-shells",
+  "stars": 24,
+  "updated": "2023-10-05T06:46:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "project-shells",
+    "fetcher": "github",
+    "repo": "hying-caritas/project-shells"
+  }
+}

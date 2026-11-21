@@ -1,0 +1,26 @@
+{
+  "id": 411329246,
+  "name": "macurovc/insert-docstring",
+  "description": "This plugin allows the automatic insertion of Google style function docstrings in Python.",
+  "url": "https://github.com/macurovc/insert-docstring",
+  "stars": 11,
+  "updated": "2021-11-27T12:35:42Z",
+  "archived": false,
+  "topics": [
+    "docstring-generator",
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "emacs-plugin",
+    "google-docstring",
+    "python"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "python-insert-docstring",
+    "fetcher": "github",
+    "repo": "macurovc/insert-docstring"
+  }
+}

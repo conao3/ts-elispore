@@ -1,0 +1,18 @@
+{
+  "id": 1000163571,
+  "name": "lakkiy/gptel-commit",
+  "description": "Generate commit message with gptel",
+  "url": "https://github.com/lakkiy/gptel-commit",
+  "stars": 28,
+  "updated": "2026-05-20T03:42:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gptel-commit",
+    "fetcher": "github",
+    "repo": "lakkiy/gptel-commit"
+  }
+}

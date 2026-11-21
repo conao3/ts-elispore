@@ -1,0 +1,18 @@
+{
+  "id": 25999451,
+  "name": "emacs-pe/http.el",
+  "description": "An HTTP client for Emacs",
+  "url": "https://github.com/emacs-pe/http.el",
+  "stars": 27,
+  "updated": "2020-10-10T12:56:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "http",
+    "fetcher": "github",
+    "repo": "emacs-pe/http.el"
+  }
+}

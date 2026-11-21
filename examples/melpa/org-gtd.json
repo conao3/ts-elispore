@@ -1,0 +1,18 @@
+{
+  "id": 202243318,
+  "name": "Trevoke/org-gtd.el",
+  "description": "A package for using GTD with org-mode ",
+  "url": "https://github.com/Trevoke/org-gtd.el",
+  "stars": 488,
+  "updated": "2026-08-06T20:28:46Z",
+  "archived": false,
+  "topics": ["emacs-package", "gtd", "gtd-workflow", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-gtd",
+    "fetcher": "github",
+    "repo": "Trevoke/org-gtd.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 43520597,
+  "name": "nathankot/company-sourcekit",
+  "description": "Completion for Swift projects via SourceKit with the help of SourceKitten",
+  "url": "https://github.com/nathankot/company-sourcekit",
+  "stars": 206,
+  "updated": "2022-12-26T20:15:04Z",
+  "archived": false,
+  "topics": ["autocomplete", "company-mode", "emacs", "sourcekit", "sourcekitten", "swift"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sourcekit",
+    "fetcher": "github",
+    "repo": "nathankot/company-sourcekit",
+    "files": "(\"sourcekit.el\")"
+  }
+}

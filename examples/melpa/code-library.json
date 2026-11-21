@@ -1,0 +1,18 @@
+{
+  "id": 43953491,
+  "name": "lujun9972/code-library",
+  "description": "use org-mode to manage code snippets",
+  "url": "https://github.com/lujun9972/code-library",
+  "stars": 30,
+  "updated": "2017-03-15T02:57:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "code-library",
+    "fetcher": "github",
+    "repo": "lujun9972/code-library"
+  }
+}

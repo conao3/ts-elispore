@@ -1,0 +1,18 @@
+{
+  "id": 123440963,
+  "name": "rnkn/side-notes",
+  "description": "Easy access to a notes file in Emacs",
+  "url": "https://github.com/rnkn/side-notes",
+  "stars": 23,
+  "updated": "2024-06-29T10:08:47Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "notes", "writing"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "side-notes",
+    "fetcher": "github",
+    "repo": "rnkn/side-notes"
+  }
+}

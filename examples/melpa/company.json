@@ -1,0 +1,19 @@
+{
+  "id": 194858,
+  "name": "company-mode/company-mode",
+  "description": "Modular in-buffer completion framework for Emacs",
+  "url": "https://github.com/company-mode/company-mode",
+  "stars": 2290,
+  "updated": "2026-11-20T04:17:31Z",
+  "archived": false,
+  "topics": ["code-completion", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "company",
+    "fetcher": "github",
+    "repo": "company-mode/company-mode",
+    "files": "(:defaults \"icons\" (\"images/small\" \"doc/images/small/*.png\"))"
+  }
+}

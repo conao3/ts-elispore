@@ -1,0 +1,18 @@
+{
+  "id": 930688761,
+  "name": "mwolson/gptel-fn-complete",
+  "description": "Rewriting completion of function at point using gptel in Emacs",
+  "url": "https://github.com/mwolson/gptel-fn-complete",
+  "stars": 26,
+  "updated": "2026-05-31T23:22:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gptel-fn-complete",
+    "fetcher": "github",
+    "repo": "mwolson/gptel-fn-complete"
+  }
+}

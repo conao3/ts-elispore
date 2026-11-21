@@ -1,0 +1,18 @@
+{
+  "id": 854145026,
+  "name": "seokbeomKim/bitbake-ts-mode",
+  "description": "A Emacs major mode to use bitbake tree-sitter",
+  "url": "https://github.com/seokbeomKim/bitbake-ts-mode",
+  "stars": 3,
+  "updated": "2024-09-08T20:59:22Z",
+  "archived": false,
+  "topics": ["bitbake", "emacs", "tree-sitter", "yocto"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bitbake-ts-mode",
+    "fetcher": "github",
+    "repo": "seokbeomKim/bitbake-ts-mode"
+  }
+}

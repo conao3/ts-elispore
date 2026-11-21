@@ -1,0 +1,18 @@
+{
+  "id": 36551262,
+  "name": "xuchunyang/helm-commandlinefu",
+  "description": "Search and browse snippets on Commandlinefu.com within Emacs",
+  "url": "https://github.com/xuchunyang/helm-commandlinefu",
+  "stars": 7,
+  "updated": "2015-06-11T05:46:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-commandlinefu",
+    "fetcher": "github",
+    "repo": "xuchunyang/helm-commandlinefu"
+  }
+}

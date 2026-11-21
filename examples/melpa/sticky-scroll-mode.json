@@ -1,0 +1,18 @@
+{
+  "id": 840514362,
+  "name": "jclasley/sticky-scroll-mode",
+  "description": "Emacs sticky scrolling",
+  "url": "https://github.com/jclasley/sticky-scroll-mode",
+  "stars": 18,
+  "updated": "2024-12-13T15:54:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sticky-scroll-mode",
+    "fetcher": "github",
+    "repo": "jclasley/sticky-scroll-mode"
+  }
+}

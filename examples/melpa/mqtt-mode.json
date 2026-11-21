@@ -1,0 +1,18 @@
+{
+  "id": 136215884,
+  "name": "andrmuel/mqtt-mode",
+  "description": "MQTT client for Emacs.",
+  "url": "https://github.com/andrmuel/mqtt-mode",
+  "stars": 5,
+  "updated": "2021-03-14T13:10:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mqtt-mode",
+    "fetcher": "github",
+    "repo": "andrmuel/mqtt-mode"
+  }
+}

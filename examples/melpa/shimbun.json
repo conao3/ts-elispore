@@ -1,0 +1,19 @@
+{
+  "id": 157381789,
+  "name": "emacs-w3m/emacs-w3m",
+  "description": "emacs-w3m, a simple Emacs interface to w3m",
+  "url": "https://github.com/emacs-w3m/emacs-w3m",
+  "stars": 118,
+  "updated": "2026-08-27T23:49:44Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "w3m", "webbrowser"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "shimbun",
+    "fetcher": "github",
+    "repo": "emacs-w3m/emacs-w3m",
+    "files": "(\"shimbun/*.el\")"
+  }
+}

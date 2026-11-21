@@ -1,0 +1,18 @@
+{
+  "id": 120227220,
+  "name": "jyp/attrap",
+  "description": "ATtempt To Repair At Point (emacs flycheck extension)",
+  "url": "https://github.com/jyp/attrap",
+  "stars": 45,
+  "updated": "2026-08-06T15:37:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "attrap",
+    "fetcher": "github",
+    "repo": "jyp/attrap"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 134554529,
+  "name": "abingham/emacs-counsel-codesearch",
+  "description": "Counsel interface for codesearch.el",
+  "url": "https://github.com/abingham/emacs-counsel-codesearch",
+  "stars": 0,
+  "updated": "2018-09-25T08:04:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-codesearch",
+    "fetcher": "github",
+    "repo": "abingham/emacs-counsel-codesearch"
+  }
+}

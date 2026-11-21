@@ -1,0 +1,18 @@
+{
+  "id": 35729752,
+  "name": "ocodo/autothemer",
+  "description": "Conveniently create Emacs themes - watch Autothemer used by System Crafters https://www.youtube.com/watch?v=kCCIudu53Zg",
+  "url": "https://github.com/ocodo/autothemer",
+  "stars": 145,
+  "updated": "2026-09-11T05:29:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "autothemer",
+    "fetcher": "github",
+    "repo": "ocodo/autothemer"
+  }
+}

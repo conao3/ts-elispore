@@ -1,0 +1,18 @@
+{
+  "id": 574239308,
+  "name": "isamert/swagg.el",
+  "description": "Swagger UI for Emacs",
+  "url": "https://github.com/isamert/swagg.el",
+  "stars": 61,
+  "updated": "2026-11-16T14:10:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "swagg",
+    "fetcher": "github",
+    "repo": "isamert/swagg.el"
+  }
+}

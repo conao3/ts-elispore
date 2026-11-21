@@ -1,0 +1,18 @@
+{
+  "id": 13320055,
+  "name": "alezost/alect-themes",
+  "description": "Configurable custom themes for GNU Emacs",
+  "url": "https://github.com/alezost/alect-themes",
+  "stars": 110,
+  "updated": "2026-09-28T05:59:53Z",
+  "archived": false,
+  "topics": ["emacs", "themes"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "alect-themes",
+    "fetcher": "github",
+    "repo": "alezost/alect-themes"
+  }
+}

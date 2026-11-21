@@ -1,0 +1,18 @@
+{
+  "id": 77761932,
+  "name": "radian-software/el-patch",
+  "description": "✨ Future-proof your Emacs Lisp customizations!",
+  "url": "https://github.com/radian-software/el-patch",
+  "stars": 282,
+  "updated": "2026-09-07T22:53:13Z",
+  "archived": false,
+  "topics": ["advice", "autoload", "ediff", "elisp", "emacs"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "el-patch",
+    "fetcher": "github",
+    "repo": "radian-software/el-patch"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 5584465,
+  "name": "yoshinari-nomura/orglue",
+  "description": "More functionality to org-mode",
+  "url": "https://github.com/yoshinari-nomura/orglue",
+  "stars": 12,
+  "updated": "2020-04-11T03:12:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "orglue",
+    "fetcher": "github",
+    "repo": "yoshinari-nomura/orglue"
+  }
+}

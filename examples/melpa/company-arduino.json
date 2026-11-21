@@ -1,0 +1,18 @@
+{
+  "id": 37297060,
+  "name": "yuutayamada/company-arduino",
+  "description": "Company-mode for Arduino using irony-mode and company-c-headers",
+  "url": "https://github.com/yuutayamada/company-arduino",
+  "stars": 12,
+  "updated": "2023-04-14T07:40:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-arduino",
+    "fetcher": "github",
+    "repo": "yuutayamada/company-arduino"
+  }
+}

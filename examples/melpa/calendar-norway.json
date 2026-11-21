@@ -1,0 +1,18 @@
+{
+  "id": 4203389,
+  "name": "unhammer/calendar-norway.el",
+  "description": " 📆🇳🇴 Localise Emacs calendar to Norwegian",
+  "url": "https://github.com/unhammer/calendar-norway.el",
+  "stars": 6,
+  "updated": "2022-02-11T11:29:54Z",
+  "archived": false,
+  "topics": ["calendar", "emacs", "norwegian"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "calendar-norway",
+    "fetcher": "github",
+    "repo": "unhammer/calendar-norway.el"
+  }
+}

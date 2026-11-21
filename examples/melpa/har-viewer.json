@@ -1,0 +1,18 @@
+{
+  "id": 782334602,
+  "name": "bozoslivehere/har-viewer.el",
+  "description": "HAR (HTTP Archive) viewer",
+  "url": "https://github.com/bozoslivehere/har-viewer.el",
+  "stars": 0,
+  "updated": "2026-05-23T20:37:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "har-viewer",
+    "fetcher": "github",
+    "repo": "bozoslivehere/har-viewer.el"
+  }
+}

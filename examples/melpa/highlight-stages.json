@@ -1,0 +1,18 @@
+{
+  "id": 23795077,
+  "name": "zk-phi/highlight-stages",
+  "description": "Highlight staged (quasi-quoted) expressions",
+  "url": "https://github.com/zk-phi/highlight-stages",
+  "stars": 21,
+  "updated": "2021-03-06T04:18:37Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "highlight-stages",
+    "fetcher": "github",
+    "repo": "zk-phi/highlight-stages"
+  }
+}

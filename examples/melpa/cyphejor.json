@@ -1,0 +1,18 @@
+{
+  "id": 42357231,
+  "name": "mrkkrp/cyphejor",
+  "description": "Shorten major mode names by using a set of user-defined rules",
+  "url": "https://github.com/mrkkrp/cyphejor",
+  "stars": 36,
+  "updated": "2026-08-02T09:38:55Z",
+  "archived": false,
+  "topics": ["emacs", "major-mode", "mode-line"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cyphejor",
+    "fetcher": "github",
+    "repo": "mrkkrp/cyphejor"
+  }
+}

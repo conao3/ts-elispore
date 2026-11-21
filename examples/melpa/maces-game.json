@@ -1,0 +1,19 @@
+{
+  "id": 100881731,
+  "name": "pawelbx/maces-game",
+  "description": "Another anagram game for Emacs",
+  "url": "https://github.com/pawelbx/maces-game",
+  "stars": 1,
+  "updated": "2017-09-06T15:54:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "maces-game",
+    "fetcher": "github",
+    "repo": "pawelbx/maces-game",
+    "files": "(:defaults \"words.txt\")"
+  }
+}

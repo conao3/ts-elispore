@@ -1,0 +1,18 @@
+{
+  "id": 802688512,
+  "name": "zenspider/dumber-jump",
+  "description": "an Emacs \"jump to definition\" package for 50+ languages",
+  "url": "https://github.com/zenspider/dumber-jump",
+  "stars": 16,
+  "updated": "2026-07-22T07:22:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dumber-jump",
+    "fetcher": "github",
+    "repo": "zenspider/dumber-jump"
+  }
+}

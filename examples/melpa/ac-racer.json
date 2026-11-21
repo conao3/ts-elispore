@@ -1,0 +1,18 @@
+{
+  "id": 41657775,
+  "name": "emacsorphanage/ac-racer",
+  "description": "Auto-complete source of racer",
+  "url": "https://github.com/emacsorphanage/ac-racer",
+  "stars": 10,
+  "updated": "2017-01-14T08:09:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ac-racer",
+    "fetcher": "github",
+    "repo": "emacsorphanage/ac-racer"
+  }
+}

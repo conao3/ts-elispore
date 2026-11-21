@@ -1,0 +1,18 @@
+{
+  "id": 18991837,
+  "name": "eqyiel/circe-notifications",
+  "description": "Add desktop notifications to Circe.",
+  "url": "https://github.com/eqyiel/circe-notifications",
+  "stars": 27,
+  "updated": "2018-01-02T23:18:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "circe-notifications",
+    "fetcher": "github",
+    "repo": "eqyiel/circe-notifications"
+  }
+}

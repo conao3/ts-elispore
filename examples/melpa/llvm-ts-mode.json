@@ -1,0 +1,18 @@
+{
+  "id": 719098228,
+  "name": "nverno/llvm-ts-mode",
+  "description": "Emacs major mode for LLVM using tree-sitter",
+  "url": "https://github.com/nverno/llvm-ts-mode",
+  "stars": 1,
+  "updated": "2023-11-20T12:51:09Z",
+  "archived": false,
+  "topics": ["emacs", "llvm", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "llvm-ts-mode",
+    "fetcher": "github",
+    "repo": "nverno/llvm-ts-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 20492642,
+  "name": "hbin/smart-shift",
+  "description": "Smart shift text left/right by current major mode indentation width.",
+  "url": "https://github.com/hbin/smart-shift",
+  "stars": 29,
+  "updated": "2025-11-25T13:49:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smart-shift",
+    "fetcher": "github",
+    "repo": "hbin/smart-shift"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 44398819,
+  "name": "cute-jumper/company-qml",
+  "description": "Emacs company-mode backend for QML",
+  "url": "https://github.com/cute-jumper/company-qml",
+  "stars": 10,
+  "updated": "2017-04-28T17:08:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-qml",
+    "fetcher": "github",
+    "repo": "cute-jumper/company-qml"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 392647601,
+  "name": "danielsz/newspeak-mode",
+  "description": "Major mode for the Newspeak language",
+  "url": "https://github.com/danielsz/newspeak-mode",
+  "stars": 1,
+  "updated": "2021-10-11T14:35:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "newspeak-mode",
+    "fetcher": "github",
+    "repo": "danielsz/newspeak-mode"
+  }
+}

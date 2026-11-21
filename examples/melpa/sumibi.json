@@ -1,0 +1,18 @@
+{
+  "id": 628990303,
+  "name": "kiyoka/Sumibi",
+  "description": "Japanese/Chinese input method powered by ChatGPT API",
+  "url": "https://github.com/kiyoka/Sumibi",
+  "stars": 67,
+  "updated": "2026-11-20T13:30:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sumibi",
+    "fetcher": "github",
+    "repo": "kiyoka/Sumibi"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 643517668,
+  "name": "KaranAhlawat/scala-ts-mode",
+  "description": "A tree-sitter based Emacs major-mode for the Scala programming language",
+  "url": "https://github.com/KaranAhlawat/scala-ts-mode",
+  "stars": 45,
+  "updated": "2026-10-13T03:16:31Z",
+  "archived": false,
+  "topics": ["emacs", "scala", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scala-ts-mode",
+    "fetcher": "github",
+    "repo": "KaranAhlawat/scala-ts-mode"
+  }
+}

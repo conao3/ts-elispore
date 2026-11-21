@@ -1,0 +1,18 @@
+{
+  "id": 69506830,
+  "name": "mallt/org-clock-today-mode",
+  "description": "Emacs minor mode to show the total clocked time of the current day in the mode line",
+  "url": "https://github.com/mallt/org-clock-today-mode",
+  "stars": 27,
+  "updated": "2026-01-07T19:39:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-clock-today",
+    "fetcher": "github",
+    "repo": "mallt/org-clock-today-mode"
+  }
+}

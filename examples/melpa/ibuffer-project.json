@@ -1,0 +1,18 @@
+{
+  "id": 159879673,
+  "name": "muffinmad/emacs-ibuffer-project",
+  "description": "Group ibuffer's list by project",
+  "url": "https://github.com/muffinmad/emacs-ibuffer-project",
+  "stars": 36,
+  "updated": "2024-03-14T09:00:15Z",
+  "archived": false,
+  "topics": ["emacs", "ibuffer"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ibuffer-project",
+    "fetcher": "github",
+    "repo": "muffinmad/emacs-ibuffer-project"
+  }
+}

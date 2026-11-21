@@ -1,0 +1,18 @@
+{
+  "id": 66775371,
+  "name": "aaronjensen/company-flow",
+  "description": "",
+  "url": "https://github.com/aaronjensen/company-flow",
+  "stars": 33,
+  "updated": "2018-02-25T22:00:01Z",
+  "archived": false,
+  "topics": ["emacs", "flow", "flycheck", "melpa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-flow",
+    "fetcher": "github",
+    "repo": "aaronjensen/company-flow"
+  }
+}

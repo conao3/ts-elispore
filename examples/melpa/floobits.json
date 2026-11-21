@@ -1,0 +1,19 @@
+{
+  "id": 6609707,
+  "name": "Floobits/floobits-emacs",
+  "description": "Floobits plugin for emacs",
+  "url": "https://github.com/Floobits/floobits-emacs",
+  "stars": 155,
+  "updated": "2022-11-01T18:17:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Python",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "floobits",
+    "fetcher": "github",
+    "repo": "Floobits/floobits-emacs",
+    "files": "(\"floo\" \"floobits.el\" \"floobits.py\")"
+  }
+}

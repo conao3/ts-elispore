@@ -1,0 +1,18 @@
+{
+  "id": 97931478,
+  "name": "abingham/outline-toc.el",
+  "description": "Table-of-contents sidebar for Emacs.",
+  "url": "https://github.com/abingham/outline-toc.el",
+  "stars": 39,
+  "updated": "2020-04-01T12:08:07Z",
+  "archived": false,
+  "topics": ["markdown", "org", "outline-mode", "toc"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "outline-toc",
+    "fetcher": "github",
+    "repo": "abingham/outline-toc.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 72868989,
+  "name": "emacs-dashboard/dashboard",
+  "description": "An extensible emacs dashboard",
+  "url": "https://github.com/emacs-dashboard/dashboard",
+  "stars": 1538,
+  "updated": "2026-08-09T04:47:36Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "startpage"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dashboard",
+    "fetcher": "github",
+    "repo": "emacs-dashboard/dashboard",
+    "files": "(:defaults \"banners\")"
+  }
+}

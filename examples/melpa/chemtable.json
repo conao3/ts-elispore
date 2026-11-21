@@ -1,0 +1,18 @@
+{
+  "id": 379671490,
+  "name": "sergiruiztrepat/chemtable",
+  "description": "Periodic table of the elements",
+  "url": "https://github.com/sergiruiztrepat/chemtable",
+  "stars": 13,
+  "updated": "2023-03-14T18:25:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chemtable",
+    "fetcher": "github",
+    "repo": "sergiruiztrepat/chemtable"
+  }
+}

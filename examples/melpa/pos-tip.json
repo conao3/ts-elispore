@@ -1,0 +1,18 @@
+{
+  "id": 11455346,
+  "name": "pitkali/pos-tip",
+  "description": "Show tooltip at point",
+  "url": "https://github.com/pitkali/pos-tip",
+  "stars": 38,
+  "updated": "2024-06-04T07:35:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pos-tip",
+    "fetcher": "github",
+    "repo": "pitkali/pos-tip"
+  }
+}

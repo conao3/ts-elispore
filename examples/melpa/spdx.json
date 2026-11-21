@@ -1,0 +1,18 @@
+{
+  "id": 255130786,
+  "name": "condy0919/spdx.el",
+  "description": "Insert SPDX license header",
+  "url": "https://github.com/condy0919/spdx.el",
+  "stars": 14,
+  "updated": "2026-11-18T05:17:32Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "license-management", "spdx", "spdx-license"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "spdx",
+    "fetcher": "github",
+    "repo": "condy0919/spdx.el"
+  }
+}

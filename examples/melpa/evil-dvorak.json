@@ -1,0 +1,18 @@
+{
+  "id": 30274601,
+  "name": "jbranso/evil-dvorak",
+  "description": "Use evil-mode with dvorak key bindings.",
+  "url": "https://github.com/jbranso/evil-dvorak",
+  "stars": 26,
+  "updated": "2025-09-17T15:21:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-dvorak",
+    "fetcher": "github",
+    "repo": "jbranso/evil-dvorak"
+  }
+}

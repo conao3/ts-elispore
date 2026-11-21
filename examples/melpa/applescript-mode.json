@@ -1,0 +1,18 @@
+{
+  "id": 155587,
+  "name": "emacsorphanage/applescript-mode",
+  "description": "Emacs mode for editing AppleScript",
+  "url": "https://github.com/emacsorphanage/applescript-mode",
+  "stars": 35,
+  "updated": "2026-06-19T14:09:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "applescript-mode",
+    "fetcher": "github",
+    "repo": "emacsorphanage/applescript-mode"
+  }
+}

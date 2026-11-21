@@ -1,0 +1,19 @@
+{
+  "id": 65012864,
+  "name": "abingham/emacs-codesearch",
+  "description": "Emacs package for working with Google's codesearch tools.",
+  "url": "https://github.com/abingham/emacs-codesearch",
+  "stars": 19,
+  "updated": "2024-08-28T06:18:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "projectile-codesearch",
+    "fetcher": "github",
+    "repo": "abingham/emacs-codesearch",
+    "files": "(\"projectile-codesearch.el\")"
+  }
+}

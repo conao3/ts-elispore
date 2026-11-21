@@ -1,0 +1,18 @@
+{
+  "id": 48824293,
+  "name": "lujun9972/emacsist-view",
+  "description": "Mode for viewing emacsist.com",
+  "url": "https://github.com/lujun9972/emacsist-view",
+  "stars": 4,
+  "updated": "2016-04-26T12:24:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emacsist-view",
+    "fetcher": "github",
+    "repo": "lujun9972/emacsist-view"
+  }
+}

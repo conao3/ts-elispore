@@ -1,0 +1,18 @@
+{
+  "id": 17768147,
+  "name": "redguardtoo/js-comint",
+  "description": "js-comint will send the code from Emacs into node.js or rhino",
+  "url": "https://github.com/redguardtoo/js-comint",
+  "stars": 78,
+  "updated": "2025-08-07T03:52:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js-comint",
+    "fetcher": "github",
+    "repo": "redguardtoo/js-comint"
+  }
+}

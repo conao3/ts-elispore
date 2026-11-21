@@ -1,0 +1,18 @@
+{
+  "id": 11617003,
+  "name": "nilcons/hi2",
+  "description": "haskell-indentation 2nd try",
+  "url": "https://github.com/nilcons/hi2",
+  "stars": 33,
+  "updated": "2014-12-17T16:38:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "hi2",
+    "fetcher": "github",
+    "repo": "nilcons/hi2"
+  }
+}

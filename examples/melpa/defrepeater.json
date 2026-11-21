@@ -1,0 +1,18 @@
+{
+  "id": 137131005,
+  "name": "alphapapa/defrepeater.el",
+  "description": "Easily define repeatable Emacs commands",
+  "url": "https://github.com/alphapapa/defrepeater.el",
+  "stars": 22,
+  "updated": "2022-10-06T01:38:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "defrepeater",
+    "fetcher": "github",
+    "repo": "alphapapa/defrepeater.el"
+  }
+}

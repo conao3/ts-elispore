@@ -1,0 +1,19 @@
+{
+  "id": 130486095,
+  "name": "jcs-elpa/organize-imports-java",
+  "description": "Automatically organize imports in Java code.",
+  "url": "https://github.com/jcs-elpa/organize-imports-java",
+  "stars": 14,
+  "updated": "2026-06-19T08:48:14Z",
+  "archived": false,
+  "topics": ["eclipse", "emacs", "import", "javadoc"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "organize-imports-java",
+    "fetcher": "github",
+    "repo": "jcs-elpa/organize-imports-java",
+    "files": "(:defaults \"sdk\" \"default\")"
+  }
+}

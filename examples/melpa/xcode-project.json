@@ -1,0 +1,18 @@
+{
+  "id": 101182154,
+  "name": "nhojb/xcode-project",
+  "description": "A package for Emacs which parses Xcode project files.",
+  "url": "https://github.com/nhojb/xcode-project",
+  "stars": 7,
+  "updated": "2020-08-17T10:12:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xcode-project",
+    "fetcher": "github",
+    "repo": "nhojb/xcode-project"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 3723999,
+  "name": "haskell/haskell-mode",
+  "description": "Emacs mode for Haskell",
+  "url": "https://github.com/haskell/haskell-mode",
+  "stars": 1392,
+  "updated": "2026-10-16T18:15:55Z",
+  "archived": false,
+  "topics": ["emacs", "haskell"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "haskell-mode",
+    "fetcher": "github",
+    "repo": "haskell/haskell-mode",
+    "files": "(:defaults\n         \"NEWS\"\n         \"logo.svg\")"
+  }
+}

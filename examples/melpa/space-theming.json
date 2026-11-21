@@ -1,0 +1,18 @@
+{
+  "id": 245770082,
+  "name": "p3r7/space-theming",
+  "description": ":sparkles: A port of Spacemacs’ theming layer to vanilla Emacs",
+  "url": "https://github.com/p3r7/space-theming",
+  "stars": 7,
+  "updated": "2020-05-02T10:32:37Z",
+  "archived": false,
+  "topics": ["emacs", "themes"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "space-theming",
+    "fetcher": "github",
+    "repo": "p3r7/space-theming"
+  }
+}

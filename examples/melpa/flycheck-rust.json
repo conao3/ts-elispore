@@ -1,0 +1,18 @@
+{
+  "id": 22930091,
+  "name": "flycheck/flycheck-rust",
+  "description": "Better Rust/Cargo support for Flycheck",
+  "url": "https://github.com/flycheck/flycheck-rust",
+  "stars": 125,
+  "updated": "2026-06-19T14:09:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-rust",
+    "fetcher": "github",
+    "repo": "flycheck/flycheck-rust"
+  }
+}

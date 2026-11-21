@@ -1,0 +1,18 @@
+{
+  "id": 1164520813,
+  "name": "skx/org-people",
+  "description": "Contact management for org-mode",
+  "url": "https://github.com/skx/org-people",
+  "stars": 17,
+  "updated": "2026-04-23T12:11:16Z",
+  "archived": false,
+  "topics": ["contacts", "emacs-lisp", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-people",
+    "fetcher": "github",
+    "repo": "skx/org-people"
+  }
+}

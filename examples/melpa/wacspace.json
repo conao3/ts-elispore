@@ -1,0 +1,18 @@
+{
+  "id": 9268890,
+  "name": "shosti/wacspace.el",
+  "description": "The WACky WorkSPACE manager for emACS",
+  "url": "https://github.com/shosti/wacspace.el",
+  "stars": 24,
+  "updated": "2026-04-27T20:40:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wacspace",
+    "fetcher": "github",
+    "repo": "shosti/wacspace.el"
+  }
+}

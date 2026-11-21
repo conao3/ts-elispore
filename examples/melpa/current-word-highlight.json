@@ -1,0 +1,18 @@
+{
+  "id": 336787986,
+  "name": "kijimad/current-word-highlight",
+  "description": "Highlight current word minor mode.",
+  "url": "https://github.com/kijimad/current-word-highlight",
+  "stars": 3,
+  "updated": "2021-03-23T14:02:02Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "emacs-plugin", "highlight", "package", "plugin"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "current-word-highlight",
+    "fetcher": "github",
+    "repo": "kijimad/current-word-highlight"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 826233,
+  "name": "gleber/fastnav.el",
+  "description": "Slightly modified version of FastNav compatible with ELPA and package.el",
+  "url": "https://github.com/gleber/fastnav.el",
+  "stars": 11,
+  "updated": "2012-02-11T14:57:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fastnav",
+    "fetcher": "github",
+    "repo": "gleber/fastnav.el"
+  }
+}

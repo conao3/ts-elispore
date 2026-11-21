@@ -1,0 +1,18 @@
+{
+  "id": 3792321,
+  "name": "slim-template/emacs-slim",
+  "description": "Syntax highlighting for Slim",
+  "url": "https://github.com/slim-template/emacs-slim",
+  "stars": 62,
+  "updated": "2025-07-27T17:10:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "slim-mode",
+    "fetcher": "github",
+    "repo": "slim-template/emacs-slim"
+  }
+}

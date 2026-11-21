@@ -1,0 +1,18 @@
+{
+  "id": 97871375,
+  "name": "DarwinAwardWinner/with-simulated-input",
+  "description": "Test your interactive elisp functions non-interactively!",
+  "url": "https://github.com/DarwinAwardWinner/with-simulated-input",
+  "stars": 40,
+  "updated": "2021-11-30T03:14:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "with-simulated-input",
+    "fetcher": "github",
+    "repo": "DarwinAwardWinner/with-simulated-input"
+  }
+}

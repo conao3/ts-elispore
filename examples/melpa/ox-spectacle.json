@@ -1,0 +1,18 @@
+{
+  "id": 160390767,
+  "name": "lorniu/ox-spectacle",
+  "description": "Slideshow tool on Emacs, that build HTML presentation with Spectacle.js from Org Mode.",
+  "url": "https://github.com/lorniu/ox-spectacle",
+  "stars": 67,
+  "updated": "2025-07-27T10:35:00Z",
+  "archived": false,
+  "topics": ["presentation", "spectacle"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-spectacle",
+    "fetcher": "github",
+    "repo": "lorniu/ox-spectacle"
+  }
+}

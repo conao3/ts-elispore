@@ -1,0 +1,18 @@
+{
+  "id": 48684881,
+  "name": "cuonglm/flycheck-checkbashisms",
+  "description": "Flycheck linter for checkbashisms",
+  "url": "https://github.com/cuonglm/flycheck-checkbashisms",
+  "stars": 16,
+  "updated": "2023-03-13T14:18:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-checkbashisms",
+    "fetcher": "github",
+    "repo": "cuonglm/flycheck-checkbashisms"
+  }
+}

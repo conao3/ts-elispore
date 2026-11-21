@@ -1,0 +1,18 @@
+{
+  "id": 949223269,
+  "name": "vale981/overleaf.el",
+  "description": "Sync and track changes live with overleaf and emacs!",
+  "url": "https://github.com/vale981/overleaf.el",
+  "stars": 96,
+  "updated": "2026-11-06T00:45:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "overleaf",
+    "fetcher": "github",
+    "repo": "vale981/overleaf.el"
+  }
+}

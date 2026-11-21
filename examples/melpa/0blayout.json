@@ -1,0 +1,18 @@
+{
+  "id": 40005130,
+  "name": "etu/0blayout-mode",
+  "description": "Small global-minor-mode to Emacs to handle several layouts",
+  "url": "https://github.com/etu/0blayout-mode",
+  "stars": 135,
+  "updated": "2019-07-03T05:27:16Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "0blayout",
+    "fetcher": "github",
+    "repo": "etu/0blayout-mode"
+  }
+}

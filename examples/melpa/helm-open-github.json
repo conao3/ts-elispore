@@ -1,0 +1,18 @@
+{
+  "id": 9490150,
+  "name": "emacsorphanage/helm-open-github",
+  "description": "Utilities for opening github page",
+  "url": "https://github.com/emacsorphanage/helm-open-github",
+  "stars": 30,
+  "updated": "2023-05-22T11:07:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-open-github",
+    "fetcher": "github",
+    "repo": "emacsorphanage/helm-open-github"
+  }
+}

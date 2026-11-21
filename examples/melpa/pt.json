@@ -1,0 +1,18 @@
+{
+  "id": 19209728,
+  "name": "bling/pt.el",
+  "description": "An emacs front-end for Pt, the Platinum Searcher",
+  "url": "https://github.com/bling/pt.el",
+  "stars": 40,
+  "updated": "2016-12-26T19:59:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pt",
+    "fetcher": "github",
+    "repo": "bling/pt.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 13079889,
+  "name": "bling/evil-visualstar",
+  "description": "Start a * or # search from the visual selection",
+  "url": "https://github.com/bling/evil-visualstar",
+  "stars": 81,
+  "updated": "2026-09-27T16:57:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-visualstar",
+    "fetcher": "github",
+    "repo": "bling/evil-visualstar"
+  }
+}

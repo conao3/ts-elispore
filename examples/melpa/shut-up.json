@@ -1,0 +1,18 @@
+{
+  "id": 13954656,
+  "name": "cask/shut-up",
+  "description": "Emacs, shut up would you!",
+  "url": "https://github.com/cask/shut-up",
+  "stars": 62,
+  "updated": "2026-10-29T05:51:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "shut-up",
+    "fetcher": "github",
+    "repo": "cask/shut-up"
+  }
+}

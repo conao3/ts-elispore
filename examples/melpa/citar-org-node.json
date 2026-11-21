@@ -1,0 +1,18 @@
+{
+  "id": 954178130,
+  "name": "krisbalintona/citar-org-node",
+  "description": "Org-node integration with citar",
+  "url": "https://github.com/krisbalintona/citar-org-node",
+  "stars": 7,
+  "updated": "2025-07-27T07:12:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Shell",
+  "ownerType": "User",
+  "melpa": {
+    "name": "citar-org-node",
+    "fetcher": "github",
+    "repo": "krisbalintona/citar-org-node"
+  }
+}

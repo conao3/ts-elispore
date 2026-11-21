@@ -1,0 +1,18 @@
+{
+  "id": 1113043,
+  "name": "nschum/idle-require.el",
+  "description": "Emacs: load elisp libraries while Emacs is idle",
+  "url": "https://github.com/nschum/idle-require.el",
+  "stars": 9,
+  "updated": "2010-11-26T07:38:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "idle-require",
+    "fetcher": "github",
+    "repo": "nschum/idle-require.el"
+  }
+}

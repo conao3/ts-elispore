@@ -1,0 +1,18 @@
+{
+  "id": 946757769,
+  "name": "raegnald/rg-themes",
+  "description": "A collection of light and dark Emacs themes that are not harsh on the eyes. ",
+  "url": "https://github.com/raegnald/rg-themes",
+  "stars": 9,
+  "updated": "2025-07-18T18:26:36Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "package", "themes"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rg-themes",
+    "fetcher": "github",
+    "repo": "raegnald/rg-themes"
+  }
+}

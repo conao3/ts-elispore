@@ -1,0 +1,18 @@
+{
+  "id": 137539530,
+  "name": "WillForan/zim-wiki-mode",
+  "description": "Zim Wiki mode for emacs -- an extention of dokuwiki mode",
+  "url": "https://github.com/WillForan/zim-wiki-mode",
+  "stars": 19,
+  "updated": "2025-08-24T01:57:46Z",
+  "archived": false,
+  "topics": ["emacs", "journal", "zim-wiki"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zim-wiki-mode",
+    "fetcher": "github",
+    "repo": "WillForan/zim-wiki-mode"
+  }
+}

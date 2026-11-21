@@ -1,0 +1,19 @@
+{
+  "id": 7364848,
+  "name": "chumpage/chumpy-windows",
+  "description": "Emacs window management utilities",
+  "url": "https://github.com/chumpage/chumpy-windows",
+  "stars": 24,
+  "updated": "2017-08-09T22:09:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "splitter",
+    "fetcher": "github",
+    "repo": "chumpage/chumpy-windows",
+    "files": "(\"splitter.el\")"
+  }
+}

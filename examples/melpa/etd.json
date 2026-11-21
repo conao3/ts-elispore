@@ -1,0 +1,28 @@
+{
+  "id": 525026637,
+  "name": "emacsfodder/etd",
+  "description": "Examples Tests Docs",
+  "url": "https://github.com/emacsfodder/etd",
+  "stars": 5,
+  "updated": "2023-07-11T16:45:33Z",
+  "archived": false,
+  "topics": [
+    "bdd",
+    "documentation",
+    "emacs",
+    "ert",
+    "examples",
+    "lisp",
+    "macros",
+    "specs",
+    "testing"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "etd",
+    "fetcher": "github",
+    "repo": "emacsfodder/etd"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 258516242,
+  "name": "go-noisegate/go-noisegate.el",
+  "description": "Emacs plugin for Noise Gate",
+  "url": "https://github.com/go-noisegate/go-noisegate.el",
+  "stars": 3,
+  "updated": "2020-05-03T13:58:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "go-noisegate",
+    "fetcher": "github",
+    "repo": "go-noisegate/go-noisegate.el"
+  }
+}

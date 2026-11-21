@@ -1,0 +1,18 @@
+{
+  "id": 38060570,
+  "name": "willghatch/emacs-on-parens",
+  "description": "smartparens wrapper to fit with evil-normal-state",
+  "url": "https://github.com/willghatch/emacs-on-parens",
+  "stars": 11,
+  "updated": "2025-02-11T01:47:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "on-parens",
+    "fetcher": "github",
+    "repo": "willghatch/emacs-on-parens"
+  }
+}

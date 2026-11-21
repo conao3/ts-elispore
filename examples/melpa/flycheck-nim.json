@@ -1,0 +1,18 @@
+{
+  "id": 28730482,
+  "name": "ALSchwalm/flycheck-nim",
+  "description": "A flycheck syntax checker for nim",
+  "url": "https://github.com/ALSchwalm/flycheck-nim",
+  "stars": 6,
+  "updated": "2024-01-04T09:51:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-nim",
+    "fetcher": "github",
+    "repo": "ALSchwalm/flycheck-nim"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 185474286,
+  "name": "bosko/docker-cli",
+  "description": "Running commands in Docker container within Emacs buffer",
+  "url": "https://github.com/bosko/docker-cli",
+  "stars": 9,
+  "updated": "2019-11-30T09:53:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "docker-cli",
+    "fetcher": "github",
+    "repo": "bosko/docker-cli"
+  }
+}

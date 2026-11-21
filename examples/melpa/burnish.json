@@ -1,0 +1,18 @@
+{
+  "id": 1408199377,
+  "name": "kickingvegas/burnish",
+  "description": "Automated Org file export and viewing.",
+  "url": "https://github.com/kickingvegas/burnish",
+  "stars": 5,
+  "updated": "2026-11-09T06:17:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "burnish",
+    "fetcher": "github",
+    "repo": "kickingvegas/burnish"
+  }
+}

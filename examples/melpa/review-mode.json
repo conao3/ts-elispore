@@ -1,0 +1,18 @@
+{
+  "id": 478900,
+  "name": "kmuto/review-el",
+  "description": "Emacs lisp helper mode for ReVIEW",
+  "url": "https://github.com/kmuto/review-el",
+  "stars": 28,
+  "updated": "2026-03-11T12:19:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "review-mode",
+    "fetcher": "github",
+    "repo": "kmuto/review-el"
+  }
+}

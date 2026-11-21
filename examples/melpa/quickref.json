@@ -1,0 +1,18 @@
+{
+  "id": 7346917,
+  "name": "pd/quickref.el",
+  "description": "Display relevant notes-to-self in the echo area",
+  "url": "https://github.com/pd/quickref.el",
+  "stars": 9,
+  "updated": "2017-08-17T12:34:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "quickref",
+    "fetcher": "github",
+    "repo": "pd/quickref.el"
+  }
+}

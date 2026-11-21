@@ -1,0 +1,18 @@
+{
+  "id": 236028401,
+  "name": "wpcarro/egg-timer.el",
+  "description": "Use Emacs to schedule alarms to focus on a task.",
+  "url": "https://github.com/wpcarro/egg-timer.el",
+  "stars": 26,
+  "updated": "2023-12-04T18:06:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "egg-timer",
+    "fetcher": "github",
+    "repo": "wpcarro/egg-timer.el"
+  }
+}

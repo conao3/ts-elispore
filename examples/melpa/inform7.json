@@ -1,0 +1,18 @@
+{
+  "id": 254829310,
+  "name": "GuiltyDolphin/inform7-mode",
+  "description": "Major mode for editing Inform 7 files in Emacs",
+  "url": "https://github.com/GuiltyDolphin/inform7-mode",
+  "stars": 4,
+  "updated": "2023-03-17T15:23:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "inform7",
+    "fetcher": "github",
+    "repo": "GuiltyDolphin/inform7-mode"
+  }
+}

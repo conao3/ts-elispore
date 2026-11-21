@@ -1,0 +1,18 @@
+{
+  "id": 87007138,
+  "name": "alphapapa/outorg",
+  "description": "Convert source-code buffers temporarily to Org-mode for comment editing",
+  "url": "https://github.com/alphapapa/outorg",
+  "stars": 57,
+  "updated": "2021-01-21T19:09:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "outorg",
+    "fetcher": "github",
+    "repo": "alphapapa/outorg"
+  }
+}

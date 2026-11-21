@@ -1,0 +1,18 @@
+{
+  "id": 126363308,
+  "name": "WJCFerguson/banner-comment",
+  "description": "Trivial emacs package to turn a comment into a banner",
+  "url": "https://github.com/WJCFerguson/banner-comment",
+  "stars": 9,
+  "updated": "2026-05-07T01:29:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "banner-comment",
+    "fetcher": "github",
+    "repo": "WJCFerguson/banner-comment"
+  }
+}

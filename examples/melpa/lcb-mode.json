@@ -1,0 +1,18 @@
+{
+  "id": 65686768,
+  "name": "peter-b/lcb-mode",
+  "description": "LiveCode Builder major mode for Emacs",
+  "url": "https://github.com/peter-b/lcb-mode",
+  "stars": 3,
+  "updated": "2016-08-16T06:38:34Z",
+  "archived": false,
+  "topics": ["emacs", "livecode", "livecode-builder", "melpa"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lcb-mode",
+    "fetcher": "github",
+    "repo": "peter-b/lcb-mode"
+  }
+}

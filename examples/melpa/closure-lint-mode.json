@@ -1,0 +1,18 @@
+{
+  "id": 1092486,
+  "name": "r0man/closure-lint-mode",
+  "description": "An Emacs Mode for the Closure Linter",
+  "url": "https://github.com/r0man/closure-lint-mode",
+  "stars": 4,
+  "updated": "2010-11-18T21:24:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": null,
+  "ownerType": "User",
+  "melpa": {
+    "name": "closure-lint-mode",
+    "fetcher": "github",
+    "repo": "r0man/closure-lint-mode"
+  }
+}

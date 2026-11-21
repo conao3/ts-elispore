@@ -1,0 +1,19 @@
+{
+  "id": 5599990,
+  "name": "xwl/cal-china-x",
+  "description": "chinese localization, prioritized holiday highlight, lunar, horoscope, zodiac, etc.",
+  "url": "https://github.com/xwl/cal-china-x",
+  "stars": 81,
+  "updated": "2026-11-08T20:38:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cal-china-x",
+    "fetcher": "github",
+    "repo": "xwl/cal-china-x",
+    "files": "(:defaults \"jieqi.txt\")"
+  }
+}

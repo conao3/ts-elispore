@@ -1,0 +1,19 @@
+{
+  "id": 230168301,
+  "name": "conao3/indent-lint.el",
+  "description": "Async indentation checker and flycheck frontend",
+  "url": "https://github.com/conao3/indent-lint.el",
+  "stars": 11,
+  "updated": "2026-11-03T07:50:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-indent",
+    "fetcher": "github",
+    "repo": "conao3/indent-lint.el",
+    "files": "(\"flycheck-indent.el\")"
+  }
+}

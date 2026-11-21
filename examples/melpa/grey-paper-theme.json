@@ -1,0 +1,18 @@
+{
+  "id": 373667529,
+  "name": "gugod/grey-paper-theme",
+  "description": "A greyscale theme with look-n-feel of an eink display",
+  "url": "https://github.com/gugod/grey-paper-theme",
+  "stars": 13,
+  "updated": "2023-04-15T11:16:56Z",
+  "archived": false,
+  "topics": ["emacs", "theme"],
+  "license": "CC0-1.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "grey-paper-theme",
+    "fetcher": "github",
+    "repo": "gugod/grey-paper-theme"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 1152199405,
+  "name": "Jamie-Cui/magent",
+  "description": "An Emacs Lisp AI coding agent with multi-agent architecture, permission-based tool access, and LLM integration via gptel.",
+  "url": "https://github.com/Jamie-Cui/magent",
+  "stars": 46,
+  "updated": "2026-11-18T05:23:17Z",
+  "archived": false,
+  "topics": ["coding-agent", "elisp", "emacs", "gptel", "llm", "vibe-coding"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magent",
+    "fetcher": "github",
+    "repo": "Jamie-Cui/magent",
+    "files": "(\"lisp/magent*.el\" \"prompts\" \"skills\")"
+  }
+}

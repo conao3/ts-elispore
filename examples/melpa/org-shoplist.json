@@ -1,0 +1,18 @@
+{
+  "id": 156883946,
+  "name": "lordnik22/org-shoplist",
+  "description": "An extension for creating shoping lists and eating plans in org-mode",
+  "url": "https://github.com/lordnik22/org-shoplist",
+  "stars": 15,
+  "updated": "2024-10-07T22:50:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-shoplist",
+    "fetcher": "github",
+    "repo": "lordnik22/org-shoplist"
+  }
+}

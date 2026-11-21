@@ -1,0 +1,18 @@
+{
+  "id": 12033833,
+  "name": "rejeep/git.el",
+  "description": "An Elisp API for programmatically using Git",
+  "url": "https://github.com/rejeep/git.el",
+  "stars": 42,
+  "updated": "2017-08-16T18:07:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git",
+    "fetcher": "github",
+    "repo": "rejeep/git.el"
+  }
+}

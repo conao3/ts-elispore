@@ -1,0 +1,18 @@
+{
+  "id": 12288259,
+  "name": "duelinmarkers/insfactor.el",
+  "description": "Emacs component of insfactor",
+  "url": "https://github.com/duelinmarkers/insfactor.el",
+  "stars": 1,
+  "updated": "2014-11-17T00:05:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "insfactor",
+    "fetcher": "github",
+    "repo": "duelinmarkers/insfactor.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 16879040,
+  "name": "yasuyk/cdnjs.el",
+  "description": "A front end for http://cdnjs.com",
+  "url": "https://github.com/yasuyk/cdnjs.el",
+  "stars": 18,
+  "updated": "2016-10-31T15:23:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cdnjs",
+    "fetcher": "github",
+    "repo": "yasuyk/cdnjs.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 47328947,
+  "name": "jeetelongname/elfeed-goodies",
+  "description": "Various goodies for Elfeed",
+  "url": "https://github.com/jeetelongname/elfeed-goodies",
+  "stars": 110,
+  "updated": "2022-10-03T14:06:34Z",
+  "archived": false,
+  "topics": ["elfeed", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elfeed-goodies",
+    "fetcher": "github",
+    "repo": "jeetelongname/elfeed-goodies"
+  }
+}

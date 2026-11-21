@@ -1,0 +1,19 @@
+{
+  "id": 28187504,
+  "name": "jkitchin/org-ref",
+  "description": "org-mode modules for citations, cross-references, bibliographies in org-mode and useful bibtex tools to go with it.",
+  "url": "https://github.com/jkitchin/org-ref",
+  "stars": 1436,
+  "updated": "2026-10-20T18:20:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-ref",
+    "fetcher": "github",
+    "repo": "jkitchin/org-ref",
+    "files": "(:defaults \"org-ref.org\" \"org-ref.bib\" \"citeproc\")"
+  }
+}

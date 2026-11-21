@@ -1,0 +1,18 @@
+{
+  "id": 15001768,
+  "name": "alezost/debpaste.el",
+  "description": "Emacs client for http://paste.debian.net/",
+  "url": "https://github.com/alezost/debpaste.el",
+  "stars": 7,
+  "updated": "2016-12-14T20:40:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "debpaste",
+    "fetcher": "github",
+    "repo": "alezost/debpaste.el"
+  }
+}

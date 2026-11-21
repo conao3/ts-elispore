@@ -1,0 +1,18 @@
+{
+  "id": 2806155,
+  "name": "mattfidler/ess-smart-underscore.el",
+  "description": "Smarter underscore for Emacs Speaks Statistics",
+  "url": "https://github.com/mattfidler/ess-smart-underscore.el",
+  "stars": 13,
+  "updated": "2019-03-09T01:01:46Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ess-smart-underscore",
+    "fetcher": "github",
+    "repo": "mattfidler/ess-smart-underscore.el"
+  }
+}

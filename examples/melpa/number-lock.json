@@ -1,0 +1,18 @@
+{
+  "id": 66269490,
+  "name": "Liu233w/number-lock.el",
+  "description": "An Emacs package which allows you to enter symbols on your number keys without pressing shift",
+  "url": "https://github.com/Liu233w/number-lock.el",
+  "stars": 8,
+  "updated": "2018-08-03T06:29:24Z",
+  "archived": false,
+  "topics": ["emacs", "melpa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "number-lock",
+    "fetcher": "github",
+    "repo": "Liu233w/number-lock.el"
+  }
+}

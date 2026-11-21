@@ -1,0 +1,18 @@
+{
+  "id": 825129227,
+  "name": "jaeyeom/eshell-command-not-found",
+  "description": "",
+  "url": "https://github.com/jaeyeom/eshell-command-not-found",
+  "stars": 3,
+  "updated": "2026-04-08T20:10:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-command-not-found",
+    "fetcher": "github",
+    "repo": "jaeyeom/eshell-command-not-found"
+  }
+}

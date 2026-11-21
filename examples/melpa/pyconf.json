@@ -1,0 +1,18 @@
+{
+  "id": 500087132,
+  "name": "andcarnivorous/pyconf",
+  "description": "A package that provides support for python execution configurations similar to the dap-mode ones. ",
+  "url": "https://github.com/andcarnivorous/pyconf",
+  "stars": 3,
+  "updated": "2024-02-07T22:03:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pyconf",
+    "fetcher": "github",
+    "repo": "andcarnivorous/pyconf"
+  }
+}

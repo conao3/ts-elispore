@@ -1,0 +1,29 @@
+{
+  "id": 112288607,
+  "name": "emacs-lsp/lsp-ui",
+  "description": "UI integrations for lsp-mode",
+  "url": "https://github.com/emacs-lsp/lsp-ui",
+  "stars": 1119,
+  "updated": "2026-06-19T13:57:37Z",
+  "archived": false,
+  "topics": [
+    "emacs-lsp",
+    "flycheck",
+    "flycheck-diagnostics",
+    "lsp",
+    "lsp-ui",
+    "peek",
+    "sideline",
+    "ui",
+    "xref"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-ui",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-ui",
+    "files": "(:defaults \"lsp-ui-doc.html\" \"resources\")"
+  }
+}

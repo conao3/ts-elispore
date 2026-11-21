@@ -1,0 +1,18 @@
+{
+  "id": 34709860,
+  "name": "cute-jumper/bing-dict.el",
+  "description": "Minimalists' Bing dictionary for Emacs",
+  "url": "https://github.com/cute-jumper/bing-dict.el",
+  "stars": 60,
+  "updated": "2020-02-16T01:11:10Z",
+  "archived": false,
+  "topics": ["bing", "bing-dict", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bing-dict",
+    "fetcher": "github",
+    "repo": "cute-jumper/bing-dict.el"
+  }
+}

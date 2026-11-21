@@ -1,0 +1,18 @@
+{
+  "id": 153851979,
+  "name": "WolfeCub/ox-mdx-deck",
+  "description": "org-mode to mdx-deck exporter",
+  "url": "https://github.com/WolfeCub/ox-mdx-deck",
+  "stars": 6,
+  "updated": "2018-11-15T20:47:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-mdx-deck",
+    "fetcher": "github",
+    "repo": "WolfeCub/ox-mdx-deck"
+  }
+}

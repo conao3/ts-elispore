@@ -1,0 +1,18 @@
+{
+  "id": 50468591,
+  "name": "alexmurray/flycheck-cstyle",
+  "description": "Integrate flycheck with cstyle in Emacs",
+  "url": "https://github.com/alexmurray/flycheck-cstyle",
+  "stars": 1,
+  "updated": "2016-09-05T23:55:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-cstyle",
+    "fetcher": "github",
+    "repo": "alexmurray/flycheck-cstyle"
+  }
+}

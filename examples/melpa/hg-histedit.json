@@ -1,0 +1,18 @@
+{
+  "id": 191017937,
+  "name": "jojojames/hg-histedit",
+  "description": "Emacs interface to hg histedit",
+  "url": "https://github.com/jojojames/hg-histedit",
+  "stars": 0,
+  "updated": "2021-03-02T23:35:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hg-histedit",
+    "fetcher": "github",
+    "repo": "jojojames/hg-histedit"
+  }
+}

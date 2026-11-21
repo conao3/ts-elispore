@@ -1,0 +1,18 @@
+{
+  "id": 294880391,
+  "name": "arthurgleckler/validate-html",
+  "description": "Run the W3C HTML Validator directly from Emacs.",
+  "url": "https://github.com/arthurgleckler/validate-html",
+  "stars": 9,
+  "updated": "2024-10-23T20:29:49Z",
+  "archived": false,
+  "topics": ["emacs", "html"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "validate-html",
+    "fetcher": "github",
+    "repo": "arthurgleckler/validate-html"
+  }
+}

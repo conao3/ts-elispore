@@ -1,0 +1,18 @@
+{
+  "id": 879003347,
+  "name": "daut/miasma-theme.el",
+  "description": "🌲 Emacs color theme inspired by the woods",
+  "url": "https://github.com/daut/miasma-theme.el",
+  "stars": 47,
+  "updated": "2026-01-24T20:49:10Z",
+  "archived": false,
+  "topics": ["emacs", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "miasma-theme",
+    "fetcher": "github",
+    "repo": "daut/miasma-theme.el"
+  }
+}

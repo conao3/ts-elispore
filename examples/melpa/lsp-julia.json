@@ -1,0 +1,19 @@
+{
+  "id": 123712108,
+  "name": "gdkrmr/lsp-julia",
+  "description": "",
+  "url": "https://github.com/gdkrmr/lsp-julia",
+  "stars": 75,
+  "updated": "2023-09-15T06:55:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lsp-julia",
+    "fetcher": "github",
+    "repo": "gdkrmr/lsp-julia",
+    "files": "(:defaults \"languageserver\")"
+  }
+}

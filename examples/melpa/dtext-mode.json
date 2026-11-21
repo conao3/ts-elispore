@@ -1,0 +1,18 @@
+{
+  "id": 711226920,
+  "name": "JohnDevlopment/dtext-mode.el",
+  "description": "A major mode in Emacs for editing Danbooru DText.",
+  "url": "https://github.com/JohnDevlopment/dtext-mode.el",
+  "stars": 0,
+  "updated": "2023-11-20T16:42:52Z",
+  "archived": false,
+  "topics": ["danbooru", "emacs", "major-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dtext-mode",
+    "fetcher": "github",
+    "repo": "JohnDevlopment/dtext-mode.el"
+  }
+}

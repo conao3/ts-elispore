@@ -1,0 +1,18 @@
+{
+  "id": 9715013,
+  "name": "yjwen/org-reveal",
+  "description": "Exports Org-mode contents to Reveal.js HTML presentation.",
+  "url": "https://github.com/yjwen/org-reveal",
+  "stars": 1465,
+  "updated": "2023-10-22T22:08:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-reveal",
+    "fetcher": "github",
+    "repo": "yjwen/org-reveal"
+  }
+}

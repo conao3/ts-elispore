@@ -1,0 +1,18 @@
+{
+  "id": 1219601552,
+  "name": "eddof13/ob-agent-shell",
+  "description": "Org-babel backend for agent-shell",
+  "url": "https://github.com/eddof13/ob-agent-shell",
+  "stars": 11,
+  "updated": "2026-10-28T01:02:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-agent-shell",
+    "fetcher": "github",
+    "repo": "eddof13/ob-agent-shell"
+  }
+}

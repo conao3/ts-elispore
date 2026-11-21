@@ -1,0 +1,18 @@
+{
+  "id": 904116113,
+  "name": "8dcc/hl-printf.el",
+  "description": "Minor mode for highlighting 'printf' format specifiers in Emacs",
+  "url": "https://github.com/8dcc/hl-printf.el",
+  "stars": 7,
+  "updated": "2025-09-26T16:51:55Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-package", "minor-mode", "printf", "syntax-highlighting"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hl-printf",
+    "fetcher": "github",
+    "repo": "8dcc/hl-printf.el"
+  }
+}

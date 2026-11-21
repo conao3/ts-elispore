@@ -1,0 +1,18 @@
+{
+  "id": 796275278,
+  "name": "natelastname/template-dumper",
+  "description": "",
+  "url": "https://github.com/natelastname/template-dumper",
+  "stars": 1,
+  "updated": "2026-07-23T19:12:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "template-dumper",
+    "fetcher": "github",
+    "repo": "natelastname/template-dumper"
+  }
+}

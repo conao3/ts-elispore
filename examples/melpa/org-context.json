@@ -1,0 +1,18 @@
+{
+  "id": 5508079,
+  "name": "thisirs/org-context",
+  "description": "Contextual agenda and capture for Org-mode",
+  "url": "https://github.com/thisirs/org-context",
+  "stars": 41,
+  "updated": "2026-11-17T17:08:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-context",
+    "fetcher": "github",
+    "repo": "thisirs/org-context"
+  }
+}

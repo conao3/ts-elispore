@@ -1,0 +1,18 @@
+{
+  "id": 20443295,
+  "name": "swift-emacs/swift-mode",
+  "description": "Emacs support for Apple's Swift programming language.",
+  "url": "https://github.com/swift-emacs/swift-mode",
+  "stars": 376,
+  "updated": "2026-11-04T12:48:18Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-lisp", "emacs-mode", "swift", "swift-programming-language"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "swift-mode",
+    "fetcher": "github",
+    "repo": "swift-emacs/swift-mode"
+  }
+}

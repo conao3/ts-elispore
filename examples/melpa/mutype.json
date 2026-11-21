@@ -1,0 +1,19 @@
+{
+  "id": 1161654141,
+  "name": "suxiaogang223/mutype",
+  "description": "Type into stillness. Calm rhythm. Low distraction. Steady flow.",
+  "url": "https://github.com/suxiaogang223/mutype",
+  "stars": 3,
+  "updated": "2026-03-10T03:30:46Z",
+  "archived": false,
+  "topics": ["emacs", "lisp", "zen"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mutype",
+    "fetcher": "github",
+    "repo": "suxiaogang223/mutype",
+    "files": "(:defaults \"sources/*.txt\")"
+  }
+}

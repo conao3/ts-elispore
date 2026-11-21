@@ -1,0 +1,19 @@
+{
+  "id": 8872110,
+  "name": "yoshinari-nomura/org-octopress",
+  "description": "org-mode in octopress",
+  "url": "https://github.com/yoshinari-nomura/org-octopress",
+  "stars": 83,
+  "updated": "2017-08-21T04:15:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-octopress",
+    "fetcher": "github",
+    "repo": "yoshinari-nomura/org-octopress",
+    "files": "(:defaults \"setupfile-sample.org\")"
+  }
+}

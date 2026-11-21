@@ -1,0 +1,18 @@
+{
+  "id": 21503099,
+  "name": "chachi/cuda-mode",
+  "description": "cuda-mode for Emacs.",
+  "url": "https://github.com/chachi/cuda-mode",
+  "stars": 27,
+  "updated": "2024-08-19T00:11:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cuda-mode",
+    "fetcher": "github",
+    "repo": "chachi/cuda-mode"
+  }
+}

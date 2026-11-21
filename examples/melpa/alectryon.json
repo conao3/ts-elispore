@@ -1,0 +1,19 @@
+{
+  "id": 260735576,
+  "name": "cpitclaudel/alectryon",
+  "description": "A collection of tools for writing technical documents that mix Rocq code and prose.",
+  "url": "https://github.com/cpitclaudel/alectryon",
+  "stars": 332,
+  "updated": "2026-06-02T23:40:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "HTML",
+  "ownerType": "User",
+  "melpa": {
+    "name": "alectryon",
+    "fetcher": "github",
+    "repo": "cpitclaudel/alectryon",
+    "files": "(\"etc/elisp/alectryon*.el\")"
+  }
+}

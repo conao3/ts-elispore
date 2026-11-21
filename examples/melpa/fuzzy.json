@@ -1,0 +1,18 @@
+{
+  "id": 1854062,
+  "name": "auto-complete/fuzzy-el",
+  "description": "Fuzzy matching utilities for GNU Emacs",
+  "url": "https://github.com/auto-complete/fuzzy-el",
+  "stars": 55,
+  "updated": "2026-06-19T08:01:04Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "fuzzy"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "fuzzy",
+    "fetcher": "github",
+    "repo": "auto-complete/fuzzy-el"
+  }
+}

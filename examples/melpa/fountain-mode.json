@@ -1,0 +1,19 @@
+{
+  "id": 15959248,
+  "name": "rnkn/fountain-mode",
+  "description": "Emacs major mode for screenwriting in Fountain plain-text markup",
+  "url": "https://github.com/rnkn/fountain-mode",
+  "stars": 446,
+  "updated": "2024-11-06T02:20:26Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "fountain", "screenwriting", "scriptwriting", "writing"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fountain-mode",
+    "fetcher": "github",
+    "repo": "rnkn/fountain-mode",
+    "files": "(:defaults \"contrib/*\")"
+  }
+}

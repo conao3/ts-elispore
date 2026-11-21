@@ -1,0 +1,18 @@
+{
+  "id": 3150156,
+  "name": "vapniks/emms-mark-ext",
+  "description": "Extra functions for tagging tracks in emms mode in emacs.",
+  "url": "https://github.com/vapniks/emms-mark-ext",
+  "stars": 4,
+  "updated": "2013-05-29T03:28:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emms-mark-ext",
+    "fetcher": "github",
+    "repo": "vapniks/emms-mark-ext"
+  }
+}

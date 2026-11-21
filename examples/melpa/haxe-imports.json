@@ -1,0 +1,18 @@
+{
+  "id": 65630786,
+  "name": "accidentalrebel/emacs-haxe-imports",
+  "description": "Code for dealing with Haxe imports based on java-imports by Matthew Lee Hinman - http://www.github.com/dakrone/emacs-java-imports",
+  "url": "https://github.com/accidentalrebel/emacs-haxe-imports",
+  "stars": 2,
+  "updated": "2017-04-11T01:40:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "haxe-imports",
+    "fetcher": "github",
+    "repo": "accidentalrebel/emacs-haxe-imports"
+  }
+}

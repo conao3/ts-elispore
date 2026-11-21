@@ -1,0 +1,19 @@
+{
+  "id": 15213762,
+  "name": "NateEag/skewer-reload-stylesheets",
+  "description": "Emacs minor-mode for live-editing CSS, SCSS, Less and other stylesheets",
+  "url": "https://github.com/NateEag/skewer-reload-stylesheets",
+  "stars": 7,
+  "updated": "2018-02-03T04:41:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "skewer-reload-stylesheets",
+    "fetcher": "github",
+    "repo": "NateEag/skewer-reload-stylesheets",
+    "files": "(:defaults \"*.js\")"
+  }
+}

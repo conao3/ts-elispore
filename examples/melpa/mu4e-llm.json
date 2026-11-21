@@ -1,0 +1,18 @@
+{
+  "id": 1129529910,
+  "name": "sillyfellow/mu4e-llm",
+  "description": "aI-powered email assistance for mu4e using llm.el",
+  "url": "https://github.com/sillyfellow/mu4e-llm",
+  "stars": 6,
+  "updated": "2026-10-04T10:56:57Z",
+  "archived": false,
+  "topics": ["ai", "emacs", "llm-el", "mu4e"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mu4e-llm",
+    "fetcher": "github",
+    "repo": "sillyfellow/mu4e-llm"
+  }
+}

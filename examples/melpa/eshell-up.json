@@ -1,0 +1,18 @@
+{
+  "id": 70950423,
+  "name": "peterwvj/eshell-up",
+  "description": "Quickly go to a specific parent directory in eshell",
+  "url": "https://github.com/peterwvj/eshell-up",
+  "stars": 36,
+  "updated": "2024-02-26T17:48:59Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-lisp", "eshell", "melpa"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-up",
+    "fetcher": "github",
+    "repo": "peterwvj/eshell-up"
+  }
+}

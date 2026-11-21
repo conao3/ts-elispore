@@ -1,0 +1,18 @@
+{
+  "id": 4532698,
+  "name": "rocky/emacs-test-simple",
+  "description": "Unit tests for GNU emacs that work interactively and in batch",
+  "url": "https://github.com/rocky/emacs-test-simple",
+  "stars": 31,
+  "updated": "2026-01-18T21:41:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "test-simple",
+    "fetcher": "github",
+    "repo": "rocky/emacs-test-simple"
+  }
+}

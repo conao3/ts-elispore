@@ -1,0 +1,18 @@
+{
+  "id": 14091080,
+  "name": "atykhonov/google-translate",
+  "description": "Emacs interface to Google Translate",
+  "url": "https://github.com/atykhonov/google-translate",
+  "stars": 380,
+  "updated": "2026-04-19T01:34:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "google-translate",
+    "fetcher": "github",
+    "repo": "atykhonov/google-translate"
+  }
+}

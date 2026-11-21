@@ -1,0 +1,18 @@
+{
+  "id": 53098563,
+  "name": "tumashu/exwm-x",
+  "description": "A derivative WM based on EXWM (emacs x window manager)",
+  "url": "https://github.com/tumashu/exwm-x",
+  "stars": 85,
+  "updated": "2023-01-19T06:31:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "exwm-x",
+    "fetcher": "github",
+    "repo": "tumashu/exwm-x"
+  }
+}

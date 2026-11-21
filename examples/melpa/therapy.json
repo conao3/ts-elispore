@@ -1,0 +1,18 @@
+{
+  "id": 29427816,
+  "name": "abingham/therapy",
+  "description": "Emacs hooks for switching between Python major version.",
+  "url": "https://github.com/abingham/therapy",
+  "stars": 2,
+  "updated": "2015-11-13T19:53:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "therapy",
+    "fetcher": "github",
+    "repo": "abingham/therapy"
+  }
+}

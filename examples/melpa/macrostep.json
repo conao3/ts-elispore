@@ -1,0 +1,18 @@
+{
+  "id": 220544331,
+  "name": "emacsorphanage/macrostep",
+  "description": "interactive macro-expander for Emacs",
+  "url": "https://github.com/emacsorphanage/macrostep",
+  "stars": 31,
+  "updated": "2026-11-13T10:28:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "macrostep",
+    "fetcher": "github",
+    "repo": "emacsorphanage/macrostep"
+  }
+}

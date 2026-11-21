@@ -1,0 +1,19 @@
+{
+  "id": 139819286,
+  "name": "abstools/abs-mode",
+  "description": "Support for ABS in the Emacs editor.",
+  "url": "https://github.com/abstools/abs-mode",
+  "stars": 2,
+  "updated": "2026-04-15T08:15:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "abs-mode",
+    "fetcher": "github",
+    "repo": "abstools/abs-mode",
+    "files": "(\"abs-mode.el\" \"snippets\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1763455,
+  "name": "rukano/emacs-faust-mode",
+  "description": "Faust major mode for editing faust code (.dsp files)",
+  "url": "https://github.com/rukano/emacs-faust-mode",
+  "stars": 16,
+  "updated": "2020-10-04T13:53:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "faust-mode",
+    "fetcher": "github",
+    "repo": "rukano/emacs-faust-mode"
+  }
+}

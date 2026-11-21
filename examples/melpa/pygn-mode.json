@@ -1,0 +1,19 @@
+{
+  "id": 219635488,
+  "name": "dwcoates/pygn-mode",
+  "description": "An Emacs major-mode for chess PGN files, powered by Python",
+  "url": "https://github.com/dwcoates/pygn-mode",
+  "stars": 16,
+  "updated": "2026-10-18T19:25:06Z",
+  "archived": false,
+  "topics": ["chess", "emacs", "pgn", "python-chess"],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pygn-mode",
+    "fetcher": "github",
+    "repo": "dwcoates/pygn-mode",
+    "files": "(:defaults\n         \"pygn_server.py\"\n         \"lib\")"
+  }
+}

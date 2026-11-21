@@ -1,0 +1,18 @@
+{
+  "id": 11372477,
+  "name": "emacsfodder/emacs-clues-theme",
+  "description": "An Emacs 24 theme, which is approaching awesomeness",
+  "url": "https://github.com/emacsfodder/emacs-clues-theme",
+  "stars": 27,
+  "updated": "2016-12-13T11:28:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "clues-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-clues-theme"
+  }
+}

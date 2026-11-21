@@ -1,0 +1,18 @@
+{
+  "id": 204048754,
+  "name": "jming422/fira-code-mode",
+  "description": "Emacs minor mode for Fira Code ligatures using prettify-symbols",
+  "url": "https://github.com/jming422/fira-code-mode",
+  "stars": 111,
+  "updated": "2026-04-13T19:01:41Z",
+  "archived": false,
+  "topics": ["emacs", "font", "ligatures", "programming-ligatures"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fira-code-mode",
+    "fetcher": "github",
+    "repo": "jming422/fira-code-mode"
+  }
+}

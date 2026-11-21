@@ -1,0 +1,18 @@
+{
+  "id": 252497980,
+  "name": "p3r7/friendly-tramp-path",
+  "description": ":satellite: More friendly (permissive) TRAMP path constructions for us humans",
+  "url": "https://github.com/p3r7/friendly-tramp-path",
+  "stars": 3,
+  "updated": "2020-05-02T10:32:16Z",
+  "archived": false,
+  "topics": ["emacs", "tramp"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "friendly-tramp-path",
+    "fetcher": "github",
+    "repo": "p3r7/friendly-tramp-path"
+  }
+}

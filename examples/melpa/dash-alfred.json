@@ -1,0 +1,18 @@
+{
+  "id": 195499850,
+  "name": "xuchunyang/dash-alfred.el",
+  "description": "Search Dash on-the-fly in Emacs",
+  "url": "https://github.com/xuchunyang/dash-alfred.el",
+  "stars": 4,
+  "updated": "2019-10-24T04:51:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dash-alfred",
+    "fetcher": "github",
+    "repo": "xuchunyang/dash-alfred.el"
+  }
+}

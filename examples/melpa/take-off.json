@@ -1,0 +1,19 @@
+{
+  "id": 19946964,
+  "name": "tburette/take-off",
+  "description": "Emacs in the browser",
+  "url": "https://github.com/tburette/take-off",
+  "stars": 28,
+  "updated": "2014-06-01T18:32:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "JavaScript",
+  "ownerType": "User",
+  "melpa": {
+    "name": "take-off",
+    "fetcher": "github",
+    "repo": "tburette/take-off",
+    "files": "(\"*.el\" \"front\")"
+  }
+}

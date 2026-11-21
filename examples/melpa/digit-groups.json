@@ -1,0 +1,18 @@
+{
+  "id": 261604378,
+  "name": "adamsmd/digit-groups",
+  "description": "",
+  "url": "https://github.com/adamsmd/digit-groups",
+  "stars": 1,
+  "updated": "2020-05-06T00:37:13Z",
+  "archived": false,
+  "topics": ["source"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "digit-groups",
+    "fetcher": "github",
+    "repo": "adamsmd/digit-groups"
+  }
+}

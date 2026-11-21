@@ -1,0 +1,19 @@
+{
+  "id": 33888640,
+  "name": "yuutayamada/xterm-keybinder-el",
+  "description": "",
+  "url": "https://github.com/yuutayamada/xterm-keybinder-el",
+  "stars": 12,
+  "updated": "2016-05-23T00:57:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Shell",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xterm-keybinder",
+    "fetcher": "github",
+    "repo": "yuutayamada/xterm-keybinder-el",
+    "files": "(\"*.el\" \"xterm-option\" \"emacs-urxvt-client\")"
+  }
+}

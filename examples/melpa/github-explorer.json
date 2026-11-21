@@ -1,0 +1,18 @@
+{
+  "id": 176435679,
+  "name": "TxGVNN/github-explorer",
+  "description": "Explore Github repositories on the fly in Emacs",
+  "url": "https://github.com/TxGVNN/github-explorer",
+  "stars": 41,
+  "updated": "2023-03-23T11:21:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "github-explorer",
+    "fetcher": "github",
+    "repo": "TxGVNN/github-explorer"
+  }
+}

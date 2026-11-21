@@ -1,0 +1,18 @@
+{
+  "id": 7369286,
+  "name": "hpdeifel/synosaurus",
+  "description": "An extensible thesaurus mode for emacs",
+  "url": "https://github.com/hpdeifel/synosaurus",
+  "stars": 97,
+  "updated": "2025-01-13T20:58:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "synosaurus",
+    "fetcher": "github",
+    "repo": "hpdeifel/synosaurus"
+  }
+}

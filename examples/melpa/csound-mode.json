@@ -1,0 +1,18 @@
+{
+  "id": 76693321,
+  "name": "hlolli/csound-mode",
+  "description": "Emacs major mode for coding in Csound",
+  "url": "https://github.com/hlolli/csound-mode",
+  "stars": 42,
+  "updated": "2026-07-19T08:49:24Z",
+  "archived": false,
+  "topics": ["csound", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "csound-mode",
+    "fetcher": "github",
+    "repo": "hlolli/csound-mode"
+  }
+}

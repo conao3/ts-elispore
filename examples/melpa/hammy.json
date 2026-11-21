@@ -1,0 +1,18 @@
+{
+  "id": 518601079,
+  "name": "alphapapa/hammy.el",
+  "description": "Programmable, interactive interval timers (e.g. for working/resting)",
+  "url": "https://github.com/alphapapa/hammy.el",
+  "stars": 152,
+  "updated": "2024-09-17T02:12:15Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hammy",
+    "fetcher": "github",
+    "repo": "alphapapa/hammy.el"
+  }
+}

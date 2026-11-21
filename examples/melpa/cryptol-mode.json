@@ -1,0 +1,18 @@
+{
+  "id": 8133555,
+  "name": "thoughtpolice/cryptol-mode",
+  "description": "A Cryptol major mode for Emacs.",
+  "url": "https://github.com/thoughtpolice/cryptol-mode",
+  "stars": 14,
+  "updated": "2019-05-31T20:51:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cryptol-mode",
+    "fetcher": "github",
+    "repo": "thoughtpolice/cryptol-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 88438967,
+  "name": "Fuco1/org-timeline",
+  "description": "Add graphical view of agenda to agenda buffer",
+  "url": "https://github.com/Fuco1/org-timeline",
+  "stars": 186,
+  "updated": "2021-11-10T19:52:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-timeline",
+    "fetcher": "github",
+    "repo": "Fuco1/org-timeline"
+  }
+}

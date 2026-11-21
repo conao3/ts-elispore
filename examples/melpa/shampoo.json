@@ -1,0 +1,18 @@
+{
+  "id": 1705182,
+  "name": "dmatveev/shampoo-emacs",
+  "description": "Shampoo mode for Emacs",
+  "url": "https://github.com/dmatveev/shampoo-emacs",
+  "stars": 39,
+  "updated": "2023-05-22T17:22:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shampoo",
+    "fetcher": "github",
+    "repo": "dmatveev/shampoo-emacs"
+  }
+}

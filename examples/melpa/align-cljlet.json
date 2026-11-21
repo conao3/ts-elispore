@@ -1,0 +1,18 @@
+{
+  "id": 1254139,
+  "name": "gstamp/align-cljlet",
+  "description": "Align clojure let forms.",
+  "url": "https://github.com/gstamp/align-cljlet",
+  "stars": 37,
+  "updated": "2016-01-12T21:06:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "align-cljlet",
+    "fetcher": "github",
+    "repo": "gstamp/align-cljlet"
+  }
+}

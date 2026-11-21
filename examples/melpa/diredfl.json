@@ -1,0 +1,18 @@
+{
+  "id": 105342249,
+  "name": "purcell/diredfl",
+  "description": "Extra Emacs font lock rules for a more colourful dired",
+  "url": "https://github.com/purcell/diredfl",
+  "stars": 162,
+  "updated": "2026-04-22T12:25:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "diredfl",
+    "fetcher": "github",
+    "repo": "purcell/diredfl"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 24587727,
+  "name": "larsbrinkhoff/forth-mode",
+  "description": "Wants to be the SLIME of Forth",
+  "url": "https://github.com/larsbrinkhoff/forth-mode",
+  "stars": 74,
+  "updated": "2026-03-15T08:03:23Z",
+  "archived": false,
+  "topics": ["editor-plugin", "emacs-lisp", "emacs-mode", "forth", "melpa"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "forth-mode",
+    "fetcher": "github",
+    "repo": "larsbrinkhoff/forth-mode",
+    "files": "(:defaults \"backend\" (:exclude \"build.el\"))"
+  }
+}

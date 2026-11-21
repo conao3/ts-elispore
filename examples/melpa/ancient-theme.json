@@ -1,0 +1,18 @@
+{
+  "id": 1187590161,
+  "name": "ThomasBestvina/ancient-theme",
+  "description": "Ancient them for emacs melpa repositories.",
+  "url": "https://github.com/ThomasBestvina/ancient-theme",
+  "stars": 1,
+  "updated": "2026-03-22T18:56:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ancient-theme",
+    "fetcher": "github",
+    "repo": "ThomasBestvina/ancient-theme"
+  }
+}

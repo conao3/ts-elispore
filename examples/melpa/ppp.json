@@ -1,0 +1,18 @@
+{
+  "id": 226459628,
+  "name": "conao3/ppp.el",
+  "description": "Extended pretty printer for Emacs Lisp",
+  "url": "https://github.com/conao3/ppp.el",
+  "stars": 33,
+  "updated": "2026-11-09T05:27:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ppp",
+    "fetcher": "github",
+    "repo": "conao3/ppp.el"
+  }
+}

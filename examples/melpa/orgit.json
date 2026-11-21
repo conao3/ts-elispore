@@ -1,0 +1,18 @@
+{
+  "id": 23000640,
+  "name": "magit/orgit",
+  "description": "Support for Org links to Magit buffers",
+  "url": "https://github.com/magit/orgit",
+  "stars": 244,
+  "updated": "2026-10-01T16:39:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "orgit",
+    "fetcher": "github",
+    "repo": "magit/orgit"
+  }
+}

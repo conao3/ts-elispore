@@ -1,0 +1,18 @@
+{
+  "id": 16472077,
+  "name": "kyleam/bog",
+  "description": "Extensions for research notes in Org mode",
+  "url": "https://github.com/kyleam/bog",
+  "stars": 65,
+  "updated": "2026-08-10T18:01:06Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "org-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bog",
+    "fetcher": "github",
+    "repo": "kyleam/bog"
+  }
+}

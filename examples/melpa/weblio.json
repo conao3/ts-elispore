@@ -1,0 +1,18 @@
+{
+  "id": 363475391,
+  "name": "pzel/weblio",
+  "description": "weblio.el --- Look up Japanese words on Weblio.jp",
+  "url": "https://github.com/pzel/weblio",
+  "stars": 1,
+  "updated": "2025-09-28T18:34:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "weblio",
+    "fetcher": "github",
+    "repo": "pzel/weblio"
+  }
+}

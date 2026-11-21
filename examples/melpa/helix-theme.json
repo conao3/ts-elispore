@@ -1,0 +1,18 @@
+{
+  "id": 819036797,
+  "name": "ibakepunk/helix-theme",
+  "description": "An Emacs color theme inspired by the helix-editor/helix default color scheme.",
+  "url": "https://github.com/ibakepunk/helix-theme",
+  "stars": 12,
+  "updated": "2024-08-15T09:11:51Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-color-theme", "emacs-colorscheme", "emacs-theme", "emacs-themes"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helix-theme",
+    "fetcher": "github",
+    "repo": "ibakepunk/helix-theme"
+  }
+}

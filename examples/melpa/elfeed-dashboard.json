@@ -1,0 +1,18 @@
+{
+  "id": 315163329,
+  "name": "manojm321/elfeed-dashboard",
+  "description": "A frontend for elfeed",
+  "url": "https://github.com/manojm321/elfeed-dashboard",
+  "stars": 91,
+  "updated": "2022-03-19T19:34:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elfeed-dashboard",
+    "fetcher": "github",
+    "repo": "manojm321/elfeed-dashboard"
+  }
+}

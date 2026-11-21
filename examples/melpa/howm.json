@@ -1,0 +1,18 @@
+{
+  "id": 640064983,
+  "name": "kaorahi/howm",
+  "description": "note-taking tool on Emacs",
+  "url": "https://github.com/kaorahi/howm",
+  "stars": 252,
+  "updated": "2026-07-29T10:08:09Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "note-taking", "notes", "wiki"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "howm",
+    "fetcher": "github",
+    "repo": "kaorahi/howm"
+  }
+}

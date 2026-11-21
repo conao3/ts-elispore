@@ -1,0 +1,18 @@
+{
+  "id": 3516305,
+  "name": "cmack/emacs-planet-theme",
+  "description": "Emacs 24+ theme inspired by the former color palette of Gmail's \"Planet\" theme.",
+  "url": "https://github.com/cmack/emacs-planet-theme",
+  "stars": 33,
+  "updated": "2021-02-14T20:47:54Z",
+  "archived": false,
+  "topics": ["dark", "emacs", "planet-theme", "theme"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "planet-theme",
+    "fetcher": "github",
+    "repo": "cmack/emacs-planet-theme"
+  }
+}

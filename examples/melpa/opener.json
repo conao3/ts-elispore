@@ -1,0 +1,19 @@
+{
+  "id": 70407888,
+  "name": "0robustus1/opener.el",
+  "description": "open files via http in emacs (evil-mode)",
+  "url": "https://github.com/0robustus1/opener.el",
+  "stars": 3,
+  "updated": "2016-12-07T18:10:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "opener",
+    "fetcher": "github",
+    "repo": "0robustus1/opener.el",
+    "files": "(\"opener.el\" \"opener.texi\")"
+  }
+}

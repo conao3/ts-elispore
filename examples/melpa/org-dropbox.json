@@ -1,0 +1,18 @@
+{
+  "id": 24368169,
+  "name": "heikkil/org-dropbox",
+  "description": "move Dropbox shared notes from Android into org-mode datetree",
+  "url": "https://github.com/heikkil/org-dropbox",
+  "stars": 17,
+  "updated": "2015-01-14T05:12:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-dropbox",
+    "fetcher": "github",
+    "repo": "heikkil/org-dropbox"
+  }
+}

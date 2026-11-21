@@ -1,0 +1,29 @@
+{
+  "id": 84357579,
+  "name": "ryukinix/lisp-chat",
+  "description": "An experimental minimal chat written in Common Lisp",
+  "url": "https://github.com/ryukinix/lisp-chat",
+  "stars": 206,
+  "updated": "2026-09-05T15:51:27Z",
+  "archived": false,
+  "topics": [
+    "chat",
+    "common-lisp",
+    "experimental",
+    "irc",
+    "lisp",
+    "minimalist",
+    "quicklisp",
+    "sbcl",
+    "sockets"
+  ],
+  "license": "MIT",
+  "language": "Common Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lisp-chat",
+    "fetcher": "github",
+    "repo": "ryukinix/lisp-chat",
+    "files": "(\"emacs/lisp-chat*.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 39817290,
+  "name": "lbolla/emacs-quasi-monochrome",
+  "description": "quasi-monochrome theme for Emacs",
+  "url": "https://github.com/lbolla/emacs-quasi-monochrome",
+  "stars": 22,
+  "updated": "2020-04-15T07:06:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "quasi-monochrome-theme",
+    "fetcher": "github",
+    "repo": "lbolla/emacs-quasi-monochrome"
+  }
+}

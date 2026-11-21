@@ -1,0 +1,18 @@
+{
+  "id": 169108609,
+  "name": "guidoschmidt/urscript-mode",
+  "description": "Major mode for editing URScript (www.universal-robots.com)",
+  "url": "https://github.com/guidoschmidt/urscript-mode",
+  "stars": 1,
+  "updated": "2019-02-19T16:05:53Z",
+  "archived": false,
+  "topics": ["emacs", "language", "major-mode", "robotics", "robots", "scripting"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "urscript-mode",
+    "fetcher": "github",
+    "repo": "guidoschmidt/urscript-mode"
+  }
+}

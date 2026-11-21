@@ -1,0 +1,18 @@
+{
+  "id": 43367181,
+  "name": "zweifisch/ob-elixir",
+  "description": "org-babel functions for elixir evaluation",
+  "url": "https://github.com/zweifisch/ob-elixir",
+  "stars": 29,
+  "updated": "2025-07-06T06:39:03Z",
+  "archived": false,
+  "topics": ["elixir", "literate-programming", "org-babel", "org-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-elixir",
+    "fetcher": "github",
+    "repo": "zweifisch/ob-elixir"
+  }
+}

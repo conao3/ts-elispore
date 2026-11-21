@@ -1,0 +1,19 @@
+{
+  "id": 934156676,
+  "name": "Umer-Arif/unique-emacs-theme-pack",
+  "description": "This repository contains a collection of Unique Custom-Made Emacs themes",
+  "url": "https://github.com/Umer-Arif/unique-emacs-theme-pack",
+  "stars": 5,
+  "updated": "2025-03-11T16:13:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "roseline-theme",
+    "fetcher": "github",
+    "repo": "Umer-Arif/unique-emacs-theme-pack",
+    "files": "(\"Themes/roseline-theme.el\")"
+  }
+}

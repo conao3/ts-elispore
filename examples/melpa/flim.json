@@ -1,0 +1,19 @@
+{
+  "id": 100736547,
+  "name": "emacsmirror/flim",
+  "description": "Basic message representation and encoding features",
+  "url": "https://github.com/emacsmirror/flim",
+  "stars": 0,
+  "updated": "2025-11-02T20:52:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flim",
+    "fetcher": "github",
+    "repo": "emacsmirror/flim",
+    "files": "(\"*.texi\"\n         \"*.el\"\n         (:exclude \"md5-dl.el\"\n                   \"md5-el.el\"\n                   \"mel-b-dl.el\"\n                   \"sha1-dl.el\"\n                   \"smtpmail.el\"))"
+  }
+}

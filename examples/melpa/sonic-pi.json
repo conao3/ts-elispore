@@ -1,0 +1,18 @@
+{
+  "id": 24453242,
+  "name": "repl-electric/sonic-pi.el",
+  "description": "Emacs running SonicPi",
+  "url": "https://github.com/repl-electric/sonic-pi.el",
+  "stars": 92,
+  "updated": "2024-06-19T16:07:15Z",
+  "archived": false,
+  "topics": ["emacs", "livecoding", "sonic-pi"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sonic-pi",
+    "fetcher": "github",
+    "repo": "repl-electric/sonic-pi.el"
+  }
+}

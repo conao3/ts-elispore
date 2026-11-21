@@ -1,0 +1,19 @@
+{
+  "id": 840843048,
+  "name": "tarsius/llama",
+  "description": "Compact syntax for short lambda",
+  "url": "https://github.com/tarsius/llama",
+  "stars": 60,
+  "updated": "2026-10-01T15:38:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "llama",
+    "fetcher": "github",
+    "repo": "tarsius/llama",
+    "files": "(\"llama.el\" \".dir-locals.el\")"
+  }
+}

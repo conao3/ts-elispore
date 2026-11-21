@@ -1,0 +1,18 @@
+{
+  "id": 49090053,
+  "name": "kuanyui/tldr.el",
+  "description": "tldr client for Emacs",
+  "url": "https://github.com/kuanyui/tldr.el",
+  "stars": 161,
+  "updated": "2023-03-01T01:36:38Z",
+  "archived": false,
+  "topics": ["emacs", "tldr"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tldr",
+    "fetcher": "github",
+    "repo": "kuanyui/tldr.el"
+  }
+}

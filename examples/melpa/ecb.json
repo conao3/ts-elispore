@@ -1,0 +1,19 @@
+{
+  "id": 15270303,
+  "name": "ecb-org/ecb",
+  "description": "ECB Main Repository",
+  "url": "https://github.com/ecb-org/ecb",
+  "stars": 57,
+  "updated": "2026-05-18T05:24:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ecb",
+    "fetcher": "github",
+    "repo": "ecb-org/ecb",
+    "files": "(\"*.el\" \"ecb-images\" \"ecb2\" \"ecb.texi\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 35038097,
+  "name": "kuanyui/ta.el",
+  "description": "Deal with homophonic Chinese characters. 受夠了「她他它祂牠」這種發音統統都是「tatatatata」的同音字？",
+  "url": "https://github.com/kuanyui/ta.el",
+  "stars": 21,
+  "updated": "2016-06-19T16:46:44Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ta",
+    "fetcher": "github",
+    "repo": "kuanyui/ta.el"
+  }
+}

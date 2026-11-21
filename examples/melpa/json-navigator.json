@@ -1,0 +1,18 @@
+{
+  "id": 93199534,
+  "name": "DamienCassou/json-navigator",
+  "description": "View and navigate JSON structures",
+  "url": "https://github.com/DamienCassou/json-navigator",
+  "stars": 162,
+  "updated": "2024-10-31T06:31:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "json-navigator",
+    "fetcher": "github",
+    "repo": "DamienCassou/json-navigator"
+  }
+}

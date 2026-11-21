@@ -1,0 +1,18 @@
+{
+  "id": 75745562,
+  "name": "GyazSquare/flycheck-swift3",
+  "description": "Swift support for Flycheck",
+  "url": "https://github.com/GyazSquare/flycheck-swift3",
+  "stars": 5,
+  "updated": "2025-03-15T15:20:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-swift3",
+    "fetcher": "github",
+    "repo": "GyazSquare/flycheck-swift3"
+  }
+}

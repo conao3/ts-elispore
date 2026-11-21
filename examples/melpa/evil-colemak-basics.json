@@ -1,0 +1,18 @@
+{
+  "id": 61897618,
+  "name": "wbolster/emacs-evil-colemak-basics",
+  "description": "Emacs package with basic key rebindings for evil-mode with the Colemak keyboard layout",
+  "url": "https://github.com/wbolster/emacs-evil-colemak-basics",
+  "stars": 92,
+  "updated": "2026-06-19T16:49:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-colemak-basics",
+    "fetcher": "github",
+    "repo": "wbolster/emacs-evil-colemak-basics"
+  }
+}

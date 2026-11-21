@@ -1,0 +1,18 @@
+{
+  "id": 2408462,
+  "name": "twada/coverlay.el",
+  "description": "Test coverage overlay for Emacs",
+  "url": "https://github.com/twada/coverlay.el",
+  "stars": 85,
+  "updated": "2022-06-24T18:42:56Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "coverlay",
+    "fetcher": "github",
+    "repo": "twada/coverlay.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 14690626,
+  "name": "lokedhs/gnu-apl-mode",
+  "description": "GNU APL mode for Emacs",
+  "url": "https://github.com/lokedhs/gnu-apl-mode",
+  "stars": 95,
+  "updated": "2022-04-04T03:41:02Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gnu-apl-mode",
+    "fetcher": "github",
+    "repo": "lokedhs/gnu-apl-mode"
+  }
+}

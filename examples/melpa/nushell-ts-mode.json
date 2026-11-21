@@ -1,0 +1,18 @@
+{
+  "id": 675022228,
+  "name": "herbertjones/nushell-ts-mode",
+  "description": "Emacs tree-sitter support for Nushell",
+  "url": "https://github.com/herbertjones/nushell-ts-mode",
+  "stars": 29,
+  "updated": "2026-07-05T01:41:43Z",
+  "archived": false,
+  "topics": ["emacs", "nushell", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nushell-ts-mode",
+    "fetcher": "github",
+    "repo": "herbertjones/nushell-ts-mode"
+  }
+}

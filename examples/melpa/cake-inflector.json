@@ -1,0 +1,18 @@
+{
+  "id": 17513152,
+  "name": "k1LoW/emacs-cake-inflector",
+  "description": "cake-inflector.el",
+  "url": "https://github.com/k1LoW/emacs-cake-inflector",
+  "stars": 1,
+  "updated": "2017-04-19T13:23:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cake-inflector",
+    "fetcher": "github",
+    "repo": "k1LoW/emacs-cake-inflector"
+  }
+}

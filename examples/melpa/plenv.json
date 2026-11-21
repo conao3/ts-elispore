@@ -1,0 +1,18 @@
+{
+  "id": 8370752,
+  "name": "karupanerura/plenv.el",
+  "description": "A plenv wrapper for Emacs",
+  "url": "https://github.com/karupanerura/plenv.el",
+  "stars": 6,
+  "updated": "2013-07-13T05:36:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "plenv",
+    "fetcher": "github",
+    "repo": "karupanerura/plenv.el"
+  }
+}

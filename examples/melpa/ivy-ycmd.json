@@ -1,0 +1,18 @@
+{
+  "id": 142351285,
+  "name": "abingham/emacs-ivy-ycmd",
+  "description": "Ivy integration with ycmd",
+  "url": "https://github.com/abingham/emacs-ivy-ycmd",
+  "stars": 1,
+  "updated": "2018-09-09T12:26:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-ycmd",
+    "fetcher": "github",
+    "repo": "abingham/emacs-ivy-ycmd"
+  }
+}

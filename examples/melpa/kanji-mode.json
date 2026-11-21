@@ -1,0 +1,19 @@
+{
+  "id": 27598257,
+  "name": "wsgac/kanji-mode",
+  "description": "GNU Emacs minor mode for displaying stroke order of Japanese kanji characters",
+  "url": "https://github.com/wsgac/kanji-mode",
+  "stars": 13,
+  "updated": "2025-05-09T13:37:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kanji-mode",
+    "fetcher": "github",
+    "repo": "wsgac/kanji-mode",
+    "files": "(:defaults \"kanji\")"
+  }
+}

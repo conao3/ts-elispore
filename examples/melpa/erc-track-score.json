@@ -1,0 +1,18 @@
+{
+  "id": 23077339,
+  "name": "jd/erc-track-score.el",
+  "description": "Erc tracking with score module",
+  "url": "https://github.com/jd/erc-track-score.el",
+  "stars": 3,
+  "updated": "2014-08-18T15:57:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erc-track-score",
+    "fetcher": "github",
+    "repo": "jd/erc-track-score.el"
+  }
+}

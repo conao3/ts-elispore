@@ -1,0 +1,18 @@
+{
+  "id": 65930338,
+  "name": "GuiltyDolphin/monitor",
+  "description": "Utilities for monitoring expressions in Emacs.",
+  "url": "https://github.com/GuiltyDolphin/monitor",
+  "stars": 7,
+  "updated": "2021-04-21T12:32:16Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "monitor",
+    "fetcher": "github",
+    "repo": "GuiltyDolphin/monitor"
+  }
+}

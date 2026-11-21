@@ -1,0 +1,18 @@
+{
+  "id": 116883256,
+  "name": "pythonic-emacs/djangonaut",
+  "description": "Emacs minor mode for Django.",
+  "url": "https://github.com/pythonic-emacs/djangonaut",
+  "stars": 46,
+  "updated": "2026-06-19T08:33:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "djangonaut",
+    "fetcher": "github",
+    "repo": "pythonic-emacs/djangonaut"
+  }
+}

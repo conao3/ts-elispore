@@ -1,0 +1,18 @@
+{
+  "id": 339826524,
+  "name": "sergiruiztrepat/molar-mass",
+  "description": "Elisp package to calculate molar mass of a given molecule",
+  "url": "https://github.com/sergiruiztrepat/molar-mass",
+  "stars": 0,
+  "updated": "2022-09-22T18:01:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "molar-mass",
+    "fetcher": "github",
+    "repo": "sergiruiztrepat/molar-mass"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 9704804,
+  "name": "aki2o/emacs-pophint",
+  "description": "Provide navigation like the Vimperator/KeySnail Hint Mode of Firfox",
+  "url": "https://github.com/aki2o/emacs-pophint",
+  "stars": 32,
+  "updated": "2025-02-02T07:16:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pophint",
+    "fetcher": "github",
+    "repo": "aki2o/emacs-pophint"
+  }
+}

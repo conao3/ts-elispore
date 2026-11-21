@@ -1,0 +1,18 @@
+{
+  "id": 34923256,
+  "name": "bitspook/css-comb.el",
+  "description": "Css-comb package for emacs",
+  "url": "https://github.com/bitspook/css-comb.el",
+  "stars": 7,
+  "updated": "2016-04-16T06:02:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "css-comb",
+    "fetcher": "github",
+    "repo": "bitspook/css-comb.el"
+  }
+}

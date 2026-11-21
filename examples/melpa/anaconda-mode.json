@@ -1,0 +1,19 @@
+{
+  "id": 14521412,
+  "name": "pythonic-emacs/anaconda-mode",
+  "description": "Code navigation, documentation lookup and completion for Python.",
+  "url": "https://github.com/pythonic-emacs/anaconda-mode",
+  "stars": 709,
+  "updated": "2026-06-19T14:07:51Z",
+  "archived": false,
+  "topics": ["devtools", "emacs", "python"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "anaconda-mode",
+    "fetcher": "github",
+    "repo": "pythonic-emacs/anaconda-mode",
+    "files": "(:defaults \"anaconda-mode.py\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 192163882,
+  "name": "kenhuang-io/ppcompile",
+  "description": "🏓ping-pong compile, an Emacs package for coding locally but compiling remotely",
+  "url": "https://github.com/kenhuang-io/ppcompile",
+  "stars": 24,
+  "updated": "2022-07-02T00:13:34Z",
+  "archived": false,
+  "topics": ["compile", "development-workflow", "remote-compile"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ppcompile",
+    "fetcher": "github",
+    "repo": "kenhuang-io/ppcompile"
+  }
+}

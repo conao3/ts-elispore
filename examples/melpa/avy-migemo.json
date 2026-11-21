@@ -1,0 +1,18 @@
+{
+  "id": 40363458,
+  "name": "momomo5717/avy-migemo",
+  "description": "avy with migemo",
+  "url": "https://github.com/momomo5717/avy-migemo",
+  "stars": 20,
+  "updated": "2019-07-17T02:43:23Z",
+  "archived": false,
+  "topics": ["avy", "counsel", "ivy", "migemo", "swiper", "zzz-to-char"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "avy-migemo",
+    "fetcher": "github",
+    "repo": "momomo5717/avy-migemo"
+  }
+}

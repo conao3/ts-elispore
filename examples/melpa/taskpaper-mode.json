@@ -1,0 +1,26 @@
+{
+  "id": 105531853,
+  "name": "saf-dmitry/taskpaper-mode",
+  "description": "Emacs TaskPaper Mode",
+  "url": "https://github.com/saf-dmitry/taskpaper-mode",
+  "stars": 109,
+  "updated": "2026-07-15T13:41:21Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "note-taking",
+    "outline-editor",
+    "plain-text",
+    "productivity",
+    "task-management",
+    "taskpaper"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "taskpaper-mode",
+    "fetcher": "github",
+    "repo": "saf-dmitry/taskpaper-mode"
+  }
+}

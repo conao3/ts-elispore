@@ -1,0 +1,27 @@
+{
+  "id": 328780136,
+  "name": "johannes-mueller/test-cockpit.el",
+  "description": "Run tests for multiple languages from Emacs.",
+  "url": "https://github.com/johannes-mueller/test-cockpit.el",
+  "stars": 17,
+  "updated": "2026-11-08T14:57:12Z",
+  "archived": false,
+  "topics": [
+    "cargo",
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "python",
+    "rust",
+    "testing",
+    "unit-testing"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "test-cockpit",
+    "fetcher": "github",
+    "repo": "johannes-mueller/test-cockpit.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 256395861,
+  "name": "tecosaur/LaTeX-auto-activating-snippets",
+  "description": "Mirror of https://git.tecosaur.net/tec/LaTeX-auto-activating-snippets",
+  "url": "https://github.com/tecosaur/LaTeX-auto-activating-snippets",
+  "stars": 121,
+  "updated": "2024-12-12T13:15:05Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "mirror"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "laas",
+    "fetcher": "github",
+    "repo": "tecosaur/LaTeX-auto-activating-snippets"
+  }
+}

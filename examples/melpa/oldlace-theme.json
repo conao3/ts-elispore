@@ -1,0 +1,18 @@
+{
+  "id": 22782684,
+  "name": "mswift42/oldlace-theme",
+  "description": "emacs24 theme with a light-background (background-color oldlace)",
+  "url": "https://github.com/mswift42/oldlace-theme",
+  "stars": 10,
+  "updated": "2015-11-18T16:58:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "oldlace-theme",
+    "fetcher": "github",
+    "repo": "mswift42/oldlace-theme"
+  }
+}

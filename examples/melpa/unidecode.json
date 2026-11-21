@@ -1,0 +1,19 @@
+{
+  "id": 7473009,
+  "name": "sindikat/unidecode",
+  "description": "sanitize - convert Unicode text into safe ASCII strings - Emacs Lisp package",
+  "url": "https://github.com/sindikat/unidecode",
+  "stars": 11,
+  "updated": "2020-12-13T14:49:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unidecode",
+    "fetcher": "github",
+    "repo": "sindikat/unidecode",
+    "files": "(:defaults \"data\")"
+  }
+}

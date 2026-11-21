@@ -1,0 +1,18 @@
+{
+  "id": 400796495,
+  "name": "alezost/org-ref-prettify.el",
+  "description": "Minor mode for prettifying org-ref citation links",
+  "url": "https://github.com/alezost/org-ref-prettify.el",
+  "stars": 18,
+  "updated": "2022-09-06T23:18:26Z",
+  "archived": false,
+  "topics": ["emacs", "org-ref"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-ref-prettify",
+    "fetcher": "github",
+    "repo": "alezost/org-ref-prettify.el"
+  }
+}

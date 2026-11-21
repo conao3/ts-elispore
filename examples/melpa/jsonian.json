@@ -1,0 +1,18 @@
+{
+  "id": 489249212,
+  "name": "iwahbe/jsonian",
+  "description": "",
+  "url": "https://github.com/iwahbe/jsonian",
+  "stars": 96,
+  "updated": "2026-06-12T22:14:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jsonian",
+    "fetcher": "github",
+    "repo": "iwahbe/jsonian"
+  }
+}

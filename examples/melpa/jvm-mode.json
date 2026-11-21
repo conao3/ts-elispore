@@ -1,0 +1,18 @@
+{
+  "id": 17396271,
+  "name": "martintrojer/jvm-mode.el",
+  "description": "Monitor and manage your JVMs",
+  "url": "https://github.com/martintrojer/jvm-mode.el",
+  "stars": 1,
+  "updated": "2015-04-22T07:08:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jvm-mode",
+    "fetcher": "github",
+    "repo": "martintrojer/jvm-mode.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1178014318,
+  "name": "unhammer/flymake-zizmor",
+  "description": "simple Emacs flymake backend for zizmor github actions static analyzer",
+  "url": "https://github.com/unhammer/flymake-zizmor",
+  "stars": 1,
+  "updated": "2026-03-16T09:27:10Z",
+  "archived": false,
+  "topics": ["actions", "emacs", "flymake", "github-actions", "linter", "zizmor"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-zizmor",
+    "fetcher": "github",
+    "repo": "unhammer/flymake-zizmor"
+  }
+}

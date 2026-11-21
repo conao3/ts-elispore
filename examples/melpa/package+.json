@@ -1,0 +1,18 @@
+{
+  "id": 11670706,
+  "name": "zenspider/package",
+  "description": "package+ for emacs—declare a manifest of all your packages and have them resolved/installed/deleted on startup.",
+  "url": "https://github.com/zenspider/package",
+  "stars": 12,
+  "updated": "2025-06-10T21:44:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "package+",
+    "fetcher": "github",
+    "repo": "zenspider/package"
+  }
+}

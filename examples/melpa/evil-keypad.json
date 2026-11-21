@@ -1,0 +1,18 @@
+{
+  "id": 977758639,
+  "name": "achyudh/evil-keypad",
+  "description": "Modal command dispatch that speaks native Emacs keybindings",
+  "url": "https://github.com/achyudh/evil-keypad",
+  "stars": 40,
+  "updated": "2026-08-02T00:21:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-keypad",
+    "fetcher": "github",
+    "repo": "achyudh/evil-keypad"
+  }
+}

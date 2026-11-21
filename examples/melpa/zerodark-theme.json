@@ -1,0 +1,18 @@
+{
+  "id": 38446393,
+  "name": "NicolasPetton/zerodark-theme",
+  "description": "A dark, medium-contrast theme for Emacs",
+  "url": "https://github.com/NicolasPetton/zerodark-theme",
+  "stars": 278,
+  "updated": "2021-11-15T08:41:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zerodark-theme",
+    "fetcher": "github",
+    "repo": "NicolasPetton/zerodark-theme"
+  }
+}

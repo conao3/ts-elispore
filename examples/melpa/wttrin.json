@@ -1,0 +1,18 @@
+{
+  "id": 399092760,
+  "name": "cjennings/emacs-wttrin",
+  "description": "Emacs frontend for Igor Chubin's wttr.in weather service",
+  "url": "https://github.com/cjennings/emacs-wttrin",
+  "stars": 10,
+  "updated": "2026-09-13T14:46:39Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "weather", "wttrin"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wttrin",
+    "fetcher": "github",
+    "repo": "cjennings/emacs-wttrin"
+  }
+}

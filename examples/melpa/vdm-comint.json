@@ -1,0 +1,19 @@
+{
+  "id": 146631280,
+  "name": "peterwvj/vdm-mode",
+  "description": "Major mode for the Vienna Development Method",
+  "url": "https://github.com/peterwvj/vdm-mode",
+  "stars": 6,
+  "updated": "2022-02-21T16:59:45Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "vdm", "vdm-rt", "vdm-sl", "vdmpp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vdm-comint",
+    "fetcher": "github",
+    "repo": "peterwvj/vdm-mode",
+    "files": "(\"vdm-comint.el\")"
+  }
+}

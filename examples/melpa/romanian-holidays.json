@@ -1,0 +1,18 @@
+{
+  "id": 850359225,
+  "name": "petrem/romanian-holidays",
+  "description": "Romanian holidays for GNU Emacs' Calendar",
+  "url": "https://github.com/petrem/romanian-holidays",
+  "stars": 1,
+  "updated": "2026-10-25T19:51:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "romanian-holidays",
+    "fetcher": "github",
+    "repo": "petrem/romanian-holidays"
+  }
+}

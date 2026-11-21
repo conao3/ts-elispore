@@ -1,0 +1,18 @@
+{
+  "id": 78306171,
+  "name": "mallt/eshell-fixed-prompt-mode",
+  "description": "Emacs minor mode to restrict eshell to a single fixed prompt",
+  "url": "https://github.com/mallt/eshell-fixed-prompt-mode",
+  "stars": 7,
+  "updated": "2025-04-14T09:19:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-fixed-prompt",
+    "fetcher": "github",
+    "repo": "mallt/eshell-fixed-prompt-mode"
+  }
+}

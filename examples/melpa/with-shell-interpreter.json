@@ -1,0 +1,18 @@
+{
+  "id": 235450967,
+  "name": "p3r7/with-shell-interpreter",
+  "description": ":shell: Helper for Emacs shell command APIs",
+  "url": "https://github.com/p3r7/with-shell-interpreter",
+  "stars": 9,
+  "updated": "2026-07-27T15:23:27Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "shell", "terminal-emulator", "tramp"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "with-shell-interpreter",
+    "fetcher": "github",
+    "repo": "p3r7/with-shell-interpreter"
+  }
+}

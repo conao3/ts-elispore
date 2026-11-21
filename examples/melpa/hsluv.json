@@ -1,0 +1,18 @@
+{
+  "id": 157829572,
+  "name": "hsluv/hsluv-emacs",
+  "description": "HSLuv implementation for Emacs ELisp (revision 4)",
+  "url": "https://github.com/hsluv/hsluv-emacs",
+  "stars": 14,
+  "updated": "2018-11-30T16:08:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "hsluv",
+    "fetcher": "github",
+    "repo": "hsluv/hsluv-emacs"
+  }
+}

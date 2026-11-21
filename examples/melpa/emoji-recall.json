@@ -1,0 +1,19 @@
+{
+  "id": 62642762,
+  "name": "lujun9972/emoji-recall.el",
+  "description": "",
+  "url": "https://github.com/lujun9972/emoji-recall.el",
+  "stars": 6,
+  "updated": "2016-07-23T22:13:56Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emoji-recall",
+    "fetcher": "github",
+    "repo": "lujun9972/emoji-recall.el",
+    "files": "(:defaults \"emoji-cheat-sheet/*.png\")"
+  }
+}

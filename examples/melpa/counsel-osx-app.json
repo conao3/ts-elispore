@@ -1,0 +1,18 @@
+{
+  "id": 58283347,
+  "name": "d12frosted/counsel-osx-app",
+  "description": "Launch OSX applications via ivy interface",
+  "url": "https://github.com/d12frosted/counsel-osx-app",
+  "stars": 25,
+  "updated": "2026-02-02T16:39:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-osx-app",
+    "fetcher": "github",
+    "repo": "d12frosted/counsel-osx-app"
+  }
+}

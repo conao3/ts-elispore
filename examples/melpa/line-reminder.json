@@ -1,0 +1,18 @@
+{
+  "id": 134923542,
+  "name": "emacs-vs/line-reminder",
+  "description": "Line annotation for changed and saved lines",
+  "url": "https://github.com/emacs-vs/line-reminder",
+  "stars": 86,
+  "updated": "2026-06-19T08:46:46Z",
+  "archived": false,
+  "topics": ["visual-studio", "vs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "line-reminder",
+    "fetcher": "github",
+    "repo": "emacs-vs/line-reminder"
+  }
+}

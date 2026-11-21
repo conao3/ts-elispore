@@ -1,0 +1,18 @@
+{
+  "id": 354080731,
+  "name": "emacs-languagetool/lsp-ltex",
+  "description": "lsp-mode ❤️ LTEX",
+  "url": "https://github.com/emacs-languagetool/lsp-ltex",
+  "stars": 60,
+  "updated": "2026-06-19T08:32:52Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lsp", "languagetool", "lsp", "ltex"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-ltex",
+    "fetcher": "github",
+    "repo": "emacs-languagetool/lsp-ltex"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 593244821,
+  "name": "ericdallo/jet.el",
+  "description": "Emacs integration for the jet Clojure tool",
+  "url": "https://github.com/ericdallo/jet.el",
+  "stars": 58,
+  "updated": "2024-07-30T12:28:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jet",
+    "fetcher": "github",
+    "repo": "ericdallo/jet.el"
+  }
+}

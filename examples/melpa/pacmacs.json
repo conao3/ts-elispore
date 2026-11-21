@@ -1,0 +1,19 @@
+{
+  "id": 40767271,
+  "name": "codingteam/pacmacs.el",
+  "description": "Pacman for Emacs",
+  "url": "https://github.com/codingteam/pacmacs.el",
+  "stars": 121,
+  "updated": "2022-01-06T22:48:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "pacmacs",
+    "fetcher": "github",
+    "repo": "codingteam/pacmacs.el",
+    "files": "(:defaults\n                 \"maps\"\n                 \"signs\"\n                 (\"sprites\" \"sprites/*.json\")\n                 (\"sprites\" \"sprites/*.xpm\"))"
+  }
+}

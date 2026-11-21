@@ -1,0 +1,18 @@
+{
+  "id": 567093920,
+  "name": "bpanthi977/org-calibre-notes",
+  "description": "Extract highlights and notes from Calibre EPUB reader",
+  "url": "https://github.com/bpanthi977/org-calibre-notes",
+  "stars": 9,
+  "updated": "2022-12-02T16:57:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-calibre-notes",
+    "fetcher": "github",
+    "repo": "bpanthi977/org-calibre-notes"
+  }
+}

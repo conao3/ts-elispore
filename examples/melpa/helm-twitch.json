@@ -1,0 +1,18 @@
+{
+  "id": 393006683,
+  "name": "BenediktBroich/helm-twitch",
+  "description": "helm-twitch.el",
+  "url": "https://github.com/BenediktBroich/helm-twitch",
+  "stars": 2,
+  "updated": "2022-04-20T16:25:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-twitch",
+    "fetcher": "github",
+    "repo": "BenediktBroich/helm-twitch"
+  }
+}

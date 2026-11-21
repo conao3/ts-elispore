@@ -1,0 +1,18 @@
+{
+  "id": 28587780,
+  "name": "tonini/overseer.el",
+  "description": "Ert-runner Integration Into Emacs",
+  "url": "https://github.com/tonini/overseer.el",
+  "stars": 47,
+  "updated": "2024-01-09T08:00:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "overseer",
+    "fetcher": "github",
+    "repo": "tonini/overseer.el"
+  }
+}

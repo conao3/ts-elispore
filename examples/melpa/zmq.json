@@ -1,0 +1,19 @@
+{
+  "id": 133400325,
+  "name": "nnicandro/emacs-zmq",
+  "description": "Emacs bindings to ØMQ",
+  "url": "https://github.com/nnicandro/emacs-zmq",
+  "stars": 56,
+  "updated": "2024-10-06T18:58:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "C",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zmq",
+    "fetcher": "github",
+    "repo": "nnicandro/emacs-zmq",
+    "files": "(:defaults \"Makefile\" \"src\")"
+  }
+}

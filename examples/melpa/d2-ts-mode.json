@@ -1,0 +1,18 @@
+{
+  "id": 1369165666,
+  "name": "chaploud/d2-ts-mode",
+  "description": "Tree-sitter support for D2",
+  "url": "https://github.com/chaploud/d2-ts-mode",
+  "stars": 1,
+  "updated": "2026-09-14T02:33:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "d2-ts-mode",
+    "fetcher": "github",
+    "repo": "chaploud/d2-ts-mode"
+  }
+}

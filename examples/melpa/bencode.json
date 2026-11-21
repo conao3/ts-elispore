@@ -1,0 +1,18 @@
+{
+  "id": 635432233,
+  "name": "rorokimdim/emacs-bencode",
+  "description": "Bencode package for Emacs Lisp",
+  "url": "https://github.com/rorokimdim/emacs-bencode",
+  "stars": 1,
+  "updated": "2019-03-17T20:10:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": null,
+  "ownerType": "User",
+  "melpa": {
+    "name": "bencode",
+    "fetcher": "github",
+    "repo": "rorokimdim/emacs-bencode"
+  }
+}

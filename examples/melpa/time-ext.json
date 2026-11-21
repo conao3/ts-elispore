@@ -1,0 +1,18 @@
+{
+  "id": 58030233,
+  "name": "rubikitch/time-ext",
+  "description": "",
+  "url": "https://github.com/rubikitch/time-ext",
+  "stars": 0,
+  "updated": "2017-01-26T12:15:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "time-ext",
+    "fetcher": "github",
+    "repo": "rubikitch/time-ext"
+  }
+}

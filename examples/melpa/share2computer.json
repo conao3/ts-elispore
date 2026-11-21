@@ -1,0 +1,18 @@
+{
+  "id": 241006925,
+  "name": "tumashu/share2computer",
+  "description": "",
+  "url": "https://github.com/tumashu/share2computer",
+  "stars": 3,
+  "updated": "2020-03-16T00:31:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "share2computer",
+    "fetcher": "github",
+    "repo": "tumashu/share2computer"
+  }
+}

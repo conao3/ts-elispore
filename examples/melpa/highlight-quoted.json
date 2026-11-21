@@ -1,0 +1,18 @@
+{
+  "id": 23167918,
+  "name": "Fanael/highlight-quoted",
+  "description": "Highlight Lisp quotes and quoted symbols",
+  "url": "https://github.com/Fanael/highlight-quoted",
+  "stars": 41,
+  "updated": "2016-01-23T11:40:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "highlight-quoted",
+    "fetcher": "github",
+    "repo": "Fanael/highlight-quoted"
+  }
+}

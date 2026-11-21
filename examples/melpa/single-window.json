@@ -1,0 +1,18 @@
+{
+  "id": 1315431597,
+  "name": "jamescherti/single-window.el",
+  "description": "single-window.el - Open Emacs Buffers in the Current Active Window",
+  "url": "https://github.com/jamescherti/single-window.el",
+  "stars": 10,
+  "updated": "2026-11-10T15:12:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "single-window",
+    "fetcher": "github",
+    "repo": "jamescherti/single-window.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 859978346,
+  "name": "tbanel/uniline",
+  "description": "Draw ─◀UNICODE diagrams▶─ within ─◀your texts▶─ in Emacs",
+  "url": "https://github.com/tbanel/uniline",
+  "stars": 402,
+  "updated": "2026-11-13T14:26:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "uniline",
+    "fetcher": "github",
+    "repo": "tbanel/uniline"
+  }
+}

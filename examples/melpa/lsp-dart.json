@@ -1,0 +1,35 @@
+{
+  "id": 254106050,
+  "name": "emacs-lsp/lsp-dart",
+  "description": "lsp-mode :heart: dart",
+  "url": "https://github.com/emacs-lsp/lsp-dart",
+  "stars": 218,
+  "updated": "2026-06-19T08:36:02Z",
+  "archived": false,
+  "topics": [
+    "analysis",
+    "closing-labels",
+    "dart",
+    "emacs",
+    "emacs-lsp",
+    "emacs-package",
+    "flutter",
+    "lsp",
+    "lsp-client",
+    "lsp-dart",
+    "lsp-mode",
+    "melpa",
+    "outline-tree",
+    "server-lsp",
+    "tree-views",
+    "treemacs"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-dart",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-dart"
+  }
+}

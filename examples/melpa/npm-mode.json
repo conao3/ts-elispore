@@ -1,0 +1,18 @@
+{
+  "id": 62462574,
+  "name": "mojochao/npm-mode",
+  "description": "An Emacs minor mode for working with NPM projects.",
+  "url": "https://github.com/mojochao/npm-mode",
+  "stars": 49,
+  "updated": "2019-06-16T20:25:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "npm-mode",
+    "fetcher": "github",
+    "repo": "mojochao/npm-mode"
+  }
+}

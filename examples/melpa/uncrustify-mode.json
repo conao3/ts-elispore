@@ -1,0 +1,18 @@
+{
+  "id": 3557428,
+  "name": "koko1000ban/emacs-uncrustify-mode",
+  "description": "Minor mode to automatically uncrustify.",
+  "url": "https://github.com/koko1000ban/emacs-uncrustify-mode",
+  "stars": 7,
+  "updated": "2014-09-12T09:00:17Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "lisp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "uncrustify-mode",
+    "fetcher": "github",
+    "repo": "koko1000ban/emacs-uncrustify-mode"
+  }
+}

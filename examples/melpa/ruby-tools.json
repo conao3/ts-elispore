@@ -1,0 +1,18 @@
+{
+  "id": 3847441,
+  "name": "rejeep/ruby-tools.el",
+  "description": "Collection of handy functions for Emacs ruby-mode",
+  "url": "https://github.com/rejeep/ruby-tools.el",
+  "stars": 90,
+  "updated": "2021-07-31T16:04:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Cucumber",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ruby-tools",
+    "fetcher": "github",
+    "repo": "rejeep/ruby-tools.el"
+  }
+}

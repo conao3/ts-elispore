@@ -1,0 +1,18 @@
+{
+  "id": 152358905,
+  "name": "brantou/go-imenu.el",
+  "description": "Enhanced imenu support, better than go-mode.el.",
+  "url": "https://github.com/brantou/go-imenu.el",
+  "stars": 4,
+  "updated": "2018-10-29T10:30:54Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "emacs-plugin", "go-tools", "golang"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go-imenu",
+    "fetcher": "github",
+    "repo": "brantou/go-imenu.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1145657347,
+  "name": "jonathanchu/magit-gh",
+  "description": "A lightweight GitHub CLI (gh) integration for Magit",
+  "url": "https://github.com/jonathanchu/magit-gh",
+  "stars": 27,
+  "updated": "2026-08-19T03:25:13Z",
+  "archived": false,
+  "topics": ["emacs", "git", "github", "github-cli", "magit"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-gh",
+    "fetcher": "github",
+    "repo": "jonathanchu/magit-gh"
+  }
+}

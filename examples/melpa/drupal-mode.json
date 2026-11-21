@@ -1,0 +1,19 @@
+{
+  "id": 3434851,
+  "name": "arnested/drupal-mode",
+  "description": "Advanced Emacs minor mode for Drupal development",
+  "url": "https://github.com/arnested/drupal-mode",
+  "stars": 32,
+  "updated": "2024-08-16T12:37:01Z",
+  "archived": false,
+  "topics": ["drupal", "emacs", "hacktoberfest"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "drupal-mode",
+    "fetcher": "github",
+    "repo": "arnested/drupal-mode",
+    "files": "(\"drupal-mode.el\" \"drush-make-mode.el\" \"drupal\")"
+  }
+}

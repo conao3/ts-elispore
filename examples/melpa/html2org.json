@@ -1,0 +1,18 @@
+{
+  "id": 87757501,
+  "name": "lujun9972/html2org.el",
+  "description": "Convert html to org format text",
+  "url": "https://github.com/lujun9972/html2org.el",
+  "stars": 7,
+  "updated": "2017-04-18T05:00:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "html2org",
+    "fetcher": "github",
+    "repo": "lujun9972/html2org.el"
+  }
+}

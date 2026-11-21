@@ -1,0 +1,18 @@
+{
+  "id": 234797777,
+  "name": "aodhneine/horizon-theme.el",
+  "description": "Port of Visual Studio Code theme Horizon to Emacs.",
+  "url": "https://github.com/aodhneine/horizon-theme.el",
+  "stars": 23,
+  "updated": "2020-07-20T18:32:10Z",
+  "archived": false,
+  "topics": ["dark-theme", "emacs", "emacs-theme"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "horizon-theme",
+    "fetcher": "github",
+    "repo": "aodhneine/horizon-theme.el"
+  }
+}

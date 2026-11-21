@@ -1,0 +1,18 @@
+{
+  "id": 99517624,
+  "name": "plandes/cframe",
+  "description": "Allows for customization of frame types, which includes height and width of new Emacs frames",
+  "url": "https://github.com/plandes/cframe",
+  "stars": 7,
+  "updated": "2025-01-26T18:01:35Z",
+  "archived": false,
+  "topics": ["configuration", "emacs", "frame", "melpa-badge"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cframe",
+    "fetcher": "github",
+    "repo": "plandes/cframe"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 146031462,
+  "name": "kat-co/sql-prestodb",
+  "description": "Adds Presto support to Emacs's SQLi mode.",
+  "url": "https://github.com/kat-co/sql-prestodb",
+  "stars": 4,
+  "updated": "2021-01-19T23:45:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sql-presto",
+    "fetcher": "github",
+    "repo": "kat-co/sql-prestodb",
+    "files": "(\"artifacts/*.el\")"
+  }
+}

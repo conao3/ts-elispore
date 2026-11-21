@@ -1,0 +1,18 @@
+{
+  "id": 15384277,
+  "name": "vapniks/gnus-summary-ext",
+  "description": "Extra limit and process mark commands for the gnus summary buffer",
+  "url": "https://github.com/vapniks/gnus-summary-ext",
+  "stars": 1,
+  "updated": "2018-01-13T13:17:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gnus-summary-ext",
+    "fetcher": "github",
+    "repo": "vapniks/gnus-summary-ext"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 113423043,
+  "name": "vkazanov/elpygen",
+  "description": "Generate Python function/method stub for a call-like symbol under point",
+  "url": "https://github.com/vkazanov/elpygen",
+  "stars": 15,
+  "updated": "2017-12-25T17:36:33Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "python"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elpygen",
+    "fetcher": "github",
+    "repo": "vkazanov/elpygen"
+  }
+}

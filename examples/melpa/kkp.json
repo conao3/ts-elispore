@@ -1,0 +1,18 @@
+{
+  "id": 583159635,
+  "name": "benotn/kkp",
+  "description": "Emacs support for the Kitty Keyboard Protocol",
+  "url": "https://github.com/benotn/kkp",
+  "stars": 132,
+  "updated": "2026-11-05T12:41:59Z",
+  "archived": false,
+  "topics": ["emacs", "kitty", "terminal"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kkp",
+    "fetcher": "github",
+    "repo": "benotn/kkp"
+  }
+}

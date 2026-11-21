@@ -1,0 +1,18 @@
+{
+  "id": 1231961306,
+  "name": "jojojames/fzfa",
+  "description": "Async completing-read using fzf",
+  "url": "https://github.com/jojojames/fzfa",
+  "stars": 20,
+  "updated": "2026-11-12T01:38:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fzfa",
+    "fetcher": "github",
+    "repo": "jojojames/fzfa"
+  }
+}

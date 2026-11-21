@@ -1,0 +1,18 @@
+{
+  "id": 457421531,
+  "name": "quarto-dev/quarto-emacs",
+  "description": "An emacs mode for quarto: https://quarto.org",
+  "url": "https://github.com/quarto-dev/quarto-emacs",
+  "stars": 156,
+  "updated": "2024-01-05T11:11:43Z",
+  "archived": false,
+  "topics": ["emacs", "markdown", "quarto"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "quarto-mode",
+    "fetcher": "github",
+    "repo": "quarto-dev/quarto-emacs"
+  }
+}

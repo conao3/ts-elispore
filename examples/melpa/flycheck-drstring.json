@@ -1,0 +1,18 @@
+{
+  "id": 237640454,
+  "name": "danielmartin/flycheck-drstring",
+  "description": "Flycheck integration for DrString, a Swift documentation linter",
+  "url": "https://github.com/danielmartin/flycheck-drstring",
+  "stars": 2,
+  "updated": "2020-02-10T19:03:20Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-lisp", "flycheck", "swift"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-drstring",
+    "fetcher": "github",
+    "repo": "danielmartin/flycheck-drstring"
+  }
+}

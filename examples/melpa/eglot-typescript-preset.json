@@ -1,0 +1,19 @@
+{
+  "id": 1181013318,
+  "name": "mwolson/eglot-typescript-preset",
+  "description": "Configure TypeScript LSP support for Emacs using Eglot",
+  "url": "https://github.com/mwolson/eglot-typescript-preset",
+  "stars": 18,
+  "updated": "2026-10-17T22:02:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eglot-typescript-preset",
+    "fetcher": "github",
+    "repo": "mwolson/eglot-typescript-preset",
+    "files": "(:defaults (\"templates\" \"templates/*.tpl.py\"))"
+  }
+}

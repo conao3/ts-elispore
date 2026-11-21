@@ -1,0 +1,18 @@
+{
+  "id": 40440438,
+  "name": "grafov/go-playground",
+  "description": "GNU/Emacs mode that setup local Go playground for code snippets like play.golang.org or even better :)",
+  "url": "https://github.com/grafov/go-playground",
+  "stars": 93,
+  "updated": "2026-09-07T18:35:44Z",
+  "archived": false,
+  "topics": ["emacs", "go-mode", "go-playground", "golang", "melpa", "playground", "repl"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go-playground",
+    "fetcher": "github",
+    "repo": "grafov/go-playground"
+  }
+}

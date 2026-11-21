@@ -1,0 +1,18 @@
+{
+  "id": 21300750,
+  "name": "tbanel/orgtblasciiplot",
+  "description": "Draws bar plots in Emacs OrgMode tables",
+  "url": "https://github.com/tbanel/orgtblasciiplot",
+  "stars": 14,
+  "updated": "2026-03-20T20:48:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "orgtbl-ascii-plot",
+    "fetcher": "github",
+    "repo": "tbanel/orgtblasciiplot"
+  }
+}

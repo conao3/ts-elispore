@@ -1,0 +1,18 @@
+{
+  "id": 177443800,
+  "name": "mkcms/mu4e-overview",
+  "description": "Show overview of maildir",
+  "url": "https://github.com/mkcms/mu4e-overview",
+  "stars": 20,
+  "updated": "2026-11-14T10:27:00Z",
+  "archived": false,
+  "topics": ["emacs", "list", "maildirs", "mu4e", "overview"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mu4e-overview",
+    "fetcher": "github",
+    "repo": "mkcms/mu4e-overview"
+  }
+}

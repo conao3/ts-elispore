@@ -1,0 +1,19 @@
+{
+  "id": 239261631,
+  "name": "akirak/org-multi-wiki",
+  "description": "Org-based wiki system for multiple workgroups with namespace support",
+  "url": "https://github.com/akirak/org-multi-wiki",
+  "stars": 28,
+  "updated": "2024-09-17T15:12:22Z",
+  "archived": false,
+  "topics": ["emacs", "knowledge-base-system", "note-taking", "org-mode", "wiki"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-org-multi-wiki",
+    "fetcher": "github",
+    "repo": "akirak/org-multi-wiki",
+    "files": "(\"helm-org-multi-wiki.el\")"
+  }
+}

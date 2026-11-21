@@ -1,0 +1,18 @@
+{
+  "id": 17085971,
+  "name": "paetzke/py-isort.el",
+  "description": "py-isort.el integrates isort into Emacs.",
+  "url": "https://github.com/paetzke/py-isort.el",
+  "stars": 88,
+  "updated": "2023-07-09T19:15:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "py-isort",
+    "fetcher": "github",
+    "repo": "paetzke/py-isort.el"
+  }
+}

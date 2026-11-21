@@ -1,0 +1,18 @@
+{
+  "id": 30702415,
+  "name": "abo-abo/ido-occasional",
+  "description": "Use ido where you choose",
+  "url": "https://github.com/abo-abo/ido-occasional",
+  "stars": 4,
+  "updated": "2015-02-14T12:52:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ido-occasional",
+    "fetcher": "github",
+    "repo": "abo-abo/ido-occasional"
+  }
+}

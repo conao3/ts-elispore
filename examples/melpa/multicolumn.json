@@ -1,0 +1,18 @@
+{
+  "id": 16832736,
+  "name": "Lindydancer/multicolumn",
+  "description": "Multiple side-by-side windows support package for Emacs",
+  "url": "https://github.com/Lindydancer/multicolumn",
+  "stars": 39,
+  "updated": "2015-02-02T21:53:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "multicolumn",
+    "fetcher": "github",
+    "repo": "Lindydancer/multicolumn"
+  }
+}

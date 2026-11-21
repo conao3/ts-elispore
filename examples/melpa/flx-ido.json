@@ -1,0 +1,19 @@
+{
+  "id": 9478060,
+  "name": "lewang/flx",
+  "description": "Fuzzy matching for Emacs ... a la Sublime Text.",
+  "url": "https://github.com/lewang/flx",
+  "stars": 526,
+  "updated": "2026-10-17T07:54:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flx-ido",
+    "fetcher": "github",
+    "repo": "lewang/flx",
+    "files": "(\"flx-ido.el\")"
+  }
+}

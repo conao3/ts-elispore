@@ -1,0 +1,18 @@
+{
+  "id": 13217967,
+  "name": "krisajenkins/evil-tabs",
+  "description": "Integrating Vim-style tabs for Evil mode users.",
+  "url": "https://github.com/krisajenkins/evil-tabs",
+  "stars": 66,
+  "updated": "2019-12-28T21:51:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-tabs",
+    "fetcher": "github",
+    "repo": "krisajenkins/evil-tabs"
+  }
+}

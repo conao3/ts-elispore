@@ -1,0 +1,19 @@
+{
+  "id": 282725701,
+  "name": "emacs-love/weblorg",
+  "description": "Static Site Generator for Emacs",
+  "url": "https://github.com/emacs-love/weblorg",
+  "stars": 302,
+  "updated": "2025-04-07T02:19:52Z",
+  "archived": false,
+  "topics": ["blog", "emacs", "html", "org-mode", "static-site-generator"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "weblorg",
+    "fetcher": "github",
+    "repo": "emacs-love/weblorg",
+    "files": "(:defaults \"themes\")"
+  }
+}

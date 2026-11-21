@@ -1,0 +1,18 @@
+{
+  "id": 1021390040,
+  "name": "fommil/darcula-theme.el",
+  "description": "darcula theme for emacs",
+  "url": "https://github.com/fommil/darcula-theme.el",
+  "stars": 0,
+  "updated": "2026-09-14T09:34:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "darcula-theme",
+    "fetcher": "github",
+    "repo": "fommil/darcula-theme.el"
+  }
+}

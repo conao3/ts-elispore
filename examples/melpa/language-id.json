@@ -1,0 +1,18 @@
+{
+  "id": 167530835,
+  "name": "lassik/emacs-language-id",
+  "description": "Emacs Lisp library to work with programming language identifiers",
+  "url": "https://github.com/lassik/emacs-language-id",
+  "stars": 13,
+  "updated": "2024-10-24T08:54:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "language-id",
+    "fetcher": "github",
+    "repo": "lassik/emacs-language-id"
+  }
+}

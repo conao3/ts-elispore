@@ -1,0 +1,18 @@
+{
+  "id": 41339372,
+  "name": "noctuid/evil-textobj-anyblock",
+  "description": "Expanded Port of the Vim textobj-anyblock Plugin (to be deprecated in favor of targets.el)",
+  "url": "https://github.com/noctuid/evil-textobj-anyblock",
+  "stars": 31,
+  "updated": "2017-09-05T19:08:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-textobj-anyblock",
+    "fetcher": "github",
+    "repo": "noctuid/evil-textobj-anyblock"
+  }
+}

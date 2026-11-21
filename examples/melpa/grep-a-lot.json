@@ -1,0 +1,18 @@
+{
+  "id": 86180,
+  "name": "ZungBang/emacs-grep-a-lot",
+  "description": "emacs library that manages multiple grep search results buffers",
+  "url": "https://github.com/ZungBang/emacs-grep-a-lot",
+  "stars": 7,
+  "updated": "2021-06-18T14:21:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "grep-a-lot",
+    "fetcher": "github",
+    "repo": "ZungBang/emacs-grep-a-lot"
+  }
+}

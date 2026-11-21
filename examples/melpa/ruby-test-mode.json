@@ -1,0 +1,18 @@
+{
+  "id": 44954,
+  "name": "ruby-test-mode/ruby-test-mode",
+  "description": "Emacs minor mode for Behaviour and Test Driven Development in Ruby",
+  "url": "https://github.com/ruby-test-mode/ruby-test-mode",
+  "stars": 32,
+  "updated": "2025-11-22T14:12:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ruby-test-mode",
+    "fetcher": "github",
+    "repo": "ruby-test-mode/ruby-test-mode"
+  }
+}

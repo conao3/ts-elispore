@@ -1,0 +1,18 @@
+{
+  "id": 26705140,
+  "name": "emacsfodder/emacs-peacock-theme",
+  "description": "",
+  "url": "https://github.com/emacsfodder/emacs-peacock-theme",
+  "stars": 3,
+  "updated": "2017-08-08T13:20:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "peacock-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-peacock-theme"
+  }
+}

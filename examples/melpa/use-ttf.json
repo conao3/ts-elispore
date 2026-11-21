@@ -1,0 +1,18 @@
+{
+  "id": 134386433,
+  "name": "jcs-elpa/use-ttf",
+  "description": "Keep font consistency across different OSs.",
+  "url": "https://github.com/jcs-elpa/use-ttf",
+  "stars": 17,
+  "updated": "2026-06-19T17:18:35Z",
+  "archived": false,
+  "topics": ["emacs", "font", "installer", "truetype", "ttf"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "use-ttf",
+    "fetcher": "github",
+    "repo": "jcs-elpa/use-ttf"
+  }
+}

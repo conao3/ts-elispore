@@ -1,0 +1,18 @@
+{
+  "id": 168252634,
+  "name": "abrochard/mermaid-mode",
+  "description": "Emacs major mode for working with mermaid graphs https://mermaidjs.github.io/",
+  "url": "https://github.com/abrochard/mermaid-mode",
+  "stars": 247,
+  "updated": "2026-06-07T00:15:24Z",
+  "archived": false,
+  "topics": ["emacs", "mermaid"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mermaid-mode",
+    "fetcher": "github",
+    "repo": "abrochard/mermaid-mode"
+  }
+}

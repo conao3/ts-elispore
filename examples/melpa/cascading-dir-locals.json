@@ -1,0 +1,18 @@
+{
+  "id": 340767440,
+  "name": "fritzgrabo/cascading-dir-locals",
+  "description": "Emacs: Apply all (!) .dir-locals.el from root to current directory",
+  "url": "https://github.com/fritzgrabo/cascading-dir-locals",
+  "stars": 11,
+  "updated": "2021-10-13T20:11:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cascading-dir-locals",
+    "fetcher": "github",
+    "repo": "fritzgrabo/cascading-dir-locals"
+  }
+}

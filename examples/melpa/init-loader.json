@@ -1,0 +1,19 @@
+{
+  "id": 8202011,
+  "name": "emacs-jp/init-loader",
+  "description": "Original is http://coderepos.org/share/browser/lang/elisp/init-loader/init-loader.el",
+  "url": "https://github.com/emacs-jp/init-loader",
+  "stars": 95,
+  "updated": "2025-03-13T00:47:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "init-loader",
+    "fetcher": "github",
+    "repo": "emacs-jp/init-loader",
+    "files": "(\"init-loader.el\")"
+  }
+}

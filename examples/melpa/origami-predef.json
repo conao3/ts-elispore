@@ -1,0 +1,18 @@
+{
+  "id": 266995498,
+  "name": "alvarogonzalezsotillo/origami-predef",
+  "description": "This emacs package extends the origami package to apply some initial foldings when opening a file, based on tags in the file contents.",
+  "url": "https://github.com/alvarogonzalezsotillo/origami-predef",
+  "stars": 1,
+  "updated": "2020-08-23T10:54:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "origami-predef",
+    "fetcher": "github",
+    "repo": "alvarogonzalezsotillo/origami-predef"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 364459569,
+  "name": "kijimad/create-link",
+  "description": "Format link generator package for Emacs.",
+  "url": "https://github.com/kijimad/create-link",
+  "stars": 11,
+  "updated": "2022-12-26T14:58:20Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "format", "link", "packages", "plugins"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "create-link",
+    "fetcher": "github",
+    "repo": "kijimad/create-link"
+  }
+}

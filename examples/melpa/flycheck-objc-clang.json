@@ -1,0 +1,18 @@
+{
+  "id": 75745283,
+  "name": "GyazSquare/flycheck-objc-clang",
+  "description": "Objective-C support for Flycheck using Clang",
+  "url": "https://github.com/GyazSquare/flycheck-objc-clang",
+  "stars": 1,
+  "updated": "2025-03-15T15:21:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-objc-clang",
+    "fetcher": "github",
+    "repo": "GyazSquare/flycheck-objc-clang"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 19428672,
+  "name": "gridaphobe/evil-god-state",
+  "description": "",
+  "url": "https://github.com/gridaphobe/evil-god-state",
+  "stars": 54,
+  "updated": "2020-04-04T00:16:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-god-state",
+    "fetcher": "github",
+    "repo": "gridaphobe/evil-god-state"
+  }
+}

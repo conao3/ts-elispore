@@ -1,0 +1,19 @@
+{
+  "id": 12685406,
+  "name": "kurisuwhyte/emacs-wonderland",
+  "description": "A library for declaratively describing your Emacs configuration.",
+  "url": "https://github.com/kurisuwhyte/emacs-wonderland",
+  "stars": 13,
+  "updated": "2021-02-20T09:56:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wonderland",
+    "fetcher": "github",
+    "repo": "kurisuwhyte/emacs-wonderland",
+    "files": "(\"source/*.el\")"
+  }
+}

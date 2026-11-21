@@ -1,0 +1,18 @@
+{
+  "id": 250113565,
+  "name": "wyuenho/all-the-icons-dired",
+  "description": "Adds dired support to all-the-icons",
+  "url": "https://github.com/wyuenho/all-the-icons-dired",
+  "stars": 26,
+  "updated": "2023-12-07T13:24:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "all-the-icons-dired",
+    "fetcher": "github",
+    "repo": "wyuenho/all-the-icons-dired"
+  }
+}

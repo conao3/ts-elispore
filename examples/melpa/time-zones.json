@@ -1,0 +1,18 @@
+{
+  "id": 1079270150,
+  "name": "xenodium/time-zones",
+  "description": "An Emacs major mode to view the time at any city across the world",
+  "url": "https://github.com/xenodium/time-zones",
+  "stars": 61,
+  "updated": "2026-10-26T09:51:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "time-zones",
+    "fetcher": "github",
+    "repo": "xenodium/time-zones"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 32198512,
+  "name": "dieter-wilhelm/apdl-mode",
+  "description": "An Emacs mode for investigating and coding APDL (Ansys Parametric Design Language).  Its full documentation is on: ",
+  "url": "https://github.com/dieter-wilhelm/apdl-mode",
+  "stars": 46,
+  "updated": "2025-05-08T09:09:28Z",
+  "archived": false,
+  "topics": ["ansys", "apdl", "emacs", "language"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "apdl-mode",
+    "fetcher": "github",
+    "repo": "dieter-wilhelm/apdl-mode",
+    "files": "(:defaults \"matlib\" \"template\")"
+  }
+}

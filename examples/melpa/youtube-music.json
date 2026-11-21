@@ -1,0 +1,18 @@
+{
+  "id": 1225745793,
+  "name": "cyberkm/emacs-youtube-music",
+  "description": "YouTube music client for Emacs - magit-style status buffer with mpv backend",
+  "url": "https://github.com/cyberkm/emacs-youtube-music",
+  "stars": 11,
+  "updated": "2026-10-28T06:27:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "youtube-music",
+    "fetcher": "github",
+    "repo": "cyberkm/emacs-youtube-music"
+  }
+}

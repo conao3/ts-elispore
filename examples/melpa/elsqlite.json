@@ -1,0 +1,18 @@
+{
+  "id": 1146909802,
+  "name": "dusanx/elsqlite",
+  "description": "A native Emacs SQLite browser that provides a unified interface for exploring and editing SQLite databases.",
+  "url": "https://github.com/dusanx/elsqlite",
+  "stars": 26,
+  "updated": "2026-06-27T11:01:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elsqlite",
+    "fetcher": "github",
+    "repo": "dusanx/elsqlite"
+  }
+}

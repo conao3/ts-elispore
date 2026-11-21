@@ -1,0 +1,18 @@
+{
+  "id": 28525304,
+  "name": "tumashu/pyim",
+  "description": "一个 emacs 中文输入法，支持全拼，双拼，五笔，仓颉和Rime，pyim 是 GNU elpa 包。",
+  "url": "https://github.com/tumashu/pyim",
+  "stars": 919,
+  "updated": "2026-11-13T05:37:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pyim",
+    "fetcher": "github",
+    "repo": "tumashu/pyim"
+  }
+}

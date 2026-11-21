@@ -1,0 +1,18 @@
+{
+  "id": 1021019887,
+  "name": "hron/dock.el",
+  "description": "Integrate desktop environment's taskbar/dock with Emacs",
+  "url": "https://github.com/hron/dock.el",
+  "stars": 12,
+  "updated": "2025-07-21T07:25:54Z",
+  "archived": false,
+  "topics": ["desktop-environment", "emacs", "gnome", "kde", "taskbar", "taskbar-icon"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dock",
+    "fetcher": "github",
+    "repo": "hron/dock.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 732494712,
+  "name": "UnresolvedCold/jmespath",
+  "description": "A small wrapper over jp for querying over json buffer in Emacs. ",
+  "url": "https://github.com/UnresolvedCold/jmespath",
+  "stars": 1,
+  "updated": "2024-01-15T13:11:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jmespath",
+    "fetcher": "github",
+    "repo": "UnresolvedCold/jmespath"
+  }
+}

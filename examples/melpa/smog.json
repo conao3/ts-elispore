@@ -1,0 +1,34 @@
+{
+  "id": 238558404,
+  "name": "zzkt/smog",
+  "description": "Analyse the writing style, word use and readability of prose in Emacs. ",
+  "url": "https://github.com/zzkt/smog",
+  "stars": 26,
+  "updated": "2023-05-30T08:43:52Z",
+  "archived": false,
+  "topics": [
+    "automated-readability-index",
+    "automated-readability-scores",
+    "coleman-liau",
+    "emacs",
+    "flesch-kincaid",
+    "fog-index",
+    "gunning-fog",
+    "language",
+    "prose",
+    "readability",
+    "readability-metrics",
+    "smog",
+    "smog-grading",
+    "style",
+    "writing-analytics"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smog",
+    "fetcher": "github",
+    "repo": "zzkt/smog"
+  }
+}

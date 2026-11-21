@@ -1,0 +1,18 @@
+{
+  "id": 134616773,
+  "name": "chocoelho/flycheck-prospector",
+  "description": "flycheck support for prospector",
+  "url": "https://github.com/chocoelho/flycheck-prospector",
+  "stars": 2,
+  "updated": "2018-06-04T14:24:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-prospector",
+    "fetcher": "github",
+    "repo": "chocoelho/flycheck-prospector"
+  }
+}

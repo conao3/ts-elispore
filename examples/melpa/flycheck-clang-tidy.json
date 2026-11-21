@@ -1,0 +1,18 @@
+{
+  "id": 82682784,
+  "name": "ch1bo/flycheck-clang-tidy",
+  "description": "Flycheck syntax checker using clang-tidy",
+  "url": "https://github.com/ch1bo/flycheck-clang-tidy",
+  "stars": 38,
+  "updated": "2022-01-22T16:53:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-clang-tidy",
+    "fetcher": "github",
+    "repo": "ch1bo/flycheck-clang-tidy"
+  }
+}

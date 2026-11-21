@@ -1,0 +1,19 @@
+{
+  "id": 5704726,
+  "name": "rdallasgray/graphene",
+  "description": "A set of defaults for Emacs, for refugees from GUI text editors.",
+  "url": "https://github.com/rdallasgray/graphene",
+  "stars": 326,
+  "updated": "2024-02-21T11:39:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "graphene",
+    "fetcher": "github",
+    "repo": "rdallasgray/graphene",
+    "files": "(\"lib/*\")"
+  }
+}

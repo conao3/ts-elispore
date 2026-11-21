@@ -1,0 +1,18 @@
+{
+  "id": 914393678,
+  "name": "erlang/emacs-erlang-ts",
+  "description": "Emacs Erlang mode using tree-sitter",
+  "url": "https://github.com/erlang/emacs-erlang-ts",
+  "stars": 27,
+  "updated": "2026-05-12T11:26:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "erlang-ts",
+    "fetcher": "github",
+    "repo": "erlang/emacs-erlang-ts"
+  }
+}

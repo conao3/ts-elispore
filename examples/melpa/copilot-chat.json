@@ -1,0 +1,18 @@
+{
+  "id": 826230756,
+  "name": "chep/gh-copilot-chat.el",
+  "description": "Chat with Github copilot in Emacs !",
+  "url": "https://github.com/chep/gh-copilot-chat.el",
+  "stars": 402,
+  "updated": "2026-11-10T13:31:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "copilot-chat",
+    "fetcher": "github",
+    "repo": "chep/gh-copilot-chat.el"
+  }
+}

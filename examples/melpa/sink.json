@@ -1,0 +1,18 @@
+{
+  "id": 178673860,
+  "name": "alcah/sink.el",
+  "description": "Receive messages from Plan9's plumber in Emacs",
+  "url": "https://github.com/alcah/sink.el",
+  "stars": 30,
+  "updated": "2024-05-23T07:47:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sink",
+    "fetcher": "github",
+    "repo": "alcah/sink.el"
+  }
+}

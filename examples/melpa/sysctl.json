@@ -1,0 +1,18 @@
+{
+  "id": 186731254,
+  "name": "dantecatalfamo/sysctl.el",
+  "description": "Manage sysctl through Emacs",
+  "url": "https://github.com/dantecatalfamo/sysctl.el",
+  "stars": 15,
+  "updated": "2020-10-25T09:42:04Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "sysctl"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sysctl",
+    "fetcher": "github",
+    "repo": "dantecatalfamo/sysctl.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 126744814,
+  "name": "sebastiencs/frame-local",
+  "description": "Access variables local to a frame",
+  "url": "https://github.com/sebastiencs/frame-local",
+  "stars": 7,
+  "updated": "2018-04-22T15:17:39Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "frame", "variables"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "frame-local",
+    "fetcher": "github",
+    "repo": "sebastiencs/frame-local"
+  }
+}

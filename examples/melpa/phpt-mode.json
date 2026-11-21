@@ -1,0 +1,18 @@
+{
+  "id": 186280968,
+  "name": "emacs-php/phpt-mode",
+  "description": "Major mode for editing PHPT test code",
+  "url": "https://github.com/emacs-php/phpt-mode",
+  "stars": 2,
+  "updated": "2026-06-19T14:04:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "phpt-mode",
+    "fetcher": "github",
+    "repo": "emacs-php/phpt-mode"
+  }
+}

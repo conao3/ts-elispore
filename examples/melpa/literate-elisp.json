@@ -1,0 +1,18 @@
+{
+  "id": 158058448,
+  "name": "jingtaozf/literate-elisp",
+  "description": "Load Emacs Lisp code blocks from Org files",
+  "url": "https://github.com/jingtaozf/literate-elisp",
+  "stars": 51,
+  "updated": "2026-07-29T05:13:08Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "literate", "literate-programs", "org", "org-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "literate-elisp",
+    "fetcher": "github",
+    "repo": "jingtaozf/literate-elisp"
+  }
+}

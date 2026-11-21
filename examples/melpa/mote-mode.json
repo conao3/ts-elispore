@@ -1,0 +1,18 @@
+{
+  "id": 3989453,
+  "name": "inkel/mote-mode",
+  "description": "Emacs minor mode for editing Mote templates",
+  "url": "https://github.com/inkel/mote-mode",
+  "stars": 1,
+  "updated": "2016-01-23T00:29:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mote-mode",
+    "fetcher": "github",
+    "repo": "inkel/mote-mode"
+  }
+}

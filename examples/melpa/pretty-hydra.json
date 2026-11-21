@@ -1,0 +1,19 @@
+{
+  "id": 124862182,
+  "name": "jerrypnz/major-mode-hydra.el",
+  "description": "Spacemacs-esque major mode leader key powered by Hydra",
+  "url": "https://github.com/jerrypnz/major-mode-hydra.el",
+  "stars": 314,
+  "updated": "2025-03-10T23:03:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pretty-hydra",
+    "fetcher": "github",
+    "repo": "jerrypnz/major-mode-hydra.el",
+    "files": "(\"pretty-hydra.el\")"
+  }
+}

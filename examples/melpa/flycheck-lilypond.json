@@ -1,0 +1,18 @@
+{
+  "id": 111918469,
+  "name": "hinrik/flycheck-lilypond",
+  "description": "Make Flycheck syntax-check LilyPond files",
+  "url": "https://github.com/hinrik/flycheck-lilypond",
+  "stars": 10,
+  "updated": "2021-10-06T21:02:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-lilypond",
+    "fetcher": "github",
+    "repo": "hinrik/flycheck-lilypond"
+  }
+}

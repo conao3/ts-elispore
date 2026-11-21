@@ -1,0 +1,18 @@
+{
+  "id": 7784840,
+  "name": "gongo/airplay-el",
+  "description": "Airplay bindings to Emacs",
+  "url": "https://github.com/gongo/airplay-el",
+  "stars": 39,
+  "updated": "2023-12-29T17:05:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "airplay",
+    "fetcher": "github",
+    "repo": "gongo/airplay-el"
+  }
+}

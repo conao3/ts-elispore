@@ -1,0 +1,19 @@
+{
+  "id": 2043444,
+  "name": "marcinkoziej/org-pomodoro",
+  "description": "pomodoro technique for org-mode",
+  "url": "https://github.com/marcinkoziej/org-pomodoro",
+  "stars": 630,
+  "updated": "2026-11-06T14:14:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-pomodoro",
+    "fetcher": "github",
+    "repo": "marcinkoziej/org-pomodoro",
+    "files": "(:defaults \"resources\")"
+  }
+}

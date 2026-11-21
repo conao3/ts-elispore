@@ -1,0 +1,18 @@
+{
+  "id": 754972,
+  "name": "emacsorphanage/smarty-mode",
+  "description": "Major mode for editing smarty templates",
+  "url": "https://github.com/emacsorphanage/smarty-mode",
+  "stars": 2,
+  "updated": "2011-11-12T20:44:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "smarty-mode",
+    "fetcher": "github",
+    "repo": "emacsorphanage/smarty-mode"
+  }
+}

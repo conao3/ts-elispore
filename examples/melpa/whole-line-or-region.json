@@ -1,0 +1,18 @@
+{
+  "id": 2306637,
+  "name": "purcell/whole-line-or-region",
+  "description": "In Emacs, operate on current line if no region is active",
+  "url": "https://github.com/purcell/whole-line-or-region",
+  "stars": 146,
+  "updated": "2026-06-19T11:58:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "whole-line-or-region",
+    "fetcher": "github",
+    "repo": "purcell/whole-line-or-region"
+  }
+}

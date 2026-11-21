@@ -1,0 +1,18 @@
+{
+  "id": 1061091,
+  "name": "kanru/uuidgen-el",
+  "description": "UUID generation implemented in elisp.",
+  "url": "https://github.com/kanru/uuidgen-el",
+  "stars": 55,
+  "updated": "2025-10-24T23:38:04Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "uuid", "uuid-generator"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "uuidgen",
+    "fetcher": "github",
+    "repo": "kanru/uuidgen-el"
+  }
+}

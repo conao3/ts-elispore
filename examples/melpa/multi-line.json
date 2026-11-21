@@ -1,0 +1,18 @@
+{
+  "id": 46647489,
+  "name": "colonelpanic8/multi-line",
+  "description": "multi-line everything from function invocations and definitions to array and map literals in a wide variety of languages",
+  "url": "https://github.com/colonelpanic8/multi-line",
+  "stars": 55,
+  "updated": "2023-07-21T18:15:35Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "whitespace"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "multi-line",
+    "fetcher": "github",
+    "repo": "colonelpanic8/multi-line"
+  }
+}

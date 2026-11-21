@@ -1,0 +1,18 @@
+{
+  "id": 28296443,
+  "name": "Dewdrops/isearch-dabbrev",
+  "description": "Use dabbrev-expand within isearch",
+  "url": "https://github.com/Dewdrops/isearch-dabbrev",
+  "stars": 10,
+  "updated": "2014-12-24T06:22:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "isearch-dabbrev",
+    "fetcher": "github",
+    "repo": "Dewdrops/isearch-dabbrev"
+  }
+}

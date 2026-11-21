@@ -1,0 +1,18 @@
+{
+  "id": 281669835,
+  "name": "emacs-lsp/lsp-pyright",
+  "description": "lsp-mode :heart: pyright ",
+  "url": "https://github.com/emacs-lsp/lsp-pyright",
+  "stars": 330,
+  "updated": "2026-06-20T15:47:59Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-lisp", "lsp", "python"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-pyright",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-pyright"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 162020844,
+  "name": "jrosdahl/fancy-dabbrev",
+  "description": "Emacs dabbrev-expand with preview and popup menu",
+  "url": "https://github.com/jrosdahl/fancy-dabbrev",
+  "stars": 67,
+  "updated": "2026-11-02T14:43:57Z",
+  "archived": false,
+  "topics": ["completion", "emacs", "emacs-lisp", "expansion"],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fancy-dabbrev",
+    "fetcher": "github",
+    "repo": "jrosdahl/fancy-dabbrev"
+  }
+}

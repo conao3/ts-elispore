@@ -1,0 +1,18 @@
+{
+  "id": 359217421,
+  "name": "emacs-grammarly/auth-source-keytar",
+  "description": "Integrate auth-source with keytar",
+  "url": "https://github.com/emacs-grammarly/auth-source-keytar",
+  "stars": 5,
+  "updated": "2026-06-19T14:03:48Z",
+  "archived": false,
+  "topics": ["auth-source", "auth-source-keytar", "emacs", "emacs-lisp", "keytar"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "auth-source-keytar",
+    "fetcher": "github",
+    "repo": "emacs-grammarly/auth-source-keytar"
+  }
+}

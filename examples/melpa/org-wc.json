@@ -1,0 +1,18 @@
+{
+  "id": 3402789,
+  "name": "tesujimath/org-wc",
+  "description": "Count words in org mode trees",
+  "url": "https://github.com/tesujimath/org-wc",
+  "stars": 52,
+  "updated": "2025-10-23T19:22:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-wc",
+    "fetcher": "github",
+    "repo": "tesujimath/org-wc"
+  }
+}

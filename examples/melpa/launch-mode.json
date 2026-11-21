@@ -1,0 +1,19 @@
+{
+  "id": 66469086,
+  "name": "iory/launch-mode",
+  "description": "",
+  "url": "https://github.com/iory/launch-mode",
+  "stars": 0,
+  "updated": "2017-01-06T05:12:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "launch-mode",
+    "fetcher": "github",
+    "repo": "iory/launch-mode",
+    "files": "(:defaults \"*.py\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 29375162,
+  "name": "david-christiansen/helm-pages",
+  "description": "A Helm data source for pages in the current buffer",
+  "url": "https://github.com/david-christiansen/helm-pages",
+  "stars": 10,
+  "updated": "2016-11-21T02:26:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-pages",
+    "fetcher": "github",
+    "repo": "david-christiansen/helm-pages"
+  }
+}

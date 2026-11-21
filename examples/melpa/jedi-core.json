@@ -1,0 +1,19 @@
+{
+  "id": 6251097,
+  "name": "tkf/emacs-jedi",
+  "description": "Python auto-completion for Emacs",
+  "url": "https://github.com/tkf/emacs-jedi",
+  "stars": 670,
+  "updated": "2025-06-02T21:57:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jedi-core",
+    "fetcher": "github",
+    "repo": "tkf/emacs-jedi",
+    "files": "(\"jedi-core.el\" \"jediepcserver.py\" \"Makefile\" \"setup.py\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 7273508,
+  "name": "Wilfred/flymake-jshint.el",
+  "description": "JSHint with flymake for Emacs",
+  "url": "https://github.com/Wilfred/flymake-jshint.el",
+  "stars": 12,
+  "updated": "2014-03-19T22:01:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-jshint",
+    "fetcher": "github",
+    "repo": "Wilfred/flymake-jshint.el"
+  }
+}

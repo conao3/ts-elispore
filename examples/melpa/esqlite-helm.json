@@ -1,0 +1,19 @@
+{
+  "id": 15650338,
+  "name": "mhayashi1120/Emacs-esqlite",
+  "description": "sqlite file manipulate utilities",
+  "url": "https://github.com/mhayashi1120/Emacs-esqlite",
+  "stars": 25,
+  "updated": "2020-01-21T11:38:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "esqlite-helm",
+    "fetcher": "github",
+    "repo": "mhayashi1120/Emacs-esqlite",
+    "files": "(\"esqlite-helm.el\")"
+  }
+}

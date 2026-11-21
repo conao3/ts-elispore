@@ -1,0 +1,19 @@
+{
+  "id": 1273709437,
+  "name": "simontreanor/Pyfun",
+  "description": "F#-inspired functional language that compiles to readable Python. ADTs, exhaustive matching, type inference, tracked effects, units of measure.",
+  "url": "https://github.com/simontreanor/Pyfun",
+  "stars": 24,
+  "updated": "2026-10-18T00:27:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Rust",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pyfun-mode",
+    "fetcher": "github",
+    "repo": "simontreanor/Pyfun",
+    "files": "(\"editors/emacs/pyfun-mode.el\")"
+  }
+}

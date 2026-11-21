@@ -1,0 +1,18 @@
+{
+  "id": 34696696,
+  "name": "meshelton/govet",
+  "description": "Emacs for running go vet on go source code",
+  "url": "https://github.com/meshelton/govet",
+  "stars": 1,
+  "updated": "2017-08-08T17:25:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "govet",
+    "fetcher": "github",
+    "repo": "meshelton/govet"
+  }
+}

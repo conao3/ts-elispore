@@ -1,0 +1,19 @@
+{
+  "id": 14232994,
+  "name": "mori-dev/emacs-dayone",
+  "description": "Utilitiy script for dayone",
+  "url": "https://github.com/mori-dev/emacs-dayone",
+  "stars": 11,
+  "updated": "2016-01-05T12:40:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dayone",
+    "fetcher": "github",
+    "repo": "mori-dev/emacs-dayone",
+    "files": "(\"*.el\" \"*.mustache\")"
+  }
+}

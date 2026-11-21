@@ -1,0 +1,18 @@
+{
+  "id": 38924204,
+  "name": "mrkkrp/kill-or-bury-alive",
+  "description": "Precise control over buffer killing in Emacs",
+  "url": "https://github.com/mrkkrp/kill-or-bury-alive",
+  "stars": 28,
+  "updated": "2026-08-02T09:39:11Z",
+  "archived": false,
+  "topics": ["buffer", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kill-or-bury-alive",
+    "fetcher": "github",
+    "repo": "mrkkrp/kill-or-bury-alive"
+  }
+}

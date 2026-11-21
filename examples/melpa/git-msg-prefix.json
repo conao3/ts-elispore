@@ -1,0 +1,18 @@
+{
+  "id": 95823665,
+  "name": "kidd/git-msg-prefix.el",
+  "description": "Insert a piece of earlier vcs commits in your current commit message",
+  "url": "https://github.com/kidd/git-msg-prefix.el",
+  "stars": 17,
+  "updated": "2023-09-22T10:41:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-msg-prefix",
+    "fetcher": "github",
+    "repo": "kidd/git-msg-prefix.el"
+  }
+}

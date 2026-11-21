@@ -1,0 +1,18 @@
+{
+  "id": 1032549058,
+  "name": "tarsius/cond-let",
+  "description": "Binding conditionals",
+  "url": "https://github.com/tarsius/cond-let",
+  "stars": 26,
+  "updated": "2026-11-09T21:24:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cond-let",
+    "fetcher": "github",
+    "repo": "tarsius/cond-let"
+  }
+}

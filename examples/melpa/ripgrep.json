@@ -1,0 +1,19 @@
+{
+  "id": 69036984,
+  "name": "nlamirault/ripgrep.el",
+  "description": "Emacs front-end for ripgrep, a command line search tool",
+  "url": "https://github.com/nlamirault/ripgrep.el",
+  "stars": 92,
+  "updated": "2022-10-13T05:41:01Z",
+  "archived": true,
+  "topics": ["emacs", "ripgrep"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ripgrep",
+    "fetcher": "github",
+    "repo": "nlamirault/ripgrep.el",
+    "files": "(\"ripgrep.el\")"
+  }
+}

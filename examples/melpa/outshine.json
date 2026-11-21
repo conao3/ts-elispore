@@ -1,0 +1,18 @@
+{
+  "id": 86272914,
+  "name": "alphapapa/outshine",
+  "description": "Org-mode for non-Org buffers",
+  "url": "https://github.com/alphapapa/outshine",
+  "stars": 225,
+  "updated": "2022-05-05T19:14:41Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode", "outlines"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "outshine",
+    "fetcher": "github",
+    "repo": "alphapapa/outshine"
+  }
+}

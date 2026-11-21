@@ -1,0 +1,18 @@
+{
+  "id": 458635756,
+  "name": "Zweihander-Main/org-newtab",
+  "description": "🗃️ Supercharge your browser's New Tab with Org-Agenda",
+  "url": "https://github.com/Zweihander-Main/org-newtab",
+  "stars": 25,
+  "updated": "2024-03-01T01:56:29Z",
+  "archived": false,
+  "topics": ["chrome-extension", "emacs", "org-agenda", "org-mode", "plasmo", "playwright"],
+  "license": "AGPL-3.0",
+  "language": "TypeScript",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-newtab",
+    "fetcher": "github",
+    "repo": "Zweihander-Main/org-newtab"
+  }
+}

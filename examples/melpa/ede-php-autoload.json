@@ -1,0 +1,19 @@
+{
+  "id": 36130210,
+  "name": "emacs-php/ede-php-autoload",
+  "description": "PHP autoloading simulation for Emacs' Semantic",
+  "url": "https://github.com/emacs-php/ede-php-autoload",
+  "stars": 23,
+  "updated": "2026-06-19T08:45:06Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-modules", "emacs-packages", "php"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ede-php-autoload",
+    "fetcher": "github",
+    "repo": "emacs-php/ede-php-autoload",
+    "files": "(:defaults \"ede-php-autoload\")"
+  }
+}

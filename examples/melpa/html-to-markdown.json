@@ -1,0 +1,18 @@
+{
+  "id": 14825487,
+  "name": "Malabarba/html-to-markdown",
+  "description": "HTML to Markdown converter written in emacs-lisp.",
+  "url": "https://github.com/Malabarba/html-to-markdown",
+  "stars": 19,
+  "updated": "2020-04-09T16:48:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "html-to-markdown",
+    "fetcher": "github",
+    "repo": "Malabarba/html-to-markdown"
+  }
+}

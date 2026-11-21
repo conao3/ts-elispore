@@ -1,0 +1,18 @@
+{
+  "id": 78088776,
+  "name": "masasam/emacs-helm-tramp",
+  "description": "Tramp helm interface for ssh and docker and ‎vagrant",
+  "url": "https://github.com/masasam/emacs-helm-tramp",
+  "stars": 68,
+  "updated": "2023-07-14T10:54:19Z",
+  "archived": false,
+  "topics": ["docker", "emacs", "emacs-lisp", "helm", "melpa", "ssh", "tramp", "vagrant"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-tramp",
+    "fetcher": "github",
+    "repo": "masasam/emacs-helm-tramp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 318215450,
+  "name": "minad/marginalia",
+  "description": ":scroll: marginalia.el - Marginalia in the minibuffer",
+  "url": "https://github.com/minad/marginalia",
+  "stars": 997,
+  "updated": "2026-10-10T15:24:32Z",
+  "archived": false,
+  "topics": ["annotations", "emacs", "minibuffer"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "marginalia",
+    "fetcher": "github",
+    "repo": "minad/marginalia"
+  }
+}

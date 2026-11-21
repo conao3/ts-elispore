@@ -1,0 +1,18 @@
+{
+  "id": 24261542,
+  "name": "sanel/monroe",
+  "description": "Clojure nREPL client for Emacs",
+  "url": "https://github.com/sanel/monroe",
+  "stars": 171,
+  "updated": "2022-12-21T22:09:23Z",
+  "archived": false,
+  "topics": ["clojure", "emacs", "emacs-lisp", "monroe", "nrepl"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "monroe",
+    "fetcher": "github",
+    "repo": "sanel/monroe"
+  }
+}

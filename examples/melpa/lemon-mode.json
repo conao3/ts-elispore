@@ -1,0 +1,18 @@
+{
+  "id": 4739599,
+  "name": "mooz/lemon-mode",
+  "description": "Emacs major mode for editing LEMON grammar files",
+  "url": "https://github.com/mooz/lemon-mode",
+  "stars": 5,
+  "updated": "2013-02-16T13:04:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lemon-mode",
+    "fetcher": "github",
+    "repo": "mooz/lemon-mode"
+  }
+}

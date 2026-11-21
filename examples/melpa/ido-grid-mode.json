@@ -1,0 +1,18 @@
+{
+  "id": 44262743,
+  "name": "larkery/ido-grid-mode.el",
+  "description": "",
+  "url": "https://github.com/larkery/ido-grid-mode.el",
+  "stars": 42,
+  "updated": "2021-06-12T21:16:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ido-grid-mode",
+    "fetcher": "github",
+    "repo": "larkery/ido-grid-mode.el"
+  }
+}

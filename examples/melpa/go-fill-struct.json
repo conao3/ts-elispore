@@ -1,0 +1,18 @@
+{
+  "id": 113140952,
+  "name": "s-kostyaev/go-fill-struct",
+  "description": "Fill golang struct in emacs",
+  "url": "https://github.com/s-kostyaev/go-fill-struct",
+  "stars": 20,
+  "updated": "2023-03-08T10:34:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go-fill-struct",
+    "fetcher": "github",
+    "repo": "s-kostyaev/go-fill-struct"
+  }
+}

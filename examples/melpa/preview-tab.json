@@ -1,0 +1,18 @@
+{
+  "id": 1339906785,
+  "name": "ismd/preview-tab.el",
+  "description": "VS Code's preview tab, for Emacs.",
+  "url": "https://github.com/ismd/preview-tab.el",
+  "stars": 10,
+  "updated": "2026-11-15T09:35:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "preview-tab",
+    "fetcher": "github",
+    "repo": "ismd/preview-tab.el"
+  }
+}

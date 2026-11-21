@@ -1,0 +1,18 @@
+{
+  "id": 18074604,
+  "name": "markus1189/helm-proc",
+  "description": "Helm source and actions to manage processes",
+  "url": "https://github.com/markus1189/helm-proc",
+  "stars": 10,
+  "updated": "2024-12-30T17:32:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-proc",
+    "fetcher": "github",
+    "repo": "markus1189/helm-proc"
+  }
+}

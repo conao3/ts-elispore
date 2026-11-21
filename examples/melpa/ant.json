@@ -1,0 +1,18 @@
+{
+  "id": 918586,
+  "name": "apg/ant-el",
+  "description": "Helpers for using ant with emacs",
+  "url": "https://github.com/apg/ant-el",
+  "stars": 8,
+  "updated": "2016-02-11T15:43:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ant",
+    "fetcher": "github",
+    "repo": "apg/ant-el"
+  }
+}

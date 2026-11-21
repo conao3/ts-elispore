@@ -1,0 +1,18 @@
+{
+  "id": 443006354,
+  "name": "Nyoho/consult-hatena-bookmark",
+  "description": "Searching your bookmarks of the Hatena Bookmark with consult",
+  "url": "https://github.com/Nyoho/consult-hatena-bookmark",
+  "stars": 1,
+  "updated": "2026-11-18T05:06:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-hatena-bookmark",
+    "fetcher": "github",
+    "repo": "Nyoho/consult-hatena-bookmark"
+  }
+}

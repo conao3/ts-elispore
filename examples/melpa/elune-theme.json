@@ -1,0 +1,18 @@
+{
+  "id": 641357131,
+  "name": "hsnovel/elune-theme",
+  "description": "Elune theme - Dark theme inspired by vscode dark theme, modified for making it more readable",
+  "url": "https://github.com/hsnovel/elune-theme",
+  "stars": 2,
+  "updated": "2023-10-09T17:09:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elune-theme",
+    "fetcher": "github",
+    "repo": "hsnovel/elune-theme"
+  }
+}

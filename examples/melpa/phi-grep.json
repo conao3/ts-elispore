@@ -1,0 +1,18 @@
+{
+  "id": 27386063,
+  "name": "zk-phi/phi-grep",
+  "description": "Interactively-editable recursive grep implementation in elisp",
+  "url": "https://github.com/zk-phi/phi-grep",
+  "stars": 29,
+  "updated": "2022-10-04T08:37:14Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "phi-grep",
+    "fetcher": "github",
+    "repo": "zk-phi/phi-grep"
+  }
+}

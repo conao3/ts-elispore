@@ -1,0 +1,18 @@
+{
+  "id": 19317198,
+  "name": "rafoo/flycheck-dedukti",
+  "description": "Flycheck integration for the dedukti language",
+  "url": "https://github.com/rafoo/flycheck-dedukti",
+  "stars": 0,
+  "updated": "2017-11-03T12:12:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-dedukti",
+    "fetcher": "github",
+    "repo": "rafoo/flycheck-dedukti"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 589950082,
+  "name": "k32/occurx-mode",
+  "description": "THIS IS A WORK OF FICTION AND NOT an advanced replacement for M-x occur",
+  "url": "https://github.com/k32/occurx-mode",
+  "stars": 4,
+  "updated": "2023-08-22T18:41:52Z",
+  "archived": false,
+  "topics": ["emacs", "modern-art", "novel", "occur"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "occurx-mode",
+    "fetcher": "github",
+    "repo": "k32/occurx-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 668431981,
+  "name": "axelf4/earl",
+  "description": "🧛 Emacs implementation of the Erlang distribution protocol",
+  "url": "https://github.com/axelf4/earl",
+  "stars": 14,
+  "updated": "2024-10-20T18:54:12Z",
+  "archived": false,
+  "topics": ["emacs-package", "erlang"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "earl",
+    "fetcher": "github",
+    "repo": "axelf4/earl"
+  }
+}

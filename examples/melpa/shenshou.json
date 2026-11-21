@@ -1,0 +1,18 @@
+{
+  "id": 419387205,
+  "name": "redguardtoo/shenshou",
+  "description": "download subtitles from opensubtitles.com",
+  "url": "https://github.com/redguardtoo/shenshou",
+  "stars": 9,
+  "updated": "2024-12-19T05:01:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shenshou",
+    "fetcher": "github",
+    "repo": "redguardtoo/shenshou"
+  }
+}

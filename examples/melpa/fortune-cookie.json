@@ -1,0 +1,18 @@
+{
+  "id": 45963411,
+  "name": "andyleejordan/fortune-cookie",
+  "description": "Print a fortune in your Emacs scratch buffer",
+  "url": "https://github.com/andyleejordan/fortune-cookie",
+  "stars": 11,
+  "updated": "2018-12-23T08:43:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fortune-cookie",
+    "fetcher": "github",
+    "repo": "andyleejordan/fortune-cookie"
+  }
+}

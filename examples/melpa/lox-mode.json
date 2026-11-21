@@ -1,0 +1,18 @@
+{
+  "id": 272998562,
+  "name": "timmyjose-projects/lox-mode",
+  "description": "An Emacs major mode for the Lox programming language.",
+  "url": "https://github.com/timmyjose-projects/lox-mode",
+  "stars": 7,
+  "updated": "2020-06-22T08:38:45Z",
+  "archived": false,
+  "topics": ["emacs", "lox", "lox-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lox-mode",
+    "fetcher": "github",
+    "repo": "timmyjose-projects/lox-mode"
+  }
+}

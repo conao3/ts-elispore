@@ -1,0 +1,18 @@
+{
+  "id": 61807665,
+  "name": "aborn/v2ex-mode",
+  "description": "v2ex-mode, major mode for visiting http://v2ex.com/ freely in emacs.",
+  "url": "https://github.com/aborn/v2ex-mode",
+  "stars": 11,
+  "updated": "2016-07-20T03:47:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "v2ex-mode",
+    "fetcher": "github",
+    "repo": "aborn/v2ex-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 910078731,
+  "name": "phf-1/locs-and-refs",
+  "description": "",
+  "url": "https://github.com/phf-1/locs-and-refs",
+  "stars": 3,
+  "updated": "2025-03-03T20:53:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "locs-and-refs",
+    "fetcher": "github",
+    "repo": "phf-1/locs-and-refs"
+  }
+}

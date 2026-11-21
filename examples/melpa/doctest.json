@@ -1,0 +1,18 @@
+{
+  "id": 610480868,
+  "name": "ag91/doctest",
+  "description": "Doctests for Emacs Lisp",
+  "url": "https://github.com/ag91/doctest",
+  "stars": 9,
+  "updated": "2026-06-20T22:26:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "doctest",
+    "fetcher": "github",
+    "repo": "ag91/doctest"
+  }
+}

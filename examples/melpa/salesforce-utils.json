@@ -1,0 +1,18 @@
+{
+  "id": 63168371,
+  "name": "grimnebulin/emacs-salesforce",
+  "description": "Salesforce utilities for Emacs",
+  "url": "https://github.com/grimnebulin/emacs-salesforce",
+  "stars": 0,
+  "updated": "2020-10-17T20:05:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "salesforce-utils",
+    "fetcher": "github",
+    "repo": "grimnebulin/emacs-salesforce"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": 1358948665,
+  "name": "systemfreund/supersonic.el",
+  "description": "Music client for Emacs for Subsonic-compatible servers (Navidrome, Gonic, …) and Music Assistant. Plays locally, or on the server's jukebox, UPnP/DLNA renderers or Music Assistant players.",
+  "url": "https://github.com/systemfreund/supersonic.el",
+  "stars": 15,
+  "updated": "2026-10-19T07:01:58Z",
+  "archived": false,
+  "topics": [
+    "ampache",
+    "dlna",
+    "emacs",
+    "emacs-package",
+    "gonic",
+    "music-assistant",
+    "music-player",
+    "navidrome",
+    "nextcloud",
+    "subsonic-client",
+    "upnp"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "supersonic",
+    "fetcher": "github",
+    "repo": "systemfreund/supersonic.el"
+  }
+}

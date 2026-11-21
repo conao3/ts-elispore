@@ -1,0 +1,18 @@
+{
+  "id": 4328053,
+  "name": "vspinu/zotelo",
+  "description": "Manage zotero collections  from emacsemacs.",
+  "url": "https://github.com/vspinu/zotelo",
+  "stars": 122,
+  "updated": "2016-06-02T09:49:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zotelo",
+    "fetcher": "github",
+    "repo": "vspinu/zotelo"
+  }
+}

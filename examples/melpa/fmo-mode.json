@@ -1,0 +1,18 @@
+{
+  "id": 710934272,
+  "name": "xeechou/fmo-mode.el",
+  "description": "Format only modified code in Emacs",
+  "url": "https://github.com/xeechou/fmo-mode.el",
+  "stars": 11,
+  "updated": "2024-03-15T14:47:31Z",
+  "archived": false,
+  "topics": ["formatter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fmo-mode",
+    "fetcher": "github",
+    "repo": "xeechou/fmo-mode.el"
+  }
+}

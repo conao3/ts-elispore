@@ -1,0 +1,18 @@
+{
+  "id": 272280323,
+  "name": "leodag/smart-delete",
+  "description": "IntelliJ-like backspace/delete",
+  "url": "https://github.com/leodag/smart-delete",
+  "stars": 8,
+  "updated": "2023-08-07T12:07:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smart-delete",
+    "fetcher": "github",
+    "repo": "leodag/smart-delete"
+  }
+}

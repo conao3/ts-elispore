@@ -1,0 +1,18 @@
+{
+  "id": 953340782,
+  "name": "krisbalintona/org-hide-drawers",
+  "description": "Hide drawers in org-mode with overlays",
+  "url": "https://github.com/krisbalintona/org-hide-drawers",
+  "stars": 29,
+  "updated": "2025-10-05T22:47:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-hide-drawers",
+    "fetcher": "github",
+    "repo": "krisbalintona/org-hide-drawers"
+  }
+}

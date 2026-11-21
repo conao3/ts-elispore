@@ -1,0 +1,18 @@
+{
+  "id": 1330093780,
+  "name": "kickingvegas/restlib",
+  "description": "A utility library to support building REST clients in GNU Emacs.",
+  "url": "https://github.com/kickingvegas/restlib",
+  "stars": 4,
+  "updated": "2026-11-07T19:54:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Makefile",
+  "ownerType": "User",
+  "melpa": {
+    "name": "restlib",
+    "fetcher": "github",
+    "repo": "kickingvegas/restlib"
+  }
+}

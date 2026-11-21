@@ -1,0 +1,19 @@
+{
+  "id": 238299169,
+  "name": "r0man/docopt.el",
+  "description": "A Docopt implementation in Emacs Lisp.",
+  "url": "https://github.com/r0man/docopt.el",
+  "stars": 27,
+  "updated": "2023-02-16T09:58:46Z",
+  "archived": false,
+  "topics": ["docopt", "emacs", "emacs-lisp", "transient"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "docopt",
+    "fetcher": "github",
+    "repo": "r0man/docopt.el",
+    "files": "(:defaults \"src/*.el\")"
+  }
+}

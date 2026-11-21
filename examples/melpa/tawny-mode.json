@@ -1,0 +1,19 @@
+{
+  "id": 7367935,
+  "name": "phillord/tawny-owl",
+  "description": "Build OWL Ontologies in a Programmatic Environment",
+  "url": "https://github.com/phillord/tawny-owl",
+  "stars": 286,
+  "updated": "2026-05-08T08:54:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "LGPL-3.0",
+  "language": "Clojure",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tawny-mode",
+    "fetcher": "github",
+    "repo": "phillord/tawny-owl",
+    "files": "(\"emacs/tawny-mode.el\")"
+  }
+}

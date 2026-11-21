@@ -1,0 +1,18 @@
+{
+  "id": 447025546,
+  "name": "otavioschwanck/harpoon.el",
+  "description": "Harpoon for emacs",
+  "url": "https://github.com/otavioschwanck/harpoon.el",
+  "stars": 118,
+  "updated": "2024-09-20T17:14:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "harpoon",
+    "fetcher": "github",
+    "repo": "otavioschwanck/harpoon.el"
+  }
+}

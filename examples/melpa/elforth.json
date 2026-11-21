@@ -1,0 +1,18 @@
+{
+  "id": 364544272,
+  "name": "lassik/elforth",
+  "description": "The determined Real Programmer can write Forth in any language",
+  "url": "https://github.com/lassik/elforth",
+  "stars": 5,
+  "updated": "2021-05-22T09:28:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elforth",
+    "fetcher": "github",
+    "repo": "lassik/elforth"
+  }
+}

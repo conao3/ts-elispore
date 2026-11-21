@@ -1,0 +1,18 @@
+{
+  "id": 4418490,
+  "name": "liangzan/frame-tag.el",
+  "description": "binds M-1 to M-9 to the emacs frame to allow fast switching",
+  "url": "https://github.com/liangzan/frame-tag.el",
+  "stars": 6,
+  "updated": "2017-01-11T00:06:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "frame-tag",
+    "fetcher": "github",
+    "repo": "liangzan/frame-tag.el"
+  }
+}

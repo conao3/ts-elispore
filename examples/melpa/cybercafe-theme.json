@@ -1,0 +1,18 @@
+{
+  "id": 686472502,
+  "name": "gboncoffee/cybercafe-emacs-theme",
+  "description": "Almost colorless, white-on-black theme for Emacs",
+  "url": "https://github.com/gboncoffee/cybercafe-emacs-theme",
+  "stars": 3,
+  "updated": "2023-11-22T14:44:52Z",
+  "archived": true,
+  "topics": ["emacs", "emacs-colorscheme", "emacs-theme", "gnu-emacs"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cybercafe-theme",
+    "fetcher": "github",
+    "repo": "gboncoffee/cybercafe-emacs-theme"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 28605990,
+  "name": "purcell/ibuffer-projectile",
+  "description": "Group buffers in Emacs ibuffer-mode by their projectile root directory",
+  "url": "https://github.com/purcell/ibuffer-projectile",
+  "stars": 69,
+  "updated": "2026-10-18T21:19:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ibuffer-projectile",
+    "fetcher": "github",
+    "repo": "purcell/ibuffer-projectile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 45839356,
+  "name": "TheBB/evil-indent-plus",
+  "description": "Better indent textobjects for evil",
+  "url": "https://github.com/TheBB/evil-indent-plus",
+  "stars": 46,
+  "updated": "2023-09-27T15:13:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-indent-plus",
+    "fetcher": "github",
+    "repo": "TheBB/evil-indent-plus"
+  }
+}

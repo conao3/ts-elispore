@@ -1,0 +1,18 @@
+{
+  "id": 199784101,
+  "name": "emacs-lsp/lsp-docker",
+  "description": "Scripts and configurations to leverage lsp-mode in docker environment",
+  "url": "https://github.com/emacs-lsp/lsp-docker",
+  "stars": 273,
+  "updated": "2026-05-07T17:50:33Z",
+  "archived": false,
+  "topics": ["docker", "lsp-mode", "starter-kit"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-docker",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-docker"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 563066,
+  "name": "mooz/js2-mode",
+  "description": "Improved JavaScript editing mode for GNU Emacs",
+  "url": "https://github.com/mooz/js2-mode",
+  "stars": 1334,
+  "updated": "2026-06-27T13:42:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js2-mode",
+    "fetcher": "github",
+    "repo": "mooz/js2-mode"
+  }
+}

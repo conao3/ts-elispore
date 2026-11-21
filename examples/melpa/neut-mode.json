@@ -1,0 +1,18 @@
+{
+  "id": 550777399,
+  "name": "vekatze/neut-mode",
+  "description": "An Emacs major mode for Neut",
+  "url": "https://github.com/vekatze/neut-mode",
+  "stars": 1,
+  "updated": "2026-04-25T07:49:51Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "neut-mode",
+    "fetcher": "github",
+    "repo": "vekatze/neut-mode"
+  }
+}

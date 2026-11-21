@@ -1,0 +1,18 @@
+{
+  "id": 10915012,
+  "name": "nflath/man-commands",
+  "description": "Add interactive commands for every manpage",
+  "url": "https://github.com/nflath/man-commands",
+  "stars": 2,
+  "updated": "2015-12-21T22:21:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "man-commands",
+    "fetcher": "github",
+    "repo": "nflath/man-commands"
+  }
+}

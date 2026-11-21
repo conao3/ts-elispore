@@ -1,0 +1,18 @@
+{
+  "id": 253302567,
+  "name": "jpkotta/syntax-subword",
+  "description": "Make operations on words more fine-grained",
+  "url": "https://github.com/jpkotta/syntax-subword",
+  "stars": 11,
+  "updated": "2018-03-24T00:08:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": null,
+  "ownerType": "User",
+  "melpa": {
+    "name": "syntax-subword",
+    "fetcher": "github",
+    "repo": "jpkotta/syntax-subword"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 178522653,
+  "name": "kaiwk/leetcode.el",
+  "description": "An Emacs LeetCode client.",
+  "url": "https://github.com/kaiwk/leetcode.el",
+  "stars": 470,
+  "updated": "2026-03-12T05:15:38Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "leetcode",
+    "fetcher": "github",
+    "repo": "kaiwk/leetcode.el"
+  }
+}

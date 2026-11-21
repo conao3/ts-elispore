@@ -1,0 +1,18 @@
+{
+  "id": 1438056,
+  "name": "jixiuf/golden-ratio-scroll-screen",
+  "description": "scrolling  screen  in Emacs",
+  "url": "https://github.com/jixiuf/golden-ratio-scroll-screen",
+  "stars": 36,
+  "updated": "2025-04-12T03:58:56Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "golden-ratio-scroll-screen",
+    "fetcher": "github",
+    "repo": "jixiuf/golden-ratio-scroll-screen"
+  }
+}

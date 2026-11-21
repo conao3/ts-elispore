@@ -1,0 +1,18 @@
+{
+  "id": 201560562,
+  "name": "ahungry/fast-scroll",
+  "description": "Emacs package to ensure scrolling remains fast",
+  "url": "https://github.com/ahungry/fast-scroll",
+  "stars": 87,
+  "updated": "2019-10-16T03:26:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fast-scroll",
+    "fetcher": "github",
+    "repo": "ahungry/fast-scroll"
+  }
+}

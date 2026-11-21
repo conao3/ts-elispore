@@ -1,0 +1,18 @@
+{
+  "id": 4767762,
+  "name": "ryuslash/dispass.el",
+  "description": "Emacs wrapper for DisPass",
+  "url": "https://github.com/ryuslash/dispass.el",
+  "stars": 4,
+  "updated": "2014-02-02T15:33:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dispass",
+    "fetcher": "github",
+    "repo": "ryuslash/dispass.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 21376550,
+  "name": "alexeyr/company-auctex",
+  "description": "company-mode autocompletion for auctex",
+  "url": "https://github.com/alexeyr/company-auctex",
+  "stars": 49,
+  "updated": "2022-02-06T16:00:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-auctex",
+    "fetcher": "github",
+    "repo": "alexeyr/company-auctex"
+  }
+}

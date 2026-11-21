@@ -1,0 +1,18 @@
+{
+  "id": 641134911,
+  "name": "fritzgrabo/elfeed-webkit",
+  "description": "Emacs: Render elfeed entries in embedded webkit widgets",
+  "url": "https://github.com/fritzgrabo/elfeed-webkit",
+  "stars": 53,
+  "updated": "2023-06-04T21:11:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elfeed-webkit",
+    "fetcher": "github",
+    "repo": "fritzgrabo/elfeed-webkit"
+  }
+}

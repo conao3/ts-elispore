@@ -1,0 +1,19 @@
+{
+  "id": 273054768,
+  "name": "emacs-lsp/lsp-sonarlint",
+  "description": "lsp-mode :heart: sonarlint",
+  "url": "https://github.com/emacs-lsp/lsp-sonarlint",
+  "stars": 93,
+  "updated": "2026-05-07T17:51:48Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lsp", "java", "javascript", "lsp-client", "python", "sonarlint"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-sonarlint",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-sonarlint",
+    "files": "(\"lsp-sonarlint.el\"\n         (\"languages\" \"languages/*/*.el\")\n         (\"server\" \"server/*\"))"
+  }
+}

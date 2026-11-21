@@ -1,0 +1,18 @@
+{
+  "id": 250099822,
+  "name": "walseb/calc-at-point",
+  "description": "Perform calculations at point or over selection",
+  "url": "https://github.com/walseb/calc-at-point",
+  "stars": 2,
+  "updated": "2021-02-19T12:52:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "calc-at-point",
+    "fetcher": "github",
+    "repo": "walseb/calc-at-point"
+  }
+}

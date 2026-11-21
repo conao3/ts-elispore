@@ -1,0 +1,19 @@
+{
+  "id": 6336849,
+  "name": "magnars/dash.el",
+  "description": "A modern list library for Emacs",
+  "url": "https://github.com/magnars/dash.el",
+  "stars": 1746,
+  "updated": "2026-10-06T10:56:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dash",
+    "fetcher": "github",
+    "repo": "magnars/dash.el",
+    "files": "(\"dash.el\" \"dash.texi\")"
+  }
+}

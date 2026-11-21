@@ -1,0 +1,18 @@
+{
+  "id": 28667555,
+  "name": "knu/diredfd.el",
+  "description": "dired functions and settings to mimic FDclone",
+  "url": "https://github.com/knu/diredfd.el",
+  "stars": 9,
+  "updated": "2026-02-06T03:37:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "diredfd",
+    "fetcher": "github",
+    "repo": "knu/diredfd.el"
+  }
+}

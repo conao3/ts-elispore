@@ -1,0 +1,18 @@
+{
+  "id": 19723696,
+  "name": "yoshida-mediba/hiwin-mode",
+  "description": "Visible active window on Emacs",
+  "url": "https://github.com/yoshida-mediba/hiwin-mode",
+  "stars": 9,
+  "updated": "2019-09-27T02:59:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hiwin",
+    "fetcher": "github",
+    "repo": "yoshida-mediba/hiwin-mode"
+  }
+}

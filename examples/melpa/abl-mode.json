@@ -1,0 +1,18 @@
+{
+  "id": 2066586,
+  "name": "afroisalreadyinu/abl-mode",
+  "description": "Emacs minor mode to simplify test-driven development using virtual environments",
+  "url": "https://github.com/afroisalreadyinu/abl-mode",
+  "stars": 39,
+  "updated": "2024-04-23T12:13:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "abl-mode",
+    "fetcher": "github",
+    "repo": "afroisalreadyinu/abl-mode"
+  }
+}

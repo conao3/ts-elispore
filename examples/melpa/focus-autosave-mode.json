@@ -1,0 +1,18 @@
+{
+  "id": 38782907,
+  "name": "vifon/focus-autosave-mode.el",
+  "description": "A global minor mode for Emacs saving the modified files when the Emacs frame loses its focus",
+  "url": "https://github.com/vifon/focus-autosave-mode.el",
+  "stars": 11,
+  "updated": "2018-09-22T00:03:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "focus-autosave-mode",
+    "fetcher": "github",
+    "repo": "vifon/focus-autosave-mode.el"
+  }
+}

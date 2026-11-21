@@ -1,0 +1,27 @@
+{
+  "id": 647500994,
+  "name": "hrs/docsim.el",
+  "description": "An Emacs tool for searching and comparing notes.",
+  "url": "https://github.com/hrs/docsim.el",
+  "stars": 17,
+  "updated": "2024-09-06T04:21:47Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-package",
+    "markdown",
+    "note-taking",
+    "org-mode",
+    "similarity",
+    "tf-idf",
+    "zettelkasten"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "docsim",
+    "fetcher": "github",
+    "repo": "hrs/docsim.el"
+  }
+}

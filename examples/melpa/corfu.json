@@ -1,0 +1,19 @@
+{
+  "id": 335436211,
+  "name": "minad/corfu",
+  "description": ":desert_island: corfu.el - COmpletion in Region FUnction",
+  "url": "https://github.com/minad/corfu",
+  "stars": 1558,
+  "updated": "2026-11-01T16:14:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "corfu",
+    "fetcher": "github",
+    "repo": "minad/corfu",
+    "files": "(:defaults \"extensions/corfu-*.el\")"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 18542784,
+  "name": "tmarble/timesheet.el",
+  "description": "Timesheet management add-on for Emacs org-mode",
+  "url": "https://github.com/tmarble/timesheet.el",
+  "stars": 52,
+  "updated": "2022-10-04T17:02:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "timesheet",
+    "fetcher": "github",
+    "repo": "tmarble/timesheet.el",
+    "files": "(\"*.el\" \"bin\" \"share\")"
+  }
+}

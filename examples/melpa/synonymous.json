@@ -1,0 +1,18 @@
+{
+  "id": 41967190,
+  "name": "toroidal-code/synonymous.el",
+  "description": "A thesaurus at your fingertips",
+  "url": "https://github.com/toroidal-code/synonymous.el",
+  "stars": 9,
+  "updated": "2018-03-25T18:17:57Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "synonyms", "thesaurus"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "synonymous",
+    "fetcher": "github",
+    "repo": "toroidal-code/synonymous.el"
+  }
+}

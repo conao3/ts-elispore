@@ -1,0 +1,19 @@
+{
+  "id": 907211135,
+  "name": "hdf5-viewer/hdf5-viewer",
+  "description": "Simple HDF5 reader major mode for emacs",
+  "url": "https://github.com/hdf5-viewer/hdf5-viewer",
+  "stars": 6,
+  "updated": "2026-02-16T19:40:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "hdf5-viewer",
+    "fetcher": "github",
+    "repo": "hdf5-viewer/hdf5-viewer",
+    "files": "(:defaults \"h5parse.py\")"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 489788761,
+  "name": "pdo/frimacs",
+  "description": "An Emacs environment for FriCAS",
+  "url": "https://github.com/pdo/frimacs",
+  "stars": 9,
+  "updated": "2026-11-10T10:11:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-fricas",
+    "fetcher": "github",
+    "repo": "pdo/frimacs",
+    "files": "(\"extras/ob-fricas.el\")"
+  }
+}

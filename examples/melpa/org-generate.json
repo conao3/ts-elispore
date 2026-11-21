@@ -1,0 +1,18 @@
+{
+  "id": 273585095,
+  "name": "conao3/org-generate.el",
+  "description": "Generate template files/folders from one org document",
+  "url": "https://github.com/conao3/org-generate.el",
+  "stars": 42,
+  "updated": "2026-11-15T12:15:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-generate",
+    "fetcher": "github",
+    "repo": "conao3/org-generate.el"
+  }
+}

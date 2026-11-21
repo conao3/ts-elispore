@@ -1,0 +1,18 @@
+{
+  "id": 42290435,
+  "name": "xuchunyang/eshell-git-prompt",
+  "description": "Some Eshell prompts for Git users",
+  "url": "https://github.com/xuchunyang/eshell-git-prompt",
+  "stars": 83,
+  "updated": "2022-08-30T20:02:46Z",
+  "archived": false,
+  "topics": ["eshell"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-git-prompt",
+    "fetcher": "github",
+    "repo": "xuchunyang/eshell-git-prompt"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 38915187,
+  "name": "hung-phan/babel-repl",
+  "description": "Interactive shell for https://babeljs.io/ in emacs",
+  "url": "https://github.com/hung-phan/babel-repl",
+  "stars": 12,
+  "updated": "2017-04-08T15:46:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "babel-repl",
+    "fetcher": "github",
+    "repo": "hung-phan/babel-repl"
+  }
+}

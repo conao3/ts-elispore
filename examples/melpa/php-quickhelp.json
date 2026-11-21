@@ -1,0 +1,18 @@
+{
+  "id": 255394926,
+  "name": "vpxyz/php-quickhelp",
+  "description": "A php quickhelp and eldoc backed for emacs ",
+  "url": "https://github.com/vpxyz/php-quickhelp",
+  "stars": 2,
+  "updated": "2021-08-19T21:20:39Z",
+  "archived": false,
+  "topics": ["company-php", "company-phpactor", "company-quickhelp", "eldoc", "php", "quickhelp"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "php-quickhelp",
+    "fetcher": "github",
+    "repo": "vpxyz/php-quickhelp"
+  }
+}

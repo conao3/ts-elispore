@@ -1,0 +1,18 @@
+{
+  "id": 8061342,
+  "name": "jcatw/purty-mode",
+  "description": "Safely pretty-print greek letters, mathematical symbols, or anything else",
+  "url": "https://github.com/jcatw/purty-mode",
+  "stars": 11,
+  "updated": "2015-11-25T02:41:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "purty-mode",
+    "fetcher": "github",
+    "repo": "jcatw/purty-mode"
+  }
+}

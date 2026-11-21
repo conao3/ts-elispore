@@ -1,0 +1,18 @@
+{
+  "id": 265638094,
+  "name": "rclarey/deno-emacs",
+  "description": "A collection of utilities to allow for development with deno in emacs!",
+  "url": "https://github.com/rclarey/deno-emacs",
+  "stars": 15,
+  "updated": "2023-01-25T03:40:27Z",
+  "archived": false,
+  "topics": ["deno", "emacs", "emacs-mode", "formatter"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "deno-fmt",
+    "fetcher": "github",
+    "repo": "rclarey/deno-emacs"
+  }
+}

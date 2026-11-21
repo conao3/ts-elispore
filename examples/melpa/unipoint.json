@@ -1,0 +1,18 @@
+{
+  "id": 1041542,
+  "name": "apg/unipoint",
+  "description": "emacs minor mode for quickly entering mathematics related unicode codepoints",
+  "url": "https://github.com/apg/unipoint",
+  "stars": 7,
+  "updated": "2014-01-13T22:24:43Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unipoint",
+    "fetcher": "github",
+    "repo": "apg/unipoint"
+  }
+}

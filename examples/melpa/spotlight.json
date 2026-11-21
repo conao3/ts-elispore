@@ -1,0 +1,18 @@
+{
+  "id": 41610843,
+  "name": "benmaughan/spotlight.el",
+  "description": "Emacs package to query Mac OS X spotlight",
+  "url": "https://github.com/benmaughan/spotlight.el",
+  "stars": 41,
+  "updated": "2020-01-09T21:37:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "spotlight",
+    "fetcher": "github",
+    "repo": "benmaughan/spotlight.el"
+  }
+}

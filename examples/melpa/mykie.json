@@ -1,0 +1,18 @@
+{
+  "id": 11420869,
+  "name": "yuutayamada/mykie-el",
+  "description": "",
+  "url": "https://github.com/yuutayamada/mykie-el",
+  "stars": 68,
+  "updated": "2015-08-08T23:44:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mykie",
+    "fetcher": "github",
+    "repo": "yuutayamada/mykie-el"
+  }
+}

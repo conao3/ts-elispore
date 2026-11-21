@@ -1,0 +1,18 @@
+{
+  "id": 1090535372,
+  "name": "saulotoledo/trailing-newline-indicator",
+  "description": "Emacs package for showing an indicator for the trailing newline in the end of the file",
+  "url": "https://github.com/saulotoledo/trailing-newline-indicator",
+  "stars": 12,
+  "updated": "2026-05-20T16:09:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "trailing-newline-indicator",
+    "fetcher": "github",
+    "repo": "saulotoledo/trailing-newline-indicator"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1110869575,
+  "name": "amolv06/rare-words",
+  "description": "",
+  "url": "https://github.com/amolv06/rare-words",
+  "stars": 0,
+  "updated": "2026-04-01T06:47:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rare-words",
+    "fetcher": "github",
+    "repo": "amolv06/rare-words"
+  }
+}

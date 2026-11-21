@@ -1,0 +1,18 @@
+{
+  "id": 39532958,
+  "name": "credmp/arjen-grey-theme",
+  "description": "A soothing grey color theme for GNU Emacs 24",
+  "url": "https://github.com/credmp/arjen-grey-theme",
+  "stars": 25,
+  "updated": "2021-12-17T16:46:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "arjen-grey-theme",
+    "fetcher": "github",
+    "repo": "credmp/arjen-grey-theme"
+  }
+}

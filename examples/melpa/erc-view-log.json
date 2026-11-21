@@ -1,0 +1,18 @@
+{
+  "id": 871138,
+  "name": "Niluge-KiWi/erc-view-log",
+  "description": "erc-view-log is an emacs mode for viewing ERC logs",
+  "url": "https://github.com/Niluge-KiWi/erc-view-log",
+  "stars": 15,
+  "updated": "2014-02-27T20:39:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erc-view-log",
+    "fetcher": "github",
+    "repo": "Niluge-KiWi/erc-view-log"
+  }
+}

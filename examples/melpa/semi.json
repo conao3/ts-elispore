@@ -1,0 +1,18 @@
+{
+  "id": 100737341,
+  "name": "emacsmirror/semi",
+  "description": "MIME features",
+  "url": "https://github.com/emacsmirror/semi",
+  "stars": 0,
+  "updated": "2025-12-07T18:34:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "semi",
+    "fetcher": "github",
+    "repo": "emacsmirror/semi"
+  }
+}

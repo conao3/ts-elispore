@@ -1,0 +1,18 @@
+{
+  "id": 3650632,
+  "name": "lewang/command-log-mode",
+  "description": "log commands to buffer",
+  "url": "https://github.com/lewang/command-log-mode",
+  "stars": 234,
+  "updated": "2021-10-08T14:38:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "command-log-mode",
+    "fetcher": "github",
+    "repo": "lewang/command-log-mode"
+  }
+}

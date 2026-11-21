@@ -1,0 +1,30 @@
+{
+  "id": 94993787,
+  "name": "gdkrmr/flycheck-julia",
+  "description": "A Julia linter for Emacs",
+  "url": "https://github.com/gdkrmr/flycheck-julia",
+  "stars": 16,
+  "updated": "2017-07-29T21:42:06Z",
+  "archived": true,
+  "topics": [
+    "code-analysis",
+    "emacs",
+    "ess",
+    "flycheck",
+    "flycheck-julia",
+    "julia",
+    "julia-language",
+    "julialang",
+    "lint",
+    "linter",
+    "melpa"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-julia",
+    "fetcher": "github",
+    "repo": "gdkrmr/flycheck-julia"
+  }
+}

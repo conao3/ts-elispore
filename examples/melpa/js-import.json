@@ -1,0 +1,18 @@
+{
+  "id": 71119272,
+  "name": "jakoblind/js-import",
+  "description": "Emacs package to automatically import JavaScript files from the current project or dependencies.",
+  "url": "https://github.com/jakoblind/js-import",
+  "stars": 29,
+  "updated": "2026-10-25T07:24:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js-import",
+    "fetcher": "github",
+    "repo": "jakoblind/js-import"
+  }
+}

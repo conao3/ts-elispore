@@ -1,0 +1,18 @@
+{
+  "id": 201184016,
+  "name": "xuchunyang/lol-data-dragon.el",
+  "description": "Browse some League of Legends static data within Emacs",
+  "url": "https://github.com/xuchunyang/lol-data-dragon.el",
+  "stars": 6,
+  "updated": "2020-07-05T18:22:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lol-data-dragon",
+    "fetcher": "github",
+    "repo": "xuchunyang/lol-data-dragon.el"
+  }
+}

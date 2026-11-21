@@ -1,0 +1,18 @@
+{
+  "id": 15083560,
+  "name": "kiwanami/emacs-portage-navi",
+  "description": "Portage Navigation GUI",
+  "url": "https://github.com/kiwanami/emacs-portage-navi",
+  "stars": 8,
+  "updated": "2021-10-08T05:41:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "portage-navi",
+    "fetcher": "github",
+    "repo": "kiwanami/emacs-portage-navi"
+  }
+}

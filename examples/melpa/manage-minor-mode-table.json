@@ -1,0 +1,18 @@
+{
+  "id": 237807245,
+  "name": "jcs-elpa/manage-minor-mode-table",
+  "description": "Manage minor-modes in table.",
+  "url": "https://github.com/jcs-elpa/manage-minor-mode-table",
+  "stars": 17,
+  "updated": "2026-06-19T08:33:36Z",
+  "archived": false,
+  "topics": ["emacs", "minor-mode", "mode", "tool-management"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "manage-minor-mode-table",
+    "fetcher": "github",
+    "repo": "jcs-elpa/manage-minor-mode-table"
+  }
+}

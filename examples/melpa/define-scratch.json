@@ -1,0 +1,18 @@
+{
+  "id": 579390039,
+  "name": "lassik/emacs-define-scratch",
+  "description": "Define new commands to make scratch buffers",
+  "url": "https://github.com/lassik/emacs-define-scratch",
+  "stars": 1,
+  "updated": "2022-12-20T09:46:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "define-scratch",
+    "fetcher": "github",
+    "repo": "lassik/emacs-define-scratch"
+  }
+}

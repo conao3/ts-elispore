@@ -1,0 +1,19 @@
+{
+  "id": 124490313,
+  "name": "realgud/realgud-node-inspect",
+  "description": "realgud support for newer \"node inspect\" ",
+  "url": "https://github.com/realgud/realgud-node-inspect",
+  "stars": 11,
+  "updated": "2019-05-26T19:45:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "realgud-node-inspect",
+    "fetcher": "github",
+    "repo": "realgud/realgud-node-inspect",
+    "files": "(:defaults\n         (\"realgud-node-inspect\" \"realgud-node-inspect/*.el\"))"
+  }
+}

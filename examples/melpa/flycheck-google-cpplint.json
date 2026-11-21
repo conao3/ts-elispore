@@ -1,0 +1,18 @@
+{
+  "id": 17285965,
+  "name": "flycheck/flycheck-google-cpplint",
+  "description": "Google C++ Style checker for Flycheck",
+  "url": "https://github.com/flycheck/flycheck-google-cpplint",
+  "stars": 42,
+  "updated": "2026-06-19T14:09:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-google-cpplint",
+    "fetcher": "github",
+    "repo": "flycheck/flycheck-google-cpplint"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 67694745,
+  "name": "hlissner/emacs-mips-mode",
+  "description": "An Emacs major mode for MIPS assembly code",
+  "url": "https://github.com/hlissner/emacs-mips-mode",
+  "stars": 30,
+  "updated": "2022-06-08T12:12:55Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode", "melpa", "mips-assembler"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mips-mode",
+    "fetcher": "github",
+    "repo": "hlissner/emacs-mips-mode"
+  }
+}

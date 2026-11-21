@@ -1,0 +1,18 @@
+{
+  "id": 500873411,
+  "name": "lassik/emacs-insert-random",
+  "description": "Insert random characters from various character sets",
+  "url": "https://github.com/lassik/emacs-insert-random",
+  "stars": 1,
+  "updated": "2023-02-12T17:10:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "insert-random",
+    "fetcher": "github",
+    "repo": "lassik/emacs-insert-random"
+  }
+}

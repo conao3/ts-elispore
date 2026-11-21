@@ -1,0 +1,19 @@
+{
+  "id": 414384034,
+  "name": "inickey/org-clock-reminder",
+  "description": "Emacs package to remind you current clocking task or its absence",
+  "url": "https://github.com/inickey/org-clock-reminder",
+  "stars": 18,
+  "updated": "2023-02-22T19:56:10Z",
+  "archived": false,
+  "topics": ["emacs", "org-clock", "org-mode", "productivity"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-clock-reminder",
+    "fetcher": "github",
+    "repo": "inickey/org-clock-reminder",
+    "files": "(:defaults \"icons/*.png\")"
+  }
+}

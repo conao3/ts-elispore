@@ -1,0 +1,18 @@
+{
+  "id": 130403284,
+  "name": "montag451/helm-lxc",
+  "description": "Helm interface to manage LXC containers",
+  "url": "https://github.com/montag451/helm-lxc",
+  "stars": 2,
+  "updated": "2020-03-23T08:16:44Z",
+  "archived": false,
+  "topics": ["containers", "elisp", "emacs", "emacs-helm", "emacs-lisp", "lxc", "lxc-containers"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-lxc",
+    "fetcher": "github",
+    "repo": "montag451/helm-lxc"
+  }
+}

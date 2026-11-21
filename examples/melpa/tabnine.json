@@ -1,0 +1,18 @@
+{
+  "id": 623782761,
+  "name": "shuxiao9058/tabnine",
+  "description": "An unofficial TabNine package for Emacs with TabNine Chat Supported",
+  "url": "https://github.com/shuxiao9058/tabnine",
+  "stars": 51,
+  "updated": "2025-01-02T16:08:57Z",
+  "archived": false,
+  "topics": ["capf", "chat", "company-mode", "emacs", "tabnine"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tabnine",
+    "fetcher": "github",
+    "repo": "shuxiao9058/tabnine"
+  }
+}

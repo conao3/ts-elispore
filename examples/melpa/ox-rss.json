@@ -1,0 +1,18 @@
+{
+  "id": 589761481,
+  "name": "bhwdev/ox-rss",
+  "description": "",
+  "url": "https://github.com/bhwdev/ox-rss",
+  "stars": 12,
+  "updated": "2026-05-12T22:31:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-rss",
+    "fetcher": "github",
+    "repo": "bhwdev/ox-rss"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 51105526,
+  "name": "emacsorphanage/levenshtein",
+  "description": "Edit distance between two strings",
+  "url": "https://github.com/emacsorphanage/levenshtein",
+  "stars": 2,
+  "updated": "2016-02-04T21:07:16Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "levenshtein",
+    "fetcher": "github",
+    "repo": "emacsorphanage/levenshtein"
+  }
+}

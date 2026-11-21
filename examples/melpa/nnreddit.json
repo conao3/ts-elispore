@@ -1,0 +1,19 @@
+{
+  "id": 189784373,
+  "name": "dickmao/nnreddit",
+  "description": "A Gnus backend for Reddit",
+  "url": "https://github.com/dickmao/nnreddit",
+  "stars": 78,
+  "updated": "2026-01-07T23:18:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nnreddit",
+    "fetcher": "github",
+    "repo": "dickmao/nnreddit",
+    "files": "(:defaults \"setup.py\" \"requirements.txt\" \"nnreddit\")"
+  }
+}

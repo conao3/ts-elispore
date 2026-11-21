@@ -1,0 +1,18 @@
+{
+  "id": 922584563,
+  "name": "Judafa/linkin-org",
+  "description": "Unbreakable links.",
+  "url": "https://github.com/Judafa/linkin-org",
+  "stars": 21,
+  "updated": "2026-06-17T21:14:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "linkin-org",
+    "fetcher": "github",
+    "repo": "Judafa/linkin-org"
+  }
+}

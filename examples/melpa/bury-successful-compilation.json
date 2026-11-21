@@ -1,0 +1,28 @@
+{
+  "id": 31447319,
+  "name": "EricCrosson/bury-successful-compilation",
+  "description": "Bury Emacs' *compilation* buffer when compilation succeeds",
+  "url": "https://github.com/EricCrosson/bury-successful-compilation",
+  "stars": 8,
+  "updated": "2018-11-06T04:03:18Z",
+  "archived": false,
+  "topics": [
+    "buffer",
+    "bury",
+    "compilation",
+    "emacs",
+    "gnu",
+    "make",
+    "minor-mode",
+    "recompile",
+    "successful"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bury-successful-compilation",
+    "fetcher": "github",
+    "repo": "EricCrosson/bury-successful-compilation"
+  }
+}

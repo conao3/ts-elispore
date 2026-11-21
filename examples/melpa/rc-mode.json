@@ -1,0 +1,18 @@
+{
+  "id": 67229459,
+  "name": "mrhmouse/rc-mode.el",
+  "description": "Emacs major mode for the Plan9 rc shell",
+  "url": "https://github.com/mrhmouse/rc-mode.el",
+  "stars": 9,
+  "updated": "2024-05-14T00:25:21Z",
+  "archived": false,
+  "topics": ["emacs-mode", "rc-shell"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rc-mode",
+    "fetcher": "github",
+    "repo": "mrhmouse/rc-mode.el"
+  }
+}

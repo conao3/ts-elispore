@@ -1,0 +1,18 @@
+{
+  "id": 587094,
+  "name": "emacsorphanage/pager",
+  "description": "Windows-scroll commands",
+  "url": "https://github.com/emacsorphanage/pager",
+  "stars": 2,
+  "updated": "2021-09-27T17:18:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "pager",
+    "fetcher": "github",
+    "repo": "emacsorphanage/pager"
+  }
+}

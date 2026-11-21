@@ -1,0 +1,18 @@
+{
+  "id": 1316214957,
+  "name": "OverbearingPearl/api-credit",
+  "description": "Real-time AI API balance in the Emacs modeline. Supports OpenRouter, DeepSeek, and more.",
+  "url": "https://github.com/OverbearingPearl/api-credit",
+  "stars": 0,
+  "updated": "2026-10-30T13:27:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "api-credit",
+    "fetcher": "github",
+    "repo": "OverbearingPearl/api-credit"
+  }
+}

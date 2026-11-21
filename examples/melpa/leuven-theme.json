@@ -1,0 +1,18 @@
+{
+  "id": 6988730,
+  "name": "fniessen/emacs-leuven-theme",
+  "description": "This Emacs theme reduces eye strain with a light, high-contrast color scheme, syntax highlighting, and support for multiple modes. Enhance your coding experience!  #emacs #theme #coding #orgmode",
+  "url": "https://github.com/fniessen/emacs-leuven-theme",
+  "stars": 768,
+  "updated": "2026-11-20T11:32:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "leuven-theme",
+    "fetcher": "github",
+    "repo": "fniessen/emacs-leuven-theme"
+  }
+}

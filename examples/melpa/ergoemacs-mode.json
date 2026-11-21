@@ -1,0 +1,19 @@
+{
+  "id": 11260454,
+  "name": "ergoemacs/ergoemacs-mode",
+  "description": "ergoemacs-mode",
+  "url": "https://github.com/ergoemacs/ergoemacs-mode",
+  "stars": 317,
+  "updated": "2026-08-11T23:15:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ergoemacs-mode",
+    "fetcher": "github",
+    "repo": "ergoemacs/ergoemacs-mode",
+    "files": "(\"*.el\"\n         \"*.svg\"\n         \"*.ahk\"\n         \"*.info\"\n         \"dir\"\n         \"bash-us.txt\"\n         \"os_x_qwerty.dict.txt\")"
+  }
+}

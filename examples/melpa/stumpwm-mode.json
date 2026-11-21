@@ -1,0 +1,19 @@
+{
+  "id": 16895626,
+  "name": "stumpwm/stumpwm-contrib",
+  "description": "Extension Modules for StumpWM",
+  "url": "https://github.com/stumpwm/stumpwm-contrib",
+  "stars": 245,
+  "updated": "2026-10-01T14:21:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Common Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "stumpwm-mode",
+    "fetcher": "github",
+    "repo": "stumpwm/stumpwm-contrib",
+    "files": "(\"util/swm-emacs/*.el\")"
+  }
+}

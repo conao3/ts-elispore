@@ -1,0 +1,18 @@
+{
+  "id": 7625885,
+  "name": "Wilfred/ag.el",
+  "description": "An Emacs frontend to The Silver Searcher",
+  "url": "https://github.com/Wilfred/ag.el",
+  "stars": 525,
+  "updated": "2020-11-01T10:05:44Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ag",
+    "fetcher": "github",
+    "repo": "Wilfred/ag.el"
+  }
+}

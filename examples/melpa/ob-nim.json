@@ -1,0 +1,18 @@
+{
+  "id": 64481011,
+  "name": "Lompik/ob-nim",
+  "description": "",
+  "url": "https://github.com/Lompik/ob-nim",
+  "stars": 12,
+  "updated": "2021-06-01T18:23:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "LGPL-2.1",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-nim",
+    "fetcher": "github",
+    "repo": "Lompik/ob-nim"
+  }
+}

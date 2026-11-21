@@ -1,0 +1,18 @@
+{
+  "id": 48885957,
+  "name": "cosmicexplorer/f3",
+  "description": "find files fast with helm and find in emacs",
+  "url": "https://github.com/cosmicexplorer/f3",
+  "stars": 27,
+  "updated": "2018-01-30T11:58:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "f3",
+    "fetcher": "github",
+    "repo": "cosmicexplorer/f3"
+  }
+}

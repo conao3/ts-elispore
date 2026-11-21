@@ -1,0 +1,19 @@
+{
+  "id": 497131262,
+  "name": "karthink/elfeed-tube",
+  "description": "Youtube integration for Elfeed, the feed reader for Emacs",
+  "url": "https://github.com/karthink/elfeed-tube",
+  "stars": 316,
+  "updated": "2026-10-11T19:42:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elfeed-tube-mpv",
+    "fetcher": "github",
+    "repo": "karthink/elfeed-tube",
+    "files": "(\"elfeed-tube-mpv.el\")"
+  }
+}

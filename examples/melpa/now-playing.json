@@ -1,0 +1,19 @@
+{
+  "id": 1287915324,
+  "name": "kickingvegas/now-playing",
+  "description": "An Emacs Transient interface for the macOS Music app.",
+  "url": "https://github.com/kickingvegas/now-playing",
+  "stars": 9,
+  "updated": "2026-11-07T19:54:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "now-playing",
+    "fetcher": "github",
+    "repo": "kickingvegas/now-playing",
+    "files": "(:defaults \"docs/images\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 194254411,
+  "name": "john2x/jenkinsfile-mode",
+  "description": "Major mode for editing Jenkins declarative pipeline syntax",
+  "url": "https://github.com/john2x/jenkinsfile-mode",
+  "stars": 19,
+  "updated": "2023-05-25T20:06:19Z",
+  "archived": false,
+  "topics": ["emacs", "jenkinsfile"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jenkinsfile-mode",
+    "fetcher": "github",
+    "repo": "john2x/jenkinsfile-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 207321179,
+  "name": "abrochard/walkman",
+  "description": "Write HTTP requests in Org mode and replay them at will using cURL",
+  "url": "https://github.com/abrochard/walkman",
+  "stars": 153,
+  "updated": "2026-05-15T17:46:18Z",
+  "archived": false,
+  "topics": ["curl", "emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "walkman",
+    "fetcher": "github",
+    "repo": "abrochard/walkman"
+  }
+}

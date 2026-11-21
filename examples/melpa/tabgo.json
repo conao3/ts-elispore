@@ -1,0 +1,18 @@
+{
+  "id": 610405289,
+  "name": "isamert/tabgo.el",
+  "description": "avy-like jumper for tab-bar and tab-line",
+  "url": "https://github.com/isamert/tabgo.el",
+  "stars": 33,
+  "updated": "2026-06-24T15:41:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tabgo",
+    "fetcher": "github",
+    "repo": "isamert/tabgo.el"
+  }
+}

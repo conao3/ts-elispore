@@ -1,0 +1,19 @@
+{
+  "id": 11682684,
+  "name": "dfeich/org8-wikiexporters",
+  "description": "Emacs Org8.x exporters to TiddlyWiki and Foswiki/Twiki",
+  "url": "https://github.com/dfeich/org8-wikiexporters",
+  "stars": 25,
+  "updated": "2024-01-05T20:48:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-tiddly",
+    "fetcher": "github",
+    "repo": "dfeich/org8-wikiexporters",
+    "files": "(\"ox-tiddly.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 860345611,
+  "name": "port19x/eros-inspector",
+  "description": "Glue between eros and inspector",
+  "url": "https://github.com/port19x/eros-inspector",
+  "stars": 12,
+  "updated": "2024-09-26T07:35:28Z",
+  "archived": false,
+  "topics": ["elisp"],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eros-inspector",
+    "fetcher": "github",
+    "repo": "port19x/eros-inspector"
+  }
+}

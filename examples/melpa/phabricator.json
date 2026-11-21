@@ -1,0 +1,18 @@
+{
+  "id": 25874773,
+  "name": "ajtulloch/phabricator.el",
+  "description": "",
+  "url": "https://github.com/ajtulloch/phabricator.el",
+  "stars": 14,
+  "updated": "2016-05-10T14:25:16Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "phabricator",
+    "fetcher": "github",
+    "repo": "ajtulloch/phabricator.el"
+  }
+}

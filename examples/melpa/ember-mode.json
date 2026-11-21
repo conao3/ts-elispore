@@ -1,0 +1,18 @@
+{
+  "id": 21276405,
+  "name": "madnificent/ember-mode",
+  "description": "Emacs mode for navigating through emberjs projects.",
+  "url": "https://github.com/madnificent/ember-mode",
+  "stars": 32,
+  "updated": "2024-09-25T09:42:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ember-mode",
+    "fetcher": "github",
+    "repo": "madnificent/ember-mode"
+  }
+}

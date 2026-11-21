@@ -1,0 +1,18 @@
+{
+  "id": 87166852,
+  "name": "wolray/symbol-overlay",
+  "description": "Highlight symbols with keymap-enabled overlays",
+  "url": "https://github.com/wolray/symbol-overlay",
+  "stars": 417,
+  "updated": "2026-07-03T14:37:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "symbol-overlay",
+    "fetcher": "github",
+    "repo": "wolray/symbol-overlay"
+  }
+}

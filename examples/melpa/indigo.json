@@ -1,0 +1,19 @@
+{
+  "id": 1041692784,
+  "name": "gicrisf/emacs-indigo",
+  "description": "Emacs Lisp bindings for the Indigo cheminformatics library",
+  "url": "https://github.com/gicrisf/emacs-indigo",
+  "stars": 6,
+  "updated": "2026-05-06T16:17:53Z",
+  "archived": false,
+  "topics": ["cheminformatics", "chemistry", "emacs", "emacs-package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "indigo",
+    "fetcher": "github",
+    "repo": "gicrisf/emacs-indigo",
+    "files": "(:defaults\n                \"Makefile\"\n                \"install.sh\"\n                \"install-indigo.sh\"\n                \"install-dependencies.sh\"\n                (\"src\" \"src/*.c\")\n                (\"src\" \"src/*.h\"))"
+  }
+}

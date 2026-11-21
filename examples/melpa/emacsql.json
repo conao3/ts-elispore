@@ -1,0 +1,19 @@
+{
+  "id": 15959613,
+  "name": "magit/emacsql",
+  "description": "A high-level Emacs Lisp front-end for SQLite",
+  "url": "https://github.com/magit/emacsql",
+  "stars": 617,
+  "updated": "2026-10-01T15:44:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "emacsql",
+    "fetcher": "github",
+    "repo": "magit/emacsql",
+    "files": "(:defaults \"README.org\")"
+  }
+}

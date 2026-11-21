@@ -1,0 +1,18 @@
+{
+  "id": 534687521,
+  "name": "enricoflor/math-tex-convert",
+  "description": "Convert (La)TeX macros to unicode and back, interactively (in GNU Emacs)",
+  "url": "https://github.com/enricoflor/math-tex-convert",
+  "stars": 0,
+  "updated": "2022-12-10T19:38:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "math-tex-convert",
+    "fetcher": "github",
+    "repo": "enricoflor/math-tex-convert"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 517104288,
+  "name": "Stebalien/i3bar.el",
+  "description": "An Emacs package for displaying the output of an i3status compatible command in the mode-line or tab-bar.",
+  "url": "https://github.com/Stebalien/i3bar.el",
+  "stars": 23,
+  "updated": "2026-01-02T16:51:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "i3bar",
+    "fetcher": "github",
+    "repo": "Stebalien/i3bar.el"
+  }
+}

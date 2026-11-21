@@ -1,0 +1,18 @@
+{
+  "id": 4685592,
+  "name": "sachac/artbollocks-mode",
+  "description": "Emacs mode for highlighting weasel words",
+  "url": "https://github.com/sachac/artbollocks-mode",
+  "stars": 78,
+  "updated": "2025-12-11T16:24:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "artbollocks-mode",
+    "fetcher": "github",
+    "repo": "sachac/artbollocks-mode"
+  }
+}

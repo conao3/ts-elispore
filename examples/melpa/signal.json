@@ -1,0 +1,18 @@
+{
+  "id": 56432874,
+  "name": "mola-T/signal",
+  "description": "SIGNAL- Modern signal package replacing hook",
+  "url": "https://github.com/mola-T/signal",
+  "stars": 14,
+  "updated": "2016-08-16T14:38:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "signal",
+    "fetcher": "github",
+    "repo": "mola-T/signal"
+  }
+}

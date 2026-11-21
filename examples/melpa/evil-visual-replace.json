@@ -1,0 +1,18 @@
+{
+  "id": 64111347,
+  "name": "troyp/evil-visual-replace",
+  "description": "Search and replace within Emacs evil-mode's visual blocks (rectangle selections)",
+  "url": "https://github.com/troyp/evil-visual-replace",
+  "stars": 8,
+  "updated": "2020-09-19T23:11:03Z",
+  "archived": false,
+  "topics": ["emacs", "evil", "rectangle", "visual-state"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-visual-replace",
+    "fetcher": "github",
+    "repo": "troyp/evil-visual-replace"
+  }
+}

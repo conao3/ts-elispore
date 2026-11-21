@@ -1,0 +1,18 @@
+{
+  "id": 28710754,
+  "name": "ljos/ob-prolog",
+  "description": "Org babel functions for prolog evaluation.",
+  "url": "https://github.com/ljos/ob-prolog",
+  "stars": 14,
+  "updated": "2019-11-04T19:27:09Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "literate-programming", "org-mode", "prolog"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-prolog",
+    "fetcher": "github",
+    "repo": "ljos/ob-prolog"
+  }
+}

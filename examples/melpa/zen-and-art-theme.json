@@ -1,0 +1,18 @@
+{
+  "id": 4675703,
+  "name": "developernotes/zen-and-art-theme",
+  "description": "zen-and-art theme for Emacs 24",
+  "url": "https://github.com/developernotes/zen-and-art-theme",
+  "stars": 8,
+  "updated": "2012-06-22T14:37:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zen-and-art-theme",
+    "fetcher": "github",
+    "repo": "developernotes/zen-and-art-theme"
+  }
+}

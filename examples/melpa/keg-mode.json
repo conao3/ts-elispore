@@ -1,0 +1,19 @@
+{
+  "id": 267907536,
+  "name": "conao3/keg.el",
+  "description": "Modern Elisp package development system",
+  "url": "https://github.com/conao3/keg.el",
+  "stars": 33,
+  "updated": "2026-11-15T16:25:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "keg-mode",
+    "fetcher": "github",
+    "repo": "conao3/keg.el",
+    "files": "(\"keg-mode.el\")"
+  }
+}

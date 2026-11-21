@@ -1,0 +1,18 @@
+{
+  "id": 1089469,
+  "name": "nschum/full-ack",
+  "description": "An Emacs front-end for ack",
+  "url": "https://github.com/nschum/full-ack",
+  "stars": 65,
+  "updated": "2015-11-05T04:49:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "full-ack",
+    "fetcher": "github",
+    "repo": "nschum/full-ack"
+  }
+}

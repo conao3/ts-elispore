@@ -1,0 +1,18 @@
+{
+  "id": 136854229,
+  "name": "fernando-jascovich/android-env.el",
+  "description": "Emacs helper functions for working in android",
+  "url": "https://github.com/fernando-jascovich/android-env.el",
+  "stars": 45,
+  "updated": "2022-08-10T14:49:03Z",
+  "archived": false,
+  "topics": ["android", "android-development", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "android-env",
+    "fetcher": "github",
+    "repo": "fernando-jascovich/android-env.el"
+  }
+}

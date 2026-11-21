@@ -1,0 +1,18 @@
+{
+  "id": 6993794,
+  "name": "ianxm/emacs-scrum",
+  "description": "dynamic scrum report generation for org-mode buffers",
+  "url": "https://github.com/ianxm/emacs-scrum",
+  "stars": 119,
+  "updated": "2024-12-31T22:59:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-scrum",
+    "fetcher": "github",
+    "repo": "ianxm/emacs-scrum"
+  }
+}

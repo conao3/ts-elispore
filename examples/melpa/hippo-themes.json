@@ -1,0 +1,18 @@
+{
+  "id": 638686726,
+  "name": "kimim/emacs-hippo-theme",
+  "description": "Emacs color themes: light, night and paper",
+  "url": "https://github.com/kimim/emacs-hippo-theme",
+  "stars": 1,
+  "updated": "2026-09-18T06:23:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hippo-themes",
+    "fetcher": "github",
+    "repo": "kimim/emacs-hippo-theme"
+  }
+}

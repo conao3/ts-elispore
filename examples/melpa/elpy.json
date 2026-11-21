@@ -1,0 +1,19 @@
+{
+  "id": 6448654,
+  "name": "jorgenschaefer/elpy",
+  "description": "Emacs Python Development Environment",
+  "url": "https://github.com/jorgenschaefer/elpy",
+  "stars": 1927,
+  "updated": "2026-11-10T16:56:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elpy",
+    "fetcher": "github",
+    "repo": "jorgenschaefer/elpy",
+    "files": "(\"*.el\"\n         \"NEWS.rst\"\n         \"snippets\"\n         \"elpy\")"
+  }
+}

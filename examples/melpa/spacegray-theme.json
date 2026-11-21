@@ -1,0 +1,18 @@
+{
+  "id": 15498929,
+  "name": "bruce/emacs-spacegray-theme",
+  "description": "A Hyperminimal UI Theme for Emacs",
+  "url": "https://github.com/bruce/emacs-spacegray-theme",
+  "stars": 59,
+  "updated": "2019-11-09T01:13:14Z",
+  "archived": false,
+  "topics": ["emacs", "melpa", "spacegray", "theme"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "spacegray-theme",
+    "fetcher": "github",
+    "repo": "bruce/emacs-spacegray-theme"
+  }
+}

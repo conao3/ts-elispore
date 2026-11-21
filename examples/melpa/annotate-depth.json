@@ -1,0 +1,18 @@
+{
+  "id": 58826672,
+  "name": "netromdk/annotate-depth",
+  "description": "Annotate buffer if indentation depth is beyond threshold in Emacs.",
+  "url": "https://github.com/netromdk/annotate-depth",
+  "stars": 3,
+  "updated": "2016-05-20T20:40:31Z",
+  "archived": false,
+  "topics": ["annotates-buffer", "emacs", "emacs-mode", "indentation-depth", "melpa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "annotate-depth",
+    "fetcher": "github",
+    "repo": "netromdk/annotate-depth"
+  }
+}

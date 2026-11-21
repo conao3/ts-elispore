@@ -1,0 +1,18 @@
+{
+  "id": 134050267,
+  "name": "alphapapa/frame-purpose.el",
+  "description": "Purpose-specific frames for Emacs",
+  "url": "https://github.com/alphapapa/frame-purpose.el",
+  "stars": 52,
+  "updated": "2022-10-06T01:34:18Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "frame-purpose",
+    "fetcher": "github",
+    "repo": "alphapapa/frame-purpose.el"
+  }
+}

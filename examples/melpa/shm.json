@@ -1,0 +1,19 @@
+{
+  "id": 13725713,
+  "name": "projectional-haskell/structured-haskell-mode",
+  "description": "Structured editing minor mode for Haskell in Emacs",
+  "url": "https://github.com/projectional-haskell/structured-haskell-mode",
+  "stars": 546,
+  "updated": "2019-02-22T11:18:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "shm",
+    "fetcher": "github",
+    "repo": "projectional-haskell/structured-haskell-mode",
+    "files": "(\"elisp/*.el\" (:exclude \"shm-test.el\" \"shm-tests.el\"))"
+  }
+}

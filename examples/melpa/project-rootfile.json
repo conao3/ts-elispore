@@ -1,0 +1,18 @@
+{
+  "id": 486631700,
+  "name": "buzztaiki/project-rootfile.el",
+  "description": "Extension of project.el to detect project root with root file (e.g. Gemfile).",
+  "url": "https://github.com/buzztaiki/project-rootfile.el",
+  "stars": 14,
+  "updated": "2025-12-07T11:58:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "project-rootfile",
+    "fetcher": "github",
+    "repo": "buzztaiki/project-rootfile.el"
+  }
+}

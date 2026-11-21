@@ -1,0 +1,18 @@
+{
+  "id": 10736134,
+  "name": "tom-tan/esh-buf-stack",
+  "description": "This library adds a buffer stack feature to Eshell.",
+  "url": "https://github.com/tom-tan/esh-buf-stack",
+  "stars": 7,
+  "updated": "2014-04-16T08:19:56Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "eshell", "zsh"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "esh-buf-stack",
+    "fetcher": "github",
+    "repo": "tom-tan/esh-buf-stack"
+  }
+}

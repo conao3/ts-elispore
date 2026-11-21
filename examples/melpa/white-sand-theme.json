@@ -1,0 +1,18 @@
+{
+  "id": 38382814,
+  "name": "mswift42/white-sand-theme",
+  "description": "Emacs 24 theme with a light background.",
+  "url": "https://github.com/mswift42/white-sand-theme",
+  "stars": 22,
+  "updated": "2021-01-31T08:13:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "white-sand-theme",
+    "fetcher": "github",
+    "repo": "mswift42/white-sand-theme"
+  }
+}

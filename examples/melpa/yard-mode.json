@@ -1,0 +1,18 @@
+{
+  "id": 7299940,
+  "name": "pd/yard-mode.el",
+  "description": "Emacs minor mode for editing YARD tags",
+  "url": "https://github.com/pd/yard-mode.el",
+  "stars": 31,
+  "updated": "2023-05-05T19:52:49Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "ruby", "yardoc"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yard-mode",
+    "fetcher": "github",
+    "repo": "pd/yard-mode.el"
+  }
+}

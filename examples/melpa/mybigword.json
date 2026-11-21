@@ -1,0 +1,19 @@
+{
+  "id": 264211261,
+  "name": "redguardtoo/mybigword",
+  "description": "Use Zipf frequency of each word to extract English big words",
+  "url": "https://github.com/redguardtoo/mybigword",
+  "stars": 37,
+  "updated": "2023-08-09T09:04:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mybigword",
+    "fetcher": "github",
+    "repo": "redguardtoo/mybigword",
+    "files": "(\"mybigword.el\" \"eng.zipf\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 637897742,
+  "name": "DCsunset/modaled",
+  "description": "Build your own minor modes for modal editing in Emacs",
+  "url": "https://github.com/DCsunset/modaled",
+  "stars": 16,
+  "updated": "2025-01-24T20:04:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "modaled",
+    "fetcher": "github",
+    "repo": "DCsunset/modaled"
+  }
+}

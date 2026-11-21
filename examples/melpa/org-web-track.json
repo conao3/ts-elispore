@@ -1,0 +1,18 @@
+{
+  "id": 651410806,
+  "name": "p-snow/org-web-track",
+  "description": "A framework in Org Mode to assist users in managing data that changes over time from web pages and web APIs.",
+  "url": "https://github.com/p-snow/org-web-track",
+  "stars": 17,
+  "updated": "2026-03-22T11:23:22Z",
+  "archived": false,
+  "topics": ["data-track", "emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-web-track",
+    "fetcher": "github",
+    "repo": "p-snow/org-web-track"
+  }
+}

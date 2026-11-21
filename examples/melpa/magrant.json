@@ -1,0 +1,18 @@
+{
+  "id": 257850428,
+  "name": "p3r7/magrant",
+  "description": ":tea: A Vagrant porcelain in Emacs",
+  "url": "https://github.com/p3r7/magrant",
+  "stars": 9,
+  "updated": "2021-07-06T14:38:30Z",
+  "archived": false,
+  "topics": ["emacs", "vagrant"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magrant",
+    "fetcher": "github",
+    "repo": "p3r7/magrant"
+  }
+}

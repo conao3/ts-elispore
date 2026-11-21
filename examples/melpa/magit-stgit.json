@@ -1,0 +1,18 @@
+{
+  "id": 23640355,
+  "name": "stacked-git/magit-stgit",
+  "description": "StGit extension for Magit",
+  "url": "https://github.com/stacked-git/magit-stgit",
+  "stars": 12,
+  "updated": "2025-05-28T21:38:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "magit-stgit",
+    "fetcher": "github",
+    "repo": "stacked-git/magit-stgit"
+  }
+}

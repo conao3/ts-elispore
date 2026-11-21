@@ -1,0 +1,18 @@
+{
+  "id": 14539762,
+  "name": "Silex/projectile-rails",
+  "description": "Emacs Rails mode based on projectile",
+  "url": "https://github.com/Silex/projectile-rails",
+  "stars": 257,
+  "updated": "2026-10-01T08:10:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "projectile-rails",
+    "fetcher": "github",
+    "repo": "Silex/projectile-rails"
+  }
+}

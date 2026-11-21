@@ -1,0 +1,18 @@
+{
+  "id": 2493249,
+  "name": "austin-----/weibo.emacs",
+  "description": "Sina weibo client in Emacs",
+  "url": "https://github.com/austin-----/weibo.emacs",
+  "stars": 105,
+  "updated": "2015-05-30T08:27:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "weibo",
+    "fetcher": "github",
+    "repo": "austin-----/weibo.emacs"
+  }
+}

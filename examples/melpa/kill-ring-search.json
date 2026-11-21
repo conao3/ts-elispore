@@ -1,0 +1,18 @@
+{
+  "id": 1113048,
+  "name": "nschum/kill-ring-search.el",
+  "description": "Emacs: incremental search for the kill ring",
+  "url": "https://github.com/nschum/kill-ring-search.el",
+  "stars": 12,
+  "updated": "2014-04-22T15:58:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kill-ring-search",
+    "fetcher": "github",
+    "repo": "nschum/kill-ring-search.el"
+  }
+}

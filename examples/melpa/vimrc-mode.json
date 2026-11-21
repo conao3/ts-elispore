@@ -1,0 +1,18 @@
+{
+  "id": 8486643,
+  "name": "mcandre/vimrc-mode",
+  "description": "Enables syntax highlighting for .vimrc/_vimrc files",
+  "url": "https://github.com/mcandre/vimrc-mode",
+  "stars": 51,
+  "updated": "2025-01-28T06:35:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vimrc-mode",
+    "fetcher": "github",
+    "repo": "mcandre/vimrc-mode"
+  }
+}

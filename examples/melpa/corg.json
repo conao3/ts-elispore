@@ -1,0 +1,18 @@
+{
+  "id": 844235899,
+  "name": "isamert/corg.el",
+  "description": "🍾 Auto complete org-mode source/dynamic block headers seamlessly",
+  "url": "https://github.com/isamert/corg.el",
+  "stars": 66,
+  "updated": "2026-04-06T19:52:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "corg",
+    "fetcher": "github",
+    "repo": "isamert/corg.el"
+  }
+}

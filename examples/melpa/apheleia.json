@@ -1,0 +1,19 @@
+{
+  "id": 195713783,
+  "name": "radian-software/apheleia",
+  "description": "🌷 Run code formatter on buffer contents without moving point, using RCS patches and dynamic programming.",
+  "url": "https://github.com/radian-software/apheleia",
+  "stars": 792,
+  "updated": "2026-11-13T22:57:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "apheleia",
+    "fetcher": "github",
+    "repo": "radian-software/apheleia",
+    "files": "(:defaults\n                  (\"scripts\" \"scripts/formatters\"))"
+  }
+}

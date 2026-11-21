@@ -1,0 +1,18 @@
+{
+  "id": 324387,
+  "name": "byplayer/egg",
+  "description": "Emacs Got Git. This is a clone of Marius's excellent magit. Egg is an emacs interface to git.",
+  "url": "https://github.com/byplayer/egg",
+  "stars": 98,
+  "updated": "2019-05-15T03:59:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "egg",
+    "fetcher": "github",
+    "repo": "byplayer/egg"
+  }
+}

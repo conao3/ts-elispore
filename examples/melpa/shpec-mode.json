@@ -1,0 +1,18 @@
+{
+  "id": 35120346,
+  "name": "shpec/shpec-mode",
+  "description": "",
+  "url": "https://github.com/shpec/shpec-mode",
+  "stars": 2,
+  "updated": "2015-06-01T15:27:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "shpec-mode",
+    "fetcher": "github",
+    "repo": "shpec/shpec-mode"
+  }
+}

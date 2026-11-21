@@ -1,0 +1,18 @@
+{
+  "id": 705125849,
+  "name": "mkleehammer/surround",
+  "description": "An Emacs package for inserting, changing, and, deleting surrounding pairs of quotes, braces, etc.",
+  "url": "https://github.com/mkleehammer/surround",
+  "stars": 87,
+  "updated": "2025-07-25T05:12:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "surround",
+    "fetcher": "github",
+    "repo": "mkleehammer/surround"
+  }
+}

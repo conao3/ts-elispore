@@ -1,0 +1,19 @@
+{
+  "id": 1071504708,
+  "name": "tmythicator/lichess.el",
+  "description": "A minimal Emacs client for the Lichess API",
+  "url": "https://github.com/tmythicator/lichess.el",
+  "stars": 74,
+  "updated": "2026-11-13T22:40:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lichess",
+    "fetcher": "github",
+    "repo": "tmythicator/lichess.el",
+    "files": "(:defaults \"assets\" (:exclude \"lichess-debug.el\"))"
+  }
+}

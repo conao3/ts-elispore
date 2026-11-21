@@ -1,0 +1,18 @@
+{
+  "id": 36612324,
+  "name": "kostajh/harvest.el",
+  "description": "Work with Harvest App time entries from Emacs",
+  "url": "https://github.com/kostajh/harvest.el",
+  "stars": 20,
+  "updated": "2017-08-22T17:46:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "harvest",
+    "fetcher": "github",
+    "repo": "kostajh/harvest.el"
+  }
+}

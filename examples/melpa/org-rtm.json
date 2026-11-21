@@ -1,0 +1,18 @@
+{
+  "id": 48998145,
+  "name": "pmiddend/org-rtm",
+  "description": "Synchronize org-mode with RTM",
+  "url": "https://github.com/pmiddend/org-rtm",
+  "stars": 1,
+  "updated": "2016-02-14T12:37:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-rtm",
+    "fetcher": "github",
+    "repo": "pmiddend/org-rtm"
+  }
+}

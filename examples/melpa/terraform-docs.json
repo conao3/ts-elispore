@@ -1,0 +1,18 @@
+{
+  "id": 895510190,
+  "name": "loispostula/terraform-docs.el",
+  "description": "Generate Terraform modules documentation with terraform-docs within Emacs",
+  "url": "https://github.com/loispostula/terraform-docs.el",
+  "stars": 2,
+  "updated": "2025-09-10T05:54:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "terraform-docs",
+    "fetcher": "github",
+    "repo": "loispostula/terraform-docs.el"
+  }
+}

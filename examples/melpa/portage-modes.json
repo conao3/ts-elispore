@@ -1,0 +1,18 @@
+{
+  "id": 904310804,
+  "name": "OpenSauce04/portage-modes",
+  "description": "Emacs major modes for editing Portage configuration files",
+  "url": "https://github.com/OpenSauce04/portage-modes",
+  "stars": 6,
+  "updated": "2025-02-07T10:58:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "portage-modes",
+    "fetcher": "github",
+    "repo": "OpenSauce04/portage-modes"
+  }
+}

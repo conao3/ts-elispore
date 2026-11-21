@@ -1,0 +1,18 @@
+{
+  "id": 676730576,
+  "name": "emacsmirror/clang-format",
+  "description": "Format code using clang-format",
+  "url": "https://github.com/emacsmirror/clang-format",
+  "stars": 5,
+  "updated": "2025-02-23T16:20:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "clang-format",
+    "fetcher": "github",
+    "repo": "emacsmirror/clang-format"
+  }
+}

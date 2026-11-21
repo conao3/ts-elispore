@@ -1,0 +1,19 @@
+{
+  "id": 275577102,
+  "name": "emacsattic/angular-mode",
+  "description": "",
+  "url": "https://github.com/emacsattic/angular-mode",
+  "stars": 0,
+  "updated": "2020-06-28T12:11:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "angular-mode",
+    "fetcher": "github",
+    "repo": "emacsattic/angular-mode",
+    "files": "(:defaults \"snippets\")"
+  }
+}

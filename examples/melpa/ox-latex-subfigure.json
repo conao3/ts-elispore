@@ -1,0 +1,18 @@
+{
+  "id": 47161146,
+  "name": "linktohack/ox-latex-subfigure",
+  "description": "Turn table into subfigure. More or less a hack atm, easy to incorporate to org-mode though",
+  "url": "https://github.com/linktohack/ox-latex-subfigure",
+  "stars": 21,
+  "updated": "2021-02-13T04:02:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-latex-subfigure",
+    "fetcher": "github",
+    "repo": "linktohack/ox-latex-subfigure"
+  }
+}

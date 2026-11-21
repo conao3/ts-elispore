@@ -1,0 +1,19 @@
+{
+  "id": 957672554,
+  "name": "Feyorsh/nethack-el",
+  "description": "Emacs interface for the roguelike NetHack",
+  "url": "https://github.com/Feyorsh/nethack-el",
+  "stars": 75,
+  "updated": "2026-08-13T08:40:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nethack",
+    "fetcher": "github",
+    "repo": "Feyorsh/nethack-el",
+    "files": "(\"nethack*.el\"\n         \"enh-*.patch\")"
+  }
+}

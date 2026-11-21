@@ -1,0 +1,19 @@
+{
+  "id": 4690980,
+  "name": "kiyoka/pastehub",
+  "description": "Cross-platform clipboard (copy and paste) sync tool.",
+  "url": "https://github.com/kiyoka/pastehub",
+  "stars": 23,
+  "updated": "2023-01-09T22:18:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Ruby",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pastehub",
+    "fetcher": "github",
+    "repo": "kiyoka/pastehub",
+    "files": "(\"client/emacs/pastehub.el\")"
+  }
+}

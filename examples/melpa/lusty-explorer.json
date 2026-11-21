@@ -1,0 +1,18 @@
+{
+  "id": 582466,
+  "name": "sjbach/lusty-emacs",
+  "description": "A fast file chooser and buffer switcher for Emacs",
+  "url": "https://github.com/sjbach/lusty-emacs",
+  "stars": 53,
+  "updated": "2020-06-02T04:25:16Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lusty-explorer",
+    "fetcher": "github",
+    "repo": "sjbach/lusty-emacs"
+  }
+}

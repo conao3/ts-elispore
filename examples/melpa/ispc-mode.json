@@ -1,0 +1,18 @@
+{
+  "id": 319579354,
+  "name": "Munksgaard/ispc-mode",
+  "description": "",
+  "url": "https://github.com/Munksgaard/ispc-mode",
+  "stars": 0,
+  "updated": "2020-12-18T08:12:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ispc-mode",
+    "fetcher": "github",
+    "repo": "Munksgaard/ispc-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 6360380,
+  "name": "tarao/term-plus-mux-el",
+  "description": "A terminal multiplexer module for term+.el",
+  "url": "https://github.com/tarao/term-plus-mux-el",
+  "stars": 6,
+  "updated": "2022-05-20T10:14:05Z",
+  "archived": false,
+  "topics": ["emacs", "terminal", "terminal-emulators"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "term+mux",
+    "fetcher": "github",
+    "repo": "tarao/term-plus-mux-el"
+  }
+}

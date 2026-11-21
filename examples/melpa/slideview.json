@@ -1,0 +1,18 @@
+{
+  "id": 2979670,
+  "name": "mhayashi1120/Emacs-slideview",
+  "description": "Slideshow",
+  "url": "https://github.com/mhayashi1120/Emacs-slideview",
+  "stars": 4,
+  "updated": "2025-01-21T03:24:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "slideview",
+    "fetcher": "github",
+    "repo": "mhayashi1120/Emacs-slideview"
+  }
+}

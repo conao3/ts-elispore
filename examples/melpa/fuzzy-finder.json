@@ -1,0 +1,18 @@
+{
+  "id": 286968040,
+  "name": "10sr/fuzzy-finder-el",
+  "description": "Fuzzy Finder App Integration for Emacs",
+  "url": "https://github.com/10sr/fuzzy-finder-el",
+  "stars": 13,
+  "updated": "2025-03-18T06:33:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fuzzy-finder",
+    "fetcher": "github",
+    "repo": "10sr/fuzzy-finder-el"
+  }
+}

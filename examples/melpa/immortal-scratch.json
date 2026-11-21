@@ -1,0 +1,18 @@
+{
+  "id": 253304285,
+  "name": "jpkotta/immortal-scratch",
+  "description": "Respawn the scratch buffer when it's killed",
+  "url": "https://github.com/jpkotta/immortal-scratch",
+  "stars": 1,
+  "updated": "2016-05-18T13:38:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": null,
+  "ownerType": "User",
+  "melpa": {
+    "name": "immortal-scratch",
+    "fetcher": "github",
+    "repo": "jpkotta/immortal-scratch"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 82273428,
+  "name": "facetframer/orgnav",
+  "description": " Quickly navigate and search your emacs org trees; use this navigation to capture and organize. Built with the help of helm.",
+  "url": "https://github.com/facetframer/orgnav",
+  "stars": 28,
+  "updated": "2024-11-28T23:31:10Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode", "tree"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "orgnav",
+    "fetcher": "github",
+    "repo": "facetframer/orgnav"
+  }
+}

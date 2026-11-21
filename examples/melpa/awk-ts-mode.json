@@ -1,0 +1,18 @@
+{
+  "id": 697558884,
+  "name": "nverno/awk-ts-mode",
+  "description": "Awk major-mode using tree-sitter",
+  "url": "https://github.com/nverno/awk-ts-mode",
+  "stars": 6,
+  "updated": "2024-05-17T12:52:02Z",
+  "archived": false,
+  "topics": ["awk", "emacs", "gawk", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "awk-ts-mode",
+    "fetcher": "github",
+    "repo": "nverno/awk-ts-mode"
+  }
+}

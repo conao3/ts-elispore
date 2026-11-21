@@ -1,0 +1,18 @@
+{
+  "id": 15269443,
+  "name": "mickeynp/discover.el",
+  "description": "Discover more of emacs with context menus!",
+  "url": "https://github.com/mickeynp/discover.el",
+  "stars": 180,
+  "updated": "2014-06-13T08:49:02Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "discover",
+    "fetcher": "github",
+    "repo": "mickeynp/discover.el"
+  }
+}

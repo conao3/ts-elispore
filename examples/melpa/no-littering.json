@@ -1,0 +1,18 @@
+{
+  "id": 57454360,
+  "name": "emacscollective/no-littering",
+  "description": "Help keeping ~/.config/emacs clean",
+  "url": "https://github.com/emacscollective/no-littering",
+  "stars": 715,
+  "updated": "2026-11-01T11:11:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "no-littering",
+    "fetcher": "github",
+    "repo": "emacscollective/no-littering"
+  }
+}

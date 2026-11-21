@@ -1,0 +1,18 @@
+{
+  "id": 1000080901,
+  "name": "skuro/deflate",
+  "description": "A pure Emacs LISP implementation of the DEFLATE compression algorithm",
+  "url": "https://github.com/skuro/deflate",
+  "stars": 3,
+  "updated": "2025-07-13T18:56:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "deflate",
+    "fetcher": "github",
+    "repo": "skuro/deflate"
+  }
+}

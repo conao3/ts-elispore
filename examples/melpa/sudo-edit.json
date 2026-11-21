@@ -1,0 +1,18 @@
+{
+  "id": 24518196,
+  "name": "nflath/sudo-edit",
+  "description": "Utilities for opening files with sudo",
+  "url": "https://github.com/nflath/sudo-edit",
+  "stars": 69,
+  "updated": "2022-11-15T01:49:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sudo-edit",
+    "fetcher": "github",
+    "repo": "nflath/sudo-edit"
+  }
+}

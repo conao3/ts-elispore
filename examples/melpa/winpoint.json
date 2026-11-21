@@ -1,0 +1,18 @@
+{
+  "id": 6106090,
+  "name": "jorgenschaefer/winpoint",
+  "description": "Emacs extension to remember buffer positions per window, not per buffer",
+  "url": "https://github.com/jorgenschaefer/winpoint",
+  "stars": 3,
+  "updated": "2015-01-30T08:35:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "winpoint",
+    "fetcher": "github",
+    "repo": "jorgenschaefer/winpoint"
+  }
+}

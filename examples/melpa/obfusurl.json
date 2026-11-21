@@ -1,0 +1,29 @@
+{
+  "id": 59504955,
+  "name": "davep/obfusurl.el",
+  "description": "Obfuscate URLs so they aren't spoilers",
+  "url": "https://github.com/davep/obfusurl.el",
+  "stars": 2,
+  "updated": "2026-04-01T08:40:10Z",
+  "archived": false,
+  "topics": [
+    "elisp",
+    "emacs",
+    "emacs-lisp",
+    "lisp",
+    "obfuscation",
+    "obfuscator",
+    "spoiler-tag",
+    "url",
+    "urls",
+    "web"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "obfusurl",
+    "fetcher": "github",
+    "repo": "davep/obfusurl.el"
+  }
+}

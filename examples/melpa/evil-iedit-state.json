@@ -1,0 +1,18 @@
+{
+  "id": 27948196,
+  "name": "syl20bnr/evil-iedit-state",
+  "description": "Slick Evil states for iedit.",
+  "url": "https://github.com/syl20bnr/evil-iedit-state",
+  "stars": 58,
+  "updated": "2022-02-19T14:39:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-iedit-state",
+    "fetcher": "github",
+    "repo": "syl20bnr/evil-iedit-state"
+  }
+}

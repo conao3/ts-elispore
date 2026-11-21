@@ -1,0 +1,18 @@
+{
+  "id": 1120426913,
+  "name": "vedang/alabaster-themes",
+  "description": "Minimal light and dark themes for GNU Emacs based on the original Sublime Text Alabaster color scheme.",
+  "url": "https://github.com/vedang/alabaster-themes",
+  "stars": 35,
+  "updated": "2026-03-25T17:20:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "alabaster-themes",
+    "fetcher": "github",
+    "repo": "vedang/alabaster-themes"
+  }
+}

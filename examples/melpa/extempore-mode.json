@@ -1,0 +1,18 @@
+{
+  "id": 43346709,
+  "name": "extemporelang/extempore-emacs-mode",
+  "description": "The extempore mode for the Emacs text editor.",
+  "url": "https://github.com/extemporelang/extempore-emacs-mode",
+  "stars": 15,
+  "updated": "2022-07-04T22:41:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "extempore-mode",
+    "fetcher": "github",
+    "repo": "extemporelang/extempore-emacs-mode"
+  }
+}

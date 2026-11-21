@@ -1,0 +1,18 @@
+{
+  "id": 9702272,
+  "name": "pkkm/ido-sort-mtime",
+  "description": "Displays recently modified files at the beginning of Ido's file list.",
+  "url": "https://github.com/pkkm/ido-sort-mtime",
+  "stars": 4,
+  "updated": "2017-11-21T09:00:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ido-sort-mtime",
+    "fetcher": "github",
+    "repo": "pkkm/ido-sort-mtime"
+  }
+}

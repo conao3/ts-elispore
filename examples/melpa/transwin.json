@@ -1,0 +1,18 @@
+{
+  "id": 274733088,
+  "name": "jcs-elpa/transwin",
+  "description": "Make window/frame transparent.",
+  "url": "https://github.com/jcs-elpa/transwin",
+  "stars": 35,
+  "updated": "2026-06-19T14:07:15Z",
+  "archived": false,
+  "topics": ["emacs", "frame", "hacker", "transparent", "window"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "transwin",
+    "fetcher": "github",
+    "repo": "jcs-elpa/transwin"
+  }
+}

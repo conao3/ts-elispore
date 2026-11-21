@@ -1,0 +1,18 @@
+{
+  "id": 44988885,
+  "name": "EphramPerdition/helm-fuzzier",
+  "description": "Better Fuzzy Matching for emacs Helm",
+  "url": "https://github.com/EphramPerdition/helm-fuzzier",
+  "stars": 32,
+  "updated": "2016-06-05T21:45:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-fuzzier",
+    "fetcher": "github",
+    "repo": "EphramPerdition/helm-fuzzier"
+  }
+}

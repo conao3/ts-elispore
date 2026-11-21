@@ -1,0 +1,19 @@
+{
+  "id": 83997438,
+  "name": "TatriX/pomidor",
+  "description": "Pomidor is a simple and cool pomodoro technique timer.",
+  "url": "https://github.com/TatriX/pomidor",
+  "stars": 247,
+  "updated": "2024-06-01T16:17:25Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "pomodoro", "pomodoro-timer", "productivity"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pomidor",
+    "fetcher": "github",
+    "repo": "TatriX/pomidor",
+    "files": "(:defaults \"tick.wav\" \"tack.wav\" \"overwork.wav\")"
+  }
+}

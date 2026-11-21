@@ -1,0 +1,18 @@
+{
+  "id": 43474286,
+  "name": "victorteokw/scratches",
+  "description": "Multiple scratches for emacs",
+  "url": "https://github.com/victorteokw/scratches",
+  "stars": 1,
+  "updated": "2017-12-28T20:11:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scratches",
+    "fetcher": "github",
+    "repo": "victorteokw/scratches"
+  }
+}

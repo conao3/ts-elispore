@@ -1,0 +1,18 @@
+{
+  "id": 443060252,
+  "name": "Giedriusj1/helm-tree-sitter",
+  "description": "Emacs Helm interface to tree-sitter",
+  "url": "https://github.com/Giedriusj1/helm-tree-sitter",
+  "stars": 8,
+  "updated": "2022-03-28T13:46:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-tree-sitter",
+    "fetcher": "github",
+    "repo": "Giedriusj1/helm-tree-sitter"
+  }
+}

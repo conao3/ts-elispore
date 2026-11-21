@@ -1,0 +1,18 @@
+{
+  "id": 65560610,
+  "name": "jonnay/fix-muscle-memory",
+  "description": "extension to emacs to help you fix typos and spelling mistakes",
+  "url": "https://github.com/jonnay/fix-muscle-memory",
+  "stars": 11,
+  "updated": "2021-07-02T17:56:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fix-muscle-memory",
+    "fetcher": "github",
+    "repo": "jonnay/fix-muscle-memory"
+  }
+}

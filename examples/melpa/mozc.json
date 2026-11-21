@@ -1,0 +1,19 @@
+{
+  "id": 34376625,
+  "name": "google/mozc",
+  "description": "Mozc - a Japanese Input Method Editor designed for multi-platform",
+  "url": "https://github.com/google/mozc",
+  "stars": 3045,
+  "updated": "2026-11-20T17:13:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "C++",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "mozc",
+    "fetcher": "github",
+    "repo": "google/mozc",
+    "files": "(\"src/unix/emacs/mozc.el\")"
+  }
+}

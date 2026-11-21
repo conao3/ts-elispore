@@ -1,0 +1,18 @@
+{
+  "id": 5563420,
+  "name": "nicferrier/eimp",
+  "description": "Rather good Emacs Image Manipulation library. This is not mine, I am just adopting it for a few reasons.",
+  "url": "https://github.com/nicferrier/eimp",
+  "stars": 7,
+  "updated": "2012-08-26T20:40:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eimp",
+    "fetcher": "github",
+    "repo": "nicferrier/eimp"
+  }
+}

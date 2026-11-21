@@ -1,0 +1,18 @@
+{
+  "id": 4710376,
+  "name": "jwiegley/eval-expr",
+  "description": "Enhanced eval-expression command",
+  "url": "https://github.com/jwiegley/eval-expr",
+  "stars": 6,
+  "updated": "2012-06-19T06:47:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eval-expr",
+    "fetcher": "github",
+    "repo": "jwiegley/eval-expr"
+  }
+}

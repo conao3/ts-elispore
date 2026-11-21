@@ -1,0 +1,19 @@
+{
+  "id": 13299572,
+  "name": "yashi/org-asciidoc",
+  "description": "An org-mode exporter backend for AsciiDoc",
+  "url": "https://github.com/yashi/org-asciidoc",
+  "stars": 46,
+  "updated": "2026-10-23T09:04:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-asciidoc",
+    "fetcher": "github",
+    "repo": "yashi/org-asciidoc",
+    "files": "(\"ox-asciidoc.el\")"
+  }
+}

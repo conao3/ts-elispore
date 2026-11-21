@@ -1,0 +1,18 @@
+{
+  "id": 711542177,
+  "name": "llemaitre19/jtsx",
+  "description": "Extends Emacs JSX/TSX built-in support.",
+  "url": "https://github.com/llemaitre19/jtsx",
+  "stars": 111,
+  "updated": "2026-02-05T23:13:36Z",
+  "archived": false,
+  "topics": ["emacs", "hideshow", "javascript", "jsx", "melpa", "tree-sitter", "tsx", "typescript"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jtsx",
+    "fetcher": "github",
+    "repo": "llemaitre19/jtsx"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 58029645,
+  "name": "rubikitch/open-junk-file",
+  "description": "",
+  "url": "https://github.com/rubikitch/open-junk-file",
+  "stars": 10,
+  "updated": "2019-10-01T19:21:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "open-junk-file",
+    "fetcher": "github",
+    "repo": "rubikitch/open-junk-file"
+  }
+}

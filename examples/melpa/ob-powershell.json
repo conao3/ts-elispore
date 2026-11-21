@@ -1,0 +1,18 @@
+{
+  "id": 90990263,
+  "name": "rkiggen/ob-powershell",
+  "description": "Emacs Babel Powershell implementation",
+  "url": "https://github.com/rkiggen/ob-powershell",
+  "stars": 22,
+  "updated": "2025-02-20T12:41:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-powershell",
+    "fetcher": "github",
+    "repo": "rkiggen/ob-powershell"
+  }
+}

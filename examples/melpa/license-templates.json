@@ -1,0 +1,18 @@
+{
+  "id": 282124142,
+  "name": "jcs-elpa/license-templates",
+  "description": "Create LICENSE using GitHub API",
+  "url": "https://github.com/jcs-elpa/license-templates",
+  "stars": 17,
+  "updated": "2026-06-19T14:07:50Z",
+  "archived": false,
+  "topics": ["emacs", "license"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "license-templates",
+    "fetcher": "github",
+    "repo": "jcs-elpa/license-templates"
+  }
+}

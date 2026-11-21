@@ -1,0 +1,18 @@
+{
+  "id": 1073819680,
+  "name": "pierrelegall/auto-save-visited-local-mode",
+  "description": "A buffer-local alternative to auto-save-visited-mode",
+  "url": "https://github.com/pierrelegall/auto-save-visited-local-mode",
+  "stars": 2,
+  "updated": "2025-10-21T11:27:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-save-visited-local-mode",
+    "fetcher": "github",
+    "repo": "pierrelegall/auto-save-visited-local-mode"
+  }
+}

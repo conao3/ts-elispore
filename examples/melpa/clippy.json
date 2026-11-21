@@ -1,0 +1,18 @@
+{
+  "id": 8866041,
+  "name": "Fuco1/clippy.el",
+  "description": "Show tooltip with function documentation at point",
+  "url": "https://github.com/Fuco1/clippy.el",
+  "stars": 224,
+  "updated": "2025-05-11T20:20:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clippy",
+    "fetcher": "github",
+    "repo": "Fuco1/clippy.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 2979567,
+  "name": "mhayashi1120/Emacs-image-diredx",
+  "description": "image-dired extension",
+  "url": "https://github.com/mhayashi1120/Emacs-image-diredx",
+  "stars": 20,
+  "updated": "2016-01-20T16:19:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "image-dired+",
+    "fetcher": "github",
+    "repo": "mhayashi1120/Emacs-image-diredx"
+  }
+}

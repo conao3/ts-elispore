@@ -1,0 +1,18 @@
+{
+  "id": 48904221,
+  "name": "10sr/prompt-text-el",
+  "description": "Configure your Minibuffer Prompt",
+  "url": "https://github.com/10sr/prompt-text-el",
+  "stars": 4,
+  "updated": "2021-09-30T13:08:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prompt-text",
+    "fetcher": "github",
+    "repo": "10sr/prompt-text-el"
+  }
+}

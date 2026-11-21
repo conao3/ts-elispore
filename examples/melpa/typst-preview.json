@@ -1,0 +1,18 @@
+{
+  "id": 737427351,
+  "name": "havarddj/typst-preview.el",
+  "description": "Typst live preview minor mode for emacs",
+  "url": "https://github.com/havarddj/typst-preview.el",
+  "stars": 143,
+  "updated": "2026-06-17T20:24:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "typst-preview",
+    "fetcher": "github",
+    "repo": "havarddj/typst-preview.el"
+  }
+}

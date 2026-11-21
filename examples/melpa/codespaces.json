@@ -1,0 +1,18 @@
+{
+  "id": 523780805,
+  "name": "f4ban/codespaces.el",
+  "description": "Emacs support for easy access to GitHub Codespaces.",
+  "url": "https://github.com/f4ban/codespaces.el",
+  "stars": 83,
+  "updated": "2026-10-13T21:45:31Z",
+  "archived": false,
+  "topics": ["codespaces", "emacs", "emacs-package", "github", "github-cli"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "codespaces",
+    "fetcher": "github",
+    "repo": "f4ban/codespaces.el"
+  }
+}

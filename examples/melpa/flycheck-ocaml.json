@@ -1,0 +1,18 @@
+{
+  "id": 27186162,
+  "name": "flycheck/flycheck-ocaml",
+  "description": "OCaml support for Flycheck using Merlin",
+  "url": "https://github.com/flycheck/flycheck-ocaml",
+  "stars": 21,
+  "updated": "2026-08-10T11:35:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-ocaml",
+    "fetcher": "github",
+    "repo": "flycheck/flycheck-ocaml"
+  }
+}

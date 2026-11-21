@@ -1,0 +1,19 @@
+{
+  "id": 36759594,
+  "name": "boogie-org/boogie-friends",
+  "description": "Tools for interacting with Boogie",
+  "url": "https://github.com/boogie-org/boogie-friends",
+  "stars": 58,
+  "updated": "2026-08-04T22:36:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "boogie-friends",
+    "fetcher": "github",
+    "repo": "boogie-org/boogie-friends",
+    "files": "(\"emacs/*.el\" \"emacs/etc\")"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 3727706,
+  "name": "emacs-helm/helm",
+  "description": "Emacs incremental completion and selection narrowing framework",
+  "url": "https://github.com/emacs-helm/helm",
+  "stars": 3474,
+  "updated": "2026-11-12T16:37:33Z",
+  "archived": false,
+  "topics": ["completions", "emacs", "emacs-helm", "emacs-lisp", "helm"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm",
+    "files": "(:defaults\n         \"emacs-helm.sh\"\n         (:exclude \"helm-lib.el\"\n                   \"helm-source.el\"\n                   \"helm-multi-match.el\"\n                   \"helm-core.el\"))"
+  }
+}

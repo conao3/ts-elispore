@@ -1,0 +1,18 @@
+{
+  "id": 87031962,
+  "name": "dcjohnson/inverse-acme-theme",
+  "description": "Like ACME but with the colors reversed. ",
+  "url": "https://github.com/dcjohnson/inverse-acme-theme",
+  "stars": 6,
+  "updated": "2021-02-04T16:40:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "inverse-acme-theme",
+    "fetcher": "github",
+    "repo": "dcjohnson/inverse-acme-theme"
+  }
+}

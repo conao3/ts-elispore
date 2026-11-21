@@ -1,0 +1,18 @@
+{
+  "id": 116019652,
+  "name": "brantou/inf-crystal.el",
+  "description": "inf-crystal provides a REPL buffer connected to a ICR subprocess",
+  "url": "https://github.com/brantou/inf-crystal.el",
+  "stars": 7,
+  "updated": "2018-01-22T06:25:55Z",
+  "archived": false,
+  "topics": ["crystal-interpreter", "crystal-language", "emacs-lisp", "emacs-packages", "icr"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "inf-crystal",
+    "fetcher": "github",
+    "repo": "brantou/inf-crystal.el"
+  }
+}

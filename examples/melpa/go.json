@@ -1,0 +1,19 @@
+{
+  "id": 4338076,
+  "name": "eschulte/el-go",
+  "description": "Emacs interface to the game of GO",
+  "url": "https://github.com/eschulte/el-go",
+  "stars": 27,
+  "updated": "2022-04-15T14:14:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go",
+    "fetcher": "github",
+    "repo": "eschulte/el-go",
+    "files": "(:defaults \"back-ends\" \"stone.wav\")"
+  }
+}

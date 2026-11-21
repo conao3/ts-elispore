@@ -1,0 +1,18 @@
+{
+  "id": 59250015,
+  "name": "cosmicexplorer/emacs-scrooge",
+  "description": "emacs support for scrooge",
+  "url": "https://github.com/cosmicexplorer/emacs-scrooge",
+  "stars": 1,
+  "updated": "2018-06-30T10:15:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scrooge",
+    "fetcher": "github",
+    "repo": "cosmicexplorer/emacs-scrooge"
+  }
+}

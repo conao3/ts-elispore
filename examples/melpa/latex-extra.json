@@ -1,0 +1,18 @@
+{
+  "id": 13349036,
+  "name": "Malabarba/latex-extra",
+  "description": "A series of usability improvements for Emacs latex-mode.",
+  "url": "https://github.com/Malabarba/latex-extra",
+  "stars": 71,
+  "updated": "2024-09-09T20:43:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "latex-extra",
+    "fetcher": "github",
+    "repo": "Malabarba/latex-extra"
+  }
+}

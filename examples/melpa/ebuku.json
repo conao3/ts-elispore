@@ -1,0 +1,18 @@
+{
+  "id": 221611799,
+  "name": "flexibeast/ebuku",
+  "description": "Emacs interface to the buku Web bookmark manager.",
+  "url": "https://github.com/flexibeast/ebuku",
+  "stars": 105,
+  "updated": "2026-07-12T03:37:01Z",
+  "archived": false,
+  "topics": ["bookmarks", "buku", "emacs", "emacs-lisp", "emacs-package", "web"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ebuku",
+    "fetcher": "github",
+    "repo": "flexibeast/ebuku"
+  }
+}

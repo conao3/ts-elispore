@@ -1,0 +1,19 @@
+{
+  "id": 295904446,
+  "name": "cyruseuros/ewal",
+  "description": "",
+  "url": "https://github.com/cyruseuros/ewal",
+  "stars": 39,
+  "updated": "2023-05-05T06:09:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ewal-spacemacs-themes",
+    "fetcher": "github",
+    "repo": "cyruseuros/ewal",
+    "files": "(\"spacemacs-themes/*.el\")"
+  }
+}

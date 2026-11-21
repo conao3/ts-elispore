@@ -1,0 +1,18 @@
+{
+  "id": 2664961,
+  "name": "sigma/mocker.el",
+  "description": "a simple mocking framework for Emacs",
+  "url": "https://github.com/sigma/mocker.el",
+  "stars": 31,
+  "updated": "2026-02-04T10:47:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mocker",
+    "fetcher": "github",
+    "repo": "sigma/mocker.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 767583555,
+  "name": "smoeding/puppet-ts-mode",
+  "description": "Emacs major mode with tree-sitter support for Puppet manifests",
+  "url": "https://github.com/smoeding/puppet-ts-mode",
+  "stars": 1,
+  "updated": "2026-02-23T11:34:33Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode", "puppet", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "puppet-ts-mode",
+    "fetcher": "github",
+    "repo": "smoeding/puppet-ts-mode"
+  }
+}

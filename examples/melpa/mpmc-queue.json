@@ -1,0 +1,18 @@
+{
+  "id": 121900301,
+  "name": "smizoe/mpmc-queue",
+  "description": "multiple-producer-multiple-consumer queue for emacs (>= 26.0)",
+  "url": "https://github.com/smizoe/mpmc-queue",
+  "stars": 6,
+  "updated": "2018-03-03T20:23:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mpmc-queue",
+    "fetcher": "github",
+    "repo": "smizoe/mpmc-queue"
+  }
+}

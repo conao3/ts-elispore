@@ -1,0 +1,27 @@
+{
+  "id": 442229043,
+  "name": "md-arif-shaikh/tzc",
+  "description": "time zone conversion and time zone aware org workflow in emacs",
+  "url": "https://github.com/md-arif-shaikh/tzc",
+  "stars": 25,
+  "updated": "2026-09-02T03:56:01Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "time-converter",
+    "time-zone-converter",
+    "time-zone-table",
+    "time-zones",
+    "world-clock"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tzc",
+    "fetcher": "github",
+    "repo": "md-arif-shaikh/tzc"
+  }
+}

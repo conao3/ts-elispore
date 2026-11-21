@@ -1,0 +1,18 @@
+{
+  "id": 285451004,
+  "name": "fujimisakari/emacs-go-expr-completion",
+  "description": "",
+  "url": "https://github.com/fujimisakari/emacs-go-expr-completion",
+  "stars": 4,
+  "updated": "2020-08-17T17:51:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go-expr-completion",
+    "fetcher": "github",
+    "repo": "fujimisakari/emacs-go-expr-completion"
+  }
+}

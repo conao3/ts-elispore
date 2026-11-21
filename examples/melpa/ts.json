@@ -1,0 +1,18 @@
+{
+  "id": 161004254,
+  "name": "alphapapa/ts.el",
+  "description": "Emacs timestamp and date-time library",
+  "url": "https://github.com/alphapapa/ts.el",
+  "stars": 192,
+  "updated": "2024-03-19T20:10:11Z",
+  "archived": false,
+  "topics": ["date-time", "emacs", "library", "timestamp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ts",
+    "fetcher": "github",
+    "repo": "alphapapa/ts.el"
+  }
+}

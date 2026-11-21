@@ -1,0 +1,19 @@
+{
+  "id": 246942477,
+  "name": "canatella/xwwp",
+  "description": "Enhance the Emacs xwidget-webkit browser",
+  "url": "https://github.com/canatella/xwwp",
+  "stars": 112,
+  "updated": "2024-07-01T10:40:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xwwp-follow-link-helm",
+    "fetcher": "github",
+    "repo": "canatella/xwwp",
+    "files": "(\"xwwp-follow-link-helm.el\")"
+  }
+}

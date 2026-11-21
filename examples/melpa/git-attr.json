@@ -1,0 +1,18 @@
+{
+  "id": 119205590,
+  "name": "arnested/emacs-git-attr",
+  "description": "Expose gitattributes to emacs buffers",
+  "url": "https://github.com/arnested/emacs-git-attr",
+  "stars": 4,
+  "updated": "2019-11-09T15:12:44Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "gitattributes", "hacktoberfest", "linguist"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-attr",
+    "fetcher": "github",
+    "repo": "arnested/emacs-git-attr"
+  }
+}

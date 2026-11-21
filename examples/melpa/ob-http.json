@@ -1,0 +1,18 @@
+{
+  "id": 30139854,
+  "name": "zweifisch/ob-http",
+  "description": "make http request within org-mode babel",
+  "url": "https://github.com/zweifisch/ob-http",
+  "stars": 275,
+  "updated": "2026-11-08T03:45:37Z",
+  "archived": false,
+  "topics": ["curl", "http-client", "org-babel", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-http",
+    "fetcher": "github",
+    "repo": "zweifisch/ob-http"
+  }
+}

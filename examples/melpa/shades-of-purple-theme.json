@@ -1,0 +1,27 @@
+{
+  "id": 337569175,
+  "name": "arturovm/shades-of-purple-emacs",
+  "description": "A Shades of Purple theme port for Emacs",
+  "url": "https://github.com/arturovm/shades-of-purple-emacs",
+  "stars": 22,
+  "updated": "2023-04-21T21:00:28Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-ported",
+    "melpa",
+    "purple",
+    "purple-theme",
+    "screenshot",
+    "shades",
+    "theme"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shades-of-purple-theme",
+    "fetcher": "github",
+    "repo": "arturovm/shades-of-purple-emacs"
+  }
+}

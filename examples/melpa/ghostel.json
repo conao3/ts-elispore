@@ -1,0 +1,19 @@
+{
+  "id": 1196361058,
+  "name": "dakra/ghostel",
+  "description": "Terminal emulator powered by libghostty",
+  "url": "https://github.com/dakra/ghostel",
+  "stars": 1170,
+  "updated": "2026-11-20T08:45:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ghostel",
+    "fetcher": "github",
+    "repo": "dakra/ghostel",
+    "files": "(:defaults\n         \"etc\"\n         \"src\"\n         \"vendor\"\n         \"build.zig\"\n         \"build.zig.zon\"\n         \"symbols.map\")"
+  }
+}

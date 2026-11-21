@@ -1,0 +1,18 @@
+{
+  "id": 960677655,
+  "name": "johannes-mueller/tomlparse.el",
+  "description": "A straight forward toml parser fore elisp",
+  "url": "https://github.com/johannes-mueller/tomlparse.el",
+  "stars": 10,
+  "updated": "2026-03-16T20:00:18Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "toml", "toml-parser"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tomlparse",
+    "fetcher": "github",
+    "repo": "johannes-mueller/tomlparse.el"
+  }
+}

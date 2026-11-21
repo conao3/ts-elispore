@@ -1,0 +1,18 @@
+{
+  "id": 43238621,
+  "name": "iqbalansari/restart-emacs",
+  "description": "A simple emacs package to restart emacs from within emacs",
+  "url": "https://github.com/iqbalansari/restart-emacs",
+  "stars": 159,
+  "updated": "2022-01-08T09:47:53Z",
+  "archived": false,
+  "topics": ["elisp", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "restart-emacs",
+    "fetcher": "github",
+    "repo": "iqbalansari/restart-emacs"
+  }
+}

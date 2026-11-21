@@ -1,0 +1,18 @@
+{
+  "id": 202067082,
+  "name": "sebasmonia/awscli-capf",
+  "description": "Completion at point function for AWS CLI commands and parameters",
+  "url": "https://github.com/sebasmonia/awscli-capf",
+  "stars": 26,
+  "updated": "2020-09-17T05:21:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "awscli-capf",
+    "fetcher": "github",
+    "repo": "sebasmonia/awscli-capf"
+  }
+}

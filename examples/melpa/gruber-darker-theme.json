@@ -1,0 +1,18 @@
+{
+  "id": 8247232,
+  "name": "rexim/gruber-darker-theme",
+  "description": "Gruber Darker color theme for Emacs 24+",
+  "url": "https://github.com/rexim/gruber-darker-theme",
+  "stars": 496,
+  "updated": "2024-08-17T10:16:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gruber-darker-theme",
+    "fetcher": "github",
+    "repo": "rexim/gruber-darker-theme"
+  }
+}

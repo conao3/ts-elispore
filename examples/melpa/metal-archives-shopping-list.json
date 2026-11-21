@@ -1,0 +1,19 @@
+{
+  "id": 165417846,
+  "name": "seblemaguer/metal-archives.el",
+  "description": "Metal-archives upcoming release to org-agenda",
+  "url": "https://github.com/seblemaguer/metal-archives.el",
+  "stars": 4,
+  "updated": "2026-02-02T10:29:19Z",
+  "archived": false,
+  "topics": ["emacs", "metal-archives", "org-agenda"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "metal-archives-shopping-list",
+    "fetcher": "github",
+    "repo": "seblemaguer/metal-archives.el",
+    "files": "(\"metal-archives-shopping-list.el\")"
+  }
+}

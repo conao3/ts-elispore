@@ -1,0 +1,18 @@
+{
+  "id": 11446702,
+  "name": "krisajenkins/ob-translate",
+  "description": "Allows you to translate blocks of text within org-mode.",
+  "url": "https://github.com/krisajenkins/ob-translate",
+  "stars": 47,
+  "updated": "2020-06-01T06:53:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-translate",
+    "fetcher": "github",
+    "repo": "krisajenkins/ob-translate"
+  }
+}

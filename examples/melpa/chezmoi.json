@@ -1,0 +1,18 @@
+{
+  "id": 266254206,
+  "name": "harrison-p-l/chezmoi.el",
+  "description": "An emacs package for interacting with chezmoi.",
+  "url": "https://github.com/harrison-p-l/chezmoi.el",
+  "stars": 115,
+  "updated": "2026-11-12T18:57:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chezmoi",
+    "fetcher": "github",
+    "repo": "harrison-p-l/chezmoi.el"
+  }
+}

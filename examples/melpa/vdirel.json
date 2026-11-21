@@ -1,0 +1,18 @@
+{
+  "id": 47923661,
+  "name": "DamienCassou/vdirel",
+  "description": "Manipulate vdir (i.e., vcard) repositories from Emacs",
+  "url": "https://github.com/DamienCassou/vdirel",
+  "stars": 55,
+  "updated": "2023-09-06T18:44:01Z",
+  "archived": false,
+  "topics": ["carddav", "elisp", "emacs", "vdir", "vdirsyncer"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vdirel",
+    "fetcher": "github",
+    "repo": "DamienCassou/vdirel"
+  }
+}

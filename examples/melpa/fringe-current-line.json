@@ -1,0 +1,18 @@
+{
+  "id": 15706864,
+  "name": "kyanagi/fringe-current-line",
+  "description": "GNU Emacs Lisp package to show current line on the fringe.",
+  "url": "https://github.com/kyanagi/fringe-current-line",
+  "stars": 3,
+  "updated": "2014-01-11T04:13:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fringe-current-line",
+    "fetcher": "github",
+    "repo": "kyanagi/fringe-current-line"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 49683712,
+  "name": "Lompik/x-path-walker",
+  "description": "",
+  "url": "https://github.com/Lompik/x-path-walker",
+  "stars": 18,
+  "updated": "2022-07-14T10:57:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Python",
+  "ownerType": "User",
+  "melpa": {
+    "name": "x-path-walker",
+    "fetcher": "github",
+    "repo": "Lompik/x-path-walker",
+    "files": "(:defaults \"xpathwalker\")"
+  }
+}

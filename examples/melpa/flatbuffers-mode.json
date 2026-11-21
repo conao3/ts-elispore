@@ -1,0 +1,18 @@
+{
+  "id": 221315630,
+  "name": "Asalle/flatbuffers-mode",
+  "description": "Emacs mode for flatbuffers featuring syntax highlighting",
+  "url": "https://github.com/Asalle/flatbuffers-mode",
+  "stars": 12,
+  "updated": "2021-07-10T10:13:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flatbuffers-mode",
+    "fetcher": "github",
+    "repo": "Asalle/flatbuffers-mode"
+  }
+}

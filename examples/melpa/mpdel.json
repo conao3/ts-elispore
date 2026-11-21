@@ -1,0 +1,18 @@
+{
+  "id": 122159998,
+  "name": "mpdel/mpdel",
+  "description": "Emacs user interface for MPD",
+  "url": "https://github.com/mpdel/mpdel",
+  "stars": 90,
+  "updated": "2026-10-23T07:31:28Z",
+  "archived": false,
+  "topics": ["emacs-package", "mpd", "mpd-client", "music-player"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "mpdel",
+    "fetcher": "github",
+    "repo": "mpdel/mpdel"
+  }
+}

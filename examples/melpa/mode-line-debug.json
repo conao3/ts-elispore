@@ -1,0 +1,18 @@
+{
+  "id": 4458115,
+  "name": "tarsius/mode-line-debug",
+  "description": "Show status of debug-on-error in the mode line",
+  "url": "https://github.com/tarsius/mode-line-debug",
+  "stars": 14,
+  "updated": "2026-10-01T15:56:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mode-line-debug",
+    "fetcher": "github",
+    "repo": "tarsius/mode-line-debug"
+  }
+}

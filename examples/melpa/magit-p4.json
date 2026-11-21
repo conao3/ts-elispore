@@ -1,0 +1,18 @@
+{
+  "id": 17714848,
+  "name": "emacsorphanage/magit-p4",
+  "description": "Magit plugin integrating git-p4 add-on.",
+  "url": "https://github.com/emacsorphanage/magit-p4",
+  "stars": 8,
+  "updated": "2025-09-02T03:11:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "magit-p4",
+    "fetcher": "github",
+    "repo": "emacsorphanage/magit-p4"
+  }
+}

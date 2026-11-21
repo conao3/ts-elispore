@@ -1,0 +1,18 @@
+{
+  "id": 197761055,
+  "name": "kiennq/emacs-mini-modeline",
+  "description": "Display emacs mode line in minibuffer",
+  "url": "https://github.com/kiennq/emacs-mini-modeline",
+  "stars": 216,
+  "updated": "2024-04-01T09:36:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mini-modeline",
+    "fetcher": "github",
+    "repo": "kiennq/emacs-mini-modeline"
+  }
+}

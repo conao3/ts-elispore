@@ -1,0 +1,18 @@
+{
+  "id": 345875699,
+  "name": "emacs-grammarly/keytar",
+  "description": "Emacs Lisp interface for https://www.npmjs.com/package/keytar",
+  "url": "https://github.com/emacs-grammarly/keytar",
+  "stars": 8,
+  "updated": "2026-06-19T08:37:31Z",
+  "archived": false,
+  "topics": ["credential", "emacs", "keytar", "native", "password"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "keytar",
+    "fetcher": "github",
+    "repo": "emacs-grammarly/keytar"
+  }
+}

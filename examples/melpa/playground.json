@@ -1,0 +1,18 @@
+{
+  "id": 116203812,
+  "name": "akirak/emacs-playground",
+  "description": "Manage sandboxes for alternative Emacs configurations",
+  "url": "https://github.com/akirak/emacs-playground",
+  "stars": 55,
+  "updated": "2020-08-12T13:36:24Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "sandboxing"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "playground",
+    "fetcher": "github",
+    "repo": "akirak/emacs-playground"
+  }
+}

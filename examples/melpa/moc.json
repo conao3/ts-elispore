@@ -1,0 +1,18 @@
+{
+  "id": 792719863,
+  "name": "positron-solutions/moc",
+  "description": "Master of Ceremonies.  Display & presentation utilities to make presentation packages more effective",
+  "url": "https://github.com/positron-solutions/moc",
+  "stars": 60,
+  "updated": "2024-12-29T10:57:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "moc",
+    "fetcher": "github",
+    "repo": "positron-solutions/moc"
+  }
+}

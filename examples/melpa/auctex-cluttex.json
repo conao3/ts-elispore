@@ -1,0 +1,18 @@
+{
+  "id": 239414854,
+  "name": "tsuu32/auctex-cluttex",
+  "description": "ClutTeX support for AUCTeX",
+  "url": "https://github.com/tsuu32/auctex-cluttex",
+  "stars": 6,
+  "updated": "2024-05-19T13:04:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auctex-cluttex",
+    "fetcher": "github",
+    "repo": "tsuu32/auctex-cluttex"
+  }
+}

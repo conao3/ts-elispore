@@ -1,0 +1,18 @@
+{
+  "id": 250670275,
+  "name": "oitofelix/cpu-sos",
+  "description": "S.O.S. from a CPU in distress",
+  "url": "https://github.com/oitofelix/cpu-sos",
+  "stars": 6,
+  "updated": "2020-04-09T23:57:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cpu-sos",
+    "fetcher": "github",
+    "repo": "oitofelix/cpu-sos"
+  }
+}

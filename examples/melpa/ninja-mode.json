@@ -1,0 +1,18 @@
+{
+  "id": 881446764,
+  "name": "ninja-build/ninja-emacs",
+  "description": "",
+  "url": "https://github.com/ninja-build/ninja-emacs",
+  "stars": 3,
+  "updated": "2024-11-03T17:40:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ninja-mode",
+    "fetcher": "github",
+    "repo": "ninja-build/ninja-emacs"
+  }
+}

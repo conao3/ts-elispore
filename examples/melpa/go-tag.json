@@ -1,0 +1,18 @@
+{
+  "id": 109939854,
+  "name": "brantou/emacs-go-tag",
+  "description": "Edit field tags for golang struct fields",
+  "url": "https://github.com/brantou/emacs-go-tag",
+  "stars": 61,
+  "updated": "2023-01-11T11:44:21Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "emacs-plugin", "go-tools", "golang"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go-tag",
+    "fetcher": "github",
+    "repo": "brantou/emacs-go-tag"
+  }
+}

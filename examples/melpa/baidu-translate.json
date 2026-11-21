@@ -1,0 +1,18 @@
+{
+  "id": 199767437,
+  "name": "suxiaogang223/baidu-translate",
+  "description": "A emacs plugin using baidu-translate-api",
+  "url": "https://github.com/suxiaogang223/baidu-translate",
+  "stars": 11,
+  "updated": "2021-11-30T12:35:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "baidu-translate",
+    "fetcher": "github",
+    "repo": "suxiaogang223/baidu-translate"
+  }
+}

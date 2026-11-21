@@ -1,0 +1,18 @@
+{
+  "id": 80717341,
+  "name": "chuntaro/emacs-async-await",
+  "description": "Async/Await for Emacs",
+  "url": "https://github.com/chuntaro/emacs-async-await",
+  "stars": 77,
+  "updated": "2022-08-27T04:37:50Z",
+  "archived": false,
+  "topics": ["async", "await", "emacs", "promise"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "async-await",
+    "fetcher": "github",
+    "repo": "chuntaro/emacs-async-await"
+  }
+}

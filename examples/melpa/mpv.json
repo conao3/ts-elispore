@@ -1,0 +1,18 @@
+{
+  "id": 30830004,
+  "name": "kljohann/mpv.el",
+  "description": "control mpv for easy note taking",
+  "url": "https://github.com/kljohann/mpv.el",
+  "stars": 157,
+  "updated": "2024-11-21T23:12:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mpv",
+    "fetcher": "github",
+    "repo": "kljohann/mpv.el"
+  }
+}

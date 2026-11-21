@@ -1,0 +1,18 @@
+{
+  "id": 56172931,
+  "name": "iory/euslisp-mode",
+  "description": "",
+  "url": "https://github.com/iory/euslisp-mode",
+  "stars": 2,
+  "updated": "2025-08-23T14:54:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "euslisp-mode",
+    "fetcher": "github",
+    "repo": "iory/euslisp-mode"
+  }
+}

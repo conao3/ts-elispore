@@ -1,0 +1,18 @@
+{
+  "id": 667251823,
+  "name": "Elilif/emacs-immersive-translate",
+  "description": "Immersive-translate provides bilingual simultaneous display and translation of any text in Emacs.",
+  "url": "https://github.com/Elilif/emacs-immersive-translate",
+  "stars": 90,
+  "updated": "2023-10-01T15:59:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "immersive-translate",
+    "fetcher": "github",
+    "repo": "Elilif/emacs-immersive-translate"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1122349211,
+  "name": "rul/org-tempus",
+  "description": "⏳Emacs package to enhance Org time tracking with notifications and auto-clocking",
+  "url": "https://github.com/rul/org-tempus",
+  "stars": 6,
+  "updated": "2026-08-14T16:07:57Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "org-clock", "org-mode", "time-tracking"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-tempus",
+    "fetcher": "github",
+    "repo": "rul/org-tempus"
+  }
+}

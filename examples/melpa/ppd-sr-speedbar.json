@@ -1,0 +1,19 @@
+{
+  "id": 33030838,
+  "name": "rdallasgray/ppd-sr-speedbar",
+  "description": "Sr-Speedbar adaptor for project-persist-drawer",
+  "url": "https://github.com/rdallasgray/ppd-sr-speedbar",
+  "stars": 2,
+  "updated": "2018-06-08T08:33:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ppd-sr-speedbar",
+    "fetcher": "github",
+    "repo": "rdallasgray/ppd-sr-speedbar",
+    "files": "(\"lib/*\")"
+  }
+}

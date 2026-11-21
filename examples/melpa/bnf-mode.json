@@ -1,0 +1,29 @@
+{
+  "id": 175871232,
+  "name": "sergeyklay/bnf-mode",
+  "description": "A GNU Emacs major mode for editing BNF grammars",
+  "url": "https://github.com/sergeyklay/bnf-mode",
+  "stars": 45,
+  "updated": "2024-09-15T21:18:39Z",
+  "archived": false,
+  "topics": [
+    "backus-naur-form",
+    "backus-normal-form",
+    "bnf",
+    "editor-plugin",
+    "emacs",
+    "emacs-mode",
+    "emacs-package",
+    "grammar",
+    "hacktoberfest",
+    "major-mode"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bnf-mode",
+    "fetcher": "github",
+    "repo": "sergeyklay/bnf-mode"
+  }
+}

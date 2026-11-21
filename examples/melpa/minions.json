@@ -1,0 +1,18 @@
+{
+  "id": 121128642,
+  "name": "tarsius/minions",
+  "description": "A minor-mode menu for the mode line",
+  "url": "https://github.com/tarsius/minions",
+  "stars": 323,
+  "updated": "2026-10-01T16:03:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "minions",
+    "fetcher": "github",
+    "repo": "tarsius/minions"
+  }
+}

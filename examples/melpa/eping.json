@@ -1,0 +1,18 @@
+{
+  "id": 304422002,
+  "name": "sean-hut/eping",
+  "description": "Eping is an Emacs package that checks internet connectivity using ping.",
+  "url": "https://github.com/sean-hut/eping",
+  "stars": 4,
+  "updated": "2021-04-08T22:06:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "0BSD",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eping",
+    "fetcher": "github",
+    "repo": "sean-hut/eping"
+  }
+}

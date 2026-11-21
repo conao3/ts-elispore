@@ -1,0 +1,18 @@
+{
+  "id": 1194373514,
+  "name": "bbatsov/tokyo-night-emacs",
+  "description": "A faithful Emacs port of folke's Tokyo Night color theme",
+  "url": "https://github.com/bbatsov/tokyo-night-emacs",
+  "stars": 23,
+  "updated": "2026-09-01T11:45:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tokyo-night",
+    "fetcher": "github",
+    "repo": "bbatsov/tokyo-night-emacs"
+  }
+}

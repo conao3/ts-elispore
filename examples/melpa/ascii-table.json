@@ -1,0 +1,18 @@
+{
+  "id": 250005737,
+  "name": "lassik/emacs-ascii-table",
+  "description": "Interactive ASCII table in Emacs",
+  "url": "https://github.com/lassik/emacs-ascii-table",
+  "stars": 10,
+  "updated": "2023-12-15T15:27:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ascii-table",
+    "fetcher": "github",
+    "repo": "lassik/emacs-ascii-table"
+  }
+}

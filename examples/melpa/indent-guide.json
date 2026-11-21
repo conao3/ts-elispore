@@ -1,0 +1,18 @@
+{
+  "id": 9487878,
+  "name": "zk-phi/indent-guide",
+  "description": "Show vertical lines to guide indentation",
+  "url": "https://github.com/zk-phi/indent-guide",
+  "stars": 376,
+  "updated": "2026-06-29T09:18:49Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "indent-guide",
+    "fetcher": "github",
+    "repo": "zk-phi/indent-guide"
+  }
+}

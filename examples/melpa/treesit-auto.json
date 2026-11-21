@@ -1,0 +1,18 @@
+{
+  "id": 592040010,
+  "name": "renzmann/treesit-auto",
+  "description": "Automatic installation, usage, and fallback for tree-sitter major modes in Emacs 29",
+  "url": "https://github.com/renzmann/treesit-auto",
+  "stars": 531,
+  "updated": "2026-08-31T10:12:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "treesit-auto",
+    "fetcher": "github",
+    "repo": "renzmann/treesit-auto"
+  }
+}

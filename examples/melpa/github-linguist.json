@@ -1,0 +1,18 @@
+{
+  "id": 455481463,
+  "name": "akirak/github-linguist.el",
+  "description": "Run GitHub Linguist on projects to collect information",
+  "url": "https://github.com/akirak/github-linguist.el",
+  "stars": 4,
+  "updated": "2024-10-14T06:01:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "github-linguist",
+    "fetcher": "github",
+    "repo": "akirak/github-linguist.el"
+  }
+}

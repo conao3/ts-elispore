@@ -1,0 +1,18 @@
+{
+  "id": 9429020,
+  "name": "rubocop/rubocop-emacs",
+  "description": "An Emacs interface for RuboCop",
+  "url": "https://github.com/rubocop/rubocop-emacs",
+  "stars": 129,
+  "updated": "2024-08-17T19:36:53Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "rubocop"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "rubocop",
+    "fetcher": "github",
+    "repo": "rubocop/rubocop-emacs"
+  }
+}

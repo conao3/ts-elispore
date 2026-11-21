@@ -1,0 +1,18 @@
+{
+  "id": 7512953,
+  "name": "ryuslash/yoshi-theme",
+  "description": "Emacs theme named after my cat",
+  "url": "https://github.com/ryuslash/yoshi-theme",
+  "stars": 22,
+  "updated": "2023-08-02T01:18:00Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yoshi-theme",
+    "fetcher": "github",
+    "repo": "ryuslash/yoshi-theme"
+  }
+}

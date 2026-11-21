@@ -1,0 +1,18 @@
+{
+  "id": 84659871,
+  "name": "Bad-ptr/persp-mode-projectile-bridge.el",
+  "description": "persp-mode projectile integration",
+  "url": "https://github.com/Bad-ptr/persp-mode-projectile-bridge.el",
+  "stars": 20,
+  "updated": "2017-03-15T11:20:31Z",
+  "archived": false,
+  "topics": ["emacs", "persp-mode", "projectile"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "persp-mode-projectile-bridge",
+    "fetcher": "github",
+    "repo": "Bad-ptr/persp-mode-projectile-bridge.el"
+  }
+}

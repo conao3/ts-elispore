@@ -1,0 +1,18 @@
+{
+  "id": 3456695,
+  "name": "kyanagi/scratch-ext-el",
+  "description": "Extensions for *scratch* buffer of Emacs",
+  "url": "https://github.com/kyanagi/scratch-ext-el",
+  "stars": 13,
+  "updated": "2022-06-17T01:32:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scratch-ext",
+    "fetcher": "github",
+    "repo": "kyanagi/scratch-ext-el"
+  }
+}

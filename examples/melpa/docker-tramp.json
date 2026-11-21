@@ -1,0 +1,18 @@
+{
+  "id": 35590825,
+  "name": "emacs-pe/docker-tramp.el",
+  "description": "TRAMP integration for docker containers",
+  "url": "https://github.com/emacs-pe/docker-tramp.el",
+  "stars": 356,
+  "updated": "2023-08-09T05:11:46Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "docker-tramp",
+    "fetcher": "github",
+    "repo": "emacs-pe/docker-tramp.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 15676849,
+  "name": "jekor/hidepw",
+  "description": "Emacs minor mode for hiding passwords (anti-shoulder-surfing)",
+  "url": "https://github.com/jekor/hidepw",
+  "stars": 15,
+  "updated": "2020-03-26T01:13:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hidepw",
+    "fetcher": "github",
+    "repo": "jekor/hidepw"
+  }
+}

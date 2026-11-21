@@ -1,0 +1,18 @@
+{
+  "id": 179545564,
+  "name": "lashtear/gn-mode",
+  "description": "An Emacs major-mode for editing GN (generate ninja build) files",
+  "url": "https://github.com/lashtear/gn-mode",
+  "stars": 6,
+  "updated": "2019-04-28T18:12:41Z",
+  "archived": false,
+  "topics": ["chromium", "emacs", "emacs-lisp", "gn", "ninja-build"],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gn-mode",
+    "fetcher": "github",
+    "repo": "lashtear/gn-mode"
+  }
+}

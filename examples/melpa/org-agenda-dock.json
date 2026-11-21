@@ -1,0 +1,18 @@
+{
+  "id": 1021962875,
+  "name": "hron/org-agenda-dock",
+  "description": "Integrate org-mode with Gnome's Dock or KDE's taskbar",
+  "url": "https://github.com/hron/org-agenda-dock",
+  "stars": 6,
+  "updated": "2026-02-06T09:01:41Z",
+  "archived": false,
+  "topics": ["dock", "emacs", "gnome", "kde", "org-mode"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-agenda-dock",
+    "fetcher": "github",
+    "repo": "hron/org-agenda-dock"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 248939559,
+  "name": "ayrat555/mix.el",
+  "description": "Emacs Minor Mode for Mix, a build tool that ships with Elixir",
+  "url": "https://github.com/ayrat555/mix.el",
+  "stars": 34,
+  "updated": "2024-01-22T07:20:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mix",
+    "fetcher": "github",
+    "repo": "ayrat555/mix.el"
+  }
+}

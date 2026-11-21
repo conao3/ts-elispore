@@ -1,0 +1,19 @@
+{
+  "id": 103722,
+  "name": "jrockway/eproject",
+  "description": "file grouping (\"project\") extension for emacs",
+  "url": "https://github.com/jrockway/eproject",
+  "stars": 164,
+  "updated": "2018-07-28T03:15:16Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eproject",
+    "fetcher": "github",
+    "repo": "jrockway/eproject",
+    "files": "(\"eproject.el\"\n         \"eproject-extras.el\"\n         \"lang/*.el\"\n         \"contrib/*.el\")"
+  }
+}

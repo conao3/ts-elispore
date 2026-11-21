@@ -1,0 +1,19 @@
+{
+  "id": 28705238,
+  "name": "syl20bnr/evil-tutor",
+  "description": "Vimtutor adapted to Emacs+Evil and wrapped in a major mode.",
+  "url": "https://github.com/syl20bnr/evil-tutor",
+  "stars": 93,
+  "updated": "2022-01-07T11:56:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-tutor",
+    "fetcher": "github",
+    "repo": "syl20bnr/evil-tutor",
+    "files": "(:defaults \"tutor.txt\")"
+  }
+}

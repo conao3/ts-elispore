@@ -1,0 +1,18 @@
+{
+  "id": 12668848,
+  "name": "timvisher/sensitive.el",
+  "description": "A dead simple way to load sensitive information",
+  "url": "https://github.com/timvisher/sensitive.el",
+  "stars": 7,
+  "updated": "2017-08-18T13:22:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sensitive",
+    "fetcher": "github",
+    "repo": "timvisher/sensitive.el"
+  }
+}

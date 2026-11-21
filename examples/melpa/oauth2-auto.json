@@ -1,0 +1,18 @@
+{
+  "id": 453724883,
+  "name": "telotortium/emacs-oauth2-auto",
+  "description": "Automatically stored and configured OAuth2 for Emacs",
+  "url": "https://github.com/telotortium/emacs-oauth2-auto",
+  "stars": 20,
+  "updated": "2026-07-25T15:35:35Z",
+  "archived": false,
+  "topics": ["emacs", "oauth", "oauth2"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "oauth2-auto",
+    "fetcher": "github",
+    "repo": "telotortium/emacs-oauth2-auto"
+  }
+}

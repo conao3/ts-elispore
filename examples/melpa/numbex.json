@@ -1,0 +1,18 @@
+{
+  "id": 444205635,
+  "name": "enricoflor/numbex",
+  "description": "Manage numbered examples and references to them in GNU Emacs",
+  "url": "https://github.com/enricoflor/numbex",
+  "stars": 4,
+  "updated": "2023-06-01T16:18:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "numbex",
+    "fetcher": "github",
+    "repo": "enricoflor/numbex"
+  }
+}

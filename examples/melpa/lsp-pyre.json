@@ -1,0 +1,18 @@
+{
+  "id": 176982950,
+  "name": "jra3/lsp-pyre",
+  "description": "An Emacs LSP client for python using lsp-mode and pyre.",
+  "url": "https://github.com/jra3/lsp-pyre",
+  "stars": 2,
+  "updated": "2019-04-06T03:39:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lsp-pyre",
+    "fetcher": "github",
+    "repo": "jra3/lsp-pyre"
+  }
+}

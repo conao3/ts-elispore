@@ -1,0 +1,19 @@
+{
+  "id": 198684613,
+  "name": "rksm/clj-org-analyzer",
+  "description": "Fun with org data",
+  "url": "https://github.com/rksm/clj-org-analyzer",
+  "stars": 310,
+  "updated": "2021-12-06T12:50:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Clojure",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-analyzer",
+    "fetcher": "github",
+    "repo": "rksm/clj-org-analyzer",
+    "files": "(\"org-analyzer-el/*.jar\"\n                      \"org-analyzer-el/*.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 10264484,
+  "name": "zabbal/emacs-linphone",
+  "description": "emacs interface to sip client via linphone's control shell",
+  "url": "https://github.com/zabbal/emacs-linphone",
+  "stars": 4,
+  "updated": "2013-05-24T11:09:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "linphone",
+    "fetcher": "github",
+    "repo": "zabbal/emacs-linphone"
+  }
+}

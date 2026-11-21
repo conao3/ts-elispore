@@ -1,0 +1,18 @@
+{
+  "id": 70153538,
+  "name": "afonso360/build-helper",
+  "description": "Utilities to help build code",
+  "url": "https://github.com/afonso360/build-helper",
+  "stars": 2,
+  "updated": "2016-10-09T17:57:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "build-helper",
+    "fetcher": "github",
+    "repo": "afonso360/build-helper"
+  }
+}

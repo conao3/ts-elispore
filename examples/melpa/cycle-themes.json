@@ -1,0 +1,18 @@
+{
+  "id": 33153687,
+  "name": "toroidal-code/cycle-themes.el",
+  "description": "Because switching between your themes shouldn't be so damn hard",
+  "url": "https://github.com/toroidal-code/cycle-themes.el",
+  "stars": 25,
+  "updated": "2021-11-09T07:29:11Z",
+  "archived": false,
+  "topics": ["cycle-themes", "emacs", "emacs-lisp", "theming"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cycle-themes",
+    "fetcher": "github",
+    "repo": "toroidal-code/cycle-themes.el"
+  }
+}

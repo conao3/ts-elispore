@@ -1,0 +1,18 @@
+{
+  "id": 22467631,
+  "name": "tnoda/helm-ad",
+  "description": "helm source for Active Directory",
+  "url": "https://github.com/tnoda/helm-ad",
+  "stars": 1,
+  "updated": "2015-12-09T10:15:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-ad",
+    "fetcher": "github",
+    "repo": "tnoda/helm-ad"
+  }
+}

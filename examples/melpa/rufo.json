@@ -1,0 +1,18 @@
+{
+  "id": 95567491,
+  "name": "danielma/rufo.el",
+  "description": "Emacs minor-mode to automatically format ruby with rufo.",
+  "url": "https://github.com/danielma/rufo.el",
+  "stars": 11,
+  "updated": "2019-11-12T16:09:55Z",
+  "archived": false,
+  "topics": ["emacs", "ruby", "rufo"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rufo",
+    "fetcher": "github",
+    "repo": "danielma/rufo.el"
+  }
+}

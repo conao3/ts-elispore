@@ -1,0 +1,18 @@
+{
+  "id": 1220199429,
+  "name": "agzam/remoto.el",
+  "description": "Browse GitHub repos without cloning",
+  "url": "https://github.com/agzam/remoto.el",
+  "stars": 112,
+  "updated": "2026-11-15T22:22:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "remoto",
+    "fetcher": "github",
+    "repo": "agzam/remoto.el"
+  }
+}

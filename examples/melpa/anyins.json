@@ -1,0 +1,18 @@
+{
+  "id": 15120902,
+  "name": "antham/anyins",
+  "description": "Insert content at multiple places from shell command or kill-ring",
+  "url": "https://github.com/antham/anyins",
+  "stars": 7,
+  "updated": "2015-05-14T09:28:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "anyins",
+    "fetcher": "github",
+    "repo": "antham/anyins"
+  }
+}

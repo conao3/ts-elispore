@@ -1,0 +1,19 @@
+{
+  "id": 338582509,
+  "name": "vedang/pdf-tools",
+  "description": "Emacs support library for PDF files.",
+  "url": "https://github.com/vedang/pdf-tools",
+  "stars": 855,
+  "updated": "2026-01-08T17:04:06Z",
+  "archived": false,
+  "topics": ["emacs", "pdf", "pdf-viewer"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pdf-tools",
+    "fetcher": "github",
+    "repo": "vedang/pdf-tools",
+    "files": "(:defaults\n         \"README\"\n         (\"build\" \"Makefile\")\n         (\"build\" \"server\"))"
+  }
+}

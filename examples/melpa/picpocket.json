@@ -1,0 +1,18 @@
+{
+  "id": 28934360,
+  "name": "johanclaesson/picpocket",
+  "description": "Image viewer for Emacs",
+  "url": "https://github.com/johanclaesson/picpocket",
+  "stars": 20,
+  "updated": "2025-08-30T11:39:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "picpocket",
+    "fetcher": "github",
+    "repo": "johanclaesson/picpocket"
+  }
+}

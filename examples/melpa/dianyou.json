@@ -1,0 +1,18 @@
+{
+  "id": 183215505,
+  "name": "redguardtoo/dianyou",
+  "description": "Search/Analyze mails in Gnus",
+  "url": "https://github.com/redguardtoo/dianyou",
+  "stars": 11,
+  "updated": "2021-05-25T15:17:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dianyou",
+    "fetcher": "github",
+    "repo": "redguardtoo/dianyou"
+  }
+}

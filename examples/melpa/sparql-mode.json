@@ -1,0 +1,18 @@
+{
+  "id": 2071648,
+  "name": "ljos/sparql-mode",
+  "description": "A SPARQL mode for emacs",
+  "url": "https://github.com/ljos/sparql-mode",
+  "stars": 64,
+  "updated": "2025-05-08T10:44:19Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "emacs-mode", "semantic-web", "sparql"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sparql-mode",
+    "fetcher": "github",
+    "repo": "ljos/sparql-mode"
+  }
+}

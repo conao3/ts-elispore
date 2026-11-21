@@ -1,0 +1,18 @@
+{
+  "id": 12204447,
+  "name": "vapniks/smtpmail-multi",
+  "description": "Use different smtp servers for sending mail",
+  "url": "https://github.com/vapniks/smtpmail-multi",
+  "stars": 9,
+  "updated": "2020-09-30T16:05:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smtpmail-multi",
+    "fetcher": "github",
+    "repo": "vapniks/smtpmail-multi"
+  }
+}

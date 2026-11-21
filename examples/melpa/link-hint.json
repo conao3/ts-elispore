@@ -1,0 +1,18 @@
+{
+  "id": 41878982,
+  "name": "noctuid/link-hint.el",
+  "description": "Pentadactyl-like Link Hinting in Emacs with Avy",
+  "url": "https://github.com/noctuid/link-hint.el",
+  "stars": 176,
+  "updated": "2026-11-10T23:47:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "link-hint",
+    "fetcher": "github",
+    "repo": "noctuid/link-hint.el"
+  }
+}

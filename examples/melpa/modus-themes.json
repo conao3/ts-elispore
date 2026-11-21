@@ -1,0 +1,18 @@
+{
+  "id": 256473515,
+  "name": "protesilaos/modus-themes",
+  "description": "Highly accessible themes for GNU Emacs, conforming with the highest standard for colour contrast between background and foreground values (WCAG AAA).",
+  "url": "https://github.com/protesilaos/modus-themes",
+  "stars": 922,
+  "updated": "2026-10-31T17:03:22Z",
+  "archived": false,
+  "topics": ["accessibility", "emacs", "themes", "wcag-aaa"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "modus-themes",
+    "fetcher": "github",
+    "repo": "protesilaos/modus-themes"
+  }
+}

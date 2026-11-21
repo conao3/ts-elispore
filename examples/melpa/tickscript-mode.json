@@ -1,0 +1,18 @@
+{
+  "id": 106631322,
+  "name": "msherry/tickscript-mode",
+  "description": "Emacs major mode for TICKscript files",
+  "url": "https://github.com/msherry/tickscript-mode",
+  "stars": 5,
+  "updated": "2017-12-19T02:03:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tickscript-mode",
+    "fetcher": "github",
+    "repo": "msherry/tickscript-mode"
+  }
+}

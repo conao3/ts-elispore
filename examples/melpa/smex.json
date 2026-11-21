@@ -1,0 +1,18 @@
+{
+  "id": 147426,
+  "name": "nonsequitur/smex",
+  "description": "A smart M-x enhancement for Emacs.",
+  "url": "https://github.com/nonsequitur/smex",
+  "stars": 899,
+  "updated": "2021-05-28T21:18:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smex",
+    "fetcher": "github",
+    "repo": "nonsequitur/smex"
+  }
+}

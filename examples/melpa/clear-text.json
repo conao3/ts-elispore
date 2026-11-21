@@ -1,0 +1,19 @@
+{
+  "id": 55299408,
+  "name": "xuchunyang/clear-text.el",
+  "description": "Make you type clear text (Emacs port of https://github.com/mortenjust/cleartext-mac)",
+  "url": "https://github.com/xuchunyang/clear-text.el",
+  "stars": 14,
+  "updated": "2016-04-06T20:47:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clear-text",
+    "fetcher": "github",
+    "repo": "xuchunyang/clear-text.el",
+    "files": "(:defaults \"*.txt\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 23756742,
+  "name": "iquiw/company-cabal",
+  "description": "Company-mode completion back-end for haskell-cabal-mode",
+  "url": "https://github.com/iquiw/company-cabal",
+  "stars": 14,
+  "updated": "2017-09-17T13:19:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-cabal",
+    "fetcher": "github",
+    "repo": "iquiw/company-cabal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 16196818,
+  "name": "inlinestyle/emacs-cherry-blossom-theme",
+  "description": "A soothing (to me at least) theme for emacs",
+  "url": "https://github.com/inlinestyle/emacs-cherry-blossom-theme",
+  "stars": 27,
+  "updated": "2015-06-22T03:43:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cherry-blossom-theme",
+    "fetcher": "github",
+    "repo": "inlinestyle/emacs-cherry-blossom-theme"
+  }
+}

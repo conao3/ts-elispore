@@ -1,0 +1,18 @@
+{
+  "id": 211414951,
+  "name": "Michael-Allan/Java_Mode_Tamed",
+  "description": "Better control of Java syntax highlighting in Emacs. (mirror)",
+  "url": "https://github.com/Michael-Allan/Java_Mode_Tamed",
+  "stars": 1,
+  "updated": "2024-06-17T10:33:55Z",
+  "archived": false,
+  "topics": ["emacs", "java"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jmt-mode",
+    "fetcher": "github",
+    "repo": "Michael-Allan/Java_Mode_Tamed"
+  }
+}

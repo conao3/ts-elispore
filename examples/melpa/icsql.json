@@ -1,0 +1,18 @@
+{
+  "id": 141031966,
+  "name": "plandes/icsql",
+  "description": "This library provides an Emacs SQL mode integration to the ciSQL program",
+  "url": "https://github.com/plandes/icsql",
+  "stars": 2,
+  "updated": "2023-10-23T16:17:04Z",
+  "archived": false,
+  "topics": ["command-line-tool", "emacs", "emacs-lisp", "sql"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "icsql",
+    "fetcher": "github",
+    "repo": "plandes/icsql"
+  }
+}

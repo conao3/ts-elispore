@@ -1,0 +1,18 @@
+{
+  "id": 535402796,
+  "name": "yvie-k/ropgadget-el",
+  "description": "",
+  "url": "https://github.com/yvie-k/ropgadget-el",
+  "stars": 0,
+  "updated": "2023-01-07T12:25:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ropgadget",
+    "fetcher": "github",
+    "repo": "yvie-k/ropgadget-el"
+  }
+}

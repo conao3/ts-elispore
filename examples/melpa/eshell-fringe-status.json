@@ -1,0 +1,18 @@
+{
+  "id": 16239793,
+  "name": "ryuslash/eshell-fringe-status",
+  "description": "Show last status in fringe",
+  "url": "https://github.com/ryuslash/eshell-fringe-status",
+  "stars": 17,
+  "updated": "2017-01-18T12:31:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-fringe-status",
+    "fetcher": "github",
+    "repo": "ryuslash/eshell-fringe-status"
+  }
+}

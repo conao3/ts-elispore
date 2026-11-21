@@ -1,0 +1,19 @@
+{
+  "id": 7576733,
+  "name": "sabof/edit-color-stamp",
+  "description": "Edit hex color stamps using a QT, or the internal color picker",
+  "url": "https://github.com/sabof/edit-color-stamp",
+  "stars": 7,
+  "updated": "2015-11-21T05:41:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "edit-color-stamp",
+    "fetcher": "github",
+    "repo": "sabof/edit-color-stamp",
+    "files": "(\"*.el\"\n         (\"qt_color_picker\" \"qt_color_picker/*.pro\" \"qt_color_picker/*.cpp\"))"
+  }
+}

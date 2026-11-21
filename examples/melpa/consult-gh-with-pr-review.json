@@ -1,0 +1,28 @@
+{
+  "id": 645909090,
+  "name": "armindarvish/consult-gh",
+  "description": "An Interactive interface for \"GitHub CLI\" client inside GNU Emacs using Consult",
+  "url": "https://github.com/armindarvish/consult-gh",
+  "stars": 213,
+  "updated": "2026-08-01T16:57:00Z",
+  "archived": false,
+  "topics": [
+    "completion",
+    "emacs",
+    "github",
+    "github-api",
+    "github-client",
+    "githubcli",
+    "minibuffer",
+    "version-control"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-gh-with-pr-review",
+    "fetcher": "github",
+    "repo": "armindarvish/consult-gh",
+    "files": "(\"consult-gh-with-pr-review.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 153880645,
+  "name": "onixie/lxd-tramp",
+  "description": "TRAMP integration for LXD containers",
+  "url": "https://github.com/onixie/lxd-tramp",
+  "stars": 9,
+  "updated": "2018-10-23T00:07:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lxd-tramp",
+    "fetcher": "github",
+    "repo": "onixie/lxd-tramp"
+  }
+}

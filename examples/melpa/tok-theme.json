@@ -1,0 +1,18 @@
+{
+  "id": 806690227,
+  "name": "topikettunen/tok-theme",
+  "description": "Minimal monochromatic theme with restrained color highlights.",
+  "url": "https://github.com/topikettunen/tok-theme",
+  "stars": 5,
+  "updated": "2026-09-02T09:30:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tok-theme",
+    "fetcher": "github",
+    "repo": "topikettunen/tok-theme"
+  }
+}

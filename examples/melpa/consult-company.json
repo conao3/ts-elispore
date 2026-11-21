@@ -1,0 +1,18 @@
+{
+  "id": 409249130,
+  "name": "mohkale/consult-company",
+  "description": "A consulting-read interface for company.",
+  "url": "https://github.com/mohkale/consult-company",
+  "stars": 20,
+  "updated": "2023-06-06T18:24:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-company",
+    "fetcher": "github",
+    "repo": "mohkale/consult-company"
+  }
+}

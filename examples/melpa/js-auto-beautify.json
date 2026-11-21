@@ -1,0 +1,18 @@
+{
+  "id": 71332260,
+  "name": "Qquanwei/auto-beautify.el",
+  "description": "js-auto-beautify  : emacs mirror-mode auto format Javascript js/jsx",
+  "url": "https://github.com/Qquanwei/auto-beautify.el",
+  "stars": 9,
+  "updated": "2017-05-11T01:55:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js-auto-beautify",
+    "fetcher": "github",
+    "repo": "Qquanwei/auto-beautify.el"
+  }
+}

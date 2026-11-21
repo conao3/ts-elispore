@@ -1,0 +1,18 @@
+{
+  "id": 216364930,
+  "name": "vbuzin/berrys-theme",
+  "description": "A light, clean and elegant Emacs theme ",
+  "url": "https://github.com/vbuzin/berrys-theme",
+  "stars": 54,
+  "updated": "2021-11-19T10:57:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "berrys-theme",
+    "fetcher": "github",
+    "repo": "vbuzin/berrys-theme"
+  }
+}

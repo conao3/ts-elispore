@@ -1,0 +1,18 @@
+{
+  "id": 59610998,
+  "name": "blak3mill3r/vmd-mode",
+  "description": "Snappy Markdown preview minor mode for emacs",
+  "url": "https://github.com/blak3mill3r/vmd-mode",
+  "stars": 68,
+  "updated": "2026-05-28T20:32:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vmd-mode",
+    "fetcher": "github",
+    "repo": "blak3mill3r/vmd-mode"
+  }
+}

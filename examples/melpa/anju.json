@@ -1,0 +1,19 @@
+{
+  "id": 1171206785,
+  "name": "kickingvegas/anju",
+  "description": "An Elisp package for customizing Emacs mouse interactions.",
+  "url": "https://github.com/kickingvegas/anju",
+  "stars": 54,
+  "updated": "2026-10-30T16:52:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "anju",
+    "fetcher": "github",
+    "repo": "kickingvegas/anju",
+    "files": "(:defaults \"docs/images\")"
+  }
+}

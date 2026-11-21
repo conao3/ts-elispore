@@ -1,0 +1,18 @@
+{
+  "id": 626279567,
+  "name": "tyler-dodge/org-assistant",
+  "description": "Org babel extension for Chat Assistant APIs such as ChatGPT",
+  "url": "https://github.com/tyler-dodge/org-assistant",
+  "stars": 57,
+  "updated": "2023-06-23T14:40:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-assistant",
+    "fetcher": "github",
+    "repo": "tyler-dodge/org-assistant"
+  }
+}

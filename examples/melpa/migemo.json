@@ -1,0 +1,18 @@
+{
+  "id": 8312136,
+  "name": "emacs-jp/migemo",
+  "description": "emacs migemo client",
+  "url": "https://github.com/emacs-jp/migemo",
+  "stars": 78,
+  "updated": "2025-06-16T03:09:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "migemo",
+    "fetcher": "github",
+    "repo": "emacs-jp/migemo"
+  }
+}

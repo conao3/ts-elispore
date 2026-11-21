@@ -1,0 +1,19 @@
+{
+  "id": 60123254,
+  "name": "colonelpanic8/term-manager",
+  "description": "Manage ansi-term buffers using projectile",
+  "url": "https://github.com/colonelpanic8/term-manager",
+  "stars": 32,
+  "updated": "2026-02-20T08:40:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "term-projectile",
+    "fetcher": "github",
+    "repo": "colonelpanic8/term-manager",
+    "files": "(\"term-projectile.el\")"
+  }
+}

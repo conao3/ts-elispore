@@ -1,0 +1,19 @@
+{
+  "id": 386398327,
+  "name": "org-roam/org-roam-ui",
+  "description": "A graphical frontend for exploring your org-roam Zettelkasten",
+  "url": "https://github.com/org-roam/org-roam-ui",
+  "stars": 2293,
+  "updated": "2026-01-06T22:24:27Z",
+  "archived": false,
+  "topics": ["d3", "emacs", "org-mode", "org-roam", "pkm", "react", "typescript", "zettelkasten"],
+  "license": "GPL-3.0",
+  "language": "TypeScript",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "org-roam-ui",
+    "fetcher": "github",
+    "repo": "org-roam/org-roam-ui",
+    "files": "(:defaults \"out\")"
+  }
+}

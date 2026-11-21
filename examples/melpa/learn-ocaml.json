@@ -1,0 +1,18 @@
+{
+  "id": 190013940,
+  "name": "pfitaxel/learn-ocaml.el",
+  "description": "Emacs mode for students using the learn-ocaml platform (https://ocaml-sf.org/learn-ocaml) [maintainer=@erikmd]",
+  "url": "https://github.com/pfitaxel/learn-ocaml.el",
+  "stars": 8,
+  "updated": "2021-10-14T22:45:00Z",
+  "archived": false,
+  "topics": ["emacs", "learn-ocaml", "ocaml"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "learn-ocaml",
+    "fetcher": "github",
+    "repo": "pfitaxel/learn-ocaml.el"
+  }
+}

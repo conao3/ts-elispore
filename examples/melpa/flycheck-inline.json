@@ -1,0 +1,18 @@
+{
+  "id": 97754792,
+  "name": "flycheck/flycheck-inline",
+  "description": "Display Flycheck errors inline",
+  "url": "https://github.com/flycheck/flycheck-inline",
+  "stars": 156,
+  "updated": "2026-08-10T07:59:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-inline",
+    "fetcher": "github",
+    "repo": "flycheck/flycheck-inline"
+  }
+}

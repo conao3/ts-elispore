@@ -1,0 +1,18 @@
+{
+  "id": 158194006,
+  "name": "gergelypolonkai/alert-termux",
+  "description": "alert (https://github.com/jwiegley/alert) addon to send notifications via Termux.",
+  "url": "https://github.com/gergelypolonkai/alert-termux",
+  "stars": 5,
+  "updated": "2018-12-04T04:23:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "alert-termux",
+    "fetcher": "github",
+    "repo": "gergelypolonkai/alert-termux"
+  }
+}

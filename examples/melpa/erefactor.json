@@ -1,0 +1,18 @@
+{
+  "id": 977956,
+  "name": "mhayashi1120/Emacs-erefactor",
+  "description": "Emacs-Lisp refactoring utilities",
+  "url": "https://github.com/mhayashi1120/Emacs-erefactor",
+  "stars": 28,
+  "updated": "2022-05-12T10:41:56Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erefactor",
+    "fetcher": "github",
+    "repo": "mhayashi1120/Emacs-erefactor"
+  }
+}

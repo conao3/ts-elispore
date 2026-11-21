@@ -1,0 +1,19 @@
+{
+  "id": 5694906,
+  "name": "ataka/clmemo",
+  "description": "Change Log MEMO for Emacs",
+  "url": "https://github.com/ataka/clmemo",
+  "stars": 6,
+  "updated": "2022-02-04T13:46:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clmemo",
+    "fetcher": "github",
+    "repo": "ataka/clmemo",
+    "files": "(:defaults (:exclude \"doc/*.texi\"))"
+  }
+}

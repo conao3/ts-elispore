@@ -1,0 +1,18 @@
+{
+  "id": 9282046,
+  "name": "Fuco1/litable",
+  "description": "On-the-fly evaluation/substitution of emacs lisp code",
+  "url": "https://github.com/Fuco1/litable",
+  "stars": 325,
+  "updated": "2024-03-21T20:59:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "litable",
+    "fetcher": "github",
+    "repo": "Fuco1/litable"
+  }
+}

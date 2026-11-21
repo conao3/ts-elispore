@@ -1,0 +1,18 @@
+{
+  "id": 937281074,
+  "name": "easimonenko/c2-mode",
+  "description": "GNU Emacs major mode for C2 programming language",
+  "url": "https://github.com/easimonenko/c2-mode",
+  "stars": 1,
+  "updated": "2025-03-18T21:09:44Z",
+  "archived": false,
+  "topics": ["c2", "emacs", "emacs-mode", "syntax-highlighting"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "c2-mode",
+    "fetcher": "github",
+    "repo": "easimonenko/c2-mode"
+  }
+}

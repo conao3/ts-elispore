@@ -1,0 +1,18 @@
+{
+  "id": 1021885314,
+  "name": "tvirolai/quotient",
+  "description": "An Emacs package to generate quotes from corpus files",
+  "url": "https://github.com/tvirolai/quotient",
+  "stars": 4,
+  "updated": "2026-11-21T13:54:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "quotient",
+    "fetcher": "github",
+    "repo": "tvirolai/quotient"
+  }
+}

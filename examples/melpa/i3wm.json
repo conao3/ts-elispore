@@ -1,0 +1,18 @@
+{
+  "id": 79106735,
+  "name": "emacsattic/i3wm",
+  "description": "I3wm integration library",
+  "url": "https://github.com/emacsattic/i3wm",
+  "stars": 0,
+  "updated": "2017-08-23T01:54:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "i3wm",
+    "fetcher": "github",
+    "repo": "emacsattic/i3wm"
+  }
+}

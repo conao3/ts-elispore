@@ -1,0 +1,19 @@
+{
+  "id": 25369162,
+  "name": "Groovy-Emacs-Modes/groovy-emacs-modes",
+  "description": "A groovy major mode, grails minor mode, and a groovy inferior mode.",
+  "url": "https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes",
+  "stars": 91,
+  "updated": "2023-03-18T05:33:49Z",
+  "archived": false,
+  "topics": ["emacs-mode", "grails", "groovy"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "groovy-mode",
+    "fetcher": "github",
+    "repo": "Groovy-Emacs-Modes/groovy-emacs-modes",
+    "files": "(\"*groovy*.el\")"
+  }
+}

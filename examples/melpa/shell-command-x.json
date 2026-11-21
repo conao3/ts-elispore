@@ -1,0 +1,18 @@
+{
+  "id": 660394846,
+  "name": "elizagamedev/shell-command-x.el",
+  "description": "Extensions for Emacs' shell commands",
+  "url": "https://github.com/elizagamedev/shell-command-x.el",
+  "stars": 22,
+  "updated": "2023-12-14T00:02:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shell-command-x",
+    "fetcher": "github",
+    "repo": "elizagamedev/shell-command-x.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 144396171,
+  "name": "cyrus-and/comb",
+  "description": "Interactive code auditing and grep tool in Emacs Lisp",
+  "url": "https://github.com/cyrus-and/comb",
+  "stars": 77,
+  "updated": "2020-10-10T11:48:06Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "find", "grep", "static-analysis"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "comb",
+    "fetcher": "github",
+    "repo": "cyrus-and/comb"
+  }
+}

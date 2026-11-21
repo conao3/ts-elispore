@@ -1,0 +1,18 @@
+{
+  "id": 453730021,
+  "name": "magit/sisyphus",
+  "description": "Create Elisp releases",
+  "url": "https://github.com/magit/sisyphus",
+  "stars": 13,
+  "updated": "2026-11-09T21:19:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sisyphus",
+    "fetcher": "github",
+    "repo": "magit/sisyphus"
+  }
+}

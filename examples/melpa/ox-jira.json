@@ -1,0 +1,18 @@
+{
+  "id": 52426645,
+  "name": "stig/ox-jira.el",
+  "description": "Org-mode export backend for JIRA markup",
+  "url": "https://github.com/stig/ox-jira.el",
+  "stars": 143,
+  "updated": "2024-10-16T09:20:03Z",
+  "archived": false,
+  "topics": ["emacs", "jira", "org-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-jira",
+    "fetcher": "github",
+    "repo": "stig/ox-jira.el"
+  }
+}

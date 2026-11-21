@@ -1,0 +1,19 @@
+{
+  "id": 184170220,
+  "name": "realgud/realgud-ipdb",
+  "description": "Emacs Lisp Module to add ipdb support to realgud. ipdb is a Python debugger based on pdb",
+  "url": "https://github.com/realgud/realgud-ipdb",
+  "stars": 6,
+  "updated": "2023-12-16T21:06:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "realgud-ipdb",
+    "fetcher": "github",
+    "repo": "realgud/realgud-ipdb",
+    "files": "(:defaults \n         (\"ipdb\" \"ipdb/*.el\"))"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 12611700,
+  "name": "knu/minibuffer-cua.el",
+  "description": "Make CUA mode's S-up/S-down selection work in minibuffer.",
+  "url": "https://github.com/knu/minibuffer-cua.el",
+  "stars": 0,
+  "updated": "2013-09-06T11:34:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "minibuffer-cua",
+    "fetcher": "github",
+    "repo": "knu/minibuffer-cua.el"
+  }
+}

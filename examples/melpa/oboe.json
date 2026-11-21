@@ -1,0 +1,18 @@
+{
+  "id": 941422525,
+  "name": "gynamics/oboe.el",
+  "description": "A simple Emacs temporary buffer management framework",
+  "url": "https://github.com/gynamics/oboe.el",
+  "stars": 14,
+  "updated": "2026-08-16T14:38:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "oboe",
+    "fetcher": "github",
+    "repo": "gynamics/oboe.el"
+  }
+}

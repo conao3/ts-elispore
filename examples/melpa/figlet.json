@@ -1,0 +1,18 @@
+{
+  "id": 253113265,
+  "name": "jpkotta/figlet",
+  "description": "Annoy people with big, ascii art text",
+  "url": "https://github.com/jpkotta/figlet",
+  "stars": 1,
+  "updated": "2016-02-20T03:33:46Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": null,
+  "ownerType": "User",
+  "melpa": {
+    "name": "figlet",
+    "fetcher": "github",
+    "repo": "jpkotta/figlet"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 980268791,
+  "name": "ajrosen/bookmarks-menu",
+  "description": "Add a Bookmarks menu to the menu bar",
+  "url": "https://github.com/ajrosen/bookmarks-menu",
+  "stars": 3,
+  "updated": "2025-05-13T14:56:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bookmarks-menu",
+    "fetcher": "github",
+    "repo": "ajrosen/bookmarks-menu"
+  }
+}

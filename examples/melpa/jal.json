@@ -1,0 +1,18 @@
+{
+  "id": 1111404837,
+  "name": "saulotoledo/java-agent-loader",
+  "description": "An Emacs loader for Java agents to be used with lsp-java and eglot-java",
+  "url": "https://github.com/saulotoledo/java-agent-loader",
+  "stars": 9,
+  "updated": "2026-11-15T09:28:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jal",
+    "fetcher": "github",
+    "repo": "saulotoledo/java-agent-loader"
+  }
+}

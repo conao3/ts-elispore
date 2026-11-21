@@ -1,0 +1,18 @@
+{
+  "id": 145578982,
+  "name": "federicotdn/flymake-shellcheck",
+  "description": "A ShellCheck-powered backend for Flymake",
+  "url": "https://github.com/federicotdn/flymake-shellcheck",
+  "stars": 57,
+  "updated": "2024-06-26T21:22:42Z",
+  "archived": false,
+  "topics": ["bash", "emacs", "flymake", "sh", "shell", "shellcheck"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-shellcheck",
+    "fetcher": "github",
+    "repo": "federicotdn/flymake-shellcheck"
+  }
+}

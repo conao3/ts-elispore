@@ -1,0 +1,18 @@
+{
+  "id": 190941990,
+  "name": "jaybosamiya/vale-mode.el",
+  "description": ":wrench: Emacs support for Vale",
+  "url": "https://github.com/jaybosamiya/vale-mode.el",
+  "stars": 1,
+  "updated": "2019-07-25T01:26:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vale-mode",
+    "fetcher": "github",
+    "repo": "jaybosamiya/vale-mode.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 977946,
+  "name": "mhayashi1120/Emacs-wgrep",
+  "description": "Writable grep buffer and apply the changes to files",
+  "url": "https://github.com/mhayashi1120/Emacs-wgrep",
+  "stars": 758,
+  "updated": "2024-12-06T13:06:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wgrep-deadgrep",
+    "fetcher": "github",
+    "repo": "mhayashi1120/Emacs-wgrep",
+    "files": "(\"wgrep-deadgrep.el\")"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 59044860,
+  "name": "simenheg/restclient-test.el",
+  "description": "Turn your restclient.el documents into interactive test suites",
+  "url": "https://github.com/simenheg/restclient-test.el",
+  "stars": 20,
+  "updated": "2024-02-07T14:31:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "restclient-test",
+    "fetcher": "github",
+    "repo": "simenheg/restclient-test.el",
+    "files": "(\"restclient-test.el\")"
+  }
+}

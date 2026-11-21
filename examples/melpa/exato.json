@@ -1,0 +1,27 @@
+{
+  "id": 110951547,
+  "name": "ninrod/exato",
+  "description": ":bookmark: EXATO: Evil XML Attributes Text Object",
+  "url": "https://github.com/ninrod/exato",
+  "stars": 18,
+  "updated": "2020-05-24T14:18:32Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-configuration",
+    "emacs-lisp",
+    "evil",
+    "evil-mode",
+    "keybinds",
+    "textobj",
+    "vim"
+  ],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "exato",
+    "fetcher": "github",
+    "repo": "ninrod/exato"
+  }
+}

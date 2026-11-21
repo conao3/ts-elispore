@@ -1,0 +1,18 @@
+{
+  "id": 45612735,
+  "name": "lujun9972/elog",
+  "description": "a log library used in elisp",
+  "url": "https://github.com/lujun9972/elog",
+  "stars": 6,
+  "updated": "2025-04-13T01:00:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elog",
+    "fetcher": "github",
+    "repo": "lujun9972/elog"
+  }
+}

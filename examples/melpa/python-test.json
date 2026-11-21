@@ -1,0 +1,19 @@
+{
+  "id": 61772702,
+  "name": "emacs-pe/python-test.el",
+  "description": "Python testing integration",
+  "url": "https://github.com/emacs-pe/python-test.el",
+  "stars": 5,
+  "updated": "2018-10-18T00:29:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "python-test",
+    "fetcher": "github",
+    "repo": "emacs-pe/python-test.el",
+    "files": "(\"python-test.el\")"
+  }
+}

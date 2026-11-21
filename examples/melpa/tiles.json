@@ -1,0 +1,18 @@
+{
+  "id": 1152022888,
+  "name": "ctanas/tiles",
+  "description": "Tagged Instant Lightweight Emacs Snippets (TILES)",
+  "url": "https://github.com/ctanas/tiles",
+  "stars": 31,
+  "updated": "2026-11-02T15:48:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tiles",
+    "fetcher": "github",
+    "repo": "ctanas/tiles"
+  }
+}

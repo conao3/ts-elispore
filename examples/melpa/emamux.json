@@ -1,0 +1,18 @@
+{
+  "id": 4990511,
+  "name": "emacsorphanage/emamux",
+  "description": "tmux manipulation from Emacs",
+  "url": "https://github.com/emacsorphanage/emamux",
+  "stars": 276,
+  "updated": "2026-06-19T13:57:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "emamux",
+    "fetcher": "github",
+    "repo": "emacsorphanage/emamux"
+  }
+}

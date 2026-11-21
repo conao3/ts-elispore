@@ -1,0 +1,18 @@
+{
+  "id": 30425998,
+  "name": "juba/textile-mode",
+  "description": "An emacs major mode for Textile markup language editing.",
+  "url": "https://github.com/juba/textile-mode",
+  "stars": 7,
+  "updated": "2024-02-12T17:55:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "textile-mode",
+    "fetcher": "github",
+    "repo": "juba/textile-mode"
+  }
+}

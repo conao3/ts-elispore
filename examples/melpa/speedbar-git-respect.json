@@ -1,0 +1,19 @@
+{
+  "id": 221303977,
+  "name": "ukari/speedbar-git-respect",
+  "description": "Particular respect git repo in speedbar",
+  "url": "https://github.com/ukari/speedbar-git-respect",
+  "stars": 0,
+  "updated": "2020-09-01T02:46:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "speedbar-git-respect",
+    "fetcher": "github",
+    "repo": "ukari/speedbar-git-respect",
+    "files": "(\"speedbar-git-respect.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 712882568,
+  "name": "diku-dk/smlfmt.el",
+  "description": "Emacs minor mode for running smlfmt",
+  "url": "https://github.com/diku-dk/smlfmt.el",
+  "stars": 6,
+  "updated": "2023-11-07T11:32:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "smlfmt",
+    "fetcher": "github",
+    "repo": "diku-dk/smlfmt.el"
+  }
+}

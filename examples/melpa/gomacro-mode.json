@@ -1,0 +1,18 @@
+{
+  "id": 248336385,
+  "name": "storvik/gomacro-mode",
+  "description": "Emacs package for working with gomacro REPL. ",
+  "url": "https://github.com/storvik/gomacro-mode",
+  "stars": 4,
+  "updated": "2020-03-28T06:32:18Z",
+  "archived": false,
+  "topics": ["comint-mode", "emacs", "golang", "gomacro", "gomacro-mode", "repl"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gomacro-mode",
+    "fetcher": "github",
+    "repo": "storvik/gomacro-mode"
+  }
+}

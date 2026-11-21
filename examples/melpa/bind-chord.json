@@ -1,0 +1,19 @@
+{
+  "id": 43024193,
+  "name": "waymondo/use-package-chords",
+  "description": "key-chord keyword for use-package",
+  "url": "https://github.com/waymondo/use-package-chords",
+  "stars": 27,
+  "updated": "2025-03-30T18:52:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bind-chord",
+    "fetcher": "github",
+    "repo": "waymondo/use-package-chords",
+    "files": "(\"bind-chord.el\")"
+  }
+}

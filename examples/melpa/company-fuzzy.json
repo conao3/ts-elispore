@@ -1,0 +1,18 @@
+{
+  "id": 200027289,
+  "name": "jcs-elpa/company-fuzzy",
+  "description": "Fuzzy matching for `company-mode'",
+  "url": "https://github.com/jcs-elpa/company-fuzzy",
+  "stars": 127,
+  "updated": "2026-06-18T17:30:57Z",
+  "archived": false,
+  "topics": ["auto-complete", "emacs", "ycmd"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "company-fuzzy",
+    "fetcher": "github",
+    "repo": "jcs-elpa/company-fuzzy"
+  }
+}

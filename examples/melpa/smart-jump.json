@@ -1,0 +1,18 @@
+{
+  "id": 111219262,
+  "name": "jojojames/smart-jump",
+  "description": "",
+  "url": "https://github.com/jojojames/smart-jump",
+  "stars": 127,
+  "updated": "2021-03-04T08:45:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smart-jump",
+    "fetcher": "github",
+    "repo": "jojojames/smart-jump"
+  }
+}

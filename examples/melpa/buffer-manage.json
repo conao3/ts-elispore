@@ -1,0 +1,18 @@
+{
+  "id": 77469619,
+  "name": "plandes/buffer-manage",
+  "description": "Provides support to manage Emacs buffers of any kind.",
+  "url": "https://github.com/plandes/buffer-manage",
+  "stars": 11,
+  "updated": "2026-07-13T01:22:02Z",
+  "archived": false,
+  "topics": ["buffer", "emacs", "multiplexing"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "buffer-manage",
+    "fetcher": "github",
+    "repo": "plandes/buffer-manage"
+  }
+}

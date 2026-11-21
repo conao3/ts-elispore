@@ -1,0 +1,18 @@
+{
+  "id": 519448150,
+  "name": "taquangtrung/emacs-yul-mode",
+  "description": "",
+  "url": "https://github.com/taquangtrung/emacs-yul-mode",
+  "stars": 0,
+  "updated": "2022-09-27T03:38:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yul-mode",
+    "fetcher": "github",
+    "repo": "taquangtrung/emacs-yul-mode"
+  }
+}

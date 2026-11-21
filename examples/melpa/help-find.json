@@ -1,0 +1,18 @@
+{
+  "id": 394014629,
+  "name": "duncanburke/help-find",
+  "description": "",
+  "url": "https://github.com/duncanburke/help-find",
+  "stars": 1,
+  "updated": "2022-09-29T08:25:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "help-find",
+    "fetcher": "github",
+    "repo": "duncanburke/help-find"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 203262993,
+  "name": "thiagoa/rbtagger",
+  "description": "A ctags-based Ruby tags system for Emacs",
+  "url": "https://github.com/thiagoa/rbtagger",
+  "stars": 12,
+  "updated": "2025-10-24T15:52:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rbtagger",
+    "fetcher": "github",
+    "repo": "thiagoa/rbtagger",
+    "files": "(:defaults \"bin\")"
+  }
+}

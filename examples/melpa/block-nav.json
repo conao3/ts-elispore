@@ -1,0 +1,18 @@
+{
+  "id": 298884875,
+  "name": "nixin72/block-nav.el",
+  "description": "An Emacs package to navigate based on block levels. ",
+  "url": "https://github.com/nixin72/block-nav.el",
+  "stars": 29,
+  "updated": "2020-10-18T15:57:03Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "navigation", "package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "block-nav",
+    "fetcher": "github",
+    "repo": "nixin72/block-nav.el"
+  }
+}

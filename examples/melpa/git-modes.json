@@ -1,0 +1,18 @@
+{
+  "id": 6122712,
+  "name": "magit/git-modes",
+  "description": "Emacs major modes for Git configuration files",
+  "url": "https://github.com/magit/git-modes",
+  "stars": 315,
+  "updated": "2026-10-01T15:46:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "git-modes",
+    "fetcher": "github",
+    "repo": "magit/git-modes"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 189108176,
+  "name": "federicotdn/key-quiz",
+  "description": "Key Quiz game for GNU Emacs",
+  "url": "https://github.com/federicotdn/key-quiz",
+  "stars": 38,
+  "updated": "2026-07-30T15:01:14Z",
+  "archived": false,
+  "topics": ["command", "emacs", "game", "gnu", "key", "quiz"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "key-quiz",
+    "fetcher": "github",
+    "repo": "federicotdn/key-quiz"
+  }
+}

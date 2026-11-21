@@ -1,0 +1,19 @@
+{
+  "id": 554961985,
+  "name": "DamienCassou/ox-linuxmag-fr",
+  "description": "Emacs Org Mode exporter for the French GNU/Linux Magazine ",
+  "url": "https://github.com/DamienCassou/ox-linuxmag-fr",
+  "stars": 3,
+  "updated": "2026-07-14T15:35:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-linuxmag-fr",
+    "fetcher": "github",
+    "repo": "DamienCassou/ox-linuxmag-fr",
+    "files": "(:defaults \"resources\")"
+  }
+}

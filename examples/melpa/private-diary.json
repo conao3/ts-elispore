@@ -1,0 +1,18 @@
+{
+  "id": 48062863,
+  "name": "cacology/private-diary",
+  "description": "a simple module for maintaining an encrypted private diary along with a non-encrypted one in Emacs",
+  "url": "https://github.com/cacology/private-diary",
+  "stars": 3,
+  "updated": "2015-12-25T20:33:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Perl",
+  "ownerType": "User",
+  "melpa": {
+    "name": "private-diary",
+    "fetcher": "github",
+    "repo": "cacology/private-diary"
+  }
+}

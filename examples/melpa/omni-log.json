@@ -1,0 +1,18 @@
+{
+  "id": 36520901,
+  "name": "AdrieanKhisbe/omni-log.el",
+  "description": "(log 'all-the-things)",
+  "url": "https://github.com/AdrieanKhisbe/omni-log.el",
+  "stars": 3,
+  "updated": "2020-03-04T22:30:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "omni-log",
+    "fetcher": "github",
+    "repo": "AdrieanKhisbe/omni-log.el"
+  }
+}

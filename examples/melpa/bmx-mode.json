@@ -1,0 +1,18 @@
+{
+  "id": 119816106,
+  "name": "josteink/bmx-mode",
+  "description": "Action-paced Windows Batch-file editing, powered by GNU Emacs!",
+  "url": "https://github.com/josteink/bmx-mode",
+  "stars": 8,
+  "updated": "2021-03-19T06:20:32Z",
+  "archived": false,
+  "topics": ["batch-file", "emacs", "windows"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bmx-mode",
+    "fetcher": "github",
+    "repo": "josteink/bmx-mode"
+  }
+}

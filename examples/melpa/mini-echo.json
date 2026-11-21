@@ -1,0 +1,18 @@
+{
+  "id": 702992945,
+  "name": "eki3z/mini-echo.el",
+  "description": "Show buffer status in echo area , get rid of mode-line!",
+  "url": "https://github.com/eki3z/mini-echo.el",
+  "stars": 90,
+  "updated": "2026-02-25T15:11:31Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "mode-line"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mini-echo",
+    "fetcher": "github",
+    "repo": "eki3z/mini-echo.el"
+  }
+}

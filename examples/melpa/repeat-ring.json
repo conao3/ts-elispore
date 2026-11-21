@@ -1,0 +1,18 @@
+{
+  "id": 980294618,
+  "name": "countvajhula/repeat-ring",
+  "description": "A structured and configurable way to repeat key sequences in Emacs.",
+  "url": "https://github.com/countvajhula/repeat-ring",
+  "stars": 9,
+  "updated": "2025-11-05T01:02:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "repeat-ring",
+    "fetcher": "github",
+    "repo": "countvajhula/repeat-ring"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 286180201,
+  "name": "conao3/dired-posframe.el",
+  "description": "Glimpse dired items using posframe",
+  "url": "https://github.com/conao3/dired-posframe.el",
+  "stars": 29,
+  "updated": "2026-11-15T16:55:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-posframe",
+    "fetcher": "github",
+    "repo": "conao3/dired-posframe.el"
+  }
+}

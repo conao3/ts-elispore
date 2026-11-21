@@ -1,0 +1,18 @@
+{
+  "id": 234948081,
+  "name": "freesteph/elescope",
+  "description": "Search and clone Git repos directly within Emacs.",
+  "url": "https://github.com/freesteph/elescope",
+  "stars": 23,
+  "updated": "2021-03-12T11:48:19Z",
+  "archived": false,
+  "topics": ["emacs", "github"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elescope",
+    "fetcher": "github",
+    "repo": "freesteph/elescope"
+  }
+}

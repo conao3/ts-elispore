@@ -1,0 +1,18 @@
+{
+  "id": 213054938,
+  "name": "wiz21b/FlamesOfFreedom",
+  "description": "Flames of freedom for Emacs",
+  "url": "https://github.com/wiz21b/FlamesOfFreedom",
+  "stars": 12,
+  "updated": "2019-12-02T20:35:47Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flames-of-freedom",
+    "fetcher": "github",
+    "repo": "wiz21b/FlamesOfFreedom"
+  }
+}

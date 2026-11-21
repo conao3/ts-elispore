@@ -1,0 +1,19 @@
+{
+  "id": 3645321,
+  "name": "matthewlmcclure/dircmp-mode",
+  "description": "Emacs Directory Comparison and Sync Mode",
+  "url": "https://github.com/matthewlmcclure/dircmp-mode",
+  "stars": 7,
+  "updated": "2014-12-04T17:56:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dircmp",
+    "fetcher": "github",
+    "repo": "matthewlmcclure/dircmp-mode",
+    "files": "(\"*.el\" \"*.sh\")"
+  }
+}

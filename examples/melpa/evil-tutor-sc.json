@@ -1,0 +1,19 @@
+{
+  "id": 653417067,
+  "name": "clsty/evil-tutor-sc",
+  "description": "简体中文的 Emacs Evil 实践式教程",
+  "url": "https://github.com/clsty/evil-tutor-sc",
+  "stars": 18,
+  "updated": "2024-03-26T12:39:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-tutor-sc",
+    "fetcher": "github",
+    "repo": "clsty/evil-tutor-sc",
+    "files": "(:defaults \"tutor-sc.txt\")"
+  }
+}

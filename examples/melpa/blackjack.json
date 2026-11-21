@@ -1,0 +1,27 @@
+{
+  "id": 476086092,
+  "name": "gdonald/blackjack-el",
+  "description": "Play Blackjack in Emacs",
+  "url": "https://github.com/gdonald/blackjack-el",
+  "stars": 7,
+  "updated": "2026-07-05T20:58:03Z",
+  "archived": false,
+  "topics": [
+    "21",
+    "blackjack",
+    "blackjack-game",
+    "console",
+    "elisp",
+    "emacs",
+    "emacs-lisp",
+    "games"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "blackjack",
+    "fetcher": "github",
+    "repo": "gdonald/blackjack-el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 45358766,
+  "name": "ddoherty03/commify",
+  "description": "Emacs package for toggling commas on and off in numbers.",
+  "url": "https://github.com/ddoherty03/commify",
+  "stars": 13,
+  "updated": "2026-09-01T20:37:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "commify",
+    "fetcher": "github",
+    "repo": "ddoherty03/commify"
+  }
+}

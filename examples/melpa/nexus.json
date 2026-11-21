@@ -1,0 +1,18 @@
+{
+  "id": 1367394,
+  "name": "juergenhoetzel/emacs-nexus",
+  "description": "Emacs client for Nexus Maven repository servers",
+  "url": "https://github.com/juergenhoetzel/emacs-nexus",
+  "stars": 13,
+  "updated": "2022-09-02T20:10:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nexus",
+    "fetcher": "github",
+    "repo": "juergenhoetzel/emacs-nexus"
+  }
+}

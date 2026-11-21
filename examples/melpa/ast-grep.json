@@ -1,0 +1,18 @@
+{
+  "id": 1007737210,
+  "name": "SunskyXH/ast-grep.el",
+  "description": "Emacs package for searching code with ast-grep via completing-read, consult, or ivy/counsel.",
+  "url": "https://github.com/SunskyXH/ast-grep.el",
+  "stars": 53,
+  "updated": "2026-09-10T08:55:24Z",
+  "archived": false,
+  "topics": ["ast-grep", "emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ast-grep",
+    "fetcher": "github",
+    "repo": "SunskyXH/ast-grep.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 33370641,
+  "name": "omajid/hgrc-mode",
+  "description": "Emacs major-mode for editing hgrc files",
+  "url": "https://github.com/omajid/hgrc-mode",
+  "stars": 0,
+  "updated": "2015-04-09T20:43:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hgrc-mode",
+    "fetcher": "github",
+    "repo": "omajid/hgrc-mode"
+  }
+}

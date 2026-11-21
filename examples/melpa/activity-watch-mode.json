@@ -1,0 +1,18 @@
+{
+  "id": 153078690,
+  "name": "pauldub/activity-watch-mode",
+  "description": "Emacs plugin for automatic time tracking and metrics generated from your programming activity.",
+  "url": "https://github.com/pauldub/activity-watch-mode",
+  "stars": 89,
+  "updated": "2026-03-18T19:08:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "activity-watch-mode",
+    "fetcher": "github",
+    "repo": "pauldub/activity-watch-mode"
+  }
+}

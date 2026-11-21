@@ -1,0 +1,18 @@
+{
+  "id": 880723609,
+  "name": "xenodium/shell-maker",
+  "description": "Create Emacs shells backed by either local or cloud services.",
+  "url": "https://github.com/xenodium/shell-maker",
+  "stars": 59,
+  "updated": "2026-11-18T12:13:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shell-maker",
+    "fetcher": "github",
+    "repo": "xenodium/shell-maker"
+  }
+}

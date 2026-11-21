@@ -1,0 +1,18 @@
+{
+  "id": 8117191,
+  "name": "tkf/factlog",
+  "description": "factlog - File ACTivity LOGger",
+  "url": "https://github.com/tkf/factlog",
+  "stars": 2,
+  "updated": "2013-05-26T20:02:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "LGPL-3.0",
+  "language": "Python",
+  "ownerType": "User",
+  "melpa": {
+    "name": "factlog",
+    "fetcher": "github",
+    "repo": "tkf/factlog"
+  }
+}

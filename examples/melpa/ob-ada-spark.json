@@ -1,0 +1,18 @@
+{
+  "id": 428759696,
+  "name": "rocher/ob-ada-spark",
+  "description": "",
+  "url": "https://github.com/rocher/ob-ada-spark",
+  "stars": 9,
+  "updated": "2022-11-14T20:11:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-ada-spark",
+    "fetcher": "github",
+    "repo": "rocher/ob-ada-spark"
+  }
+}

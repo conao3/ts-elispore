@@ -1,0 +1,18 @@
+{
+  "id": 54420016,
+  "name": "paldepind/composable.el",
+  "description": "Composable text editing for Emacs.",
+  "url": "https://github.com/paldepind/composable.el",
+  "stars": 118,
+  "updated": "2022-06-30T10:30:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "composable",
+    "fetcher": "github",
+    "repo": "paldepind/composable.el"
+  }
+}

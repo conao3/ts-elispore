@@ -1,0 +1,18 @@
+{
+  "id": 486902918,
+  "name": "taquangtrung/emacs-evm-mode",
+  "description": "Emacs mode for editing EVM bytecode",
+  "url": "https://github.com/taquangtrung/emacs-evm-mode",
+  "stars": 0,
+  "updated": "2022-09-11T16:48:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evm-mode",
+    "fetcher": "github",
+    "repo": "taquangtrung/emacs-evm-mode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 22883982,
+  "name": "vmware/govmomi",
+  "description": "Go library for the VMware vSphere API",
+  "url": "https://github.com/vmware/govmomi",
+  "stars": 2568,
+  "updated": "2026-11-20T15:24:08Z",
+  "archived": false,
+  "topics": ["go", "sdk", "vmware", "vsphere"],
+  "license": "Apache-2.0",
+  "language": "Go",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "govc",
+    "fetcher": "github",
+    "repo": "vmware/govmomi",
+    "files": "(\"govc/emacs/*.el\")"
+  }
+}

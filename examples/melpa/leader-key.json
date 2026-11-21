@@ -1,0 +1,18 @@
+{
+  "id": 562328274,
+  "name": "Havner/leader-key",
+  "description": "Simple helper for god-mode to add leader key functionality",
+  "url": "https://github.com/Havner/leader-key",
+  "stars": 4,
+  "updated": "2023-10-01T22:37:08Z",
+  "archived": false,
+  "topics": ["emacs", "evil-mode", "god-mode", "leader-key"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "leader-key",
+    "fetcher": "github",
+    "repo": "Havner/leader-key"
+  }
+}

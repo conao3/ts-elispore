@@ -1,0 +1,18 @@
+{
+  "id": 28786294,
+  "name": "mswift42/greymatters-theme",
+  "description": "emacs 24 theme with a light background",
+  "url": "https://github.com/mswift42/greymatters-theme",
+  "stars": 15,
+  "updated": "2015-06-21T11:23:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "greymatters-theme",
+    "fetcher": "github",
+    "repo": "mswift42/greymatters-theme"
+  }
+}

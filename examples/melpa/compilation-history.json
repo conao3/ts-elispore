@@ -1,0 +1,29 @@
+{
+  "id": 1074873479,
+  "name": "djgoku/compilation-history",
+  "description": "Automatic compilation history tracking for Emacs with searchable SQLite-backed storage.",
+  "url": "https://github.com/djgoku/compilation-history",
+  "stars": 9,
+  "updated": "2026-11-15T07:23:13Z",
+  "archived": false,
+  "topics": [
+    "comint",
+    "comint-mode",
+    "compilation",
+    "compilation-mode",
+    "compilation-tools",
+    "emacs",
+    "emacs-lisp",
+    "fts",
+    "history",
+    "sqlite3"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "compilation-history",
+    "fetcher": "github",
+    "repo": "djgoku/compilation-history"
+  }
+}

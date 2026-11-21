@@ -1,0 +1,18 @@
+{
+  "id": 273578257,
+  "name": "s-kostyaev/comby.el",
+  "description": "`comby.el` is a simple wrapper around comby - https://comby.dev/",
+  "url": "https://github.com/s-kostyaev/comby.el",
+  "stars": 16,
+  "updated": "2020-06-29T01:40:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "comby",
+    "fetcher": "github",
+    "repo": "s-kostyaev/comby.el"
+  }
+}

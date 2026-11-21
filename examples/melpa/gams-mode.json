@@ -1,0 +1,19 @@
+{
+  "id": 30701920,
+  "name": "ShiroTakeda/gams-mode",
+  "description": "GAMS mode for Emacs",
+  "url": "https://github.com/ShiroTakeda/gams-mode",
+  "stars": 17,
+  "updated": "2026-09-26T07:33:04Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-mode", "gams"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gams-mode",
+    "fetcher": "github",
+    "repo": "ShiroTakeda/gams-mode",
+    "files": "(\"gams-mode.el\"\n         \"gams-install.el\"\n         \"gams-logo.xpm\"\n         \"gams-commands.txt\"\n         \"gams-commands-dollar.txt\"\n         \"gams_install.ps1\"\n         \"gams_install.sh\"\n         \"doc/gams-mode.texi\")"
+  }
+}

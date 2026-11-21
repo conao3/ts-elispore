@@ -1,0 +1,18 @@
+{
+  "id": 1123213824,
+  "name": "Prgebish/evil-tex-ts",
+  "description": "Tree-sitter based LaTeX text objects for Evil mode",
+  "url": "https://github.com/Prgebish/evil-tex-ts",
+  "stars": 7,
+  "updated": "2026-02-10T07:16:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-tex-ts",
+    "fetcher": "github",
+    "repo": "Prgebish/evil-tex-ts"
+  }
+}

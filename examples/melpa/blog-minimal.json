@@ -1,0 +1,19 @@
+{
+  "id": 83260253,
+  "name": "thiefuniverse/blog-minimal",
+  "description": "a simple static site generator based on org mode",
+  "url": "https://github.com/thiefuniverse/blog-minimal",
+  "stars": 67,
+  "updated": "2018-10-21T10:12:42Z",
+  "archived": false,
+  "topics": ["blog", "elisp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "blog-minimal",
+    "fetcher": "github",
+    "repo": "thiefuniverse/blog-minimal",
+    "files": "(:defaults \"media\" \"templates\" \"about.org\")"
+  }
+}

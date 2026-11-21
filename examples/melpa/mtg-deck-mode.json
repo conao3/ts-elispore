@@ -1,0 +1,19 @@
+{
+  "id": 41943953,
+  "name": "mattiasb/mtg-deck-mode",
+  "description": "Emacs major mode to edit Magic: the Gathering decks.",
+  "url": "https://github.com/mattiasb/mtg-deck-mode",
+  "stars": 10,
+  "updated": "2025-05-30T14:17:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mtg-deck-mode",
+    "fetcher": "github",
+    "repo": "mattiasb/mtg-deck-mode",
+    "files": "( :defaults \"formats\" )"
+  }
+}

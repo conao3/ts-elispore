@@ -1,0 +1,18 @@
+{
+  "id": 23632408,
+  "name": "remyferre/comment-dwim-2",
+  "description": "A replacement for the emacs' built-in command `comment-dwim'",
+  "url": "https://github.com/remyferre/comment-dwim-2",
+  "stars": 121,
+  "updated": "2025-02-15T15:22:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "comment-dwim-2",
+    "fetcher": "github",
+    "repo": "remyferre/comment-dwim-2"
+  }
+}

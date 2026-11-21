@@ -1,0 +1,19 @@
+{
+  "id": 235488391,
+  "name": "gcv/julia-snail",
+  "description": "An Emacs development environment for Julia",
+  "url": "https://github.com/gcv/julia-snail",
+  "stars": 322,
+  "updated": "2026-07-13T13:44:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "julia-snail",
+    "fetcher": "github",
+    "repo": "gcv/julia-snail",
+    "files": "(:defaults \"*.jl\" \"*.toml\" \"extensions\")"
+  }
+}

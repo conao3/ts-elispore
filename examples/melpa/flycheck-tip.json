@@ -1,0 +1,18 @@
+{
+  "id": 13731304,
+  "name": "yuutayamada/flycheck-tip",
+  "description": "Show flycheck/flymake errors by tooltip",
+  "url": "https://github.com/yuutayamada/flycheck-tip",
+  "stars": 46,
+  "updated": "2017-10-20T13:28:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-tip",
+    "fetcher": "github",
+    "repo": "yuutayamada/flycheck-tip"
+  }
+}

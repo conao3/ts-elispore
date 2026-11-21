@@ -1,0 +1,18 @@
+{
+  "id": 207229120,
+  "name": "emacs-lsp/lsp-ivy",
+  "description": "lsp-mode ❤️ ivy",
+  "url": "https://github.com/emacs-lsp/lsp-ivy",
+  "stars": 139,
+  "updated": "2026-06-19T08:38:53Z",
+  "archived": false,
+  "topics": ["elisp", "ivy", "lsp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-ivy",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-ivy"
+  }
+}

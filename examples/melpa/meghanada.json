@@ -1,0 +1,18 @@
+{
+  "id": 67041495,
+  "name": "mopemope/meghanada-emacs",
+  "description": "A Better Java Development Environment for Emacs",
+  "url": "https://github.com/mopemope/meghanada-emacs",
+  "stars": 601,
+  "updated": "2023-05-25T00:52:27Z",
+  "archived": false,
+  "topics": ["emacs", "java", "melpa"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "meghanada",
+    "fetcher": "github",
+    "repo": "mopemope/meghanada-emacs"
+  }
+}

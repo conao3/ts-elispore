@@ -1,0 +1,18 @@
+{
+  "id": 10841223,
+  "name": "vapniks/ido-gnus",
+  "description": "Access gnus groups using ido",
+  "url": "https://github.com/vapniks/ido-gnus",
+  "stars": 2,
+  "updated": "2014-02-16T16:46:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ido-gnus",
+    "fetcher": "github",
+    "repo": "vapniks/ido-gnus"
+  }
+}

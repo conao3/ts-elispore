@@ -1,0 +1,19 @@
+{
+  "id": 378207449,
+  "name": "Overdr0ne/gumshoe",
+  "description": "",
+  "url": "https://github.com/Overdr0ne/gumshoe",
+  "stars": 94,
+  "updated": "2026-02-25T14:47:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "persp-gumshoe",
+    "fetcher": "github",
+    "repo": "Overdr0ne/gumshoe",
+    "files": "(\"extensions/persp-gumshoe/persp-gumshoe*.el\")"
+  }
+}

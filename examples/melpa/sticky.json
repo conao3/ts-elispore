@@ -1,0 +1,18 @@
+{
+  "id": 104816314,
+  "name": "rubikitch/sticky",
+  "description": "",
+  "url": "https://github.com/rubikitch/sticky",
+  "stars": 0,
+  "updated": "2017-09-26T00:36:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sticky",
+    "fetcher": "github",
+    "repo": "rubikitch/sticky"
+  }
+}

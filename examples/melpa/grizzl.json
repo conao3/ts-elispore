@@ -1,0 +1,18 @@
+{
+  "id": 10600194,
+  "name": "grizzl/grizzl",
+  "description": "[DEPRECATED] Grizzl - A fuzzy search index & completing-read for Emacs",
+  "url": "https://github.com/grizzl/grizzl",
+  "stars": 168,
+  "updated": "2018-07-09T17:47:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "grizzl",
+    "fetcher": "github",
+    "repo": "grizzl/grizzl"
+  }
+}

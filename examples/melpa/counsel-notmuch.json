@@ -1,0 +1,18 @@
+{
+  "id": 113154332,
+  "name": "fuxialexander/counsel-notmuch",
+  "description": "Search emails in Notmuch asynchronously with Ivy",
+  "url": "https://github.com/fuxialexander/counsel-notmuch",
+  "stars": 14,
+  "updated": "2020-01-30T20:26:28Z",
+  "archived": false,
+  "topics": ["emacs", "email", "notmuch"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-notmuch",
+    "fetcher": "github",
+    "repo": "fuxialexander/counsel-notmuch"
+  }
+}

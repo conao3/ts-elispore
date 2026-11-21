@@ -1,0 +1,18 @@
+{
+  "id": 7309371,
+  "name": "pd/easy-after-load",
+  "description": "Automatically eval-after-load a files' contents when emacs loads a library",
+  "url": "https://github.com/pd/easy-after-load",
+  "stars": 1,
+  "updated": "2017-08-17T12:31:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "easy-after-load",
+    "fetcher": "github",
+    "repo": "pd/easy-after-load"
+  }
+}

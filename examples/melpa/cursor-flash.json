@@ -1,0 +1,18 @@
+{
+  "id": 379956528,
+  "name": "Boruch-Baum/emacs-cursor-flash",
+  "description": "Highlight the cursor on buffer/window-switch",
+  "url": "https://github.com/Boruch-Baum/emacs-cursor-flash",
+  "stars": 2,
+  "updated": "2021-07-22T04:50:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cursor-flash",
+    "fetcher": "github",
+    "repo": "Boruch-Baum/emacs-cursor-flash"
+  }
+}

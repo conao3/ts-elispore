@@ -1,0 +1,18 @@
+{
+  "id": 17845038,
+  "name": "davidshepherd7/frames-only-mode",
+  "description": "Make emacs play nicely with tiling window managers by setting it up to use frames rather than windows",
+  "url": "https://github.com/davidshepherd7/frames-only-mode",
+  "stars": 181,
+  "updated": "2026-03-28T06:50:36Z",
+  "archived": false,
+  "topics": ["emacs", "tiling-window-manager", "window-manager"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "frames-only-mode",
+    "fetcher": "github",
+    "repo": "davidshepherd7/frames-only-mode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 56029614,
+  "name": "Galooshi/emacs-import-js",
+  "description": "Emacs plugin for ImportJS",
+  "url": "https://github.com/Galooshi/emacs-import-js",
+  "stars": 40,
+  "updated": "2022-08-19T21:05:53Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-plugin", "importjs", "javascript"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "import-js",
+    "fetcher": "github",
+    "repo": "Galooshi/emacs-import-js",
+    "files": "(\"plugin/import-js.el\")"
+  }
+}

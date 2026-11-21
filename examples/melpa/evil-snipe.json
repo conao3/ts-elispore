@@ -1,0 +1,18 @@
+{
+  "id": 27612830,
+  "name": "hlissner/evil-snipe",
+  "description": "2-char searching ala vim-sneak & vim-seek, for evil-mode",
+  "url": "https://github.com/hlissner/evil-snipe",
+  "stars": 353,
+  "updated": "2025-05-05T05:08:09Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-packages", "evil", "vim-sneak"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-snipe",
+    "fetcher": "github",
+    "repo": "hlissner/evil-snipe"
+  }
+}

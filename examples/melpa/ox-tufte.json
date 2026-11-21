@@ -1,0 +1,19 @@
+{
+  "id": 67169804,
+  "name": "ox-tufte/ox-tufte",
+  "description": "Emacs' Org-mode export backend for Tufte HTML",
+  "url": "https://github.com/ox-tufte/ox-tufte",
+  "stars": 151,
+  "updated": "2025-03-25T23:11:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ox-tufte",
+    "fetcher": "github",
+    "repo": "ox-tufte/ox-tufte",
+    "files": "(:defaults \"src\")"
+  }
+}

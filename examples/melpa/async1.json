@@ -1,0 +1,18 @@
+{
+  "id": 1043690962,
+  "name": "Anoncheg1/emacs-async1",
+  "description": "Async callbacks in a unrolled list form. (static structure)",
+  "url": "https://github.com/Anoncheg1/emacs-async1",
+  "stars": 0,
+  "updated": "2026-04-21T21:17:43Z",
+  "archived": false,
+  "topics": ["async", "callbacks", "emacs"],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "async1",
+    "fetcher": "github",
+    "repo": "Anoncheg1/emacs-async1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 61248906,
+  "name": "colonelpanic8/github-search",
+  "description": "Use the github search API to clone github repositories.",
+  "url": "https://github.com/colonelpanic8/github-search",
+  "stars": 16,
+  "updated": "2019-06-24T04:37:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "github-search",
+    "fetcher": "github",
+    "repo": "colonelpanic8/github-search"
+  }
+}

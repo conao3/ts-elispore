@@ -1,0 +1,18 @@
+{
+  "id": 442057747,
+  "name": "enricoflor/syntree",
+  "description": "Draw plain text constituency trees in GNU Emacs",
+  "url": "https://github.com/enricoflor/syntree",
+  "stars": 20,
+  "updated": "2023-06-21T20:50:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "syntree",
+    "fetcher": "github",
+    "repo": "enricoflor/syntree"
+  }
+}

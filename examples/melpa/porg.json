@@ -1,0 +1,18 @@
+{
+  "id": 1120402212,
+  "name": "laluxx/porg",
+  "description": "org-mode for prog-mode(s)",
+  "url": "https://github.com/laluxx/porg",
+  "stars": 4,
+  "updated": "2025-12-30T04:10:20Z",
+  "archived": false,
+  "topics": ["emacs-package", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "porg",
+    "fetcher": "github",
+    "repo": "laluxx/porg"
+  }
+}

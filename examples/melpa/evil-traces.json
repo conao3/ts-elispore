@@ -1,0 +1,18 @@
+{
+  "id": 195503757,
+  "name": "mamapanda/evil-traces",
+  "description": "some evil-ex command previews",
+  "url": "https://github.com/mamapanda/evil-traces",
+  "stars": 31,
+  "updated": "2023-08-20T22:55:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-traces",
+    "fetcher": "github",
+    "repo": "mamapanda/evil-traces"
+  }
+}

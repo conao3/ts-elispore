@@ -1,0 +1,18 @@
+{
+  "id": 797438991,
+  "name": "ichernyshovvv/enlight",
+  "description": "Highly customizable startup screen for Emacs.",
+  "url": "https://github.com/ichernyshovvv/enlight",
+  "stars": 152,
+  "updated": "2025-01-22T03:38:07Z",
+  "archived": false,
+  "topics": ["dashboard", "emacs", "startup"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "enlight",
+    "fetcher": "github",
+    "repo": "ichernyshovvv/enlight"
+  }
+}

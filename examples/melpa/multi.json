@@ -1,0 +1,18 @@
+{
+  "id": 12500117,
+  "name": "kurisuwhyte/emacs-multi",
+  "description": "Clojure-style multi-methods for Emacs Lisp",
+  "url": "https://github.com/kurisuwhyte/emacs-multi",
+  "stars": 30,
+  "updated": "2015-04-25T09:33:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "multi",
+    "fetcher": "github",
+    "repo": "kurisuwhyte/emacs-multi"
+  }
+}

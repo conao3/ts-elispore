@@ -1,0 +1,18 @@
+{
+  "id": 75250776,
+  "name": "CyberShadow/sdlang-mode",
+  "description": "An Emacs major mode for editing Simple Declarative Language files",
+  "url": "https://github.com/CyberShadow/sdlang-mode",
+  "stars": 0,
+  "updated": "2021-12-25T15:42:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sdlang-mode",
+    "fetcher": "github",
+    "repo": "CyberShadow/sdlang-mode"
+  }
+}

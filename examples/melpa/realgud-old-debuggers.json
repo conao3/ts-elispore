@@ -1,0 +1,19 @@
+{
+  "id": 52240441,
+  "name": "realgud/realgud-old-debuggers",
+  "description": "Older lesser-used debuggers for GNU Emacs realgud",
+  "url": "https://github.com/realgud/realgud-old-debuggers",
+  "stars": 1,
+  "updated": "2019-05-20T11:52:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "realgud-old-debuggers",
+    "fetcher": "github",
+    "repo": "realgud/realgud-old-debuggers",
+    "files": "(\"realgud-old-debuggers.el\"\n         (\"pydb\" \"pydb/*.el\")\n         (\"pydbgr\" \"pydbgr/*.el\")\n         (\"trepan8\" \"trepan8/*.el\")\n         (\"trepanx\" \"trepanx/*.el\"))"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 56618808,
+  "name": "kootenpv/flymake-solidity",
+  "description": "flymake for solidity, using flymake-easy: live feedback on writing solidity contracts",
+  "url": "https://github.com/kootenpv/flymake-solidity",
+  "stars": 3,
+  "updated": "2017-08-05T06:44:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-solidity",
+    "fetcher": "github",
+    "repo": "kootenpv/flymake-solidity"
+  }
+}

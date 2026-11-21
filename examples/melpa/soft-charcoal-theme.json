@@ -1,0 +1,18 @@
+{
+  "id": 12698023,
+  "name": "mswift42/soft-charcoal-theme",
+  "description": "Emacs24 theme with a charcoal background.",
+  "url": "https://github.com/mswift42/soft-charcoal-theme",
+  "stars": 18,
+  "updated": "2014-04-20T16:44:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "soft-charcoal-theme",
+    "fetcher": "github",
+    "repo": "mswift42/soft-charcoal-theme"
+  }
+}

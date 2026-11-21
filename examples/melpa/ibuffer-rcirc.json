@@ -1,0 +1,18 @@
+{
+  "id": 30839692,
+  "name": "fgallina/ibuffer-rcirc",
+  "description": "Ibuffer integration for rcirc",
+  "url": "https://github.com/fgallina/ibuffer-rcirc",
+  "stars": 2,
+  "updated": "2015-02-15T21:19:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ibuffer-rcirc",
+    "fetcher": "github",
+    "repo": "fgallina/ibuffer-rcirc"
+  }
+}

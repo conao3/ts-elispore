@@ -1,0 +1,18 @@
+{
+  "id": 17128538,
+  "name": "zk-phi/download-region",
+  "description": "Simple in-buffer download manager for Emacs",
+  "url": "https://github.com/zk-phi/download-region",
+  "stars": 14,
+  "updated": "2021-03-06T04:16:01Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "download-region",
+    "fetcher": "github",
+    "repo": "zk-phi/download-region"
+  }
+}

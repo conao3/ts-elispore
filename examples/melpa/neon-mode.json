@@ -1,0 +1,18 @@
+{
+  "id": 32920779,
+  "name": "Fuco1/neon-mode",
+  "description": "Simple major mode for editing neon files",
+  "url": "https://github.com/Fuco1/neon-mode",
+  "stars": 1,
+  "updated": "2024-12-20T13:04:38Z",
+  "archived": false,
+  "topics": ["conf", "emacs-lisp", "neon", "nettte", "syntax-highlighting"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "neon-mode",
+    "fetcher": "github",
+    "repo": "Fuco1/neon-mode"
+  }
+}

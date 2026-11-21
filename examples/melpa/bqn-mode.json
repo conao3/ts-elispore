@@ -1,0 +1,18 @@
+{
+  "id": 429296165,
+  "name": "museoa/bqn-mode",
+  "description": "Emacs mode for BQN programming language",
+  "url": "https://github.com/museoa/bqn-mode",
+  "stars": 47,
+  "updated": "2026-11-16T18:40:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "bqn-mode",
+    "fetcher": "github",
+    "repo": "museoa/bqn-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 128102100,
+  "name": "Lindydancer/mode-line-keyboard",
+  "description": "Use the mode line as keyboard (for touch screens)",
+  "url": "https://github.com/Lindydancer/mode-line-keyboard",
+  "stars": 7,
+  "updated": "2025-03-03T20:03:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mode-line-keyboard",
+    "fetcher": "github",
+    "repo": "Lindydancer/mode-line-keyboard"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 377170837,
+  "name": "mohkale/flymake-collection",
+  "description": "Collection of checkers for flymake",
+  "url": "https://github.com/mohkale/flymake-collection",
+  "stars": 87,
+  "updated": "2026-06-13T14:34:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-collection",
+    "fetcher": "github",
+    "repo": "mohkale/flymake-collection",
+    "files": "(:defaults \"src/*.el\" \"src/checkers/*.el\")"
+  }
+}

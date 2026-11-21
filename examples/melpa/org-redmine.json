@@ -1,0 +1,18 @@
+{
+  "id": 4871881,
+  "name": "emacsorphanage/org-redmine",
+  "description": "Redmine tools using Emacs OrgMode",
+  "url": "https://github.com/emacsorphanage/org-redmine",
+  "stars": 86,
+  "updated": "2023-04-11T13:00:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "org-redmine",
+    "fetcher": "github",
+    "repo": "emacsorphanage/org-redmine"
+  }
+}

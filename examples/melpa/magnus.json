@@ -1,0 +1,31 @@
+{
+  "id": 1150263001,
+  "name": "hrishikeshs/magnus",
+  "description": "Manage multiple Codex AI (& Claude Code) agents in Emacs — coordination, attention queue, health monitoring. Magit-inspired.",
+  "url": "https://github.com/hrishikeshs/magnus",
+  "stars": 14,
+  "updated": "2026-11-13T07:50:28Z",
+  "archived": false,
+  "topics": [
+    "ai-agents",
+    "anthropic-claude",
+    "codex",
+    "codex-cli",
+    "developer-tools",
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "magit",
+    "multi-agent",
+    "openai",
+    "vterm"
+  ],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magnus",
+    "fetcher": "github",
+    "repo": "hrishikeshs/magnus"
+  }
+}

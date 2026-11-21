@@ -1,0 +1,18 @@
+{
+  "id": 31461472,
+  "name": "Fuco1/autobookmarks",
+  "description": "Automatic bookmarks",
+  "url": "https://github.com/Fuco1/autobookmarks",
+  "stars": 12,
+  "updated": "2022-05-09T17:12:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "autobookmarks",
+    "fetcher": "github",
+    "repo": "Fuco1/autobookmarks"
+  }
+}

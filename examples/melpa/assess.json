@@ -1,0 +1,18 @@
+{
+  "id": 44919247,
+  "name": "phillord/assess",
+  "description": "Test support functions for Emacs",
+  "url": "https://github.com/phillord/assess",
+  "stars": 32,
+  "updated": "2024-03-03T14:55:09Z",
+  "archived": false,
+  "topics": ["emacs", "predicates", "testing"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "assess",
+    "fetcher": "github",
+    "repo": "phillord/assess"
+  }
+}

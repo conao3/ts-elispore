@@ -1,0 +1,19 @@
+{
+  "id": 2378427,
+  "name": "emacs-gnuplot/gnuplot",
+  "description": "A major mode for Emacs for interacting with Gnuplot",
+  "url": "https://github.com/emacs-gnuplot/gnuplot",
+  "stars": 159,
+  "updated": "2026-08-25T10:54:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "gnuplot",
+    "fetcher": "github",
+    "repo": "emacs-gnuplot/gnuplot",
+    "files": "(\"gnuplot.el\" \"gnuplot-gui.el\" \"gnuplot-context.el\" \"gnuplot-eldoc.el\" \"gnuplot.texi\")"
+  }
+}

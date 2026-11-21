@@ -1,0 +1,18 @@
+{
+  "id": 23511520,
+  "name": "benma/hayoo.el",
+  "description": "Query hayoo and show results in a tabulated buffer.",
+  "url": "https://github.com/benma/hayoo.el",
+  "stars": 4,
+  "updated": "2014-08-31T12:21:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hayoo",
+    "fetcher": "github",
+    "repo": "benma/hayoo.el"
+  }
+}

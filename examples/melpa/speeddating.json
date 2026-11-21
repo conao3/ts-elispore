@@ -1,0 +1,18 @@
+{
+  "id": 125337523,
+  "name": "xuchunyang/emacs-speeddating",
+  "description": "Increase date and time at point",
+  "url": "https://github.com/xuchunyang/emacs-speeddating",
+  "stars": 11,
+  "updated": "2018-03-25T04:49:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "speeddating",
+    "fetcher": "github",
+    "repo": "xuchunyang/emacs-speeddating"
+  }
+}

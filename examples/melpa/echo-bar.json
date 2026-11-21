@@ -1,0 +1,18 @@
+{
+  "id": 415678508,
+  "name": "benzanol/echo-bar.el",
+  "description": "Display some custom text at the end of the echo area",
+  "url": "https://github.com/benzanol/echo-bar.el",
+  "stars": 30,
+  "updated": "2026-10-24T02:37:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "echo-bar",
+    "fetcher": "github",
+    "repo": "benzanol/echo-bar.el"
+  }
+}

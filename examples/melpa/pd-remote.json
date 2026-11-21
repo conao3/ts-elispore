@@ -1,0 +1,18 @@
+{
+  "id": 597299971,
+  "name": "agraef/pd-remote",
+  "description": "Pd remote control helpers",
+  "url": "https://github.com/agraef/pd-remote",
+  "stars": 1,
+  "updated": "2023-03-14T04:28:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Makefile",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pd-remote",
+    "fetcher": "github",
+    "repo": "agraef/pd-remote"
+  }
+}

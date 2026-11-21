@@ -1,0 +1,18 @@
+{
+  "id": 52697120,
+  "name": "tomjakubowski/sprunge.el",
+  "description": "emacs package to upload text to sprunge.us, the command line pastebin",
+  "url": "https://github.com/tomjakubowski/sprunge.el",
+  "stars": 2,
+  "updated": "2016-03-01T02:44:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sprunge",
+    "fetcher": "github",
+    "repo": "tomjakubowski/sprunge.el"
+  }
+}

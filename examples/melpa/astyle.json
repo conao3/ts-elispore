@@ -1,0 +1,18 @@
+{
+  "id": 248058519,
+  "name": "storvik/emacs-astyle",
+  "description": "Wrapper around astyle for formatting C buffers. ",
+  "url": "https://github.com/storvik/emacs-astyle",
+  "stars": 2,
+  "updated": "2020-03-28T06:16:46Z",
+  "archived": false,
+  "topics": ["astyle", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "astyle",
+    "fetcher": "github",
+    "repo": "storvik/emacs-astyle"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 229244024,
+  "name": "julianrubisch/pronto.el",
+  "description": "an Emacs compilation mode for pronto",
+  "url": "https://github.com/julianrubisch/pronto.el",
+  "stars": 2,
+  "updated": "2020-02-24T16:03:54Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pronto",
+    "fetcher": "github",
+    "repo": "julianrubisch/pronto.el"
+  }
+}

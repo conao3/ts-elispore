@@ -1,0 +1,18 @@
+{
+  "id": 459096268,
+  "name": "localauthor/zk-luhmann",
+  "description": "",
+  "url": "https://github.com/localauthor/zk-luhmann",
+  "stars": 12,
+  "updated": "2026-07-05T14:27:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zk-luhmann",
+    "fetcher": "github",
+    "repo": "localauthor/zk-luhmann"
+  }
+}

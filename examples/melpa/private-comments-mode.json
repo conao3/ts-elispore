@@ -1,0 +1,18 @@
+{
+  "id": 469994852,
+  "name": "masukomi/private-comments-mode",
+  "description": "",
+  "url": "https://github.com/masukomi/private-comments-mode",
+  "stars": 16,
+  "updated": "2024-09-26T18:28:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "private-comments-mode",
+    "fetcher": "github",
+    "repo": "masukomi/private-comments-mode"
+  }
+}

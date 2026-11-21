@@ -1,0 +1,18 @@
+{
+  "id": 5405857,
+  "name": "cuspymd/tramp-term.el",
+  "description": "Provides a quick way to create an ansi-term containing an ssh session with remote directory tracking already configured.",
+  "url": "https://github.com/cuspymd/tramp-term.el",
+  "stars": 42,
+  "updated": "2026-07-01T13:51:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tramp-term",
+    "fetcher": "github",
+    "repo": "cuspymd/tramp-term.el"
+  }
+}

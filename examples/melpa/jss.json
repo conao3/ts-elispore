@@ -1,0 +1,18 @@
+{
+  "id": 8457903,
+  "name": "segv/jss",
+  "description": "jsSlime - An emacs toolkit for developing and debugging in-browser javascript code",
+  "url": "https://github.com/segv/jss",
+  "stars": 101,
+  "updated": "2013-05-08T14:25:11Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jss",
+    "fetcher": "github",
+    "repo": "segv/jss"
+  }
+}

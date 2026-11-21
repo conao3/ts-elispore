@@ -1,0 +1,19 @@
+{
+  "id": 15749736,
+  "name": "aki2o/emacs-vbasense",
+  "description": "Provide the environment like Visual Basic Editor on Emacs",
+  "url": "https://github.com/aki2o/emacs-vbasense",
+  "stars": 20,
+  "updated": "2014-11-22T00:30:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vbasense",
+    "fetcher": "github",
+    "repo": "aki2o/emacs-vbasense",
+    "files": "(\"*.el\" \"*.vbs\" \"*.bat\")"
+  }
+}

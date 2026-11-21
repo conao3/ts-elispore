@@ -1,0 +1,19 @@
+{
+  "id": 4016067,
+  "name": "hawk/lux",
+  "description": "Test automation framework with Expect style execution of commands",
+  "url": "https://github.com/hawk/lux",
+  "stars": 145,
+  "updated": "2026-04-27T11:19:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Erlang",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lux-mode",
+    "fetcher": "github",
+    "repo": "hawk/lux",
+    "files": "(\"emacs/lux-mode.el\")"
+  }
+}

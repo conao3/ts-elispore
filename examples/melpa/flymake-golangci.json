@@ -1,0 +1,18 @@
+{
+  "id": 771774742,
+  "name": "emacsattic/flymake-golangci",
+  "description": "",
+  "url": "https://github.com/emacsattic/flymake-golangci",
+  "stars": 1,
+  "updated": "2024-03-13T23:32:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flymake-golangci",
+    "fetcher": "github",
+    "repo": "emacsattic/flymake-golangci"
+  }
+}

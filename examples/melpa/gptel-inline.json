@@ -1,0 +1,18 @@
+{
+  "id": 1335336760,
+  "name": "karthink/gptel-inline",
+  "description": "",
+  "url": "https://github.com/karthink/gptel-inline",
+  "stars": 20,
+  "updated": "2026-11-17T03:27:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gptel-inline",
+    "fetcher": "github",
+    "repo": "karthink/gptel-inline"
+  }
+}

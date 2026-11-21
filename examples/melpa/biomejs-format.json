@@ -1,0 +1,18 @@
+{
+  "id": 777629716,
+  "name": "yadex205/emacs-biomejs-format",
+  "description": "Minor mode to format JS code with Biome on file save",
+  "url": "https://github.com/yadex205/emacs-biomejs-format",
+  "stars": 8,
+  "updated": "2024-04-01T04:59:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "biomejs-format",
+    "fetcher": "github",
+    "repo": "yadex205/emacs-biomejs-format"
+  }
+}

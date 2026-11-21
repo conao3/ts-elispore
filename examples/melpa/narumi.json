@@ -1,0 +1,18 @@
+{
+  "id": 458456965,
+  "name": "ryotaro612/narumi",
+  "description": "",
+  "url": "https://github.com/ryotaro612/narumi",
+  "stars": 4,
+  "updated": "2022-03-12T02:42:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "narumi",
+    "fetcher": "github",
+    "repo": "ryotaro612/narumi"
+  }
+}

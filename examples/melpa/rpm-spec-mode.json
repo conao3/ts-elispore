@@ -1,0 +1,18 @@
+{
+  "id": 558244318,
+  "name": "Thaodan/rpm-spec-mode",
+  "description": "RPM spec file editing commands for Emacs/XEmacs",
+  "url": "https://github.com/Thaodan/rpm-spec-mode",
+  "stars": 3,
+  "updated": "2026-06-16T19:20:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rpm-spec-mode",
+    "fetcher": "github",
+    "repo": "Thaodan/rpm-spec-mode"
+  }
+}

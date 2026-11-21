@@ -1,0 +1,18 @@
+{
+  "id": 12686576,
+  "name": "mswift42/obsidian-theme",
+  "description": "port of the Eclipse theme Obsidian",
+  "url": "https://github.com/mswift42/obsidian-theme",
+  "stars": 15,
+  "updated": "2017-07-19T09:48:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "obsidian-theme",
+    "fetcher": "github",
+    "repo": "mswift42/obsidian-theme"
+  }
+}

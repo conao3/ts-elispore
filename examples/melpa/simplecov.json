@@ -1,0 +1,18 @@
+{
+  "id": 553383756,
+  "name": "zenspider/simplecov.el",
+  "description": "provides the ability to highlight untested code according to simplecov.",
+  "url": "https://github.com/zenspider/simplecov.el",
+  "stars": 1,
+  "updated": "2023-02-16T14:14:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simplecov",
+    "fetcher": "github",
+    "repo": "zenspider/simplecov.el"
+  }
+}

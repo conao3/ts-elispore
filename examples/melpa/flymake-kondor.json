@@ -1,0 +1,18 @@
+{
+  "id": 219365224,
+  "name": "turbo-cafe/flymake-kondor",
+  "description": "",
+  "url": "https://github.com/turbo-cafe/flymake-kondor",
+  "stars": 14,
+  "updated": "2021-11-19T09:04:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-kondor",
+    "fetcher": "github",
+    "repo": "turbo-cafe/flymake-kondor"
+  }
+}

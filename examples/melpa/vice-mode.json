@@ -1,0 +1,18 @@
+{
+  "id": 736632299,
+  "name": "gpapadok/vice",
+  "description": "VIm-like Commands Extension for Emacs",
+  "url": "https://github.com/gpapadok/vice",
+  "stars": 0,
+  "updated": "2026-09-24T19:43:57Z",
+  "archived": false,
+  "topics": ["editing", "emacs", "emacs-package", "vim"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vice-mode",
+    "fetcher": "github",
+    "repo": "gpapadok/vice"
+  }
+}

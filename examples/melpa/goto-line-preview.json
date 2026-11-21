@@ -1,0 +1,18 @@
+{
+  "id": 173260024,
+  "name": "emacs-vs/goto-line-preview",
+  "description": "Preview line when executing `goto-line` command",
+  "url": "https://github.com/emacs-vs/goto-line-preview",
+  "stars": 96,
+  "updated": "2026-06-19T08:46:21Z",
+  "archived": false,
+  "topics": ["vsc", "vscode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "goto-line-preview",
+    "fetcher": "github",
+    "repo": "emacs-vs/goto-line-preview"
+  }
+}

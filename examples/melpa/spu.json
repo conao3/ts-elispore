@@ -1,0 +1,18 @@
+{
+  "id": 58262576,
+  "name": "mola-T/SPU",
+  "description": "SPU - Emacs Silent Package Upgrader",
+  "url": "https://github.com/mola-T/SPU",
+  "stars": 25,
+  "updated": "2016-12-14T03:24:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "spu",
+    "fetcher": "github",
+    "repo": "mola-T/SPU"
+  }
+}

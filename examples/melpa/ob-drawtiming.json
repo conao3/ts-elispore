@@ -1,0 +1,18 @@
+{
+  "id": 602974142,
+  "name": "perfab71/ob-drawtiming",
+  "description": "This org-mode babel extension enables you to manage drawtiming.",
+  "url": "https://github.com/perfab71/ob-drawtiming",
+  "stars": 2,
+  "updated": "2023-03-12T17:40:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-drawtiming",
+    "fetcher": "github",
+    "repo": "perfab71/ob-drawtiming"
+  }
+}

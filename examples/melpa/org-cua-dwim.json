@@ -1,0 +1,18 @@
+{
+  "id": 2943827,
+  "name": "mattfidler/org-cua-dwim.el",
+  "description": "Org-mode and CUA-mode compatablilty layer",
+  "url": "https://github.com/mattfidler/org-cua-dwim.el",
+  "stars": 8,
+  "updated": "2012-02-03T05:35:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-cua-dwim",
+    "fetcher": "github",
+    "repo": "mattfidler/org-cua-dwim.el"
+  }
+}

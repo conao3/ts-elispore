@@ -1,0 +1,19 @@
+{
+  "id": 8635901,
+  "name": "ternjs/tern",
+  "description": "A JavaScript code analyzer for deep, cross-editor language support",
+  "url": "https://github.com/ternjs/tern",
+  "stars": 4246,
+  "updated": "2026-05-14T13:48:10Z",
+  "archived": false,
+  "topics": ["javascript", "tern"],
+  "license": "MIT",
+  "language": "JavaScript",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "tern-auto-complete",
+    "fetcher": "github",
+    "repo": "ternjs/tern",
+    "files": "(\"emacs/tern-auto-complete.el\")"
+  }
+}

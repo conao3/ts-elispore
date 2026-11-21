@@ -1,0 +1,18 @@
+{
+  "id": 1210870596,
+  "name": "landerwells/folgezett.el",
+  "description": "Luhmann-style folgezettel IDs for Org-Roam",
+  "url": "https://github.com/landerwells/folgezett.el",
+  "stars": 5,
+  "updated": "2026-05-17T04:22:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "folgezett",
+    "fetcher": "github",
+    "repo": "landerwells/folgezett.el"
+  }
+}

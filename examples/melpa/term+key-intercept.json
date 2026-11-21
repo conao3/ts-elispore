@@ -1,0 +1,18 @@
+{
+  "id": 6360425,
+  "name": "tarao/term-plus-ki-el",
+  "description": "",
+  "url": "https://github.com/tarao/term-plus-ki-el",
+  "stars": 1,
+  "updated": "2022-05-20T10:13:37Z",
+  "archived": false,
+  "topics": ["emacs", "terminal", "terminal-emulators"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "term+key-intercept",
+    "fetcher": "github",
+    "repo": "tarao/term-plus-ki-el"
+  }
+}

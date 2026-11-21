@@ -1,0 +1,18 @@
+{
+  "id": 13356836,
+  "name": "kawabata/wolfram-mode",
+  "description": "Emacs editing mode for Mathematica and inferior shell.",
+  "url": "https://github.com/kawabata/wolfram-mode",
+  "stars": 69,
+  "updated": "2021-07-08T10:43:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wolfram-mode",
+    "fetcher": "github",
+    "repo": "kawabata/wolfram-mode"
+  }
+}

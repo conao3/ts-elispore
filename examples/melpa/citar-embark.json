@@ -1,0 +1,32 @@
+{
+  "id": 342930741,
+  "name": "emacs-citar/citar",
+  "description": "Emacs package to quickly find and act on bibliographic references, and edit org, markdown, and latex academic documents.",
+  "url": "https://github.com/emacs-citar/citar",
+  "stars": 644,
+  "updated": "2026-11-16T17:29:43Z",
+  "archived": false,
+  "topics": [
+    "biblatex",
+    "bibliography",
+    "bibtex",
+    "citations",
+    "csl-json",
+    "emacs-package",
+    "embark",
+    "latex",
+    "markdown",
+    "org-cite",
+    "org-mode",
+    "vertico"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "citar-embark",
+    "fetcher": "github",
+    "repo": "emacs-citar/citar",
+    "files": "(\"citar-embark.el\")"
+  }
+}

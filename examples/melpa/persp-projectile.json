@@ -1,0 +1,18 @@
+{
+  "id": 48319469,
+  "name": "bbatsov/persp-projectile",
+  "description": "Projectile integration for perspective.el",
+  "url": "https://github.com/bbatsov/persp-projectile",
+  "stars": 124,
+  "updated": "2021-06-18T07:13:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "persp-projectile",
+    "fetcher": "github",
+    "repo": "bbatsov/persp-projectile"
+  }
+}

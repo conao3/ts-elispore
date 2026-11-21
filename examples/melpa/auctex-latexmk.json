@@ -1,0 +1,18 @@
+{
+  "id": 10172052,
+  "name": "emacsmirror/auctex-latexmk",
+  "description": "Add LatexMk support to AUCTeX",
+  "url": "https://github.com/emacsmirror/auctex-latexmk",
+  "stars": 2,
+  "updated": "2022-10-25T12:24:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "auctex-latexmk",
+    "fetcher": "github",
+    "repo": "emacsmirror/auctex-latexmk"
+  }
+}

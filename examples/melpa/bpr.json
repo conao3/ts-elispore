@@ -1,0 +1,19 @@
+{
+  "id": 45339221,
+  "name": "iliabv/emacs-bpr",
+  "description": "",
+  "url": "https://github.com/iliabv/emacs-bpr",
+  "stars": 66,
+  "updated": "2025-04-15T14:54:09Z",
+  "archived": false,
+  "topics": ["background-jobs", "emacs", "emacs-lisp", "processes"],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bpr",
+    "fetcher": "github",
+    "repo": "iliabv/emacs-bpr",
+    "files": "(:defaults (:exclude \"test-bpr.el\"))"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 176335106,
+  "name": "jcs-elpa/isearch-project",
+  "description": "Incremental search through the whole project.",
+  "url": "https://github.com/jcs-elpa/isearch-project",
+  "stars": 10,
+  "updated": "2026-06-19T13:55:41Z",
+  "archived": false,
+  "topics": ["convenience", "emacs", "isearch", "replace"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "isearch-project",
+    "fetcher": "github",
+    "repo": "jcs-elpa/isearch-project"
+  }
+}

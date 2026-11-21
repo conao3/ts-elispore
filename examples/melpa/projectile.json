@@ -1,0 +1,18 @@
+{
+  "id": 2133437,
+  "name": "bbatsov/projectile",
+  "description": "Project Interaction Library for Emacs",
+  "url": "https://github.com/bbatsov/projectile",
+  "stars": 4251,
+  "updated": "2026-09-30T10:55:59Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "project-management", "projectile"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "projectile",
+    "fetcher": "github",
+    "repo": "bbatsov/projectile"
+  }
+}

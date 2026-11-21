@@ -1,0 +1,18 @@
+{
+  "id": 307028542,
+  "name": "Boruch-Baum/emacs-key-assist",
+  "description": "Minibuffer keybinding cheatsheet and launcher",
+  "url": "https://github.com/Boruch-Baum/emacs-key-assist",
+  "stars": 13,
+  "updated": "2023-12-08T04:59:41Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "key-assist",
+    "fetcher": "github",
+    "repo": "Boruch-Baum/emacs-key-assist"
+  }
+}

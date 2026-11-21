@@ -1,0 +1,18 @@
+{
+  "id": 164741621,
+  "name": "dp12/double-saber",
+  "description": "Filter search output with extreme prejudice",
+  "url": "https://github.com/dp12/double-saber",
+  "stars": 26,
+  "updated": "2021-03-24T03:15:56Z",
+  "archived": false,
+  "topics": ["delete", "double", "emacs", "filter", "grep", "narrow", "plugin", "saber"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "double-saber",
+    "fetcher": "github",
+    "repo": "dp12/double-saber"
+  }
+}

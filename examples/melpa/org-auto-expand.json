@@ -1,0 +1,18 @@
+{
+  "id": 201995363,
+  "name": "alphapapa/org-auto-expand",
+  "description": "Automatically expand certain Org headings",
+  "url": "https://github.com/alphapapa/org-auto-expand",
+  "stars": 31,
+  "updated": "2023-10-06T08:54:15Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Shell",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-auto-expand",
+    "fetcher": "github",
+    "repo": "alphapapa/org-auto-expand"
+  }
+}

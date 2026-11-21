@@ -1,0 +1,18 @@
+{
+  "id": 176029558,
+  "name": "emacsmirror/dsvn",
+  "description": "Subversion interface",
+  "url": "https://github.com/emacsmirror/dsvn",
+  "stars": 2,
+  "updated": "2022-11-02T14:16:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dsvn",
+    "fetcher": "github",
+    "repo": "emacsmirror/dsvn"
+  }
+}

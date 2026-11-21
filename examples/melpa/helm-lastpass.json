@@ -1,0 +1,18 @@
+{
+  "id": 98911602,
+  "name": "xuchunyang/helm-lastpass",
+  "description": "Helm interface of LastPass",
+  "url": "https://github.com/xuchunyang/helm-lastpass",
+  "stars": 2,
+  "updated": "2018-07-22T08:06:51Z",
+  "archived": false,
+  "topics": ["emacs", "lastpass"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-lastpass",
+    "fetcher": "github",
+    "repo": "xuchunyang/helm-lastpass"
+  }
+}

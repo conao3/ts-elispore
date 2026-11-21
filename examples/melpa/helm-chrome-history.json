@@ -1,0 +1,18 @@
+{
+  "id": 194829810,
+  "name": "xuchunyang/helm-chrome-history",
+  "description": "Browse your Chrome history with Helm",
+  "url": "https://github.com/xuchunyang/helm-chrome-history",
+  "stars": 3,
+  "updated": "2019-10-31T12:34:00Z",
+  "archived": false,
+  "topics": ["chrome", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-chrome-history",
+    "fetcher": "github",
+    "repo": "xuchunyang/helm-chrome-history"
+  }
+}

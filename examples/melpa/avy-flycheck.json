@@ -1,0 +1,18 @@
+{
+  "id": 62290567,
+  "name": "magicdirac/avy-flycheck",
+  "description": "Jump to and fix syntax errors using `flycheck' with `avy' interface",
+  "url": "https://github.com/magicdirac/avy-flycheck",
+  "stars": 9,
+  "updated": "2026-08-15T05:06:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "avy-flycheck",
+    "fetcher": "github",
+    "repo": "magicdirac/avy-flycheck"
+  }
+}

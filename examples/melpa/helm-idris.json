@@ -1,0 +1,18 @@
+{
+  "id": 21991088,
+  "name": "david-christiansen/helm-idris",
+  "description": "A Helm datasource for querying the Idris compiler",
+  "url": "https://github.com/david-christiansen/helm-idris",
+  "stars": 9,
+  "updated": "2014-12-02T17:57:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-idris",
+    "fetcher": "github",
+    "repo": "david-christiansen/helm-idris"
+  }
+}

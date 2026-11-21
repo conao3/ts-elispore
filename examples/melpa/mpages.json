@@ -1,0 +1,18 @@
+{
+  "id": 23296155,
+  "name": "slevin/mpages",
+  "description": "",
+  "url": "https://github.com/slevin/mpages",
+  "stars": 8,
+  "updated": "2016-08-26T10:53:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mpages",
+    "fetcher": "github",
+    "repo": "slevin/mpages"
+  }
+}

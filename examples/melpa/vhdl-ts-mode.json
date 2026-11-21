@@ -1,0 +1,18 @@
+{
+  "id": 687103184,
+  "name": "gmlarumbe/vhdl-ts-mode",
+  "description": "Emacs VHDL Tree-sitter Major-mode",
+  "url": "https://github.com/gmlarumbe/vhdl-ts-mode",
+  "stars": 8,
+  "updated": "2026-11-16T23:26:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "VHDL",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vhdl-ts-mode",
+    "fetcher": "github",
+    "repo": "gmlarumbe/vhdl-ts-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 8588148,
+  "name": "plexus/chruby.el",
+  "description": "Emacs support for the Chruby version switcher for Ruby",
+  "url": "https://github.com/plexus/chruby.el",
+  "stars": 36,
+  "updated": "2018-01-14T16:52:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chruby",
+    "fetcher": "github",
+    "repo": "plexus/chruby.el"
+  }
+}

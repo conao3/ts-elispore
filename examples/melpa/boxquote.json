@@ -1,0 +1,18 @@
+{
+  "id": 61941,
+  "name": "davep/boxquote.el",
+  "description": "Quote text with a semi-box.",
+  "url": "https://github.com/davep/boxquote.el",
+  "stars": 27,
+  "updated": "2026-04-15T19:50:02Z",
+  "archived": false,
+  "topics": ["editing", "elisp", "emacs", "quoting", "text", "text-editor", "text-editor-plugin"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "boxquote",
+    "fetcher": "github",
+    "repo": "davep/boxquote.el"
+  }
+}

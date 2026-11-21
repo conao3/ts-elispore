@@ -1,0 +1,18 @@
+{
+  "id": 1135612719,
+  "name": "domq/use-package-treesit",
+  "description": "Auto-install Emacs treesit grammar (with use-package)",
+  "url": "https://github.com/domq/use-package-treesit",
+  "stars": 9,
+  "updated": "2026-04-16T12:57:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "use-package-treesit",
+    "fetcher": "github",
+    "repo": "domq/use-package-treesit"
+  }
+}

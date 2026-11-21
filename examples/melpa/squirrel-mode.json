@@ -1,0 +1,18 @@
+{
+  "id": 566377858,
+  "name": "thechampagne/squirrel-mode",
+  "description": "Squirrel mode for Emacs.",
+  "url": "https://github.com/thechampagne/squirrel-mode",
+  "stars": 1,
+  "updated": "2022-12-27T01:32:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "squirrel-mode",
+    "fetcher": "github",
+    "repo": "thechampagne/squirrel-mode"
+  }
+}

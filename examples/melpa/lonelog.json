@@ -1,0 +1,18 @@
+{
+  "id": 1153130778,
+  "name": "Enfors/lonelog",
+  "description": "Lonelog is a minor mode for Emacs, supporting the Lonelog TTRPG notation system of the same name.",
+  "url": "https://github.com/Enfors/lonelog",
+  "stars": 10,
+  "updated": "2026-02-25T18:27:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lonelog",
+    "fetcher": "github",
+    "repo": "Enfors/lonelog"
+  }
+}

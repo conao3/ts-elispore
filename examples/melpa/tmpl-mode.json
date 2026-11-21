@@ -1,0 +1,18 @@
+{
+  "id": 1127289045,
+  "name": "Lindydancer/tmpl-mode",
+  "description": "Emacs minor mode for \"tmpl\" template files.",
+  "url": "https://github.com/Lindydancer/tmpl-mode",
+  "stars": 1,
+  "updated": "2026-01-03T17:18:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tmpl-mode",
+    "fetcher": "github",
+    "repo": "Lindydancer/tmpl-mode"
+  }
+}

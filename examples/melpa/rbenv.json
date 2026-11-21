@@ -1,0 +1,18 @@
+{
+  "id": 8125442,
+  "name": "senny/rbenv.el",
+  "description": "use rbenv to manage your Ruby versions within Emacs",
+  "url": "https://github.com/senny/rbenv.el",
+  "stars": 89,
+  "updated": "2024-10-22T06:56:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rbenv",
+    "fetcher": "github",
+    "repo": "senny/rbenv.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 825613,
+  "name": "kiyoka/sekka",
+  "description": "Yet another Japanese Input Method inspired by SKK.",
+  "url": "https://github.com/kiyoka/sekka",
+  "stars": 25,
+  "updated": "2026-05-16T08:37:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "JavaScript",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sekka",
+    "fetcher": "github",
+    "repo": "kiyoka/sekka",
+    "files": "(\"emacs/sekka*.el\" (:exclude \"emacs/sekka-tests.el\"))"
+  }
+}

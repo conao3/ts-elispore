@@ -1,0 +1,18 @@
+{
+  "id": 24719514,
+  "name": "aki2o/e2wm-term",
+  "description": "Perspective of e2wm.el for work in terminal",
+  "url": "https://github.com/aki2o/e2wm-term",
+  "stars": 7,
+  "updated": "2024-01-07T08:52:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "e2wm-term",
+    "fetcher": "github",
+    "repo": "aki2o/e2wm-term"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1133045961,
+  "name": "gggion/duckdb-query.el",
+  "description": "DuckDB SQL query results as native Elisp data structures",
+  "url": "https://github.com/gggion/duckdb-query.el",
+  "stars": 35,
+  "updated": "2026-03-02T13:34:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "duckdb-query",
+    "fetcher": "github",
+    "repo": "gggion/duckdb-query.el"
+  }
+}

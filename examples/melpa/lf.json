@@ -1,0 +1,18 @@
+{
+  "id": 377131830,
+  "name": "alhassy/lf",
+  "description": "A Language Features library for Emacs Lisp",
+  "url": "https://github.com/alhassy/lf",
+  "stars": 13,
+  "updated": "2026-10-13T18:51:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lf",
+    "fetcher": "github",
+    "repo": "alhassy/lf"
+  }
+}

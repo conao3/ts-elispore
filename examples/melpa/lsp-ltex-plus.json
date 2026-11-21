@@ -1,0 +1,18 @@
+{
+  "id": 1210659326,
+  "name": "ltex-plus/emacs-ltex-plus",
+  "description": "LTeX+: Grammar/spell checker 🔍✔️ for Emacs using LanguageTool with support for LaTeX 🎓, Markdown 📝, and others",
+  "url": "https://github.com/ltex-plus/emacs-ltex-plus",
+  "stars": 25,
+  "updated": "2026-11-04T10:51:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "MPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-ltex-plus",
+    "fetcher": "github",
+    "repo": "ltex-plus/emacs-ltex-plus"
+  }
+}

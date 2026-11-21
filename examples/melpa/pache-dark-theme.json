@@ -1,0 +1,18 @@
+{
+  "id": 950913920,
+  "name": "0xhenrique/pache-dark-theme",
+  "description": "A dark theme with high contrast. The colours are based on the gruvbox colour scheme by morhetz. The code base is adapted from gruber-darker theme.",
+  "url": "https://github.com/0xhenrique/pache-dark-theme",
+  "stars": 11,
+  "updated": "2025-12-22T09:35:26Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "gruvbox", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pache-dark-theme",
+    "fetcher": "github",
+    "repo": "0xhenrique/pache-dark-theme"
+  }
+}

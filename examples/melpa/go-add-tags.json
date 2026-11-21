@@ -1,0 +1,18 @@
+{
+  "id": 67350305,
+  "name": "emacsorphanage/go-add-tags",
+  "description": "Add field tags for struct fields",
+  "url": "https://github.com/emacsorphanage/go-add-tags",
+  "stars": 60,
+  "updated": "2023-05-22T11:23:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "go-add-tags",
+    "fetcher": "github",
+    "repo": "emacsorphanage/go-add-tags"
+  }
+}

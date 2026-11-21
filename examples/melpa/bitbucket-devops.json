@@ -1,0 +1,18 @@
+{
+  "id": 1282369611,
+  "name": "will-abb/bitbucket-devops.el",
+  "description": "Emacs package for Bitbucket Cloud Pipelines and pull request workflows.",
+  "url": "https://github.com/will-abb/bitbucket-devops.el",
+  "stars": 1,
+  "updated": "2026-10-28T21:39:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bitbucket-devops",
+    "fetcher": "github",
+    "repo": "will-abb/bitbucket-devops.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 15582353,
+  "name": "ocaml/tuareg",
+  "description": "Emacs OCaml mode",
+  "url": "https://github.com/ocaml/tuareg",
+  "stars": 396,
+  "updated": "2026-06-26T10:13:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "tuareg",
+    "fetcher": "github",
+    "repo": "ocaml/tuareg"
+  }
+}

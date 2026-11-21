@@ -1,0 +1,18 @@
+{
+  "id": 16611322,
+  "name": "Lindydancer/objc-font-lock",
+  "description": "Highlight Objective-C method calls in Emacs",
+  "url": "https://github.com/Lindydancer/objc-font-lock",
+  "stars": 6,
+  "updated": "2025-01-03T16:12:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Objective-C",
+  "ownerType": "User",
+  "melpa": {
+    "name": "objc-font-lock",
+    "fetcher": "github",
+    "repo": "Lindydancer/objc-font-lock"
+  }
+}

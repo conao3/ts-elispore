@@ -1,0 +1,18 @@
+{
+  "id": 683475040,
+  "name": "hhamud/noir-ts-mode",
+  "description": "An Emacs tree-sitter mode for the Noir Language.",
+  "url": "https://github.com/hhamud/noir-ts-mode",
+  "stars": 1,
+  "updated": "2026-03-18T17:35:41Z",
+  "archived": false,
+  "topics": ["emacs", "noir", "syntax-highlighting", "treesitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "noir-ts-mode",
+    "fetcher": "github",
+    "repo": "hhamud/noir-ts-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 25751879,
+  "name": "antham/eyuml",
+  "description": "Write textual uml diagram from emacs using yuml.me",
+  "url": "https://github.com/antham/eyuml",
+  "stars": 15,
+  "updated": "2017-04-13T21:41:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eyuml",
+    "fetcher": "github",
+    "repo": "antham/eyuml"
+  }
+}

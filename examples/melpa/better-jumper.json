@@ -1,0 +1,18 @@
+{
+  "id": 177047010,
+  "name": "gilbertw1/better-jumper",
+  "description": "A configurable jump list implementation for Emacs",
+  "url": "https://github.com/gilbertw1/better-jumper",
+  "stars": 103,
+  "updated": "2024-10-09T15:17:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "better-jumper",
+    "fetcher": "github",
+    "repo": "gilbertw1/better-jumper"
+  }
+}

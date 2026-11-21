@@ -1,0 +1,18 @@
+{
+  "id": 126819099,
+  "name": "pythonic-emacs/blacken",
+  "description": "Python Black for Emacs",
+  "url": "https://github.com/pythonic-emacs/blacken",
+  "stars": 196,
+  "updated": "2026-06-19T14:03:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "blacken",
+    "fetcher": "github",
+    "repo": "pythonic-emacs/blacken"
+  }
+}

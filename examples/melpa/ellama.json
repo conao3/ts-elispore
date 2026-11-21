@@ -1,0 +1,18 @@
+{
+  "id": 702163625,
+  "name": "s-kostyaev/ellama",
+  "description": "Work with local and cloud LLMs from Emacs.",
+  "url": "https://github.com/s-kostyaev/ellama",
+  "stars": 964,
+  "updated": "2026-11-21T18:30:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ellama",
+    "fetcher": "github",
+    "repo": "s-kostyaev/ellama"
+  }
+}

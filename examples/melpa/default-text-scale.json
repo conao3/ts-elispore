@@ -1,0 +1,18 @@
+{
+  "id": 31431974,
+  "name": "purcell/default-text-scale",
+  "description": "Easily adjust the font size in all Emacs frames",
+  "url": "https://github.com/purcell/default-text-scale",
+  "stars": 81,
+  "updated": "2026-04-22T12:25:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "default-text-scale",
+    "fetcher": "github",
+    "repo": "purcell/default-text-scale"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": 410465755,
+  "name": "md-arif-shaikh/soccer",
+  "description": "Emacs package to get soccer fixtures, results, standing table etc",
+  "url": "https://github.com/md-arif-shaikh/soccer",
+  "stars": 19,
+  "updated": "2026-08-24T03:53:01Z",
+  "archived": false,
+  "topics": [
+    "champions-league",
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "football",
+    "laliga",
+    "premier-league",
+    "soccer"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "soccer",
+    "fetcher": "github",
+    "repo": "md-arif-shaikh/soccer"
+  }
+}

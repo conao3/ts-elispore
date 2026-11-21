@@ -1,0 +1,18 @@
+{
+  "id": 31436434,
+  "name": "itsjeyd/git-wip-timemachine",
+  "description": "Step through WIP versions of git-controlled files using Emacs.",
+  "url": "https://github.com/itsjeyd/git-wip-timemachine",
+  "stars": 7,
+  "updated": "2015-04-08T10:08:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-wip-timemachine",
+    "fetcher": "github",
+    "repo": "itsjeyd/git-wip-timemachine"
+  }
+}

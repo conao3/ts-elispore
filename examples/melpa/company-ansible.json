@@ -1,0 +1,18 @@
+{
+  "id": 41686513,
+  "name": "krzysztof-magosa/company-ansible",
+  "description": "Ansible keywords completion for Emacs",
+  "url": "https://github.com/krzysztof-magosa/company-ansible",
+  "stars": 25,
+  "updated": "2024-02-21T22:55:12Z",
+  "archived": false,
+  "topics": ["ansible", "ansible-keywords-completion", "company", "emacs", "keyword", "melpa"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-ansible",
+    "fetcher": "github",
+    "repo": "krzysztof-magosa/company-ansible"
+  }
+}

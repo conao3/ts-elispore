@@ -1,0 +1,19 @@
+{
+  "id": 99266565,
+  "name": "radian-software/prescient.el",
+  "description": "☄️ Simple but effective sorting and filtering for Emacs.",
+  "url": "https://github.com/radian-software/prescient.el",
+  "stars": 713,
+  "updated": "2026-11-13T23:01:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "selectrum-prescient",
+    "fetcher": "github",
+    "repo": "radian-software/prescient.el",
+    "files": "(\"selectrum-prescient.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 83080302,
+  "name": "Ailrun/magit-lfs",
+  "description": "Git LFS for magit!",
+  "url": "https://github.com/Ailrun/magit-lfs",
+  "stars": 16,
+  "updated": "2026-08-07T06:59:42Z",
+  "archived": false,
+  "topics": ["emacs", "lfs", "magit", "version-control"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-lfs",
+    "fetcher": "github",
+    "repo": "Ailrun/magit-lfs"
+  }
+}

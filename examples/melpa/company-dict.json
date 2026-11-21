@@ -1,0 +1,18 @@
+{
+  "id": 37788548,
+  "name": "hlissner/emacs-company-dict",
+  "description": "A port of ac-source-dictionary to company-mode, plus annotation and documentation support.",
+  "url": "https://github.com/hlissner/emacs-company-dict",
+  "stars": 37,
+  "updated": "2019-03-02T00:06:22Z",
+  "archived": false,
+  "topics": ["company-mode", "emacs", "melpa"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-dict",
+    "fetcher": "github",
+    "repo": "hlissner/emacs-company-dict"
+  }
+}

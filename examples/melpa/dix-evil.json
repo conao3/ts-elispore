@@ -1,0 +1,19 @@
+{
+  "id": 55291754,
+  "name": "unhammer/dix",
+  "description": "📦 Emacs mode for editing Apertium dictionaries, lexical selection and transfer rules",
+  "url": "https://github.com/unhammer/dix",
+  "stars": 3,
+  "updated": "2025-04-30T11:06:11Z",
+  "archived": false,
+  "topics": ["apertium", "dictionary", "emacs", "xml", "xml-editor"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dix-evil",
+    "fetcher": "github",
+    "repo": "unhammer/dix",
+    "files": "(\"dix-evil.el\")"
+  }
+}

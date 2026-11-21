@@ -1,0 +1,18 @@
+{
+  "id": 59074230,
+  "name": "whizzml/whizzml-mode",
+  "description": "Emacs mode for editing WhizzML files",
+  "url": "https://github.com/whizzml/whizzml-mode",
+  "stars": 1,
+  "updated": "2020-10-13T02:39:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "whizzml-mode",
+    "fetcher": "github",
+    "repo": "whizzml/whizzml-mode"
+  }
+}

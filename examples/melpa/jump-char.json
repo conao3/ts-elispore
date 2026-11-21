@@ -1,0 +1,18 @@
+{
+  "id": 3153333,
+  "name": "lewang/jump-char",
+  "description": "navigation by character occurrence",
+  "url": "https://github.com/lewang/jump-char",
+  "stars": 58,
+  "updated": "2025-12-05T05:09:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jump-char",
+    "fetcher": "github",
+    "repo": "lewang/jump-char"
+  }
+}

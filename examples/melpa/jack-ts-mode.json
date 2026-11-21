@@ -1,0 +1,18 @@
+{
+  "id": 717058261,
+  "name": "nverno/jack-ts-mode",
+  "description": "Emacs major-mode for Jack (Nand2Tetris) language",
+  "url": "https://github.com/nverno/jack-ts-mode",
+  "stars": 3,
+  "updated": "2023-11-10T16:15:42Z",
+  "archived": false,
+  "topics": ["emacs", "jack", "nand2tetris", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jack-ts-mode",
+    "fetcher": "github",
+    "repo": "nverno/jack-ts-mode"
+  }
+}

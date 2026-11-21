@@ -1,0 +1,18 @@
+{
+  "id": 16803250,
+  "name": "quelpa/quelpa",
+  "description": "Build and install your Emacs Lisp packages on-the-fly directly from source",
+  "url": "https://github.com/quelpa/quelpa",
+  "stars": 673,
+  "updated": "2026-07-01T12:57:56Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "melpa", "package-manager", "source-code"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "quelpa",
+    "fetcher": "github",
+    "repo": "quelpa/quelpa"
+  }
+}

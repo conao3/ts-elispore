@@ -1,0 +1,18 @@
+{
+  "id": 51298712,
+  "name": "mswift42/foggy-night-theme",
+  "description": "Dark, low contrast theme with muted, soft colors.",
+  "url": "https://github.com/mswift42/foggy-night-theme",
+  "stars": 13,
+  "updated": "2019-01-23T16:14:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "foggy-night-theme",
+    "fetcher": "github",
+    "repo": "mswift42/foggy-night-theme"
+  }
+}

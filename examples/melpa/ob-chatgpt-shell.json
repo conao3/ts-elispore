@@ -1,0 +1,18 @@
+{
+  "id": 887420755,
+  "name": "xenodium/ob-chatgpt-shell",
+  "description": "Evaluate ChatGPT shell blocks in Emacs org babel blocks",
+  "url": "https://github.com/xenodium/ob-chatgpt-shell",
+  "stars": 12,
+  "updated": "2025-07-04T07:05:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-chatgpt-shell",
+    "fetcher": "github",
+    "repo": "xenodium/ob-chatgpt-shell"
+  }
+}

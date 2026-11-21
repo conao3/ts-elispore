@@ -1,0 +1,18 @@
+{
+  "id": 2104138,
+  "name": "emacs-php/php-mode",
+  "description": "A powerful and flexible Emacs major mode for editing PHP scripts",
+  "url": "https://github.com/emacs-php/php-mode",
+  "stars": 604,
+  "updated": "2026-11-03T20:49:20Z",
+  "archived": false,
+  "topics": ["emacs", "major-mode", "php"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "php-mode",
+    "fetcher": "github",
+    "repo": "emacs-php/php-mode"
+  }
+}

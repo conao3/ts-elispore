@@ -1,0 +1,19 @@
+{
+  "id": 109591971,
+  "name": "emacs-evil/evil-collection",
+  "description": "A set of keybindings for evil-mode",
+  "url": "https://github.com/emacs-evil/evil-collection",
+  "stars": 1353,
+  "updated": "2026-11-13T18:08:50Z",
+  "archived": false,
+  "topics": ["bindings", "emacs", "evil", "evil-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "evil-collection",
+    "fetcher": "github",
+    "repo": "emacs-evil/evil-collection",
+    "files": "(:defaults \"modes\")"
+  }
+}

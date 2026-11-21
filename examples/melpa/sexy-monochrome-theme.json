@@ -1,0 +1,18 @@
+{
+  "id": 68280784,
+  "name": "voloyev/sexy-monochrome-theme",
+  "description": "Emacs sexy monochrome theme",
+  "url": "https://github.com/voloyev/sexy-monochrome-theme",
+  "stars": 13,
+  "updated": "2020-01-15T21:47:10Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-theme", "melpa"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sexy-monochrome-theme",
+    "fetcher": "github",
+    "repo": "voloyev/sexy-monochrome-theme"
+  }
+}

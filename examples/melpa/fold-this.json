@@ -1,0 +1,18 @@
+{
+  "id": 7225533,
+  "name": "magnars/fold-this.el",
+  "description": "Fold the active region in Emacs",
+  "url": "https://github.com/magnars/fold-this.el",
+  "stars": 80,
+  "updated": "2019-11-07T18:16:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fold-this",
+    "fetcher": "github",
+    "repo": "magnars/fold-this.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 580275727,
+  "name": "emacs-eask/company-eask",
+  "description": "Company backend for Eask-file",
+  "url": "https://github.com/emacs-eask/company-eask",
+  "stars": 6,
+  "updated": "2026-06-19T08:37:36Z",
+  "archived": false,
+  "topics": ["company", "eask", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "company-eask",
+    "fetcher": "github",
+    "repo": "emacs-eask/company-eask"
+  }
+}

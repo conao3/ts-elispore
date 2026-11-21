@@ -1,0 +1,18 @@
+{
+  "id": 115538900,
+  "name": "mkcms/ialign",
+  "description": "Interactively align by regular expression in Emacs",
+  "url": "https://github.com/mkcms/ialign",
+  "stars": 137,
+  "updated": "2025-11-12T09:46:24Z",
+  "archived": false,
+  "topics": ["align", "emacs", "interactive"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ialign",
+    "fetcher": "github",
+    "repo": "mkcms/ialign"
+  }
+}

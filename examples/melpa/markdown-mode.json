@@ -1,0 +1,18 @@
+{
+  "id": 36701950,
+  "name": "jrblevin/markdown-mode",
+  "description": "Emacs Markdown Mode",
+  "url": "https://github.com/jrblevin/markdown-mode",
+  "stars": 1057,
+  "updated": "2026-10-22T00:55:29Z",
+  "archived": false,
+  "topics": ["emacs", "gfm", "gnu-emacs", "leanpub", "markdown", "markdown-editor", "plain-text"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "markdown-mode",
+    "fetcher": "github",
+    "repo": "jrblevin/markdown-mode"
+  }
+}

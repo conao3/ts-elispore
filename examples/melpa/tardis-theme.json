@@ -1,0 +1,18 @@
+{
+  "id": 599072445,
+  "name": "antonhibl/tardis-theme",
+  "description": "Emacs theme named after the Doctor's Tardis",
+  "url": "https://github.com/antonhibl/tardis-theme",
+  "stars": 2,
+  "updated": "2026-04-01T22:30:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tardis-theme",
+    "fetcher": "github",
+    "repo": "antonhibl/tardis-theme"
+  }
+}

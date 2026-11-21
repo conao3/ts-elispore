@@ -1,0 +1,18 @@
+{
+  "id": 8890811,
+  "name": "merickson/tracwiki-mode",
+  "description": "Trac manipulation mode for Emacs.",
+  "url": "https://github.com/merickson/tracwiki-mode",
+  "stars": 6,
+  "updated": "2015-01-19T16:21:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tracwiki-mode",
+    "fetcher": "github",
+    "repo": "merickson/tracwiki-mode"
+  }
+}

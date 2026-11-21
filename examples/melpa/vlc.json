@@ -1,0 +1,18 @@
+{
+  "id": 248868173,
+  "name": "xuchunyang/vlc.el",
+  "description": "Control VLC Media Player from Emacs",
+  "url": "https://github.com/xuchunyang/vlc.el",
+  "stars": 15,
+  "updated": "2020-03-28T12:10:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vlc",
+    "fetcher": "github",
+    "repo": "xuchunyang/vlc.el"
+  }
+}

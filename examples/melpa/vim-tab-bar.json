@@ -1,0 +1,28 @@
+{
+  "id": 803611652,
+  "name": "jamescherti/vim-tab-bar.el",
+  "description": "Emacs: A Vim-Inspired Tab-Bar That Automatically Adapts to Any Emacs Theme",
+  "url": "https://github.com/jamescherti/vim-tab-bar.el",
+  "stars": 44,
+  "updated": "2026-11-10T15:12:51Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-customizations",
+    "emacs-lisp",
+    "emacs-package",
+    "emacs-packages",
+    "tab-bar",
+    "unified-interface",
+    "vim-like",
+    "vim-tab-bar"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vim-tab-bar",
+    "fetcher": "github",
+    "repo": "jamescherti/vim-tab-bar.el"
+  }
+}

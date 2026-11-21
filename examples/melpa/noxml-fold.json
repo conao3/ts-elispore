@@ -1,0 +1,18 @@
+{
+  "id": 26779323,
+  "name": "paddymcall/noXML-fold",
+  "description": "A folding minor mode for emacs' nxml-mode ",
+  "url": "https://github.com/paddymcall/noXML-fold",
+  "stars": 2,
+  "updated": "2017-08-23T13:57:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "noxml-fold",
+    "fetcher": "github",
+    "repo": "paddymcall/noXML-fold"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 168584294,
+  "name": "functionreturnfunction/dashboard-project-status",
+  "description": "Display the status of a git project in emacs-dashboard",
+  "url": "https://github.com/functionreturnfunction/dashboard-project-status",
+  "stars": 6,
+  "updated": "2019-02-02T13:54:27Z",
+  "archived": false,
+  "topics": ["dashboard", "emacs", "git"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dashboard-project-status",
+    "fetcher": "github",
+    "repo": "functionreturnfunction/dashboard-project-status"
+  }
+}

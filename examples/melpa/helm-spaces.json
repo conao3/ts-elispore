@@ -1,0 +1,18 @@
+{
+  "id": 10434185,
+  "name": "yasuyk/helm-spaces",
+  "description": "helm sources for spaces",
+  "url": "https://github.com/yasuyk/helm-spaces",
+  "stars": 2,
+  "updated": "2016-10-02T03:03:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-spaces",
+    "fetcher": "github",
+    "repo": "yasuyk/helm-spaces"
+  }
+}

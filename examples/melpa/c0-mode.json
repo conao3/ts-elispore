@@ -1,0 +1,18 @@
+{
+  "id": 42012803,
+  "name": "catern/c0-mode",
+  "description": "",
+  "url": "https://github.com/catern/c0-mode",
+  "stars": 2,
+  "updated": "2015-11-10T18:52:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "c0-mode",
+    "fetcher": "github",
+    "repo": "catern/c0-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 483293228,
+  "name": "yadex205/consult-ag",
+  "description": "The Silver Searcher integration for GNU Emacs using Consult",
+  "url": "https://github.com/yadex205/consult-ag",
+  "stars": 10,
+  "updated": "2023-06-02T00:07:46Z",
+  "archived": true,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-ag",
+    "fetcher": "github",
+    "repo": "yadex205/consult-ag"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 28284999,
+  "name": "tumashu/cnfonts",
+  "description": "emacs中文字体配置工具。可以快速方便的的实现中文字体和英文字体等宽（也就是常说的中英文对齐）。",
+  "url": "https://github.com/tumashu/cnfonts",
+  "stars": 719,
+  "updated": "2025-12-23T06:38:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cnfonts",
+    "fetcher": "github",
+    "repo": "tumashu/cnfonts"
+  }
+}

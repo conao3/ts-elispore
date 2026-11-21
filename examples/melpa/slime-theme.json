@@ -1,0 +1,18 @@
+{
+  "id": 26705146,
+  "name": "emacsfodder/emacs-slime-theme",
+  "description": "",
+  "url": "https://github.com/emacsfodder/emacs-slime-theme",
+  "stars": 4,
+  "updated": "2017-08-08T13:22:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "slime-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-slime-theme"
+  }
+}

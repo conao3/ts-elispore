@@ -1,0 +1,18 @@
+{
+  "id": 942579837,
+  "name": "bbatsov/neocaml",
+  "description": "A modern, TreeSitter-powered, Emacs package for programming in OCaml",
+  "url": "https://github.com/bbatsov/neocaml",
+  "stars": 135,
+  "updated": "2026-11-07T08:14:21Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "major-mode", "ocaml"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "neocaml",
+    "fetcher": "github",
+    "repo": "bbatsov/neocaml"
+  }
+}

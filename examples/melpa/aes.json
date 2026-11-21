@@ -1,0 +1,18 @@
+{
+  "id": 7710281,
+  "name": "Sauermann/emacs-aes",
+  "description": "Emacs Lisp implementation of AES",
+  "url": "https://github.com/Sauermann/emacs-aes",
+  "stars": 18,
+  "updated": "2026-11-17T23:37:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aes",
+    "fetcher": "github",
+    "repo": "Sauermann/emacs-aes"
+  }
+}

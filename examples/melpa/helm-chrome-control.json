@@ -1,0 +1,19 @@
+{
+  "id": 195594649,
+  "name": "xuchunyang/helm-chrome-control",
+  "description": "Control Chrome tabs with Helm",
+  "url": "https://github.com/xuchunyang/helm-chrome-control",
+  "stars": 5,
+  "updated": "2022-07-21T03:52:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "JavaScript",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-chrome-control",
+    "fetcher": "github",
+    "repo": "xuchunyang/helm-chrome-control",
+    "files": "(:defaults \"*.js\")"
+  }
+}

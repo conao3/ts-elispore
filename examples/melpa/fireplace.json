@@ -1,0 +1,18 @@
+{
+  "id": 48233764,
+  "name": "johanvts/emacs-fireplace",
+  "description": "A cozy fireplace for emacs.",
+  "url": "https://github.com/johanvts/emacs-fireplace",
+  "stars": 753,
+  "updated": "2021-07-20T17:08:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fireplace",
+    "fetcher": "github",
+    "repo": "johanvts/emacs-fireplace"
+  }
+}

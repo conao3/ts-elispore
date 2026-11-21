@@ -1,0 +1,18 @@
+{
+  "id": 146837618,
+  "name": "jojojames/flymake-gradle",
+  "description": "Flymake extension for gradle",
+  "url": "https://github.com/jojojames/flymake-gradle",
+  "stars": 3,
+  "updated": "2019-03-15T02:34:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-gradle",
+    "fetcher": "github",
+    "repo": "jojojames/flymake-gradle"
+  }
+}

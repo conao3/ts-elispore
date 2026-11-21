@@ -1,0 +1,18 @@
+{
+  "id": 69532063,
+  "name": "AdamNiederer/riscv-mode",
+  "description": "Major mode for RISC V assembly",
+  "url": "https://github.com/AdamNiederer/riscv-mode",
+  "stars": 22,
+  "updated": "2022-09-16T02:06:02Z",
+  "archived": false,
+  "topics": ["assembly", "emacs", "riscv"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "riscv-mode",
+    "fetcher": "github",
+    "repo": "AdamNiederer/riscv-mode"
+  }
+}

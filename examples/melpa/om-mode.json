@@ -1,0 +1,18 @@
+{
+  "id": 24005579,
+  "name": "danielsz/om-mode",
+  "description": "Insert Om component template with life cycle.",
+  "url": "https://github.com/danielsz/om-mode",
+  "stars": 14,
+  "updated": "2014-11-16T01:40:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "om-mode",
+    "fetcher": "github",
+    "repo": "danielsz/om-mode"
+  }
+}

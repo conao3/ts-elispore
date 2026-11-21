@@ -1,0 +1,18 @@
+{
+  "id": 158405598,
+  "name": "Schnouki/caddyfile-mode",
+  "description": "A Emacs major mode for editing Caddy configuration files.",
+  "url": "https://github.com/Schnouki/caddyfile-mode",
+  "stars": 23,
+  "updated": "2022-06-26T09:46:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "caddyfile-mode",
+    "fetcher": "github",
+    "repo": "Schnouki/caddyfile-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 13465278,
+  "name": "tonini/karma.el",
+  "description": "Karma Test Runner Emacs Integration",
+  "url": "https://github.com/tonini/karma.el",
+  "stars": 14,
+  "updated": "2020-04-01T11:00:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "karma",
+    "fetcher": "github",
+    "repo": "tonini/karma.el"
+  }
+}

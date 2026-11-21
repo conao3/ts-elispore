@@ -1,0 +1,18 @@
+{
+  "id": 97238568,
+  "name": "iory/emacs-helm-ghs",
+  "description": "",
+  "url": "https://github.com/iory/emacs-helm-ghs",
+  "stars": 1,
+  "updated": "2017-08-30T19:10:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-ghs",
+    "fetcher": "github",
+    "repo": "iory/emacs-helm-ghs"
+  }
+}

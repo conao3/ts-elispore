@@ -1,0 +1,18 @@
+{
+  "id": 35575620,
+  "name": "aalpern/emacs-color-theme-autumn-light",
+  "description": "A light color theme for Emacs with muted, autumnal colors.",
+  "url": "https://github.com/aalpern/emacs-color-theme-autumn-light",
+  "stars": 15,
+  "updated": "2015-05-16T16:15:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "autumn-light-theme",
+    "fetcher": "github",
+    "repo": "aalpern/emacs-color-theme-autumn-light"
+  }
+}

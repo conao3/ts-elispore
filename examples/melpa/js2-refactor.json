@@ -1,0 +1,18 @@
+{
+  "id": 3275686,
+  "name": "js-emacs/js2-refactor.el",
+  "description": "A JavaScript refactoring library for emacs",
+  "url": "https://github.com/js-emacs/js2-refactor.el",
+  "stars": 375,
+  "updated": "2025-02-10T18:11:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "js2-refactor",
+    "fetcher": "github",
+    "repo": "js-emacs/js2-refactor.el"
+  }
+}

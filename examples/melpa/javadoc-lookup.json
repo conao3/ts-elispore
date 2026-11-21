@@ -1,0 +1,19 @@
+{
+  "id": 7581139,
+  "name": "skeeto/javadoc-lookup",
+  "description": "Quickly lookup Javadoc pages from Emacs",
+  "url": "https://github.com/skeeto/javadoc-lookup",
+  "stars": 58,
+  "updated": "2016-02-14T00:32:10Z",
+  "archived": true,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "javadoc-lookup",
+    "fetcher": "github",
+    "repo": "skeeto/javadoc-lookup",
+    "files": "(\"*.el\" (\"webcache\" \"webcache/*\"))"
+  }
+}

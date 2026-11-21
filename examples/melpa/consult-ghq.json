@@ -1,0 +1,18 @@
+{
+  "id": 372365569,
+  "name": "tomoya/consult-ghq",
+  "description": "Ghq interface using consult",
+  "url": "https://github.com/tomoya/consult-ghq",
+  "stars": 14,
+  "updated": "2023-11-11T13:04:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-ghq",
+    "fetcher": "github",
+    "repo": "tomoya/consult-ghq"
+  }
+}

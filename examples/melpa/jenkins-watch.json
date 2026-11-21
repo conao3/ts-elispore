@@ -1,0 +1,18 @@
+{
+  "id": 688175,
+  "name": "ataylor284/jenkins-watch",
+  "description": "Display jenkins/hudson build status on the emacs modeline.",
+  "url": "https://github.com/ataylor284/jenkins-watch",
+  "stars": 28,
+  "updated": "2012-10-04T23:29:07Z",
+  "archived": false,
+  "topics": ["emacs", "jenkins"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jenkins-watch",
+    "fetcher": "github",
+    "repo": "ataylor284/jenkins-watch"
+  }
+}

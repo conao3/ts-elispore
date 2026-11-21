@@ -1,0 +1,18 @@
+{
+  "id": 142944822,
+  "name": "MetroWind/lab-theme",
+  "description": "A custom theme for Emacs",
+  "url": "https://github.com/MetroWind/lab-theme",
+  "stars": 50,
+  "updated": "2020-08-15T21:05:09Z",
+  "archived": false,
+  "topics": ["color-scheme", "color-science", "emacs"],
+  "license": "WTFPL",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lab-themes",
+    "fetcher": "github",
+    "repo": "MetroWind/lab-theme"
+  }
+}

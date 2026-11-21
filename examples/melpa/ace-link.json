@@ -1,0 +1,18 @@
+{
+  "id": 18358628,
+  "name": "abo-abo/ace-link",
+  "description": "Quickly follow links in Emacs",
+  "url": "https://github.com/abo-abo/ace-link",
+  "stars": 227,
+  "updated": "2024-11-01T13:45:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ace-link",
+    "fetcher": "github",
+    "repo": "abo-abo/ace-link"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 8934218,
+  "name": "purcell/flymake-haskell-multi",
+  "description": "Syntax-check haskell source in Emacs using both ghc and hlint",
+  "url": "https://github.com/purcell/flymake-haskell-multi",
+  "stars": 4,
+  "updated": "2026-04-22T12:29:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-haskell-multi",
+    "fetcher": "github",
+    "repo": "purcell/flymake-haskell-multi",
+    "files": "(\"*.el\" \"haskell_multi\")"
+  }
+}

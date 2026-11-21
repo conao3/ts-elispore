@@ -1,0 +1,18 @@
+{
+  "id": 8946133,
+  "name": "snarfed/fillcode",
+  "description": "An Emacs minor mode that fills, or wraps, some parts of source code.",
+  "url": "https://github.com/snarfed/fillcode",
+  "stars": 3,
+  "updated": "2021-05-05T05:42:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fillcode",
+    "fetcher": "github",
+    "repo": "snarfed/fillcode"
+  }
+}

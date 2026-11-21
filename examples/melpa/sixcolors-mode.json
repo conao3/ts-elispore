@@ -1,0 +1,18 @@
+{
+  "id": 556457053,
+  "name": "mastro35/sixcolors-mode",
+  "description": "A customisable horizontal scrollbar for Emacs",
+  "url": "https://github.com/mastro35/sixcolors-mode",
+  "stars": 3,
+  "updated": "2023-04-06T10:31:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sixcolors-mode",
+    "fetcher": "github",
+    "repo": "mastro35/sixcolors-mode"
+  }
+}

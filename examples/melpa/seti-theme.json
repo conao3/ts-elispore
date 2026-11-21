@@ -1,0 +1,18 @@
+{
+  "id": 23018954,
+  "name": "caisah/seti-theme",
+  "description": "Emacs theme inspired by Seti Atom Theme",
+  "url": "https://github.com/caisah/seti-theme",
+  "stars": 35,
+  "updated": "2019-02-01T18:49:06Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-theme", "seti-theme", "theme"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "seti-theme",
+    "fetcher": "github",
+    "repo": "caisah/seti-theme"
+  }
+}

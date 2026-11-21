@@ -1,0 +1,18 @@
+{
+  "id": 46015673,
+  "name": "lujun9972/el-dmenu",
+  "description": "",
+  "url": "https://github.com/lujun9972/el-dmenu",
+  "stars": 10,
+  "updated": "2019-09-08T00:44:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dmenu",
+    "fetcher": "github",
+    "repo": "lujun9972/el-dmenu"
+  }
+}

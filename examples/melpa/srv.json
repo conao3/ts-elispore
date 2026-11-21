@@ -1,0 +1,18 @@
+{
+  "id": 141053135,
+  "name": "legoscia/srv.el",
+  "description": "Emacs Lisp library to perform SRV DNS requests",
+  "url": "https://github.com/legoscia/srv.el",
+  "stars": 2,
+  "updated": "2018-09-27T23:33:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "srv",
+    "fetcher": "github",
+    "repo": "legoscia/srv.el"
+  }
+}

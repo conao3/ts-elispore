@@ -1,0 +1,18 @@
+{
+  "id": 649158,
+  "name": "thomas11/delim-kill",
+  "description": "Kill text between two delimiters, preserving structure.",
+  "url": "https://github.com/thomas11/delim-kill",
+  "stars": 11,
+  "updated": "2010-05-17T06:21:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "delim-kill",
+    "fetcher": "github",
+    "repo": "thomas11/delim-kill"
+  }
+}

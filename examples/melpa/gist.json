@@ -1,0 +1,18 @@
+{
+  "id": 45692,
+  "name": "defunkt/gist.el",
+  "description": "Yet another Emacs paste mode, this one for Gist.",
+  "url": "https://github.com/defunkt/gist.el",
+  "stars": 554,
+  "updated": "2022-12-04T12:27:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gist",
+    "fetcher": "github",
+    "repo": "defunkt/gist.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 179289192,
+  "name": "borkdude/flycheck-clj-kondo",
+  "description": "Emacs integration for clj-kondo via flycheck",
+  "url": "https://github.com/borkdude/flycheck-clj-kondo",
+  "stars": 101,
+  "updated": "2026-06-15T19:26:51Z",
+  "archived": false,
+  "topics": ["clojure", "clojurescript", "flycheck-extension", "linter"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-clj-kondo",
+    "fetcher": "github",
+    "repo": "borkdude/flycheck-clj-kondo"
+  }
+}

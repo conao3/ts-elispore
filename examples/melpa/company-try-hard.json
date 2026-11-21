@@ -1,0 +1,18 @@
+{
+  "id": 41638625,
+  "name": "Wilfred/company-try-hard",
+  "description": "Get all completions from company-mode backends",
+  "url": "https://github.com/Wilfred/company-try-hard",
+  "stars": 23,
+  "updated": "2020-04-17T16:03:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-try-hard",
+    "fetcher": "github",
+    "repo": "Wilfred/company-try-hard"
+  }
+}

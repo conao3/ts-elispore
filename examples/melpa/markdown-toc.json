@@ -1,0 +1,18 @@
+{
+  "id": 20137996,
+  "name": "ardumont/markdown-toc",
+  "description": "Generate a TOC in markdown file",
+  "url": "https://github.com/ardumont/markdown-toc",
+  "stars": 138,
+  "updated": "2026-06-18T17:31:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "markdown-toc",
+    "fetcher": "github",
+    "repo": "ardumont/markdown-toc"
+  }
+}

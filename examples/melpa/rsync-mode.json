@@ -1,0 +1,18 @@
+{
+  "id": 232380748,
+  "name": "r-zip/rsync-mode",
+  "description": "rsync projects to remote machines in Emacs",
+  "url": "https://github.com/r-zip/rsync-mode",
+  "stars": 20,
+  "updated": "2021-09-11T00:00:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rsync-mode",
+    "fetcher": "github",
+    "repo": "r-zip/rsync-mode"
+  }
+}

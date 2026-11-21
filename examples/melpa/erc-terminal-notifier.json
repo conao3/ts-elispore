@@ -1,0 +1,18 @@
+{
+  "id": 9939255,
+  "name": "julienXX/erc-terminal-notifier.el",
+  "description": "OSX notifications via the terminal-notifier gem for Emacs ERC.",
+  "url": "https://github.com/julienXX/erc-terminal-notifier.el",
+  "stars": 19,
+  "updated": "2014-01-15T10:24:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erc-terminal-notifier",
+    "fetcher": "github",
+    "repo": "julienXX/erc-terminal-notifier.el"
+  }
+}

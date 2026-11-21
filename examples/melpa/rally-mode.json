@@ -1,0 +1,18 @@
+{
+  "id": 44034589,
+  "name": "seanleblanc/rally-mode",
+  "description": "A Rally mode for Emacs",
+  "url": "https://github.com/seanleblanc/rally-mode",
+  "stars": 2,
+  "updated": "2016-11-14T03:54:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rally-mode",
+    "fetcher": "github",
+    "repo": "seanleblanc/rally-mode"
+  }
+}

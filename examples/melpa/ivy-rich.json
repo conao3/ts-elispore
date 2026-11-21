@@ -1,0 +1,18 @@
+{
+  "id": 75067000,
+  "name": "Yevgnen/ivy-rich",
+  "description": "More friendly interface for ivy.",
+  "url": "https://github.com/Yevgnen/ivy-rich",
+  "stars": 365,
+  "updated": "2023-04-25T14:22:49Z",
+  "archived": false,
+  "topics": ["counsel", "emacs", "ivy", "swiper"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-rich",
+    "fetcher": "github",
+    "repo": "Yevgnen/ivy-rich"
+  }
+}

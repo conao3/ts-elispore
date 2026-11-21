@@ -1,0 +1,18 @@
+{
+  "id": 59148518,
+  "name": "dracula/emacs",
+  "description": "🧛🏻‍♂️ Dark theme for Emacs",
+  "url": "https://github.com/dracula/emacs",
+  "stars": 348,
+  "updated": "2026-09-09T09:21:01Z",
+  "archived": false,
+  "topics": ["dark-theme", "dracula", "emacs", "theme"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dracula-theme",
+    "fetcher": "github",
+    "repo": "dracula/emacs"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 4473554,
+  "name": "uberkael/awk-yasnippets",
+  "description": "AWK emacs yasnippet snippet for autocompletion",
+  "url": "https://github.com/uberkael/awk-yasnippets",
+  "stars": 8,
+  "updated": "2023-05-15T17:56:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "YASnippet",
+  "ownerType": "User",
+  "melpa": {
+    "name": "awk-yasnippets",
+    "fetcher": "github",
+    "repo": "uberkael/awk-yasnippets",
+    "files": "(:defaults \"awk-mode\")"
+  }
+}

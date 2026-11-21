@@ -1,0 +1,18 @@
+{
+  "id": 8231719,
+  "name": "emacsfodder/emacs-purple-haze-theme",
+  "description": "Emacs 24 theme which is distinctly purple",
+  "url": "https://github.com/emacsfodder/emacs-purple-haze-theme",
+  "stars": 25,
+  "updated": "2014-10-15T02:29:43Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "purple-haze-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-purple-haze-theme"
+  }
+}

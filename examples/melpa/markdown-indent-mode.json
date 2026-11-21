@@ -1,0 +1,18 @@
+{
+  "id": 1170384896,
+  "name": "whhone/markdown-indent-mode",
+  "description": "An Emacs minor mode for dynamic virtual indentation in Markdown, similar to org-indent-mode in Org mode.",
+  "url": "https://github.com/whhone/markdown-indent-mode",
+  "stars": 23,
+  "updated": "2026-09-20T20:58:20Z",
+  "archived": false,
+  "topics": ["emacs", "markdown"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "markdown-indent-mode",
+    "fetcher": "github",
+    "repo": "whhone/markdown-indent-mode"
+  }
+}

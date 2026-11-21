@@ -1,0 +1,19 @@
+{
+  "id": 52961608,
+  "name": "mrkkrp/typit",
+  "description": "Typing game for Emacs similar to the tests on 10 fast fingers",
+  "url": "https://github.com/mrkkrp/typit",
+  "stars": 76,
+  "updated": "2026-08-02T09:37:29Z",
+  "archived": false,
+  "topics": ["emacs", "typing-game"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "typit",
+    "fetcher": "github",
+    "repo": "mrkkrp/typit",
+    "files": "(:defaults \"dict\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 110330270,
+  "name": "preetpalS/emacs-dotenv-mode",
+  "description": "An Emacs major mode for .env files",
+  "url": "https://github.com/preetpalS/emacs-dotenv-mode",
+  "stars": 37,
+  "updated": "2019-11-14T13:03:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dotenv-mode",
+    "fetcher": "github",
+    "repo": "preetpalS/emacs-dotenv-mode"
+  }
+}

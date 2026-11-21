@@ -1,0 +1,18 @@
+{
+  "id": 365781939,
+  "name": "wyuenho/emacs-python-isort",
+  "description": "Reformat python-mode buffer with isort",
+  "url": "https://github.com/wyuenho/emacs-python-isort",
+  "stars": 15,
+  "updated": "2024-01-10T01:43:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "python-isort",
+    "fetcher": "github",
+    "repo": "wyuenho/emacs-python-isort"
+  }
+}

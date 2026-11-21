@@ -1,0 +1,18 @@
+{
+  "id": 321059931,
+  "name": "mkcms/compiler-explorer.el",
+  "description": "Compiler-explorer client for Emacs",
+  "url": "https://github.com/mkcms/compiler-explorer.el",
+  "stars": 48,
+  "updated": "2026-11-14T10:56:09Z",
+  "archived": false,
+  "topics": ["compiler-explorer", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "compiler-explorer",
+    "fetcher": "github",
+    "repo": "mkcms/compiler-explorer.el"
+  }
+}

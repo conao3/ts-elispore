@@ -1,0 +1,28 @@
+{
+  "id": 1053794454,
+  "name": "KeyWeeUsr/elkee",
+  "description": "Native KeePass client for Emacs",
+  "url": "https://github.com/KeyWeeUsr/elkee",
+  "stars": 2,
+  "updated": "2025-10-05T22:35:57Z",
+  "archived": false,
+  "topics": [
+    "client",
+    "elisp",
+    "emacs",
+    "kdbx",
+    "kdbx-database",
+    "keepass",
+    "melpa",
+    "melpa-badge",
+    "password-manager"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elkee",
+    "fetcher": "github",
+    "repo": "KeyWeeUsr/elkee"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 24435732,
+  "name": "aaptel/preview-latex",
+  "description": "inline latex preview for emacs using org-mode",
+  "url": "https://github.com/aaptel/preview-latex",
+  "stars": 17,
+  "updated": "2017-03-17T23:31:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "px",
+    "fetcher": "github",
+    "repo": "aaptel/preview-latex"
+  }
+}

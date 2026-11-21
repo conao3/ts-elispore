@@ -1,0 +1,18 @@
+{
+  "id": 8536343,
+  "name": "robert-zaremba/flymake-go",
+  "description": "An Emacs flymake handler for go-mode files",
+  "url": "https://github.com/robert-zaremba/flymake-go",
+  "stars": 21,
+  "updated": "2026-09-18T13:41:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-go",
+    "fetcher": "github",
+    "repo": "robert-zaremba/flymake-go"
+  }
+}

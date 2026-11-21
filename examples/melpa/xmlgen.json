@@ -1,0 +1,18 @@
+{
+  "id": 974850,
+  "name": "philjackson/xmlgen",
+  "description": "An s-expression to XML DSL in elisp",
+  "url": "https://github.com/philjackson/xmlgen",
+  "stars": 44,
+  "updated": "2017-04-11T13:20:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xmlgen",
+    "fetcher": "github",
+    "repo": "philjackson/xmlgen"
+  }
+}

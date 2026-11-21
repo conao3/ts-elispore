@@ -1,0 +1,18 @@
+{
+  "id": 923805,
+  "name": "aculich/virtualenv.el",
+  "description": "Minor mode that allows emacs to use virtualenv for python.",
+  "url": "https://github.com/aculich/virtualenv.el",
+  "stars": 87,
+  "updated": "2014-02-20T23:02:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "virtualenv",
+    "fetcher": "github",
+    "repo": "aculich/virtualenv.el"
+  }
+}

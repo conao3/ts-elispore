@@ -1,0 +1,19 @@
+{
+  "id": 150150022,
+  "name": "knu/yaml-imenu.el",
+  "description": "Enhancement for the imenu support in yaml-mode",
+  "url": "https://github.com/knu/yaml-imenu.el",
+  "stars": 10,
+  "updated": "2025-08-18T14:38:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yaml-imenu",
+    "fetcher": "github",
+    "repo": "knu/yaml-imenu.el",
+    "files": "(:defaults \"*.rb\")"
+  }
+}

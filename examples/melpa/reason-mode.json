@@ -1,0 +1,18 @@
+{
+  "id": 90563409,
+  "name": "reasonml-editor/reason-mode",
+  "description": "Emacs major mode for working with ReasonML",
+  "url": "https://github.com/reasonml-editor/reason-mode",
+  "stars": 121,
+  "updated": "2023-04-05T05:17:39Z",
+  "archived": false,
+  "topics": ["emacs", "ocaml", "reasonml"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "reason-mode",
+    "fetcher": "github",
+    "repo": "reasonml-editor/reason-mode"
+  }
+}

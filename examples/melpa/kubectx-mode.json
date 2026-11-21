@@ -1,0 +1,18 @@
+{
+  "id": 153744841,
+  "name": "terjesannum/emacs-kubectx-mode",
+  "description": "Switch kubectl context and namespace and display current setting in Emacs mode line",
+  "url": "https://github.com/terjesannum/emacs-kubectx-mode",
+  "stars": 4,
+  "updated": "2024-03-12T20:25:33Z",
+  "archived": false,
+  "topics": ["emacs", "kubernetes"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kubectx-mode",
+    "fetcher": "github",
+    "repo": "terjesannum/emacs-kubectx-mode"
+  }
+}

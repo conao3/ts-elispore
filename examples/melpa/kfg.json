@@ -1,0 +1,18 @@
+{
+  "id": 164386337,
+  "name": "czipperz/kfg",
+  "description": "A modular configuration system for emacs",
+  "url": "https://github.com/czipperz/kfg",
+  "stars": 1,
+  "updated": "2018-09-09T08:25:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kfg",
+    "fetcher": "github",
+    "repo": "czipperz/kfg"
+  }
+}

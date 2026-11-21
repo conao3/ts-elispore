@@ -1,0 +1,19 @@
+{
+  "id": 320417400,
+  "name": "ag91/code-compass",
+  "description": "A set of code analyses that assist you in tackling software complexity",
+  "url": "https://github.com/ag91/code-compass",
+  "stars": 169,
+  "updated": "2026-09-26T08:41:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "code-compass",
+    "fetcher": "github",
+    "repo": "ag91/code-compass",
+    "files": "(:defaults \"scripts\" \"pages\")"
+  }
+}

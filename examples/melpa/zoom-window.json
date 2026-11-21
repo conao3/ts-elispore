@@ -1,0 +1,18 @@
+{
+  "id": 12812546,
+  "name": "emacsorphanage/zoom-window",
+  "description": "Zoom and Unzoom window",
+  "url": "https://github.com/emacsorphanage/zoom-window",
+  "stars": 115,
+  "updated": "2026-06-19T14:00:07Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "window"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "zoom-window",
+    "fetcher": "github",
+    "repo": "emacsorphanage/zoom-window"
+  }
+}

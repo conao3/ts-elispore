@@ -1,0 +1,18 @@
+{
+  "id": 1072072458,
+  "name": "dcolazin/zine-mode",
+  "description": "emacs support for the Zine static site generator",
+  "url": "https://github.com/dcolazin/zine-mode",
+  "stars": 1,
+  "updated": "2025-10-22T21:57:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zine-mode",
+    "fetcher": "github",
+    "repo": "dcolazin/zine-mode"
+  }
+}

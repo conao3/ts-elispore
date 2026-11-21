@@ -1,0 +1,18 @@
+{
+  "id": 14842834,
+  "name": "impaktor/unison-mode",
+  "description": "Emacs mode for unison file synchronization",
+  "url": "https://github.com/impaktor/unison-mode",
+  "stars": 3,
+  "updated": "2016-05-13T15:01:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unison-mode",
+    "fetcher": "github",
+    "repo": "impaktor/unison-mode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 27963716,
+  "name": "Fanael/helm-w32-launcher",
+  "description": "Start Menu entry launcher using Helm",
+  "url": "https://github.com/Fanael/helm-w32-launcher",
+  "stars": 7,
+  "updated": "2014-12-23T20:09:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-w32-launcher",
+    "fetcher": "github",
+    "repo": "Fanael/helm-w32-launcher",
+    "files": "(:defaults \"helper-src\" \"license.txt\")"
+  }
+}

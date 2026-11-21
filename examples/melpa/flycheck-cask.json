@@ -1,0 +1,18 @@
+{
+  "id": 12193146,
+  "name": "flycheck/flycheck-cask",
+  "description": "Cask support for Flycheck",
+  "url": "https://github.com/flycheck/flycheck-cask",
+  "stars": 15,
+  "updated": "2024-02-05T17:21:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-cask",
+    "fetcher": "github",
+    "repo": "flycheck/flycheck-cask"
+  }
+}

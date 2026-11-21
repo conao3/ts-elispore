@@ -1,0 +1,18 @@
+{
+  "id": 71516361,
+  "name": "felipeochoa/rjsx-mode",
+  "description": "A JSX major mode for Emacs",
+  "url": "https://github.com/felipeochoa/rjsx-mode",
+  "stars": 642,
+  "updated": "2020-10-28T13:59:29Z",
+  "archived": false,
+  "topics": ["emacs", "highlighting", "jsx", "major-mode", "parsing", "rjsx-mode"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rjsx-mode",
+    "fetcher": "github",
+    "repo": "felipeochoa/rjsx-mode"
+  }
+}

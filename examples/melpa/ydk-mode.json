@@ -1,0 +1,18 @@
+{
+  "id": 78822129,
+  "name": "jacksonrayhamilton/ydk-mode",
+  "description": "Emacs language support for Yu-Gi-Oh! deck files",
+  "url": "https://github.com/jacksonrayhamilton/ydk-mode",
+  "stars": 0,
+  "updated": "2017-01-14T02:26:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ydk-mode",
+    "fetcher": "github",
+    "repo": "jacksonrayhamilton/ydk-mode"
+  }
+}

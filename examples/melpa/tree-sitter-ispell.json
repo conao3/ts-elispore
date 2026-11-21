@@ -1,0 +1,18 @@
+{
+  "id": 507703406,
+  "name": "erickgnavar/tree-sitter-ispell.el",
+  "description": "Run ispell on tree-sitter text nodes",
+  "url": "https://github.com/erickgnavar/tree-sitter-ispell.el",
+  "stars": 7,
+  "updated": "2024-06-10T22:52:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tree-sitter-ispell",
+    "fetcher": "github",
+    "repo": "erickgnavar/tree-sitter-ispell.el"
+  }
+}

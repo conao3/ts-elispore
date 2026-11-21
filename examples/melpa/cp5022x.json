@@ -1,0 +1,18 @@
+{
+  "id": 3813660,
+  "name": "awasira/cp5022x.el",
+  "description": "",
+  "url": "https://github.com/awasira/cp5022x.el",
+  "stars": 6,
+  "updated": "2012-03-23T23:35:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cp5022x",
+    "fetcher": "github",
+    "repo": "awasira/cp5022x.el"
+  }
+}

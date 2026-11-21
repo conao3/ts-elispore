@@ -1,0 +1,18 @@
+{
+  "id": 86959,
+  "name": "gregnewman/dpaste.el",
+  "description": "Emacs mode to post to dpaste.com",
+  "url": "https://github.com/gregnewman/dpaste.el",
+  "stars": 12,
+  "updated": "2018-03-14T09:42:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dpaste",
+    "fetcher": "github",
+    "repo": "gregnewman/dpaste.el"
+  }
+}

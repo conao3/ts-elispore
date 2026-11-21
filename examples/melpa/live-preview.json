@@ -1,0 +1,18 @@
+{
+  "id": 178395247,
+  "name": "lassik/emacs-live-preview",
+  "description": "Live preview by any shell command while editing",
+  "url": "https://github.com/lassik/emacs-live-preview",
+  "stars": 15,
+  "updated": "2023-12-15T16:12:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "live-preview",
+    "fetcher": "github",
+    "repo": "lassik/emacs-live-preview"
+  }
+}

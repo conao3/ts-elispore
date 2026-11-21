@@ -1,0 +1,29 @@
+{
+  "id": 77727207,
+  "name": "plandes/flex-compile",
+  "description": "Run, evaluate and compile functionality for a variety of different languages and modes.",
+  "url": "https://github.com/plandes/flex-compile",
+  "stars": 12,
+  "updated": "2026-10-30T21:42:33Z",
+  "archived": false,
+  "topics": [
+    "cider",
+    "compiler-plugin",
+    "configuration",
+    "emacs",
+    "emacs-lisp",
+    "ess",
+    "melpa",
+    "org-mode",
+    "python",
+    "xml-validation"
+  ],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flex-compile",
+    "fetcher": "github",
+    "repo": "plandes/flex-compile"
+  }
+}

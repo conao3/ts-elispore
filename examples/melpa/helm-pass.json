@@ -1,0 +1,18 @@
+{
+  "id": 175787485,
+  "name": "emacs-helm/helm-pass",
+  "description": "Emacs Helm interface for pass, the standard unix password manager",
+  "url": "https://github.com/emacs-helm/helm-pass",
+  "stars": 15,
+  "updated": "2021-02-21T16:55:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-pass",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-pass"
+  }
+}

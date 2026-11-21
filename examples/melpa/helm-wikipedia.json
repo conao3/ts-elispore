@@ -1,0 +1,18 @@
+{
+  "id": 175444085,
+  "name": "emacs-helm/helm-wikipedia",
+  "description": "",
+  "url": "https://github.com/emacs-helm/helm-wikipedia",
+  "stars": 21,
+  "updated": "2024-09-12T16:14:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-wikipedia",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-wikipedia"
+  }
+}

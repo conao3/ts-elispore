@@ -1,0 +1,18 @@
+{
+  "id": 149742407,
+  "name": "Jannis/emacs-constant-theme",
+  "description": "A calm, almost monochrome color theme for Emacs with a dark and light variant",
+  "url": "https://github.com/Jannis/emacs-constant-theme",
+  "stars": 16,
+  "updated": "2019-01-30T11:57:46Z",
+  "archived": false,
+  "topics": ["color-theme", "emacs", "emacs-theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "constant-theme",
+    "fetcher": "github",
+    "repo": "Jannis/emacs-constant-theme"
+  }
+}

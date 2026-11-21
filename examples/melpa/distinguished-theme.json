@@ -1,0 +1,18 @@
+{
+  "id": 18215023,
+  "name": "Lokaltog/distinguished-theme",
+  "description": "A dark and elegant theme for emacs.",
+  "url": "https://github.com/Lokaltog/distinguished-theme",
+  "stars": 29,
+  "updated": "2017-05-01T12:29:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "distinguished-theme",
+    "fetcher": "github",
+    "repo": "Lokaltog/distinguished-theme"
+  }
+}

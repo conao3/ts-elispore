@@ -1,0 +1,19 @@
+{
+  "id": 7442659,
+  "name": "jkfurtney/itasca-emacs",
+  "description": "Emacs modes for editing Itasca software data files.",
+  "url": "https://github.com/jkfurtney/itasca-emacs",
+  "stars": 7,
+  "updated": "2017-06-01T16:22:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "itasca",
+    "fetcher": "github",
+    "repo": "jkfurtney/itasca-emacs",
+    "files": "(\"itasca.el\" \"ac-dict\" \"snippets\")"
+  }
+}

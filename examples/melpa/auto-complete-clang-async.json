@@ -1,0 +1,18 @@
+{
+  "id": 4313847,
+  "name": "Golevka/emacs-clang-complete-async",
+  "description": "An emacs plugin to complete C and C++ code using libclang",
+  "url": "https://github.com/Golevka/emacs-clang-complete-async",
+  "stars": 351,
+  "updated": "2017-01-26T16:57:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-complete-clang-async",
+    "fetcher": "github",
+    "repo": "Golevka/emacs-clang-complete-async"
+  }
+}

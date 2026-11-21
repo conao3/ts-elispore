@@ -1,0 +1,18 @@
+{
+  "id": 7493947,
+  "name": "sabof/es-lib",
+  "description": "A collecton of emacs utilities",
+  "url": "https://github.com/sabof/es-lib",
+  "stars": 16,
+  "updated": "2015-10-07T17:45:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "es-lib",
+    "fetcher": "github",
+    "repo": "sabof/es-lib"
+  }
+}

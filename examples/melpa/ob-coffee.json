@@ -1,0 +1,19 @@
+{
+  "id": 43425088,
+  "name": "zweifisch/ob-coffee",
+  "description": "org-babel functions for coffee-script evaluation",
+  "url": "https://github.com/zweifisch/ob-coffee",
+  "stars": 1,
+  "updated": "2017-07-25T14:24:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-coffee",
+    "fetcher": "github",
+    "repo": "zweifisch/ob-coffee",
+    "files": "(:defaults \"repl.js\")"
+  }
+}

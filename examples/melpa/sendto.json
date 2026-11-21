@@ -1,0 +1,18 @@
+{
+  "id": 56392449,
+  "name": "lujun9972/sendto.el",
+  "description": "send the active region content to a function",
+  "url": "https://github.com/lujun9972/sendto.el",
+  "stars": 1,
+  "updated": "2016-04-25T12:50:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sendto",
+    "fetcher": "github",
+    "repo": "lujun9972/sendto.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1031902,
+  "name": "tm8st/emacs-yalinum",
+  "description": "yet another line number display for emacs.",
+  "url": "https://github.com/tm8st/emacs-yalinum",
+  "stars": 6,
+  "updated": "2013-02-17T10:43:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yalinum",
+    "fetcher": "github",
+    "repo": "tm8st/emacs-yalinum"
+  }
+}

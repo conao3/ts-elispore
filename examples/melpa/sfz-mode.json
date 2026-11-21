@@ -1,0 +1,18 @@
+{
+  "id": 230778122,
+  "name": "sfztools/emacs-sfz-mode",
+  "description": "SFZ format filetype syntax highlighting for Emacs",
+  "url": "https://github.com/sfztools/emacs-sfz-mode",
+  "stars": 4,
+  "updated": "2020-07-16T10:23:13Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode", "sfz", "sfz-files", "sfz-format", "syntax-highlighting"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sfz-mode",
+    "fetcher": "github",
+    "repo": "sfztools/emacs-sfz-mode"
+  }
+}

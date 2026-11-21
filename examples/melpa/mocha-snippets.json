@@ -1,0 +1,19 @@
+{
+  "id": 23247144,
+  "name": "cowboyd/mocha-snippets.el",
+  "description": "An E-Lisp package containing helpful yasnippets for use with the Mocha JavaScript testing framework",
+  "url": "https://github.com/cowboyd/mocha-snippets.el",
+  "stars": 9,
+  "updated": "2020-08-28T00:00:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mocha-snippets",
+    "fetcher": "github",
+    "repo": "cowboyd/mocha-snippets.el",
+    "files": "(\"*.el\" \"snippets\")"
+  }
+}

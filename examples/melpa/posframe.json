@@ -1,0 +1,18 @@
+{
+  "id": 118983260,
+  "name": "tumashu/posframe",
+  "description": "Pop a posframe (just a child-frame) at point, posframe is a **GNU ELPA** package!",
+  "url": "https://github.com/tumashu/posframe",
+  "stars": 543,
+  "updated": "2026-10-21T09:36:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "posframe",
+    "fetcher": "github",
+    "repo": "tumashu/posframe"
+  }
+}

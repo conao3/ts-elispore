@@ -1,0 +1,18 @@
+{
+  "id": 33373508,
+  "name": "hexmode/mediawiki-el",
+  "description": "Emacs interface to edit any mediawiki site",
+  "url": "https://github.com/hexmode/mediawiki-el",
+  "stars": 82,
+  "updated": "2026-11-18T02:14:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mediawiki",
+    "fetcher": "github",
+    "repo": "hexmode/mediawiki-el"
+  }
+}

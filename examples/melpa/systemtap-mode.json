@@ -1,0 +1,18 @@
+{
+  "id": 7084686,
+  "name": "ruediger/systemtap-mode",
+  "description": "Emacs mode for SystemTap",
+  "url": "https://github.com/ruediger/systemtap-mode",
+  "stars": 7,
+  "updated": "2015-11-22T19:40:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "systemtap-mode",
+    "fetcher": "github",
+    "repo": "ruediger/systemtap-mode"
+  }
+}

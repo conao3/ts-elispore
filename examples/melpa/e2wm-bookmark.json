@@ -1,0 +1,18 @@
+{
+  "id": 2000185,
+  "name": "myuhe/e2wm-bookmark.el",
+  "description": "",
+  "url": "https://github.com/myuhe/e2wm-bookmark.el",
+  "stars": 3,
+  "updated": "2015-11-23T05:21:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "e2wm-bookmark",
+    "fetcher": "github",
+    "repo": "myuhe/e2wm-bookmark.el"
+  }
+}

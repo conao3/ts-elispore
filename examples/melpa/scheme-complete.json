@@ -1,0 +1,18 @@
+{
+  "id": 32322302,
+  "name": "ashinn/scheme-complete",
+  "description": "Automatically exported from code.google.com/p/scheme-complete",
+  "url": "https://github.com/ashinn/scheme-complete",
+  "stars": 17,
+  "updated": "2024-12-05T01:11:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scheme-complete",
+    "fetcher": "github",
+    "repo": "ashinn/scheme-complete"
+  }
+}

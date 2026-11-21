@@ -1,0 +1,18 @@
+{
+  "id": 282656333,
+  "name": "conao3/dired-lsi.el",
+  "description": "",
+  "url": "https://github.com/conao3/dired-lsi.el",
+  "stars": 7,
+  "updated": "2026-11-15T16:55:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-lsi",
+    "fetcher": "github",
+    "repo": "conao3/dired-lsi.el"
+  }
+}

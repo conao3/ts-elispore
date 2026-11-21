@@ -1,0 +1,18 @@
+{
+  "id": 119491220,
+  "name": "feeluown/emacs-fuo",
+  "description": "Emacs client for fuo daemon.",
+  "url": "https://github.com/feeluown/emacs-fuo",
+  "stars": 5,
+  "updated": "2019-08-12T09:27:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "fuo",
+    "fetcher": "github",
+    "repo": "feeluown/emacs-fuo"
+  }
+}

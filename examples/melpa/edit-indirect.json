@@ -1,0 +1,18 @@
+{
+  "id": 27098813,
+  "name": "Fanael/edit-indirect",
+  "description": "Edit regions in separate buffers",
+  "url": "https://github.com/Fanael/edit-indirect",
+  "stars": 110,
+  "updated": "2024-03-19T21:17:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "edit-indirect",
+    "fetcher": "github",
+    "repo": "Fanael/edit-indirect"
+  }
+}

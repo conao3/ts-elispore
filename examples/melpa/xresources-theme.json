@@ -1,0 +1,18 @@
+{
+  "id": 28200173,
+  "name": "martenlienen/xresources-theme",
+  "description": "Use your .Xresources as your emacs theme",
+  "url": "https://github.com/martenlienen/xresources-theme",
+  "stars": 61,
+  "updated": "2026-10-12T08:39:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xresources-theme",
+    "fetcher": "github",
+    "repo": "martenlienen/xresources-theme"
+  }
+}

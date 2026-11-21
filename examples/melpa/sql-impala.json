@@ -1,0 +1,18 @@
+{
+  "id": 57254643,
+  "name": "jterk/sql-impala",
+  "description": "Emacs SQL Mode Support for Cloudera Impala - mirror of https://forge.goterkyourself.com/jason/sql-impala",
+  "url": "https://github.com/jterk/sql-impala",
+  "stars": 0,
+  "updated": "2025-06-16T01:11:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sql-impala",
+    "fetcher": "github",
+    "repo": "jterk/sql-impala"
+  }
+}

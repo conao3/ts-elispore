@@ -1,0 +1,18 @@
+{
+  "id": 736489799,
+  "name": "emacs-sideline/sideline-eglot",
+  "description": "Show eglot information with sideline",
+  "url": "https://github.com/emacs-sideline/sideline-eglot",
+  "stars": 18,
+  "updated": "2026-06-19T08:34:24Z",
+  "archived": false,
+  "topics": ["eglot", "emacs", "sideline"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sideline-eglot",
+    "fetcher": "github",
+    "repo": "emacs-sideline/sideline-eglot"
+  }
+}

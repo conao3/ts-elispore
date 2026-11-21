@@ -1,0 +1,29 @@
+{
+  "id": 1053496366,
+  "name": "xenodium/agent-shell",
+  "description": "Brings your favorite AI agents to Emacs, keeping you at home: familiar buffers and bindings, no terminal emulation. Powered by ACP.",
+  "url": "https://github.com/xenodium/agent-shell",
+  "stars": 2093,
+  "updated": "2026-11-20T13:05:32Z",
+  "archived": false,
+  "topics": [
+    "ai",
+    "claude",
+    "claude-code",
+    "codex",
+    "emacs",
+    "emacs-lisp",
+    "gemini",
+    "goose",
+    "llm",
+    "openai"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "agent-shell",
+    "fetcher": "github",
+    "repo": "xenodium/agent-shell"
+  }
+}

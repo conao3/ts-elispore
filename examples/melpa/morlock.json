@@ -1,0 +1,18 @@
+{
+  "id": 10905916,
+  "name": "tarsius/morlock",
+  "description": "More font-lock keywords for elisp",
+  "url": "https://github.com/tarsius/morlock",
+  "stars": 16,
+  "updated": "2026-10-01T16:24:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "morlock",
+    "fetcher": "github",
+    "repo": "tarsius/morlock"
+  }
+}

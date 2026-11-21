@@ -1,0 +1,20 @@
+{
+  "id": 187577256,
+  "name": "jcaw/elnode",
+  "description": "Evented io webserver right inside your Emacs - maintained fork for MELPA.",
+  "url": "https://github.com/jcaw/elnode",
+  "stars": 10,
+  "updated": "2019-07-02T15:10:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elnode",
+    "fetcher": "github",
+    "repo": "jcaw/elnode",
+    "branch": "melpa",
+    "files": "(\"default*\" \"elnode*\")"
+  }
+}

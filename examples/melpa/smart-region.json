@@ -1,0 +1,18 @@
+{
+  "id": 33273083,
+  "name": "uk-ar/smart-region",
+  "description": "",
+  "url": "https://github.com/uk-ar/smart-region",
+  "stars": 19,
+  "updated": "2016-12-12T15:52:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smart-region",
+    "fetcher": "github",
+    "repo": "uk-ar/smart-region"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 1097626203,
+  "name": "papadakis-k/structurizr.el",
+  "description": "An Emacs major mode for Structurizr DSL",
+  "url": "https://github.com/papadakis-k/structurizr.el",
+  "stars": 0,
+  "updated": "2025-11-24T19:01:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "structurizr",
+    "fetcher": "github",
+    "repo": "papadakis-k/structurizr.el",
+    "files": "(:defaults \"logback.xml\")"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": 826563599,
+  "name": "jamescherti/outline-indent.el",
+  "description": "Outline-indent: Indentation based Folding for Emacs (Supersedes legacy packages such as origami.el and yafolding.el)",
+  "url": "https://github.com/jamescherti/outline-indent.el",
+  "stars": 149,
+  "updated": "2026-11-17T21:59:07Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "indent",
+    "indentation",
+    "indentation-level",
+    "indentation-parsing",
+    "indenting",
+    "outline",
+    "outline-indent",
+    "outline-indent-minor-mode",
+    "outline-minor-mode",
+    "outline-mode"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "outline-indent",
+    "fetcher": "github",
+    "repo": "jamescherti/outline-indent.el"
+  }
+}

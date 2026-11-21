@@ -1,0 +1,18 @@
+{
+  "id": 48922517,
+  "name": "marcIhm/org-index",
+  "description": "Ranked and incremental search among selected org-headlines. Available on MELPA.",
+  "url": "https://github.com/marcIhm/org-index",
+  "stars": 32,
+  "updated": "2026-01-12T17:01:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-index",
+    "fetcher": "github",
+    "repo": "marcIhm/org-index"
+  }
+}

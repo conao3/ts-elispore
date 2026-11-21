@@ -1,0 +1,18 @@
+{
+  "id": 1128460726,
+  "name": "meedstrom/system-idle",
+  "description": "",
+  "url": "https://github.com/meedstrom/system-idle",
+  "stars": 4,
+  "updated": "2026-02-15T17:14:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "system-idle",
+    "fetcher": "github",
+    "repo": "meedstrom/system-idle"
+  }
+}

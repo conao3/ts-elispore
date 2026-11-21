@@ -1,0 +1,18 @@
+{
+  "id": 35106615,
+  "name": "abo-abo/avy",
+  "description": "Jump to things in Emacs tree-style",
+  "url": "https://github.com/abo-abo/avy",
+  "stars": 1968,
+  "updated": "2024-11-01T13:57:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "avy",
+    "fetcher": "github",
+    "repo": "abo-abo/avy"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 12983035,
+  "name": "DarwinAwardWinner/mac-pseudo-daemon",
+  "description": "Emacs daemon mode that plays nice with Mac OS.",
+  "url": "https://github.com/DarwinAwardWinner/mac-pseudo-daemon",
+  "stars": 58,
+  "updated": "2024-12-01T00:28:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "osx-pseudo-daemon",
+    "fetcher": "github",
+    "repo": "DarwinAwardWinner/mac-pseudo-daemon",
+    "files": "(\"osx-pseudo-daemon.el\")"
+  }
+}

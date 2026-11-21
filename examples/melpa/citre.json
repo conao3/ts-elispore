@@ -1,0 +1,18 @@
+{
+  "id": 239525297,
+  "name": "universal-ctags/citre",
+  "description": "A superior code reading & auto-completion tool with pluggable backends.",
+  "url": "https://github.com/universal-ctags/citre",
+  "stars": 400,
+  "updated": "2026-05-30T10:08:07Z",
+  "archived": false,
+  "topics": ["code-completion", "ctags", "emacs", "emacs-lisp", "lsp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "citre",
+    "fetcher": "github",
+    "repo": "universal-ctags/citre"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 4105321,
+  "name": "ongaeshi/auto-shell-command",
+  "description": "Run the shell command asynchronously that you specified when you save the file.",
+  "url": "https://github.com/ongaeshi/auto-shell-command",
+  "stars": 15,
+  "updated": "2018-08-17T15:02:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-shell-command",
+    "fetcher": "github",
+    "repo": "ongaeshi/auto-shell-command"
+  }
+}

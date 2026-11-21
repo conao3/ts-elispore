@@ -1,0 +1,18 @@
+{
+  "id": 17113867,
+  "name": "quodlibetor/py-gnitset",
+  "description": "Testing Python in Emacs, any way you want to.",
+  "url": "https://github.com/quodlibetor/py-gnitset",
+  "stars": 2,
+  "updated": "2017-08-21T17:33:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "py-gnitset",
+    "fetcher": "github",
+    "repo": "quodlibetor/py-gnitset"
+  }
+}

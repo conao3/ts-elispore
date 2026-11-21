@@ -1,0 +1,18 @@
+{
+  "id": 5862188,
+  "name": "rolandwalker/list-utils",
+  "description": "List-manipulation utility functions for Emacs",
+  "url": "https://github.com/rolandwalker/list-utils",
+  "stars": 30,
+  "updated": "2024-11-06T18:50:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "list-utils",
+    "fetcher": "github",
+    "repo": "rolandwalker/list-utils"
+  }
+}

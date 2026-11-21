@@ -1,0 +1,18 @@
+{
+  "id": 622679488,
+  "name": "cfclrk/environ",
+  "description": "Utilities for working with environment variables in Emacs",
+  "url": "https://github.com/cfclrk/environ",
+  "stars": 9,
+  "updated": "2026-03-13T14:09:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "environ",
+    "fetcher": "github",
+    "repo": "cfclrk/environ"
+  }
+}

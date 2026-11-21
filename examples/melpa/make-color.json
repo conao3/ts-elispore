@@ -1,0 +1,18 @@
+{
+  "id": 16066656,
+  "name": "alezost/make-color.el",
+  "description": "\"Pick\" a color the hard way (Emacs package)",
+  "url": "https://github.com/alezost/make-color.el",
+  "stars": 14,
+  "updated": "2025-11-06T12:36:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "make-color",
+    "fetcher": "github",
+    "repo": "alezost/make-color.el"
+  }
+}

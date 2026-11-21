@@ -1,0 +1,26 @@
+{
+  "id": 77487230,
+  "name": "grafov/russian-holidays",
+  "description": "Russian holidays for GNU/Emacs calendar :calendar:",
+  "url": "https://github.com/grafov/russian-holidays",
+  "stars": 16,
+  "updated": "2017-01-09T21:41:50Z",
+  "archived": false,
+  "topics": [
+    "calendar",
+    "emacs",
+    "emacs-calendar",
+    "holidays",
+    "melpa",
+    "regional-holidays",
+    "russian-specific"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "russian-holidays",
+    "fetcher": "github",
+    "repo": "grafov/russian-holidays"
+  }
+}

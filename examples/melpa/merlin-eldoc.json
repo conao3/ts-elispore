@@ -1,0 +1,18 @@
+{
+  "id": 125729020,
+  "name": "Khady/merlin-eldoc",
+  "description": "Type and doc on hover for OCaml and Reason in emacs",
+  "url": "https://github.com/Khady/merlin-eldoc",
+  "stars": 46,
+  "updated": "2026-07-02T08:19:19Z",
+  "archived": false,
+  "topics": ["emacs", "ocaml", "reasonml"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "merlin-eldoc",
+    "fetcher": "github",
+    "repo": "Khady/merlin-eldoc"
+  }
+}

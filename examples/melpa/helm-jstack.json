@@ -1,0 +1,18 @@
+{
+  "id": 36254905,
+  "name": "raghavgautam/helm-jstack",
+  "description": "Helm interface to jps & jstack for JVM",
+  "url": "https://github.com/raghavgautam/helm-jstack",
+  "stars": 1,
+  "updated": "2015-06-03T21:09:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-jstack",
+    "fetcher": "github",
+    "repo": "raghavgautam/helm-jstack"
+  }
+}

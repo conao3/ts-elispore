@@ -1,0 +1,18 @@
+{
+  "id": 55901500,
+  "name": "Wilfred/refine",
+  "description": "interactive value editing in emacs lisp",
+  "url": "https://github.com/Wilfred/refine",
+  "stars": 85,
+  "updated": "2024-09-14T06:34:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "refine",
+    "fetcher": "github",
+    "repo": "Wilfred/refine"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 230292450,
+  "name": "emacsattic/eno",
+  "description": "Goto/copy/cut any word/symbol/line in view, similar to ace-jump/easymotion",
+  "url": "https://github.com/emacsattic/eno",
+  "stars": 1,
+  "updated": "2019-12-26T16:16:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "eno",
+    "fetcher": "github",
+    "repo": "emacsattic/eno"
+  }
+}

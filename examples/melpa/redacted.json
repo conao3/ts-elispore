@@ -1,0 +1,18 @@
+{
+  "id": 411834569,
+  "name": "bkaestner/redacted.el",
+  "description": "",
+  "url": "https://github.com/bkaestner/redacted.el",
+  "stars": 109,
+  "updated": "2022-04-16T16:28:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "redacted",
+    "fetcher": "github",
+    "repo": "bkaestner/redacted.el"
+  }
+}

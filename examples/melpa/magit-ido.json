@@ -1,0 +1,18 @@
+{
+  "id": 957566272,
+  "name": "emacsorphanage/magit-ido",
+  "description": "Support using Ido in Magit",
+  "url": "https://github.com/emacsorphanage/magit-ido",
+  "stars": 2,
+  "updated": "2025-03-30T17:38:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "magit-ido",
+    "fetcher": "github",
+    "repo": "emacsorphanage/magit-ido"
+  }
+}

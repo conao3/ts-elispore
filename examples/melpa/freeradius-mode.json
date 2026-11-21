@@ -1,0 +1,26 @@
+{
+  "id": 169149422,
+  "name": "VersBinarii/freeradius-mode",
+  "description": "Emacs major-mode for editing FreeRadius configuration files",
+  "url": "https://github.com/VersBinarii/freeradius-mode",
+  "stars": 1,
+  "updated": "2019-04-01T17:44:10Z",
+  "archived": false,
+  "topics": [
+    "configuration-files",
+    "elisp",
+    "emacs",
+    "freeradius",
+    "freeradius-server",
+    "major-mode",
+    "unlang"
+  ],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "freeradius-mode",
+    "fetcher": "github",
+    "repo": "VersBinarii/freeradius-mode"
+  }
+}

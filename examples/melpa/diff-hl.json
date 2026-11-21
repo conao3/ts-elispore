@@ -1,0 +1,18 @@
+{
+  "id": 4781389,
+  "name": "dgutov/diff-hl",
+  "description": "Emacs package for highlighting uncommitted changes",
+  "url": "https://github.com/dgutov/diff-hl",
+  "stars": 1122,
+  "updated": "2026-10-01T01:35:49Z",
+  "archived": false,
+  "topics": ["emacs", "git", "git-gutter", "gutter", "mercurial", "vcs", "version-control"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "diff-hl",
+    "fetcher": "github",
+    "repo": "dgutov/diff-hl"
+  }
+}

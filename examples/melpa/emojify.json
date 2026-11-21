@@ -1,0 +1,19 @@
+{
+  "id": 44763224,
+  "name": "iqbalansari/emacs-emojify",
+  "description": "Display emojis in Emacs",
+  "url": "https://github.com/iqbalansari/emacs-emojify",
+  "stars": 429,
+  "updated": "2022-10-11T17:27:02Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emojis"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emojify",
+    "fetcher": "github",
+    "repo": "iqbalansari/emacs-emojify",
+    "files": "(:defaults \"data\" \"images\")"
+  }
+}

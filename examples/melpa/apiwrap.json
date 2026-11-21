@@ -1,0 +1,18 @@
+{
+  "id": 83115812,
+  "name": "vermiculus/apiwrap.el",
+  "description": "Generate wrappers for your API endpoints!",
+  "url": "https://github.com/vermiculus/apiwrap.el",
+  "stars": 49,
+  "updated": "2026-02-06T21:09:48Z",
+  "archived": false,
+  "topics": ["api-wrapper", "code-generation", "emacs"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "apiwrap",
+    "fetcher": "github",
+    "repo": "vermiculus/apiwrap.el"
+  }
+}

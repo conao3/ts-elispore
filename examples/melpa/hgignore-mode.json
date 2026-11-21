@@ -1,0 +1,18 @@
+{
+  "id": 25782162,
+  "name": "omajid/hgignore-mode",
+  "description": "an emacs mode for editing hgignore files",
+  "url": "https://github.com/omajid/hgignore-mode",
+  "stars": 2,
+  "updated": "2022-08-04T13:26:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hgignore-mode",
+    "fetcher": "github",
+    "repo": "omajid/hgignore-mode"
+  }
+}

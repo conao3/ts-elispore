@@ -1,0 +1,18 @@
+{
+  "id": 91630606,
+  "name": "Sodel-the-Vociferous/helm-company",
+  "description": "Helm interface for company-mode",
+  "url": "https://github.com/Sodel-the-Vociferous/helm-company",
+  "stars": 29,
+  "updated": "2024-01-04T08:17:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-company",
+    "fetcher": "github",
+    "repo": "Sodel-the-Vociferous/helm-company"
+  }
+}

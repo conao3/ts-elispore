@@ -1,0 +1,19 @@
+{
+  "id": 402549,
+  "name": "ptrv/sclang-snippets",
+  "description": "sclang snippets for emacs yasnippets",
+  "url": "https://github.com/ptrv/sclang-snippets",
+  "stars": 9,
+  "updated": "2013-05-13T07:51:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": null,
+  "ownerType": "User",
+  "melpa": {
+    "name": "sclang-snippets",
+    "fetcher": "github",
+    "repo": "ptrv/sclang-snippets",
+    "files": "(\"*.el\" \"snippets\")"
+  }
+}

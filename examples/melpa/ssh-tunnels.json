@@ -1,0 +1,18 @@
+{
+  "id": 28147410,
+  "name": "death/ssh-tunnels",
+  "description": "Manage SSH tunnels from Emacs",
+  "url": "https://github.com/death/ssh-tunnels",
+  "stars": 27,
+  "updated": "2023-12-18T00:04:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ssh-tunnels",
+    "fetcher": "github",
+    "repo": "death/ssh-tunnels"
+  }
+}

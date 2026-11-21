@@ -1,0 +1,18 @@
+{
+  "id": 991564670,
+  "name": "precompute/difflayer",
+  "description": "",
+  "url": "https://github.com/precompute/difflayer",
+  "stars": 0,
+  "updated": "2026-10-23T16:04:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "difflayer",
+    "fetcher": "github",
+    "repo": "precompute/difflayer"
+  }
+}

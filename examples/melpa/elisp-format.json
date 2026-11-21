@@ -1,0 +1,18 @@
+{
+  "id": 58182360,
+  "name": "Yuki-Inoue/elisp-format",
+  "description": "Originally from EmacsWiki",
+  "url": "https://github.com/Yuki-Inoue/elisp-format",
+  "stars": 16,
+  "updated": "2016-05-08T12:52:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elisp-format",
+    "fetcher": "github",
+    "repo": "Yuki-Inoue/elisp-format"
+  }
+}

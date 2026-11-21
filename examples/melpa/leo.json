@@ -1,0 +1,18 @@
+{
+  "id": 306152144,
+  "name": "mtenders/emacs-leo",
+  "description": "Emacs interface for dict.leo.org",
+  "url": "https://github.com/mtenders/emacs-leo",
+  "stars": 12,
+  "updated": "2025-01-09T11:31:36Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "leo",
+    "fetcher": "github",
+    "repo": "mtenders/emacs-leo"
+  }
+}

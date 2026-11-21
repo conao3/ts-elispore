@@ -1,0 +1,18 @@
+{
+  "id": 29185806,
+  "name": "paetzke/format-sql.el",
+  "description": " Use format-sql to make your SQL readable in directly Emacs. ",
+  "url": "https://github.com/paetzke/format-sql.el",
+  "stars": 11,
+  "updated": "2015-04-22T13:34:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "format-sql",
+    "fetcher": "github",
+    "repo": "paetzke/format-sql.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 292148229,
+  "name": "akreisher/eshell-syntax-highlighting",
+  "description": "Syntax highlighting for Eshell",
+  "url": "https://github.com/akreisher/eshell-syntax-highlighting",
+  "stars": 88,
+  "updated": "2024-12-22T23:07:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-syntax-highlighting",
+    "fetcher": "github",
+    "repo": "akreisher/eshell-syntax-highlighting"
+  }
+}

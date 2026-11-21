@@ -1,0 +1,18 @@
+{
+  "id": 47795013,
+  "name": "m00nlight/minizinc-mode",
+  "description": "Emacs mode for editing MiniZinc model file",
+  "url": "https://github.com/m00nlight/minizinc-mode",
+  "stars": 12,
+  "updated": "2023-04-26T07:04:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "minizinc-mode",
+    "fetcher": "github",
+    "repo": "m00nlight/minizinc-mode"
+  }
+}

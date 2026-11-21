@@ -1,0 +1,18 @@
+{
+  "id": 1093480908,
+  "name": "pierre-rouleau/tab-based-indent",
+  "description": "Edit space-based indented files as tab-based; control indentation width while editing.",
+  "url": "https://github.com/pierre-rouleau/tab-based-indent",
+  "stars": 4,
+  "updated": "2026-10-16T16:15:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tbindent",
+    "fetcher": "github",
+    "repo": "pierre-rouleau/tab-based-indent"
+  }
+}

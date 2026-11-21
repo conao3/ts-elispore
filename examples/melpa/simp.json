@@ -1,0 +1,18 @@
+{
+  "id": 3037987,
+  "name": "re5et/simp",
+  "description": "A simple project defenition implementation for emacs.  Useful for quick finding and grepping within a project.",
+  "url": "https://github.com/re5et/simp",
+  "stars": 18,
+  "updated": "2018-06-07T02:55:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simp",
+    "fetcher": "github",
+    "repo": "re5et/simp"
+  }
+}

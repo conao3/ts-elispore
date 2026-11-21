@@ -1,0 +1,18 @@
+{
+  "id": 20040967,
+  "name": "Sarcasm/company-irony",
+  "description": "company-mode completion back-end for irony-mode",
+  "url": "https://github.com/Sarcasm/company-irony",
+  "stars": 118,
+  "updated": "2021-06-05T10:27:03Z",
+  "archived": false,
+  "topics": ["completion", "cpp", "emacs", "irony-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-irony",
+    "fetcher": "github",
+    "repo": "Sarcasm/company-irony"
+  }
+}

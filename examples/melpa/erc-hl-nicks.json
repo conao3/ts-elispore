@@ -1,0 +1,18 @@
+{
+  "id": 2280710,
+  "name": "leathekd/erc-hl-nicks",
+  "description": "Nickname Highlighting for ERC",
+  "url": "https://github.com/leathekd/erc-hl-nicks",
+  "stars": 31,
+  "updated": "2024-06-15T20:58:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erc-hl-nicks",
+    "fetcher": "github",
+    "repo": "leathekd/erc-hl-nicks"
+  }
+}

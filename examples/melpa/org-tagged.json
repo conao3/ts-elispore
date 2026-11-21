@@ -1,0 +1,18 @@
+{
+  "id": 540141106,
+  "name": "gizmomogwai/org-tagged",
+  "description": "Created tables from the tags on your tasks.",
+  "url": "https://github.com/gizmomogwai/org-tagged",
+  "stars": 6,
+  "updated": "2022-09-26T20:49:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-tagged",
+    "fetcher": "github",
+    "repo": "gizmomogwai/org-tagged"
+  }
+}

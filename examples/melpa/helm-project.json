@@ -1,0 +1,18 @@
+{
+  "id": 448647655,
+  "name": "cmccloud/helm-project",
+  "description": "",
+  "url": "https://github.com/cmccloud/helm-project",
+  "stars": 4,
+  "updated": "2023-06-19T13:18:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-project",
+    "fetcher": "github",
+    "repo": "cmccloud/helm-project"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 146643171,
+  "name": "Lindydancer/highlight-doxygen",
+  "description": "Highlight Doxygen comments in Emacs, including code blocks",
+  "url": "https://github.com/Lindydancer/highlight-doxygen",
+  "stars": 18,
+  "updated": "2022-01-12T22:17:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "highlight-doxygen",
+    "fetcher": "github",
+    "repo": "Lindydancer/highlight-doxygen"
+  }
+}

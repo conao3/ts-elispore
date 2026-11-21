@@ -1,0 +1,18 @@
+{
+  "id": 234907901,
+  "name": "emacsorphanage/yafolding",
+  "description": "Yet another folding extension for Emacs",
+  "url": "https://github.com/emacsorphanage/yafolding",
+  "stars": 6,
+  "updated": "2025-06-01T21:33:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "yafolding",
+    "fetcher": "github",
+    "repo": "emacsorphanage/yafolding"
+  }
+}

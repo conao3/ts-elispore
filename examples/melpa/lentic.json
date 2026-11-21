@@ -1,0 +1,19 @@
+{
+  "id": 16817990,
+  "name": "phillord/lentic",
+  "description": "Create views of the same content in two Emacs buffers",
+  "url": "https://github.com/phillord/lentic",
+  "stars": 194,
+  "updated": "2024-03-03T14:56:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lentic",
+    "fetcher": "github",
+    "repo": "phillord/lentic",
+    "files": "(:defaults\n                \"lenticular.org\"\n                (:exclude \"build.el\" \"noisy-change.el\"))"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 59543556,
+  "name": "dash-docs-el/counsel-dash",
+  "description": "Browse Dash docsets using Ivy",
+  "url": "https://github.com/dash-docs-el/counsel-dash",
+  "stars": 68,
+  "updated": "2022-12-17T23:30:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "counsel-dash",
+    "fetcher": "github",
+    "repo": "dash-docs-el/counsel-dash"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 988194656,
+  "name": "taquangtrung/emacs-rasi-mode",
+  "description": "Major mode for editing RASI file format.",
+  "url": "https://github.com/taquangtrung/emacs-rasi-mode",
+  "stars": 1,
+  "updated": "2025-06-03T07:59:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rasi-mode",
+    "fetcher": "github",
+    "repo": "taquangtrung/emacs-rasi-mode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 353786121,
+  "name": "minad/vertico",
+  "description": ":dizzy: vertico.el - VERTical Interactive COmpletion",
+  "url": "https://github.com/minad/vertico",
+  "stars": 1897,
+  "updated": "2026-10-11T08:23:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vertico",
+    "fetcher": "github",
+    "repo": "minad/vertico",
+    "files": "(:defaults \"extensions/vertico-*.el\")"
+  }
+}

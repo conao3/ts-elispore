@@ -1,0 +1,18 @@
+{
+  "id": 674020123,
+  "name": "eki3z/flymake-relint",
+  "description": "",
+  "url": "https://github.com/eki3z/flymake-relint",
+  "stars": 4,
+  "updated": "2025-01-23T21:14:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-relint",
+    "fetcher": "github",
+    "repo": "eki3z/flymake-relint"
+  }
+}

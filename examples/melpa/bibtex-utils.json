@@ -1,0 +1,18 @@
+{
+  "id": 41759979,
+  "name": "plantarum/bibtex-utils",
+  "description": "An Emacs package providing additional features for working with BibTeX files & citations",
+  "url": "https://github.com/plantarum/bibtex-utils",
+  "stars": 19,
+  "updated": "2026-03-23T13:47:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bibtex-utils",
+    "fetcher": "github",
+    "repo": "plantarum/bibtex-utils"
+  }
+}

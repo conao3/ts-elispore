@@ -1,0 +1,19 @@
+{
+  "id": 140994400,
+  "name": "kanchoku/tc",
+  "description": "無連想2ストローク日本語入力方式 \"Tコード\" のelisp packageのrepositoryです",
+  "url": "https://github.com/kanchoku/tc",
+  "stars": 16,
+  "updated": "2026-01-12T13:40:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "tc",
+    "fetcher": "github",
+    "repo": "kanchoku/tc",
+    "files": "(\"*.el\" \"tcode\")"
+  }
+}

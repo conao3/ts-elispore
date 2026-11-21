@@ -1,0 +1,18 @@
+{
+  "id": 113699509,
+  "name": "pwalsh/pipenv.el",
+  "description": "A Pipenv porcelain inside Emacs.",
+  "url": "https://github.com/pwalsh/pipenv.el",
+  "stars": 170,
+  "updated": "2022-08-10T01:50:27Z",
+  "archived": false,
+  "topics": ["emacs", "pipenv", "pipfile", "python", "virtualenv"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pipenv",
+    "fetcher": "github",
+    "repo": "pwalsh/pipenv.el"
+  }
+}

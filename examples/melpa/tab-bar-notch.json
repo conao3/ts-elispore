@@ -1,0 +1,18 @@
+{
+  "id": 719613140,
+  "name": "jimeh/tab-bar-notch",
+  "description": "Adjust tab-bar height for MacBook Pro notch",
+  "url": "https://github.com/jimeh/tab-bar-notch",
+  "stars": 6,
+  "updated": "2024-12-24T01:09:14Z",
+  "archived": false,
+  "topics": ["camera-notch", "emacs", "macbook-pro", "macos", "notch", "tab-bar"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tab-bar-notch",
+    "fetcher": "github",
+    "repo": "jimeh/tab-bar-notch"
+  }
+}

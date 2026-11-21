@@ -1,0 +1,18 @@
+{
+  "id": 134182818,
+  "name": "emacsattic/ivy-yasnippet",
+  "description": "Preview yasnippets with ivy",
+  "url": "https://github.com/emacsattic/ivy-yasnippet",
+  "stars": 0,
+  "updated": "2020-07-04T14:59:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ivy-yasnippet",
+    "fetcher": "github",
+    "repo": "emacsattic/ivy-yasnippet"
+  }
+}

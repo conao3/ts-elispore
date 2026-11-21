@@ -1,0 +1,18 @@
+{
+  "id": 8389959,
+  "name": "ScottyB/edebug-x",
+  "description": "Extensions to Edebug",
+  "url": "https://github.com/ScottyB/edebug-x",
+  "stars": 27,
+  "updated": "2019-09-21T04:24:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "edebug-x",
+    "fetcher": "github",
+    "repo": "ScottyB/edebug-x"
+  }
+}

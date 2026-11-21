@@ -1,0 +1,19 @@
+{
+  "id": 5415062,
+  "name": "skeeto/impatient-mode",
+  "description": "Impatient html mode. See your changes in the browser as you type",
+  "url": "https://github.com/skeeto/impatient-mode",
+  "stars": 229,
+  "updated": "2026-04-26T13:23:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "impatient-mode",
+    "fetcher": "github",
+    "repo": "skeeto/impatient-mode",
+    "files": "(\"*.html\" \"*.js\" \"impatient-mode.el\")"
+  }
+}

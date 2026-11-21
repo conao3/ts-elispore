@@ -1,0 +1,18 @@
+{
+  "id": 274869207,
+  "name": "udyantw/most-used-words",
+  "description": "A simple Emacs Lisp package to show the most frequently used words in the current buffer.",
+  "url": "https://github.com/udyantw/most-used-words",
+  "stars": 1,
+  "updated": "2020-08-18T07:36:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "most-used-words",
+    "fetcher": "github",
+    "repo": "udyantw/most-used-words"
+  }
+}

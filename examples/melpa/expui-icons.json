@@ -1,0 +1,19 @@
+{
+  "id": 1412143502,
+  "name": "wwulfric/expui-icons",
+  "description": "Icons for Emacs from IntelliJ's New UI",
+  "url": "https://github.com/wwulfric/expui-icons",
+  "stars": 6,
+  "updated": "2026-11-18T14:09:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "expui-icons",
+    "fetcher": "github",
+    "repo": "wwulfric/expui-icons",
+    "files": "(:defaults \"icons.tar.gz\")"
+  }
+}

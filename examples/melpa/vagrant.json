@@ -1,0 +1,18 @@
+{
+  "id": 11971847,
+  "name": "ottbot/vagrant.el",
+  "description": "Manage a vagrant box from emacs",
+  "url": "https://github.com/ottbot/vagrant.el",
+  "stars": 51,
+  "updated": "2022-07-30T03:02:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vagrant",
+    "fetcher": "github",
+    "repo": "ottbot/vagrant.el"
+  }
+}

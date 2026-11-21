@@ -1,0 +1,18 @@
+{
+  "id": 75560882,
+  "name": "speedenator/malyon",
+  "description": "Malyon for Emacs - Malyon is a Z-machine interpreter for playing text-based adventure games such as Zork.",
+  "url": "https://github.com/speedenator/malyon",
+  "stars": 26,
+  "updated": "2017-05-15T10:06:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "malyon",
+    "fetcher": "github",
+    "repo": "speedenator/malyon"
+  }
+}

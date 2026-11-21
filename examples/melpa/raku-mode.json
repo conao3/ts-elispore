@@ -1,0 +1,19 @@
+{
+  "id": 77402536,
+  "name": "Raku/raku-mode",
+  "description": "Emacs major mode for Raku",
+  "url": "https://github.com/Raku/raku-mode",
+  "stars": 65,
+  "updated": "2025-09-30T11:51:08Z",
+  "archived": false,
+  "topics": ["raku"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "raku-mode",
+    "fetcher": "github",
+    "repo": "Raku/raku-mode",
+    "files": "(:defaults (:exclude \"nqp-mode.el\"))"
+  }
+}

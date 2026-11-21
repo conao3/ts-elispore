@@ -1,0 +1,18 @@
+{
+  "id": 53980432,
+  "name": "rails-to-cosmos/danneskjold-theme",
+  "description": "Beautiful high-contrast emacs theme",
+  "url": "https://github.com/rails-to-cosmos/danneskjold-theme",
+  "stars": 37,
+  "updated": "2026-08-18T06:09:52Z",
+  "archived": false,
+  "topics": ["contrast", "emacs", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "danneskjold-theme",
+    "fetcher": "github",
+    "repo": "rails-to-cosmos/danneskjold-theme"
+  }
+}

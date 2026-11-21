@@ -1,0 +1,18 @@
+{
+  "id": 630986298,
+  "name": "natelastname/bbww",
+  "description": "",
+  "url": "https://github.com/natelastname/bbww",
+  "stars": 7,
+  "updated": "2023-05-02T22:40:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bbww",
+    "fetcher": "github",
+    "repo": "natelastname/bbww"
+  }
+}

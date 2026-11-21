@@ -1,0 +1,18 @@
+{
+  "id": 1410546,
+  "name": "auto-complete/popup-el",
+  "description": "Visual Popup Interface Library for Emacs",
+  "url": "https://github.com/auto-complete/popup-el",
+  "stars": 474,
+  "updated": "2026-06-19T08:26:25Z",
+  "archived": false,
+  "topics": ["auto-complete", "emacs", "popup-el"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "popup",
+    "fetcher": "github",
+    "repo": "auto-complete/popup-el"
+  }
+}

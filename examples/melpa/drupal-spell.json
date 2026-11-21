@@ -1,0 +1,19 @@
+{
+  "id": 8956322,
+  "name": "arnested/drupal-spell",
+  "description": "Aspell extra dictionary for Drupal / Emacs",
+  "url": "https://github.com/arnested/drupal-spell",
+  "stars": 4,
+  "updated": "2019-11-09T15:14:10Z",
+  "archived": false,
+  "topics": ["aspell", "drupal", "emacs", "hacktoberfest"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "drupal-spell",
+    "fetcher": "github",
+    "repo": "arnested/drupal-spell",
+    "files": "(\"*.el\" \"dict\")"
+  }
+}

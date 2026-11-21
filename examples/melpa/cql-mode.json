@@ -1,0 +1,18 @@
+{
+  "id": 55784885,
+  "name": "Yuki-Inoue/cql-mode",
+  "description": "CQL major mode of emacs",
+  "url": "https://github.com/Yuki-Inoue/cql-mode",
+  "stars": 9,
+  "updated": "2019-03-15T02:25:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cql-mode",
+    "fetcher": "github",
+    "repo": "Yuki-Inoue/cql-mode"
+  }
+}

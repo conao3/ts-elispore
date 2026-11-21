@@ -1,0 +1,18 @@
+{
+  "id": 1208138624,
+  "name": "mojochao/elixir-iex",
+  "description": "An Elixir IEx REPL integration minor mode for Emacs using the eat terminal emulator.",
+  "url": "https://github.com/mojochao/elixir-iex",
+  "stars": 1,
+  "updated": "2026-04-12T19:47:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elixir-iex",
+    "fetcher": "github",
+    "repo": "mojochao/elixir-iex"
+  }
+}

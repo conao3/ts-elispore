@@ -1,0 +1,18 @@
+{
+  "id": 158589896,
+  "name": "walseb/exwm-firefox-evil",
+  "description": "vi-like firefox bindings built on top of exwm-firefox-core",
+  "url": "https://github.com/walseb/exwm-firefox-evil",
+  "stars": 12,
+  "updated": "2025-03-11T09:52:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "exwm-firefox-evil",
+    "fetcher": "github",
+    "repo": "walseb/exwm-firefox-evil"
+  }
+}

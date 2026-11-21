@@ -1,0 +1,18 @@
+{
+  "id": 374915841,
+  "name": "jcs-legacy/liquidmetal",
+  "description": "Quicksilver scoring algorithm, essentially LiquidMetal.",
+  "url": "https://github.com/jcs-legacy/liquidmetal",
+  "stars": 8,
+  "updated": "2026-06-19T08:29:26Z",
+  "archived": false,
+  "topics": ["fuzzy", "liquidmetal", "matching", "quicksilver"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "liquidmetal",
+    "fetcher": "github",
+    "repo": "jcs-legacy/liquidmetal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 69351804,
+  "name": "nlamirault/timonier",
+  "description": "Manage Kubernetes cluster from Emacs",
+  "url": "https://github.com/nlamirault/timonier",
+  "stars": 20,
+  "updated": "2022-01-14T14:38:35Z",
+  "archived": false,
+  "topics": ["emacs", "kubernetes"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "timonier",
+    "fetcher": "github",
+    "repo": "nlamirault/timonier"
+  }
+}

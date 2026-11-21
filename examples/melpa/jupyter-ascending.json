@@ -1,0 +1,18 @@
+{
+  "id": 968858913,
+  "name": "Duncan-Britt/jupyter-ascending",
+  "description": "Edit and execute code in a Jupyter Python notebook from an ordinary Python buffer in Emacs",
+  "url": "https://github.com/Duncan-Britt/jupyter-ascending",
+  "stars": 24,
+  "updated": "2025-05-07T01:02:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jupyter-ascending",
+    "fetcher": "github",
+    "repo": "Duncan-Britt/jupyter-ascending"
+  }
+}

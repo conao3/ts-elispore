@@ -1,0 +1,18 @@
+{
+  "id": 62513439,
+  "name": "cute-jumper/parsec.el",
+  "description": "A parser combinator library for Emacs Lisp, similar to Haskell's Parsec library.",
+  "url": "https://github.com/cute-jumper/parsec.el",
+  "stars": 127,
+  "updated": "2021-05-07T06:28:08Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "haskell", "parsec", "parser-combinators"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "parsec",
+    "fetcher": "github",
+    "repo": "cute-jumper/parsec.el"
+  }
+}

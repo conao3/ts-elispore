@@ -1,0 +1,18 @@
+{
+  "id": 171172271,
+  "name": "emacs-pe/crontab-mode",
+  "description": "",
+  "url": "https://github.com/emacs-pe/crontab-mode",
+  "stars": 17,
+  "updated": "2021-07-15T01:34:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "crontab-mode",
+    "fetcher": "github",
+    "repo": "emacs-pe/crontab-mode"
+  }
+}

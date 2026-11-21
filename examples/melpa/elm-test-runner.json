@@ -1,0 +1,18 @@
+{
+  "id": 142695854,
+  "name": "juanedi/elm-test-runner",
+  "description": "elm-test integration for Emacs!",
+  "url": "https://github.com/juanedi/elm-test-runner",
+  "stars": 3,
+  "updated": "2023-09-05T03:32:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elm-test-runner",
+    "fetcher": "github",
+    "repo": "juanedi/elm-test-runner"
+  }
+}

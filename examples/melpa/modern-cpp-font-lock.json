@@ -1,0 +1,18 @@
+{
+  "id": 58670459,
+  "name": "ludwigpacifici/modern-cpp-font-lock",
+  "description": "C++ font-lock for Emacs",
+  "url": "https://github.com/ludwigpacifici/modern-cpp-font-lock",
+  "stars": 169,
+  "updated": "2021-04-05T21:47:10Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "melpa", "syntax-highlighting"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "modern-cpp-font-lock",
+    "fetcher": "github",
+    "repo": "ludwigpacifici/modern-cpp-font-lock"
+  }
+}

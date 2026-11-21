@@ -1,0 +1,26 @@
+{
+  "id": 952120087,
+  "name": "jamescherti/stripspace.el",
+  "description": "stripspace.el - Make Emacs auto remove trailing whitespace before saving buffers (optionally preserve the cursor column, normalize indentation, and restrict whitespace cleanup to clean buffers)",
+  "url": "https://github.com/jamescherti/stripspace.el",
+  "stars": 24,
+  "updated": "2026-11-10T15:12:49Z",
+  "archived": false,
+  "topics": [
+    "clean-whitespace",
+    "delete-trailing-whitespace",
+    "delete-whitespace",
+    "emacs",
+    "remove-whitespace",
+    "strip-whitespace",
+    "whitespace-clean"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "stripspace",
+    "fetcher": "github",
+    "repo": "jamescherti/stripspace.el"
+  }
+}

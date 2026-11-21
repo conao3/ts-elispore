@@ -1,0 +1,28 @@
+{
+  "id": 114693307,
+  "name": "andras-simonyi/citeproc-el",
+  "description": "A  CSL 1.0.2 Citation Processor for Emacs.",
+  "url": "https://github.com/andras-simonyi/citeproc-el",
+  "stars": 102,
+  "updated": "2026-11-10T09:14:03Z",
+  "archived": false,
+  "topics": [
+    "bibliography",
+    "bibtex",
+    "citation",
+    "citation-processor",
+    "citation-style-language",
+    "citeproc",
+    "csl",
+    "emacs",
+    "rendering-citations"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "citeproc",
+    "fetcher": "github",
+    "repo": "andras-simonyi/citeproc-el"
+  }
+}

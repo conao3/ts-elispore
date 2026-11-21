@@ -1,0 +1,18 @@
+{
+  "id": 100802433,
+  "name": "VanLaser/evil-nl-break-undo",
+  "description": "break evil undo sequence on line change",
+  "url": "https://github.com/VanLaser/evil-nl-break-undo",
+  "stars": 8,
+  "updated": "2024-09-21T09:53:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-nl-break-undo",
+    "fetcher": "github",
+    "repo": "VanLaser/evil-nl-break-undo"
+  }
+}

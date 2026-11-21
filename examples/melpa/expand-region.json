@@ -1,0 +1,18 @@
+{
+  "id": 2877648,
+  "name": "magnars/expand-region.el",
+  "description": "Emacs extension to increase selected region by semantic units.",
+  "url": "https://github.com/magnars/expand-region.el",
+  "stars": 1468,
+  "updated": "2024-12-17T18:40:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "expand-region",
+    "fetcher": "github",
+    "repo": "magnars/expand-region.el"
+  }
+}

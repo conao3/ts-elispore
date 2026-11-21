@@ -1,0 +1,18 @@
+{
+  "id": 137410485,
+  "name": "muffinmad/emacs-django-commands",
+  "description": "Run django commands in inferior-python-mode",
+  "url": "https://github.com/muffinmad/emacs-django-commands",
+  "stars": 5,
+  "updated": "2023-06-05T16:18:09Z",
+  "archived": false,
+  "topics": ["django", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "django-commands",
+    "fetcher": "github",
+    "repo": "muffinmad/emacs-django-commands"
+  }
+}

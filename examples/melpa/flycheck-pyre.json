@@ -1,0 +1,19 @@
+{
+  "id": 147125237,
+  "name": "linnik/flycheck-pyre",
+  "description": "Flycheck support for the Pyre type checker",
+  "url": "https://github.com/linnik/flycheck-pyre",
+  "stars": 7,
+  "updated": "2019-02-15T12:23:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-pyre",
+    "fetcher": "github",
+    "repo": "linnik/flycheck-pyre",
+    "files": "(:defaults \"bin\")"
+  }
+}

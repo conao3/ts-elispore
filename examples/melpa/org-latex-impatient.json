@@ -1,0 +1,18 @@
+{
+  "id": 269458984,
+  "name": "yangsheng6810/org-latex-impatient",
+  "description": "Instant Previews LaTeX snippets in Org-mode",
+  "url": "https://github.com/yangsheng6810/org-latex-impatient",
+  "stars": 152,
+  "updated": "2024-04-24T17:43:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-latex-impatient",
+    "fetcher": "github",
+    "repo": "yangsheng6810/org-latex-impatient"
+  }
+}

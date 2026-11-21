@@ -1,0 +1,18 @@
+{
+  "id": 635692954,
+  "name": "ShuguangSun/python-view-data",
+  "description": "View data in Python",
+  "url": "https://github.com/ShuguangSun/python-view-data",
+  "stars": 14,
+  "updated": "2026-08-16T12:43:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "python-view-data",
+    "fetcher": "github",
+    "repo": "ShuguangSun/python-view-data"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 92065972,
+  "name": "jsalzbergedu/rdxmk",
+  "description": "A small set of tools for redox development in Gnu Emacs.",
+  "url": "https://github.com/jsalzbergedu/rdxmk",
+  "stars": 3,
+  "updated": "2017-06-30T01:35:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rdxmk",
+    "fetcher": "github",
+    "repo": "jsalzbergedu/rdxmk"
+  }
+}

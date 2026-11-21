@@ -1,0 +1,18 @@
+{
+  "id": 228398586,
+  "name": "mihaiolteanu/versuri",
+  "description": "The lyrics package for Emacs",
+  "url": "https://github.com/mihaiolteanu/versuri",
+  "stars": 39,
+  "updated": "2022-03-13T11:06:22Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "lyrics", "music"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "versuri",
+    "fetcher": "github",
+    "repo": "mihaiolteanu/versuri"
+  }
+}

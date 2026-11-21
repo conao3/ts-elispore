@@ -1,0 +1,18 @@
+{
+  "id": 8180728,
+  "name": "r0man/vertica-el",
+  "description": "Vertica SQL mode extension for Emacs",
+  "url": "https://github.com/r0man/vertica-el",
+  "stars": 1,
+  "updated": "2013-12-17T15:11:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vertica",
+    "fetcher": "github",
+    "repo": "r0man/vertica-el"
+  }
+}

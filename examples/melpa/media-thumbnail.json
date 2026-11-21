@@ -1,0 +1,18 @@
+{
+  "id": 525602079,
+  "name": "jojojames/media-thumbnail",
+  "description": "Emacs thumbnails for media",
+  "url": "https://github.com/jojojames/media-thumbnail",
+  "stars": 10,
+  "updated": "2026-07-13T05:17:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "media-thumbnail",
+    "fetcher": "github",
+    "repo": "jojojames/media-thumbnail"
+  }
+}

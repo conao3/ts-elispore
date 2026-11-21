@@ -1,0 +1,18 @@
+{
+  "id": 19965435,
+  "name": "bdd/aurora-config-mode.el",
+  "description": "Emacs Major Mode for Apache Aurora",
+  "url": "https://github.com/bdd/aurora-config-mode.el",
+  "stars": 6,
+  "updated": "2018-02-16T23:02:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "aurora-config-mode",
+    "fetcher": "github",
+    "repo": "bdd/aurora-config-mode.el"
+  }
+}

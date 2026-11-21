@@ -1,0 +1,18 @@
+{
+  "id": 14648175,
+  "name": "dash-docs-el/helm-dash",
+  "description": "Browse Dash docsets inside emacs",
+  "url": "https://github.com/dash-docs-el/helm-dash",
+  "stars": 513,
+  "updated": "2022-03-05T02:33:30Z",
+  "archived": false,
+  "topics": ["dash", "docsets-inside-emacs", "documentation", "documentation-tool", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-dash",
+    "fetcher": "github",
+    "repo": "dash-docs-el/helm-dash"
+  }
+}

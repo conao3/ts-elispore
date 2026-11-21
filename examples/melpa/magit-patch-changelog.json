@@ -1,0 +1,18 @@
+{
+  "id": 219606952,
+  "name": "dickmao/magit-patch-changelog",
+  "description": "Generate a patch according to emacs-devel CONTRIBUTE guidelines",
+  "url": "https://github.com/dickmao/magit-patch-changelog",
+  "stars": 18,
+  "updated": "2022-12-09T01:23:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-patch-changelog",
+    "fetcher": "github",
+    "repo": "dickmao/magit-patch-changelog"
+  }
+}

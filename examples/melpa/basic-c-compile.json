@@ -1,0 +1,18 @@
+{
+  "id": 60015446,
+  "name": "nick96/basic-c-compile",
+  "description": "Emacs package to create a Makefile, compile and run a C file",
+  "url": "https://github.com/nick96/basic-c-compile",
+  "stars": 8,
+  "updated": "2020-09-24T11:31:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "basic-c-compile",
+    "fetcher": "github",
+    "repo": "nick96/basic-c-compile"
+  }
+}

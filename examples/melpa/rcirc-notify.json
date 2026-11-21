@@ -1,0 +1,18 @@
+{
+  "id": 2568393,
+  "name": "nicferrier/rcirc-notify",
+  "description": "Notifications for rcirc, the emacs IRC client",
+  "url": "https://github.com/nicferrier/rcirc-notify",
+  "stars": 9,
+  "updated": "2015-02-19T22:04:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rcirc-notify",
+    "fetcher": "github",
+    "repo": "nicferrier/rcirc-notify"
+  }
+}

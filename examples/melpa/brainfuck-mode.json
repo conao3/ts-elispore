@@ -1,0 +1,18 @@
+{
+  "id": 10418374,
+  "name": "tom-tan/brainfuck-mode",
+  "description": "Brainfuck mode for Emacs",
+  "url": "https://github.com/tom-tan/brainfuck-mode",
+  "stars": 19,
+  "updated": "2015-01-13T08:40:47Z",
+  "archived": false,
+  "topics": ["brainfuck", "brainfuck-mode", "emacs", "emacs-lisp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "brainfuck-mode",
+    "fetcher": "github",
+    "repo": "tom-tan/brainfuck-mode"
+  }
+}

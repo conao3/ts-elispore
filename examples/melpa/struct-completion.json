@@ -1,0 +1,18 @@
+{
+  "id": 1205146812,
+  "name": "gggion/struct-completion.el",
+  "description": "Keyword slot completion for Elisp CL constructors",
+  "url": "https://github.com/gggion/struct-completion.el",
+  "stars": 2,
+  "updated": "2026-04-13T15:06:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "struct-completion",
+    "fetcher": "github",
+    "repo": "gggion/struct-completion.el"
+  }
+}

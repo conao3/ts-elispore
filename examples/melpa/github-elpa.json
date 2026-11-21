@@ -1,0 +1,19 @@
+{
+  "id": 67190615,
+  "name": "10sr/github-elpa",
+  "description": "Build and Publish Your Own ELPA Repositories with GitHub Pages",
+  "url": "https://github.com/10sr/github-elpa",
+  "stars": 33,
+  "updated": "2025-05-09T05:27:25Z",
+  "archived": false,
+  "topics": ["elpa", "elpa-repositories", "github", "github-page"],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "github-elpa",
+    "fetcher": "github",
+    "repo": "10sr/github-elpa",
+    "files": "(:defaults \"bin\")"
+  }
+}

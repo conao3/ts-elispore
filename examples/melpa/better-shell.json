@@ -1,0 +1,18 @@
+{
+  "id": 66475175,
+  "name": "killdash9/better-shell",
+  "description": "Emacs shell management",
+  "url": "https://github.com/killdash9/better-shell",
+  "stars": 40,
+  "updated": "2023-03-17T20:41:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "better-shell",
+    "fetcher": "github",
+    "repo": "killdash9/better-shell"
+  }
+}

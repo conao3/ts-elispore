@@ -1,0 +1,18 @@
+{
+  "id": 33436287,
+  "name": "cute-jumper/ace-pinyin",
+  "description": "Jump to Chinese character by pinyin with `avy' or `ace-jump-mode`",
+  "url": "https://github.com/cute-jumper/ace-pinyin",
+  "stars": 88,
+  "updated": "2023-02-17T16:57:18Z",
+  "archived": false,
+  "topics": ["ace-jump-mode", "avy", "chinese", "emacs", "pinyin"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ace-pinyin",
+    "fetcher": "github",
+    "repo": "cute-jumper/ace-pinyin"
+  }
+}

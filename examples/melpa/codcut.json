@@ -1,0 +1,18 @@
+{
+  "id": 203970268,
+  "name": "codcut/codcut-emacs",
+  "description": "Codcut EMACS plugin",
+  "url": "https://github.com/codcut/codcut-emacs",
+  "stars": 0,
+  "updated": "2019-09-29T21:27:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "codcut",
+    "fetcher": "github",
+    "repo": "codcut/codcut-emacs"
+  }
+}

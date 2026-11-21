@@ -1,0 +1,18 @@
+{
+  "id": 16765175,
+  "name": "abo-abo/helm-make",
+  "description": "Select a Makefile target with helm.",
+  "url": "https://github.com/abo-abo/helm-make",
+  "stars": 64,
+  "updated": "2022-10-24T10:12:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-make",
+    "fetcher": "github",
+    "repo": "abo-abo/helm-make"
+  }
+}

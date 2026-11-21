@@ -1,0 +1,18 @@
+{
+  "id": 692287,
+  "name": "mori-dev/scratch-log",
+  "description": "",
+  "url": "https://github.com/mori-dev/scratch-log",
+  "stars": 18,
+  "updated": "2014-11-15T07:43:44Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scratch-log",
+    "fetcher": "github",
+    "repo": "mori-dev/scratch-log"
+  }
+}

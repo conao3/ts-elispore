@@ -1,0 +1,18 @@
+{
+  "id": 111954860,
+  "name": "andre-r/fliptext.el",
+  "description": "Emacs input method for writing upside down",
+  "url": "https://github.com/andre-r/fliptext.el",
+  "stars": 2,
+  "updated": "2017-11-24T20:57:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fliptext",
+    "fetcher": "github",
+    "repo": "andre-r/fliptext.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 981322405,
+  "name": "Duncan-Britt/directory-slideshow",
+  "description": "Simple slideshows from files in Emacs",
+  "url": "https://github.com/Duncan-Britt/directory-slideshow",
+  "stars": 9,
+  "updated": "2025-12-18T05:54:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "directory-slideshow",
+    "fetcher": "github",
+    "repo": "Duncan-Britt/directory-slideshow"
+  }
+}

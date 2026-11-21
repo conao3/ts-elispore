@@ -1,0 +1,18 @@
+{
+  "id": 51435850,
+  "name": "GioBo/ess-view",
+  "description": "A small package to view dataframes within spreadsheet softwares",
+  "url": "https://github.com/GioBo/ess-view",
+  "stars": 19,
+  "updated": "2025-04-09T21:20:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ess-view",
+    "fetcher": "github",
+    "repo": "GioBo/ess-view"
+  }
+}

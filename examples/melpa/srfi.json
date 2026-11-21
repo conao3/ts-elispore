@@ -1,0 +1,18 @@
+{
+  "id": 210208235,
+  "name": "srfi-explorations/emacs-srfi",
+  "description": "Scheme Requests for Implementation browser in Emacs",
+  "url": "https://github.com/srfi-explorations/emacs-srfi",
+  "stars": 10,
+  "updated": "2026-11-15T06:38:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "srfi",
+    "fetcher": "github",
+    "repo": "srfi-explorations/emacs-srfi"
+  }
+}

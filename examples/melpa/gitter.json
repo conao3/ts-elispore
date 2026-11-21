@@ -1,0 +1,18 @@
+{
+  "id": 67426018,
+  "name": "xuchunyang/gitter.el",
+  "description": "An Emacs Gitter client",
+  "url": "https://github.com/xuchunyang/gitter.el",
+  "stars": 28,
+  "updated": "2022-03-16T01:38:15Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "gitter"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gitter",
+    "fetcher": "github",
+    "repo": "xuchunyang/gitter.el"
+  }
+}

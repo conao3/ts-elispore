@@ -1,0 +1,19 @@
+{
+  "id": 343084584,
+  "name": "doppelc/org-notifications",
+  "description": "Desktop notifications for your org-agenda/org-mode items",
+  "url": "https://github.com/doppelc/org-notifications",
+  "stars": 82,
+  "updated": "2021-09-18T18:29:08Z",
+  "archived": false,
+  "topics": ["emacs", "org-agenda", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-notifications",
+    "fetcher": "github",
+    "repo": "doppelc/org-notifications",
+    "files": "(:defaults \"sounds\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 25112239,
+  "name": "joddie/osx-clipboard-mode",
+  "description": "Use the OS X clipboard from Emacs in a text terminal",
+  "url": "https://github.com/joddie/osx-clipboard-mode",
+  "stars": 27,
+  "updated": "2016-07-05T04:09:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "osx-clipboard",
+    "fetcher": "github",
+    "repo": "joddie/osx-clipboard-mode"
+  }
+}

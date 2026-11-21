@@ -1,0 +1,19 @@
+{
+  "id": 10443324,
+  "name": "golang/lint",
+  "description": "[mirror] This is a linter for Go source code. (deprecated)",
+  "url": "https://github.com/golang/lint",
+  "stars": 3962,
+  "updated": "2021-05-08T22:21:20Z",
+  "archived": true,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Go",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "golint",
+    "fetcher": "github",
+    "repo": "golang/lint",
+    "files": "(\"misc/emacs/*.el\")"
+  }
+}

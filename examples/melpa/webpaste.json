@@ -1,0 +1,26 @@
+{
+  "id": 68544190,
+  "name": "etu/webpaste.el",
+  "description": "webpaste.el can paste whole buffers or parts of buffers to several pastebin-like services and supports failover if one service fails.",
+  "url": "https://github.com/etu/webpaste.el",
+  "stars": 92,
+  "updated": "2024-11-25T14:18:07Z",
+  "archived": false,
+  "topics": [
+    "elisp",
+    "emacs",
+    "emacs-lisp",
+    "emacs-mode",
+    "pastebin",
+    "pastebin-client",
+    "pastebin-plugin"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "webpaste",
+    "fetcher": "github",
+    "repo": "etu/webpaste.el"
+  }
+}

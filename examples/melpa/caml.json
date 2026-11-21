@@ -1,0 +1,18 @@
+{
+  "id": 160386770,
+  "name": "ocaml/caml-mode",
+  "description": "Emacs mode to edit OCaml files",
+  "url": "https://github.com/ocaml/caml-mode",
+  "stars": 23,
+  "updated": "2025-02-27T17:37:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "caml",
+    "fetcher": "github",
+    "repo": "ocaml/caml-mode"
+  }
+}

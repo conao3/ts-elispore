@@ -1,0 +1,18 @@
+{
+  "id": 6746236,
+  "name": "Fuco1/smartparens",
+  "description": "Minor mode for Emacs that deals with parens pairs and tries to be smart about it.",
+  "url": "https://github.com/Fuco1/smartparens",
+  "stars": 1940,
+  "updated": "2026-01-29T12:14:19Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "lisp", "pairs", "parentheses", "smartparens"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smartparens",
+    "fetcher": "github",
+    "repo": "Fuco1/smartparens"
+  }
+}

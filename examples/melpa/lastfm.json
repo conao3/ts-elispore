@@ -1,0 +1,18 @@
+{
+  "id": 210923302,
+  "name": "mihaiolteanu/lastfm.el",
+  "description": "Last.fm API for Emacs Lisp",
+  "url": "https://github.com/mihaiolteanu/lastfm.el",
+  "stars": 25,
+  "updated": "2026-01-30T11:02:49Z",
+  "archived": false,
+  "topics": ["api", "emacs-lisp", "lastfm", "music"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lastfm",
+    "fetcher": "github",
+    "repo": "mihaiolteanu/lastfm.el"
+  }
+}

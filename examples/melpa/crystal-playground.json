@@ -1,0 +1,18 @@
+{
+  "id": 138670408,
+  "name": "jasonrobot/crystal-playground",
+  "description": "Emacs mode to create a quick Crystal-lang app playground environment.",
+  "url": "https://github.com/jasonrobot/crystal-playground",
+  "stars": 5,
+  "updated": "2025-10-26T22:40:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "crystal-playground",
+    "fetcher": "github",
+    "repo": "jasonrobot/crystal-playground"
+  }
+}

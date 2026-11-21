@@ -1,0 +1,18 @@
+{
+  "id": 9364198,
+  "name": "aki2o/log4e",
+  "description": "Provide a logging framework for elisp",
+  "url": "https://github.com/aki2o/log4e",
+  "stars": 66,
+  "updated": "2024-01-23T13:15:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "log4e",
+    "fetcher": "github",
+    "repo": "aki2o/log4e"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 821476817,
+  "name": "rootatpixel/vterm-hotkey",
+  "description": "An Emacs package for managing multiple VTerm buffers with hotkeys.",
+  "url": "https://github.com/rootatpixel/vterm-hotkey",
+  "stars": 5,
+  "updated": "2024-07-02T14:48:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vterm-hotkey",
+    "fetcher": "github",
+    "repo": "rootatpixel/vterm-hotkey"
+  }
+}

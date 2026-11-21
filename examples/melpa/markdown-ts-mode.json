@@ -1,0 +1,18 @@
+{
+  "id": 780643491,
+  "name": "LionyxML/markdown-ts-mode",
+  "description": "A major mode for Emacs providing basic syntax highlight for markdown files using treesitter",
+  "url": "https://github.com/LionyxML/markdown-ts-mode",
+  "stars": 27,
+  "updated": "2026-05-06T17:07:57Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "markdown-ts-mode",
+    "fetcher": "github",
+    "repo": "LionyxML/markdown-ts-mode"
+  }
+}

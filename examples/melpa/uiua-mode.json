@@ -1,0 +1,18 @@
+{
+  "id": 716704956,
+  "name": "crmsnbleyd/uiua-mode",
+  "description": "Emacs mode for uiua, a stack-based array language",
+  "url": "https://github.com/crmsnbleyd/uiua-mode",
+  "stars": 13,
+  "updated": "2026-06-19T11:58:09Z",
+  "archived": false,
+  "topics": ["array-programming", "emacs", "emacs-mode", "uiua"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "uiua-mode",
+    "fetcher": "github",
+    "repo": "crmsnbleyd/uiua-mode"
+  }
+}

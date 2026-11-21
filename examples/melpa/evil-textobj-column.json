@@ -1,0 +1,18 @@
+{
+  "id": 43931973,
+  "name": "noctuid/evil-textobj-column",
+  "description": "Column Text Objects for Evil",
+  "url": "https://github.com/noctuid/evil-textobj-column",
+  "stars": 14,
+  "updated": "2017-09-05T19:05:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-textobj-column",
+    "fetcher": "github",
+    "repo": "noctuid/evil-textobj-column"
+  }
+}

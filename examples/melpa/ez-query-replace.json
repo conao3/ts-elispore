@@ -1,0 +1,18 @@
+{
+  "id": 12275679,
+  "name": "Wilfred/ez-query-replace",
+  "description": "query-replace in Emacs with smarts and history!",
+  "url": "https://github.com/Wilfred/ez-query-replace",
+  "stars": 10,
+  "updated": "2021-07-24T22:45:15Z",
+  "archived": false,
+  "topics": ["emacs", "query-replace"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ez-query-replace",
+    "fetcher": "github",
+    "repo": "Wilfred/ez-query-replace"
+  }
+}

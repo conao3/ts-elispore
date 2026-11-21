@@ -1,0 +1,18 @@
+{
+  "id": 61956723,
+  "name": "Wilfred/pyimport",
+  "description": "Manage Python imports from Emacs!",
+  "url": "https://github.com/Wilfred/pyimport",
+  "stars": 76,
+  "updated": "2024-02-07T07:19:55Z",
+  "archived": false,
+  "topics": ["emacs", "import", "python"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pyimport",
+    "fetcher": "github",
+    "repo": "Wilfred/pyimport"
+  }
+}

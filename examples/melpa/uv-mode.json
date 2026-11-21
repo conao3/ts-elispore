@@ -1,0 +1,18 @@
+{
+  "id": 903481058,
+  "name": "z80dev/uv-mode",
+  "description": "emacs integration for uv virtual environments",
+  "url": "https://github.com/z80dev/uv-mode",
+  "stars": 74,
+  "updated": "2025-07-03T15:40:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "uv-mode",
+    "fetcher": "github",
+    "repo": "z80dev/uv-mode"
+  }
+}

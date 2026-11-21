@@ -1,0 +1,33 @@
+{
+  "id": 183481245,
+  "name": "alhassy/next-700-module-systems",
+  "description": "PhD research ;; What's the difference between a typeclass/trait and a record/class/struct? Nothing really, or so I argue.",
+  "url": "https://github.com/alhassy/next-700-module-systems",
+  "stars": 83,
+  "updated": "2021-10-24T23:59:31Z",
+  "archived": false,
+  "topics": [
+    "agda",
+    "canonical-structures",
+    "coq",
+    "emacs",
+    "first-class-citizens",
+    "haskell",
+    "language",
+    "lisp",
+    "metaprogramming",
+    "modules",
+    "ocaml",
+    "phd",
+    "records",
+    "typeclasses"
+  ],
+  "license": "GPL-3.0",
+  "language": "HTML",
+  "ownerType": "User",
+  "melpa": {
+    "name": "agda-editor-tactics",
+    "fetcher": "github",
+    "repo": "alhassy/next-700-module-systems"
+  }
+}

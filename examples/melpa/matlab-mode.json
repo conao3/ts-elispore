@@ -1,0 +1,19 @@
+{
+  "id": 843446576,
+  "name": "mathworks/Emacs-MATLAB-Mode",
+  "description": "Edit, lint, debug, and run MATLAB in Emacs",
+  "url": "https://github.com/mathworks/Emacs-MATLAB-Mode",
+  "stars": 27,
+  "updated": "2026-09-22T18:25:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "matlab-mode",
+    "fetcher": "github",
+    "repo": "mathworks/Emacs-MATLAB-Mode",
+    "files": "(:defaults\n         (\"toolbox\" \"toolbox/*.m\")\n         (\"toolbox/+emacs\" \"toolbox/+emacs/*.m\")\n         (\"toolbox/+emacs/@Breakpoints\" \"toolbox/+emacs/@Breakpoints/*.m\")\n         (\"toolbox/+emacs/@EmacsServer\" \"toolbox/+emacs/@EmacsServer/*.m\")\n         (\"toolbox/+emacs/@Stack\" \"toolbox/+emacs/@Stack/*.m\")\n         (\"bin\" \"bin/*.sh\")\n         (:exclude \"matlab-maint.el\"))"
+  }
+}

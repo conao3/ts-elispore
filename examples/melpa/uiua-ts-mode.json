@@ -1,0 +1,18 @@
+{
+  "id": 722027407,
+  "name": "crmsnbleyd/uiua-ts-mode",
+  "description": "Emacs major mode for Uiua, a stack-based array language, powered by tree-sitter",
+  "url": "https://github.com/crmsnbleyd/uiua-ts-mode",
+  "stars": 14,
+  "updated": "2026-06-19T11:57:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "uiua-ts-mode",
+    "fetcher": "github",
+    "repo": "crmsnbleyd/uiua-ts-mode"
+  }
+}

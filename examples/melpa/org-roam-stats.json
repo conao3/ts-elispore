@@ -1,0 +1,19 @@
+{
+  "id": 1278580293,
+  "name": "GerardoCendejas/org-roam-stats",
+  "description": "A dashboard for statistics about org-roam notes.",
+  "url": "https://github.com/GerardoCendejas/org-roam-stats",
+  "stars": 5,
+  "updated": "2026-09-20T23:50:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "HTML",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-roam-stats",
+    "fetcher": "github",
+    "repo": "GerardoCendejas/org-roam-stats",
+    "files": "(:defaults \"web\")"
+  }
+}

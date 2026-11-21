@@ -1,0 +1,29 @@
+{
+  "id": 43111018,
+  "name": "purpleidea/mgmt",
+  "description": "Next generation distributed, event-driven, parallel config management!",
+  "url": "https://github.com/purpleidea/mgmt",
+  "stars": 4348,
+  "updated": "2026-11-16T10:05:46Z",
+  "archived": false,
+  "topics": [
+    "choreography",
+    "config-management",
+    "configuration-management",
+    "devops",
+    "distributed-systems",
+    "etcd",
+    "go",
+    "golang",
+    "graph-theory"
+  ],
+  "license": "GPL-3.0",
+  "language": "Go",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mgmtconfig-mode",
+    "fetcher": "github",
+    "repo": "purpleidea/mgmt",
+    "files": "(\"misc/emacs/*.el\")"
+  }
+}

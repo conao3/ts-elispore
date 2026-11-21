@@ -1,0 +1,18 @@
+{
+  "id": 23004872,
+  "name": "DarwinAwardWinner/crm-custom",
+  "description": "Alternate completing-read-multiple that uses completing-read",
+  "url": "https://github.com/DarwinAwardWinner/crm-custom",
+  "stars": 10,
+  "updated": "2016-01-17T00:09:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "crm-custom",
+    "fetcher": "github",
+    "repo": "DarwinAwardWinner/crm-custom"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 422890201,
+  "name": "sigvt/ancient-one-dark-emacs",
+  "description": "🛐 Ancient One Dark theme for Emacs",
+  "url": "https://github.com/sigvt/ancient-one-dark-emacs",
+  "stars": 12,
+  "updated": "2021-11-18T10:53:05Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ancient-one-dark-theme",
+    "fetcher": "github",
+    "repo": "sigvt/ancient-one-dark-emacs"
+  }
+}

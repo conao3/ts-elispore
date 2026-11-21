@@ -1,0 +1,18 @@
+{
+  "id": 71023383,
+  "name": "JackCrawley/pygen",
+  "description": "Python code generation in Emacs with Elpy and python-mode",
+  "url": "https://github.com/JackCrawley/pygen",
+  "stars": 21,
+  "updated": "2017-12-05T23:22:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pygen",
+    "fetcher": "github",
+    "repo": "JackCrawley/pygen"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 199462466,
+  "name": "gexplorer/flycheck-indicator",
+  "description": "A fancy mode line indicator for `flycheck-mode'",
+  "url": "https://github.com/gexplorer/flycheck-indicator",
+  "stars": 12,
+  "updated": "2020-03-31T13:41:05Z",
+  "archived": false,
+  "topics": ["emacs", "flycheck", "mode-line"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-indicator",
+    "fetcher": "github",
+    "repo": "gexplorer/flycheck-indicator"
+  }
+}

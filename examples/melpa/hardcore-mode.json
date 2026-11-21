@@ -1,0 +1,18 @@
+{
+  "id": 2914680,
+  "name": "magnars/hardcore-mode.el",
+  "description": "Disable arrow keys + optionally backspace and return",
+  "url": "https://github.com/magnars/hardcore-mode.el",
+  "stars": 28,
+  "updated": "2020-10-22T17:21:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hardcore-mode",
+    "fetcher": "github",
+    "repo": "magnars/hardcore-mode.el"
+  }
+}

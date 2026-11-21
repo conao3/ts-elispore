@@ -1,0 +1,18 @@
+{
+  "id": 532255361,
+  "name": "emarsden/pg-el",
+  "description": "Emacs Lisp network-level interface to the PostgreSQL database",
+  "url": "https://github.com/emarsden/pg-el",
+  "stars": 46,
+  "updated": "2026-11-07T15:23:18Z",
+  "archived": false,
+  "topics": ["database", "emacs", "emacs-lisp", "interface", "postgresql", "wire-protocol"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pg",
+    "fetcher": "github",
+    "repo": "emarsden/pg-el"
+  }
+}

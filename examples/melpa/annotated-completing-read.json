@@ -1,0 +1,18 @@
+{
+  "id": 1245221716,
+  "name": "tychoish/annotated-completing-read",
+  "description": "ergonomic completing-read operation tool  ",
+  "url": "https://github.com/tychoish/annotated-completing-read",
+  "stars": 3,
+  "updated": "2026-11-07T17:47:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "annotated-completing-read",
+    "fetcher": "github",
+    "repo": "tychoish/annotated-completing-read"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 13234377,
+  "name": "jaalto/project-emacs--folding-mode",
+  "description": "A folding-editor-like minor mode",
+  "url": "https://github.com/jaalto/project-emacs--folding-mode",
+  "stars": 21,
+  "updated": "2025-01-20T11:51:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "folding",
+    "fetcher": "github",
+    "repo": "jaalto/project-emacs--folding-mode"
+  }
+}

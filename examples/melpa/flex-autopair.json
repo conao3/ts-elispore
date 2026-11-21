@@ -1,0 +1,18 @@
+{
+  "id": 3347975,
+  "name": "uk-ar/flex-autopair",
+  "description": "",
+  "url": "https://github.com/uk-ar/flex-autopair",
+  "stars": 14,
+  "updated": "2013-12-09T20:44:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flex-autopair",
+    "fetcher": "github",
+    "repo": "uk-ar/flex-autopair"
+  }
+}

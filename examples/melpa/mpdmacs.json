@@ -1,0 +1,18 @@
+{
+  "id": 305763589,
+  "name": "sp1ff/mpdmacs",
+  "description": "mpdmacs is a lightweight, ergonomic MPD client for Emacs.",
+  "url": "https://github.com/sp1ff/mpdmacs",
+  "stars": 7,
+  "updated": "2026-10-02T18:22:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mpdmacs",
+    "fetcher": "github",
+    "repo": "sp1ff/mpdmacs"
+  }
+}

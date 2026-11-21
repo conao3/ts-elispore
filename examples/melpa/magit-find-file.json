@@ -1,0 +1,18 @@
+{
+  "id": 12065773,
+  "name": "bradwright/magit-find-file.el",
+  "description": "Magit-powered find-file functionality. Like C-p in Sublime Text 2.",
+  "url": "https://github.com/bradwright/magit-find-file.el",
+  "stars": 16,
+  "updated": "2015-12-17T11:42:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-find-file",
+    "fetcher": "github",
+    "repo": "bradwright/magit-find-file.el"
+  }
+}

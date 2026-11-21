@@ -1,0 +1,18 @@
+{
+  "id": 145260053,
+  "name": "polymode/poly-markdown",
+  "description": "Polymode for markdown-mode",
+  "url": "https://github.com/polymode/poly-markdown",
+  "stars": 26,
+  "updated": "2025-11-01T13:18:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "poly-markdown",
+    "fetcher": "github",
+    "repo": "polymode/poly-markdown"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 47557,
+  "name": "jwiegley/regex-tool",
+  "description": "A regular expression IDE for Emacs, to help with the creation and testing of regular expressions.",
+  "url": "https://github.com/jwiegley/regex-tool",
+  "stars": 52,
+  "updated": "2017-01-04T19:18:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "regex-tool",
+    "fetcher": "github",
+    "repo": "jwiegley/regex-tool"
+  }
+}

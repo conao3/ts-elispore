@@ -1,0 +1,18 @@
+{
+  "id": 31468697,
+  "name": "bmag/imenu-list",
+  "description": "Emacs plugin to show the current buffer's imenu entries in a separate buffer",
+  "url": "https://github.com/bmag/imenu-list",
+  "stars": 353,
+  "updated": "2024-06-10T03:49:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "imenu-list",
+    "fetcher": "github",
+    "repo": "bmag/imenu-list"
+  }
+}

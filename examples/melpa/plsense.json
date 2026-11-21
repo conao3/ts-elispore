@@ -1,0 +1,18 @@
+{
+  "id": 11370116,
+  "name": "aki2o/emacs-plsense",
+  "description": "Provide omni completion for Perl.",
+  "url": "https://github.com/aki2o/emacs-plsense",
+  "stars": 28,
+  "updated": "2015-11-04T14:46:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "plsense",
+    "fetcher": "github",
+    "repo": "aki2o/emacs-plsense"
+  }
+}

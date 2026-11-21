@@ -1,0 +1,18 @@
+{
+  "id": 943569822,
+  "name": "kickingvegas/numeri",
+  "description": "An Emacs package to support conversion of Hindu-Arabic numbers to Roman. ",
+  "url": "https://github.com/kickingvegas/numeri",
+  "stars": 1,
+  "updated": "2026-03-04T22:39:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Makefile",
+  "ownerType": "User",
+  "melpa": {
+    "name": "numeri",
+    "fetcher": "github",
+    "repo": "kickingvegas/numeri"
+  }
+}

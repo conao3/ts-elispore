@@ -1,0 +1,18 @@
+{
+  "id": 445027616,
+  "name": "ml729/org-habit-stats",
+  "description": "Stats and visuals for Emacs org-mode habits",
+  "url": "https://github.com/ml729/org-habit-stats",
+  "stars": 97,
+  "updated": "2024-06-15T09:32:31Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-habit-stats",
+    "fetcher": "github",
+    "repo": "ml729/org-habit-stats"
+  }
+}

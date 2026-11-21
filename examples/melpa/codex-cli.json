@@ -1,0 +1,18 @@
+{
+  "id": 1047355372,
+  "name": "bennfocus/codex-cli.el",
+  "description": "Run Codex CLI inside Emacs with helpers.",
+  "url": "https://github.com/bennfocus/codex-cli.el",
+  "stars": 30,
+  "updated": "2025-09-14T07:56:53Z",
+  "archived": false,
+  "topics": ["codex", "codex-cli", "emacs", "emacs-ai", "vibe-coding"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "codex-cli",
+    "fetcher": "github",
+    "repo": "bennfocus/codex-cli.el"
+  }
+}

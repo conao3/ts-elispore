@@ -1,0 +1,18 @@
+{
+  "id": 33294681,
+  "name": "kuanyui/fm-bookmarks.el",
+  "description": "Access existed File Managers' bookmarks (e.g. Dolphin, Nautilus, PCManFM) in Dired.",
+  "url": "https://github.com/kuanyui/fm-bookmarks.el",
+  "stars": 5,
+  "updated": "2017-01-04T17:13:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fm-bookmarks",
+    "fetcher": "github",
+    "repo": "kuanyui/fm-bookmarks.el"
+  }
+}

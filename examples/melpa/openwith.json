@@ -1,0 +1,18 @@
+{
+  "id": 253120321,
+  "name": "jpkotta/openwith",
+  "description": "Open files with external programs",
+  "url": "https://github.com/jpkotta/openwith",
+  "stars": 12,
+  "updated": "2016-01-10T21:13:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": null,
+  "ownerType": "User",
+  "melpa": {
+    "name": "openwith",
+    "fetcher": "github",
+    "repo": "jpkotta/openwith"
+  }
+}

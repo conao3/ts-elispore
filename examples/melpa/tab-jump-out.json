@@ -1,0 +1,18 @@
+{
+  "id": 708167763,
+  "name": "mkleehammer/tab-jump-out",
+  "description": "Emacs package to allow Tab to jump out quotes and parenthesis.",
+  "url": "https://github.com/mkleehammer/tab-jump-out",
+  "stars": 2,
+  "updated": "2025-12-15T02:47:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tab-jump-out",
+    "fetcher": "github",
+    "repo": "mkleehammer/tab-jump-out"
+  }
+}

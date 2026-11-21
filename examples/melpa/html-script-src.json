@@ -1,0 +1,18 @@
+{
+  "id": 682074,
+  "name": "rejeep/html-script-src.el",
+  "description": "Script Src command for Emacs",
+  "url": "https://github.com/rejeep/html-script-src.el",
+  "stars": 13,
+  "updated": "2013-08-08T10:58:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "html-script-src",
+    "fetcher": "github",
+    "repo": "rejeep/html-script-src.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 8180357,
+  "name": "Wilfred/ht.el",
+  "description": "The missing hash table library for Emacs",
+  "url": "https://github.com/Wilfred/ht.el",
+  "stars": 263,
+  "updated": "2023-07-03T05:58:56Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "hash-tables"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ht",
+    "fetcher": "github",
+    "repo": "Wilfred/ht.el"
+  }
+}

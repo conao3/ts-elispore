@@ -1,0 +1,18 @@
+{
+  "id": 968800441,
+  "name": "milanglacier/termint.el",
+  "description": "create and manage REPL sessions running within a full-featured terminal",
+  "url": "https://github.com/milanglacier/termint.el",
+  "stars": 29,
+  "updated": "2026-11-04T18:12:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "termint",
+    "fetcher": "github",
+    "repo": "milanglacier/termint.el"
+  }
+}

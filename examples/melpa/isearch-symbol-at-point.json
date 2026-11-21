@@ -1,0 +1,18 @@
+{
+  "id": 10396829,
+  "name": "re5et/isearch-symbol-at-point",
+  "description": "",
+  "url": "https://github.com/re5et/isearch-symbol-at-point",
+  "stars": 1,
+  "updated": "2013-07-28T22:21:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "isearch-symbol-at-point",
+    "fetcher": "github",
+    "repo": "re5et/isearch-symbol-at-point"
+  }
+}

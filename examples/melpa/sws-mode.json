@@ -1,0 +1,19 @@
+{
+  "id": 1172771,
+  "name": "brianc/jade-mode",
+  "description": "Emacs major mode for jade template highlighting",
+  "url": "https://github.com/brianc/jade-mode",
+  "stars": 158,
+  "updated": "2021-10-19T21:13:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sws-mode",
+    "fetcher": "github",
+    "repo": "brianc/jade-mode",
+    "files": "(\"sws-mode.el\")"
+  }
+}

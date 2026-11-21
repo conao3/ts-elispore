@@ -1,0 +1,19 @@
+{
+  "id": 36900830,
+  "name": "pniedzielski/doxymacs",
+  "description": "Doxymacs is Doxygen + Emacs.",
+  "url": "https://github.com/pniedzielski/doxymacs",
+  "stars": 27,
+  "updated": "2025-09-09T01:04:23Z",
+  "archived": false,
+  "topics": ["doxygen", "emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "doxymacs",
+    "fetcher": "github",
+    "repo": "pniedzielski/doxymacs",
+    "files": "(:defaults (\"c\" \"c/*\"))"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 95089296,
+  "name": "davidshepherd7/anki-mode",
+  "description": "An Emacs major mode for creating anki cards",
+  "url": "https://github.com/davidshepherd7/anki-mode",
+  "stars": 49,
+  "updated": "2020-12-24T11:57:29Z",
+  "archived": false,
+  "topics": ["anki", "emacs", "flashcards", "memorization"],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "anki-mode",
+    "fetcher": "github",
+    "repo": "davidshepherd7/anki-mode"
+  }
+}

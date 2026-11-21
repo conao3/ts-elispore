@@ -1,0 +1,18 @@
+{
+  "id": 60899199,
+  "name": "xuchunyang/grab-mac-link.el",
+  "description": "Grab link from Mac Apps and insert it into Emacs",
+  "url": "https://github.com/xuchunyang/grab-mac-link.el",
+  "stars": 24,
+  "updated": "2021-05-11T16:09:11Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "macos"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "grab-mac-link",
+    "fetcher": "github",
+    "repo": "xuchunyang/grab-mac-link.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1759496,
+  "name": "nflath/recursive-narrow",
+  "description": "Adds commands that replace narrow-to-region and widen commands to operate recursively.",
+  "url": "https://github.com/nflath/recursive-narrow",
+  "stars": 11,
+  "updated": "2019-03-06T15:21:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "recursive-narrow",
+    "fetcher": "github",
+    "repo": "nflath/recursive-narrow"
+  }
+}

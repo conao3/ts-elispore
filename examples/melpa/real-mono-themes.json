@@ -1,0 +1,18 @@
+{
+  "id": 1099019234,
+  "name": "NestorLiao/real-mono-theme",
+  "description": "two colors are enough for emacs",
+  "url": "https://github.com/NestorLiao/real-mono-theme",
+  "stars": 6,
+  "updated": "2025-11-26T08:03:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "real-mono-themes",
+    "fetcher": "github",
+    "repo": "NestorLiao/real-mono-theme"
+  }
+}

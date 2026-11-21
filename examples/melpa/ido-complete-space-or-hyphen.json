@@ -1,0 +1,18 @@
+{
+  "id": 7048450,
+  "name": "DarwinAwardWinner/ido-complete-space-or-hyphen",
+  "description": "Make ido completes like built-in M-x does, useful when use smex or use ido to complete other hyphen separated choises",
+  "url": "https://github.com/DarwinAwardWinner/ido-complete-space-or-hyphen",
+  "stars": 6,
+  "updated": "2021-03-06T19:15:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ido-complete-space-or-hyphen",
+    "fetcher": "github",
+    "repo": "DarwinAwardWinner/ido-complete-space-or-hyphen"
+  }
+}

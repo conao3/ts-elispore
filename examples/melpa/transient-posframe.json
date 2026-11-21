@@ -1,0 +1,18 @@
+{
+  "id": 886433513,
+  "name": "emacsorphanage/transient-posframe",
+  "description": "Using posframe to show transient",
+  "url": "https://github.com/emacsorphanage/transient-posframe",
+  "stars": 3,
+  "updated": "2025-02-05T21:08:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "transient-posframe",
+    "fetcher": "github",
+    "repo": "emacsorphanage/transient-posframe"
+  }
+}

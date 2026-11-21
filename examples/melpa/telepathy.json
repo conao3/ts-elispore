@@ -1,0 +1,18 @@
+{
+  "id": 15047198,
+  "name": "NicolasPetton/telepathy.el",
+  "description": "Access Telepathy from Emacs.",
+  "url": "https://github.com/NicolasPetton/telepathy.el",
+  "stars": 4,
+  "updated": "2015-10-18T11:04:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "telepathy",
+    "fetcher": "github",
+    "repo": "NicolasPetton/telepathy.el"
+  }
+}

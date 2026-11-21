@@ -1,0 +1,18 @@
+{
+  "id": 370265641,
+  "name": "paulelms/elfeed-autotag",
+  "description": "Easy auto-tagging for elfeed-protocol.",
+  "url": "https://github.com/paulelms/elfeed-autotag",
+  "stars": 13,
+  "updated": "2021-06-07T06:41:26Z",
+  "archived": false,
+  "topics": ["atom", "elfeed", "emacs", "news", "org-mode", "rss"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elfeed-autotag",
+    "fetcher": "github",
+    "repo": "paulelms/elfeed-autotag"
+  }
+}

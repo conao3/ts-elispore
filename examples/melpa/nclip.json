@@ -1,0 +1,19 @@
+{
+  "id": 9101745,
+  "name": "maio/nclip.el",
+  "description": "Network clipboard for Emacs",
+  "url": "https://github.com/maio/nclip.el",
+  "stars": 6,
+  "updated": "2013-06-17T20:15:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nclip",
+    "fetcher": "github",
+    "repo": "maio/nclip.el",
+    "files": "(\"nclip.el\" \"nclip.rb\" \"nclip.py\")"
+  }
+}

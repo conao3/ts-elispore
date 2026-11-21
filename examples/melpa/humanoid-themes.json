@@ -1,0 +1,18 @@
+{
+  "id": 220820567,
+  "name": "humanoid-colors/emacs-humanoid-themes",
+  "description": "Light and dark theme with bright colors for Emacs that supports GUI and terminal",
+  "url": "https://github.com/humanoid-colors/emacs-humanoid-themes",
+  "stars": 77,
+  "updated": "2025-11-06T19:56:37Z",
+  "archived": false,
+  "topics": ["color-scheme", "dark-theme", "emacs", "emacs-theme", "light-theme", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "humanoid-themes",
+    "fetcher": "github",
+    "repo": "humanoid-colors/emacs-humanoid-themes"
+  }
+}

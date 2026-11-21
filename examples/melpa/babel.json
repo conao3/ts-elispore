@@ -1,0 +1,18 @@
+{
+  "id": 211886,
+  "name": "juergenhoetzel/babel",
+  "description": "An Emacs interface to different translation services available on the Internet",
+  "url": "https://github.com/juergenhoetzel/babel",
+  "stars": 17,
+  "updated": "2021-06-12T06:40:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "babel",
+    "fetcher": "github",
+    "repo": "juergenhoetzel/babel"
+  }
+}

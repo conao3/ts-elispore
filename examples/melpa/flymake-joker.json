@@ -1,0 +1,18 @@
+{
+  "id": 215643715,
+  "name": "beetleman/flymake-joker",
+  "description": "joker integration for flymake",
+  "url": "https://github.com/beetleman/flymake-joker",
+  "stars": 0,
+  "updated": "2020-03-15T14:30:42Z",
+  "archived": false,
+  "topics": ["emacs", "flymake-backend", "linter"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-joker",
+    "fetcher": "github",
+    "repo": "beetleman/flymake-joker"
+  }
+}

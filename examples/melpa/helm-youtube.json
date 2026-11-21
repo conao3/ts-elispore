@@ -1,0 +1,18 @@
+{
+  "id": 71329350,
+  "name": "maximus12793/helm-youtube",
+  "description": "Query YouTube in emacs and play videos in your browser",
+  "url": "https://github.com/maximus12793/helm-youtube",
+  "stars": 28,
+  "updated": "2019-01-01T17:33:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-youtube",
+    "fetcher": "github",
+    "repo": "maximus12793/helm-youtube"
+  }
+}

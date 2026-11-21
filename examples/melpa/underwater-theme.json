@@ -1,0 +1,18 @@
+{
+  "id": 4544181,
+  "name": "jmdeldin/underwater-theme.el",
+  "description": "A pleasing, light-on-dark, blue theme for Emacs 24.1 (port of the Vim theme)",
+  "url": "https://github.com/jmdeldin/underwater-theme.el",
+  "stars": 21,
+  "updated": "2015-11-23T15:43:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "underwater-theme",
+    "fetcher": "github",
+    "repo": "jmdeldin/underwater-theme.el"
+  }
+}

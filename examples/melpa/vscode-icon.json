@@ -1,0 +1,19 @@
+{
+  "id": 144344837,
+  "name": "jojojames/vscode-icon-emacs",
+  "description": "Utility package that return vscode icons for emacs",
+  "url": "https://github.com/jojojames/vscode-icon-emacs",
+  "stars": 50,
+  "updated": "2024-12-01T22:01:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vscode-icon",
+    "fetcher": "github",
+    "repo": "jojojames/vscode-icon-emacs",
+    "files": "(:defaults\n         \"icons\")"
+  }
+}

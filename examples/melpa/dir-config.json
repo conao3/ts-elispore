@@ -1,0 +1,18 @@
+{
+  "id": 843139754,
+  "name": "jamescherti/dir-config.el",
+  "description": "dir-config.el - Automatically find and load the .dir-config.el Elisp file",
+  "url": "https://github.com/jamescherti/dir-config.el",
+  "stars": 32,
+  "updated": "2026-11-10T15:12:50Z",
+  "archived": false,
+  "topics": ["dir-config", "dir-locals", "emacs", "local-configuration"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dir-config",
+    "fetcher": "github",
+    "repo": "jamescherti/dir-config.el"
+  }
+}

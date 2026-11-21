@@ -1,0 +1,18 @@
+{
+  "id": 28915436,
+  "name": "alezost/imenus.el",
+  "description": "Imenu for multiple buffers",
+  "url": "https://github.com/alezost/imenus.el",
+  "stars": 5,
+  "updated": "2020-07-30T19:05:26Z",
+  "archived": false,
+  "topics": ["emacs", "imenu"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "imenus",
+    "fetcher": "github",
+    "repo": "alezost/imenus.el"
+  }
+}

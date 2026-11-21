@@ -1,0 +1,18 @@
+{
+  "id": 88610909,
+  "name": "emacs-lsp/lsp-haskell",
+  "description": "lsp-mode :heart: haskell",
+  "url": "https://github.com/emacs-lsp/lsp-haskell",
+  "stars": 255,
+  "updated": "2026-07-21T16:19:50Z",
+  "archived": false,
+  "topics": ["emacs-lsp", "haskell", "hie", "lsp", "lsp-haskell", "melpa"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-haskell",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-haskell"
+  }
+}

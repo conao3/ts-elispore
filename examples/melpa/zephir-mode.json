@@ -1,0 +1,26 @@
+{
+  "id": 172592132,
+  "name": "zephir-lang/zephir-mode",
+  "description": "A GNU Emacs major mode for editing Zephir code",
+  "url": "https://github.com/zephir-lang/zephir-mode",
+  "stars": 1,
+  "updated": "2020-04-17T08:30:14Z",
+  "archived": false,
+  "topics": [
+    "editor-plugin",
+    "emacs",
+    "emacs-mode",
+    "emacs-package",
+    "major-mode",
+    "zephir",
+    "zephir-language"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "zephir-mode",
+    "fetcher": "github",
+    "repo": "zephir-lang/zephir-mode"
+  }
+}

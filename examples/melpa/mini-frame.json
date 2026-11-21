@@ -1,0 +1,18 @@
+{
+  "id": 238386941,
+  "name": "muffinmad/emacs-mini-frame",
+  "description": "Show minibuffer in child frame on read-from-minibuffer",
+  "url": "https://github.com/muffinmad/emacs-mini-frame",
+  "stars": 350,
+  "updated": "2026-06-19T05:50:01Z",
+  "archived": false,
+  "topics": ["childframe", "emacs", "minibuffer"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mini-frame",
+    "fetcher": "github",
+    "repo": "muffinmad/emacs-mini-frame"
+  }
+}

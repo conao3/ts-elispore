@@ -1,0 +1,18 @@
+{
+  "id": 29583774,
+  "name": "dotemacs/dtrace-script-mode",
+  "description": "DTrace script mode for Emacs",
+  "url": "https://github.com/dotemacs/dtrace-script-mode",
+  "stars": 10,
+  "updated": "2018-01-27T16:07:56Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dtrace-script-mode",
+    "fetcher": "github",
+    "repo": "dotemacs/dtrace-script-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 3476398,
+  "name": "atomontage/xterm-color",
+  "description": "ANSI & xterm-256 color text property translator for Emacs",
+  "url": "https://github.com/atomontage/xterm-color",
+  "stars": 238,
+  "updated": "2026-06-21T12:22:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xterm-color",
+    "fetcher": "github",
+    "repo": "atomontage/xterm-color"
+  }
+}

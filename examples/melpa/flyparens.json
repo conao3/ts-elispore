@@ -1,0 +1,18 @@
+{
+  "id": 21321768,
+  "name": "jiyoo/flyparens",
+  "description": "emacs package to check for unbalanced parens on the fly",
+  "url": "https://github.com/jiyoo/flyparens",
+  "stars": 4,
+  "updated": "2014-07-23T18:46:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flyparens",
+    "fetcher": "github",
+    "repo": "jiyoo/flyparens"
+  }
+}

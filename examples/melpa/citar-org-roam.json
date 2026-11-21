@@ -1,0 +1,18 @@
+{
+  "id": 497404238,
+  "name": "emacs-citar/citar-org-roam",
+  "description": "citar/org-roam integration",
+  "url": "https://github.com/emacs-citar/citar-org-roam",
+  "stars": 126,
+  "updated": "2025-04-24T15:11:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "citar-org-roam",
+    "fetcher": "github",
+    "repo": "emacs-citar/citar-org-roam"
+  }
+}

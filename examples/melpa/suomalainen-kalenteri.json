@@ -1,0 +1,18 @@
+{
+  "id": 2113872,
+  "name": "tlikonen/suomalainen-kalenteri",
+  "description": "Finnish national holidays for Emacs calendar",
+  "url": "https://github.com/tlikonen/suomalainen-kalenteri",
+  "stars": 7,
+  "updated": "2025-09-12T13:17:39Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-calendar", "emacs-lisp", "finnish"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "suomalainen-kalenteri",
+    "fetcher": "github",
+    "repo": "tlikonen/suomalainen-kalenteri"
+  }
+}

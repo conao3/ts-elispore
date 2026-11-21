@@ -1,0 +1,18 @@
+{
+  "id": 10849966,
+  "name": "tkf/emacs-python-environment",
+  "description": "Python virtualenv API for Emacs Lisp",
+  "url": "https://github.com/tkf/emacs-python-environment",
+  "stars": 60,
+  "updated": "2015-03-10T08:54:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "python-environment",
+    "fetcher": "github",
+    "repo": "tkf/emacs-python-environment"
+  }
+}

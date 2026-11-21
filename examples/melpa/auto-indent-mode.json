@@ -1,0 +1,19 @@
+{
+  "id": 2805776,
+  "name": "mattfidler/auto-indent-mode.el",
+  "description": "Automatically Indent Emacs Code",
+  "url": "https://github.com/mattfidler/auto-indent-mode.el",
+  "stars": 44,
+  "updated": "2023-06-23T22:03:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-indent-mode",
+    "fetcher": "github",
+    "repo": "mattfidler/auto-indent-mode.el",
+    "files": "(:defaults (:exclude \"*.texi\"))"
+  }
+}

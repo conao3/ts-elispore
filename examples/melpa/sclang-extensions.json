@@ -1,0 +1,18 @@
+{
+  "id": 9709845,
+  "name": "chrisbarrett/sclang-extensions",
+  "description": "UNMAINTAINED",
+  "url": "https://github.com/chrisbarrett/sclang-extensions",
+  "stars": 23,
+  "updated": "2016-10-10T02:02:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sclang-extensions",
+    "fetcher": "github",
+    "repo": "chrisbarrett/sclang-extensions"
+  }
+}

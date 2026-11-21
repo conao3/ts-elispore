@@ -1,0 +1,18 @@
+{
+  "id": 75861295,
+  "name": "wynro/emacs-csgo-conf-mode",
+  "description": " Major mode for editing CS:GO configuration files",
+  "url": "https://github.com/wynro/emacs-csgo-conf-mode",
+  "stars": 5,
+  "updated": "2016-12-12T10:32:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "csgo-conf-mode",
+    "fetcher": "github",
+    "repo": "wynro/emacs-csgo-conf-mode"
+  }
+}

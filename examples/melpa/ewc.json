@@ -1,0 +1,19 @@
+{
+  "id": 1323243945,
+  "name": "thkoch2001/rau",
+  "description": "Emacs/Wayland based Window Manager in pure elisp with the help of River",
+  "url": "https://github.com/thkoch2001/rau",
+  "stars": 29,
+  "updated": "2026-11-16T15:59:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ewc",
+    "fetcher": "github",
+    "repo": "thkoch2001/rau",
+    "files": "(\"ewc.el\")"
+  }
+}

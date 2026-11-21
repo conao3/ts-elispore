@@ -1,0 +1,18 @@
+{
+  "id": 22734929,
+  "name": "mswift42/warm-night-theme",
+  "description": "emacs24 theme with a dark background and warm colors.",
+  "url": "https://github.com/mswift42/warm-night-theme",
+  "stars": 37,
+  "updated": "2016-11-01T14:28:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "warm-night-theme",
+    "fetcher": "github",
+    "repo": "mswift42/warm-night-theme"
+  }
+}

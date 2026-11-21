@@ -1,0 +1,18 @@
+{
+  "id": 5859118,
+  "name": "To1ne/never-comment",
+  "description": "When C code between #if 0 and #endif is comment.",
+  "url": "https://github.com/To1ne/never-comment",
+  "stars": 0,
+  "updated": "2014-01-04T22:14:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "never-comment",
+    "fetcher": "github",
+    "repo": "To1ne/never-comment"
+  }
+}

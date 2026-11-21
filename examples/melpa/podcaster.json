@@ -1,0 +1,18 @@
+{
+  "id": 69161581,
+  "name": "lujun9972/podcaster",
+  "description": "Emacs podcast client",
+  "url": "https://github.com/lujun9972/podcaster",
+  "stars": 38,
+  "updated": "2020-06-07T10:54:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "podcaster",
+    "fetcher": "github",
+    "repo": "lujun9972/podcaster"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 3382477,
+  "name": "rlister/org-present",
+  "description": "Ultra-minimalist presentation minor-mode for Emacs org-mode.",
+  "url": "https://github.com/rlister/org-present",
+  "stars": 392,
+  "updated": "2024-02-07T19:27:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-present",
+    "fetcher": "github",
+    "repo": "rlister/org-present"
+  }
+}

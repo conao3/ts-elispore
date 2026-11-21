@@ -1,0 +1,18 @@
+{
+  "id": 119903643,
+  "name": "harrybournis/org-fancy-priorities",
+  "description": "Display Org Mode priorities as custom strings",
+  "url": "https://github.com/harrybournis/org-fancy-priorities",
+  "stars": 144,
+  "updated": "2021-08-30T16:57:22Z",
+  "archived": false,
+  "topics": ["emacs", "org", "org-mode"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-fancy-priorities",
+    "fetcher": "github",
+    "repo": "harrybournis/org-fancy-priorities"
+  }
+}

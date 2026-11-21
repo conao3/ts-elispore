@@ -1,0 +1,18 @@
+{
+  "id": 15047510,
+  "name": "NicolasPetton/org-gnome.el",
+  "description": "Integrates orgmode with the GNOME desktop",
+  "url": "https://github.com/NicolasPetton/org-gnome.el",
+  "stars": 25,
+  "updated": "2016-11-10T13:04:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-gnome",
+    "fetcher": "github",
+    "repo": "NicolasPetton/org-gnome.el"
+  }
+}

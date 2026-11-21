@@ -1,0 +1,19 @@
+{
+  "id": 40662013,
+  "name": "joaotavora/sly-named-readtables",
+  "description": "NAMED-READTABLES support for SLY",
+  "url": "https://github.com/joaotavora/sly-named-readtables",
+  "stars": 10,
+  "updated": "2019-10-13T21:38:44Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sly-named-readtables",
+    "fetcher": "github",
+    "repo": "joaotavora/sly-named-readtables",
+    "files": "(:defaults\n                              \"*.lisp\"\n                              \"*.asd\")"
+  }
+}

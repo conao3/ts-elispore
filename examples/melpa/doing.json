@@ -1,0 +1,19 @@
+{
+  "id": 1140986786,
+  "name": "xiaoxinghu/doing.el",
+  "description": "",
+  "url": "https://github.com/xiaoxinghu/doing.el",
+  "stars": 9,
+  "updated": "2026-02-22T03:54:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "doing",
+    "fetcher": "github",
+    "repo": "xiaoxinghu/doing.el",
+    "files": "(:defaults (:exclude \"batch.el\"))"
+  }
+}

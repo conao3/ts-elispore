@@ -1,0 +1,18 @@
+{
+  "id": 98920696,
+  "name": "emacsattic/mic-paren",
+  "description": "Advanced highlighting of matching parentheses",
+  "url": "https://github.com/emacsattic/mic-paren",
+  "stars": 5,
+  "updated": "2020-01-30T10:26:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "mic-paren",
+    "fetcher": "github",
+    "repo": "emacsattic/mic-paren"
+  }
+}

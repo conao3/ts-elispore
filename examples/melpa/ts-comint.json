@@ -1,0 +1,18 @@
+{
+  "id": 69495011,
+  "name": "emacs-typescript/ts-comint",
+  "description": "ts-comint will send the code from Emacs into a Typescript REPL.",
+  "url": "https://github.com/emacs-typescript/ts-comint",
+  "stars": 30,
+  "updated": "2023-11-26T02:31:00Z",
+  "archived": false,
+  "topics": ["emacs-packages", "repl", "typescript"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ts-comint",
+    "fetcher": "github",
+    "repo": "emacs-typescript/ts-comint"
+  }
+}

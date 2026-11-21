@@ -1,0 +1,18 @@
+{
+  "id": 1373406,
+  "name": "emacsorphanage/keychain-environment",
+  "description": "Loads keychain environment variables into emacs",
+  "url": "https://github.com/emacsorphanage/keychain-environment",
+  "stars": 58,
+  "updated": "2026-07-29T10:53:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "keychain-environment",
+    "fetcher": "github",
+    "repo": "emacsorphanage/keychain-environment"
+  }
+}

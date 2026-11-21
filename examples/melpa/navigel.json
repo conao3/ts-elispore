@@ -1,0 +1,18 @@
+{
+  "id": 200622612,
+  "name": "DamienCassou/navigel",
+  "description": "Emacs library to facilitate the creation of tabulated-list based UIs",
+  "url": "https://github.com/DamienCassou/navigel",
+  "stars": 48,
+  "updated": "2025-11-25T19:32:17Z",
+  "archived": false,
+  "topics": ["emacs-package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "navigel",
+    "fetcher": "github",
+    "repo": "DamienCassou/navigel"
+  }
+}

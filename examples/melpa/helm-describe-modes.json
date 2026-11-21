@@ -1,0 +1,18 @@
+{
+  "id": 51277479,
+  "name": "emacs-helm/helm-describe-modes",
+  "description": "Major and minor mode info with Helm",
+  "url": "https://github.com/emacs-helm/helm-describe-modes",
+  "stars": 25,
+  "updated": "2017-02-03T05:50:14Z",
+  "archived": false,
+  "topics": ["emacs", "helm", "mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-describe-modes",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-describe-modes"
+  }
+}

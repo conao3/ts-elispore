@@ -1,0 +1,26 @@
+{
+  "id": 291252417,
+  "name": "davep/2bit.el",
+  "description": "An Emacs package for pulling data from 2bit files",
+  "url": "https://github.com/davep/2bit.el",
+  "stars": 3,
+  "updated": "2020-09-26T14:20:43Z",
+  "archived": false,
+  "topics": [
+    "2bit",
+    "bioinformatics",
+    "bioinformatics-tool",
+    "dna",
+    "emacs",
+    "emacs-lisp",
+    "emacs-package"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "2bit",
+    "fetcher": "github",
+    "repo": "davep/2bit.el"
+  }
+}

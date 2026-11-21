@@ -1,0 +1,18 @@
+{
+  "id": 28465291,
+  "name": "ikirill/propfont-mixed",
+  "description": "Use proportional fonts with space-based indentation.",
+  "url": "https://github.com/ikirill/propfont-mixed",
+  "stars": 3,
+  "updated": "2015-01-13T22:11:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "propfont-mixed",
+    "fetcher": "github",
+    "repo": "ikirill/propfont-mixed"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 8643720,
+  "name": "tomheon/diffscuss",
+  "description": "Code reviews.  In plain text.",
+  "url": "https://github.com/tomheon/diffscuss",
+  "stars": 339,
+  "updated": "2021-06-17T21:19:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Python",
+  "ownerType": "User",
+  "melpa": {
+    "name": "diffscuss-mode",
+    "fetcher": "github",
+    "repo": "tomheon/diffscuss",
+    "files": "(\"diffscuss-mode/*.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 23519388,
+  "name": "AdrieanKhisbe/omni-tags.el",
+  "description": "¤Highlight and §Actions for 'Tags' in emacs",
+  "url": "https://github.com/AdrieanKhisbe/omni-tags.el",
+  "stars": 2,
+  "updated": "2017-04-26T21:09:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "omni-tags",
+    "fetcher": "github",
+    "repo": "AdrieanKhisbe/omni-tags.el"
+  }
+}

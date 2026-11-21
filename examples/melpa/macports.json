@@ -1,0 +1,18 @@
+{
+  "id": 484042591,
+  "name": "amake/macports.el",
+  "description": "An Emacs porcelain for MacPorts",
+  "url": "https://github.com/amake/macports.el",
+  "stars": 13,
+  "updated": "2026-10-11T00:03:35Z",
+  "archived": false,
+  "topics": ["emacs", "macports", "melpa"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "macports",
+    "fetcher": "github",
+    "repo": "amake/macports.el"
+  }
+}

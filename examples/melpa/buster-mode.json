@@ -1,0 +1,18 @@
+{
+  "id": 4727199,
+  "name": "magnars/buster-mode",
+  "description": "A minor mode for emacs to speed up development when writing tests with Buster.JS",
+  "url": "https://github.com/magnars/buster-mode",
+  "stars": 8,
+  "updated": "2014-09-28T12:13:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "buster-mode",
+    "fetcher": "github",
+    "repo": "magnars/buster-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 818452,
+  "name": "agrif/sourcepawn-mode",
+  "description": "an emacs major mode for the SourceMod variant of the Pawn programming language",
+  "url": "https://github.com/agrif/sourcepawn-mode",
+  "stars": 2,
+  "updated": "2026-03-18T09:58:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sourcepawn-mode",
+    "fetcher": "github",
+    "repo": "agrif/sourcepawn-mode"
+  }
+}

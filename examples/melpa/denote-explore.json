@@ -1,0 +1,19 @@
+{
+  "id": 536963089,
+  "name": "pprevos/denote-explore",
+  "description": "Helper functions to analyse and visualise a collection of notes created with the Denote package.",
+  "url": "https://github.com/pprevos/denote-explore",
+  "stars": 135,
+  "updated": "2026-09-05T21:34:43Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "denote-explore",
+    "fetcher": "github",
+    "repo": "pprevos/denote-explore",
+    "files": "(:defaults \"*.html\")"
+  }
+}

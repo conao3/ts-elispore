@@ -1,0 +1,19 @@
+{
+  "id": 117223069,
+  "name": "baron42bba/vertica-snippets",
+  "description": "yasnippet snippets for Vertica",
+  "url": "https://github.com/baron42bba/vertica-snippets",
+  "stars": 0,
+  "updated": "2025-03-18T08:40:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "YASnippet",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vertica-snippets",
+    "fetcher": "github",
+    "repo": "baron42bba/vertica-snippets",
+    "files": "(\"*.el\" \"snippets\")"
+  }
+}

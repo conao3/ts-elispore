@@ -1,0 +1,18 @@
+{
+  "id": 11717059,
+  "name": "emacsorphanage/go-direx",
+  "description": "Tree style source code viewer for Go language",
+  "url": "https://github.com/emacsorphanage/go-direx",
+  "stars": 41,
+  "updated": "2015-11-27T07:55:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "go-direx",
+    "fetcher": "github",
+    "repo": "emacsorphanage/go-direx"
+  }
+}

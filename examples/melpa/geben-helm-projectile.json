@@ -1,0 +1,18 @@
+{
+  "id": 57228957,
+  "name": "ahungry/geben-helm-projectile",
+  "description": "Open geben mode files using helm-projectile",
+  "url": "https://github.com/ahungry/geben-helm-projectile",
+  "stars": 6,
+  "updated": "2017-05-24T03:29:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "geben-helm-projectile",
+    "fetcher": "github",
+    "repo": "ahungry/geben-helm-projectile"
+  }
+}

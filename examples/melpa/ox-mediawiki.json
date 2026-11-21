@@ -1,0 +1,18 @@
+{
+  "id": 9658277,
+  "name": "tomalexander/orgmode-mediawiki",
+  "description": "A mediawiki export for Emacs org-mode",
+  "url": "https://github.com/tomalexander/orgmode-mediawiki",
+  "stars": 53,
+  "updated": "2026-03-03T20:50:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-mediawiki",
+    "fetcher": "github",
+    "repo": "tomalexander/orgmode-mediawiki"
+  }
+}

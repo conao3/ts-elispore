@@ -1,0 +1,19 @@
+{
+  "id": 100750665,
+  "name": "emacsattic/projmake-mode",
+  "description": "Run build system for project",
+  "url": "https://github.com/emacsattic/projmake-mode",
+  "stars": 0,
+  "updated": "2026-02-10T15:10:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "projmake-mode",
+    "fetcher": "github",
+    "repo": "emacsattic/projmake-mode",
+    "files": "(\"src/*.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 51563439,
+  "name": "emacsfodder/move-text",
+  "description": "move current line or region up or down",
+  "url": "https://github.com/emacsfodder/move-text",
+  "stars": 239,
+  "updated": "2026-05-08T05:08:07Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "text-manipulation"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "move-text",
+    "fetcher": "github",
+    "repo": "emacsfodder/move-text"
+  }
+}

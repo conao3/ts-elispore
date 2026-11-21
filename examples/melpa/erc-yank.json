@@ -1,0 +1,18 @@
+{
+  "id": 4696420,
+  "name": "jwiegley/erc-yank",
+  "description": "Automagically create a Gist in ERC if pasting more than 5 lines",
+  "url": "https://github.com/jwiegley/erc-yank",
+  "stars": 8,
+  "updated": "2021-02-20T18:15:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erc-yank",
+    "fetcher": "github",
+    "repo": "jwiegley/erc-yank"
+  }
+}

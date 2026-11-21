@@ -1,0 +1,18 @@
+{
+  "id": 41686085,
+  "name": "mrkkrp/zzz-to-char",
+  "description": "Fancy replacement for zap-to-char in Emacs",
+  "url": "https://github.com/mrkkrp/zzz-to-char",
+  "stars": 26,
+  "updated": "2026-08-02T09:45:02Z",
+  "archived": false,
+  "topics": ["emacs", "killing", "text-editing"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zzz-to-char",
+    "fetcher": "github",
+    "repo": "mrkkrp/zzz-to-char"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 665359511,
+  "name": "zkry/tiktoken.el",
+  "description": " tiktoken.el is an Emacs Lisp port of OpenAI's tiktoken library for BPE tokenization",
+  "url": "https://github.com/zkry/tiktoken.el",
+  "stars": 13,
+  "updated": "2024-01-03T03:53:11Z",
+  "archived": false,
+  "topics": [
+    "artificial-intelligence",
+    "emacs-lisp",
+    "large-language-models",
+    "natural-language-processing"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tiktoken",
+    "fetcher": "github",
+    "repo": "zkry/tiktoken.el"
+  }
+}

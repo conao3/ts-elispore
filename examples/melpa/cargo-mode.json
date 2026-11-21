@@ -1,0 +1,18 @@
+{
+  "id": 367636903,
+  "name": "ayrat555/cargo-mode",
+  "description": "Emacs minor mode which allows to dynamically select cargo command",
+  "url": "https://github.com/ayrat555/cargo-mode",
+  "stars": 36,
+  "updated": "2026-01-14T08:40:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cargo-mode",
+    "fetcher": "github",
+    "repo": "ayrat555/cargo-mode"
+  }
+}

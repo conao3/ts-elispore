@@ -1,0 +1,18 @@
+{
+  "id": 28998622,
+  "name": "david-christiansen/narrowed-page-navigation",
+  "description": "An Emacs package for showing a buffer page-by-page, intended for presentations and live coding.",
+  "url": "https://github.com/david-christiansen/narrowed-page-navigation",
+  "stars": 4,
+  "updated": "2015-01-09T05:26:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "narrowed-page-navigation",
+    "fetcher": "github",
+    "repo": "david-christiansen/narrowed-page-navigation"
+  }
+}

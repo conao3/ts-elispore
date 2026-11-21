@@ -1,0 +1,26 @@
+{
+  "id": 103059740,
+  "name": "Deducteam/lambdapi",
+  "description": "Proof assistant based on the λΠ-calculus modulo rewriting",
+  "url": "https://github.com/Deducteam/lambdapi",
+  "stars": 411,
+  "updated": "2026-11-20T12:40:54Z",
+  "archived": false,
+  "topics": [
+    "dependent-types",
+    "logical-framework",
+    "proof-assistant",
+    "proof-checker",
+    "proof-translator",
+    "rewriting"
+  ],
+  "license": "NOASSERTION",
+  "language": "OCaml",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lambdapi-mode",
+    "fetcher": "github",
+    "repo": "Deducteam/lambdapi",
+    "files": "(\"editors/emacs/*.el\"\n         (:exclude \"editors/emacs/lambdapi-site-file.el\"))"
+  }
+}

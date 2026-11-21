@@ -1,0 +1,18 @@
+{
+  "id": 48493470,
+  "name": "bbatsov/super-save",
+  "description": "Save Emacs buffers when they lose focus",
+  "url": "https://github.com/bbatsov/super-save",
+  "stars": 364,
+  "updated": "2026-03-18T12:14:19Z",
+  "archived": false,
+  "topics": ["auto-save", "emacs", "emacs-packages"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "super-save",
+    "fetcher": "github",
+    "repo": "bbatsov/super-save"
+  }
+}

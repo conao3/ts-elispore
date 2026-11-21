@@ -1,0 +1,18 @@
+{
+  "id": 3627259,
+  "name": "lewang/fic-mode",
+  "description": "add TODO, FIXME, etc highlighting in comments and strings",
+  "url": "https://github.com/lewang/fic-mode",
+  "stars": 32,
+  "updated": "2018-06-05T08:11:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fic-mode",
+    "fetcher": "github",
+    "repo": "lewang/fic-mode"
+  }
+}

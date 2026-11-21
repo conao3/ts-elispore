@@ -1,0 +1,18 @@
+{
+  "id": 195583999,
+  "name": "xuchunyang/helm-osx-app",
+  "description": "Launch macOS apps with Helm",
+  "url": "https://github.com/xuchunyang/helm-osx-app",
+  "stars": 4,
+  "updated": "2019-07-17T09:59:16Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-osx-app",
+    "fetcher": "github",
+    "repo": "xuchunyang/helm-osx-app"
+  }
+}

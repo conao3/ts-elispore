@@ -1,0 +1,18 @@
+{
+  "id": 17944487,
+  "name": "john2x/flatui-theme.el",
+  "description": "A color theme for Emacs based on flatuicolors.com",
+  "url": "https://github.com/john2x/flatui-theme.el",
+  "stars": 68,
+  "updated": "2016-06-19T01:27:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flatui-theme",
+    "fetcher": "github",
+    "repo": "john2x/flatui-theme.el"
+  }
+}

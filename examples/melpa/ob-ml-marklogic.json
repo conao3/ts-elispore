@@ -1,0 +1,18 @@
+{
+  "id": 57241583,
+  "name": "ndw/ob-ml-marklogic",
+  "description": "org-babel integration with MarkLogic XQuery and (server side) JavaScript code blocks",
+  "url": "https://github.com/ndw/ob-ml-marklogic",
+  "stars": 2,
+  "updated": "2019-04-12T01:20:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-ml-marklogic",
+    "fetcher": "github",
+    "repo": "ndw/ob-ml-marklogic"
+  }
+}

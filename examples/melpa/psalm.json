@@ -1,0 +1,19 @@
+{
+  "id": 262761416,
+  "name": "emacs-php/psalm.el",
+  "description": "Emacs interface to Psalm, includes checker for Flycheck.",
+  "url": "https://github.com/emacs-php/psalm.el",
+  "stars": 3,
+  "updated": "2026-06-18T17:27:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "psalm",
+    "fetcher": "github",
+    "repo": "emacs-php/psalm.el",
+    "files": "(\"psalm.el\")"
+  }
+}

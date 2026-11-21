@@ -1,0 +1,19 @@
+{
+  "id": 61508012,
+  "name": "tumashu/pyim-basedict",
+  "description": "The default pyim dict, this package is a **GNU ELPA** package.",
+  "url": "https://github.com/tumashu/pyim-basedict",
+  "stars": 10,
+  "updated": "2024-09-23T07:39:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pyim-basedict",
+    "fetcher": "github",
+    "repo": "tumashu/pyim-basedict",
+    "files": "(:defaults \"*.pyim\" \"*.pyim.gz\")"
+  }
+}

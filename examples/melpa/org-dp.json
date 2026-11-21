@@ -1,0 +1,18 @@
+{
+  "id": 22981650,
+  "name": "tj64/org-dp",
+  "description": "Declarative Programming with Org Elements",
+  "url": "https://github.com/tj64/org-dp",
+  "stars": 46,
+  "updated": "2018-07-28T15:58:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-dp",
+    "fetcher": "github",
+    "repo": "tj64/org-dp"
+  }
+}

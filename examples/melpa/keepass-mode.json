@@ -1,0 +1,18 @@
+{
+  "id": 231257875,
+  "name": "ifosch/keepass-mode",
+  "description": "Emacs mode to open KeePass DB",
+  "url": "https://github.com/ifosch/keepass-mode",
+  "stars": 45,
+  "updated": "2024-08-18T15:11:31Z",
+  "archived": false,
+  "topics": ["hacktoberfest", "hacktoberfest2021"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "keepass-mode",
+    "fetcher": "github",
+    "repo": "ifosch/keepass-mode"
+  }
+}

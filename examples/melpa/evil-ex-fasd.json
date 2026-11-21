@@ -1,0 +1,18 @@
+{
+  "id": 143218749,
+  "name": "yqrashawn/evil-ex-fasd",
+  "description": "Invode fasd right from evil-ex",
+  "url": "https://github.com/yqrashawn/evil-ex-fasd",
+  "stars": 0,
+  "updated": "2018-09-03T06:13:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-ex-fasd",
+    "fetcher": "github",
+    "repo": "yqrashawn/evil-ex-fasd"
+  }
+}

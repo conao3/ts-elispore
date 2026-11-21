@@ -1,0 +1,18 @@
+{
+  "id": 152793580,
+  "name": "daviderestivo/load-bash-alias",
+  "description": "Convert bash aliases into eshell ones",
+  "url": "https://github.com/daviderestivo/load-bash-alias",
+  "stars": 19,
+  "updated": "2025-01-03T13:24:47Z",
+  "archived": false,
+  "topics": ["bash", "elisp", "emacs", "emacs-lisp", "emacs-packages", "eshell"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "load-bash-alias",
+    "fetcher": "github",
+    "repo": "daviderestivo/load-bash-alias"
+  }
+}

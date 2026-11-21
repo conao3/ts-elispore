@@ -1,0 +1,18 @@
+{
+  "id": 55069119,
+  "name": "JuliaEditorSupport/julia-emacs",
+  "description": "Julia support in Emacs.",
+  "url": "https://github.com/JuliaEditorSupport/julia-emacs",
+  "stars": 317,
+  "updated": "2026-05-29T14:24:01Z",
+  "archived": false,
+  "topics": ["emacs", "julia", "julia-language", "julialang"],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "julia-mode",
+    "fetcher": "github",
+    "repo": "JuliaEditorSupport/julia-emacs"
+  }
+}

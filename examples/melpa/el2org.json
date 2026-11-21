@@ -1,0 +1,18 @@
+{
+  "id": 84400097,
+  "name": "tumashu/el2org",
+  "description": "Convert an emacs-lisp file to org file",
+  "url": "https://github.com/tumashu/el2org",
+  "stars": 69,
+  "updated": "2020-04-08T01:50:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "el2org",
+    "fetcher": "github",
+    "repo": "tumashu/el2org"
+  }
+}

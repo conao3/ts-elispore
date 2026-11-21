@@ -1,0 +1,18 @@
+{
+  "id": 160216383,
+  "name": "xuchunyang/cc-cedict.el",
+  "description": "An Emacs interface for CC-CEDICT",
+  "url": "https://github.com/xuchunyang/cc-cedict.el",
+  "stars": 6,
+  "updated": "2024-12-21T12:56:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cc-cedict",
+    "fetcher": "github",
+    "repo": "xuchunyang/cc-cedict.el"
+  }
+}

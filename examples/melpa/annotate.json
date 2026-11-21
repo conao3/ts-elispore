@@ -1,0 +1,18 @@
+{
+  "id": 37274379,
+  "name": "bastibe/annotate.el",
+  "description": "Annotate.el",
+  "url": "https://github.com/bastibe/annotate.el",
+  "stars": 438,
+  "updated": "2026-05-14T13:20:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "annotate",
+    "fetcher": "github",
+    "repo": "bastibe/annotate.el"
+  }
+}

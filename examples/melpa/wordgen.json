@@ -1,0 +1,18 @@
+{
+  "id": 45484482,
+  "name": "Fanael/wordgen.el",
+  "description": "(Pseudo-)Random word generator",
+  "url": "https://github.com/Fanael/wordgen.el",
+  "stars": 6,
+  "updated": "2017-08-03T18:21:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wordgen",
+    "fetcher": "github",
+    "repo": "Fanael/wordgen.el"
+  }
+}

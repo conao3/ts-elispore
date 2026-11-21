@@ -1,0 +1,18 @@
+{
+  "id": 322768356,
+  "name": "io12/good-scroll.el",
+  "description": "Attempt at good pixel-based smooth scrolling in Emacs",
+  "url": "https://github.com/io12/good-scroll.el",
+  "stars": 208,
+  "updated": "2022-07-09T05:56:33Z",
+  "archived": false,
+  "topics": ["emacs", "pixel", "pixel-lines", "scrolling-algorithms", "smooth-scrolling"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "good-scroll",
+    "fetcher": "github",
+    "repo": "io12/good-scroll.el"
+  }
+}

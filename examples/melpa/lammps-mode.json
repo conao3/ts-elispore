@@ -1,0 +1,18 @@
+{
+  "id": 142875333,
+  "name": "HaoZeke/lammps-mode",
+  "description": "Major mode for lammps.",
+  "url": "https://github.com/HaoZeke/lammps-mode",
+  "stars": 3,
+  "updated": "2025-03-11T00:47:17Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "major-mode", "syntax-highlighting"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lammps-mode",
+    "fetcher": "github",
+    "repo": "HaoZeke/lammps-mode"
+  }
+}

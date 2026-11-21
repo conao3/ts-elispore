@@ -1,0 +1,18 @@
+{
+  "id": 252996884,
+  "name": "meow-edit/meow",
+  "description": "Yet another modal editing on Emacs / 猫态编辑",
+  "url": "https://github.com/meow-edit/meow",
+  "stars": 1738,
+  "updated": "2026-11-18T11:46:57Z",
+  "archived": false,
+  "topics": ["colemak", "dvorak", "emacs", "modal-editing"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "meow",
+    "fetcher": "github",
+    "repo": "meow-edit/meow"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 405248,
+  "name": "emacsorphanage/oberon",
+  "description": "Major mode for editing Oberon/Oberon-2 program texts",
+  "url": "https://github.com/emacsorphanage/oberon",
+  "stars": 7,
+  "updated": "2012-07-15T09:12:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "oberon",
+    "fetcher": "github",
+    "repo": "emacsorphanage/oberon"
+  }
+}

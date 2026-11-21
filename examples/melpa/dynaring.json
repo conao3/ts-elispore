@@ -1,0 +1,18 @@
+{
+  "id": 353131093,
+  "name": "countvajhula/dynaring",
+  "description": "A dynamically sized ring structure",
+  "url": "https://github.com/countvajhula/dynaring",
+  "stars": 1,
+  "updated": "2025-11-16T05:42:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dynaring",
+    "fetcher": "github",
+    "repo": "countvajhula/dynaring"
+  }
+}

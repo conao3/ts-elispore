@@ -1,0 +1,18 @@
+{
+  "id": 522604387,
+  "name": "emacsfodder/emacs-theme-cyanometric",
+  "description": "",
+  "url": "https://github.com/emacsfodder/emacs-theme-cyanometric",
+  "stars": 4,
+  "updated": "2026-06-18T12:57:58Z",
+  "archived": false,
+  "topics": ["dark-theme", "emacs", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "cyanometric-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-theme-cyanometric"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1211950028,
+  "name": "lajarre/tmux-csi-u.el",
+  "description": "Emacs-side tmux CSI-u decoder for terminal Emacs",
+  "url": "https://github.com/lajarre/tmux-csi-u.el",
+  "stars": 1,
+  "updated": "2026-04-28T22:25:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tmux-csi-u",
+    "fetcher": "github",
+    "repo": "lajarre/tmux-csi-u.el"
+  }
+}

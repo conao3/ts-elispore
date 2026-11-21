@@ -1,0 +1,18 @@
+{
+  "id": 122373579,
+  "name": "chyla/ChylaThemeForEmacs",
+  "description": "Green color scheme for Emacs.",
+  "url": "https://github.com/chyla/ChylaThemeForEmacs",
+  "stars": 9,
+  "updated": "2024-07-08T20:44:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chyla-theme",
+    "fetcher": "github",
+    "repo": "chyla/ChylaThemeForEmacs"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 14023111,
+  "name": "phillord/lein-sync",
+  "description": "Sync an existing REPL to the current Leiningen Project",
+  "url": "https://github.com/phillord/lein-sync",
+  "stars": 6,
+  "updated": "2014-08-07T15:57:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "EPL-1.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nrepl-sync",
+    "fetcher": "github",
+    "repo": "phillord/lein-sync",
+    "files": "(\"emacs/nrepl-sync.el\")"
+  }
+}

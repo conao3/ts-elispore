@@ -1,0 +1,18 @@
+{
+  "id": 41954681,
+  "name": "xuchunyang/eshell-did-you-mean",
+  "description": "command not found (\"did you mean…\" feature) in Eshell.",
+  "url": "https://github.com/xuchunyang/eshell-did-you-mean",
+  "stars": 19,
+  "updated": "2021-11-04T02:40:04Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "eshell"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-did-you-mean",
+    "fetcher": "github",
+    "repo": "xuchunyang/eshell-did-you-mean"
+  }
+}

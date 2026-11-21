@@ -1,0 +1,18 @@
+{
+  "id": 271120543,
+  "name": "franburstall/ivy-emms",
+  "description": "Choose and play EMMS tracks with ivy",
+  "url": "https://github.com/franburstall/ivy-emms",
+  "stars": 6,
+  "updated": "2023-11-20T07:20:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-emms",
+    "fetcher": "github",
+    "repo": "franburstall/ivy-emms"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 851562394,
+  "name": "hsnovel/codex-theme",
+  "description": "Codex theme, a simple high contrast theme that is easy on the eyes",
+  "url": "https://github.com/hsnovel/codex-theme",
+  "stars": 0,
+  "updated": "2024-09-14T00:04:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "codex-theme",
+    "fetcher": "github",
+    "repo": "hsnovel/codex-theme"
+  }
+}

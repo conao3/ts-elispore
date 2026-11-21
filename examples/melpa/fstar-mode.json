@@ -1,0 +1,19 @@
+{
+  "id": 41574188,
+  "name": "FStarLang/fstar-mode.el",
+  "description": "Emacs support for F*",
+  "url": "https://github.com/FStarLang/fstar-mode.el",
+  "stars": 71,
+  "updated": "2025-06-25T09:21:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "fstar-mode",
+    "fetcher": "github",
+    "repo": "FStarLang/fstar-mode.el",
+    "files": "(:defaults \"etc\")"
+  }
+}

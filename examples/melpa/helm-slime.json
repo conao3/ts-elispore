@@ -1,0 +1,18 @@
+{
+  "id": 3752831,
+  "name": "emacs-helm/helm-slime",
+  "description": "Helm for SLIME",
+  "url": "https://github.com/emacs-helm/helm-slime",
+  "stars": 28,
+  "updated": "2019-10-16T16:01:25Z",
+  "archived": false,
+  "topics": ["common-lisp", "emacs", "helm", "lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-slime",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-slime"
+  }
+}

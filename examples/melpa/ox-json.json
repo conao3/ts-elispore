@@ -1,0 +1,18 @@
+{
+  "id": 195140891,
+  "name": "jlumpe/ox-json",
+  "description": "JSON export back end for Emacs Org mode",
+  "url": "https://github.com/jlumpe/ox-json",
+  "stars": 94,
+  "updated": "2026-06-29T06:33:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-json",
+    "fetcher": "github",
+    "repo": "jlumpe/ox-json"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 71457097,
+  "name": "gergelypolonkai/hungarian-holidays",
+  "description": "",
+  "url": "https://github.com/gergelypolonkai/hungarian-holidays",
+  "stars": 0,
+  "updated": "2016-10-20T11:39:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hungarian-holidays",
+    "fetcher": "github",
+    "repo": "gergelypolonkai/hungarian-holidays"
+  }
+}

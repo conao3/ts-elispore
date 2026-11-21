@@ -1,0 +1,18 @@
+{
+  "id": 133921776,
+  "name": "ecraven/imgbb.el",
+  "description": "Simple image upload client for imgbb.com",
+  "url": "https://github.com/ecraven/imgbb.el",
+  "stars": 8,
+  "updated": "2018-06-09T16:50:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "imgbb",
+    "fetcher": "github",
+    "repo": "ecraven/imgbb.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 732500217,
+  "name": "LaurenceWarne/rom-party.el",
+  "description": ":bomb: party... in Emacs",
+  "url": "https://github.com/LaurenceWarne/rom-party.el",
+  "stars": 5,
+  "updated": "2025-06-27T08:39:06Z",
+  "archived": false,
+  "topics": ["emacs", "games"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rom-party",
+    "fetcher": "github",
+    "repo": "LaurenceWarne/rom-party.el",
+    "files": "(:defaults \"index.extmap.gz\")"
+  }
+}

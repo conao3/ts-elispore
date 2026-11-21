@@ -1,0 +1,18 @@
+{
+  "id": 498374098,
+  "name": "mnemitz/smithy-mode",
+  "description": "Major mode for editing Smithy files in Emacs",
+  "url": "https://github.com/mnemitz/smithy-mode",
+  "stars": 5,
+  "updated": "2022-06-21T19:23:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smithy-mode",
+    "fetcher": "github",
+    "repo": "mnemitz/smithy-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 6019760,
+  "name": "ruediger/weather-metno-el",
+  "description": "Weather data from met.no in GNU Emacs",
+  "url": "https://github.com/ruediger/weather-metno-el",
+  "stars": 34,
+  "updated": "2025-07-27T16:42:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "weather-metno",
+    "fetcher": "github",
+    "repo": "ruediger/weather-metno-el"
+  }
+}

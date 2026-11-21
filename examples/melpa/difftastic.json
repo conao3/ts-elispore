@@ -1,0 +1,18 @@
+{
+  "id": 682501769,
+  "name": "pkryger/difftastic.el",
+  "description": "Wrapper for difftastic",
+  "url": "https://github.com/pkryger/difftastic.el",
+  "stars": 135,
+  "updated": "2026-11-17T06:28:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "difftastic",
+    "fetcher": "github",
+    "repo": "pkryger/difftastic.el"
+  }
+}

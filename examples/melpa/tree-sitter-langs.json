@@ -1,0 +1,20 @@
+{
+  "id": 340323375,
+  "name": "emacs-tree-sitter/tree-sitter-langs",
+  "description": "Language bundle for Emacs's tree-sitter package",
+  "url": "https://github.com/emacs-tree-sitter/tree-sitter-langs",
+  "stars": 364,
+  "updated": "2026-11-15T04:55:04Z",
+  "archived": false,
+  "topics": ["emacs", "parsing", "tree-sitter"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "tree-sitter-langs",
+    "fetcher": "github",
+    "repo": "emacs-tree-sitter/tree-sitter-langs",
+    "branch": "release",
+    "files": "(:defaults\n                           \"queries\")"
+  }
+}

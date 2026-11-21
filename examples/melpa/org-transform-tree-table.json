@@ -1,0 +1,18 @@
+{
+  "id": 28413251,
+  "name": "jplindstrom/emacs-org-transform-tree-table",
+  "description": "Transform an org-mode outline and its properties to a table format (org-table, CSV)",
+  "url": "https://github.com/jplindstrom/emacs-org-transform-tree-table",
+  "stars": 29,
+  "updated": "2020-04-13T20:00:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-transform-tree-table",
+    "fetcher": "github",
+    "repo": "jplindstrom/emacs-org-transform-tree-table"
+  }
+}

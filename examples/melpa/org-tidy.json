@@ -1,0 +1,18 @@
+{
+  "id": 597980587,
+  "name": "jxq0/org-tidy",
+  "description": "🧹  An Emacs minor mode to automatically tidy org-mode property drawers",
+  "url": "https://github.com/jxq0/org-tidy",
+  "stars": 140,
+  "updated": "2024-12-12T00:28:33Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-tidy",
+    "fetcher": "github",
+    "repo": "jxq0/org-tidy"
+  }
+}

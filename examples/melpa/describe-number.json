@@ -1,0 +1,18 @@
+{
+  "id": 44909817,
+  "name": "netromdk/describe-number",
+  "description": "Describe arbitrarily large number at point in Emacs.",
+  "url": "https://github.com/netromdk/describe-number",
+  "stars": 6,
+  "updated": "2015-11-01T01:01:22Z",
+  "archived": false,
+  "topics": ["describe", "emacs", "hexadecimal", "melpa"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "describe-number",
+    "fetcher": "github",
+    "repo": "netromdk/describe-number"
+  }
+}

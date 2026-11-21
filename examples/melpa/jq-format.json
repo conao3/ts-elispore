@@ -1,0 +1,18 @@
+{
+  "id": 183295664,
+  "name": "wbolster/emacs-jq-format",
+  "description": "Emacs JSON reformatting using jq",
+  "url": "https://github.com/wbolster/emacs-jq-format",
+  "stars": 16,
+  "updated": "2022-02-08T13:19:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jq-format",
+    "fetcher": "github",
+    "repo": "wbolster/emacs-jq-format"
+  }
+}

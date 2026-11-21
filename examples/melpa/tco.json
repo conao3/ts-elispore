@@ -1,0 +1,18 @@
+{
+  "id": 10285551,
+  "name": "Wilfred/tco.el",
+  "description": "Tail call optimisation in Emacs lisp",
+  "url": "https://github.com/Wilfred/tco.el",
+  "stars": 80,
+  "updated": "2019-11-29T20:40:38Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "tail-call-optimisation"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tco",
+    "fetcher": "github",
+    "repo": "Wilfred/tco.el"
+  }
+}

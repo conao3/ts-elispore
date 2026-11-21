@@ -1,0 +1,18 @@
+{
+  "id": 42178010,
+  "name": "mrkkrp/modalka",
+  "description": "Modal editing your way",
+  "url": "https://github.com/mrkkrp/modalka",
+  "stars": 304,
+  "updated": "2026-09-10T15:29:03Z",
+  "archived": false,
+  "topics": ["emacs", "modal-editing"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "modalka",
+    "fetcher": "github",
+    "repo": "mrkkrp/modalka"
+  }
+}

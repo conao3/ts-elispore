@@ -1,0 +1,18 @@
+{
+  "id": 6750978,
+  "name": "zellio/j-mode",
+  "description": "Emacs major mode for editing J code.",
+  "url": "https://github.com/zellio/j-mode",
+  "stars": 50,
+  "updated": "2026-03-28T12:26:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "j-mode",
+    "fetcher": "github",
+    "repo": "zellio/j-mode"
+  }
+}

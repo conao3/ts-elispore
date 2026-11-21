@@ -1,0 +1,18 @@
+{
+  "id": 795993277,
+  "name": "captainflasmr/xkb-mode",
+  "description": "Major mode for editing X Keyboard Extension (XKB) files",
+  "url": "https://github.com/captainflasmr/xkb-mode",
+  "stars": 8,
+  "updated": "2025-04-21T08:40:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xkb-mode",
+    "fetcher": "github",
+    "repo": "captainflasmr/xkb-mode"
+  }
+}

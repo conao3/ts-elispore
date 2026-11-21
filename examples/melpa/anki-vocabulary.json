@@ -1,0 +1,18 @@
+{
+  "id": 179450468,
+  "name": "lujun9972/anki-vocabulary.el",
+  "description": "Help you to create vocabulary card in Anki",
+  "url": "https://github.com/lujun9972/anki-vocabulary.el",
+  "stars": 11,
+  "updated": "2021-09-01T08:47:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "anki-vocabulary",
+    "fetcher": "github",
+    "repo": "lujun9972/anki-vocabulary.el"
+  }
+}

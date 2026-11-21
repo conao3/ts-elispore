@@ -1,0 +1,18 @@
+{
+  "id": 163696697,
+  "name": "huytd/org-journal-list",
+  "description": "A package to display a list of org-notes with preview.",
+  "url": "https://github.com/huytd/org-journal-list",
+  "stars": 18,
+  "updated": "2019-02-21T20:52:36Z",
+  "archived": false,
+  "topics": ["emacs", "journal", "journal-application", "note-taking", "org-mode"],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-journal-list",
+    "fetcher": "github",
+    "repo": "huytd/org-journal-list"
+  }
+}

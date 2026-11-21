@@ -1,0 +1,18 @@
+{
+  "id": 119177506,
+  "name": "emacs-helm/helm-apt",
+  "description": "The old helm package for apt, deprecated by helm-system-packages",
+  "url": "https://github.com/emacs-helm/helm-apt",
+  "stars": 6,
+  "updated": "2023-10-05T04:27:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-apt",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-apt"
+  }
+}

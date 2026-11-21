@@ -1,0 +1,18 @@
+{
+  "id": 13370445,
+  "name": "krisajenkins/helm-spotify",
+  "description": "A simple Spotify-for-Emacs interface.",
+  "url": "https://github.com/krisajenkins/helm-spotify",
+  "stars": 179,
+  "updated": "2017-02-27T23:10:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-spotify",
+    "fetcher": "github",
+    "repo": "krisajenkins/helm-spotify"
+  }
+}

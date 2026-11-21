@@ -1,0 +1,18 @@
+{
+  "id": 458863052,
+  "name": "Qkessler/consult-project-extra",
+  "description": "Consult extension for project.el",
+  "url": "https://github.com/Qkessler/consult-project-extra",
+  "stars": 74,
+  "updated": "2026-04-28T20:07:12Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "management", "project"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-project-extra",
+    "fetcher": "github",
+    "repo": "Qkessler/consult-project-extra"
+  }
+}

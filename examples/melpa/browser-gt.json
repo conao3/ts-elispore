@@ -1,0 +1,18 @@
+{
+  "id": 1249303994,
+  "name": "dmgerman/browser-gt",
+  "description": "browser-gt is a module that allows Emacs and a Web browser to communicate with each other, in both directions.",
+  "url": "https://github.com/dmgerman/browser-gt",
+  "stars": 76,
+  "updated": "2026-11-17T01:18:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "ownerType": "User",
+  "melpa": {
+    "name": "browser-gt",
+    "fetcher": "github",
+    "repo": "dmgerman/browser-gt"
+  }
+}

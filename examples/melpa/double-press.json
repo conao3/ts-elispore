@@ -1,0 +1,19 @@
+{
+  "id": 1052150184,
+  "name": "k-talo/double-press.el",
+  "description": "Bind two actions to the same key by timing (single vs double press)",
+  "url": "https://github.com/k-talo/double-press.el",
+  "stars": 9,
+  "updated": "2025-09-16T10:07:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "double-press",
+    "fetcher": "github",
+    "repo": "k-talo/double-press.el",
+    "files": "(\"double-press.el\")"
+  }
+}

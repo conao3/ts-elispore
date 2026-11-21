@@ -1,0 +1,18 @@
+{
+  "id": 1911881,
+  "name": "tamzinblake/js3-mode",
+  "description": "A chimeric fork of js2-mode and js-mode",
+  "url": "https://github.com/tamzinblake/js3-mode",
+  "stars": 180,
+  "updated": "2017-04-07T04:06:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js3-mode",
+    "fetcher": "github",
+    "repo": "tamzinblake/js3-mode"
+  }
+}

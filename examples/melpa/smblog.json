@@ -1,0 +1,18 @@
+{
+  "id": 53412133,
+  "name": "aaptel/smblog-mode",
+  "description": "emacs mode for samba type log file",
+  "url": "https://github.com/aaptel/smblog-mode",
+  "stars": 3,
+  "updated": "2020-04-24T09:38:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smblog",
+    "fetcher": "github",
+    "repo": "aaptel/smblog-mode"
+  }
+}

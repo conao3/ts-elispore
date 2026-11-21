@@ -1,0 +1,19 @@
+{
+  "id": 7378976,
+  "name": "mooz/fyure",
+  "description": "An interface to fix Japanese hyoki-yure for Emacs",
+  "url": "https://github.com/mooz/fyure",
+  "stars": 2,
+  "updated": "2013-02-16T13:15:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fyure",
+    "fetcher": "github",
+    "repo": "mooz/fyure",
+    "files": "(\"fyure.el\" \"fyure.py\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1354643881,
+  "name": "Thysrael/markdown-ts-appear",
+  "description": "Reveal Markdown source at point and preview math in Emacs markdown-ts-mode",
+  "url": "https://github.com/Thysrael/markdown-ts-appear",
+  "stars": 63,
+  "updated": "2026-11-09T03:19:26Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "markdown", "mathjax", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "markdown-ts-appear",
+    "fetcher": "github",
+    "repo": "Thysrael/markdown-ts-appear"
+  }
+}

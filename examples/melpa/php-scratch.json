@@ -1,0 +1,18 @@
+{
+  "id": 63951344,
+  "name": "mallt/php-scratch",
+  "description": "An emacs scratch buffer to interactively evaluate php code",
+  "url": "https://github.com/mallt/php-scratch",
+  "stars": 3,
+  "updated": "2021-07-06T04:59:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "php-scratch",
+    "fetcher": "github",
+    "repo": "mallt/php-scratch"
+  }
+}

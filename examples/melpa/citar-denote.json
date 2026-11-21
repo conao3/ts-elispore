@@ -1,0 +1,18 @@
+{
+  "id": 516981099,
+  "name": "pprevos/citar-denote",
+  "description": "Emacs package to create and retrieve bibliography notes with the Citar and Denote packages.",
+  "url": "https://github.com/pprevos/citar-denote",
+  "stars": 86,
+  "updated": "2026-03-02T05:22:14Z",
+  "archived": false,
+  "topics": ["bibliography", "emacs", "notes"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "citar-denote",
+    "fetcher": "github",
+    "repo": "pprevos/citar-denote"
+  }
+}

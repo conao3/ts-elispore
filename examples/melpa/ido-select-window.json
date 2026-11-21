@@ -1,0 +1,18 @@
+{
+  "id": 15345868,
+  "name": "pjones/ido-select-window",
+  "description": "Emacs package to select a window using ido and buffer names.",
+  "url": "https://github.com/pjones/ido-select-window",
+  "stars": 3,
+  "updated": "2017-01-10T03:26:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ido-select-window",
+    "fetcher": "github",
+    "repo": "pjones/ido-select-window"
+  }
+}

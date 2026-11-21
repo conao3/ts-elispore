@@ -1,0 +1,18 @@
+{
+  "id": 137960994,
+  "name": "ralexstokes/vyper-mode",
+  "description": "An Emacs mode for Vyper https://github.com/ethereum/vyper",
+  "url": "https://github.com/ralexstokes/vyper-mode",
+  "stars": 11,
+  "updated": "2018-07-07T19:35:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vyper-mode",
+    "fetcher": "github",
+    "repo": "ralexstokes/vyper-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 11614178,
+  "name": "johnmastro/trident-mode.el",
+  "description": "Emacs minor mode for live Parenscript interaction",
+  "url": "https://github.com/johnmastro/trident-mode.el",
+  "stars": 78,
+  "updated": "2019-04-10T20:36:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "trident-mode",
+    "fetcher": "github",
+    "repo": "johnmastro/trident-mode.el"
+  }
+}

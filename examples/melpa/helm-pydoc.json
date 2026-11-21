@@ -1,0 +1,19 @@
+{
+  "id": 7000709,
+  "name": "emacsorphanage/helm-pydoc",
+  "description": "pydoc with helm interface",
+  "url": "https://github.com/emacsorphanage/helm-pydoc",
+  "stars": 21,
+  "updated": "2023-05-22T11:05:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-pydoc",
+    "fetcher": "github",
+    "repo": "emacsorphanage/helm-pydoc",
+    "files": "(:defaults \"*.py\")"
+  }
+}

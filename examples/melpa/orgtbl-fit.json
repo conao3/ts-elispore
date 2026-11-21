@@ -1,0 +1,18 @@
+{
+  "id": 587010187,
+  "name": "tbanel/orgtblfit",
+  "description": "Do regression fitting on Org Mode tables",
+  "url": "https://github.com/tbanel/orgtblfit",
+  "stars": 16,
+  "updated": "2026-01-09T09:26:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "orgtbl-fit",
+    "fetcher": "github",
+    "repo": "tbanel/orgtblfit"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 246583501,
+  "name": "xuchunyang/msgpack.el",
+  "description": "MessagePack Emacs Lisp library",
+  "url": "https://github.com/xuchunyang/msgpack.el",
+  "stars": 10,
+  "updated": "2026-07-06T15:55:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "msgpack",
+    "fetcher": "github",
+    "repo": "xuchunyang/msgpack.el"
+  }
+}

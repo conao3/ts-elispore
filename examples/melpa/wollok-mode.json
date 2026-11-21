@@ -1,0 +1,18 @@
+{
+  "id": 780177101,
+  "name": "tralph3/wollok-mode",
+  "description": "Emacs major mode for the Wollok programming language",
+  "url": "https://github.com/tralph3/wollok-mode",
+  "stars": 0,
+  "updated": "2024-10-16T19:04:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wollok-mode",
+    "fetcher": "github",
+    "repo": "tralph3/wollok-mode"
+  }
+}

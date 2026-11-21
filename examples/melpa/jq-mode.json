@@ -1,0 +1,18 @@
+{
+  "id": 41152594,
+  "name": "ljos/jq-mode",
+  "description": "Emacs major mode for editing jq queries.",
+  "url": "https://github.com/ljos/jq-mode",
+  "stars": 137,
+  "updated": "2026-08-21T10:06:22Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-mode", "jq"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jq-mode",
+    "fetcher": "github",
+    "repo": "ljos/jq-mode"
+  }
+}

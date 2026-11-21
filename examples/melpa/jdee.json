@@ -1,0 +1,19 @@
+{
+  "id": 39029232,
+  "name": "jdee-emacs/jdee",
+  "description": "The JDEE is an add-on software package that turns Emacs into a comprehensive system for creating, editing, debugging, and documenting Java applications.",
+  "url": "https://github.com/jdee-emacs/jdee",
+  "stars": 427,
+  "updated": "2023-10-12T18:30:51Z",
+  "archived": false,
+  "topics": ["emacs", "java", "jdee"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "jdee",
+    "fetcher": "github",
+    "repo": "jdee-emacs/jdee",
+    "files": "(\"*.el\" \"*.info\" (:exclude \".dir-locals.el\"))"
+  }
+}

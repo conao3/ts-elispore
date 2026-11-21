@@ -1,0 +1,18 @@
+{
+  "id": 56765686,
+  "name": "sjrmanning/darkokai",
+  "description": ":new_moon: Dark colour theme inspired by monokai with an uninspired name.",
+  "url": "https://github.com/sjrmanning/darkokai",
+  "stars": 120,
+  "updated": "2026-03-16T19:08:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "darkokai-theme",
+    "fetcher": "github",
+    "repo": "sjrmanning/darkokai"
+  }
+}

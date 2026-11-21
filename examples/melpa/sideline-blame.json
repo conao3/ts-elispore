@@ -1,0 +1,18 @@
+{
+  "id": 506102779,
+  "name": "emacs-sideline/sideline-blame",
+  "description": "Show blame messages with sideline",
+  "url": "https://github.com/emacs-sideline/sideline-blame",
+  "stars": 27,
+  "updated": "2026-06-18T17:28:07Z",
+  "archived": false,
+  "topics": ["blame"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sideline-blame",
+    "fetcher": "github",
+    "repo": "emacs-sideline/sideline-blame"
+  }
+}

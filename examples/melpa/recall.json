@@ -1,0 +1,18 @@
+{
+  "id": 761481571,
+  "name": "svaante/recall",
+  "description": "Extensive history for processes",
+  "url": "https://github.com/svaante/recall",
+  "stars": 22,
+  "updated": "2025-01-20T21:31:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "recall",
+    "fetcher": "github",
+    "repo": "svaante/recall"
+  }
+}

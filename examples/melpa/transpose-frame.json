@@ -1,0 +1,18 @@
+{
+  "id": 60040133,
+  "name": "emacsorphanage/transpose-frame",
+  "description": "Transpose windows arrangement in a frame",
+  "url": "https://github.com/emacsorphanage/transpose-frame",
+  "stars": 32,
+  "updated": "2022-11-09T20:53:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "transpose-frame",
+    "fetcher": "github",
+    "repo": "emacsorphanage/transpose-frame"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 59954981,
+  "name": "s-kostyaev/ivy-erlang-complete",
+  "description": "ivy-erlang-complete is context sensitive completion for erlang without connecting to erlang nodes.",
+  "url": "https://github.com/s-kostyaev/ivy-erlang-complete",
+  "stars": 31,
+  "updated": "2025-02-10T17:38:05Z",
+  "archived": false,
+  "topics": ["emacs", "erlang", "erlang-developement"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-erlang-complete",
+    "fetcher": "github",
+    "repo": "s-kostyaev/ivy-erlang-complete",
+    "files": "(:defaults \"bin\")"
+  }
+}

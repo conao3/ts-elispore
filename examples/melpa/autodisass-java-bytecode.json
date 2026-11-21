@@ -1,0 +1,18 @@
+{
+  "id": 21100572,
+  "name": "gbalats/autodisass-java-bytecode",
+  "description": "Automatically disassemble emacs buffers containing Java bytecode.",
+  "url": "https://github.com/gbalats/autodisass-java-bytecode",
+  "stars": 17,
+  "updated": "2023-09-07T17:29:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "autodisass-java-bytecode",
+    "fetcher": "github",
+    "repo": "gbalats/autodisass-java-bytecode"
+  }
+}

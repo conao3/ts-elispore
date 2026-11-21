@@ -1,0 +1,18 @@
+{
+  "id": 18971656,
+  "name": "NicolasPetton/amd-mode.el",
+  "description": "Emacs minor mode for handling JavaScript AMD module definitions.",
+  "url": "https://github.com/NicolasPetton/amd-mode.el",
+  "stars": 9,
+  "updated": "2018-01-11T14:02:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "amd-mode",
+    "fetcher": "github",
+    "repo": "NicolasPetton/amd-mode.el"
+  }
+}

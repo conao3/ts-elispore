@@ -1,0 +1,18 @@
+{
+  "id": 739130645,
+  "name": "captainflasmr/selected-window-accent-mode",
+  "description": "This Emacs package provides functions designed to visually distinguish the currently selected window by applying a unique accent color to its fringes, mode line, header line, and margins.",
+  "url": "https://github.com/captainflasmr/selected-window-accent-mode",
+  "stars": 41,
+  "updated": "2026-11-10T11:18:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "selected-window-accent-mode",
+    "fetcher": "github",
+    "repo": "captainflasmr/selected-window-accent-mode"
+  }
+}

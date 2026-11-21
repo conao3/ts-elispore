@@ -1,0 +1,18 @@
+{
+  "id": 20654876,
+  "name": "LefterisJP/malinka",
+  "description": "A C/C++ project configuration package for Emacs",
+  "url": "https://github.com/LefterisJP/malinka",
+  "stars": 48,
+  "updated": "2022-01-23T12:46:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "malinka",
+    "fetcher": "github",
+    "repo": "LefterisJP/malinka"
+  }
+}

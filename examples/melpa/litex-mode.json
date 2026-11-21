@@ -1,0 +1,18 @@
+{
+  "id": 456304070,
+  "name": "Atreyagaurav/litex-mode",
+  "description": "LiTeX mode for emacs; A minor mode to convert valid lisp expressions to LaTeX",
+  "url": "https://github.com/Atreyagaurav/litex-mode",
+  "stars": 43,
+  "updated": "2023-02-27T20:00:17Z",
+  "archived": false,
+  "topics": ["emacs", "latex", "lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "litex-mode",
+    "fetcher": "github",
+    "repo": "Atreyagaurav/litex-mode"
+  }
+}

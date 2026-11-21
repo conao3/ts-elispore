@@ -1,0 +1,18 @@
+{
+  "id": 70228875,
+  "name": "davazp/graphql-mode",
+  "description": "An Emacs mode for GraphQL",
+  "url": "https://github.com/davazp/graphql-mode",
+  "stars": 169,
+  "updated": "2026-10-31T02:53:12Z",
+  "archived": false,
+  "topics": ["emacs-mode", "graphql", "graphql-mode", "melpa"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "graphql-mode",
+    "fetcher": "github",
+    "repo": "davazp/graphql-mode"
+  }
+}

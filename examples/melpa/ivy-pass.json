@@ -1,0 +1,18 @@
+{
+  "id": 98620020,
+  "name": "ecraven/ivy-pass",
+  "description": "ivy interface for pass",
+  "url": "https://github.com/ecraven/ivy-pass",
+  "stars": 23,
+  "updated": "2021-09-09T10:38:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-pass",
+    "fetcher": "github",
+    "repo": "ecraven/ivy-pass"
+  }
+}

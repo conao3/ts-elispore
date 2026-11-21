@@ -1,0 +1,18 @@
+{
+  "id": 60767640,
+  "name": "nlamirault/emacs-markdownfmt",
+  "description": "Format Markdown in emacs using markdownfmt",
+  "url": "https://github.com/nlamirault/emacs-markdownfmt",
+  "stars": 12,
+  "updated": "2022-01-14T14:40:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "markdownfmt",
+    "fetcher": "github",
+    "repo": "nlamirault/emacs-markdownfmt"
+  }
+}

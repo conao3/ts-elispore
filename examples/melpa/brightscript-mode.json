@@ -1,0 +1,18 @@
+{
+  "id": 245025990,
+  "name": "viseztrance/brightscript-mode",
+  "description": "Major emacs mode for the BrightScript programming language used by BrightSign and Roku devices",
+  "url": "https://github.com/viseztrance/brightscript-mode",
+  "stars": 3,
+  "updated": "2022-09-06T08:29:09Z",
+  "archived": false,
+  "topics": ["brightscript", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "brightscript-mode",
+    "fetcher": "github",
+    "repo": "viseztrance/brightscript-mode"
+  }
+}

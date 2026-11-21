@@ -1,0 +1,18 @@
+{
+  "id": 85009648,
+  "name": "abrochard/org-sync-snippets",
+  "description": "Simple extension to export snippets to org-mode and vice versa",
+  "url": "https://github.com/abrochard/org-sync-snippets",
+  "stars": 13,
+  "updated": "2021-01-11T17:27:10Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode", "snippets"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-sync-snippets",
+    "fetcher": "github",
+    "repo": "abrochard/org-sync-snippets"
+  }
+}

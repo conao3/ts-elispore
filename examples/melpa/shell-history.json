@@ -1,0 +1,18 @@
+{
+  "id": 523409,
+  "name": "emacsorphanage/shell-history",
+  "description": "Integration with shell history",
+  "url": "https://github.com/emacsorphanage/shell-history",
+  "stars": 2,
+  "updated": "2011-11-12T20:41:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "shell-history",
+    "fetcher": "github",
+    "repo": "emacsorphanage/shell-history"
+  }
+}

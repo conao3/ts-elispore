@@ -1,0 +1,18 @@
+{
+  "id": 30971894,
+  "name": "mikenichols/railscasts-theme",
+  "description": "Railscasts color theme for GNU Emacs 24",
+  "url": "https://github.com/mikenichols/railscasts-theme",
+  "stars": 5,
+  "updated": "2015-02-19T15:26:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "railscasts-theme",
+    "fetcher": "github",
+    "repo": "mikenichols/railscasts-theme"
+  }
+}

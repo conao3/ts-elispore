@@ -1,0 +1,18 @@
+{
+  "id": 38492332,
+  "name": "zweifisch/enlive",
+  "description": "query html document with css selectors in elisp",
+  "url": "https://github.com/zweifisch/enlive",
+  "stars": 45,
+  "updated": "2023-05-30T10:02:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "enlive",
+    "fetcher": "github",
+    "repo": "zweifisch/enlive"
+  }
+}

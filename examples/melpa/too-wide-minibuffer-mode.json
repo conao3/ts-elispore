@@ -1,0 +1,18 @@
+{
+  "id": 978288258,
+  "name": "hron/too-wide-minibuffer-mode",
+  "description": "Shrink Emacs' minibuffer",
+  "url": "https://github.com/hron/too-wide-minibuffer-mode",
+  "stars": 5,
+  "updated": "2025-05-26T07:49:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "too-wide-minibuffer-mode",
+    "fetcher": "github",
+    "repo": "hron/too-wide-minibuffer-mode"
+  }
+}

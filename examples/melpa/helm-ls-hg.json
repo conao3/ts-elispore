@@ -1,0 +1,18 @@
+{
+  "id": 3820050,
+  "name": "emacs-helm/helm-ls-hg",
+  "description": "helm extensions for listing files in hg project.",
+  "url": "https://github.com/emacs-helm/helm-ls-hg",
+  "stars": 10,
+  "updated": "2017-04-17T06:45:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-ls-hg",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-ls-hg"
+  }
+}

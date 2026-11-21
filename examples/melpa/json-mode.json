@@ -1,0 +1,18 @@
+{
+  "id": 1523334,
+  "name": "json-emacs/json-mode",
+  "description": "Major mode for editing JSON files with emacs",
+  "url": "https://github.com/json-emacs/json-mode",
+  "stars": 328,
+  "updated": "2025-03-09T14:10:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "json-mode",
+    "fetcher": "github",
+    "repo": "json-emacs/json-mode"
+  }
+}

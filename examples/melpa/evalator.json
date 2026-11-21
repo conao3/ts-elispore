@@ -1,0 +1,18 @@
+{
+  "id": 48980139,
+  "name": "seanirby/evalator",
+  "description": "Emacs package for interactive evaluation and transformation of data.",
+  "url": "https://github.com/seanirby/evalator",
+  "stars": 45,
+  "updated": "2016-02-13T01:28:46Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evalator",
+    "fetcher": "github",
+    "repo": "seanirby/evalator"
+  }
+}

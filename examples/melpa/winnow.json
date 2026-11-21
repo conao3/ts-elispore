@@ -1,0 +1,18 @@
+{
+  "id": 102247114,
+  "name": "dgtized/winnow.el",
+  "description": "Winnow search results from ag/grep by matching/excluding lines",
+  "url": "https://github.com/dgtized/winnow.el",
+  "stars": 18,
+  "updated": "2026-10-10T13:09:46Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-customizations", "emacs-package"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "winnow",
+    "fetcher": "github",
+    "repo": "dgtized/winnow.el"
+  }
+}

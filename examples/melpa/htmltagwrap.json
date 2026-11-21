@@ -1,0 +1,18 @@
+{
+  "id": 160327388,
+  "name": "emacs-vs/htmltagwrap",
+  "description": "Wraps a chunk of HTML code in tags (for Emacs).",
+  "url": "https://github.com/emacs-vs/htmltagwrap",
+  "stars": 4,
+  "updated": "2026-06-19T13:54:21Z",
+  "archived": false,
+  "topics": ["editing", "elisp", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "htmltagwrap",
+    "fetcher": "github",
+    "repo": "emacs-vs/htmltagwrap"
+  }
+}

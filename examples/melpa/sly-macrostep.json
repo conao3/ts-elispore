@@ -1,0 +1,19 @@
+{
+  "id": 49875328,
+  "name": "joaotavora/sly-macrostep",
+  "description": "Expand CL macros inside source files",
+  "url": "https://github.com/joaotavora/sly-macrostep",
+  "stars": 33,
+  "updated": "2019-12-11T17:18:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sly-macrostep",
+    "fetcher": "github",
+    "repo": "joaotavora/sly-macrostep",
+    "files": "(:defaults\n                         \"*.lisp\"\n                         \"*.asd\"\n                         (:exclude \"sly-macrostep-autoloads.el\"))"
+  }
+}

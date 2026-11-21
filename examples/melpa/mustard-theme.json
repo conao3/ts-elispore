@@ -1,0 +1,18 @@
+{
+  "id": 26705130,
+  "name": "emacsfodder/emacs-mustard-theme",
+  "description": "",
+  "url": "https://github.com/emacsfodder/emacs-mustard-theme",
+  "stars": 1,
+  "updated": "2017-08-08T13:19:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "mustard-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-mustard-theme"
+  }
+}

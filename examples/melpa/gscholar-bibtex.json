@@ -1,0 +1,18 @@
+{
+  "id": 32699661,
+  "name": "cute-jumper/gscholar-bibtex",
+  "description": "Retrieve BibTeX entries from Google Scholar, ACM Digital Library, IEEE Xplore and DBLP",
+  "url": "https://github.com/cute-jumper/gscholar-bibtex",
+  "stars": 110,
+  "updated": "2021-08-08T12:52:49Z",
+  "archived": false,
+  "topics": ["bibtex", "emacs", "google-scholar"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gscholar-bibtex",
+    "fetcher": "github",
+    "repo": "cute-jumper/gscholar-bibtex"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 10467561,
+  "name": "ryuslash/desktop-registry",
+  "description": "Keep a central registry of desktop files",
+  "url": "https://github.com/ryuslash/desktop-registry",
+  "stars": 9,
+  "updated": "2014-01-19T22:12:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "desktop-registry",
+    "fetcher": "github",
+    "repo": "ryuslash/desktop-registry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 87481603,
+  "name": "nickserv/add-hooks",
+  "description": "Emacs function for setting multiple hooks.",
+  "url": "https://github.com/nickserv/add-hooks",
+  "stars": 16,
+  "updated": "2017-12-17T01:24:06Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-packages"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "add-hooks",
+    "fetcher": "github",
+    "repo": "nickserv/add-hooks"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 8342327,
+  "name": "vspinu/ac-math",
+  "description": "auto-complete sources for input of mathematical symbols and latex tags",
+  "url": "https://github.com/vspinu/ac-math",
+  "stars": 27,
+  "updated": "2014-11-16T21:29:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-math",
+    "fetcher": "github",
+    "repo": "vspinu/ac-math"
+  }
+}

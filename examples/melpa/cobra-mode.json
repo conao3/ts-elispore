@@ -1,0 +1,18 @@
+{
+  "id": 10520163,
+  "name": "Nekroze/cobra-mode",
+  "description": "An emacs major mode for cobra.",
+  "url": "https://github.com/Nekroze/cobra-mode",
+  "stars": 2,
+  "updated": "2014-01-16T21:16:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cobra-mode",
+    "fetcher": "github",
+    "repo": "Nekroze/cobra-mode"
+  }
+}

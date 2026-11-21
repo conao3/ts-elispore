@@ -1,0 +1,18 @@
+{
+  "id": 230553215,
+  "name": "ageldama/moonshot",
+  "description": "Run executable file, debug and build commands on project +projectile, compilation-mode, ivy, realgud",
+  "url": "https://github.com/ageldama/moonshot",
+  "stars": 6,
+  "updated": "2021-06-27T22:45:12Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "moonshot",
+    "fetcher": "github",
+    "repo": "ageldama/moonshot"
+  }
+}

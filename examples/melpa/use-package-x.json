@@ -1,0 +1,18 @@
+{
+  "id": 1023964834,
+  "name": "DevelopmentCool2449/use-package-x",
+  "description": "A collection of useful(less) keywords for use-package",
+  "url": "https://github.com/DevelopmentCool2449/use-package-x",
+  "stars": 21,
+  "updated": "2026-09-04T21:05:13Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-configuration", "use-package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "use-package-x",
+    "fetcher": "github",
+    "repo": "DevelopmentCool2449/use-package-x"
+  }
+}

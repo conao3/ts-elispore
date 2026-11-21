@@ -1,0 +1,18 @@
+{
+  "id": 957257728,
+  "name": "agzam/github-topics",
+  "description": "Lookup PRs matching a query",
+  "url": "https://github.com/agzam/github-topics",
+  "stars": 3,
+  "updated": "2026-08-24T23:44:46Z",
+  "archived": false,
+  "topics": ["emacs", "github-cli", "org-mode", "pull-requests"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "github-topics",
+    "fetcher": "github",
+    "repo": "agzam/github-topics"
+  }
+}

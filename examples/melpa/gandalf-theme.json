@@ -1,0 +1,18 @@
+{
+  "id": 11484442,
+  "name": "ptrv/gandalf-theme-emacs",
+  "description": "Gandalf color theme for Emacs",
+  "url": "https://github.com/ptrv/gandalf-theme-emacs",
+  "stars": 6,
+  "updated": "2013-08-09T09:47:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gandalf-theme",
+    "fetcher": "github",
+    "repo": "ptrv/gandalf-theme-emacs"
+  }
+}

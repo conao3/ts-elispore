@@ -1,0 +1,18 @@
+{
+  "id": 25016408,
+  "name": "syl20bnr/evil-lisp-state",
+  "description": "An evil state to navigate Lisp code and modify it with smartparens",
+  "url": "https://github.com/syl20bnr/evil-lisp-state",
+  "stars": 91,
+  "updated": "2020-02-13T18:55:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-lisp-state",
+    "fetcher": "github",
+    "repo": "syl20bnr/evil-lisp-state"
+  }
+}

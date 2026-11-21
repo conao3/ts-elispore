@@ -1,0 +1,18 @@
+{
+  "id": 84013615,
+  "name": "radian-software/diary-manager",
+  "description": "📔 Simple command-line tool and Emacs package for managing diary entries.",
+  "url": "https://github.com/radian-software/diary-manager",
+  "stars": 18,
+  "updated": "2023-04-24T01:18:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "diary-manager",
+    "fetcher": "github",
+    "repo": "radian-software/diary-manager"
+  }
+}

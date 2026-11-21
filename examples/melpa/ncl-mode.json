@@ -1,0 +1,19 @@
+{
+  "id": 2201901,
+  "name": "yyr/ncl-mode",
+  "description": "Emacs major mode and other utilities for NCL. ",
+  "url": "https://github.com/yyr/ncl-mode",
+  "stars": 3,
+  "updated": "2018-01-29T07:04:08Z",
+  "archived": false,
+  "topics": ["atmospheric-science", "emacs", "ncar", "plotting"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ncl-mode",
+    "fetcher": "github",
+    "repo": "yyr/ncl-mode",
+    "files": "(\"*.el\" \"snippets\" \"snippets_generated\" \"dict\" \"tools\" \"img\")"
+  }
+}

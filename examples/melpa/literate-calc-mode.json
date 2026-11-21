@@ -1,0 +1,18 @@
+{
+  "id": 262589879,
+  "name": "sulami/literate-calc-mode.el",
+  "description": "🧮 Literate programming for M-x calc",
+  "url": "https://github.com/sulami/literate-calc-mode.el",
+  "stars": 358,
+  "updated": "2025-08-09T12:28:21Z",
+  "archived": false,
+  "topics": ["calc", "calculator", "emacs", "hacktoberfest", "literate-programming"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "literate-calc-mode",
+    "fetcher": "github",
+    "repo": "sulami/literate-calc-mode.el"
+  }
+}

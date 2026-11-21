@@ -1,0 +1,18 @@
+{
+  "id": 903010523,
+  "name": "sandinmyjoints/kill-dollar-mode",
+  "description": "Remove leading `$` from shell-script-like text in documentation.",
+  "url": "https://github.com/sandinmyjoints/kill-dollar-mode",
+  "stars": 3,
+  "updated": "2024-12-17T19:48:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kill-dollar-mode",
+    "fetcher": "github",
+    "repo": "sandinmyjoints/kill-dollar-mode"
+  }
+}

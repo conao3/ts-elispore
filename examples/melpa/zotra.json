@@ -1,0 +1,18 @@
+{
+  "id": 511265711,
+  "name": "mpedramfar/zotra",
+  "description": "",
+  "url": "https://github.com/mpedramfar/zotra",
+  "stars": 201,
+  "updated": "2023-10-14T21:39:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zotra",
+    "fetcher": "github",
+    "repo": "mpedramfar/zotra"
+  }
+}

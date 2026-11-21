@@ -1,0 +1,18 @@
+{
+  "id": 490681118,
+  "name": "themkat/mos-mode",
+  "description": "Emacs support for working with MOS 6502 assembly files using https://github.com/datatrash/mos. Utilizes lsp-mode and dap-mode",
+  "url": "https://github.com/themkat/mos-mode",
+  "stars": 4,
+  "updated": "2022-12-09T13:53:58Z",
+  "archived": false,
+  "topics": ["6502", "c64", "emacs", "lsp", "mos", "retro", "retrocomputing"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mos-mode",
+    "fetcher": "github",
+    "repo": "themkat/mos-mode"
+  }
+}

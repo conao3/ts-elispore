@@ -1,0 +1,18 @@
+{
+  "id": 159109979,
+  "name": "orzechowskid/flymake-eslint",
+  "description": "Flymake backend for Javascript using eslint",
+  "url": "https://github.com/orzechowskid/flymake-eslint",
+  "stars": 49,
+  "updated": "2025-06-20T18:41:10Z",
+  "archived": false,
+  "topics": ["emacs", "eslint", "flymake", "flymake-backend", "flymake-eslint", "javascript"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-eslint",
+    "fetcher": "github",
+    "repo": "orzechowskid/flymake-eslint"
+  }
+}

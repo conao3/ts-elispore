@@ -1,0 +1,19 @@
+{
+  "id": 106263946,
+  "name": "ocaml-ppx/ocamlformat",
+  "description": "Auto-formatter for OCaml code",
+  "url": "https://github.com/ocaml-ppx/ocamlformat",
+  "stars": 733,
+  "updated": "2026-11-20T18:42:54Z",
+  "archived": false,
+  "topics": ["ocaml"],
+  "license": "MIT",
+  "language": "OCaml",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ocamlformat",
+    "fetcher": "github",
+    "repo": "ocaml-ppx/ocamlformat",
+    "files": "(\"emacs/ocamlformat.el\")"
+  }
+}

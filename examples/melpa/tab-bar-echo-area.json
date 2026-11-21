@@ -1,0 +1,18 @@
+{
+  "id": 334267670,
+  "name": "fritzgrabo/tab-bar-echo-area",
+  "description": "Emacs: Display tab names of the tab bar in the echo area",
+  "url": "https://github.com/fritzgrabo/tab-bar-echo-area",
+  "stars": 25,
+  "updated": "2024-08-09T14:47:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tab-bar-echo-area",
+    "fetcher": "github",
+    "repo": "fritzgrabo/tab-bar-echo-area"
+  }
+}

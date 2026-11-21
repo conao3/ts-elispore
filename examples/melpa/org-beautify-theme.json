@@ -1,0 +1,18 @@
+{
+  "id": 65312343,
+  "name": "jonnay/org-beautify-theme",
+  "description": "Subtle theme tweaks to make org-mode more pretty",
+  "url": "https://github.com/jonnay/org-beautify-theme",
+  "stars": 78,
+  "updated": "2025-07-31T16:57:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-beautify-theme",
+    "fetcher": "github",
+    "repo": "jonnay/org-beautify-theme"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 127524694,
+  "name": "stsquad/dired-rsync",
+  "description": "Support for rsync from Emacs dired buffers",
+  "url": "https://github.com/stsquad/dired-rsync",
+  "stars": 142,
+  "updated": "2026-10-07T19:01:21Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-packages", "rsync"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-rsync-transient",
+    "fetcher": "github",
+    "repo": "stsquad/dired-rsync",
+    "files": "(\"dired-rsync-transient.el\")"
+  }
+}

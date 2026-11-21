@@ -1,0 +1,18 @@
+{
+  "id": 665192187,
+  "name": "DamienCassou/json-process-client",
+  "description": "Emacs library to facilitate communicating with servers that read and write JSON",
+  "url": "https://github.com/DamienCassou/json-process-client",
+  "stars": 0,
+  "updated": "2025-03-30T07:28:58Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "json-process-client",
+    "fetcher": "github",
+    "repo": "DamienCassou/json-process-client"
+  }
+}

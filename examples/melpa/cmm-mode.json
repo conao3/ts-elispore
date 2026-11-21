@@ -1,0 +1,18 @@
+{
+  "id": 3675301,
+  "name": "bgamari/cmm-mode",
+  "description": "An Emacs mode for editing Cmm files",
+  "url": "https://github.com/bgamari/cmm-mode",
+  "stars": 6,
+  "updated": "2015-12-01T17:46:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cmm-mode",
+    "fetcher": "github",
+    "repo": "bgamari/cmm-mode"
+  }
+}

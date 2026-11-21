@@ -1,0 +1,18 @@
+{
+  "id": 45476577,
+  "name": "sixty-north/emacs-wilt",
+  "description": "Extension for calculating WILT metrics in emacs.",
+  "url": "https://github.com/sixty-north/emacs-wilt",
+  "stars": 6,
+  "updated": "2018-02-20T08:54:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "wilt",
+    "fetcher": "github",
+    "repo": "sixty-north/emacs-wilt"
+  }
+}

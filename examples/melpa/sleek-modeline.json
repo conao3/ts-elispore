@@ -1,0 +1,18 @@
+{
+  "id": 1117051771,
+  "name": "abidanBrito/sleek-modeline",
+  "description": "A minimal and elegant modeline for Emacs.",
+  "url": "https://github.com/abidanBrito/sleek-modeline",
+  "stars": 27,
+  "updated": "2026-10-25T17:38:33Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "modeline"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sleek-modeline",
+    "fetcher": "github",
+    "repo": "abidanBrito/sleek-modeline"
+  }
+}

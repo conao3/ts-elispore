@@ -1,0 +1,18 @@
+{
+  "id": 13441519,
+  "name": "emacsorphanage/sound-wav",
+  "description": "Play wav file",
+  "url": "https://github.com/emacsorphanage/sound-wav",
+  "stars": 13,
+  "updated": "2026-06-19T08:23:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sound-wav",
+    "fetcher": "github",
+    "repo": "emacsorphanage/sound-wav"
+  }
+}

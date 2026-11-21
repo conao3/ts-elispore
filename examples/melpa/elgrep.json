@@ -1,0 +1,18 @@
+{
+  "id": 80030463,
+  "name": "TobiasZawada/elgrep",
+  "description": "Emacs grep without external dependencies",
+  "url": "https://github.com/TobiasZawada/elgrep",
+  "stars": 18,
+  "updated": "2026-11-11T19:25:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elgrep",
+    "fetcher": "github",
+    "repo": "TobiasZawada/elgrep"
+  }
+}

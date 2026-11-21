@@ -1,0 +1,18 @@
+{
+  "id": 181299631,
+  "name": "dragonwasrobot/helm-bitbucket",
+  "description": "A helm interface for searching Bitbucket",
+  "url": "https://github.com/dragonwasrobot/helm-bitbucket",
+  "stars": 3,
+  "updated": "2022-07-22T15:46:52Z",
+  "archived": false,
+  "topics": ["bitbucket", "emacs", "helm"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-bitbucket",
+    "fetcher": "github",
+    "repo": "dragonwasrobot/helm-bitbucket"
+  }
+}

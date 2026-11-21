@@ -1,0 +1,30 @@
+{
+  "id": 193063938,
+  "name": "emacsorphanage/haxe-mode",
+  "description": "Major mode for editing Haxe files.",
+  "url": "https://github.com/emacsorphanage/haxe-mode",
+  "stars": 6,
+  "updated": "2026-06-19T13:55:08Z",
+  "archived": false,
+  "topics": [
+    "code",
+    "editing",
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "emacs-plugin",
+    "haxe",
+    "major-mode",
+    "mode",
+    "package",
+    "plugin"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "haxe-mode",
+    "fetcher": "github",
+    "repo": "emacsorphanage/haxe-mode"
+  }
+}

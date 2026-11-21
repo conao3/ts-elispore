@@ -1,0 +1,18 @@
+{
+  "id": 33070191,
+  "name": "jorenvo/simple-mpc",
+  "description": "A GNU Emacs frontend to mpc.",
+  "url": "https://github.com/jorenvo/simple-mpc",
+  "stars": 39,
+  "updated": "2022-12-24T03:27:39Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "mpc", "mpd"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simple-mpc",
+    "fetcher": "github",
+    "repo": "jorenvo/simple-mpc"
+  }
+}

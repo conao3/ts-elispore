@@ -1,0 +1,18 @@
+{
+  "id": 781932257,
+  "name": "meedstrom/eager-state",
+  "description": "",
+  "url": "https://github.com/meedstrom/eager-state",
+  "stars": 5,
+  "updated": "2026-01-23T07:51:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eager-state",
+    "fetcher": "github",
+    "repo": "meedstrom/eager-state"
+  }
+}

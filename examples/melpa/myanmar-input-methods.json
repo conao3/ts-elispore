@@ -1,0 +1,18 @@
+{
+  "id": 38607921,
+  "name": "yelinkyaw/emacs-myanmar-input-methods",
+  "description": "Myanmar Input Methods for Emacs",
+  "url": "https://github.com/yelinkyaw/emacs-myanmar-input-methods",
+  "stars": 4,
+  "updated": "2016-01-06T15:39:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "myanmar-input-methods",
+    "fetcher": "github",
+    "repo": "yelinkyaw/emacs-myanmar-input-methods"
+  }
+}

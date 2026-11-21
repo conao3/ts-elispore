@@ -1,0 +1,18 @@
+{
+  "id": 1149418524,
+  "name": "lewang/spatial-window",
+  "description": "Jump to Emacs windows using keyboard spatial mapping",
+  "url": "https://github.com/lewang/spatial-window",
+  "stars": 21,
+  "updated": "2026-08-08T23:26:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "spatial-window",
+    "fetcher": "github",
+    "repo": "lewang/spatial-window"
+  }
+}

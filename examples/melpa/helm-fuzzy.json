@@ -1,0 +1,18 @@
+{
+  "id": 204322970,
+  "name": "jcs-legacy/helm-fuzzy",
+  "description": "Fuzzy matching for helm source.",
+  "url": "https://github.com/jcs-legacy/helm-fuzzy",
+  "stars": 3,
+  "updated": "2026-06-19T14:10:21Z",
+  "archived": false,
+  "topics": ["emacs", "helm", "helm-source"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-fuzzy",
+    "fetcher": "github",
+    "repo": "jcs-legacy/helm-fuzzy"
+  }
+}

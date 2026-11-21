@@ -1,0 +1,18 @@
+{
+  "id": 423844793,
+  "name": "WJCFerguson/textsize",
+  "description": "Emacs package textsize.el to automatically choose a font point size for the Emacs default face.",
+  "url": "https://github.com/WJCFerguson/textsize",
+  "stars": 46,
+  "updated": "2025-11-20T18:19:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "textsize",
+    "fetcher": "github",
+    "repo": "WJCFerguson/textsize"
+  }
+}

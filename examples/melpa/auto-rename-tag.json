@@ -1,0 +1,18 @@
+{
+  "id": 159962122,
+  "name": "emacs-vs/auto-rename-tag",
+  "description": "Automatically rename paired HTML/XML tag.",
+  "url": "https://github.com/emacs-vs/auto-rename-tag",
+  "stars": 43,
+  "updated": "2026-06-19T08:36:28Z",
+  "archived": false,
+  "topics": ["auto-complete", "emacs", "handy", "renaming", "xml", "xml-tags"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "auto-rename-tag",
+    "fetcher": "github",
+    "repo": "emacs-vs/auto-rename-tag"
+  }
+}

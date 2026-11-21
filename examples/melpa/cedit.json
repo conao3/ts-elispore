@@ -1,0 +1,18 @@
+{
+  "id": 8452318,
+  "name": "zk-phi/cedit",
+  "description": "paredit-like commands for C-like languages",
+  "url": "https://github.com/zk-phi/cedit",
+  "stars": 24,
+  "updated": "2020-08-16T05:27:02Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cedit",
+    "fetcher": "github",
+    "repo": "zk-phi/cedit"
+  }
+}

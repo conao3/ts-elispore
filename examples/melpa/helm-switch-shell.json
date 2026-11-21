@@ -1,0 +1,18 @@
+{
+  "id": 224716845,
+  "name": "jamesnvc/helm-switch-shell",
+  "description": "Helm source for easily switching between eshells",
+  "url": "https://github.com/jamesnvc/helm-switch-shell",
+  "stars": 5,
+  "updated": "2021-07-13T14:40:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-switch-shell",
+    "fetcher": "github",
+    "repo": "jamesnvc/helm-switch-shell"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 252184163,
+  "name": "oxidase/eff",
+  "description": "Show human-readable Executable File Formats in Emacs",
+  "url": "https://github.com/oxidase/eff",
+  "stars": 2,
+  "updated": "2024-07-08T02:32:19Z",
+  "archived": false,
+  "topics": ["elf", "emacs", "readelf"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eff",
+    "fetcher": "github",
+    "repo": "oxidase/eff"
+  }
+}

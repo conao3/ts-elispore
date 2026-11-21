@@ -1,0 +1,18 @@
+{
+  "id": 583302,
+  "name": "jrockway/ibuffer-git",
+  "description": "",
+  "url": "https://github.com/jrockway/ibuffer-git",
+  "stars": 24,
+  "updated": "2021-02-28T19:39:44Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ibuffer-git",
+    "fetcher": "github",
+    "repo": "jrockway/ibuffer-git"
+  }
+}

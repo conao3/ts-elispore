@@ -1,0 +1,18 @@
+{
+  "id": 88747042,
+  "name": "theasp/flatui-dark-theme",
+  "description": "Dark color theme for Emacs with flatui colors",
+  "url": "https://github.com/theasp/flatui-dark-theme",
+  "stars": 11,
+  "updated": "2026-11-18T13:58:35Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-theme", "flatuicolors"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flatui-dark-theme",
+    "fetcher": "github",
+    "repo": "theasp/flatui-dark-theme"
+  }
+}

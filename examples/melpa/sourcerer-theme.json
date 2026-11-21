@@ -1,0 +1,18 @@
+{
+  "id": 69295395,
+  "name": "gilbertw1/sourcerer-emacs",
+  "description": "An emacs color scheme inspired by xero's sourcerer theme",
+  "url": "https://github.com/gilbertw1/sourcerer-emacs",
+  "stars": 13,
+  "updated": "2017-03-06T10:47:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sourcerer-theme",
+    "fetcher": "github",
+    "repo": "gilbertw1/sourcerer-emacs"
+  }
+}

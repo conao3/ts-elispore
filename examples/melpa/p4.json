@@ -1,0 +1,18 @@
+{
+  "id": 9656466,
+  "name": "gareth-rees/p4.el",
+  "description": "Emacs Perforce Integration",
+  "url": "https://github.com/gareth-rees/p4.el",
+  "stars": 45,
+  "updated": "2022-12-31T05:37:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "p4",
+    "fetcher": "github",
+    "repo": "gareth-rees/p4.el"
+  }
+}

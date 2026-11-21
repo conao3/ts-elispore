@@ -1,0 +1,19 @@
+{
+  "id": 53108502,
+  "name": "kshramt/company-ngram",
+  "description": "",
+  "url": "https://github.com/kshramt/company-ngram",
+  "stars": 30,
+  "updated": "2017-03-20T12:53:25Z",
+  "archived": false,
+  "topics": ["completion-candidates", "n-grams", "natural-language-processing"],
+  "license": null,
+  "language": "Python",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-ngram",
+    "fetcher": "github",
+    "repo": "kshramt/company-ngram",
+    "files": "(:defaults \"ngram.py\")"
+  }
+}

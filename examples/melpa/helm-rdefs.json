@@ -1,0 +1,18 @@
+{
+  "id": 74828852,
+  "name": "saidie/emacs-helm-rdefs",
+  "description": "rdefs with helm interface",
+  "url": "https://github.com/saidie/emacs-helm-rdefs",
+  "stars": 0,
+  "updated": "2016-11-30T05:45:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-rdefs",
+    "fetcher": "github",
+    "repo": "saidie/emacs-helm-rdefs"
+  }
+}

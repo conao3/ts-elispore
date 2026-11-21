@@ -1,0 +1,18 @@
+{
+  "id": 94609391,
+  "name": "clojure-emacs/parseclj",
+  "description": "Clojure Parser for Emacs Lisp",
+  "url": "https://github.com/clojure-emacs/parseclj",
+  "stars": 63,
+  "updated": "2026-10-02T13:39:14Z",
+  "archived": false,
+  "topics": ["ast", "clojure", "clojure-parser", "emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "parseclj",
+    "fetcher": "github",
+    "repo": "clojure-emacs/parseclj"
+  }
+}

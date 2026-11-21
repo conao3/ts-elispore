@@ -1,0 +1,18 @@
+{
+  "id": 83206571,
+  "name": "Kungsgeten/ivy-todo",
+  "description": "Manage org-mode TODOs with ivy",
+  "url": "https://github.com/Kungsgeten/ivy-todo",
+  "stars": 30,
+  "updated": "2020-03-23T20:06:31Z",
+  "archived": false,
+  "topics": ["emacs", "ivy", "org-mode", "projectile"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-todo",
+    "fetcher": "github",
+    "repo": "Kungsgeten/ivy-todo"
+  }
+}

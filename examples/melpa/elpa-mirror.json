@@ -1,0 +1,18 @@
+{
+  "id": 17040295,
+  "name": "redguardtoo/elpa-mirror",
+  "description": "Create local emacs package repository. 15 seconds to install 115 packages.",
+  "url": "https://github.com/redguardtoo/elpa-mirror",
+  "stars": 333,
+  "updated": "2024-04-20T13:10:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elpa-mirror",
+    "fetcher": "github",
+    "repo": "redguardtoo/elpa-mirror"
+  }
+}

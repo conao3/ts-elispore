@@ -1,0 +1,18 @@
+{
+  "id": 266424599,
+  "name": "arthurcgusmao/unmodified-buffer",
+  "description": "Emacs minor mode that automatically restores a buffer's unmodified state",
+  "url": "https://github.com/arthurcgusmao/unmodified-buffer",
+  "stars": 10,
+  "updated": "2022-01-29T21:19:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unmodified-buffer",
+    "fetcher": "github",
+    "repo": "arthurcgusmao/unmodified-buffer"
+  }
+}

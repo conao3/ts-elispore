@@ -1,0 +1,18 @@
+{
+  "id": 233678146,
+  "name": "ChetanKoneru/counsel-fd",
+  "description": "counsel interface for fd",
+  "url": "https://github.com/ChetanKoneru/counsel-fd",
+  "stars": 7,
+  "updated": "2022-10-11T18:53:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-fd",
+    "fetcher": "github",
+    "repo": "ChetanKoneru/counsel-fd"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 24997,
+  "name": "eschulte/rinari",
+  "description": "Rinari Is Not A Rails IDE (it is an Emacs minor mode for Rails)",
+  "url": "https://github.com/eschulte/rinari",
+  "stars": 404,
+  "updated": "2022-06-23T11:20:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ruby-compilation",
+    "fetcher": "github",
+    "repo": "eschulte/rinari",
+    "files": "(\"util/ruby-compilation.el\")"
+  }
+}

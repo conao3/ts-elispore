@@ -1,0 +1,18 @@
+{
+  "id": 898040566,
+  "name": "jamescherti/buffer-terminator.el",
+  "description": "buffer-terminator - Safely Terminate Emacs Buffers Automatically to Enhance Performance",
+  "url": "https://github.com/jamescherti/buffer-terminator.el",
+  "stars": 76,
+  "updated": "2026-11-10T15:12:51Z",
+  "archived": false,
+  "topics": ["buffer", "buffers", "emacs", "emacs-package", "kill-buffer", "terminate-buffer"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "buffer-terminator",
+    "fetcher": "github",
+    "repo": "jamescherti/buffer-terminator.el"
+  }
+}

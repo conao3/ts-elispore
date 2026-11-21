@@ -1,0 +1,18 @@
+{
+  "id": 16371198,
+  "name": "aki2o/bbdb-",
+  "description": "More easily search/choice than BBDB",
+  "url": "https://github.com/aki2o/bbdb-",
+  "stars": 8,
+  "updated": "2014-11-22T00:30:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bbdb-",
+    "fetcher": "github",
+    "repo": "aki2o/bbdb-"
+  }
+}

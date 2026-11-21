@@ -1,0 +1,19 @@
+{
+  "id": 2357490,
+  "name": "myrkr/dictionary-el",
+  "description": "",
+  "url": "https://github.com/myrkr/dictionary-el",
+  "stars": 58,
+  "updated": "2021-10-21T06:37:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "connection",
+    "fetcher": "github",
+    "repo": "myrkr/dictionary-el",
+    "files": "(\"connection.el\")"
+  }
+}

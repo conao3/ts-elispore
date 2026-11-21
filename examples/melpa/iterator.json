@@ -1,0 +1,18 @@
+{
+  "id": 18182656,
+  "name": "thierryvolpiatto/iterator",
+  "description": "Provide iterator functions for emacs",
+  "url": "https://github.com/thierryvolpiatto/iterator",
+  "stars": 1,
+  "updated": "2025-05-04T18:25:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "iterator",
+    "fetcher": "github",
+    "repo": "thierryvolpiatto/iterator"
+  }
+}

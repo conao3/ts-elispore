@@ -1,0 +1,19 @@
+{
+  "id": 52257384,
+  "name": "abingham/elm-yasnippets",
+  "description": "elm-mode yasnippets for Emacs",
+  "url": "https://github.com/abingham/elm-yasnippets",
+  "stars": 2,
+  "updated": "2016-04-01T05:24:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elm-yasnippets",
+    "fetcher": "github",
+    "repo": "abingham/elm-yasnippets",
+    "files": "(:defaults \"snippets\")"
+  }
+}

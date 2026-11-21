@@ -1,0 +1,18 @@
+{
+  "id": 56726177,
+  "name": "clojure-emacs/helm-cider",
+  "description": "Helm interface to CIDER",
+  "url": "https://github.com/clojure-emacs/helm-cider",
+  "stars": 65,
+  "updated": "2022-07-06T09:44:43Z",
+  "archived": false,
+  "topics": ["cider", "clojure", "emacs", "helm"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-cider",
+    "fetcher": "github",
+    "repo": "clojure-emacs/helm-cider"
+  }
+}

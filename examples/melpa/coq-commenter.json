@@ -1,0 +1,18 @@
+{
+  "id": 63580703,
+  "name": "Ailrun/coq-commenter",
+  "description": "Coq commenter for Emacs",
+  "url": "https://github.com/Ailrun/coq-commenter",
+  "stars": 6,
+  "updated": "2017-08-22T23:09:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "coq-commenter",
+    "fetcher": "github",
+    "repo": "Ailrun/coq-commenter"
+  }
+}

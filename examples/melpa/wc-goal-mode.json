@@ -1,0 +1,18 @@
+{
+  "id": 21911924,
+  "name": "bnbeckwith/wc-goal-mode",
+  "description": "Emacs mode to achieve word-count goals",
+  "url": "https://github.com/bnbeckwith/wc-goal-mode",
+  "stars": 19,
+  "updated": "2022-08-17T14:52:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wc-goal-mode",
+    "fetcher": "github",
+    "repo": "bnbeckwith/wc-goal-mode"
+  }
+}

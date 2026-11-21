@@ -1,0 +1,18 @@
+{
+  "id": 301132980,
+  "name": "isamert/ob-deno",
+  "description": "Babel Functions for Javascript/TypeScript with Deno.",
+  "url": "https://github.com/isamert/ob-deno",
+  "stars": 7,
+  "updated": "2026-02-13T10:25:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-deno",
+    "fetcher": "github",
+    "repo": "isamert/ob-deno"
+  }
+}

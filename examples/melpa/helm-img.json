@@ -1,0 +1,18 @@
+{
+  "id": 48326342,
+  "name": "mtmtcode/helm-img",
+  "description": "Utilities for making image sources for helm.",
+  "url": "https://github.com/mtmtcode/helm-img",
+  "stars": 2,
+  "updated": "2015-12-24T23:21:43Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-img",
+    "fetcher": "github",
+    "repo": "mtmtcode/helm-img"
+  }
+}

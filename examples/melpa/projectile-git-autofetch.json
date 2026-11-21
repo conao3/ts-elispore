@@ -1,0 +1,18 @@
+{
+  "id": 72569636,
+  "name": "andrmuel/projectile-git-autofetch",
+  "description": "Automatically fetch git repositories known to projectile.",
+  "url": "https://github.com/andrmuel/projectile-git-autofetch",
+  "stars": 14,
+  "updated": "2020-08-20T20:29:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "projectile-git-autofetch",
+    "fetcher": "github",
+    "repo": "andrmuel/projectile-git-autofetch"
+  }
+}

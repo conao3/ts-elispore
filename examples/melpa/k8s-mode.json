@@ -1,0 +1,19 @@
+{
+  "id": 162099912,
+  "name": "TxGVNN/emacs-k8s-mode",
+  "description": "Kubernetes mode in Emacs",
+  "url": "https://github.com/TxGVNN/emacs-k8s-mode",
+  "stars": 44,
+  "updated": "2025-04-08T08:44:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "YASnippet",
+  "ownerType": "User",
+  "melpa": {
+    "name": "k8s-mode",
+    "fetcher": "github",
+    "repo": "TxGVNN/emacs-k8s-mode",
+    "files": "(\"*.el\" (\"snippets/k8s-mode\" \"snippets/k8s-mode/*\"))"
+  }
+}

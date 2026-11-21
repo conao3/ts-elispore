@@ -1,0 +1,18 @@
+{
+  "id": 271427324,
+  "name": "flatwhatson/flycheck-guile",
+  "description": "A Flycheck checker for GNU Guile",
+  "url": "https://github.com/flatwhatson/flycheck-guile",
+  "stars": 21,
+  "updated": "2023-04-05T11:55:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-guile",
+    "fetcher": "github",
+    "repo": "flatwhatson/flycheck-guile"
+  }
+}

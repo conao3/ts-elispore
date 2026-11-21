@@ -1,0 +1,18 @@
+{
+  "id": 26705044,
+  "name": "emacsfodder/emacs-dark-krystal-theme",
+  "description": "",
+  "url": "https://github.com/emacsfodder/emacs-dark-krystal-theme",
+  "stars": 4,
+  "updated": "2017-08-08T13:00:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dark-krystal-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-dark-krystal-theme"
+  }
+}

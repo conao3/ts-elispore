@@ -1,0 +1,18 @@
+{
+  "id": 1116219415,
+  "name": "ultronozm/agent-shell-attention.el",
+  "description": "Mode-line attention tracker for agent-shell",
+  "url": "https://github.com/ultronozm/agent-shell-attention.el",
+  "stars": 16,
+  "updated": "2026-11-12T16:51:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "agent-shell-attention",
+    "fetcher": "github",
+    "repo": "ultronozm/agent-shell-attention.el"
+  }
+}

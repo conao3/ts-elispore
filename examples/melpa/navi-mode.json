@@ -1,0 +1,18 @@
+{
+  "id": 86272981,
+  "name": "alphapapa/navi",
+  "description": "superfast navigation and remote control for Emacs source code buffers (based on Emacs occur-mode)",
+  "url": "https://github.com/alphapapa/navi",
+  "stars": 14,
+  "updated": "2022-05-09T18:58:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "navi-mode",
+    "fetcher": "github",
+    "repo": "alphapapa/navi"
+  }
+}

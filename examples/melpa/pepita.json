@@ -1,0 +1,18 @@
+{
+  "id": 173636475,
+  "name": "sebasmonia/pepita",
+  "description": "Run Splunk search from Emacs",
+  "url": "https://github.com/sebasmonia/pepita",
+  "stars": 18,
+  "updated": "2024-01-02T04:01:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pepita",
+    "fetcher": "github",
+    "repo": "sebasmonia/pepita"
+  }
+}

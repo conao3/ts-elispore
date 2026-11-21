@@ -1,0 +1,18 @@
+{
+  "id": 13401911,
+  "name": "emacsorphanage/gom-mode",
+  "description": "A major mode for Gomfile",
+  "url": "https://github.com/emacsorphanage/gom-mode",
+  "stars": 1,
+  "updated": "2013-10-08T02:54:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "gom-mode",
+    "fetcher": "github",
+    "repo": "emacsorphanage/gom-mode"
+  }
+}

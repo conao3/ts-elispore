@@ -1,0 +1,18 @@
+{
+  "id": 16292430,
+  "name": "Lindydancer/font-lock-studio",
+  "description": "Debugger for Font Lock keywords",
+  "url": "https://github.com/Lindydancer/font-lock-studio",
+  "stars": 137,
+  "updated": "2025-03-09T15:24:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "font-lock-studio",
+    "fetcher": "github",
+    "repo": "Lindydancer/font-lock-studio"
+  }
+}

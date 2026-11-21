@@ -1,0 +1,18 @@
+{
+  "id": 746755181,
+  "name": "AntonHakansson/org-nix-shell",
+  "description": "Use buffer-local nix-shell environments in org-mode.",
+  "url": "https://github.com/AntonHakansson/org-nix-shell",
+  "stars": 46,
+  "updated": "2024-06-03T08:59:24Z",
+  "archived": false,
+  "topics": ["emacs", "nix-shell", "org-babel", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-nix-shell",
+    "fetcher": "github",
+    "repo": "AntonHakansson/org-nix-shell"
+  }
+}

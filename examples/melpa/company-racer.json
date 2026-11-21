@@ -1,0 +1,18 @@
+{
+  "id": 35779151,
+  "name": "emacsattic/company-racer",
+  "description": "Company integration for racer",
+  "url": "https://github.com/emacsattic/company-racer",
+  "stars": 6,
+  "updated": "2018-08-17T04:00:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "company-racer",
+    "fetcher": "github",
+    "repo": "emacsattic/company-racer"
+  }
+}

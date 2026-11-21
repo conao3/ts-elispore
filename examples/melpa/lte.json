@@ -1,0 +1,18 @@
+{
+  "id": 903696767,
+  "name": "fredericgiquel/lte.el",
+  "description": "Large Table Edition in Org and Markdown buffers for Emacs",
+  "url": "https://github.com/fredericgiquel/lte.el",
+  "stars": 30,
+  "updated": "2025-01-12T21:56:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lte",
+    "fetcher": "github",
+    "repo": "fredericgiquel/lte.el"
+  }
+}

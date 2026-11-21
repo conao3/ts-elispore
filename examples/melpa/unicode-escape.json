@@ -1,0 +1,18 @@
+{
+  "id": 60776636,
+  "name": "kosh04/unicode-escape.el",
+  "description": "Escape/Unescape unicode notations \\uNNNN for Emacs",
+  "url": "https://github.com/kosh04/unicode-escape.el",
+  "stars": 11,
+  "updated": "2026-10-26T22:23:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unicode-escape",
+    "fetcher": "github",
+    "repo": "kosh04/unicode-escape.el"
+  }
+}

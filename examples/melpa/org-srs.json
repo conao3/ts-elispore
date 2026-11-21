@@ -1,0 +1,18 @@
+{
+  "id": 893493502,
+  "name": "bohonghuang/org-srs",
+  "description": "A feature-rich and flexible spaced repetition system inside Org-mode",
+  "url": "https://github.com/bohonghuang/org-srs",
+  "stars": 130,
+  "updated": "2026-06-28T18:15:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-srs",
+    "fetcher": "github",
+    "repo": "bohonghuang/org-srs"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 683430268,
+  "name": "nverno/jq-ts-mode",
+  "description": "Tree sitter major mode for Jq buffers",
+  "url": "https://github.com/nverno/jq-ts-mode",
+  "stars": 4,
+  "updated": "2025-02-23T14:11:44Z",
+  "archived": false,
+  "topics": ["emacs", "jq", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jq-ts-mode",
+    "fetcher": "github",
+    "repo": "nverno/jq-ts-mode"
+  }
+}

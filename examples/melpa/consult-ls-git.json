@@ -1,0 +1,18 @@
+{
+  "id": 484360241,
+  "name": "rcj/consult-ls-git",
+  "description": "Consult extension for git",
+  "url": "https://github.com/rcj/consult-ls-git",
+  "stars": 30,
+  "updated": "2025-04-19T13:20:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-ls-git",
+    "fetcher": "github",
+    "repo": "rcj/consult-ls-git"
+  }
+}

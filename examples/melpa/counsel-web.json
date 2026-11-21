@@ -1,0 +1,18 @@
+{
+  "id": 207622321,
+  "name": "mnewt/counsel-web",
+  "description": "Search the Web using Ivy",
+  "url": "https://github.com/mnewt/counsel-web",
+  "stars": 33,
+  "updated": "2021-06-09T21:56:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-web",
+    "fetcher": "github",
+    "repo": "mnewt/counsel-web"
+  }
+}

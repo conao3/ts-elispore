@@ -1,0 +1,18 @@
+{
+  "id": 45708644,
+  "name": "ucsd-progsys/flycheck-liquidhs.el",
+  "description": "Flycheck checker for LiquidHaskell",
+  "url": "https://github.com/ucsd-progsys/flycheck-liquidhs.el",
+  "stars": 1,
+  "updated": "2017-10-05T18:01:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-liquidhs",
+    "fetcher": "github",
+    "repo": "ucsd-progsys/flycheck-liquidhs.el"
+  }
+}

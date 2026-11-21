@@ -1,0 +1,18 @@
+{
+  "id": 156231439,
+  "name": "laishulu/emacs-tmux-pane",
+  "description": "Fuse emacs windows with tmux panes.",
+  "url": "https://github.com/laishulu/emacs-tmux-pane",
+  "stars": 80,
+  "updated": "2024-01-06T01:31:33Z",
+  "archived": false,
+  "topics": ["emacs", "navigation", "pane", "tmux"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tmux-pane",
+    "fetcher": "github",
+    "repo": "laishulu/emacs-tmux-pane"
+  }
+}

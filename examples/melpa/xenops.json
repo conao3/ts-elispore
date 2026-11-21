@@ -1,0 +1,18 @@
+{
+  "id": 217464282,
+  "name": "dandavison/xenops",
+  "description": "An editing environment for LaTeX mathematical documents",
+  "url": "https://github.com/dandavison/xenops",
+  "stars": 349,
+  "updated": "2026-07-30T04:04:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xenops",
+    "fetcher": "github",
+    "repo": "dandavison/xenops"
+  }
+}

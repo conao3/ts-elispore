@@ -1,0 +1,19 @@
+{
+  "id": 204996614,
+  "name": "dickmao/nndiscourse",
+  "description": "A Gnus backend for Discourse",
+  "url": "https://github.com/dickmao/nndiscourse",
+  "stars": 25,
+  "updated": "2025-05-08T19:39:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nndiscourse",
+    "fetcher": "github",
+    "repo": "dickmao/nndiscourse",
+    "files": "(\"nndiscourse.el\" (\"nndiscourse\" \"nndiscourse/Gemfile\" \"nndiscourse/Gemfile.lock\" \"nndiscourse/nndiscourse.gemspec\" \"nndiscourse/nndiscourse.thor\" \"nndiscourse/lib\"))"
+  }
+}

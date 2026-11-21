@@ -1,0 +1,18 @@
+{
+  "id": 42585702,
+  "name": "lbolla/emacs-flycheck-flow",
+  "description": "",
+  "url": "https://github.com/lbolla/emacs-flycheck-flow",
+  "stars": 60,
+  "updated": "2019-03-04T14:59:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-flow",
+    "fetcher": "github",
+    "repo": "lbolla/emacs-flycheck-flow"
+  }
+}

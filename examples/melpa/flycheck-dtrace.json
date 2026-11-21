@@ -1,0 +1,18 @@
+{
+  "id": 119094684,
+  "name": "juergenhoetzel/flycheck-dtrace",
+  "description": "Flycheck support for dtrace scripts",
+  "url": "https://github.com/juergenhoetzel/flycheck-dtrace",
+  "stars": 1,
+  "updated": "2018-09-03T09:28:17Z",
+  "archived": false,
+  "topics": ["dtrace", "emacs", "flycheck"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-dtrace",
+    "fetcher": "github",
+    "repo": "juergenhoetzel/flycheck-dtrace"
+  }
+}

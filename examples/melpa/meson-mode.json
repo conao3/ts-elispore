@@ -1,0 +1,18 @@
+{
+  "id": 86449042,
+  "name": "wentasah/meson-mode",
+  "description": "Emacs major mode for the Meson build system",
+  "url": "https://github.com/wentasah/meson-mode",
+  "stars": 45,
+  "updated": "2025-08-27T11:53:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "meson-mode",
+    "fetcher": "github",
+    "repo": "wentasah/meson-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 4836749,
+  "name": "ndw/wwtime",
+  "description": "An emacs library to insert time-of-day with appropriate world-wide localization",
+  "url": "https://github.com/ndw/wwtime",
+  "stars": 7,
+  "updated": "2015-11-22T16:10:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wwtime",
+    "fetcher": "github",
+    "repo": "ndw/wwtime"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 30117702,
+  "name": "ekazakov/swap-buffers",
+  "description": "The quickest way to swap buffers between windows. Based on switch-window package.",
+  "url": "https://github.com/ekazakov/swap-buffers",
+  "stars": 3,
+  "updated": "2015-05-06T21:39:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "swap-buffers",
+    "fetcher": "github",
+    "repo": "ekazakov/swap-buffers"
+  }
+}

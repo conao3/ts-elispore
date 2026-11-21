@@ -1,0 +1,26 @@
+{
+  "id": 695858742,
+  "name": "KeyWeeUsr/typewriter-roll-mode",
+  "description": "Aid for distraction-free writing",
+  "url": "https://github.com/KeyWeeUsr/typewriter-roll-mode",
+  "stars": 15,
+  "updated": "2025-07-18T21:18:19Z",
+  "archived": false,
+  "topics": [
+    "distraction-free",
+    "elisp",
+    "emacs",
+    "melpa",
+    "melpa-badge",
+    "package",
+    "writing-tool"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "typewriter-roll-mode",
+    "fetcher": "github",
+    "repo": "KeyWeeUsr/typewriter-roll-mode"
+  }
+}

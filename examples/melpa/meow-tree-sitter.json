@@ -1,0 +1,19 @@
+{
+  "id": 809137616,
+  "name": "skissue/meow-tree-sitter",
+  "description": "Tree-sitter powered :deciduous_tree: motions for Meow :cat:",
+  "url": "https://github.com/skissue/meow-tree-sitter",
+  "stars": 86,
+  "updated": "2025-12-14T03:23:52Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-package", "keybindings", "modal-editing", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Tree-sitter Query",
+  "ownerType": "User",
+  "melpa": {
+    "name": "meow-tree-sitter",
+    "fetcher": "github",
+    "repo": "skissue/meow-tree-sitter",
+    "files": "(:defaults \"queries\")"
+  }
+}

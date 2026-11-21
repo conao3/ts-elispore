@@ -1,0 +1,18 @@
+{
+  "id": 18008044,
+  "name": "myTerminal/theme-looper",
+  "description": "A convenience package to switch themes in Emacs",
+  "url": "https://github.com/myTerminal/theme-looper",
+  "stars": 28,
+  "updated": "2022-08-13T19:38:10Z",
+  "archived": false,
+  "topics": ["emacs", "themes"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "theme-looper",
+    "fetcher": "github",
+    "repo": "myTerminal/theme-looper"
+  }
+}

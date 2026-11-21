@@ -1,0 +1,18 @@
+{
+  "id": 11761855,
+  "name": "Sterlingg/json-snatcher",
+  "description": "Get the path to a JSON element in Emacs.",
+  "url": "https://github.com/Sterlingg/json-snatcher",
+  "stars": 102,
+  "updated": "2023-02-17T09:34:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "json-snatcher",
+    "fetcher": "github",
+    "repo": "Sterlingg/json-snatcher"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": 75415169,
+  "name": "emacs-lsp/lsp-mode",
+  "description": "Emacs client/library for the Language Server Protocol",
+  "url": "https://github.com/emacs-lsp/lsp-mode",
+  "stars": 5137,
+  "updated": "2026-11-09T07:51:50Z",
+  "archived": false,
+  "topics": [
+    "angular",
+    "cpp",
+    "dart",
+    "emacs",
+    "eslint",
+    "golang",
+    "html",
+    "java",
+    "javascript",
+    "json",
+    "language-server-client",
+    "language-server-protocol",
+    "php",
+    "python",
+    "ruby",
+    "rust",
+    "scala",
+    "swift",
+    "typescript"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lsp-mode",
+    "fetcher": "github",
+    "repo": "emacs-lsp/lsp-mode",
+    "files": "(:defaults\n                  \"clients/*.*\")"
+  }
+}

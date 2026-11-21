@@ -1,0 +1,19 @@
+{
+  "id": 6729615,
+  "name": "idris-hackers/idris-mode",
+  "description": "Idris syntax highlighting, compiler-supported editing, interactive REPL and more things for Emacs.",
+  "url": "https://github.com/idris-hackers/idris-mode",
+  "stars": 275,
+  "updated": "2026-05-06T20:33:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "idris-mode",
+    "fetcher": "github",
+    "repo": "idris-hackers/idris-mode",
+    "files": "(:defaults \"logo-small.png\")"
+  }
+}

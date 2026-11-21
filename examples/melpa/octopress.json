@@ -1,0 +1,18 @@
+{
+  "id": 37101716,
+  "name": "aaronbieber/octopress.el",
+  "description": "An Emacs major mode for interacting with Octopress blogs.",
+  "url": "https://github.com/aaronbieber/octopress.el",
+  "stars": 14,
+  "updated": "2019-01-23T01:08:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "octopress",
+    "fetcher": "github",
+    "repo": "aaronbieber/octopress.el"
+  }
+}

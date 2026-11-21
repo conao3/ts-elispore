@@ -1,0 +1,18 @@
+{
+  "id": 97407228,
+  "name": "ALSchwalm/elvish-mode",
+  "description": "A major mode for the Elvish programming language",
+  "url": "https://github.com/ALSchwalm/elvish-mode",
+  "stars": 16,
+  "updated": "2021-04-09T16:34:35Z",
+  "archived": false,
+  "topics": ["elvish", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elvish-mode",
+    "fetcher": "github",
+    "repo": "ALSchwalm/elvish-mode"
+  }
+}

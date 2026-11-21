@@ -1,0 +1,18 @@
+{
+  "id": 118628105,
+  "name": "dakra/info-beamer.el",
+  "description": "Emacs minor mode for working with info-beamer",
+  "url": "https://github.com/dakra/info-beamer.el",
+  "stars": 3,
+  "updated": "2021-04-27T10:33:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Shell",
+  "ownerType": "User",
+  "melpa": {
+    "name": "info-beamer",
+    "fetcher": "github",
+    "repo": "dakra/info-beamer.el"
+  }
+}

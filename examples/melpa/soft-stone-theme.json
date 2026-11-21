@@ -1,0 +1,18 @@
+{
+  "id": 14837120,
+  "name": "mswift42/soft-stone-theme",
+  "description": "Emacs24 theme with a light background",
+  "url": "https://github.com/mswift42/soft-stone-theme",
+  "stars": 21,
+  "updated": "2014-06-14T08:36:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "soft-stone-theme",
+    "fetcher": "github",
+    "repo": "mswift42/soft-stone-theme"
+  }
+}

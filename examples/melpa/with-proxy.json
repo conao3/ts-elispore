@@ -1,0 +1,18 @@
+{
+  "id": 202899102,
+  "name": "twlz0ne/with-proxy.el",
+  "description": "Evaluate expressions with proxy",
+  "url": "https://github.com/twlz0ne/with-proxy.el",
+  "stars": 25,
+  "updated": "2020-05-10T04:31:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "with-proxy",
+    "fetcher": "github",
+    "repo": "twlz0ne/with-proxy.el"
+  }
+}

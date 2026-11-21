@@ -1,0 +1,18 @@
+{
+  "id": 58033376,
+  "name": "lashtear/ksp-cfg-mode",
+  "description": "A major mode for editing Kerbal Space Program CFG files in Emacs",
+  "url": "https://github.com/lashtear/ksp-cfg-mode",
+  "stars": 0,
+  "updated": "2019-04-14T23:49:27Z",
+  "archived": false,
+  "topics": ["emacs", "ksp"],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ksp-cfg-mode",
+    "fetcher": "github",
+    "repo": "lashtear/ksp-cfg-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 258197860,
+  "name": "dieter-wilhelm/inform",
+  "description": "A lips package for the Emacs editor creating  links from symbols in Info viewer to their help documentation",
+  "url": "https://github.com/dieter-wilhelm/inform",
+  "stars": 4,
+  "updated": "2020-07-23T05:00:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "inform",
+    "fetcher": "github",
+    "repo": "dieter-wilhelm/inform"
+  }
+}

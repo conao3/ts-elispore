@@ -1,0 +1,19 @@
+{
+  "id": 11570192,
+  "name": "jhradilek/emacs-mallard-mode",
+  "description": "A major mode for editing Mallard files in Emacs",
+  "url": "https://github.com/jhradilek/emacs-mallard-mode",
+  "stars": 0,
+  "updated": "2015-11-22T07:04:02Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-mode", "mallard", "xml"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mallard-mode",
+    "fetcher": "github",
+    "repo": "jhradilek/emacs-mallard-mode",
+    "files": "(\"mallard-mode.el\" \"schema\")"
+  }
+}

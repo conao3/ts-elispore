@@ -1,0 +1,19 @@
+{
+  "id": 74313638,
+  "name": "anachronic/importmagic.el",
+  "description": "An Emacs package that resolves unimported Python symbols",
+  "url": "https://github.com/anachronic/importmagic.el",
+  "stars": 72,
+  "updated": "2023-03-17T18:08:50Z",
+  "archived": false,
+  "topics": ["emacs", "melpa", "python"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "importmagic",
+    "fetcher": "github",
+    "repo": "anachronic/importmagic.el",
+    "files": "(:defaults \"importmagicserver.py\")"
+  }
+}

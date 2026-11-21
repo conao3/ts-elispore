@@ -1,0 +1,18 @@
+{
+  "id": 45909960,
+  "name": "xuchunyang/region-state.el",
+  "description": "Show the number of chars/lines or rows/columns in the region",
+  "url": "https://github.com/xuchunyang/region-state.el",
+  "stars": 19,
+  "updated": "2018-12-25T14:29:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "region-state",
+    "fetcher": "github",
+    "repo": "xuchunyang/region-state.el"
+  }
+}

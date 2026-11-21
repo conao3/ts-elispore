@@ -1,0 +1,18 @@
+{
+  "id": 1220900711,
+  "name": "major1201/apple-container-tramp.el",
+  "description": "TRAMP integration for Apple container",
+  "url": "https://github.com/major1201/apple-container-tramp.el",
+  "stars": 3,
+  "updated": "2026-05-04T13:51:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "apple-container-tramp",
+    "fetcher": "github",
+    "repo": "major1201/apple-container-tramp.el"
+  }
+}

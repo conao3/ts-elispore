@@ -1,0 +1,19 @@
+{
+  "id": 36286704,
+  "name": "mrkkrp/common-lisp-snippets",
+  "description": "Yasnippets for Common Lisp",
+  "url": "https://github.com/mrkkrp/common-lisp-snippets",
+  "stars": 47,
+  "updated": "2019-03-04T22:57:49Z",
+  "archived": false,
+  "topics": ["common-lisp", "emacs", "snippets", "yasnippet"],
+  "license": null,
+  "language": "YASnippet",
+  "ownerType": "User",
+  "melpa": {
+    "name": "common-lisp-snippets",
+    "fetcher": "github",
+    "repo": "mrkkrp/common-lisp-snippets",
+    "files": "(\"*.el\" \"snippets\")"
+  }
+}

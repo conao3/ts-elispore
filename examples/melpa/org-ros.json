@@ -1,0 +1,19 @@
+{
+  "id": 185265573,
+  "name": "LionyxML/ros",
+  "description": "screenshot / copy & paste tool for org-mode files",
+  "url": "https://github.com/LionyxML/ros",
+  "stars": 137,
+  "updated": "2025-11-02T14:08:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-ros",
+    "fetcher": "github",
+    "repo": "LionyxML/ros",
+    "files": "(:defaults \"*.ps1\")"
+  }
+}

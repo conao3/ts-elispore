@@ -1,0 +1,19 @@
+{
+  "id": 69061894,
+  "name": "evgeny-panasyuk/open-in-msvs.el",
+  "description": "Emacs package which provides function to open current file:line:column in Microsoft Visual Studio",
+  "url": "https://github.com/evgeny-panasyuk/open-in-msvs.el",
+  "stars": 12,
+  "updated": "2018-01-11T21:46:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "open-in-msvs",
+    "fetcher": "github",
+    "repo": "evgeny-panasyuk/open-in-msvs.el",
+    "files": "(:defaults \"*.vbs\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 5249242,
+  "name": "ananthakumaran/rails-log-mode",
+  "description": "Emacs Major mode for viewing Rails log files",
+  "url": "https://github.com/ananthakumaran/rails-log-mode",
+  "stars": 10,
+  "updated": "2014-04-08T04:26:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rails-log-mode",
+    "fetcher": "github",
+    "repo": "ananthakumaran/rails-log-mode"
+  }
+}

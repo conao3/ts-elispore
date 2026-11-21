@@ -1,0 +1,19 @@
+{
+  "id": 12494,
+  "name": "pezra/rspec-mode",
+  "description": "An RSpec minor mode for Emacs",
+  "url": "https://github.com/pezra/rspec-mode",
+  "stars": 267,
+  "updated": "2026-06-18T05:48:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rspec-mode",
+    "fetcher": "github",
+    "repo": "pezra/rspec-mode",
+    "files": "(\"rspec-mode.el\" \"snippets\")"
+  }
+}

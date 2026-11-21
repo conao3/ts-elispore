@@ -1,0 +1,18 @@
+{
+  "id": 88183255,
+  "name": "pythonic-emacs/isortify",
+  "description": "Isort for Emacs",
+  "url": "https://github.com/pythonic-emacs/isortify",
+  "stars": 10,
+  "updated": "2026-06-19T13:58:17Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "isortify",
+    "fetcher": "github",
+    "repo": "pythonic-emacs/isortify"
+  }
+}

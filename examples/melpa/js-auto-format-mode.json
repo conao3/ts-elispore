@@ -1,0 +1,18 @@
+{
+  "id": 57011488,
+  "name": "ybiquitous/js-auto-format-mode",
+  "description": "🔧 🔄 Emacs minor mode for auto-formatting JavaScript code",
+  "url": "https://github.com/ybiquitous/js-auto-format-mode",
+  "stars": 6,
+  "updated": "2022-11-14T01:28:54Z",
+  "archived": true,
+  "topics": ["emacs", "eslint", "formatting", "javascript"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "js-auto-format-mode",
+    "fetcher": "github",
+    "repo": "ybiquitous/js-auto-format-mode"
+  }
+}

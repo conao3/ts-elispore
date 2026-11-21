@@ -1,0 +1,18 @@
+{
+  "id": 1207858427,
+  "name": "Anoncheg1/emacs-hidepass",
+  "description": "Minor mode for hiding passwords",
+  "url": "https://github.com/Anoncheg1/emacs-hidepass",
+  "stars": 0,
+  "updated": "2026-05-12T11:56:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hidepass",
+    "fetcher": "github",
+    "repo": "Anoncheg1/emacs-hidepass"
+  }
+}

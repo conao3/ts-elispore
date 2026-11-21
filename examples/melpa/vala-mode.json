@@ -1,0 +1,18 @@
+{
+  "id": 23585391,
+  "name": "rrthomas/vala-mode",
+  "description": "A major mode for vala",
+  "url": "https://github.com/rrthomas/vala-mode",
+  "stars": 3,
+  "updated": "2022-03-08T15:29:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vala-mode",
+    "fetcher": "github",
+    "repo": "rrthomas/vala-mode"
+  }
+}

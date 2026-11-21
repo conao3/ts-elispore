@@ -1,0 +1,19 @@
+{
+  "id": 236243031,
+  "name": "p3r7/friendly-shell",
+  "description": ":shell: More convenient Emacs shell APIs ",
+  "url": "https://github.com/p3r7/friendly-shell",
+  "stars": 30,
+  "updated": "2023-09-16T14:26:56Z",
+  "archived": false,
+  "topics": ["emacs", "shell", "terminal"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "friendly-shell",
+    "fetcher": "github",
+    "repo": "p3r7/friendly-shell",
+    "files": "(:defaults\n                        (:exclude \"friendly-shell-command.el\"\n                                  \"friendly-remote-shell.el\"))"
+  }
+}

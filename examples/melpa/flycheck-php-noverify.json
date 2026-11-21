@@ -1,0 +1,18 @@
+{
+  "id": 411226440,
+  "name": "Junker/flycheck-php-noverify",
+  "description": "Flycheck checker for PHP using Noverify linter",
+  "url": "https://github.com/Junker/flycheck-php-noverify",
+  "stars": 1,
+  "updated": "2021-10-18T15:16:30Z",
+  "archived": false,
+  "topics": ["emacs", "flycheck", "noverify", "php"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-php-noverify",
+    "fetcher": "github",
+    "repo": "Junker/flycheck-php-noverify"
+  }
+}

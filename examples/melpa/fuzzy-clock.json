@@ -1,0 +1,18 @@
+{
+  "id": 1092109745,
+  "name": "Trevoke/fuzzy-clock.el",
+  "description": "A clock that tells the time with configurable human-style granularity",
+  "url": "https://github.com/Trevoke/fuzzy-clock.el",
+  "stars": 5,
+  "updated": "2025-11-11T04:58:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fuzzy-clock",
+    "fetcher": "github",
+    "repo": "Trevoke/fuzzy-clock.el"
+  }
+}

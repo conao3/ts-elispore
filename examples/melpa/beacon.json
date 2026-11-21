@@ -1,0 +1,18 @@
+{
+  "id": 43982663,
+  "name": "Malabarba/beacon",
+  "description": "A light that follows your cursor around so you don't lose it!",
+  "url": "https://github.com/Malabarba/beacon",
+  "stars": 709,
+  "updated": "2023-11-07T11:41:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "beacon",
+    "fetcher": "github",
+    "repo": "Malabarba/beacon"
+  }
+}

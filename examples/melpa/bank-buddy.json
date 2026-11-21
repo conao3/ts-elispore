@@ -1,0 +1,18 @@
+{
+  "id": 960949202,
+  "name": "captainflasmr/bank-buddy",
+  "description": "Your Financial Analysis Companion for Emacs",
+  "url": "https://github.com/captainflasmr/bank-buddy",
+  "stars": 13,
+  "updated": "2026-08-17T09:37:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bank-buddy",
+    "fetcher": "github",
+    "repo": "captainflasmr/bank-buddy"
+  }
+}

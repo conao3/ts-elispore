@@ -1,0 +1,18 @@
+{
+  "id": 198043554,
+  "name": "jcs-elpa/marquee-header",
+  "description": "Code interface for displaying marquee in header.",
+  "url": "https://github.com/jcs-elpa/marquee-header",
+  "stars": 12,
+  "updated": "2026-06-18T19:52:15Z",
+  "archived": false,
+  "topics": ["animation", "emacs", "marquee", "notify"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "marquee-header",
+    "fetcher": "github",
+    "repo": "jcs-elpa/marquee-header"
+  }
+}

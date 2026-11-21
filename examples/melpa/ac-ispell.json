@@ -1,0 +1,18 @@
+{
+  "id": 14494330,
+  "name": "emacsorphanage/ac-ispell",
+  "description": "Ispell/aspell completion source for auto-complete",
+  "url": "https://github.com/emacsorphanage/ac-ispell",
+  "stars": 26,
+  "updated": "2015-11-01T02:27:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ac-ispell",
+    "fetcher": "github",
+    "repo": "emacsorphanage/ac-ispell"
+  }
+}

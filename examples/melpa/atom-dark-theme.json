@@ -1,0 +1,18 @@
+{
+  "id": 29038056,
+  "name": "whitlockjc/atom-dark-theme-emacs",
+  "description": "A Emacs port of the Atom Dark theme from Atom.io.",
+  "url": "https://github.com/whitlockjc/atom-dark-theme-emacs",
+  "stars": 40,
+  "updated": "2022-01-14T19:02:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "atom-dark-theme",
+    "fetcher": "github",
+    "repo": "whitlockjc/atom-dark-theme-emacs"
+  }
+}

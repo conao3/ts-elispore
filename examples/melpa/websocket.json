@@ -1,0 +1,18 @@
+{
+  "id": 4244100,
+  "name": "ahyatt/emacs-websocket",
+  "description": "A websocket implementation in elisp, for emacs.",
+  "url": "https://github.com/ahyatt/emacs-websocket",
+  "stars": 349,
+  "updated": "2026-10-17T13:42:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "websocket",
+    "fetcher": "github",
+    "repo": "ahyatt/emacs-websocket"
+  }
+}

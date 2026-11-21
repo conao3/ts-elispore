@@ -1,0 +1,18 @@
+{
+  "id": 32091743,
+  "name": "tuhdo/semantic-stickyfunc-enhance",
+  "description": "Improved version of semantic-stickyfunc-mode that handles parameters on multiple lines",
+  "url": "https://github.com/tuhdo/semantic-stickyfunc-enhance",
+  "stars": 79,
+  "updated": "2015-04-29T18:14:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "stickyfunc-enhance",
+    "fetcher": "github",
+    "repo": "tuhdo/semantic-stickyfunc-enhance"
+  }
+}

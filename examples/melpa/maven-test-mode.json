@@ -1,0 +1,18 @@
+{
+  "id": 25888030,
+  "name": "rranelli/maven-test-mode",
+  "description": "Utilities for navigating test files and running maven test tasks.",
+  "url": "https://github.com/rranelli/maven-test-mode",
+  "stars": 7,
+  "updated": "2022-07-28T03:12:44Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "maven-test-mode",
+    "fetcher": "github",
+    "repo": "rranelli/maven-test-mode"
+  }
+}

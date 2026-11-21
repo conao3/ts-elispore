@@ -1,0 +1,18 @@
+{
+  "id": 121333332,
+  "name": "rokrdev/zeno-theme",
+  "description": "",
+  "url": "https://github.com/rokrdev/zeno-theme",
+  "stars": 21,
+  "updated": "2021-12-05T21:48:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zeno-theme",
+    "fetcher": "github",
+    "repo": "rokrdev/zeno-theme"
+  }
+}

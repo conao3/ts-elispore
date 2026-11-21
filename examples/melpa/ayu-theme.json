@@ -1,0 +1,18 @@
+{
+  "id": 257945658,
+  "name": "vutran1710/Ayu-Theme-Emacs",
+  "description": "ayu-themes for emacs",
+  "url": "https://github.com/vutran1710/Ayu-Theme-Emacs",
+  "stars": 46,
+  "updated": "2023-03-06T19:24:23Z",
+  "archived": false,
+  "topics": ["ayu-theme", "emacs-lisp", "emacs-theme-port", "emacs-themes"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ayu-theme",
+    "fetcher": "github",
+    "repo": "vutran1710/Ayu-Theme-Emacs"
+  }
+}

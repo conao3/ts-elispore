@@ -1,0 +1,18 @@
+{
+  "id": 469136345,
+  "name": "SFTtech/starlit-emacs",
+  "description": "Deep blue and colorful emacs theme like a clear night sky 🌃",
+  "url": "https://github.com/SFTtech/starlit-emacs",
+  "stars": 4,
+  "updated": "2025-12-22T00:00:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "starlit-theme",
+    "fetcher": "github",
+    "repo": "SFTtech/starlit-emacs"
+  }
+}

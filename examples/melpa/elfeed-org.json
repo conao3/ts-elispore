@@ -1,0 +1,18 @@
+{
+  "id": 16252862,
+  "name": "remyhonig/elfeed-org",
+  "description": "  Configure the Elfeed RSS reader with an Orgmode file",
+  "url": "https://github.com/remyhonig/elfeed-org",
+  "stars": 384,
+  "updated": "2025-03-11T10:00:04Z",
+  "archived": false,
+  "topics": ["elfeed", "elfeed-rss-reader", "emacs", "emacs-lisp", "opml", "orgmode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elfeed-org",
+    "fetcher": "github",
+    "repo": "remyhonig/elfeed-org"
+  }
+}

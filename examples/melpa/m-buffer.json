@@ -1,0 +1,19 @@
+{
+  "id": 16810847,
+  "name": "phillord/m-buffer-el",
+  "description": "List Oriented Buffer Operations for Emacs",
+  "url": "https://github.com/phillord/m-buffer-el",
+  "stars": 26,
+  "updated": "2024-12-15T22:14:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "m-buffer",
+    "fetcher": "github",
+    "repo": "phillord/m-buffer-el",
+    "files": "(:defaults\n                  \"m-buffer-doc.org\"\n                  \"m-buffer-doc.css\")"
+  }
+}

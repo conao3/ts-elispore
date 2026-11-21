@@ -1,0 +1,18 @@
+{
+  "id": 504358123,
+  "name": "kijimad/ob-git-permalink",
+  "description": "Import GitHub code given a permalink",
+  "url": "https://github.com/kijimad/ob-git-permalink",
+  "stars": 6,
+  "updated": "2023-02-11T08:49:02Z",
+  "archived": false,
+  "topics": ["docs", "emacs", "org-babel"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-git-permalink",
+    "fetcher": "github",
+    "repo": "kijimad/ob-git-permalink"
+  }
+}

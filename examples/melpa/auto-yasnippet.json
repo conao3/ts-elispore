@@ -1,0 +1,18 @@
+{
+  "id": 8027128,
+  "name": "abo-abo/auto-yasnippet",
+  "description": "quickly create disposable yasnippets",
+  "url": "https://github.com/abo-abo/auto-yasnippet",
+  "stars": 257,
+  "updated": "2023-02-08T03:31:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-yasnippet",
+    "fetcher": "github",
+    "repo": "abo-abo/auto-yasnippet"
+  }
+}

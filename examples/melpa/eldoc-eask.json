@@ -1,0 +1,18 @@
+{
+  "id": 580333736,
+  "name": "emacs-eask/eldoc-eask",
+  "description": "Eldoc support for Eask-file",
+  "url": "https://github.com/emacs-eask/eldoc-eask",
+  "stars": 6,
+  "updated": "2026-06-18T17:30:48Z",
+  "archived": false,
+  "topics": ["eask", "eldoc", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "eldoc-eask",
+    "fetcher": "github",
+    "repo": "emacs-eask/eldoc-eask"
+  }
+}

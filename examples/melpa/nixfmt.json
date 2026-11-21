@@ -1,0 +1,18 @@
+{
+  "id": 833216570,
+  "name": "purcell/emacs-nixfmt",
+  "description": "Emacs package for reformatting Nix code using nixfmt",
+  "url": "https://github.com/purcell/emacs-nixfmt",
+  "stars": 6,
+  "updated": "2026-08-08T16:38:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nixfmt",
+    "fetcher": "github",
+    "repo": "purcell/emacs-nixfmt"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 144931929,
+  "name": "Boruch-Baum/emacs-home-end",
+  "description": "emacs: turn home and end keys to multi-use navigation keys",
+  "url": "https://github.com/Boruch-Baum/emacs-home-end",
+  "stars": 7,
+  "updated": "2021-02-07T09:55:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "home-end",
+    "fetcher": "github",
+    "repo": "Boruch-Baum/emacs-home-end"
+  }
+}

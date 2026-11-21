@@ -1,0 +1,18 @@
+{
+  "id": 6923893,
+  "name": "pjones/bufshow",
+  "description": "A simple presentation tool for Emacs",
+  "url": "https://github.com/pjones/bufshow",
+  "stars": 14,
+  "updated": "2017-01-10T03:24:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bufshow",
+    "fetcher": "github",
+    "repo": "pjones/bufshow"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 75326739,
+  "name": "madhat2r/madhat2r-theme",
+  "description": "Dark theme for (spac[e]macs) that supports GUI and terminal",
+  "url": "https://github.com/madhat2r/madhat2r-theme",
+  "stars": 22,
+  "updated": "2026-11-12T13:02:42Z",
+  "archived": false,
+  "topics": ["emacs", "melpa", "spacemacs", "spacemacs-theme", "theme", "theme-screenshot"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "madhat2r-theme",
+    "fetcher": "github",
+    "repo": "madhat2r/madhat2r-theme"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 58156391,
+  "name": "zonuexe/maruo-macro-mode.el",
+  "description": "Emacs major mode for editing Hidemaru/Maruo macro script",
+  "url": "https://github.com/zonuexe/maruo-macro-mode.el",
+  "stars": 1,
+  "updated": "2016-06-16T13:49:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "maruo-macro-mode",
+    "fetcher": "github",
+    "repo": "zonuexe/maruo-macro-mode.el"
+  }
+}

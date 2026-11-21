@@ -1,0 +1,18 @@
+{
+  "id": 18634375,
+  "name": "nlamirault/gotest.el",
+  "description": "Emacs mode to go unit test command line tool",
+  "url": "https://github.com/nlamirault/gotest.el",
+  "stars": 104,
+  "updated": "2024-03-21T17:39:19Z",
+  "archived": true,
+  "topics": ["emacs", "golang"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gotest",
+    "fetcher": "github",
+    "repo": "nlamirault/gotest.el"
+  }
+}

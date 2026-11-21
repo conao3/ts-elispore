@@ -1,0 +1,18 @@
+{
+  "id": 339437,
+  "name": "pft/mingus",
+  "description": "GNU Emacs control of Music Player Daemon (MPD)",
+  "url": "https://github.com/pft/mingus",
+  "stars": 107,
+  "updated": "2023-05-18T17:26:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mingus",
+    "fetcher": "github",
+    "repo": "pft/mingus"
+  }
+}

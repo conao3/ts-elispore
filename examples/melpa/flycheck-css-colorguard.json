@@ -1,0 +1,18 @@
+{
+  "id": 46487763,
+  "name": "Simplify/flycheck-css-colorguard",
+  "description": "Extension for Flycheck that uses CSS Colorguard in order to warn you about using similar colors in your CSS file",
+  "url": "https://github.com/Simplify/flycheck-css-colorguard",
+  "stars": 1,
+  "updated": "2016-10-31T11:23:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-css-colorguard",
+    "fetcher": "github",
+    "repo": "Simplify/flycheck-css-colorguard"
+  }
+}

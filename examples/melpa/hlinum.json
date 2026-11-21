@@ -1,0 +1,18 @@
+{
+  "id": 32302152,
+  "name": "tom-tan/hlinum-mode",
+  "description": "This library extends linum-mode to highlight current line number.",
+  "url": "https://github.com/tom-tan/hlinum-mode",
+  "stars": 31,
+  "updated": "2020-07-18T09:01:18Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "linum"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hlinum",
+    "fetcher": "github",
+    "repo": "tom-tan/hlinum-mode"
+  }
+}

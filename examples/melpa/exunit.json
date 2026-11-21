@@ -1,0 +1,18 @@
+{
+  "id": 131686125,
+  "name": "ananthakumaran/exunit.el",
+  "description": "Emacs ExUnit test runner",
+  "url": "https://github.com/ananthakumaran/exunit.el",
+  "stars": 49,
+  "updated": "2026-01-27T15:21:50Z",
+  "archived": false,
+  "topics": ["emacs", "exunit"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "exunit",
+    "fetcher": "github",
+    "repo": "ananthakumaran/exunit.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 66218633,
+  "name": "GuiltyDolphin/org-evil",
+  "description": "Evil extensions for Org-mode.",
+  "url": "https://github.com/GuiltyDolphin/org-evil",
+  "stars": 77,
+  "updated": "2021-08-11T16:20:59Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "evil", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-evil",
+    "fetcher": "github",
+    "repo": "GuiltyDolphin/org-evil"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 287253240,
+  "name": "dave-f/baff",
+  "description": "Create a header containing a byte array generated from a file",
+  "url": "https://github.com/dave-f/baff",
+  "stars": 3,
+  "updated": "2020-08-24T21:11:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "baff",
+    "fetcher": "github",
+    "repo": "dave-f/baff"
+  }
+}

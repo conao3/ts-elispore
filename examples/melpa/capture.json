@@ -1,0 +1,19 @@
+{
+  "id": 11238810,
+  "name": "pashinin/capture.el",
+  "description": "Emacs extension to record video from dekstop",
+  "url": "https://github.com/pashinin/capture.el",
+  "stars": 14,
+  "updated": "2013-08-28T17:02:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "capture",
+    "fetcher": "github",
+    "repo": "pashinin/capture.el",
+    "files": "(\"src/*.el\")"
+  }
+}

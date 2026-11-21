@@ -1,0 +1,19 @@
+{
+  "id": 4659902,
+  "name": "jwiegley/springboard",
+  "description": "An Emacs mode based on Helm that makes it easy to bounce around projects",
+  "url": "https://github.com/jwiegley/springboard",
+  "stars": 15,
+  "updated": "2025-10-16T17:34:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ido-springboard",
+    "fetcher": "github",
+    "repo": "jwiegley/springboard",
+    "files": "(\"ido-springboard.el\")"
+  }
+}

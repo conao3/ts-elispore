@@ -1,0 +1,18 @@
+{
+  "id": 236380572,
+  "name": "mihaiolteanu/vuiet",
+  "description": "The music player and explorer for Emacs",
+  "url": "https://github.com/mihaiolteanu/vuiet",
+  "stars": 292,
+  "updated": "2023-12-31T10:53:33Z",
+  "archived": false,
+  "topics": ["lastfm", "music-explorer", "music-player"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vuiet",
+    "fetcher": "github",
+    "repo": "mihaiolteanu/vuiet"
+  }
+}

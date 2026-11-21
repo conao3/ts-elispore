@@ -1,0 +1,18 @@
+{
+  "id": 8130737,
+  "name": "sabof/svg-mode-line-themes",
+  "description": "SVG-based themes for mode-line",
+  "url": "https://github.com/sabof/svg-mode-line-themes",
+  "stars": 46,
+  "updated": "2015-04-27T02:24:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "svg-mode-line-themes",
+    "fetcher": "github",
+    "repo": "sabof/svg-mode-line-themes"
+  }
+}

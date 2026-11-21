@@ -1,0 +1,18 @@
+{
+  "id": 366032,
+  "name": "rocky/emacs-load-relative",
+  "description": "Relative loads for Emacs Lisp files. Adds functions __FILE__ and  load-relative and require-relative.",
+  "url": "https://github.com/rocky/emacs-load-relative",
+  "stars": 33,
+  "updated": "2023-02-21T03:14:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "load-relative",
+    "fetcher": "github",
+    "repo": "rocky/emacs-load-relative"
+  }
+}

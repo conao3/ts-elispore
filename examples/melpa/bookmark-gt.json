@@ -1,0 +1,18 @@
+{
+  "id": 1332451739,
+  "name": "dmgerman/bookmark-gt",
+  "description": "Module for emacs to enhance its bookmarking system",
+  "url": "https://github.com/dmgerman/bookmark-gt",
+  "stars": 9,
+  "updated": "2026-11-17T00:53:15Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bookmark-gt",
+    "fetcher": "github",
+    "repo": "dmgerman/bookmark-gt"
+  }
+}

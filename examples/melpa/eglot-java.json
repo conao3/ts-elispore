@@ -1,0 +1,18 @@
+{
+  "id": 370938453,
+  "name": "yveszoundi/eglot-java",
+  "description": "Java extension for the eglot LSP client",
+  "url": "https://github.com/yveszoundi/eglot-java",
+  "stars": 78,
+  "updated": "2025-05-27T12:32:50Z",
+  "archived": false,
+  "topics": ["eglot", "emacs", "emacs-lisp", "java"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eglot-java",
+    "fetcher": "github",
+    "repo": "yveszoundi/eglot-java"
+  }
+}

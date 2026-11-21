@@ -1,0 +1,18 @@
+{
+  "id": 8150600,
+  "name": "nicferrier/emacs-world-time-mode",
+  "description": "A mode showing your world time alist formatted as a list of whole days with the differing times.",
+  "url": "https://github.com/nicferrier/emacs-world-time-mode",
+  "stars": 17,
+  "updated": "2020-04-14T07:10:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "world-time-mode",
+    "fetcher": "github",
+    "repo": "nicferrier/emacs-world-time-mode"
+  }
+}

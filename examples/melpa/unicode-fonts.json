@@ -1,0 +1,18 @@
+{
+  "id": 5515706,
+  "name": "rolandwalker/unicode-fonts",
+  "description": "Configure Unicode fonts for Emacs",
+  "url": "https://github.com/rolandwalker/unicode-fonts",
+  "stars": 246,
+  "updated": "2026-02-02T11:56:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unicode-fonts",
+    "fetcher": "github",
+    "repo": "rolandwalker/unicode-fonts"
+  }
+}

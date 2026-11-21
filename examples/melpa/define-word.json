@@ -1,0 +1,18 @@
+{
+  "id": 36064034,
+  "name": "abo-abo/define-word",
+  "description": "Display the definition of word at point in Emacs",
+  "url": "https://github.com/abo-abo/define-word",
+  "stars": 159,
+  "updated": "2022-01-04T18:48:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "define-word",
+    "fetcher": "github",
+    "repo": "abo-abo/define-word"
+  }
+}

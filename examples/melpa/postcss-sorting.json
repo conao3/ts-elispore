@@ -1,0 +1,18 @@
+{
+  "id": 92474104,
+  "name": "P233/postcss-sorting.el",
+  "description": "Emacs plugin to sort CSS rules content with specified order. Powered by the npm postcss-sorting package.",
+  "url": "https://github.com/P233/postcss-sorting.el",
+  "stars": 3,
+  "updated": "2018-02-11T09:58:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "postcss-sorting",
+    "fetcher": "github",
+    "repo": "P233/postcss-sorting.el"
+  }
+}

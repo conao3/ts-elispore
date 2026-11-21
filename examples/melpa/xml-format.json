@@ -1,0 +1,18 @@
+{
+  "id": 214419087,
+  "name": "wbolster/emacs-xml-format",
+  "description": "emacs package to reformat xml using xmllint",
+  "url": "https://github.com/wbolster/emacs-xml-format",
+  "stars": 6,
+  "updated": "2022-02-08T13:19:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xml-format",
+    "fetcher": "github",
+    "repo": "wbolster/emacs-xml-format"
+  }
+}

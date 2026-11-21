@@ -1,0 +1,18 @@
+{
+  "id": 251591392,
+  "name": "gexplorer/simple-modeline",
+  "description": "A simple mode-line for Emacs.",
+  "url": "https://github.com/gexplorer/simple-modeline",
+  "stars": 90,
+  "updated": "2026-08-20T06:59:48Z",
+  "archived": false,
+  "topics": ["emacs", "mode-line"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simple-modeline",
+    "fetcher": "github",
+    "repo": "gexplorer/simple-modeline"
+  }
+}

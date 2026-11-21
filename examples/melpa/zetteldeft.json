@@ -1,0 +1,19 @@
+{
+  "id": 140335776,
+  "name": "EFLS/zetteldeft",
+  "description": "A Zettelkasten system! Or rather, some functions on top of the emacs deft package.",
+  "url": "https://github.com/EFLS/zetteldeft",
+  "stars": 388,
+  "updated": "2023-03-17T19:52:31Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode", "spacemacs", "zettelkasten"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zetteldeft",
+    "fetcher": "github",
+    "repo": "EFLS/zetteldeft",
+    "files": "(:defaults \"zetteldeft.org\")"
+  }
+}

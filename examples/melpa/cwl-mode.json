@@ -1,0 +1,18 @@
+{
+  "id": 106667101,
+  "name": "tom-tan/cwl-mode",
+  "description": "CWL mode for Emacs",
+  "url": "https://github.com/tom-tan/cwl-mode",
+  "stars": 9,
+  "updated": "2021-05-10T11:53:10Z",
+  "archived": false,
+  "topics": ["common-workflow-language", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cwl-mode",
+    "fetcher": "github",
+    "repo": "tom-tan/cwl-mode"
+  }
+}

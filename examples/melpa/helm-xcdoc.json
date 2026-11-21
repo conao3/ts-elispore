@@ -1,0 +1,18 @@
+{
+  "id": 31079843,
+  "name": "fujimisakari/emacs-helm-xcdoc",
+  "description": "",
+  "url": "https://github.com/fujimisakari/emacs-helm-xcdoc",
+  "stars": 6,
+  "updated": "2016-01-16T10:18:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-xcdoc",
+    "fetcher": "github",
+    "repo": "fujimisakari/emacs-helm-xcdoc"
+  }
+}

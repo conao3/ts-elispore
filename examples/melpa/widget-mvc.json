@@ -1,0 +1,18 @@
+{
+  "id": 9338407,
+  "name": "kiwanami/emacs-widget-mvc",
+  "description": "Web like MVC framework for emacs lisp",
+  "url": "https://github.com/kiwanami/emacs-widget-mvc",
+  "stars": 41,
+  "updated": "2017-03-16T00:18:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "widget-mvc",
+    "fetcher": "github",
+    "repo": "kiwanami/emacs-widget-mvc"
+  }
+}

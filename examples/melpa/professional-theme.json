@@ -1,0 +1,18 @@
+{
+  "id": 23876930,
+  "name": "juanjux/emacs-professional-theme",
+  "description": "Port of Vim's Professional Theme for Emacs",
+  "url": "https://github.com/juanjux/emacs-professional-theme",
+  "stars": 14,
+  "updated": "2015-03-15T11:00:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "professional-theme",
+    "fetcher": "github",
+    "repo": "juanjux/emacs-professional-theme"
+  }
+}

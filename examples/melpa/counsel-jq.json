@@ -1,0 +1,18 @@
+{
+  "id": 217153271,
+  "name": "200ok-ch/counsel-jq",
+  "description": "Traverse complex JSON and YAML structures with live feedback",
+  "url": "https://github.com/200ok-ch/counsel-jq",
+  "stars": 127,
+  "updated": "2023-07-19T22:35:11Z",
+  "archived": false,
+  "topics": ["autocompletion", "emacs", "json", "json-parser", "yaml", "yaml-parser"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "counsel-jq",
+    "fetcher": "github",
+    "repo": "200ok-ch/counsel-jq"
+  }
+}

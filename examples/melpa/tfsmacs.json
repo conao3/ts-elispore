@@ -1,0 +1,18 @@
+{
+  "id": 133728954,
+  "name": "sebasmonia/tfsmacs",
+  "description": "Emacs package for interaction with TFS source control.",
+  "url": "https://github.com/sebasmonia/tfsmacs",
+  "stars": 3,
+  "updated": "2020-09-17T05:18:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tfsmacs",
+    "fetcher": "github",
+    "repo": "sebasmonia/tfsmacs"
+  }
+}

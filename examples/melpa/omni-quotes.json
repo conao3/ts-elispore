@@ -1,0 +1,18 @@
+{
+  "id": 36520955,
+  "name": "AdrieanKhisbe/omni-quotes.el",
+  "description": "Random quotes displayer for Emacs",
+  "url": "https://github.com/AdrieanKhisbe/omni-quotes.el",
+  "stars": 8,
+  "updated": "2020-03-04T23:42:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "omni-quotes",
+    "fetcher": "github",
+    "repo": "AdrieanKhisbe/omni-quotes.el"
+  }
+}

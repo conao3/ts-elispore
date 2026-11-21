@@ -1,0 +1,18 @@
+{
+  "id": 7592266,
+  "name": "thierryvolpiatto/eldoc-eval",
+  "description": "Emacs extension that display eldoc info while minibuffer is in use.",
+  "url": "https://github.com/thierryvolpiatto/eldoc-eval",
+  "stars": 14,
+  "updated": "2022-01-06T19:52:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eldoc-eval",
+    "fetcher": "github",
+    "repo": "thierryvolpiatto/eldoc-eval"
+  }
+}

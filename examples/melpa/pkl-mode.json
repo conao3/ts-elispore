@@ -1,0 +1,18 @@
+{
+  "id": 789595686,
+  "name": "sin-ack/pkl-mode",
+  "description": "Emacs major mode for editing Pkl files",
+  "url": "https://github.com/sin-ack/pkl-mode",
+  "stars": 12,
+  "updated": "2024-04-22T15:32:38Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "pkl", "pkl-lang"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pkl-mode",
+    "fetcher": "github",
+    "repo": "sin-ack/pkl-mode"
+  }
+}

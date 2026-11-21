@@ -1,0 +1,18 @@
+{
+  "id": 67129227,
+  "name": "aaronjensen/flycheck-credo",
+  "description": "",
+  "url": "https://github.com/aaronjensen/flycheck-credo",
+  "stars": 21,
+  "updated": "2024-01-05T16:55:55Z",
+  "archived": false,
+  "topics": ["credo", "elixir", "emacs", "flycheck", "melpa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-credo",
+    "fetcher": "github",
+    "repo": "aaronjensen/flycheck-credo"
+  }
+}

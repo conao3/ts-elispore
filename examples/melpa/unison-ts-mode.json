@@ -1,0 +1,18 @@
+{
+  "id": 718921243,
+  "name": "fmguerreiro/unison-ts-mode",
+  "description": "Emacs major mode for the Unison language",
+  "url": "https://github.com/fmguerreiro/unison-ts-mode",
+  "stars": 10,
+  "updated": "2026-11-12T06:37:29Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode", "major-mode", "tree-sitter", "unison", "unison-lang"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unison-ts-mode",
+    "fetcher": "github",
+    "repo": "fmguerreiro/unison-ts-mode"
+  }
+}

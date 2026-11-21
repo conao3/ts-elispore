@@ -1,0 +1,18 @@
+{
+  "id": 27048142,
+  "name": "birkenfeld/idomenu",
+  "description": "The idomenu.el library for Emacs.",
+  "url": "https://github.com/birkenfeld/idomenu",
+  "stars": 9,
+  "updated": "2021-04-23T15:39:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "idomenu",
+    "fetcher": "github",
+    "repo": "birkenfeld/idomenu"
+  }
+}

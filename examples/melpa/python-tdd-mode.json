@@ -1,0 +1,29 @@
+{
+  "id": 887637326,
+  "name": "marcwebbie/python-tdd-mode",
+  "description": "TDD-Mode for Python Test Driven Development in emacs",
+  "url": "https://github.com/marcwebbie/python-tdd-mode",
+  "stars": 3,
+  "updated": "2025-07-19T14:39:18Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-lisp",
+    "nosetests",
+    "pytest",
+    "python",
+    "tdd",
+    "test",
+    "test-driven-development",
+    "testing",
+    "tox"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "python-tdd-mode",
+    "fetcher": "github",
+    "repo": "marcwebbie/python-tdd-mode"
+  }
+}

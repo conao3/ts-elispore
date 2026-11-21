@@ -1,0 +1,18 @@
+{
+  "id": 57039016,
+  "name": "Kungsgeten/yankpad",
+  "description": "Paste snippets from an org-mode file",
+  "url": "https://github.com/Kungsgeten/yankpad",
+  "stars": 231,
+  "updated": "2026-05-06T08:59:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yankpad",
+    "fetcher": "github",
+    "repo": "Kungsgeten/yankpad"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 813345434,
+  "name": "erickgnavar/treesit-ispell.el",
+  "description": "",
+  "url": "https://github.com/erickgnavar/treesit-ispell.el",
+  "stars": 0,
+  "updated": "2024-11-04T15:20:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "treesit-ispell",
+    "fetcher": "github",
+    "repo": "erickgnavar/treesit-ispell.el"
+  }
+}

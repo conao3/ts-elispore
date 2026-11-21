@@ -1,0 +1,18 @@
+{
+  "id": 126065648,
+  "name": "asavonic/outlook.el",
+  "description": "Emacs package to send HTML emails in MS Outlook style",
+  "url": "https://github.com/asavonic/outlook.el",
+  "stars": 32,
+  "updated": "2018-04-28T14:57:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "outlook",
+    "fetcher": "github",
+    "repo": "asavonic/outlook.el"
+  }
+}

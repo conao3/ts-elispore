@@ -1,0 +1,18 @@
+{
+  "id": 100135010,
+  "name": "ifree/org-onenote",
+  "description": "Post org file to onenote",
+  "url": "https://github.com/ifree/org-onenote",
+  "stars": 52,
+  "updated": "2017-10-08T05:00:19Z",
+  "archived": false,
+  "topics": ["emacs", "onenote", "org-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-onenote",
+    "fetcher": "github",
+    "repo": "ifree/org-onenote"
+  }
+}

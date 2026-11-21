@@ -1,0 +1,19 @@
+{
+  "id": 7435856,
+  "name": "ScottyB/ac-js2",
+  "description": "Javascript auto-completion in Emacs using Js2-mode's parser and Skewer-mode.",
+  "url": "https://github.com/ScottyB/ac-js2",
+  "stars": 121,
+  "updated": "2019-01-01T09:33:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-js2",
+    "fetcher": "github",
+    "repo": "ScottyB/ac-js2",
+    "files": "(\"*.js\" \"*.el\")"
+  }
+}

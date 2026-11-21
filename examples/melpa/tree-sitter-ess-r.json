@@ -1,0 +1,18 @@
+{
+  "id": 433467279,
+  "name": "ShuguangSun/tree-sitter-ess-r",
+  "description": "R with tree-sitter support.",
+  "url": "https://github.com/ShuguangSun/tree-sitter-ess-r",
+  "stars": 9,
+  "updated": "2025-07-29T15:00:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tree-sitter-ess-r",
+    "fetcher": "github",
+    "repo": "ShuguangSun/tree-sitter-ess-r"
+  }
+}

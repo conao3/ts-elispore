@@ -1,0 +1,18 @@
+{
+  "id": 9909860,
+  "name": "myuhe/ess-R-data-view.el",
+  "description": "data viewer for GNU R",
+  "url": "https://github.com/myuhe/ess-R-data-view.el",
+  "stars": 33,
+  "updated": "2016-09-12T16:32:46Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ess-R-data-view",
+    "fetcher": "github",
+    "repo": "myuhe/ess-R-data-view.el"
+  }
+}

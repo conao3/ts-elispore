@@ -1,0 +1,18 @@
+{
+  "id": 1024310766,
+  "name": "dheerajshenoy/minimal-dashboard.el",
+  "description": "A very minimal dashboard plugin for emacs",
+  "url": "https://github.com/dheerajshenoy/minimal-dashboard.el",
+  "stars": 21,
+  "updated": "2026-11-04T20:25:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "minimal-dashboard",
+    "fetcher": "github",
+    "repo": "dheerajshenoy/minimal-dashboard.el"
+  }
+}

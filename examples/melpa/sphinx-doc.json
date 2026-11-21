@@ -1,0 +1,18 @@
+{
+  "id": 13580323,
+  "name": "naiquevin/sphinx-doc.el",
+  "description": "Generate Sphinx friendly docstrings for Python functions in Emacs",
+  "url": "https://github.com/naiquevin/sphinx-doc.el",
+  "stars": 129,
+  "updated": "2022-11-15T01:14:44Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sphinx-doc",
+    "fetcher": "github",
+    "repo": "naiquevin/sphinx-doc.el"
+  }
+}

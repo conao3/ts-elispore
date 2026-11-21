@@ -1,0 +1,18 @@
+{
+  "id": 501861319,
+  "name": "zkry/yaml-pro",
+  "description": "Edit YAML in Emacs like a pro",
+  "url": "https://github.com/zkry/yaml-pro",
+  "stars": 188,
+  "updated": "2025-08-17T04:53:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "yaml-pro",
+    "fetcher": "github",
+    "repo": "zkry/yaml-pro"
+  }
+}

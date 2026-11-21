@@ -1,0 +1,18 @@
+{
+  "id": 6204579,
+  "name": "alamaison/emacs-cmake-project",
+  "description": "A minor-mode integrating the CMake build process with the Emacs ecosystem.",
+  "url": "https://github.com/alamaison/emacs-cmake-project",
+  "stars": 34,
+  "updated": "2023-02-03T01:31:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cmake-project",
+    "fetcher": "github",
+    "repo": "alamaison/emacs-cmake-project"
+  }
+}

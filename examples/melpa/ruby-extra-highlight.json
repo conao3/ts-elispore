@@ -1,0 +1,18 @@
+{
+  "id": 109740331,
+  "name": "Lindydancer/ruby-extra-highlight",
+  "description": "Highlight Ruby parameters in Emacs",
+  "url": "https://github.com/Lindydancer/ruby-extra-highlight",
+  "stars": 3,
+  "updated": "2025-01-03T15:21:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ruby-extra-highlight",
+    "fetcher": "github",
+    "repo": "Lindydancer/ruby-extra-highlight"
+  }
+}

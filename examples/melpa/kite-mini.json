@@ -1,0 +1,18 @@
+{
+  "id": 17562624,
+  "name": "tungd/kite-mini.el",
+  "description": "Yet another Emacs package to interact with WebKit remote debugging API.",
+  "url": "https://github.com/tungd/kite-mini.el",
+  "stars": 18,
+  "updated": "2017-11-19T22:45:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kite-mini",
+    "fetcher": "github",
+    "repo": "tungd/kite-mini.el"
+  }
+}

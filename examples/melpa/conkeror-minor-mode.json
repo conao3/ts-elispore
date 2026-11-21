@@ -1,0 +1,18 @@
+{
+  "id": 13857983,
+  "name": "Malabarba/conkeror-minor-mode",
+  "description": "Mode for editing conkeror javascript files.",
+  "url": "https://github.com/Malabarba/conkeror-minor-mode",
+  "stars": 17,
+  "updated": "2015-01-14T16:05:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "conkeror-minor-mode",
+    "fetcher": "github",
+    "repo": "Malabarba/conkeror-minor-mode"
+  }
+}

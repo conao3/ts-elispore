@@ -1,0 +1,18 @@
+{
+  "id": 13590320,
+  "name": "purcell/skewer-less",
+  "description": "Live LESS stylesheet updates from Emacs via skewer-mode",
+  "url": "https://github.com/purcell/skewer-less",
+  "stars": 9,
+  "updated": "2026-04-22T12:27:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "skewer-less",
+    "fetcher": "github",
+    "repo": "purcell/skewer-less"
+  }
+}

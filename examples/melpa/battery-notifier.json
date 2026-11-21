@@ -1,0 +1,18 @@
+{
+  "id": 367680972,
+  "name": "jasonmj/battery-notifier",
+  "description": "",
+  "url": "https://github.com/jasonmj/battery-notifier",
+  "stars": 9,
+  "updated": "2022-07-05T20:30:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "battery-notifier",
+    "fetcher": "github",
+    "repo": "jasonmj/battery-notifier"
+  }
+}

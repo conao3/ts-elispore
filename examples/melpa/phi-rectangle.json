@@ -1,0 +1,18 @@
+{
+  "id": 12695478,
+  "name": "zk-phi/phi-rectangle",
+  "description": "Another rectangle-mark command",
+  "url": "https://github.com/zk-phi/phi-rectangle",
+  "stars": 12,
+  "updated": "2020-09-11T02:13:19Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "phi-rectangle",
+    "fetcher": "github",
+    "repo": "zk-phi/phi-rectangle"
+  }
+}

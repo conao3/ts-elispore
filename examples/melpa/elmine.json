@@ -1,0 +1,18 @@
+{
+  "id": 6736580,
+  "name": "leoc/elmine",
+  "description": "Access redmine Rest API via elisp in your favorite editor.",
+  "url": "https://github.com/leoc/elmine",
+  "stars": 13,
+  "updated": "2020-05-20T12:39:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elmine",
+    "fetcher": "github",
+    "repo": "leoc/elmine"
+  }
+}

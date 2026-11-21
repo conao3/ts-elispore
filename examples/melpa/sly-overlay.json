@@ -1,0 +1,18 @@
+{
+  "id": 753455155,
+  "name": "fosskers/sly-overlay",
+  "description": "Overlay Common Lisp evaluation results.",
+  "url": "https://github.com/fosskers/sly-overlay",
+  "stars": 10,
+  "updated": "2025-08-16T14:37:13Z",
+  "archived": false,
+  "topics": ["common-lisp", "emacs"],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sly-overlay",
+    "fetcher": "github",
+    "repo": "fosskers/sly-overlay"
+  }
+}

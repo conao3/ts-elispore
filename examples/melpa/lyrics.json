@@ -1,0 +1,18 @@
+{
+  "id": 63820773,
+  "name": "emacs-pe/lyrics.el",
+  "description": "",
+  "url": "https://github.com/emacs-pe/lyrics.el",
+  "stars": 7,
+  "updated": "2022-03-14T22:11:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lyrics",
+    "fetcher": "github",
+    "repo": "emacs-pe/lyrics.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 8941275,
+  "name": "nicferrier/emacs-proc-net",
+  "description": "Manage Emacs Network Processes - network connections and listening sockets.",
+  "url": "https://github.com/nicferrier/emacs-proc-net",
+  "stars": 3,
+  "updated": "2015-11-21T02:19:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "proc-net",
+    "fetcher": "github",
+    "repo": "nicferrier/emacs-proc-net"
+  }
+}

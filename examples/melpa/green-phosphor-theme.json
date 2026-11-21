@@ -1,0 +1,18 @@
+{
+  "id": 35618642,
+  "name": "aalpern/emacs-color-theme-green-phosphor",
+  "description": "A retro color theme for Emacs. Because the true color of computing is phosphorescent green on black.",
+  "url": "https://github.com/aalpern/emacs-color-theme-green-phosphor",
+  "stars": 19,
+  "updated": "2015-05-16T16:15:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "green-phosphor-theme",
+    "fetcher": "github",
+    "repo": "aalpern/emacs-color-theme-green-phosphor"
+  }
+}

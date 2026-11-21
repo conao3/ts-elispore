@@ -1,0 +1,18 @@
+{
+  "id": 30102832,
+  "name": "raghavgautam/tramp-hdfs",
+  "description": "Browser HDFS in Emacs using Tramp",
+  "url": "https://github.com/raghavgautam/tramp-hdfs",
+  "stars": 11,
+  "updated": "2021-05-26T03:39:40Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "hdfs", "tramp", "webhdfs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tramp-hdfs",
+    "fetcher": "github",
+    "repo": "raghavgautam/tramp-hdfs"
+  }
+}

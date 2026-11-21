@@ -1,0 +1,18 @@
+{
+  "id": 77693325,
+  "name": "emacsorphanage/elisp-depend",
+  "description": "List library dependencies of an elisp file",
+  "url": "https://github.com/emacsorphanage/elisp-depend",
+  "stars": 3,
+  "updated": "2025-11-21T20:40:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "elisp-depend",
+    "fetcher": "github",
+    "repo": "emacsorphanage/elisp-depend"
+  }
+}

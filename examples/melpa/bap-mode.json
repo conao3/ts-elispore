@@ -1,0 +1,18 @@
+{
+  "id": 143280410,
+  "name": "BinaryAnalysisPlatform/bap-mode",
+  "description": "An Emacs major mode for BAP's intermediate language",
+  "url": "https://github.com/BinaryAnalysisPlatform/bap-mode",
+  "stars": 5,
+  "updated": "2020-07-10T08:38:03Z",
+  "archived": false,
+  "topics": ["bap", "emacs", "emacs-lisp", "intermediate-language"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "bap-mode",
+    "fetcher": "github",
+    "repo": "BinaryAnalysisPlatform/bap-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 43918873,
+  "name": "kwrooijen/cargo.el",
+  "description": "Emacs Minor Mode for Cargo, Rust's Package Manager.",
+  "url": "https://github.com/kwrooijen/cargo.el",
+  "stars": 177,
+  "updated": "2024-04-09T03:44:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cargo",
+    "fetcher": "github",
+    "repo": "kwrooijen/cargo.el"
+  }
+}

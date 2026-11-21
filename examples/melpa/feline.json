@@ -1,0 +1,18 @@
+{
+  "id": 519640655,
+  "name": "chee/feline-mode",
+  "description": "A light, fast, no-frills emacs modeline",
+  "url": "https://github.com/chee/feline-mode",
+  "stars": 8,
+  "updated": "2023-03-01T13:50:55Z",
+  "archived": false,
+  "topics": ["emacs", "modeline"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "feline",
+    "fetcher": "github",
+    "repo": "chee/feline-mode"
+  }
+}

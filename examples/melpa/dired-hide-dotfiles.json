@@ -1,0 +1,18 @@
+{
+  "id": 84268806,
+  "name": "mattiasb/dired-hide-dotfiles",
+  "description": "[Deprecated]. Hide dotfiles in dired.",
+  "url": "https://github.com/mattiasb/dired-hide-dotfiles",
+  "stars": 27,
+  "updated": "2024-07-27T17:21:08Z",
+  "archived": false,
+  "topics": ["dired", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-hide-dotfiles",
+    "fetcher": "github",
+    "repo": "mattiasb/dired-hide-dotfiles"
+  }
+}

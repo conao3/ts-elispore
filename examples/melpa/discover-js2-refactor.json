@@ -1,0 +1,18 @@
+{
+  "id": 16278358,
+  "name": "NicolasPetton/discover-js2-refactor",
+  "description": "Adds a discover context menu to js2-refactor",
+  "url": "https://github.com/NicolasPetton/discover-js2-refactor",
+  "stars": 13,
+  "updated": "2014-01-29T15:52:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "discover-js2-refactor",
+    "fetcher": "github",
+    "repo": "NicolasPetton/discover-js2-refactor"
+  }
+}

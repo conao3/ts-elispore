@@ -1,0 +1,18 @@
+{
+  "id": 463837754,
+  "name": "isamert/sozluk.el",
+  "description": "An online Turkish dictonary",
+  "url": "https://github.com/isamert/sozluk.el",
+  "stars": 8,
+  "updated": "2023-09-13T00:41:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sozluk",
+    "fetcher": "github",
+    "repo": "isamert/sozluk.el"
+  }
+}

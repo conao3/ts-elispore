@@ -1,0 +1,18 @@
+{
+  "id": 544933078,
+  "name": "amnn/move-mode",
+  "description": "Emacs major mode for Move smart contract programming language.",
+  "url": "https://github.com/amnn/move-mode",
+  "stars": 19,
+  "updated": "2025-12-24T11:56:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "move-mode",
+    "fetcher": "github",
+    "repo": "amnn/move-mode"
+  }
+}

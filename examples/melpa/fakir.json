@@ -1,0 +1,18 @@
+{
+  "id": 3747367,
+  "name": "nicferrier/emacs-fakir",
+  "description": "functions and macros to fake bit of Emacs core libraries, like files and processes.",
+  "url": "https://github.com/nicferrier/emacs-fakir",
+  "stars": 27,
+  "updated": "2014-07-29T16:52:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fakir",
+    "fetcher": "github",
+    "repo": "nicferrier/emacs-fakir"
+  }
+}

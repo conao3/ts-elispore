@@ -1,0 +1,18 @@
+{
+  "id": 22915902,
+  "name": "atilaneves/ac-dcd",
+  "description": "Auto completion for Emacs using DCD: the D completion daemon",
+  "url": "https://github.com/atilaneves/ac-dcd",
+  "stars": 19,
+  "updated": "2025-09-25T09:46:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-dcd",
+    "fetcher": "github",
+    "repo": "atilaneves/ac-dcd"
+  }
+}

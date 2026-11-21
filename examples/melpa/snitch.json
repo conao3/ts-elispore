@@ -1,0 +1,18 @@
+{
+  "id": 317935267,
+  "name": "mrmekon/snitch-el",
+  "description": "Firewall for emacs.",
+  "url": "https://github.com/mrmekon/snitch-el",
+  "stars": 53,
+  "updated": "2021-02-02T17:31:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "snitch",
+    "fetcher": "github",
+    "repo": "mrmekon/snitch-el"
+  }
+}

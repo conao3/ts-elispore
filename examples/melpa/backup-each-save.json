@@ -1,0 +1,18 @@
+{
+  "id": 123079718,
+  "name": "conornash/backup-each-save",
+  "description": "Emacs package to backup each save of a file",
+  "url": "https://github.com/conornash/backup-each-save",
+  "stars": 10,
+  "updated": "2019-06-01T11:42:48Z",
+  "archived": false,
+  "topics": ["backup", "emacs", "emacs-lisp"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "backup-each-save",
+    "fetcher": "github",
+    "repo": "conornash/backup-each-save"
+  }
+}

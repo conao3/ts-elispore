@@ -1,0 +1,18 @@
+{
+  "id": 84752800,
+  "name": "storvik/emacs-lastpass",
+  "description": "Emacs LastPass command wrapper. ",
+  "url": "https://github.com/storvik/emacs-lastpass",
+  "stars": 24,
+  "updated": "2020-12-29T21:10:27Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lastpass", "lastpass"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lastpass",
+    "fetcher": "github",
+    "repo": "storvik/emacs-lastpass"
+  }
+}

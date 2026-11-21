@@ -1,0 +1,18 @@
+{
+  "id": 288687122,
+  "name": "nbfalcon/flycheck-projectile",
+  "description": "Project-wide flycheck errors",
+  "url": "https://github.com/nbfalcon/flycheck-projectile",
+  "stars": 15,
+  "updated": "2020-10-31T19:53:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-projectile",
+    "fetcher": "github",
+    "repo": "nbfalcon/flycheck-projectile"
+  }
+}

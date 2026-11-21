@@ -1,0 +1,18 @@
+{
+  "id": 9217256,
+  "name": "Wilfred/emacs-refactor",
+  "description": "language-specific refactoring in Emacs",
+  "url": "https://github.com/Wilfred/emacs-refactor",
+  "stars": 356,
+  "updated": "2023-01-29T05:54:44Z",
+  "archived": false,
+  "topics": ["emacs", "lisp", "refactoring"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emr",
+    "fetcher": "github",
+    "repo": "Wilfred/emacs-refactor"
+  }
+}

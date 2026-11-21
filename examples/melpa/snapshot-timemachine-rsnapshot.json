@@ -1,0 +1,18 @@
+{
+  "id": 69875429,
+  "name": "NicolasPetton/snapshot-timemachine-rsnapshot",
+  "description": "rsnapshot backend for snapshot-timemachine",
+  "url": "https://github.com/NicolasPetton/snapshot-timemachine-rsnapshot",
+  "stars": 1,
+  "updated": "2017-03-24T12:13:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "snapshot-timemachine-rsnapshot",
+    "fetcher": "github",
+    "repo": "NicolasPetton/snapshot-timemachine-rsnapshot"
+  }
+}

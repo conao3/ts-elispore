@@ -1,0 +1,18 @@
+{
+  "id": 725286070,
+  "name": "CodeAwareness/kawa.emacs",
+  "description": "",
+  "url": "https://github.com/CodeAwareness/kawa.emacs",
+  "stars": 5,
+  "updated": "2026-03-07T08:08:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "kawacode",
+    "fetcher": "github",
+    "repo": "CodeAwareness/kawa.emacs"
+  }
+}

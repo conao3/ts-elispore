@@ -1,0 +1,18 @@
+{
+  "id": 219994877,
+  "name": "emacs-grammarly/grammarly",
+  "description": "Grammarly API interface",
+  "url": "https://github.com/emacs-grammarly/grammarly",
+  "stars": 131,
+  "updated": "2026-06-18T19:50:26Z",
+  "archived": false,
+  "topics": ["elisp", "grammar", "grammarly"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "grammarly",
+    "fetcher": "github",
+    "repo": "emacs-grammarly/grammarly"
+  }
+}

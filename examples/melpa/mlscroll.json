@@ -1,0 +1,18 @@
+{
+  "id": 363726120,
+  "name": "jdtsmith/mlscroll",
+  "description": "Lightweight scrollbar for the Emacs mode line",
+  "url": "https://github.com/jdtsmith/mlscroll",
+  "stars": 129,
+  "updated": "2026-11-02T20:45:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mlscroll",
+    "fetcher": "github",
+    "repo": "jdtsmith/mlscroll"
+  }
+}

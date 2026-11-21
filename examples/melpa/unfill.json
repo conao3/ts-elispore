@@ -1,0 +1,18 @@
+{
+  "id": 4481275,
+  "name": "purcell/unfill",
+  "description": "Functions providing the inverse of Emacs' fill-paragraph and fill-region",
+  "url": "https://github.com/purcell/unfill",
+  "stars": 94,
+  "updated": "2026-04-22T12:24:43Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unfill",
+    "fetcher": "github",
+    "repo": "purcell/unfill"
+  }
+}

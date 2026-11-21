@@ -1,0 +1,18 @@
+{
+  "id": 16834046,
+  "name": "emacsorphanage/swoop",
+  "description": "Peculiar buffer navigation for Emacs",
+  "url": "https://github.com/emacsorphanage/swoop",
+  "stars": 88,
+  "updated": "2020-08-08T14:23:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "swoop",
+    "fetcher": "github",
+    "repo": "emacsorphanage/swoop"
+  }
+}

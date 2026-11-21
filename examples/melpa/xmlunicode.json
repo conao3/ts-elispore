@@ -1,0 +1,18 @@
+{
+  "id": 2029778,
+  "name": "ndw/xmlunicode",
+  "description": "XML Unicode provides some convenience methods for inserting Unicode characters (in particular for what have traditionally been XML named character entities).",
+  "url": "https://github.com/ndw/xmlunicode",
+  "stars": 9,
+  "updated": "2023-08-20T08:14:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xmlunicode",
+    "fetcher": "github",
+    "repo": "ndw/xmlunicode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 40411471,
+  "name": "agda/agda",
+  "description": "Agda is a dependently typed programming language / interactive theorem prover.",
+  "url": "https://github.com/agda/agda",
+  "stars": 2980,
+  "updated": "2026-11-21T17:24:18Z",
+  "archived": false,
+  "topics": ["agda", "dependent-types", "programming-language", "proof-assistant", "type-theory"],
+  "license": "NOASSERTION",
+  "language": "Haskell",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "eri",
+    "fetcher": "github",
+    "repo": "agda/agda",
+    "files": "(\"src/data/emacs-mode/eri.el\")"
+  }
+}

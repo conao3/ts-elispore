@@ -1,0 +1,18 @@
+{
+  "id": 2845000,
+  "name": "fxn/monochrome-theme.el",
+  "description": "Monochrome theme for Emacs 24",
+  "url": "https://github.com/fxn/monochrome-theme.el",
+  "stars": 37,
+  "updated": "2021-04-18T17:17:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "monochrome-theme",
+    "fetcher": "github",
+    "repo": "fxn/monochrome-theme.el"
+  }
+}

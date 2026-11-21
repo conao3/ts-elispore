@@ -1,0 +1,18 @@
+{
+  "id": 27047625,
+  "name": "jrosdahl/iflipb",
+  "description": "iflipb.el - interactively flip between recently visited buffers",
+  "url": "https://github.com/jrosdahl/iflipb",
+  "stars": 46,
+  "updated": "2022-06-12T08:58:40Z",
+  "archived": false,
+  "topics": ["buffer-cycling", "emacs", "emacs-lisp"],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "iflipb",
+    "fetcher": "github",
+    "repo": "jrosdahl/iflipb"
+  }
+}

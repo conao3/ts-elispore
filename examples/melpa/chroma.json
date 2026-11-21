@@ -1,0 +1,18 @@
+{
+  "id": 616128549,
+  "name": "galdor/chroma",
+  "description": "Emacs Lisp color manipulation utilities.",
+  "url": "https://github.com/galdor/chroma",
+  "stars": 13,
+  "updated": "2024-07-16T11:31:57Z",
+  "archived": false,
+  "topics": ["colors", "emacs", "emacs-lisp"],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chroma",
+    "fetcher": "github",
+    "repo": "galdor/chroma"
+  }
+}

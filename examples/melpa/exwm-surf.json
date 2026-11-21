@@ -1,0 +1,18 @@
+{
+  "id": 112723764,
+  "name": "ecraven/exwm-surf",
+  "description": "Interface for Surf under exwm",
+  "url": "https://github.com/ecraven/exwm-surf",
+  "stars": 12,
+  "updated": "2018-05-26T18:50:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "exwm-surf",
+    "fetcher": "github",
+    "repo": "ecraven/exwm-surf"
+  }
+}

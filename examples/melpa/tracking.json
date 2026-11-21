@@ -1,0 +1,19 @@
+{
+  "id": 6102770,
+  "name": "emacs-circe/circe",
+  "description": "Circe, a Client for IRC in Emacs",
+  "url": "https://github.com/emacs-circe/circe",
+  "stars": 446,
+  "updated": "2026-09-16T20:07:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "tracking",
+    "fetcher": "github",
+    "repo": "emacs-circe/circe",
+    "files": "(\"tracking.el\" \"shorten.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 92360641,
+  "name": "vijumathew/windwow",
+  "description": "Simple Emacs workspace management",
+  "url": "https://github.com/vijumathew/windwow",
+  "stars": 11,
+  "updated": "2017-08-16T01:59:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "windwow",
+    "fetcher": "github",
+    "repo": "vijumathew/windwow"
+  }
+}

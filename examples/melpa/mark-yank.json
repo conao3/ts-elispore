@@ -1,0 +1,18 @@
+{
+  "id": 707428704,
+  "name": "mkleehammer/mark-yank",
+  "description": "Emacs minor mode to select the last paste",
+  "url": "https://github.com/mkleehammer/mark-yank",
+  "stars": 5,
+  "updated": "2023-11-05T20:28:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mark-yank",
+    "fetcher": "github",
+    "repo": "mkleehammer/mark-yank"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 34619477,
+  "name": "emacsorphanage/farmhouse-themes",
+  "description": "Hand-picked light and dark color theme for Emacs 24+",
+  "url": "https://github.com/emacsorphanage/farmhouse-themes",
+  "stars": 43,
+  "updated": "2022-10-25T20:55:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "farmhouse-themes",
+    "fetcher": "github",
+    "repo": "emacsorphanage/farmhouse-themes"
+  }
+}

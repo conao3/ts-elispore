@@ -1,0 +1,18 @@
+{
+  "id": 272266329,
+  "name": "alhassy/ob-latex-as-png",
+  "description": "Inline arbitrary LaTeX snippets as PNGs in Emacs (•̀ᴗ•́)و",
+  "url": "https://github.com/alhassy/ob-latex-as-png",
+  "stars": 27,
+  "updated": "2026-11-15T02:38:39Z",
+  "archived": false,
+  "topics": ["emacs", "imags", "latex", "lisp", "notes", "org-mode", "pngs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-latex-as-png",
+    "fetcher": "github",
+    "repo": "alhassy/ob-latex-as-png"
+  }
+}

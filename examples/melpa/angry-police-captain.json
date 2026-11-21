@@ -1,0 +1,18 @@
+{
+  "id": 5534505,
+  "name": "rolpereira/angry-police-captain-el",
+  "description": "Show quote from http://theangrypolicecaptain.com in the minibuffer",
+  "url": "https://github.com/rolpereira/angry-police-captain-el",
+  "stars": 1,
+  "updated": "2012-08-29T12:52:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "angry-police-captain",
+    "fetcher": "github",
+    "repo": "rolpereira/angry-police-captain-el"
+  }
+}

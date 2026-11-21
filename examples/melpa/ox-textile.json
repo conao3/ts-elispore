@@ -1,0 +1,19 @@
+{
+  "id": 16862744,
+  "name": "yashi/org-textile",
+  "description": "An org-mode exporter backend for Textile",
+  "url": "https://github.com/yashi/org-textile",
+  "stars": 5,
+  "updated": "2021-09-19T18:24:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-textile",
+    "fetcher": "github",
+    "repo": "yashi/org-textile",
+    "files": "(\"ox-textile.el\")"
+  }
+}

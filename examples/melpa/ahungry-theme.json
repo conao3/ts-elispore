@@ -1,0 +1,19 @@
+{
+  "id": 28949829,
+  "name": "ahungry/color-theme-ahungry",
+  "description": "Bright and bold color theme for emacs",
+  "url": "https://github.com/ahungry/color-theme-ahungry",
+  "stars": 18,
+  "updated": "2023-07-25T22:56:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ahungry-theme",
+    "fetcher": "github",
+    "repo": "ahungry/color-theme-ahungry",
+    "files": "(\"ahungry-theme.el\")"
+  }
+}

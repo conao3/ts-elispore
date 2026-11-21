@@ -1,0 +1,19 @@
+{
+  "id": 115901179,
+  "name": "ebanner/pynt",
+  "description": "Bridging the gap between jupyter notebooks and text editors/IDEs",
+  "url": "https://github.com/ebanner/pynt",
+  "stars": 102,
+  "updated": "2021-12-08T17:14:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Python",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pynt",
+    "fetcher": "github",
+    "repo": "ebanner/pynt",
+    "files": "(\"pynt/*\")"
+  }
+}

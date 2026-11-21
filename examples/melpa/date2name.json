@@ -1,0 +1,18 @@
+{
+  "id": 140115612,
+  "name": "DerBeutlin/date2name.el",
+  "description": "Emacs package to add ISO timestamps to files in dired",
+  "url": "https://github.com/DerBeutlin/date2name.el",
+  "stars": 8,
+  "updated": "2019-12-27T18:15:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "date2name",
+    "fetcher": "github",
+    "repo": "DerBeutlin/date2name.el"
+  }
+}

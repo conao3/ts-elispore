@@ -1,0 +1,28 @@
+{
+  "id": 117461810,
+  "name": "jamiecollinson/emacs-panda-theme",
+  "description": "A superminimal, dark syntax theme for emacs",
+  "url": "https://github.com/jamiecollinson/emacs-panda-theme",
+  "stars": 28,
+  "updated": "2018-11-28T17:38:44Z",
+  "archived": false,
+  "topics": [
+    "colorscheme",
+    "colortheme",
+    "emacs",
+    "emacs-theme",
+    "gnu",
+    "gui",
+    "spacemacs",
+    "theme",
+    "ui"
+  ],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "panda-theme",
+    "fetcher": "github",
+    "repo": "jamiecollinson/emacs-panda-theme"
+  }
+}

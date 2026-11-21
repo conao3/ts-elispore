@@ -1,0 +1,18 @@
+{
+  "id": 60044567,
+  "name": "jmitchell/bnfc-mode",
+  "description": "Emacs mode for BNFC files",
+  "url": "https://github.com/jmitchell/bnfc-mode",
+  "stars": 8,
+  "updated": "2016-06-05T19:29:54Z",
+  "archived": false,
+  "topics": ["bnf", "bnfc", "emacs-mode", "grammar"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bnfc",
+    "fetcher": "github",
+    "repo": "jmitchell/bnfc-mode"
+  }
+}

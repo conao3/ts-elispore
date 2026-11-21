@@ -1,0 +1,18 @@
+{
+  "id": 99425430,
+  "name": "redguardtoo/eacl",
+  "description": "eacl - Emacs auto complete lines by grepping project",
+  "url": "https://github.com/redguardtoo/eacl",
+  "stars": 96,
+  "updated": "2026-04-27T06:56:02Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eacl",
+    "fetcher": "github",
+    "repo": "redguardtoo/eacl"
+  }
+}

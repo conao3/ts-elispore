@@ -1,0 +1,18 @@
+{
+  "id": 90577716,
+  "name": "mandoku/mandoku-tls",
+  "description": "This Emacs package provides access to the Thesaurus Linguae Sericae (TLS)",
+  "url": "https://github.com/mandoku/mandoku-tls",
+  "stars": 1,
+  "updated": "2017-11-18T02:40:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "mandoku-tls",
+    "fetcher": "github",
+    "repo": "mandoku/mandoku-tls"
+  }
+}

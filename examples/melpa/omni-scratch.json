@@ -1,0 +1,18 @@
+{
+  "id": 27632698,
+  "name": "AdrieanKhisbe/omni-scratch.el",
+  "description": "📋 Easy and mode-specific draft buffers for emacs 📝",
+  "url": "https://github.com/AdrieanKhisbe/omni-scratch.el",
+  "stars": 8,
+  "updated": "2017-10-11T19:32:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "omni-scratch",
+    "fetcher": "github",
+    "repo": "AdrieanKhisbe/omni-scratch.el"
+  }
+}

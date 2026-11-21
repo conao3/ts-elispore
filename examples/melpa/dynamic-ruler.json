@@ -1,0 +1,18 @@
+{
+  "id": 41241495,
+  "name": "rocher/dynamic-ruler",
+  "description": "Emacs package to show a dynamic ruler that can be freely moved around the buffer, for measuring and positioning text.",
+  "url": "https://github.com/rocher/dynamic-ruler",
+  "stars": 25,
+  "updated": "2023-11-26T19:17:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dynamic-ruler",
+    "fetcher": "github",
+    "repo": "rocher/dynamic-ruler"
+  }
+}

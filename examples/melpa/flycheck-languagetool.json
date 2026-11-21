@@ -1,0 +1,18 @@
+{
+  "id": 354082453,
+  "name": "emacs-languagetool/flycheck-languagetool",
+  "description": "Flycheck support for LanguageTool",
+  "url": "https://github.com/emacs-languagetool/flycheck-languagetool",
+  "stars": 66,
+  "updated": "2026-08-27T11:11:16Z",
+  "archived": false,
+  "topics": ["checker", "emacs", "flycheck", "languagetool"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-languagetool",
+    "fetcher": "github",
+    "repo": "emacs-languagetool/flycheck-languagetool"
+  }
+}

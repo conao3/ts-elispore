@@ -1,0 +1,29 @@
+{
+  "id": 226766506,
+  "name": "federicotdn/verb",
+  "description": "HTTP client for Emacs",
+  "url": "https://github.com/federicotdn/verb",
+  "stars": 769,
+  "updated": "2026-08-18T19:22:11Z",
+  "archived": false,
+  "topics": [
+    "api",
+    "babel",
+    "client",
+    "emacs",
+    "emacs-lisp",
+    "http",
+    "org",
+    "org-mode",
+    "rest",
+    "url"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "verb",
+    "fetcher": "github",
+    "repo": "federicotdn/verb"
+  }
+}

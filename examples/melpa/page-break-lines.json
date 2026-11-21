@@ -1,0 +1,18 @@
+{
+  "id": 6669654,
+  "name": "purcell/page-break-lines",
+  "description": "Emacs: display ugly ^L page breaks as tidy horizontal lines",
+  "url": "https://github.com/purcell/page-break-lines",
+  "stars": 246,
+  "updated": "2026-09-04T11:02:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "page-break-lines",
+    "fetcher": "github",
+    "repo": "purcell/page-break-lines"
+  }
+}

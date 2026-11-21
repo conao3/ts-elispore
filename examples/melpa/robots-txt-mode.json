@@ -1,0 +1,18 @@
+{
+  "id": 53739685,
+  "name": "emacs-php/robots-txt-mode",
+  "description": "Emacs major mode for editing robots.txt",
+  "url": "https://github.com/emacs-php/robots-txt-mode",
+  "stars": 4,
+  "updated": "2026-06-19T08:34:26Z",
+  "archived": false,
+  "topics": ["emacs", "major-mode", "melpa", "robots-txt"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "robots-txt-mode",
+    "fetcher": "github",
+    "repo": "emacs-php/robots-txt-mode"
+  }
+}

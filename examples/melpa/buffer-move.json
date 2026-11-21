@@ -1,0 +1,18 @@
+{
+  "id": 19810594,
+  "name": "lukhas/buffer-move",
+  "description": "",
+  "url": "https://github.com/lukhas/buffer-move",
+  "stars": 117,
+  "updated": "2023-07-25T16:34:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "buffer-move",
+    "fetcher": "github",
+    "repo": "lukhas/buffer-move"
+  }
+}

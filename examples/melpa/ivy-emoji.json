@@ -1,0 +1,18 @@
+{
+  "id": 232236189,
+  "name": "Sbozzolo/ivy-emoji",
+  "description": "Insert emoji in Emacs buffers using the ivy selection framework",
+  "url": "https://github.com/Sbozzolo/ivy-emoji",
+  "stars": 9,
+  "updated": "2022-08-20T21:21:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ivy-emoji",
+    "fetcher": "github",
+    "repo": "Sbozzolo/ivy-emoji"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": 277121802,
+  "name": "suntsov/efar",
+  "description": " A FAR-like file manager for Emacs",
+  "url": "https://github.com/suntsov/efar",
+  "stars": 51,
+  "updated": "2023-02-16T12:13:34Z",
+  "archived": false,
+  "topics": [
+    "directory-comparator",
+    "emacs",
+    "emacs-lisp",
+    "emacs-package",
+    "file-manager",
+    "file-search",
+    "files"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "efar",
+    "fetcher": "github",
+    "repo": "suntsov/efar"
+  }
+}

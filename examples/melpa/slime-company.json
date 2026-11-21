@@ -1,0 +1,27 @@
+{
+  "id": 9520977,
+  "name": "anwyn/slime-company",
+  "description": "Company-mode completion backend for Slime.",
+  "url": "https://github.com/anwyn/slime-company",
+  "stars": 80,
+  "updated": "2025-08-15T07:57:39Z",
+  "archived": false,
+  "topics": [
+    "common-lisp",
+    "completion",
+    "completion-backend",
+    "convenience",
+    "emacs-lisp",
+    "melpa",
+    "slime",
+    "slime-company"
+  ],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "slime-company",
+    "fetcher": "github",
+    "repo": "anwyn/slime-company"
+  }
+}

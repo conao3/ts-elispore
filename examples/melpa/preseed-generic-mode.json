@@ -1,0 +1,18 @@
+{
+  "id": 29365371,
+  "name": "suntong/preseed-generic-mode",
+  "description": "Emacs Mode for Debian preseed files",
+  "url": "https://github.com/suntong/preseed-generic-mode",
+  "stars": 0,
+  "updated": "2018-02-10T05:00:52Z",
+  "archived": false,
+  "topics": ["debian", "debian-preseed-files", "emacs-lisp", "emacs-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "preseed-generic-mode",
+    "fetcher": "github",
+    "repo": "suntong/preseed-generic-mode"
+  }
+}

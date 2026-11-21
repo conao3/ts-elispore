@@ -1,0 +1,18 @@
+{
+  "id": 10537863,
+  "name": "jschaf/powershell.el",
+  "description": "An Emacs mode for editing and running Microsoft PowerShell code.",
+  "url": "https://github.com/jschaf/powershell.el",
+  "stars": 107,
+  "updated": "2025-11-22T14:30:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "powershell",
+    "fetcher": "github",
+    "repo": "jschaf/powershell.el"
+  }
+}

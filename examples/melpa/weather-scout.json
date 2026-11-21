@@ -1,0 +1,19 @@
+{
+  "id": 956827933,
+  "name": "hsolg/emacs-weather-scout",
+  "description": "",
+  "url": "https://github.com/hsolg/emacs-weather-scout",
+  "stars": 4,
+  "updated": "2025-12-26T17:13:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "weather-scout",
+    "fetcher": "github",
+    "repo": "hsolg/emacs-weather-scout",
+    "files": "(:defaults\n         (\"icons\" \"icons/LICENSE\" \"icons/README.md\")\n         (\"icons/weather\" \"icons/weather/*.svg\"))"
+  }
+}

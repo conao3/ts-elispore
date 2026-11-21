@@ -1,0 +1,18 @@
+{
+  "id": 7487485,
+  "name": "mooz/auto-complete-c-headers",
+  "description": "An auto-complete source for C/C++ header files",
+  "url": "https://github.com/mooz/auto-complete-c-headers",
+  "stars": 33,
+  "updated": "2023-02-21T14:03:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-complete-c-headers",
+    "fetcher": "github",
+    "repo": "mooz/auto-complete-c-headers"
+  }
+}

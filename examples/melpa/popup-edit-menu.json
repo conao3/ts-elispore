@@ -1,0 +1,18 @@
+{
+  "id": 86246377,
+  "name": "debugfan/popup-edit-menu",
+  "description": "Popup a convenient context edit menu in Emacs",
+  "url": "https://github.com/debugfan/popup-edit-menu",
+  "stars": 3,
+  "updated": "2017-04-04T13:26:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "popup-edit-menu",
+    "fetcher": "github",
+    "repo": "debugfan/popup-edit-menu"
+  }
+}

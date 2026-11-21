@@ -1,0 +1,18 @@
+{
+  "id": 532701,
+  "name": "eglaysher/find-things-fast",
+  "description": "An emacs mode to find things fast and move around in a project quickly",
+  "url": "https://github.com/eglaysher/find-things-fast",
+  "stars": 28,
+  "updated": "2015-08-19T19:45:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "find-things-fast",
+    "fetcher": "github",
+    "repo": "eglaysher/find-things-fast"
+  }
+}

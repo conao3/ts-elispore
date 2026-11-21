@@ -1,0 +1,18 @@
+{
+  "id": 1127000821,
+  "name": "fabcontigiani/citar-vulpea",
+  "description": "Integrates Citar and Vulpea for bibliography notes",
+  "url": "https://github.com/fabcontigiani/citar-vulpea",
+  "stars": 4,
+  "updated": "2026-04-19T20:01:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "citar-vulpea",
+    "fetcher": "github",
+    "repo": "fabcontigiani/citar-vulpea"
+  }
+}

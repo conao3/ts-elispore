@@ -1,0 +1,18 @@
+{
+  "id": 25735238,
+  "name": "nikolas/window-number",
+  "description": "Select windows by M-1, M-2, etc in Emacs",
+  "url": "https://github.com/nikolas/window-number",
+  "stars": 6,
+  "updated": "2023-01-17T13:21:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "window-number",
+    "fetcher": "github",
+    "repo": "nikolas/window-number"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 707033604,
+  "name": "chmouel/consult-vc-modified-files",
+  "description": "List git modified files in a project with vc",
+  "url": "https://github.com/chmouel/consult-vc-modified-files",
+  "stars": 24,
+  "updated": "2025-07-24T22:21:29Z",
+  "archived": false,
+  "topics": ["consult", "emacs", "emacs-lisp", "emacs-mode", "git"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-vc-modified-files",
+    "fetcher": "github",
+    "repo": "chmouel/consult-vc-modified-files"
+  }
+}

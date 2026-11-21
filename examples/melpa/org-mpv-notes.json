@@ -1,0 +1,18 @@
+{
+  "id": 567094176,
+  "name": "bpanthi977/org-mpv-notes",
+  "description": "Take notes in org mode while watching videos in mpv media player",
+  "url": "https://github.com/bpanthi977/org-mpv-notes",
+  "stars": 24,
+  "updated": "2026-02-24T18:01:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-mpv-notes",
+    "fetcher": "github",
+    "repo": "bpanthi977/org-mpv-notes"
+  }
+}

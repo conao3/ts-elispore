@@ -1,0 +1,18 @@
+{
+  "id": 559462973,
+  "name": "DamienCassou/related-files",
+  "description": "Emacs package to easily find files related to the current one",
+  "url": "https://github.com/DamienCassou/related-files",
+  "stars": 7,
+  "updated": "2023-09-03T08:51:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "related-files",
+    "fetcher": "github",
+    "repo": "DamienCassou/related-files"
+  }
+}

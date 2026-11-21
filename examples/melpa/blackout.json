@@ -1,0 +1,18 @@
+{
+  "id": 144531321,
+  "name": "radian-software/blackout",
+  "description": "💡 The easy way to clean up your Emacs mode lighters.",
+  "url": "https://github.com/radian-software/blackout",
+  "stars": 63,
+  "updated": "2022-05-09T23:50:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "blackout",
+    "fetcher": "github",
+    "repo": "radian-software/blackout"
+  }
+}

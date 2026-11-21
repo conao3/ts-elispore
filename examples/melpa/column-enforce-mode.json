@@ -1,0 +1,18 @@
+{
+  "id": 13503633,
+  "name": "jordonbiondo/column-enforce-mode",
+  "description": "Highlight text that extends beyond a certain column. Can be used to enforce 80 column rule (well more like suggest, not enforce)",
+  "url": "https://github.com/jordonbiondo/column-enforce-mode",
+  "stars": 49,
+  "updated": "2021-03-30T11:53:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "column-enforce-mode",
+    "fetcher": "github",
+    "repo": "jordonbiondo/column-enforce-mode"
+  }
+}

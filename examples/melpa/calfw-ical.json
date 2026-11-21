@@ -1,0 +1,19 @@
+{
+  "id": 1205981,
+  "name": "kiwanami/emacs-calfw",
+  "description": "A calendar framework for Emacs",
+  "url": "https://github.com/kiwanami/emacs-calfw",
+  "stars": 1258,
+  "updated": "2026-10-02T15:25:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "calfw-ical",
+    "fetcher": "github",
+    "repo": "kiwanami/emacs-calfw",
+    "files": "(\"calfw-ical.el\" \"calfw-compat.el\")"
+  }
+}

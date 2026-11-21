@@ -1,0 +1,18 @@
+{
+  "id": 628797556,
+  "name": "brownts/gpr-ts-mode",
+  "description": "GNAT Project major mode using tree-sitter for Emacs",
+  "url": "https://github.com/brownts/gpr-ts-mode",
+  "stars": 0,
+  "updated": "2026-04-03T20:42:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gpr-ts-mode",
+    "fetcher": "github",
+    "repo": "brownts/gpr-ts-mode"
+  }
+}

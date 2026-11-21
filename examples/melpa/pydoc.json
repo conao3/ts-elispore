@@ -1,0 +1,18 @@
+{
+  "id": 31184201,
+  "name": "statmobile/pydoc",
+  "description": "Emacs mode for navigating Python documentation through pydoc.",
+  "url": "https://github.com/statmobile/pydoc",
+  "stars": 46,
+  "updated": "2025-09-10T20:00:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pydoc",
+    "fetcher": "github",
+    "repo": "statmobile/pydoc"
+  }
+}

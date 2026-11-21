@@ -1,0 +1,18 @@
+{
+  "id": 1179428036,
+  "name": "kpassapk/devops.el",
+  "description": "Agentic Devops on Emacs Org Mode",
+  "url": "https://github.com/kpassapk/devops.el",
+  "stars": 31,
+  "updated": "2026-10-23T02:32:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "devops",
+    "fetcher": "github",
+    "repo": "kpassapk/devops.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 111621204,
+  "name": "Mstrodl/elcord",
+  "description": "Discord Rich Presence / Gamebridge support for Emacs!",
+  "url": "https://github.com/Mstrodl/elcord",
+  "stars": 233,
+  "updated": "2026-09-02T00:44:47Z",
+  "archived": false,
+  "topics": ["discord", "discord-rich-presence", "emacs", "melpa"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elcord",
+    "fetcher": "github",
+    "repo": "Mstrodl/elcord",
+    "files": "(:defaults\n \"stdpipe.ps1\")"
+  }
+}

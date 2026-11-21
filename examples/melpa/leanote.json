@@ -1,0 +1,18 @@
+{
+  "id": 62980107,
+  "name": "aborn/leanote-emacs",
+  "description": "A minor mode writing markdown note using leanote platform in emacs.",
+  "url": "https://github.com/aborn/leanote-emacs",
+  "stars": 31,
+  "updated": "2018-01-02T11:02:35Z",
+  "archived": false,
+  "topics": ["emacs", "leanote", "leanote-emacs", "leanote-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "leanote",
+    "fetcher": "github",
+    "repo": "aborn/leanote-emacs"
+  }
+}

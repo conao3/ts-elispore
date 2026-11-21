@@ -1,0 +1,18 @@
+{
+  "id": 671871600,
+  "name": "ichernyshovvv/org-timeblock",
+  "description": "Schedule your day visually, using timeblocking technique inside Emacs",
+  "url": "https://github.com/ichernyshovvv/org-timeblock",
+  "stars": 373,
+  "updated": "2024-10-27T08:05:37Z",
+  "archived": false,
+  "topics": ["calendar", "emacs", "orgmode", "timeblocking"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-timeblock",
+    "fetcher": "github",
+    "repo": "ichernyshovvv/org-timeblock"
+  }
+}

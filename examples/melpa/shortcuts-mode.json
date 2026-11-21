@@ -1,0 +1,18 @@
+{
+  "id": 118999742,
+  "name": "tetron/shortcuts-mode",
+  "description": "Shortcut bar for Emacs",
+  "url": "https://github.com/tetron/shortcuts-mode",
+  "stars": 7,
+  "updated": "2024-07-07T16:06:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shortcuts-mode",
+    "fetcher": "github",
+    "repo": "tetron/shortcuts-mode"
+  }
+}

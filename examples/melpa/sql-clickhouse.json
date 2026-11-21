@@ -1,0 +1,18 @@
+{
+  "id": 122106934,
+  "name": "rschwarz/sql-clickhouse",
+  "description": "Support for Clickhouse databases in sql-mode for Emacs.",
+  "url": "https://github.com/rschwarz/sql-clickhouse",
+  "stars": 6,
+  "updated": "2023-05-09T22:04:02Z",
+  "archived": true,
+  "topics": ["clickhouse", "emacs", "sql"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sql-clickhouse",
+    "fetcher": "github",
+    "repo": "rschwarz/sql-clickhouse"
+  }
+}

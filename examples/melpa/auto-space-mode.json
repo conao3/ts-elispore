@@ -1,0 +1,18 @@
+{
+  "id": 844818778,
+  "name": "wowhxj/auto-space-mode",
+  "description": "Automatically adding space between Chinese and English",
+  "url": "https://github.com/wowhxj/auto-space-mode",
+  "stars": 1,
+  "updated": "2026-08-06T06:38:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-space-mode",
+    "fetcher": "github",
+    "repo": "wowhxj/auto-space-mode"
+  }
+}

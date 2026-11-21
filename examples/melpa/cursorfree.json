@@ -1,0 +1,18 @@
+{
+  "id": 909705793,
+  "name": "ErikPrantare/cursorfree.el",
+  "description": "Composable editor operations for Emacs, controllable by voice",
+  "url": "https://github.com/ErikPrantare/cursorfree.el",
+  "stars": 11,
+  "updated": "2026-10-18T10:29:32Z",
+  "archived": false,
+  "topics": ["emacs", "talonvoice", "voice-control"],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cursorfree",
+    "fetcher": "github",
+    "repo": "ErikPrantare/cursorfree.el"
+  }
+}

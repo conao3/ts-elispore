@@ -1,0 +1,18 @@
+{
+  "id": 10863598,
+  "name": "kuanyui/moe-theme.el",
+  "description": "A customizable colorful eye-candy theme for Emacser. Moe, moe, kyun!",
+  "url": "https://github.com/kuanyui/moe-theme.el",
+  "stars": 770,
+  "updated": "2026-08-19T15:54:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "moe-theme",
+    "fetcher": "github",
+    "repo": "kuanyui/moe-theme.el"
+  }
+}

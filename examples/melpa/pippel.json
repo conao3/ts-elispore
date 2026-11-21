@@ -1,0 +1,19 @@
+{
+  "id": 85071497,
+  "name": "arifer612/pippel",
+  "description": "Emacs frontend to python package manager pip",
+  "url": "https://github.com/arifer612/pippel",
+  "stars": 31,
+  "updated": "2022-05-21T03:21:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pippel",
+    "fetcher": "github",
+    "repo": "arifer612/pippel",
+    "files": "(:defaults\n         \"pippel.py\")"
+  }
+}

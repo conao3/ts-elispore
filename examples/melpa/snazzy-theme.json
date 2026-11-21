@@ -1,0 +1,18 @@
+{
+  "id": 86454643,
+  "name": "weijiangan/emacs-snazzy",
+  "description": "Elegant Emacs theme with bright colors",
+  "url": "https://github.com/weijiangan/emacs-snazzy",
+  "stars": 25,
+  "updated": "2018-04-22T17:32:16Z",
+  "archived": false,
+  "topics": ["bright-colors", "emacs", "emacs-theme", "melpa", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "snazzy-theme",
+    "fetcher": "github",
+    "repo": "weijiangan/emacs-snazzy"
+  }
+}

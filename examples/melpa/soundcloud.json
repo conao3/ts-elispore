@@ -1,0 +1,18 @@
+{
+  "id": 13940962,
+  "name": "thieman/soundcloud.el",
+  "description": "SoundCloud frontend for Emacs powered by emms",
+  "url": "https://github.com/thieman/soundcloud.el",
+  "stars": 35,
+  "updated": "2015-05-02T03:26:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "soundcloud",
+    "fetcher": "github",
+    "repo": "thieman/soundcloud.el"
+  }
+}

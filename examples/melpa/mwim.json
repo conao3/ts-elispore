@@ -1,0 +1,18 @@
+{
+  "id": 29093684,
+  "name": "alezost/mwim.el",
+  "description": "Move to the beginning/end of line, code or comment",
+  "url": "https://github.com/alezost/mwim.el",
+  "stars": 96,
+  "updated": "2026-03-01T06:35:05Z",
+  "archived": false,
+  "topics": ["emacs", "mwim"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mwim",
+    "fetcher": "github",
+    "repo": "alezost/mwim.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 11131631,
+  "name": "meta/fbthrift",
+  "description": "Meta's Thrift implementation: cross-language serialization and high-performance async RPC",
+  "url": "https://github.com/meta/fbthrift",
+  "stars": 2702,
+  "updated": "2026-11-21T17:34:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "C++",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "thrift",
+    "fetcher": "github",
+    "repo": "facebook/fbthrift",
+    "files": "(\"thrift/contrib/thrift.el\")"
+  }
+}

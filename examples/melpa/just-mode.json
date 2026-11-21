@@ -1,0 +1,18 @@
+{
+  "id": 340567844,
+  "name": "leon-barrett/just-mode.el",
+  "description": "Emacs mode for justfiles",
+  "url": "https://github.com/leon-barrett/just-mode.el",
+  "stars": 53,
+  "updated": "2026-07-16T15:14:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "just-mode",
+    "fetcher": "github",
+    "repo": "leon-barrett/just-mode.el"
+  }
+}

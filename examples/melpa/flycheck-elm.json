@@ -1,0 +1,18 @@
+{
+  "id": 38454465,
+  "name": "bsermons/flycheck-elm",
+  "description": "Flycheck support for the elm language",
+  "url": "https://github.com/bsermons/flycheck-elm",
+  "stars": 18,
+  "updated": "2020-03-30T21:04:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-elm",
+    "fetcher": "github",
+    "repo": "bsermons/flycheck-elm"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 296902,
+  "name": "dimitri/rcirc-groups",
+  "description": "an emacs buffer in rcirc-groups major mode",
+  "url": "https://github.com/dimitri/rcirc-groups",
+  "stars": 3,
+  "updated": "2017-07-31T21:01:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "WTFPL",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rcirc-groups",
+    "fetcher": "github",
+    "repo": "dimitri/rcirc-groups",
+    "files": "(\"rcirc-groups.el\")"
+  }
+}

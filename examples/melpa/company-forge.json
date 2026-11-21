@@ -1,0 +1,19 @@
+{
+  "id": 932228127,
+  "name": "pkryger/company-forge.el",
+  "description": "Company backend for mentions and topics from forge",
+  "url": "https://github.com/pkryger/company-forge.el",
+  "stars": 0,
+  "updated": "2026-07-13T10:53:08Z",
+  "archived": false,
+  "topics": ["company", "completion", "emacs-package", "forge"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-forge",
+    "fetcher": "github",
+    "repo": "pkryger/company-forge.el",
+    "files": "(:defaults \"icons\")"
+  }
+}

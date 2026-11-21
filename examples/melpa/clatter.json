@@ -1,0 +1,18 @@
+{
+  "id": 1224484288,
+  "name": "parenworks/clatter.el",
+  "description": "An IRCv3-compliant IRC client for Emacs",
+  "url": "https://github.com/parenworks/clatter.el",
+  "stars": 39,
+  "updated": "2026-11-18T18:32:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "clatter",
+    "fetcher": "github",
+    "repo": "parenworks/clatter.el"
+  }
+}

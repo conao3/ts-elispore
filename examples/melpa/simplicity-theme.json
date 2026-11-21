@@ -1,0 +1,18 @@
+{
+  "id": 339559836,
+  "name": "smallwat3r/emacs-simplicity-theme",
+  "description": "Minimalist dark theme for Emacs",
+  "url": "https://github.com/smallwat3r/emacs-simplicity-theme",
+  "stars": 7,
+  "updated": "2022-10-16T14:44:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simplicity-theme",
+    "fetcher": "github",
+    "repo": "smallwat3r/emacs-simplicity-theme"
+  }
+}

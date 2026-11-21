@@ -1,0 +1,18 @@
+{
+  "id": 7754689,
+  "name": "Fuco1/letcheck",
+  "description": "Minor mode to check let forms in emacs for erroneous assignments",
+  "url": "https://github.com/Fuco1/letcheck",
+  "stars": 1,
+  "updated": "2016-02-02T19:48:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "letcheck",
+    "fetcher": "github",
+    "repo": "Fuco1/letcheck"
+  }
+}

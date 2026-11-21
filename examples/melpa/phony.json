@@ -1,0 +1,18 @@
+{
+  "id": 853779825,
+  "name": "ErikPrantare/phony.el",
+  "description": "Define voice commands in Emacs",
+  "url": "https://github.com/ErikPrantare/phony.el",
+  "stars": 10,
+  "updated": "2026-11-15T18:08:55Z",
+  "archived": false,
+  "topics": ["accessibility", "emacs", "rsi", "speech-recognition", "talonvoice", "voice-control"],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "phony",
+    "fetcher": "github",
+    "repo": "ErikPrantare/phony.el"
+  }
+}

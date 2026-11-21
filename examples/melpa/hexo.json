@@ -1,0 +1,18 @@
+{
+  "id": 51943278,
+  "name": "kuanyui/hexo.el",
+  "description": "Use Hexo in Emacs elegantly",
+  "url": "https://github.com/kuanyui/hexo.el",
+  "stars": 84,
+  "updated": "2022-11-30T17:31:39Z",
+  "archived": false,
+  "topics": ["emacs", "hexo"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hexo",
+    "fetcher": "github",
+    "repo": "kuanyui/hexo.el"
+  }
+}

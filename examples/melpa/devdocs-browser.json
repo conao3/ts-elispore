@@ -1,0 +1,18 @@
+{
+  "id": 365787675,
+  "name": "blahgeek/emacs-devdocs-browser",
+  "description": "",
+  "url": "https://github.com/blahgeek/emacs-devdocs-browser",
+  "stars": 82,
+  "updated": "2026-08-13T15:53:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "devdocs-browser",
+    "fetcher": "github",
+    "repo": "blahgeek/emacs-devdocs-browser"
+  }
+}

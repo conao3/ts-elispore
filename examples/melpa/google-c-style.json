@@ -1,0 +1,18 @@
+{
+  "id": 35969061,
+  "name": "google/styleguide",
+  "description": "Style guides for Google-originated open-source projects",
+  "url": "https://github.com/google/styleguide",
+  "stars": 39857,
+  "updated": "2026-11-19T17:48:54Z",
+  "archived": false,
+  "topics": ["cpplint", "style-guide", "styleguide"],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "google-c-style",
+    "fetcher": "github",
+    "repo": "google/styleguide"
+  }
+}

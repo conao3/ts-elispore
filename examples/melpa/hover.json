@@ -1,0 +1,28 @@
+{
+  "id": 239906356,
+  "name": "ericdallo/hover.el",
+  "description": "Flutter tool to run hover on emacs",
+  "url": "https://github.com/ericdallo/hover.el",
+  "stars": 42,
+  "updated": "2025-04-09T15:03:50Z",
+  "archived": false,
+  "topics": [
+    "dart",
+    "desktop",
+    "emacs",
+    "flutter",
+    "flutter-desktop",
+    "go-flutter",
+    "hover",
+    "melpa",
+    "mobile"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hover",
+    "fetcher": "github",
+    "repo": "ericdallo/hover.el"
+  }
+}

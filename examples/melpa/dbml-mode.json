@@ -1,0 +1,30 @@
+{
+  "id": 856169045,
+  "name": "KeyWeeUsr/dbml-mode",
+  "description": "Major mode for DBML (dbdiagram.io)",
+  "url": "https://github.com/KeyWeeUsr/dbml-mode",
+  "stars": 4,
+  "updated": "2024-12-06T07:06:28Z",
+  "archived": false,
+  "topics": [
+    "database",
+    "dbml",
+    "dbml-editor",
+    "diagram",
+    "elisp",
+    "emacs",
+    "emacs-mode",
+    "emacs-package",
+    "melpa",
+    "melpa-badge",
+    "package"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dbml-mode",
+    "fetcher": "github",
+    "repo": "KeyWeeUsr/dbml-mode"
+  }
+}

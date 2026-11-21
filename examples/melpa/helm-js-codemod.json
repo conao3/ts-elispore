@@ -1,0 +1,18 @@
+{
+  "id": 107317206,
+  "name": "torgeir/helm-js-codemod.el",
+  "description": "A helm interface for running js-codemod.el",
+  "url": "https://github.com/torgeir/helm-js-codemod.el",
+  "stars": 1,
+  "updated": "2022-07-21T04:11:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-js-codemod",
+    "fetcher": "github",
+    "repo": "torgeir/helm-js-codemod.el"
+  }
+}

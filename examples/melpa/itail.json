@@ -1,0 +1,18 @@
+{
+  "id": 7345382,
+  "name": "re5et/itail",
+  "description": "An interactive tail mode that allows you to filter the tail with unix pipes and highlight the contents of the tailed file. Works locally or on remote files using tramp.",
+  "url": "https://github.com/re5et/itail",
+  "stars": 34,
+  "updated": "2022-07-26T10:10:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "itail",
+    "fetcher": "github",
+    "repo": "re5et/itail"
+  }
+}

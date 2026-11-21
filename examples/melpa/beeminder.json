@@ -1,0 +1,18 @@
+{
+  "id": 18015517,
+  "name": "Sodaware/beeminder.el",
+  "description": "Submit data to Beeminder from within Emacs. Also integrates with org-mode.",
+  "url": "https://github.com/Sodaware/beeminder.el",
+  "stars": 28,
+  "updated": "2020-12-27T20:26:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "beeminder",
+    "fetcher": "github",
+    "repo": "Sodaware/beeminder.el"
+  }
+}

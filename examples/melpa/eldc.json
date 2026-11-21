@@ -1,0 +1,18 @@
+{
+  "id": 1101985435,
+  "name": "gicrisf/eldc",
+  "description": "Convert Emacs Lisp data files to structured data formats like JSON and YAML.",
+  "url": "https://github.com/gicrisf/eldc",
+  "stars": 2,
+  "updated": "2026-02-05T22:29:33Z",
+  "archived": false,
+  "topics": ["emacs", "json", "yaml"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eldc",
+    "fetcher": "github",
+    "repo": "gicrisf/eldc"
+  }
+}

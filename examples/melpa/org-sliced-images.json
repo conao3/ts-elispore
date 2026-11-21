@@ -1,0 +1,18 @@
+{
+  "id": 771268422,
+  "name": "jcfk/org-sliced-images",
+  "description": "Smoother scrolling with sliced images in org-mode",
+  "url": "https://github.com/jcfk/org-sliced-images",
+  "stars": 41,
+  "updated": "2025-04-08T21:15:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-sliced-images",
+    "fetcher": "github",
+    "repo": "jcfk/org-sliced-images"
+  }
+}

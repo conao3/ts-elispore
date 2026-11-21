@@ -1,0 +1,18 @@
+{
+  "id": 202693598,
+  "name": "tumashu/org-picklink",
+  "description": "Pop up a org-agenda window, and select a headline's link, then insert to current org-buffer.",
+  "url": "https://github.com/tumashu/org-picklink",
+  "stars": 6,
+  "updated": "2021-02-10T05:16:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-picklink",
+    "fetcher": "github",
+    "repo": "tumashu/org-picklink"
+  }
+}

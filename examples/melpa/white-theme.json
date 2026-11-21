@@ -1,0 +1,18 @@
+{
+  "id": 1061377165,
+  "name": "nullvec/white-theme.el",
+  "description": "",
+  "url": "https://github.com/nullvec/white-theme.el",
+  "stars": 0,
+  "updated": "2025-09-21T21:07:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "white-theme",
+    "fetcher": "github",
+    "repo": "nullvec/white-theme.el"
+  }
+}

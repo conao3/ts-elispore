@@ -1,0 +1,18 @@
+{
+  "id": 1715148,
+  "name": "coldnew/ac-octave",
+  "description": "An auto-complete source for Octave in emacs",
+  "url": "https://github.com/coldnew/ac-octave",
+  "stars": 15,
+  "updated": "2022-10-25T05:20:48Z",
+  "archived": false,
+  "topics": ["auto-complete", "emacs-lisp", "octave"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ac-octave",
+    "fetcher": "github",
+    "repo": "coldnew/ac-octave"
+  }
+}

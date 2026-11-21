@@ -1,0 +1,18 @@
+{
+  "id": 276932527,
+  "name": "olavfosse/eradio",
+  "description": "The simple radio player for GNU Emacs",
+  "url": "https://github.com/olavfosse/eradio",
+  "stars": 74,
+  "updated": "2023-03-30T20:33:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eradio",
+    "fetcher": "github",
+    "repo": "olavfosse/eradio"
+  }
+}

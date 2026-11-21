@@ -1,0 +1,19 @@
+{
+  "id": 555055346,
+  "name": "gmlarumbe/verilog-ext",
+  "description": "Verilog Extensions for Emacs",
+  "url": "https://github.com/gmlarumbe/verilog-ext",
+  "stars": 69,
+  "updated": "2026-11-18T11:20:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "verilog-ext",
+    "fetcher": "github",
+    "repo": "gmlarumbe/verilog-ext",
+    "files": "(:defaults \"snippets\" \"langserver\")"
+  }
+}

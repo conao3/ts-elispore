@@ -1,0 +1,18 @@
+{
+  "id": 36694080,
+  "name": "emallson/narrow-reindent.el",
+  "description": "Defines a minor mode `narrow-reindent-mode’ that reindents the region narrowed to. The region is then indented again after widening the buffer.",
+  "url": "https://github.com/emallson/narrow-reindent.el",
+  "stars": 5,
+  "updated": "2015-07-22T19:07:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "narrow-reindent",
+    "fetcher": "github",
+    "repo": "emallson/narrow-reindent.el"
+  }
+}

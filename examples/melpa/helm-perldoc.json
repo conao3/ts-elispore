@@ -1,0 +1,19 @@
+{
+  "id": 7387355,
+  "name": "emacsorphanage/helm-perldoc",
+  "description": "perlpod with helm interface",
+  "url": "https://github.com/emacsorphanage/helm-perldoc",
+  "stars": 13,
+  "updated": "2023-05-22T11:07:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-perldoc",
+    "fetcher": "github",
+    "repo": "emacsorphanage/helm-perldoc",
+    "files": "(:defaults \"*.pl\")"
+  }
+}

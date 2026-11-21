@@ -1,0 +1,18 @@
+{
+  "id": 68069557,
+  "name": "defaultxr/fluxus-mode",
+  "description": "Emacs mode for interfacing with the Fluxus live coding environment",
+  "url": "https://github.com/defaultxr/fluxus-mode",
+  "stars": 10,
+  "updated": "2022-12-24T06:32:48Z",
+  "archived": false,
+  "topics": ["emacs", "fluxus", "graphics", "live-coding", "visuals"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fluxus-mode",
+    "fetcher": "github",
+    "repo": "defaultxr/fluxus-mode"
+  }
+}

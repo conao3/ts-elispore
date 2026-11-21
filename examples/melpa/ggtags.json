@@ -1,0 +1,18 @@
+{
+  "id": 7913327,
+  "name": "leoliu/ggtags",
+  "description": "Emacs frontend to GNU Global source code tagging system.",
+  "url": "https://github.com/leoliu/ggtags",
+  "stars": 584,
+  "updated": "2023-06-02T01:34:02Z",
+  "archived": false,
+  "topics": ["developer-tools", "emacs", "emacs-lisp", "gnu-global"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ggtags",
+    "fetcher": "github",
+    "repo": "leoliu/ggtags"
+  }
+}

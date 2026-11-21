@@ -1,0 +1,18 @@
+{
+  "id": 340630009,
+  "name": "nbfalcon/macrostep-geiser",
+  "description": "macrostep for geiser and cider",
+  "url": "https://github.com/nbfalcon/macrostep-geiser",
+  "stars": 16,
+  "updated": "2021-07-17T08:01:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "macrostep-geiser",
+    "fetcher": "github",
+    "repo": "nbfalcon/macrostep-geiser"
+  }
+}

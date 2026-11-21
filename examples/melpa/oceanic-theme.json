@@ -1,0 +1,18 @@
+{
+  "id": 64583236,
+  "name": "terry3/oceanic-theme",
+  "description": "Oceanic Theme Port From Oceanic Next Color Scheme, https://github.com/voronianski/oceanic-next-color-scheme",
+  "url": "https://github.com/terry3/oceanic-theme",
+  "stars": 25,
+  "updated": "2016-10-17T02:13:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "oceanic-theme",
+    "fetcher": "github",
+    "repo": "terry3/oceanic-theme"
+  }
+}

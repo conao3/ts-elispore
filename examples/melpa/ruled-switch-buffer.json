@@ -1,0 +1,18 @@
+{
+  "id": 432643632,
+  "name": "kzkn/ruled-switch-buffer",
+  "description": "",
+  "url": "https://github.com/kzkn/ruled-switch-buffer",
+  "stars": 7,
+  "updated": "2021-12-13T13:07:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ruled-switch-buffer",
+    "fetcher": "github",
+    "repo": "kzkn/ruled-switch-buffer"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 60371574,
+  "name": "hlissner/emacs-counsel-css",
+  "description": "An ivy-mode backend for css selectors (scss/less too)",
+  "url": "https://github.com/hlissner/emacs-counsel-css",
+  "stars": 21,
+  "updated": "2021-11-15T17:55:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "counsel-css",
+    "fetcher": "github",
+    "repo": "hlissner/emacs-counsel-css"
+  }
+}

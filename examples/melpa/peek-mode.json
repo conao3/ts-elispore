@@ -1,0 +1,19 @@
+{
+  "id": 10140773,
+  "name": "erikriverson/peek-mode",
+  "description": "peek-mode is a minor mode that publishes live Emacs buffers through an elnode server",
+  "url": "https://github.com/erikriverson/peek-mode",
+  "stars": 20,
+  "updated": "2013-06-20T21:51:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "peek-mode",
+    "fetcher": "github",
+    "repo": "erikriverson/peek-mode",
+    "files": "(\"index.html\" \"peek-mode.el\")"
+  }
+}

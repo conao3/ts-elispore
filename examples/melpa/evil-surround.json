@@ -1,0 +1,18 @@
+{
+  "id": 2199242,
+  "name": "emacs-evil/evil-surround",
+  "description": "you will be surrounded (surround.vim for evil, the extensible vi layer)",
+  "url": "https://github.com/emacs-evil/evil-surround",
+  "stars": 677,
+  "updated": "2026-06-07T09:39:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "evil-surround",
+    "fetcher": "github",
+    "repo": "emacs-evil/evil-surround"
+  }
+}

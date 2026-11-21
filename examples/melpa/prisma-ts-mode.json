@@ -1,0 +1,18 @@
+{
+  "id": 701421539,
+  "name": "nverno/prisma-ts-mode",
+  "description": "Prisma schema major mode using tree-sitter",
+  "url": "https://github.com/nverno/prisma-ts-mode",
+  "stars": 6,
+  "updated": "2025-10-24T13:56:37Z",
+  "archived": false,
+  "topics": ["emacs", "prisma", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prisma-ts-mode",
+    "fetcher": "github",
+    "repo": "nverno/prisma-ts-mode"
+  }
+}

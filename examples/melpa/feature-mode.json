@@ -1,0 +1,19 @@
+{
+  "id": 90978,
+  "name": "freesteph/cucumber.el",
+  "description": "Emacs mode for editing Cucumber plain text stories",
+  "url": "https://github.com/freesteph/cucumber.el",
+  "stars": 259,
+  "updated": "2025-10-15T21:34:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "feature-mode",
+    "fetcher": "github",
+    "repo": "freesteph/cucumber.el",
+    "files": "(:defaults \"gherkin-languages.json\" \"snippets\" \"support\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 167830161,
+  "name": "petergardfjall/emacs-immaterial-theme",
+  "description": "A customizable emacs color theme loosely based on material design principles",
+  "url": "https://github.com/petergardfjall/emacs-immaterial-theme",
+  "stars": 18,
+  "updated": "2026-10-25T07:50:05Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-theme"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "immaterial-theme",
+    "fetcher": "github",
+    "repo": "petergardfjall/emacs-immaterial-theme"
+  }
+}

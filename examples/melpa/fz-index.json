@@ -1,0 +1,19 @@
+{
+  "id": 1349130873,
+  "name": "uppet/fz-index",
+  "description": "fz-index — Sublime-style fuzzy file open for Emacs",
+  "url": "https://github.com/uppet/fz-index",
+  "stars": 4,
+  "updated": "2026-10-27T01:49:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fz-index",
+    "fetcher": "github",
+    "repo": "uppet/fz-index",
+    "files": "(\"fz-index.el\" \"fz-index.c\" \"emacs-module.h\"\n                  \"Makefile\")"
+  }
+}

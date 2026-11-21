@@ -1,0 +1,18 @@
+{
+  "id": 97336051,
+  "name": "magit/magit-imerge",
+  "description": "Magit extension for git-imerge",
+  "url": "https://github.com/magit/magit-imerge",
+  "stars": 34,
+  "updated": "2026-03-22T21:24:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "magit-imerge",
+    "fetcher": "github",
+    "repo": "magit/magit-imerge"
+  }
+}

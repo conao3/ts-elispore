@@ -1,0 +1,18 @@
+{
+  "id": 234051655,
+  "name": "motform/stimmung-themes",
+  "description": "emacs tuned to inner harmonies",
+  "url": "https://github.com/motform/stimmung-themes",
+  "stars": 151,
+  "updated": "2025-09-15T14:20:45Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-theme", "minimal", "monochrome", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "stimmung-themes",
+    "fetcher": "github",
+    "repo": "motform/stimmung-themes"
+  }
+}

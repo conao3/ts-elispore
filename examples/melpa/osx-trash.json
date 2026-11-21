@@ -1,0 +1,19 @@
+{
+  "id": 35765638,
+  "name": "emacsorphanage/osx-trash",
+  "description": "Make Emacs' delete-by-moving-to-trash do what you expect it to do on OS X.",
+  "url": "https://github.com/emacsorphanage/osx-trash",
+  "stars": 30,
+  "updated": "2022-09-13T19:56:00Z",
+  "archived": false,
+  "topics": ["emacs", "melpa", "osx-trash", "trash"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "osx-trash",
+    "fetcher": "github",
+    "repo": "emacsorphanage/osx-trash",
+    "files": "(:defaults \"*.AppleScript\")"
+  }
+}

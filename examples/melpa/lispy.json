@@ -1,0 +1,28 @@
+{
+  "id": 15803613,
+  "name": "abo-abo/lispy",
+  "description": "Short and sweet LISP editing",
+  "url": "https://github.com/abo-abo/lispy",
+  "stars": 1297,
+  "updated": "2026-01-23T10:49:14Z",
+  "archived": false,
+  "topics": [
+    "clojure",
+    "common-lisp",
+    "emacs-lisp",
+    "evaluation",
+    "navigation",
+    "python",
+    "refactoring",
+    "scheme"
+  ],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lispy",
+    "fetcher": "github",
+    "repo": "abo-abo/lispy",
+    "files": "(:defaults \"lispy-clojure.clj\" \"lispy-clojure.cljs\" \"lispy-python.py\")"
+  }
+}

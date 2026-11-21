@@ -1,0 +1,18 @@
+{
+  "id": 93767753,
+  "name": "rkaercher/hugsql-ghosts",
+  "description": "Displays overlays with your hugsql defns in cider buffers in emacs",
+  "url": "https://github.com/rkaercher/hugsql-ghosts",
+  "stars": 5,
+  "updated": "2021-11-24T16:48:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Shell",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hugsql-ghosts",
+    "fetcher": "github",
+    "repo": "rkaercher/hugsql-ghosts"
+  }
+}

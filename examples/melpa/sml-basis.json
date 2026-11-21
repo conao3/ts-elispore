@@ -1,0 +1,18 @@
+{
+  "id": 364912490,
+  "name": "lassik/emacs-sml-basis",
+  "description": "Standard ML Basis Library lookup in Emacs",
+  "url": "https://github.com/lassik/emacs-sml-basis",
+  "stars": 0,
+  "updated": "2021-05-18T20:42:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sml-basis",
+    "fetcher": "github",
+    "repo": "lassik/emacs-sml-basis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 411758507,
+  "name": "tefkah/org-roam-timestamps",
+  "description": "Add modified and creation timestamps to the org-roam property drawer",
+  "url": "https://github.com/tefkah/org-roam-timestamps",
+  "stars": 80,
+  "updated": "2023-02-09T03:32:57Z",
+  "archived": false,
+  "topics": ["emacs", "org-roam", "org-roam-ui", "zettelkasten"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-roam-timestamps",
+    "fetcher": "github",
+    "repo": "tefkah/org-roam-timestamps"
+  }
+}

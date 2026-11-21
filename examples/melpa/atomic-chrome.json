@@ -1,0 +1,18 @@
+{
+  "id": 71681718,
+  "name": "alpha22jp/atomic-chrome",
+  "description": "Edit text area on Chrome with Emacs using Atomic Chrome",
+  "url": "https://github.com/alpha22jp/atomic-chrome",
+  "stars": 422,
+  "updated": "2024-03-13T08:36:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "atomic-chrome",
+    "fetcher": "github",
+    "repo": "alpha22jp/atomic-chrome"
+  }
+}

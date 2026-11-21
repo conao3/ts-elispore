@@ -1,0 +1,18 @@
+{
+  "id": 7254108,
+  "name": "reactormonk/kwin-minor-mode",
+  "description": "A minor mode to communicate with KWin.",
+  "url": "https://github.com/reactormonk/kwin-minor-mode",
+  "stars": 2,
+  "updated": "2022-01-20T21:25:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kwin",
+    "fetcher": "github",
+    "repo": "reactormonk/kwin-minor-mode"
+  }
+}

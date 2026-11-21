@@ -1,0 +1,19 @@
+{
+  "id": 613508833,
+  "name": "rainstormstudio/nerd-icons.el",
+  "description": "",
+  "url": "https://github.com/rainstormstudio/nerd-icons.el",
+  "stars": 333,
+  "updated": "2026-11-21T05:51:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nerd-icons",
+    "fetcher": "github",
+    "repo": "rainstormstudio/nerd-icons.el",
+    "files": "(:defaults \"data\")"
+  }
+}

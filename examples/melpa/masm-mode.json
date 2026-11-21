@@ -1,0 +1,18 @@
+{
+  "id": 233583292,
+  "name": "YiGeeker/masm-mode",
+  "description": "Major mode for editing MASM assembly programs",
+  "url": "https://github.com/YiGeeker/masm-mode",
+  "stars": 5,
+  "updated": "2020-03-08T14:56:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "masm-mode",
+    "fetcher": "github",
+    "repo": "YiGeeker/masm-mode"
+  }
+}

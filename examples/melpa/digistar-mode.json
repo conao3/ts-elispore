@@ -1,0 +1,19 @@
+{
+  "id": 21301460,
+  "name": "retroj/digistar-mode",
+  "description": "An Emacs major mode for Digistar scripts.",
+  "url": "https://github.com/retroj/digistar-mode",
+  "stars": 2,
+  "updated": "2025-07-10T15:56:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "digistar-mode",
+    "fetcher": "github",
+    "repo": "retroj/digistar-mode",
+    "files": "(:defaults \"images\")"
+  }
+}

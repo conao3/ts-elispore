@@ -1,0 +1,18 @@
+{
+  "id": 15304915,
+  "name": "eschulte/emacs-web-server",
+  "description": "web server running Emacs Lisp handlers.",
+  "url": "https://github.com/eschulte/emacs-web-server",
+  "stars": 184,
+  "updated": "2023-08-03T04:02:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "web-server",
+    "fetcher": "github",
+    "repo": "eschulte/emacs-web-server"
+  }
+}

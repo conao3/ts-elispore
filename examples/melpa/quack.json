@@ -1,0 +1,18 @@
+{
+  "id": 156384337,
+  "name": "emacsmirror/quack",
+  "description": "Enhanced support for editing and running Scheme code",
+  "url": "https://github.com/emacsmirror/quack",
+  "stars": 5,
+  "updated": "2018-11-06T13:01:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "quack",
+    "fetcher": "github",
+    "repo": "emacsmirror/quack"
+  }
+}

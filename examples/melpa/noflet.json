@@ -1,0 +1,18 @@
+{
+  "id": 10002599,
+  "name": "nicferrier/emacs-noflet",
+  "description": "noflet - nic's overriding flet, for fleting functions for the purpose of decorating them",
+  "url": "https://github.com/nicferrier/emacs-noflet",
+  "stars": 72,
+  "updated": "2022-02-17T06:08:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "noflet",
+    "fetcher": "github",
+    "repo": "nicferrier/emacs-noflet"
+  }
+}

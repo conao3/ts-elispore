@@ -1,0 +1,18 @@
+{
+  "id": 45840391,
+  "name": "paddymcall/indian-ext",
+  "description": "Extension to Emacs' Indian languages  support",
+  "url": "https://github.com/paddymcall/indian-ext",
+  "stars": 8,
+  "updated": "2023-10-09T07:41:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "indian-ext",
+    "fetcher": "github",
+    "repo": "paddymcall/indian-ext"
+  }
+}

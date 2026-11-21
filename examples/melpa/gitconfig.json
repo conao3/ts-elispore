@@ -1,0 +1,18 @@
+{
+  "id": 11479001,
+  "name": "tonini/gitconfig.el",
+  "description": " Emacs lisp interface to work with git-config variables",
+  "url": "https://github.com/tonini/gitconfig.el",
+  "stars": 12,
+  "updated": "2015-11-21T17:03:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gitconfig",
+    "fetcher": "github",
+    "repo": "tonini/gitconfig.el"
+  }
+}

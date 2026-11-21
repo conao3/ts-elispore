@@ -1,0 +1,18 @@
+{
+  "id": 115938768,
+  "name": "jojojames/flycheck-gradle",
+  "description": "Flycheck extension for projects that use gradle",
+  "url": "https://github.com/jojojames/flycheck-gradle",
+  "stars": 6,
+  "updated": "2019-03-15T02:34:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-gradle",
+    "fetcher": "github",
+    "repo": "jojojames/flycheck-gradle"
+  }
+}

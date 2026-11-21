@@ -1,0 +1,18 @@
+{
+  "id": 95765221,
+  "name": "spebern/paste-of-code.el",
+  "description": "emacs package for pasting to paste.ofcode.org",
+  "url": "https://github.com/spebern/paste-of-code.el",
+  "stars": 3,
+  "updated": "2017-07-09T23:55:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "paste-of-code",
+    "fetcher": "github",
+    "repo": "spebern/paste-of-code.el"
+  }
+}

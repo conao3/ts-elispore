@@ -1,0 +1,18 @@
+{
+  "id": 89314,
+  "name": "emacscollective/elx",
+  "description": "Extract information from Emacs Lisp libraries",
+  "url": "https://github.com/emacscollective/elx",
+  "stars": 29,
+  "updated": "2026-11-19T09:48:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "elx",
+    "fetcher": "github",
+    "repo": "emacscollective/elx"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 200664576,
+  "name": "alphapapa/prism.el",
+  "description": "Disperse Lisp forms (and other languages) into a spectrum of colors by depth",
+  "url": "https://github.com/alphapapa/prism.el",
+  "stars": 335,
+  "updated": "2024-10-24T00:41:02Z",
+  "archived": false,
+  "topics": ["emacs", "syntax-highlighting"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prism",
+    "fetcher": "github",
+    "repo": "alphapapa/prism.el"
+  }
+}

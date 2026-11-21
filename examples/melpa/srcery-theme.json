@@ -1,0 +1,27 @@
+{
+  "id": 116515228,
+  "name": "srcery-colors/srcery-emacs",
+  "description": "The dark color scheme for Emacs/Spacemacs. GUI and terminal support",
+  "url": "https://github.com/srcery-colors/srcery-emacs",
+  "stars": 143,
+  "updated": "2026-11-20T09:51:34Z",
+  "archived": false,
+  "topics": [
+    "color-scheme",
+    "colorscheme",
+    "dark-syntax-theme",
+    "emacs",
+    "hacktoberfest",
+    "spacemacs",
+    "srcery",
+    "theme"
+  ],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "srcery-theme",
+    "fetcher": "github",
+    "repo": "srcery-colors/srcery-emacs"
+  }
+}

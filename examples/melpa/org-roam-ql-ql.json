@@ -1,0 +1,19 @@
+{
+  "id": 597900644,
+  "name": "ahmed-shariff/org-roam-ql",
+  "description": "Query language for org-roam",
+  "url": "https://github.com/ahmed-shariff/org-roam-ql",
+  "stars": 134,
+  "updated": "2026-11-06T03:47:26Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode", "org-roam", "query-language"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-roam-ql-ql",
+    "fetcher": "github",
+    "repo": "ahmed-shariff/org-roam-ql",
+    "files": "(\"org-roam-ql-ql.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 65253273,
+  "name": "abrochard/emacs-habitica",
+  "description": "Emacs Extension for Habitica",
+  "url": "https://github.com/abrochard/emacs-habitica",
+  "stars": 89,
+  "updated": "2025-07-15T11:13:40Z",
+  "archived": false,
+  "topics": ["emacs", "habitica", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "habitica",
+    "fetcher": "github",
+    "repo": "abrochard/emacs-habitica"
+  }
+}

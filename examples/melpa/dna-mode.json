@@ -1,0 +1,18 @@
+{
+  "id": 4291676,
+  "name": "jhgorrell/dna-mode-el",
+  "description": "dna-mode.el - an emacs mode for dna.",
+  "url": "https://github.com/jhgorrell/dna-mode-el",
+  "stars": 10,
+  "updated": "2019-10-01T21:08:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dna-mode",
+    "fetcher": "github",
+    "repo": "jhgorrell/dna-mode-el"
+  }
+}

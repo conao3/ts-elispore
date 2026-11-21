@@ -1,0 +1,19 @@
+{
+  "id": 1927425,
+  "name": "ananthakumaran/monky",
+  "description": "Magit for Hg",
+  "url": "https://github.com/ananthakumaran/monky",
+  "stars": 161,
+  "updated": "2023-02-22T21:53:46Z",
+  "archived": false,
+  "topics": ["emacs", "hg", "mercury"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "monky",
+    "fetcher": "github",
+    "repo": "ananthakumaran/monky",
+    "files": "(\"*.el\" \"*.info\" \"style\")"
+  }
+}

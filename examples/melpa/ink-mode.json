@@ -1,0 +1,19 @@
+{
+  "id": 54216144,
+  "name": "Kungsgeten/ink-mode",
+  "description": "An Emacs major mode for the interactive fiction scripting language Ink, by Inkle Studios.",
+  "url": "https://github.com/Kungsgeten/ink-mode",
+  "stars": 49,
+  "updated": "2026-02-12T09:23:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ink-mode",
+    "fetcher": "github",
+    "repo": "Kungsgeten/ink-mode",
+    "files": "(:defaults \"snippets\")"
+  }
+}

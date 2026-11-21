@@ -1,0 +1,19 @@
+{
+  "id": 304837056,
+  "name": "cedarbaum/burnt-toast.el",
+  "description": "Emacs integration with the BurntToast PowerShell module.",
+  "url": "https://github.com/cedarbaum/burnt-toast.el",
+  "stars": 6,
+  "updated": "2021-03-02T05:53:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "burnt-toast",
+    "fetcher": "github",
+    "repo": "cedarbaum/burnt-toast.el",
+    "files": "(:defaults (\"icons\" \"icons/*.png\"))"
+  }
+}

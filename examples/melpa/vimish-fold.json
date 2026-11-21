@@ -1,0 +1,18 @@
+{
+  "id": 42005152,
+  "name": "matsievskiysv/vimish-fold",
+  "description": "Vim-like text folding for Emacs",
+  "url": "https://github.com/matsievskiysv/vimish-fold",
+  "stars": 251,
+  "updated": "2025-10-23T15:52:11Z",
+  "archived": false,
+  "topics": ["emacs", "text-folding"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vimish-fold",
+    "fetcher": "github",
+    "repo": "matsievskiysv/vimish-fold"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 2437513,
+  "name": "emacsorphanage/mongo",
+  "description": "MongoDB driver for Emacs Lisp",
+  "url": "https://github.com/emacsorphanage/mongo",
+  "stars": 48,
+  "updated": "2015-03-15T12:23:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "mongo",
+    "fetcher": "github",
+    "repo": "emacsorphanage/mongo"
+  }
+}

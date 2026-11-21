@@ -1,0 +1,18 @@
+{
+  "id": 1894499,
+  "name": "jcsalomon/smarttabs",
+  "description": "Emacs smart tabs - indent with tabs, align with spaces!",
+  "url": "https://github.com/jcsalomon/smarttabs",
+  "stars": 123,
+  "updated": "2024-06-26T10:58:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smart-tabs-mode",
+    "fetcher": "github",
+    "repo": "jcsalomon/smarttabs"
+  }
+}

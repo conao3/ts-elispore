@@ -1,0 +1,18 @@
+{
+  "id": 120264877,
+  "name": "ubolonton/info-colors",
+  "description": "Extra colors for Emacs's Info-mode",
+  "url": "https://github.com/ubolonton/info-colors",
+  "stars": 40,
+  "updated": "2026-09-05T01:14:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "info-colors",
+    "fetcher": "github",
+    "repo": "ubolonton/info-colors"
+  }
+}

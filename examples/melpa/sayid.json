@@ -1,0 +1,19 @@
+{
+  "id": 43218098,
+  "name": "clojure-emacs/sayid",
+  "description": "A debugger for Clojure",
+  "url": "https://github.com/clojure-emacs/sayid",
+  "stars": 420,
+  "updated": "2026-09-15T13:35:04Z",
+  "archived": false,
+  "topics": ["cider", "clojure", "debugger", "emacs", "nrepl", "nrepl-middleware"],
+  "license": "Apache-2.0",
+  "language": "Clojure",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sayid",
+    "fetcher": "github",
+    "repo": "clojure-emacs/sayid",
+    "files": "(\"src/el/*.el\")"
+  }
+}

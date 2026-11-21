@@ -1,0 +1,18 @@
+{
+  "id": 590715408,
+  "name": "LionyxML/magit-stats",
+  "description": "A git statistics report generator that can be used both as an individual CLI Tool or called from inside Emacs.",
+  "url": "https://github.com/LionyxML/magit-stats",
+  "stars": 44,
+  "updated": "2024-11-20T03:52:16Z",
+  "archived": false,
+  "topics": ["cli", "emacs", "git", "npx", "statistics"],
+  "license": "GPL-3.0",
+  "language": "TypeScript",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-stats",
+    "fetcher": "github",
+    "repo": "LionyxML/magit-stats"
+  }
+}

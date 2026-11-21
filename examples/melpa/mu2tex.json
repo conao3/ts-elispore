@@ -1,0 +1,18 @@
+{
+  "id": 181715837,
+  "name": "cdominik/mu2tex",
+  "description": "Convert ASCII representation of units, numbers and molecule names to LaTeX",
+  "url": "https://github.com/cdominik/mu2tex",
+  "stars": 7,
+  "updated": "2020-05-12T07:04:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mu2tex",
+    "fetcher": "github",
+    "repo": "cdominik/mu2tex"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 4829675,
+  "name": "DamienCassou/shell-switcher",
+  "description": "An emacs minor mode to easily switch between shell buffers (like with alt+tab)",
+  "url": "https://github.com/DamienCassou/shell-switcher",
+  "stars": 45,
+  "updated": "2024-12-29T16:57:39Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "eshell"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shell-switcher",
+    "fetcher": "github",
+    "repo": "DamienCassou/shell-switcher",
+    "files": "(\"rswitcher.el\" \"shell-switcher.el\")"
+  }
+}

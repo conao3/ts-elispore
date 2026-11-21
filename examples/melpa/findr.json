@@ -1,0 +1,18 @@
+{
+  "id": 51114609,
+  "name": "emacsorphanage/findr",
+  "description": "Breadth-first file-finding facility for (X)Emacs",
+  "url": "https://github.com/emacsorphanage/findr",
+  "stars": 3,
+  "updated": "2016-02-04T23:59:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "findr",
+    "fetcher": "github",
+    "repo": "emacsorphanage/findr"
+  }
+}

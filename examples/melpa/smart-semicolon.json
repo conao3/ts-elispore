@@ -1,0 +1,18 @@
+{
+  "id": 100773808,
+  "name": "iquiw/smart-semicolon",
+  "description": "Insert semicolon smartly",
+  "url": "https://github.com/iquiw/smart-semicolon",
+  "stars": 11,
+  "updated": "2021-10-17T14:22:20Z",
+  "archived": false,
+  "topics": ["electricity", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smart-semicolon",
+    "fetcher": "github",
+    "repo": "iquiw/smart-semicolon"
+  }
+}

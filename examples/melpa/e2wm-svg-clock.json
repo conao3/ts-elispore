@@ -1,0 +1,18 @@
+{
+  "id": 8520603,
+  "name": "myuhe/e2wm-svg-clock.el",
+  "description": "",
+  "url": "https://github.com/myuhe/e2wm-svg-clock.el",
+  "stars": 1,
+  "updated": "2015-01-06T13:06:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "e2wm-svg-clock",
+    "fetcher": "github",
+    "repo": "myuhe/e2wm-svg-clock.el"
+  }
+}

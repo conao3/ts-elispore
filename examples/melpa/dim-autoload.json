@@ -1,0 +1,18 @@
+{
+  "id": 12956086,
+  "name": "tarsius/dim-autoload",
+  "description": "Dim complete autoload cookie lines",
+  "url": "https://github.com/tarsius/dim-autoload",
+  "stars": 5,
+  "updated": "2026-10-01T15:43:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dim-autoload",
+    "fetcher": "github",
+    "repo": "tarsius/dim-autoload"
+  }
+}

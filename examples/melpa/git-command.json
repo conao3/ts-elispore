@@ -1,0 +1,18 @@
+{
+  "id": 30740463,
+  "name": "10sr/git-command-el",
+  "description": "A GIt Command-Line Interface",
+  "url": "https://github.com/10sr/git-command-el",
+  "stars": 3,
+  "updated": "2019-10-28T03:33:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-command",
+    "fetcher": "github",
+    "repo": "10sr/git-command-el"
+  }
+}

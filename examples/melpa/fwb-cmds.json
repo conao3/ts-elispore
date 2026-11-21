@@ -1,0 +1,18 @@
+{
+  "id": 82503,
+  "name": "tarsius/fwb-cmds",
+  "description": "Misc frame, window and buffer commands",
+  "url": "https://github.com/tarsius/fwb-cmds",
+  "stars": 10,
+  "updated": "2026-10-01T16:17:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fwb-cmds",
+    "fetcher": "github",
+    "repo": "tarsius/fwb-cmds"
+  }
+}

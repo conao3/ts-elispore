@@ -1,0 +1,18 @@
+{
+  "id": 471326,
+  "name": "nflath/cache",
+  "description": "Expiring Cache implementation for emacs-lisp",
+  "url": "https://github.com/nflath/cache",
+  "stars": 3,
+  "updated": "2017-03-08T16:37:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cache",
+    "fetcher": "github",
+    "repo": "nflath/cache"
+  }
+}

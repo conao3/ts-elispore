@@ -1,0 +1,18 @@
+{
+  "id": 35467143,
+  "name": "p-lambert/mutant.el",
+  "description": "An Emacs interface for Mutant",
+  "url": "https://github.com/p-lambert/mutant.el",
+  "stars": 8,
+  "updated": "2016-02-22T15:56:19Z",
+  "archived": false,
+  "topics": ["emacs", "mutation-testing"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mutant",
+    "fetcher": "github",
+    "repo": "p-lambert/mutant.el"
+  }
+}

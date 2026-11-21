@@ -1,0 +1,18 @@
+{
+  "id": 6000395,
+  "name": "dimitri/pgdevenv-el",
+  "description": "PostgreSQL Development Tool for Emacs",
+  "url": "https://github.com/dimitri/pgdevenv-el",
+  "stars": 22,
+  "updated": "2015-01-05T22:36:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pgdevenv",
+    "fetcher": "github",
+    "repo": "dimitri/pgdevenv-el"
+  }
+}

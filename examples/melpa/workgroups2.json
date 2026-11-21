@@ -1,0 +1,19 @@
+{
+  "id": 9735323,
+  "name": "pashinin/workgroups2",
+  "description": "Workgroups2 - Emacs session manager",
+  "url": "https://github.com/pashinin/workgroups2",
+  "stars": 304,
+  "updated": "2023-03-28T13:32:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "workgroups2",
+    "fetcher": "github",
+    "repo": "pashinin/workgroups2",
+    "files": "(\"src/*.el\")"
+  }
+}

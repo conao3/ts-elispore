@@ -1,0 +1,18 @@
+{
+  "id": 26703823,
+  "name": "emacsfodder/emacs-bliss-theme",
+  "description": "",
+  "url": "https://github.com/emacsfodder/emacs-bliss-theme",
+  "stars": 6,
+  "updated": "2017-08-08T13:07:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "bliss-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-bliss-theme"
+  }
+}

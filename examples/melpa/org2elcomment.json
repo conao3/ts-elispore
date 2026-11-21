@@ -1,0 +1,18 @@
+{
+  "id": 58244076,
+  "name": "cute-jumper/org2elcomment",
+  "description": "Convert Org file to Elisp comments",
+  "url": "https://github.com/cute-jumper/org2elcomment",
+  "stars": 10,
+  "updated": "2017-03-24T09:46:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org2elcomment",
+    "fetcher": "github",
+    "repo": "cute-jumper/org2elcomment"
+  }
+}

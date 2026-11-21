@@ -1,0 +1,18 @@
+{
+  "id": 17205034,
+  "name": "ardumont/emacs-creds",
+  "description": "A small lib to parse creds file",
+  "url": "https://github.com/ardumont/emacs-creds",
+  "stars": 1,
+  "updated": "2014-05-24T21:41:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "creds",
+    "fetcher": "github",
+    "repo": "ardumont/emacs-creds"
+  }
+}

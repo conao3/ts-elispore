@@ -1,0 +1,18 @@
+{
+  "id": 66832829,
+  "name": "abo-abo/elf-mode",
+  "description": "Show symbol list when opening a binary file in Emacs",
+  "url": "https://github.com/abo-abo/elf-mode",
+  "stars": 19,
+  "updated": "2016-10-09T07:49:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elf-mode",
+    "fetcher": "github",
+    "repo": "abo-abo/elf-mode"
+  }
+}

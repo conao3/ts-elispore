@@ -1,0 +1,18 @@
+{
+  "id": 127665621,
+  "name": "grimnebulin/emacs-hmac",
+  "description": "Hash-based Message Authentication Code implementation in Emacs Lisp",
+  "url": "https://github.com/grimnebulin/emacs-hmac",
+  "stars": 6,
+  "updated": "2020-10-17T20:04:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hmac",
+    "fetcher": "github",
+    "repo": "grimnebulin/emacs-hmac"
+  }
+}

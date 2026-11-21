@@ -1,0 +1,19 @@
+{
+  "id": 548580368,
+  "name": "ahyatt/ekg",
+  "description": "The emacs knowledge graph, app for notes and structured data.",
+  "url": "https://github.com/ahyatt/ekg",
+  "stars": 296,
+  "updated": "2026-11-20T23:53:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ekg",
+    "fetcher": "github",
+    "repo": "ahyatt/ekg",
+    "files": "(\"doc/*.texi\" \"ekg.el\" \"ekg-embedding.el\" \"ekg-llm.el\"\n         \"ekg-auto-save.el\" \"ekg-org-roam.el\" \"ekg-org.el\" \"ekg-apple-notes.el\"\n         \"ekg-logseq.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 317905417,
+  "name": "akirak/xmind-org-el",
+  "description": "Import XMind mindmap files to Org mode",
+  "url": "https://github.com/akirak/xmind-org-el",
+  "stars": 31,
+  "updated": "2024-09-17T15:12:05Z",
+  "archived": false,
+  "topics": ["emacs", "org-mode", "xmind"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xmind-org",
+    "fetcher": "github",
+    "repo": "akirak/xmind-org-el"
+  }
+}

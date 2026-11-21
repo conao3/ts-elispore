@@ -1,0 +1,18 @@
+{
+  "id": 99366142,
+  "name": "the-ted/org-mind-map",
+  "description": "This is an emacs package that creates graphviz directed graphs.",
+  "url": "https://github.com/the-ted/org-mind-map",
+  "stars": 559,
+  "updated": "2023-06-20T06:47:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-mind-map",
+    "fetcher": "github",
+    "repo": "the-ted/org-mind-map"
+  }
+}

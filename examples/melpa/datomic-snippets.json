@@ -1,0 +1,19 @@
+{
+  "id": 10919536,
+  "name": "magnars/datomic-snippets",
+  "description": "Yasnippets for Datomic.",
+  "url": "https://github.com/magnars/datomic-snippets",
+  "stars": 15,
+  "updated": "2018-08-17T10:46:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "datomic-snippets",
+    "fetcher": "github",
+    "repo": "magnars/datomic-snippets",
+    "files": "(\"*.el\" \"snippets\")"
+  }
+}

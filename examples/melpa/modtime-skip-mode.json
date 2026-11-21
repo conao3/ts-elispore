@@ -1,0 +1,18 @@
+{
+  "id": 11623278,
+  "name": "jordonbiondo/modtime-skip-mode",
+  "description": "Minor mode for disabling modtime and supersession checks on buffers.",
+  "url": "https://github.com/jordonbiondo/modtime-skip-mode",
+  "stars": 1,
+  "updated": "2014-01-28T22:01:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "modtime-skip-mode",
+    "fetcher": "github",
+    "repo": "jordonbiondo/modtime-skip-mode"
+  }
+}

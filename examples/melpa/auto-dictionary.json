@@ -1,0 +1,18 @@
+{
+  "id": 1113022,
+  "name": "nschum/auto-dictionary-mode",
+  "description": "Emacs: automatic dictionary switcher for flyspell",
+  "url": "https://github.com/nschum/auto-dictionary-mode",
+  "stars": 28,
+  "updated": "2022-09-11T14:41:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "auto-dictionary",
+    "fetcher": "github",
+    "repo": "nschum/auto-dictionary-mode"
+  }
+}

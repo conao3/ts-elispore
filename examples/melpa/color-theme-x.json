@@ -1,0 +1,18 @@
+{
+  "id": 7009546,
+  "name": "ajsquared/color-theme-x",
+  "description": "Convert Emacs Color Themes to X11 Resource Settings",
+  "url": "https://github.com/ajsquared/color-theme-x",
+  "stars": 5,
+  "updated": "2020-12-04T22:45:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "color-theme-x",
+    "fetcher": "github",
+    "repo": "ajsquared/color-theme-x"
+  }
+}

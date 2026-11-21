@@ -1,0 +1,19 @@
+{
+  "id": 1306141299,
+  "name": "zHaOdANiuu/material-icons.el",
+  "description": "material icon for emacs",
+  "url": "https://github.com/zHaOdANiuu/material-icons.el",
+  "stars": 14,
+  "updated": "2026-09-09T03:05:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "material-icons",
+    "fetcher": "github",
+    "repo": "zHaOdANiuu/material-icons.el",
+    "files": "(:defaults \"icons.tar.gz\")"
+  }
+}

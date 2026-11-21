@@ -1,0 +1,18 @@
+{
+  "id": 189557662,
+  "name": "alvarogonzalezsotillo/region-occurrences-highlighter",
+  "description": "This emacs package implements a local minor mode that highlights occurrences of the current selected region.",
+  "url": "https://github.com/alvarogonzalezsotillo/region-occurrences-highlighter",
+  "stars": 30,
+  "updated": "2026-06-19T08:37:36Z",
+  "archived": false,
+  "topics": ["emacs", "melpa"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "region-occurrences-highlighter",
+    "fetcher": "github",
+    "repo": "alvarogonzalezsotillo/region-occurrences-highlighter"
+  }
+}

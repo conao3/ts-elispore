@@ -1,0 +1,18 @@
+{
+  "id": 618776955,
+  "name": "Carl2/conan-elisp",
+  "description": "To use conan inside emacs, this is suppose mainly be used with org-mode source ",
+  "url": "https://github.com/Carl2/conan-elisp",
+  "stars": 3,
+  "updated": "2025-09-19T14:27:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "conan",
+    "fetcher": "github",
+    "repo": "Carl2/conan-elisp"
+  }
+}

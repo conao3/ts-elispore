@@ -1,0 +1,18 @@
+{
+  "id": 470030159,
+  "name": "jjuliano/eslint-rc-emacs",
+  "description": "MELPA package to use local rc rules with ESLint",
+  "url": "https://github.com/jjuliano/eslint-rc-emacs",
+  "stars": 5,
+  "updated": "2022-03-28T08:00:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eslint-rc",
+    "fetcher": "github",
+    "repo": "jjuliano/eslint-rc-emacs"
+  }
+}

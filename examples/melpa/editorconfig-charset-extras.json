@@ -1,0 +1,18 @@
+{
+  "id": 90039822,
+  "name": "10sr/editorconfig-charset-extras-el",
+  "description": "EditorConfig Extra Charset Support",
+  "url": "https://github.com/10sr/editorconfig-charset-extras-el",
+  "stars": 2,
+  "updated": "2020-03-31T13:34:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "editorconfig-charset-extras",
+    "fetcher": "github",
+    "repo": "10sr/editorconfig-charset-extras-el"
+  }
+}

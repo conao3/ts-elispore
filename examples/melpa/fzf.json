@@ -1,0 +1,18 @@
+{
+  "id": 42777963,
+  "name": "bling/fzf.el",
+  "description": "A front-end for fzf",
+  "url": "https://github.com/bling/fzf.el",
+  "stars": 419,
+  "updated": "2026-05-05T11:05:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fzf",
+    "fetcher": "github",
+    "repo": "bling/fzf.el"
+  }
+}

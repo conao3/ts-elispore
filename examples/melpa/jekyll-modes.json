@@ -1,0 +1,18 @@
+{
+  "id": 26475022,
+  "name": "fred-o/jekyll-modes",
+  "description": "Emacs major modes (markdown and HTML) for authoring content in Jekyll",
+  "url": "https://github.com/fred-o/jekyll-modes",
+  "stars": 5,
+  "updated": "2014-11-17T13:14:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jekyll-modes",
+    "fetcher": "github",
+    "repo": "fred-o/jekyll-modes"
+  }
+}

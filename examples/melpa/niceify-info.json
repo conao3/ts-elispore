@@ -1,0 +1,18 @@
+{
+  "id": 56004797,
+  "name": "aaron-em/niceify-info.el",
+  "description": "Improve styles and cross-references in Emacs Info buffers.",
+  "url": "https://github.com/aaron-em/niceify-info.el",
+  "stars": 5,
+  "updated": "2017-07-27T15:59:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "niceify-info",
+    "fetcher": "github",
+    "repo": "aaron-em/niceify-info.el"
+  }
+}

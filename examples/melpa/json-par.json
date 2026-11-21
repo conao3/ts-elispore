@@ -1,0 +1,18 @@
+{
+  "id": 359447161,
+  "name": "taku0/json-par",
+  "description": "Emacs minor mode for structural editing of JSON",
+  "url": "https://github.com/taku0/json-par",
+  "stars": 25,
+  "updated": "2026-10-25T08:23:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "json-par",
+    "fetcher": "github",
+    "repo": "taku0/json-par"
+  }
+}

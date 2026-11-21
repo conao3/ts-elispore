@@ -1,0 +1,18 @@
+{
+  "id": 272862295,
+  "name": "emacs-love/templatel",
+  "description": "Jinja inspired template language for Emacs Lisp",
+  "url": "https://github.com/emacs-love/templatel",
+  "stars": 64,
+  "updated": "2024-07-06T03:22:29Z",
+  "archived": false,
+  "topics": ["emacs", "jinja2", "template-engine"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "templatel",
+    "fetcher": "github",
+    "repo": "emacs-love/templatel"
+  }
+}

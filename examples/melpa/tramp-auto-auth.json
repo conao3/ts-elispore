@@ -1,0 +1,18 @@
+{
+  "id": 207179927,
+  "name": "oitofelix/tramp-auto-auth",
+  "description": "TRAMP automatic authentication library",
+  "url": "https://github.com/oitofelix/tramp-auto-auth",
+  "stars": 8,
+  "updated": "2019-10-27T14:20:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tramp-auto-auth",
+    "fetcher": "github",
+    "repo": "oitofelix/tramp-auto-auth"
+  }
+}

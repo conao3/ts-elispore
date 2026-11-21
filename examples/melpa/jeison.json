@@ -1,0 +1,18 @@
+{
+  "id": 195621288,
+  "name": "SavchenkoValeriy/jeison",
+  "description": "An Emacs library for declarative JSON parsing",
+  "url": "https://github.com/SavchenkoValeriy/jeison",
+  "stars": 119,
+  "updated": "2023-03-09T16:17:09Z",
+  "archived": false,
+  "topics": ["eieio", "emacs", "json"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jeison",
+    "fetcher": "github",
+    "repo": "SavchenkoValeriy/jeison"
+  }
+}

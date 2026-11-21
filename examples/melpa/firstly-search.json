@@ -1,0 +1,18 @@
+{
+  "id": 755600433,
+  "name": "Anoncheg1/firstly-search",
+  "description": "Modern navigation for Emacs in Dired, Bookmarks, Packages and Buffer menu.",
+  "url": "https://github.com/Anoncheg1/firstly-search",
+  "stars": 2,
+  "updated": "2026-11-21T12:00:32Z",
+  "archived": false,
+  "topics": ["emacs", "filemanager"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "firstly-search",
+    "fetcher": "github",
+    "repo": "Anoncheg1/firstly-search"
+  }
+}

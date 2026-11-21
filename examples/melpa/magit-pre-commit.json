@@ -1,0 +1,18 @@
+{
+  "id": 1128477965,
+  "name": "DamianB-BitFlipper/magit-pre-commit.el",
+  "description": "Emacs: pre-commit integration for Magit.",
+  "url": "https://github.com/DamianB-BitFlipper/magit-pre-commit.el",
+  "stars": 41,
+  "updated": "2026-02-15T18:54:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-pre-commit",
+    "fetcher": "github",
+    "repo": "DamianB-BitFlipper/magit-pre-commit.el"
+  }
+}

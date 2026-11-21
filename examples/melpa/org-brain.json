@@ -1,0 +1,18 @@
+{
+  "id": 85571873,
+  "name": "Kungsgeten/org-brain",
+  "description": "Org-mode wiki + concept-mapping",
+  "url": "https://github.com/Kungsgeten/org-brain",
+  "stars": 1773,
+  "updated": "2024-07-03T20:50:02Z",
+  "archived": false,
+  "topics": ["concept-map", "emacs", "org-mode", "wiki"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-brain",
+    "fetcher": "github",
+    "repo": "Kungsgeten/org-brain"
+  }
+}

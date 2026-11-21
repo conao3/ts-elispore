@@ -1,0 +1,18 @@
+{
+  "id": 549212361,
+  "name": "emacsorphanage/evil-escape",
+  "description": "Customizable key sequence to escape from insert state and everything else in Emacs.",
+  "url": "https://github.com/emacsorphanage/evil-escape",
+  "stars": 5,
+  "updated": "2024-12-12T13:19:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "evil-escape",
+    "fetcher": "github",
+    "repo": "emacsorphanage/evil-escape"
+  }
+}

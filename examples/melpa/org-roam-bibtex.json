@@ -1,0 +1,18 @@
+{
+  "id": 255595349,
+  "name": "org-roam/org-roam-bibtex",
+  "description": " Org Roam integration with bibliography management software",
+  "url": "https://github.com/org-roam/org-roam-bibtex",
+  "stars": 627,
+  "updated": "2025-02-15T11:56:33Z",
+  "archived": false,
+  "topics": ["bibliography", "bibtex", "emacs", "org-mode", "org-roam", "references", "roam"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "org-roam-bibtex",
+    "fetcher": "github",
+    "repo": "org-roam/org-roam-bibtex"
+  }
+}

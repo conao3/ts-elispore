@@ -1,0 +1,18 @@
+{
+  "id": 629733088,
+  "name": "owinebar/emacs-rewriting-pcase",
+  "description": "Use pcase to rewrite elisp source",
+  "url": "https://github.com/owinebar/emacs-rewriting-pcase",
+  "stars": 2,
+  "updated": "2023-04-19T01:28:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rewriting-pcase",
+    "fetcher": "github",
+    "repo": "owinebar/emacs-rewriting-pcase"
+  }
+}

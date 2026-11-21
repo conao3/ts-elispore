@@ -1,0 +1,18 @@
+{
+  "id": 140238653,
+  "name": "redguardtoo/wucuo",
+  "description": "Fastest solution to spell check camel case code or plain text",
+  "url": "https://github.com/redguardtoo/wucuo",
+  "stars": 124,
+  "updated": "2025-06-01T22:46:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wucuo",
+    "fetcher": "github",
+    "repo": "redguardtoo/wucuo"
+  }
+}

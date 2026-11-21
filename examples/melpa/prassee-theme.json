@@ -1,0 +1,18 @@
+{
+  "id": 82247545,
+  "name": "prassee/prassee-emacs-theme",
+  "description": "dark theme for Emacs",
+  "url": "https://github.com/prassee/prassee-emacs-theme",
+  "stars": 21,
+  "updated": "2019-02-18T02:58:48Z",
+  "archived": false,
+  "topics": ["dark-theme", "emacs", "screenshot", "theme"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prassee-theme",
+    "fetcher": "github",
+    "repo": "prassee/prassee-emacs-theme"
+  }
+}

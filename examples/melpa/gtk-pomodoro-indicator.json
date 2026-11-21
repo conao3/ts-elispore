@@ -1,0 +1,19 @@
+{
+  "id": 84122522,
+  "name": "abo-abo/gtk-pomodoro-indicator",
+  "description": "A simple pomodoro indicator for Unity/GTK tray",
+  "url": "https://github.com/abo-abo/gtk-pomodoro-indicator",
+  "stars": 17,
+  "updated": "2019-11-03T11:47:05Z",
+  "archived": false,
+  "topics": ["pomodoro", "ubuntu"],
+  "license": null,
+  "language": "Python",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gtk-pomodoro-indicator",
+    "fetcher": "github",
+    "repo": "abo-abo/gtk-pomodoro-indicator",
+    "files": "(\"*.el\" \"*.py\" \"icons\" \"pomodoro_indicator\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 17813195,
+  "name": "yasuhito/orgbox",
+  "description": "Mailbox-like task scheduling in Org.",
+  "url": "https://github.com/yasuhito/orgbox",
+  "stars": 35,
+  "updated": "2020-11-10T15:11:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "orgbox",
+    "fetcher": "github",
+    "repo": "yasuhito/orgbox"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 25504233,
+  "name": "tonini/alchemist.el",
+  "description": "Elixir Tooling Integration Into Emacs",
+  "url": "https://github.com/tonini/alchemist.el",
+  "stars": 913,
+  "updated": "2022-02-25T13:55:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "alchemist",
+    "fetcher": "github",
+    "repo": "tonini/alchemist.el",
+    "files": "(:defaults \"*.exs\" \"alchemist-server\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 10265645,
+  "name": "juan-leon/dired-efap",
+  "description": "Edit Filename At Point in an Emacs' dired buffer",
+  "url": "https://github.com/juan-leon/dired-efap",
+  "stars": 13,
+  "updated": "2025-07-26T14:00:48Z",
+  "archived": false,
+  "topics": ["dired-mode", "emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-efap",
+    "fetcher": "github",
+    "repo": "juan-leon/dired-efap"
+  }
+}

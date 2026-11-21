@@ -1,0 +1,18 @@
+{
+  "id": 593469886,
+  "name": "ShuguangSun/sas-py",
+  "description": "Equip SAS in Emacs with SASPy",
+  "url": "https://github.com/ShuguangSun/sas-py",
+  "stars": 0,
+  "updated": "2023-01-31T05:24:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sas-py",
+    "fetcher": "github",
+    "repo": "ShuguangSun/sas-py"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": 30163485,
+  "name": "rmuslimov/browse-at-remote",
+  "description": "Browse target page on github/bitbucket from emacs buffers",
+  "url": "https://github.com/rmuslimov/browse-at-remote",
+  "stars": 257,
+  "updated": "2026-01-26T06:08:24Z",
+  "archived": false,
+  "topics": [
+    "bitbucket",
+    "emacs-lisp",
+    "gist",
+    "github",
+    "gitlab",
+    "phabricator",
+    "sourcehut",
+    "stash"
+  ],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "browse-at-remote",
+    "fetcher": "github",
+    "repo": "rmuslimov/browse-at-remote"
+  }
+}

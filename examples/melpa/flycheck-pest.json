@@ -1,0 +1,19 @@
+{
+  "id": 217835951,
+  "name": "ksqsf/pest-mode",
+  "description": "A major mode for editing Pest files",
+  "url": "https://github.com/ksqsf/pest-mode",
+  "stars": 20,
+  "updated": "2022-12-31T00:15:57Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-pest",
+    "fetcher": "github",
+    "repo": "ksqsf/pest-mode",
+    "files": "(\"flycheck-pest.el\")"
+  }
+}

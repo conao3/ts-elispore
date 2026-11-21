@@ -1,0 +1,18 @@
+{
+  "id": 990864663,
+  "name": "tracym/prompt-binder",
+  "description": "",
+  "url": "https://github.com/tracym/prompt-binder",
+  "stars": 1,
+  "updated": "2025-06-21T08:54:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prompt-binder",
+    "fetcher": "github",
+    "repo": "tracym/prompt-binder"
+  }
+}

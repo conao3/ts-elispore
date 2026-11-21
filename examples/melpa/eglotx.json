@@ -1,0 +1,18 @@
+{
+  "id": 1305786049,
+  "name": "cxa/eglotx",
+  "description": "Native LSP multiplexer for Eglot",
+  "url": "https://github.com/cxa/eglotx",
+  "stars": 24,
+  "updated": "2026-10-31T02:06:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eglotx",
+    "fetcher": "github",
+    "repo": "cxa/eglotx"
+  }
+}

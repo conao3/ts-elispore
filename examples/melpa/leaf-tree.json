@@ -1,0 +1,18 @@
+{
+  "id": 248634499,
+  "name": "conao3/leaf-tree.el",
+  "description": "Interactive side-bar feature for leaf based init.el",
+  "url": "https://github.com/conao3/leaf-tree.el",
+  "stars": 12,
+  "updated": "2026-11-09T05:27:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "leaf-tree",
+    "fetcher": "github",
+    "repo": "conao3/leaf-tree.el"
+  }
+}

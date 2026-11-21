@@ -1,0 +1,18 @@
+{
+  "id": 237057552,
+  "name": "io12/org-fragtog",
+  "description": "Automatically toggle Org mode LaTeX fragment previews as the cursor enters and exits them",
+  "url": "https://github.com/io12/org-fragtog",
+  "stars": 447,
+  "updated": "2023-08-14T15:21:05Z",
+  "archived": false,
+  "topics": ["emacs", "latex", "org-mode", "toggle"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-fragtog",
+    "fetcher": "github",
+    "repo": "io12/org-fragtog"
+  }
+}

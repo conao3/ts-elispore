@@ -1,0 +1,18 @@
+{
+  "id": 1890965,
+  "name": "skeeto/emacs-web-server",
+  "description": "Extensible Emacs HTTP 1.1 server",
+  "url": "https://github.com/skeeto/emacs-web-server",
+  "stars": 258,
+  "updated": "2026-11-13T09:15:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simple-httpd",
+    "fetcher": "github",
+    "repo": "skeeto/emacs-web-server"
+  }
+}

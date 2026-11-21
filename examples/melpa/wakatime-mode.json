@@ -1,0 +1,18 @@
+{
+  "id": 27021048,
+  "name": "wakatime/wakatime-mode",
+  "description": "Emacs plugin for automatic time tracking and metrics generated from your programming activity.",
+  "url": "https://github.com/wakatime/wakatime-mode",
+  "stars": 275,
+  "updated": "2026-05-20T11:18:43Z",
+  "archived": false,
+  "topics": ["emacs", "time-tracking"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "wakatime-mode",
+    "fetcher": "github",
+    "repo": "wakatime/wakatime-mode"
+  }
+}

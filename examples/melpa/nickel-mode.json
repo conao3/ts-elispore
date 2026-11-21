@@ -1,0 +1,18 @@
+{
+  "id": 611283396,
+  "name": "nickel-lang/nickel-mode",
+  "description": "An emacs mode for the Nickel language",
+  "url": "https://github.com/nickel-lang/nickel-mode",
+  "stars": 6,
+  "updated": "2026-10-27T12:10:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "nickel-mode",
+    "fetcher": "github",
+    "repo": "nickel-lang/nickel-mode"
+  }
+}

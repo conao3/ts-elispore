@@ -1,0 +1,19 @@
+{
+  "id": 313081405,
+  "name": "sei40kr/license-snippets",
+  "description": "LICENSE templates for yasnippet",
+  "url": "https://github.com/sei40kr/license-snippets",
+  "stars": 7,
+  "updated": "2020-12-11T13:42:05Z",
+  "archived": false,
+  "topics": ["yasnippets"],
+  "license": "GPL-3.0",
+  "language": "YASnippet",
+  "ownerType": "User",
+  "melpa": {
+    "name": "license-snippets",
+    "fetcher": "github",
+    "repo": "sei40kr/license-snippets",
+    "files": "(:defaults \"snippets\")"
+  }
+}

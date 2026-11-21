@@ -1,0 +1,18 @@
+{
+  "id": 89828571,
+  "name": "atheriel/evil-ledger",
+  "description": "More Evil in ledger-mode.",
+  "url": "https://github.com/atheriel/evil-ledger",
+  "stars": 22,
+  "updated": "2024-04-11T15:46:14Z",
+  "archived": false,
+  "topics": ["emacs", "evil-mode", "ledger"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-ledger",
+    "fetcher": "github",
+    "repo": "atheriel/evil-ledger"
+  }
+}

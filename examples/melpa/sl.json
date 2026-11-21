@@ -1,0 +1,19 @@
+{
+  "id": 64048643,
+  "name": "xuchunyang/sl.el",
+  "description": "Emacs clone of sl(1)",
+  "url": "https://github.com/xuchunyang/sl.el",
+  "stars": 6,
+  "updated": "2019-05-24T14:45:06Z",
+  "archived": false,
+  "topics": ["emacs-lisp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sl",
+    "fetcher": "github",
+    "repo": "xuchunyang/sl.el",
+    "files": "(:defaults \"*.txt\")"
+  }
+}

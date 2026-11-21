@@ -1,0 +1,18 @@
+{
+  "id": 156471749,
+  "name": "conao3/cort.el",
+  "description": "Simplify extended Emacs unit test framework",
+  "url": "https://github.com/conao3/cort.el",
+  "stars": 13,
+  "updated": "2026-11-15T16:54:59Z",
+  "archived": false,
+  "topics": ["hacktoberfest"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cort",
+    "fetcher": "github",
+    "repo": "conao3/cort.el"
+  }
+}

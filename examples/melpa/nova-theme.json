@@ -1,0 +1,18 @@
+{
+  "id": 130282720,
+  "name": "muirdm/emacs-nova-theme",
+  "description": "A dark, pastel Emacs color theme",
+  "url": "https://github.com/muirdm/emacs-nova-theme",
+  "stars": 34,
+  "updated": "2026-05-08T21:35:33Z",
+  "archived": false,
+  "topics": ["dark", "emacs", "nova", "theme"],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nova-theme",
+    "fetcher": "github",
+    "repo": "muirdm/emacs-nova-theme"
+  }
+}

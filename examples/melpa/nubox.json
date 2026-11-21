@@ -1,0 +1,18 @@
+{
+  "id": 89868877,
+  "name": "martijnat/nubox",
+  "description": "A set of colorful matching themes for emacs",
+  "url": "https://github.com/martijnat/nubox",
+  "stars": 16,
+  "updated": "2017-06-25T12:48:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nubox",
+    "fetcher": "github",
+    "repo": "martijnat/nubox"
+  }
+}

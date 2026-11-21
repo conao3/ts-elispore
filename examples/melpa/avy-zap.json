@@ -1,0 +1,18 @@
+{
+  "id": 36110483,
+  "name": "cute-jumper/avy-zap",
+  "description": "Zap to char using `avy'",
+  "url": "https://github.com/cute-jumper/avy-zap",
+  "stars": 28,
+  "updated": "2019-08-01T03:29:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "avy-zap",
+    "fetcher": "github",
+    "repo": "cute-jumper/avy-zap"
+  }
+}

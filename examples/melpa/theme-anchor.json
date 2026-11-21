@@ -1,0 +1,18 @@
+{
+  "id": 346939871,
+  "name": "GongYiLiao/theme-anchor",
+  "description": "Apply a custom theme to current Emacs buffer only",
+  "url": "https://github.com/GongYiLiao/theme-anchor",
+  "stars": 10,
+  "updated": "2026-02-18T22:13:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "theme-anchor",
+    "fetcher": "github",
+    "repo": "GongYiLiao/theme-anchor"
+  }
+}

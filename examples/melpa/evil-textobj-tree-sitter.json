@@ -1,0 +1,19 @@
+{
+  "id": 393126640,
+  "name": "meain/evil-textobj-tree-sitter",
+  "description": "Tree-sitter powered textobjects for evil mode in Emacs",
+  "url": "https://github.com/meain/evil-textobj-tree-sitter",
+  "stars": 230,
+  "updated": "2026-11-02T10:30:23Z",
+  "archived": false,
+  "topics": ["emacs", "evil", "tree-sitter", "vim-textobject"],
+  "license": "Apache-2.0",
+  "language": "Tree-sitter Query",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-textobj-tree-sitter",
+    "fetcher": "github",
+    "repo": "meain/evil-textobj-tree-sitter",
+    "files": "(:defaults \"queries\" \"treesit-queries\")"
+  }
+}

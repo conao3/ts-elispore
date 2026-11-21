@@ -1,0 +1,18 @@
+{
+  "id": 1116829481,
+  "name": "ma0001/mac-ime",
+  "description": "An Emacs module that hooks key events to control IME enable/disable",
+  "url": "https://github.com/ma0001/mac-ime",
+  "stars": 8,
+  "updated": "2026-10-31T03:38:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mac-ime",
+    "fetcher": "github",
+    "repo": "ma0001/mac-ime"
+  }
+}

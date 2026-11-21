@@ -1,0 +1,19 @@
+{
+  "id": 483405504,
+  "name": "boalang/syntax-highlight",
+  "description": "Collection of files to support syntax highlighting Boa source files in various editors.",
+  "url": "https://github.com/boalang/syntax-highlight",
+  "stars": 0,
+  "updated": "2023-08-13T20:36:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "boa-ide",
+    "fetcher": "github",
+    "repo": "boalang/syntax-highlight",
+    "files": "(\"boa-ide-sc.el\" \"boa-ide.el\" \"boa-ide-study-config.el\")"
+  }
+}

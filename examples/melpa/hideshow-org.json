@@ -1,0 +1,18 @@
+{
+  "id": 163571,
+  "name": "shanecelis/hideshow-org",
+  "description": "Provides org-mode like hide and show for hideshow.el",
+  "url": "https://github.com/shanecelis/hideshow-org",
+  "stars": 75,
+  "updated": "2018-02-12T08:08:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hideshow-org",
+    "fetcher": "github",
+    "repo": "shanecelis/hideshow-org"
+  }
+}

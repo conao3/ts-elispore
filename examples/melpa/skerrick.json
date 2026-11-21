@@ -1,0 +1,31 @@
+{
+  "id": 443252378,
+  "name": "anonimitoraf/skerrick",
+  "description": "REPL-driven development for NodeJS",
+  "url": "https://github.com/anonimitoraf/skerrick",
+  "stars": 106,
+  "updated": "2026-03-26T10:56:53Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "interactive",
+    "interactive-development",
+    "javascript",
+    "js",
+    "lisp",
+    "node",
+    "nodejs",
+    "repl",
+    "repl-driven",
+    "repl-driven-development",
+    "vscode"
+  ],
+  "license": "GPL-3.0",
+  "language": "TypeScript",
+  "ownerType": "User",
+  "melpa": {
+    "name": "skerrick",
+    "fetcher": "github",
+    "repo": "anonimitoraf/skerrick"
+  }
+}

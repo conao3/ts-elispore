@@ -1,0 +1,18 @@
+{
+  "id": 978880232,
+  "name": "gynamics/koishi-theme.el",
+  "description": "The Emacs theme in your subconsciousness!",
+  "url": "https://github.com/gynamics/koishi-theme.el",
+  "stars": 17,
+  "updated": "2026-08-10T13:39:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "koishi-theme",
+    "fetcher": "github",
+    "repo": "gynamics/koishi-theme.el"
+  }
+}

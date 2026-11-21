@@ -1,0 +1,18 @@
+{
+  "id": 366885752,
+  "name": "MetroWind/notink-theme",
+  "description": "A grey-scale Emacs theme inspired by e-ink displays",
+  "url": "https://github.com/MetroWind/notink-theme",
+  "stars": 26,
+  "updated": "2024-06-25T03:26:42Z",
+  "archived": false,
+  "topics": ["color-scheme", "customization", "emacs", "theme"],
+  "license": "WTFPL",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "notink-theme",
+    "fetcher": "github",
+    "repo": "MetroWind/notink-theme"
+  }
+}

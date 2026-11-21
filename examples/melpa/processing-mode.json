@@ -1,0 +1,19 @@
+{
+  "id": 6760384,
+  "name": "ptrv/processing2-emacs",
+  "description": "Processing 2 major-mode for Emacs",
+  "url": "https://github.com/ptrv/processing2-emacs",
+  "stars": 59,
+  "updated": "2018-01-16T11:47:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "processing-mode",
+    "fetcher": "github",
+    "repo": "ptrv/processing2-emacs",
+    "files": "(\"processing-mode.el\")"
+  }
+}

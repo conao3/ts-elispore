@@ -1,0 +1,18 @@
+{
+  "id": 793332,
+  "name": "tlh/workgroups.el",
+  "description": "workgroups for windows -- sexy window management for emacs",
+  "url": "https://github.com/tlh/workgroups.el",
+  "stars": 243,
+  "updated": "2015-09-05T10:28:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "workgroups",
+    "fetcher": "github",
+    "repo": "tlh/workgroups.el"
+  }
+}

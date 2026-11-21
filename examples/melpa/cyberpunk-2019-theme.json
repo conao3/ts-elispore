@@ -1,0 +1,18 @@
+{
+  "id": 171669811,
+  "name": "the-frey/cyberpunk-2019",
+  "description": "The cyberpunk theme emacs needs, but maybe not the one it deserves...",
+  "url": "https://github.com/the-frey/cyberpunk-2019",
+  "stars": 77,
+  "updated": "2019-10-08T11:34:00Z",
+  "archived": false,
+  "topics": ["cyberpunk", "emacs", "iterm", "theme"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cyberpunk-2019-theme",
+    "fetcher": "github",
+    "repo": "the-frey/cyberpunk-2019"
+  }
+}

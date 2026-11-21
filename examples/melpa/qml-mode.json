@@ -1,0 +1,18 @@
+{
+  "id": 5808787,
+  "name": "coldnew/qml-mode",
+  "description": "Qt Declarative UI (QML) mode for Emacs",
+  "url": "https://github.com/coldnew/qml-mode",
+  "stars": 17,
+  "updated": "2016-11-02T02:42:51Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "major-mode", "qml"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "qml-mode",
+    "fetcher": "github",
+    "repo": "coldnew/qml-mode"
+  }
+}

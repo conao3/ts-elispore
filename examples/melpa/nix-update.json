@@ -1,0 +1,18 @@
+{
+  "id": 119884755,
+  "name": "jwiegley/nix-update-el",
+  "description": "An Emacs command for updating fetch declarations in place",
+  "url": "https://github.com/jwiegley/nix-update-el",
+  "stars": 84,
+  "updated": "2025-08-17T15:56:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nix-update",
+    "fetcher": "github",
+    "repo": "jwiegley/nix-update-el"
+  }
+}

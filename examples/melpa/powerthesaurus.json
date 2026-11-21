@@ -1,0 +1,18 @@
+{
+  "id": 131590465,
+  "name": "SavchenkoValeriy/emacs-powerthesaurus",
+  "description": "Powerthesaurus integration for Emacs",
+  "url": "https://github.com/SavchenkoValeriy/emacs-powerthesaurus",
+  "stars": 277,
+  "updated": "2023-04-27T15:40:09Z",
+  "archived": false,
+  "topics": ["convenience", "emacs", "powerthesaurus", "writing"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "powerthesaurus",
+    "fetcher": "github",
+    "repo": "SavchenkoValeriy/emacs-powerthesaurus"
+  }
+}

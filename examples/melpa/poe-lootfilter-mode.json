@@ -1,0 +1,18 @@
+{
+  "id": 177710933,
+  "name": "jdodds/poe-lootfilter-mode",
+  "description": "Emacs major mode for Path of Exile loot filters.",
+  "url": "https://github.com/jdodds/poe-lootfilter-mode",
+  "stars": 1,
+  "updated": "2019-03-30T11:22:17Z",
+  "archived": false,
+  "topics": ["emacs-mode", "lootfilter", "pathofexile"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "poe-lootfilter-mode",
+    "fetcher": "github",
+    "repo": "jdodds/poe-lootfilter-mode"
+  }
+}

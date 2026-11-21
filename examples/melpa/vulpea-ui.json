@@ -1,0 +1,27 @@
+{
+  "id": 1111597076,
+  "name": "d12frosted/vulpea-ui",
+  "description": "A widget-based sidebar for Emacs that displays contextual information (stats, outline, backlinks, links) for vulpea notes",
+  "url": "https://github.com/d12frosted/vulpea-ui",
+  "stars": 38,
+  "updated": "2026-11-17T09:11:49Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-lisp",
+    "note-taking",
+    "org-mode",
+    "personal-knowledge-management",
+    "pkm",
+    "productivity",
+    "vulpea"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vulpea-ui",
+    "fetcher": "github",
+    "repo": "d12frosted/vulpea-ui"
+  }
+}

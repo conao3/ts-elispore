@@ -1,0 +1,19 @@
+{
+  "id": 906098270,
+  "name": "minad/dicom",
+  "description": "dicom.el - DICOM viewer",
+  "url": "https://github.com/minad/dicom",
+  "stars": 34,
+  "updated": "2026-08-21T12:14:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dicom",
+    "fetcher": "github",
+    "repo": "minad/dicom",
+    "files": "(:defaults \"*.sh\")"
+  }
+}

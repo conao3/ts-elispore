@@ -1,0 +1,19 @@
+{
+  "id": 2238443,
+  "name": "TeMPOraL/nyan-mode",
+  "description": "Nyan Cat for Emacs! Nyanyanyanyanyanyanyanyanyan!",
+  "url": "https://github.com/TeMPOraL/nyan-mode",
+  "stars": 847,
+  "updated": "2023-12-05T10:29:23Z",
+  "archived": false,
+  "topics": ["cat", "emacs", "emacs-lisp", "emacs-mode", "modeline", "nyan"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nyan-mode",
+    "fetcher": "github",
+    "repo": "TeMPOraL/nyan-mode",
+    "files": "(\"nyan-mode.el\" \"img\" \"mus\")"
+  }
+}

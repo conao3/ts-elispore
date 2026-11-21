@@ -1,0 +1,18 @@
+{
+  "id": 127020222,
+  "name": "xuchunyang/github-stars.el",
+  "description": "An Emacs Package for browsing your Github Stars",
+  "url": "https://github.com/xuchunyang/github-stars.el",
+  "stars": 22,
+  "updated": "2019-05-20T18:10:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "github-stars",
+    "fetcher": "github",
+    "repo": "xuchunyang/github-stars.el"
+  }
+}

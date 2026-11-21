@@ -1,0 +1,18 @@
+{
+  "id": 20191743,
+  "name": "randomphrase/company-c-headers",
+  "description": "Auto-completion for C/C++ headers using Company",
+  "url": "https://github.com/randomphrase/company-c-headers",
+  "stars": 75,
+  "updated": "2026-05-11T11:17:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "company-c-headers",
+    "fetcher": "github",
+    "repo": "randomphrase/company-c-headers"
+  }
+}

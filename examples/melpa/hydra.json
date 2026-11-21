@@ -1,0 +1,19 @@
+{
+  "id": 29530717,
+  "name": "abo-abo/hydra",
+  "description": "make Emacs bindings that stick around",
+  "url": "https://github.com/abo-abo/hydra",
+  "stars": 1950,
+  "updated": "2025-03-16T12:55:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "hydra",
+    "fetcher": "github",
+    "repo": "abo-abo/hydra",
+    "files": "(:defaults (:exclude \"lv.el\"))"
+  }
+}

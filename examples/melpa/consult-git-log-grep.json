@@ -1,0 +1,18 @@
+{
+  "id": 565193746,
+  "name": "ghosty141/consult-git-log-grep",
+  "description": "Emacs consult interface to git log --grep",
+  "url": "https://github.com/ghosty141/consult-git-log-grep",
+  "stars": 19,
+  "updated": "2025-03-17T19:16:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "consult-git-log-grep",
+    "fetcher": "github",
+    "repo": "ghosty141/consult-git-log-grep"
+  }
+}

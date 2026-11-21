@@ -1,0 +1,19 @@
+{
+  "id": 922115481,
+  "name": "konrad1977/flyover",
+  "description": "A beautiful inline overlay for Emacs (Flycheck | Flymake)",
+  "url": "https://github.com/konrad1977/flyover",
+  "stars": 359,
+  "updated": "2026-11-10T10:38:30Z",
+  "archived": false,
+  "topics": ["emacs", "error-reporting", "flycheck", "flymake"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flyover",
+    "fetcher": "github",
+    "repo": "konrad1977/flyover",
+    "files": "(\"flyover.el\")"
+  }
+}

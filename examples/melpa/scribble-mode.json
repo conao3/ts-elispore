@@ -1,0 +1,18 @@
+{
+  "id": 23413319,
+  "name": "emacs-pe/scribble-mode",
+  "description": "",
+  "url": "https://github.com/emacs-pe/scribble-mode",
+  "stars": 6,
+  "updated": "2019-09-12T02:00:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "scribble-mode",
+    "fetcher": "github",
+    "repo": "emacs-pe/scribble-mode"
+  }
+}

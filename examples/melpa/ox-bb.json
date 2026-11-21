@@ -1,0 +1,18 @@
+{
+  "id": 227686270,
+  "name": "mmitch/ox-bb",
+  "description": "BBCode export for Org",
+  "url": "https://github.com/mmitch/ox-bb",
+  "stars": 6,
+  "updated": "2025-03-17T21:31:44Z",
+  "archived": false,
+  "topics": ["bbcode", "export", "orgmode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ox-bb",
+    "fetcher": "github",
+    "repo": "mmitch/ox-bb"
+  }
+}

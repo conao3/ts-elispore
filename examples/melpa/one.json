@@ -1,0 +1,18 @@
+{
+  "id": 567687939,
+  "name": "tonyaldon/one.el",
+  "description": "one.el a simple Static Site Generator for Emacs Lisp programmers and org-mode users.",
+  "url": "https://github.com/tonyaldon/one.el",
+  "stars": 61,
+  "updated": "2025-11-04T04:02:23Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "org-mode", "static-site-generator"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "one",
+    "fetcher": "github",
+    "repo": "tonyaldon/one.el"
+  }
+}

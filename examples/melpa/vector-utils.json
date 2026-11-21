@@ -1,0 +1,18 @@
+{
+  "id": 6230560,
+  "name": "rolandwalker/vector-utils",
+  "description": "Vector-manipulation utility functions for Emacs",
+  "url": "https://github.com/rolandwalker/vector-utils",
+  "stars": 2,
+  "updated": "2014-08-04T19:23:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vector-utils",
+    "fetcher": "github",
+    "repo": "rolandwalker/vector-utils"
+  }
+}

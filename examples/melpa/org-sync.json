@@ -1,0 +1,18 @@
+{
+  "id": 31507163,
+  "name": "arbox/org-sync",
+  "description": "Issue Tracking Synchronization for Emacs Org-mode.",
+  "url": "https://github.com/arbox/org-sync",
+  "stars": 158,
+  "updated": "2019-12-26T17:23:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-sync",
+    "fetcher": "github",
+    "repo": "arbox/org-sync"
+  }
+}

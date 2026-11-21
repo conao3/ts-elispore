@@ -1,0 +1,18 @@
+{
+  "id": 41230256,
+  "name": "danlamanna/helm-ctest",
+  "description": "Run CTest using a helm interface",
+  "url": "https://github.com/danlamanna/helm-ctest",
+  "stars": 3,
+  "updated": "2022-11-02T21:52:14Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-ctest",
+    "fetcher": "github",
+    "repo": "danlamanna/helm-ctest"
+  }
+}

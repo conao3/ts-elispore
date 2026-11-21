@@ -1,0 +1,18 @@
+{
+  "id": 486158,
+  "name": "alk/elisp-regex-dsl",
+  "description": "Readable regular expressions DSL for Emacs Lisp",
+  "url": "https://github.com/alk/elisp-regex-dsl",
+  "stars": 31,
+  "updated": "2022-01-25T05:06:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "regex-dsl",
+    "fetcher": "github",
+    "repo": "alk/elisp-regex-dsl"
+  }
+}

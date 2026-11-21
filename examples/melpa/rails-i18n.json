@@ -1,0 +1,18 @@
+{
+  "id": 415434131,
+  "name": "otavioschwanck/rails-i18n.el",
+  "description": "Seach and insert i18n on ruby code through emacs",
+  "url": "https://github.com/otavioschwanck/rails-i18n.el",
+  "stars": 15,
+  "updated": "2022-01-26T16:43:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rails-i18n",
+    "fetcher": "github",
+    "repo": "otavioschwanck/rails-i18n.el"
+  }
+}

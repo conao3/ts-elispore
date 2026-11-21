@@ -1,0 +1,18 @@
+{
+  "id": 701617362,
+  "name": "mgmarlow/flymake-fennel",
+  "description": "Flymake backend for the Fennel programming language",
+  "url": "https://github.com/mgmarlow/flymake-fennel",
+  "stars": 0,
+  "updated": "2024-03-07T23:39:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-fennel",
+    "fetcher": "github",
+    "repo": "mgmarlow/flymake-fennel"
+  }
+}

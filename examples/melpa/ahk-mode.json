@@ -1,0 +1,18 @@
+{
+  "id": 29680967,
+  "name": "punassuming/ahk-mode",
+  "description": "AutotHotkey major mode for emacs",
+  "url": "https://github.com/punassuming/ahk-mode",
+  "stars": 40,
+  "updated": "2025-12-23T01:55:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ahk-mode",
+    "fetcher": "github",
+    "repo": "punassuming/ahk-mode"
+  }
+}

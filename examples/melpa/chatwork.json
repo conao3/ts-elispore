@@ -1,0 +1,18 @@
+{
+  "id": 27232074,
+  "name": "ataka/chatwork",
+  "description": "chatwork client for Emacs",
+  "url": "https://github.com/ataka/chatwork",
+  "stars": 8,
+  "updated": "2024-09-10T15:32:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "chatwork",
+    "fetcher": "github",
+    "repo": "ataka/chatwork"
+  }
+}

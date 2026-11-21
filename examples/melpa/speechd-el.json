@@ -1,0 +1,19 @@
+{
+  "id": 113431277,
+  "name": "brailcom/speechd-el",
+  "description": "Emacs speech and Braille output interface",
+  "url": "https://github.com/brailcom/speechd-el",
+  "stars": 18,
+  "updated": "2026-10-03T20:01:14Z",
+  "archived": false,
+  "topics": ["braille", "emacs", "emacs-lisp", "text-to-speech", "tts", "tts-api"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "speechd-el",
+    "fetcher": "github",
+    "repo": "brailcom/speechd-el",
+    "files": "(:defaults (:exclude \"*.texi\"))"
+  }
+}

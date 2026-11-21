@@ -1,0 +1,18 @@
+{
+  "id": 730417035,
+  "name": "Anoncheg1/pinyin-isearch",
+  "description": "Emacs package with minor mode that allow to search with tonelss pinyin in a Chinese text.",
+  "url": "https://github.com/Anoncheg1/pinyin-isearch",
+  "stars": 5,
+  "updated": "2026-09-10T15:11:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pinyin-isearch",
+    "fetcher": "github",
+    "repo": "Anoncheg1/pinyin-isearch"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 454237011,
+  "name": "non/uxntal-mode",
+  "description": "emacs major mode for the uxntal assembly language",
+  "url": "https://github.com/non/uxntal-mode",
+  "stars": 24,
+  "updated": "2024-03-27T01:56:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "uxntal-mode",
+    "fetcher": "github",
+    "repo": "non/uxntal-mode"
+  }
+}

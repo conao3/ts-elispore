@@ -1,0 +1,18 @@
+{
+  "id": 570363107,
+  "name": "berquist/h5dump-mode",
+  "description": "Emacs major mode for navigating h5dump output",
+  "url": "https://github.com/berquist/h5dump-mode",
+  "stars": 1,
+  "updated": "2022-11-28T19:35:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "h5dump-mode",
+    "fetcher": "github",
+    "repo": "berquist/h5dump-mode"
+  }
+}

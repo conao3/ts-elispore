@@ -1,0 +1,18 @@
+{
+  "id": 1048040108,
+  "name": "WillForan/emacs-git-bug",
+  "description": "",
+  "url": "https://github.com/WillForan/emacs-git-bug",
+  "stars": 3,
+  "updated": "2025-12-24T21:16:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-bug",
+    "fetcher": "github",
+    "repo": "WillForan/emacs-git-bug"
+  }
+}

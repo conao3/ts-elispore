@@ -1,0 +1,19 @@
+{
+  "id": 228267985,
+  "name": "emacs-eldev/eldev",
+  "description": "Elisp development tool",
+  "url": "https://github.com/emacs-eldev/eldev",
+  "stars": 263,
+  "updated": "2026-11-15T23:05:42Z",
+  "archived": false,
+  "topics": ["build-tool", "continuous-integration", "developer-tools", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "eldev",
+    "fetcher": "github",
+    "repo": "emacs-eldev/eldev",
+    "files": "(:defaults\n         (\"bin\" \"bin/*\")\n         (:exclude \"bin/*.in\" \"bin/*.part\"))"
+  }
+}

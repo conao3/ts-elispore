@@ -1,0 +1,18 @@
+{
+  "id": 113581908,
+  "name": "takaxp/helm-selected",
+  "description": "A helm extension for selected.el",
+  "url": "https://github.com/takaxp/helm-selected",
+  "stars": 4,
+  "updated": "2019-05-31T06:48:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-selected",
+    "fetcher": "github",
+    "repo": "takaxp/helm-selected"
+  }
+}

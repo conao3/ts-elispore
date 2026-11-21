@@ -1,0 +1,18 @@
+{
+  "id": 43413924,
+  "name": "emacs-jp/helm-c-yasnippet",
+  "description": "Helm source for yasnippet",
+  "url": "https://github.com/emacs-jp/helm-c-yasnippet",
+  "stars": 29,
+  "updated": "2023-09-11T05:27:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-c-yasnippet",
+    "fetcher": "github",
+    "repo": "emacs-jp/helm-c-yasnippet"
+  }
+}

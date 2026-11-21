@@ -1,0 +1,18 @@
+{
+  "id": 99634751,
+  "name": "belak-archive/emacs-grayscale-theme",
+  "description": "",
+  "url": "https://github.com/belak-archive/emacs-grayscale-theme",
+  "stars": 41,
+  "updated": "2023-04-24T19:39:29Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "grayscale-theme",
+    "fetcher": "github",
+    "repo": "belak-archive/emacs-grayscale-theme"
+  }
+}

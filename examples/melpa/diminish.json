@@ -1,0 +1,18 @@
+{
+  "id": 48047359,
+  "name": "myrjola/diminish.el",
+  "description": "Diminished modes are minor modes with no modeline display",
+  "url": "https://github.com/myrjola/diminish.el",
+  "stars": 189,
+  "updated": "2026-09-04T18:21:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "diminish",
+    "fetcher": "github",
+    "repo": "myrjola/diminish.el"
+  }
+}

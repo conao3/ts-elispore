@@ -1,0 +1,25 @@
+{
+  "id": 105956131,
+  "name": "cyrus-and/zoom",
+  "description": "Fixed and automatic balanced window layout for Emacs",
+  "url": "https://github.com/cyrus-and/zoom",
+  "stars": 395,
+  "updated": "2026-05-09T09:09:04Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-customizations",
+    "emacs-lisp",
+    "emacs-mode",
+    "golden-ratio",
+    "window-management"
+  ],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zoom",
+    "fetcher": "github",
+    "repo": "cyrus-and/zoom"
+  }
+}

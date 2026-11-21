@@ -1,0 +1,18 @@
+{
+  "id": 145831212,
+  "name": "kisaragi-hiu/cangjie.el",
+  "description": "Lookup Cangjie encoding of a Han character",
+  "url": "https://github.com/kisaragi-hiu/cangjie.el",
+  "stars": 1,
+  "updated": "2023-02-19T11:51:00Z",
+  "archived": false,
+  "topics": ["cangjie", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "cangjie",
+    "fetcher": "github",
+    "repo": "kisaragi-hiu/cangjie.el"
+  }
+}

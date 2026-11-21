@@ -1,0 +1,19 @@
+{
+  "id": 60546982,
+  "name": "zonuexe/emacs-copyit",
+  "description": "Copy it, yank anything!",
+  "url": "https://github.com/zonuexe/emacs-copyit",
+  "stars": 18,
+  "updated": "2024-10-30T05:43:44Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "copyit-pandoc",
+    "fetcher": "github",
+    "repo": "zonuexe/emacs-copyit",
+    "files": "(\"copyit-pandoc.el\")"
+  }
+}

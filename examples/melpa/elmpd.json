@@ -1,0 +1,18 @@
+{
+  "id": 286139871,
+  "name": "sp1ff/elmpd",
+  "description": "A tight, ergonomic, async MPD client library in Emacs Lisp",
+  "url": "https://github.com/sp1ff/elmpd",
+  "stars": 9,
+  "updated": "2026-06-19T23:43:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elmpd",
+    "fetcher": "github",
+    "repo": "sp1ff/elmpd"
+  }
+}

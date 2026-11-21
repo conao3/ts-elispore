@@ -1,0 +1,18 @@
+{
+  "id": 51997690,
+  "name": "hlissner/emacs-pug-mode",
+  "description": "Pug support for Emacs, based on slim-mode.",
+  "url": "https://github.com/hlissner/emacs-pug-mode",
+  "stars": 44,
+  "updated": "2021-11-14T16:46:14Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode", "melpa", "pug"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pug-mode",
+    "fetcher": "github",
+    "repo": "hlissner/emacs-pug-mode"
+  }
+}

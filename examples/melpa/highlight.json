@@ -1,0 +1,19 @@
+{
+  "id": 209637556,
+  "name": "emacsmirror/highlight",
+  "description": "Highlighting commands",
+  "url": "https://github.com/emacsmirror/highlight",
+  "stars": 4,
+  "updated": "2026-07-25T17:08:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "highlight",
+    "fetcher": "github",
+    "repo": "emacsmirror/highlight",
+    "branch": "melpa"
+  }
+}

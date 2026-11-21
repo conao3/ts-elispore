@@ -1,0 +1,18 @@
+{
+  "id": 94381020,
+  "name": "jstaursky/weyland-yutani-theme",
+  "description": "An emacs theme based on the Alien movie franchise ",
+  "url": "https://github.com/jstaursky/weyland-yutani-theme",
+  "stars": 27,
+  "updated": "2021-08-02T22:52:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "weyland-yutani-theme",
+    "fetcher": "github",
+    "repo": "jstaursky/weyland-yutani-theme"
+  }
+}

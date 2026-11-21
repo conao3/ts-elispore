@@ -1,0 +1,19 @@
+{
+  "id": 287396135,
+  "name": "lordpretzel/xwidgets-reuse",
+  "description": "",
+  "url": "https://github.com/lordpretzel/xwidgets-reuse",
+  "stars": 9,
+  "updated": "2024-03-31T16:44:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xwidgets-reuse",
+    "fetcher": "github",
+    "repo": "lordpretzel/xwidgets-reuse",
+    "files": "(\"xwidgets-reuse.el\")"
+  }
+}

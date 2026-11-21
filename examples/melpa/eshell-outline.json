@@ -1,0 +1,18 @@
+{
+  "id": 771775070,
+  "name": "emacsattic/eshell-outline",
+  "description": "",
+  "url": "https://github.com/emacsattic/eshell-outline",
+  "stars": 1,
+  "updated": "2024-03-13T23:33:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "eshell-outline",
+    "fetcher": "github",
+    "repo": "emacsattic/eshell-outline"
+  }
+}

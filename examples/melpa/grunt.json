@@ -1,0 +1,18 @@
+{
+  "id": 19877767,
+  "name": "gempesaw/grunt.el",
+  "description": "Some glue to stick Emacs and Gruntfiles together",
+  "url": "https://github.com/gempesaw/grunt.el",
+  "stars": 19,
+  "updated": "2016-03-16T15:30:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "grunt",
+    "fetcher": "github",
+    "repo": "gempesaw/grunt.el"
+  }
+}

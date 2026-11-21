@@ -1,0 +1,18 @@
+{
+  "id": 86934008,
+  "name": "Wilfred/helpful",
+  "description": "A better Emacs *help* buffer",
+  "url": "https://github.com/Wilfred/helpful",
+  "stars": 1308,
+  "updated": "2025-04-08T03:34:21Z",
+  "archived": false,
+  "topics": ["emacs", "help"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helpful",
+    "fetcher": "github",
+    "repo": "Wilfred/helpful"
+  }
+}

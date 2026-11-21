@@ -1,0 +1,18 @@
+{
+  "id": 695262273,
+  "name": "rnadler/elfeed-curate",
+  "description": "",
+  "url": "https://github.com/rnadler/elfeed-curate",
+  "stars": 28,
+  "updated": "2026-03-22T21:40:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elfeed-curate",
+    "fetcher": "github",
+    "repo": "rnadler/elfeed-curate"
+  }
+}

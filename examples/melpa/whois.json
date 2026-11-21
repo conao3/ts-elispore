@@ -1,0 +1,18 @@
+{
+  "id": 184083916,
+  "name": "lassik/emacs-whois",
+  "description": "Extends the whois functionality of Emacs",
+  "url": "https://github.com/lassik/emacs-whois",
+  "stars": 6,
+  "updated": "2024-03-15T19:30:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "whois",
+    "fetcher": "github",
+    "repo": "lassik/emacs-whois"
+  }
+}

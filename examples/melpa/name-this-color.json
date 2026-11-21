@@ -1,0 +1,18 @@
+{
+  "id": 44044470,
+  "name": "knl/name-this-color.el",
+  "description": "Match RGB codes (color codes, HTML colors) to names easily and precisely.",
+  "url": "https://github.com/knl/name-this-color.el",
+  "stars": 3,
+  "updated": "2015-10-15T20:22:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "name-this-color",
+    "fetcher": "github",
+    "repo": "knl/name-this-color.el"
+  }
+}

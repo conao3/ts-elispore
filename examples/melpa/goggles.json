@@ -1,0 +1,18 @@
+{
+  "id": 314693425,
+  "name": "minad/goggles",
+  "description": "goggles.el - Pulse modified region",
+  "url": "https://github.com/minad/goggles",
+  "stars": 130,
+  "updated": "2026-06-28T13:32:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "goggles",
+    "fetcher": "github",
+    "repo": "minad/goggles"
+  }
+}

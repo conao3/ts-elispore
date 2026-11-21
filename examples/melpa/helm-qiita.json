@@ -1,0 +1,18 @@
+{
+  "id": 57980612,
+  "name": "masutaka/emacs-helm-qiita",
+  "description": "Helm interface for Qiita",
+  "url": "https://github.com/masutaka/emacs-helm-qiita",
+  "stars": 10,
+  "updated": "2019-05-26T14:15:49Z",
+  "archived": false,
+  "topics": ["emacs-helm", "emacs-lisp", "qiita"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-qiita",
+    "fetcher": "github",
+    "repo": "masutaka/emacs-helm-qiita"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 75761341,
+  "name": "andreas-roehler/simple-paren",
+  "description": "Insert paired delimiters, wrap symbols in front maybe",
+  "url": "https://github.com/andreas-roehler/simple-paren",
+  "stars": 10,
+  "updated": "2023-08-10T07:30:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simple-paren",
+    "fetcher": "github",
+    "repo": "andreas-roehler/simple-paren"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 8241072,
+  "name": "dgutov/espresso-theme",
+  "description": "color-theme based on the default theme for Espresso",
+  "url": "https://github.com/dgutov/espresso-theme",
+  "stars": 20,
+  "updated": "2021-05-05T19:57:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "espresso-theme",
+    "fetcher": "github",
+    "repo": "dgutov/espresso-theme"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 161948046,
+  "name": "erickgnavar/linkode.el",
+  "description": "Create linkode.org snippets using emacs",
+  "url": "https://github.com/erickgnavar/linkode.el",
+  "stars": 5,
+  "updated": "2026-06-05T03:53:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "linkode",
+    "fetcher": "github",
+    "repo": "erickgnavar/linkode.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 476873467,
+  "name": "nagy/tokei.el",
+  "description": "Display codebase statistics in GNU Emacs 📈",
+  "url": "https://github.com/nagy/tokei.el",
+  "stars": 10,
+  "updated": "2025-06-21T15:44:47Z",
+  "archived": false,
+  "topics": ["emacs", "tokei"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tokei",
+    "fetcher": "github",
+    "repo": "nagy/tokei.el"
+  }
+}

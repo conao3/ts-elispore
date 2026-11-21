@@ -1,0 +1,18 @@
+{
+  "id": 28764085,
+  "name": "daniellawrence/flymake-vala",
+  "description": "Emacs flymake handler for vala-mode",
+  "url": "https://github.com/daniellawrence/flymake-vala",
+  "stars": 0,
+  "updated": "2015-03-26T05:31:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flymake-vala",
+    "fetcher": "github",
+    "repo": "daniellawrence/flymake-vala"
+  }
+}

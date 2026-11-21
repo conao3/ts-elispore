@@ -1,0 +1,18 @@
+{
+  "id": 8319529,
+  "name": "moljac024/twig-mode",
+  "description": "Twig support for emacs",
+  "url": "https://github.com/moljac024/twig-mode",
+  "stars": 5,
+  "updated": "2016-03-29T09:48:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "twig-mode",
+    "fetcher": "github",
+    "repo": "moljac024/twig-mode"
+  }
+}

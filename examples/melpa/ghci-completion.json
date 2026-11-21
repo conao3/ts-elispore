@@ -1,0 +1,18 @@
+{
+  "id": 3292785,
+  "name": "manzyuk/ghci-completion",
+  "description": "Completion for GHCi commands in inferior-haskell buffers",
+  "url": "https://github.com/manzyuk/ghci-completion",
+  "stars": 6,
+  "updated": "2015-11-25T12:57:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ghci-completion",
+    "fetcher": "github",
+    "repo": "manzyuk/ghci-completion"
+  }
+}

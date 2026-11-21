@@ -1,0 +1,18 @@
+{
+  "id": 11726838,
+  "name": "porterjamesj/virtualenvwrapper.el",
+  "description": "virtualenv tool for emacs",
+  "url": "https://github.com/porterjamesj/virtualenvwrapper.el",
+  "stars": 223,
+  "updated": "2021-04-14T14:06:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "virtualenvwrapper",
+    "fetcher": "github",
+    "repo": "porterjamesj/virtualenvwrapper.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 27496578,
+  "name": "clojure-emacs/inf-clojure",
+  "description": "Basic interaction with a Clojure subprocess from Emacs",
+  "url": "https://github.com/clojure-emacs/inf-clojure",
+  "stars": 260,
+  "updated": "2026-09-15T13:32:40Z",
+  "archived": false,
+  "topics": ["clojure", "clojure-repl", "clojurescript", "emacs", "repl", "socket-repl"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "inf-clojure",
+    "fetcher": "github",
+    "repo": "clojure-emacs/inf-clojure"
+  }
+}

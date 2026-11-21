@@ -1,0 +1,18 @@
+{
+  "id": 102199078,
+  "name": "brantou/ob-hy",
+  "description": "Org-Babel support for evaluating hylang code.",
+  "url": "https://github.com/brantou/ob-hy",
+  "stars": 26,
+  "updated": "2021-01-18T13:29:38Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "hylang", "org-babel"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-hy",
+    "fetcher": "github",
+    "repo": "brantou/ob-hy"
+  }
+}

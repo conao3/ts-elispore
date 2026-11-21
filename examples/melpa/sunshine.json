@@ -1,0 +1,18 @@
+{
+  "id": 29824018,
+  "name": "aaronbieber/sunshine.el",
+  "description": "An Emacs package for displaying the forecast from OpenWeatherMap.",
+  "url": "https://github.com/aaronbieber/sunshine.el",
+  "stars": 91,
+  "updated": "2020-03-06T17:11:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sunshine",
+    "fetcher": "github",
+    "repo": "aaronbieber/sunshine.el"
+  }
+}

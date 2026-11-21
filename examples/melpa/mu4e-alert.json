@@ -1,0 +1,18 @@
+{
+  "id": 396795766,
+  "name": "xzz53/mu4e-alert",
+  "description": "Desktop notifications and modeline display for mu4e",
+  "url": "https://github.com/xzz53/mu4e-alert",
+  "stars": 14,
+  "updated": "2025-10-22T21:30:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mu4e-alert",
+    "fetcher": "github",
+    "repo": "xzz53/mu4e-alert"
+  }
+}

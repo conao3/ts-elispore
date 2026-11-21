@@ -1,0 +1,18 @@
+{
+  "id": 107554975,
+  "name": "emacs-php/jetbrains.el",
+  "description": "Emacs-JetBrains IDE bridge",
+  "url": "https://github.com/emacs-php/jetbrains.el",
+  "stars": 15,
+  "updated": "2026-06-19T08:39:01Z",
+  "archived": false,
+  "topics": ["emacs", "jetbrains-ides"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "jetbrains",
+    "fetcher": "github",
+    "repo": "emacs-php/jetbrains.el"
+  }
+}

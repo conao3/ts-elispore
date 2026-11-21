@@ -1,0 +1,19 @@
+{
+  "id": 58999069,
+  "name": "xuchunyang/epm",
+  "description": "Emacs Package Manager",
+  "url": "https://github.com/xuchunyang/epm",
+  "stars": 43,
+  "updated": "2019-05-09T04:59:15Z",
+  "archived": false,
+  "topics": ["cli", "emacs", "emacs-lisp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "epm",
+    "fetcher": "github",
+    "repo": "xuchunyang/epm",
+    "files": "(:defaults \"epm\")"
+  }
+}

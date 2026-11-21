@@ -1,0 +1,18 @@
+{
+  "id": 33813719,
+  "name": "masutaka/emacs-helm-bundle-show",
+  "description": "Helm interface for bundle show",
+  "url": "https://github.com/masutaka/emacs-helm-bundle-show",
+  "stars": 9,
+  "updated": "2019-05-26T14:02:01Z",
+  "archived": false,
+  "topics": ["bundler", "emacs-helm", "emacs-lisp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-bundle-show",
+    "fetcher": "github",
+    "repo": "masutaka/emacs-helm-bundle-show"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 164097615,
+  "name": "zonuexe/region-convert.el",
+  "description": "Convert string in region by Lisp function",
+  "url": "https://github.com/zonuexe/region-convert.el",
+  "stars": 2,
+  "updated": "2021-05-19T16:56:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "region-convert",
+    "fetcher": "github",
+    "repo": "zonuexe/region-convert.el"
+  }
+}

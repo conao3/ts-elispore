@@ -1,0 +1,18 @@
+{
+  "id": 20034514,
+  "name": "linktohack/evil-space",
+  "description": "vim-space for evil-mode",
+  "url": "https://github.com/linktohack/evil-space",
+  "stars": 11,
+  "updated": "2015-12-08T12:29:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-space",
+    "fetcher": "github",
+    "repo": "linktohack/evil-space"
+  }
+}

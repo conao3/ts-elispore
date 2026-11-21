@@ -1,0 +1,18 @@
+{
+  "id": 69779747,
+  "name": "alphapapa/mosey.el",
+  "description": "Mosey around inside your Emacs buffer",
+  "url": "https://github.com/alphapapa/mosey.el",
+  "stars": 37,
+  "updated": "2023-02-24T22:14:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mosey",
+    "fetcher": "github",
+    "repo": "alphapapa/mosey.el"
+  }
+}

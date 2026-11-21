@@ -1,0 +1,18 @@
+{
+  "id": 2350746,
+  "name": "lewang/backup-walker",
+  "description": "Traverse versioned backups, showing incremental diffs.",
+  "url": "https://github.com/lewang/backup-walker",
+  "stars": 31,
+  "updated": "2021-07-04T10:02:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "backup-walker",
+    "fetcher": "github",
+    "repo": "lewang/backup-walker"
+  }
+}

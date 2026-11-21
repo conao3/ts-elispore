@@ -1,0 +1,18 @@
+{
+  "id": 435251588,
+  "name": "danirukun/siri-shortcuts.el",
+  "description": "A set of Emacs commands and functions for interacting with Siri Shortcuts.",
+  "url": "https://github.com/danirukun/siri-shortcuts.el",
+  "stars": 37,
+  "updated": "2021-12-29T18:34:28Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-package", "shortcuts", "siri-shortcuts"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "siri-shortcuts",
+    "fetcher": "github",
+    "repo": "danirukun/siri-shortcuts.el"
+  }
+}

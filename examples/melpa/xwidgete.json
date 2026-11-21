@@ -1,0 +1,18 @@
+{
+  "id": 63599689,
+  "name": "tuhdo/xwidgete",
+  "description": "Enhance usability for Xwidget browser in Emacs 25",
+  "url": "https://github.com/tuhdo/xwidgete",
+  "stars": 70,
+  "updated": "2017-11-18T21:17:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "xwidgete",
+    "fetcher": "github",
+    "repo": "tuhdo/xwidgete"
+  }
+}

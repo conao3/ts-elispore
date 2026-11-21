@@ -1,0 +1,18 @@
+{
+  "id": 32218994,
+  "name": "cpaulik/emacs-material-theme",
+  "description": "Color Theme for emacs based on material design colors",
+  "url": "https://github.com/cpaulik/emacs-material-theme",
+  "stars": 432,
+  "updated": "2021-09-04T12:26:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "material-theme",
+    "fetcher": "github",
+    "repo": "cpaulik/emacs-material-theme"
+  }
+}

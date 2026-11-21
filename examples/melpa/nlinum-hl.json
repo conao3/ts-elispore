@@ -1,0 +1,18 @@
+{
+  "id": 93211764,
+  "name": "hlissner/emacs-nlinum-hl",
+  "description": "Fix disappearing line numbers in nlinum",
+  "url": "https://github.com/hlissner/emacs-nlinum-hl",
+  "stars": 16,
+  "updated": "2021-11-12T12:42:01Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-packages", "melpa"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "nlinum-hl",
+    "fetcher": "github",
+    "repo": "hlissner/emacs-nlinum-hl"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": 1216180646,
+  "name": "Jamie-Cui/git-overleaf.el",
+  "description": "Project-level Overleaf integration for Emacs",
+  "url": "https://github.com/Jamie-Cui/git-overleaf.el",
+  "stars": 6,
+  "updated": "2026-09-06T16:58:45Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-config",
+    "emacs-package",
+    "firefox-cookies",
+    "git",
+    "melpa",
+    "overleaf",
+    "overleaf-sync"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-overleaf",
+    "fetcher": "github",
+    "repo": "Jamie-Cui/git-overleaf.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 374440294,
+  "name": "iyefrat/all-the-icons-completion",
+  "description": "Add icons to completion candidates in Emacs",
+  "url": "https://github.com/iyefrat/all-the-icons-completion",
+  "stars": 105,
+  "updated": "2024-07-23T05:13:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "all-the-icons-completion",
+    "fetcher": "github",
+    "repo": "iyefrat/all-the-icons-completion"
+  }
+}

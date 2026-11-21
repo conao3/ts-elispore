@@ -1,0 +1,18 @@
+{
+  "id": 5560340,
+  "name": "yuutayamada/stem",
+  "description": "stemming library for Emacs",
+  "url": "https://github.com/yuutayamada/stem",
+  "stars": 6,
+  "updated": "2013-11-02T11:21:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "stem",
+    "fetcher": "github",
+    "repo": "yuutayamada/stem"
+  }
+}

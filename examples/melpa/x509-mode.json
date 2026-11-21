@@ -1,0 +1,19 @@
+{
+  "id": 100845830,
+  "name": "jobbflykt/x509-mode",
+  "description": "View certificates and CRLs using OpenSSL in Emacs",
+  "url": "https://github.com/jobbflykt/x509-mode",
+  "stars": 32,
+  "updated": "2026-11-18T12:53:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "x509-mode",
+    "fetcher": "github",
+    "repo": "jobbflykt/x509-mode",
+    "files": "(:defaults \"*.txt\")"
+  }
+}

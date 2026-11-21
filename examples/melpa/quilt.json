@@ -1,0 +1,18 @@
+{
+  "id": 173638572,
+  "name": "jstranik/emacs-quilt",
+  "description": "Emacs epkg (3rd party)",
+  "url": "https://github.com/jstranik/emacs-quilt",
+  "stars": 0,
+  "updated": "2019-08-28T05:12:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "quilt",
+    "fetcher": "github",
+    "repo": "jstranik/emacs-quilt"
+  }
+}

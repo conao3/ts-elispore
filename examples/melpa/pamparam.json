@@ -1,0 +1,19 @@
+{
+  "id": 70265967,
+  "name": "abo-abo/pamparam",
+  "description": "Simple and fast flashcards for Emacs",
+  "url": "https://github.com/abo-abo/pamparam",
+  "stars": 238,
+  "updated": "2021-01-05T15:15:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pamparam",
+    "fetcher": "github",
+    "repo": "abo-abo/pamparam",
+    "files": "(\"pamparam.el\" \"doc\")"
+  }
+}

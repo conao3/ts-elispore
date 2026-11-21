@@ -1,0 +1,18 @@
+{
+  "id": 60557588,
+  "name": "zonuexe/pandoc.el",
+  "description": "Pandoc for Emacs",
+  "url": "https://github.com/zonuexe/pandoc.el",
+  "stars": 11,
+  "updated": "2016-11-28T11:57:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pandoc",
+    "fetcher": "github",
+    "repo": "zonuexe/pandoc.el"
+  }
+}

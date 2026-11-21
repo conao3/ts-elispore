@@ -1,0 +1,18 @@
+{
+  "id": 20608667,
+  "name": "marcwebbie/shoulda.el",
+  "description": "Run ruby shoulda tests from emacs",
+  "url": "https://github.com/marcwebbie/shoulda.el",
+  "stars": 3,
+  "updated": "2014-06-16T19:03:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shoulda",
+    "fetcher": "github",
+    "repo": "marcwebbie/shoulda.el"
+  }
+}

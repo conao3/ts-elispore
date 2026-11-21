@@ -1,0 +1,18 @@
+{
+  "id": 141480822,
+  "name": "fanatoly/magit-rbr",
+  "description": "",
+  "url": "https://github.com/fanatoly/magit-rbr",
+  "stars": 0,
+  "updated": "2018-10-09T20:16:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "magit-rbr",
+    "fetcher": "github",
+    "repo": "fanatoly/magit-rbr"
+  }
+}

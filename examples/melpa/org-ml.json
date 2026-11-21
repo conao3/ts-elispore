@@ -1,0 +1,18 @@
+{
+  "id": 226256653,
+  "name": "ndwarshuis/org-ml",
+  "description": "A functional library for org-mode",
+  "url": "https://github.com/ndwarshuis/org-ml",
+  "stars": 388,
+  "updated": "2026-11-08T16:30:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-ml",
+    "fetcher": "github",
+    "repo": "ndwarshuis/org-ml"
+  }
+}

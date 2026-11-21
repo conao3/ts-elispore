@@ -1,0 +1,19 @@
+{
+  "id": 247477469,
+  "name": "ymherklotz/emacs-zettelkasten",
+  "description": "Simple zettelkasten mode for emacs. Mirror of https://sr.ht/~ymherklotz/emacs-zettelkasten/",
+  "url": "https://github.com/ymherklotz/emacs-zettelkasten",
+  "stars": 60,
+  "updated": "2025-03-22T12:06:32Z",
+  "archived": false,
+  "topics": ["emacs", "note-taking"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zettelkasten",
+    "fetcher": "github",
+    "repo": "ymherklotz/emacs-zettelkasten",
+    "files": "(\"zettelkasten.el\")"
+  }
+}

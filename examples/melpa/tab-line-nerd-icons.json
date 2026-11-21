@@ -1,0 +1,18 @@
+{
+  "id": 763797292,
+  "name": "lucius-martius/tab-line-nerd-icons",
+  "description": "Emacs package that uses the nerd-icons package to apply appropriate icons to tab-line tabs",
+  "url": "https://github.com/lucius-martius/tab-line-nerd-icons",
+  "stars": 14,
+  "updated": "2025-02-08T11:03:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tab-line-nerd-icons",
+    "fetcher": "github",
+    "repo": "lucius-martius/tab-line-nerd-icons"
+  }
+}

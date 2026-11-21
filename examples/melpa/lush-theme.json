@@ -1,0 +1,18 @@
+{
+  "id": 24290396,
+  "name": "andre-richter/emacs-lush-theme",
+  "description": "A dark theme with lush colors for Emacs24",
+  "url": "https://github.com/andre-richter/emacs-lush-theme",
+  "stars": 28,
+  "updated": "2020-01-19T21:33:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "lush-theme",
+    "fetcher": "github",
+    "repo": "andre-richter/emacs-lush-theme"
+  }
+}

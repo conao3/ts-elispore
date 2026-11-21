@@ -1,0 +1,18 @@
+{
+  "id": 580473703,
+  "name": "clojure-emacs/clojure-ts-mode",
+  "description": "The next generation Clojure major mode for Emacs, powered by TreeSitter",
+  "url": "https://github.com/clojure-emacs/clojure-ts-mode",
+  "stars": 192,
+  "updated": "2026-11-07T10:02:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "clojure-ts-mode",
+    "fetcher": "github",
+    "repo": "clojure-emacs/clojure-ts-mode"
+  }
+}

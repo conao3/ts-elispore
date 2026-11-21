@@ -1,0 +1,18 @@
+{
+  "id": 820100410,
+  "name": "emacsomancer/equake",
+  "description": "A drop-down console written in Emacs Lisp, designed for eshell and terminal emulation.",
+  "url": "https://github.com/emacsomancer/equake",
+  "stars": 10,
+  "updated": "2026-01-02T02:26:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "equake",
+    "fetcher": "github",
+    "repo": "emacsomancer/equake"
+  }
+}

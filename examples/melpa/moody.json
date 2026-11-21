@@ -1,0 +1,18 @@
+{
+  "id": 120778697,
+  "name": "tarsius/moody",
+  "description": "Tabs and ribbons for the mode-line",
+  "url": "https://github.com/tarsius/moody",
+  "stars": 448,
+  "updated": "2026-10-01T15:57:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "moody",
+    "fetcher": "github",
+    "repo": "tarsius/moody"
+  }
+}

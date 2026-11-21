@@ -1,0 +1,19 @@
+{
+  "id": 5795806,
+  "name": "rdallasgray/project-persist",
+  "description": "An Emacs package to allow simple, extensible persistence of a list of projects.",
+  "url": "https://github.com/rdallasgray/project-persist",
+  "stars": 32,
+  "updated": "2018-09-06T13:03:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "project-persist",
+    "fetcher": "github",
+    "repo": "rdallasgray/project-persist",
+    "files": "(\"lib/*\")"
+  }
+}

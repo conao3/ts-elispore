@@ -1,0 +1,18 @@
+{
+  "id": 41265325,
+  "name": "vibhavp/go-complete",
+  "description": "Native Go completion for Emacs",
+  "url": "https://github.com/vibhavp/go-complete",
+  "stars": 21,
+  "updated": "2019-04-09T05:16:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "go-complete",
+    "fetcher": "github",
+    "repo": "vibhavp/go-complete"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 74737311,
+  "name": "niitsuma/edit-indirect-region-latex",
+  "description": "",
+  "url": "https://github.com/niitsuma/edit-indirect-region-latex",
+  "stars": 3,
+  "updated": "2016-11-29T06:45:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "edit-indirect-region-latex",
+    "fetcher": "github",
+    "repo": "niitsuma/edit-indirect-region-latex"
+  }
+}

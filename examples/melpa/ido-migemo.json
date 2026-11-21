@@ -1,0 +1,18 @@
+{
+  "id": 230282253,
+  "name": "emacsattic/ido-migemo",
+  "description": "Migemo plug-in for Ido",
+  "url": "https://github.com/emacsattic/ido-migemo",
+  "stars": 0,
+  "updated": "2019-12-26T15:04:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ido-migemo",
+    "fetcher": "github",
+    "repo": "emacsattic/ido-migemo"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 179907751,
+  "name": "skeeto/bitpack",
+  "description": "Emacs Lisp structure packing",
+  "url": "https://github.com/skeeto/bitpack",
+  "stars": 23,
+  "updated": "2023-04-24T21:25:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bitpack",
+    "fetcher": "github",
+    "repo": "skeeto/bitpack"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 9610541,
+  "name": "emacsorphanage/org-elisp-help",
+  "description": "Org links to emacs-lisp documentation",
+  "url": "https://github.com/emacsorphanage/org-elisp-help",
+  "stars": 5,
+  "updated": "2022-08-19T17:33:44Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "org-elisp-help",
+    "fetcher": "github",
+    "repo": "emacsorphanage/org-elisp-help"
+  }
+}

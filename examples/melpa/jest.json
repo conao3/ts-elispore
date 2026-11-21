@@ -1,0 +1,29 @@
+{
+  "id": 158862672,
+  "name": "edmundmiller/emacs-jest",
+  "description": "A package to run jest inside emacs",
+  "url": "https://github.com/edmundmiller/emacs-jest",
+  "stars": 83,
+  "updated": "2023-01-02T01:27:20Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-lisp",
+    "emacs-modules",
+    "emacs-packages",
+    "hacktoberfest",
+    "javascript",
+    "jest",
+    "package",
+    "testing",
+    "unit-testing"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "jest",
+    "fetcher": "github",
+    "repo": "edmundmiller/emacs-jest"
+  }
+}

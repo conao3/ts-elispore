@@ -1,0 +1,18 @@
+{
+  "id": 27595364,
+  "name": "luismbo/wn-mode",
+  "description": "An Emacs mode adding numeric window switching shortcuts",
+  "url": "https://github.com/luismbo/wn-mode",
+  "stars": 6,
+  "updated": "2026-10-20T15:27:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "wn-mode",
+    "fetcher": "github",
+    "repo": "luismbo/wn-mode"
+  }
+}

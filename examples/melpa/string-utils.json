@@ -1,0 +1,18 @@
+{
+  "id": 5500564,
+  "name": "rolandwalker/string-utils",
+  "description": "String-manipulation utilities for Emacs Lisp",
+  "url": "https://github.com/rolandwalker/string-utils",
+  "stars": 19,
+  "updated": "2026-10-18T16:41:54Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "string-utils",
+    "fetcher": "github",
+    "repo": "rolandwalker/string-utils"
+  }
+}

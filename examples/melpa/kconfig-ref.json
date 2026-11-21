@@ -1,0 +1,18 @@
+{
+  "id": 603685194,
+  "name": "seokbeomKim/kconfig-ref",
+  "description": "kconfig-ref is an Emacs package that helps you find the Kconfig implementation of a symbol under the cursor quickly.",
+  "url": "https://github.com/seokbeomKim/kconfig-ref",
+  "stars": 1,
+  "updated": "2023-08-14T10:53:35Z",
+  "archived": false,
+  "topics": ["emacs", "kconfig"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "kconfig-ref",
+    "fetcher": "github",
+    "repo": "seokbeomKim/kconfig-ref"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 287746755,
+  "name": "trueroad/w32-ime.el",
+  "description": "w32-ime.el --- Windows IME UI/UX controler",
+  "url": "https://github.com/trueroad/w32-ime.el",
+  "stars": 5,
+  "updated": "2021-04-03T04:50:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "w32-ime",
+    "fetcher": "github",
+    "repo": "trueroad/w32-ime.el"
+  }
+}

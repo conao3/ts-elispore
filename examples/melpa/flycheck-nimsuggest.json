@@ -1,0 +1,18 @@
+{
+  "id": 108086858,
+  "name": "yuutayamada/flycheck-nimsuggest",
+  "description": "A flycheck backend for Nim language using nimsuggest",
+  "url": "https://github.com/yuutayamada/flycheck-nimsuggest",
+  "stars": 2,
+  "updated": "2017-10-27T22:09:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-nimsuggest",
+    "fetcher": "github",
+    "repo": "yuutayamada/flycheck-nimsuggest"
+  }
+}

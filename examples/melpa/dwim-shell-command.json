@@ -1,0 +1,18 @@
+{
+  "id": 514930433,
+  "name": "xenodium/dwim-shell-command",
+  "description": "Save your shell commands/scripts and apply from Emacs with ease.",
+  "url": "https://github.com/xenodium/dwim-shell-command",
+  "stars": 337,
+  "updated": "2026-10-22T09:21:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dwim-shell-command",
+    "fetcher": "github",
+    "repo": "xenodium/dwim-shell-command"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 2252288,
+  "name": "DarwinAwardWinner/amx",
+  "description": "An alternative M-x interface for Emacs.",
+  "url": "https://github.com/DarwinAwardWinner/amx",
+  "stars": 167,
+  "updated": "2024-02-02T14:53:40Z",
+  "archived": false,
+  "topics": ["completion", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "amx",
+    "fetcher": "github",
+    "repo": "DarwinAwardWinner/amx"
+  }
+}

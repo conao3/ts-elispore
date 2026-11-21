@@ -1,0 +1,18 @@
+{
+  "id": 121661650,
+  "name": "myTerminal/overcast-theme",
+  "description": "A dark but vibrant color theme for Emacs",
+  "url": "https://github.com/myTerminal/overcast-theme",
+  "stars": 9,
+  "updated": "2022-08-13T19:34:51Z",
+  "archived": false,
+  "topics": ["color-theme", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "overcast-theme",
+    "fetcher": "github",
+    "repo": "myTerminal/overcast-theme"
+  }
+}

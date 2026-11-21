@@ -1,0 +1,18 @@
+{
+  "id": 1197059062,
+  "name": "OverbearingPearl/full-gtd",
+  "description": "Complete GTD implementation for Emacs org-mode",
+  "url": "https://github.com/OverbearingPearl/full-gtd",
+  "stars": 12,
+  "updated": "2026-10-30T13:49:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "full-gtd",
+    "fetcher": "github",
+    "repo": "OverbearingPearl/full-gtd"
+  }
+}

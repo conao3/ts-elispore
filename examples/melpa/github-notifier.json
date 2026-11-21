@@ -1,0 +1,18 @@
+{
+  "id": 45738849,
+  "name": "xuchunyang/github-notifier.el",
+  "description": "Displays your GitHub notifications unread count in Emacs mode-line",
+  "url": "https://github.com/xuchunyang/github-notifier.el",
+  "stars": 33,
+  "updated": "2018-04-21T03:16:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "github-notifier",
+    "fetcher": "github",
+    "repo": "xuchunyang/github-notifier.el"
+  }
+}

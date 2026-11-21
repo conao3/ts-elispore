@@ -1,0 +1,18 @@
+{
+  "id": 38373869,
+  "name": "zweifisch/ob-lfe",
+  "description": "org-babel functions for lfe(list flavored erlang) evaluation",
+  "url": "https://github.com/zweifisch/ob-lfe",
+  "stars": 5,
+  "updated": "2017-07-25T14:20:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ob-lfe",
+    "fetcher": "github",
+    "repo": "zweifisch/ob-lfe"
+  }
+}

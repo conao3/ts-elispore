@@ -1,0 +1,18 @@
+{
+  "id": 8916269,
+  "name": "frobtech/edit-server-htmlize",
+  "description": "Hooks for edit-server.el to handle gratuitously HTMLified text entry boxes such as recent versions of GMail.",
+  "url": "https://github.com/frobtech/edit-server-htmlize",
+  "stars": 17,
+  "updated": "2020-07-17T03:40:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "edit-server-htmlize",
+    "fetcher": "github",
+    "repo": "frobtech/edit-server-htmlize"
+  }
+}

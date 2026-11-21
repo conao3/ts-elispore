@@ -1,0 +1,19 @@
+{
+  "id": 44108,
+  "name": "lfe/lfe",
+  "description": "Lisp Flavoured Erlang (LFE)",
+  "url": "https://github.com/lfe/lfe",
+  "stars": 2459,
+  "updated": "2026-10-19T22:47:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Erlang",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "lfe-mode",
+    "fetcher": "github",
+    "repo": "rvirding/lfe",
+    "files": "(\"emacs/inferior-lfe.el\" \"emacs/lfe-mode.el\" \"emacs/lfe-indent.el\")"
+  }
+}

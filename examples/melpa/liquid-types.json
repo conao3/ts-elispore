@@ -1,0 +1,18 @@
+{
+  "id": 51538584,
+  "name": "ucsd-progsys/liquid-types.el",
+  "description": "LiquidHaskell type popup for Emacs.",
+  "url": "https://github.com/ucsd-progsys/liquid-types.el",
+  "stars": 3,
+  "updated": "2015-12-02T07:36:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "liquid-types",
+    "fetcher": "github",
+    "repo": "ucsd-progsys/liquid-types.el"
+  }
+}

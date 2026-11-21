@@ -1,0 +1,18 @@
+{
+  "id": 318181210,
+  "name": "emacs-helm/helm-switch-to-repl",
+  "description": "Helm action to switch directory in REPLs",
+  "url": "https://github.com/emacs-helm/helm-switch-to-repl",
+  "stars": 1,
+  "updated": "2021-02-06T08:45:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "helm-switch-to-repl",
+    "fetcher": "github",
+    "repo": "emacs-helm/helm-switch-to-repl"
+  }
+}

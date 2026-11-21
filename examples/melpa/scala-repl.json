@@ -1,0 +1,18 @@
+{
+  "id": 785143627,
+  "name": "sheepduke/scala-repl.el",
+  "description": "Scala REPL in Emacs",
+  "url": "https://github.com/sheepduke/scala-repl.el",
+  "stars": 7,
+  "updated": "2026-03-15T07:30:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scala-repl",
+    "fetcher": "github",
+    "repo": "sheepduke/scala-repl.el"
+  }
+}

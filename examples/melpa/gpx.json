@@ -1,0 +1,19 @@
+{
+  "id": 798446453,
+  "name": "mkcms/gpx-mode",
+  "description": "Major mode for viewing GPX (GPS Exchange Format) files",
+  "url": "https://github.com/mkcms/gpx-mode",
+  "stars": 6,
+  "updated": "2026-09-15T12:19:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gpx",
+    "fetcher": "github",
+    "repo": "mkcms/gpx-mode",
+    "files": "(:defaults \"*.py\")"
+  }
+}

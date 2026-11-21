@@ -1,0 +1,18 @@
+{
+  "id": 725337512,
+  "name": "jdtsmith/ultra-scroll",
+  "description": "scroll Emacs like lightning",
+  "url": "https://github.com/jdtsmith/ultra-scroll",
+  "stars": 449,
+  "updated": "2026-08-28T02:09:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ultra-scroll",
+    "fetcher": "github",
+    "repo": "jdtsmith/ultra-scroll"
+  }
+}

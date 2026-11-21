@@ -1,0 +1,18 @@
+{
+  "id": 15232409,
+  "name": "eschulte/el-sprunge",
+  "description": "sprunge-style paste server",
+  "url": "https://github.com/eschulte/el-sprunge",
+  "stars": 4,
+  "updated": "2020-03-12T12:13:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "el-sprunge",
+    "fetcher": "github",
+    "repo": "eschulte/el-sprunge"
+  }
+}

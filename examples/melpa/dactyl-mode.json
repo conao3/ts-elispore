@@ -1,0 +1,18 @@
+{
+  "id": 23735998,
+  "name": "luxbock/dactyl-mode",
+  "description": "Emacs major mode for editing Pentadactyl configuration files",
+  "url": "https://github.com/luxbock/dactyl-mode",
+  "stars": 6,
+  "updated": "2014-09-06T17:26:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dactyl-mode",
+    "fetcher": "github",
+    "repo": "luxbock/dactyl-mode"
+  }
+}

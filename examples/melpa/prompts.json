@@ -1,0 +1,18 @@
+{
+  "id": 68001109,
+  "name": "GuiltyDolphin/prompts.el",
+  "description": "Emacs text-input and read completion utilities.",
+  "url": "https://github.com/GuiltyDolphin/prompts.el",
+  "stars": 0,
+  "updated": "2016-09-16T10:41:47Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "prompts",
+    "fetcher": "github",
+    "repo": "GuiltyDolphin/prompts.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 44485840,
+  "name": "kopoli/helm-grepint",
+  "description": "Generic helm interface to grep",
+  "url": "https://github.com/kopoli/helm-grepint",
+  "stars": 4,
+  "updated": "2020-08-11T16:18:41Z",
+  "archived": false,
+  "topics": ["ag", "emacs", "git-grep", "grep", "grepping", "helm", "helm-grepint"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "helm-grepint",
+    "fetcher": "github",
+    "repo": "kopoli/helm-grepint"
+  }
+}

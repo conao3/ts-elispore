@@ -1,0 +1,19 @@
+{
+  "id": 187349001,
+  "name": "realgud/realgud-node-debug",
+  "description": "Module to add the older \"node debug\" debugger support to emacs realgud. This protocol was used up until version 6.3 and deprecated in node version 8.  For node before after 6.3, use realgud-node-inspect.",
+  "url": "https://github.com/realgud/realgud-node-debug",
+  "stars": 1,
+  "updated": "2019-05-25T16:34:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "realgud-node-debug",
+    "fetcher": "github",
+    "repo": "realgud/realgud-node-debug",
+    "files": "(:defaults\n         (\"realgud-node-debug\" \"realgud-node-debug/*.el\"))"
+  }
+}

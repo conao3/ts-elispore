@@ -1,0 +1,18 @@
+{
+  "id": 806257037,
+  "name": "erickgnavar/pythontest.el",
+  "description": "Run test on demand with support for many test runners",
+  "url": "https://github.com/erickgnavar/pythontest.el",
+  "stars": 9,
+  "updated": "2024-08-13T13:22:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "pythontest",
+    "fetcher": "github",
+    "repo": "erickgnavar/pythontest.el"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 16411522,
+  "name": "dakrone/es-mode",
+  "description": "An Emacs major mode for interacting with Elasticsearch",
+  "url": "https://github.com/dakrone/es-mode",
+  "stars": 199,
+  "updated": "2026-02-20T22:15:08Z",
+  "archived": false,
+  "topics": ["elasticsearch", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "es-mode",
+    "fetcher": "github",
+    "repo": "dakrone/es-mode",
+    "files": "(\"*.el\" \"snippets\")"
+  }
+}

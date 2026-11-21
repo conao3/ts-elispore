@@ -1,0 +1,18 @@
+{
+  "id": 10193704,
+  "name": "Malabarba/org-agenda-property",
+  "description": "Display org properties in the agenda buffer.",
+  "url": "https://github.com/Malabarba/org-agenda-property",
+  "stars": 67,
+  "updated": "2015-03-16T10:33:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "org-agenda-property",
+    "fetcher": "github",
+    "repo": "Malabarba/org-agenda-property"
+  }
+}

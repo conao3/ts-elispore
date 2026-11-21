@@ -1,0 +1,18 @@
+{
+  "id": 843771139,
+  "name": "captainflasmr/arscript-mode",
+  "description": "An emacs mode to cater for ArtRage arscript files",
+  "url": "https://github.com/captainflasmr/arscript-mode",
+  "stars": 1,
+  "updated": "2024-08-19T19:30:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "arscript-mode",
+    "fetcher": "github",
+    "repo": "captainflasmr/arscript-mode"
+  }
+}

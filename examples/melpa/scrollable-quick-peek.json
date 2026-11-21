@@ -1,0 +1,18 @@
+{
+  "id": 323459025,
+  "name": "jpablobr/scrollable-quick-peek",
+  "description": "Extends `quick-peek' Emacs package to allow for scrolling",
+  "url": "https://github.com/jpablobr/scrollable-quick-peek",
+  "stars": 6,
+  "updated": "2020-12-24T03:29:29Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scrollable-quick-peek",
+    "fetcher": "github",
+    "repo": "jpablobr/scrollable-quick-peek"
+  }
+}

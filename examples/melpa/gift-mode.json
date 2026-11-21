@@ -1,0 +1,18 @@
+{
+  "id": 90791061,
+  "name": "csrhodes/gift-mode",
+  "description": "emacs major mode for editing quizzes in GIFT format",
+  "url": "https://github.com/csrhodes/gift-mode",
+  "stars": 6,
+  "updated": "2021-05-28T14:59:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "gift-mode",
+    "fetcher": "github",
+    "repo": "csrhodes/gift-mode"
+  }
+}

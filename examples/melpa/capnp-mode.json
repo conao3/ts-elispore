@@ -1,0 +1,19 @@
+{
+  "id": 9090933,
+  "name": "capnproto/capnproto",
+  "description": "Cap'n Proto serialization/RPC system - core tools and C++ library",
+  "url": "https://github.com/capnproto/capnproto",
+  "stars": 13258,
+  "updated": "2026-11-20T23:02:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "C++",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "capnp-mode",
+    "fetcher": "github",
+    "repo": "capnproto/capnproto",
+    "files": "(\"highlighting/emacs/capnp-mode.el\")"
+  }
+}

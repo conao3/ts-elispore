@@ -1,0 +1,18 @@
+{
+  "id": 1313799,
+  "name": "rooney/zencoding",
+  "description": "a neat way to write markup quickly in emacs",
+  "url": "https://github.com/rooney/zencoding",
+  "stars": 247,
+  "updated": "2025-01-15T12:15:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "zencoding-mode",
+    "fetcher": "github",
+    "repo": "rooney/zencoding"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 571869703,
+  "name": "enricoflor/latex-table-wizard",
+  "description": "Magic editing of LaTeX tables in GNU Emacs",
+  "url": "https://github.com/enricoflor/latex-table-wizard",
+  "stars": 30,
+  "updated": "2026-10-07T15:01:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "latex-table-wizard",
+    "fetcher": "github",
+    "repo": "enricoflor/latex-table-wizard"
+  }
+}

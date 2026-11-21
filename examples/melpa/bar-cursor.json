@@ -1,0 +1,18 @@
+{
+  "id": 10065814,
+  "name": "ajsquared/bar-cursor",
+  "description": "Change Emacs cursor into a bar",
+  "url": "https://github.com/ajsquared/bar-cursor",
+  "stars": 7,
+  "updated": "2020-12-04T22:44:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "bar-cursor",
+    "fetcher": "github",
+    "repo": "ajsquared/bar-cursor"
+  }
+}

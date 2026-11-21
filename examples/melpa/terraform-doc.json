@@ -1,0 +1,18 @@
+{
+  "id": 200519746,
+  "name": "TxGVNN/terraform-doc",
+  "description": "terraform-doc for GNU Emacs",
+  "url": "https://github.com/TxGVNN/terraform-doc",
+  "stars": 30,
+  "updated": "2024-12-17T05:03:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "terraform-doc",
+    "fetcher": "github",
+    "repo": "TxGVNN/terraform-doc"
+  }
+}

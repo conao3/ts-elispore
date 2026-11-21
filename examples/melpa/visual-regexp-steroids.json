@@ -1,0 +1,19 @@
+{
+  "id": 9239927,
+  "name": "benma/visual-regexp-steroids.el",
+  "description": "Extends visual-regexp to support other regexp engines",
+  "url": "https://github.com/benma/visual-regexp-steroids.el",
+  "stars": 271,
+  "updated": "2023-02-28T01:38:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "visual-regexp-steroids",
+    "fetcher": "github",
+    "repo": "benma/visual-regexp-steroids.el",
+    "files": "(\"visual-regexp-steroids.el\" \"regexp.py\")"
+  }
+}

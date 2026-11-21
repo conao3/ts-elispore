@@ -1,0 +1,18 @@
+{
+  "id": 12184952,
+  "name": "emacsorphanage/pkg-info",
+  "description": "Provide information about Emacs packages",
+  "url": "https://github.com/emacsorphanage/pkg-info",
+  "stars": 56,
+  "updated": "2016-09-12T15:11:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "pkg-info",
+    "fetcher": "github",
+    "repo": "emacsorphanage/pkg-info"
+  }
+}

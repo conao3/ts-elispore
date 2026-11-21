@@ -1,0 +1,18 @@
+{
+  "id": 1154989007,
+  "name": "meedstrom/truename-cache",
+  "description": "Efficiently de-dup file-names",
+  "url": "https://github.com/meedstrom/truename-cache",
+  "stars": 6,
+  "updated": "2026-07-26T09:26:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "truename-cache",
+    "fetcher": "github",
+    "repo": "meedstrom/truename-cache"
+  }
+}

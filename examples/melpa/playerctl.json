@@ -1,0 +1,18 @@
+{
+  "id": 86696738,
+  "name": "thomas-louvigne/playerctl.el",
+  "description": "Play music from emacs with playerctl",
+  "url": "https://github.com/thomas-louvigne/playerctl.el",
+  "stars": 17,
+  "updated": "2022-07-14T12:34:08Z",
+  "archived": false,
+  "topics": ["emacs", "playerctl"],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "playerctl",
+    "fetcher": "github",
+    "repo": "thomas-louvigne/playerctl.el"
+  }
+}

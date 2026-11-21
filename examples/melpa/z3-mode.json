@@ -1,0 +1,18 @@
+{
+  "id": 45150651,
+  "name": "zv/z3-mode",
+  "description": "An interactive development environment for SMT-LIB files and Z3",
+  "url": "https://github.com/zv/z3-mode",
+  "stars": 24,
+  "updated": "2022-08-16T11:41:15Z",
+  "archived": false,
+  "topics": ["satsolver", "smtlib", "smtlibv2", "z3"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "z3-mode",
+    "fetcher": "github",
+    "repo": "zv/z3-mode"
+  }
+}

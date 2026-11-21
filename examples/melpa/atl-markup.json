@@ -1,0 +1,18 @@
+{
+  "id": 281631343,
+  "name": "jcs-legacy/atl-markup",
+  "description": "Automatically truncate lines for markup languages.",
+  "url": "https://github.com/jcs-legacy/atl-markup",
+  "stars": 2,
+  "updated": "2026-06-19T08:26:23Z",
+  "archived": false,
+  "topics": ["emacs", "markup", "markup-language", "visual"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "atl-markup",
+    "fetcher": "github",
+    "repo": "jcs-legacy/atl-markup"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 5644,
+  "name": "tsgates/git-emacs",
+  "description": "Yet another git mode on emacs for newbies",
+  "url": "https://github.com/tsgates/git-emacs",
+  "stars": 193,
+  "updated": "2016-10-28T19:26:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "git-blamed",
+    "fetcher": "github",
+    "repo": "tsgates/git-emacs",
+    "files": "(\"git-blamed.el\")"
+  }
+}

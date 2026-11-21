@@ -1,0 +1,18 @@
+{
+  "id": 14509389,
+  "name": "deftsp/mobdebug-mode",
+  "description": "MobDebug Mode for Emacs",
+  "url": "https://github.com/deftsp/mobdebug-mode",
+  "stars": 2,
+  "updated": "2014-01-10T03:46:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "mobdebug-mode",
+    "fetcher": "github",
+    "repo": "deftsp/mobdebug-mode"
+  }
+}
