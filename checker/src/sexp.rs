@@ -5,6 +5,7 @@ pub enum Sexp {
     Atom(String),
     Text,
     List(Vec<Sexp>),
+    Vector(Vec<Sexp>),
     Quote(Box<Sexp>),
 }
 
@@ -18,6 +19,12 @@ impl Sexp {
     pub fn list(&self) -> Option<&[Self]> {
         match self {
             Self::List(xs) => Some(xs),
+            _ => None,
+        }
+    }
+    pub fn vector(&self) -> Option<&[Self]> {
+        match self {
+            Self::Vector(xs) => Some(xs),
             _ => None,
         }
     }
@@ -72,7 +79,7 @@ impl Parser<'_> {
         }
         self.space();
         match self.chars.next() {
-            Some('(' | '[') => {
+            Some(open @ ('(' | '[')) => {
                 let mut xs = Vec::new();
                 loop {
                     self.space();
@@ -85,7 +92,11 @@ impl Parser<'_> {
                         _ => xs.push(self.form(depth + 1)?),
                     }
                 }
-                Ok(Sexp::List(xs))
+                Ok(if open == '[' {
+                    Sexp::Vector(xs)
+                } else {
+                    Sexp::List(xs)
+                })
             }
             Some(')' | ']') => bail!("unexpected closing delimiter"),
             Some('\'' | '`') => Ok(Sexp::Quote(Box::new(self.form(depth + 1)?))),

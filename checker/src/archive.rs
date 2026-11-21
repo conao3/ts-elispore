@@ -43,7 +43,7 @@ pub fn index(source: &str, base: &str, text: &str) -> Result<Vec<Package>> {
             }
             let desc = fields
                 .last()
-                .and_then(Sexp::list)
+                .and_then(Sexp::vector)
                 .context("missing descriptor")?;
             let parts = desc
                 .first()

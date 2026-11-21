@@ -92,6 +92,9 @@ fn scanner_ignores_data_comments_strings_and_characters() {
 "(provide 'wrong)" "escaped \" (require 'cl)"
 '(require 'cl)
 (quote (require 'cl))
+[(require 'cl) (provide 'wrong)]
+(defvar sample-data [(require 'cl) (provide 'wrong)])
+[defun unrelated () nil]
 ?\( ?\) ?\; ?\" ?x ?\C-\M-a
 ?\^? ?\^\( ?\M-\^?
 [?\C-c?\C-^] (eq ?\C-^ ?\M-^)
@@ -108,7 +111,7 @@ fn scanner_ignores_data_comments_strings_and_characters() {
     .unwrap();
     assert_eq!(facts.requires, ["real"]);
     assert_eq!(facts.provides, ["sample"]);
-    assert_eq!(facts.definitions, ["sample-top"]);
+    assert_eq!(facts.definitions, ["sample-data", "sample-top"]);
 }
 
 #[test]
