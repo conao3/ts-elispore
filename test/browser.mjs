@@ -143,17 +143,14 @@ try {
     mobile: false,
   })
   await send("Page.navigate", { url: origin + "/?q=license:mit" })
-  await waitFor(`Boolean(document.querySelector('[role=group] input[value="mit"]'))`)
-  const licenseSelector = "[role=group] input[type=checkbox]"
-  await waitFor(`document.querySelectorAll('[role=group] input[type=checkbox]').length > 1`)
-  assert.equal(
-    await evaluate(`document.querySelector('[role=group] input[value="mit"]').checked`),
-    true,
-  )
+  const licenseSelector = ".license-group input[type=checkbox]"
+  const mitLicense = '.license-group input[value="mit"]'
+  await waitFor(`document.querySelectorAll('${licenseSelector}').length > 1`)
+  assert.equal(await evaluate(`document.querySelector('${mitLicense}').checked`), true)
   const otherLicense = await evaluate(
     `Array.from(document.querySelectorAll(${JSON.stringify(licenseSelector)})).find(e=>e.value!=='mit').value`,
   )
-  await click(`[role=group] label:has(input[value="${otherLicense}"])`)
+  await click(`.license-group label:has(input[value="${otherLicense}"])`)
   assert.deepEqual(
     await evaluate(
       `Array.from(document.querySelectorAll(${JSON.stringify(licenseSelector)})).filter(e=>e.checked).map(e=>e.value).sort()`,
@@ -194,14 +191,13 @@ try {
   })
   await send("Page.reload")
   await reloaded
-  await waitFor(`document.querySelectorAll('[role=group] input:checked').length===2`)
-  await evaluate(`document.querySelector('[role=group] input[value="mit"]').focus()`)
+  await waitFor(`document.querySelectorAll('${licenseSelector}:checked').length===2`)
+  await evaluate(`document.querySelector('${mitLicense}').focus()`)
+  await settle()
+  assert.equal(await evaluate(`document.activeElement.matches('${mitLicense}')`), true)
   await key(" ", "Space", 32)
-  assert.equal(
-    await evaluate(`document.querySelector('[role=group] input[value="mit"]').checked`),
-    false,
-  )
-  await click(`[role=group] label:has(input[value="${otherLicense}"])`)
+  assert.equal(await evaluate(`document.querySelector('${mitLicense}').checked`), false)
+  await click(`.license-group label:has(input[value="${otherLicense}"])`)
   assert.equal(await evaluate("new URL(location.href).searchParams.has('q')"), false)
   assert.equal(
     await evaluate("document.querySelector('#count').textContent"),
@@ -247,6 +243,75 @@ try {
   assert.equal(await evaluate("document.querySelector('.copy').textContent"), "Copy")
   console.log(
     "Browser displayed and copied both MELPA snippet formats and switched from annotation to eri.",
+  )
+  await send("Page.navigate", { url: origin + "/?q=2048-game" })
+  await waitFor(`document.querySelector('.prefix-status')?.textContent.includes('is in use')`)
+  await click(".prefix-status button")
+  assert.match(
+    await evaluate("document.querySelector('.prefix-status li').textContent"),
+    /2048-game.*MELPA/,
+  )
+  await key(" ", "Space", 32)
+  const prefixExpanded =
+    "document.querySelector('.prefix-status button').getAttribute('aria-expanded')"
+  assert.equal(await evaluate(prefixExpanded), "false")
+  await key(" ", "Space", 32)
+  assert.equal(await evaluate(prefixExpanded), "true")
+  assert.match(
+    await evaluate("document.querySelector('.prefix-status li').textContent"),
+    /2048-game.*MELPA/,
+  )
+  await click('.package[data-name="2048-game"] .repo-trigger')
+  const disabled = '.package[data-name="2048-game"] .code-block'
+  assert.equal(
+    await evaluate(`document.querySelector('${disabled} pre').getAttribute('aria-disabled')`),
+    "true",
+  )
+  assert.equal(
+    await evaluate(`document.querySelector('${disabled} pre').getAttribute('aria-label')`),
+    "Installation code",
+  )
+  assert.match(
+    await evaluate(`document.querySelector('${disabled} code').textContent`),
+    /hg.*requires Git/,
+  )
+  await evaluate(
+    `Object.defineProperty(navigator, 'clipboard', {configurable:true,value:{writeText:async text=>{window.copiedSnippet=text}}})`,
+  )
+  await click(`${disabled} .copy`)
+  assert.equal(await evaluate("window.copiedSnippet ?? null"), null)
+  await evaluate(`document.querySelector('${disabled} .snippet-switch button:last-child').focus()`)
+  await key("Tab", "Tab", 9)
+  assert.equal(
+    await evaluate(`document.activeElement.matches('${disabled} .copy, ${disabled} pre')`),
+    false,
+  )
+  const archivesScreenshot = await send("Page.captureScreenshot", {
+    format: "png",
+    captureBeyondViewport: false,
+  })
+  await writeFile(
+    path.join(scratch, "elispore-archive-prefix.png"),
+    Buffer.from(archivesScreenshot.data, "base64"),
+  )
+  await click('label:has(input[value="gnu-elpa"])')
+  assert.match(await evaluate("new URL(location.href).searchParams.get('q')"), /source:gnu-elpa/)
+  assert.match(await evaluate("document.querySelector('.prefix-status').textContent"), /is in use/)
+  await edit("elispore-unassigned-prefix-browser-test")
+  assert.match(
+    await evaluate("document.querySelector('.prefix-status').textContent"),
+    /is free in this catalog/,
+  )
+  await edit("repo:ada-mode")
+  await waitFor(`Boolean(document.querySelector('.package[data-name="ada-mode"]'))`)
+  await click('.package[data-name="ada-mode"] .repo-trigger')
+  await click(".method-switch button:last-child")
+  assert.equal(
+    await evaluate("document.querySelector('.code-block code').textContent"),
+    "(leaf ada-mode\n  :ensure t)",
+  )
+  console.log(
+    "Archive checks passed: global prefix status, source filter, disabled copy by pointer and keyboard, and ELPA :ensure.",
   )
   await send("Page.navigate", { url: origin + "/?q=repo:minad/vertico" })
   await waitFor(

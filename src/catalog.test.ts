@@ -4,7 +4,7 @@ import { test, expect } from "vite-plus/test"
 import { publishedCatalog } from "../scripts/catalog-import"
 import { catalogSchema } from "./catalog"
 import type { Entry } from "./catalog"
-import { parseQuery, searchEntries, setQualifier } from "./query"
+import { checkPrefix, parseQuery, searchEntries, setQualifier } from "./query"
 const entry: Entry = {
   id: 1,
   name: "minad/vertico",
@@ -132,12 +132,46 @@ test("quotes values added through controls", () => {
     'user:minad language:"Emacs Lisp"',
   )
 })
-test("rejects links outside HTTPS GitHub", () => {
-  for (const url of ["https://example.com", "http://github.com/minad/vertico"])
+test("rejects non-web links but accepts upstreams outside GitHub", () => {
+  for (const url of ["javascript:alert(1)", "file:///tmp/package"])
     expect(
       catalogSchema.safeParse({ generatedAt: "now", sources: [], entries: [{ ...entry, url }] })
         .success,
     ).toBe(false)
+  expect(
+    catalogSchema.safeParse({
+      generatedAt: "now",
+      sources: [],
+      entries: [{ ...entry, url: "https://codeberg.org/owner/package" }],
+    }).success,
+  ).toBe(true)
+})
+
+test("checks exact and hyphen-prefixed package names against all sources", () => {
+  const entries: Entry[] = [
+    {
+      ...entry,
+      name: "owner/foobar",
+      sources: ["github", "gnu-elpa", "melpa"],
+      archives: [
+        { name: "foo", source: "gnu-elpa" },
+        { name: "foo", source: "melpa" },
+        { name: "foo-extra", source: "melpa" },
+      ],
+    },
+  ]
+  expect(checkPrefix(entries, parseQuery("foo source:nongnu-elpa"))).toEqual({
+    prefix: "foo",
+    packages: [
+      { name: "foo", sources: ["gnu-elpa", "melpa"] },
+      { name: "foo-extra", sources: ["melpa"] },
+    ],
+  })
+  expect(checkPrefix(entries, parseQuery("foo-other"))?.packages).toEqual([])
+  expect(checkPrefix(entries, parseQuery("foo extra"))).toBeUndefined()
+  expect(searchEntries(entries, "source:nongnu-elpa source:melpa", "name")).toEqual(entries)
+  expect(searchEntries(entries, "source:nongnu-elpa", "name")).toEqual([])
+  expect(searchEntries(entries, "-source:gnu-elpa", "name")).toEqual([])
 })
 
 test("generates a leaf VC declaration", () => {

@@ -3,6 +3,7 @@ import { writeFileSync } from "node:fs"
 import { pathToFileURL } from "node:url"
 import * as z from "zod"
 import { catalogSchema, entrySchema } from "../src/catalog.ts"
+import { refreshArchiveSnapshot } from "./package-archives.ts"
 const repo = z.object({
   id: z.number(),
   full_name: z.string(),
@@ -126,4 +127,7 @@ function refresh() {
   writeFileSync("public/catalog.json", JSON.stringify(data, null, 2) + "\n")
   console.log(`Indexed ${entries.length} GitHub repositories`)
 }
-if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) refresh()
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  await refreshArchiveSnapshot(process.cwd())
+  refresh()
+}

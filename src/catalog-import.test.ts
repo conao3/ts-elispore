@@ -1,6 +1,7 @@
 import { expect, test } from "vite-plus/test"
 import { mergeCatalog } from "../scripts/catalog-import"
 import { resolveDirectories } from "../scripts/melpa-lisp-dirs"
+import type { ArchiveRecord } from "../scripts/package-archives"
 import { catalogSchema } from "./catalog"
 import type { Entry } from "./catalog"
 
@@ -22,6 +23,9 @@ const discovery = {
   sources: ["GitHub search"],
   entries: [discoveryEntry],
 }
+function archive(recipe: NonNullable<ArchiveRecord["recipe"]>, repo: string): ArchiveRecord {
+  return { name: recipe.name, source: "melpa", gitUrl: `https://github.com/${repo}`, recipe }
+}
 
 test("dedupes by GitHub ID, keeps discovery metadata, and preserves every MELPA recipe", () => {
   const first = {
@@ -33,17 +37,24 @@ test("dedupes by GitHub ID, keeps discovery metadata, and preserves every MELPA 
   }
   const second = { name: "package-two", fetcher: "github", repo: "former/old", commit: "abc" }
   const staged = { ...discoveryEntry, name: "former/old", stars: 20 }
-  const merged = mergeCatalog(discovery, [
-    { ...staged, melpa: second },
-    { ...staged, melpa: first },
-  ])
-  expect(catalogSchema.parse(merged).entries).toEqual([
-    { ...discoveryEntry, melpaRecipes: [first, second] },
+  const merged = mergeCatalog(
+    discovery,
+    [
+      { ...staged, melpa: second },
+      { ...staged, melpa: first },
+    ],
+    {},
+    [archive(second, "former/old"), archive(first, "former/old")],
+  )
+  expect(catalogSchema.parse(merged).entries).toMatchObject([
+    { ...discoveryEntry, melpaRecipes: [first, second], sources: ["github", "melpa"] },
   ])
   expect(merged.generatedAt).toBe(discovery.generatedAt)
   expect(merged.sources).toEqual([
     "GitHub search",
-    "https://github.com/melpa/melpa/tree/master/recipes",
+    "https://melpa.org/",
+    "https://elpa.gnu.org/packages/",
+    "https://elpa.nongnu.org/nongnu/",
   ])
   expect(discoveryEntry.melpaRecipes).toBeUndefined()
 })
@@ -57,11 +68,19 @@ test("adds MELPA-only repositories with deterministic metadata and retains searc
     name: "owner/another",
     url: "https://github.com/owner/another",
   }
-  const entries = mergeCatalog(discovery, [
-    { ...staged, stars: 9, melpa: second },
-    { ...staged, stars: 10, melpa: first },
-  ]).entries
-  expect(entries).toEqual([{ ...staged, stars: 10, melpaRecipes: [first, second] }, discoveryEntry])
+  const entries = mergeCatalog(
+    discovery,
+    [
+      { ...staged, stars: 9, melpa: second },
+      { ...staged, stars: 10, melpa: first },
+    ],
+    {},
+    [archive(second, "owner/another"), archive(first, "owner/another")],
+  ).entries
+  expect(entries).toMatchObject([
+    { ...staged, stars: 10, melpaRecipes: [first, second], sources: ["melpa"] },
+    { ...discoveryEntry, sources: ["github"] },
+  ])
 })
 
 test.each([
@@ -101,7 +120,8 @@ test.each([
     return { data: { r0: Object.fromEntries(found) } }
   })
   expect(directories).toEqual(expected === undefined ? {} : { alias: expected })
-  expect(mergeCatalog(discovery, [staged], directories).entries[0].melpaRecipes?.[0].lispDir).toBe(
-    expected,
-  )
+  expect(
+    mergeCatalog(discovery, [staged], directories, [archive(staged.melpa, staged.name)]).entries[0]
+      .melpaRecipes?.[0].lispDir,
+  ).toBe(expected)
 })
