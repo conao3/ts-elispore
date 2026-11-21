@@ -150,9 +150,30 @@ fn excludes_generated_and_tests() {
         "foo-tests.el",
         "README",
     ] {
-        assert!(!scanner::included(path), "{path}");
+        assert!(!scanner::included(path, "sample"), "{path}");
     }
-    assert!(scanner::included("lisp/test-helper.el"));
+    assert!(scanner::included("lisp/test-helper.el", "sample"));
+    for name in ["cursor-test", "toggle-test", "sample-tests"] {
+        assert!(scanner::included(&format!("lisp/{name}.el"), name));
+        assert!(!scanner::included(&format!("tests/{name}.el"), name));
+        let package = archive::Package {
+            key: format!("melpa/{name}"),
+            name: name.into(),
+            version: "1".into(),
+            url: String::new(),
+            kind: "single".into(),
+        };
+        let facts = archive::unpack(&package, GOOD.as_bytes()).unwrap();
+        assert_eq!(facts.files.len(), 1);
+        let mut package = package;
+        package.kind = "tar".into();
+        let facts = archive::unpack(
+            &package,
+            &tarball(&[(&format!("p/{name}.el"), GOOD)], false),
+        )
+        .unwrap();
+        assert_eq!(facts.files.len(), 1);
+    }
 }
 
 #[test]

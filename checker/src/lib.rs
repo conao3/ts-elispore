@@ -2,7 +2,7 @@ pub mod archive;
 pub mod scanner;
 pub mod sexp;
 
-pub const RULE_SET_VERSION: u32 = 2;
+pub const RULE_SET_VERSION: u32 = 3;
 
 leanfran::lean! {
     pub mod policy;

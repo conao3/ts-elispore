@@ -109,7 +109,8 @@ pub fn unpack(package: &Package, bytes: &[u8]) -> Result<PackageFacts> {
     }
     let mut contents = Vec::new();
     let mut has_license_file = false;
-    if package.kind == "single" && scanner::included(&format!("{}.el", package.name)) {
+    if package.kind == "single" && scanner::included(&format!("{}.el", package.name), &package.name)
+    {
         contents.push((
             format!("{}.el", package.name),
             String::from_utf8_lossy(bytes).into_owned(),
@@ -142,7 +143,7 @@ pub fn unpack(package: &Package, bytes: &[u8]) -> Result<PackageFacts> {
             has_license_file |= ["LICENSE", "COPYING"]
                 .iter()
                 .any(|n| basename == *n || basename.starts_with(&format!("{n}.")));
-            if scanner::included(&path) {
+            if scanner::included(&path, &package.name) {
                 let mut data = Vec::new();
                 entry.read_to_end(&mut data)?;
                 contents.push((path, String::from_utf8_lossy(&data).into_owned()));

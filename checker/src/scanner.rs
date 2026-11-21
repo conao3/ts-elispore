@@ -5,16 +5,18 @@ use crate::{
 use anyhow::{Context, Result};
 use std::path::Path;
 
-pub fn included(path: &str) -> bool {
+pub fn included(path: &str, package_name: &str) -> bool {
     let path = Path::new(path);
     let name = path
         .file_name()
         .and_then(|x| x.to_str())
         .unwrap_or_default();
     name.ends_with(".el")
-        && !["-pkg.el", "-autoloads.el", "-test.el", "-tests.el"]
+        && !["-pkg.el", "-autoloads.el"]
             .iter()
             .any(|s| name.ends_with(s))
+        && (name == format!("{package_name}.el")
+            || !["-test.el", "-tests.el"].iter().any(|s| name.ends_with(s)))
         && !path
             .components()
             .any(|x| matches!(x.as_os_str().to_str(), Some("test" | "tests")))
