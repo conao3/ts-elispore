@@ -1,13 +1,17 @@
 # Elispore
 
-TypeScript/React static search site for GitHub-hosted Emacs packages, published on Cloudflare Worker `elispore` at `https://elispore.conao3.com`. Use the cream/coral list layout, left filters and inline accordions. Repository names copy without whitespace; slash spacing is CSS padding. Owner names add `user:` filters. The query is the source of truth for sidebar state.
+TypeScript/React static search site for GitHub-hosted Emacs packages, published on Cloudflare Worker `elispore` at `https://elispore.conao3.com`. Use the warm palette with a coral accent and system light/dark themes, sticky header, left filters and grouped result card with inline accordions. Header metadata shows catalog size and refresh date. Mobile filters use a RAC modal dialog. Repository names copy without whitespace; slash spacing is CSS padding. Owner names add `user:` filters; expanded-row topic buttons add `topic:` filters. The query is the source of truth for sidebar state.
 
 Follow the shared TypeScript stack: React Aria Components for interactive UI, Tailwind CSS v4 through `@tailwindcss/vite`, React 19 and Vite+. Read the shared `notes/lang/typescript.md` and `notes/react-aria-components.md` before UI work. Use RAC state, keyboard interaction and focus management; preserve existing custom CSS and the approved design. Test keyboard and pointer interactions in the browser when changing widgets. Lockfile changes require updating the Nix dependency hash.
 
 Validate external data with Zod. Use the real catalog for language, license, organization and topic filters. Keep row geometry fixed across accordion toggles, including scrollbar appearance. Keep GitHub and Cloudflare credentials outside client code.
 
+Derive categories from the ten most frequent informative catalog topics; append selected topics outside that list. Normalize topic matching and category counts together: lowercase, drop a leading `emacs-` and trailing plural `s`, fold theme variants into `theme`, and map `mode`/`major-mode` to `major-mode`. Count each repository once per normalized topic. Preserve acronym casing in labels.
+
+Catalog discovery pages starred and recently updated Emacs Lisp searches plus `emacs-package`, `emacs-packages`, `emacs-theme`, `emacs-mode`, `org-mode` and `melpa` topics. Keep seeds and deduplicate IDs. Batch GraphQL tree checks for an `.el` file at the root or directly in `lisp/`. Exclude flagged forks, mirror/style-guide topics, configuration distributions, `awesome-*` lists and editor source repositories named `emacs`/`remacs`.
+
 Run `nix develop --command pnpm exec vp run check`, `nix develop --command pnpm run build`, and `nix build`. Linux browser checks use `nix develop .#browser --command node test/browser.mjs`. Refresh metadata with `nix develop --command pnpm run catalog`. Deployment uses `wrangler.jsonc`; the master workflow validates, deploys and updates the catalog daily.
 
-Default installation examples to leaf `:vc` declarations using the upstream URL. Keep leaf/use-package selector buttons at the top right of the code block, and copy the displayed format.
+Default installation examples to leaf `:vc` declarations using the upstream URL. Keep leaf/use-package selector buttons at the top right of the dark, syntax-colored code block, and copy the displayed format exactly.
 
 Keep copy functional and sparse. Start with search and results. Avoid promotional heroes, eyebrow labels, repeated package names/descriptions in expanded rows, and routine active-state badges. Show exceptional archived state; put installation requirements behind a disclosure. Preserve accessible names and useful filter/column labels.
