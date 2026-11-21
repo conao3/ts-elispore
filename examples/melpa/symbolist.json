@@ -1,0 +1,18 @@
+{
+  "id": 362160036,
+  "name": "lassik/emacs-symbolist",
+  "description": "List and interactively unbind Emacs Lisp symbols",
+  "url": "https://github.com/lassik/emacs-symbolist",
+  "stars": 2,
+  "updated": "2021-11-07T16:15:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "symbolist",
+    "fetcher": "github",
+    "repo": "lassik/emacs-symbolist"
+  }
+}

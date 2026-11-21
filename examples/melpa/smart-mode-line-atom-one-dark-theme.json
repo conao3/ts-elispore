@@ -1,0 +1,18 @@
+{
+  "id": 148877962,
+  "name": "daviderestivo/smart-mode-line-atom-one-dark-theme",
+  "description": "An atom-one-dark theme for smart-mode-line",
+  "url": "https://github.com/daviderestivo/smart-mode-line-atom-one-dark-theme",
+  "stars": 12,
+  "updated": "2025-01-03T13:24:16Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-lisp", "emacs-packages", "emacs-theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smart-mode-line-atom-one-dark-theme",
+    "fetcher": "github",
+    "repo": "daviderestivo/smart-mode-line-atom-one-dark-theme"
+  }
+}

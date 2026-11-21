@@ -1,0 +1,18 @@
+{
+  "id": 48166629,
+  "name": "fbie/slirm",
+  "description": "Systematic Literature Review Mode for Emacs.",
+  "url": "https://github.com/fbie/slirm",
+  "stars": 14,
+  "updated": "2016-02-01T14:26:02Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "slirm",
+    "fetcher": "github",
+    "repo": "fbie/slirm"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 947616,
+  "name": "nex3/sass-mode",
+  "description": "Emacs mode for Sass",
+  "url": "https://github.com/nex3/sass-mode",
+  "stars": 90,
+  "updated": "2023-10-05T07:44:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sass-mode",
+    "fetcher": "github",
+    "repo": "nex3/sass-mode"
+  }
+}

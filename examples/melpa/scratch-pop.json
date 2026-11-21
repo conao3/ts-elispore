@@ -1,0 +1,18 @@
+{
+  "id": 8327302,
+  "name": "zk-phi/scratch-pop",
+  "description": "Popup scratch buffer",
+  "url": "https://github.com/zk-phi/scratch-pop",
+  "stars": 9,
+  "updated": "2020-09-10T02:26:28Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scratch-pop",
+    "fetcher": "github",
+    "repo": "zk-phi/scratch-pop"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 113273794,
+  "name": "grettke/universal-emotions-emoticons",
+  "description": "Insert Emoticons For The Six Universally Recognized Facial Expressions of Emotion ",
+  "url": "https://github.com/grettke/universal-emotions-emoticons",
+  "stars": 3,
+  "updated": "2018-07-29T19:42:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "universal-emotions-emoticons",
+    "fetcher": "github",
+    "repo": "grettke/universal-emotions-emoticons"
+  }
+}

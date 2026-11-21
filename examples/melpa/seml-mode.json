@@ -1,0 +1,18 @@
+{
+  "id": 164662462,
+  "name": "conao3/seml-mode.el",
+  "description": "Major mode for editing SEML (S-Expression Markup Language) files",
+  "url": "https://github.com/conao3/seml-mode.el",
+  "stars": 79,
+  "updated": "2026-11-03T07:48:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "seml-mode",
+    "fetcher": "github",
+    "repo": "conao3/seml-mode.el"
+  }
+}

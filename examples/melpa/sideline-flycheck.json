@@ -1,0 +1,18 @@
+{
+  "id": 503284822,
+  "name": "emacs-sideline/sideline-flycheck",
+  "description": "Show flycheck errors with sideline",
+  "url": "https://github.com/emacs-sideline/sideline-flycheck",
+  "stars": 27,
+  "updated": "2026-06-18T17:30:12Z",
+  "archived": false,
+  "topics": ["flycheck", "sideline"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sideline-flycheck",
+    "fetcher": "github",
+    "repo": "emacs-sideline/sideline-flycheck"
+  }
+}

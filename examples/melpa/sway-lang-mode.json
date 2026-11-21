@@ -1,0 +1,18 @@
+{
+  "id": 497983271,
+  "name": "hhamud/sway-mode",
+  "description": "An Emacs major mode for the Sway language",
+  "url": "https://github.com/hhamud/sway-mode",
+  "stars": 4,
+  "updated": "2023-05-23T21:46:46Z",
+  "archived": false,
+  "topics": ["blockchain", "emacs", "sway"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sway-lang-mode",
+    "fetcher": "github",
+    "repo": "hhamud/sway-mode"
+  }
+}

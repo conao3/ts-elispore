@@ -1,0 +1,18 @@
+{
+  "id": 79607622,
+  "name": "jimeh/rubocopfmt.el",
+  "description": "Emacs minor-mode to format Ruby code with RuboCop on save.",
+  "url": "https://github.com/jimeh/rubocopfmt.el",
+  "stars": 18,
+  "updated": "2023-02-04T11:10:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rubocopfmt",
+    "fetcher": "github",
+    "repo": "jimeh/rubocopfmt.el"
+  }
+}

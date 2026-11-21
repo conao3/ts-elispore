@@ -1,0 +1,18 @@
+{
+  "id": 180029540,
+  "name": "tilmanrassy/emacs-treeview",
+  "description": "Abstract Emacs Lisp framework for tree navigation",
+  "url": "https://github.com/tilmanrassy/emacs-treeview",
+  "stars": 17,
+  "updated": "2026-09-26T01:13:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "treeview",
+    "fetcher": "github",
+    "repo": "tilmanrassy/emacs-treeview"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 561058360,
+  "name": "bobrofon/soong-mode",
+  "description": "Emacs major mode for the Soong build system",
+  "url": "https://github.com/bobrofon/soong-mode",
+  "stars": 2,
+  "updated": "2022-12-17T13:00:06Z",
+  "archived": false,
+  "topics": ["aosp", "emacs", "soong"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "soong-mode",
+    "fetcher": "github",
+    "repo": "bobrofon/soong-mode"
+  }
+}

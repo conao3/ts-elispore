@@ -1,0 +1,18 @@
+{
+  "id": 14106694,
+  "name": "tmalsburg/tango-plus-theme",
+  "description": "Color theme for Emacs loosely based on the tango palette ",
+  "url": "https://github.com/tmalsburg/tango-plus-theme",
+  "stars": 47,
+  "updated": "2026-06-15T15:21:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tango-plus-theme",
+    "fetcher": "github",
+    "repo": "tmalsburg/tango-plus-theme"
+  }
+}

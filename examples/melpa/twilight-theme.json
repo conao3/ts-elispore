@@ -1,0 +1,18 @@
+{
+  "id": 4004656,
+  "name": "developernotes/twilight-theme",
+  "description": "Twilight color theme for Emacs 24",
+  "url": "https://github.com/developernotes/twilight-theme",
+  "stars": 9,
+  "updated": "2023-02-26T11:20:44Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "twilight-theme",
+    "fetcher": "github",
+    "repo": "developernotes/twilight-theme"
+  }
+}

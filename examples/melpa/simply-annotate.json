@@ -1,0 +1,18 @@
+{
+  "id": 998389082,
+  "name": "captainflasmr/simply-annotate",
+  "description": "Lightweight annotation system in Emacs",
+  "url": "https://github.com/captainflasmr/simply-annotate",
+  "stars": 43,
+  "updated": "2026-11-03T09:39:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simply-annotate",
+    "fetcher": "github",
+    "repo": "captainflasmr/simply-annotate"
+  }
+}

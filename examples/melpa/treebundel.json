@@ -1,0 +1,18 @@
+{
+  "id": 620037500,
+  "name": "purplg/treebundel",
+  "description": "Exploit git-worktrees to create inter-related project workspaces.",
+  "url": "https://github.com/purplg/treebundel",
+  "stars": 38,
+  "updated": "2026-08-07T22:17:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "treebundel",
+    "fetcher": "github",
+    "repo": "purplg/treebundel"
+  }
+}

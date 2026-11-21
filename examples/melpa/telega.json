@@ -1,0 +1,19 @@
+{
+  "id": 73935617,
+  "name": "zevlg/telega.el",
+  "description": "GNU Emacs telegram client (unofficial)",
+  "url": "https://github.com/zevlg/telega.el",
+  "stars": 1274,
+  "updated": "2026-11-20T08:20:15Z",
+  "archived": false,
+  "topics": ["emacs", "gnu-emacs", "guix", "tdlib", "telegram"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "telega",
+    "fetcher": "github",
+    "repo": "zevlg/telega.el",
+    "files": "(:defaults \"etc\" \"server\" \"contrib\" \"Makefile\")"
+  }
+}

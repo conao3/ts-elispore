@@ -1,0 +1,18 @@
+{
+  "id": 6499751,
+  "name": "vapniks/simple-call-tree",
+  "description": "Extension to simple-call-tree.el - emacs lisp code for displaying a simple call tree.",
+  "url": "https://github.com/vapniks/simple-call-tree",
+  "stars": 20,
+  "updated": "2026-08-13T19:00:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simple-call-tree",
+    "fetcher": "github",
+    "repo": "vapniks/simple-call-tree"
+  }
+}

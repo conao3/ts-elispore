@@ -1,0 +1,18 @@
+{
+  "id": 537655517,
+  "name": "rberaldo/tesouro.el",
+  "description": "Brazilian Portuguese thesaurus for Emacs, queries dicio.com.br.",
+  "url": "https://github.com/rberaldo/tesouro.el",
+  "stars": 1,
+  "updated": "2023-05-12T11:53:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tesouro",
+    "fetcher": "github",
+    "repo": "rberaldo/tesouro.el"
+  }
+}

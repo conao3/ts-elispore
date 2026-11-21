@@ -1,0 +1,18 @@
+{
+  "id": 578699915,
+  "name": "dunmaksim/emacs-russian-techwriter-input-method",
+  "description": "Метод ввода EMACS для технических писателей",
+  "url": "https://github.com/dunmaksim/emacs-russian-techwriter-input-method",
+  "stars": 4,
+  "updated": "2026-01-01T12:10:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "russian-techwriter",
+    "fetcher": "github",
+    "repo": "dunmaksim/emacs-russian-techwriter-input-method"
+  }
+}

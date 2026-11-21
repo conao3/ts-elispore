@@ -1,0 +1,18 @@
+{
+  "id": 775688933,
+  "name": "sstraust/shannonmax",
+  "description": "maximize your keybinding efficiency in emacs!",
+  "url": "https://github.com/sstraust/shannonmax",
+  "stars": 129,
+  "updated": "2026-05-05T14:26:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shannon-max",
+    "fetcher": "github",
+    "repo": "sstraust/shannonmax"
+  }
+}

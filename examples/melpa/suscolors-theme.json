@@ -1,0 +1,18 @@
+{
+  "id": 50496333,
+  "name": "TheSuspiciousWombat/SusColors-emacs",
+  "description": "Colorful theme for Emacs, Inspired by Gruvbox.",
+  "url": "https://github.com/TheSuspiciousWombat/SusColors-emacs",
+  "stars": 13,
+  "updated": "2019-07-13T10:09:16Z",
+  "archived": false,
+  "topics": ["color-theme", "emacs", "theme"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "suscolors-theme",
+    "fetcher": "github",
+    "repo": "TheSuspiciousWombat/SusColors-emacs"
+  }
+}

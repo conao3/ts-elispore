@@ -1,0 +1,18 @@
+{
+  "id": 101505043,
+  "name": "AdamNiederer/s12cpuv2-mode",
+  "description": "A major mode for S12CPUV2 assembly language",
+  "url": "https://github.com/AdamNiederer/s12cpuv2-mode",
+  "stars": 0,
+  "updated": "2017-10-13T20:52:03Z",
+  "archived": false,
+  "topics": ["assembly", "embedded", "freescale", "microcontroller", "s12cpuv2"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "s12cpuv2-mode",
+    "fetcher": "github",
+    "repo": "AdamNiederer/s12cpuv2-mode"
+  }
+}

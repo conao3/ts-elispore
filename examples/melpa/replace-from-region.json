@@ -1,0 +1,18 @@
+{
+  "id": 58030163,
+  "name": "rubikitch/replace-from-region",
+  "description": "",
+  "url": "https://github.com/rubikitch/replace-from-region",
+  "stars": 1,
+  "updated": "2024-02-24T00:52:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "replace-from-region",
+    "fetcher": "github",
+    "repo": "rubikitch/replace-from-region"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 30004263,
+  "name": "rust-lang/rust-mode",
+  "description": "Emacs configuration for Rust",
+  "url": "https://github.com/rust-lang/rust-mode",
+  "stars": 1277,
+  "updated": "2026-10-02T14:39:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "rust-mode",
+    "fetcher": "github",
+    "repo": "rust-lang/rust-mode"
+  }
+}

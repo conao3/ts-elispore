@@ -1,0 +1,18 @@
+{
+  "id": 58480110,
+  "name": "Benaiah/say-what-im-doing",
+  "description": "Minor mode to make emacs narrate your editing.",
+  "url": "https://github.com/Benaiah/say-what-im-doing",
+  "stars": 6,
+  "updated": "2016-07-06T19:31:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "say-what-im-doing",
+    "fetcher": "github",
+    "repo": "Benaiah/say-what-im-doing"
+  }
+}

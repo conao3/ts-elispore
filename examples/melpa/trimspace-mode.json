@@ -1,0 +1,18 @@
+{
+  "id": 868208429,
+  "name": "bkhl/trimspace-mode",
+  "description": "Emacs minor mode to trim trailing whitespace/newlines on save",
+  "url": "https://github.com/bkhl/trimspace-mode",
+  "stars": 0,
+  "updated": "2024-10-05T20:10:44Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "trimspace-mode",
+    "fetcher": "github",
+    "repo": "bkhl/trimspace-mode"
+  }
+}

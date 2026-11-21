@@ -1,0 +1,18 @@
+{
+  "id": 153017712,
+  "name": "ianyepan/tron-legacy-emacs-theme",
+  "description": "Original retro-futuristic theme inspired by Tron: Legacy",
+  "url": "https://github.com/ianyepan/tron-legacy-emacs-theme",
+  "stars": 248,
+  "updated": "2026-06-10T19:12:34Z",
+  "archived": false,
+  "topics": ["emacs", "theme", "tron"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tron-legacy-theme",
+    "fetcher": "github",
+    "repo": "ianyepan/tron-legacy-emacs-theme"
+  }
+}

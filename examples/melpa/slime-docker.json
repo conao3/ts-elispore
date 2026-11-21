@@ -1,0 +1,19 @@
+{
+  "id": 52187580,
+  "name": "cl-docker-images/slime-docker",
+  "description": "Emacs package to make it easy to launch and connect to a Lisp process in a docker container with SLIME.",
+  "url": "https://github.com/cl-docker-images/slime-docker",
+  "stars": 45,
+  "updated": "2021-04-26T14:25:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "slime-docker",
+    "fetcher": "github",
+    "repo": "cl-docker-images/slime-docker",
+    "files": "(:defaults \"bin\" \"resources\")"
+  }
+}

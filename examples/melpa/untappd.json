@@ -1,0 +1,18 @@
+{
+  "id": 393163351,
+  "name": "smallwat3r/untappd.el",
+  "description": "Display your latest Untappd feed in Emacs 🍻",
+  "url": "https://github.com/smallwat3r/untappd.el",
+  "stars": 4,
+  "updated": "2025-01-12T16:06:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "untappd",
+    "fetcher": "github",
+    "repo": "smallwat3r/untappd.el"
+  }
+}

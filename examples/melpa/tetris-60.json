@@ -1,0 +1,18 @@
+{
+  "id": 1187021139,
+  "name": "suxiaogang223/tetris-60",
+  "description": "",
+  "url": "https://github.com/suxiaogang223/tetris-60",
+  "stars": 3,
+  "updated": "2026-03-30T16:30:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tetris-60",
+    "fetcher": "github",
+    "repo": "suxiaogang223/tetris-60"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 24642411,
+  "name": "tacit7/smyx",
+  "description": "",
+  "url": "https://github.com/tacit7/smyx",
+  "stars": 34,
+  "updated": "2024-09-14T12:00:47Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smyx-theme",
+    "fetcher": "github",
+    "repo": "tacit7/smyx"
+  }
+}

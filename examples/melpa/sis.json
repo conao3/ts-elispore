@@ -1,0 +1,18 @@
+{
+  "id": 251196602,
+  "name": "laishulu/emacs-smart-input-source",
+  "description": "Minimize manual input source (input method) switching.",
+  "url": "https://github.com/laishulu/emacs-smart-input-source",
+  "stars": 303,
+  "updated": "2026-11-20T06:13:38Z",
+  "archived": false,
+  "topics": ["emacs", "evil", "fcitx", "input-method", "linux", "macos", "windows"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sis",
+    "fetcher": "github",
+    "repo": "laishulu/emacs-smart-input-source"
+  }
+}

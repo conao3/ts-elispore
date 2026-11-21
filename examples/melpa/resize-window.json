@@ -1,0 +1,18 @@
+{
+  "id": 46605254,
+  "name": "dpsutton/resize-window",
+  "description": "easily resize windows in emacs",
+  "url": "https://github.com/dpsutton/resize-window",
+  "stars": 55,
+  "updated": "2018-09-28T07:35:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "resize-window",
+    "fetcher": "github",
+    "repo": "dpsutton/resize-window"
+  }
+}

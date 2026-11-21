@@ -1,0 +1,18 @@
+{
+  "id": 983362826,
+  "name": "taquangtrung/emacs-scallop-mode",
+  "description": "Major mode for editing Scallop programming language.",
+  "url": "https://github.com/taquangtrung/emacs-scallop-mode",
+  "stars": 1,
+  "updated": "2025-06-20T18:10:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scallop-mode",
+    "fetcher": "github",
+    "repo": "taquangtrung/emacs-scallop-mode"
+  }
+}

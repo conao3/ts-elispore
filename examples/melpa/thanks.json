@@ -1,0 +1,18 @@
+{
+  "id": 1051243749,
+  "name": "FrostyX/thanks",
+  "description": "Say thanks to the authors of all your installed packages",
+  "url": "https://github.com/FrostyX/thanks",
+  "stars": 30,
+  "updated": "2025-10-26T11:08:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "thanks",
+    "fetcher": "github",
+    "repo": "FrostyX/thanks"
+  }
+}

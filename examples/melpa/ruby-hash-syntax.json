@@ -1,0 +1,18 @@
+{
+  "id": 9148151,
+  "name": "purcell/ruby-hash-syntax",
+  "description": "In Emacs, toggle ruby hash syntax between classic and 1.9 styles",
+  "url": "https://github.com/purcell/ruby-hash-syntax",
+  "stars": 23,
+  "updated": "2026-04-22T12:28:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ruby-hash-syntax",
+    "fetcher": "github",
+    "repo": "purcell/ruby-hash-syntax"
+  }
+}

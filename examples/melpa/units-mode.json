@@ -1,0 +1,18 @@
+{
+  "id": 529666432,
+  "name": "Atreyagaurav/units-mode",
+  "description": "Unit conversion in emacs using gnu units",
+  "url": "https://github.com/Atreyagaurav/units-mode",
+  "stars": 9,
+  "updated": "2022-10-27T03:03:32Z",
+  "archived": false,
+  "topics": ["emacs", "unit-conversion", "unit-converter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "units-mode",
+    "fetcher": "github",
+    "repo": "Atreyagaurav/units-mode"
+  }
+}

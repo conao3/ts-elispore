@@ -1,0 +1,19 @@
+{
+  "id": 8590510,
+  "name": "rags/toggle-test",
+  "description": "Language agnostic test toggle functionality for Emacs",
+  "url": "https://github.com/rags/toggle-test",
+  "stars": 13,
+  "updated": "2015-11-20T18:51:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "toggle-test",
+    "fetcher": "github",
+    "repo": "rags/toggle-test",
+    "files": "(\"toggle-test.el\")"
+  }
+}

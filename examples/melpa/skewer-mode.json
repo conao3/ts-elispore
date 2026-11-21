@@ -1,0 +1,19 @@
+{
+  "id": 6327680,
+  "name": "skeeto/skewer-mode",
+  "description": "Live web development in Emacs",
+  "url": "https://github.com/skeeto/skewer-mode",
+  "stars": 1128,
+  "updated": "2026-09-04T00:10:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "skewer-mode",
+    "fetcher": "github",
+    "repo": "skeeto/skewer-mode",
+    "files": "(\"*.html\" \"*.js\" \"*.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 8128516,
+  "name": "moricard/requirejs-mode",
+  "description": "requireJS minore mode for emacs",
+  "url": "https://github.com/moricard/requirejs-mode",
+  "stars": 3,
+  "updated": "2013-02-16T19:29:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "requirejs-mode",
+    "fetcher": "github",
+    "repo": "moricard/requirejs-mode"
+  }
+}

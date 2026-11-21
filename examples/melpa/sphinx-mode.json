@@ -1,0 +1,18 @@
+{
+  "id": 67928560,
+  "name": "Fuco1/sphinx-mode",
+  "description": "Minor mode providing sphinx support.",
+  "url": "https://github.com/Fuco1/sphinx-mode",
+  "stars": 19,
+  "updated": "2025-05-11T20:23:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sphinx-mode",
+    "fetcher": "github",
+    "repo": "Fuco1/sphinx-mode"
+  }
+}

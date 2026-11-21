@@ -1,0 +1,18 @@
+{
+  "id": 69242820,
+  "name": "nlamirault/socyl",
+  "description": "The emacs frontend for several search tools (ag, pt, sift, ripgrep, ...)",
+  "url": "https://github.com/nlamirault/socyl",
+  "stars": 16,
+  "updated": "2022-01-14T14:38:37Z",
+  "archived": false,
+  "topics": ["ag", "emacs", "pt", "ripgrep", "sift"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "socyl",
+    "fetcher": "github",
+    "repo": "nlamirault/socyl"
+  }
+}

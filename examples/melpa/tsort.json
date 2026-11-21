@@ -1,0 +1,18 @@
+{
+  "id": 696559739,
+  "name": "echawk/tsort.el",
+  "description": "Topological sort in Emacs Lisp.",
+  "url": "https://github.com/echawk/tsort.el",
+  "stars": 3,
+  "updated": "2024-04-17T01:20:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tsort",
+    "fetcher": "github",
+    "repo": "echawk/tsort.el"
+  }
+}

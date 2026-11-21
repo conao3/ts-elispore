@@ -1,0 +1,18 @@
+{
+  "id": 5742598,
+  "name": "nicferrier/emacs-uuid",
+  "description": "The UUID module from the EmacsWiki, initially by someone called James Mastros.",
+  "url": "https://github.com/nicferrier/emacs-uuid",
+  "stars": 12,
+  "updated": "2012-09-10T08:51:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "uuid",
+    "fetcher": "github",
+    "repo": "nicferrier/emacs-uuid"
+  }
+}

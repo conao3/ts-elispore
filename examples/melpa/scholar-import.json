@@ -1,0 +1,18 @@
+{
+  "id": 487870466,
+  "name": "teeann/scholar-import",
+  "description": "Emacs package to import Bibtex & PDF from Google Scholar",
+  "url": "https://github.com/teeann/scholar-import",
+  "stars": 13,
+  "updated": "2026-11-18T21:42:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scholar-import",
+    "fetcher": "github",
+    "repo": "teeann/scholar-import"
+  }
+}

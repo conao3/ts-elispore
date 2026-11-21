@@ -1,0 +1,18 @@
+{
+  "id": 30983036,
+  "name": "yyr/tinkerer.el",
+  "description": "Elisp wrapper for Tinkerer Blogging Engine.",
+  "url": "https://github.com/yyr/tinkerer.el",
+  "stars": 2,
+  "updated": "2020-09-14T17:57:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tinkerer",
+    "fetcher": "github",
+    "repo": "yyr/tinkerer.el"
+  }
+}

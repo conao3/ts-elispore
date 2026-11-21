@@ -1,0 +1,18 @@
+{
+  "id": 1117659075,
+  "name": "Duncan-Britt/srs.el",
+  "description": "Spaced repetition system for emacs.",
+  "url": "https://github.com/Duncan-Britt/srs.el",
+  "stars": 17,
+  "updated": "2026-08-05T02:32:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "srs",
+    "fetcher": "github",
+    "repo": "Duncan-Britt/srs.el"
+  }
+}

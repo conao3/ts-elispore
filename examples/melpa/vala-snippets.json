@@ -1,0 +1,19 @@
+{
+  "id": 33343668,
+  "name": "gopar/vala-snippets",
+  "description": "Yasnippet to use with Vala",
+  "url": "https://github.com/gopar/vala-snippets",
+  "stars": 3,
+  "updated": "2015-04-29T03:52:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vala-snippets",
+    "fetcher": "github",
+    "repo": "gopar/vala-snippets",
+    "files": "(:defaults \"snippets\")"
+  }
+}

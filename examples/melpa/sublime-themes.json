@@ -1,0 +1,19 @@
+{
+  "id": 9149372,
+  "name": "owainlewis/emacs-color-themes",
+  "description": "A collection of custom themes for Emacs. All the themes are named after famous programmers.",
+  "url": "https://github.com/owainlewis/emacs-color-themes",
+  "stars": 509,
+  "updated": "2026-07-05T20:32:36Z",
+  "archived": false,
+  "topics": ["color-theme", "dark-theme", "emacs", "emacs-lisp", "emacs-themes"],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sublime-themes",
+    "fetcher": "github",
+    "repo": "owainlewis/emacs-color-themes",
+    "files": "(\"themes/*.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1158814589,
+  "name": "Enfors/solo-rpg",
+  "description": "Solo-rpg-mode is an Emacs minor-mode which has support functions for playing solo roleplaying games inside Emacs, such as dice rolling, oracles, etc.",
+  "url": "https://github.com/Enfors/solo-rpg",
+  "stars": 15,
+  "updated": "2026-05-21T14:41:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "solo-rpg",
+    "fetcher": "github",
+    "repo": "Enfors/solo-rpg"
+  }
+}

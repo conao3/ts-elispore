@@ -1,0 +1,18 @@
+{
+  "id": 1123984106,
+  "name": "yoshinari-nomura/scad-ts-mode",
+  "description": "Emacs OpenSCAD mode with Tree-sitter support",
+  "url": "https://github.com/yoshinari-nomura/scad-ts-mode",
+  "stars": 5,
+  "updated": "2026-04-18T04:10:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scad-ts-mode",
+    "fetcher": "github",
+    "repo": "yoshinari-nomura/scad-ts-mode"
+  }
+}

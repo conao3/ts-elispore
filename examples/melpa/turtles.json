@@ -1,0 +1,18 @@
+{
+  "id": 903856088,
+  "name": "szermatt/turtles",
+  "description": "Library for writing ERT-based tests that check how Emacs renders buffers and windows",
+  "url": "https://github.com/szermatt/turtles",
+  "stars": 7,
+  "updated": "2026-11-05T13:51:12Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "testing"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "turtles",
+    "fetcher": "github",
+    "repo": "szermatt/turtles"
+  }
+}

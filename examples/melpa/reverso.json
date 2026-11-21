@@ -1,0 +1,18 @@
+{
+  "id": 525051052,
+  "name": "SqrtMinusOne/reverso.el",
+  "description": "Emacs client for https://www.reverso.net/: translation, grammar check, context and synonyms search",
+  "url": "https://github.com/SqrtMinusOne/reverso.el",
+  "stars": 52,
+  "updated": "2026-08-01T12:40:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "reverso",
+    "fetcher": "github",
+    "repo": "SqrtMinusOne/reverso.el"
+  }
+}

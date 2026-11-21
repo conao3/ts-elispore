@@ -1,0 +1,18 @@
+{
+  "id": 243938746,
+  "name": "xuchunyang/tongbu.el",
+  "description": "Share text/file between your computer and phone",
+  "url": "https://github.com/xuchunyang/tongbu.el",
+  "stars": 16,
+  "updated": "2021-11-04T11:47:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tongbu",
+    "fetcher": "github",
+    "repo": "xuchunyang/tongbu.el"
+  }
+}

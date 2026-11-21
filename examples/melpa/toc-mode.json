@@ -1,0 +1,18 @@
+{
+  "id": 279952602,
+  "name": "dalanicolai/toc-mode",
+  "description": "Create, cleanup, add and manage Table Of Contents (TOC) of pdf and djvu documents with Emacs",
+  "url": "https://github.com/dalanicolai/toc-mode",
+  "stars": 38,
+  "updated": "2022-10-30T13:09:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "toc-mode",
+    "fetcher": "github",
+    "repo": "dalanicolai/toc-mode"
+  }
+}

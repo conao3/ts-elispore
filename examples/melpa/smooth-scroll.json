@@ -1,0 +1,18 @@
+{
+  "id": 1011063,
+  "name": "k-talo/smooth-scroll.el",
+  "description": "Minor mode for smooth scrolling and in-place scrolling. STATUS: *STABLE*",
+  "url": "https://github.com/k-talo/smooth-scroll.el",
+  "stars": 19,
+  "updated": "2024-09-14T04:20:56Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smooth-scroll",
+    "fetcher": "github",
+    "repo": "k-talo/smooth-scroll.el"
+  }
+}

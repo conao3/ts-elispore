@@ -1,0 +1,18 @@
+{
+  "id": 86757845,
+  "name": "domtronn/spaceline-all-the-icons.el",
+  "description": "A Spaceline Mode Line theme using All The Icons for Emacs",
+  "url": "https://github.com/domtronn/spaceline-all-the-icons.el",
+  "stars": 234,
+  "updated": "2022-10-08T17:47:54Z",
+  "archived": false,
+  "topics": ["emacs", "font-icons", "mode-line"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "spaceline-all-the-icons",
+    "fetcher": "github",
+    "repo": "domtronn/spaceline-all-the-icons.el"
+  }
+}

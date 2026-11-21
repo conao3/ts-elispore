@@ -1,0 +1,18 @@
+{
+  "id": 326233948,
+  "name": "bard/emacs-run-command",
+  "description": "Efficient and ergonomic external command invocation for Emacs",
+  "url": "https://github.com/bard/emacs-run-command",
+  "stars": 105,
+  "updated": "2023-04-29T09:12:08Z",
+  "archived": false,
+  "topics": ["emacs", "helm", "integration", "ivy"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "run-command",
+    "fetcher": "github",
+    "repo": "bard/emacs-run-command"
+  }
+}

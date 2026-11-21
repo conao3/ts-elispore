@@ -1,0 +1,18 @@
+{
+  "id": 6056071,
+  "name": "sprintly/sprintly-mode",
+  "description": "An emacs mode for interacting with sprintly",
+  "url": "https://github.com/sprintly/sprintly-mode",
+  "stars": 2,
+  "updated": "2012-10-06T05:35:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sprintly-mode",
+    "fetcher": "github",
+    "repo": "sprintly/sprintly-mode"
+  }
+}

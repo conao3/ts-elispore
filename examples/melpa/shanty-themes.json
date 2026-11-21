@@ -1,0 +1,18 @@
+{
+  "id": 456714328,
+  "name": "qhga/shanty-themes",
+  "description": "The shanty emacs theme is meant for us, you and me - the workers - who may not get dirty hands very often but love to code and tinker while looking at a screen full of pleasant colors.",
+  "url": "https://github.com/qhga/shanty-themes",
+  "stars": 33,
+  "updated": "2023-01-23T21:16:32Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-theme", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shanty-themes",
+    "fetcher": "github",
+    "repo": "qhga/shanty-themes"
+  }
+}

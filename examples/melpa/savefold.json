@@ -1,0 +1,18 @@
+{
+  "id": 950304371,
+  "name": "jcfk/savefold.el",
+  "description": "persistence for various emacs folding systems",
+  "url": "https://github.com/jcfk/savefold.el",
+  "stars": 41,
+  "updated": "2025-10-02T09:25:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "savefold",
+    "fetcher": "github",
+    "repo": "jcfk/savefold.el"
+  }
+}

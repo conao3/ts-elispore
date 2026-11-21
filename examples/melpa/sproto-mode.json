@@ -1,0 +1,18 @@
+{
+  "id": 46202049,
+  "name": "m2q1n9/sproto-mode",
+  "description": "Emacs major mode for editing sproto.",
+  "url": "https://github.com/m2q1n9/sproto-mode",
+  "stars": 1,
+  "updated": "2015-12-08T04:03:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sproto-mode",
+    "fetcher": "github",
+    "repo": "m2q1n9/sproto-mode"
+  }
+}

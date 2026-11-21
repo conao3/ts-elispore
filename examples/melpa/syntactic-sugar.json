@@ -1,0 +1,18 @@
+{
+  "id": 6395680,
+  "name": "rolandwalker/syntactic-sugar",
+  "description": "Effect-free forms such as if/then/else for Emacs Lisp.",
+  "url": "https://github.com/rolandwalker/syntactic-sugar",
+  "stars": 2,
+  "updated": "2014-08-04T19:23:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "syntactic-sugar",
+    "fetcher": "github",
+    "repo": "rolandwalker/syntactic-sugar"
+  }
+}

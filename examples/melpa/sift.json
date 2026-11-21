@@ -1,0 +1,19 @@
+{
+  "id": 46056265,
+  "name": "nlamirault/sift.el",
+  "description": "A front-end for sift",
+  "url": "https://github.com/nlamirault/sift.el",
+  "stars": 7,
+  "updated": "2022-01-14T14:41:08Z",
+  "archived": false,
+  "topics": ["emacs", "sift"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sift",
+    "fetcher": "github",
+    "repo": "nlamirault/sift.el",
+    "files": "(\"sift.el\")"
+  }
+}

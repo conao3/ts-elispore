@@ -1,0 +1,18 @@
+{
+  "id": 506101651,
+  "name": "emacs-sideline/sideline-flymake",
+  "description": "Show flymake errors with sideline",
+  "url": "https://github.com/emacs-sideline/sideline-flymake",
+  "stars": 37,
+  "updated": "2026-06-18T17:30:56Z",
+  "archived": false,
+  "topics": ["flymake", "sideline"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sideline-flymake",
+    "fetcher": "github",
+    "repo": "emacs-sideline/sideline-flymake"
+  }
+}

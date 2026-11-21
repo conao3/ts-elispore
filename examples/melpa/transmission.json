@@ -1,0 +1,18 @@
+{
+  "id": 28607947,
+  "name": "holomorph/transmission",
+  "description": "Emacs interface to a Transmission session",
+  "url": "https://github.com/holomorph/transmission",
+  "stars": 91,
+  "updated": "2025-05-24T03:42:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "transmission",
+    "fetcher": "github",
+    "repo": "holomorph/transmission"
+  }
+}

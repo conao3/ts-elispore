@@ -1,0 +1,18 @@
+{
+  "id": 577840940,
+  "name": "meain/scopeline.el",
+  "description": "Show info about the block at the end of the block",
+  "url": "https://github.com/meain/scopeline.el",
+  "stars": 43,
+  "updated": "2025-01-20T03:45:22Z",
+  "archived": false,
+  "topics": ["emacs", "tree-sitter"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scopeline",
+    "fetcher": "github",
+    "repo": "meain/scopeline.el"
+  }
+}

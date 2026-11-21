@@ -1,0 +1,18 @@
+{
+  "id": 251430043,
+  "name": "mtreca/emacs-theme-sorcery",
+  "description": "A D&D (Dark and Dusty) Emacs Theme.",
+  "url": "https://github.com/mtreca/emacs-theme-sorcery",
+  "stars": 16,
+  "updated": "2021-01-03T18:38:02Z",
+  "archived": false,
+  "topics": ["dark-theme", "emacs", "emacs-theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sorcery-theme",
+    "fetcher": "github",
+    "repo": "mtreca/emacs-theme-sorcery"
+  }
+}

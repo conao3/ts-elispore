@@ -1,0 +1,18 @@
+{
+  "id": 62859530,
+  "name": "pkmoore/strace-mode",
+  "description": "Emacs mode for strace",
+  "url": "https://github.com/pkmoore/strace-mode",
+  "stars": 15,
+  "updated": "2017-11-21T16:49:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "strace-mode",
+    "fetcher": "github",
+    "repo": "pkmoore/strace-mode"
+  }
+}

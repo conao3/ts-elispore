@@ -1,0 +1,18 @@
+{
+  "id": 98756520,
+  "name": "anmonteiro/snoopy-mode",
+  "description": "Minor mode for number row unshifted character insertion in Emacs",
+  "url": "https://github.com/anmonteiro/snoopy-mode",
+  "stars": 10,
+  "updated": "2017-10-08T20:04:39Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "snoopy",
+    "fetcher": "github",
+    "repo": "anmonteiro/snoopy-mode"
+  }
+}

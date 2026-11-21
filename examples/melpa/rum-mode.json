@@ -1,0 +1,18 @@
+{
+  "id": 113881290,
+  "name": "rumlang/rum-mode",
+  "description": "Emacs major mode for editing Rum",
+  "url": "https://github.com/rumlang/rum-mode",
+  "stars": 2,
+  "updated": "2019-10-04T11:19:53Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode", "emacs-packages", "rum", "rum-lang"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "rum-mode",
+    "fetcher": "github",
+    "repo": "rumlang/rum-mode"
+  }
+}

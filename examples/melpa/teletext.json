@@ -1,0 +1,18 @@
+{
+  "id": 251750950,
+  "name": "lassik/emacs-teletext",
+  "description": "Read teletext pages in Emacs",
+  "url": "https://github.com/lassik/emacs-teletext",
+  "stars": 2,
+  "updated": "2023-12-15T15:25:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "teletext",
+    "fetcher": "github",
+    "repo": "lassik/emacs-teletext"
+  }
+}

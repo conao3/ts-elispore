@@ -1,0 +1,18 @@
+{
+  "id": 1145541717,
+  "name": "wmedrano/ttx-mode",
+  "description": "View otf/ttf files in Emacs",
+  "url": "https://github.com/wmedrano/ttx-mode",
+  "stars": 4,
+  "updated": "2026-09-22T02:50:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ttx-mode",
+    "fetcher": "github",
+    "repo": "wmedrano/ttx-mode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 47024553,
+  "name": "rbanffy/selectric-mode",
+  "description": "⌨ Make your Emacs sound like a proper typewriter.",
+  "url": "https://github.com/rbanffy/selectric-mode",
+  "stars": 169,
+  "updated": "2020-10-21T14:54:07Z",
+  "archived": false,
+  "topics": ["emacs-sound", "melpa", "sound", "typewriter"],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "selectric-mode",
+    "fetcher": "github",
+    "repo": "rbanffy/selectric-mode",
+    "files": "(:defaults \"*.wav\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 234494947,
+  "name": "leafOfTree/svelte-mode",
+  "description": "Emacs major mode for Svelte.",
+  "url": "https://github.com/leafOfTree/svelte-mode",
+  "stars": 94,
+  "updated": "2026-10-20T01:48:42Z",
+  "archived": false,
+  "topics": ["emacs", "indent", "mode", "svelte", "svelte-mode", "syntax"],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "svelte-mode",
+    "fetcher": "github",
+    "repo": "leafOfTree/svelte-mode"
+  }
+}

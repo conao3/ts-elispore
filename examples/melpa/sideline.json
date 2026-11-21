@@ -1,0 +1,18 @@
+{
+  "id": 502982445,
+  "name": "emacs-sideline/sideline",
+  "description": "Show information on the side",
+  "url": "https://github.com/emacs-sideline/sideline",
+  "stars": 194,
+  "updated": "2026-07-16T03:49:03Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-lisp", "sideline"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sideline",
+    "fetcher": "github",
+    "repo": "emacs-sideline/sideline"
+  }
+}

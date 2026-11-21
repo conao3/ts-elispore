@@ -1,0 +1,18 @@
+{
+  "id": 22694408,
+  "name": "Malabarba/rich-minority",
+  "description": "Emacs package for hiding and/or highlighting the list of minor-modes in the mode-line.",
+  "url": "https://github.com/Malabarba/rich-minority",
+  "stars": 111,
+  "updated": "2024-09-24T23:17:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rich-minority",
+    "fetcher": "github",
+    "repo": "Malabarba/rich-minority"
+  }
+}

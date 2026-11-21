@@ -1,0 +1,18 @@
+{
+  "id": 187888567,
+  "name": "mbeutelspacher/ros.el",
+  "description": "A package to ease the interaction ROS nodes and the development of ROS software",
+  "url": "https://github.com/mbeutelspacher/ros.el",
+  "stars": 14,
+  "updated": "2025-02-24T09:43:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ros",
+    "fetcher": "github",
+    "repo": "mbeutelspacher/ros.el"
+  }
+}

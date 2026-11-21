@@ -1,0 +1,18 @@
+{
+  "id": 91599310,
+  "name": "justbur/emacs-vdiff-magit",
+  "description": "Magit integration for vdiff",
+  "url": "https://github.com/justbur/emacs-vdiff-magit",
+  "stars": 34,
+  "updated": "2026-09-21T14:54:22Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-packages", "magit"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vdiff-magit",
+    "fetcher": "github",
+    "repo": "justbur/emacs-vdiff-magit"
+  }
+}

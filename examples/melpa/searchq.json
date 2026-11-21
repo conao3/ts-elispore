@@ -1,0 +1,19 @@
+{
+  "id": 29357354,
+  "name": "tcw165/searchq",
+  "description": "Emacs - Queue the search tasks, run them in the background and make result as jotting",
+  "url": "https://github.com/tcw165/searchq",
+  "stars": 2,
+  "updated": "2015-08-29T12:11:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "searchq",
+    "fetcher": "github",
+    "repo": "tcw165/searchq",
+    "files": "(:defaults (\"images\" \"images/*.xpm\" \"images/*.png\"))"
+  }
+}

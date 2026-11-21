@@ -1,0 +1,19 @@
+{
+  "id": 1311496269,
+  "name": "kickingvegas/shazam",
+  "description": "An Emacs interface to the Shazam music recognition feature on macOS.",
+  "url": "https://github.com/kickingvegas/shazam",
+  "stars": 3,
+  "updated": "2026-11-07T19:54:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shazam",
+    "fetcher": "github",
+    "repo": "kickingvegas/shazam",
+    "files": "(:defaults \"docs/images\")"
+  }
+}

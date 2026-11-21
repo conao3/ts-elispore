@@ -1,0 +1,18 @@
+{
+  "id": 37440484,
+  "name": "ianxm/emacs-uml",
+  "description": "emacs minor mode for editing ascii uml sequence diagrams",
+  "url": "https://github.com/ianxm/emacs-uml",
+  "stars": 26,
+  "updated": "2020-01-30T11:20:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "uml-mode",
+    "fetcher": "github",
+    "repo": "ianxm/emacs-uml"
+  }
+}

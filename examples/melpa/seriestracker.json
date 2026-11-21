@@ -1,0 +1,18 @@
+{
+  "id": 372981495,
+  "name": "MaximeWack/seriestracker",
+  "description": "A series tracker for emacs",
+  "url": "https://github.com/MaximeWack/seriestracker",
+  "stars": 20,
+  "updated": "2025-03-16T07:24:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "seriestracker",
+    "fetcher": "github",
+    "repo": "MaximeWack/seriestracker"
+  }
+}

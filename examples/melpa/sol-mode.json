@@ -1,0 +1,18 @@
+{
+  "id": 979009547,
+  "name": "nlordell/sol-mode",
+  "description": "Emacs major mode for editing Solidity code.",
+  "url": "https://github.com/nlordell/sol-mode",
+  "stars": 1,
+  "updated": "2026-07-31T08:11:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sol-mode",
+    "fetcher": "github",
+    "repo": "nlordell/sol-mode"
+  }
+}

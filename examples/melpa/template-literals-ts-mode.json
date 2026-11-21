@@ -1,0 +1,18 @@
+{
+  "id": 1150096514,
+  "name": "ispringle/template-literals-ts-mode",
+  "description": "Tree-sitter based syntax highlighting and indentation for HTML and CSS inside JavaScript/TypeScript tagged template literals.",
+  "url": "https://github.com/ispringle/template-literals-ts-mode",
+  "stars": 3,
+  "updated": "2026-02-18T16:32:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "0BSD",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "template-literals-ts-mode",
+    "fetcher": "github",
+    "repo": "ispringle/template-literals-ts-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 29358274,
+  "name": "DamienCassou/unify-opening",
+  "description": "Emacs package to make everything use the same mechanism to open files",
+  "url": "https://github.com/DamienCassou/unify-opening",
+  "stars": 6,
+  "updated": "2023-09-03T08:44:58Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-lisp", "helm", "runner"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unify-opening",
+    "fetcher": "github",
+    "repo": "DamienCassou/unify-opening"
+  }
+}

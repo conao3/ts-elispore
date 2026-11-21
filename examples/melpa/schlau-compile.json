@@ -1,0 +1,18 @@
+{
+  "id": 117383416,
+  "name": "flajann2/schlau-compile",
+  "description": "Schlau Compile extension for Emacs",
+  "url": "https://github.com/flajann2/schlau-compile",
+  "stars": 4,
+  "updated": "2026-09-13T14:41:37Z",
+  "archived": false,
+  "topics": ["compilation", "compile", "compiler-plugin", "elisp", "emacs-lisp", "extensions"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "schlau-compile",
+    "fetcher": "github",
+    "repo": "flajann2/schlau-compile"
+  }
+}

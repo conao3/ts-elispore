@@ -1,0 +1,18 @@
+{
+  "id": 349147565,
+  "name": "waymondo/transform-symbol-at-point",
+  "description": "Emacs package for transforming the symbol at point between camelcase, snakecase, upcase, downcase, etc",
+  "url": "https://github.com/waymondo/transform-symbol-at-point",
+  "stars": 11,
+  "updated": "2024-12-02T18:03:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "transform-symbol-at-point",
+    "fetcher": "github",
+    "repo": "waymondo/transform-symbol-at-point"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 14325896,
+  "name": "kawabata/emacs-trr",
+  "description": "a type-writing training program on GNU Emacs",
+  "url": "https://github.com/kawabata/emacs-trr",
+  "stars": 21,
+  "updated": "2019-10-19T14:04:43Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "trr",
+    "fetcher": "github",
+    "repo": "kawabata/emacs-trr",
+    "files": "(:defaults \"record\" \"text\" \"CONTENTS\")"
+  }
+}

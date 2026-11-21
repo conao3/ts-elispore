@@ -1,0 +1,18 @@
+{
+  "id": 897983057,
+  "name": "xenodium/symbol-overlay-mc",
+  "description": "Symbol overlay extensions for Emacs multiple cursors",
+  "url": "https://github.com/xenodium/symbol-overlay-mc",
+  "stars": 22,
+  "updated": "2024-12-28T14:22:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "symbol-overlay-mc",
+    "fetcher": "github",
+    "repo": "xenodium/symbol-overlay-mc"
+  }
+}

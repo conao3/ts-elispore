@@ -1,0 +1,18 @@
+{
+  "id": 770661339,
+  "name": "djgoku/sops",
+  "description": "Edit SOPS-encrypted files transparently in Emacs",
+  "url": "https://github.com/djgoku/sops",
+  "stars": 54,
+  "updated": "2026-09-20T22:03:24Z",
+  "archived": false,
+  "topics": ["decrypt", "devops", "emacs", "encrypt", "melpa", "security", "sops"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sops",
+    "fetcher": "github",
+    "repo": "djgoku/sops"
+  }
+}

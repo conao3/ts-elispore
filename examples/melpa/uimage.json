@@ -1,0 +1,18 @@
+{
+  "id": 43029176,
+  "name": "lujun9972/uimage",
+  "description": "a iimage like minor mode, but with the ability to display url images",
+  "url": "https://github.com/lujun9972/uimage",
+  "stars": 10,
+  "updated": "2016-09-01T12:21:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "uimage",
+    "fetcher": "github",
+    "repo": "lujun9972/uimage"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 41004010,
+  "name": "joeheyming/requirejs-emacs",
+  "description": "Uses js2-mode to make Emacs interact with your RequireJS project",
+  "url": "https://github.com/joeheyming/requirejs-emacs",
+  "stars": 11,
+  "updated": "2015-12-04T07:21:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "requirejs",
+    "fetcher": "github",
+    "repo": "joeheyming/requirejs-emacs",
+    "files": "(:defaults \"snippets\")"
+  }
+}

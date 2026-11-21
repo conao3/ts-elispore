@@ -1,0 +1,18 @@
+{
+  "id": 48849058,
+  "name": "lujun9972/el-start-menu",
+  "description": "start-menu for executing external program like in windows",
+  "url": "https://github.com/lujun9972/el-start-menu",
+  "stars": 7,
+  "updated": "2016-04-26T12:26:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "start-menu",
+    "fetcher": "github",
+    "repo": "lujun9972/el-start-menu"
+  }
+}

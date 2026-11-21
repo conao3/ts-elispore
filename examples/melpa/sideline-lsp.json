@@ -1,0 +1,18 @@
+{
+  "id": 505366318,
+  "name": "emacs-sideline/sideline-lsp",
+  "description": "Show lsp information with sideline",
+  "url": "https://github.com/emacs-sideline/sideline-lsp",
+  "stars": 22,
+  "updated": "2026-06-19T14:09:23Z",
+  "archived": false,
+  "topics": ["lsp", "sideline"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sideline-lsp",
+    "fetcher": "github",
+    "repo": "emacs-sideline/sideline-lsp"
+  }
+}

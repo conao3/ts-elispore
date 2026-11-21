@@ -1,0 +1,18 @@
+{
+  "id": 522781916,
+  "name": "emacsfodder/emacs-theme-vegetative",
+  "description": "",
+  "url": "https://github.com/emacsfodder/emacs-theme-vegetative",
+  "stars": 4,
+  "updated": "2022-09-20T15:49:45Z",
+  "archived": false,
+  "topics": ["emacs", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "vegetative-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-theme-vegetative"
+  }
+}

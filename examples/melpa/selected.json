@@ -1,0 +1,18 @@
+{
+  "id": 56839363,
+  "name": "Kungsgeten/selected.el",
+  "description": "Keymap for when region is active",
+  "url": "https://github.com/Kungsgeten/selected.el",
+  "stars": 137,
+  "updated": "2026-05-23T18:23:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "selected",
+    "fetcher": "github",
+    "repo": "Kungsgeten/selected.el"
+  }
+}

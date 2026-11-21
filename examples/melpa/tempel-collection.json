@@ -1,0 +1,19 @@
+{
+  "id": 525874043,
+  "name": "Crandel/tempel-collection",
+  "description": "Collection tempel templates",
+  "url": "https://github.com/Crandel/tempel-collection",
+  "stars": 90,
+  "updated": "2026-10-29T13:33:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tempel-collection",
+    "fetcher": "github",
+    "repo": "Crandel/tempel-collection",
+    "files": "(:defaults \"templates\")"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 43344837,
+  "name": "sshaw/ruby-factory-mode",
+  "description": "Emacs minor mode for Ruby test object generation libraries",
+  "url": "https://github.com/sshaw/ruby-factory-mode",
+  "stars": 3,
+  "updated": "2016-01-02T07:21:29Z",
+  "archived": false,
+  "topics": ["emacs", "fabrication", "factory-girl", "rbac", "rspec", "snippets", "yasnippet"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ruby-factory",
+    "fetcher": "github",
+    "repo": "sshaw/ruby-factory-mode",
+    "files": "(:defaults \"snippets\")"
+  }
+}

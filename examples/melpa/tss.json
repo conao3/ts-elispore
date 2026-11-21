@@ -1,0 +1,18 @@
+{
+  "id": 12008894,
+  "name": "aki2o/emacs-tss",
+  "description": "Provide a interface for auto-complete.el/flymake.el on typescript-mode.",
+  "url": "https://github.com/aki2o/emacs-tss",
+  "stars": 105,
+  "updated": "2015-09-13T14:08:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tss",
+    "fetcher": "github",
+    "repo": "aki2o/emacs-tss"
+  }
+}

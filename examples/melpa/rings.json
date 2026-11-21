@@ -1,0 +1,18 @@
+{
+  "id": 10833676,
+  "name": "konr/rings",
+  "description": "Not exactly tabs, not exactly bookmarks",
+  "url": "https://github.com/konr/rings",
+  "stars": 20,
+  "updated": "2016-05-31T20:27:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rings",
+    "fetcher": "github",
+    "repo": "konr/rings"
+  }
+}

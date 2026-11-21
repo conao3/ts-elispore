@@ -1,0 +1,18 @@
+{
+  "id": 144648237,
+  "name": "PythonNut/su.el",
+  "description": "Automatically read and write files using su or sudo",
+  "url": "https://github.com/PythonNut/su.el",
+  "stars": 16,
+  "updated": "2024-03-20T17:07:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "su",
+    "fetcher": "github",
+    "repo": "PythonNut/su.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 840873539,
+  "name": "tarsius/tray",
+  "description": "Transient menus for a wide variety of things [eventually, maybe]",
+  "url": "https://github.com/tarsius/tray",
+  "stars": 5,
+  "updated": "2026-11-12T11:24:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tray",
+    "fetcher": "github",
+    "repo": "tarsius/tray"
+  }
+}

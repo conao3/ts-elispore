@@ -1,0 +1,18 @@
+{
+  "id": 277247806,
+  "name": "maribunni/sweet-theme",
+  "description": "",
+  "url": "https://github.com/maribunni/sweet-theme",
+  "stars": 6,
+  "updated": "2020-08-02T21:20:16Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-packages", "emacs-theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sweet-theme",
+    "fetcher": "github",
+    "repo": "maribunni/sweet-theme"
+  }
+}

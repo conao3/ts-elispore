@@ -1,0 +1,18 @@
+{
+  "id": 5741504,
+  "name": "thisirs/vc-check-status",
+  "description": "Package that warns you when quitting emacs and leaving a repository dirty.",
+  "url": "https://github.com/thisirs/vc-check-status",
+  "stars": 5,
+  "updated": "2026-11-17T17:08:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vc-check-status",
+    "fetcher": "github",
+    "repo": "thisirs/vc-check-status"
+  }
+}

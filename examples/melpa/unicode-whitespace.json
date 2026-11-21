@@ -1,0 +1,18 @@
+{
+  "id": 5603713,
+  "name": "rolandwalker/unicode-whitespace",
+  "description": "Teach Emacs whitespace-mode about fancy characters",
+  "url": "https://github.com/rolandwalker/unicode-whitespace",
+  "stars": 7,
+  "updated": "2014-08-04T19:23:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unicode-whitespace",
+    "fetcher": "github",
+    "repo": "rolandwalker/unicode-whitespace"
+  }
+}

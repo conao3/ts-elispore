@@ -1,0 +1,18 @@
+{
+  "id": 175883674,
+  "name": "Shopify/shadowenv.el",
+  "description": "Shadowenv integration for emacs",
+  "url": "https://github.com/Shopify/shadowenv.el",
+  "stars": 25,
+  "updated": "2025-06-04T20:48:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "shadowenv",
+    "fetcher": "github",
+    "repo": "Shopify/shadowenv.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 59701228,
+  "name": "sakshamsharma/emacs-smbc",
+  "description": "Read SMBC from inside Emacs!",
+  "url": "https://github.com/sakshamsharma/emacs-smbc",
+  "stars": 4,
+  "updated": "2017-12-29T18:08:44Z",
+  "archived": false,
+  "topics": ["comics", "emacs", "smbc", "smbc-comics"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smbc",
+    "fetcher": "github",
+    "repo": "sakshamsharma/emacs-smbc"
+  }
+}

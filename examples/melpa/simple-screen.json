@@ -1,0 +1,18 @@
+{
+  "id": 8247776,
+  "name": "wachikun/simple-screen",
+  "description": "Simple Screen for Emacs",
+  "url": "https://github.com/wachikun/simple-screen",
+  "stars": 3,
+  "updated": "2024-12-28T01:14:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simple-screen",
+    "fetcher": "github",
+    "repo": "wachikun/simple-screen"
+  }
+}

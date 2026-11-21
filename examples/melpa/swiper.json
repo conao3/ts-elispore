@@ -1,0 +1,19 @@
+{
+  "id": 31918222,
+  "name": "abo-abo/swiper",
+  "description": "Ivy - a generic completion frontend for Emacs, Swiper - isearch with an overview, and more. Oh, man!",
+  "url": "https://github.com/abo-abo/swiper",
+  "stars": 2432,
+  "updated": "2026-09-13T17:12:17Z",
+  "archived": false,
+  "topics": ["completion", "counsel", "emacs", "ivy", "search", "swiper"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "swiper",
+    "fetcher": "github",
+    "repo": "abo-abo/swiper",
+    "files": "(\"swiper.el\")"
+  }
+}

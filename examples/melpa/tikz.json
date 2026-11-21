@@ -1,0 +1,19 @@
+{
+  "id": 278074579,
+  "name": "emiliotorres/tikz",
+  "description": "A minor mode to edit TikZ pictures with Emacs",
+  "url": "https://github.com/emiliotorres/tikz",
+  "stars": 11,
+  "updated": "2022-05-26T05:21:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tikz",
+    "fetcher": "github",
+    "repo": "emiliotorres/tikz",
+    "files": "(:defaults \"templates\")"
+  }
+}

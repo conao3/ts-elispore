@@ -1,0 +1,18 @@
+{
+  "id": 269800277,
+  "name": "malsyned/smart-dash",
+  "description": "An Emacs minor mode which redefines the dash key to insert an underscore within C-style identifiers and a dash otherwise.",
+  "url": "https://github.com/malsyned/smart-dash",
+  "stars": 7,
+  "updated": "2025-01-01T20:11:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smart-dash",
+    "fetcher": "github",
+    "repo": "malsyned/smart-dash"
+  }
+}

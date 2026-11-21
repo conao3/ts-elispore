@@ -1,0 +1,18 @@
+{
+  "id": 172188213,
+  "name": "jackkamm/undo-propose-el",
+  "description": "Navigate the emacs undo history by staging undo's in a temporary buffer",
+  "url": "https://github.com/jackkamm/undo-propose-el",
+  "stars": 116,
+  "updated": "2021-02-07T00:45:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "undo-propose",
+    "fetcher": "github",
+    "repo": "jackkamm/undo-propose-el"
+  }
+}

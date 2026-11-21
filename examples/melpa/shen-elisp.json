@@ -1,0 +1,19 @@
+{
+  "id": 53211062,
+  "name": "deech/shen-elisp",
+  "description": "",
+  "url": "https://github.com/deech/shen-elisp",
+  "stars": 133,
+  "updated": "2026-07-26T13:23:26Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shen-elisp",
+    "fetcher": "github",
+    "repo": "deech/shen-elisp",
+    "files": "(\"shen*.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 22668687,
+  "name": "alvinfrancis/spark",
+  "description": "Port of cl-spark to emacs lisp",
+  "url": "https://github.com/alvinfrancis/spark",
+  "stars": 8,
+  "updated": "2023-04-06T23:07:10Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "spark",
+    "fetcher": "github",
+    "repo": "alvinfrancis/spark"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 17005401,
+  "name": "11111000000/tao-theme-emacs",
+  "description": "tao-theme - two uncoloured color themes for EMACS",
+  "url": "https://github.com/11111000000/tao-theme-emacs",
+  "stars": 453,
+  "updated": "2025-10-01T10:29:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tao-theme",
+    "fetcher": "github",
+    "repo": "11111000000/tao-theme-emacs"
+  }
+}

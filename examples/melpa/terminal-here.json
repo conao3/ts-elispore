@@ -1,0 +1,18 @@
+{
+  "id": 85172906,
+  "name": "davidshepherd7/terminal-here",
+  "description": "An Emacs package to open an external terminal emulator in the current directory",
+  "url": "https://github.com/davidshepherd7/terminal-here",
+  "stars": 78,
+  "updated": "2026-03-14T10:48:49Z",
+  "archived": false,
+  "topics": ["emacs", "terminal-emulators"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "terminal-here",
+    "fetcher": "github",
+    "repo": "davidshepherd7/terminal-here"
+  }
+}

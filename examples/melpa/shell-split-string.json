@@ -1,0 +1,18 @@
+{
+  "id": 28444492,
+  "name": "10sr/shell-split-string-el",
+  "description": "Split Strings Using Shell-Like Syntax",
+  "url": "https://github.com/10sr/shell-split-string-el",
+  "stars": 4,
+  "updated": "2015-12-24T10:08:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shell-split-string",
+    "fetcher": "github",
+    "repo": "10sr/shell-split-string-el"
+  }
+}

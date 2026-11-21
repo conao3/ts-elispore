@@ -1,0 +1,18 @@
+{
+  "id": 799062930,
+  "name": "emacs-rustic/rustic",
+  "description": "",
+  "url": "https://github.com/emacs-rustic/rustic",
+  "stars": 182,
+  "updated": "2026-09-10T04:03:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "rustic",
+    "fetcher": "github",
+    "repo": "emacs-rustic/rustic"
+  }
+}

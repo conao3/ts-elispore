@@ -1,0 +1,18 @@
+{
+  "id": 14109421,
+  "name": "ainame/smart-newline.el",
+  "description": "The smart-newline.el provide a stress-less newline command for programmer. ",
+  "url": "https://github.com/ainame/smart-newline.el",
+  "stars": 35,
+  "updated": "2017-02-01T17:25:57Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "ruby"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smart-newline",
+    "fetcher": "github",
+    "repo": "ainame/smart-newline.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 64173590,
+  "name": "Wilfred/suggest.el",
+  "description": "discover elisp functions that do what you want",
+  "url": "https://github.com/Wilfred/suggest.el",
+  "stars": 382,
+  "updated": "2025-11-28T09:33:56Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "program-synthesis"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "suggest",
+    "fetcher": "github",
+    "repo": "Wilfred/suggest.el"
+  }
+}

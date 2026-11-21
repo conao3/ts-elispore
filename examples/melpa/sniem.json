@@ -1,0 +1,18 @@
+{
+  "id": 328156583,
+  "name": "SpringHan/sniem",
+  "description": "Hands-eased united editing method for emacs.",
+  "url": "https://github.com/SpringHan/sniem",
+  "stars": 20,
+  "updated": "2026-11-21T16:52:08Z",
+  "archived": false,
+  "topics": ["colemak", "dvorak", "editing-modes", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sniem",
+    "fetcher": "github",
+    "repo": "SpringHan/sniem"
+  }
+}

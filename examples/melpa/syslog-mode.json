@@ -1,0 +1,18 @@
+{
+  "id": 8919216,
+  "name": "vapniks/syslog-mode",
+  "description": "Emacs major-mode for viewing log files & strace output",
+  "url": "https://github.com/vapniks/syslog-mode",
+  "stars": 33,
+  "updated": "2025-09-05T23:34:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "syslog-mode",
+    "fetcher": "github",
+    "repo": "vapniks/syslog-mode"
+  }
+}

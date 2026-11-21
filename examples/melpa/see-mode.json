@@ -1,0 +1,18 @@
+{
+  "id": 130288500,
+  "name": "marcelino-m/see-mode",
+  "description": "Edit string in a separate buffer  with appropriate major mode enabled in it.",
+  "url": "https://github.com/marcelino-m/see-mode",
+  "stars": 15,
+  "updated": "2018-05-11T02:29:55Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "string-edit"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "see-mode",
+    "fetcher": "github",
+    "repo": "marcelino-m/see-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 687103065,
+  "name": "gmlarumbe/verilog-ts-mode",
+  "description": "Emacs Verilog Tree-sitter Major-mode",
+  "url": "https://github.com/gmlarumbe/verilog-ts-mode",
+  "stars": 12,
+  "updated": "2026-11-18T11:21:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "SystemVerilog",
+  "ownerType": "User",
+  "melpa": {
+    "name": "verilog-ts-mode",
+    "fetcher": "github",
+    "repo": "gmlarumbe/verilog-ts-mode"
+  }
+}

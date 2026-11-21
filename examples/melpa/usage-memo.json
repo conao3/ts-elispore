@@ -1,0 +1,19 @@
+{
+  "id": 104816432,
+  "name": "rubikitch/usage-memo",
+  "description": "",
+  "url": "https://github.com/rubikitch/usage-memo",
+  "stars": 0,
+  "updated": "2018-03-01T22:57:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "usage-memo",
+    "fetcher": "github",
+    "repo": "rubikitch/usage-memo",
+    "files": "(:defaults (:exclude \"test-usage-memo.el\"))"
+  }
+}

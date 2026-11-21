@@ -1,0 +1,19 @@
+{
+  "id": 2261219,
+  "name": "dholm/tabbar",
+  "description": "Tabbar is an emacs minor mode that displays a tab bar at the top, similar to the idea of web browser’s tabs.",
+  "url": "https://github.com/dholm/tabbar",
+  "stars": 182,
+  "updated": "2018-08-20T05:13:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tabbar",
+    "fetcher": "github",
+    "repo": "dholm/tabbar",
+    "files": "(\"tabbar.el\" \"*.png\")"
+  }
+}

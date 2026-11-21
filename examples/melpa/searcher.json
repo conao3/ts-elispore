@@ -1,0 +1,18 @@
+{
+  "id": 273525495,
+  "name": "jcs-elpa/searcher",
+  "description": "Searcher in pure elisp",
+  "url": "https://github.com/jcs-elpa/searcher",
+  "stars": 7,
+  "updated": "2026-06-19T13:53:24Z",
+  "archived": false,
+  "topics": ["emacs", "rtag", "searcher", "silver-searcher"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "searcher",
+    "fetcher": "github",
+    "repo": "jcs-elpa/searcher"
+  }
+}

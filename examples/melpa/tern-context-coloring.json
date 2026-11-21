@@ -1,0 +1,19 @@
+{
+  "id": 56369572,
+  "name": "jacksonrayhamilton/tern-context-coloring",
+  "description": "Tern plugin adding scope coloring",
+  "url": "https://github.com/jacksonrayhamilton/tern-context-coloring",
+  "stars": 8,
+  "updated": "2017-01-02T22:54:12Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "JavaScript",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tern-context-coloring",
+    "fetcher": "github",
+    "repo": "jacksonrayhamilton/tern-context-coloring",
+    "files": "(\"emacs/tern-context-coloring.el\")"
+  }
+}

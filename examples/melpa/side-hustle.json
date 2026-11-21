@@ -1,0 +1,18 @@
+{
+  "id": 363696490,
+  "name": "rnkn/side-hustle",
+  "description": "Hustle through a buffer's Imenu in a side window in GNU Emacs",
+  "url": "https://github.com/rnkn/side-hustle",
+  "stars": 26,
+  "updated": "2024-06-28T10:40:21Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "imenu"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "side-hustle",
+    "fetcher": "github",
+    "repo": "rnkn/side-hustle"
+  }
+}

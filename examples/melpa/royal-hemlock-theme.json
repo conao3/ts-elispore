@@ -1,0 +1,18 @@
+{
+  "id": 1111069682,
+  "name": "vs-123/royal-hemlock-theme",
+  "description": "royal-hemlock-theme.el --- Soothing royal-blue light-theme for Emacs.",
+  "url": "https://github.com/vs-123/royal-hemlock-theme",
+  "stars": 2,
+  "updated": "2026-04-03T14:52:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "royal-hemlock-theme",
+    "fetcher": "github",
+    "repo": "vs-123/royal-hemlock-theme"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 31655192,
+  "name": "emacs-berlin/syntactic-close",
+  "description": "Insert closing delimiter",
+  "url": "https://github.com/emacs-berlin/syntactic-close",
+  "stars": 50,
+  "updated": "2025-05-30T19:21:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "syntactic-close",
+    "fetcher": "github",
+    "repo": "emacs-berlin/syntactic-close"
+  }
+}

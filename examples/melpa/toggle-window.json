@@ -1,0 +1,18 @@
+{
+  "id": 27660620,
+  "name": "deadghost/toggle-window",
+  "description": "Emacs package to hide and show windows.",
+  "url": "https://github.com/deadghost/toggle-window",
+  "stars": 0,
+  "updated": "2014-12-07T15:49:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "toggle-window",
+    "fetcher": "github",
+    "repo": "deadghost/toggle-window"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 770032,
+  "name": "juba/color-theme-tangotango",
+  "description": "An emacs color theme based on the tango palette colors",
+  "url": "https://github.com/juba/color-theme-tangotango",
+  "stars": 148,
+  "updated": "2026-11-06T13:31:45Z",
+  "archived": false,
+  "topics": ["emacs-theme"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tangotango-theme",
+    "fetcher": "github",
+    "repo": "juba/color-theme-tangotango",
+    "files": "(\"tangotango-theme.el\")"
+  }
+}

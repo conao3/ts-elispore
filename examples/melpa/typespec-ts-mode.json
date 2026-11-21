@@ -1,0 +1,18 @@
+{
+  "id": 911022043,
+  "name": "pradyuman/typespec-ts-mode",
+  "description": "Emacs major mode for TypeSpec (using tree-sitter)",
+  "url": "https://github.com/pradyuman/typespec-ts-mode",
+  "stars": 4,
+  "updated": "2026-08-02T04:53:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "typespec-ts-mode",
+    "fetcher": "github",
+    "repo": "pradyuman/typespec-ts-mode"
+  }
+}

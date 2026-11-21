@@ -1,0 +1,27 @@
+{
+  "id": 76903658,
+  "name": "grafov/rust-playground",
+  "description": "GNU/Emacs mode that setup local playground for code snippets in Rust language.",
+  "url": "https://github.com/grafov/rust-playground",
+  "stars": 53,
+  "updated": "2021-11-23T07:33:26Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "emacs-mode",
+    "melpa",
+    "playground",
+    "repl",
+    "rust",
+    "rust-language",
+    "rust-playground"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rust-playground",
+    "fetcher": "github",
+    "repo": "grafov/rust-playground"
+  }
+}

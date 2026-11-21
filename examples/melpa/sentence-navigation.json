@@ -1,0 +1,18 @@
+{
+  "id": 33805335,
+  "name": "noctuid/emacs-sentence-navigation",
+  "description": "(Broken) Better Sentence Movement Commands and Evil Text Objects",
+  "url": "https://github.com/noctuid/emacs-sentence-navigation",
+  "stars": 29,
+  "updated": "2022-05-22T11:37:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sentence-navigation",
+    "fetcher": "github",
+    "repo": "noctuid/emacs-sentence-navigation"
+  }
+}

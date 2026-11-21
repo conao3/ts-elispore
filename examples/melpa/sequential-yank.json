@@ -1,0 +1,18 @@
+{
+  "id": 711531020,
+  "name": "knu/sequential-yank.el",
+  "description": "Minor mode for Emacs to copy and paste strings sequentially",
+  "url": "https://github.com/knu/sequential-yank.el",
+  "stars": 5,
+  "updated": "2023-11-26T15:31:30Z",
+  "archived": false,
+  "topics": ["emacs", "paste", "sequential", "yank"],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sequential-yank",
+    "fetcher": "github",
+    "repo": "knu/sequential-yank.el"
+  }
+}

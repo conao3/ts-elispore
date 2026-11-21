@@ -1,0 +1,18 @@
+{
+  "id": 668495084,
+  "name": "gicrisf/romkan.el",
+  "description": "Romaji/Kana conversion library for Emacs.",
+  "url": "https://github.com/gicrisf/romkan.el",
+  "stars": 4,
+  "updated": "2025-10-19T16:46:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "romkan",
+    "fetcher": "github",
+    "repo": "gicrisf/romkan.el"
+  }
+}

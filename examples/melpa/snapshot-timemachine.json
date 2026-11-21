@@ -1,0 +1,18 @@
+{
+  "id": 33505350,
+  "name": "mrBliss/snapshot-timemachine",
+  "description": "Emacs-mode to step through (Btrfs, ZFS, ...) snapshots of files",
+  "url": "https://github.com/mrBliss/snapshot-timemachine",
+  "stars": 26,
+  "updated": "2025-06-12T13:23:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "snapshot-timemachine",
+    "fetcher": "github",
+    "repo": "mrBliss/snapshot-timemachine"
+  }
+}

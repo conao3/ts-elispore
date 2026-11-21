@@ -1,0 +1,19 @@
+{
+  "id": 180485630,
+  "name": "webnf/semaphore.el",
+  "description": "",
+  "url": "https://github.com/webnf/semaphore.el",
+  "stars": 6,
+  "updated": "2019-06-07T22:38:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "semaphore-promise",
+    "fetcher": "github",
+    "repo": "webnf/semaphore.el",
+    "files": "(\"semaphore-promise.el\")"
+  }
+}

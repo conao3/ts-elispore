@@ -1,0 +1,18 @@
+{
+  "id": 12842558,
+  "name": "mswift42/soft-morning-theme",
+  "description": "Emacs24 theme with a light background",
+  "url": "https://github.com/mswift42/soft-morning-theme",
+  "stars": 19,
+  "updated": "2015-09-18T20:41:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "soft-morning-theme",
+    "fetcher": "github",
+    "repo": "mswift42/soft-morning-theme"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 444652336,
+  "name": "minad/tempel",
+  "description": ":classical_building: Tempel - Simple templates for Emacs",
+  "url": "https://github.com/minad/tempel",
+  "stars": 655,
+  "updated": "2026-08-14T22:08:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tempel",
+    "fetcher": "github",
+    "repo": "minad/tempel"
+  }
+}

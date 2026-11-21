@@ -1,0 +1,18 @@
+{
+  "id": 1034506,
+  "name": "rejeep/ruby-end.el",
+  "description": "Emacs minor mode for automatic insertion of end blocks for Ruby",
+  "url": "https://github.com/rejeep/ruby-end.el",
+  "stars": 52,
+  "updated": "2023-02-05T01:25:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ruby-end",
+    "fetcher": "github",
+    "repo": "rejeep/ruby-end.el"
+  }
+}

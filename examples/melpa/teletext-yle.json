@@ -1,0 +1,18 @@
+{
+  "id": 302303435,
+  "name": "lassik/emacs-teletext-yle",
+  "description": "Read YLE teletext pages in Emacs",
+  "url": "https://github.com/lassik/emacs-teletext-yle",
+  "stars": 0,
+  "updated": "2023-12-15T16:10:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "teletext-yle",
+    "fetcher": "github",
+    "repo": "lassik/emacs-teletext-yle"
+  }
+}

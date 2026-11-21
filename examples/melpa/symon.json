@@ -1,0 +1,18 @@
+{
+  "id": 30009175,
+  "name": "zk-phi/symon",
+  "description": "Tiny graphical system monitor",
+  "url": "https://github.com/zk-phi/symon",
+  "stars": 304,
+  "updated": "2026-04-11T14:54:18Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "symon",
+    "fetcher": "github",
+    "repo": "zk-phi/symon"
+  }
+}

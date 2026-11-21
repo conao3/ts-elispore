@@ -1,0 +1,18 @@
+{
+  "id": 45540323,
+  "name": "CestDiego/sweetgreen.el",
+  "description": "Get your salad from https://order.sweetgreen.com directly from Emacs",
+  "url": "https://github.com/CestDiego/sweetgreen.el",
+  "stars": 105,
+  "updated": "2018-06-05T03:36:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sweetgreen",
+    "fetcher": "github",
+    "repo": "CestDiego/sweetgreen.el"
+  }
+}

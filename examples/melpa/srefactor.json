@@ -1,0 +1,18 @@
+{
+  "id": 30687859,
+  "name": "tuhdo/semantic-refactor",
+  "description": "Semantic Refactor is a refactoring tool based on Semantic parser framework",
+  "url": "https://github.com/tuhdo/semantic-refactor",
+  "stars": 277,
+  "updated": "2023-05-04T06:17:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "srefactor",
+    "fetcher": "github",
+    "repo": "tuhdo/semantic-refactor"
+  }
+}

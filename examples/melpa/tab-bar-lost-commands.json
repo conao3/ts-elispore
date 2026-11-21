@@ -1,0 +1,18 @@
+{
+  "id": 334269836,
+  "name": "fritzgrabo/tab-bar-lost-commands",
+  "description": "Emacs: The \"lost commands\" of the tab bar",
+  "url": "https://github.com/fritzgrabo/tab-bar-lost-commands",
+  "stars": 6,
+  "updated": "2021-10-13T20:12:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tab-bar-lost-commands",
+    "fetcher": "github",
+    "repo": "fritzgrabo/tab-bar-lost-commands"
+  }
+}

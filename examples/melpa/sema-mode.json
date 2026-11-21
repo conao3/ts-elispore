@@ -1,0 +1,18 @@
+{
+  "id": 1289363778,
+  "name": "sema-lisp/emacs-sema",
+  "description": "Emacs major mode for Sema — a Lisp with first-class LLM primitives",
+  "url": "https://github.com/sema-lisp/emacs-sema",
+  "stars": 2,
+  "updated": "2026-10-09T09:53:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sema-mode",
+    "fetcher": "github",
+    "repo": "sema-lisp/emacs-sema"
+  }
+}

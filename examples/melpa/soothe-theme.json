@@ -1,0 +1,18 @@
+{
+  "id": 7688271,
+  "name": "emacsfodder/emacs-soothe-theme",
+  "description": "Dark Colorful theme for Emacs, built for synesthesiacs with a taste for Skittles™.",
+  "url": "https://github.com/emacsfodder/emacs-soothe-theme",
+  "stars": 69,
+  "updated": "2024-10-18T08:35:45Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "soothe-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-soothe-theme"
+  }
+}

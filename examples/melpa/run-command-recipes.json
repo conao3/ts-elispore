@@ -1,0 +1,18 @@
+{
+  "id": 445650748,
+  "name": "semenInRussia/emacs-run-command-recipes",
+  "description": "The collection of recipes to `emacs-run-command` for quick run this file",
+  "url": "https://github.com/semenInRussia/emacs-run-command-recipes",
+  "stars": 5,
+  "updated": "2024-07-08T15:55:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "run-command-recipes",
+    "fetcher": "github",
+    "repo": "semenInRussia/emacs-run-command-recipes"
+  }
+}

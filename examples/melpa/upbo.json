@@ -1,0 +1,18 @@
+{
+  "id": 125310244,
+  "name": "shiren/upbo",
+  "description": ":curly_loop: Emacs karma integration that support mode line report.",
+  "url": "https://github.com/shiren/upbo",
+  "stars": 6,
+  "updated": "2019-09-04T06:42:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "upbo",
+    "fetcher": "github",
+    "repo": "shiren/upbo"
+  }
+}

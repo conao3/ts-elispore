@@ -1,0 +1,18 @@
+{
+  "id": 7796855,
+  "name": "vargonaut/ruby-refactor",
+  "description": "A minor mode for Emacs that provides some Ruby refactoring methods.",
+  "url": "https://github.com/vargonaut/ruby-refactor",
+  "stars": 62,
+  "updated": "2022-09-10T13:14:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ruby-refactor",
+    "fetcher": "github",
+    "repo": "vargonaut/ruby-refactor"
+  }
+}

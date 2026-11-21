@@ -1,0 +1,18 @@
+{
+  "id": 316767844,
+  "name": "kopoli/robot-mode",
+  "description": "Emacs major mode for editing Robot Framework files.",
+  "url": "https://github.com/kopoli/robot-mode",
+  "stars": 9,
+  "updated": "2024-07-21T10:23:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "robot-mode",
+    "fetcher": "github",
+    "repo": "kopoli/robot-mode"
+  }
+}

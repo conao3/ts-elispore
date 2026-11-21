@@ -1,0 +1,18 @@
+{
+  "id": 55040500,
+  "name": "xuchunyang/swap-regions.el",
+  "description": "Swap text in two regions",
+  "url": "https://github.com/xuchunyang/swap-regions.el",
+  "stars": 6,
+  "updated": "2018-09-15T13:46:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "swap-regions",
+    "fetcher": "github",
+    "repo": "xuchunyang/swap-regions.el"
+  }
+}

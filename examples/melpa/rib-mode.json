@@ -1,0 +1,18 @@
+{
+  "id": 97622123,
+  "name": "blezek/rib-mode",
+  "description": "Emacs rib mode for RenderMan",
+  "url": "https://github.com/blezek/rib-mode",
+  "stars": 1,
+  "updated": "2017-07-26T14:48:19Z",
+  "archived": false,
+  "topics": ["emacs", "renderman", "rib"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rib-mode",
+    "fetcher": "github",
+    "repo": "blezek/rib-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 8468946,
+  "name": "dryman/toml-mode.el",
+  "description": "Emacs Mojor mode for editing TOML files",
+  "url": "https://github.com/dryman/toml-mode.el",
+  "stars": 53,
+  "updated": "2017-07-02T04:29:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "toml-mode",
+    "fetcher": "github",
+    "repo": "dryman/toml-mode.el"
+  }
+}

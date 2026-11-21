@@ -1,0 +1,18 @@
+{
+  "id": 2437566,
+  "name": "emacsorphanage/thingopt",
+  "description": "Additional features of thingatpt.el",
+  "url": "https://github.com/emacsorphanage/thingopt",
+  "stars": 9,
+  "updated": "2016-05-20T23:18:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "thingopt",
+    "fetcher": "github",
+    "repo": "emacsorphanage/thingopt"
+  }
+}

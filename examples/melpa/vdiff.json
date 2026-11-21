@@ -1,0 +1,18 @@
+{
+  "id": 62409711,
+  "name": "justbur/emacs-vdiff",
+  "description": "Like vimdiff for Emacs",
+  "url": "https://github.com/justbur/emacs-vdiff",
+  "stars": 235,
+  "updated": "2023-06-21T02:01:17Z",
+  "archived": false,
+  "topics": ["diff", "emacs", "emacs-packages", "vimdiff"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vdiff",
+    "fetcher": "github",
+    "repo": "justbur/emacs-vdiff"
+  }
+}

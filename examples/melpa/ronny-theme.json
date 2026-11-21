@@ -1,0 +1,18 @@
+{
+  "id": 1205204272,
+  "name": "judaew/ronny.el",
+  "description": "A dark Emacs colorscheme inspired by Monokai",
+  "url": "https://github.com/judaew/ronny.el",
+  "stars": 2,
+  "updated": "2026-10-07T21:17:19Z",
+  "archived": false,
+  "topics": ["codedark", "color-scheme", "colorscheme", "emacs", "emacs-theme", "monokai"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ronny-theme",
+    "fetcher": "github",
+    "repo": "judaew/ronny.el"
+  }
+}

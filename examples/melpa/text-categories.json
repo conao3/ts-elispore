@@ -1,0 +1,18 @@
+{
+  "id": 396082831,
+  "name": "Dspil/text-categories",
+  "description": "Assign text categories to a buffer for mass operations",
+  "url": "https://github.com/Dspil/text-categories",
+  "stars": 17,
+  "updated": "2024-09-21T08:24:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "text-categories",
+    "fetcher": "github",
+    "repo": "Dspil/text-categories"
+  }
+}

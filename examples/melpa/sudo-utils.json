@@ -1,0 +1,18 @@
+{
+  "id": 326925620,
+  "name": "alpha-catharsis/sudo-utils",
+  "description": "sudo utilities for emacs",
+  "url": "https://github.com/alpha-catharsis/sudo-utils",
+  "stars": 8,
+  "updated": "2021-01-19T19:33:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sudo-utils",
+    "fetcher": "github",
+    "repo": "alpha-catharsis/sudo-utils"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 111849727,
+  "name": "hinrik/total-lines",
+  "description": "Keep track of a buffer's total number of lines",
+  "url": "https://github.com/hinrik/total-lines",
+  "stars": 7,
+  "updated": "2018-09-04T11:27:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "total-lines",
+    "fetcher": "github",
+    "repo": "hinrik/total-lines"
+  }
+}

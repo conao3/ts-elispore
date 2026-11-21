@@ -1,0 +1,18 @@
+{
+  "id": 3135179,
+  "name": "myuhe/smartrep.el",
+  "description": "Support sequential operation which omit prefix key",
+  "url": "https://github.com/myuhe/smartrep.el",
+  "stars": 96,
+  "updated": "2024-04-16T21:48:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smartrep",
+    "fetcher": "github",
+    "repo": "myuhe/smartrep.el"
+  }
+}

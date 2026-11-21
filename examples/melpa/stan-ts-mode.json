@@ -1,0 +1,18 @@
+{
+  "id": 628058827,
+  "name": "WardBrian/stan-ts-mode",
+  "description": "",
+  "url": "https://github.com/WardBrian/stan-ts-mode",
+  "stars": 7,
+  "updated": "2026-10-15T18:54:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "stan-ts-mode",
+    "fetcher": "github",
+    "repo": "WardBrian/stan-ts-mode"
+  }
+}

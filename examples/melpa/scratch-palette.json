@@ -1,0 +1,18 @@
+{
+  "id": 8137493,
+  "name": "zk-phi/scratch-palette",
+  "description": "Add notes on each files",
+  "url": "https://github.com/zk-phi/scratch-palette",
+  "stars": 6,
+  "updated": "2025-01-04T13:59:22Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scratch-palette",
+    "fetcher": "github",
+    "repo": "zk-phi/scratch-palette"
+  }
+}

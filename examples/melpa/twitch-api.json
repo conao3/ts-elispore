@@ -1,0 +1,18 @@
+{
+  "id": 393006748,
+  "name": "BenediktBroich/twitch-api",
+  "description": "twitch-api.el",
+  "url": "https://github.com/BenediktBroich/twitch-api",
+  "stars": 5,
+  "updated": "2022-04-20T15:47:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "twitch-api",
+    "fetcher": "github",
+    "repo": "BenediktBroich/twitch-api"
+  }
+}

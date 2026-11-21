@@ -1,0 +1,18 @@
+{
+  "id": 441568031,
+  "name": "kborling/uwu-theme",
+  "description": "An awesome dark color scheme for emacs. Based on the UwU vim theme.",
+  "url": "https://github.com/kborling/uwu-theme",
+  "stars": 38,
+  "updated": "2026-07-03T18:03:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "uwu-theme",
+    "fetcher": "github",
+    "repo": "kborling/uwu-theme"
+  }
+}

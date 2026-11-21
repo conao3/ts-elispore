@@ -1,0 +1,19 @@
+{
+  "id": 40948283,
+  "name": "cosmicexplorer/speech-tagger",
+  "description": "tag parts of speech with nlp libraries for use in text editors",
+  "url": "https://github.com/cosmicexplorer/speech-tagger",
+  "stars": 30,
+  "updated": "2017-07-28T18:29:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "speech-tagger",
+    "fetcher": "github",
+    "repo": "cosmicexplorer/speech-tagger",
+    "files": "(\"emacs/speech-tagger.el\"\n                       \"emacs/penn_treebank_tags.json\")"
+  }
+}

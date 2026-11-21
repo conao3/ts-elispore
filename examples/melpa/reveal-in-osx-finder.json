@@ -1,0 +1,18 @@
+{
+  "id": 16519985,
+  "name": "kaz-yos/reveal-in-osx-finder",
+  "description": "Reveal buffer-associated file in OS X Finder",
+  "url": "https://github.com/kaz-yos/reveal-in-osx-finder",
+  "stars": 43,
+  "updated": "2021-07-11T16:00:25Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "melpa", "osx-finder"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "reveal-in-osx-finder",
+    "fetcher": "github",
+    "repo": "kaz-yos/reveal-in-osx-finder"
+  }
+}

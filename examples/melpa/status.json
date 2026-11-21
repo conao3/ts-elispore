@@ -1,0 +1,19 @@
+{
+  "id": 23238839,
+  "name": "tromey/emacs-status",
+  "description": "status icon support for emacs",
+  "url": "https://github.com/tromey/emacs-status",
+  "stars": 12,
+  "updated": "2015-12-30T14:17:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "status",
+    "fetcher": "github",
+    "repo": "tromey/emacs-status",
+    "files": "(:defaults \"*.py\" \"*.png\")"
+  }
+}

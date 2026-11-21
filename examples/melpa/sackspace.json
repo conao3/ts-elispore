@@ -1,0 +1,18 @@
+{
+  "id": 810646,
+  "name": "cofi/sackspace.el",
+  "description": "A better backspace for Emacs.",
+  "url": "https://github.com/cofi/sackspace.el",
+  "stars": 13,
+  "updated": "2013-07-19T09:56:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sackspace",
+    "fetcher": "github",
+    "repo": "cofi/sackspace.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 6110058,
+  "name": "hvesalai/emacs-scala-mode",
+  "description": "The definitive scala-mode for emacs",
+  "url": "https://github.com/hvesalai/emacs-scala-mode",
+  "stars": 365,
+  "updated": "2026-01-18T09:42:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scala-mode",
+    "fetcher": "github",
+    "repo": "hvesalai/emacs-scala-mode"
+  }
+}

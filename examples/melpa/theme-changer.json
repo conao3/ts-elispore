@@ -1,0 +1,18 @@
+{
+  "id": 1926914,
+  "name": "hadronzoo/theme-changer",
+  "description": "Given a location and day/night color themes, select the appropriate theme based on whether it is day or night",
+  "url": "https://github.com/hadronzoo/theme-changer",
+  "stars": 114,
+  "updated": "2023-12-04T14:33:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "theme-changer",
+    "fetcher": "github",
+    "repo": "hadronzoo/theme-changer"
+  }
+}

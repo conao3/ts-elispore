@@ -1,0 +1,18 @@
+{
+  "id": 75843102,
+  "name": "dajva/rg.el",
+  "description": "Emacs search tool based on ripgrep",
+  "url": "https://github.com/dajva/rg.el",
+  "stars": 557,
+  "updated": "2026-11-02T18:07:01Z",
+  "archived": false,
+  "topics": ["emacs", "grep", "melpa", "ripgrep", "search"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rg",
+    "fetcher": "github",
+    "repo": "dajva/rg.el"
+  }
+}

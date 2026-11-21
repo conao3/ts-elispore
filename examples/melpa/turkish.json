@@ -1,0 +1,18 @@
+{
+  "id": 523979,
+  "name": "emres/turkish-mode",
+  "description": "Developed by Deniz Yüret, this mode is for people trying to type Turkish documents on a U.S. keyboard using Emacs. The program provides a turkish-mode in which the correct Turkish accents are added to the ascii version of the last word typed each time the user hits space.",
+  "url": "https://github.com/emres/turkish-mode",
+  "stars": 33,
+  "updated": "2026-06-14T09:19:51Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "turkish",
+    "fetcher": "github",
+    "repo": "emres/turkish-mode"
+  }
+}

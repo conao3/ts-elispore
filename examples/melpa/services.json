@@ -1,0 +1,18 @@
+{
+  "id": 59524394,
+  "name": "davep/services.el",
+  "description": "Services database access functions",
+  "url": "https://github.com/davep/services.el",
+  "stars": 3,
+  "updated": "2017-08-02T11:31:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "services",
+    "fetcher": "github",
+    "repo": "davep/services.el"
+  }
+}

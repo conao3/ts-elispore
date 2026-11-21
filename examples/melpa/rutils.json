@@ -1,0 +1,18 @@
+{
+  "id": 380111223,
+  "name": "ShuguangSun/rutils.el",
+  "description": "R utilities with transient",
+  "url": "https://github.com/ShuguangSun/rutils.el",
+  "stars": 4,
+  "updated": "2026-08-21T14:44:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rutils",
+    "fetcher": "github",
+    "repo": "ShuguangSun/rutils.el"
+  }
+}

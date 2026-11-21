@@ -1,0 +1,19 @@
+{
+  "id": 6716428,
+  "name": "dgutov/robe",
+  "description": "Code navigation, documentation lookup and completion for Ruby",
+  "url": "https://github.com/dgutov/robe",
+  "stars": 587,
+  "updated": "2025-02-19T19:43:41Z",
+  "archived": false,
+  "topics": ["code-assist-tool", "code-completion", "emacs", "emacs-lisp", "ruby"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "robe",
+    "fetcher": "github",
+    "repo": "dgutov/robe",
+    "files": "(\"*robe.el\" \"lib\")"
+  }
+}

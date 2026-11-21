@@ -1,0 +1,18 @@
+{
+  "id": 532734068,
+  "name": "thapakrish/samskritam.el",
+  "description": "Sanskrit word definitions and translations",
+  "url": "https://github.com/thapakrish/samskritam.el",
+  "stars": 1,
+  "updated": "2026-09-02T17:51:03Z",
+  "archived": false,
+  "topics": ["dictionaries", "elisp", "language", "sanskrit", "sanskrit-language", "translation"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "samskritam",
+    "fetcher": "github",
+    "repo": "thapakrish/samskritam.el"
+  }
+}

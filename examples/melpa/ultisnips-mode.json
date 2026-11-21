@@ -1,0 +1,18 @@
+{
+  "id": 948003771,
+  "name": "jamescherti/ultisnips-mode.el",
+  "description": "Emacs major mode for editing Ultisnips snippets",
+  "url": "https://github.com/jamescherti/ultisnips-mode.el",
+  "stars": 7,
+  "updated": "2026-11-10T15:13:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ultisnips-mode",
+    "fetcher": "github",
+    "repo": "jamescherti/ultisnips-mode.el"
+  }
+}

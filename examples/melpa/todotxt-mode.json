@@ -1,0 +1,18 @@
+{
+  "id": 3823639,
+  "name": "avillafiorita/todotxt-mode",
+  "description": "Emacs major mode for todo.txt files",
+  "url": "https://github.com/avillafiorita/todotxt-mode",
+  "stars": 39,
+  "updated": "2024-08-02T06:04:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "todotxt-mode",
+    "fetcher": "github",
+    "repo": "avillafiorita/todotxt-mode"
+  }
+}

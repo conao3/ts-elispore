@@ -1,0 +1,18 @@
+{
+  "id": 6889045,
+  "name": "rolandwalker/simpleclip",
+  "description": "Simplified access to the system clipboard in Emacs.",
+  "url": "https://github.com/rolandwalker/simpleclip",
+  "stars": 185,
+  "updated": "2025-05-05T17:10:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simpleclip",
+    "fetcher": "github",
+    "repo": "rolandwalker/simpleclip"
+  }
+}

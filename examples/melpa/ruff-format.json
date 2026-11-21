@@ -1,0 +1,18 @@
+{
+  "id": 720224928,
+  "name": "JoshHayes/emacs-ruff-format",
+  "description": "Format Python source in Emacs using Ruff",
+  "url": "https://github.com/JoshHayes/emacs-ruff-format",
+  "stars": 28,
+  "updated": "2024-12-30T18:56:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ruff-format",
+    "fetcher": "github",
+    "repo": "JoshHayes/emacs-ruff-format"
+  }
+}

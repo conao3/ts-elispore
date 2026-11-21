@@ -1,0 +1,19 @@
+{
+  "id": 6258994,
+  "name": "ocaml-community/utop",
+  "description": "Universal toplevel for OCaml",
+  "url": "https://github.com/ocaml-community/utop",
+  "stars": 931,
+  "updated": "2026-11-11T14:10:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "OCaml",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "utop",
+    "fetcher": "github",
+    "repo": "diml/utop",
+    "files": "(\"src/top/utop.el\")"
+  }
+}

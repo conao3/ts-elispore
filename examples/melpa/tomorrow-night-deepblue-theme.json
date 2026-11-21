@@ -1,0 +1,26 @@
+{
+  "id": 786232946,
+  "name": "jamescherti/tomorrow-night-deepblue-theme.el",
+  "description": "Emacs Theme: Tomorrow-Night-Deepblue ",
+  "url": "https://github.com/jamescherti/tomorrow-night-deepblue-theme.el",
+  "stars": 29,
+  "updated": "2026-11-10T15:13:06Z",
+  "archived": false,
+  "topics": [
+    "deepblue",
+    "emacs",
+    "emacs-package",
+    "emacs-theme",
+    "tomorrow-night",
+    "tomorrow-night-deepblue",
+    "tomorrow-theme"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tomorrow-night-deepblue-theme",
+    "fetcher": "github",
+    "repo": "jamescherti/tomorrow-night-deepblue-theme.el"
+  }
+}

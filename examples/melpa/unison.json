@@ -1,0 +1,18 @@
+{
+  "id": 62377032,
+  "name": "unhammer/unison.el",
+  "description": "call unison from emacs (handy for hooks)",
+  "url": "https://github.com/unhammer/unison.el",
+  "stars": 1,
+  "updated": "2016-07-04T07:40:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unison",
+    "fetcher": "github",
+    "repo": "unhammer/unison.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 4509736,
+  "name": "Malabarba/smart-mode-line",
+  "description": "A powerful and beautiful mode-line for Emacs.",
+  "url": "https://github.com/Malabarba/smart-mode-line",
+  "stars": 937,
+  "updated": "2024-09-24T23:22:20Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-packages"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smart-mode-line",
+    "fetcher": "github",
+    "repo": "Malabarba/smart-mode-line"
+  }
+}

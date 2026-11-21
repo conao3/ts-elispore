@@ -1,0 +1,19 @@
+{
+  "id": 1007709530,
+  "name": "emacsorphanage/restclient",
+  "description": "HTTP REST client tool for emacs",
+  "url": "https://github.com/emacsorphanage/restclient",
+  "stars": 40,
+  "updated": "2026-06-27T18:51:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "restclient",
+    "fetcher": "github",
+    "repo": "emacsorphanage/restclient",
+    "files": "(\"restclient.el\")"
+  }
+}

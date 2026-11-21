@@ -1,0 +1,18 @@
+{
+  "id": 53530103,
+  "name": "paldepind/smart-comment",
+  "description": "Smarter commenting for Emacs",
+  "url": "https://github.com/paldepind/smart-comment",
+  "stars": 42,
+  "updated": "2016-03-23T07:42:49Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smart-comment",
+    "fetcher": "github",
+    "repo": "paldepind/smart-comment"
+  }
+}

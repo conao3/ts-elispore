@@ -1,0 +1,18 @@
+{
+  "id": 616182628,
+  "name": "caramelhooves/teleport.el",
+  "description": "Emacs client for teleport (goteleport.com). Connect to remote host from the comfort of your Emacs",
+  "url": "https://github.com/caramelhooves/teleport.el",
+  "stars": 7,
+  "updated": "2025-11-18T11:16:08Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "teleport"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "teleport",
+    "fetcher": "github",
+    "repo": "caramelhooves/teleport.el"
+  }
+}

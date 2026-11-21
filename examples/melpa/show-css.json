@@ -1,0 +1,18 @@
+{
+  "id": 8592402,
+  "name": "8cylinder/showcss-mode",
+  "description": "Show the css of the html attribute the cursor is on.",
+  "url": "https://github.com/8cylinder/showcss-mode",
+  "stars": 33,
+  "updated": "2016-02-10T14:08:19Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "show-css",
+    "fetcher": "github",
+    "repo": "8cylinder/showcss-mode"
+  }
+}

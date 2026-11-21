@@ -1,0 +1,18 @@
+{
+  "id": 70050742,
+  "name": "Kungsgeten/ryo-modal",
+  "description": "Roll your own modal mode",
+  "url": "https://github.com/Kungsgeten/ryo-modal",
+  "stars": 237,
+  "updated": "2024-08-20T07:10:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ryo-modal",
+    "fetcher": "github",
+    "repo": "Kungsgeten/ryo-modal"
+  }
+}

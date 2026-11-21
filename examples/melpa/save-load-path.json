@@ -1,0 +1,18 @@
+{
+  "id": 58030181,
+  "name": "rubikitch/save-load-path",
+  "description": "",
+  "url": "https://github.com/rubikitch/save-load-path",
+  "stars": 0,
+  "updated": "2016-05-04T07:01:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "save-load-path",
+    "fetcher": "github",
+    "repo": "rubikitch/save-load-path"
+  }
+}

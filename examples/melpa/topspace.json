@@ -1,0 +1,37 @@
+{
+  "id": 350541790,
+  "name": "trevorpogue/topspace",
+  "description": "Recenter line 1 with scrollable upper margin/padding in Emacs",
+  "url": "https://github.com/trevorpogue/topspace",
+  "stars": 90,
+  "updated": "2023-02-07T14:28:29Z",
+  "archived": false,
+  "topics": [
+    "center",
+    "convenience",
+    "cursor",
+    "distraction-free",
+    "distractionless",
+    "elisp",
+    "emacs",
+    "emacs-lisp",
+    "fringe",
+    "full-screen",
+    "fullscreen",
+    "margin",
+    "padding",
+    "scrolling",
+    "space",
+    "ultrawide",
+    "upper",
+    "widescreen"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "topspace",
+    "fetcher": "github",
+    "repo": "trevorpogue/topspace"
+  }
+}

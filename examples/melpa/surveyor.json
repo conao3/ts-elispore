@@ -1,0 +1,18 @@
+{
+  "id": 1323484084,
+  "name": "mrcnski/surveyor.el",
+  "description": "[Emacs] Survey your code: LLM-generated diagrams of code, rendered inline in Emacs",
+  "url": "https://github.com/mrcnski/surveyor.el",
+  "stars": 4,
+  "updated": "2026-09-07T20:45:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "surveyor",
+    "fetcher": "github",
+    "repo": "mrcnski/surveyor.el"
+  }
+}

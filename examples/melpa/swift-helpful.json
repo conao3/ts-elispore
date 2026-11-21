@@ -1,0 +1,19 @@
+{
+  "id": 180004832,
+  "name": "danielmartin/swift-helpful",
+  "description": "A Self-Documenting Emacs Programming Environment for Swift. Includes curated Swift 5.6 documentation and reference in GNU Info format, with cross-references, and keyword/topic indices.",
+  "url": "https://github.com/danielmartin/swift-helpful",
+  "stars": 77,
+  "updated": "2022-07-07T08:46:17Z",
+  "archived": false,
+  "topics": ["emacs", "info", "swift"],
+  "license": "GPL-3.0",
+  "language": "Swift",
+  "ownerType": "User",
+  "melpa": {
+    "name": "swift-helpful",
+    "fetcher": "github",
+    "repo": "danielmartin/swift-helpful",
+    "files": "(\"*.el\" \"swift-info/*.info\" (\"images\" \"swift-info/images/*.png\"))"
+  }
+}

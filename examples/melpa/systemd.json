@@ -1,0 +1,19 @@
+{
+  "id": 28550346,
+  "name": "holomorph/systemd-mode",
+  "description": "Major mode for editing systemd units",
+  "url": "https://github.com/holomorph/systemd-mode",
+  "stars": 63,
+  "updated": "2024-07-23T11:49:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "systemd",
+    "fetcher": "github",
+    "repo": "holomorph/systemd-mode",
+    "files": "(:defaults \"*.txt\")"
+  }
+}

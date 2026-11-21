@@ -1,0 +1,19 @@
+{
+  "id": 521358729,
+  "name": "haji-ali/transient-extras",
+  "description": "A transient menu for lp",
+  "url": "https://github.com/haji-ali/transient-extras",
+  "stars": 43,
+  "updated": "2024-02-03T01:36:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "transient-extras",
+    "fetcher": "github",
+    "repo": "haji-ali/transient-extras",
+    "files": "(\"transient-extras.el\")"
+  }
+}

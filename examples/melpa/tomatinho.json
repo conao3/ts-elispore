@@ -1,0 +1,19 @@
+{
+  "id": 3112171,
+  "name": "konr/tomatinho",
+  "description": "Pomodoro technique timer with a lean and usable interface.",
+  "url": "https://github.com/konr/tomatinho",
+  "stars": 91,
+  "updated": "2018-06-21T17:48:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tomatinho",
+    "fetcher": "github",
+    "repo": "konr/tomatinho",
+    "files": "(\"tomatinho.el\" \"tick.wav\" \"tack.wav\")"
+  }
+}

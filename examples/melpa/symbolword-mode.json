@@ -1,0 +1,18 @@
+{
+  "id": 14337147,
+  "name": "ncaq/symbolword-mode",
+  "description": "word split overhaul",
+  "url": "https://github.com/ncaq/symbolword-mode",
+  "stars": 3,
+  "updated": "2020-10-13T10:50:09Z",
+  "archived": false,
+  "topics": ["emacs-lisp"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "symbolword-mode",
+    "fetcher": "github",
+    "repo": "ncaq/symbolword-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 4196491,
+  "name": "riscy/shx-for-emacs",
+  "description": "An Emacs shell-mode (and comint-mode) extension that enables displaying small plots and graphics and lets users write shell commands in Emacs Lisp.",
+  "url": "https://github.com/riscy/shx-for-emacs",
+  "stars": 231,
+  "updated": "2026-01-05T00:51:48Z",
+  "archived": false,
+  "topics": ["comint-mode", "emacs", "shell"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shx",
+    "fetcher": "github",
+    "repo": "riscy/shx-for-emacs"
+  }
+}

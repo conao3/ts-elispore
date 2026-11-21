@@ -1,0 +1,18 @@
+{
+  "id": 4845582,
+  "name": "jimeh/twilight-anti-bright-theme",
+  "description": "A light-on-dark Emacs and TextMate theme inspired by the dark-on-light Twilight Bright TextMate theme.",
+  "url": "https://github.com/jimeh/twilight-anti-bright-theme",
+  "stars": 42,
+  "updated": "2016-06-22T08:48:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "twilight-anti-bright-theme",
+    "fetcher": "github",
+    "repo": "jimeh/twilight-anti-bright-theme"
+  }
+}

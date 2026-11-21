@@ -1,0 +1,18 @@
+{
+  "id": 6284736,
+  "name": "tarao/tab-group-el",
+  "description": "",
+  "url": "https://github.com/tarao/tab-group-el",
+  "stars": 3,
+  "updated": "2014-03-06T14:51:03Z",
+  "archived": false,
+  "topics": ["emacs", "tab", "ui"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tab-group",
+    "fetcher": "github",
+    "repo": "tarao/tab-group-el"
+  }
+}

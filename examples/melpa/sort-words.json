@@ -1,0 +1,18 @@
+{
+  "id": 67633082,
+  "name": "dotemacs/sort-words.el",
+  "description": "Sort words in a selected region",
+  "url": "https://github.com/dotemacs/sort-words.el",
+  "stars": 5,
+  "updated": "2016-09-29T13:35:51Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "sort-words"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sort-words",
+    "fetcher": "github",
+    "repo": "dotemacs/sort-words.el"
+  }
+}

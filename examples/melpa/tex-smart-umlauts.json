@@ -1,0 +1,18 @@
+{
+  "id": 176030686,
+  "name": "emacsmirror/tex-smart-umlauts",
+  "description": "Smart umlaut conversion for TeX",
+  "url": "https://github.com/emacsmirror/tex-smart-umlauts",
+  "stars": 0,
+  "updated": "2023-04-16T20:51:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "tex-smart-umlauts",
+    "fetcher": "github",
+    "repo": "emacsmirror/tex-smart-umlauts"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 9364764,
+  "name": "zk-phi/sublimity",
+  "description": "Smooth-scrolling and minimap like sublime editor",
+  "url": "https://github.com/zk-phi/sublimity",
+  "stars": 507,
+  "updated": "2020-12-12T01:21:05Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sublimity",
+    "fetcher": "github",
+    "repo": "zk-phi/sublimity"
+  }
+}

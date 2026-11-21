@@ -1,0 +1,18 @@
+{
+  "id": 30826965,
+  "name": "alpha22jp/simplenote2.el",
+  "description": "A new version of emacs helper to interact with Simplenote",
+  "url": "https://github.com/alpha22jp/simplenote2.el",
+  "stars": 55,
+  "updated": "2023-02-12T00:01:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simplenote2",
+    "fetcher": "github",
+    "repo": "alpha22jp/simplenote2.el"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": 717982926,
+  "name": "KeyWeeUsr/emacs-syncthing",
+  "description": "Emacs client for Syncthing",
+  "url": "https://github.com/KeyWeeUsr/emacs-syncthing",
+  "stars": 71,
+  "updated": "2025-06-12T02:06:59Z",
+  "archived": false,
+  "topics": [
+    "client",
+    "elisp",
+    "emacs",
+    "emacs-package",
+    "major-mode",
+    "melpa",
+    "melpa-badge",
+    "package",
+    "port",
+    "syncthing"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "syncthing",
+    "fetcher": "github",
+    "repo": "KeyWeeUsr/emacs-syncthing"
+  }
+}

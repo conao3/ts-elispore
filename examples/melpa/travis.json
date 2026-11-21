@@ -1,0 +1,18 @@
+{
+  "id": 26651352,
+  "name": "nlamirault/emacs-travis",
+  "description": "An Emacs client for TravisCI",
+  "url": "https://github.com/nlamirault/emacs-travis",
+  "stars": 27,
+  "updated": "2022-01-14T14:42:30Z",
+  "archived": false,
+  "topics": ["emacs", "travis"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "travis",
+    "fetcher": "github",
+    "repo": "nlamirault/emacs-travis"
+  }
+}

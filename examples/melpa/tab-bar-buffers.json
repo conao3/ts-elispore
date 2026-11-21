@@ -1,0 +1,18 @@
+{
+  "id": 502207316,
+  "name": "ajrosen/tab-bar-buffers",
+  "description": "Use tab-bar-mode as a buffer manager",
+  "url": "https://github.com/ajrosen/tab-bar-buffers",
+  "stars": 9,
+  "updated": "2026-05-11T19:27:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tab-bar-buffers",
+    "fetcher": "github",
+    "repo": "ajrosen/tab-bar-buffers"
+  }
+}

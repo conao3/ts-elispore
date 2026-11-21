@@ -1,0 +1,18 @@
+{
+  "id": 146084762,
+  "name": "emacs-elsa/trinary-logic",
+  "description": "",
+  "url": "https://github.com/emacs-elsa/trinary-logic",
+  "stars": 7,
+  "updated": "2023-03-01T20:45:09Z",
+  "archived": false,
+  "topics": ["emacs", "logic", "trinary"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "trinary",
+    "fetcher": "github",
+    "repo": "emacs-elsa/trinary-logic"
+  }
+}

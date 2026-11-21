@@ -1,0 +1,18 @@
+{
+  "id": 177895277,
+  "name": "adeschamps/soar-mode",
+  "description": "Emacs major mode for the Soar language",
+  "url": "https://github.com/adeschamps/soar-mode",
+  "stars": 0,
+  "updated": "2019-05-13T14:35:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "soar-mode",
+    "fetcher": "github",
+    "repo": "adeschamps/soar-mode"
+  }
+}

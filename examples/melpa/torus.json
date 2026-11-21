@@ -1,0 +1,18 @@
+{
+  "id": 170978418,
+  "name": "chimay/torus",
+  "description": "Switching buffers and buffer groups at will in emacs. Based on MTorus : rewritten from scratch",
+  "url": "https://github.com/chimay/torus",
+  "stars": 56,
+  "updated": "2023-04-19T09:29:43Z",
+  "archived": false,
+  "topics": ["buffer", "emacs", "group"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "torus",
+    "fetcher": "github",
+    "repo": "chimay/torus"
+  }
+}

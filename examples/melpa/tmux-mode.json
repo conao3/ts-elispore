@@ -1,0 +1,18 @@
+{
+  "id": 240086213,
+  "name": "nverno/tmux-mode",
+  "description": "Emacs major-mode for tmux configuration files (.tmux.conf)",
+  "url": "https://github.com/nverno/tmux-mode",
+  "stars": 5,
+  "updated": "2023-11-30T12:49:40Z",
+  "archived": false,
+  "topics": ["configuration", "emacs", "major-mode", "tmux"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tmux-mode",
+    "fetcher": "github",
+    "repo": "nverno/tmux-mode"
+  }
+}

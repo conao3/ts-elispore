@@ -1,0 +1,19 @@
+{
+  "id": 63552732,
+  "name": "Alexander-Miller/treemacs",
+  "description": "",
+  "url": "https://github.com/Alexander-Miller/treemacs",
+  "stars": 2371,
+  "updated": "2025-12-26T13:07:40Z",
+  "archived": false,
+  "topics": ["emacs", "file-explorer"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "treemacs-projectile",
+    "fetcher": "github",
+    "repo": "Alexander-Miller/treemacs",
+    "files": "(\"src/extra/treemacs-projectile.el\")"
+  }
+}

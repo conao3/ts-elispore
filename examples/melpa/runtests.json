@@ -1,0 +1,18 @@
+{
+  "id": 25145093,
+  "name": "sunesimonsen/emacs-runtests",
+  "description": "Run any kind of tests from Emacs",
+  "url": "https://github.com/sunesimonsen/emacs-runtests",
+  "stars": 3,
+  "updated": "2015-08-07T08:34:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "runtests",
+    "fetcher": "github",
+    "repo": "sunesimonsen/emacs-runtests"
+  }
+}

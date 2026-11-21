@@ -1,0 +1,19 @@
+{
+  "id": 41571074,
+  "name": "kbauer/subemacs",
+  "description": "Evaluating expressions in a clean emacs subprocess",
+  "url": "https://github.com/kbauer/subemacs",
+  "stars": 1,
+  "updated": "2017-04-01T09:35:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "subemacs",
+    "fetcher": "github",
+    "repo": "kbauer/subemacs",
+    "files": "(:defaults (:exclude \"*experimental*\"))"
+  }
+}

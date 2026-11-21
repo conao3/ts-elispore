@@ -1,0 +1,18 @@
+{
+  "id": 2930244,
+  "name": "aspiers/smooth-scrolling",
+  "description": "Emacs smooth scrolling package",
+  "url": "https://github.com/aspiers/smooth-scrolling",
+  "stars": 108,
+  "updated": "2025-03-01T17:35:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smooth-scrolling",
+    "fetcher": "github",
+    "repo": "aspiers/smooth-scrolling"
+  }
+}

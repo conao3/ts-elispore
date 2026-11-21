@@ -1,0 +1,18 @@
+{
+  "id": 921840021,
+  "name": "neeasade/stillness-mode.el",
+  "description": "an emacs mode to make your windows stay still!",
+  "url": "https://github.com/neeasade/stillness-mode.el",
+  "stars": 33,
+  "updated": "2026-08-26T16:10:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "stillness-mode",
+    "fetcher": "github",
+    "repo": "neeasade/stillness-mode.el"
+  }
+}

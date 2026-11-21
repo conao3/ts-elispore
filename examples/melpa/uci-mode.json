@@ -1,0 +1,18 @@
+{
+  "id": 233505811,
+  "name": "dwcoates/uci-mode",
+  "description": "An Emacs major mode for talking to UCI chess engines",
+  "url": "https://github.com/dwcoates/uci-mode",
+  "stars": 5,
+  "updated": "2021-06-26T19:59:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "uci-mode",
+    "fetcher": "github",
+    "repo": "dwcoates/uci-mode"
+  }
+}

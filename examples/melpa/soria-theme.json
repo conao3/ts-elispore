@@ -1,0 +1,18 @@
+{
+  "id": 61549991,
+  "name": "mssola/soria",
+  "description": "A xoria256 theme with some colors from openSUSE",
+  "url": "https://github.com/mssola/soria",
+  "stars": 5,
+  "updated": "2026-07-02T14:29:07Z",
+  "archived": false,
+  "topics": ["dark-theme", "emacs-theme", "gnu-emacs", "opensuse", "xoria256"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "soria-theme",
+    "fetcher": "github",
+    "repo": "mssola/soria"
+  }
+}

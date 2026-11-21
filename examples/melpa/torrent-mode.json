@@ -1,0 +1,18 @@
+{
+  "id": 611220283,
+  "name": "sarg/torrent-mode.el",
+  "description": "Minor emacs mode for viewing torrent file contents.",
+  "url": "https://github.com/sarg/torrent-mode.el",
+  "stars": 4,
+  "updated": "2026-01-30T21:41:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "torrent-mode",
+    "fetcher": "github",
+    "repo": "sarg/torrent-mode.el"
+  }
+}

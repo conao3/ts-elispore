@@ -1,0 +1,19 @@
+{
+  "id": 2806057,
+  "name": "mattfidler/textmate-to-yas.el",
+  "description": "Import Textmate bundles to Yasnippet (0.7+) snippets",
+  "url": "https://github.com/mattfidler/textmate-to-yas.el",
+  "stars": 10,
+  "updated": "2016-04-09T17:08:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "textmate-to-yas",
+    "fetcher": "github",
+    "repo": "mattfidler/textmate-to-yas.el",
+    "files": "(:defaults\n         \"*.pl\"\n         ;; Building the manual fails, so don't try, removing some\n         ;; noise that makes it harder to focus on issues we actually\n         ;; have control over.  #8690 The maintainer did not respond\n         ;; when asked to fix this issue.\n         (:exclude \"*.texi\"))"
+  }
+}

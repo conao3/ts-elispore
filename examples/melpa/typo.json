@@ -1,0 +1,18 @@
+{
+  "id": 6105960,
+  "name": "jorgenschaefer/typoel",
+  "description": "Emacs extension for typographical editing",
+  "url": "https://github.com/jorgenschaefer/typoel",
+  "stars": 121,
+  "updated": "2023-10-04T17:11:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "typo",
+    "fetcher": "github",
+    "repo": "jorgenschaefer/typoel"
+  }
+}

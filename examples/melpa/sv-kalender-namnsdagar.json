@@ -1,0 +1,18 @@
+{
+  "id": 178944312,
+  "name": "matsl/sv-kalender-namnsdagar",
+  "description": "Emacs calendar function for the swedish celebrated name of the day",
+  "url": "https://github.com/matsl/sv-kalender-namnsdagar",
+  "stars": 0,
+  "updated": "2024-06-20T14:22:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sv-kalender-namnsdagar",
+    "fetcher": "github",
+    "repo": "matsl/sv-kalender-namnsdagar"
+  }
+}

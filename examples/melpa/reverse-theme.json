@@ -1,0 +1,18 @@
+{
+  "id": 5780465,
+  "name": "emacsorphanage/reverse-theme",
+  "description": "Emacs color theme of reverse(like 'emacs --reverse-video')",
+  "url": "https://github.com/emacsorphanage/reverse-theme",
+  "stars": 14,
+  "updated": "2015-10-31T14:46:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "reverse-theme",
+    "fetcher": "github",
+    "repo": "emacsorphanage/reverse-theme"
+  }
+}

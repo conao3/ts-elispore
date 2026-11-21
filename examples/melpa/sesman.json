@@ -1,0 +1,18 @@
+{
+  "id": 121384869,
+  "name": "vspinu/sesman",
+  "description": "Session manager for Emacs based IDEs.",
+  "url": "https://github.com/vspinu/sesman",
+  "stars": 93,
+  "updated": "2026-06-16T12:39:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sesman",
+    "fetcher": "github",
+    "repo": "vspinu/sesman"
+  }
+}

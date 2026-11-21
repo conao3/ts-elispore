@@ -1,0 +1,18 @@
+{
+  "id": 692408610,
+  "name": "nilclass/slint-mode",
+  "description": "Emacs major-mode for the Slint UI language",
+  "url": "https://github.com/nilclass/slint-mode",
+  "stars": 9,
+  "updated": "2024-08-11T07:21:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "slint-mode",
+    "fetcher": "github",
+    "repo": "nilclass/slint-mode"
+  }
+}

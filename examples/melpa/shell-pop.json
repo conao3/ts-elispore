@@ -1,0 +1,18 @@
+{
+  "id": 6213445,
+  "name": "kyagi/shell-pop-el",
+  "description": "shell-pop.el helps you to use shell easily on Emacs. Only one key action to work.",
+  "url": "https://github.com/kyagi/shell-pop-el",
+  "stars": 227,
+  "updated": "2026-06-10T22:31:29Z",
+  "archived": false,
+  "topics": ["emacs", "guake", "shell", "terminal"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shell-pop",
+    "fetcher": "github",
+    "repo": "kyagi/shell-pop-el"
+  }
+}

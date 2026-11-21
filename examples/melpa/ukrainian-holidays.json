@@ -1,0 +1,18 @@
+{
+  "id": 11546849,
+  "name": "abo-abo/ukrainian-holidays",
+  "description": "Ukrainian holidays for Emacs calendar",
+  "url": "https://github.com/abo-abo/ukrainian-holidays",
+  "stars": 9,
+  "updated": "2021-10-11T12:08:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ukrainian-holidays",
+    "fetcher": "github",
+    "repo": "abo-abo/ukrainian-holidays"
+  }
+}

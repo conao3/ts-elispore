@@ -1,0 +1,18 @@
+{
+  "id": 3010800,
+  "name": "dppdppd/Tabula-Rasa",
+  "description": "Distraction-free writing mode for Emacs",
+  "url": "https://github.com/dppdppd/Tabula-Rasa",
+  "stars": 8,
+  "updated": "2014-12-16T05:47:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tabula-rasa",
+    "fetcher": "github",
+    "repo": "dppdppd/Tabula-Rasa"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 287718971,
+  "name": "rayw000/use-proxy",
+  "description": "Easy way to enable/disable proxies in Emacs and Elisp.",
+  "url": "https://github.com/rayw000/use-proxy",
+  "stars": 15,
+  "updated": "2022-03-30T03:16:48Z",
+  "archived": false,
+  "topics": ["emacs", "melpa", "proxy", "switch", "toggle"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "use-proxy",
+    "fetcher": "github",
+    "repo": "rayw000/use-proxy"
+  }
+}

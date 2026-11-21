@@ -1,0 +1,18 @@
+{
+  "id": 93194042,
+  "name": "hlissner/emacs-solaire-mode",
+  "description": "If only certain buffers could be so grossly incandescent.",
+  "url": "https://github.com/hlissner/emacs-solaire-mode",
+  "stars": 366,
+  "updated": "2026-08-30T20:48:30Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-packages", "melpa"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "solaire-mode",
+    "fetcher": "github",
+    "repo": "hlissner/emacs-solaire-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 4697808,
+  "name": "magnars/smart-forward.el",
+  "description": "semantic navigation based on expand-region.el",
+  "url": "https://github.com/magnars/smart-forward.el",
+  "stars": 30,
+  "updated": "2014-04-30T07:13:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smart-forward",
+    "fetcher": "github",
+    "repo": "magnars/smart-forward.el"
+  }
+}

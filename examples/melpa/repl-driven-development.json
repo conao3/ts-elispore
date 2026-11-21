@@ -1,0 +1,18 @@
+{
+  "id": 625564054,
+  "name": "alhassy/repl-driven-development",
+  "description": "Press \"C-x C-e\" to send any piece of code (in any language) to a REPL in the background, within Emacs!",
+  "url": "https://github.com/alhassy/repl-driven-development",
+  "stars": 77,
+  "updated": "2024-11-10T16:11:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "repl-driven-development",
+    "fetcher": "github",
+    "repo": "alhassy/repl-driven-development"
+  }
+}

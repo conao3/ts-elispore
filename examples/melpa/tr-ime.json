@@ -1,0 +1,18 @@
+{
+  "id": 289653374,
+  "name": "trueroad/tr-emacs-ime-module",
+  "description": "Emulator of GNU Emacs IME patch for Windows (tr-ime)",
+  "url": "https://github.com/trueroad/tr-emacs-ime-module",
+  "stars": 54,
+  "updated": "2022-11-21T10:23:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "C++",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tr-ime",
+    "fetcher": "github",
+    "repo": "trueroad/tr-emacs-ime-module"
+  }
+}

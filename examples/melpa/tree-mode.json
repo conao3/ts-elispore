@@ -1,0 +1,18 @@
+{
+  "id": 859844,
+  "name": "emacsorphanage/tree-mode",
+  "description": "A mode to manage tree widgets",
+  "url": "https://github.com/emacsorphanage/tree-mode",
+  "stars": 4,
+  "updated": "2015-11-29T17:32:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "tree-mode",
+    "fetcher": "github",
+    "repo": "emacsorphanage/tree-mode"
+  }
+}

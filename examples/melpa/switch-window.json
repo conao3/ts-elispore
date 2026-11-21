@@ -1,0 +1,18 @@
+{
+  "id": 875586,
+  "name": "dimitri/switch-window",
+  "description": "Offer a *visual* way to choose a window to switch to",
+  "url": "https://github.com/dimitri/switch-window",
+  "stars": 310,
+  "updated": "2026-03-16T02:57:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "switch-window",
+    "fetcher": "github",
+    "repo": "dimitri/switch-window"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 200453410,
+  "name": "emacs-taskrunner/emacs-taskrunner",
+  "description": "A universal task runner for emacs",
+  "url": "https://github.com/emacs-taskrunner/emacs-taskrunner",
+  "stars": 95,
+  "updated": "2024-06-01T23:22:54Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-lisp", "taskrunner"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "taskrunner",
+    "fetcher": "github",
+    "repo": "emacs-taskrunner/emacs-taskrunner"
+  }
+}

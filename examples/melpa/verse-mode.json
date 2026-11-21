@@ -1,0 +1,18 @@
+{
+  "id": 1047385428,
+  "name": "sness23/verse-mode",
+  "description": "Emacs mode for Verse lang",
+  "url": "https://github.com/sness23/verse-mode",
+  "stars": 0,
+  "updated": "2025-09-10T23:55:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "verse-mode",
+    "fetcher": "github",
+    "repo": "sness23/verse-mode"
+  }
+}

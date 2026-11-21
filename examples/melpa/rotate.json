@@ -1,0 +1,18 @@
+{
+  "id": 8834077,
+  "name": "daichirata/emacs-rotate",
+  "description": "Rotate the layout of emacs.",
+  "url": "https://github.com/daichirata/emacs-rotate",
+  "stars": 82,
+  "updated": "2026-05-26T19:19:35Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-rotate", "window-manager"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rotate",
+    "fetcher": "github",
+    "repo": "daichirata/emacs-rotate"
+  }
+}

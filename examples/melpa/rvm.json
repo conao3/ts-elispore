@@ -1,0 +1,18 @@
+{
+  "id": 595274,
+  "name": "senny/rvm.el",
+  "description": "use rvm to manage ruby versions within emacs",
+  "url": "https://github.com/senny/rvm.el",
+  "stars": 217,
+  "updated": "2022-09-10T15:58:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rvm",
+    "fetcher": "github",
+    "repo": "senny/rvm.el"
+  }
+}

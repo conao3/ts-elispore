@@ -1,0 +1,19 @@
+{
+  "id": 455952,
+  "name": "kiwanami/emacs-skype",
+  "description": "Skype UI for emacs users",
+  "url": "https://github.com/kiwanami/emacs-skype",
+  "stars": 71,
+  "updated": "2016-07-11T08:24:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "skype",
+    "fetcher": "github",
+    "repo": "kiwanami/emacs-skype",
+    "files": "(\"*.el\" \"*.py\")"
+  }
+}

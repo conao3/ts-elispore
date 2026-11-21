@@ -1,0 +1,18 @@
+{
+  "id": 1052868048,
+  "name": "Bastillan/tabbymacs",
+  "description": "Emacs plugin for inline code completions powered by Tabby LLM",
+  "url": "https://github.com/Bastillan/tabbymacs",
+  "stars": 7,
+  "updated": "2026-02-03T18:30:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tabbymacs",
+    "fetcher": "github",
+    "repo": "Bastillan/tabbymacs"
+  }
+}

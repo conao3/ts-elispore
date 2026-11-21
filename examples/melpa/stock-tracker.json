@@ -1,0 +1,18 @@
+{
+  "id": 202960929,
+  "name": "beacoder/stock-tracker",
+  "description": "Track stock price in Emacs",
+  "url": "https://github.com/beacoder/stock-tracker",
+  "stars": 48,
+  "updated": "2026-08-24T01:47:38Z",
+  "archived": false,
+  "topics": ["convinience", "finance", "stocks"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "stock-tracker",
+    "fetcher": "github",
+    "repo": "beacoder/stock-tracker"
+  }
+}

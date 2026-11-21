@@ -1,0 +1,18 @@
+{
+  "id": 291864623,
+  "name": "ukari/unicad",
+  "description": "",
+  "url": "https://github.com/ukari/unicad",
+  "stars": 8,
+  "updated": "2023-09-03T13:56:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "unicad",
+    "fetcher": "github",
+    "repo": "ukari/unicad"
+  }
+}

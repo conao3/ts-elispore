@@ -1,0 +1,18 @@
+{
+  "id": 5706226,
+  "name": "gcr/tumblesocks",
+  "description": "An Emacs tumblr client for tumblr's v2 API.",
+  "url": "https://github.com/gcr/tumblesocks",
+  "stars": 46,
+  "updated": "2025-01-09T05:47:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tumblesocks",
+    "fetcher": "github",
+    "repo": "gcr/tumblesocks"
+  }
+}

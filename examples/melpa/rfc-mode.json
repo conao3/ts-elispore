@@ -1,0 +1,18 @@
+{
+  "id": 185612100,
+  "name": "galdor/rfc-mode",
+  "description": "An Emacs major mode to read and browse RFC documents.",
+  "url": "https://github.com/galdor/rfc-mode",
+  "stars": 122,
+  "updated": "2026-09-17T17:49:23Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "rfc"],
+  "license": "ISC",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rfc-mode",
+    "fetcher": "github",
+    "repo": "galdor/rfc-mode"
+  }
+}

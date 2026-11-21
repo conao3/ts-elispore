@@ -1,0 +1,18 @@
+{
+  "id": 1186747116,
+  "name": "smallwat3r/emacs-ros-face",
+  "description": "Syntax highlighting for ROS (Robot Operating System) files",
+  "url": "https://github.com/smallwat3r/emacs-ros-face",
+  "stars": 0,
+  "updated": "2026-03-30T23:12:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ros-face",
+    "fetcher": "github",
+    "repo": "smallwat3r/emacs-ros-face"
+  }
+}

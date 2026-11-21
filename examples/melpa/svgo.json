@@ -1,0 +1,18 @@
+{
+  "id": 476474678,
+  "name": "hupf/svgo.el",
+  "description": "SVG optimization within Emacs with SVGO",
+  "url": "https://github.com/hupf/svgo.el",
+  "stars": 1,
+  "updated": "2022-05-28T21:05:00Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "svgo",
+    "fetcher": "github",
+    "repo": "hupf/svgo.el"
+  }
+}

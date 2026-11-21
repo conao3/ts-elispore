@@ -1,0 +1,18 @@
+{
+  "id": 65465727,
+  "name": "a13/reverse-im.el",
+  "description": "",
+  "url": "https://github.com/a13/reverse-im.el",
+  "stars": 138,
+  "updated": "2025-05-26T11:56:43Z",
+  "archived": false,
+  "topics": ["emacs-keybindings", "emacs-lisp", "emacs-packages", "keyboard-layout"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "reverse-im",
+    "fetcher": "github",
+    "repo": "a13/reverse-im.el"
+  }
+}

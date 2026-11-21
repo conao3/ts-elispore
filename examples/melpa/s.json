@@ -1,0 +1,18 @@
+{
+  "id": 6047731,
+  "name": "magnars/s.el",
+  "description": "The long lost Emacs string manipulation library.",
+  "url": "https://github.com/magnars/s.el",
+  "stars": 1076,
+  "updated": "2026-08-02T01:07:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "s",
+    "fetcher": "github",
+    "repo": "magnars/s.el"
+  }
+}

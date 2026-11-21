@@ -1,0 +1,19 @@
+{
+  "id": 1174655472,
+  "name": "devrintalen/taskjuggler-mode.el",
+  "description": "Emacs major mode for TaskJuggler files",
+  "url": "https://github.com/devrintalen/taskjuggler-mode.el",
+  "stars": 9,
+  "updated": "2026-05-06T01:38:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "taskjuggler-mode",
+    "fetcher": "github",
+    "repo": "devrintalen/taskjuggler-mode.el",
+    "files": "(:defaults \"snippets\")"
+  }
+}

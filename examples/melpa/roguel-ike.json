@@ -1,0 +1,19 @@
+{
+  "id": 15962979,
+  "name": "stevenremot/roguel-ike",
+  "description": "Coffee-break roguelike for Emacs",
+  "url": "https://github.com/stevenremot/roguel-ike",
+  "stars": 28,
+  "updated": "2024-12-29T10:46:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "roguel-ike",
+    "fetcher": "github",
+    "repo": "stevenremot/roguel-ike",
+    "files": "(\"*.el\" \"roguel-ike\" \"roguel-ike-lib\")"
+  }
+}

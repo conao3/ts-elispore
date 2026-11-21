@@ -1,0 +1,19 @@
+{
+  "id": 242996017,
+  "name": "DogLooksGood/emacs-rime",
+  "description": "RIME ㄓ in Emacs",
+  "url": "https://github.com/DogLooksGood/emacs-rime",
+  "stars": 541,
+  "updated": "2025-11-05T15:05:02Z",
+  "archived": false,
+  "topics": ["emacs", "input-method", "rime"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rime",
+    "fetcher": "github",
+    "repo": "DogLooksGood/emacs-rime",
+    "files": "(:defaults \"lib.c\" \"Makefile\")"
+  }
+}

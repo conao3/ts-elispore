@@ -1,0 +1,18 @@
+{
+  "id": 523414,
+  "name": "emacsorphanage/showtip",
+  "description": "Show tip at cursor",
+  "url": "https://github.com/emacsorphanage/showtip",
+  "stars": 4,
+  "updated": "2014-12-30T00:29:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "showtip",
+    "fetcher": "github",
+    "repo": "emacsorphanage/showtip"
+  }
+}

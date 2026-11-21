@@ -1,0 +1,18 @@
+{
+  "id": 658560624,
+  "name": "jerryxgh/semantic-thrift",
+  "description": "",
+  "url": "https://github.com/jerryxgh/semantic-thrift",
+  "stars": 5,
+  "updated": "2026-01-03T03:41:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "semantic-thrift",
+    "fetcher": "github",
+    "repo": "jerryxgh/semantic-thrift"
+  }
+}

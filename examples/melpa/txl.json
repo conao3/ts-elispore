@@ -1,0 +1,18 @@
+{
+  "id": 310376429,
+  "name": "tmalsburg/txl.el",
+  "description": "Emacs extension providing direct access to DeepL's machine translation API.",
+  "url": "https://github.com/tmalsburg/txl.el",
+  "stars": 46,
+  "updated": "2026-02-02T11:14:38Z",
+  "archived": false,
+  "topics": ["emacs", "language", "language-technology", "machine-translation", "nlp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "txl",
+    "fetcher": "github",
+    "repo": "tmalsburg/txl.el"
+  }
+}

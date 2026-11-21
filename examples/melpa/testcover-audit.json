@@ -1,0 +1,18 @@
+{
+  "id": 1332721768,
+  "name": "OverbearingPearl/testcover-audit",
+  "description": "Quantitative coverage statistics for Emacs testcover.el",
+  "url": "https://github.com/OverbearingPearl/testcover-audit",
+  "stars": 1,
+  "updated": "2026-10-30T14:37:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "testcover-audit",
+    "fetcher": "github",
+    "repo": "OverbearingPearl/testcover-audit"
+  }
+}

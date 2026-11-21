@@ -1,0 +1,18 @@
+{
+  "id": 40340960,
+  "name": "dbordak/telephone-line",
+  "description": "A new implementation of Powerline for Emacs",
+  "url": "https://github.com/dbordak/telephone-line",
+  "stars": 589,
+  "updated": "2024-03-29T22:35:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "telephone-line",
+    "fetcher": "github",
+    "repo": "dbordak/telephone-line"
+  }
+}

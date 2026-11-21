@@ -1,0 +1,18 @@
+{
+  "id": 1166753285,
+  "name": "danielcmccarthy/rtf-view",
+  "description": "View RTF files in Emacs.",
+  "url": "https://github.com/danielcmccarthy/rtf-view",
+  "stars": 2,
+  "updated": "2026-03-19T19:50:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rtf-view",
+    "fetcher": "github",
+    "repo": "danielcmccarthy/rtf-view"
+  }
+}

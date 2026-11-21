@@ -1,0 +1,18 @@
+{
+  "id": 330706003,
+  "name": "precompute/sculpture-themes",
+  "description": "Vivid themes for Emacs.",
+  "url": "https://github.com/precompute/sculpture-themes",
+  "stars": 18,
+  "updated": "2026-10-05T14:16:45Z",
+  "archived": false,
+  "topics": ["emacs", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sculpture-themes",
+    "fetcher": "github",
+    "repo": "precompute/sculpture-themes"
+  }
+}

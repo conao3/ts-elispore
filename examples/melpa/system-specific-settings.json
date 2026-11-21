@@ -1,0 +1,18 @@
+{
+  "id": 23049174,
+  "name": "DarwinAwardWinner/emacs-system-specific-settings",
+  "description": "",
+  "url": "https://github.com/DarwinAwardWinner/emacs-system-specific-settings",
+  "stars": 1,
+  "updated": "2014-08-18T14:58:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "system-specific-settings",
+    "fetcher": "github",
+    "repo": "DarwinAwardWinner/emacs-system-specific-settings"
+  }
+}

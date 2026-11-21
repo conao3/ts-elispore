@@ -1,0 +1,18 @@
+{
+  "id": 61205,
+  "name": "davep/uptimes.el",
+  "description": "Uptime tracking system for Emacs.",
+  "url": "https://github.com/davep/uptimes.el",
+  "stars": 8,
+  "updated": "2023-10-15T14:58:35Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-lisp", "lisp", "uptime"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "uptimes",
+    "fetcher": "github",
+    "repo": "davep/uptimes.el"
+  }
+}

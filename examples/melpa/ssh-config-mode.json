@@ -1,0 +1,19 @@
+{
+  "id": 4320262,
+  "name": "peterhoeg/ssh-config-mode-el",
+  "description": "emacs mode for editing ssh config files.",
+  "url": "https://github.com/peterhoeg/ssh-config-mode-el",
+  "stars": 60,
+  "updated": "2026-08-11T11:10:30Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "melpa", "ssh-config"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ssh-config-mode",
+    "fetcher": "github",
+    "repo": "peterhoeg/ssh-config-mode-el",
+    "files": "(:defaults \"*.txt\")"
+  }
+}

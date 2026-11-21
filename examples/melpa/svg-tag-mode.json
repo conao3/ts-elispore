@@ -1,0 +1,18 @@
+{
+  "id": 304882990,
+  "name": "rougier/svg-tag-mode",
+  "description": "A minor mode for Emacs that replace keywords with nice SVG labels",
+  "url": "https://github.com/rougier/svg-tag-mode",
+  "stars": 562,
+  "updated": "2024-10-21T13:41:53Z",
+  "archived": false,
+  "topics": ["emacs", "melpa", "minor-mode", "quelpa", "svg", "tags"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "svg-tag-mode",
+    "fetcher": "github",
+    "repo": "rougier/svg-tag-mode"
+  }
+}

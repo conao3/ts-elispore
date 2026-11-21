@@ -1,0 +1,18 @@
+{
+  "id": 27219345,
+  "name": "paradoxxxzero/tornado-template-mode",
+  "description": "A major mode for editing tornado templates",
+  "url": "https://github.com/paradoxxxzero/tornado-template-mode",
+  "stars": 1,
+  "updated": "2014-11-28T10:08:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tornado-template-mode",
+    "fetcher": "github",
+    "repo": "paradoxxxzero/tornado-template-mode"
+  }
+}

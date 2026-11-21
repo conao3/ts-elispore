@@ -1,0 +1,18 @@
+{
+  "id": 20838002,
+  "name": "r0man/soundklaus.el",
+  "description": "Play music on SoundCloud with Emacs via EMMS",
+  "url": "https://github.com/r0man/soundklaus.el",
+  "stars": 47,
+  "updated": "2022-02-18T14:05:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "soundklaus",
+    "fetcher": "github",
+    "repo": "r0man/soundklaus.el"
+  }
+}

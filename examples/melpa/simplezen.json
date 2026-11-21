@@ -1,0 +1,18 @@
+{
+  "id": 9568289,
+  "name": "magnars/simplezen.el",
+  "description": "A simple subset of zencoding-mode for Emacs",
+  "url": "https://github.com/magnars/simplezen.el",
+  "stars": 4,
+  "updated": "2013-05-03T21:03:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "simplezen",
+    "fetcher": "github",
+    "repo": "magnars/simplezen.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 34891367,
+  "name": "zk-phi/togetherly",
+  "description": "Allow multiple clients to edit a single file on-line",
+  "url": "https://github.com/zk-phi/togetherly",
+  "stars": 147,
+  "updated": "2020-10-01T13:20:39Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "togetherly",
+    "fetcher": "github",
+    "repo": "zk-phi/togetherly"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 26637474,
+  "name": "larstvei/Try",
+  "description": "Try out Emacs packages",
+  "url": "https://github.com/larstvei/Try",
+  "stars": 115,
+  "updated": "2018-12-04T02:36:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "try",
+    "fetcher": "github",
+    "repo": "larstvei/Try"
+  }
+}

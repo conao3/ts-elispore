@@ -1,0 +1,19 @@
+{
+  "id": 21089599,
+  "name": "zenitani/elisp",
+  "description": "",
+  "url": "https://github.com/zenitani/elisp",
+  "stars": 15,
+  "updated": "2026-08-31T11:37:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smart-compile",
+    "fetcher": "github",
+    "repo": "zenitani/elisp",
+    "files": "(\"smart-compile.el\")"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": 176750388,
+  "name": "jcaw/theme-magic",
+  "description": "🎨 Apply your Emacs theme to the rest of Linux, using magic. Also works on Mac.",
+  "url": "https://github.com/jcaw/theme-magic",
+  "stars": 151,
+  "updated": "2019-07-11T20:35:44Z",
+  "archived": false,
+  "topics": [
+    "ansi-colors",
+    "elisp",
+    "emacs",
+    "linux",
+    "linux-theme",
+    "pywal",
+    "terminal-themes",
+    "themes"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "theme-magic",
+    "fetcher": "github",
+    "repo": "jcaw/theme-magic",
+    "files": "(:defaults \"python\")"
+  }
+}

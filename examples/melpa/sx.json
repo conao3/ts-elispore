@@ -1,0 +1,18 @@
+{
+  "id": 8457408,
+  "name": "vermiculus/sx.el",
+  "description": "Stack Exchange for Emacs",
+  "url": "https://github.com/vermiculus/sx.el",
+  "stars": 708,
+  "updated": "2024-01-26T21:20:54Z",
+  "archived": false,
+  "topics": ["emacs", "stack-exchange", "stackoverflow"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sx",
+    "fetcher": "github",
+    "repo": "vermiculus/sx.el"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": 91462420,
+  "name": "davep/slstats.el",
+  "description": "Acquire and display stats about Second Life",
+  "url": "https://github.com/davep/slstats.el",
+  "stars": 1,
+  "updated": "2026-04-14T19:48:09Z",
+  "archived": false,
+  "topics": [
+    "elisp",
+    "emacs",
+    "information",
+    "lisp",
+    "second-life",
+    "secondlife",
+    "statistics",
+    "virtual-reality"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "slstats",
+    "fetcher": "github",
+    "repo": "davep/slstats.el"
+  }
+}

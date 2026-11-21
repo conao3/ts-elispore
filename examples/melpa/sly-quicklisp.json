@@ -1,0 +1,19 @@
+{
+  "id": 51087667,
+  "name": "joaotavora/sly-quicklisp",
+  "description": "Quicklisp support for SLY",
+  "url": "https://github.com/joaotavora/sly-quicklisp",
+  "stars": 38,
+  "updated": "2024-07-08T01:27:53Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sly-quicklisp",
+    "fetcher": "github",
+    "repo": "joaotavora/sly-quicklisp",
+    "files": "(:defaults\n                       \"*.lisp\"\n                       \"*.asd\")"
+  }
+}

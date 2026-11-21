@@ -1,0 +1,18 @@
+{
+  "id": 362393143,
+  "name": "jjlee/rescript-mode",
+  "description": "A major mode for editing ReScript",
+  "url": "https://github.com/jjlee/rescript-mode",
+  "stars": 47,
+  "updated": "2026-05-05T20:42:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rescript-mode",
+    "fetcher": "github",
+    "repo": "jjlee/rescript-mode"
+  }
+}

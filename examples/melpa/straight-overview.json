@@ -1,0 +1,18 @@
+{
+  "id": 1272772362,
+  "name": "alberti42/straight-overview",
+  "description": "Selective-upgrade UI for straight.el packages: see which are behind upstream and update (or pin) only the ones you choose",
+  "url": "https://github.com/alberti42/straight-overview",
+  "stars": 15,
+  "updated": "2026-11-04T17:18:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "straight-overview",
+    "fetcher": "github",
+    "repo": "alberti42/straight-overview"
+  }
+}

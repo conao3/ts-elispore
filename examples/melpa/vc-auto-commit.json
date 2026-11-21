@@ -1,0 +1,18 @@
+{
+  "id": 11981337,
+  "name": "thisirs/vc-auto-commit",
+  "description": "Auto-committing feature for your repository",
+  "url": "https://github.com/thisirs/vc-auto-commit",
+  "stars": 2,
+  "updated": "2026-11-17T17:08:35Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "vc-auto-commit",
+    "fetcher": "github",
+    "repo": "thisirs/vc-auto-commit"
+  }
+}

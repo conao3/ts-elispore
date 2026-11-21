@@ -1,0 +1,18 @@
+{
+  "id": 34585723,
+  "name": "PuercoPop/sly-repl-ansi-color",
+  "description": "ansi-color support for the sly-mrepl",
+  "url": "https://github.com/PuercoPop/sly-repl-ansi-color",
+  "stars": 19,
+  "updated": "2017-10-20T15:16:55Z",
+  "archived": false,
+  "topics": ["ansi-color", "emacs-lisp", "sly"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sly-repl-ansi-color",
+    "fetcher": "github",
+    "repo": "PuercoPop/sly-repl-ansi-color"
+  }
+}

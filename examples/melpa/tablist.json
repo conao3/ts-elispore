@@ -1,0 +1,18 @@
+{
+  "id": 614588449,
+  "name": "emacsorphanage/tablist",
+  "description": "Extended tabulated-list-mode",
+  "url": "https://github.com/emacsorphanage/tablist",
+  "stars": 3,
+  "updated": "2026-06-23T18:55:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "tablist",
+    "fetcher": "github",
+    "repo": "emacsorphanage/tablist"
+  }
+}

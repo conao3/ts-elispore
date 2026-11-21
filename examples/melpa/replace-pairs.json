@@ -1,0 +1,18 @@
+{
+  "id": 51204215,
+  "name": "davidshepherd7/replace-pairs",
+  "description": "Find-replace pairs of things with a single command",
+  "url": "https://github.com/davidshepherd7/replace-pairs",
+  "stars": 4,
+  "updated": "2018-11-06T13:54:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "replace-pairs",
+    "fetcher": "github",
+    "repo": "davidshepherd7/replace-pairs"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 60582533,
+  "name": "ahungry/swagger-to-org",
+  "description": "Convert a swagger.json file into an emacs org-mode buffer/file for export to static pdf/html/latex",
+  "url": "https://github.com/ahungry/swagger-to-org",
+  "stars": 11,
+  "updated": "2016-06-11T00:57:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "swagger-to-org",
+    "fetcher": "github",
+    "repo": "ahungry/swagger-to-org"
+  }
+}

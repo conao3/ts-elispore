@@ -1,0 +1,18 @@
+{
+  "id": 274214052,
+  "name": "mtk/teco",
+  "description": "GNU Emacs teco-in-elisp interpreter",
+  "url": "https://github.com/mtk/teco",
+  "stars": 18,
+  "updated": "2020-08-01T18:43:31Z",
+  "archived": false,
+  "topics": ["teco-emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "teco",
+    "fetcher": "github",
+    "repo": "mtk/teco"
+  }
+}

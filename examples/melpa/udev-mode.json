@@ -1,0 +1,18 @@
+{
+  "id": 275017973,
+  "name": "benley/emacs-udev-mode",
+  "description": "Emacs major mode for editing udev rules files",
+  "url": "https://github.com/benley/emacs-udev-mode",
+  "stars": 5,
+  "updated": "2020-07-02T15:37:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "udev-mode",
+    "fetcher": "github",
+    "repo": "benley/emacs-udev-mode"
+  }
+}

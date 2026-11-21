@@ -1,0 +1,18 @@
+{
+  "id": 71605034,
+  "name": "microamp/smmry.el",
+  "description": "SMMRY client for Emacs",
+  "url": "https://github.com/microamp/smmry.el",
+  "stars": 1,
+  "updated": "2024-07-18T09:47:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smmry",
+    "fetcher": "github",
+    "repo": "microamp/smmry.el"
+  }
+}

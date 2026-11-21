@@ -1,0 +1,18 @@
+{
+  "id": 1451072,
+  "name": "strazzere/Emacs-Smali",
+  "description": "Smali/Baksmali mode for Emacs",
+  "url": "https://github.com/strazzere/Emacs-Smali",
+  "stars": 36,
+  "updated": "2026-07-22T21:03:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Smali",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smali-mode",
+    "fetcher": "github",
+    "repo": "strazzere/Emacs-Smali"
+  }
+}

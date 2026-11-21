@@ -1,0 +1,18 @@
+{
+  "id": 378296611,
+  "name": "fosskers/streak",
+  "description": "A minor mode for Emacs to track a streak.",
+  "url": "https://github.com/fosskers/streak",
+  "stars": 12,
+  "updated": "2024-01-06T21:45:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "streak",
+    "fetcher": "github",
+    "repo": "fosskers/streak"
+  }
+}

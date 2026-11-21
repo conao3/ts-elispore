@@ -1,0 +1,18 @@
+{
+  "id": 163133188,
+  "name": "alphapapa/scrollkeeper.el",
+  "description": "Configurable scrolling commands with visual guidelines, for Emacs",
+  "url": "https://github.com/alphapapa/scrollkeeper.el",
+  "stars": 28,
+  "updated": "2019-01-09T06:30:13Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scrollkeeper",
+    "fetcher": "github",
+    "repo": "alphapapa/scrollkeeper.el"
+  }
+}

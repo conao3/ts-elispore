@@ -1,0 +1,18 @@
+{
+  "id": 12407385,
+  "name": "gongo/emacs-toml",
+  "description": "TOML (Tom's Obvious, Minimal Language) parser and generator",
+  "url": "https://github.com/gongo/emacs-toml",
+  "stars": 25,
+  "updated": "2026-03-22T08:33:46Z",
+  "archived": false,
+  "topics": ["toml"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "toml",
+    "fetcher": "github",
+    "repo": "gongo/emacs-toml"
+  }
+}

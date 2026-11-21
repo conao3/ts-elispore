@@ -1,0 +1,18 @@
+{
+  "id": 197758,
+  "name": "konzeptual/tea-time",
+  "description": "Tea timer for emacs",
+  "url": "https://github.com/konzeptual/tea-time",
+  "stars": 6,
+  "updated": "2019-02-23T16:36:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tea-time",
+    "fetcher": "github",
+    "repo": "konzeptual/tea-time"
+  }
+}

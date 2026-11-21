@@ -1,0 +1,19 @@
+{
+  "id": 396371155,
+  "name": "ethan-leba/tree-edit",
+  "description": "🌲   Structural editing in Emacs for any™ language!",
+  "url": "https://github.com/ethan-leba/tree-edit",
+  "stars": 417,
+  "updated": "2025-06-01T21:20:55Z",
+  "archived": false,
+  "topics": ["emacs", "evil-mode", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "tree-edit",
+    "fetcher": "github",
+    "repo": "ethan-leba/tree-edit",
+    "files": "(:defaults (:exclude \"evil-tree-edit*.el\"))"
+  }
+}

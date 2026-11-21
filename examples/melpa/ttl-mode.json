@@ -1,0 +1,18 @@
+{
+  "id": 167171694,
+  "name": "jeeger/ttl-mode",
+  "description": "Emacs Turtle and Notation 3 mode (forked from https://bitbucket.org/nxg/ttl-mode)",
+  "url": "https://github.com/jeeger/ttl-mode",
+  "stars": 14,
+  "updated": "2026-10-05T09:31:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ttl-mode",
+    "fetcher": "github",
+    "repo": "jeeger/ttl-mode"
+  }
+}

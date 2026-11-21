@@ -1,0 +1,18 @@
+{
+  "id": 14084291,
+  "name": "hvesalai/emacs-sbt-mode",
+  "description": "An emacs mode for interacting with scala sbt and projects",
+  "url": "https://github.com/hvesalai/emacs-sbt-mode",
+  "stars": 128,
+  "updated": "2026-11-02T16:15:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sbt-mode",
+    "fetcher": "github",
+    "repo": "hvesalai/emacs-sbt-mode"
+  }
+}

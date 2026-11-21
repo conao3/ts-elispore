@@ -1,0 +1,18 @@
+{
+  "id": 37014379,
+  "name": "emacs-typescript/typescript.el",
+  "description": "TypeScript-support for Emacs",
+  "url": "https://github.com/emacs-typescript/typescript.el",
+  "stars": 284,
+  "updated": "2025-11-27T20:40:54Z",
+  "archived": false,
+  "topics": ["emacs", "hacktoberfest", "typescript"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "typescript-mode",
+    "fetcher": "github",
+    "repo": "emacs-typescript/typescript.el"
+  }
+}

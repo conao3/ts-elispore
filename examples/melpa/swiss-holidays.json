@@ -1,0 +1,18 @@
+{
+  "id": 97820979,
+  "name": "egli/swiss-holidays",
+  "description": "Swiss holidays for GNU/Emacs calendar",
+  "url": "https://github.com/egli/swiss-holidays",
+  "stars": 2,
+  "updated": "2020-05-26T08:22:37Z",
+  "archived": false,
+  "topics": ["calendar", "emacs", "emacs-calendar", "holidays", "swiss"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "swiss-holidays",
+    "fetcher": "github",
+    "repo": "egli/swiss-holidays"
+  }
+}

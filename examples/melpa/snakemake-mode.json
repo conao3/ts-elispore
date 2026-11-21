@@ -1,0 +1,18 @@
+{
+  "id": 21295716,
+  "name": "kyleam/snakemake-mode",
+  "description": "[MIRROR] Emacs support for Snakemake",
+  "url": "https://github.com/kyleam/snakemake-mode",
+  "stars": 35,
+  "updated": "2025-02-04T02:09:22Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "snakemake"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "snakemake-mode",
+    "fetcher": "github",
+    "repo": "kyleam/snakemake-mode"
+  }
+}

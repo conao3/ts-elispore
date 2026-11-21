@@ -1,0 +1,18 @@
+{
+  "id": 723784131,
+  "name": "rechsteiner/swift-ts-mode",
+  "description": "Tree-sitter based major-mode for Swift in Emacs, with support for font-locking, imenu and indentation.",
+  "url": "https://github.com/rechsteiner/swift-ts-mode",
+  "stars": 16,
+  "updated": "2025-09-15T07:59:01Z",
+  "archived": false,
+  "topics": ["emacs", "swift", "tree-sitter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "swift-ts-mode",
+    "fetcher": "github",
+    "repo": "rechsteiner/swift-ts-mode"
+  }
+}

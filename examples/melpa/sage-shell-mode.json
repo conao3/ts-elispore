@@ -1,0 +1,19 @@
+{
+  "id": 8752453,
+  "name": "sagemath/sage-shell-mode",
+  "description": "Emacs front end for SageMath",
+  "url": "https://github.com/sagemath/sage-shell-mode",
+  "stars": 106,
+  "updated": "2026-05-23T15:04:57Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sage-shell-mode",
+    "fetcher": "github",
+    "repo": "sagemath/sage-shell-mode",
+    "files": "(:defaults \"*.py\" (:exclude \"*test.py\"))"
+  }
+}

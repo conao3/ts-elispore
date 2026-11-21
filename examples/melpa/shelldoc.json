@@ -1,0 +1,18 @@
+{
+  "id": 27369812,
+  "name": "mhayashi1120/Emacs-shelldoc",
+  "description": "Shell command editing support with man page.",
+  "url": "https://github.com/mhayashi1120/Emacs-shelldoc",
+  "stars": 10,
+  "updated": "2023-02-07T02:58:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shelldoc",
+    "fetcher": "github",
+    "repo": "mhayashi1120/Emacs-shelldoc"
+  }
+}

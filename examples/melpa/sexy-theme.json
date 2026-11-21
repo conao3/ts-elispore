@@ -1,0 +1,18 @@
+{
+  "id": 934488083,
+  "name": "xenodesire/sexy-theme.el",
+  "description": "An incredibly sexy theme for emacs",
+  "url": "https://github.com/xenodesire/sexy-theme.el",
+  "stars": 4,
+  "updated": "2026-07-08T03:27:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sexy-theme",
+    "fetcher": "github",
+    "repo": "xenodesire/sexy-theme.el"
+  }
+}

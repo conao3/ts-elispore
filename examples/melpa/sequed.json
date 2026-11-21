@@ -1,0 +1,18 @@
+{
+  "id": 273768008,
+  "name": "brannala/sequed",
+  "description": "DNA sequence editor and alignment viewer for emacs",
+  "url": "https://github.com/brannala/sequed",
+  "stars": 18,
+  "updated": "2026-02-20T06:32:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sequed",
+    "fetcher": "github",
+    "repo": "brannala/sequed"
+  }
+}

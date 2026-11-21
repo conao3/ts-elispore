@@ -1,0 +1,20 @@
+{
+  "id": 195978598,
+  "name": "emacs-tree-sitter/elisp-tree-sitter",
+  "description": "Emacs Lisp bindings for tree-sitter",
+  "url": "https://github.com/emacs-tree-sitter/elisp-tree-sitter",
+  "stars": 856,
+  "updated": "2026-09-01T14:43:31Z",
+  "archived": false,
+  "topics": ["binding", "emacs", "emacs-modules", "incremental", "parsing", "rust", "tree-sitter"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "tsc",
+    "fetcher": "github",
+    "repo": "emacs-tree-sitter/elisp-tree-sitter",
+    "branch": "release",
+    "files": "(\"core/*.el\"\n         \"core/Cargo.toml\"\n         \"core/Cargo.lock\"\n         \"core/src\")"
+  }
+}

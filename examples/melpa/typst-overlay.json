@@ -1,0 +1,18 @@
+{
+  "id": 1216650214,
+  "name": "hesampakdaman/typst-overlay",
+  "description": "Render Typst math equations as inline overlays in Emacs.",
+  "url": "https://github.com/hesampakdaman/typst-overlay",
+  "stars": 13,
+  "updated": "2026-11-18T21:38:52Z",
+  "archived": false,
+  "topics": ["elisp", "emacs", "emacs-package", "mathematics", "org-mode", "typst", "writing"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "typst-overlay",
+    "fetcher": "github",
+    "repo": "hesampakdaman/typst-overlay"
+  }
+}

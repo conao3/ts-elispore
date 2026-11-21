@@ -1,0 +1,19 @@
+{
+  "id": 55811753,
+  "name": "aaron-em/ten-hundred-mode.el",
+  "description": "A thing to help people use only the ten hundred most usual English words.",
+  "url": "https://github.com/aaron-em/ten-hundred-mode.el",
+  "stars": 13,
+  "updated": "2016-11-21T15:09:21Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ten-hundred-mode",
+    "fetcher": "github",
+    "repo": "aaron-em/ten-hundred-mode.el",
+    "files": "(:defaults \"lib\")"
+  }
+}

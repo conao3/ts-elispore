@@ -1,0 +1,18 @@
+{
+  "id": 523445,
+  "name": "emacsorphanage/sr-speedbar",
+  "description": "Same frame speedbar",
+  "url": "https://github.com/emacsorphanage/sr-speedbar",
+  "stars": 36,
+  "updated": "2024-06-05T20:14:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "sr-speedbar",
+    "fetcher": "github",
+    "repo": "emacsorphanage/sr-speedbar"
+  }
+}

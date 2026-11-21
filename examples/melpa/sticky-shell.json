@@ -1,0 +1,18 @@
+{
+  "id": 573897621,
+  "name": "andrewdea/sticky-shell",
+  "description": " Minor mode to keep track of previous prompt in your shell",
+  "url": "https://github.com/andrewdea/sticky-shell",
+  "stars": 18,
+  "updated": "2026-11-12T20:14:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sticky-shell",
+    "fetcher": "github",
+    "repo": "andrewdea/sticky-shell"
+  }
+}

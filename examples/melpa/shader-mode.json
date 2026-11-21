@@ -1,0 +1,18 @@
+{
+  "id": 43012813,
+  "name": "midnightSuyama/shader-mode",
+  "description": "Unity shader editing mode for GNU Emacs",
+  "url": "https://github.com/midnightSuyama/shader-mode",
+  "stars": 20,
+  "updated": "2022-09-30T10:52:36Z",
+  "archived": false,
+  "topics": ["emacs", "unity"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "shader-mode",
+    "fetcher": "github",
+    "repo": "midnightSuyama/shader-mode"
+  }
+}

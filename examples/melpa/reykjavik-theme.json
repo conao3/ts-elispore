@@ -1,0 +1,18 @@
+{
+  "id": 49132260,
+  "name": "mswift42/reykjavik-theme",
+  "description": "Emacs theme with a dark background and low saturated colors.",
+  "url": "https://github.com/mswift42/reykjavik-theme",
+  "stars": 11,
+  "updated": "2020-12-19T09:47:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "reykjavik-theme",
+    "fetcher": "github",
+    "repo": "mswift42/reykjavik-theme"
+  }
+}

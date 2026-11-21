@@ -1,0 +1,19 @@
+{
+  "id": 6198122,
+  "name": "webframp/sicp-info",
+  "description": "Stucture and Interpretation of Computer Progams in info format",
+  "url": "https://github.com/webframp/sicp-info",
+  "stars": 131,
+  "updated": "2024-08-26T18:44:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sicp",
+    "fetcher": "github",
+    "repo": "webframp/sicp-info",
+    "files": "(:defaults (:exclude \"sicp.texi\"))"
+  }
+}

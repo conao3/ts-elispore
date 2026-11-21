@@ -1,0 +1,18 @@
+{
+  "id": 11864283,
+  "name": "woudshoo/sparkline",
+  "description": "Make sparkline graphs in emacs",
+  "url": "https://github.com/woudshoo/sparkline",
+  "stars": 4,
+  "updated": "2015-01-01T13:19:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sparkline",
+    "fetcher": "github",
+    "repo": "woudshoo/sparkline"
+  }
+}

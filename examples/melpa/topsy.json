@@ -1,0 +1,18 @@
+{
+  "id": 323249912,
+  "name": "alphapapa/topsy.el",
+  "description": "Simple sticky header showing definition beyond top of window",
+  "url": "https://github.com/alphapapa/topsy.el",
+  "stars": 113,
+  "updated": "2024-06-12T20:51:46Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "topsy",
+    "fetcher": "github",
+    "repo": "alphapapa/topsy.el"
+  }
+}

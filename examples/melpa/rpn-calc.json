@@ -1,0 +1,18 @@
+{
+  "id": 30871795,
+  "name": "zk-phi/rpn-calc",
+  "description": "Handy RPN calculator for hackers",
+  "url": "https://github.com/zk-phi/rpn-calc",
+  "stars": 13,
+  "updated": "2021-03-06T04:26:46Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rpn-calc",
+    "fetcher": "github",
+    "repo": "zk-phi/rpn-calc"
+  }
+}

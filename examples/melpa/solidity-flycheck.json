@@ -1,0 +1,19 @@
+{
+  "id": 28040436,
+  "name": "ethereum/emacs-solidity",
+  "description": "The official solidity-mode for EMACS",
+  "url": "https://github.com/ethereum/emacs-solidity",
+  "stars": 211,
+  "updated": "2023-06-28T16:37:20Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-mode", "ethereum", "solidity"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "solidity-flycheck",
+    "fetcher": "github",
+    "repo": "ethereum/emacs-solidity",
+    "files": "(\"solidity-flycheck.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 825704572,
+  "name": "mastro35/sixcolors-theme",
+  "description": "A six colors theme for Emacs",
+  "url": "https://github.com/mastro35/sixcolors-theme",
+  "stars": 1,
+  "updated": "2026-09-22T14:52:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sixcolors-theme",
+    "fetcher": "github",
+    "repo": "mastro35/sixcolors-theme"
+  }
+}

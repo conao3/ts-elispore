@@ -1,0 +1,18 @@
+{
+  "id": 49780691,
+  "name": "pmiddend/emacs-rtm",
+  "description": "An elisp implementation of the Remember The Milk API",
+  "url": "https://github.com/pmiddend/emacs-rtm",
+  "stars": 2,
+  "updated": "2018-03-29T15:08:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "rtm",
+    "fetcher": "github",
+    "repo": "pmiddend/emacs-rtm"
+  }
+}

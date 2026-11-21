@@ -1,0 +1,28 @@
+{
+  "id": 35846406,
+  "name": "lueck/standoff-mode",
+  "description": "a major mode for GNU Emacs for annotations in a stand-off manner",
+  "url": "https://github.com/lueck/standoff-mode",
+  "stars": 7,
+  "updated": "2021-08-26T22:25:47Z",
+  "archived": false,
+  "topics": [
+    "annotation",
+    "dh",
+    "digital-humanities",
+    "emacs",
+    "markup",
+    "rdf",
+    "tagger",
+    "tagging",
+    "tei"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "standoff-mode",
+    "fetcher": "github",
+    "repo": "lueck/standoff-mode"
+  }
+}

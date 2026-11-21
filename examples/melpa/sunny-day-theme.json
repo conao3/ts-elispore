@@ -1,0 +1,18 @@
+{
+  "id": 14074377,
+  "name": "mswift42/sunny-day-theme",
+  "description": "emacs24 theme.",
+  "url": "https://github.com/mswift42/sunny-day-theme",
+  "stars": 9,
+  "updated": "2014-04-13T21:25:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sunny-day-theme",
+    "fetcher": "github",
+    "repo": "mswift42/sunny-day-theme"
+  }
+}

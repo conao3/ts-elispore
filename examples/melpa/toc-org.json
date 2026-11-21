@@ -1,0 +1,18 @@
+{
+  "id": 34249829,
+  "name": "snosov1/toc-org",
+  "description": "toc-org is an Emacs utility to have an up-to-date table of contents in the org files without exporting (useful primarily for readme files on GitHub)",
+  "url": "https://github.com/snosov1/toc-org",
+  "stars": 314,
+  "updated": "2026-05-14T14:45:36Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "github", "org", "org-mode", "readme", "toc"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "toc-org",
+    "fetcher": "github",
+    "repo": "snosov1/toc-org"
+  }
+}

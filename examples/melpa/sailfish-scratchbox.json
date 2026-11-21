@@ -1,0 +1,18 @@
+{
+  "id": 112199553,
+  "name": "iddm/sailfish-scratchbox.el",
+  "description": "sailfish-scratchbox package for the emacs",
+  "url": "https://github.com/iddm/sailfish-scratchbox.el",
+  "stars": 1,
+  "updated": "2020-02-28T08:17:50Z",
+  "archived": false,
+  "topics": ["emacs", "sailfish", "sailfish-os", "sailfish-sdk", "sb2"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sailfish-scratchbox",
+    "fetcher": "github",
+    "repo": "iddm/sailfish-scratchbox.el"
+  }
+}

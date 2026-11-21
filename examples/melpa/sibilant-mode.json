@@ -1,0 +1,18 @@
+{
+  "id": 46450975,
+  "name": "jbr/sibilant-mode",
+  "description": "emacs major mode for sibilant",
+  "url": "https://github.com/jbr/sibilant-mode",
+  "stars": 0,
+  "updated": "2015-12-05T08:50:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sibilant-mode",
+    "fetcher": "github",
+    "repo": "jbr/sibilant-mode"
+  }
+}

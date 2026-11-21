@@ -1,0 +1,19 @@
+{
+  "id": 17603517,
+  "name": "joaotavora/sly",
+  "description": "Sylvester the Cat's Common Lisp IDE",
+  "url": "https://github.com/joaotavora/sly",
+  "stars": 1447,
+  "updated": "2026-10-28T08:34:59Z",
+  "archived": false,
+  "topics": ["common-lisp", "emacs", "lisp"],
+  "license": null,
+  "language": "Common Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sly",
+    "fetcher": "github",
+    "repo": "joaotavora/sly",
+    "files": "(:defaults\n             \"lib\"\n             \"slynk\"\n             \"contrib\"\n             \"doc/images\"\n             (:exclude \"sly-autoloads.el\"))"
+  }
+}

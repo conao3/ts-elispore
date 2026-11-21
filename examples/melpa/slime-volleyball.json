@@ -1,0 +1,19 @@
+{
+  "id": 13207434,
+  "name": "fitzsim/slime-volleyball",
+  "description": "Emacs Slime Volleyball",
+  "url": "https://github.com/fitzsim/slime-volleyball",
+  "stars": 25,
+  "updated": "2020-11-23T02:53:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "slime-volleyball",
+    "fetcher": "github",
+    "repo": "fitzsim/slime-volleyball",
+    "files": "(\"*.el\" \"*.gz\" \"*.svg\" \"*.b64\")"
+  }
+}

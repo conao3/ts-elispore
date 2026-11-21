@@ -1,0 +1,18 @@
+{
+  "id": 770675062,
+  "name": "emacsattic/tbx2org",
+  "description": "",
+  "url": "https://github.com/emacsattic/tbx2org",
+  "stars": 0,
+  "updated": "2024-03-12T00:39:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "tbx2org",
+    "fetcher": "github",
+    "repo": "emacsattic/tbx2org"
+  }
+}

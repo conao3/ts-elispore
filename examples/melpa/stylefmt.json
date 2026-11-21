@@ -1,0 +1,18 @@
+{
+  "id": 40696399,
+  "name": "KeenS/stylefmt.el",
+  "description": "cssfmt wrapper for emacs,which is a gofmt like code formatter",
+  "url": "https://github.com/KeenS/stylefmt.el",
+  "stars": 12,
+  "updated": "2016-10-25T08:24:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "stylefmt",
+    "fetcher": "github",
+    "repo": "KeenS/stylefmt.el"
+  }
+}

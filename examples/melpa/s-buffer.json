@@ -1,0 +1,18 @@
+{
+  "id": 10082836,
+  "name": "nicferrier/emacs-s-buffer",
+  "description": "string operations on emacs buffers",
+  "url": "https://github.com/nicferrier/emacs-s-buffer",
+  "stars": 1,
+  "updated": "2013-06-05T21:24:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "s-buffer",
+    "fetcher": "github",
+    "repo": "nicferrier/emacs-s-buffer"
+  }
+}

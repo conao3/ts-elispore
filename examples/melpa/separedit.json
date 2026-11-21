@@ -1,0 +1,18 @@
+{
+  "id": 225310979,
+  "name": "twlz0ne/separedit.el",
+  "description": "Edit comment or string/docstring or code block inside them in separate buffer with your favorite mode",
+  "url": "https://github.com/twlz0ne/separedit.el",
+  "stars": 162,
+  "updated": "2025-05-06T08:33:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "separedit",
+    "fetcher": "github",
+    "repo": "twlz0ne/separedit.el"
+  }
+}

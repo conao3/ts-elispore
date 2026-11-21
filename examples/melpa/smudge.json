@@ -1,0 +1,27 @@
+{
+  "id": 27206984,
+  "name": "danielfm/smudge",
+  "description": "Control the Spotify app from within Emacs.",
+  "url": "https://github.com/danielfm/smudge",
+  "stars": 348,
+  "updated": "2026-02-03T00:20:19Z",
+  "archived": false,
+  "topics": [
+    "api",
+    "client",
+    "controller",
+    "emacs",
+    "integration",
+    "player",
+    "playlists",
+    "spotify"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "smudge",
+    "fetcher": "github",
+    "repo": "danielfm/smudge"
+  }
+}

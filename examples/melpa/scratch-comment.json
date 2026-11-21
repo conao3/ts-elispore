@@ -1,0 +1,18 @@
+{
+  "id": 256764135,
+  "name": "conao3/scratch-comment.el",
+  "description": "Insert Elisp result and princ contents as comment in scratch buffer.",
+  "url": "https://github.com/conao3/scratch-comment.el",
+  "stars": 13,
+  "updated": "2026-11-03T07:48:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "scratch-comment",
+    "fetcher": "github",
+    "repo": "conao3/scratch-comment.el"
+  }
+}

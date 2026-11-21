@@ -1,0 +1,18 @@
+{
+  "id": 486612147,
+  "name": "regadas/sql-trino",
+  "description": "Adds Trino support to SQLi mode.",
+  "url": "https://github.com/regadas/sql-trino",
+  "stars": 5,
+  "updated": "2023-11-22T14:10:59Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-package", "sql-mode", "trinodb"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sql-trino",
+    "fetcher": "github",
+    "repo": "regadas/sql-trino"
+  }
+}

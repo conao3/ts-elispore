@@ -1,0 +1,18 @@
+{
+  "id": 280332053,
+  "name": "sebasmonia/sharper",
+  "description": ".NET Core for Emacs (via transient)",
+  "url": "https://github.com/sebasmonia/sharper",
+  "stars": 69,
+  "updated": "2025-04-03T12:43:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "sharper",
+    "fetcher": "github",
+    "repo": "sebasmonia/sharper"
+  }
+}
