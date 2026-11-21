@@ -1,0 +1,18 @@
+{
+  "id": 32669357,
+  "name": "expez/edn.el",
+  "description": "Read and write EDN from Elisp",
+  "url": "https://github.com/expez/edn.el",
+  "stars": 47,
+  "updated": "2020-10-09T12:46:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "edn",
+    "fetcher": "github",
+    "repo": "expez/edn.el"
+  }
+}

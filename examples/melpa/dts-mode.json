@@ -1,0 +1,18 @@
+{
+  "id": 24243200,
+  "name": "bgamari/dts-mode",
+  "description": "A rudimentary emacs major mode for Device Tree sources",
+  "url": "https://github.com/bgamari/dts-mode",
+  "stars": 16,
+  "updated": "2022-09-29T18:38:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dts-mode",
+    "fetcher": "github",
+    "repo": "bgamari/dts-mode"
+  }
+}

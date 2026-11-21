@@ -1,0 +1,18 @@
+{
+  "id": 53252045,
+  "name": "lifelike/decide-mode",
+  "description": "Random decisions for emacs, with functions and a minor mode. Roll various types of dice etc.",
+  "url": "https://github.com/lifelike/decide-mode",
+  "stars": 60,
+  "updated": "2024-10-14T19:27:11Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "decide",
+    "fetcher": "github",
+    "repo": "lifelike/decide-mode"
+  }
+}

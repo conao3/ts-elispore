@@ -1,0 +1,18 @@
+{
+  "id": 283245523,
+  "name": "sinic/ednc",
+  "description": "The Emacs Desktop Notification Center helps you manage all your desktop notifications without leaving Emacs.",
+  "url": "https://github.com/sinic/ednc",
+  "stars": 88,
+  "updated": "2026-09-20T16:41:13Z",
+  "archived": false,
+  "topics": ["emacs", "notification-daemon"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ednc",
+    "fetcher": "github",
+    "repo": "sinic/ednc"
+  }
+}

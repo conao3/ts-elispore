@@ -1,0 +1,18 @@
+{
+  "id": 100007034,
+  "name": "jacktasia/dumb-diff",
+  "description": "an Emacs package for fast arbitrary word diffs",
+  "url": "https://github.com/jacktasia/dumb-diff",
+  "stars": 8,
+  "updated": "2017-12-11T21:22:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dumb-diff",
+    "fetcher": "github",
+    "repo": "jacktasia/dumb-diff"
+  }
+}

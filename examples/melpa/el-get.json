@@ -1,0 +1,19 @@
+{
+  "id": 864806,
+  "name": "dimitri/el-get",
+  "description": "Manage the external elisp bits and pieces upon which you depend!",
+  "url": "https://github.com/dimitri/el-get",
+  "stars": 1663,
+  "updated": "2026-09-13T08:26:25Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "el-get",
+    "fetcher": "github",
+    "repo": "dimitri/el-get",
+    "files": "(:defaults \"methods\" (\"recipes\" \"recipes/el-get.rcp\"))"
+  }
+}

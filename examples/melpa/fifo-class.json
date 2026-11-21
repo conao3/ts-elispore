@@ -1,0 +1,18 @@
+{
+  "id": 56577700,
+  "name": "mola-T/fifo-class",
+  "description": "FIFO - First in first out eieio abstract clase",
+  "url": "https://github.com/mola-T/fifo-class",
+  "stars": 3,
+  "updated": "2016-04-25T05:58:29Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fifo-class",
+    "fetcher": "github",
+    "repo": "mola-T/fifo-class"
+  }
+}

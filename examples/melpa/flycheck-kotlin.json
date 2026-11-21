@@ -1,0 +1,18 @@
+{
+  "id": 79586256,
+  "name": "whirm/flycheck-kotlin",
+  "description": "Support Kotlin in Flycheck",
+  "url": "https://github.com/whirm/flycheck-kotlin",
+  "stars": 14,
+  "updated": "2023-01-11T19:07:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-kotlin",
+    "fetcher": "github",
+    "repo": "whirm/flycheck-kotlin"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 232020285,
+  "name": "conao3/dired-git.el",
+  "description": "Show git repository information in dired buffer",
+  "url": "https://github.com/conao3/dired-git.el",
+  "stars": 15,
+  "updated": "2026-11-09T05:27:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-git",
+    "fetcher": "github",
+    "repo": "conao3/dired-git.el"
+  }
+}

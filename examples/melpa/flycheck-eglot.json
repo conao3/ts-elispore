@@ -1,0 +1,18 @@
+{
+  "id": 591970287,
+  "name": "flycheck/flycheck-eglot",
+  "description": "Flycheck support for eglot",
+  "url": "https://github.com/flycheck/flycheck-eglot",
+  "stars": 73,
+  "updated": "2026-08-10T18:45:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-eglot",
+    "fetcher": "github",
+    "repo": "flycheck/flycheck-eglot"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 17658898,
+  "name": "kumar8600/flycheck-clangcheck",
+  "description": "A Flycheck checker difinition for ClangCheck.",
+  "url": "https://github.com/kumar8600/flycheck-clangcheck",
+  "stars": 11,
+  "updated": "2022-06-26T11:09:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-clangcheck",
+    "fetcher": "github",
+    "repo": "kumar8600/flycheck-clangcheck"
+  }
+}

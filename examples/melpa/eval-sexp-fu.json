@@ -1,0 +1,18 @@
+{
+  "id": 378387,
+  "name": "hchbaw/eval-sexp-fu.el",
+  "description": "Tiny functionality enhancements for evaluating sexps",
+  "url": "https://github.com/hchbaw/eval-sexp-fu.el",
+  "stars": 21,
+  "updated": "2020-12-13T03:25:42Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eval-sexp-fu",
+    "fetcher": "github",
+    "repo": "hchbaw/eval-sexp-fu.el"
+  }
+}

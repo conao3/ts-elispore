@@ -1,0 +1,18 @@
+{
+  "id": 51317108,
+  "name": "emacsorphanage/dirtree",
+  "description": "Directory tree views",
+  "url": "https://github.com/emacsorphanage/dirtree",
+  "stars": 3,
+  "updated": "2016-02-08T18:26:56Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dirtree",
+    "fetcher": "github",
+    "repo": "emacsorphanage/dirtree"
+  }
+}

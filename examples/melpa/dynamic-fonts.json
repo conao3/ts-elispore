@@ -1,0 +1,18 @@
+{
+  "id": 5501270,
+  "name": "rolandwalker/dynamic-fonts",
+  "description": "Set Emacs faces based on available fonts",
+  "url": "https://github.com/rolandwalker/dynamic-fonts",
+  "stars": 8,
+  "updated": "2014-08-04T19:22:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dynamic-fonts",
+    "fetcher": "github",
+    "repo": "rolandwalker/dynamic-fonts"
+  }
+}

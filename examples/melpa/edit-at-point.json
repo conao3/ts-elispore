@@ -1,0 +1,18 @@
+{
+  "id": 230292484,
+  "name": "emacsattic/edit-at-point",
+  "description": "Edit(copy,cut..) current things(word,symbol..) under cursor",
+  "url": "https://github.com/emacsattic/edit-at-point",
+  "stars": 4,
+  "updated": "2019-12-26T16:17:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "edit-at-point",
+    "fetcher": "github",
+    "repo": "emacsattic/edit-at-point"
+  }
+}

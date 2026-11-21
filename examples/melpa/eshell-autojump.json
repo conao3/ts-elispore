@@ -1,0 +1,18 @@
+{
+  "id": 21280962,
+  "name": "coldnew/eshell-autojump",
+  "description": "autojump command for Eshell",
+  "url": "https://github.com/coldnew/eshell-autojump",
+  "stars": 11,
+  "updated": "2022-10-21T20:20:55Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "eshell"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-autojump",
+    "fetcher": "github",
+    "repo": "coldnew/eshell-autojump"
+  }
+}

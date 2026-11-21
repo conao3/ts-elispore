@@ -1,0 +1,19 @@
+{
+  "id": 55138220,
+  "name": "unhammer/flycheck-apertium",
+  "description": "📦 flycheck definitions for various Apertium source files",
+  "url": "https://github.com/unhammer/flycheck-apertium",
+  "stars": 2,
+  "updated": "2018-12-11T10:38:49Z",
+  "archived": false,
+  "topics": ["apertium", "emacs", "flycheck", "syntax-checker"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-apertium",
+    "fetcher": "github",
+    "repo": "unhammer/flycheck-apertium",
+    "files": "(\"flycheck-apertium.el\" \"dix.xsd\")"
+  }
+}

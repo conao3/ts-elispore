@@ -1,0 +1,18 @@
+{
+  "id": 77260169,
+  "name": "Somelauw/evil-org-mode",
+  "description": "Supplemental evil-mode keybindings to emacs org-mode",
+  "url": "https://github.com/Somelauw/evil-org-mode",
+  "stars": 420,
+  "updated": "2026-10-31T18:37:30Z",
+  "archived": false,
+  "topics": ["emacs", "evil", "org-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-org",
+    "fetcher": "github",
+    "repo": "Somelauw/evil-org-mode"
+  }
+}

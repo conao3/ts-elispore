@@ -1,0 +1,18 @@
+{
+  "id": 133619358,
+  "name": "agzam/exwm-edit",
+  "description": "Edit mode for EXWM",
+  "url": "https://github.com/agzam/exwm-edit",
+  "stars": 128,
+  "updated": "2024-04-18T21:50:15Z",
+  "archived": false,
+  "topics": ["emacs", "exwm", "linux", "melpa", "window-manager"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "exwm-edit",
+    "fetcher": "github",
+    "repo": "agzam/exwm-edit"
+  }
+}

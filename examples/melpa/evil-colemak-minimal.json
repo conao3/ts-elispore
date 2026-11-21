@@ -1,0 +1,18 @@
+{
+  "id": 68815280,
+  "name": "bmallred/evil-colemak-minimal",
+  "description": "Colemak configuration for Emacs evil-mode with minimal adjustments",
+  "url": "https://github.com/bmallred/evil-colemak-minimal",
+  "stars": 8,
+  "updated": "2017-10-06T13:17:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-colemak-minimal",
+    "fetcher": "github",
+    "repo": "bmallred/evil-colemak-minimal"
+  }
+}

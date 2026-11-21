@@ -1,0 +1,18 @@
+{
+  "id": 55731466,
+  "name": "dakrone/epresent",
+  "description": "Presentations in Emacs -- based on Org-mode",
+  "url": "https://github.com/dakrone/epresent",
+  "stars": 8,
+  "updated": "2016-04-16T17:23:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "epresent",
+    "fetcher": "github",
+    "repo": "dakrone/epresent"
+  }
+}

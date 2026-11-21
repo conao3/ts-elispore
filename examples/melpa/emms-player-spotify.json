@@ -1,0 +1,18 @@
+{
+  "id": 619142822,
+  "name": "sarg/emms-spotify",
+  "description": "Spotify player for EMMS (controls the desktop app via MPRIS dbus interface).",
+  "url": "https://github.com/sarg/emms-spotify",
+  "stars": 4,
+  "updated": "2026-01-25T14:51:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emms-player-spotify",
+    "fetcher": "github",
+    "repo": "sarg/emms-spotify"
+  }
+}

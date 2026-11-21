@@ -1,0 +1,19 @@
+{
+  "id": 49257313,
+  "name": "seanirby/evalator-clojure",
+  "description": "Clojure evaluation context for Evalator using CIDER",
+  "url": "https://github.com/seanirby/evalator-clojure",
+  "stars": 5,
+  "updated": "2016-02-08T21:49:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evalator-clojure",
+    "fetcher": "github",
+    "repo": "seanirby/evalator-clojure",
+    "files": "(:defaults \"*.clj\")"
+  }
+}

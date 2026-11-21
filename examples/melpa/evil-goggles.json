@@ -1,0 +1,18 @@
+{
+  "id": 88061830,
+  "name": "edkolev/evil-goggles",
+  "description": "Display visual hint on evil edit operations",
+  "url": "https://github.com/edkolev/evil-goggles",
+  "stars": 235,
+  "updated": "2023-10-21T07:48:51Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-goggles",
+    "fetcher": "github",
+    "repo": "edkolev/evil-goggles"
+  }
+}

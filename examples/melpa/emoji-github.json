@@ -1,0 +1,18 @@
+{
+  "id": 245070548,
+  "name": "jcs-elpa/emoji-github",
+  "description": "Display list of GitHub's emoji.  (cheat sheet)",
+  "url": "https://github.com/jcs-elpa/emoji-github",
+  "stars": 7,
+  "updated": "2026-06-19T08:25:05Z",
+  "archived": false,
+  "topics": ["cheat-sheet", "cheatsheet", "emacs", "emoji"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "emoji-github",
+    "fetcher": "github",
+    "repo": "jcs-elpa/emoji-github"
+  }
+}

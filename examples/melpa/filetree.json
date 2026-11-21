@@ -1,0 +1,18 @@
+{
+  "id": 270372036,
+  "name": "knpatel401/filetree",
+  "description": "filetree is an emacs package for displaying and operating on a file list as a file tree, and for maintaining individual notes for files.",
+  "url": "https://github.com/knpatel401/filetree",
+  "stars": 104,
+  "updated": "2024-12-29T19:23:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "filetree",
+    "fetcher": "github",
+    "repo": "knpatel401/filetree"
+  }
+}

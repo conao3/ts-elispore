@@ -1,0 +1,27 @@
+{
+  "id": 136944483,
+  "name": "seagle0128/doom-modeline",
+  "description": "A fancy and fast mode-line inspired by minimalism design.",
+  "url": "https://github.com/seagle0128/doom-modeline",
+  "stars": 1542,
+  "updated": "2026-11-18T14:36:37Z",
+  "archived": false,
+  "topics": [
+    "all-the-icons",
+    "doom-emacs",
+    "doom-modeline",
+    "elisp",
+    "emacs",
+    "emacs-lisp",
+    "mode-line",
+    "modeline"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "doom-modeline",
+    "fetcher": "github",
+    "repo": "seagle0128/doom-modeline"
+  }
+}

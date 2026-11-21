@@ -1,0 +1,18 @@
+{
+  "id": 129844382,
+  "name": "DamienCassou/desktop-environment",
+  "description": "Helps you control your GNU/Linux computer from Emacs",
+  "url": "https://github.com/DamienCassou/desktop-environment",
+  "stars": 68,
+  "updated": "2025-08-21T14:28:39Z",
+  "archived": false,
+  "topics": ["desktop-environment", "emacs-package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "desktop-environment",
+    "fetcher": "github",
+    "repo": "DamienCassou/desktop-environment"
+  }
+}

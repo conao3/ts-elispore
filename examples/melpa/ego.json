@@ -1,0 +1,19 @@
+{
+  "id": 38434089,
+  "name": "emacs-china/EGO",
+  "description": "EGO is a static site generator that depends on Emacs, Git and Org-mode.",
+  "url": "https://github.com/emacs-china/EGO",
+  "stars": 100,
+  "updated": "2020-08-03T11:01:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "CSS",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ego",
+    "fetcher": "github",
+    "repo": "emacs-china/EGO",
+    "files": "(:defaults \"themes\")"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 1207126989,
+  "name": "bbw9n/elark",
+  "description": "Lark/Feishu Emacs integration",
+  "url": "https://github.com/bbw9n/elark",
+  "stars": 1,
+  "updated": "2026-10-25T18:00:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elark",
+    "fetcher": "github",
+    "repo": "bbw9n/elark",
+    "files": "(\"elark*.el\" \"core/elark*.el\" \"ui/elark*.el\"\n         \"domain/elark*.el\" \"ai/elark*.el\")"
+  }
+}

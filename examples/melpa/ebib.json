@@ -1,0 +1,18 @@
+{
+  "id": 1207060,
+  "name": "joostkremers/ebib",
+  "description": "A BibTeX database manager for Emacs.",
+  "url": "https://github.com/joostkremers/ebib",
+  "stars": 300,
+  "updated": "2026-10-16T21:22:52Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ebib",
+    "fetcher": "github",
+    "repo": "joostkremers/ebib"
+  }
+}

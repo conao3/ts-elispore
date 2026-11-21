@@ -1,0 +1,18 @@
+{
+  "id": 26663753,
+  "name": "PythonNut/evil-easymotion",
+  "description": ":fast_forward: A port of vim easymotion to Emacs' evil-mode",
+  "url": "https://github.com/PythonNut/evil-easymotion",
+  "stars": 206,
+  "updated": "2026-06-02T23:15:25Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-easymotion",
+    "fetcher": "github",
+    "repo": "PythonNut/evil-easymotion"
+  }
+}

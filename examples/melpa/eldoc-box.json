@@ -1,0 +1,18 @@
+{
+  "id": 161259190,
+  "name": "casouri/eldoc-box",
+  "description": "childframe doc for eglot and anything that uses eldoc",
+  "url": "https://github.com/casouri/eldoc-box",
+  "stars": 486,
+  "updated": "2026-09-03T12:46:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eldoc-box",
+    "fetcher": "github",
+    "repo": "casouri/eldoc-box"
+  }
+}

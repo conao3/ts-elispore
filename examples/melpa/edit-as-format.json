@@ -1,0 +1,19 @@
+{
+  "id": 457361136,
+  "name": "etern/edit-as-format",
+  "description": "Edit document as other format, in Emacs, using Pandoc",
+  "url": "https://github.com/etern/edit-as-format",
+  "stars": 16,
+  "updated": "2022-02-21T13:12:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "edit-as-format",
+    "fetcher": "github",
+    "repo": "etern/edit-as-format",
+    "files": "(:defaults \"filters\")"
+  }
+}

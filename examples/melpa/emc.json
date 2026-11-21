@@ -1,0 +1,18 @@
+{
+  "id": 912100585,
+  "name": "marcoxa/emc",
+  "description": "Invoking a C/C++ build toolchain from Emacs.",
+  "url": "https://github.com/marcoxa/emc",
+  "stars": 7,
+  "updated": "2025-12-27T10:40:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emc",
+    "fetcher": "github",
+    "repo": "marcoxa/emc"
+  }
+}

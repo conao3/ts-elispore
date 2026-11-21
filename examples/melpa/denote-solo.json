@@ -1,0 +1,18 @@
+{
+  "id": 1255285023,
+  "name": "pavlo/denote-solo",
+  "description": "Pick one Denote silo and let it play solo - Emacs package",
+  "url": "https://github.com/pavlo/denote-solo",
+  "stars": 1,
+  "updated": "2026-06-21T13:57:25Z",
+  "archived": false,
+  "topics": ["denote", "elisp", "emacs", "emacs-package", "note-taking", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "denote-solo",
+    "fetcher": "github",
+    "repo": "pavlo/denote-solo"
+  }
+}

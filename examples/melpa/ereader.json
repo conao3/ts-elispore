@@ -1,0 +1,18 @@
+{
+  "id": 67175796,
+  "name": "bddean/emacs-ereader",
+  "description": "Epub reader for emacs with org-mode integration (not maintained)",
+  "url": "https://github.com/bddean/emacs-ereader",
+  "stars": 78,
+  "updated": "2017-08-10T05:05:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ereader",
+    "fetcher": "github",
+    "repo": "bddean/emacs-ereader"
+  }
+}

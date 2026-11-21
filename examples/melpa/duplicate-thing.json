@@ -1,0 +1,18 @@
+{
+  "id": 3776894,
+  "name": "ongaeshi/duplicate-thing",
+  "description": "Duplicate current line. Duplicate a selection when selection is active. ",
+  "url": "https://github.com/ongaeshi/duplicate-thing",
+  "stars": 20,
+  "updated": "2021-02-07T19:18:16Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "duplicate-thing",
+    "fetcher": "github",
+    "repo": "ongaeshi/duplicate-thing"
+  }
+}

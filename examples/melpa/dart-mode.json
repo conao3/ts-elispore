@@ -1,0 +1,18 @@
+{
+  "id": 2571950,
+  "name": "emacsorphanage/dart-mode",
+  "description": "An Emacs mode for the Dart language",
+  "url": "https://github.com/emacsorphanage/dart-mode",
+  "stars": 25,
+  "updated": "2026-06-19T13:59:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Dart",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dart-mode",
+    "fetcher": "github",
+    "repo": "emacsorphanage/dart-mode"
+  }
+}

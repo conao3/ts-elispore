@@ -1,0 +1,18 @@
+{
+  "id": 33781478,
+  "name": "momomo5717/emms-player-simple-mpv",
+  "description": "An extension of emms-player-simple.el for mpv JSON IPC",
+  "url": "https://github.com/momomo5717/emms-player-simple-mpv",
+  "stars": 19,
+  "updated": "2018-03-18T10:28:06Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emms-player-simple-mpv",
+    "fetcher": "github",
+    "repo": "momomo5717/emms-player-simple-mpv"
+  }
+}

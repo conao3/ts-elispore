@@ -1,0 +1,19 @@
+{
+  "id": 481245518,
+  "name": "FlowerAutomation/flower",
+  "description": "Flower is a Clojure (and Emacs) library for integration with Github, Gitlab, Atlassian Jira, Microsoft TFS, Microsoft Exchange and Slack. It also may be used from Java. More integrations with task trackers, repositories and messaging systems coming soon!",
+  "url": "https://github.com/FlowerAutomation/flower",
+  "stars": 16,
+  "updated": "2022-04-16T17:44:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Clojure",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flower",
+    "fetcher": "github",
+    "repo": "FlowerAutomation/flower",
+    "files": "(:defaults \"project.clj\")"
+  }
+}

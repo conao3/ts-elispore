@@ -1,0 +1,28 @@
+{
+  "id": 90862788,
+  "name": "davep/eg.el",
+  "description": "Norton guide reader for GNU Emacs",
+  "url": "https://github.com/davep/eg.el",
+  "stars": 0,
+  "updated": "2026-03-31T19:40:47Z",
+  "archived": false,
+  "topics": [
+    "clipper",
+    "documentation",
+    "elisp",
+    "emacs",
+    "emacs-lisp",
+    "help",
+    "norton-guide",
+    "norton-guides",
+    "xbase"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eg",
+    "fetcher": "github",
+    "repo": "davep/eg.el"
+  }
+}

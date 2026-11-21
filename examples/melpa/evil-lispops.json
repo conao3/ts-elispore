@@ -1,0 +1,18 @@
+{
+  "id": 785434942,
+  "name": "precompute/evil-lispops",
+  "description": "Operations for editing lisp evilly",
+  "url": "https://github.com/precompute/evil-lispops",
+  "stars": 1,
+  "updated": "2024-04-28T13:57:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-lispops",
+    "fetcher": "github",
+    "repo": "precompute/evil-lispops"
+  }
+}

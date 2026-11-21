@@ -1,0 +1,18 @@
+{
+  "id": 352230599,
+  "name": "ahyatt/emacs-dyncloze",
+  "description": "A program for learning languages on emacs, testing yourself on alternatives in buffers",
+  "url": "https://github.com/ahyatt/emacs-dyncloze",
+  "stars": 31,
+  "updated": "2021-07-12T01:45:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dyncloze",
+    "fetcher": "github",
+    "repo": "ahyatt/emacs-dyncloze"
+  }
+}

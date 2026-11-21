@@ -1,0 +1,19 @@
+{
+  "id": 33781833,
+  "name": "momomo5717/emms-player-mpv-jp-radios",
+  "description": "EMMS players and stream lists of Japan radio stations",
+  "url": "https://github.com/momomo5717/emms-player-mpv-jp-radios",
+  "stars": 13,
+  "updated": "2018-03-25T12:10:02Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emms-player-mpv-jp-radios",
+    "fetcher": "github",
+    "repo": "momomo5717/emms-player-mpv-jp-radios",
+    "files": "(:defaults \"*/*.el\")"
+  }
+}

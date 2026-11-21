@@ -1,0 +1,18 @@
+{
+  "id": 135258827,
+  "name": "DamienCassou/elcouch",
+  "description": "Emacs interface to view and manipulate CouchDB databases",
+  "url": "https://github.com/DamienCassou/elcouch",
+  "stars": 3,
+  "updated": "2023-09-03T08:49:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elcouch",
+    "fetcher": "github",
+    "repo": "DamienCassou/elcouch"
+  }
+}

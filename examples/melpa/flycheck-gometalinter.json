@@ -1,0 +1,18 @@
+{
+  "id": 47131470,
+  "name": "favadi/flycheck-gometalinter",
+  "description": "Flycheck checker for gometalinter",
+  "url": "https://github.com/favadi/flycheck-gometalinter",
+  "stars": 57,
+  "updated": "2019-12-16T03:47:29Z",
+  "archived": true,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-gometalinter",
+    "fetcher": "github",
+    "repo": "favadi/flycheck-gometalinter"
+  }
+}

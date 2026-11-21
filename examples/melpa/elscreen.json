@@ -1,0 +1,18 @@
+{
+  "id": 3630608,
+  "name": "knu/elscreen",
+  "description": "elscreen patched to work with recent Emacs",
+  "url": "https://github.com/knu/elscreen",
+  "stars": 176,
+  "updated": "2024-05-28T06:31:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elscreen",
+    "fetcher": "github",
+    "repo": "knu/elscreen"
+  }
+}

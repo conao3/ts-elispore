@@ -1,0 +1,18 @@
+{
+  "id": 154759372,
+  "name": "YourFin/evil-better-visual-line",
+  "description": "Slightly more useful evil bindings for j and k",
+  "url": "https://github.com/YourFin/evil-better-visual-line",
+  "stars": 9,
+  "updated": "2020-02-13T23:34:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-better-visual-line",
+    "fetcher": "github",
+    "repo": "YourFin/evil-better-visual-line"
+  }
+}

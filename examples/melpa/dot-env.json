@@ -1,0 +1,18 @@
+{
+  "id": 662812420,
+  "name": "amodelbello/dot-env.el",
+  "description": "dotenv functionality for emacs",
+  "url": "https://github.com/amodelbello/dot-env.el",
+  "stars": 2,
+  "updated": "2024-03-06T23:44:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dot-env",
+    "fetcher": "github",
+    "repo": "amodelbello/dot-env.el"
+  }
+}

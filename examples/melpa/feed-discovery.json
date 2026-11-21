@@ -1,0 +1,18 @@
+{
+  "id": 277371660,
+  "name": "HKey/feed-discovery",
+  "description": "Discover feed url by RSS/Atom autodiscovery.",
+  "url": "https://github.com/HKey/feed-discovery",
+  "stars": 15,
+  "updated": "2020-11-06T12:10:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "feed-discovery",
+    "fetcher": "github",
+    "repo": "HKey/feed-discovery"
+  }
+}

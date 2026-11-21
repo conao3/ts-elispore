@@ -1,0 +1,18 @@
+{
+  "id": 432485226,
+  "name": "md-arif-shaikh/expenses",
+  "description": "Recording and viewing expenses using Emacs",
+  "url": "https://github.com/md-arif-shaikh/expenses",
+  "stars": 31,
+  "updated": "2026-10-16T05:18:24Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "expense-manager", "expense-tracker", "expenses-monitoring"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "expenses",
+    "fetcher": "github",
+    "repo": "md-arif-shaikh/expenses"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 8231068,
+  "name": "mgalgs/diffview-mode",
+  "description": "View diffs side-by-side in Emacs",
+  "url": "https://github.com/mgalgs/diffview-mode",
+  "stars": 57,
+  "updated": "2023-02-24T19:18:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "diffview",
+    "fetcher": "github",
+    "repo": "mgalgs/diffview-mode"
+  }
+}

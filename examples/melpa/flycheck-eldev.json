@@ -1,0 +1,18 @@
+{
+  "id": 266550686,
+  "name": "flycheck/flycheck-eldev",
+  "description": "Add Eldev support to Flycheck",
+  "url": "https://github.com/flycheck/flycheck-eldev",
+  "stars": 8,
+  "updated": "2025-11-21T06:08:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-eldev",
+    "fetcher": "github",
+    "repo": "flycheck/flycheck-eldev"
+  }
+}

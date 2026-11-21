@@ -1,0 +1,18 @@
+{
+  "id": 51718829,
+  "name": "shaunvxc/dark-mint-theme",
+  "description": ":new_moon_with_face: dark & minty fresh theme for emacs :leaves:",
+  "url": "https://github.com/shaunvxc/dark-mint-theme",
+  "stars": 13,
+  "updated": "2016-04-16T16:28:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dark-mint-theme",
+    "fetcher": "github",
+    "repo": "shaunvxc/dark-mint-theme"
+  }
+}

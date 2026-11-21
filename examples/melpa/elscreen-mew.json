@@ -1,0 +1,18 @@
+{
+  "id": 754674,
+  "name": "masutaka/elscreen-mew",
+  "description": "ElScreen add-on for Mew.",
+  "url": "https://github.com/masutaka/elscreen-mew",
+  "stars": 4,
+  "updated": "2017-08-20T03:53:59Z",
+  "archived": true,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elscreen-mew",
+    "fetcher": "github",
+    "repo": "masutaka/elscreen-mew"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 189703304,
+  "name": "conao3/ddskk-posframe.el",
+  "description": "Show Henkan tooltip for ddskk via posframe",
+  "url": "https://github.com/conao3/ddskk-posframe.el",
+  "stars": 12,
+  "updated": "2026-11-09T05:27:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ddskk-posframe",
+    "fetcher": "github",
+    "repo": "conao3/ddskk-posframe.el"
+  }
+}

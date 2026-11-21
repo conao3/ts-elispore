@@ -1,0 +1,18 @@
+{
+  "id": 1566060,
+  "name": "jixiuf/dired-filetype-face",
+  "description": "set different face for different file types in dired buffer  for emacs",
+  "url": "https://github.com/jixiuf/dired-filetype-face",
+  "stars": 15,
+  "updated": "2025-04-12T13:45:02Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "melpa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-filetype-face",
+    "fetcher": "github",
+    "repo": "jixiuf/dired-filetype-face"
+  }
+}

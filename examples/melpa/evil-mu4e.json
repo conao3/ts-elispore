@@ -1,0 +1,18 @@
+{
+  "id": 50870595,
+  "name": "JorisE/evil-mu4e",
+  "description": "Evil keybindings for mu4e",
+  "url": "https://github.com/JorisE/evil-mu4e",
+  "stars": 18,
+  "updated": "2018-07-09T08:11:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-mu4e",
+    "fetcher": "github",
+    "repo": "JorisE/evil-mu4e"
+  }
+}

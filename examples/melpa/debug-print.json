@@ -1,0 +1,18 @@
+{
+  "id": 15421952,
+  "name": "kenoss/debug-print",
+  "description": "",
+  "url": "https://github.com/kenoss/debug-print",
+  "stars": 8,
+  "updated": "2014-01-26T00:20:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "debug-print",
+    "fetcher": "github",
+    "repo": "kenoss/debug-print"
+  }
+}

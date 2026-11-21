@@ -1,0 +1,18 @@
+{
+  "id": 101253780,
+  "name": "jojojames/dired-sidebar",
+  "description": "Sidebar for Emacs leveraging Dired",
+  "url": "https://github.com/jojojames/dired-sidebar",
+  "stars": 595,
+  "updated": "2026-08-06T21:40:27Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-sidebar",
+    "fetcher": "github",
+    "repo": "jojojames/dired-sidebar"
+  }
+}

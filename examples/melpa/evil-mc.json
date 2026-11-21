@@ -1,0 +1,18 @@
+{
+  "id": 40867460,
+  "name": "gabesoft/evil-mc",
+  "description": "Multiple cursors implementation for evil-mode",
+  "url": "https://github.com/gabesoft/evil-mc",
+  "stars": 425,
+  "updated": "2024-10-25T20:45:13Z",
+  "archived": false,
+  "topics": ["emacs", "evil", "multiple-cursors", "vim"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-mc",
+    "fetcher": "github",
+    "repo": "gabesoft/evil-mc"
+  }
+}

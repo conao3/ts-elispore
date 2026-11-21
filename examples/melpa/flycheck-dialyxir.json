@@ -1,0 +1,18 @@
+{
+  "id": 79991088,
+  "name": "aaronjensen/flycheck-dialyxir",
+  "description": "",
+  "url": "https://github.com/aaronjensen/flycheck-dialyxir",
+  "stars": 5,
+  "updated": "2017-05-15T15:25:33Z",
+  "archived": false,
+  "topics": ["dialyxir", "elixir", "emacs", "flycheck", "melpa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-dialyxir",
+    "fetcher": "github",
+    "repo": "aaronjensen/flycheck-dialyxir"
+  }
+}

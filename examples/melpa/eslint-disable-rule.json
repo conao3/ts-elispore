@@ -1,0 +1,18 @@
+{
+  "id": 470008683,
+  "name": "DamienCassou/eslint-disable-rule",
+  "description": "Emacs commands to add JS comments disabling eslint rules",
+  "url": "https://github.com/DamienCassou/eslint-disable-rule",
+  "stars": 7,
+  "updated": "2023-09-04T18:21:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eslint-disable-rule",
+    "fetcher": "github",
+    "repo": "DamienCassou/eslint-disable-rule"
+  }
+}

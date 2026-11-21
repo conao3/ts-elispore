@@ -1,0 +1,18 @@
+{
+  "id": 143227055,
+  "name": "yqrashawn/evil-ex-shell-command",
+  "description": "Invoke shell-command right from evil-ex",
+  "url": "https://github.com/yqrashawn/evil-ex-shell-command",
+  "stars": 1,
+  "updated": "2018-12-26T02:26:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-ex-shell-command",
+    "fetcher": "github",
+    "repo": "yqrashawn/evil-ex-shell-command"
+  }
+}

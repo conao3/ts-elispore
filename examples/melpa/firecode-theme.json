@@ -1,0 +1,18 @@
+{
+  "id": 26705053,
+  "name": "emacsfodder/emacs-firecode-theme",
+  "description": "",
+  "url": "https://github.com/emacsfodder/emacs-firecode-theme",
+  "stars": 7,
+  "updated": "2017-08-08T13:11:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "firecode-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-firecode-theme"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 121938169,
+  "name": "Wilfred/elisp-def",
+  "description": "Find Emacs Lisp definitions",
+  "url": "https://github.com/Wilfred/elisp-def",
+  "stars": 71,
+  "updated": "2025-08-21T21:43:13Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "go-to-definition", "static-analysis"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elisp-def",
+    "fetcher": "github",
+    "repo": "Wilfred/elisp-def"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 122148234,
+  "name": "alexmurray/flycheck-posframe",
+  "description": "Show flycheck errors via posframe.el",
+  "url": "https://github.com/alexmurray/flycheck-posframe",
+  "stars": 65,
+  "updated": "2026-04-09T00:14:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-posframe",
+    "fetcher": "github",
+    "repo": "alexmurray/flycheck-posframe"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 476764533,
+  "name": "beacoder/everlasting-scratch",
+  "description": "The scratch buffer that lasts forever.",
+  "url": "https://github.com/beacoder/everlasting-scratch",
+  "stars": 11,
+  "updated": "2026-07-15T01:35:24Z",
+  "archived": false,
+  "topics": ["convinience", "developer-tools"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "everlasting-scratch",
+    "fetcher": "github",
+    "repo": "beacoder/everlasting-scratch"
+  }
+}

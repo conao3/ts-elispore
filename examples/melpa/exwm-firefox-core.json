@@ -1,0 +1,18 @@
+{
+  "id": 158589664,
+  "name": "walseb/exwm-firefox-core",
+  "description": "",
+  "url": "https://github.com/walseb/exwm-firefox-core",
+  "stars": 8,
+  "updated": "2025-11-07T21:50:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "exwm-firefox-core",
+    "fetcher": "github",
+    "repo": "walseb/exwm-firefox-core"
+  }
+}

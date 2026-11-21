@@ -1,0 +1,18 @@
+{
+  "id": 11933444,
+  "name": "rejeep/el-mock.el",
+  "description": "Mocking library for Emacs",
+  "url": "https://github.com/rejeep/el-mock.el",
+  "stars": 38,
+  "updated": "2022-06-25T19:49:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "el-mock",
+    "fetcher": "github",
+    "repo": "rejeep/el-mock.el"
+  }
+}

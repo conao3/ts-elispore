@@ -1,0 +1,18 @@
+{
+  "id": 8248779,
+  "name": "stanaka/dash-at-point",
+  "description": "a emacs lisp for searching the word at point with Dash",
+  "url": "https://github.com/stanaka/dash-at-point",
+  "stars": 388,
+  "updated": "2021-10-28T10:24:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dash-at-point",
+    "fetcher": "github",
+    "repo": "stanaka/dash-at-point"
+  }
+}

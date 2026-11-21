@@ -1,0 +1,18 @@
+{
+  "id": 185778407,
+  "name": "ROCKTAKEY/egalgo",
+  "description": "Use genetic algorithm for Emacs",
+  "url": "https://github.com/ROCKTAKEY/egalgo",
+  "stars": 3,
+  "updated": "2021-11-05T17:04:21Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "genetic-algorithm"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "egalgo",
+    "fetcher": "github",
+    "repo": "ROCKTAKEY/egalgo"
+  }
+}

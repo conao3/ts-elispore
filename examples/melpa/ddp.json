@@ -1,0 +1,18 @@
+{
+  "id": 958561396,
+  "name": "eki3z/ddp.el",
+  "description": "Dynamic data processor",
+  "url": "https://github.com/eki3z/ddp.el",
+  "stars": 8,
+  "updated": "2025-04-21T04:08:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ddp",
+    "fetcher": "github",
+    "repo": "eki3z/ddp.el"
+  }
+}

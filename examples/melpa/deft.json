@@ -1,0 +1,18 @@
+{
+  "id": 36702593,
+  "name": "jrblevin/deft",
+  "description": "Deft for Emacs",
+  "url": "https://github.com/jrblevin/deft",
+  "stars": 760,
+  "updated": "2024-05-24T15:24:04Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode", "filter-string", "note-taking", "plain-text", "search"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "deft",
+    "fetcher": "github",
+    "repo": "jrblevin/deft"
+  }
+}

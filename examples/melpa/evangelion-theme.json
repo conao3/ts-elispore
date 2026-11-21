@@ -1,0 +1,18 @@
+{
+  "id": 850633524,
+  "name": "crmsnbleyd/evangelion-theme",
+  "description": "An emacs theme based on https://github.com/xero/evangelion.nvim, which is in turn inspired by the anime Neon Genesis Evangelion",
+  "url": "https://github.com/crmsnbleyd/evangelion-theme",
+  "stars": 15,
+  "updated": "2024-11-16T10:37:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evangelion-theme",
+    "fetcher": "github",
+    "repo": "crmsnbleyd/evangelion-theme"
+  }
+}

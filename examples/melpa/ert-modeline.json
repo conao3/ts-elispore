@@ -1,0 +1,18 @@
+{
+  "id": 9436281,
+  "name": "chrisbarrett/ert-modeline",
+  "description": "Automatically run and display the status of ert tests in the modeline.",
+  "url": "https://github.com/chrisbarrett/ert-modeline",
+  "stars": 7,
+  "updated": "2015-12-12T06:27:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ert-modeline",
+    "fetcher": "github",
+    "repo": "chrisbarrett/ert-modeline"
+  }
+}

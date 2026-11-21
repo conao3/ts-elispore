@@ -1,0 +1,18 @@
+{
+  "id": 158751890,
+  "name": "ska2342/detour",
+  "description": "An Emacs package to take a quick detour and come back.",
+  "url": "https://github.com/ska2342/detour",
+  "stars": 11,
+  "updated": "2018-11-22T21:44:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "detour",
+    "fetcher": "github",
+    "repo": "ska2342/detour"
+  }
+}

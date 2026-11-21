@@ -1,0 +1,18 @@
+{
+  "id": 9303396,
+  "name": "Fuco1/elwm",
+  "description": "Lightweight window manager for emacs",
+  "url": "https://github.com/Fuco1/elwm",
+  "stars": 12,
+  "updated": "2015-08-17T10:07:38Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elwm",
+    "fetcher": "github",
+    "repo": "Fuco1/elwm"
+  }
+}

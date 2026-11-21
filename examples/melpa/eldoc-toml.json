@@ -1,0 +1,18 @@
+{
+  "id": 322726690,
+  "name": "it-is-wednesday/eldoc-toml",
+  "description": "An Emacs function for highlighting current TOML table name and key",
+  "url": "https://github.com/it-is-wednesday/eldoc-toml",
+  "stars": 4,
+  "updated": "2021-10-26T11:26:20Z",
+  "archived": false,
+  "topics": ["emacs", "toml"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eldoc-toml",
+    "fetcher": "github",
+    "repo": "it-is-wednesday/eldoc-toml"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 81749725,
+  "name": "candid82/flycheck-joker",
+  "description": "Clojure syntax checker (via Joker) for flycheck",
+  "url": "https://github.com/candid82/flycheck-joker",
+  "stars": 57,
+  "updated": "2020-04-12T23:46:41Z",
+  "archived": false,
+  "topics": ["clojure", "flycheck-extension", "linter", "syntax-checker"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-joker",
+    "fetcher": "github",
+    "repo": "candid82/flycheck-joker"
+  }
+}

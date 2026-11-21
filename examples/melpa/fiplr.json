@@ -1,0 +1,18 @@
+{
+  "id": 10030011,
+  "name": "grizzl/fiplr",
+  "description": "[DEPRECATED] An Emacs Fuzzy Find in Project Package",
+  "url": "https://github.com/grizzl/fiplr",
+  "stars": 185,
+  "updated": "2018-07-09T17:49:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "fiplr",
+    "fetcher": "github",
+    "repo": "grizzl/fiplr"
+  }
+}

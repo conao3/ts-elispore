@@ -1,0 +1,18 @@
+{
+  "id": 61022508,
+  "name": "10sr/editorconfig-custom-majormode-el",
+  "description": "Decide major-mode from EditorConfig",
+  "url": "https://github.com/10sr/editorconfig-custom-majormode-el",
+  "stars": 10,
+  "updated": "2018-08-16T02:44:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "editorconfig-custom-majormode",
+    "fetcher": "github",
+    "repo": "10sr/editorconfig-custom-majormode-el"
+  }
+}

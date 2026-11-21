@@ -1,0 +1,18 @@
+{
+  "id": 53137496,
+  "name": "nabinno/esa.el",
+  "description": "Emacs paste, view and edit modes, this one for esa.io (\\( ⁰⊖⁰)/). Like email client",
+  "url": "https://github.com/nabinno/esa.el",
+  "stars": 18,
+  "updated": "2018-04-03T15:25:22Z",
+  "archived": false,
+  "topics": ["emacs", "esa-io"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "esa",
+    "fetcher": "github",
+    "repo": "nabinno/esa.el"
+  }
+}

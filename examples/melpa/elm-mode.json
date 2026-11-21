@@ -1,0 +1,19 @@
+{
+  "id": 14056575,
+  "name": "jcollard/elm-mode",
+  "description": "Elm mode for emacs",
+  "url": "https://github.com/jcollard/elm-mode",
+  "stars": 381,
+  "updated": "2025-04-01T09:15:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elm-mode",
+    "fetcher": "github",
+    "repo": "jcollard/elm-mode",
+    "files": "(:defaults \"elm.tags\")"
+  }
+}

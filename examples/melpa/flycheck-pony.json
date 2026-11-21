@@ -1,0 +1,18 @@
+{
+  "id": 49431226,
+  "name": "ponylang/flycheck-pony",
+  "description": ":horse: A Flycheck syntax checker for the Pony language.",
+  "url": "https://github.com/ponylang/flycheck-pony",
+  "stars": 8,
+  "updated": "2026-08-10T05:21:12Z",
+  "archived": false,
+  "topics": ["emacs", "flycheck", "pony-language"],
+  "license": "GPL-3.0",
+  "language": "Shell",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-pony",
+    "fetcher": "github",
+    "repo": "ponylang/flycheck-pony"
+  }
+}

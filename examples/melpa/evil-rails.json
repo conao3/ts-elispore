@@ -1,0 +1,18 @@
+{
+  "id": 3377229,
+  "name": "antono/evil-rails",
+  "description": "rails.vim clone for Emacs",
+  "url": "https://github.com/antono/evil-rails",
+  "stars": 35,
+  "updated": "2019-05-12T15:17:46Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-rails",
+    "fetcher": "github",
+    "repo": "antono/evil-rails"
+  }
+}

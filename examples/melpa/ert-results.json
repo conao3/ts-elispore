@@ -1,0 +1,18 @@
+{
+  "id": 737020266,
+  "name": "rswgnu/ert-results",
+  "description": "Add {f} filter and {t} toggle display to Emacs ert-results-mode",
+  "url": "https://github.com/rswgnu/ert-results",
+  "stars": 6,
+  "updated": "2024-01-24T00:35:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ert-results",
+    "fetcher": "github",
+    "repo": "rswgnu/ert-results"
+  }
+}

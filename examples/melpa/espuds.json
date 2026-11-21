@@ -1,0 +1,18 @@
+{
+  "id": 506504,
+  "name": "ecukes/espuds",
+  "description": "Common step definitions for Ecukes",
+  "url": "https://github.com/ecukes/espuds",
+  "stars": 48,
+  "updated": "2026-06-19T08:22:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "espuds",
+    "fetcher": "github",
+    "repo": "ecukes/espuds"
+  }
+}

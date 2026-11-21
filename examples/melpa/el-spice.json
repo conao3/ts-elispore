@@ -1,0 +1,18 @@
+{
+  "id": 13884582,
+  "name": "vedang/el-spice",
+  "description": "Additional flavour for your Emacs Lisp programming",
+  "url": "https://github.com/vedang/el-spice",
+  "stars": 10,
+  "updated": "2020-10-13T17:31:25Z",
+  "archived": false,
+  "topics": ["elisp", "emacs-lisp", "emacs-lisp-programming", "tools"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "el-spice",
+    "fetcher": "github",
+    "repo": "vedang/el-spice"
+  }
+}

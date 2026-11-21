@@ -1,0 +1,18 @@
+{
+  "id": 287946576,
+  "name": "jcs-elpa/fill-page",
+  "description": "Fill the buffer so you don't see empty lines at the end.",
+  "url": "https://github.com/jcs-elpa/fill-page",
+  "stars": 2,
+  "updated": "2026-06-19T08:47:15Z",
+  "archived": false,
+  "topics": ["buffer", "emacs", "page"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "fill-page",
+    "fetcher": "github",
+    "repo": "jcs-elpa/fill-page"
+  }
+}

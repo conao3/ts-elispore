@@ -1,0 +1,19 @@
+{
+  "id": 5379961,
+  "name": "sebastiw/edts",
+  "description": "Erlang Development Tool Suite",
+  "url": "https://github.com/sebastiw/edts",
+  "stars": 360,
+  "updated": "2025-02-14T23:16:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "edts",
+    "fetcher": "github",
+    "repo": "sebastiw/edts",
+    "files": "(\"*.el\"\n          \"COPYING\"\n          \"COPYING.LESSER\"\n          \"Makefile\"\n          \"README.md\"\n          \"start\"\n          \"start.bat\"\n          \"edts-escript\"\n          \"edts-release.config\"\n\n          ;; to be removed\n          \"rebar.config\"\n          (\"config\"       \"config/*\")\n\n          (\"elisp/edts\"   \"elisp/edts/*.el\")\n\n          (\"lib/edts\"         \"lib/edts/Makefile\")\n          (\"lib/edts/include\" \"lib/edts/include/*\")\n          (\"lib/edts/priv\"    \"lib/edts/priv/dispatch.conf\")\n          (\"lib/edts/src\"     \"lib/edts/src/*\")\n\n          (\"lib/edts_debug\"\n           \"lib/edts_debug/*.el\"\n           \"lib/edts_debug/Makefile\")\n          (\"lib/edts_debug/src\"\n           \"lib/edts_debug/src/*\")\n\n          (\"lib/edts_dialyzer\"\n           \"lib/edts_dialyzer/*.el\"\n           \"lib/edts_dialyzer/Makefile\")\n          (\"lib/edts_dialyzer/src\"\n           \"lib/edts_dialyzer/src/*\")\n\n          (\"lib/edts_xref\"\n           \"lib/edts_xref/*.el\"\n           \"lib/edts_xref/Makefile\")\n          (\"lib/edts_xref/src\"\n           \"lib/edts_xref/src/*\")\n\n          (:exclude \"elisp/edts/*-test.el\"\n                    \"lib/edts_debug/*-test.el\"\n                    \"lib/edts_dialyzer/*-test.el\"\n                    \"lib/edts_xref/*-test.el\"))"
+  }
+}

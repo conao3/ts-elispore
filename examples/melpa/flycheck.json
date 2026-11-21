@@ -1,0 +1,18 @@
+{
+  "id": 6158882,
+  "name": "flycheck/flycheck",
+  "description": "On the fly syntax checking for GNU Emacs",
+  "url": "https://github.com/flycheck/flycheck",
+  "stars": 2539,
+  "updated": "2026-11-07T08:14:27Z",
+  "archived": false,
+  "topics": ["emacs", "flycheck", "syntax-checking"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck",
+    "fetcher": "github",
+    "repo": "flycheck/flycheck"
+  }
+}

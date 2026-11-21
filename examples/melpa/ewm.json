@@ -1,0 +1,18 @@
+{
+  "id": 834189295,
+  "name": "laluxx/ewm",
+  "description": "",
+  "url": "https://github.com/laluxx/ewm",
+  "stars": 3,
+  "updated": "2025-10-21T00:31:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ewm",
+    "fetcher": "github",
+    "repo": "laluxx/ewm"
+  }
+}

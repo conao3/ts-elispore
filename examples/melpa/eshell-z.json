@@ -1,0 +1,18 @@
+{
+  "id": 39569615,
+  "name": "xuchunyang/eshell-z",
+  "description": "cd to frequent directory in eshell, Emacs port of https://github.com/rupa/z",
+  "url": "https://github.com/xuchunyang/eshell-z",
+  "stars": 49,
+  "updated": "2019-11-16T03:40:54Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "eshell"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-z",
+    "fetcher": "github",
+    "repo": "xuchunyang/eshell-z"
+  }
+}

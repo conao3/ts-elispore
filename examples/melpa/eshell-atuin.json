@@ -1,0 +1,18 @@
+{
+  "id": 768550810,
+  "name": "SqrtMinusOne/eshell-atuin",
+  "description": "eshell ❤️ atuin",
+  "url": "https://github.com/SqrtMinusOne/eshell-atuin",
+  "stars": 43,
+  "updated": "2026-02-22T08:02:18Z",
+  "archived": false,
+  "topics": ["emacs", "eshell", "shell"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-atuin",
+    "fetcher": "github",
+    "repo": "SqrtMinusOne/eshell-atuin"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 9804785,
+  "name": "flycheck/flycheck-color-mode-line",
+  "description": "An Emacs minor-mode for Flycheck which colors the mode-line according to the Flycheck state of the current buffer.",
+  "url": "https://github.com/flycheck/flycheck-color-mode-line",
+  "stars": 61,
+  "updated": "2023-01-06T18:29:03Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-color-mode-line",
+    "fetcher": "github",
+    "repo": "flycheck/flycheck-color-mode-line"
+  }
+}

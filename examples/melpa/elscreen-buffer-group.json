@@ -1,0 +1,18 @@
+{
+  "id": 31353676,
+  "name": "jeffgran/elscreen-buffer-group",
+  "description": "Elscreen Buffer Group -- separate list of buffers per elscreen",
+  "url": "https://github.com/jeffgran/elscreen-buffer-group",
+  "stars": 6,
+  "updated": "2020-01-09T23:38:20Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elscreen-buffer-group",
+    "fetcher": "github",
+    "repo": "jeffgran/elscreen-buffer-group"
+  }
+}

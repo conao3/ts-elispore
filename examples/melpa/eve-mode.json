@@ -1,0 +1,18 @@
+{
+  "id": 96155680,
+  "name": "witheve/emacs-eve-mode",
+  "description": "",
+  "url": "https://github.com/witheve/emacs-eve-mode",
+  "stars": 5,
+  "updated": "2017-08-22T22:31:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "eve-mode",
+    "fetcher": "github",
+    "repo": "witheve/emacs-eve-mode"
+  }
+}

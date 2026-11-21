@@ -1,0 +1,18 @@
+{
+  "id": 196239945,
+  "name": "porras/evil-ruby-text-objects",
+  "description": "Emacs package that adds some text objects and keybindings to work with Ruby code with Evil.",
+  "url": "https://github.com/porras/evil-ruby-text-objects",
+  "stars": 10,
+  "updated": "2024-04-11T12:50:08Z",
+  "archived": false,
+  "topics": ["crystal", "emacs", "emacs-packages", "evil", "ruby"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-ruby-text-objects",
+    "fetcher": "github",
+    "repo": "porras/evil-ruby-text-objects"
+  }
+}

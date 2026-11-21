@@ -1,0 +1,18 @@
+{
+  "id": 3127336,
+  "name": "atomontage/erc-crypt",
+  "description": "PSK encryption for Emacs/ERC",
+  "url": "https://github.com/atomontage/erc-crypt",
+  "stars": 6,
+  "updated": "2025-11-28T12:25:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "BSD-2-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erc-crypt",
+    "fetcher": "github",
+    "repo": "atomontage/erc-crypt"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 2710379,
+  "name": "editorconfig/editorconfig-emacs",
+  "description": "EditorConfig plugin for Emacs",
+  "url": "https://github.com/editorconfig/editorconfig-emacs",
+  "stars": 838,
+  "updated": "2026-01-23T02:28:08Z",
+  "archived": false,
+  "topics": ["editorconfig", "editorconfig-plugin", "emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "editorconfig",
+    "fetcher": "github",
+    "repo": "editorconfig/editorconfig-emacs"
+  }
+}

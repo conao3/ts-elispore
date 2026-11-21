@@ -1,0 +1,18 @@
+{
+  "id": 98027071,
+  "name": "rokrdev/exotica-theme",
+  "description": "Emacs Theme",
+  "url": "https://github.com/rokrdev/exotica-theme",
+  "stars": 26,
+  "updated": "2018-02-12T23:30:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "exotica-theme",
+    "fetcher": "github",
+    "repo": "rokrdev/exotica-theme"
+  }
+}

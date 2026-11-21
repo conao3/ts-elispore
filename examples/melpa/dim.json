@@ -1,0 +1,18 @@
+{
+  "id": 48605583,
+  "name": "alezost/dim.el",
+  "description": "Change mode-line names of major/minor modes",
+  "url": "https://github.com/alezost/dim.el",
+  "stars": 27,
+  "updated": "2020-01-21T18:43:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dim",
+    "fetcher": "github",
+    "repo": "alezost/dim.el"
+  }
+}

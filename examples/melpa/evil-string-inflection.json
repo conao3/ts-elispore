@@ -1,0 +1,18 @@
+{
+  "id": 112104189,
+  "name": "ninrod/evil-string-inflection",
+  "description": ":camel: evil operator to cycle *-case in text objects",
+  "url": "https://github.com/ninrod/evil-string-inflection",
+  "stars": 29,
+  "updated": "2024-07-23T13:59:06Z",
+  "archived": false,
+  "topics": ["camelcase", "elisp", "evil", "evil-mode", "package", "snakecase"],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-string-inflection",
+    "fetcher": "github",
+    "repo": "ninrod/evil-string-inflection"
+  }
+}

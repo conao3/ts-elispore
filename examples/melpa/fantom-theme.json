@@ -1,0 +1,18 @@
+{
+  "id": 249166511,
+  "name": "adsva/fantom-emacs-theme",
+  "description": "Dark Emacs theme based on the VSCode theme Phantom Code",
+  "url": "https://github.com/adsva/fantom-emacs-theme",
+  "stars": 4,
+  "updated": "2020-03-28T06:04:15Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fantom-theme",
+    "fetcher": "github",
+    "repo": "adsva/fantom-emacs-theme"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 310294348,
+  "name": "emacs-vs/docstr",
+  "description": "A document string minor mode",
+  "url": "https://github.com/emacs-vs/docstr",
+  "stars": 71,
+  "updated": "2026-07-30T06:03:13Z",
+  "archived": false,
+  "topics": ["docstr", "docstring", "visual-studio", "vs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "docstr",
+    "fetcher": "github",
+    "repo": "emacs-vs/docstr",
+    "files": "(:defaults \"langs/*.el\")"
+  }
+}

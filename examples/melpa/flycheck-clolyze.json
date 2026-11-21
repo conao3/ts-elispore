@@ -1,0 +1,18 @@
+{
+  "id": 182574984,
+  "name": "DLaps/flycheck-clolyze",
+  "description": "",
+  "url": "https://github.com/DLaps/flycheck-clolyze",
+  "stars": 0,
+  "updated": "2019-05-07T08:46:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-clolyze",
+    "fetcher": "github",
+    "repo": "DLaps/flycheck-clolyze"
+  }
+}

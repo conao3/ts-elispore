@@ -1,0 +1,18 @@
+{
+  "id": 17273408,
+  "name": "MetroWind/flucui-theme",
+  "description": "A custom theme for Emacs, inspired by http://flatuicolors.com. Has both light and dark variants.",
+  "url": "https://github.com/MetroWind/flucui-theme",
+  "stars": 120,
+  "updated": "2020-08-15T21:04:42Z",
+  "archived": false,
+  "topics": ["emacs", "screenshot", "theme"],
+  "license": "WTFPL",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flucui-themes",
+    "fetcher": "github",
+    "repo": "MetroWind/flucui-theme"
+  }
+}

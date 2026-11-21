@@ -1,0 +1,18 @@
+{
+  "id": 6734545,
+  "name": "purcell/elpa-audit",
+  "description": "Handy functions for inspecting and comparing Emas package archives",
+  "url": "https://github.com/purcell/elpa-audit",
+  "stars": 4,
+  "updated": "2026-04-22T12:29:40Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elpa-audit",
+    "fetcher": "github",
+    "repo": "purcell/elpa-audit"
+  }
+}

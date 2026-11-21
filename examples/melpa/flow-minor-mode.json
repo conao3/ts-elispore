@@ -1,0 +1,18 @@
+{
+  "id": 83225368,
+  "name": "an-sh/flow-minor-mode",
+  "description": "Emacs minor mode for editing flowtype files.",
+  "url": "https://github.com/an-sh/flow-minor-mode",
+  "stars": 47,
+  "updated": "2020-09-05T17:30:56Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-mode", "flow", "flowtype"],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flow-minor-mode",
+    "fetcher": "github",
+    "repo": "an-sh/flow-minor-mode"
+  }
+}

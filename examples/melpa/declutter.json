@@ -1,0 +1,18 @@
+{
+  "id": 137050257,
+  "name": "sanel/declutter",
+  "description": "Read html content without clutter from Emacs",
+  "url": "https://github.com/sanel/declutter",
+  "stars": 30,
+  "updated": "2022-03-10T21:03:26Z",
+  "archived": false,
+  "topics": ["emacs", "html", "web"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "declutter",
+    "fetcher": "github",
+    "repo": "sanel/declutter"
+  }
+}

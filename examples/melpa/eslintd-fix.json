@@ -1,0 +1,18 @@
+{
+  "id": 82345264,
+  "name": "aaronjensen/eslintd-fix",
+  "description": "Emacs minor-mode to automatically fix javascript with eslint_d.",
+  "url": "https://github.com/aaronjensen/eslintd-fix",
+  "stars": 66,
+  "updated": "2024-02-24T15:17:56Z",
+  "archived": false,
+  "topics": ["emacs", "eslint", "javascript"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eslintd-fix",
+    "fetcher": "github",
+    "repo": "aaronjensen/eslintd-fix"
+  }
+}

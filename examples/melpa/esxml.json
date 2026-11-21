@@ -1,0 +1,19 @@
+{
+  "id": 5423521,
+  "name": "tali713/esxml",
+  "description": "An elisp library for working with xml, esxml and sxml.",
+  "url": "https://github.com/tali713/esxml",
+  "stars": 68,
+  "updated": "2026-03-29T16:18:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "esxml",
+    "fetcher": "github",
+    "repo": "tali713/esxml",
+    "files": "(\"esxml.el\" \"esxml-query.el\")"
+  }
+}

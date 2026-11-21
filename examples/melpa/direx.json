@@ -1,0 +1,18 @@
+{
+  "id": 3047982,
+  "name": "emacsorphanage/direx",
+  "description": "Directory Explorer for GNU Emacs",
+  "url": "https://github.com/emacsorphanage/direx",
+  "stars": 211,
+  "updated": "2023-05-22T01:24:07Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "direx",
+    "fetcher": "github",
+    "repo": "emacsorphanage/direx"
+  }
+}

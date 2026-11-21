@@ -1,0 +1,18 @@
+{
+  "id": 887443757,
+  "name": "xenodium/dall-e-shell",
+  "description": "An Emacs shell for OpenAI's DALL-E",
+  "url": "https://github.com/xenodium/dall-e-shell",
+  "stars": 4,
+  "updated": "2025-08-21T10:33:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dall-e-shell",
+    "fetcher": "github",
+    "repo": "xenodium/dall-e-shell"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 296660781,
+  "name": "justinbarclay/elegant-agenda-mode",
+  "description": "My only agenda is to be more elegant.",
+  "url": "https://github.com/justinbarclay/elegant-agenda-mode",
+  "stars": 56,
+  "updated": "2022-05-10T19:14:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elegant-agenda-mode",
+    "fetcher": "github",
+    "repo": "justinbarclay/elegant-agenda-mode"
+  }
+}

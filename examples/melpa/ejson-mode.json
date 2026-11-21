@@ -1,0 +1,18 @@
+{
+  "id": 175280412,
+  "name": "dantecatalfamo/ejson-mode",
+  "description": "Emacs major mode for editing ejson files",
+  "url": "https://github.com/dantecatalfamo/ejson-mode",
+  "stars": 0,
+  "updated": "2019-07-20T21:38:24Z",
+  "archived": false,
+  "topics": ["ejson", "elisp", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ejson-mode",
+    "fetcher": "github",
+    "repo": "dantecatalfamo/ejson-mode"
+  }
+}

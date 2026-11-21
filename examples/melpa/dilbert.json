@@ -1,0 +1,18 @@
+{
+  "id": 425558851,
+  "name": "danirukun/dilbert-el",
+  "description": "An Emacs package to read Dilbert comic strips.",
+  "url": "https://github.com/danirukun/dilbert-el",
+  "stars": 4,
+  "updated": "2021-11-25T19:00:33Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dilbert",
+    "fetcher": "github",
+    "repo": "danirukun/dilbert-el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 5926105,
+  "name": "nicferrier/emacs-db",
+  "description": "very simple database for emacslisp, can also wrap other databases.",
+  "url": "https://github.com/nicferrier/emacs-db",
+  "stars": 57,
+  "updated": "2017-01-18T21:48:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "db",
+    "fetcher": "github",
+    "repo": "nicferrier/emacs-db"
+  }
+}

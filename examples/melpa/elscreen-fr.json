@@ -1,0 +1,18 @@
+{
+  "id": 67547317,
+  "name": "rocher/elscreen-fr",
+  "description": "Put (el)screen titles on window frame",
+  "url": "https://github.com/rocher/elscreen-fr",
+  "stars": 9,
+  "updated": "2019-07-11T19:55:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elscreen-fr",
+    "fetcher": "github",
+    "repo": "rocher/elscreen-fr"
+  }
+}

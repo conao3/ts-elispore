@@ -1,0 +1,19 @@
+{
+  "id": 58873304,
+  "name": "emacs-php/emacs-datetime",
+  "description": "",
+  "url": "https://github.com/emacs-php/emacs-datetime",
+  "stars": 8,
+  "updated": "2026-06-19T08:38:15Z",
+  "archived": false,
+  "topics": ["datetime", "emacs", "melpa"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "datetime-format",
+    "fetcher": "github",
+    "repo": "emacs-php/emacs-datetime",
+    "files": "(\"datetime-format.el\")"
+  }
+}

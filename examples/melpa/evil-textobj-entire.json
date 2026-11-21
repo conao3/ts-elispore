@@ -1,0 +1,18 @@
+{
+  "id": 33036220,
+  "name": "supermomonga/evil-textobj-entire",
+  "description": "",
+  "url": "https://github.com/supermomonga/evil-textobj-entire",
+  "stars": 5,
+  "updated": "2015-04-22T12:54:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-textobj-entire",
+    "fetcher": "github",
+    "repo": "supermomonga/evil-textobj-entire"
+  }
+}

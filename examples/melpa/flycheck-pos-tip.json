@@ -1,0 +1,18 @@
+{
+  "id": 17280289,
+  "name": "flycheck/flycheck-pos-tip",
+  "description": "Flycheck errors display in tooltip",
+  "url": "https://github.com/flycheck/flycheck-pos-tip",
+  "stars": 124,
+  "updated": "2026-08-10T07:59:54Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-pos-tip",
+    "fetcher": "github",
+    "repo": "flycheck/flycheck-pos-tip"
+  }
+}

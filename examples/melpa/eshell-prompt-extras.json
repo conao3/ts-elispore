@@ -1,0 +1,18 @@
+{
+  "id": 22995859,
+  "name": "suzzvv/eshell-prompt-extras",
+  "description": "Display extra information and color for your eshell prompt. ",
+  "url": "https://github.com/suzzvv/eshell-prompt-extras",
+  "stars": 128,
+  "updated": "2026-04-02T11:41:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-prompt-extras",
+    "fetcher": "github",
+    "repo": "suzzvv/eshell-prompt-extras"
+  }
+}

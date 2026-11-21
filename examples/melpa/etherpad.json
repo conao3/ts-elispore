@@ -1,0 +1,18 @@
+{
+  "id": 301694823,
+  "name": "zzkt/ethermacs",
+  "description": "An Emacs interface for editing Etherpad pads",
+  "url": "https://github.com/zzkt/ethermacs",
+  "stars": 21,
+  "updated": "2026-11-17T13:40:28Z",
+  "archived": false,
+  "topics": ["collaborative-editing", "emacs", "etherpad"],
+  "license": "EUPL-1.2",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "etherpad",
+    "fetcher": "github",
+    "repo": "zzkt/ethermacs"
+  }
+}

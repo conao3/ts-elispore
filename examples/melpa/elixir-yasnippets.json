@@ -1,0 +1,19 @@
+{
+  "id": 12287192,
+  "name": "hisea/elixir-yasnippets",
+  "description": "elixir snippets for yasnippets",
+  "url": "https://github.com/hisea/elixir-yasnippets",
+  "stars": 22,
+  "updated": "2022-06-29T14:16:18Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elixir-yasnippets",
+    "fetcher": "github",
+    "repo": "hisea/elixir-yasnippets",
+    "files": "(:defaults \"snippets\")"
+  }
+}

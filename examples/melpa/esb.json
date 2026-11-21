@@ -1,0 +1,18 @@
+{
+  "id": 993379531,
+  "name": "0xhenrique/esb",
+  "description": "Emacs Simple Bookmark - This is a simple encrypted bookmark manager for Emacs that stores bookmarks in an encrypted file suitable for syncing via Git. It uses GPG encryption to keep your bookmarks secure while allowing you to store them in public repositories.",
+  "url": "https://github.com/0xhenrique/esb",
+  "stars": 3,
+  "updated": "2025-12-08T07:02:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "esb",
+    "fetcher": "github",
+    "repo": "0xhenrique/esb"
+  }
+}

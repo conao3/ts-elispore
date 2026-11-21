@@ -1,0 +1,19 @@
+{
+  "id": 69535833,
+  "name": "flexibeast/dkl",
+  "description": "An ASCII-art representation of a keyboard layout, within an Emacs buffer.",
+  "url": "https://github.com/flexibeast/dkl",
+  "stars": 9,
+  "updated": "2016-10-05T00:09:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dkl",
+    "fetcher": "github",
+    "repo": "flexibeast/dkl",
+    "files": "(:defaults\n         \"keyboards\"\n         \"layouts\")"
+  }
+}

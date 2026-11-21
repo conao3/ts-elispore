@@ -1,0 +1,29 @@
+{
+  "id": 766563713,
+  "name": "johanwk/elot",
+  "description": "ELOT Literate Ontology Tool",
+  "url": "https://github.com/johanwk/elot",
+  "stars": 41,
+  "updated": "2026-11-01T13:02:52Z",
+  "archived": false,
+  "topics": [
+    "emacs",
+    "gptel",
+    "literate-programming",
+    "manchester-syntax",
+    "ontology",
+    "owl",
+    "semantic-web",
+    "standards",
+    "vs-code"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elot",
+    "fetcher": "github",
+    "repo": "johanwk/elot",
+    "files": "(\"elot-package/elot*.el\"\n         \"elot-package/schema.sql\"\n         \"elot-package/elot-lob.org\"\n         \"elot-package/*.css\"\n         \"elot-package/*.js\"\n         \"elot-package/*.setup\")"
+  }
+}

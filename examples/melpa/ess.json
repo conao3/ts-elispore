@@ -1,0 +1,19 @@
+{
+  "id": 3585447,
+  "name": "emacs-ess/ESS",
+  "description": "Emacs Speaks Statistics: ESS",
+  "url": "https://github.com/emacs-ess/ESS",
+  "stars": 675,
+  "updated": "2026-09-28T12:24:16Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ess",
+    "fetcher": "github",
+    "repo": "emacs-ess/ESS",
+    "files": "(\"lisp/*.el\"\n         \"doc/ess.texi\"\n         (\"etc\" \"etc/*\")\n         (\"obsolete\" \"lisp/obsolete/*\")\n         (:exclude \"etc/other\"))"
+  }
+}

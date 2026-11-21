@@ -1,0 +1,25 @@
+{
+  "id": 22453013,
+  "name": "howardabrams/demo-it",
+  "description": "An Emacs package for running demonstrations, screencasts and presentations from within Emacs.",
+  "url": "https://github.com/howardabrams/demo-it",
+  "stars": 326,
+  "updated": "2021-12-22T00:45:54Z",
+  "archived": false,
+  "topics": [
+    "demonstrations",
+    "emacs",
+    "presentation-slides",
+    "presentations",
+    "screencast",
+    "screencasts"
+  ],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "demo-it",
+    "fetcher": "github",
+    "repo": "howardabrams/demo-it"
+  }
+}

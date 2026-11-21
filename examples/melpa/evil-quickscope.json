@@ -1,0 +1,18 @@
+{
+  "id": 41063005,
+  "name": "blorbx/evil-quickscope",
+  "description": "Target highlighting for emacs evil-mode f,F,t and T commands.",
+  "url": "https://github.com/blorbx/evil-quickscope",
+  "stars": 26,
+  "updated": "2020-08-20T00:37:59Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-quickscope",
+    "fetcher": "github",
+    "repo": "blorbx/evil-quickscope"
+  }
+}

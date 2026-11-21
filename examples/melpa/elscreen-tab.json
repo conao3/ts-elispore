@@ -1,0 +1,18 @@
+{
+  "id": 166638037,
+  "name": "aki-s/elscreen-tab",
+  "description": "[Emacs] Keep on displaying tabs of elscreen in dedicated buffer",
+  "url": "https://github.com/aki-s/elscreen-tab",
+  "stars": 5,
+  "updated": "2023-08-10T21:28:23Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elscreen-tab",
+    "fetcher": "github",
+    "repo": "aki-s/elscreen-tab"
+  }
+}

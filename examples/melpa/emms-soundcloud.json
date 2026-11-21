@@ -1,0 +1,18 @@
+{
+  "id": 15351484,
+  "name": "ozanvos/emms-soundcloud",
+  "description": "EMMS source for Soundcloud audio sharing platform",
+  "url": "https://github.com/ozanvos/emms-soundcloud",
+  "stars": 4,
+  "updated": "2018-05-08T10:37:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emms-soundcloud",
+    "fetcher": "github",
+    "repo": "ozanvos/emms-soundcloud"
+  }
+}

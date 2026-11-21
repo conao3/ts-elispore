@@ -1,0 +1,18 @@
+{
+  "id": 327172828,
+  "name": "amno1/dired-auto-readme",
+  "description": "An Emacs package to automatically display a README file when one is present in a dired buffer.",
+  "url": "https://github.com/amno1/dired-auto-readme",
+  "stars": 49,
+  "updated": "2025-10-07T01:41:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-auto-readme",
+    "fetcher": "github",
+    "repo": "amno1/dired-auto-readme"
+  }
+}

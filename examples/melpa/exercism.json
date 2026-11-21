@@ -1,0 +1,18 @@
+{
+  "id": 536059514,
+  "name": "anonimitoraf/exercism.el",
+  "description": "Emacs integration for https://exercism.org",
+  "url": "https://github.com/anonimitoraf/exercism.el",
+  "stars": 42,
+  "updated": "2024-10-19T11:20:34Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "exercism",
+    "fetcher": "github",
+    "repo": "anonimitoraf/exercism.el"
+  }
+}

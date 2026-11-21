@@ -1,0 +1,18 @@
+{
+  "id": 15701836,
+  "name": "flycheck/flycheck-mercury",
+  "description": "Mercury syntax checker for Flycheck",
+  "url": "https://github.com/flycheck/flycheck-mercury",
+  "stars": 8,
+  "updated": "2018-11-18T19:52:43Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-mercury",
+    "fetcher": "github",
+    "repo": "flycheck/flycheck-mercury"
+  }
+}

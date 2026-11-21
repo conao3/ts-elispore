@@ -1,0 +1,19 @@
+{
+  "id": 157216434,
+  "name": "xuchunyang/elisp-demos",
+  "description": "Demonstrate Emacs Lisp APIs",
+  "url": "https://github.com/xuchunyang/elisp-demos",
+  "stars": 260,
+  "updated": "2026-08-26T13:26:59Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elisp-demos",
+    "fetcher": "github",
+    "repo": "xuchunyang/elisp-demos",
+    "files": "(:defaults \"*.org\")"
+  }
+}

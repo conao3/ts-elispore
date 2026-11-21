@@ -1,0 +1,19 @@
+{
+  "id": 374927,
+  "name": "erlang/otp",
+  "description": "Erlang/OTP",
+  "url": "https://github.com/erlang/otp",
+  "stars": 12362,
+  "updated": "2026-11-20T22:19:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "Apache-2.0",
+  "language": "Erlang",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "erlang",
+    "fetcher": "github",
+    "repo": "erlang/otp",
+    "files": "(\"lib/tools/emacs/*.el\"\n         (:exclude \"lib/tools/emacs/erlang_appwiz.el\"))"
+  }
+}

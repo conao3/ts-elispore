@@ -1,0 +1,18 @@
+{
+  "id": 12802262,
+  "name": "cask/epl",
+  "description": "Emacs Package Library",
+  "url": "https://github.com/cask/epl",
+  "stars": 65,
+  "updated": "2018-02-05T20:50:13Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "epl",
+    "fetcher": "github",
+    "repo": "cask/epl"
+  }
+}

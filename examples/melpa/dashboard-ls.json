@@ -1,0 +1,18 @@
+{
+  "id": 249677993,
+  "name": "emacs-dashboard/dashboard-ls",
+  "description": "Display files/directories in current directory on Dashboard",
+  "url": "https://github.com/emacs-dashboard/dashboard-ls",
+  "stars": 15,
+  "updated": "2026-06-19T08:35:34Z",
+  "archived": false,
+  "topics": ["dashboard", "emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dashboard-ls",
+    "fetcher": "github",
+    "repo": "emacs-dashboard/dashboard-ls"
+  }
+}

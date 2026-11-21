@@ -1,0 +1,18 @@
+{
+  "id": 336595603,
+  "name": "tecosaur/emacs-everywhere",
+  "description": "Mirror of https://git.tecosaur.net/tec/emacs-everywhere",
+  "url": "https://github.com/tecosaur/emacs-everywhere",
+  "stars": 675,
+  "updated": "2025-10-28T17:01:40Z",
+  "archived": false,
+  "topics": ["emacs", "keyboard-shortcuts", "mirror"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emacs-everywhere",
+    "fetcher": "github",
+    "repo": "tecosaur/emacs-everywhere"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 860035585,
+  "name": "garyo/dup-transform.el",
+  "description": "Simple Emacs package for graphics programmers, to duplicate and transform rgb/xy lines.",
+  "url": "https://github.com/garyo/dup-transform.el",
+  "stars": 4,
+  "updated": "2024-09-22T19:25:02Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dup-transform",
+    "fetcher": "github",
+    "repo": "garyo/dup-transform.el"
+  }
+}

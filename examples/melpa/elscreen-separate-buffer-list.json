@@ -1,0 +1,18 @@
+{
+  "id": 30693513,
+  "name": "wamei/elscreen-separate-buffer-list",
+  "description": "Separate buffer list manager for elscreen",
+  "url": "https://github.com/wamei/elscreen-separate-buffer-list",
+  "stars": 9,
+  "updated": "2020-08-07T13:25:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elscreen-separate-buffer-list",
+    "fetcher": "github",
+    "repo": "wamei/elscreen-separate-buffer-list"
+  }
+}

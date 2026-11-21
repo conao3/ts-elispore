@@ -1,0 +1,18 @@
+{
+  "id": 35836812,
+  "name": "Silex/docker.el",
+  "description": "Manage docker from Emacs.",
+  "url": "https://github.com/Silex/docker.el",
+  "stars": 832,
+  "updated": "2026-11-09T10:10:08Z",
+  "archived": false,
+  "topics": ["docker", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "docker",
+    "fetcher": "github",
+    "repo": "Silex/docker.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 64830014,
+  "name": "jidaikobo-shibata/dired-explorer",
+  "description": "minor-mode provides Explorer like select file at dired",
+  "url": "https://github.com/jidaikobo-shibata/dired-explorer",
+  "stars": 5,
+  "updated": "2026-10-24T09:58:55Z",
+  "archived": false,
+  "topics": ["elisp", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-explorer",
+    "fetcher": "github",
+    "repo": "jidaikobo-shibata/dired-explorer"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 30700310,
+  "name": "expez/evil-smartparens",
+  "description": "Evil integration for Smartparens",
+  "url": "https://github.com/expez/evil-smartparens",
+  "stars": 141,
+  "updated": "2017-12-10T15:13:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-smartparens",
+    "fetcher": "github",
+    "repo": "expez/evil-smartparens"
+  }
+}

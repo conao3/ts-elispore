@@ -1,0 +1,36 @@
+{
+  "id": 134094755,
+  "name": "emacs-lsp/dap-mode",
+  "description": "Emacs :heart: Debug Adapter Protocol ",
+  "url": "https://github.com/emacs-lsp/dap-mode",
+  "stars": 1391,
+  "updated": "2026-06-19T08:24:48Z",
+  "archived": false,
+  "topics": [
+    "cpp",
+    "debug",
+    "debugger",
+    "emacs",
+    "emacs-lsp",
+    "go",
+    "java",
+    "javascript",
+    "lsp",
+    "lua",
+    "php",
+    "powershell",
+    "ruby",
+    "rust",
+    "swift",
+    "typescript"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dap-mode",
+    "fetcher": "github",
+    "repo": "emacs-lsp/dap-mode",
+    "files": "(:defaults \"icons\")"
+  }
+}

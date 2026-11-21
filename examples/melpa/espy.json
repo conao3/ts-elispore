@@ -1,0 +1,18 @@
+{
+  "id": 149918029,
+  "name": "walseb/espy",
+  "description": "A simple password fetcher",
+  "url": "https://github.com/walseb/espy",
+  "stars": 14,
+  "updated": "2025-04-17T13:52:07Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "espy",
+    "fetcher": "github",
+    "repo": "walseb/espy"
+  }
+}

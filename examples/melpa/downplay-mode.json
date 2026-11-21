@@ -1,0 +1,18 @@
+{
+  "id": 15817073,
+  "name": "tobias/downplay-mode",
+  "description": "A simple emacs minor mode for focusing a viewer's attention",
+  "url": "https://github.com/tobias/downplay-mode",
+  "stars": 27,
+  "updated": "2015-11-25T20:09:37Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "downplay-mode",
+    "fetcher": "github",
+    "repo": "tobias/downplay-mode"
+  }
+}

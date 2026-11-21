@@ -1,0 +1,18 @@
+{
+  "id": 134198106,
+  "name": "Andrew-William-Smith/evil-fringe-mark",
+  "description": "Display evil-mode markers in the Emacs fringe",
+  "url": "https://github.com/Andrew-William-Smith/evil-fringe-mark",
+  "stars": 36,
+  "updated": "2019-03-20T04:57:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-fringe-mark",
+    "fetcher": "github",
+    "repo": "Andrew-William-Smith/evil-fringe-mark"
+  }
+}

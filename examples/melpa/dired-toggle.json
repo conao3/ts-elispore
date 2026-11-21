@@ -1,0 +1,18 @@
+{
+  "id": 13532583,
+  "name": "fasheng/dired-toggle",
+  "description": "Show dired as sidebar and will not create new buffers when changing directory",
+  "url": "https://github.com/fasheng/dired-toggle",
+  "stars": 24,
+  "updated": "2020-10-04T03:20:13Z",
+  "archived": false,
+  "topics": ["dired", "emacs-lisp", "emacs-packages", "sidebar"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-toggle",
+    "fetcher": "github",
+    "repo": "fasheng/dired-toggle"
+  }
+}

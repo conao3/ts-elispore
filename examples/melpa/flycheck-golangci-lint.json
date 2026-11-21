@@ -1,0 +1,18 @@
+{
+  "id": 135028724,
+  "name": "weijiangan/flycheck-golangci-lint",
+  "description": "Flycheck checker for golangci-lint",
+  "url": "https://github.com/weijiangan/flycheck-golangci-lint",
+  "stars": 50,
+  "updated": "2026-08-01T20:31:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-golangci-lint",
+    "fetcher": "github",
+    "repo": "weijiangan/flycheck-golangci-lint"
+  }
+}

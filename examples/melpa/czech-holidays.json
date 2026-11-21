@@ -1,0 +1,18 @@
+{
+  "id": 48746869,
+  "name": "chkhd/czech-holidays",
+  "description": "This package adds Czech public holidays to the Emacs calendar",
+  "url": "https://github.com/chkhd/czech-holidays",
+  "stars": 4,
+  "updated": "2016-01-13T17:53:59Z",
+  "archived": false,
+  "topics": ["calendar", "emacs", "emacs-calendar"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "czech-holidays",
+    "fetcher": "github",
+    "repo": "chkhd/czech-holidays"
+  }
+}

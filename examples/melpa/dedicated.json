@@ -1,0 +1,18 @@
+{
+  "id": 404711,
+  "name": "emacsorphanage/dedicated",
+  "description": "A very simple minor mode for dedicated buffers",
+  "url": "https://github.com/emacsorphanage/dedicated",
+  "stars": 5,
+  "updated": "2019-07-27T12:05:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dedicated",
+    "fetcher": "github",
+    "repo": "emacsorphanage/dedicated"
+  }
+}

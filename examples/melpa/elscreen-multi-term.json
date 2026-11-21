@@ -1,0 +1,18 @@
+{
+  "id": 32567599,
+  "name": "wamei/elscreen-multi-term",
+  "description": "Multi term for elscreen",
+  "url": "https://github.com/wamei/elscreen-multi-term",
+  "stars": 4,
+  "updated": "2020-04-17T08:22:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elscreen-multi-term",
+    "fetcher": "github",
+    "repo": "wamei/elscreen-multi-term"
+  }
+}

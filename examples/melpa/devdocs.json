@@ -1,0 +1,18 @@
+{
+  "id": 371738310,
+  "name": "astoff/devdocs.el",
+  "description": "Emacs viewer for DevDocs",
+  "url": "https://github.com/astoff/devdocs.el",
+  "stars": 406,
+  "updated": "2026-11-10T20:15:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "devdocs",
+    "fetcher": "github",
+    "repo": "astoff/devdocs.el"
+  }
+}

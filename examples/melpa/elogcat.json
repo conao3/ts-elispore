@@ -1,0 +1,18 @@
+{
+  "id": 30732895,
+  "name": "youngker/elogcat.el",
+  "description": "logcat interface for emacs",
+  "url": "https://github.com/youngker/elogcat.el",
+  "stars": 15,
+  "updated": "2026-04-23T08:51:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elogcat",
+    "fetcher": "github",
+    "repo": "youngker/elogcat.el"
+  }
+}

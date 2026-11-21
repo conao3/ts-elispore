@@ -1,0 +1,18 @@
+{
+  "id": 16221876,
+  "name": "kidd/erc-youtube.el",
+  "description": "Show inlined info about youtube links in erc buffers.",
+  "url": "https://github.com/kidd/erc-youtube.el",
+  "stars": 8,
+  "updated": "2016-05-11T12:08:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erc-youtube",
+    "fetcher": "github",
+    "repo": "kidd/erc-youtube.el"
+  }
+}

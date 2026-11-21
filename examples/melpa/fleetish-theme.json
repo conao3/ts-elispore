@@ -1,0 +1,25 @@
+{
+  "id": 563947620,
+  "name": "nylar/fleetish-emacs-theme",
+  "description": "A take on the JetBrains Fleet theme for Emacs",
+  "url": "https://github.com/nylar/fleetish-emacs-theme",
+  "stars": 4,
+  "updated": "2023-04-07T14:38:06Z",
+  "archived": false,
+  "topics": [
+    "color-scheme",
+    "dark-theme",
+    "emacs-package",
+    "emacs-theme",
+    "fleet",
+    "fleetish-theme"
+  ],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fleetish-theme",
+    "fetcher": "github",
+    "repo": "nylar/fleetish-emacs-theme"
+  }
+}

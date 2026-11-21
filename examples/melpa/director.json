@@ -1,0 +1,25 @@
+{
+  "id": 341525088,
+  "name": "bard/emacs-director",
+  "description": "Script Emacs sessions for automated screencasts and end-to-end tests",
+  "url": "https://github.com/bard/emacs-director",
+  "stars": 119,
+  "updated": "2023-02-21T12:37:56Z",
+  "archived": false,
+  "topics": [
+    "automation",
+    "emacs",
+    "end-to-end-testing",
+    "screencast-recording",
+    "test",
+    "testing"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "director",
+    "fetcher": "github",
+    "repo": "bard/emacs-director"
+  }
+}

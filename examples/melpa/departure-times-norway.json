@@ -1,0 +1,18 @@
+{
+  "id": 956834568,
+  "name": "hsolg/emacs-departure-times-norway",
+  "description": "",
+  "url": "https://github.com/hsolg/emacs-departure-times-norway",
+  "stars": 3,
+  "updated": "2025-12-26T18:05:26Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "departure-times-norway",
+    "fetcher": "github",
+    "repo": "hsolg/emacs-departure-times-norway"
+  }
+}

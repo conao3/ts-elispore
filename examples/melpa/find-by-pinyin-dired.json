@@ -1,0 +1,18 @@
+{
+  "id": 29914811,
+  "name": "redguardtoo/find-by-pinyin-dired",
+  "description": "Find file by first Pinyin characters of Chinese Hanzi. 输入拼音首字母定位对应的中文目录/文件",
+  "url": "https://github.com/redguardtoo/find-by-pinyin-dired",
+  "stars": 17,
+  "updated": "2018-02-10T02:18:45Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "find-by-pinyin-dired",
+    "fetcher": "github",
+    "repo": "redguardtoo/find-by-pinyin-dired"
+  }
+}

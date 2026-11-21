@@ -1,0 +1,18 @@
+{
+  "id": 362906621,
+  "name": "Phundrak/eshell-info-banner.el",
+  "description": "Display some system information when launching Eshell",
+  "url": "https://github.com/Phundrak/eshell-info-banner.el",
+  "stars": 35,
+  "updated": "2022-07-28T12:28:37Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "emacs-package", "eshell", "shell"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-info-banner",
+    "fetcher": "github",
+    "repo": "Phundrak/eshell-info-banner.el"
+  }
+}

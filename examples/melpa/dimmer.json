@@ -1,0 +1,18 @@
+{
+  "id": 113012541,
+  "name": "gonewest818/dimmer.el",
+  "description": "Interactively highlight which buffer is active by dimming the others.",
+  "url": "https://github.com/gonewest818/dimmer.el",
+  "stars": 309,
+  "updated": "2026-10-25T16:15:41Z",
+  "archived": false,
+  "topics": ["emacs", "themes"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dimmer",
+    "fetcher": "github",
+    "repo": "gonewest818/dimmer.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 199388335,
+  "name": "mamapanda/evil-owl",
+  "description": "preview registers and marks before actually using them",
+  "url": "https://github.com/mamapanda/evil-owl",
+  "stars": 56,
+  "updated": "2021-04-16T17:01:35Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-owl",
+    "fetcher": "github",
+    "repo": "mamapanda/evil-owl"
+  }
+}

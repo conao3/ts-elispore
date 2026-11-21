@@ -1,0 +1,18 @@
+{
+  "id": 8137437,
+  "name": "zk-phi/electric-case",
+  "description": "Insert camelCase, snake_case words without \"Shift\"ing",
+  "url": "https://github.com/zk-phi/electric-case",
+  "stars": 26,
+  "updated": "2015-05-15T08:22:40Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "electric-case",
+    "fetcher": "github",
+    "repo": "zk-phi/electric-case"
+  }
+}

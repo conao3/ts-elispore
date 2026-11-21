@@ -1,0 +1,18 @@
+{
+  "id": 1154226022,
+  "name": "Prgebish/flash",
+  "description": "Flash-style navigation for Emacs — jump to any location with search labels",
+  "url": "https://github.com/Prgebish/flash",
+  "stars": 113,
+  "updated": "2026-07-11T08:05:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flash",
+    "fetcher": "github",
+    "repo": "Prgebish/flash"
+  }
+}

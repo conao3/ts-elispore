@@ -1,0 +1,18 @@
+{
+  "id": 33847191,
+  "name": "cute-jumper/fcitx.el",
+  "description": "Better fcitx integration for Emacs.",
+  "url": "https://github.com/cute-jumper/fcitx.el",
+  "stars": 140,
+  "updated": "2024-01-21T18:29:04Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "fcitx"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fcitx",
+    "fetcher": "github",
+    "repo": "cute-jumper/fcitx.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 32437647,
+  "name": "emacsfodder/emacs-theme-darktooth",
+  "description": "Darktooth : From the darkness... it watches.",
+  "url": "https://github.com/emacsfodder/emacs-theme-darktooth",
+  "stars": 317,
+  "updated": "2026-08-26T00:54:48Z",
+  "archived": false,
+  "topics": ["emacs", "text-editor", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "darktooth-theme",
+    "fetcher": "github",
+    "repo": "emacsfodder/emacs-theme-darktooth"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 857726730,
+  "name": "alejandrogallo/el-who",
+  "description": "A s-expression html DSL library compatible with cl-who",
+  "url": "https://github.com/alejandrogallo/el-who",
+  "stars": 5,
+  "updated": "2024-09-18T16:11:12Z",
+  "archived": false,
+  "topics": ["common-lisp", "dsl", "dsl-syntax", "emacs-lisp", "emacs-package", "lisp"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "el-who",
+    "fetcher": "github",
+    "repo": "alejandrogallo/el-who"
+  }
+}

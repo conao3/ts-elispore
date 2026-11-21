@@ -1,0 +1,18 @@
+{
+  "id": 342711510,
+  "name": "emacscollective/epkg-marginalia",
+  "description": "Show Epkg information in completion annotations",
+  "url": "https://github.com/emacscollective/epkg-marginalia",
+  "stars": 3,
+  "updated": "2026-11-12T14:43:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "epkg-marginalia",
+    "fetcher": "github",
+    "repo": "emacscollective/epkg-marginalia"
+  }
+}

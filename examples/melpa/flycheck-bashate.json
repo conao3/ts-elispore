@@ -1,0 +1,18 @@
+{
+  "id": 62279817,
+  "name": "alexmurray/flycheck-bashate",
+  "description": "",
+  "url": "https://github.com/alexmurray/flycheck-bashate",
+  "stars": 11,
+  "updated": "2020-08-03T01:33:41Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-bashate",
+    "fetcher": "github",
+    "repo": "alexmurray/flycheck-bashate"
+  }
+}

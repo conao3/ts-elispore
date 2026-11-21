@@ -1,0 +1,18 @@
+{
+  "id": 795928752,
+  "name": "positron-solutions/dslide",
+  "description": "Present anything Emacs can do with programmable, extensible, configurable slides & presentation steps made from org mode headings",
+  "url": "https://github.com/positron-solutions/dslide",
+  "stars": 295,
+  "updated": "2025-01-02T08:20:25Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dslide",
+    "fetcher": "github",
+    "repo": "positron-solutions/dslide"
+  }
+}

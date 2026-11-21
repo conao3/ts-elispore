@@ -1,0 +1,18 @@
+{
+  "id": 21691072,
+  "name": "taksatou/flappymacs",
+  "description": "Flappy Bird clone for Emacs",
+  "url": "https://github.com/taksatou/flappymacs",
+  "stars": 13,
+  "updated": "2017-10-26T00:06:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flappymacs",
+    "fetcher": "github",
+    "repo": "taksatou/flappymacs"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 72368050,
+  "name": "ocaml/dune",
+  "description": "A composable build system for OCaml.",
+  "url": "https://github.com/ocaml/dune",
+  "stars": 1936,
+  "updated": "2026-11-21T18:18:29Z",
+  "archived": false,
+  "topics": ["build", "dune", "jbuilder", "ocaml", "opam"],
+  "license": "MIT",
+  "language": "OCaml",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dune",
+    "fetcher": "github",
+    "repo": "ocaml/dune",
+    "files": "(\"editor-integration/emacs/*.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 19515014,
+  "name": "m00natic/eww-lnum",
+  "description": "Conkeror-like functionality for EWW",
+  "url": "https://github.com/m00natic/eww-lnum",
+  "stars": 40,
+  "updated": "2015-01-02T15:14:10Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eww-lnum",
+    "fetcher": "github",
+    "repo": "m00natic/eww-lnum"
+  }
+}

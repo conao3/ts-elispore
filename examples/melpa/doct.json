@@ -1,0 +1,18 @@
+{
+  "id": 227148231,
+  "name": "progfolio/doct",
+  "description": "DOCT: Declarative Org Capture Templates for Emacs",
+  "url": "https://github.com/progfolio/doct",
+  "stars": 398,
+  "updated": "2026-01-01T16:56:34Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "org", "org-mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "doct",
+    "fetcher": "github",
+    "repo": "progfolio/doct"
+  }
+}

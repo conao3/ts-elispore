@@ -1,0 +1,18 @@
+{
+  "id": 176030673,
+  "name": "emacsmirror/darcsum",
+  "description": "A pcl-cvs like interface for managing darcs patches",
+  "url": "https://github.com/emacsmirror/darcsum",
+  "stars": 0,
+  "updated": "2021-09-09T10:46:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "darcsum",
+    "fetcher": "github",
+    "repo": "emacsmirror/darcsum"
+  }
+}

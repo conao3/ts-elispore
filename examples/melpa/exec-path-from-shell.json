@@ -1,0 +1,18 @@
+{
+  "id": 5792594,
+  "name": "purcell/exec-path-from-shell",
+  "description": "Make Emacs use the $PATH set up by the user's shell",
+  "url": "https://github.com/purcell/exec-path-from-shell",
+  "stars": 1575,
+  "updated": "2026-06-19T12:00:06Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "exec-path-from-shell",
+    "fetcher": "github",
+    "repo": "purcell/exec-path-from-shell"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1112465966,
+  "name": "cyberkm/fastbuild-bff-mode",
+  "description": "Emacs mode for editing FASTBuild build configuration files (.bff)",
+  "url": "https://github.com/cyberkm/fastbuild-bff-mode",
+  "stars": 2,
+  "updated": "2026-10-28T10:41:56Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fastbuild-bff-mode",
+    "fetcher": "github",
+    "repo": "cyberkm/fastbuild-bff-mode"
+  }
+}

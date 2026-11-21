@@ -1,0 +1,18 @@
+{
+  "id": 18056313,
+  "name": "ffevotte/desktop-plus",
+  "description": "desktop+: extensions to Emacs' standard desktop library",
+  "url": "https://github.com/ffevotte/desktop-plus",
+  "stars": 66,
+  "updated": "2024-02-04T17:52:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "desktop+",
+    "fetcher": "github",
+    "repo": "ffevotte/desktop-plus"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1175180062,
+  "name": "Prgebish/evim",
+  "description": "Multiple cursors for evil-mode, inspired by vim-visual-multi",
+  "url": "https://github.com/Prgebish/evim",
+  "stars": 19,
+  "updated": "2026-04-07T16:14:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evim",
+    "fetcher": "github",
+    "repo": "Prgebish/evim"
+  }
+}

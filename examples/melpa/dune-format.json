@@ -1,0 +1,18 @@
+{
+  "id": 357004304,
+  "name": "purcell/emacs-dune-format",
+  "description": "Reformat dune files from within Emacs",
+  "url": "https://github.com/purcell/emacs-dune-format",
+  "stars": 5,
+  "updated": "2024-11-07T07:21:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dune-format",
+    "fetcher": "github",
+    "repo": "purcell/emacs-dune-format"
+  }
+}

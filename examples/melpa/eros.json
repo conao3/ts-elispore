@@ -1,0 +1,18 @@
+{
+  "id": 75167424,
+  "name": "xiongtx/eros",
+  "description": "Evaluation Result OverlayS for Emacs Lisp.",
+  "url": "https://github.com/xiongtx/eros",
+  "stars": 184,
+  "updated": "2025-12-26T03:45:07Z",
+  "archived": false,
+  "topics": ["emacs", "evaluation", "overlays"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eros",
+    "fetcher": "github",
+    "repo": "xiongtx/eros"
+  }
+}

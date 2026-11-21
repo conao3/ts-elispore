@@ -1,0 +1,19 @@
+{
+  "id": 2823619,
+  "name": "mattfidler/el-autoyas.el",
+  "description": "Automatically create YaSnippets in emacs-lisp-mode",
+  "url": "https://github.com/mattfidler/el-autoyas.el",
+  "stars": 7,
+  "updated": "2012-09-18T13:18:28Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "el-autoyas",
+    "fetcher": "github",
+    "repo": "mattfidler/el-autoyas.el",
+    "files": "(:defaults (:exclude \"*.texi\"))"
+  }
+}

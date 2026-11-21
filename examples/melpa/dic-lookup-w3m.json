@@ -1,0 +1,18 @@
+{
+  "id": 681824661,
+  "name": "emacsattic/dic-lookup-w3m",
+  "description": "",
+  "url": "https://github.com/emacsattic/dic-lookup-w3m",
+  "stars": 0,
+  "updated": "2023-08-22T20:52:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dic-lookup-w3m",
+    "fetcher": "github",
+    "repo": "emacsattic/dic-lookup-w3m"
+  }
+}

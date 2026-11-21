@@ -1,0 +1,18 @@
+{
+  "id": 52172632,
+  "name": "hlissner/evil-multiedit",
+  "description": "Multiple cursors for evil-mode, based on iedit",
+  "url": "https://github.com/hlissner/evil-multiedit",
+  "stars": 367,
+  "updated": "2022-08-29T20:08:04Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-packages", "evil", "melpa"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-multiedit",
+    "fetcher": "github",
+    "repo": "hlissner/evil-multiedit"
+  }
+}

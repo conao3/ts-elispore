@@ -1,0 +1,18 @@
+{
+  "id": 430054991,
+  "name": "elken/embark-vc",
+  "description": "Blazing fast embark actions for various version control packages 🚀",
+  "url": "https://github.com/elken/embark-vc",
+  "stars": 22,
+  "updated": "2025-01-21T15:59:14Z",
+  "archived": false,
+  "topics": ["emacs", "embark", "forge", "magit"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "embark-vc",
+    "fetcher": "github",
+    "repo": "elken/embark-vc"
+  }
+}

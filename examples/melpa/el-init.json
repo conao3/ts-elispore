@@ -1,0 +1,18 @@
+{
+  "id": 7379335,
+  "name": "HKey/el-init",
+  "description": "A loader inspired by init-loader",
+  "url": "https://github.com/HKey/el-init",
+  "stars": 9,
+  "updated": "2020-11-06T13:39:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "el-init",
+    "fetcher": "github",
+    "repo": "HKey/el-init"
+  }
+}

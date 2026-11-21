@@ -1,0 +1,19 @@
+{
+  "id": 165497195,
+  "name": "amake/flutter.el",
+  "description": "Flutter tools for Emacs",
+  "url": "https://github.com/amake/flutter.el",
+  "stars": 138,
+  "updated": "2026-10-10T23:53:38Z",
+  "archived": false,
+  "topics": ["emacs", "flutter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flutter",
+    "fetcher": "github",
+    "repo": "amake/flutter.el",
+    "files": "(\"flutter.el\" \"flutter-project.el\" \"flutter-l10n.el\")"
+  }
+}

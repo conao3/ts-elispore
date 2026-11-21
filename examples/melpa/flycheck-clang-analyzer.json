@@ -1,0 +1,29 @@
+{
+  "id": 91777665,
+  "name": "alexmurray/flycheck-clang-analyzer",
+  "description": "Integrate Clang Static Analyzer with flycheck for on-the-fly static analysis in Emacs",
+  "url": "https://github.com/alexmurray/flycheck-clang-analyzer",
+  "stars": 35,
+  "updated": "2021-12-14T06:49:26Z",
+  "archived": false,
+  "topics": [
+    "c",
+    "c-plus-plus",
+    "ccls",
+    "clang",
+    "cquery",
+    "emacs",
+    "flycheck",
+    "irony-mode",
+    "rtags",
+    "static-analysis"
+  ],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-clang-analyzer",
+    "fetcher": "github",
+    "repo": "alexmurray/flycheck-clang-analyzer"
+  }
+}

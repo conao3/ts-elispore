@@ -1,0 +1,18 @@
+{
+  "id": 42147335,
+  "name": "4DA/eshell-toggle",
+  "description": "Show/hide eshell at the bottom of active window with directory of its buffer",
+  "url": "https://github.com/4DA/eshell-toggle",
+  "stars": 41,
+  "updated": "2025-05-13T17:42:50Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eshell-toggle",
+    "fetcher": "github",
+    "repo": "4DA/eshell-toggle"
+  }
+}

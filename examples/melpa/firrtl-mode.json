@@ -1,0 +1,18 @@
+{
+  "id": 117713270,
+  "name": "IBM/firrtl-mode",
+  "description": "Major mode for editing FIRRTL files in Emacs",
+  "url": "https://github.com/IBM/firrtl-mode",
+  "stars": 8,
+  "updated": "2025-09-17T19:53:31Z",
+  "archived": false,
+  "topics": ["emacs", "firrtl", "melpa"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "firrtl-mode",
+    "fetcher": "github",
+    "repo": "IBM/firrtl-mode"
+  }
+}

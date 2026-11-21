@@ -1,0 +1,18 @@
+{
+  "id": 579626870,
+  "name": "eki3z/duplexer.el",
+  "description": "",
+  "url": "https://github.com/eki3z/duplexer.el",
+  "stars": 1,
+  "updated": "2025-01-23T18:44:37Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "duplexer",
+    "fetcher": "github",
+    "repo": "eki3z/duplexer.el"
+  }
+}

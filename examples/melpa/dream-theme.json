@@ -1,0 +1,18 @@
+{
+  "id": 7879241,
+  "name": "djcb/dream-theme",
+  "description": "emacs color theme; inspired by sinburn/zenburn, but a bit darker; optimized for long coding sessions",
+  "url": "https://github.com/djcb/dream-theme",
+  "stars": 27,
+  "updated": "2021-04-19T06:05:53Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dream-theme",
+    "fetcher": "github",
+    "repo": "djcb/dream-theme"
+  }
+}

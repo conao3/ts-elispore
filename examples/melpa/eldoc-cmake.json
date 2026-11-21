@@ -1,0 +1,18 @@
+{
+  "id": 170550464,
+  "name": "ikirill/eldoc-cmake",
+  "description": "Eldoc support for CMake",
+  "url": "https://github.com/ikirill/eldoc-cmake",
+  "stars": 7,
+  "updated": "2025-03-20T20:18:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eldoc-cmake",
+    "fetcher": "github",
+    "repo": "ikirill/eldoc-cmake"
+  }
+}

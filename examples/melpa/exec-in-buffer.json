@@ -1,0 +1,18 @@
+{
+  "id": 1010733784,
+  "name": "arteen1000/exec-in-buffer",
+  "description": "",
+  "url": "https://github.com/arteen1000/exec-in-buffer",
+  "stars": 4,
+  "updated": "2025-07-17T01:23:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "exec-in-buffer",
+    "fetcher": "github",
+    "repo": "arteen1000/exec-in-buffer"
+  }
+}

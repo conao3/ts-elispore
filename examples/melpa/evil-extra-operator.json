@@ -1,0 +1,18 @@
+{
+  "id": 16249924,
+  "name": "Dewdrops/evil-extra-operator",
+  "description": "Evil operator for evaluating codes, translating text, taking notes, searching via google, etc.",
+  "url": "https://github.com/Dewdrops/evil-extra-operator",
+  "stars": 33,
+  "updated": "2021-02-25T12:45:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-extra-operator",
+    "fetcher": "github",
+    "repo": "Dewdrops/evil-extra-operator"
+  }
+}

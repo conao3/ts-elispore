@@ -1,0 +1,28 @@
+{
+  "id": 695885856,
+  "name": "KeyWeeUsr/decor",
+  "description": "Modify visual decorations",
+  "url": "https://github.com/KeyWeeUsr/decor",
+  "stars": 1,
+  "updated": "2024-12-10T06:52:10Z",
+  "archived": false,
+  "topics": [
+    "decorations",
+    "elisp",
+    "emacs",
+    "frame",
+    "melpa",
+    "melpa-badge",
+    "package",
+    "x11",
+    "xwayland"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "decor",
+    "fetcher": "github",
+    "repo": "KeyWeeUsr/decor"
+  }
+}

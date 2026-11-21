@@ -1,0 +1,18 @@
+{
+  "id": 87120164,
+  "name": "naclander/evil-search-highlight-persist",
+  "description": "Emacs minor mode to highlight search results in all the buffeer until you clear them or make another, like Vim hlsearch option.",
+  "url": "https://github.com/naclander/evil-search-highlight-persist",
+  "stars": 7,
+  "updated": "2017-08-04T04:11:23Z",
+  "archived": false,
+  "topics": ["emacs", "highlight", "vim"],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-search-highlight-persist",
+    "fetcher": "github",
+    "repo": "naclander/evil-search-highlight-persist"
+  }
+}

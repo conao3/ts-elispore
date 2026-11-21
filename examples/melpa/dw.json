@@ -1,0 +1,26 @@
+{
+  "id": 239617851,
+  "name": "integral-dw/dw-passphrase-generator",
+  "description": "Diceware passphrase generator for Emacs",
+  "url": "https://github.com/integral-dw/dw-passphrase-generator",
+  "stars": 4,
+  "updated": "2021-03-31T23:27:52Z",
+  "archived": false,
+  "topics": [
+    "diceware",
+    "emacs",
+    "emacs-lisp",
+    "passphrase",
+    "passphrase-generator",
+    "password",
+    "password-generator"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dw",
+    "fetcher": "github",
+    "repo": "integral-dw/dw-passphrase-generator"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 110674526,
+  "name": "Fuco1/flow-js2-mode",
+  "description": "[UNMAINTAINED] Support for flow for js2-mode",
+  "url": "https://github.com/Fuco1/flow-js2-mode",
+  "stars": 45,
+  "updated": "2023-01-27T18:23:59Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flow-js2-mode",
+    "fetcher": "github",
+    "repo": "Fuco1/flow-js2-mode",
+    "files": "(\"flow-js2-mode.el\")"
+  }
+}

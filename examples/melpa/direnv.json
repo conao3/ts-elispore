@@ -1,0 +1,28 @@
+{
+  "id": 83844059,
+  "name": "wbolster/emacs-direnv",
+  "description": "direnv integration for emacs",
+  "url": "https://github.com/wbolster/emacs-direnv",
+  "stars": 403,
+  "updated": "2026-06-30T08:39:28Z",
+  "archived": false,
+  "topics": [
+    "autoenv",
+    "awesome-sauce",
+    "direnv",
+    "elisp",
+    "emacs",
+    "env",
+    "environment",
+    "environment-variables",
+    "envrc"
+  ],
+  "license": "BSD-3-Clause",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "direnv",
+    "fetcher": "github",
+    "repo": "wbolster/emacs-direnv"
+  }
+}

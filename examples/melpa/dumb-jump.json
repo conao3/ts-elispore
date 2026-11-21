@@ -1,0 +1,28 @@
+{
+  "id": 46448682,
+  "name": "jacktasia/dumb-jump",
+  "description": "an Emacs \"jump to definition\" package for 60+ languages",
+  "url": "https://github.com/jacktasia/dumb-jump",
+  "stars": 1800,
+  "updated": "2026-11-16T03:16:07Z",
+  "archived": false,
+  "topics": [
+    "ag",
+    "developer-tools",
+    "emacs",
+    "emacs-lisp",
+    "emacs-modules",
+    "melpa",
+    "ripgrep",
+    "silver-searcher",
+    "spacemacs"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dumb-jump",
+    "fetcher": "github",
+    "repo": "jacktasia/dumb-jump"
+  }
+}

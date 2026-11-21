@@ -1,0 +1,18 @@
+{
+  "id": 534693215,
+  "name": "fejfighter/eglot-tempel",
+  "description": "bridge for tempel templates with eglot",
+  "url": "https://github.com/fejfighter/eglot-tempel",
+  "stars": 66,
+  "updated": "2024-11-15T11:10:36Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eglot-tempel",
+    "fetcher": "github",
+    "repo": "fejfighter/eglot-tempel"
+  }
+}

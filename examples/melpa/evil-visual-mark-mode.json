@@ -1,0 +1,18 @@
+{
+  "id": 29321225,
+  "name": "roman/evil-visual-mark-mode",
+  "description": "Display evil marks on buffer",
+  "url": "https://github.com/roman/evil-visual-mark-mode",
+  "stars": 38,
+  "updated": "2023-02-02T03:18:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-visual-mark-mode",
+    "fetcher": "github",
+    "repo": "roman/evil-visual-mark-mode"
+  }
+}

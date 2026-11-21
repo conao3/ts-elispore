@@ -1,0 +1,18 @@
+{
+  "id": 129730420,
+  "name": "jiahaoli95/el-fly-indent-mode.el",
+  "description": "Indent Emacs Lisp on the fly",
+  "url": "https://github.com/jiahaoli95/el-fly-indent-mode.el",
+  "stars": 5,
+  "updated": "2020-08-24T14:32:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "el-fly-indent-mode",
+    "fetcher": "github",
+    "repo": "jiahaoli95/el-fly-indent-mode.el"
+  }
+}

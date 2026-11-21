@@ -1,0 +1,19 @@
+{
+  "id": 1045813,
+  "name": "demyanrogozhin/elhome",
+  "description": "A scalable Emacs configuration framework",
+  "url": "https://github.com/demyanrogozhin/elhome",
+  "stars": 16,
+  "updated": "2016-10-25T20:42:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elhome",
+    "fetcher": "github",
+    "repo": "demyanrogozhin/elhome",
+    "files": "(\"elhome.el\"\n         \"startup\")"
+  }
+}

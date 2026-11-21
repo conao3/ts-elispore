@@ -1,0 +1,19 @@
+{
+  "id": 234936532,
+  "name": "harsman/dyalog-mode",
+  "description": "Emacs major mode for Dyalog APL",
+  "url": "https://github.com/harsman/dyalog-mode",
+  "stars": 19,
+  "updated": "2023-02-14T10:28:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dyalog-mode",
+    "fetcher": "github",
+    "repo": "harsman/dyalog-mode",
+    "files": "(:defaults \"Emacs.apl\")"
+  }
+}

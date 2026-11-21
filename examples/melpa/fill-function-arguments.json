@@ -1,0 +1,18 @@
+{
+  "id": 56908894,
+  "name": "davidshepherd7/fill-function-arguments",
+  "description": "An emacs package to add/remove line breaks between function arguments and similar constructs",
+  "url": "https://github.com/davidshepherd7/fill-function-arguments",
+  "stars": 17,
+  "updated": "2024-02-13T22:52:39Z",
+  "archived": false,
+  "topics": ["autoformat", "emacs", "formatter"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fill-function-arguments",
+    "fetcher": "github",
+    "repo": "davidshepherd7/fill-function-arguments"
+  }
+}

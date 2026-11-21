@@ -1,0 +1,18 @@
+{
+  "id": 88104342,
+  "name": "ahmadnazir/exsqlaim-mode",
+  "description": "Emacs minor mode for supporting the use of variables inside sql queries.",
+  "url": "https://github.com/ahmadnazir/exsqlaim-mode",
+  "stars": 5,
+  "updated": "2019-01-08T22:44:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "exsqlaim-mode",
+    "fetcher": "github",
+    "repo": "ahmadnazir/exsqlaim-mode"
+  }
+}

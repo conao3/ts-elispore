@@ -1,0 +1,18 @@
+{
+  "id": 878191866,
+  "name": "aurtzy/disproject",
+  "description": "Transient interface for managing and interacting with projects",
+  "url": "https://github.com/aurtzy/disproject",
+  "stars": 86,
+  "updated": "2026-01-14T14:46:25Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "project-management"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "disproject",
+    "fetcher": "github",
+    "repo": "aurtzy/disproject"
+  }
+}

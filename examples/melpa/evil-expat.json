@@ -1,0 +1,18 @@
+{
+  "id": 102982791,
+  "name": "edkolev/evil-expat",
+  "description": "Extra evil ex commands",
+  "url": "https://github.com/edkolev/evil-expat",
+  "stars": 10,
+  "updated": "2024-11-20T13:51:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-expat",
+    "fetcher": "github",
+    "repo": "edkolev/evil-expat"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 94888783,
+  "name": "davep/dad-joke.el",
+  "description": "Get/show dad jokes in Emacs",
+  "url": "https://github.com/davep/dad-joke.el",
+  "stars": 10,
+  "updated": "2017-09-28T07:05:21Z",
+  "archived": false,
+  "topics": ["dad-jokes", "elisp", "emacs", "gnu", "humor", "lisp"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dad-joke",
+    "fetcher": "github",
+    "repo": "davep/dad-joke.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1035587989,
+  "name": "kshartman/electric-directory-list",
+  "description": "Popup mini file manager for emacs intended as replacement for list-directory",
+  "url": "https://github.com/kshartman/electric-directory-list",
+  "stars": 2,
+  "updated": "2025-08-21T05:21:01Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "electric-list-directory",
+    "fetcher": "github",
+    "repo": "kshartman/electric-directory-list"
+  }
+}

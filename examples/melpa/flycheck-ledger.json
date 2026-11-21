@@ -1,0 +1,18 @@
+{
+  "id": 15024006,
+  "name": "purcell/flycheck-ledger",
+  "description": "A flychecker for checking ledger files",
+  "url": "https://github.com/purcell/flycheck-ledger",
+  "stars": 31,
+  "updated": "2026-04-22T12:29:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-ledger",
+    "fetcher": "github",
+    "repo": "purcell/flycheck-ledger"
+  }
+}

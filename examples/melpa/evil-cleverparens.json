@@ -1,0 +1,18 @@
+{
+  "id": 34799129,
+  "name": "emacs-evil/evil-cleverparens",
+  "description": "Evil normal-state minor-mode for editing lisp-like languages",
+  "url": "https://github.com/emacs-evil/evil-cleverparens",
+  "stars": 228,
+  "updated": "2025-05-18T17:49:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "evil-cleverparens",
+    "fetcher": "github",
+    "repo": "emacs-evil/evil-cleverparens"
+  }
+}

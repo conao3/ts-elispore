@@ -1,0 +1,18 @@
+{
+  "id": 8858784,
+  "name": "theju/dpaste_de.el",
+  "description": "Emacs mode to post to dpaste.de",
+  "url": "https://github.com/theju/dpaste_de.el",
+  "stars": 1,
+  "updated": "2013-10-15T12:33:09Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dpaste_de",
+    "fetcher": "github",
+    "repo": "theju/dpaste_de.el"
+  }
+}

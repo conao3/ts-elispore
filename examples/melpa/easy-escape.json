@@ -1,0 +1,18 @@
+{
+  "id": 36995164,
+  "name": "cpitclaudel/easy-escape",
+  "description": "Improve readability of escape characters in ELisp regular expressions",
+  "url": "https://github.com/cpitclaudel/easy-escape",
+  "stars": 50,
+  "updated": "2021-09-17T12:54:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "easy-escape",
+    "fetcher": "github",
+    "repo": "cpitclaudel/easy-escape"
+  }
+}

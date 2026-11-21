@@ -1,0 +1,18 @@
+{
+  "id": 273779890,
+  "name": "leodcs/erblint-emacs",
+  "description": "An interface for checking HTML ERB files using Shopify's erblint tool",
+  "url": "https://github.com/leodcs/erblint-emacs",
+  "stars": 4,
+  "updated": "2020-06-29T14:37:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erblint",
+    "fetcher": "github",
+    "repo": "leodcs/erblint-emacs"
+  }
+}

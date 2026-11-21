@@ -1,0 +1,19 @@
+{
+  "id": 207009458,
+  "name": "oitofelix/eterm-fn",
+  "description": "Function keys (F1--F12) for GNU Emacs terminal",
+  "url": "https://github.com/oitofelix/eterm-fn",
+  "stars": 4,
+  "updated": "2025-01-10T13:54:22Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eterm-fn",
+    "fetcher": "github",
+    "repo": "oitofelix/eterm-fn",
+    "files": "(:defaults \"*.ti\")"
+  }
+}

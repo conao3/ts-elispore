@@ -1,0 +1,18 @@
+{
+  "id": 1258736135,
+  "name": "kn66/flex-x",
+  "description": "",
+  "url": "https://github.com/kn66/flex-x",
+  "stars": 8,
+  "updated": "2026-08-20T22:08:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flex-x",
+    "fetcher": "github",
+    "repo": "kn66/flex-x"
+  }
+}

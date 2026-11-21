@@ -1,0 +1,18 @@
+{
+  "id": 29058891,
+  "name": "emacsorphanage/evil-anzu",
+  "description": "Anzu for Evil",
+  "url": "https://github.com/emacsorphanage/evil-anzu",
+  "stars": 64,
+  "updated": "2025-03-16T16:17:05Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "evil-anzu",
+    "fetcher": "github",
+    "repo": "emacsorphanage/evil-anzu"
+  }
+}

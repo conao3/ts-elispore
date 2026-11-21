@@ -1,0 +1,18 @@
+{
+  "id": 1102486125,
+  "name": "ayys/easy-theme-preview.el",
+  "description": "major mode to easily preview emacs themes ",
+  "url": "https://github.com/ayys/easy-theme-preview.el",
+  "stars": 8,
+  "updated": "2025-11-26T18:28:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "easy-theme-preview",
+    "fetcher": "github",
+    "repo": "ayys/easy-theme-preview.el"
+  }
+}

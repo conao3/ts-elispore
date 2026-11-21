@@ -1,0 +1,18 @@
+{
+  "id": 223777981,
+  "name": "jcs-elpa/ffmpeg-player",
+  "description": "Play video using ffmpeg.",
+  "url": "https://github.com/jcs-elpa/ffmpeg-player",
+  "stars": 23,
+  "updated": "2026-01-01T05:59:28Z",
+  "archived": false,
+  "topics": ["emacs", "ffmpeg", "stream"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "ffmpeg-player",
+    "fetcher": "github",
+    "repo": "jcs-elpa/ffmpeg-player"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 951456,
+  "name": "emacsattic/edit-list",
+  "description": "Edit a single list",
+  "url": "https://github.com/emacsattic/edit-list",
+  "stars": 6,
+  "updated": "2011-11-12T19:19:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "edit-list",
+    "fetcher": "github",
+    "repo": "emacsattic/edit-list"
+  }
+}

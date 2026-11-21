@@ -1,0 +1,18 @@
+{
+  "id": 12670332,
+  "name": "fgallina/emms-info-mediainfo",
+  "description": "An EMMS info source for the mediainfo program.",
+  "url": "https://github.com/fgallina/emms-info-mediainfo",
+  "stars": 2,
+  "updated": "2013-12-23T13:01:05Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emms-info-mediainfo",
+    "fetcher": "github",
+    "repo": "fgallina/emms-info-mediainfo"
+  }
+}

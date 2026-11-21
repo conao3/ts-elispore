@@ -1,0 +1,18 @@
+{
+  "id": 159655229,
+  "name": "hyakt/emacs-dashboard-hackernews",
+  "description": "Display a topstories of Hacker News on Dashboard.",
+  "url": "https://github.com/hyakt/emacs-dashboard-hackernews",
+  "stars": 21,
+  "updated": "2026-05-21T16:35:55Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dashboard-hackernews",
+    "fetcher": "github",
+    "repo": "hyakt/emacs-dashboard-hackernews"
+  }
+}

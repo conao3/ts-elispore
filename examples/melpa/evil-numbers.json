@@ -1,0 +1,18 @@
+{
+  "id": 58061805,
+  "name": "juliapath/evil-numbers",
+  "description": "Increment and decrement numbers in Emacs",
+  "url": "https://github.com/juliapath/evil-numbers",
+  "stars": 45,
+  "updated": "2026-01-03T08:51:09Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-numbers",
+    "fetcher": "github",
+    "repo": "juliapath/evil-numbers"
+  }
+}

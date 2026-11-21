@@ -1,0 +1,18 @@
+{
+  "id": 103856360,
+  "name": "psibi/dhall-mode",
+  "description": "",
+  "url": "https://github.com/psibi/dhall-mode",
+  "stars": 46,
+  "updated": "2025-01-05T14:18:48Z",
+  "archived": false,
+  "topics": ["configuration", "dhall", "turing-completeness"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dhall-mode",
+    "fetcher": "github",
+    "repo": "psibi/dhall-mode"
+  }
+}

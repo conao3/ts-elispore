@@ -1,0 +1,19 @@
+{
+  "id": 6947496,
+  "name": "zenspider/enhanced-ruby-mode",
+  "description": "An enhanced ruby-mode for Emacs that uses Ripper in ruby 1.9+ to highlight and indent the source code",
+  "url": "https://github.com/zenspider/enhanced-ruby-mode",
+  "stars": 222,
+  "updated": "2026-01-07T08:26:44Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "enh-ruby-mode",
+    "fetcher": "github",
+    "repo": "zenspider/enhanced-ruby-mode",
+    "files": "(\"*.el\" (\"ruby\" \"ruby/erm.rb\" \"ruby/erm_buffer.rb\"))"
+  }
+}

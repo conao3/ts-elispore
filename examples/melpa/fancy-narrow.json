@@ -1,0 +1,18 @@
+{
+  "id": 17830578,
+  "name": "Malabarba/fancy-narrow",
+  "description": "Emacs package to immitate narrow-to-region with more eye-candy",
+  "url": "https://github.com/Malabarba/fancy-narrow",
+  "stars": 135,
+  "updated": "2019-03-26T01:54:17Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fancy-narrow",
+    "fetcher": "github",
+    "repo": "Malabarba/fancy-narrow"
+  }
+}

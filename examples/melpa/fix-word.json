@@ -1,0 +1,18 @@
+{
+  "id": 36424988,
+  "name": "mrkkrp/fix-word",
+  "description": "Transform words in Emacs (upcase, downcase, capitalize, etc.)",
+  "url": "https://github.com/mrkkrp/fix-word",
+  "stars": 44,
+  "updated": "2026-08-02T09:38:35Z",
+  "archived": false,
+  "topics": ["capitalize", "downcase", "emacs", "region", "upcase"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fix-word",
+    "fetcher": "github",
+    "repo": "mrkkrp/fix-word"
+  }
+}

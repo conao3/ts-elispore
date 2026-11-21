@@ -1,0 +1,19 @@
+{
+  "id": 56232508,
+  "name": "emacscollective/epkg",
+  "description": "Browse the Emacsmirror package database",
+  "url": "https://github.com/emacscollective/epkg",
+  "stars": 62,
+  "updated": "2026-11-09T21:54:10Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "epkg",
+    "fetcher": "github",
+    "repo": "emacscollective/epkg",
+    "files": "(\"lisp/*.el\" \"docs/*.texi\" \".dir-locals.el\")"
+  }
+}

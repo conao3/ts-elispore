@@ -1,0 +1,18 @@
+{
+  "id": 560742,
+  "name": "rejeep/drag-stuff.el",
+  "description": "Drag stuff around in Emacs",
+  "url": "https://github.com/rejeep/drag-stuff.el",
+  "stars": 245,
+  "updated": "2017-08-16T19:19:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "drag-stuff",
+    "fetcher": "github",
+    "repo": "rejeep/drag-stuff.el"
+  }
+}

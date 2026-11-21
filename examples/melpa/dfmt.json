@@ -1,0 +1,18 @@
+{
+  "id": 63077903,
+  "name": "qsimpleq/elisp-dfmt",
+  "description": "",
+  "url": "https://github.com/qsimpleq/elisp-dfmt",
+  "stars": 2,
+  "updated": "2017-07-28T10:23:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dfmt",
+    "fetcher": "github",
+    "repo": "qsimpleq/elisp-dfmt"
+  }
+}

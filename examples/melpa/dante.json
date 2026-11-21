@@ -1,0 +1,18 @@
+{
+  "id": 71168391,
+  "name": "jyp/dante",
+  "description": "",
+  "url": "https://github.com/jyp/dante",
+  "stars": 397,
+  "updated": "2026-03-11T07:06:19Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dante",
+    "fetcher": "github",
+    "repo": "jyp/dante"
+  }
+}

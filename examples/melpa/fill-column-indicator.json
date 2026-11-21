@@ -1,0 +1,18 @@
+{
+  "id": 1704838,
+  "name": "alpaker/fill-column-indicator",
+  "description": "An Emacs minor mode that graphically indicates the fill column.",
+  "url": "https://github.com/alpaker/fill-column-indicator",
+  "stars": 210,
+  "updated": "2022-06-18T23:19:27Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fill-column-indicator",
+    "fetcher": "github",
+    "repo": "alpaker/fill-column-indicator"
+  }
+}

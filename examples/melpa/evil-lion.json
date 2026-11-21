@@ -1,0 +1,18 @@
+{
+  "id": 84434779,
+  "name": "edkolev/evil-lion",
+  "description": "Evil align operator",
+  "url": "https://github.com/edkolev/evil-lion",
+  "stars": 140,
+  "updated": "2024-11-20T13:52:01Z",
+  "archived": false,
+  "topics": ["emacs"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-lion",
+    "fetcher": "github",
+    "repo": "edkolev/evil-lion"
+  }
+}

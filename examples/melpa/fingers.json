@@ -1,0 +1,18 @@
+{
+  "id": 27025418,
+  "name": "fgeller/fingers.el",
+  "description": "Modal editing minor mode for Emacs",
+  "url": "https://github.com/fgeller/fingers.el",
+  "stars": 62,
+  "updated": "2016-08-17T08:29:47Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-keybindings", "emacs-lisp", "emacs-mode"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fingers",
+    "fetcher": "github",
+    "repo": "fgeller/fingers.el"
+  }
+}

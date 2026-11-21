@@ -1,0 +1,19 @@
+{
+  "id": 369341817,
+  "name": "alexluigit/dirvish",
+  "description": "A polished Dired with batteries included.",
+  "url": "https://github.com/alexluigit/dirvish",
+  "stars": 1153,
+  "updated": "2026-07-25T15:21:00Z",
+  "archived": false,
+  "topics": ["dired", "emacs", "file-manager"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dirvish",
+    "fetcher": "github",
+    "repo": "alexluigit/dirvish",
+    "files": "(:defaults \"extensions/*.el\")"
+  }
+}

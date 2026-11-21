@@ -1,0 +1,18 @@
+{
+  "id": 10007186,
+  "name": "vapniks/dired-dups",
+  "description": "Find duplicate files and display them in a dired buffer",
+  "url": "https://github.com/vapniks/dired-dups",
+  "stars": 4,
+  "updated": "2013-05-27T21:25:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-dups",
+    "fetcher": "github",
+    "repo": "vapniks/dired-dups"
+  }
+}

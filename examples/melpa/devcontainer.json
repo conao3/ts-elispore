@@ -1,0 +1,18 @@
+{
+  "id": 933781397,
+  "name": "johannes-mueller/devcontainer.el",
+  "description": "Rudimentary support for devcontainer in emacs",
+  "url": "https://github.com/johannes-mueller/devcontainer.el",
+  "stars": 116,
+  "updated": "2026-10-25T19:22:38Z",
+  "archived": false,
+  "topics": ["devcontainer", "emacs", "emacs-package"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "devcontainer",
+    "fetcher": "github",
+    "repo": "johannes-mueller/devcontainer.el"
+  }
+}

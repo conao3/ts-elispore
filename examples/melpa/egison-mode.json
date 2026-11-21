@@ -1,0 +1,28 @@
+{
+  "id": 8212790,
+  "name": "egison/egison",
+  "description": "The Egison Programming Language",
+  "url": "https://github.com/egison/egison",
+  "stars": 932,
+  "updated": "2026-11-21T12:54:10Z",
+  "archived": false,
+  "topics": [
+    "computer-algebra-system",
+    "differential-geometry",
+    "egison",
+    "functional-programming",
+    "hacktoberfest",
+    "pattern-matching",
+    "programming-language",
+    "tensor"
+  ],
+  "license": "MIT",
+  "language": "Haskell",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "egison-mode",
+    "fetcher": "github",
+    "repo": "egison/egison",
+    "files": "(\"emacs/*.el\")"
+  }
+}

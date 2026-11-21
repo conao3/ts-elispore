@@ -1,0 +1,18 @@
+{
+  "id": 38326823,
+  "name": "drvink/flycheck-ats2",
+  "description": "Flycheck support for the ATS2 language",
+  "url": "https://github.com/drvink/flycheck-ats2",
+  "stars": 3,
+  "updated": "2017-02-25T16:36:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-ats2",
+    "fetcher": "github",
+    "repo": "drvink/flycheck-ats2"
+  }
+}

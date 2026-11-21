@@ -1,0 +1,18 @@
+{
+  "id": 29307391,
+  "name": "nlamirault/dionysos",
+  "description": "A music player for Emacs",
+  "url": "https://github.com/nlamirault/dionysos",
+  "stars": 19,
+  "updated": "2022-01-14T14:42:24Z",
+  "archived": true,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dionysos",
+    "fetcher": "github",
+    "repo": "nlamirault/dionysos"
+  }
+}

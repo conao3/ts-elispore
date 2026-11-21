@@ -1,0 +1,19 @@
+{
+  "id": 35509388,
+  "name": "fsharp/emacs-fsharp-mode",
+  "description": "F# Emacs mode",
+  "url": "https://github.com/fsharp/emacs-fsharp-mode",
+  "stars": 216,
+  "updated": "2026-04-02T19:04:28Z",
+  "archived": false,
+  "topics": ["emacs-mode", "fsharp", "hacktoberfest"],
+  "license": "Apache-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "eglot-fsharp",
+    "fetcher": "github",
+    "repo": "fsharp/emacs-fsharp-mode",
+    "files": "(\"eglot-fsharp.el\")"
+  }
+}

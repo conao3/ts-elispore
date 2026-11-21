@@ -1,0 +1,18 @@
+{
+  "id": 469474838,
+  "name": "emacs-eask/eask-mode",
+  "description": "Major mode for editing Eask files",
+  "url": "https://github.com/emacs-eask/eask-mode",
+  "stars": 13,
+  "updated": "2026-06-18T17:28:00Z",
+  "archived": false,
+  "topics": ["eask", "emacs", "mode"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "eask-mode",
+    "fetcher": "github",
+    "repo": "emacs-eask/eask-mode"
+  }
+}

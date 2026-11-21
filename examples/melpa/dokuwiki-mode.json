@@ -1,0 +1,18 @@
+{
+  "id": 14254980,
+  "name": "kai2nenobu/emacs-dokuwiki-mode",
+  "description": "Emacs major mode for DokuWiki document",
+  "url": "https://github.com/kai2nenobu/emacs-dokuwiki-mode",
+  "stars": 15,
+  "updated": "2023-02-10T01:50:34Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dokuwiki-mode",
+    "fetcher": "github",
+    "repo": "kai2nenobu/emacs-dokuwiki-mode"
+  }
+}

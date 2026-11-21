@@ -1,0 +1,18 @@
+{
+  "id": 266907996,
+  "name": "purcell/envrc",
+  "description": "Emacs support for direnv which operates buffer-locally",
+  "url": "https://github.com/purcell/envrc",
+  "stars": 518,
+  "updated": "2026-11-02T17:36:14Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "envrc",
+    "fetcher": "github",
+    "repo": "purcell/envrc"
+  }
+}

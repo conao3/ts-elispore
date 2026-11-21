@@ -1,0 +1,19 @@
+{
+  "id": 27927343,
+  "name": "clojure-emacs/squiggly-clojure",
+  "description": "Flycheck checker for Clojure, using eastwood and core.typed.",
+  "url": "https://github.com/clojure-emacs/squiggly-clojure",
+  "stars": 203,
+  "updated": "2019-12-15T22:46:47Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-clojure",
+    "fetcher": "github",
+    "repo": "clojure-emacs/squiggly-clojure",
+    "files": "(\"elisp/flycheck-clojure/*.el\")"
+  }
+}

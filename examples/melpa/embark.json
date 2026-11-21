@@ -1,0 +1,19 @@
+{
+  "id": 264371435,
+  "name": "oantolin/embark",
+  "description": "Emacs Mini-Buffer Actions Rooted in Keymaps",
+  "url": "https://github.com/oantolin/embark",
+  "stars": 1236,
+  "updated": "2026-08-12T10:35:46Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "embark",
+    "fetcher": "github",
+    "repo": "oantolin/embark",
+    "files": "(\"embark.el\" \"embark-org.el\" \"embark.texi\")"
+  }
+}

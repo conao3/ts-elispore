@@ -1,0 +1,18 @@
+{
+  "id": 135833263,
+  "name": "dash-docs-el/dash-docs",
+  "description": "A elisp library that exposes functionality to work with and search dash docsets.",
+  "url": "https://github.com/dash-docs-el/dash-docs",
+  "stars": 78,
+  "updated": "2023-01-28T10:14:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dash-docs",
+    "fetcher": "github",
+    "repo": "dash-docs-el/dash-docs"
+  }
+}

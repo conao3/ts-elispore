@@ -1,0 +1,18 @@
+{
+  "id": 19012549,
+  "name": "7696122/evil-terminal-cursor-changer",
+  "description": ":smiling_imp: Chagning cursor by mode for evil on terminal.",
+  "url": "https://github.com/7696122/evil-terminal-cursor-changer",
+  "stars": 99,
+  "updated": "2026-10-17T11:00:49Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-terminal-cursor-changer",
+    "fetcher": "github",
+    "repo": "7696122/evil-terminal-cursor-changer"
+  }
+}

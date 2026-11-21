@@ -1,0 +1,18 @@
+{
+  "id": 112269474,
+  "name": "ninrod/evil-replace-with-char",
+  "description": ":zap: evil operator to replace chars of a text object with a char",
+  "url": "https://github.com/ninrod/evil-replace-with-char",
+  "stars": 5,
+  "updated": "2018-03-24T22:11:09Z",
+  "archived": false,
+  "topics": ["emacs", "evil", "evil-mode", "operator", "package"],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-replace-with-char",
+    "fetcher": "github",
+    "repo": "ninrod/evil-replace-with-char"
+  }
+}

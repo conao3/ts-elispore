@@ -1,0 +1,18 @@
+{
+  "id": 32221611,
+  "name": "alezost/emms-state.el",
+  "description": "Display track info in the mode line",
+  "url": "https://github.com/alezost/emms-state.el",
+  "stars": 5,
+  "updated": "2026-01-02T06:53:34Z",
+  "archived": false,
+  "topics": ["emacs", "emms"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emms-state",
+    "fetcher": "github",
+    "repo": "alezost/emms-state.el"
+  }
+}

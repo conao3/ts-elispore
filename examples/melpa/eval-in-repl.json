@@ -1,0 +1,19 @@
+{
+  "id": 18930060,
+  "name": "kaz-yos/eval-in-repl",
+  "description": "Consistent ESS-like eval interface for various REPLs",
+  "url": "https://github.com/kaz-yos/eval-in-repl",
+  "stars": 181,
+  "updated": "2023-08-05T21:25:56Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "repl"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eval-in-repl",
+    "fetcher": "github",
+    "repo": "kaz-yos/eval-in-repl",
+    "commit": "origin/master"
+  }
+}

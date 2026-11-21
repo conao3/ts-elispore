@@ -1,0 +1,18 @@
+{
+  "id": 50185419,
+  "name": "mrkkrp/fix-input",
+  "description": "Make input methods play nicely with alternative keyboard layouts on OS level",
+  "url": "https://github.com/mrkkrp/fix-input",
+  "stars": 10,
+  "updated": "2026-08-02T09:56:21Z",
+  "archived": false,
+  "topics": ["emacs", "keyboard-layout"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fix-input",
+    "fetcher": "github",
+    "repo": "mrkkrp/fix-input"
+  }
+}

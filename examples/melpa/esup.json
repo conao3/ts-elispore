@@ -1,0 +1,18 @@
+{
+  "id": 10151705,
+  "name": "jschaf/esup",
+  "description": "ESUP - Emacs Start Up Profiler",
+  "url": "https://github.com/jschaf/esup",
+  "stars": 412,
+  "updated": "2022-02-02T23:35:18Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "esup",
+    "fetcher": "github",
+    "repo": "jschaf/esup"
+  }
+}

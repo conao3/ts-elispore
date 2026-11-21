@@ -1,0 +1,19 @@
+{
+  "id": 59469487,
+  "name": "doomemacs/themes",
+  "description": "A megapack of themes for GNU Emacs.",
+  "url": "https://github.com/doomemacs/themes",
+  "stars": 2431,
+  "updated": "2026-08-26T14:13:23Z",
+  "archived": false,
+  "topics": ["colorscheme", "doomemacs", "emacs", "theme"],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "doom-themes",
+    "fetcher": "github",
+    "repo": "doomemacs/themes",
+    "files": "(:defaults \n         \"themes/*.el\"\n         \"themes/*/*.el\"\n         \"extensions/*.el\")"
+  }
+}

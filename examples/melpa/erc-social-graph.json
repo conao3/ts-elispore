@@ -1,0 +1,18 @@
+{
+  "id": 30239410,
+  "name": "vibhavp/erc-social-graph",
+  "description": "Social graphs for ERC",
+  "url": "https://github.com/vibhavp/erc-social-graph",
+  "stars": 15,
+  "updated": "2015-05-08T12:04:30Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erc-social-graph",
+    "fetcher": "github",
+    "repo": "vibhavp/erc-social-graph"
+  }
+}

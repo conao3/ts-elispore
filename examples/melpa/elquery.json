@@ -1,0 +1,18 @@
+{
+  "id": 82442161,
+  "name": "AdamNiederer/elquery",
+  "description": "Read and manipulate HTML in emacs",
+  "url": "https://github.com/AdamNiederer/elquery",
+  "stars": 49,
+  "updated": "2022-03-31T01:43:35Z",
+  "archived": false,
+  "topics": ["emacs-lisp", "html", "selectors", "web-scale"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elquery",
+    "fetcher": "github",
+    "repo": "AdamNiederer/elquery"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 352240604,
+  "name": "ShuguangSun/dired-view-data",
+  "description": "View data from dired via ess(-r)",
+  "url": "https://github.com/ShuguangSun/dired-view-data",
+  "stars": 5,
+  "updated": "2026-08-22T12:58:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-view-data",
+    "fetcher": "github",
+    "repo": "ShuguangSun/dired-view-data"
+  }
+}

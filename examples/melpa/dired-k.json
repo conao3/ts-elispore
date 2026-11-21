@@ -1,0 +1,18 @@
+{
+  "id": 18393699,
+  "name": "emacsorphanage/dired-k",
+  "description": "Highlighting dired buffer like k",
+  "url": "https://github.com/emacsorphanage/dired-k",
+  "stars": 85,
+  "updated": "2021-10-03T20:33:56Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dired-k",
+    "fetcher": "github",
+    "repo": "emacsorphanage/dired-k"
+  }
+}

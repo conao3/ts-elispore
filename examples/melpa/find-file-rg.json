@@ -1,0 +1,18 @@
+{
+  "id": 150793365,
+  "name": "muffinmad/emacs-find-file-rg",
+  "description": "Find file in current project using rg --files command",
+  "url": "https://github.com/muffinmad/emacs-find-file-rg",
+  "stars": 15,
+  "updated": "2023-06-05T16:18:30Z",
+  "archived": false,
+  "topics": ["emacs", "ripgrep"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "find-file-rg",
+    "fetcher": "github",
+    "repo": "muffinmad/emacs-find-file-rg"
+  }
+}

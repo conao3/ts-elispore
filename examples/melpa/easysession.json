@@ -1,0 +1,32 @@
+{
+  "id": 820203269,
+  "name": "jamescherti/easysession.el",
+  "description": "easysession.el: Persist and Restore Emacs sessions (buffers, windows, tab-bar, scratch, Dired, narrowing, indirect buffers/clones, Magit buffers, scratch...); a robust desktop.el replacement",
+  "url": "https://github.com/jamescherti/easysession.el",
+  "stars": 263,
+  "updated": "2026-11-10T15:13:07Z",
+  "archived": false,
+  "topics": [
+    "buffers",
+    "dired-buffers",
+    "easysession",
+    "emacs",
+    "emacs-package",
+    "frameset",
+    "indirect-buffers",
+    "session",
+    "session-handler",
+    "session-management",
+    "session-manager",
+    "tar-bar"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "easysession",
+    "fetcher": "github",
+    "repo": "jamescherti/easysession.el",
+    "files": "(:defaults \"extensions/easysession*.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 31663570,
+  "name": "abo-abo/eclipse-theme",
+  "description": "Eclipse theme for Emacs",
+  "url": "https://github.com/abo-abo/eclipse-theme",
+  "stars": 23,
+  "updated": "2019-11-13T15:19:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eclipse-theme",
+    "fetcher": "github",
+    "repo": "abo-abo/eclipse-theme"
+  }
+}

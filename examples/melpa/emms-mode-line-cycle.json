@@ -1,0 +1,18 @@
+{
+  "id": 37761167,
+  "name": "momomo5717/emms-mode-line-cycle",
+  "description": "Display the emms mode line as a ticker",
+  "url": "https://github.com/momomo5717/emms-mode-line-cycle",
+  "stars": 15,
+  "updated": "2019-06-07T09:18:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emms-mode-line-cycle",
+    "fetcher": "github",
+    "repo": "momomo5717/emms-mode-line-cycle"
+  }
+}

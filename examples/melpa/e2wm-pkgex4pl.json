@@ -1,0 +1,18 @@
+{
+  "id": 20116323,
+  "name": "aki2o/e2wm-pkgex4pl",
+  "description": "Plugin of e2wm.el for package explorer of Perl",
+  "url": "https://github.com/aki2o/e2wm-pkgex4pl",
+  "stars": 1,
+  "updated": "2014-11-22T00:21:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "e2wm-pkgex4pl",
+    "fetcher": "github",
+    "repo": "aki2o/e2wm-pkgex4pl"
+  }
+}

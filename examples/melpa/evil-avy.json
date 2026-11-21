@@ -1,0 +1,18 @@
+{
+  "id": 40867958,
+  "name": "louy2/evil-avy",
+  "description": "Evil motion with avy: choose where after which",
+  "url": "https://github.com/louy2/evil-avy",
+  "stars": 16,
+  "updated": "2021-01-10T09:33:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-avy",
+    "fetcher": "github",
+    "repo": "louy2/evil-avy"
+  }
+}

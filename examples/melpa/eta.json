@@ -1,0 +1,18 @@
+{
+  "id": 323391119,
+  "name": "hoebat/eta",
+  "description": "multi dispatch key bindings for emacs",
+  "url": "https://github.com/hoebat/eta",
+  "stars": 12,
+  "updated": "2021-01-15T17:00:31Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eta",
+    "fetcher": "github",
+    "repo": "hoebat/eta"
+  }
+}

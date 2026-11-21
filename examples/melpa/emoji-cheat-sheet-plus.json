@@ -1,0 +1,19 @@
+{
+  "id": 36130963,
+  "name": "syl20bnr/emacs-emoji-cheat-sheet-plus",
+  "description": "Browse, insert and display Emoji emoticons in Emacs :sparkling_heart:",
+  "url": "https://github.com/syl20bnr/emacs-emoji-cheat-sheet-plus",
+  "stars": 21,
+  "updated": "2020-02-02T14:18:55Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emoji-cheat-sheet-plus",
+    "fetcher": "github",
+    "repo": "syl20bnr/emacs-emoji-cheat-sheet-plus",
+    "files": "(:defaults \"emoji-cheat-sheet\")"
+  }
+}

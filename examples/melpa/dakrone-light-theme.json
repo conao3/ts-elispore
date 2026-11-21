@@ -1,0 +1,18 @@
+{
+  "id": 84499104,
+  "name": "dakrone/dakrone-light-theme",
+  "description": "Dakrone's custom light Emacs theme",
+  "url": "https://github.com/dakrone/dakrone-light-theme",
+  "stars": 13,
+  "updated": "2017-08-08T21:40:16Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-theme"],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dakrone-light-theme",
+    "fetcher": "github",
+    "repo": "dakrone/dakrone-light-theme"
+  }
+}

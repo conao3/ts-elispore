@@ -1,0 +1,18 @@
+{
+  "id": 5486123,
+  "name": "rolandwalker/express",
+  "description": " Alternatives to Emacs \"message\"",
+  "url": "https://github.com/rolandwalker/express",
+  "stars": 4,
+  "updated": "2026-02-02T11:55:33Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "express",
+    "fetcher": "github",
+    "repo": "rolandwalker/express"
+  }
+}

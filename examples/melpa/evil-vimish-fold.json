@@ -1,0 +1,18 @@
+{
+  "id": 43727293,
+  "name": "alexmurray/evil-vimish-fold",
+  "description": "",
+  "url": "https://github.com/alexmurray/evil-vimish-fold",
+  "stars": 67,
+  "updated": "2020-01-22T01:17:36Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-vimish-fold",
+    "fetcher": "github",
+    "repo": "alexmurray/evil-vimish-fold"
+  }
+}

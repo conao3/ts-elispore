@@ -1,0 +1,18 @@
+{
+  "id": 7399610,
+  "name": "smihica/emmet-mode",
+  "description": "emmet's support for emacs.",
+  "url": "https://github.com/smihica/emmet-mode",
+  "stars": 740,
+  "updated": "2024-06-28T21:36:41Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emmet-mode",
+    "fetcher": "github",
+    "repo": "smihica/emmet-mode"
+  }
+}

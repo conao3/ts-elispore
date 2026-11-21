@@ -1,0 +1,18 @@
+{
+  "id": 143355336,
+  "name": "k32/erlstack-mode",
+  "description": "Minor mode for previewing code appearing in Erlang stack traces",
+  "url": "https://github.com/k32/erlstack-mode",
+  "stars": 20,
+  "updated": "2023-06-08T09:10:00Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erlstack-mode",
+    "fetcher": "github",
+    "repo": "k32/erlstack-mode"
+  }
+}

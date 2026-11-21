@@ -1,0 +1,18 @@
+{
+  "id": 169879475,
+  "name": "danielmartin/djinni-mode",
+  "description": "Emacs major mode for Djinni files (https://github.com/dropbox/djinni)",
+  "url": "https://github.com/danielmartin/djinni-mode",
+  "stars": 0,
+  "updated": "2019-03-03T01:42:19Z",
+  "archived": false,
+  "topics": ["djinni", "emacs", "emacs-lisp"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "djinni-mode",
+    "fetcher": "github",
+    "repo": "danielmartin/djinni-mode"
+  }
+}

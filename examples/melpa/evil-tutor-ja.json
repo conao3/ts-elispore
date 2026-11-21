@@ -1,0 +1,19 @@
+{
+  "id": 68342961,
+  "name": "kenjimyzk/evil-tutor-ja",
+  "description": "",
+  "url": "https://github.com/kenjimyzk/evil-tutor-ja",
+  "stars": 6,
+  "updated": "2016-09-17T01:35:50Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-tutor-ja",
+    "fetcher": "github",
+    "repo": "kenjimyzk/evil-tutor-ja",
+    "files": "(:defaults \"tutor-ja.txt\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 14327962,
+  "name": "rafoo/dedukti-mode",
+  "description": "Emacs major mode for Dedukti files",
+  "url": "https://github.com/rafoo/dedukti-mode",
+  "stars": 1,
+  "updated": "2017-11-03T12:12:22Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dedukti-mode",
+    "fetcher": "github",
+    "repo": "rafoo/dedukti-mode"
+  }
+}

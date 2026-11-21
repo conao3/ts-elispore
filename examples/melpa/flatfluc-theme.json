@@ -1,0 +1,18 @@
+{
+  "id": 192192622,
+  "name": "seblemaguer/flatfluc-theme",
+  "description": "Custom merge of flucui and flatui themes",
+  "url": "https://github.com/seblemaguer/flatfluc-theme",
+  "stars": 1,
+  "updated": "2026-01-05T20:47:29Z",
+  "archived": false,
+  "topics": ["emacs", "theme"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flatfluc-theme",
+    "fetcher": "github",
+    "repo": "seblemaguer/flatfluc-theme"
+  }
+}

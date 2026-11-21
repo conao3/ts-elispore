@@ -1,0 +1,18 @@
+{
+  "id": 19503921,
+  "name": "hrs/engine-mode",
+  "description": "Minor mode for defining and querying search engines through Emacs.",
+  "url": "https://github.com/hrs/engine-mode",
+  "stars": 282,
+  "updated": "2024-09-25T01:22:19Z",
+  "archived": false,
+  "topics": ["emacs", "search"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "engine-mode",
+    "fetcher": "github",
+    "repo": "hrs/engine-mode"
+  }
+}

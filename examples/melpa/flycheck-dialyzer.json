@@ -1,0 +1,18 @@
+{
+  "id": 44809365,
+  "name": "lbolla/emacs-flycheck-dialyzer",
+  "description": "",
+  "url": "https://github.com/lbolla/emacs-flycheck-dialyzer",
+  "stars": 5,
+  "updated": "2016-03-26T14:30:58Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-dialyzer",
+    "fetcher": "github",
+    "repo": "lbolla/emacs-flycheck-dialyzer"
+  }
+}

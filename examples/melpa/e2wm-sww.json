@@ -1,0 +1,18 @@
+{
+  "id": 20055410,
+  "name": "aki2o/e2wm-sww",
+  "description": "Plugin of e2wm.el to switch plugin quickly",
+  "url": "https://github.com/aki2o/e2wm-sww",
+  "stars": 2,
+  "updated": "2020-08-05T13:40:32Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "e2wm-sww",
+    "fetcher": "github",
+    "repo": "aki2o/e2wm-sww"
+  }
+}

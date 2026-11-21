@@ -1,0 +1,18 @@
+{
+  "id": 145858066,
+  "name": "emacs-elsa/flycheck-elsa",
+  "description": "Flycheck integration for Elsa---Emacs lisp static analyzer",
+  "url": "https://github.com/emacs-elsa/flycheck-elsa",
+  "stars": 36,
+  "updated": "2023-02-17T16:40:41Z",
+  "archived": false,
+  "topics": ["elsa", "emacs", "flycheck", "static-analysis"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-elsa",
+    "fetcher": "github",
+    "repo": "emacs-elsa/flycheck-elsa"
+  }
+}

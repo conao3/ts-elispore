@@ -1,0 +1,19 @@
+{
+  "id": 18463747,
+  "name": "alezost/ducpel",
+  "description": "Logic game for Emacs",
+  "url": "https://github.com/alezost/ducpel",
+  "stars": 18,
+  "updated": "2026-02-04T15:38:51Z",
+  "archived": false,
+  "topics": ["emacs", "game", "logic-game", "sokoban"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ducpel",
+    "fetcher": "github",
+    "repo": "alezost/ducpel",
+    "files": "(\"*.el\" \"*.info\" \"dir\" \"levels\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 33022163,
+  "name": "maio/discover-clj-refactor.el",
+  "description": "Discover context menu for clj-refactor",
+  "url": "https://github.com/maio/discover-clj-refactor.el",
+  "stars": 4,
+  "updated": "2015-03-28T15:14:12Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "discover-clj-refactor",
+    "fetcher": "github",
+    "repo": "maio/discover-clj-refactor.el"
+  }
+}

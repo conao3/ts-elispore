@@ -1,0 +1,18 @@
+{
+  "id": 760132665,
+  "name": "s-kostyaev/elisa",
+  "description": "ELISA (Emacs Lisp Information System Assistant) is a system designed to provide informative answers to user queries by leveraging a Retrieval Augmented Generation (RAG) approach.",
+  "url": "https://github.com/s-kostyaev/elisa",
+  "stars": 191,
+  "updated": "2025-02-15T21:14:08Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elisa",
+    "fetcher": "github",
+    "repo": "s-kostyaev/elisa"
+  }
+}

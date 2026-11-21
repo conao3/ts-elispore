@@ -1,0 +1,18 @@
+{
+  "id": 15771565,
+  "name": "DamienCassou/dired-imenu",
+  "description": "Emacs mode that integrates imenu in dired so you can easily jump to any file in the current buffer",
+  "url": "https://github.com/DamienCassou/dired-imenu",
+  "stars": 12,
+  "updated": "2023-09-04T18:10:13Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-imenu",
+    "fetcher": "github",
+    "repo": "DamienCassou/dired-imenu"
+  }
+}

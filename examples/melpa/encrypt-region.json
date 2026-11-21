@@ -1,0 +1,18 @@
+{
+  "id": 417231535,
+  "name": "cgshep/encrypt-region",
+  "description": "An Emacs package for encrypting and decrypting regions.",
+  "url": "https://github.com/cgshep/encrypt-region",
+  "stars": 4,
+  "updated": "2022-08-04T09:41:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "AGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "encrypt-region",
+    "fetcher": "github",
+    "repo": "cgshep/encrypt-region"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 111696667,
+  "name": "NicolasPetton/elbank",
+  "description": "Elbank is a personal finances application for Emacs",
+  "url": "https://github.com/NicolasPetton/elbank",
+  "stars": 95,
+  "updated": "2018-06-06T10:12:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elbank",
+    "fetcher": "github",
+    "repo": "NicolasPetton/elbank"
+  }
+}

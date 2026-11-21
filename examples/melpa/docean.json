@@ -1,0 +1,18 @@
+{
+  "id": 27146948,
+  "name": "emacsorphanage/docean",
+  "description": "Interact with DigitalOcean from Emacs",
+  "url": "https://github.com/emacsorphanage/docean",
+  "stars": 8,
+  "updated": "2022-10-21T20:48:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "docean",
+    "fetcher": "github",
+    "repo": "emacsorphanage/docean"
+  }
+}

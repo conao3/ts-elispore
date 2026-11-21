@@ -1,0 +1,18 @@
+{
+  "id": 2380948,
+  "name": "cofi/evil-leader",
+  "description": "<leader> key for evil",
+  "url": "https://github.com/cofi/evil-leader",
+  "stars": 321,
+  "updated": "2016-02-20T23:59:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-leader",
+    "fetcher": "github",
+    "repo": "cofi/evil-leader"
+  }
+}

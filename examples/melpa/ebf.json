@@ -1,0 +1,18 @@
+{
+  "id": 45293552,
+  "name": "rexim/ebf",
+  "description": "Brainfuck language transpiler to Emacs Lisp",
+  "url": "https://github.com/rexim/ebf",
+  "stars": 22,
+  "updated": "2021-02-25T12:11:24Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ebf",
+    "fetcher": "github",
+    "repo": "rexim/ebf"
+  }
+}

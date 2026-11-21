@@ -1,0 +1,18 @@
+{
+  "id": 34942186,
+  "name": "xuchunyang/easy-repeat.el",
+  "description": "Repeat by last short key, e.g., C-x o o o o...",
+  "url": "https://github.com/xuchunyang/easy-repeat.el",
+  "stars": 6,
+  "updated": "2015-05-16T08:50:52Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "easy-repeat",
+    "fetcher": "github",
+    "repo": "xuchunyang/easy-repeat.el"
+  }
+}

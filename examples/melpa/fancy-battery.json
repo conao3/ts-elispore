@@ -1,0 +1,18 @@
+{
+  "id": 22385068,
+  "name": "emacsorphanage/fancy-battery",
+  "description": "Display battery in Emacs Mode line",
+  "url": "https://github.com/emacsorphanage/fancy-battery",
+  "stars": 32,
+  "updated": "2016-10-31T09:10:21Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "fancy-battery",
+    "fetcher": "github",
+    "repo": "emacsorphanage/fancy-battery"
+  }
+}

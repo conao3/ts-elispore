@@ -1,0 +1,18 @@
+{
+  "id": 97314488,
+  "name": "dut-lang/dut-mode",
+  "description": "Emacs mode for the Dut programming language",
+  "url": "https://github.com/dut-lang/dut-mode",
+  "stars": 2,
+  "updated": "2017-07-29T21:11:14Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dut-mode",
+    "fetcher": "github",
+    "repo": "dut-lang/dut-mode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 6625128,
+  "name": "h/find-file-in-repository",
+  "description": "Emacs: Quickly find files in a git, mercurial or other type of repository",
+  "url": "https://github.com/h/find-file-in-repository",
+  "stars": 54,
+  "updated": "2021-03-01T22:02:01Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "find-file-in-repository",
+    "fetcher": "github",
+    "repo": "h/find-file-in-repository"
+  }
+}

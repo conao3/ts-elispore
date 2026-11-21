@@ -1,0 +1,18 @@
+{
+  "id": 139317430,
+  "name": "DerBeutlin/filetags.el",
+  "description": "Emacs package to manage filetags in the filename",
+  "url": "https://github.com/DerBeutlin/filetags.el",
+  "stars": 24,
+  "updated": "2021-04-07T06:19:51Z",
+  "archived": false,
+  "topics": ["emacs", "files", "tagging"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "filetags",
+    "fetcher": "github",
+    "repo": "DerBeutlin/filetags.el"
+  }
+}

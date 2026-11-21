@@ -1,0 +1,18 @@
+{
+  "id": 12300779,
+  "name": "wwwjfy/emacs-fish",
+  "description": "fish-mode for emacs",
+  "url": "https://github.com/wwwjfy/emacs-fish",
+  "stars": 110,
+  "updated": "2024-01-29T12:13:51Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fish-mode",
+    "fetcher": "github",
+    "repo": "wwwjfy/emacs-fish"
+  }
+}

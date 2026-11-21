@@ -1,0 +1,18 @@
+{
+  "id": 309317610,
+  "name": "Boruch-Baum/emacs-diredc",
+  "description": "Midnight Commander features (plus) for emacs dired-mode",
+  "url": "https://github.com/Boruch-Baum/emacs-diredc",
+  "stars": 80,
+  "updated": "2026-10-30T20:21:54Z",
+  "archived": false,
+  "topics": ["dired", "dired-mode", "dual-pane", "emacs", "mc", "midnight-commander"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "diredc",
+    "fetcher": "github",
+    "repo": "Boruch-Baum/emacs-diredc"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 687131454,
+  "name": "LemonBreezes/emacs-fish-completion",
+  "description": "Fish completion for Emacs and Eshell",
+  "url": "https://github.com/LemonBreezes/emacs-fish-completion",
+  "stars": 27,
+  "updated": "2024-05-18T14:04:20Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fish-completion",
+    "fetcher": "github",
+    "repo": "LemonBreezes/emacs-fish-completion"
+  }
+}

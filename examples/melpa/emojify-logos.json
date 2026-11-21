@@ -1,0 +1,19 @@
+{
+  "id": 109201628,
+  "name": "mxgoldstein/emojify-logos",
+  "description": "This package adds logos for various programming languages and tools to emojify.el",
+  "url": "https://github.com/mxgoldstein/emojify-logos",
+  "stars": 3,
+  "updated": "2018-08-14T09:17:31Z",
+  "archived": false,
+  "topics": ["emacs", "emojify"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emojify-logos",
+    "fetcher": "github",
+    "repo": "mxgoldstein/emojify-logos",
+    "files": "(:defaults \"logos\")"
+  }
+}

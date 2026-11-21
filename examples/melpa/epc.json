@@ -1,0 +1,19 @@
+{
+  "id": 2614374,
+  "name": "kiwanami/emacs-epc",
+  "description": "A RPC stack for Emacs Lisp",
+  "url": "https://github.com/kiwanami/emacs-epc",
+  "stars": 207,
+  "updated": "2021-10-11T05:32:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "epc",
+    "fetcher": "github",
+    "repo": "kiwanami/emacs-epc",
+    "files": "(\"epc.el\" \"epcs.el\")"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 570888813,
+  "name": "thechampagne/fantom-mode",
+  "description": "Fantom mode for Emacs.",
+  "url": "https://github.com/thechampagne/fantom-mode",
+  "stars": 0,
+  "updated": "2022-12-27T01:18:42Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fantom-mode",
+    "fetcher": "github",
+    "repo": "thechampagne/fantom-mode"
+  }
+}

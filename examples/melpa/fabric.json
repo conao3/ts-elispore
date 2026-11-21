@@ -1,0 +1,18 @@
+{
+  "id": 16434776,
+  "name": "nlamirault/fabric.el",
+  "description": "Emacs mode to Fabric.",
+  "url": "https://github.com/nlamirault/fabric.el",
+  "stars": 11,
+  "updated": "2022-01-14T14:43:38Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "fabric",
+    "fetcher": "github",
+    "repo": "nlamirault/fabric.el"
+  }
+}

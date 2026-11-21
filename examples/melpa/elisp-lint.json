@@ -1,0 +1,18 @@
+{
+  "id": 9118253,
+  "name": "gonewest818/elisp-lint",
+  "description": "Basic linting for Emacs Lisp",
+  "url": "https://github.com/gonewest818/elisp-lint",
+  "stars": 73,
+  "updated": "2022-04-19T02:54:03Z",
+  "archived": false,
+  "topics": ["emacs", "emacs-lisp", "lint"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elisp-lint",
+    "fetcher": "github",
+    "repo": "gonewest818/elisp-lint"
+  }
+}

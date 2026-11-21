@@ -1,0 +1,18 @@
+{
+  "id": 28159451,
+  "name": "Sarcasm/flycheck-irony",
+  "description": "C, C++ and Objective-C support for Flycheck, using Irony Mode",
+  "url": "https://github.com/Sarcasm/flycheck-irony",
+  "stars": 57,
+  "updated": "2018-06-04T21:52:08Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-irony",
+    "fetcher": "github",
+    "repo": "Sarcasm/flycheck-irony"
+  }
+}

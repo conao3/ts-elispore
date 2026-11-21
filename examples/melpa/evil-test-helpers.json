@@ -1,0 +1,19 @@
+{
+  "id": 79443089,
+  "name": "emacs-evil/evil",
+  "description": "The extensible vi layer for Emacs.",
+  "url": "https://github.com/emacs-evil/evil",
+  "stars": 3875,
+  "updated": "2026-11-16T08:45:34Z",
+  "archived": false,
+  "topics": ["editing", "editor", "emacs", "evil", "vim"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "evil-test-helpers",
+    "fetcher": "github",
+    "repo": "emacs-evil/evil",
+    "files": "(\"evil-test-helpers.el\")"
+  }
+}

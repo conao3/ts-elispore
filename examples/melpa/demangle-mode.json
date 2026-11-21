@@ -1,0 +1,30 @@
+{
+  "id": 17003756,
+  "name": "liblit/demangle-mode",
+  "description": "Emacs minor mode that automatically demangles C++, D, and Rust symbols",
+  "url": "https://github.com/liblit/demangle-mode",
+  "stars": 23,
+  "updated": "2021-08-22T22:14:26Z",
+  "archived": false,
+  "topics": [
+    "cplusplus",
+    "cpp",
+    "cxx",
+    "d",
+    "demangle",
+    "demangle-symbols",
+    "demangler",
+    "elisp",
+    "emacs",
+    "emacs-mode",
+    "rust"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "demangle-mode",
+    "fetcher": "github",
+    "repo": "liblit/demangle-mode"
+  }
+}

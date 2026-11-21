@@ -1,0 +1,18 @@
+{
+  "id": 2012044,
+  "name": "renard/dired-toggle-sudo",
+  "description": "Browse directory with sudo privileges",
+  "url": "https://github.com/renard/dired-toggle-sudo",
+  "stars": 18,
+  "updated": "2021-12-16T01:02:04Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dired-toggle-sudo",
+    "fetcher": "github",
+    "repo": "renard/dired-toggle-sudo"
+  }
+}

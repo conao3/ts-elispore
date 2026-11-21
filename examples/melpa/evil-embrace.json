@@ -1,0 +1,18 @@
+{
+  "id": 57159597,
+  "name": "cute-jumper/evil-embrace.el",
+  "description": "Evil integration of embrace.el",
+  "url": "https://github.com/cute-jumper/evil-embrace.el",
+  "stars": 56,
+  "updated": "2023-08-20T04:45:57Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-embrace",
+    "fetcher": "github",
+    "repo": "cute-jumper/evil-embrace.el"
+  }
+}

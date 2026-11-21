@@ -1,0 +1,18 @@
+{
+  "id": 116810541,
+  "name": "emacs-jp/dmacro",
+  "description": "Repeated detection and execution of key operation",
+  "url": "https://github.com/emacs-jp/dmacro",
+  "stars": 65,
+  "updated": "2024-10-27T14:54:19Z",
+  "archived": false,
+  "topics": [],
+  "license": "NOASSERTION",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "dmacro",
+    "fetcher": "github",
+    "repo": "emacs-jp/dmacro"
+  }
+}

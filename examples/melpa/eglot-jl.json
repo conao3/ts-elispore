@@ -1,0 +1,19 @@
+{
+  "id": 217960078,
+  "name": "non-Jedi/eglot-jl",
+  "description": "Wrapper for using Julia LanguageServer.jl with emacs eglot",
+  "url": "https://github.com/non-Jedi/eglot-jl",
+  "stars": 76,
+  "updated": "2026-07-05T23:21:45Z",
+  "archived": false,
+  "topics": ["eglot", "julia", "language-server-protocol", "lsp"],
+  "license": "CC0-1.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eglot-jl",
+    "fetcher": "github",
+    "repo": "non-Jedi/eglot-jl",
+    "files": "(:defaults \"*.jl\" \"*.toml\")"
+  }
+}

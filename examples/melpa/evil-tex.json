@@ -1,0 +1,18 @@
+{
+  "id": 237614171,
+  "name": "iyefrat/evil-tex",
+  "description": "Some evil oriented additions to latex document editing in emacs",
+  "url": "https://github.com/iyefrat/evil-tex",
+  "stars": 93,
+  "updated": "2023-07-15T17:52:16Z",
+  "archived": false,
+  "topics": ["emacs", "evil-mode", "latex"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-tex",
+    "fetcher": "github",
+    "repo": "iyefrat/evil-tex"
+  }
+}

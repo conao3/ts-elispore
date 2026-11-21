@@ -1,0 +1,19 @@
+{
+  "id": 527066781,
+  "name": "tilmanrassy/emacs-dir-treeview-themes",
+  "description": "Themes for the Emacs package dir-treeview",
+  "url": "https://github.com/tilmanrassy/emacs-dir-treeview-themes",
+  "stars": 3,
+  "updated": "2023-01-12T01:34:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dir-treeview-themes",
+    "fetcher": "github",
+    "repo": "tilmanrassy/emacs-dir-treeview-themes",
+    "files": "(:defaults \"icons\")"
+  }
+}

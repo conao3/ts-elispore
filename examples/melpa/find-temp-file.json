@@ -1,0 +1,18 @@
+{
+  "id": 11711961,
+  "name": "thisirs/find-temp-file",
+  "description": "Open quickly a temporary file",
+  "url": "https://github.com/thisirs/find-temp-file",
+  "stars": 8,
+  "updated": "2026-11-17T17:08:15Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "find-temp-file",
+    "fetcher": "github",
+    "repo": "thisirs/find-temp-file"
+  }
+}

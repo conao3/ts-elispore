@@ -1,0 +1,18 @@
+{
+  "id": 56739305,
+  "name": "cute-jumper/embrace.el",
+  "description": "Add/Change/Delete pairs based on `expand-region', similar to `evil-surround'.",
+  "url": "https://github.com/cute-jumper/embrace.el",
+  "stars": 148,
+  "updated": "2024-03-29T17:32:08Z",
+  "archived": false,
+  "topics": ["emacs", "evil-surround", "expand-region"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "embrace",
+    "fetcher": "github",
+    "repo": "cute-jumper/embrace.el"
+  }
+}

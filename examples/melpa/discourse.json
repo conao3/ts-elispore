@@ -1,0 +1,18 @@
+{
+  "id": 57191144,
+  "name": "lujun9972/discourse-api",
+  "description": "discourse-api",
+  "url": "https://github.com/lujun9972/discourse-api",
+  "stars": 4,
+  "updated": "2016-09-11T08:19:48Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "discourse",
+    "fetcher": "github",
+    "repo": "lujun9972/discourse-api"
+  }
+}

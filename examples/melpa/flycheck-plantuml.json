@@ -1,0 +1,18 @@
+{
+  "id": 74438772,
+  "name": "alexmurray/flycheck-plantuml",
+  "description": "Integrate plantuml with flycheck for automatic syntax errors highlighting in Emacs",
+  "url": "https://github.com/alexmurray/flycheck-plantuml",
+  "stars": 20,
+  "updated": "2017-10-18T01:13:31Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-plantuml",
+    "fetcher": "github",
+    "repo": "alexmurray/flycheck-plantuml"
+  }
+}

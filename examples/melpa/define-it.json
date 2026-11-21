@@ -1,0 +1,18 @@
+{
+  "id": 217270244,
+  "name": "jcs-elpa/define-it",
+  "description": "Define, translate, wiki the word.",
+  "url": "https://github.com/jcs-elpa/define-it",
+  "stars": 18,
+  "updated": "2026-06-19T14:10:20Z",
+  "archived": false,
+  "topics": ["dictionary", "emacs", "translation"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "define-it",
+    "fetcher": "github",
+    "repo": "jcs-elpa/define-it"
+  }
+}

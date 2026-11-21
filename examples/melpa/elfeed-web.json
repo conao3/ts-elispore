@@ -1,0 +1,19 @@
+{
+  "id": 1226649585,
+  "name": "emacs-elfeed/elfeed-web",
+  "description": "Elfeed web application",
+  "url": "https://github.com/emacs-elfeed/elfeed-web",
+  "stars": 14,
+  "updated": "2026-08-21T12:30:15Z",
+  "archived": false,
+  "topics": ["atom", "emacs", "jsonfeed", "rss"],
+  "license": "Unlicense",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "elfeed-web",
+    "fetcher": "github",
+    "repo": "emacs-elfeed/elfeed-web",
+    "files": "(:defaults \"*.html\")"
+  }
+}

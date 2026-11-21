@@ -1,0 +1,18 @@
+{
+  "id": 118178199,
+  "name": "rollacaster/elcontext",
+  "description": "Context-based actions for Emacs",
+  "url": "https://github.com/rollacaster/elcontext",
+  "stars": 18,
+  "updated": "2021-01-09T12:40:31Z",
+  "archived": false,
+  "topics": ["context", "emacs"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elcontext",
+    "fetcher": "github",
+    "repo": "rollacaster/elcontext"
+  }
+}

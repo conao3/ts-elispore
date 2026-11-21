@@ -1,0 +1,18 @@
+{
+  "id": 765373328,
+  "name": "drghirlanda/dorgygen",
+  "description": "Source code documentation in org-mode",
+  "url": "https://github.com/drghirlanda/dorgygen",
+  "stars": 2,
+  "updated": "2026-09-06T00:00:28Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dorgygen",
+    "fetcher": "github",
+    "repo": "drghirlanda/dorgygen"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 116976967,
+  "name": "mmark-md/flycheck-mmark",
+  "description": "Flycheck checker for the MMark markdown processor",
+  "url": "https://github.com/mmark-md/flycheck-mmark",
+  "stars": 6,
+  "updated": "2026-08-02T09:52:51Z",
+  "archived": false,
+  "topics": ["emacs", "flycheck", "markdown", "mmark"],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-mmark",
+    "fetcher": "github",
+    "repo": "mmark-md/flycheck-mmark"
+  }
+}

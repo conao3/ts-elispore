@@ -1,0 +1,18 @@
+{
+  "id": 54782566,
+  "name": "lbolla/emacs-flycheck-elixir",
+  "description": "Flycheck checker for Elixir files",
+  "url": "https://github.com/lbolla/emacs-flycheck-elixir",
+  "stars": 5,
+  "updated": "2021-04-13T06:12:29Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "flycheck-elixir",
+    "fetcher": "github",
+    "repo": "lbolla/emacs-flycheck-elixir"
+  }
+}

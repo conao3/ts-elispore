@@ -1,0 +1,18 @@
+{
+  "id": 780369983,
+  "name": "sje30/essgd",
+  "description": "",
+  "url": "https://github.com/sje30/essgd",
+  "stars": 14,
+  "updated": "2024-09-29T21:07:04Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "essgd",
+    "fetcher": "github",
+    "repo": "sje30/essgd"
+  }
+}

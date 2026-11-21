@@ -1,0 +1,18 @@
+{
+  "id": 32130496,
+  "name": "justinhj/eredis",
+  "description": "An Emacs client for Redis",
+  "url": "https://github.com/justinhj/eredis",
+  "stars": 27,
+  "updated": "2019-10-04T15:45:48Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "eredis",
+    "fetcher": "github",
+    "repo": "justinhj/eredis"
+  }
+}

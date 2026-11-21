@@ -1,0 +1,18 @@
+{
+  "id": 155530294,
+  "name": "laishulu/evil-textobj-syntax",
+  "description": "This package is a port of vim-textobj-syntax for emacs. It provides evil text objects for consecutive items with same syntax highlight.",
+  "url": "https://github.com/laishulu/evil-textobj-syntax",
+  "stars": 20,
+  "updated": "2023-11-19T16:33:12Z",
+  "archived": false,
+  "topics": ["emacs", "evil", "syntax", "textobj"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "evil-textobj-syntax",
+    "fetcher": "github",
+    "repo": "laishulu/evil-textobj-syntax"
+  }
+}

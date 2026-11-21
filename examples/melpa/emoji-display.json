@@ -1,0 +1,18 @@
+{
+  "id": 1905211,
+  "name": "ikazuhiro/emoji-display",
+  "description": "",
+  "url": "https://github.com/ikazuhiro/emoji-display",
+  "stars": 7,
+  "updated": "2014-01-17T10:13:39Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "emoji-display",
+    "fetcher": "github",
+    "repo": "ikazuhiro/emoji-display"
+  }
+}

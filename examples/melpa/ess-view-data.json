@@ -1,0 +1,18 @@
+{
+  "id": 290138832,
+  "name": "ShuguangSun/ess-view-data",
+  "description": "View data support for ESS",
+  "url": "https://github.com/ShuguangSun/ess-view-data",
+  "stars": 58,
+  "updated": "2026-08-21T14:49:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ess-view-data",
+    "fetcher": "github",
+    "repo": "ShuguangSun/ess-view-data"
+  }
+}

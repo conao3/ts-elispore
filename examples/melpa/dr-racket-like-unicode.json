@@ -1,0 +1,18 @@
+{
+  "id": 71488087,
+  "name": "david-christiansen/dr-racket-like-unicode",
+  "description": "A clone of DrRacket-style Unicode symbol input for Emacs",
+  "url": "https://github.com/david-christiansen/dr-racket-like-unicode",
+  "stars": 16,
+  "updated": "2022-08-10T20:01:11Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dr-racket-like-unicode",
+    "fetcher": "github",
+    "repo": "david-christiansen/dr-racket-like-unicode"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 15119203,
+  "name": "dakrone/dakrone-theme",
+  "description": "dakrone's custom emacs color theme",
+  "url": "https://github.com/dakrone/dakrone-theme",
+  "stars": 11,
+  "updated": "2017-08-01T19:33:32Z",
+  "archived": false,
+  "topics": [],
+  "license": "LGPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dakrone-theme",
+    "fetcher": "github",
+    "repo": "dakrone/dakrone-theme"
+  }
+}

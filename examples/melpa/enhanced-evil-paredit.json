@@ -1,0 +1,18 @@
+{
+  "id": 886997593,
+  "name": "jamescherti/enhanced-evil-paredit.el",
+  "description": "Emacs: Improved Paredit support with Evil keybindings (maintained fork of evil-paredit, available on MELPA).",
+  "url": "https://github.com/jamescherti/enhanced-evil-paredit.el",
+  "stars": 32,
+  "updated": "2026-11-10T15:12:50Z",
+  "archived": false,
+  "topics": ["elisp", "emacs-package", "paredit", "parentheses-balancing", "parenthesis-checking"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "enhanced-evil-paredit",
+    "fetcher": "github",
+    "repo": "jamescherti/enhanced-evil-paredit.el"
+  }
+}

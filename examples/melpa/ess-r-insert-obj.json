@@ -1,0 +1,18 @@
+{
+  "id": 293200188,
+  "name": "ShuguangSun/ess-r-insert-obj",
+  "description": "Insert variable (column) names or values in ESS-R",
+  "url": "https://github.com/ShuguangSun/ess-r-insert-obj",
+  "stars": 2,
+  "updated": "2022-06-10T14:08:23Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ess-r-insert-obj",
+    "fetcher": "github",
+    "repo": "ShuguangSun/ess-r-insert-obj"
+  }
+}

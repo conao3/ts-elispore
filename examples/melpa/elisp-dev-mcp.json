@@ -1,0 +1,18 @@
+{
+  "id": 975509055,
+  "name": "laurynas-biveinis/elisp-dev-mcp",
+  "description": "Dev tools in Emacs MCP for agentic Elisp development with LLMs",
+  "url": "https://github.com/laurynas-biveinis/elisp-dev-mcp",
+  "stars": 49,
+  "updated": "2026-08-25T08:19:03Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "elisp-dev-mcp",
+    "fetcher": "github",
+    "repo": "laurynas-biveinis/elisp-dev-mcp"
+  }
+}

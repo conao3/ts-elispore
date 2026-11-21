@@ -1,0 +1,18 @@
+{
+  "id": 284798928,
+  "name": "zellerin/dynamic-graphs",
+  "description": "",
+  "url": "https://github.com/zellerin/dynamic-graphs",
+  "stars": 15,
+  "updated": "2026-09-05T16:26:24Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dynamic-graphs",
+    "fetcher": "github",
+    "repo": "zellerin/dynamic-graphs"
+  }
+}

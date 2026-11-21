@@ -1,0 +1,19 @@
+{
+  "id": 34830241,
+  "name": "ronco/ember-yasnippets.el",
+  "description": "yasnippets for embacs (ember emacs)",
+  "url": "https://github.com/ronco/ember-yasnippets.el",
+  "stars": 5,
+  "updated": "2016-05-26T16:58:45Z",
+  "archived": false,
+  "topics": [],
+  "license": "MIT",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "ember-yasnippets",
+    "fetcher": "github",
+    "repo": "ronco/ember-yasnippets.el",
+    "files": "(:defaults \"snippets\")"
+  }
+}

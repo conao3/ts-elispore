@@ -1,0 +1,18 @@
+{
+  "id": 329593964,
+  "name": "ShuguangSun/find-dupes-dired",
+  "description": "Find dupes and handle them in dired-mode.",
+  "url": "https://github.com/ShuguangSun/find-dupes-dired",
+  "stars": 5,
+  "updated": "2021-06-03T13:58:58Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-2.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "find-dupes-dired",
+    "fetcher": "github",
+    "repo": "ShuguangSun/find-dupes-dired"
+  }
+}

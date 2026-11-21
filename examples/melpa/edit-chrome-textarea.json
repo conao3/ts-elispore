@@ -1,0 +1,18 @@
+{
+  "id": 248460288,
+  "name": "xuchunyang/edit-chrome-textarea.el",
+  "description": "Edit Chrome Textarea with Emacs",
+  "url": "https://github.com/xuchunyang/edit-chrome-textarea.el",
+  "stars": 6,
+  "updated": "2020-04-08T06:37:39Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "edit-chrome-textarea",
+    "fetcher": "github",
+    "repo": "xuchunyang/edit-chrome-textarea.el"
+  }
+}

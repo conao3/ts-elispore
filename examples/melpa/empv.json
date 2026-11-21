@@ -1,0 +1,19 @@
+{
+  "id": 358057689,
+  "name": "isamert/empv.el",
+  "description": "An Emacs media player, media library manager, radio player, YouTube frontend, Subsonic client",
+  "url": "https://github.com/isamert/empv.el",
+  "stars": 168,
+  "updated": "2026-11-18T16:09:15Z",
+  "archived": false,
+  "topics": ["emacs", "multimedia", "music", "navidrome", "radio", "subsonic", "youtube"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "empv",
+    "fetcher": "github",
+    "repo": "isamert/empv.el",
+    "files": "(:defaults (\"ivjs\" \"ivjs/main.ts\"))"
+  }
+}

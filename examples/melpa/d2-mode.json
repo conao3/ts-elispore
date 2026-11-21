@@ -1,0 +1,18 @@
+{
+  "id": 569310980,
+  "name": "andorsk/d2-mode",
+  "description": "emacs major mode for d2 graphs",
+  "url": "https://github.com/andorsk/d2-mode",
+  "stars": 99,
+  "updated": "2024-12-09T21:56:55Z",
+  "archived": false,
+  "topics": ["d2", "elisp", "emacs", "graph", "processes", "tools"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "d2-mode",
+    "fetcher": "github",
+    "repo": "andorsk/d2-mode"
+  }
+}

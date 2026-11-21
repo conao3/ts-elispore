@@ -1,0 +1,18 @@
+{
+  "id": 56386434,
+  "name": "vibhavp/erc-twitch",
+  "description": "Support for Twitch emotes on ERC",
+  "url": "https://github.com/vibhavp/erc-twitch",
+  "stars": 12,
+  "updated": "2017-04-27T06:12:30Z",
+  "archived": false,
+  "topics": [],
+  "license": null,
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "erc-twitch",
+    "fetcher": "github",
+    "repo": "vibhavp/erc-twitch"
+  }
+}

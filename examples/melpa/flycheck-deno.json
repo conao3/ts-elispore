@@ -1,0 +1,18 @@
+{
+  "id": 581224870,
+  "name": "flycheck/flycheck-deno",
+  "description": "Flycheck for deno-lint",
+  "url": "https://github.com/flycheck/flycheck-deno",
+  "stars": 9,
+  "updated": "2026-06-19T13:51:10Z",
+  "archived": false,
+  "topics": ["deno", "emacs", "flycheck", "lint"],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "Organization",
+  "melpa": {
+    "name": "flycheck-deno",
+    "fetcher": "github",
+    "repo": "flycheck/flycheck-deno"
+  }
+}

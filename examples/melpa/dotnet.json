@@ -1,0 +1,29 @@
+{
+  "id": 99592623,
+  "name": "julienXX/dotnet.el",
+  "description": "dotnet CLI minor mode for Emacs",
+  "url": "https://github.com/julienXX/dotnet.el",
+  "stars": 32,
+  "updated": "2020-08-03T10:32:51Z",
+  "archived": false,
+  "topics": [
+    "csharp",
+    "dotnet",
+    "dotnet-cli",
+    "dotnet-core",
+    "dotnet-sln",
+    "dotnetcore",
+    "emacs",
+    "emacs-lisp",
+    "fsharp",
+    "minor-mode"
+  ],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "dotnet",
+    "fetcher": "github",
+    "repo": "julienXX/dotnet.el"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 72140076,
+  "name": "olymk2/emacs-drone",
+  "description": "Lisp program to run drone test suite",
+  "url": "https://github.com/olymk2/emacs-drone",
+  "stars": 1,
+  "updated": "2017-07-03T21:03:40Z",
+  "archived": false,
+  "topics": [],
+  "license": "GPL-3.0",
+  "language": "Emacs Lisp",
+  "ownerType": "User",
+  "melpa": {
+    "name": "drone",
+    "fetcher": "github",
+    "repo": "olymk2/emacs-drone"
+  }
+}
