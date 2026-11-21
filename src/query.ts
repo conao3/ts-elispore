@@ -1,4 +1,4 @@
-import type { Entry } from "./catalog"
+import { packageNameSchema, type Entry, type Source } from "./catalog"
 import { normalizeTopic } from "./topics"
 
 export type Filter = { raw: string; key: string | null; value: string; exclude: boolean }
@@ -12,6 +12,7 @@ const supported = new Set([
   "pushed",
   "stars",
   "language",
+  "source",
 ])
 export function tokenize(value: string): string[] {
   const tokens: string[] = []
@@ -37,7 +38,7 @@ export function parseQuery(value: string): Filter[] {
       tokenValue = match[3].replace(/^"|"$/g, "").toLowerCase()
     if (!supported.has(key))
       throw new Error(
-        `Unsupported filter: ${key}. Use user, org, repo, topic, license, archived, pushed, stars, or language.`,
+        `Unsupported filter: ${key}. Use user, org, repo, topic, license, archived, pushed, stars, language, or source.`,
       )
     if (key === "archived" && !["true", "false"].includes(tokenValue))
       throw new Error("Use archived:true or archived:false.")
@@ -51,18 +52,25 @@ export function parseQuery(value: string): Filter[] {
     return { raw, key, value: tokenValue, exclude: match[1] === "-" }
   })
 }
-export function setQualifier(query: string, key: string, value: string, append = false): string {
+export function setQualifier(
+  query: string,
+  key: string,
+  value: string,
+  append = false,
+  exclude = false,
+): string {
   let tokens = tokenize(query)
   if (!append)
     tokens = tokens.filter((token) => /^-?([a-z]+):/i.exec(token)?.[1].toLowerCase() !== key)
   if (value) {
-    const token = `${key}:${/\s/.test(value) ? JSON.stringify(value) : value}`
+    const token = `${exclude ? "-" : ""}${key}:${/\s/.test(value) ? JSON.stringify(value) : value}`
     if (!tokens.some((existing) => existing.toLowerCase() === token.toLowerCase()))
       tokens.push(token)
   }
   return tokens.join(" ")
 }
-function compare(value: string | number, condition: string): boolean {
+function compare(value: string | number | undefined, condition: string): boolean {
+  if (value === undefined || value === "") return false
   if (condition.includes("..")) {
     const [lo, hi] = condition.split("..")
     return typeof value === "number"
@@ -94,12 +102,13 @@ function compare(value: string | number, condition: string): boolean {
           : left === target
 }
 export function matches(entry: Entry, filters: Filter[]): boolean {
-  const [owner] = entry.name.split("/")
+  const [owner, repository] = entry.name.toLowerCase().split("/")
   const haystack = [
     entry.name,
     entry.description,
     ...entry.topics,
     ...(entry.melpaRecipes?.map((recipe) => recipe.name) ?? []),
+    ...(entry.archives?.map((pkg) => pkg.name) ?? []),
   ]
     .join(" ")
     .toLowerCase()
@@ -108,11 +117,13 @@ export function matches(entry: Entry, filters: Filter[]): boolean {
       case null:
         return haystack.includes(filter.value)
       case "user":
-        return owner.toLowerCase() === filter.value
+        return Boolean(repository) && owner === filter.value
       case "org":
-        return entry.ownerType === "Organization" && owner.toLowerCase() === filter.value
+        return Boolean(repository) && entry.ownerType === "Organization" && owner === filter.value
       case "repo":
-        return entry.name.toLowerCase() === filter.value
+        return Boolean(repository) && entry.name.toLowerCase() === filter.value
+      case "source":
+        return entry.sources?.some((source) => source === filter.value) ?? false
       case "topic":
         return entry.topics.some((topic) => normalizeTopic(topic) === normalizeTopic(filter.value))
       case "license": {
@@ -126,7 +137,7 @@ export function matches(entry: Entry, filters: Filter[]): boolean {
       case "archived":
         return entry.archived === (filter.value === "true")
       case "pushed":
-        return compare(entry.updated.slice(0, 10), filter.value)
+        return compare(entry.updated?.slice(0, 10), filter.value)
       case "stars":
         return compare(entry.stars, filter.value)
       case "language":
@@ -139,13 +150,44 @@ export function matches(entry: Entry, filters: Filter[]): boolean {
     (filter) => ["user", "org"].includes(filter.key ?? "") && !filter.exclude,
   )
   const licenses = filters.filter((filter) => filter.key === "license" && !filter.exclude)
+  const sources = filters.filter((filter) => filter.key === "source" && !filter.exclude)
   return (
     (!owners.length || owners.some(match)) &&
     (!licenses.length || licenses.some(match)) &&
+    (!sources.length || sources.some(match)) &&
     filters
-      .filter((filter) => !owners.includes(filter) && !licenses.includes(filter))
+      .filter(
+        (filter) =>
+          !owners.includes(filter) && !licenses.includes(filter) && !sources.includes(filter),
+      )
       .every((filter) => (filter.exclude ? !match(filter) : match(filter)))
   )
+}
+
+export function checkPrefix(entries: Entry[], filters: Filter[]) {
+  const terms = filters.filter(({ key, exclude, value }) => key === null && !exclude && value)
+  if (terms.length !== 1) return
+  const prefix = terms[0].value.replace(/-+$/, "")
+  if (!packageNameSchema.safeParse(prefix).success) return
+  const found = new Map<string, Set<Source>>()
+  function add(name: string, source: Source) {
+    name = name.toLowerCase()
+    if (name !== prefix && !name.startsWith(prefix + "-")) return
+    const sources = found.get(name) ?? new Set<Source>()
+    sources.add(source)
+    found.set(name, sources)
+  }
+  for (const entry of entries) {
+    for (const pkg of entry.archives ?? []) add(pkg.name, pkg.source)
+    if (entry.sources?.includes("github"))
+      add(entry.name.split("/").at(-1)!.replace(/\.el$/, ""), "github")
+  }
+  return {
+    prefix,
+    packages: Array.from(found, ([name, sources]) => ({ name, sources: [...sources] })).sort(
+      (a, b) => a.name.localeCompare(b.name, "en"),
+    ),
+  }
 }
 export function searchEntries(entries: Entry[], query: string, sort: string): Entry[] {
   const filters = parseQuery(query)
@@ -153,9 +195,11 @@ export function searchEntries(entries: Entry[], query: string, sort: string): En
     .filter((entry) => matches(entry, filters))
     .sort((a, b) =>
       sort === "stars"
-        ? b.stars - a.stars || a.name.localeCompare(b.name)
+        ? Number(a.stars === undefined) - Number(b.stars === undefined) ||
+          (b.stars ?? 0) - (a.stars ?? 0) ||
+          a.name.localeCompare(b.name)
         : sort === "updated"
-          ? b.updated.localeCompare(a.updated) || a.name.localeCompare(b.name)
+          ? (b.updated ?? "").localeCompare(a.updated ?? "") || a.name.localeCompare(b.name)
           : a.name.localeCompare(b.name),
     )
 }

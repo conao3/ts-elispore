@@ -575,6 +575,27 @@ kbd {
   background: var(--subtle);
   color: var(--accent);
 }
+.prefix-status {
+  margin: 0 0 1rem;
+  font-size: 0.875rem;
+}
+.method-switch {
+  align-self: flex-start;
+  width: fit-content;
+  margin-bottom: 0.5rem;
+}
+.method-switch button {
+  color: var(--muted);
+}
+.method-switch button[data-selected] {
+  background: var(--subtle);
+  color: var(--ink);
+}
+.code-block pre[aria-disabled="true"] {
+  opacity: 0.65;
+  user-select: none;
+  white-space: pre-wrap;
+}
 .code-block {
   border-radius: 8px;
   background: var(--code);
@@ -588,17 +609,21 @@ kbd {
   gap: 8px;
   padding: 10px 10px 0;
 }
-.snippet-switch {
+.snippet-switch,
+.method-switch {
   display: flex;
   border: 1px solid #ffffff26;
   border-radius: 5px;
   padding: 2px;
 }
-.snippet-switch button {
+.snippet-switch button,
+.method-switch button {
   font-size: 10px;
   line-height: 1.6;
   border-radius: 3px;
   padding: 2px 7px;
+}
+.snippet-switch button {
   color: #b7b0a8;
 }
 .snippet-switch button[data-selected] {
@@ -614,8 +639,11 @@ kbd {
   padding: 5px 6px;
   border-radius: 4px;
 }
-.copy:hover {
+.copy:hover:not(:disabled) {
   background: #ffffff16;
+}
+.copy:disabled {
+  opacity: 0.55;
 }
 pre {
   margin: 0;

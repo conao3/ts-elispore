@@ -48,19 +48,12 @@ export function About() {
           location of its Emacs Lisp files; run the{" "}
           <Link href={`${repository}#development`}>development checks</Link> before submitting.
         </p>
-        <h2>Existing MELPA recipes</h2>
+        <h2>Package archives</h2>
         <p>
-          The build also merges checked-in JSON snapshots from{" "}
-          <Link href={`${repository}/tree/master/examples/melpa`}>examples/melpa/</Link>,
-          deduplicated by GitHub repository ID. These are not refreshed daily. To update this part,
-          convert GitHub-backed MELPA recipes with <code>scripts/melpa.ts</code>, review the
-          generated <code>&lt;recipe-name&gt;.json</code> files, and submit a pull request with the
-          staged entries. Follow the{" "}
-          <Link href={`${repository}#converting-melpa-recipes`}>
-            conversion commands and pinned MELPA revision
-          </Link>
-          . The build’s <code>scripts/catalog-import.ts</code> validates and merges them; non-GitHub
-          sources are not supported.
+          Elispore refreshes <Link href="https://melpa.org/">MELPA</Link>,{" "}
+          <Link href="https://elpa.gnu.org/packages/">GNU ELPA</Link>, and{" "}
+          <Link href="https://elpa.nongnu.org/nongnu/">NonGNU ELPA</Link> daily. Packages can be
+          listed in more than one archive, regardless of where they are hosted.
         </p>
       </section>
       <section aria-labelledby="why-elispore">
@@ -85,9 +78,9 @@ export function About() {
           taken.
         </p>
         <p>
-          Elispore does not build packages. Its primary install path downloads the source directly
-          from GitHub with package.el (<code>package-vc</code>, via leaf or use-package{" "}
-          <code>:vc</code>) and compiles it locally.
+          Elispore does not build packages. Install from a Git repository with package.el (
+          <code>package-vc</code>, via leaf or use-package <code>:vc</code>), or use{" "}
+          <code>:ensure t</code> for packages in GNU ELPA or NonGNU ELPA.
         </p>
       </section>
     </main>

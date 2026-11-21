@@ -23,13 +23,13 @@
 
 # Elispore
 
-[elispore.conao3.com](https://elispore.conao3.com) finds Emacs packages and libraries hosted on GitHub.
+[elispore.conao3.com](https://elispore.conao3.com) searches MELPA, GNU ELPA, NonGNU ELPA, and GitHub for Emacs package names.
 
 [Add recipe / Why Elispore](https://elispore.conao3.com/about/) explains catalog inclusion and why the site was built.
 
 ## Search
 
-Search repository metadata and MELPA package names, or use qualifiers like `user:minad`, `topic:completion`, `license:gpl-3.0`, `pushed:>=2026-01-01`, `stars:>=1000`, and `language:"Emacs Lisp"`. Sidebar selections appear directly in the query.
+Search package names and repository metadata, or use qualifiers like `source:gnu-elpa`, `user:minad`, `topic:completion`, `license:gpl-3.0`, `pushed:>=2026-01-01`, `stars:>=1000`, and `language:"Emacs Lisp"`. Sidebar selections appear directly in the query. Enter one name to check exact names and hyphen-prefixed names across the whole catalog, independently of result filters. “Free in this catalog” is not a guarantee outside the indexed sources.
 
 Click an owner to add a user filter, or a topic in an expanded row to add a topic filter. Select an `owner/repo` label to copy it without spaces. Rows expand in place and keep their geometry, and multiple rows can stay open for comparison.
 
@@ -37,7 +37,7 @@ Categories show the ten most frequent informative catalog topics, plus any selec
 
 ## Installation examples
 
-Installation examples default to leaf. Buttons at the top right of each code block switch between leaf and use-package, and Copy copies the displayed snippet. Both use `:vc` with the upstream GitHub URL. For MELPA repositories, the example uses the recipe matching the search (or the first recipe), preserves its branch, and omits the Lisp directory when the layout is unclear. Leaf requires `:vc` support and Emacs 29+, and use-package `:vc` is included in Emacs 30+.
+Installation examples default to leaf. Switch to use-package from the code block toolbar. Git recipes use `:vc` with the upstream repository regardless of host; the example preserves the matching MELPA recipe’s branch and omits the Lisp directory if it was not verified. When no Git URL is available, the block explains why and copying is disabled. For GNU ELPA and NonGNU ELPA, switch to the ELPA example to use `:ensure t` with the configured archive. Leaf requires `:vc` support and Emacs 29+, and use-package `:vc` is included in Emacs 30+.
 
 ## Development
 
@@ -80,12 +80,13 @@ Keep copy sparse; avoid promotional heroes, eyebrow labels and routine active-st
 
 Search uses 100 results per page and excludes forks. IDs are deduplicated; batched GraphQL tree checks require an `.el` file at the root or directly inside `lisp/`. Exclusions remove flagged forks, `mirror`/`style-guide`/`styleguide` topics, common configuration distributions, `awesome-*` lists and repositories named `emacs` or `remacs`. This is a bounded discovery heuristic, not an installation guarantee; upstream documentation determines compatibility.
 
-GitHub Actions refreshes the discovery snapshot daily, validates and builds the site, deploys the
-catalog with the Worker, and commits the refreshed discovery snapshot. GitHub credentials stay in
-the updater environment.
+GitHub Actions refreshes discovery and the three official archives daily, validates and builds the
+site, deploys it with the Worker, and commits both snapshots. Archive refresh needs no credentials:
+it reads MELPA's public recipes and release JSON and GNU ELPA and NonGNU ELPA's `archive-contents`.
+Only GitHub discovery uses GitHub CLI credentials.
 
-The development server and production build combine that snapshot with the checked-in MELPA
-entries in `examples/melpa/`. The browser fetches the combined `/catalog.json`; the build writes
+The development server and production build combine those snapshots with supplemental GitHub-backed
+MELPA metadata in `examples/melpa/`. The browser fetches the combined `/catalog.json`; the build writes
 it to `dist/catalog.json` without changing the discovery snapshot. The merge needs no network or
 GitHub credentials and can also be run directly:
 
@@ -94,11 +95,17 @@ nix develop --command node scripts/catalog-import.ts /path/to/catalog.json
 ```
 
 Each GitHub repository ID appears once. GitHub discovery supplies repository metadata when a
-repository is in both inputs. For MELPA-only repositories, the first staged recipe by name
-supplies the metadata. The combined entry preserves every associated recipe in `melpaRecipes`,
-including package names, upstreams, branches, commits and explicit file lists. The build adds
-verified Lisp directories from `examples/melpa-lisp-dirs.json`. The displayed
-refresh date is for GitHub discovery; MELPA-only metadata comes from the staged snapshots.
+repository is in both inputs. Identically named packages in multiple archives share one entry and
+retain their source memberships and versions. The combined entry preserves associated MELPA
+recipes, and uses verified Lisp directories from `examples/melpa-lisp-dirs.json` when the recipe
+still matches the staged version.
+
+To refresh just the public archive snapshot (`examples/package-archives.jsonl.gz`, generated
+from public metadata and readable with `gzip -dc`):
+
+```sh
+nix develop --command node scripts/package-archives.ts
+```
 
 When replacing the staged recipes, regenerate the Lisp directory snapshot with authenticated
 GitHub CLI access, then commit it with the recipes:
@@ -136,13 +143,13 @@ errors stop the run at the named recipe with a nonzero exit code.
 
 - `github` recipes and generic `git` recipes with a GitHub remote use GitHub's repository ID,
   canonical name, URL and other catalog metadata. GitLab, Codeberg, SourceHut, Mercurial and other
-  non-GitHub sources are skipped because the catalog only supports GitHub repositories.
+  non-GitHub sources do not need this GitHub enrichment; the public MELPA snapshot includes them.
 - The extra `melpa` object keeps the package name, fetcher, upstream, optional branch or commit,
   and the original `:files` list. A missing list means MELPA defaults; explicit lists are not
   expanded or evaluated, and branch/commit selections do not change GitHub repository metadata.
-- These are staging entries. To update the MELPA portion of the published catalog, review the
-  new entries and replace the tree in `examples/melpa/` before building. The regular catalog
-  refresh does not change these files or its GitHub discovery rules.
+- These are optional enrichment entries. To update them, review the generated data and replace
+  the tree in `examples/melpa/` before rebuilding. The regular catalog refresh updates archive
+  membership independently of these files.
 
 ## Deployment
 

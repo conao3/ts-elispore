@@ -34,14 +34,14 @@ import {
   ToggleButton,
   ToggleButtonGroup,
 } from "react-aria-components"
-import { catalogSchema } from "./catalog"
+import { catalogSchema, sourceLabels, sourceSchema } from "./catalog"
 import type { Entry } from "./catalog"
 import { deriveCategories } from "./categories"
 import { normalizeTopic } from "./topics"
-import { parseQuery, searchEntries, setQualifier } from "./query"
+import { checkPrefix, parseQuery, searchEntries, setQualifier } from "./query"
 import type { Filter } from "./query"
-import { installationSnippet } from "./snippet"
-import type { SnippetFormat } from "./snippet"
+import { installationExample } from "./snippet"
+import type { SnippetFormat, SnippetMethod } from "./snippet"
 import { relativeTime, tokenizeSnippet } from "./presentation"
 import "./style.css"
 import { About } from "./about"
@@ -80,8 +80,11 @@ function PackageRow({
   onTopic: (topic: string) => void
 }) {
   const [owner, name] = entry.name.split("/")
+  const github = new URL(entry.url).hostname === "github.com" && Boolean(name)
+  const stars = entry.stars?.toLocaleString("en")
   const [format, setFormat] = useState<SnippetFormat>("leaf")
-  const code = installationSnippet(entry, format, filters)
+  const [method, setMethod] = useState<SnippetMethod>("vc")
+  const { code, note, hasArchive } = installationExample(entry, format, filters, method)
   const copyVersion = useRef(0)
   function selectFormat(next: SnippetFormat) {
     copyVersion.current++
@@ -90,8 +93,9 @@ function PackageRow({
   }
   const pre = useRef<HTMLPreElement>(null)
   const [copiedCode, setCopiedCode] = useState<string | null>(null)
-  const copied = copiedCode === code
+  const copied = code !== null && copiedCode === code
   async function copy() {
+    if (code === null) return
     const version = ++copyVersion.current
     try {
       await navigator.clipboard.writeText(code)
@@ -120,39 +124,49 @@ function PackageRow({
             onOpen(!opened)
         }}
       >
-        <Link
-          className="tile avatar-link"
-          href={`https://github.com/${owner}`}
-          target="_blank"
-          rel="noopener"
-          aria-label={`${owner} on GitHub`}
-          onClick={(event) => event.stopPropagation()}
-        >
-          <img
-            src={`https://github.com/${owner}.png?size=80`}
-            alt=""
-            width={36}
-            height={36}
-            loading="lazy"
-            referrerPolicy="no-referrer"
-          />
-        </Link>
+        {github ? (
+          <Link
+            className="tile avatar-link"
+            href={`https://github.com/${owner}`}
+            target="_blank"
+            rel="noopener"
+            aria-label={`${owner} on GitHub`}
+            onClick={(event) => event.stopPropagation()}
+          >
+            <img
+              src={`https://github.com/${owner}.png?size=80`}
+              alt=""
+              width={36}
+              height={36}
+              loading="lazy"
+              referrerPolicy="no-referrer"
+            />
+          </Link>
+        ) : (
+          <span className="tile" aria-hidden="true">
+            <BookOpen size={18} />
+          </span>
+        )}
         <span className="identity">
           <strong className="repo-name">
-            <Button
-              type="button"
-              className="repo-owner"
-              data-owner={owner}
-              aria-label={`Add user:${owner} to the search query`}
-              onPress={() => {
-                if (!getSelection()?.toString()) onOwner(owner)
-              }}
-            >
-              {owner}
-            </Button>
-            <span className="repo-slash">/</span>
+            {github && (
+              <>
+                <Button
+                  type="button"
+                  className="repo-owner"
+                  data-owner={owner}
+                  aria-label={`Add user:${owner} to the search query`}
+                  onPress={() => {
+                    if (!getSelection()?.toString()) onOwner(owner)
+                  }}
+                >
+                  {owner}
+                </Button>
+                <span className="repo-slash">/</span>
+              </>
+            )}
             <Button slot="trigger" className="repo-trigger" aria-label={`${entry.name} details`}>
-              {name}
+              {github ? name : entry.name}
             </Button>
           </strong>
           {entry.description && (
@@ -163,10 +177,10 @@ function PackageRow({
         </span>
         <span className="stars">
           <Star size={14} aria-hidden="true" />
-          {entry.stars.toLocaleString("en")}
+          {stars ?? "—"}
         </span>
         <time dateTime={entry.updated} title={entry.updated}>
-          {relativeTime(entry.updated)}
+          {entry.updated ? relativeTime(entry.updated) : "—"}
         </time>
         <ChevronDown className="chevron" size={16} aria-hidden="true" />
       </div>
@@ -180,16 +194,24 @@ function PackageRow({
               {entry.license && entry.license !== "NOASSERTION" ? entry.license : "See repository"}
             </dd>
             <dt>Stars</dt>
-            <dd>{entry.stars.toLocaleString("en")}</dd>
+            <dd>{stars ?? "Not available"}</dd>
             <dt>Last push</dt>
             <dd>
-              {new Date(entry.updated).toLocaleDateString("en", {
-                year: "numeric",
-                month: "short",
-                day: "numeric",
-                timeZone: "UTC",
-              })}
+              {entry.updated
+                ? new Date(entry.updated).toLocaleDateString("en", {
+                    year: "numeric",
+                    month: "short",
+                    day: "numeric",
+                    timeZone: "UTC",
+                  })
+                : "Not available"}
             </dd>
+            {entry.sources?.length ? (
+              <>
+                <dt>Sources</dt>
+                <dd>{entry.sources.map((source) => sourceLabels[source]).join(", ")}</dd>
+              </>
+            ) : null}
             {entry.topics.length > 0 && (
               <>
                 <dt>Topics</dt>
@@ -217,18 +239,44 @@ function PackageRow({
           </dl>
           <div className="links">
             <Link href={entry.url} target="_blank" rel="noopener">
-              <Github size={14} aria-hidden="true" />
-              GitHub
+              {github ? (
+                <Github size={14} aria-hidden="true" />
+              ) : (
+                <BookOpen size={14} aria-hidden="true" />
+              )}
+              {github ? "GitHub" : "Upstream"}
               <ExternalLink size={11} aria-hidden="true" />
             </Link>
-            <Link href={`${entry.url}#readme`} target="_blank" rel="noopener">
-              <BookOpen size={14} aria-hidden="true" />
-              README
-              <ExternalLink size={11} aria-hidden="true" />
-            </Link>
+            {github && (
+              <Link href={`${entry.url}#readme`} target="_blank" rel="noopener">
+                <BookOpen size={14} aria-hidden="true" />
+                README
+                <ExternalLink size={11} aria-hidden="true" />
+              </Link>
+            )}
           </div>
         </div>
         <div className="installation">
+          {hasArchive && (
+            <ToggleButtonGroup
+              className="method-switch"
+              selectionMode="single"
+              disallowEmptySelection
+              selectedKeys={[method]}
+              onSelectionChange={(keys) => {
+                const selected = [...keys][0]
+                if (selected === "archive" || selected === "vc") {
+                  copyVersion.current++
+                  setCopiedCode(null)
+                  setMethod(selected)
+                }
+              }}
+              aria-label="Installation method"
+            >
+              <ToggleButton id="vc">Git (:vc)</ToggleButton>
+              <ToggleButton id="archive">ELPA (:ensure)</ToggleButton>
+            </ToggleButtonGroup>
+          )}
           <div className="code-block">
             <div className="code-toolbar">
               <ToggleButtonGroup
@@ -248,7 +296,12 @@ function PackageRow({
                   </ToggleButton>
                 ))}
               </ToggleButtonGroup>
-              <Button className="copy" type="button" onPress={() => void copy()}>
+              <Button
+                className="copy"
+                type="button"
+                isDisabled={code === null}
+                onPress={() => void copy()}
+              >
                 {copied ? (
                   <Check size={13} aria-hidden="true" />
                 ) : (
@@ -257,13 +310,21 @@ function PackageRow({
                 {copied ? "Copied" : "Copy"}
               </Button>
             </div>
-            <pre ref={pre} tabIndex={0}>
+            <pre
+              ref={pre}
+              tabIndex={code === null ? undefined : 0}
+              role="group"
+              aria-label="Installation code"
+              aria-disabled={code === null || undefined}
+            >
               <code>
-                {tokenizeSnippet(code).map((token, i) => (
-                  <span key={i} className={`syntax-${token.kind}`}>
-                    {token.text}
-                  </span>
-                ))}
+                {code === null
+                  ? note
+                  : tokenizeSnippet(code).map((token, i) => (
+                      <span key={i} className={`syntax-${token.kind}`}>
+                        {token.text}
+                      </span>
+                    ))}
               </code>
             </pre>
           </div>
@@ -274,9 +335,11 @@ function PackageRow({
             </Button>
             <DisclosurePanel>
               <p className="code-note">
-                {format === "leaf"
-                  ? "Requires leaf with :vc support and Emacs 29+."
-                  : "Requires use-package with :vc support (included in Emacs 30+)."}{" "}
+                {method === "archive" && hasArchive
+                  ? "Enable the corresponding ELPA archive in Emacs before installing."
+                  : format === "leaf"
+                    ? "Requires leaf with :vc support and Emacs 29+."
+                    : "Requires use-package with :vc support (included in Emacs 30+)."}{" "}
                 See the upstream README for configuration.
               </p>
             </DisclosurePanel>
@@ -293,7 +356,7 @@ function App() {
     [loadError, setLoadError] = useState(""),
     [reload, setReload] = useState(0)
   const [query, setQuery] = useState(
-    () => new URLSearchParams(location.search).get("q") ?? "archived:false",
+    () => new URLSearchParams(location.search).get("q") ?? "-archived:true",
   )
   const [sort, setSort] = useState("stars"),
     [limit, setLimit] = useState(30),
@@ -331,7 +394,7 @@ function App() {
     setLimit(30)
   }, [query])
   useEffect(() => {
-    const pop = () => setQuery(new URLSearchParams(location.search).get("q") ?? "archived:false")
+    const pop = () => setQuery(new URLSearchParams(location.search).get("q") ?? "-archived:true")
     const key = (event: KeyboardEvent) => {
       if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
         event.preventDefault()
@@ -365,9 +428,15 @@ function App() {
     licenses = values("license"),
     pushed = values("pushed")
   const categories = deriveCategories(entries, values("topic"))
-  function qualify(key: string, value: string, append = false) {
+  const prefix = useMemo(() => checkPrefix(entries, state.filters), [entries, state.filters])
+  const sources = values("source")
+  const sourceOptions = useMemo(() => {
+    const present = new Set(entries.flatMap((entry) => entry.sources ?? []))
+    return sourceSchema.options.filter((source) => present.has(source))
+  }, [entries])
+  function qualify(key: string, value: string, append = false, exclude = false) {
     try {
-      setQuery(setQualifier(query, key, value, append))
+      setQuery(setQualifier(query, key, value, append, exclude))
     } catch {
       input.current?.focus()
     }
@@ -408,6 +477,30 @@ function App() {
       </fieldset>
       <CheckboxGroup
         className="group"
+        value={sources}
+        onChange={(values) => {
+          try {
+            setQuery(
+              values.reduce(
+                (query, value) => setQualifier(query, "source", value, true),
+                setQualifier(query, "source", ""),
+              ),
+            )
+          } catch {
+            input.current?.focus()
+          }
+        }}
+      >
+        <Label>Source</Label>
+        {sourceOptions.map((source) => (
+          <Checkbox key={source} className="check" value={source}>
+            <span className="checkbox-mark" />
+            {sourceLabels[source]}
+          </Checkbox>
+        ))}
+      </CheckboxGroup>
+      <CheckboxGroup
+        className="group license-group"
         value={licenses}
         onChange={(values) => {
           try {
@@ -447,8 +540,13 @@ function App() {
         <Checkbox
           className="check"
 
-          isSelected={!values("archived").includes("false")}
-          onChange={(checked) => qualify("archived", checked ? "" : "false")}
+          isSelected={
+            !state.filters.some(
+              ({ key, value, exclude }) =>
+                key === "archived" && value === (exclude ? "true" : "false"),
+            )
+          }
+          onChange={(checked) => qualify("archived", checked ? "" : "true", false, !checked)}
         >
           <span className="checkbox-mark" />
           Include archived
@@ -531,6 +629,35 @@ function App() {
             >
               {state.error}
             </p>
+            {!loading && !loadError && prefix && (
+              <div className="prefix-status">
+                <p role="status">
+                  {prefix.packages.length
+                    ? `“${prefix.prefix}” is in use.`
+                    : `“${prefix.prefix}” is free in this catalog.`}
+                </p>
+                {prefix.packages.length > 0 && (
+                  <Disclosure className="requirements">
+                    <Button slot="trigger">
+                      <ChevronDown size={12} aria-hidden="true" />
+                      {prefix.packages.length === 1
+                        ? "1 matching package"
+                        : `${prefix.packages.length} matching packages`}
+                    </Button>
+                    <DisclosurePanel>
+                      <ul>
+                        {prefix.packages.map(({ name, sources }) => (
+                          <li key={name}>
+                            <strong>{name}</strong> —{" "}
+                            {sources.map((source) => sourceLabels[source]).join(", ")}
+                          </li>
+                        ))}
+                      </ul>
+                    </DisclosurePanel>
+                  </Disclosure>
+                )}
+              </div>
+            )}
             <div className="toolbar">
               <h2>
                 <span id="count" aria-live="polite">
