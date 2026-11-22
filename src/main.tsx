@@ -10,6 +10,7 @@ import {
   Check,
   X,
   SlidersHorizontal,
+  CircleCheck,
 } from "lucide-react"
 import {
   Button,
@@ -189,10 +190,17 @@ function PackageRow({
           </span>
           {score && (
             <span
-              className="check-score"
+              className={
+                score.passed === score.total ? "check-score check-score-perfect" : "check-score"
+              }
               role="img"
-              aria-label={`${score.passed} of ${score.total} required package checks pass`}
+              aria-label={
+                score.passed === score.total
+                  ? `All ${score.total} required package checks pass`
+                  : `${score.passed} of ${score.total} required package checks pass`
+              }
             >
+              {score.passed === score.total && <CircleCheck size={11} aria-hidden="true" />}
               {score.passed}/{score.total}
             </span>
           )}

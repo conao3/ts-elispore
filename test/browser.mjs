@@ -741,6 +741,45 @@ try {
     await evaluate(`document.querySelector('#rule-${anchoredRule.id} h4').textContent`),
     anchoredRule.title,
   )
+  const marginalia = checksReport.results["melpa/marginalia"]
+  const marginaliaRules = checksReport.rules.filter(
+    (rule) => rule.level === "required" && !(marginalia.skipped ?? []).includes(rule.id),
+  )
+  const marginaliaPerfect = marginaliaRules.every((rule) => !marginalia.failed.includes(rule.id))
+  await send("Page.navigate", {
+    url: origin + "/?q=" + encodeURIComponent("repo:minad/marginalia"),
+  })
+  await waitFor(`Boolean(document.querySelector('.check-score'))`)
+  assert.equal(
+    await evaluate(
+      `document.querySelector('.check-score').classList.contains('check-score-perfect')`,
+    ),
+    marginaliaPerfect,
+  )
+  if (marginaliaPerfect)
+    assert.equal(
+      await evaluate(`document.querySelector('.check-score').getAttribute('aria-label')`),
+      `All ${marginaliaRules.length} required package checks pass`,
+    )
+  await click(".repo-trigger")
+  await waitFor(`Boolean(document.querySelector('.package-checks'))`)
+  assert.equal(
+    await evaluate(`Boolean(document.querySelector('.checks-perfect[role=status]'))`),
+    marginaliaPerfect &&
+      ["gnu-elpa/marginalia", "nongnu-elpa/marginalia"].every((key) => {
+        const result = checksReport.results[key]
+        return (
+          !result ||
+          result.error !== undefined ||
+          checksReport.rules.every(
+            (rule) =>
+              rule.level !== "required" ||
+              (result.skipped ?? []).includes(rule.id) ||
+              !result.failed.includes(rule.id),
+          )
+        )
+      }),
+  )
   await send("Page.navigate", { url: origin + "/about/" })
   await waitFor(`Boolean(document.querySelector('#why-elispore'))`)
   await click(".back-link")
@@ -814,7 +853,7 @@ try {
   }
   assert.deepEqual(errors, [])
   console.log(
-    "Package checks passed: required score, required rules, advice disclosure by pointer and keyboard, versions, about rule lists, error results, nonblocking delayed load with stable rows, and invalid report fallback.",
+    "Package checks passed: required score, all-pass celebration, required rules, advice disclosure by pointer and keyboard, versions, about rule lists, error results, nonblocking delayed load with stable rows, and invalid report fallback.",
   )
   console.log(
     "Browser checks passed: production chrome, repository copy, avatars, owner/topic query sync, accordion stability, multiple expansion, errors, mobile filters, Add recipe pointer/keyboard navigation, direct about load, and light/dark screenshots.",

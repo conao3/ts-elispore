@@ -15,6 +15,8 @@
   --header: #fbfaf7e8;
   --code: #1f1d1b;
   --warning: #a2651e;
+  --success: #2e7d4f;
+  --success-subtle: #e8f3ec;
   --shadow: 0 8px 28px #1c1b1912;
 }
 @media (prefers-color-scheme: dark) {
@@ -31,6 +33,8 @@
     --header: #161514e8;
     --code: #121110;
     --warning: #ddb16f;
+    --success: #7ccf9a;
+    --success-subtle: #1c2a21;
     --shadow: 0 8px 28px #0004;
   }
 }
@@ -499,9 +503,16 @@ kbd {
   gap: 5px;
 }
 .check-score {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
   font-size: 10px;
   font-variant-numeric: tabular-nums;
   color: var(--ink);
+}
+.check-score-perfect {
+  color: var(--success);
+  font-weight: 600;
 }
 .package-row time {
   text-align: right;
@@ -1177,4 +1188,61 @@ code {
 .advice-table td:first-child,
 .about-rule p {
   overflow-wrap: anywhere;
+}
+.checked-perfect {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--success);
+  font-weight: 600;
+}
+.checks-perfect {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 4px 0 16px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: var(--success-subtle);
+  color: var(--success);
+}
+.checks-perfect svg {
+  flex-shrink: 0;
+  border-radius: 50%;
+  animation:
+    checks-pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both,
+    checks-glow 1.2s ease-out 0.3s both;
+}
+.checks-perfect strong {
+  display: block;
+  font-size: 15px;
+}
+.checks-perfect span {
+  display: block;
+  margin-top: 2px;
+  color: var(--ink);
+  font-size: 12px;
+}
+@keyframes checks-pop {
+  from {
+    transform: scale(0.4) rotate(-20deg);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes checks-glow {
+  from {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--success) 45%, transparent);
+  }
+  to {
+    box-shadow: 0 0 0 14px transparent;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .checks-perfect svg {
+    animation: none;
+  }
 }

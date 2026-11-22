@@ -123,8 +123,17 @@ export function PackageChecks({ packages, report }: { packages: PackageCheck[]; 
               {pkg.error !== undefined ? (
                 <span className="check-error">Could not run checks: {pkg.error}</span>
               ) : (
-                <span className="checked-summary">
-                  {passed} of {applicable.length} required checks pass
+                <span
+                  className={
+                    passed === applicable.length
+                      ? "checked-summary checked-perfect"
+                      : "checked-summary"
+                  }
+                >
+                  {passed === applicable.length && <CircleCheck size={13} aria-hidden="true" />}
+                  {passed === applicable.length
+                    ? `All ${applicable.length} required checks pass`
+                    : `${passed} of ${applicable.length} required checks pass`}
                 </span>
               )}
             </li>
@@ -133,11 +142,25 @@ export function PackageChecks({ packages, report }: { packages: PackageCheck[]; 
       </ul>
       {checked.length > 0 && (
         <>
+          {failing.length === 0 && (
+            <div className="checks-perfect" role="status">
+              <CircleCheck size={30} strokeWidth={2.25} aria-hidden="true" />
+              <div>
+                <strong>Every required check passes</strong>
+                <span>
+                  Checked in {checked.map((pkg) => sourceLabels[pkg.source]).join(" and ")} ·{" "}
+                  {advice.length === 0
+                    ? "no melpazoid advice"
+                    : `${advice.length} melpazoid advice`}
+                </span>
+              </div>
+            </div>
+          )}
           {failing.length > 0 && (
             <RuleTable rules={failing} packages={checked} label="Failing required checks" header />
           )}
           {passing.length > 0 && (
-            <Disclosure className="check-group" defaultExpanded={failing.length === 0}>
+            <Disclosure className="check-group">
               <Button slot="trigger">
                 <ChevronDown size={12} aria-hidden="true" />
                 {passing.length} passing {passing.length === 1 ? "check" : "checks"}
