@@ -14,6 +14,8 @@ pub fn included(path: &str, package_name: &str) -> bool {
         .and_then(|x| x.to_str())
         .unwrap_or_default();
     name.ends_with(".el")
+        && !name.starts_with(".dir-locals")
+        && !["test.el", "tests.el"].contains(&name)
         && !["-pkg.el", "-autoloads.el"]
             .iter()
             .any(|s| name.ends_with(s))

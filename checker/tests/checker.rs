@@ -311,6 +311,10 @@ fn excludes_generated_and_tests() {
         "pkg/tests/foo.el",
         "foo-test.el",
         "foo-tests.el",
+        "repo/.dir-locals.el",
+        "repo/.dir-locals-2.el",
+        "repo/test.el",
+        "repo/tests.el",
         "README",
     ] {
         assert!(!scanner::included(path, "sample"), "{path}");

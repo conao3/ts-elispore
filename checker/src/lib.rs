@@ -5,7 +5,7 @@ pub mod scanner;
 pub mod sexp;
 pub mod syntax;
 
-pub const RULE_SET_VERSION: u32 = 5;
+pub const RULE_SET_VERSION: u32 = 6;
 
 leanfran::lean! {
     pub mod policy;
