@@ -78,7 +78,7 @@ export function About({ checks }: { checks: Checks | null }) {
           <Link href="https://github.com/riscy/melpazoid">melpazoid</Link>, scripts for testing
           Emacs packages, primarily submissions to MELPA. Each rule quotes its sources. Checks that
           need Emacs itself (byte-compilation, checkdoc, package-lint, loading) are not run. Results
-          are cached and refreshed only on explicit re-run, not with the daily catalog update.
+          are cached and updated weekly for new and changed packages.
         </p>
         {checks && (
           <>
