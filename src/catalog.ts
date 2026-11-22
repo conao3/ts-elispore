@@ -1,4 +1,6 @@
 import * as z from "zod"
+
+z.config({ jitless: true })
 export const archiveSourceSchema = z.enum(["melpa", "gnu-elpa", "nongnu-elpa"])
 export const sourceSchema = z.enum(["github", ...archiveSourceSchema.options])
 export type Source = z.infer<typeof sourceSchema>

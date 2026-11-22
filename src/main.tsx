@@ -512,6 +512,7 @@ function App() {
       </fieldset>
       <CheckboxGroup
         className="group"
+        name="source"
         value={sources}
         onChange={(values) => {
           try {
@@ -536,6 +537,7 @@ function App() {
       </CheckboxGroup>
       <CheckboxGroup
         className="group license-group"
+        name="license"
         value={licenses}
         onChange={(values) => {
           try {
@@ -564,7 +566,7 @@ function App() {
         <legend>Activity</legend>
         <Checkbox
           className="check"
-
+          name="pushed"
           isSelected={pushed.includes(`>=${yearAgo}`)}
           isIndeterminate={pushed.length > 0 && !pushed.includes(`>=${yearAgo}`)}
           onChange={(checked) => qualify("pushed", checked ? `>=${yearAgo}` : "")}
@@ -574,7 +576,7 @@ function App() {
         </Checkbox>
         <Checkbox
           className="check"
-
+          name="archived"
           isSelected={
             !state.filters.some(
               ({ key, value, exclude }) =>
@@ -735,6 +737,7 @@ function App() {
               </DialogTrigger>
               <Select
                 aria-label="Sort packages"
+                name="sort"
                 value={sort}
                 onChange={(value) => {
                   if (value) setSort(String(value))

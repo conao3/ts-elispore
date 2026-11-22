@@ -515,6 +515,12 @@ try {
     true,
   )
   await waitFor(`Boolean(document.querySelector('.check-score'))`)
+  assert.deepEqual(
+    await evaluate(
+      `[...document.querySelectorAll('input,select,textarea')].filter((e) => !e.id && !e.name).map((e) => e.outerHTML)`,
+    ),
+    [],
+  )
   const checksReport = JSON.parse(await readFile(path.join(dist, "checks.json"), "utf8"))
   const vertico = checksReport.results["melpa/vertico"]
   const requiredRules = checksReport.rules.filter(
