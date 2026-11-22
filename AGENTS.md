@@ -12,7 +12,7 @@ Catalog discovery pages starred and recently updated Emacs Lisp searches plus `e
 
 Run `nix develop --command pnpm exec vp run check`, `nix develop --command pnpm run build`, and `nix build`. Linux browser checks use `nix develop .#browser --command node test/browser.mjs`. Refresh metadata with `nix develop --command pnpm run catalog`. Deployment uses `wrangler.jsonc`; the master workflow validates, deploys and updates the catalog daily.
 
-The offline-buildable Rust checker in `checker/` uses Lean-defined rules; run `nix develop --command pnpm run checks` (or add `--force`) to refresh compact `public/checks.json`. CI refreshes checks only on explicit dispatch with `checks: update`/`all`, not daily; preserve the generated Lean/cache files and bump the rule-set version when semantics change.
+The offline-buildable Rust checker in `checker/` applies MELPA's CONTRIBUTING.org and melpazoid: required rules are Lean-defined in `checker/src/lib.rs`, and melpazoid's pattern checks come from `checker/melpazoid.json`, exported from melpazoid.el by `checker/tools/melpazoid-patterns.el`. Run `nix develop --command pnpm run checks` (or add `--force`) to refresh compact `public/checks.json`. CI refreshes checks only on explicit dispatch with `checks: update`/`all`, not daily; preserve the generated Lean/cache files and bump the rule-set version when semantics change. `checker/README.md` lists where the checker differs from melpazoid and how to compare the two.
 
 Default installation examples to leaf `:vc` declarations using the upstream URL. Keep leaf/use-package selector buttons at the top right of the dark, syntax-colored code block, and copy the displayed format exactly.
 

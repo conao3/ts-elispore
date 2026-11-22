@@ -51,7 +51,7 @@ nix run
 
 `nix run` serves the built site at `http://127.0.0.1:4173`.
 
-`nix develop --command pnpm run checks` refreshes cached Lean-defined package checks at `/checks.json` (add `--force` to recompute all); `nix run .#checker -- --help` exposes the standalone Rust checker.
+`nix develop --command pnpm run checks` refreshes cached package checks at `/checks.json` (add `--force` to recompute all); `nix run .#checker -- --help` exposes the standalone Rust checker. The rules come from MELPA's [CONTRIBUTING.org](https://github.com/melpa/melpa/blob/master/CONTRIBUTING.org) and [melpazoid](https://github.com/riscy/melpazoid): required rules make up the score, and melpazoid's other findings are shown as advice (see `checker/README.md`).
 Checks refresh only on explicit local runs or manual CI dispatch with `checks: update`/`all`, never on the daily schedule.
 
 Browser validation uses `nix develop .#browser --command node test/browser.mjs` on Linux. It creates an isolated Chromium profile and checks the built `dist/` files. Screenshots go to the ignored `.claude-dev/scratch/`.

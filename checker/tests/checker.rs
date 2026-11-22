@@ -1,86 +1,209 @@
-use elispore_check::{archive, policy, scanner, sexp};
+use elispore_check::{archive, melpazoid, policy, scanner, sexp};
 
 const GOOD: &str = include_str!("fixtures/sample.el");
 const BAD: &str = include_str!("fixtures/broken.el");
 
-fn evaluate(name: &str, text: &str) -> Vec<(String, bool)> {
-    policy::evaluate(policy::PackageFacts {
+fn package(files: Vec<policy::FileFacts>, main_requires: Vec<String>) -> policy::PackageFacts {
+    policy::PackageFacts {
         name: "sample".into(),
-        files: vec![scanner::scan(name, text).unwrap()],
+        source: "melpa".into(),
+        files,
+        main_requires,
         has_license_file: false,
-    })
+        repo_clean: true,
+        packaged_docs: false,
+    }
+}
+
+fn failed(facts: policy::PackageFacts) -> Vec<String> {
+    policy::evaluate(facts)
+        .into_iter()
+        .filter_map(|(id, (applies, pass))| (applies && !pass).then_some(id))
+        .collect()
+}
+
+fn single(name: &str, text: &str) -> Vec<String> {
+    failed(package(
+        vec![scanner::scan(name, text, "sample").unwrap()],
+        scanner::requirements(text),
+    ))
 }
 
 #[test]
 fn passing_fixture() {
-    let results = evaluate("sample.el", GOOD);
-    assert_eq!(results.len(), 14);
-    assert!(results.iter().all(|(_, passed)| *passed), "{results:?}");
+    let results = policy::evaluate(package(
+        vec![scanner::scan("sample.el", GOOD, "sample").unwrap()],
+        vec![],
+    ));
     assert_eq!(
         results.iter().map(|(id, _)| id).collect::<Vec<_>>(),
         policy::rules().iter().map(|r| &r.id).collect::<Vec<_>>()
     );
+    assert!(single("sample.el", GOOD).is_empty());
+    let advice = scanner::scan("sample.el", GOOD, "sample").unwrap().advice;
+    assert!(advice.is_empty(), "{advice:?}");
 }
 
 #[test]
-fn failing_fixture_covers_every_rule() {
-    let results = evaluate("broken.el", BAD);
-    assert!(results.iter().all(|(_, passed)| !passed), "{results:?}");
+fn failing_fixture() {
+    assert_eq!(
+        single("broken.el", BAD),
+        [
+            "main-file",
+            "packaging-header",
+            "file-prefix",
+            "lexical-binding",
+            "license-notice",
+            "requires-main"
+        ]
+    );
 }
 
 #[test]
 fn each_rule_fails_independently() {
     for (id, from, to) in [
         (
-            "summary-line",
+            "packaging-header",
             ";;; sample.el --- A sample package",
-            ";;; wrong.el ---",
+            ";;; sample.el - A sample package",
         ),
         (
             "lexical-binding",
             "lexical-binding: t",
             "lexical-binding: nil",
         ),
-        ("author", ";; Author:", ";; Missing:"),
-        ("url", ";; Homepage:", ";; Missing:"),
-        ("version", ";; Package-Version:", ";; Missing:"),
-        ("package-requires", ";; Package-Requires:", ";; Missing:"),
-        ("commentary", ";;; Commentary:", ";;; Missing:"),
-        ("code-section", ";;; Code:", ";;; Missing:"),
-        ("provide", "(provide 'sample)", "(provide 'other)"),
+        ("license-notice", "SPDX-License-Identifier:", "License:"),
+        ("license-spdx", "GPL-3.0-or-later", "GPL-2.0-only"),
         (
-            "footer",
-            ";;; sample.el ends here",
-            ";;; other.el ends here",
+            "license-position",
+            ";; SPDX-License-Identifier: GPL-3.0-or-later\n;;; Commentary:\n",
+            ";;; Commentary:\n;; SPDX-License-Identifier: GPL-3.0-or-later\n",
         ),
-        ("license", "SPDX-License-Identifier:", "Missing:"),
-        ("symbol-prefix", "(defvar sample/value", "(defvar unrelated"),
-        ("no-cl", "(require 'cl-lib)", "(require 'cl)"),
+        (
+            "requires-unquoted",
+            ";; Package-Requires: ()",
+            ";; Package-Requires: ((\"emacs\" \"26.1\"))",
+        ),
+        (
+            "url-unquoted",
+            ";; Homepage: https://example.org/sample",
+            ";; Homepage: \"https://example.org/sample\"",
+        ),
+        (
+            "sharp-quote",
+            "(provide 'sample)",
+            "(mapcar 'car nil)\n(provide 'sample)",
+        ),
+        (
+            "face-inherit",
+            "(provide 'sample)",
+            "(defface sample-face '((t :inherit bold :underline t)) \"Face.\")\n(provide 'sample)",
+        ),
     ] {
-        let results = evaluate("sample.el", &GOOD.replace(from, to));
-        assert_eq!(
-            results
-                .into_iter()
-                .filter_map(|(id, pass)| (!pass).then_some(id))
-                .collect::<Vec<_>>(),
-            [id],
-            "{id}"
-        );
+        let text = GOOD.replace(from, to);
+        assert_ne!(text, GOOD, "{id}");
+        assert_eq!(single("sample.el", &text), [id], "{id}");
     }
 }
 
 #[test]
-fn empty_package_and_file() {
-    let empty = scanner::scan("sample.el", "").unwrap();
-    assert!(!empty.lexical_binding);
-    assert!(empty.provides.is_empty());
-    assert!(empty.definitions.is_empty());
-    let results = policy::evaluate(policy::PackageFacts {
-        name: "sample".into(),
-        files: vec![],
-        has_license_file: false,
-    });
-    assert!(!results.iter().find(|(id, _)| id == "main-file").unwrap().1);
+fn package_level_rules() {
+    let main = scanner::scan("sample.el", GOOD, "sample").unwrap();
+    let extra_text = GOOD.replace("sample.el", "sample-extra.el").replace(
+        ";; Package-Requires: ()",
+        ";; Package-Requires: ((dash \"2.19\"))",
+    );
+    let extra = scanner::scan("sample-extra.el", &extra_text, "sample").unwrap();
+    assert_eq!(
+        failed(package(vec![main.clone(), extra.clone()], vec![])),
+        ["requires-main"]
+    );
+    assert!(failed(package(
+        vec![main.clone(), extra.clone()],
+        vec!["dash \"2.19\"".into()]
+    ))
+    .is_empty());
+    let other =
+        scanner::scan("other.el", &GOOD.replace("sample.el", "other.el"), "sample").unwrap();
+    assert_eq!(
+        failed(package(vec![main.clone(), other.clone()], vec![])),
+        ["file-prefix"]
+    );
+    assert_eq!(
+        failed(package(vec![other], vec![])),
+        ["main-file", "file-prefix", "requires-main"]
+    );
+    for (source, docs, license, clean, expected) in [
+        ("melpa", true, true, true, vec!["packaged-docs"]),
+        (
+            "github",
+            true,
+            false,
+            false,
+            vec!["license-file", "repo-clean"],
+        ),
+        ("gnu-elpa", true, false, false, vec![]),
+    ] {
+        let facts = policy::PackageFacts {
+            source: source.into(),
+            packaged_docs: docs,
+            has_license_file: license,
+            repo_clean: clean,
+            ..package(vec![main.clone()], vec![])
+        };
+        assert_eq!(failed(facts), expected, "{source}");
+    }
+    assert!(policy::prefixed_file("foo-mode", "foo-bar.el"));
+    assert!(policy::prefixed_file("foo-themes", "foo.el"));
+    assert!(!policy::prefixed_file("foo", "foobar.el"));
+}
+
+#[test]
+fn license_position_uses_the_earliest_notice() {
+    let text = GOOD.replace(
+        ";; SPDX-License-Identifier: GPL-3.0-or-later\n;;; Commentary:\n",
+        ";; This program is free software: you can redistribute it\n;;; Commentary:\n;; SPDX-License-Identifier: GPL-3.0-or-later\n",
+    );
+    assert_ne!(text, GOOD);
+    assert!(single("sample.el", &text).is_empty());
+}
+
+#[test]
+fn requirements_follow_melpazoid() {
+    assert_eq!(
+        scanner::requirements(";; package-requires: ((emacs \"24.4\"))"),
+        ["emacs \"24.4\""]
+    );
+    assert_eq!(
+        scanner::requirements(";; Package-Requires: ((emacs \"27.1\") websocket f)"),
+        ["emacs \"27.1\"", "f", "websocket"]
+    );
+    assert_eq!(
+        scanner::requirements("Package-Requires: ((emacs \"29.1\")\n(calfw \"2.0\"))"),
+        ["calfw \"2.0\"", "emacs \"29.1\""]
+    );
+    assert_eq!(
+        scanner::pkg_requirements("(define-package \"x\" \"1.2\" \"A pkg.\" '(a (b \"31.5\")))"),
+        ["a", "b \"31.5\""]
+    );
+}
+
+#[test]
+fn advice_matches_melpazoid_patterns() {
+    let text = GOOD.replace(
+        "(provide 'sample)",
+        "(when (not x) (ignore-errors (progn y)))\n(global-set-key \"a\" #'ignore)\n(provide 'sample)",
+    );
+    let advice = scanner::scan("sample.el", &text, "sample").unwrap().advice;
+    for message in [
+        "Avoid `ignore-errors` in production code; handle the root cause whenever possible",
+        "No `progn` required under `ignore-errors`",
+        "Don't set global bindings; create a global minor-mode map or instruct users in `;;; Commentary`.",
+    ] {
+        assert!(advice.contains(&melpazoid::slug(message)), "{message}: {advice:?}");
+    }
+    let ids: Vec<String> = melpazoid::advice().into_iter().map(|a| a.id).collect();
+    assert!(advice.iter().all(|id| ids.contains(id)));
 }
 
 #[test]
@@ -107,35 +230,20 @@ fn scanner_ignores_data_comments_strings_and_characters() {
 (cl-defmethod sample-method ((_ (eql \`))) nil)
 `(,?\( ,?\) ,?\;)
 "#,
+        "sample",
     )
     .unwrap();
-    assert_eq!(facts.requires, ["real"]);
-    assert_eq!(facts.provides, ["sample"]);
-    assert_eq!(facts.definitions, ["sample-data", "sample-top"]);
+    assert!(facts.requires.is_empty());
+    assert!(!facts.face_inherit_override);
 }
 
 #[test]
-fn scanner_headers_and_file_prefix() {
-    let facts = scanner::scan(
-        "sub/sample-extra.el",
-        &GOOD
-            .replace("sample.el", "sample-extra.el")
-            .replace("sample-command", "sample-extra-command"),
-    )
-    .unwrap();
-    assert_eq!(facts.maintainer, "Example Maintainer");
-    assert_eq!(facts.keywords, "tools");
-    assert!(policy::symbol_prefix(policy::PackageFacts {
-        name: "different".into(),
-        files: vec![scanner::scan("sample.el", GOOD).unwrap()],
-        has_license_file: false
-    }));
-    assert!(policy::prefixed("sample", "sample"));
-    assert!(!policy::prefixed("sample", "samples"));
+fn lexical_binding_only_on_first_line() {
     assert!(
         !scanner::scan(
             "sample.el",
-            ";;; sample -*- lexical-binding: nil; -*-\n;; lexical-binding: t"
+            ";;; sample -*- lexical-binding: nil; -*-\n;; lexical-binding: t",
+            "sample"
         )
         .unwrap()
         .lexical_binding
@@ -191,9 +299,9 @@ fn parser_and_scanner_errors() {
         "[(])",
     ] {
         assert!(sexp::parse(text).is_err());
-        assert!(scanner::scan("sample.el", text).is_err());
+        assert!(scanner::scan("sample.el", text, "sample").is_err());
     }
-    assert!(scanner::scan("README", "").is_err());
+    assert!(scanner::scan("README", "", "sample").is_err());
 }
 
 #[test]
@@ -202,7 +310,7 @@ fn archive_index_and_single_package() {
     assert_eq!(packages[0].version, "20260101.42");
     assert_eq!(packages[0].url, "https://example.org/sample-20260101.42.el");
     let facts = archive::unpack(&packages[0], GOOD.as_bytes()).unwrap();
-    assert!(policy::evaluate(facts).into_iter().all(|(_, pass)| pass));
+    assert!(failed(facts).is_empty());
     assert_eq!(archive::index("x", "x", "(1)").unwrap().len(), 0);
     for index in [
         "()",
@@ -258,14 +366,18 @@ fn tar_and_github_main_selection_license_and_exclusions() {
             ("repo-HEAD/longer-name.el", GOOD),
             ("repo-HEAD/tests/broken.el", "("),
             ("repo-HEAD/sample-pkg.el", "("),
+            ("repo-HEAD/examples/demo.el", "("),
+            ("repo-HEAD/lisp/sample-more.el", GOOD),
+            ("repo-HEAD/sample.elc", ""),
             ("repo-HEAD/LICENSE.md", "license"),
         ],
         true,
     );
     let facts = archive::unpack(&package, &data).unwrap();
     assert_eq!(facts.name, "sample");
-    assert_eq!(facts.files.len(), 2);
+    assert_eq!(facts.files.len(), 3);
     assert!(facts.has_license_file);
+    assert!(!facts.repo_clean);
     package.name = "longer-name".into();
     assert_eq!(
         archive::unpack(&package, &data).unwrap().name,
@@ -276,8 +388,9 @@ fn tar_and_github_main_selection_license_and_exclusions() {
     assert!(archive::unpack(&package, &tarball(&[("p/sample.el", "(")], false)).is_err());
     let facts = archive::unpack(
         &package,
-        &tarball(&[("p/sample.el", GOOD), ("p/COPYING", "license")], false),
+        &tarball(&[("p/sample.el", GOOD), ("p/README.md", "docs")], false),
     )
     .unwrap();
-    assert!(facts.has_license_file);
+    assert!(facts.packaged_docs);
+    assert!(!facts.has_license_file);
 }

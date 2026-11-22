@@ -2,14 +2,17 @@ use anyhow::{bail, Context, Result};
 use clap::Parser;
 use elispore_check::{
     archive::{self, Package, MAX_BYTES},
-    policy, RULE_SET_VERSION,
+    melpazoid, policy, RULE_SET_VERSION,
 };
 use futures::{stream, StreamExt};
 use serde::{Deserialize, Serialize};
 use std::{collections::BTreeMap, path::PathBuf, time::Duration};
 
 #[derive(Parser)]
-#[command(version, about = "Check Emacs Lisp packages using Lean-defined rules")]
+#[command(
+    version,
+    about = "Check Emacs Lisp packages against MELPA's CONTRIBUTING.org and melpazoid"
+)]
 struct Args {
     #[arg(
         long,
@@ -36,12 +39,16 @@ struct Rule {
     id: String,
     title: String,
     description: String,
+    level: String,
+    source: String,
 }
 
 #[derive(Clone, Serialize, Deserialize)]
 struct Check {
     version: String,
     failed: Vec<String>,
+    #[serde(skip_serializing_if = "Vec::is_empty", default)]
+    skipped: Vec<String>,
     #[serde(skip_serializing_if = "Option::is_none", default)]
     error: Option<String>,
 }
@@ -103,14 +110,24 @@ async fn check(
     }
     let bytes = body(response).await?;
     let facts = archive::unpack(package, &bytes)?;
-    let failed = policy::evaluate(facts)
+    let advice = policy::advice(facts.clone());
+    let results = policy::evaluate(facts);
+    let mut failed: Vec<String> = results
+        .iter()
+        .filter(|(_, (applies, pass))| *applies && !pass)
+        .map(|(id, _)| id.clone())
+        .collect();
+    failed.extend(advice);
+    let skipped = results
         .into_iter()
-        .filter_map(|(id, pass)| (!pass).then_some(id))
+        .filter(|(_, (applies, _))| !applies)
+        .map(|(id, _)| id)
         .collect();
     Ok((
         Check {
             version,
             failed,
+            skipped,
             error: None,
         },
         false,
@@ -189,30 +206,49 @@ async fn main() -> Result<()> {
             Err(error) => Check {
                 version: package.version.clone(),
                 failed: Vec::new(),
+                skipped: Vec::new(),
                 error: Some(format!("{error:#}")),
             },
         };
         results.insert(package.key.clone(), value);
     }
-    let rules: Vec<_> = policy::rules()
+    let mut rules: Vec<_> = policy::rules()
         .into_iter()
         .map(|r| Rule {
             id: r.id,
             title: r.title,
             description: r.description,
+            level: "required".into(),
+            source: r.source,
         })
         .collect();
+    rules.extend(melpazoid::advice().into_iter().map(|a| Rule {
+        id: a.id,
+        title: a.message,
+        description: String::new(),
+        level: "advice".into(),
+        source: format!(
+            "https://github.com/riscy/melpazoid/blob/{}/melpazoid/melpazoid.el#L{}",
+            melpazoid::COMMIT,
+            a.line
+        ),
+    }));
     let errors = results.values().filter(|r| r.error.is_some()).count();
     println!(
         "Packages: {}; errors: {errors}; cached: {reused}; downloaded: {}",
         results.len(),
         results.len() - reused
     );
-    let checked = results.len() - errors;
     for rule in &rules {
+        let checked = results
+            .values()
+            .filter(|r| r.error.is_none() && !r.skipped.contains(&rule.id))
+            .count();
         let passed = results
             .values()
-            .filter(|r| r.error.is_none() && !r.failed.contains(&rule.id))
+            .filter(|r| {
+                r.error.is_none() && !r.skipped.contains(&rule.id) && !r.failed.contains(&rule.id)
+            })
             .count();
         println!(
             "{}: {passed}/{checked} ({:.2}%)",
@@ -276,6 +312,7 @@ mod tests {
         let old = Check {
             version: "1.0".into(),
             failed: vec![],
+            skipped: vec![],
             error: None,
         };
         let (_, hit) = check(&client, &package(), Some(&old), false).await.unwrap();
@@ -322,6 +359,7 @@ mod tests {
         let old = Check {
             version: "sample-head".into(),
             failed: vec![],
+            skipped: vec![],
             error: None,
         };
         let (_, hit) = check(
@@ -352,6 +390,7 @@ mod tests {
                     Check {
                         version: "1".into(),
                         failed: vec![],
+                        skipped: vec![],
                         error: Some("failed".into()),
                     },
                 ),
@@ -359,7 +398,8 @@ mod tests {
                     "a".into(),
                     Check {
                         version: "1".into(),
-                        failed: vec!["footer".into()],
+                        failed: vec!["lexical-binding".into()],
+                        skipped: vec![],
                         error: None,
                     },
                 ),

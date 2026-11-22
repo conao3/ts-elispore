@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vite-plus/test"
-import { checkScore, checksSchema, entryChecks } from "./checks"
+import { applicableRules, checkScore, checksSchema, entryChecks } from "./checks"
 import type { PackageCheck } from "./checks"
 import type { Entry } from "./catalog"
 
@@ -17,12 +17,38 @@ const report = checksSchema.parse({
   version: 2,
   generatedAt: "2026-11-21T00:00:00Z",
   rules: [
-    { id: "author", title: "Author", description: "Has author" },
-    { id: "footer", title: "Footer", description: "Has footer" },
+    {
+      id: "main-file",
+      title: "Main file",
+      description: "Has main file",
+      level: "required",
+      source: "https://example.org/main",
+    },
+    {
+      id: "footer",
+      title: "Footer",
+      description: "Has footer",
+      level: "required",
+      source: "https://example.org/footer",
+    },
+    {
+      id: "mz-advice",
+      title: "Advice",
+      description: "",
+      level: "advice",
+      source: "https://example.org/advice",
+    },
+    {
+      id: "license-file",
+      title: "License file",
+      description: "Has license file",
+      level: "required",
+      source: "https://example.org/license",
+    },
   ],
   results: {
-    "melpa/pkg": { version: "1", failed: ["footer"] },
-    "gnu-elpa/pkg": { version: "2", failed: [] },
+    "melpa/pkg": { version: "1", failed: ["footer", "mz-advice"], skipped: ["license-file"] },
+    "gnu-elpa/pkg": { version: "2", failed: [], skipped: ["license-file"] },
     "github/owner/repo": { version: "etag", failed: [], error: "Unavailable" },
   },
 })
@@ -54,6 +80,7 @@ describe("package checks", () => {
         name: "pkg",
         version: "1",
         failed: index % 2 ? ["footer"] : [],
+        skipped: ["license-file"],
       }),
     )
     for (const source of ["melpa", "gnu-elpa", "nongnu-elpa", "github"]) {
@@ -88,6 +115,14 @@ describe("package checks", () => {
     expect(checkScore([], report.rules)).toBeNull()
     expect(checkScore(entryChecks(entry, report), [])).toBeNull()
   })
+  it("scores only applicable required rules", () => {
+    const [melpa] = entryChecks({ ...entry, archives: [{ source: "melpa", name: "pkg" }] }, report)
+    expect(checkScore([melpa!], report.rules)).toEqual({ passed: 1, total: 2 })
+    expect(checkScore([{ ...melpa!, skipped: [] }], report.rules)).toEqual({ passed: 2, total: 3 })
+    expect(applicableRules(melpa, report.rules, "advice").map((rule) => rule.id)).toEqual([
+      "mz-advice",
+    ])
+  })
   it("rejects invalid reports, unknown failures and duplicate IDs", () => {
     expect(checksSchema.safeParse({ ...report, generatedAt: "yesterday" }).success).toBe(false)
     expect(
@@ -99,6 +134,16 @@ describe("package checks", () => {
     ).toBe(false)
     expect(
       checksSchema.safeParse({ ...report, results: { bad: { version: 1, failed: [] } } }).success,
+    ).toBe(false)
+    expect(
+      checksSchema.safeParse({
+        ...report,
+        results: { bad: { version: "1", failed: [], skipped: ["unknown"] } },
+      }).success,
+    ).toBe(false)
+    expect(
+      checksSchema.safeParse({ ...report, rules: [{ ...report.rules[0], level: "other" }] })
+        .success,
     ).toBe(false)
   })
 })

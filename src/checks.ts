@@ -5,12 +5,21 @@ export const checksSchema = z
   .object({
     version: z.number().int().positive(),
     generatedAt: z.iso.datetime({ offset: true }),
-    rules: z.array(z.object({ id: z.string().min(1), title: z.string(), description: z.string() })),
+    rules: z.array(
+      z.object({
+        id: z.string().min(1),
+        title: z.string(),
+        description: z.string(),
+        level: z.enum(["required", "advice"]),
+        source: z.url(),
+      }),
+    ),
     results: z.record(
       z.string(),
       z.object({
         version: z.string(),
         failed: z.array(z.string()),
+        skipped: z.array(z.string()).optional(),
         error: z.string().optional(),
       }),
     ),
@@ -20,8 +29,8 @@ export const checksSchema = z
     if (ids.size !== report.rules.length)
       context.addIssue({ code: "custom", message: "Duplicate rule IDs" })
     for (const result of Object.values(report.results)) {
-      if (result.failed.some((id) => !ids.has(id)))
-        context.addIssue({ code: "custom", message: "Unknown failed rule" })
+      if ([...result.failed, ...(result.skipped ?? [])].some((id) => !ids.has(id)))
+        context.addIssue({ code: "custom", message: "Unknown rule in result" })
     }
   })
 
@@ -41,12 +50,21 @@ export function entryChecks(entry: Entry, report: Checks | null): PackageCheck[]
   })
 }
 
+export function applicableRules(
+  pkg: PackageCheck | undefined,
+  rules: Checks["rules"],
+  level: Checks["rules"][number]["level"],
+) {
+  if (!pkg) return []
+  return rules.filter((rule) => rule.level === level && !pkg.skipped?.includes(rule.id))
+}
+
 export function checkScore(packages: PackageCheck[], rules: Checks["rules"]) {
   const primary = (["melpa", "gnu-elpa", "nongnu-elpa", "github"] as const)
     .map((source) => packages.find((pkg) => pkg.source === source && pkg.error === undefined))
     .find((pkg) => pkg !== undefined)
-  if (!primary || !rules.length) return null
-  const total = rules.length
-  const passed = rules.filter((rule) => !primary.failed.includes(rule.id)).length
-  return { passed, total }
+  const required = applicableRules(primary, rules, "required")
+  if (!primary || !required.length) return null
+  const passed = required.filter((rule) => !primary.failed.includes(rule.id)).length
+  return { passed, total: required.length }
 }

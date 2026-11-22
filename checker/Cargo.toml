@@ -3,7 +3,7 @@ name = "elispore-check"
 version = "0.1.0"
 edition = "2021"
 publish = false
-include = ["src/**", "build.rs", ".leanfran/cache/**", "lean/**"]
+include = ["src/**", "build.rs", "melpazoid.json", ".leanfran/cache/**", "lean/**"]
 
 [dependencies]
 leanfran = "0.6"
@@ -17,6 +17,7 @@ serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 chrono = { version = "0.4", default-features = false, features = ["clock"] }
 anyhow = "1"
+regex = "1"
 
 [build-dependencies]
 leanfran-build = "0.6"

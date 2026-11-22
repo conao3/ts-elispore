@@ -103,12 +103,21 @@ pub fn github(repo: &str) -> Result<Package> {
     })
 }
 
+fn github_default(path: &str) -> bool {
+    let parts: Vec<&str> = path.split('/').collect();
+    parts.len() == 2 || (parts.len() == 3 && parts[1] == "lisp")
+}
+
 pub fn unpack(package: &Package, bytes: &[u8]) -> Result<PackageFacts> {
     if bytes.len() > MAX_BYTES {
         bail!("download exceeds size limit");
     }
+    let source = package.key.split('/').next().unwrap_or_default().to_owned();
     let mut contents = Vec::new();
+    let mut pkg_file = None;
     let mut has_license_file = false;
+    let mut repo_clean = true;
+    let mut packaged_docs = false;
     if package.kind == "single" && scanner::included(&format!("{}.el", package.name), &package.name)
     {
         contents.push((
@@ -135,15 +144,31 @@ pub fn unpack(package: &Package, bytes: &[u8]) -> Result<PackageFacts> {
                 bail!("expanded archive exceeds size limit");
             }
             let path = entry.path()?.to_string_lossy().into_owned();
-            let basename = path
-                .rsplit('/')
-                .next()
+            let parts: Vec<&str> = path.split('/').collect();
+            let basename = parts.last().copied().unwrap_or_default();
+            let top = parts
+                .get(1)
+                .copied()
                 .unwrap_or_default()
-                .to_ascii_uppercase();
-            has_license_file |= ["LICENSE", "COPYING"]
-                .iter()
-                .any(|n| basename == *n || basename.starts_with(&format!("{n}.")));
-            if scanner::included(&path, &package.name) {
+                .to_ascii_lowercase();
+            if package.kind == "github" {
+                has_license_file |= parts.len() >= 2
+                    && ["copying", "license", "unlicense"]
+                        .iter()
+                        .any(|n| top.starts_with(n));
+                repo_clean &= !(basename.ends_with(".elc")
+                    || basename.ends_with('~')
+                    || basename == ".DS_Store");
+            } else {
+                let stem = basename.rsplit_once('.').map_or(basename, |(stem, _)| stem);
+                packaged_docs |= ["CHANGELOG", "LICENSE", "README"].contains(&stem);
+            }
+            let wanted = package.kind != "github" || github_default(&path);
+            if wanted && basename == format!("{}-pkg.el", package.name) {
+                let mut data = Vec::new();
+                entry.read_to_end(&mut data)?;
+                pkg_file = Some(String::from_utf8_lossy(&data).into_owned());
+            } else if wanted && scanner::included(&path, &package.name) {
                 let mut data = Vec::new();
                 entry.read_to_end(&mut data)?;
                 contents.push((path, String::from_utf8_lossy(&data).into_owned()));
@@ -171,15 +196,28 @@ pub fn unpack(package: &Package, bytes: &[u8]) -> Result<PackageFacts> {
         }
     }
     if contents.is_empty() {
+        if package.kind == "github" {
+            bail!("no .el files at the repository root or in lisp/ (MELPA's default file set)");
+        }
         bail!("no checkable .el files");
     }
+    let main_requires = contents
+        .iter()
+        .find(|(path, _)| path.rsplit('/').next() == Some(&format!("{name}.el")))
+        .map(|(_, text)| scanner::requirements(text))
+        .or_else(|| pkg_file.as_deref().map(scanner::pkg_requirements))
+        .unwrap_or_default();
     let files = contents
         .iter()
-        .map(|(path, text)| scanner::scan(path, text))
+        .map(|(path, text)| scanner::scan(path, text, &name))
         .collect::<Result<Vec<_>>>()?;
     Ok(PackageFacts {
         name,
+        source,
         files,
+        main_requires,
         has_license_file,
+        repo_clean,
+        packaged_docs,
     })
 }

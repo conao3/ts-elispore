@@ -996,3 +996,48 @@ code {
     height: 34px;
   }
 }
+.check-rules a,
+.about-check-rules a,
+.about-check-advice a {
+  color: inherit;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+}
+.check-advice,
+.check-advice-none {
+  margin-top: 12px;
+}
+.check-advice-none {
+  color: var(--muted);
+  font-size: 11px;
+}
+.check-advice > button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--muted);
+  font-size: 11px;
+  padding: 3px 0;
+}
+.check-advice > button svg {
+  transform: rotate(-90deg);
+}
+.check-advice[data-expanded] > button svg {
+  transform: none;
+}
+.check-advice .check-rules {
+  margin-top: 10px;
+}
+.about-check-advice {
+  padding-left: 18px;
+  color: var(--muted);
+}
+.about-check-advice li {
+  margin-bottom: 6px;
+}
+.check-rules code,
+.about-check-rules code,
+.about-check-advice code {
+  font-family: ui-monospace, "JetBrains Mono", "SF Mono", Menlo, monospace;
+  font-size: 0.95em;
+}

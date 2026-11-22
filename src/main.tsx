@@ -191,7 +191,7 @@ function PackageRow({
             <span
               className="check-score"
               role="img"
-              aria-label={`${score.passed} of ${score.total} package checks pass`}
+              aria-label={`${score.passed} of ${score.total} required package checks pass`}
             >
               {score.passed}/{score.total}
             </span>

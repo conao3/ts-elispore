@@ -1,8 +1,11 @@
 pub mod archive;
+pub mod emacs_regex;
+pub mod melpazoid;
 pub mod scanner;
 pub mod sexp;
+pub mod syntax;
 
-pub const RULE_SET_VERSION: u32 = 3;
+pub const RULE_SET_VERSION: u32 = 4;
 
 leanfran::lean! {
     pub mod policy;
@@ -12,85 +15,115 @@ leanfran::lean! {
       stem : String
       firstLine : String
       lexicalBinding : Bool
-      author : String
-      maintainer : String
-      url : String
-      version : String
-      packageRequires : String
-      keywords : String
-      commentary : Bool
-      codeSection : Bool
-      footer : Bool
       licenseNotice : Bool
-      provides : List String
+      spdxId : String
+      licenseBeforeCommentary : Bool
       requires : List String
-      definitions : List String
+      urlQuoted : Bool
+      missingSharpQuote : Bool
+      faceInheritOverride : Bool
+      advice : List String
 
     structure PackageFacts where
       name : String
+      source : String
       files : List FileFacts
+      mainRequires : List String
       hasLicenseFile : Bool
+      repoClean : Bool
+      packagedDocs : Bool
 
     structure Rule where
       id : String
       title : String
       description : String
+      source : String
+
+    def contributing (line : String) : String :=
+      "https://github.com/melpa/melpa/blob/8d525bf492f8ae18a3855775eb2e3c65e957ad10/CONTRIBUTING.org?plain=1#L" ++ line
+
+    def melpazoidPy (line : String) : String :=
+      "https://github.com/riscy/melpazoid/blob/fcf5d883c6ced74ba16963d48c9e9e0bf0a1ff37/melpazoid/melpazoid.py#L" ++ line
 
     def mainFile (p : PackageFacts) : Bool :=
       p.files.any (fun f => f.fileName == p.name ++ ".el")
 
-    private def inMain (p : PackageFacts) (test : FileFacts → Bool) : Bool :=
-      p.files.any (fun f => f.fileName == p.name ++ ".el" && test f)
+    def summaryHeader (line : String) : Bool :=
+      ((((line.splitOn "-*-").headD "").splitOn " --- ").length) > 1
 
-    def summaryLine (p : PackageFacts) : Bool := inMain p fun f =>
-      let start := ";;; " ++ p.name ++ ".el --- "
-      start.isPrefixOf f.firstLine &&
-        !((f.firstLine.drop start.length).toString.trimAscii.toString).isEmpty
+    def packagingHeader (p : PackageFacts) : Bool := p.files.all (summaryHeader ·.firstLine)
 
+    def withoutSuffix (name suffix : String) : String :=
+      if name.endsWith suffix then String.ofList (name.toList.take (name.length - suffix.length)) else name
+
+    def filePrefix (name : String) : String :=
+      if name.endsWith "-mode" then withoutSuffix name "-mode" else withoutSuffix name "-themes"
+
+    def prefixedFile (name fileName : String) : Bool :=
+      (filePrefix name ++ "-").isPrefixOf fileName || (filePrefix name ++ ".").isPrefixOf fileName
+
+    def fileNames (p : PackageFacts) : Bool := p.files.all (prefixedFile p.name ·.fileName)
     def lexicalBinding (p : PackageFacts) : Bool := p.files.all (·.lexicalBinding)
-    def author (p : PackageFacts) : Bool := inMain p (!·.author.isEmpty)
-    def url (p : PackageFacts) : Bool := inMain p (!·.url.isEmpty)
-    def version (p : PackageFacts) : Bool := inMain p (!·.version.isEmpty)
-    def packageRequires (p : PackageFacts) : Bool := inMain p (!·.packageRequires.isEmpty)
-    def commentary (p : PackageFacts) : Bool := inMain p (·.commentary)
-    def codeSection (p : PackageFacts) : Bool := p.files.all (·.codeSection)
-    def provide (p : PackageFacts) : Bool := p.files.all fun f => f.provides.contains f.stem
-    def footer (p : PackageFacts) : Bool := p.files.all (·.footer)
-    def license (p : PackageFacts) : Bool := p.hasLicenseFile || p.files.any (·.licenseNotice)
+    def licenseNotice (p : PackageFacts) : Bool := p.files.all (·.licenseNotice)
+    def licenseSpdx (p : PackageFacts) : Bool := p.files.all (·.spdxId != "GPL-2.0-only")
+    def licensePosition (p : PackageFacts) : Bool := p.files.all (·.licenseBeforeCommentary)
 
-    def prefixed (base symbol : String) : Bool :=
-      symbol == base || (base ++ "-").isPrefixOf symbol || (base ++ "/").isPrefixOf symbol
+    def requiresMain (p : PackageFacts) : Bool :=
+      mainFile p && p.files.all (fun f => f.requires.all (p.mainRequires.contains ·))
 
-    theorem prefixed_self (name : String) : prefixed name name = true := by
-      simp [prefixed]
+    def unquotedName (requirement : String) : Bool :=
+      !(((requirement.splitOn " ").headD "").contains '"')
 
-    def symbolPrefix (p : PackageFacts) : Bool := p.files.all fun f =>
-      f.definitions.all (fun s => prefixed p.name s || prefixed f.stem s)
+    def requiresUnquoted (p : PackageFacts) : Bool := p.files.all (·.requires.all unquotedName)
+    def urlUnquoted (p : PackageFacts) : Bool := p.files.all (!·.urlQuoted)
+    def sharpQuote (p : PackageFacts) : Bool := p.files.all (!·.missingSharpQuote)
+    def faceInherit (p : PackageFacts) : Bool := p.files.all (!·.faceInheritOverride)
 
-    def noCl (p : PackageFacts) : Bool := p.files.all fun f => !f.requires.contains "cl"
+    theorem requiresMain_mainFile (p : PackageFacts) (h : requiresMain p = true) :
+        mainFile p = true := by
+      simp [requiresMain] at h
+      exact h.1
 
     def rules : List Rule := [
-      ⟨"main-file", "Main file", "A file named <package>.el exists."⟩,
-      ⟨"summary-line", "Summary line", "The main file begins with a named summary line."⟩,
-      ⟨"lexical-binding", "Lexical binding", "Every checked file enables lexical binding on its first line."⟩,
-      ⟨"author", "Author", "The main file declares an Author header."⟩,
-      ⟨"url", "URL", "The main file declares a URL or Homepage header."⟩,
-      ⟨"version", "Version", "The main file declares a Version or Package-Version header."⟩,
-      ⟨"package-requires", "Package requirements", "The main file declares Package-Requires, including an empty list if appropriate."⟩,
-      ⟨"commentary", "Commentary", "The main file has a Commentary section."⟩,
-      ⟨"code-section", "Code section", "Every checked file has a Code section."⟩,
-      ⟨"provide", "Feature", "Every checked file provides its own file-stem feature."⟩,
-      ⟨"footer", "Footer", "Every checked file has its named ends-here footer."⟩,
-      ⟨"license", "License", "A file contains a license notice or the package has a LICENSE/COPYING file."⟩,
-      ⟨"symbol-prefix", "Symbol prefix", "Top-level definitions use the package or file-stem namespace."⟩,
-      ⟨"no-cl", "No legacy cl", "No checked file requires the obsolete cl feature."⟩]
+      ⟨"main-file", "Main file", "A file named <package>.el exists.", melpazoidPy "492"⟩,
+      ⟨"packaging-header", "Packaging header", "Every file starts with a `;;; <file>.el --- <summary>` line.", melpazoidPy "530"⟩,
+      ⟨"file-prefix", "File names", "Every file name starts with the package name (without -mode or -themes) followed by - or a dot.", melpazoidPy "522"⟩,
+      ⟨"packaged-docs", "No packaged docs", "The MELPA package does not ship change logs, READMEs or license files.", contributing "127"⟩,
+      ⟨"lexical-binding", "Lexical binding", "Every file enables lexical binding on its first line.", contributing "147"⟩,
+      ⟨"license-notice", "License boilerplate", "Every file has license boilerplate or an SPDX-License-Identifier.", contributing "83"⟩,
+      ⟨"license-spdx", "GPL-compatible SPDX", "No SPDX-License-Identifier is GPL-2.0-only.", melpazoidPy "647"⟩,
+      ⟨"license-position", "License above Commentary", "License boilerplate comes before `;;; Commentary`.", contributing "86"⟩,
+      ⟨"license-file", "License file", "The repository has a LICENSE or COPYING file.", contributing "87"⟩,
+      ⟨"requires-main", "Package-Requires in main file", "The main file's Package-Requires includes every requirement declared in other files.", melpazoidPy "718"⟩,
+      ⟨"requires-unquoted", "Unquoted requirements", "Package names in Package-Requires are not quoted.", melpazoidPy "293"⟩,
+      ⟨"url-unquoted", "Unquoted URL", "The URL or Homepage header has no quotation marks.", melpazoidPy "471"⟩,
+      ⟨"repo-clean", "Clean repository", "The repository has no .elc, backup (~) or .DS_Store files.", melpazoidPy "446"⟩,
+      ⟨"sharp-quote", "Sharp-quoted functions", "Function names passed as arguments use #' instead of '.", contributing "153"⟩,
+      ⟨"face-inherit", "Face inheritance", "No face both inherits another face and overrides its attributes.", contributing "148"⟩]
 
-    def evaluate (p : PackageFacts) : List (String × Bool) := [
-      ("main-file", mainFile p), ("summary-line", summaryLine p),
-      ("lexical-binding", lexicalBinding p), ("author", author p), ("url", url p),
-      ("version", version p), ("package-requires", packageRequires p),
-      ("commentary", commentary p), ("code-section", codeSection p),
-      ("provide", provide p), ("footer", footer p), ("license", license p),
-      ("symbol-prefix", symbolPrefix p), ("no-cl", noCl p)]
+    def applies (p : PackageFacts) (id : String) : Bool :=
+      if id == "license-file" || id == "repo-clean" then p.source == "github"
+      else if id == "packaged-docs" then p.source == "melpa"
+      else true
+
+    def evaluate (p : PackageFacts) : List (String × Bool × Bool) := [
+      ("main-file", applies p "main-file", mainFile p),
+      ("packaging-header", applies p "packaging-header", packagingHeader p),
+      ("file-prefix", applies p "file-prefix", fileNames p),
+      ("packaged-docs", applies p "packaged-docs", !p.packagedDocs),
+      ("lexical-binding", applies p "lexical-binding", lexicalBinding p),
+      ("license-notice", applies p "license-notice", licenseNotice p),
+      ("license-spdx", applies p "license-spdx", licenseSpdx p),
+      ("license-position", applies p "license-position", licensePosition p),
+      ("license-file", applies p "license-file", p.hasLicenseFile),
+      ("requires-main", applies p "requires-main", requiresMain p),
+      ("requires-unquoted", applies p "requires-unquoted", requiresUnquoted p),
+      ("url-unquoted", applies p "url-unquoted", urlUnquoted p),
+      ("repo-clean", applies p "repo-clean", p.repoClean),
+      ("sharp-quote", applies p "sharp-quote", sharpQuote p),
+      ("face-inherit", applies p "face-inherit", faceInherit p)]
+
+    def advice (p : PackageFacts) : List String :=
+      p.files.foldl (fun acc f => acc ++ f.advice.filter (fun id => !acc.contains id)) []
     "#
 }

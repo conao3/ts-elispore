@@ -1,5 +1,6 @@
 import { Link } from "react-aria-components"
 import type { Checks } from "./checks"
+import { InlineCode } from "./inline-code"
 
 const repository = "https://github.com/conao3/ts-elispore"
 
@@ -60,18 +61,46 @@ export function About({ checks }: { checks: Checks | null }) {
       <section aria-labelledby="package-checks-about">
         <h2 id="package-checks-about">Package checks</h2>
         <p>
-          Checks scan package source without running it. Results are cached and refreshed only on
-          explicit re-run, not with the daily catalog update.
+          Checks scan package source without running it. The rules come from MELPA&rsquo;s{" "}
+          <Link href="https://github.com/melpa/melpa/blob/master/CONTRIBUTING.org">
+            CONTRIBUTING.org
+          </Link>{" "}
+          and from <Link href="https://github.com/riscy/melpazoid">melpazoid</Link>, scripts for
+          testing Emacs packages that are primarily submitted to MELPA. Required checks make up the
+          score; melpazoid&rsquo;s other findings are listed as advice. Checks that need Emacs
+          itself (byte-compilation, checkdoc, package-lint, loading) are not run. Results are cached
+          and refreshed only on explicit re-run, not with the daily catalog update.
         </p>
         {checks && (
-          <dl className="about-check-rules">
-            {checks.rules.map((rule) => (
-              <div key={rule.id}>
-                <dt>{rule.title}</dt>
-                <dd>{rule.description}</dd>
-              </div>
-            ))}
-          </dl>
+          <>
+            <h3>Required</h3>
+            <dl className="about-check-rules">
+              {checks.rules
+                .filter((rule) => rule.level === "required")
+                .map((rule) => (
+                  <div key={rule.id}>
+                    <dt>
+                      <Link href={rule.source}>{rule.title}</Link>
+                    </dt>
+                    <dd>
+                      <InlineCode text={rule.description} />
+                    </dd>
+                  </div>
+                ))}
+            </dl>
+            <h3>melpazoid advice</h3>
+            <ul className="about-check-advice">
+              {checks.rules
+                .filter((rule) => rule.level === "advice")
+                .map((rule) => (
+                  <li key={rule.id}>
+                    <Link href={rule.source}>
+                      <InlineCode text={rule.title} />
+                    </Link>
+                  </li>
+                ))}
+            </ul>
+          </>
         )}
       </section>
       <section aria-labelledby="why-elispore">

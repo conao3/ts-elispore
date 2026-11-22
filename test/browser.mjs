@@ -226,7 +226,7 @@ try {
   await click('.package[data-name="agda/agda"] .repo-trigger')
   const melpaOptions = ':vc (:url "https://github.com/agda/agda" :lisp-dir "src/data/emacs-mode")'
   assert.equal(
-    await evaluate("document.querySelector('code').textContent"),
+    await evaluate("document.querySelector('pre code').textContent"),
     `(leaf annotation\n  ${melpaOptions})`,
   )
   const melpa = await send("Page.captureScreenshot", {
@@ -244,13 +244,13 @@ try {
     await click(`.snippet-switch button:${format === "leaf" ? "first" : "last"}-child`)
     await click(".copy")
     assert.deepEqual(
-      await evaluate("[document.querySelector('code').textContent, window.copiedSnippet]"),
+      await evaluate("[document.querySelector('pre code').textContent, window.copiedSnippet]"),
       [`(${format} annotation\n  ${melpaOptions})`, `(${format} annotation\n  ${melpaOptions})`],
     )
   }
   await edit("repo:agda/agda eri")
   assert.equal(
-    await evaluate("document.querySelector('code').textContent"),
+    await evaluate("document.querySelector('pre code').textContent"),
     `(use-package eri\n  ${melpaOptions})`,
   )
   assert.equal(await evaluate("document.querySelector('.copy').textContent"), "Copy")
@@ -454,7 +454,7 @@ try {
   await evaluate(`document.querySelector('.requirements > button').click()`)
   await settle()
   assert.equal(
-    await evaluate("document.querySelector('code').textContent"),
+    await evaluate("document.querySelector('pre code').textContent"),
     '(leaf vertico\n  :vc (:url "https://github.com/minad/vertico"))',
   )
   assert.equal(
@@ -469,7 +469,7 @@ try {
   await key(" ", "Space", 32)
   await settle()
   const selectedCode = '(use-package vertico\n  :vc (:url "https://github.com/minad/vertico"))'
-  assert.equal(await evaluate("document.querySelector('code').textContent"), selectedCode)
+  assert.equal(await evaluate("document.querySelector('pre code').textContent"), selectedCode)
   assert.equal(
     await evaluate(
       `String(document.querySelectorAll('.snippet-switch button')[1].hasAttribute('data-selected'))`,
@@ -489,7 +489,7 @@ try {
   assert.equal(await evaluate(`document.querySelector('.copy').textContent`), "Copied")
   await evaluate(`document.querySelector('.snippet-switch button').click()`)
   await settle()
-  assert.ok(await evaluate(`document.querySelector('code').textContent.startsWith('(leaf ')`))
+  assert.ok(await evaluate(`document.querySelector('pre code').textContent.startsWith('(leaf ')`))
   assert.equal(await evaluate(`document.querySelector('.copy').textContent`), "Copy")
   await click("#sort")
   await waitFor(`Boolean(document.querySelector('[role=listbox]'))`)
@@ -515,15 +515,60 @@ try {
     true,
   )
   await waitFor(`Boolean(document.querySelector('.check-score'))`)
-  assert.match(
+  const checksReport = JSON.parse(await readFile(path.join(dist, "checks.json"), "utf8"))
+  const vertico = checksReport.results["melpa/vertico"]
+  const requiredRules = checksReport.rules.filter(
+    (rule) => rule.level === "required" && !(vertico.skipped ?? []).includes(rule.id),
+  )
+  const requiredPassed = requiredRules.filter((rule) => !vertico.failed.includes(rule.id)).length
+  assert.equal(
     await evaluate(`document.querySelector('.check-score').getAttribute('aria-label')`),
-    /^\d+ of 14 package checks pass$/,
+    `${requiredPassed} of ${requiredRules.length} required package checks pass`,
   )
   assert.equal(
     await evaluate(`document.querySelector('.package-checks h3').textContent`),
     "Package checks",
   )
-  assert.ok(await evaluate(`document.querySelectorAll('.check-rules li').length >= 14`))
+  const melpaIndex = await evaluate(
+    `[...document.querySelectorAll('.checked-package')].findIndex((e) => e.querySelector('h4').textContent.startsWith('MELPA'))`,
+  )
+  assert.ok(melpaIndex >= 0)
+  const melpaPackage = `.package-checks .checked-package:nth-of-type(${melpaIndex + 1})`
+  assert.equal(
+    await evaluate(
+      `document.querySelector('${melpaPackage}').querySelectorAll(':scope > .check-rules > li').length`,
+    ),
+    requiredRules.length,
+  )
+  const verticoAdvice = checksReport.rules.filter(
+    (rule) => rule.level === "advice" && vertico.failed.includes(rule.id),
+  )
+  if (verticoAdvice.length) {
+    const adviceButton = `${melpaPackage} .check-advice > button`
+    assert.equal(
+      await evaluate(`document.querySelector('${adviceButton}').textContent`),
+      `melpazoid advice (${verticoAdvice.length})`,
+    )
+    await click(adviceButton)
+    await waitFor(
+      `document.querySelector('${melpaPackage} .check-advice').hasAttribute('data-expanded')`,
+    )
+    assert.equal(
+      await evaluate(
+        `document.querySelectorAll('${melpaPackage} .check-advice .check-rules li').length`,
+      ),
+      verticoAdvice.length,
+    )
+    await evaluate(`document.querySelector('${adviceButton}').focus()`)
+    await key("Enter", "Enter", 13)
+    await waitFor(
+      `!document.querySelector('${melpaPackage} .check-advice').hasAttribute('data-expanded')`,
+    )
+  } else {
+    assert.ok(
+      await evaluate(`Boolean(document.querySelector('${melpaPackage} .check-advice-none'))`),
+    )
+  }
   assert.ok(
     await evaluate(`document.querySelector('.checked-version').textContent.startsWith('Version ')`),
   )
@@ -597,7 +642,7 @@ try {
     `document.querySelectorAll('.snippet-switch button')[1].click(); document.querySelector('.code-block').scrollIntoView({block:'center'})`,
   )
   await settle()
-  assert.equal(await evaluate("document.querySelector('code').textContent"), selectedCode)
+  assert.equal(await evaluate("document.querySelector('pre code').textContent"), selectedCode)
   assert.ok(await evaluate(`document.documentElement.scrollWidth<=390`))
   const mobile = await send("Page.captureScreenshot", {
     format: "png",
@@ -618,7 +663,13 @@ try {
   await screenshot("elispore-header-mobile")
   await click(".add-recipe")
   await waitFor(`document.querySelector('#why-elispore') && location.pathname==='/about/'`)
-  await waitFor(`document.querySelectorAll('.about-check-rules dt').length===14`)
+  await waitFor(
+    `document.querySelectorAll('.about-check-rules dt').length===${checksReport.rules.filter((rule) => rule.level === "required").length}`,
+  )
+  assert.equal(
+    await evaluate(`document.querySelectorAll('.about-check-advice li').length`),
+    checksReport.rules.filter((rule) => rule.level === "advice").length,
+  )
   assert.equal(await evaluate("document.querySelector('h1').textContent"), "Add recipe")
   assert.ok(await evaluate("document.documentElement.scrollWidth<=390"))
   assert.ok(
@@ -696,7 +747,7 @@ try {
   }
   assert.deepEqual(errors, [])
   console.log(
-    "Package checks passed: accessible score, all rules, versions, about rule list, error results, nonblocking delayed load with stable rows, and invalid report fallback.",
+    "Package checks passed: required score, required rules, advice disclosure by pointer and keyboard, versions, about rule lists, error results, nonblocking delayed load with stable rows, and invalid report fallback.",
   )
   console.log(
     "Browser checks passed: production chrome, repository copy, avatars, owner/topic query sync, accordion stability, multiple expansion, errors, mobile filters, Add recipe pointer/keyboard navigation, direct about load, and light/dark screenshots.",
