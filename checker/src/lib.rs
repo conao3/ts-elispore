@@ -5,7 +5,7 @@ pub mod scanner;
 pub mod sexp;
 pub mod syntax;
 
-pub const RULE_SET_VERSION: u32 = 6;
+pub const RULE_SET_VERSION: u32 = 7;
 
 leanfran::lean! {
     pub mod policy;
@@ -121,8 +121,26 @@ leanfran::lean! {
     def footer (p : PackageFacts) : Bool := p.files.all (·.footer)
     def noCl (p : PackageFacts) : Bool := p.files.all (!·.requires.contains "cl")
 
+    def requirementNames (p : PackageFacts) : List String :=
+      p.mainRequires.map fun r => (r.splitOn " ").headD ""
+
+    def hyphenParents (name : String) : List String :=
+      let parts := name.splitOn "-"
+      (List.range (parts.length - 1)).map fun i => "-".intercalate (parts.take (i + 1))
+
+    def namePrefixes (p : PackageFacts) : List String :=
+      [p.name, filePrefix p.name]
+        ++ (if "ox-".isPrefixOf p.name then ["org-" ++ String.ofList (p.name.toList.drop 3)] else [])
+        ++ (hyphenParents p.name).filter (requirementNames p).contains
+
+    def unwrapped (symbol : String) : String :=
+      if "with-".isPrefixOf symbol then String.ofList (symbol.toList.drop 5)
+      else if "define-".isPrefixOf symbol then String.ofList (symbol.toList.drop 7)
+      else symbol
+
     def symbolPrefix (p : PackageFacts) : Bool := p.files.all fun f =>
-      f.definitions.all (fun s => prefixed p.name s || prefixed f.stem s)
+      f.definitions.all fun s =>
+        (f.stem :: namePrefixes p).any fun b => prefixed b s || prefixed b (unwrapped s)
 
     theorem requiresMain_mainFile (p : PackageFacts) (h : requiresMain p = true) :
         mainFile p = true := by
@@ -188,8 +206,12 @@ leanfran::lean! {
       ⟨"footer", "Footer", "Every file has a `;;; <file>.el ends here` line.", [
         manual "Library-Headers" headers "This is the footer line; it appears at the very end of the file.",
         conventions]⟩,
-      ⟨"symbol-prefix", "Symbol prefix", "Top-level definitions are the package or file name, or start with it followed by -.", [
+      ⟨"symbol-prefix", "Symbol prefix", "Top-level definitions start with a prefix of the package: its name or file name, its name without -mode or -themes, org- for an ox- package, or a parent package it requires; a with- or define- before the prefix is allowed.", [
         manual "Coding-Conventions" coding "The names of all global symbols in your program, that is the names of variables, constants, and functions, should begin with that chosen prefix. Separate the prefix from the rest of the name with a hyphen, ‘-’.",
+        manual "Coding-Conventions" coding "If one prefix is insufficient, your package can use two or three alternative common prefixes, so long as they make sense.",
+        manual "Coding-Conventions" coding "constructs that define functions, variables, etc., may work better if they start with ‘define-’, so it’s okay to put the name prefix later on in the name.",
+        melpazoidPy "L763-L765" "variations += ['org-' + name[3:]] if name.startswith('ox-') else []",
+        melpazoidPy "L822" "_warn(f\"  - `{name}` does not depend on `{pkg_short}` - consider renaming\")",
         conventions]⟩,
       ⟨"no-cl", "No legacy cl", "No file requires the obsolete cl library.", [
         manual "Coding-Conventions" coding "If you need Common Lisp extensions, use the cl-lib library rather than the old cl library.",

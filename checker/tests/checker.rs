@@ -199,6 +199,27 @@ fn package_level_rules() {
             "{provide}"
         );
     }
+    let defines = |name: &str, definition: &str, requires: Vec<String>| {
+        let text = format!("(defvar {definition} nil)\n");
+        let facts = policy::PackageFacts {
+            name: name.into(),
+            files: vec![scanner::scan(&format!("{name}.el"), &text, name).unwrap()],
+            ..package(vec![], requires)
+        };
+        policy::symbol_prefix(facts)
+    };
+    assert!(defines("seml-mode", "seml-value", vec![]));
+    assert!(defines("ox-zenn", "org-zenn-value", vec![]));
+    assert!(defines(
+        "leaf-keywords",
+        "leaf-value",
+        vec!["leaf \"3.0\"".into()]
+    ));
+    assert!(!defines("leaf-keywords", "leaf-value", vec![]));
+    assert!(!defines("dired-git", "dired-value", vec![]));
+    assert!(defines("ppp", "with-ppp--buffer", vec![]));
+    assert!(defines("sample", "define-sample-thing", vec![]));
+    assert!(!defines("sample", "other-value", vec![]));
     assert!(policy::prefixed("sample", "sample-x"));
     assert!(!policy::prefixed("sample", "sample/x"));
     assert!(!policy::prefixed("sample", "samples"));
