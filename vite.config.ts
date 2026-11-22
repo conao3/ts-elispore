@@ -40,9 +40,14 @@ export default defineConfig({
       },
     },
   ],
-  fmt: { semi: false, doubleQuote: true, sortPackageJson: false },
+  fmt: {
+    semi: false,
+    doubleQuote: true,
+    sortPackageJson: false,
+    ignorePatterns: ["public/checks.json", "checker/target/**", "checker/lean/**"],
+  },
   lint: {
-    ignorePatterns: ["dist/**", ".claude-dev/**"],
+    ignorePatterns: ["dist/**", ".claude-dev/**", "checker/target/**", "public/checks.json"],
     categories: { correctness: "error" },
     options: { typeAware: true, typeCheck: true },
   },

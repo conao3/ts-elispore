@@ -4,6 +4,12 @@ on:
     branches: [master]
   pull_request:
   workflow_dispatch:
+    inputs:
+      checks:
+        description: Refresh package checks
+        type: choice
+        default: skip
+        options: [skip, update, all]
   schedule:
     - cron: "17 6 * * *"
 permissions:
@@ -19,6 +25,13 @@ jobs:
       - uses: cachix/install-nix-action@v31.11.5
       - run: nix develop --command pnpm install --frozen-lockfile
       - run: nix develop --command pnpm exec vp run check
+      - run: nix develop --command cargo fmt --manifest-path checker/Cargo.toml --check
+      - run: nix develop --command cargo clippy --manifest-path checker/Cargo.toml -- -D warnings
+        env:
+          LEANFRAN_OFFLINE: "1"
+      - run: nix develop --command cargo test --manifest-path checker/Cargo.toml
+        env:
+          LEANFRAN_OFFLINE: "1"
       - run: nix build
   deploy:
     needs: check
@@ -35,6 +48,9 @@ jobs:
         run: nix develop --command pnpm run catalog
         env:
           GH_TOKEN: ${{ github.token }}
+      - name: Refresh package checks
+        if: github.event_name == 'workflow_dispatch' && (inputs.checks == 'update' || inputs.checks == 'all')
+        run: nix develop --command pnpm run checks ${{ inputs.checks == 'all' && '--force' || '' }}
       - run: nix develop --command pnpm exec vp run check
       - run: nix develop --command pnpm run build
       - name: Deploy Worker and custom domain
@@ -48,7 +64,10 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add public/catalog.json examples/package-archives.jsonl.gz
+          if [ '${{ inputs.checks }}' = 'update' ] || [ '${{ inputs.checks }}' = 'all' ]; then
+            git add public/checks.json
+          fi
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh GitHub package catalog'
+            git commit -m 'Refresh package metadata'
             git push
           fi

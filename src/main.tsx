@@ -45,6 +45,9 @@ import type { SnippetFormat, SnippetMethod } from "./snippet"
 import { relativeTime, tokenizeSnippet } from "./presentation"
 import "./style.css"
 import { About } from "./about"
+import { checksSchema, checkScore, entryChecks } from "./checks"
+import type { Checks } from "./checks"
+import { PackageChecks } from "./package-checks"
 
 const yearAgo = new Date(Date.now() - 365 * 86400000).toISOString().slice(0, 10)
 function Github({ size = 16 }: { size?: number }) {
@@ -66,6 +69,7 @@ function Github({ size = 16 }: { size?: number }) {
 }
 function PackageRow({
   entry,
+  checks,
   filters,
   opened,
   onOpen,
@@ -73,6 +77,7 @@ function PackageRow({
   onTopic,
 }: {
   entry: Entry
+  checks: Checks | null
   filters: Filter[]
   opened: boolean
   onOpen: (open: boolean) => void
@@ -82,6 +87,8 @@ function PackageRow({
   const [owner, name] = entry.name.split("/")
   const github = new URL(entry.url).hostname === "github.com" && Boolean(name)
   const stars = entry.stars?.toLocaleString("en")
+  const packages = entryChecks(entry, checks)
+  const score = checkScore(packages, checks?.rules ?? [])
   const [format, setFormat] = useState<SnippetFormat>("leaf")
   const [method, setMethod] = useState<SnippetMethod>("vc")
   const { code, note, hasArchive } = installationExample(entry, format, filters, method)
@@ -176,8 +183,19 @@ function PackageRow({
           )}
         </span>
         <span className="stars">
-          <Star size={14} aria-hidden="true" />
-          {stars ?? "—"}
+          <span className="star-count">
+            <Star size={14} aria-hidden="true" />
+            {stars ?? "—"}
+          </span>
+          {score && (
+            <span
+              className="check-score"
+              role="img"
+              aria-label={`${score.passed} of ${score.total} package checks pass`}
+            >
+              {score.passed}/{score.total}
+            </span>
+          )}
         </span>
         <time dateTime={entry.updated} title={entry.updated}>
           {entry.updated ? relativeTime(entry.updated) : "—"}
@@ -237,6 +255,7 @@ function PackageRow({
               </>
             )}
           </dl>
+          {checks && <PackageChecks packages={packages} report={checks} />}
           <div className="links">
             <Link href={entry.url} target="_blank" rel="noopener">
               {github ? (
@@ -350,6 +369,22 @@ function PackageRow({
   )
 }
 function App() {
+  const [checks, setChecks] = useState<Checks | null>(null)
+  useEffect(() => {
+    const controller = new AbortController()
+    fetch("/checks.json", { signal: controller.signal })
+      .then((response) => {
+        if (!response.ok) throw new Error("Checks unavailable")
+        return response.json()
+      })
+      .then((value: unknown) => {
+        if (!controller.signal.aborted) setChecks(checksSchema.parse(value))
+      })
+      .catch(() => {
+        /* Optional cached results must not interrupt search. */
+      })
+    return () => controller.abort()
+  }, [])
   const [entries, setEntries] = useState<Entry[]>([]),
     [date, setDate] = useState(""),
     [loading, setLoading] = useState(true),
@@ -598,7 +633,7 @@ function App() {
         </div>
       </header>
       {window.location.pathname.replace(/\/$/, "") === "/about" ? (
-        <About />
+        <About checks={checks} />
       ) : (
         <div className="layout">
           <aside aria-label="Package filters">{filters}</aside>
@@ -752,6 +787,7 @@ function App() {
                       <PackageRow
                         key={entry.id}
                         entry={entry}
+                        checks={checks}
                         filters={state.filters}
                         opened={openIds.has(entry.id)}
                         onOpen={(open) =>

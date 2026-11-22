@@ -486,10 +486,81 @@ kbd {
 }
 .stars {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
   justify-content: flex-end;
   gap: 5px;
   font-size: 12px;
+  color: var(--muted);
+}
+.star-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.check-score {
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+.package-checks {
+  margin-top: 24px;
+  font-size: 12px;
+}
+.package-checks h3 {
+  margin: 0;
+  font-size: 13px;
+}
+.checks-date,
+.checked-version {
+  color: var(--muted);
+  font-size: 11px;
+  margin: 5px 0 12px;
+  overflow-wrap: anywhere;
+}
+.checked-package h4 {
+  margin: 16px 0 0;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.check-rules {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+.check-rules li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.check-rules svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.check-pass svg {
+  color: var(--muted);
+}
+.check-fail svg,
+.check-error {
+  color: var(--accent);
+}
+.check-rules small {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
+  margin-top: 2px;
+}
+.check-error {
+  overflow-wrap: anywhere;
+}
+.about-check-rules dt {
+  font-weight: 600;
+}
+.about-check-rules dd {
+  margin: 3px 0 16px;
   color: var(--muted);
 }
 .package-row time {

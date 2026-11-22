@@ -7,9 +7,22 @@ import path from "node:path"
 const scratch = path.resolve(".claude-dev/scratch")
 await mkdir(scratch, { recursive: true })
 const dist = path.resolve("dist")
+let checksMode = "ready"
+let releaseChecks
 const server = createServer(async (req, res) => {
   try {
     const pathname = decodeURIComponent(new URL(req.url, "http://localhost").pathname)
+    if (pathname === "/checks.json") {
+      if (checksMode === "delayed")
+        await new Promise((resolve) => {
+          releaseChecks = resolve
+        })
+      if (checksMode === "invalid") {
+        res.setHeader("Content-Type", "application/json")
+        res.end('{"version":"invalid"}')
+        return
+      }
+    }
     const file = path.resolve(
       dist,
       "." + (pathname.endsWith("/") ? pathname + "index.html" : pathname),
@@ -501,6 +514,34 @@ try {
     await evaluate(`document.querySelector('.package').hasAttribute('data-expanded')`),
     true,
   )
+  await waitFor(`Boolean(document.querySelector('.check-score'))`)
+  assert.match(
+    await evaluate(`document.querySelector('.check-score').getAttribute('aria-label')`),
+    /^\d+ of 14 package checks pass$/,
+  )
+  assert.equal(
+    await evaluate(`document.querySelector('.package-checks h3').textContent`),
+    "Package checks",
+  )
+  assert.ok(await evaluate(`document.querySelectorAll('.check-rules li').length >= 14`))
+  assert.ok(
+    await evaluate(`document.querySelector('.checked-version').textContent.startsWith('Version ')`),
+  )
+  const screens = path.join(scratch, "screens")
+  await mkdir(screens, { recursive: true })
+  await send("Emulation.setEmulatedMedia", {
+    features: [{ name: "prefers-color-scheme", value: "light" }],
+  })
+  await evaluate(`window.scrollTo(0,0)`)
+  await settle()
+  const checksDesktop = await send("Page.captureScreenshot", {
+    format: "png",
+    captureBeyondViewport: false,
+  })
+  await writeFile(
+    path.join(screens, "elispore-checks-light.png"),
+    Buffer.from(checksDesktop.data, "base64"),
+  )
   const image = await send("Page.captureScreenshot", {
     format: "png",
     captureBeyondViewport: false,
@@ -515,6 +556,23 @@ try {
   await settle()
   assert.ok(await evaluate(`document.documentElement.scrollWidth<=390`))
   assert.equal(await evaluate(`getComputedStyle(document.querySelector('aside')).display`), "none")
+  assert.ok(
+    await evaluate(
+      `Boolean(document.querySelector('.check-score')) && Boolean(document.querySelector('.package-checks'))`,
+    ),
+  )
+  await evaluate(
+    `window.scrollTo(0, document.querySelector('.package-row').getBoundingClientRect().top + window.scrollY - 70)`,
+  )
+  await settle()
+  const checksMobile = await send("Page.captureScreenshot", {
+    format: "png",
+    captureBeyondViewport: false,
+  })
+  await writeFile(
+    path.join(screens, "elispore-checks-mobile.png"),
+    Buffer.from(checksMobile.data, "base64"),
+  )
   await click("#mobile-filter")
   await settle()
   assert.equal(
@@ -546,7 +604,7 @@ try {
     captureBeyondViewport: false,
   })
   await writeFile(path.join(scratch, "production-mobile.png"), Buffer.from(mobile.data, "base64"))
-  const shots = "/home/ubuntu/shots"
+  const shots = path.join(scratch, "shots")
   await mkdir(shots, { recursive: true })
   async function screenshot(name) {
     const result = await send("Page.captureScreenshot", {
@@ -560,6 +618,7 @@ try {
   await screenshot("elispore-header-mobile")
   await click(".add-recipe")
   await waitFor(`document.querySelector('#why-elispore') && location.pathname==='/about/'`)
+  await waitFor(`document.querySelectorAll('.about-check-rules dt').length===14`)
   assert.equal(await evaluate("document.querySelector('h1').textContent"), "Add recipe")
   assert.ok(await evaluate("document.documentElement.scrollWidth<=390"))
   assert.ok(
@@ -600,7 +659,43 @@ try {
   })
   await settle()
   await screenshot("elispore-about-dark")
+  const report = JSON.parse(await readFile(path.join(dist, "checks.json"), "utf8"))
+  const failedEntry = catalog.entries.find(
+    (entry) =>
+      entry.sources?.length === 1 &&
+      entry.sources[0] === "github" &&
+      report.results[`github/${entry.name}`]?.error,
+  )
+  assert.ok(failedEntry)
+  await send("Page.navigate", {
+    url: origin + "/?q=" + encodeURIComponent(`repo:${failedEntry.name}`),
+  })
+  await waitFor(`Boolean(document.querySelector('.repo-trigger'))`)
+  await click(".repo-trigger")
+  await waitFor(`Boolean(document.querySelector('.check-error'))`)
+  assert.match(
+    await evaluate(`document.querySelector('.check-error').textContent`),
+    /Could not run checks:/,
+  )
+  assert.equal(await evaluate(`document.querySelector('.check-score')`), null)
+  checksMode = "delayed"
+  await send("Page.navigate", { url: origin + "/?q=repo:minad/vertico" })
+  await waitFor(`Boolean(document.querySelector('.repo-trigger'))`)
+  assert.equal(await evaluate(`document.querySelector('.check-score')`), null)
+  const uncheckedRow = await measure()
+  assert.ok(releaseChecks)
+  releaseChecks()
+  await waitFor(`Boolean(document.querySelector('.check-score'))`)
+  assert.deepEqual(await measure(), uncheckedRow)
+  checksMode = "invalid"
+  await send("Page.navigate", { url: origin + "/?q=repo:minad/vertico" })
+  await waitFor(`Boolean(document.querySelector('.repo-trigger'))`)
+  await settle()
+  assert.equal(await evaluate(`document.querySelector('.check-score')`), null)
   assert.deepEqual(errors, [])
+  console.log(
+    "Package checks passed: accessible score, all rules, versions, about rule list, error results, nonblocking delayed load with stable rows, and invalid report fallback.",
+  )
   console.log(
     "Browser checks passed: production chrome, repository copy, avatars, owner/topic query sync, accordion stability, multiple expansion, errors, mobile filters, Add recipe pointer/keyboard navigation, direct about load, and light/dark screenshots.",
   )

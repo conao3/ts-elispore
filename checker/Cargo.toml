@@ -1,0 +1,22 @@
+[package]
+name = "elispore-check"
+version = "0.1.0"
+edition = "2021"
+publish = false
+include = ["src/**", "build.rs", ".leanfran/cache/**", "lean/**"]
+
+[dependencies]
+leanfran = "0.6"
+clap = { version = "4", features = ["derive"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls"] }
+futures = "0.3"
+flate2 = "1"
+tar = "0.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+anyhow = "1"
+
+[build-dependencies]
+leanfran-build = "0.6"
