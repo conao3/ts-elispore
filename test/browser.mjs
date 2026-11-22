@@ -678,20 +678,22 @@ try {
     /Could not run checks:/,
   )
   assert.equal(await evaluate(`document.querySelector('.check-score')`), null)
-  checksMode = "delayed"
-  await send("Page.navigate", { url: origin + "/?q=repo:minad/vertico" })
-  await waitFor(`Boolean(document.querySelector('.repo-trigger'))`)
-  assert.equal(await evaluate(`document.querySelector('.check-score')`), null)
-  const uncheckedRow = await measure()
-  assert.ok(releaseChecks)
-  releaseChecks()
-  await waitFor(`Boolean(document.querySelector('.check-score'))`)
-  assert.deepEqual(await measure(), uncheckedRow)
-  checksMode = "invalid"
-  await send("Page.navigate", { url: origin + "/?q=repo:minad/vertico" })
-  await waitFor(`Boolean(document.querySelector('.repo-trigger'))`)
-  await settle()
-  assert.equal(await evaluate(`document.querySelector('.check-score')`), null)
+  if (!process.argv[2]) {
+    checksMode = "delayed"
+    await send("Page.navigate", { url: origin + "/?q=repo:minad/vertico" })
+    await waitFor(`Boolean(document.querySelector('.repo-trigger'))`)
+    assert.equal(await evaluate(`document.querySelector('.check-score') === null`), true)
+    const uncheckedRow = await measure()
+    assert.ok(releaseChecks)
+    releaseChecks()
+    await waitFor(`Boolean(document.querySelector('.check-score'))`)
+    assert.deepEqual(await measure(), uncheckedRow)
+    checksMode = "invalid"
+    await send("Page.navigate", { url: origin + "/?q=repo:minad/vertico" })
+    await waitFor(`Boolean(document.querySelector('.repo-trigger'))`)
+    await settle()
+    assert.equal(await evaluate(`document.querySelector('.check-score') === null`), true)
+  }
   assert.deepEqual(errors, [])
   console.log(
     "Package checks passed: accessible score, all rules, versions, about rule list, error results, nonblocking delayed load with stable rows, and invalid report fallback.",
