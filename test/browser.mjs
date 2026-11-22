@@ -527,7 +527,7 @@ try {
   assert.ok(
     await evaluate(`document.querySelector('.checked-version').textContent.startsWith('Version ')`),
   )
-  const screens = "/home/ubuntu/screens"
+  const screens = path.join(scratch, "screens")
   await mkdir(screens, { recursive: true })
   await send("Emulation.setEmulatedMedia", {
     features: [{ name: "prefers-color-scheme", value: "light" }],
@@ -604,7 +604,7 @@ try {
     captureBeyondViewport: false,
   })
   await writeFile(path.join(scratch, "production-mobile.png"), Buffer.from(mobile.data, "base64"))
-  const shots = "/home/ubuntu/shots"
+  const shots = path.join(scratch, "shots")
   await mkdir(shots, { recursive: true })
   async function screenshot(name) {
     const result = await send("Page.captureScreenshot", {
