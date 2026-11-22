@@ -529,54 +529,91 @@ try {
     await evaluate(`document.querySelector('.package-checks h3').textContent`),
     "Package checks",
   )
-  const melpaIndex = await evaluate(
-    `[...document.querySelectorAll('.checked-package')].findIndex((e) => e.querySelector('h4').textContent.startsWith('MELPA'))`,
+  const verticoPackages = ["melpa/vertico", "gnu-elpa/vertico", "nongnu-elpa/vertico"]
+    .map((key) => checksReport.results[key])
+    .filter((result) => result && result.error === undefined)
+  const applies = (result, rule) => !(result.skipped ?? []).includes(rule.id)
+  const shownRequired = checksReport.rules.filter(
+    (rule) => rule.level === "required" && verticoPackages.some((result) => applies(result, rule)),
   )
-  assert.ok(melpaIndex >= 0)
-  const melpaPackage = `.package-checks .checked-package:nth-of-type(${melpaIndex + 1})`
+  const failingRequired = shownRequired.filter((rule) =>
+    verticoPackages.some((result) => applies(result, rule) && result.failed.includes(rule.id)),
+  )
+  assert.match(
+    await evaluate(`document.querySelector('.checked-package').textContent`),
+    /^MELPA · vertico.+required checks pass$/,
+  )
+  assert.ok(
+    await evaluate(
+      `[...document.querySelectorAll('.checked-package')].some((e) => e.textContent.endsWith('${requiredPassed} of ${requiredRules.length} required checks pass'))`,
+    ),
+  )
+  assert.deepEqual(
+    await evaluate(
+      `[...document.querySelectorAll('.package-checks table[aria-label="Failing required checks"] tbody th a')].map((a) => a.textContent)`,
+    ),
+    failingRequired.map((rule) => rule.title),
+  )
   assert.equal(
     await evaluate(
-      `document.querySelector('${melpaPackage}').querySelectorAll(':scope > .check-rules > li').length`,
+      `document.querySelector('.package-checks table[aria-label="Failing required checks"] tbody th a')?.getAttribute('href') ?? null`,
     ),
-    requiredRules.length,
+    failingRequired.length ? `/about/#rule-${failingRequired[0].id}` : null,
+  )
+  const passingButton = ".package-checks .check-group:not(.check-advice) > button"
+  assert.equal(
+    await evaluate(`document.querySelector('${passingButton}').textContent`),
+    `${shownRequired.length - failingRequired.length} passing checks`,
+  )
+  await click(passingButton)
+  await waitFor(
+    `document.querySelector('.package-checks .check-group:not(.check-advice)').hasAttribute('data-expanded')`,
   )
   assert.equal(
     await evaluate(
-      `document.querySelector('${melpaPackage}').querySelectorAll(':scope > .check-rules .check-sources a').length`,
+      `document.querySelectorAll('.package-checks table[aria-label="Passing required checks"] tbody tr').length`,
     ),
-    requiredRules.reduce((count, rule) => count + rule.sources.length, 0),
+    shownRequired.length - failingRequired.length,
   )
   const verticoAdvice = checksReport.rules.filter(
-    (rule) => rule.level === "advice" && vertico.failed.includes(rule.id),
+    (rule) =>
+      rule.level === "advice" && verticoPackages.some((result) => result.failed.includes(rule.id)),
   )
   if (verticoAdvice.length) {
-    const adviceButton = `${melpaPackage} .check-advice > button`
+    const adviceButton = ".package-checks .check-advice > button"
     assert.equal(
       await evaluate(`document.querySelector('${adviceButton}').textContent`),
       `melpazoid advice (${verticoAdvice.length})`,
     )
     await click(adviceButton)
     await waitFor(
-      `document.querySelector('${melpaPackage} .check-advice').hasAttribute('data-expanded')`,
+      `document.querySelector('.package-checks .check-advice').hasAttribute('data-expanded')`,
     )
     assert.equal(
       await evaluate(
-        `document.querySelectorAll('${melpaPackage} .check-advice .check-rules li').length`,
+        `document.querySelectorAll('.package-checks table[aria-label="melpazoid advice"] tbody tr').length`,
       ),
       verticoAdvice.length,
+    )
+    assert.equal(
+      await evaluate(
+        `document.querySelectorAll('.package-checks .check-advice .check-fail').length`,
+      ),
+      0,
     )
     await evaluate(`document.querySelector('${adviceButton}').focus()`)
     await key("Enter", "Enter", 13)
     await waitFor(
-      `!document.querySelector('${melpaPackage} .check-advice').hasAttribute('data-expanded')`,
+      `!document.querySelector('.package-checks .check-advice').hasAttribute('data-expanded')`,
     )
   } else {
     assert.ok(
-      await evaluate(`Boolean(document.querySelector('${melpaPackage} .check-advice-none'))`),
+      await evaluate(`Boolean(document.querySelector('.package-checks .check-advice-none'))`),
     )
   }
-  assert.ok(
-    await evaluate(`document.querySelector('.checked-version').textContent.startsWith('Version ')`),
+  assert.equal(
+    await evaluate(`document.querySelector('.checked-version').textContent`),
+    vertico.version,
   )
   const screens = path.join(scratch, "screens")
   await mkdir(screens, { recursive: true })
@@ -670,16 +707,16 @@ try {
   await click(".add-recipe")
   await waitFor(`document.querySelector('#why-elispore') && location.pathname==='/about/'`)
   await waitFor(
-    `document.querySelectorAll('.about-check-rules dt').length===${checksReport.rules.filter((rule) => rule.level === "required").length}`,
+    `document.querySelectorAll('.about-rule').length===${checksReport.rules.filter((rule) => rule.level === "required").length}`,
   )
   assert.equal(
-    await evaluate(`document.querySelectorAll('.about-check-sources blockquote').length`),
+    await evaluate(`document.querySelectorAll('.rule-sources li').length`),
     checksReport.rules
       .filter((rule) => rule.level === "required")
       .reduce((count, rule) => count + rule.sources.length, 0),
   )
   assert.equal(
-    await evaluate(`document.querySelectorAll('.about-check-advice li').length`),
+    await evaluate(`document.querySelectorAll('.advice-table tbody tr').length`),
     checksReport.rules.filter((rule) => rule.level === "advice").length,
   )
   assert.equal(await evaluate("document.querySelector('h1').textContent"), "Add recipe")
@@ -688,6 +725,18 @@ try {
     await evaluate(`document.querySelector('.about-page').textContent.includes('up to 200')`),
   )
   await screenshot("elispore-about-mobile")
+  const anchoredRule = checksReport.rules.filter((rule) => rule.level === "required").at(-1)
+  await send("Page.navigate", { url: origin + `/about/#rule-${anchoredRule.id}` })
+  await waitFor(`Boolean(document.getElementById('rule-${anchoredRule.id}'))`)
+  await waitFor(
+    `Math.abs(document.getElementById('rule-${anchoredRule.id}').getBoundingClientRect().top) < 120`,
+  )
+  assert.equal(
+    await evaluate(`document.querySelector('#rule-${anchoredRule.id} h4').textContent`),
+    anchoredRule.title,
+  )
+  await send("Page.navigate", { url: origin + "/about/" })
+  await waitFor(`Boolean(document.querySelector('#why-elispore'))`)
   await click(".back-link")
   await waitFor(`Boolean(document.querySelector('#query'))`)
   await send("Emulation.setDeviceMetricsOverride", {

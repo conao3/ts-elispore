@@ -1,96 +1,177 @@
-import { ChevronDown, CircleCheck, CircleX } from "lucide-react"
+import { ChevronDown, CircleAlert, CircleCheck, CircleX, Minus } from "lucide-react"
 import { Button, Disclosure, DisclosurePanel, Link } from "react-aria-components"
 import { sourceLabels } from "./catalog"
-import { applicableRules } from "./checks"
-import { InlineCode } from "./inline-code"
 import type { Checks, PackageCheck } from "./checks"
+import { InlineCode } from "./inline-code"
 
-function RuleList({ pkg, rules }: { pkg: PackageCheck; rules: Checks["rules"] }) {
-  const ordered = rules.toSorted(
-    (a, b) => Number(!pkg.failed.includes(a.id)) - Number(!pkg.failed.includes(b.id)),
-  )
+type Rule = Checks["rules"][number]
+type Status = "pass" | "fail" | "skip" | "found" | "clear"
+
+const statusIcons = {
+  pass: CircleCheck,
+  fail: CircleX,
+  skip: Minus,
+  found: CircleAlert,
+  clear: Minus,
+}
+
+const statusLabels: Record<Status, string> = {
+  pass: "Pass",
+  fail: "Fail",
+  skip: "Not checked for this source",
+  found: "Found",
+  clear: "Not found",
+}
+
+function status(pkg: PackageCheck, rule: Rule): Status {
+  if (pkg.skipped?.includes(rule.id)) return "skip"
+  const failed = pkg.failed.includes(rule.id)
+  if (rule.level === "advice") return failed ? "found" : "clear"
+  return failed ? "fail" : "pass"
+}
+
+function StatusCell({ pkg, rule }: { pkg: PackageCheck; rule: Rule }) {
+  const value = status(pkg, rule)
+  const Icon = statusIcons[value]
   return (
-    <ul className="check-rules">
-      {ordered.map((rule) => {
-        const failed = pkg.failed.includes(rule.id)
-        const Icon = failed ? CircleX : CircleCheck
-        return (
-          <li key={rule.id} className={failed ? "check-fail" : "check-pass"}>
-            <Icon size={15} aria-hidden="true" />
-            <span>
-              <span className="sr-only">{failed ? "Fail: " : "Pass: "}</span>
-              <Link href={rule.sources[0]!.url} target="_blank" rel="noreferrer">
-                <InlineCode text={rule.title} />
-              </Link>
-              {rule.description && (
-                <small>
-                  <InlineCode text={rule.description} />
-                </small>
-              )}
-              {rule.level === "required" && (
-                <small className="check-sources">
-                  {rule.sources.map((source, index) => (
-                    <Link
-                      key={index}
-                      href={source.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label={`${source.label}: ${source.quote}`}
-                    >
-                      {source.label.split(": ")[1] ?? source.label}
-                    </Link>
-                  ))}
-                </small>
-              )}
-            </span>
-          </li>
-        )
-      })}
-    </ul>
+    <td className={`check-status check-${value}`}>
+      <Icon size={15} aria-label={statusLabels[value]} />
+    </td>
+  )
+}
+
+function RuleRows({ rules, packages }: { rules: Rule[]; packages: PackageCheck[] }) {
+  return rules.map((rule) => (
+    <tr key={rule.id}>
+      <th scope="row">
+        <Link href={`/about/#rule-${rule.id}`}>
+          <InlineCode text={rule.title} />
+        </Link>
+        {rule.description && (
+          <small>
+            <InlineCode text={rule.description} />
+          </small>
+        )}
+      </th>
+      {packages.map((pkg) => (
+        <StatusCell key={pkg.key} pkg={pkg} rule={rule} />
+      ))}
+    </tr>
+  ))
+}
+
+function RuleTable({
+  rules,
+  packages,
+  label,
+  header,
+}: {
+  rules: Rule[]
+  packages: PackageCheck[]
+  label: string
+  header: boolean
+}) {
+  return (
+    <table className="check-table" aria-label={label}>
+      <thead className={header && packages.length > 1 ? undefined : "sr-only"}>
+        <tr>
+          <th scope="col">Check</th>
+          {packages.map((pkg) => (
+            <th scope="col" key={pkg.key}>
+              {sourceLabels[pkg.source]}
+            </th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        <RuleRows rules={rules} packages={packages} />
+      </tbody>
+    </table>
   )
 }
 
 export function PackageChecks({ packages, report }: { packages: PackageCheck[]; report: Checks }) {
   if (!packages.length) return null
+  const checked = packages.filter((pkg) => pkg.error === undefined)
+  const required = report.rules.filter(
+    (rule) => rule.level === "required" && checked.some((pkg) => status(pkg, rule) !== "skip"),
+  )
+  const failing = required.filter((rule) => checked.some((pkg) => status(pkg, rule) === "fail"))
+  const passing = required.filter((rule) => !failing.includes(rule))
+  const advice = report.rules.filter(
+    (rule) => rule.level === "advice" && checked.some((pkg) => pkg.failed.includes(rule.id)),
+  )
   return (
     <section className="package-checks" aria-label="Package checks">
-      <h3>Package checks</h3>
-      <p className="checks-date">
-        Run <time dateTime={report.generatedAt}>{report.generatedAt.slice(0, 10)}</time>
-      </p>
-      {packages.map((pkg) => {
-        const advice = applicableRules(pkg, report.rules, "advice").filter((rule) =>
-          pkg.failed.includes(rule.id),
-        )
-        return (
-          <div className="checked-package" key={pkg.key}>
-            <h4>
-              {sourceLabels[pkg.source]} · {pkg.name}
-            </h4>
-            <p className="checked-version">Version {pkg.version || "unavailable"}</p>
-            {pkg.error !== undefined ? (
-              <p className="check-error">Could not run checks: {pkg.error}</p>
-            ) : (
-              <>
-                <RuleList pkg={pkg} rules={applicableRules(pkg, report.rules, "required")} />
-                {advice.length ? (
-                  <Disclosure className="check-advice">
-                    <Button slot="trigger">
-                      <ChevronDown size={12} aria-hidden="true" />
-                      melpazoid advice ({advice.length})
-                    </Button>
-                    <DisclosurePanel>
-                      <RuleList pkg={pkg} rules={advice} />
-                    </DisclosurePanel>
-                  </Disclosure>
-                ) : (
-                  <p className="check-advice-none">No melpazoid advice</p>
-                )}
-              </>
-            )}
-          </div>
-        )
-      })}
+      <div className="checks-header">
+        <h3>Package checks</h3>
+        <p className="checks-date">
+          Run <time dateTime={report.generatedAt}>{report.generatedAt.slice(0, 10)}</time> ·{" "}
+          <Link href="/about/#package-checks-about">About the rules</Link>
+        </p>
+      </div>
+      <ul className="checked-packages">
+        {packages.map((pkg) => {
+          const applicable = required.filter((rule) => status(pkg, rule) !== "skip")
+          const passed = applicable.filter((rule) => status(pkg, rule) === "pass").length
+          return (
+            <li className="checked-package" key={pkg.key}>
+              <span className="checked-source">
+                {sourceLabels[pkg.source]} · {pkg.name}
+              </span>
+              <span className="checked-version">{pkg.version || "Version unavailable"}</span>
+              {pkg.error !== undefined ? (
+                <span className="check-error">Could not run checks: {pkg.error}</span>
+              ) : (
+                <span className="checked-summary">
+                  {passed} of {applicable.length} required checks pass
+                </span>
+              )}
+            </li>
+          )
+        })}
+      </ul>
+      {checked.length > 0 && (
+        <>
+          {failing.length > 0 && (
+            <RuleTable rules={failing} packages={checked} label="Failing required checks" header />
+          )}
+          {passing.length > 0 && (
+            <Disclosure className="check-group" defaultExpanded={failing.length === 0}>
+              <Button slot="trigger">
+                <ChevronDown size={12} aria-hidden="true" />
+                {passing.length} passing {passing.length === 1 ? "check" : "checks"}
+              </Button>
+              <DisclosurePanel>
+                <RuleTable
+                  rules={passing}
+                  packages={checked}
+                  label="Passing required checks"
+                  header={failing.length === 0}
+                />
+              </DisclosurePanel>
+            </Disclosure>
+          )}
+          {advice.length > 0 ? (
+            <Disclosure className="check-group check-advice">
+              <Button slot="trigger">
+                <ChevronDown size={12} aria-hidden="true" />
+                melpazoid advice ({advice.length})
+              </Button>
+              <DisclosurePanel>
+                <RuleTable
+                  rules={advice}
+                  packages={checked}
+                  label="melpazoid advice"
+                  header={false}
+                />
+              </DisclosurePanel>
+            </Disclosure>
+          ) : (
+            <p className="check-advice-none">No melpazoid advice</p>
+          )}
+        </>
+      )}
     </section>
   )
 }

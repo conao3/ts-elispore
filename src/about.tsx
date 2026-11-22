@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { Link } from "react-aria-components"
 import type { Checks } from "./checks"
 import { InlineCode } from "./inline-code"
@@ -5,6 +6,10 @@ import { InlineCode } from "./inline-code"
 const repository = "https://github.com/conao3/ts-elispore"
 
 export function About({ checks }: { checks: Checks | null }) {
+  useEffect(() => {
+    if (checks && window.location.hash)
+      document.getElementById(window.location.hash.slice(1))?.scrollIntoView()
+  }, [checks])
   return (
     <main className="about-page">
       <Link href="/" className="back-link">
@@ -58,7 +63,7 @@ export function About({ checks }: { checks: Checks | null }) {
           listed in more than one archive, regardless of where they are hosted.
         </p>
       </section>
-      <section aria-labelledby="package-checks-about">
+      <section aria-labelledby="package-checks-about" className="about-checks">
         <h2 id="package-checks-about">Package checks</h2>
         <p>
           Checks scan package source without running it. The rules come from MELPA&rsquo;s{" "}
@@ -69,55 +74,74 @@ export function About({ checks }: { checks: Checks | null }) {
           <Link href="https://www.gnu.org/software/emacs/manual/html_node/elisp/Tips.html">
             Emacs Lisp conventions
           </Link>{" "}
-          in the Emacs Lisp Reference Manual that CONTRIBUTING.org asks packages to follow, and{" "}
+          that it asks packages to follow, and{" "}
           <Link href="https://github.com/riscy/melpazoid">melpazoid</Link>, scripts for testing
-          Emacs packages that are primarily submitted to MELPA. Each rule lists its sources with the
-          quoted text. Required checks make up the score; melpazoid&rsquo;s other findings are
-          listed as advice. Checks that need Emacs itself (byte-compilation, checkdoc, package-lint,
-          loading) are not run. Results are cached and refreshed only on explicit re-run, not with
-          the daily catalog update.
+          Emacs packages, primarily submissions to MELPA. Each rule quotes its sources. Checks that
+          need Emacs itself (byte-compilation, checkdoc, package-lint, loading) are not run. Results
+          are cached and refreshed only on explicit re-run, not with the daily catalog update.
         </p>
         {checks && (
           <>
-            <h3>Required</h3>
-            <dl className="about-check-rules">
-              {checks.rules
-                .filter((rule) => rule.level === "required")
-                .map((rule) => (
-                  <div key={rule.id}>
-                    <dt>{rule.title}</dt>
-                    <dd>
-                      <InlineCode text={rule.description} />
-                      <ul className="about-check-sources">
-                        {rule.sources.map((source, index) => (
-                          <li key={index}>
-                            <Link href={source.url}>{source.label}</Link>
-                            <blockquote>{source.quote}</blockquote>
-                          </li>
-                        ))}
-                      </ul>
-                    </dd>
-                  </div>
-                ))}
-            </dl>
-            <h3>melpazoid advice</h3>
-            <ul className="about-check-advice">
-              {checks.rules
-                .filter((rule) => rule.level === "advice")
-                .map((rule) => (
-                  <li key={rule.id}>
-                    <InlineCode text={rule.title} />
+            <h3 id="required-checks">Required checks</h3>
+            <p>These make up a package&rsquo;s score.</p>
+            {checks.rules
+              .filter((rule) => rule.level === "required")
+              .map((rule) => (
+                <article key={rule.id} id={`rule-${rule.id}`} className="about-rule">
+                  <h4>{rule.title}</h4>
+                  <p>
+                    <InlineCode text={rule.description} />
+                  </p>
+                  <ul className="rule-sources">
                     {rule.sources.map((source, index) => (
-                      <span key={index}>
-                        {" "}
-                        <Link href={source.url} aria-label={`${source.label}: ${source.quote}`}>
-                          [{source.url.slice(source.url.lastIndexOf("#") + 1)}]
-                        </Link>
-                      </span>
+                      <li key={index}>
+                        <Link href={source.url}>{source.label}</Link>
+                        {source.label.startsWith("melpazoid") ? (
+                          <pre>
+                            <code>{source.quote}</code>
+                          </pre>
+                        ) : (
+                          <blockquote>{source.quote}</blockquote>
+                        )}
+                      </li>
                     ))}
-                  </li>
-                ))}
-            </ul>
+                  </ul>
+                </article>
+              ))}
+            <h3 id="melpazoid-advice">melpazoid advice</h3>
+            <p>
+              Findings from melpazoid&rsquo;s style checks. They are listed with a package&rsquo;s
+              results but do not count toward its score.
+            </p>
+            <table className="advice-table">
+              <thead>
+                <tr>
+                  <th scope="col">Message</th>
+                  <th scope="col">melpazoid.el</th>
+                </tr>
+              </thead>
+              <tbody>
+                {checks.rules
+                  .filter((rule) => rule.level === "advice")
+                  .map((rule) => (
+                    <tr key={rule.id} id={`rule-${rule.id}`}>
+                      <td>
+                        <InlineCode text={rule.title} />
+                      </td>
+                      <td>
+                        {rule.sources.map((source, index) => (
+                          <span key={index}>
+                            {index > 0 && ", "}
+                            <Link href={source.url} aria-label={`melpazoid.el: ${source.quote}`}>
+                              {source.url.slice(source.url.lastIndexOf("#") + 1)}
+                            </Link>
+                          </span>
+                        ))}
+                      </td>
+                    </tr>
+                  ))}
+              </tbody>
+            </table>
           </>
         )}
       </section>

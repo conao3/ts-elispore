@@ -255,7 +255,6 @@ function PackageRow({
               </>
             )}
           </dl>
-          {checks && <PackageChecks packages={packages} report={checks} />}
           <div className="links">
             <Link href={entry.url} target="_blank" rel="noopener">
               {github ? (
@@ -364,6 +363,7 @@ function PackageRow({
             </DisclosurePanel>
           </Disclosure>
         </div>
+        {checks && <PackageChecks packages={packages} report={checks} />}
       </DisclosurePanel>
     </Disclosure>
   )
