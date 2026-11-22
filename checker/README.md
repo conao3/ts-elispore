@@ -151,3 +151,32 @@ cargo test
 cargo clippy -- -D warnings
 cargo fmt --check
 ```
+
+## Theorems and audit
+
+The `lean!` block proves these about the functions Rust calls:
+
+- `evaluate` reports every rule of `ruleIds` in order (`evaluate_ids`, with
+  `rules_ids` tying `ruleIds` to the rule table), takes each row's
+  applicability from `applies` and its result from `check` (`evaluate_applies`,
+  `evaluate_check`), and skips exactly `packaged-docs` for GitHub,
+  `license-file`, `repo-clean` and `version` for MELPA, and all four for the
+  other archives (`evaluate_skipped`). `checks_table` lists the predicate each
+  rule ID selects.
+- `advice` contains an ID exactly when some file reports it (`advice_mem`) and
+  holds each ID once (`advice_nodup`).
+
+`audit/` runs [leanassay](https://github.com/conao3/lean-leanassay) on
+`evaluate`, `applies`, `check` and `advice`: it breaks each function in small
+ways and runs these theorems on the broken versions. The build fails when a
+function has no theorem, when no broken version is killed, when a broken
+version holds every theorem but changes the output, or when no input satisfies
+a theorem's hypotheses. The 64 broken versions are all killed. `rules` stays
+outside the audit: it is a constant, and a theorem about it alone would repeat
+its value. The predicates `check` selects are specified by the rule table and
+tested on fixtures in `tests/checker.rs`. When a rule is added, add it to
+`ruleIds`, `check` and `checks_table` in the same change.
+
+```sh
+nix develop .#lean --command lake -d checker/audit build --wfail
+```

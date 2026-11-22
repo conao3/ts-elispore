@@ -7669,525 +7669,957 @@ pub(crate) unsafe fn l_policy_headers() -> Obj {
 )]
 pub(crate) unsafe fn l_policy_evaluate(mut x_1: Obj) -> Obj {
     let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    let mut x_4: u8 = 0;
-    let mut x_5: u8 = 0;
-    let mut x_6: u8 = 0;
-    let mut x_7: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: Obj = rt::lean_box(0);
+    x_2 = l_policy_ruleIds();
+    x_3 = rt::lean_box(0);
+    x_4 = l_List_mapTR_loop___at___00policy_evaluate_spec__0(x_1, x_2, x_3);
+    return x_4;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__21();
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__21_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__20();
+    x_2 = l_policy_rules___closed__0();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__21() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__21_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__20_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__19();
+    x_2 = l_policy_rules___closed__13();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__20() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__20_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__19_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__18();
+    x_2 = l_policy_rules___closed__25();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__19() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__19_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__18_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__17();
+    x_2 = l_policy_rules___closed__33();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__18() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__18_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__17_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__16();
+    x_2 = l_policy_rules___closed__45();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__17() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__17_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__16_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__15();
+    x_2 = l_policy_rules___closed__58();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__16() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__16_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__15_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__14();
+    x_2 = l_policy_rules___closed__73();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__15() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__15_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__14_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__13();
+    x_2 = l_policy_rules___closed__85();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__14() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__14_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__13_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__12();
+    x_2 = l_policy_rules___closed__93();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__13() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__13_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__12_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__11();
+    x_2 = l_policy_rules___closed__105();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__12() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__12_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__11_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__10();
+    x_2 = l_policy_rules___closed__113();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__11() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__11_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__10_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__9();
+    x_2 = l_policy_rules___closed__124();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__10() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__10_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__9_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__8();
+    x_2 = l_policy_rules___closed__132();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__9() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__9_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__8_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__7();
+    x_2 = l_policy_rules___closed__140();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__8() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__8_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__7_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__6();
+    x_2 = l_policy_rules___closed__152();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__7() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__7_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__6_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__5();
+    x_2 = l_policy_rules___closed__160();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__6() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__6_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__5_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__4();
+    x_2 = l_policy_rules___closed__168();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__5() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__5_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__4_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__3();
+    x_2 = l_policy_rules___closed__175();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__4() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__4_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__3_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__2();
+    x_2 = l_policy_rules___closed__182();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__3() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__3_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__2_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__1();
+    x_2 = l_policy_rules___closed__194();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__2() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__2_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__1_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_ruleIds___closed__0();
+    x_2 = l_policy_rules___closed__201();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__1() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__1_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_ruleIds___closed__0_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = rt::lean_box(0);
+    x_2 = l_policy_rules___closed__208();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_ruleIds___closed__0() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_ruleIds___closed__0_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_mapTR_loop___at___00policy_evaluate_spec__0(
+    mut x_1: Obj,
+    mut x_2: Obj,
+    mut x_3: Obj,
+) -> Obj {
+    let mut x_4: Obj = rt::lean_box(0);
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: Obj = rt::lean_box(0);
     let mut x_8: Obj = rt::lean_box(0);
     let mut x_9: u8 = 0;
     let mut x_10: u8 = 0;
-    let mut x_11: Obj = rt::lean_box(0);
-    let mut x_12: u8 = 0;
+    let mut x_11: u8 = 0;
+    let mut x_12: Obj = rt::lean_box(0);
     let mut x_13: Obj = rt::lean_box(0);
     let mut x_14: Obj = rt::lean_box(0);
     let mut x_15: Obj = rt::lean_box(0);
-    let mut x_16: Obj = rt::lean_box(0);
     let mut x_17: Obj = rt::lean_box(0);
     let mut x_18: Obj = rt::lean_box(0);
     let mut x_19: Obj = rt::lean_box(0);
-    let mut x_20: Obj = rt::lean_box(0);
-    let mut x_21: u8 = 0;
-    let mut x_22: Obj = rt::lean_box(0);
-    let mut x_23: Obj = rt::lean_box(0);
-    let mut x_24: Obj = rt::lean_box(0);
-    let mut x_25: Obj = rt::lean_box(0);
-    let mut x_26: Obj = rt::lean_box(0);
-    let mut x_27: u8 = 0;
-    let mut x_29: u8 = 0;
-    let mut x_30: Obj = rt::lean_box(0);
-    let mut x_31: u8 = 0;
-    let mut x_32: Obj = rt::lean_box(0);
-    let mut x_33: u8 = 0;
-    let mut x_34: Obj = rt::lean_box(0);
-    let mut x_35: u8 = 0;
-    let mut x_36: Obj = rt::lean_box(0);
-    let mut x_37: u8 = 0;
-    let mut x_38: Obj = rt::lean_box(0);
-    let mut x_39: Obj = rt::lean_box(0);
-    let mut x_40: Obj = rt::lean_box(0);
-    let mut x_41: Obj = rt::lean_box(0);
-    let mut x_42: u8 = 0;
-    let mut x_43: Obj = rt::lean_box(0);
-    let mut x_44: Obj = rt::lean_box(0);
-    let mut x_45: Obj = rt::lean_box(0);
-    let mut x_46: Obj = rt::lean_box(0);
-    let mut x_47: u8 = 0;
-    let mut x_48: Obj = rt::lean_box(0);
-    let mut x_49: Obj = rt::lean_box(0);
-    let mut x_50: Obj = rt::lean_box(0);
-    let mut x_51: Obj = rt::lean_box(0);
-    let mut x_52: u8 = 0;
-    let mut x_53: Obj = rt::lean_box(0);
-    let mut x_54: Obj = rt::lean_box(0);
-    let mut x_55: Obj = rt::lean_box(0);
-    let mut x_56: Obj = rt::lean_box(0);
-    let mut x_57: u8 = 0;
-    let mut x_58: Obj = rt::lean_box(0);
-    let mut x_59: Obj = rt::lean_box(0);
-    let mut x_60: Obj = rt::lean_box(0);
-    let mut x_61: Obj = rt::lean_box(0);
-    let mut x_62: Obj = rt::lean_box(0);
-    let mut x_63: u8 = 0;
-    let mut x_64: Obj = rt::lean_box(0);
-    let mut x_65: Obj = rt::lean_box(0);
-    let mut x_66: Obj = rt::lean_box(0);
-    let mut x_67: Obj = rt::lean_box(0);
-    let mut x_68: Obj = rt::lean_box(0);
-    let mut x_69: u8 = 0;
-    let mut x_70: u8 = 0;
-    let mut x_71: Obj = rt::lean_box(0);
-    let mut x_72: Obj = rt::lean_box(0);
-    let mut x_73: Obj = rt::lean_box(0);
-    let mut x_74: Obj = rt::lean_box(0);
-    let mut x_75: Obj = rt::lean_box(0);
-    let mut x_76: u8 = 0;
-    let mut x_77: u8 = 0;
-    let mut x_78: Obj = rt::lean_box(0);
-    let mut x_79: Obj = rt::lean_box(0);
-    let mut x_80: Obj = rt::lean_box(0);
-    let mut x_81: Obj = rt::lean_box(0);
-    let mut x_82: Obj = rt::lean_box(0);
-    let mut x_83: u8 = 0;
-    let mut x_84: u8 = 0;
-    let mut x_85: Obj = rt::lean_box(0);
-    let mut x_86: Obj = rt::lean_box(0);
-    let mut x_87: Obj = rt::lean_box(0);
-    let mut x_88: Obj = rt::lean_box(0);
-    let mut x_89: Obj = rt::lean_box(0);
-    let mut x_90: u8 = 0;
-    let mut x_91: Obj = rt::lean_box(0);
-    let mut x_92: Obj = rt::lean_box(0);
-    let mut x_93: Obj = rt::lean_box(0);
-    let mut x_94: Obj = rt::lean_box(0);
-    let mut x_95: Obj = rt::lean_box(0);
-    let mut x_96: u8 = 0;
-    let mut x_97: u8 = 0;
-    let mut x_98: Obj = rt::lean_box(0);
-    let mut x_99: Obj = rt::lean_box(0);
-    let mut x_100: Obj = rt::lean_box(0);
-    let mut x_101: Obj = rt::lean_box(0);
-    let mut x_102: Obj = rt::lean_box(0);
-    let mut x_103: u8 = 0;
-    let mut x_104: u8 = 0;
-    let mut x_105: Obj = rt::lean_box(0);
-    let mut x_106: Obj = rt::lean_box(0);
-    let mut x_107: Obj = rt::lean_box(0);
-    let mut x_108: Obj = rt::lean_box(0);
-    let mut x_109: Obj = rt::lean_box(0);
-    let mut x_110: u8 = 0;
-    let mut x_111: u8 = 0;
-    let mut x_112: Obj = rt::lean_box(0);
-    let mut x_113: Obj = rt::lean_box(0);
-    let mut x_114: Obj = rt::lean_box(0);
-    let mut x_115: Obj = rt::lean_box(0);
-    let mut x_116: Obj = rt::lean_box(0);
-    let mut x_117: u8 = 0;
-    let mut x_118: u8 = 0;
-    let mut x_119: Obj = rt::lean_box(0);
-    let mut x_120: Obj = rt::lean_box(0);
-    let mut x_121: Obj = rt::lean_box(0);
-    let mut x_122: Obj = rt::lean_box(0);
-    let mut x_123: Obj = rt::lean_box(0);
-    let mut x_124: u8 = 0;
-    let mut x_125: u8 = 0;
-    let mut x_126: Obj = rt::lean_box(0);
-    let mut x_127: Obj = rt::lean_box(0);
-    let mut x_128: Obj = rt::lean_box(0);
-    let mut x_129: Obj = rt::lean_box(0);
-    let mut x_130: Obj = rt::lean_box(0);
-    let mut x_131: u8 = 0;
-    let mut x_132: u8 = 0;
-    let mut x_133: Obj = rt::lean_box(0);
-    let mut x_134: Obj = rt::lean_box(0);
-    let mut x_135: Obj = rt::lean_box(0);
-    let mut x_136: Obj = rt::lean_box(0);
-    let mut x_137: Obj = rt::lean_box(0);
-    let mut x_138: u8 = 0;
-    let mut x_139: u8 = 0;
-    let mut x_140: Obj = rt::lean_box(0);
-    let mut x_141: Obj = rt::lean_box(0);
-    let mut x_142: Obj = rt::lean_box(0);
-    let mut x_143: Obj = rt::lean_box(0);
-    let mut x_144: Obj = rt::lean_box(0);
-    let mut x_145: u8 = 0;
-    let mut x_146: u8 = 0;
-    let mut x_147: Obj = rt::lean_box(0);
-    let mut x_148: Obj = rt::lean_box(0);
-    let mut x_149: Obj = rt::lean_box(0);
-    let mut x_150: Obj = rt::lean_box(0);
-    let mut x_151: Obj = rt::lean_box(0);
-    let mut x_152: u8 = 0;
-    let mut x_153: u8 = 0;
-    let mut x_154: Obj = rt::lean_box(0);
-    let mut x_155: Obj = rt::lean_box(0);
-    let mut x_156: Obj = rt::lean_box(0);
-    let mut x_157: Obj = rt::lean_box(0);
-    let mut x_158: Obj = rt::lean_box(0);
-    let mut x_159: Obj = rt::lean_box(0);
-    let mut x_160: Obj = rt::lean_box(0);
-    let mut x_161: Obj = rt::lean_box(0);
-    let mut x_162: Obj = rt::lean_box(0);
-    let mut x_163: Obj = rt::lean_box(0);
-    let mut x_164: Obj = rt::lean_box(0);
-    let mut x_165: Obj = rt::lean_box(0);
-    let mut x_166: Obj = rt::lean_box(0);
-    let mut x_167: Obj = rt::lean_box(0);
-    let mut x_168: Obj = rt::lean_box(0);
-    let mut x_169: Obj = rt::lean_box(0);
-    let mut x_170: Obj = rt::lean_box(0);
-    let mut x_171: Obj = rt::lean_box(0);
-    let mut x_172: Obj = rt::lean_box(0);
-    let mut x_173: Obj = rt::lean_box(0);
-    let mut x_174: Obj = rt::lean_box(0);
-    let mut x_175: Obj = rt::lean_box(0);
-    let mut x_176: Obj = rt::lean_box(0);
-    let mut x_177: Obj = rt::lean_box(0);
-    let mut x_178: Obj = rt::lean_box(0);
-    let mut x_179: Obj = rt::lean_box(0);
-    let mut x_180: Obj = rt::lean_box(0);
-    let mut x_181: u8 = 0;
-    let mut x_182: u8 = 0;
+    let mut x_20: u8 = 0;
     let mut __blk: u32 = 0;
     'body: loop {
         match __blk {
-            0 => {
-                x_2 = l_policy_rules___closed__0();
-                x_3 = l_policy_applies(x_1, x_2);
-                x_4 = rt::lean_ctor_get_uint8(x_1, 4 * core::mem::size_of::<usize>() as u32 + 0);
-                x_5 = rt::lean_ctor_get_uint8(x_1, 4 * core::mem::size_of::<usize>() as u32 + 1);
-                x_6 = rt::lean_ctor_get_uint8(x_1, 4 * core::mem::size_of::<usize>() as u32 + 2);
-                rt::lean_inc_ref_n(x_1, 2);
-                x_7 = l_policy_mainFile(x_1);
-                x_8 = l_policy_rules___closed__13();
-                x_9 = l_policy_applies(x_1, x_8);
-                x_10 = l_policy_packagingHeader(x_1);
-                x_11 = l_policy_rules___closed__25();
-                x_12 = l_policy_applies(x_1, x_11);
-                x_13 = rt::lean_box(x_3 as usize);
-                x_14 = rt::lean_box(x_7 as usize);
-                x_15 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_15, 0, x_13);
-                rt::lean_ctor_set(x_15, 1, x_14);
-                x_16 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_16, 0, x_2);
-                rt::lean_ctor_set(x_16, 1, x_15);
-                x_17 = rt::lean_box(x_9 as usize);
-                x_18 = rt::lean_box(x_10 as usize);
-                x_19 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_19, 0, x_17);
-                rt::lean_ctor_set(x_19, 1, x_18);
-                x_20 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_20, 0, x_8);
-                rt::lean_ctor_set(x_20, 1, x_19);
-                x_21 = l_policy_fileNames(x_1);
-                x_22 = rt::lean_box(x_12 as usize);
-                x_23 = rt::lean_box(x_21 as usize);
-                x_24 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_24, 0, x_22);
-                rt::lean_ctor_set(x_24, 1, x_23);
-                x_25 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_25, 0, x_11);
-                rt::lean_ctor_set(x_25, 1, x_24);
-                x_26 = l_policy_rules___closed__33();
-                x_27 = l_policy_applies(x_1, x_26);
-                match x_6 as u32 {
-                    0 => {
-                        x_181 = 1u8;
-                        {
-                            let t_0 = x_181;
-                            x_29 = t_0;
+            0 => match rt::lean_obj_tag(x_2) {
+                0 => {
+                    rt::lean_dec_ref(x_1);
+                    x_4 = l_List_reverse___redArg(x_3);
+                    return x_4;
+                }
+                1 => {
+                    x_5 = rt::lean_ctor_get(x_2, 0);
+                    x_6 = rt::lean_ctor_get(x_2, 1);
+                    x_20 = (!rt::lean_is_exclusive(x_2)) as u8;
+                    match x_20 as u32 {
+                        0 => {
+                            {
+                                let t_0 = x_2;
+                                let t_1 = x_20;
+                                x_8 = t_0;
+                                x_9 = t_1;
+                            }
+                            __blk = 1;
+                            continue 'body;
                         }
-                        __blk = 1;
+                        1 => {
+                            rt::lean_inc(x_6);
+                            rt::lean_inc(x_5);
+                            rt::lean_dec(x_2);
+                            {
+                                let t_0 = rt::lean_box(0);
+                                let t_1 = x_20;
+                                x_8 = t_0;
+                                x_9 = t_1;
+                            }
+                            __blk = 1;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            1 => {
+                x_10 = l_policy_applies(x_1, x_5);
+                rt::lean_inc_ref(x_1);
+                x_11 = l_policy_check(x_5, x_1);
+                x_12 = rt::lean_box(x_10 as usize);
+                x_13 = rt::lean_box(x_11 as usize);
+                x_14 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_14, 0, x_12);
+                rt::lean_ctor_set(x_14, 1, x_13);
+                x_15 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_15, 0, x_5);
+                rt::lean_ctor_set(x_15, 1, x_14);
+                match x_9 as u32 {
+                    0 => {
+                        rt::lean_ctor_set(x_8, 1, x_3);
+                        rt::lean_ctor_set(x_8, 0, x_15);
+                        {
+                            let t_0 = x_8;
+                            x_17 = t_0;
+                        }
+                        __blk = 2;
                         continue 'body;
                     }
                     1 => {
-                        x_182 = 0u8;
+                        x_19 =
+                            rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                        rt::lean_ctor_set(x_19, 0, x_15);
+                        rt::lean_ctor_set(x_19, 1, x_3);
                         {
-                            let t_0 = x_182;
-                            x_29 = t_0;
+                            let t_0 = x_19;
+                            x_17 = t_0;
                         }
-                        __blk = 1;
+                        __blk = 2;
                         continue 'body;
                     }
                     _ => rt::lean_internal_panic_unreachable(),
                 }
             }
-            1 => {
-                x_30 = l_policy_rules___closed__45();
-                x_31 = l_policy_applies(x_1, x_30);
-                x_32 = l_policy_rules___closed__58();
-                x_33 = l_policy_applies(x_1, x_32);
-                x_34 = l_policy_rules___closed__73();
-                x_35 = l_policy_applies(x_1, x_34);
-                x_36 = l_policy_rules___closed__85();
-                x_37 = l_policy_applies(x_1, x_36);
-                x_38 = rt::lean_box(x_27 as usize);
-                x_39 = rt::lean_box(x_29 as usize);
-                x_40 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_40, 0, x_38);
-                rt::lean_ctor_set(x_40, 1, x_39);
-                x_41 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_41, 0, x_26);
-                rt::lean_ctor_set(x_41, 1, x_40);
-                x_42 = l_policy_lexicalBinding(x_1);
-                x_43 = rt::lean_box(x_31 as usize);
-                x_44 = rt::lean_box(x_42 as usize);
-                x_45 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_45, 0, x_43);
-                rt::lean_ctor_set(x_45, 1, x_44);
-                x_46 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_46, 0, x_30);
-                rt::lean_ctor_set(x_46, 1, x_45);
-                x_47 = l_policy_licenseNotice(x_1);
-                x_48 = rt::lean_box(x_33 as usize);
-                x_49 = rt::lean_box(x_47 as usize);
-                x_50 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_50, 0, x_48);
-                rt::lean_ctor_set(x_50, 1, x_49);
-                x_51 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_51, 0, x_32);
-                rt::lean_ctor_set(x_51, 1, x_50);
-                x_52 = l_policy_licenseSpdx(x_1);
-                x_53 = rt::lean_box(x_35 as usize);
-                x_54 = rt::lean_box(x_52 as usize);
-                x_55 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_55, 0, x_53);
-                rt::lean_ctor_set(x_55, 1, x_54);
-                x_56 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_56, 0, x_34);
-                rt::lean_ctor_set(x_56, 1, x_55);
-                x_57 = l_policy_licensePosition(x_1);
-                x_58 = rt::lean_box(x_37 as usize);
-                x_59 = rt::lean_box(x_57 as usize);
-                x_60 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_60, 0, x_58);
-                rt::lean_ctor_set(x_60, 1, x_59);
-                x_61 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_61, 0, x_36);
-                rt::lean_ctor_set(x_61, 1, x_60);
-                x_62 = l_policy_rules___closed__93();
-                x_63 = l_policy_applies(x_1, x_62);
-                x_64 = rt::lean_box(x_63 as usize);
-                x_65 = rt::lean_box(x_4 as usize);
-                x_66 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_66, 0, x_64);
-                rt::lean_ctor_set(x_66, 1, x_65);
-                x_67 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_67, 0, x_62);
-                rt::lean_ctor_set(x_67, 1, x_66);
-                x_68 = l_policy_rules___closed__105();
-                x_69 = l_policy_applies(x_1, x_68);
-                rt::lean_inc_ref_n(x_1, 4);
-                x_70 = l_policy_requiresMain(x_1);
-                x_71 = rt::lean_box(x_69 as usize);
-                x_72 = rt::lean_box(x_70 as usize);
-                x_73 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_73, 0, x_71);
-                rt::lean_ctor_set(x_73, 1, x_72);
-                x_74 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_74, 0, x_68);
-                rt::lean_ctor_set(x_74, 1, x_73);
-                x_75 = l_policy_rules___closed__113();
-                x_76 = l_policy_applies(x_1, x_75);
-                x_77 = l_policy_requiresUnquoted(x_1);
-                x_78 = rt::lean_box(x_76 as usize);
-                x_79 = rt::lean_box(x_77 as usize);
-                x_80 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_80, 0, x_78);
-                rt::lean_ctor_set(x_80, 1, x_79);
-                x_81 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_81, 0, x_75);
-                rt::lean_ctor_set(x_81, 1, x_80);
-                x_82 = l_policy_rules___closed__124();
-                x_83 = l_policy_applies(x_1, x_82);
-                x_84 = l_policy_urlUnquoted(x_1);
-                x_85 = rt::lean_box(x_83 as usize);
-                x_86 = rt::lean_box(x_84 as usize);
-                x_87 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_87, 0, x_85);
-                rt::lean_ctor_set(x_87, 1, x_86);
-                x_88 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_88, 0, x_82);
-                rt::lean_ctor_set(x_88, 1, x_87);
-                x_89 = l_policy_rules___closed__132();
-                x_90 = l_policy_applies(x_1, x_89);
-                x_91 = rt::lean_box(x_90 as usize);
-                x_92 = rt::lean_box(x_5 as usize);
-                x_93 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_93, 0, x_91);
-                rt::lean_ctor_set(x_93, 1, x_92);
-                x_94 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_94, 0, x_89);
-                rt::lean_ctor_set(x_94, 1, x_93);
-                x_95 = l_policy_rules___closed__140();
-                x_96 = l_policy_applies(x_1, x_95);
-                x_97 = l_policy_sharpQuote(x_1);
-                x_98 = rt::lean_box(x_96 as usize);
-                x_99 = rt::lean_box(x_97 as usize);
-                x_100 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_100, 0, x_98);
-                rt::lean_ctor_set(x_100, 1, x_99);
-                x_101 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_101, 0, x_95);
-                rt::lean_ctor_set(x_101, 1, x_100);
-                x_102 = l_policy_rules___closed__152();
-                x_103 = l_policy_applies(x_1, x_102);
-                x_104 = l_policy_faceInherit(x_1);
-                x_105 = rt::lean_box(x_103 as usize);
-                x_106 = rt::lean_box(x_104 as usize);
-                x_107 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_107, 0, x_105);
-                rt::lean_ctor_set(x_107, 1, x_106);
-                x_108 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_108, 0, x_102);
-                rt::lean_ctor_set(x_108, 1, x_107);
-                x_109 = l_policy_rules___closed__160();
-                x_110 = l_policy_applies(x_1, x_109);
-                x_111 = l_policy_author(x_1);
-                x_112 = rt::lean_box(x_110 as usize);
-                x_113 = rt::lean_box(x_111 as usize);
-                x_114 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_114, 0, x_112);
-                rt::lean_ctor_set(x_114, 1, x_113);
-                x_115 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_115, 0, x_109);
-                rt::lean_ctor_set(x_115, 1, x_114);
-                x_116 = l_policy_rules___closed__168();
-                x_117 = l_policy_applies(x_1, x_116);
-                x_118 = l_policy_version(x_1);
-                x_119 = rt::lean_box(x_117 as usize);
-                x_120 = rt::lean_box(x_118 as usize);
-                x_121 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_121, 0, x_119);
-                rt::lean_ctor_set(x_121, 1, x_120);
-                x_122 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_122, 0, x_116);
-                rt::lean_ctor_set(x_122, 1, x_121);
-                x_123 = l_policy_rules___closed__175();
-                x_124 = l_policy_applies(x_1, x_123);
-                x_125 = l_policy_codeSection(x_1);
-                x_126 = rt::lean_box(x_124 as usize);
-                x_127 = rt::lean_box(x_125 as usize);
-                x_128 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_128, 0, x_126);
-                rt::lean_ctor_set(x_128, 1, x_127);
-                x_129 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_129, 0, x_123);
-                rt::lean_ctor_set(x_129, 1, x_128);
-                x_130 = l_policy_rules___closed__182();
-                x_131 = l_policy_applies(x_1, x_130);
-                x_132 = l_policy_provide(x_1);
-                x_133 = rt::lean_box(x_131 as usize);
-                x_134 = rt::lean_box(x_132 as usize);
-                x_135 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_135, 0, x_133);
-                rt::lean_ctor_set(x_135, 1, x_134);
-                x_136 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_136, 0, x_130);
-                rt::lean_ctor_set(x_136, 1, x_135);
-                x_137 = l_policy_rules___closed__194();
-                x_138 = l_policy_applies(x_1, x_137);
-                x_139 = l_policy_footer(x_1);
-                x_140 = rt::lean_box(x_138 as usize);
-                x_141 = rt::lean_box(x_139 as usize);
-                x_142 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_142, 0, x_140);
-                rt::lean_ctor_set(x_142, 1, x_141);
-                x_143 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_143, 0, x_137);
-                rt::lean_ctor_set(x_143, 1, x_142);
-                x_144 = l_policy_rules___closed__201();
-                x_145 = l_policy_applies(x_1, x_144);
-                x_146 = l_policy_symbolPrefix(x_1);
-                x_147 = rt::lean_box(x_145 as usize);
-                x_148 = rt::lean_box(x_146 as usize);
-                x_149 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_149, 0, x_147);
-                rt::lean_ctor_set(x_149, 1, x_148);
-                x_150 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_150, 0, x_144);
-                rt::lean_ctor_set(x_150, 1, x_149);
-                x_151 = l_policy_rules___closed__208();
-                x_152 = l_policy_applies(x_1, x_151);
-                x_153 = l_policy_noCl(x_1);
-                rt::lean_dec_ref(x_1);
-                x_154 = rt::lean_box(x_152 as usize);
-                x_155 = rt::lean_box(x_153 as usize);
-                x_156 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_156, 0, x_154);
-                rt::lean_ctor_set(x_156, 1, x_155);
-                x_157 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_157, 0, x_151);
-                rt::lean_ctor_set(x_157, 1, x_156);
-                x_158 = rt::lean_box(0);
-                x_159 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_159, 0, x_157);
-                rt::lean_ctor_set(x_159, 1, x_158);
-                x_160 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_160, 0, x_150);
-                rt::lean_ctor_set(x_160, 1, x_159);
-                x_161 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_161, 0, x_143);
-                rt::lean_ctor_set(x_161, 1, x_160);
-                x_162 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_162, 0, x_136);
-                rt::lean_ctor_set(x_162, 1, x_161);
-                x_163 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_163, 0, x_129);
-                rt::lean_ctor_set(x_163, 1, x_162);
-                x_164 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_164, 0, x_122);
-                rt::lean_ctor_set(x_164, 1, x_163);
-                x_165 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_165, 0, x_115);
-                rt::lean_ctor_set(x_165, 1, x_164);
-                x_166 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_166, 0, x_108);
-                rt::lean_ctor_set(x_166, 1, x_165);
-                x_167 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_167, 0, x_101);
-                rt::lean_ctor_set(x_167, 1, x_166);
-                x_168 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_168, 0, x_94);
-                rt::lean_ctor_set(x_168, 1, x_167);
-                x_169 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_169, 0, x_88);
-                rt::lean_ctor_set(x_169, 1, x_168);
-                x_170 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_170, 0, x_81);
-                rt::lean_ctor_set(x_170, 1, x_169);
-                x_171 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_171, 0, x_74);
-                rt::lean_ctor_set(x_171, 1, x_170);
-                x_172 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_172, 0, x_67);
-                rt::lean_ctor_set(x_172, 1, x_171);
-                x_173 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_173, 0, x_61);
-                rt::lean_ctor_set(x_173, 1, x_172);
-                x_174 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_174, 0, x_56);
-                rt::lean_ctor_set(x_174, 1, x_173);
-                x_175 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_175, 0, x_51);
-                rt::lean_ctor_set(x_175, 1, x_174);
-                x_176 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_176, 0, x_46);
-                rt::lean_ctor_set(x_176, 1, x_175);
-                x_177 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_177, 0, x_41);
-                rt::lean_ctor_set(x_177, 1, x_176);
-                x_178 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_178, 0, x_25);
-                rt::lean_ctor_set(x_178, 1, x_177);
-                x_179 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_179, 0, x_20);
-                rt::lean_ctor_set(x_179, 1, x_178);
-                x_180 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_180, 0, x_16);
-                rt::lean_ctor_set(x_180, 1, x_179);
-                return x_180;
+            2 => {
+                {
+                    let t_0 = x_1;
+                    let t_1 = x_6;
+                    let t_2 = x_17;
+                    x_1 = t_0;
+                    x_2 = t_1;
+                    x_3 = t_2;
+                }
+                __blk = 0;
+                continue 'body;
+            }
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_reverse___redArg(mut x_1: Obj) -> Obj {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_2 = rt::lean_box(0);
+    x_3 = l_List_reverseAux___redArg(x_1, x_2);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_reverseAux___redArg(mut x_1: Obj, mut x_2: Obj) -> Obj {
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: Obj = rt::lean_box(0);
+    let mut x_6: Obj = rt::lean_box(0);
+    let mut x_7: u8 = 0;
+    let mut x_9: Obj = rt::lean_box(0);
+    let mut x_10: Obj = rt::lean_box(0);
+    let mut x_11: Obj = rt::lean_box(0);
+    let mut x_12: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    return x_2;
+                }
+                1 => {
+                    x_3 = rt::lean_ctor_get(x_1, 0);
+                    x_4 = rt::lean_ctor_get(x_1, 1);
+                    x_12 = (!rt::lean_is_exclusive(x_1)) as u8;
+                    match x_12 as u32 {
+                        0 => {
+                            {
+                                let t_0 = x_1;
+                                let t_1 = x_12;
+                                x_6 = t_0;
+                                x_7 = t_1;
+                            }
+                            __blk = 1;
+                            continue 'body;
+                        }
+                        1 => {
+                            rt::lean_inc(x_4);
+                            rt::lean_inc(x_3);
+                            rt::lean_dec(x_1);
+                            {
+                                let t_0 = rt::lean_box(0);
+                                let t_1 = x_12;
+                                x_6 = t_0;
+                                x_7 = t_1;
+                            }
+                            __blk = 1;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            1 => match x_7 as u32 {
+                0 => {
+                    rt::lean_ctor_set(x_6, 1, x_2);
+                    {
+                        let t_0 = x_6;
+                        x_9 = t_0;
+                    }
+                    __blk = 2;
+                    continue 'body;
+                }
+                1 => {
+                    x_11 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                    rt::lean_ctor_set(x_11, 0, x_3);
+                    rt::lean_ctor_set(x_11, 1, x_2);
+                    {
+                        let t_0 = x_11;
+                        x_9 = t_0;
+                    }
+                    __blk = 2;
+                    continue 'body;
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            2 => {
+                {
+                    let t_0 = x_4;
+                    let t_1 = x_9;
+                    x_1 = t_0;
+                    x_2 = t_1;
+                }
+                __blk = 0;
+                continue 'body;
             }
             _ => rt::lean_internal_panic_unreachable(),
         }
@@ -8347,11 +8779,362 @@ pub(crate) unsafe fn l_policy_applies___closed__1() -> Obj {
     unused_unsafe,
     clippy::all
 )]
-pub(crate) unsafe fn l_policy_packagingHeader(mut x_1: Obj) -> u8 {
+pub(crate) unsafe fn l_policy_check(mut x_1: Obj, mut x_2: Obj) -> u8 {
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: u8 = 0;
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: u8 = 0;
+    let mut x_7: Obj = rt::lean_box(0);
+    let mut x_8: u8 = 0;
+    let mut x_9: Obj = rt::lean_box(0);
+    let mut x_10: u8 = 0;
+    let mut x_11: Obj = rt::lean_box(0);
+    let mut x_12: u8 = 0;
+    let mut x_13: Obj = rt::lean_box(0);
+    let mut x_14: u8 = 0;
+    let mut x_15: Obj = rt::lean_box(0);
+    let mut x_16: u8 = 0;
+    let mut x_17: Obj = rt::lean_box(0);
+    let mut x_18: u8 = 0;
+    let mut x_19: Obj = rt::lean_box(0);
+    let mut x_20: u8 = 0;
+    let mut x_21: Obj = rt::lean_box(0);
+    let mut x_22: u8 = 0;
+    let mut x_23: Obj = rt::lean_box(0);
+    let mut x_24: u8 = 0;
+    let mut x_25: Obj = rt::lean_box(0);
+    let mut x_26: u8 = 0;
+    let mut x_27: Obj = rt::lean_box(0);
+    let mut x_28: u8 = 0;
+    let mut x_29: Obj = rt::lean_box(0);
+    let mut x_30: u8 = 0;
+    let mut x_31: Obj = rt::lean_box(0);
+    let mut x_32: u8 = 0;
+    let mut x_33: Obj = rt::lean_box(0);
+    let mut x_34: u8 = 0;
+    let mut x_35: Obj = rt::lean_box(0);
+    let mut x_36: u8 = 0;
+    let mut x_37: Obj = rt::lean_box(0);
+    let mut x_38: u8 = 0;
+    let mut x_39: Obj = rt::lean_box(0);
+    let mut x_40: u8 = 0;
+    let mut x_41: Obj = rt::lean_box(0);
+    let mut x_42: u8 = 0;
+    let mut x_43: Obj = rt::lean_box(0);
+    let mut x_44: u8 = 0;
+    let mut x_45: Obj = rt::lean_box(0);
+    let mut x_46: u8 = 0;
+    let mut x_47: u8 = 0;
+    let mut x_48: u8 = 0;
+    let mut x_49: u8 = 0;
+    let mut x_50: u8 = 0;
+    let mut x_51: u8 = 0;
+    let mut x_52: u8 = 0;
+    let mut x_53: u8 = 0;
+    let mut x_54: u8 = 0;
+    let mut x_55: u8 = 0;
+    let mut x_56: u8 = 0;
+    let mut x_57: u8 = 0;
+    let mut x_58: u8 = 0;
+    let mut x_59: u8 = 0;
+    let mut x_60: u8 = 0;
+    let mut x_61: u8 = 0;
+    let mut x_62: u8 = 0;
+    let mut x_63: u8 = 0;
+    let mut x_64: u8 = 0;
+    let mut x_65: u8 = 0;
+    let mut x_66: u8 = 0;
+    let mut x_67: u8 = 0;
+    let mut x_68: u8 = 0;
+    x_3 = l_policy_rules___closed__0();
+    x_4 = rt::lean_string_dec_eq(x_1, x_3);
+    match x_4 as u32 {
+        0 => {
+            x_5 = l_policy_rules___closed__13();
+            x_6 = rt::lean_string_dec_eq(x_1, x_5);
+            match x_6 as u32 {
+                0 => {
+                    x_7 = l_policy_rules___closed__25();
+                    x_8 = rt::lean_string_dec_eq(x_1, x_7);
+                    match x_8 as u32 {
+                        0 => {
+                            x_9 = l_policy_rules___closed__33();
+                            x_10 = rt::lean_string_dec_eq(x_1, x_9);
+                            match x_10 as u32 {
+                                0 => {
+                                    x_11 = l_policy_rules___closed__45();
+                                    x_12 = rt::lean_string_dec_eq(x_1, x_11);
+                                    match x_12 as u32 {
+                                        0 => {
+                                            x_13 = l_policy_rules___closed__58();
+                                            x_14 = rt::lean_string_dec_eq(x_1, x_13);
+                                            match x_14 as u32 {
+                                                0 => {
+                                                    x_15 = l_policy_rules___closed__73();
+                                                    x_16 = rt::lean_string_dec_eq(x_1, x_15);
+                                                    match x_16 as u32 {
+                                                        0 => {
+                                                            x_17 = l_policy_rules___closed__85();
+                                                            x_18 =
+                                                                rt::lean_string_dec_eq(x_1, x_17);
+                                                            match x_18 as u32 {
+0 => {
+x_19 = l_policy_rules___closed__93();
+x_20 = rt::lean_string_dec_eq(x_1, x_19);
+match x_20 as u32 {
+0 => {
+x_21 = l_policy_rules___closed__105();
+x_22 = rt::lean_string_dec_eq(x_1, x_21);
+match x_22 as u32 {
+0 => {
+x_23 = l_policy_rules___closed__113();
+x_24 = rt::lean_string_dec_eq(x_1, x_23);
+match x_24 as u32 {
+0 => {
+x_25 = l_policy_rules___closed__124();
+x_26 = rt::lean_string_dec_eq(x_1, x_25);
+match x_26 as u32 {
+0 => {
+x_27 = l_policy_rules___closed__132();
+x_28 = rt::lean_string_dec_eq(x_1, x_27);
+match x_28 as u32 {
+0 => {
+x_29 = l_policy_rules___closed__140();
+x_30 = rt::lean_string_dec_eq(x_1, x_29);
+match x_30 as u32 {
+0 => {
+x_31 = l_policy_rules___closed__152();
+x_32 = rt::lean_string_dec_eq(x_1, x_31);
+match x_32 as u32 {
+0 => {
+x_33 = l_policy_rules___closed__160();
+x_34 = rt::lean_string_dec_eq(x_1, x_33);
+match x_34 as u32 {
+0 => {
+x_35 = l_policy_rules___closed__168();
+x_36 = rt::lean_string_dec_eq(x_1, x_35);
+match x_36 as u32 {
+0 => {
+x_37 = l_policy_rules___closed__175();
+x_38 = rt::lean_string_dec_eq(x_1, x_37);
+match x_38 as u32 {
+0 => {
+x_39 = l_policy_rules___closed__182();
+x_40 = rt::lean_string_dec_eq(x_1, x_39);
+match x_40 as u32 {
+0 => {
+x_41 = l_policy_rules___closed__194();
+x_42 = rt::lean_string_dec_eq(x_1, x_41);
+match x_42 as u32 {
+0 => {
+x_43 = l_policy_rules___closed__201();
+x_44 = rt::lean_string_dec_eq(x_1, x_43);
+match x_44 as u32 {
+0 => {
+x_45 = l_policy_rules___closed__208();
+x_46 = rt::lean_string_dec_eq(x_1, x_45);
+match x_46 as u32 {
+0 => {
+rt::lean_dec_ref(x_2);
+return x_46;
+}
+1 => {
+x_47 = l_policy_noCl(x_2);
+rt::lean_dec_ref(x_2);
+return x_47;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_48 = l_policy_symbolPrefix(x_2);
+return x_48;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_49 = l_policy_footer(x_2);
+rt::lean_dec_ref(x_2);
+return x_49;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_50 = l_policy_provide(x_2);
+rt::lean_dec_ref(x_2);
+return x_50;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_51 = l_policy_codeSection(x_2);
+rt::lean_dec_ref(x_2);
+return x_51;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_52 = l_policy_version(x_2);
+return x_52;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_53 = l_policy_author(x_2);
+return x_53;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_54 = l_policy_faceInherit(x_2);
+rt::lean_dec_ref(x_2);
+return x_54;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_55 = l_policy_sharpQuote(x_2);
+rt::lean_dec_ref(x_2);
+return x_55;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_56 = rt::lean_ctor_get_uint8(x_2, 4 * core::mem::size_of::<usize>() as u32 + 1);
+rt::lean_dec_ref(x_2);
+return x_56;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_57 = l_policy_urlUnquoted(x_2);
+rt::lean_dec_ref(x_2);
+return x_57;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_58 = l_policy_requiresUnquoted(x_2);
+rt::lean_dec_ref(x_2);
+return x_58;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_59 = l_policy_requiresMain(x_2);
+return x_59;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_60 = rt::lean_ctor_get_uint8(x_2, 4 * core::mem::size_of::<usize>() as u32 + 0);
+rt::lean_dec_ref(x_2);
+return x_60;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+}
+1 => {
+x_61 = l_policy_licensePosition(x_2);
+rt::lean_dec_ref(x_2);
+return x_61;
+}
+_ => rt::lean_internal_panic_unreachable(),
+}
+                                                        }
+                                                        1 => {
+                                                            x_62 = l_policy_licenseSpdx(x_2);
+                                                            rt::lean_dec_ref(x_2);
+                                                            return x_62;
+                                                        }
+                                                        _ => rt::lean_internal_panic_unreachable(),
+                                                    }
+                                                }
+                                                1 => {
+                                                    x_63 = l_policy_licenseNotice(x_2);
+                                                    rt::lean_dec_ref(x_2);
+                                                    return x_63;
+                                                }
+                                                _ => rt::lean_internal_panic_unreachable(),
+                                            }
+                                        }
+                                        1 => {
+                                            x_64 = l_policy_lexicalBinding(x_2);
+                                            rt::lean_dec_ref(x_2);
+                                            return x_64;
+                                        }
+                                        _ => rt::lean_internal_panic_unreachable(),
+                                    }
+                                }
+                                1 => {
+                                    x_65 = rt::lean_ctor_get_uint8(
+                                        x_2,
+                                        4 * core::mem::size_of::<usize>() as u32 + 2,
+                                    );
+                                    rt::lean_dec_ref(x_2);
+                                    match x_65 as u32 {
+                                        0 => {
+                                            return x_10;
+                                        }
+                                        1 => {
+                                            return x_8;
+                                        }
+                                        _ => rt::lean_internal_panic_unreachable(),
+                                    }
+                                }
+                                _ => rt::lean_internal_panic_unreachable(),
+                            }
+                        }
+                        1 => {
+                            x_66 = l_policy_fileNames(x_2);
+                            return x_66;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                1 => {
+                    x_67 = l_policy_packagingHeader(x_2);
+                    rt::lean_dec_ref(x_2);
+                    return x_67;
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            }
+        }
+        1 => {
+            x_68 = l_policy_mainFile(x_2);
+            return x_68;
+        }
+        _ => rt::lean_internal_panic_unreachable(),
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_noCl(mut x_1: Obj) -> u8 {
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: u8 = 0;
     x_2 = rt::lean_ctor_get(x_1, 2);
-    x_3 = l_List_all___at___00policy_packagingHeader_spec__0(x_2);
+    x_3 = l_List_all___at___00policy_noCl_spec__0(x_2);
     return x_3;
 }
 
@@ -8365,7 +9148,1045 @@ pub(crate) unsafe fn l_policy_packagingHeader(mut x_1: Obj) -> u8 {
     unused_unsafe,
     clippy::all
 )]
-pub(crate) unsafe fn l_List_all___at___00policy_packagingHeader_spec__0(mut x_1: Obj) -> u8 {
+pub(crate) unsafe fn l_List_all___at___00policy_noCl_spec__0(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: Obj = rt::lean_box(0);
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: Obj = rt::lean_box(0);
+    let mut x_7: u8 = 0;
+    let mut x_8: u8 = 0;
+    let mut x_9: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    x_2 = 1u8;
+                    return x_2;
+                }
+                1 => {
+                    x_3 = rt::lean_ctor_get(x_1, 0);
+                    x_4 = rt::lean_ctor_get(x_1, 1);
+                    x_5 = rt::lean_ctor_get(x_3, 6);
+                    x_6 = l_List_all___at___00policy_noCl_spec__0___closed__0();
+                    x_7 = l_List_elem___at___00policy_requiresMain_spec__0(x_6, x_5);
+                    match x_7 as u32 {
+                        0 => {
+                            {
+                                let t_0 = x_4;
+                                x_1 = t_0;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        1 => {
+                            x_9 = 0u8;
+                            return x_9;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_List_all___at___00policy_noCl_spec__0___closed__0_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked("cl", 2, 2);
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_List_all___at___00policy_noCl_spec__0___closed__0() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_List_all___at___00policy_noCl_spec__0___closed__0_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_elem___at___00policy_requiresMain_spec__0(
+    mut x_1: Obj,
+    mut x_2: Obj,
+) -> u8 {
+    let mut x_3: u8 = 0;
+    let mut x_4: Obj = rt::lean_box(0);
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: u8 = 0;
+    let mut x_7: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_2) {
+                0 => {
+                    x_3 = 0u8;
+                    return x_3;
+                }
+                1 => {
+                    x_4 = rt::lean_ctor_get(x_2, 0);
+                    x_5 = rt::lean_ctor_get(x_2, 1);
+                    x_6 = rt::lean_string_dec_eq(x_1, x_4);
+                    match x_6 as u32 {
+                        0 => {
+                            {
+                                let t_0 = x_1;
+                                let t_1 = x_5;
+                                x_1 = t_0;
+                                x_2 = t_1;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        1 => {
+                            return x_6;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_symbolPrefix(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    x_2 = rt::lean_ctor_get(x_1, 2);
+    rt::lean_inc(x_2);
+    x_3 = l_List_all___at___00policy_symbolPrefix_spec__1(x_1, x_2);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_symbolPrefix_spec__1(
+    mut x_1: Obj,
+    mut x_2: Obj,
+) -> u8 {
+    let mut x_3: u8 = 0;
+    let mut x_4: Obj = rt::lean_box(0);
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: Obj = rt::lean_box(0);
+    let mut x_7: u8 = 0;
+    let mut x_8: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_2) {
+                0 => {
+                    rt::lean_dec_ref(x_1);
+                    x_3 = 1u8;
+                    return x_3;
+                }
+                1 => {
+                    x_4 = rt::lean_ctor_get(x_2, 0);
+                    rt::lean_inc(x_4);
+                    x_5 = rt::lean_ctor_get(x_2, 1);
+                    rt::lean_inc(x_5);
+                    rt::lean_dec_ref(x_2);
+                    x_6 = rt::lean_ctor_get(x_4, 7);
+                    rt::lean_inc(x_6);
+                    rt::lean_inc_ref(x_1);
+                    x_7 = l_List_all___at___00policy_symbolPrefix_spec__0(x_1, x_4, x_6);
+                    rt::lean_dec(x_6);
+                    match x_7 as u32 {
+                        0 => {
+                            rt::lean_dec(x_5);
+                            rt::lean_dec_ref(x_1);
+                            return x_7;
+                        }
+                        1 => {
+                            {
+                                let t_0 = x_1;
+                                let t_1 = x_5;
+                                x_1 = t_0;
+                                x_2 = t_1;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_symbolPrefix_spec__0(
+    mut x_1: Obj,
+    mut x_2: Obj,
+    mut x_3: Obj,
+) -> u8 {
+    let mut x_4: u8 = 0;
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: Obj = rt::lean_box(0);
+    let mut x_8: u8 = 0;
+    let mut x_9: u8 = 0;
+    let mut x_10: Obj = rt::lean_box(0);
+    let mut x_11: u8 = 0;
+    let mut x_12: Obj = rt::lean_box(0);
+    let mut x_13: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_3) {
+                0 => {
+                    rt::lean_dec_ref(x_2);
+                    rt::lean_dec_ref(x_1);
+                    x_4 = 1u8;
+                    return x_4;
+                }
+                1 => {
+                    x_5 = rt::lean_ctor_get(x_3, 0);
+                    x_6 = rt::lean_ctor_get(x_3, 1);
+                    x_10 = rt::lean_ctor_get(x_1, 0);
+                    rt::lean_inc_ref(x_10);
+                    x_11 = l_policy_prefixed(x_10, x_5);
+                    match x_11 as u32 {
+                        0 => {
+                            x_12 = rt::lean_ctor_get(x_2, 1);
+                            rt::lean_inc_ref(x_12);
+                            x_13 = l_policy_prefixed(x_12, x_5);
+                            {
+                                let t_0 = x_13;
+                                x_8 = t_0;
+                            }
+                            __blk = 1;
+                            continue 'body;
+                        }
+                        1 => {
+                            {
+                                let t_0 = x_11;
+                                x_8 = t_0;
+                            }
+                            __blk = 1;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            1 => match x_8 as u32 {
+                0 => {
+                    rt::lean_dec_ref(x_2);
+                    rt::lean_dec_ref(x_1);
+                    return x_8;
+                }
+                1 => {
+                    {
+                        let t_0 = x_1;
+                        let t_1 = x_2;
+                        let t_2 = x_6;
+                        x_1 = t_0;
+                        x_2 = t_1;
+                        x_3 = t_2;
+                    }
+                    __blk = 0;
+                    continue 'body;
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_prefixed(mut x_1: Obj, mut x_2: Obj) -> u8 {
+    let mut x_3: u8 = 0;
+    let mut x_4: Obj = rt::lean_box(0);
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: Obj = rt::lean_box(0);
+    let mut x_7: Obj = rt::lean_box(0);
+    let mut x_8: u8 = 0;
+    let mut x_9: Obj = rt::lean_box(0);
+    let mut x_10: u8 = 0;
+    x_3 = rt::lean_string_dec_eq(x_2, x_1);
+    match x_3 as u32 {
+        0 => {
+            x_4 = l_policy_prefixedFile___closed__1();
+            x_5 = rt::lean_string_append(x_1, x_4);
+            x_6 = rt::lean_string_utf8_byte_size(x_2);
+            x_7 = rt::lean_string_utf8_byte_size(x_5);
+            x_8 = rt::lean_nat_dec_le(x_7, x_6);
+            match x_8 as u32 {
+                0 => {
+                    rt::lean_dec_ref(x_5);
+                    return x_8;
+                }
+                1 => {
+                    x_9 = rt::lean_unsigned_to_nat(0u32);
+                    x_10 = rt::lean_string_memcmp(x_2, x_5, x_9, x_9, x_7);
+                    rt::lean_dec_ref(x_5);
+                    return x_10;
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            }
+        }
+        1 => {
+            rt::lean_dec_ref(x_1);
+            return x_3;
+        }
+        _ => rt::lean_internal_panic_unreachable(),
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_prefixedFile___closed__1_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked("-", 1, 1);
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_prefixedFile___closed__1() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_prefixedFile___closed__1_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_footer(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    x_2 = rt::lean_ctor_get(x_1, 2);
+    x_3 = l_List_all___at___00policy_footer_spec__0(x_2);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_footer_spec__0(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: u8 = 0;
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    x_2 = 1u8;
+                    return x_2;
+                }
+                1 => {
+                    x_3 = rt::lean_ctor_get(x_1, 0);
+                    x_4 =
+                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 9);
+                    match x_4 as u32 {
+                        0 => {
+                            return x_4;
+                        }
+                        1 => {
+                            x_5 = rt::lean_ctor_get(x_1, 1);
+                            {
+                                let t_0 = x_5;
+                                x_1 = t_0;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_codeSection(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    x_2 = rt::lean_ctor_get(x_1, 2);
+    x_3 = l_List_all___at___00policy_codeSection_spec__0(x_2);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_codeSection_spec__0(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: u8 = 0;
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    x_2 = 1u8;
+                    return x_2;
+                }
+                1 => {
+                    x_3 = rt::lean_ctor_get(x_1, 0);
+                    x_4 =
+                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 8);
+                    match x_4 as u32 {
+                        0 => {
+                            return x_4;
+                        }
+                        1 => {
+                            x_5 = rt::lean_ctor_get(x_1, 1);
+                            {
+                                let t_0 = x_5;
+                                x_1 = t_0;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_version(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    x_2 = l_policy_version___closed__0();
+    x_3 = l___private_LeanRustGen_Embed_elispore__check_hb1a35a68f14e6962_policy_0__policy_inMain(
+        x_1, x_2,
+    );
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_version___closed__0_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_alloc_closure(l_policy_version___lam__0___boxed as *const (), 1, 0);
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_version___closed__0() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_version___closed__0_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_version___lam__0___boxed(mut x_1: Obj) -> Obj {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    x_2 = l_policy_version___lam__0(x_1);
+    rt::lean_dec_ref(x_1);
+    x_3 = rt::lean_box(x_2 as usize);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_version___lam__0(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    x_2 = rt::lean_ctor_get_uint8(x_1, 9 * core::mem::size_of::<usize>() as u32 + 7);
+    return x_2;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l___private_LeanRustGen_Embed_elispore__check_hb1a35a68f14e6962_policy_0__policy_inMain(
+    mut x_1: Obj,
+    mut x_2: Obj,
+) -> u8 {
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: u8 = 0;
+    x_3 = rt::lean_ctor_get(x_1, 2);
+    rt::lean_inc(x_3);
+    x_4 = l_List_any___at___00__private_LeanRustGen_Embed_elispore__check_hb1a35a68f14e6962_policy_0__policy_inMain_spec__0(x_1, x_2, x_3);
+    return x_4;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_any___at___00__private_LeanRustGen_Embed_elispore__check_hb1a35a68f14e6962_policy_0__policy_inMain_spec__0(
+    mut x_1: Obj,
+    mut x_2: Obj,
+    mut x_3: Obj,
+) -> u8 {
+    let mut x_4: u8 = 0;
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: Obj = rt::lean_box(0);
+    let mut x_7: Obj = rt::lean_box(0);
+    let mut x_8: Obj = rt::lean_box(0);
+    let mut x_9: Obj = rt::lean_box(0);
+    let mut x_10: Obj = rt::lean_box(0);
+    let mut x_11: u8 = 0;
+    let mut x_12: u8 = 0;
+    let mut x_13: Obj = rt::lean_box(0);
+    let mut x_14: u8 = 0;
+    let mut x_15: u8 = 0;
+    let mut x_16: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_3) {
+                0 => {
+                    rt::lean_dec_ref(x_2);
+                    rt::lean_dec_ref(x_1);
+                    x_4 = 0u8;
+                    return x_4;
+                }
+                1 => {
+                    x_5 = rt::lean_ctor_get(x_3, 0);
+                    rt::lean_inc(x_5);
+                    x_6 = rt::lean_ctor_get(x_3, 1);
+                    rt::lean_inc(x_6);
+                    rt::lean_dec_ref(x_3);
+                    x_7 = rt::lean_ctor_get(x_5, 0);
+                    x_8 = rt::lean_ctor_get(x_1, 0);
+                    x_9 = l_List_any___at___00policy_mainFile_spec__0___closed__0();
+                    rt::lean_inc_ref(x_8);
+                    x_10 = rt::lean_string_append(x_8, x_9);
+                    x_11 = rt::lean_string_dec_eq(x_7, x_10);
+                    rt::lean_dec_ref(x_10);
+                    match x_11 as u32 {
+                        0 => {
+                            rt::lean_dec(x_5);
+                            {
+                                let t_0 = x_1;
+                                let t_1 = x_2;
+                                let t_2 = x_6;
+                                x_1 = t_0;
+                                x_2 = t_1;
+                                x_3 = t_2;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        1 => {
+                            rt::lean_inc_ref(x_2);
+                            x_13 = rt::lean_apply_1(x_2, x_5);
+                            x_14 = rt::lean_unbox(x_13) as u8;
+                            match x_14 as u32 {
+                                0 => {
+                                    {
+                                        let t_0 = x_1;
+                                        let t_1 = x_2;
+                                        let t_2 = x_6;
+                                        x_1 = t_0;
+                                        x_2 = t_1;
+                                        x_3 = t_2;
+                                    }
+                                    __blk = 0;
+                                    continue 'body;
+                                }
+                                1 => {
+                                    rt::lean_dec(x_6);
+                                    rt::lean_dec_ref(x_2);
+                                    rt::lean_dec_ref(x_1);
+                                    x_16 = rt::lean_unbox(x_13) as u8;
+                                    return x_16;
+                                }
+                                _ => rt::lean_internal_panic_unreachable(),
+                            }
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_author(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    x_2 = l_policy_author___closed__0();
+    x_3 = l___private_LeanRustGen_Embed_elispore__check_hb1a35a68f14e6962_policy_0__policy_inMain(
+        x_1, x_2,
+    );
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_author___closed__0_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_alloc_closure(l_policy_author___lam__0___boxed as *const (), 1, 0);
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_author___closed__0() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_author___closed__0_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_author___lam__0___boxed(mut x_1: Obj) -> Obj {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    x_2 = l_policy_author___lam__0(x_1);
+    rt::lean_dec_ref(x_1);
+    x_3 = rt::lean_box(x_2 as usize);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_author___lam__0(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    x_2 = rt::lean_ctor_get_uint8(x_1, 9 * core::mem::size_of::<usize>() as u32 + 6);
+    return x_2;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_faceInherit(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    x_2 = rt::lean_ctor_get(x_1, 2);
+    x_3 = l_List_all___at___00policy_faceInherit_spec__0(x_2);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_faceInherit_spec__0(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: u8 = 0;
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: u8 = 0;
+    let mut x_7: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    x_2 = 1u8;
+                    return x_2;
+                }
+                1 => {
+                    x_3 = rt::lean_ctor_get(x_1, 0);
+                    x_4 =
+                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 5);
+                    match x_4 as u32 {
+                        0 => {
+                            x_5 = rt::lean_ctor_get(x_1, 1);
+                            {
+                                let t_0 = x_5;
+                                x_1 = t_0;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        1 => {
+                            x_7 = 0u8;
+                            return x_7;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_sharpQuote(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    x_2 = rt::lean_ctor_get(x_1, 2);
+    x_3 = l_List_all___at___00policy_sharpQuote_spec__0(x_2);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_sharpQuote_spec__0(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: u8 = 0;
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: u8 = 0;
+    let mut x_7: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    x_2 = 1u8;
+                    return x_2;
+                }
+                1 => {
+                    x_3 = rt::lean_ctor_get(x_1, 0);
+                    x_4 =
+                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 4);
+                    match x_4 as u32 {
+                        0 => {
+                            x_5 = rt::lean_ctor_get(x_1, 1);
+                            {
+                                let t_0 = x_5;
+                                x_1 = t_0;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        1 => {
+                            x_7 = 0u8;
+                            return x_7;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_urlUnquoted(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    x_2 = rt::lean_ctor_get(x_1, 2);
+    x_3 = l_List_all___at___00policy_urlUnquoted_spec__0(x_2);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_urlUnquoted_spec__0(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: u8 = 0;
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: u8 = 0;
+    let mut x_7: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    x_2 = 1u8;
+                    return x_2;
+                }
+                1 => {
+                    x_3 = rt::lean_ctor_get(x_1, 0);
+                    x_4 =
+                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 3);
+                    match x_4 as u32 {
+                        0 => {
+                            x_5 = rt::lean_ctor_get(x_1, 1);
+                            {
+                                let t_0 = x_5;
+                                x_1 = t_0;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        1 => {
+                            x_7 = 0u8;
+                            return x_7;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_requiresUnquoted(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    x_2 = rt::lean_ctor_get(x_1, 2);
+    x_3 = l_List_all___at___00policy_requiresUnquoted_spec__1(x_2);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_requiresUnquoted_spec__1(mut x_1: Obj) -> u8 {
     let mut x_2: u8 = 0;
     let mut x_3: Obj = rt::lean_box(0);
     let mut x_4: Obj = rt::lean_box(0);
@@ -8383,8 +10204,8 @@ pub(crate) unsafe fn l_List_all___at___00policy_packagingHeader_spec__0(mut x_1:
                 1 => {
                     x_3 = rt::lean_ctor_get(x_1, 0);
                     x_4 = rt::lean_ctor_get(x_1, 1);
-                    x_5 = rt::lean_ctor_get(x_3, 2);
-                    x_6 = l_policy_summaryHeader(x_5);
+                    x_5 = rt::lean_ctor_get(x_3, 4);
+                    x_6 = l_List_all___at___00policy_requiresUnquoted_spec__0(x_5);
                     match x_6 as u32 {
                         0 => {
                             return x_6;
@@ -8417,47 +10238,95 @@ pub(crate) unsafe fn l_List_all___at___00policy_packagingHeader_spec__0(mut x_1:
     unused_unsafe,
     clippy::all
 )]
-pub(crate) unsafe fn l_policy_summaryHeader(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
+pub(crate) unsafe fn l_List_all___at___00policy_requiresUnquoted_spec__0(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: Obj = rt::lean_box(0);
+    let mut x_5: u8 = 0;
+    let mut x_6: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    x_2 = 1u8;
+                    return x_2;
+                }
+                1 => {
+                    x_3 = rt::lean_ctor_get(x_1, 0);
+                    x_4 = rt::lean_ctor_get(x_1, 1);
+                    x_5 = l_policy_unquotedName(x_3);
+                    match x_5 as u32 {
+                        0 => {
+                            return x_5;
+                        }
+                        1 => {
+                            {
+                                let t_0 = x_4;
+                                x_1 = t_0;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_unquotedName(mut x_1: Obj) -> u8 {
+    let mut x_3: Obj = rt::lean_box(0);
     let mut x_4: Obj = rt::lean_box(0);
     let mut x_5: Obj = rt::lean_box(0);
     let mut x_6: Obj = rt::lean_box(0);
-    let mut x_7: Obj = rt::lean_box(0);
-    let mut x_8: Obj = rt::lean_box(0);
-    let mut x_9: Obj = rt::lean_box(0);
-    let mut x_10: u8 = 0;
+    let mut x_7: u8 = 0;
+    let mut x_8: u8 = 0;
+    let mut x_9: u8 = 0;
+    let mut x_10: Obj = rt::lean_box(0);
     let mut x_11: Obj = rt::lean_box(0);
     let mut x_12: Obj = rt::lean_box(0);
     let mut x_13: Obj = rt::lean_box(0);
     let mut x_14: Obj = rt::lean_box(0);
     let mut x_15: Obj = rt::lean_box(0);
-    let mut x_16: Obj = rt::lean_box(0);
     let mut __blk: u32 = 0;
     'body: loop {
         match __blk {
             0 => {
-                x_2 = rt::lean_unsigned_to_nat(1u32);
-                x_11 = l_policy_summaryHeader___closed__1();
-                x_12 = rt::lean_unsigned_to_nat(0u32);
-                x_13 = rt::lean_box(0);
-                x_14 = l_String_splitOnAux(x_1, x_11, x_12, x_12, x_12, x_13);
-                match rt::lean_obj_tag(x_14) {
+                x_10 = l_policy_unquotedName___closed__0();
+                x_11 = rt::lean_unsigned_to_nat(0u32);
+                x_12 = rt::lean_box(0);
+                x_13 = l_String_splitOnAux(x_1, x_10, x_11, x_11, x_11, x_12);
+                match rt::lean_obj_tag(x_13) {
                     0 => {
-                        x_15 = l_policy_summaryHeader___closed__2();
+                        x_14 = l_policy_summaryHeader___closed__2();
                         {
-                            let t_0 = x_15;
-                            x_4 = t_0;
+                            let t_0 = x_14;
+                            x_3 = t_0;
                         }
                         __blk = 1;
                         continue 'body;
                     }
                     1 => {
-                        x_16 = rt::lean_ctor_get(x_14, 0);
-                        rt::lean_inc(x_16);
-                        rt::lean_dec_ref(x_14);
+                        x_15 = rt::lean_ctor_get(x_13, 0);
+                        rt::lean_inc(x_15);
+                        rt::lean_dec_ref(x_13);
                         {
-                            let t_0 = x_16;
-                            x_4 = t_0;
+                            let t_0 = x_15;
+                            x_3 = t_0;
                         }
                         __blk = 1;
                         continue 'body;
@@ -8466,16 +10335,126 @@ pub(crate) unsafe fn l_policy_summaryHeader(mut x_1: Obj) -> u8 {
                 }
             }
             1 => {
-                x_5 = l_policy_summaryHeader___closed__0();
-                x_6 = rt::lean_unsigned_to_nat(0u32);
-                x_7 = rt::lean_box(0);
-                x_8 = l_String_splitOnAux(x_4, x_5, x_6, x_6, x_6, x_7);
-                rt::lean_dec_ref(x_4);
-                x_9 = l_List_lengthTR___redArg(x_8);
-                rt::lean_dec(x_8);
-                x_10 = rt::lean_nat_dec_lt(x_2, x_9);
-                rt::lean_dec(x_9);
-                return x_10;
+                x_4 = rt::lean_unsigned_to_nat(0u32);
+                x_5 = rt::lean_string_utf8_byte_size(x_3);
+                x_6 = rt::lean_alloc_ctor(0, 3, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_6, 0, x_3);
+                rt::lean_ctor_set(x_6, 1, x_4);
+                rt::lean_ctor_set(x_6, 2, x_5);
+                x_7 = l_String_Slice_contains___at___00policy_unquotedName_spec__0(x_6);
+                rt::lean_dec_ref(x_6);
+                match x_7 as u32 {
+                    0 => {
+                        x_8 = 1u8;
+                        return x_8;
+                    }
+                    1 => {
+                        x_9 = 0u8;
+                        return x_9;
+                    }
+                    _ => rt::lean_internal_panic_unreachable(),
+                }
+            }
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_String_Slice_contains___at___00policy_unquotedName_spec__0(
+    mut x_1: Obj,
+) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    let mut x_4: u8 = 0;
+    x_2 = rt::lean_unsigned_to_nat(0u32);
+    x_3 = 0u8;
+    x_4 = l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00policy_unquotedName_spec__0_spec__0___redArg(x_1, x_2, x_3);
+    return x_4;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00policy_unquotedName_spec__0_spec__0___redArg(
+    mut x_1: Obj,
+    mut x_2: Obj,
+    mut x_3: u8,
+) -> u8 {
+    let mut x_4: Obj = rt::lean_box(0);
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: Obj = rt::lean_box(0);
+    let mut x_7: Obj = rt::lean_box(0);
+    let mut x_8: u8 = 0;
+    let mut x_9: Obj = rt::lean_box(0);
+    let mut x_10: u32 = 0;
+    let mut x_11: u32 = 0;
+    let mut x_12: u8 = 0;
+    let mut x_13: Obj = rt::lean_box(0);
+    let mut x_14: Obj = rt::lean_box(0);
+    let mut x_15: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => {
+                x_4 = rt::lean_ctor_get(x_1, 0);
+                x_5 = rt::lean_ctor_get(x_1, 1);
+                x_6 = rt::lean_ctor_get(x_1, 2);
+                x_7 = rt::lean_nat_sub(x_6, x_5);
+                x_8 = rt::lean_nat_dec_eq(x_2, x_7);
+                rt::lean_dec(x_7);
+                match x_8 as u32 {
+                    0 => {
+                        x_9 = rt::lean_nat_add(x_5, x_2);
+                        rt::lean_dec(x_2);
+                        x_10 = rt::lean_string_utf8_get_fast(x_4, x_9);
+                        x_11 = 34u32;
+                        x_12 = rt::lean_uint32_dec_eq(x_10, x_11);
+                        match x_12 as u32 {
+                            0 => {
+                                x_13 = rt::lean_string_utf8_next_fast(x_4, x_9);
+                                rt::lean_dec(x_9);
+                                x_14 = rt::lean_nat_sub(x_13, x_5);
+                                {
+                                    let t_0 = x_1;
+                                    let t_1 = x_14;
+                                    let t_2 = x_12;
+                                    x_1 = t_0;
+                                    x_2 = t_1;
+                                    x_3 = t_2;
+                                }
+                                __blk = 0;
+                                continue 'body;
+                            }
+                            1 => {
+                                rt::lean_dec(x_9);
+                                return x_12;
+                            }
+                            _ => rt::lean_internal_panic_unreachable(),
+                        }
+                    }
+                    1 => {
+                        rt::lean_dec(x_2);
+                        return x_3;
+                    }
+                    _ => rt::lean_internal_panic_unreachable(),
+                }
             }
             _ => rt::lean_internal_panic_unreachable(),
         }
@@ -8491,18 +10470,18 @@ pub(crate) unsafe fn l_policy_summaryHeader(mut x_1: Obj) -> u8 {
     unreachable_code,
     clippy::all
 )]
-unsafe fn l_policy_summaryHeader___closed__0_init() -> Obj {
+unsafe fn l_policy_unquotedName___closed__0_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked(" --- ", 5, 5);
+    x_1 = rt::lean_mk_string_unchecked(" ", 1, 1);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_policy_summaryHeader___closed__0() -> Obj {
+pub(crate) unsafe fn l_policy_unquotedName___closed__0() -> Obj {
     thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
     if let Some(v) = CELL.with(|c| c.get().copied()) {
         return v;
     }
-    let v = l_policy_summaryHeader___closed__0_init();
+    let v = l_policy_unquotedName___closed__0_init();
     rt::lean_mark_persistent(v);
     CELL.with(|c| *c.get_or_init(|| v))
 }
@@ -8670,207 +10649,6 @@ pub(crate) unsafe fn l_String_splitOnAux(
     unused_assignments,
     unused_variables,
     unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_reverse___redArg(mut x_1: Obj) -> Obj {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_2 = rt::lean_box(0);
-    x_3 = l_List_reverseAux___redArg(x_1, x_2);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_reverseAux___redArg(mut x_1: Obj, mut x_2: Obj) -> Obj {
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: Obj = rt::lean_box(0);
-    let mut x_6: Obj = rt::lean_box(0);
-    let mut x_7: u8 = 0;
-    let mut x_9: Obj = rt::lean_box(0);
-    let mut x_10: Obj = rt::lean_box(0);
-    let mut x_11: Obj = rt::lean_box(0);
-    let mut x_12: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_1) {
-                0 => {
-                    return x_2;
-                }
-                1 => {
-                    x_3 = rt::lean_ctor_get(x_1, 0);
-                    x_4 = rt::lean_ctor_get(x_1, 1);
-                    x_12 = (!rt::lean_is_exclusive(x_1)) as u8;
-                    match x_12 as u32 {
-                        0 => {
-                            {
-                                let t_0 = x_1;
-                                let t_1 = x_12;
-                                x_6 = t_0;
-                                x_7 = t_1;
-                            }
-                            __blk = 1;
-                            continue 'body;
-                        }
-                        1 => {
-                            rt::lean_inc(x_4);
-                            rt::lean_inc(x_3);
-                            rt::lean_dec(x_1);
-                            {
-                                let t_0 = rt::lean_box(0);
-                                let t_1 = x_12;
-                                x_6 = t_0;
-                                x_7 = t_1;
-                            }
-                            __blk = 1;
-                            continue 'body;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            1 => match x_7 as u32 {
-                0 => {
-                    rt::lean_ctor_set(x_6, 1, x_2);
-                    {
-                        let t_0 = x_6;
-                        x_9 = t_0;
-                    }
-                    __blk = 2;
-                    continue 'body;
-                }
-                1 => {
-                    x_11 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                    rt::lean_ctor_set(x_11, 0, x_3);
-                    rt::lean_ctor_set(x_11, 1, x_2);
-                    {
-                        let t_0 = x_11;
-                        x_9 = t_0;
-                    }
-                    __blk = 2;
-                    continue 'body;
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            2 => {
-                {
-                    let t_0 = x_4;
-                    let t_1 = x_9;
-                    x_1 = t_0;
-                    x_2 = t_1;
-                }
-                __blk = 0;
-                continue 'body;
-            }
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_lengthTR___redArg(mut x_1: Obj) -> Obj {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_2 = rt::lean_unsigned_to_nat(0u32);
-    x_3 = l_List_lengthTRAux___redArg(x_1, x_2);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_lengthTRAux___redArg(mut x_1: Obj, mut x_2: Obj) -> Obj {
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: Obj = rt::lean_box(0);
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: Obj = rt::lean_box(0);
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_1) {
-                0 => {
-                    return x_2;
-                }
-                1 => {
-                    x_3 = rt::lean_ctor_get(x_1, 1);
-                    x_4 = rt::lean_unsigned_to_nat(1u32);
-                    x_5 = rt::lean_nat_add(x_2, x_4);
-                    rt::lean_dec(x_2);
-                    {
-                        let t_0 = x_3;
-                        let t_1 = x_5;
-                        x_1 = t_0;
-                        x_2 = t_1;
-                    }
-                    __blk = 0;
-                    continue 'body;
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_policy_summaryHeader___closed__1_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("-*-", 3, 3);
-    return x_1;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_policy_summaryHeader___closed__1() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_policy_summaryHeader___closed__1_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
     clippy::all
 )]
 unsafe fn l_policy_summaryHeader___closed__2_init() -> Obj {
@@ -8887,6 +10665,459 @@ pub(crate) unsafe fn l_policy_summaryHeader___closed__2() -> Obj {
     let v = l_policy_summaryHeader___closed__2_init();
     rt::lean_mark_persistent(v);
     CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_requiresMain(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: u8 = 0;
+    rt::lean_inc_ref(x_1);
+    x_2 = l_policy_mainFile(x_1);
+    match x_2 as u32 {
+        0 => {
+            rt::lean_dec_ref(x_1);
+            return x_2;
+        }
+        1 => {
+            x_3 = rt::lean_ctor_get(x_1, 2);
+            rt::lean_inc(x_3);
+            x_4 = l_List_all___at___00policy_requiresMain_spec__2(x_1, x_3);
+            rt::lean_dec(x_3);
+            rt::lean_dec_ref(x_1);
+            return x_4;
+        }
+        _ => rt::lean_internal_panic_unreachable(),
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_requiresMain_spec__2(
+    mut x_1: Obj,
+    mut x_2: Obj,
+) -> u8 {
+    let mut x_3: u8 = 0;
+    let mut x_4: Obj = rt::lean_box(0);
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: Obj = rt::lean_box(0);
+    let mut x_7: u8 = 0;
+    let mut x_8: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_2) {
+                0 => {
+                    x_3 = 1u8;
+                    return x_3;
+                }
+                1 => {
+                    x_4 = rt::lean_ctor_get(x_2, 0);
+                    x_5 = rt::lean_ctor_get(x_2, 1);
+                    x_6 = rt::lean_ctor_get(x_4, 4);
+                    x_7 = l_List_all___at___00policy_requiresMain_spec__1(x_1, x_6);
+                    match x_7 as u32 {
+                        0 => {
+                            return x_7;
+                        }
+                        1 => {
+                            {
+                                let t_0 = x_1;
+                                let t_1 = x_5;
+                                x_1 = t_0;
+                                x_2 = t_1;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_requiresMain_spec__1(
+    mut x_1: Obj,
+    mut x_2: Obj,
+) -> u8 {
+    let mut x_3: u8 = 0;
+    let mut x_4: Obj = rt::lean_box(0);
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: Obj = rt::lean_box(0);
+    let mut x_7: u8 = 0;
+    let mut x_8: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_2) {
+                0 => {
+                    x_3 = 1u8;
+                    return x_3;
+                }
+                1 => {
+                    x_4 = rt::lean_ctor_get(x_2, 0);
+                    x_5 = rt::lean_ctor_get(x_2, 1);
+                    x_6 = rt::lean_ctor_get(x_1, 3);
+                    x_7 = l_List_elem___at___00policy_requiresMain_spec__0(x_4, x_6);
+                    match x_7 as u32 {
+                        0 => {
+                            return x_7;
+                        }
+                        1 => {
+                            {
+                                let t_0 = x_1;
+                                let t_1 = x_5;
+                                x_1 = t_0;
+                                x_2 = t_1;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_licensePosition(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    x_2 = rt::lean_ctor_get(x_1, 2);
+    x_3 = l_List_all___at___00policy_licensePosition_spec__0(x_2);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_licensePosition_spec__0(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: u8 = 0;
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    x_2 = 1u8;
+                    return x_2;
+                }
+                1 => {
+                    x_3 = rt::lean_ctor_get(x_1, 0);
+                    x_4 =
+                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 2);
+                    match x_4 as u32 {
+                        0 => {
+                            return x_4;
+                        }
+                        1 => {
+                            x_5 = rt::lean_ctor_get(x_1, 1);
+                            {
+                                let t_0 = x_5;
+                                x_1 = t_0;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_licenseSpdx(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    x_2 = rt::lean_ctor_get(x_1, 2);
+    x_3 = l_List_all___at___00policy_licenseSpdx_spec__0(x_2);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_licenseSpdx_spec__0(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: Obj = rt::lean_box(0);
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: Obj = rt::lean_box(0);
+    let mut x_7: u8 = 0;
+    let mut x_8: u8 = 0;
+    let mut x_9: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    x_2 = 1u8;
+                    return x_2;
+                }
+                1 => {
+                    x_3 = rt::lean_ctor_get(x_1, 0);
+                    x_4 = rt::lean_ctor_get(x_1, 1);
+                    x_5 = rt::lean_ctor_get(x_3, 3);
+                    x_6 = l_List_all___at___00policy_licenseSpdx_spec__0___closed__0();
+                    x_7 = rt::lean_string_dec_eq(x_5, x_6);
+                    match x_7 as u32 {
+                        0 => {
+                            {
+                                let t_0 = x_4;
+                                x_1 = t_0;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        1 => {
+                            x_9 = 0u8;
+                            return x_9;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_List_all___at___00policy_licenseSpdx_spec__0___closed__0_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked("GPL-2.0-only", 12, 12);
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_List_all___at___00policy_licenseSpdx_spec__0___closed__0() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_List_all___at___00policy_licenseSpdx_spec__0___closed__0_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_licenseNotice(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    x_2 = rt::lean_ctor_get(x_1, 2);
+    x_3 = l_List_all___at___00policy_licenseNotice_spec__0(x_2);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_licenseNotice_spec__0(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: u8 = 0;
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    x_2 = 1u8;
+                    return x_2;
+                }
+                1 => {
+                    x_3 = rt::lean_ctor_get(x_1, 0);
+                    x_4 =
+                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 1);
+                    match x_4 as u32 {
+                        0 => {
+                            return x_4;
+                        }
+                        1 => {
+                            x_5 = rt::lean_ctor_get(x_1, 1);
+                            {
+                                let t_0 = x_5;
+                                x_1 = t_0;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_policy_lexicalBinding(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
+    x_2 = rt::lean_ctor_get(x_1, 2);
+    x_3 = l_List_all___at___00policy_lexicalBinding_spec__0(x_2);
+    return x_3;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_all___at___00policy_lexicalBinding_spec__0(mut x_1: Obj) -> u8 {
+    let mut x_2: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: u8 = 0;
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    x_2 = 1u8;
+                    return x_2;
+                }
+                1 => {
+                    x_3 = rt::lean_ctor_get(x_1, 0);
+                    x_4 =
+                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 0);
+                    match x_4 as u32 {
+                        0 => {
+                            return x_4;
+                        }
+                        1 => {
+                            x_5 = rt::lean_ctor_get(x_1, 1);
+                            {
+                                let t_0 = x_5;
+                                x_1 = t_0;
+                            }
+                            __blk = 0;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
 }
 
 #[allow(
@@ -9404,39 +11635,14 @@ pub(crate) unsafe fn l_policy_prefixedFile___closed__0() -> Obj {
     unused_assignments,
     unused_variables,
     unreachable_code,
-    clippy::all
-)]
-unsafe fn l_policy_prefixedFile___closed__1_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("-", 1, 1);
-    return x_1;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_policy_prefixedFile___closed__1() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_policy_prefixedFile___closed__1_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
     unused_unsafe,
     clippy::all
 )]
-pub(crate) unsafe fn l_policy_lexicalBinding(mut x_1: Obj) -> u8 {
+pub(crate) unsafe fn l_policy_packagingHeader(mut x_1: Obj) -> u8 {
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: u8 = 0;
     x_2 = rt::lean_ctor_get(x_1, 2);
-    x_3 = l_List_all___at___00policy_lexicalBinding_spec__0(x_2);
+    x_3 = l_List_all___at___00policy_packagingHeader_spec__0(x_2);
     return x_3;
 }
 
@@ -9450,515 +11656,7 @@ pub(crate) unsafe fn l_policy_lexicalBinding(mut x_1: Obj) -> u8 {
     unused_unsafe,
     clippy::all
 )]
-pub(crate) unsafe fn l_List_all___at___00policy_lexicalBinding_spec__0(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: u8 = 0;
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_1) {
-                0 => {
-                    x_2 = 1u8;
-                    return x_2;
-                }
-                1 => {
-                    x_3 = rt::lean_ctor_get(x_1, 0);
-                    x_4 =
-                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 0);
-                    match x_4 as u32 {
-                        0 => {
-                            return x_4;
-                        }
-                        1 => {
-                            x_5 = rt::lean_ctor_get(x_1, 1);
-                            {
-                                let t_0 = x_5;
-                                x_1 = t_0;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_licenseNotice(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    x_2 = rt::lean_ctor_get(x_1, 2);
-    x_3 = l_List_all___at___00policy_licenseNotice_spec__0(x_2);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_licenseNotice_spec__0(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: u8 = 0;
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_1) {
-                0 => {
-                    x_2 = 1u8;
-                    return x_2;
-                }
-                1 => {
-                    x_3 = rt::lean_ctor_get(x_1, 0);
-                    x_4 =
-                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 1);
-                    match x_4 as u32 {
-                        0 => {
-                            return x_4;
-                        }
-                        1 => {
-                            x_5 = rt::lean_ctor_get(x_1, 1);
-                            {
-                                let t_0 = x_5;
-                                x_1 = t_0;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_licenseSpdx(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    x_2 = rt::lean_ctor_get(x_1, 2);
-    x_3 = l_List_all___at___00policy_licenseSpdx_spec__0(x_2);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_licenseSpdx_spec__0(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: Obj = rt::lean_box(0);
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: Obj = rt::lean_box(0);
-    let mut x_7: u8 = 0;
-    let mut x_8: u8 = 0;
-    let mut x_9: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_1) {
-                0 => {
-                    x_2 = 1u8;
-                    return x_2;
-                }
-                1 => {
-                    x_3 = rt::lean_ctor_get(x_1, 0);
-                    x_4 = rt::lean_ctor_get(x_1, 1);
-                    x_5 = rt::lean_ctor_get(x_3, 3);
-                    x_6 = l_List_all___at___00policy_licenseSpdx_spec__0___closed__0();
-                    x_7 = rt::lean_string_dec_eq(x_5, x_6);
-                    match x_7 as u32 {
-                        0 => {
-                            {
-                                let t_0 = x_4;
-                                x_1 = t_0;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        1 => {
-                            x_9 = 0u8;
-                            return x_9;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_List_all___at___00policy_licenseSpdx_spec__0___closed__0_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("GPL-2.0-only", 12, 12);
-    return x_1;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_List_all___at___00policy_licenseSpdx_spec__0___closed__0() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_List_all___at___00policy_licenseSpdx_spec__0___closed__0_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_licensePosition(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    x_2 = rt::lean_ctor_get(x_1, 2);
-    x_3 = l_List_all___at___00policy_licensePosition_spec__0(x_2);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_licensePosition_spec__0(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: u8 = 0;
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_1) {
-                0 => {
-                    x_2 = 1u8;
-                    return x_2;
-                }
-                1 => {
-                    x_3 = rt::lean_ctor_get(x_1, 0);
-                    x_4 =
-                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 2);
-                    match x_4 as u32 {
-                        0 => {
-                            return x_4;
-                        }
-                        1 => {
-                            x_5 = rt::lean_ctor_get(x_1, 1);
-                            {
-                                let t_0 = x_5;
-                                x_1 = t_0;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_requiresMain(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: u8 = 0;
-    rt::lean_inc_ref(x_1);
-    x_2 = l_policy_mainFile(x_1);
-    match x_2 as u32 {
-        0 => {
-            rt::lean_dec_ref(x_1);
-            return x_2;
-        }
-        1 => {
-            x_3 = rt::lean_ctor_get(x_1, 2);
-            rt::lean_inc(x_3);
-            x_4 = l_List_all___at___00policy_requiresMain_spec__2(x_1, x_3);
-            rt::lean_dec(x_3);
-            rt::lean_dec_ref(x_1);
-            return x_4;
-        }
-        _ => rt::lean_internal_panic_unreachable(),
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_requiresMain_spec__2(
-    mut x_1: Obj,
-    mut x_2: Obj,
-) -> u8 {
-    let mut x_3: u8 = 0;
-    let mut x_4: Obj = rt::lean_box(0);
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: Obj = rt::lean_box(0);
-    let mut x_7: u8 = 0;
-    let mut x_8: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_2) {
-                0 => {
-                    x_3 = 1u8;
-                    return x_3;
-                }
-                1 => {
-                    x_4 = rt::lean_ctor_get(x_2, 0);
-                    x_5 = rt::lean_ctor_get(x_2, 1);
-                    x_6 = rt::lean_ctor_get(x_4, 4);
-                    x_7 = l_List_all___at___00policy_requiresMain_spec__1(x_1, x_6);
-                    match x_7 as u32 {
-                        0 => {
-                            return x_7;
-                        }
-                        1 => {
-                            {
-                                let t_0 = x_1;
-                                let t_1 = x_5;
-                                x_1 = t_0;
-                                x_2 = t_1;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_requiresMain_spec__1(
-    mut x_1: Obj,
-    mut x_2: Obj,
-) -> u8 {
-    let mut x_3: u8 = 0;
-    let mut x_4: Obj = rt::lean_box(0);
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: Obj = rt::lean_box(0);
-    let mut x_7: u8 = 0;
-    let mut x_8: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_2) {
-                0 => {
-                    x_3 = 1u8;
-                    return x_3;
-                }
-                1 => {
-                    x_4 = rt::lean_ctor_get(x_2, 0);
-                    x_5 = rt::lean_ctor_get(x_2, 1);
-                    x_6 = rt::lean_ctor_get(x_1, 3);
-                    x_7 = l_List_elem___at___00policy_requiresMain_spec__0(x_4, x_6);
-                    match x_7 as u32 {
-                        0 => {
-                            return x_7;
-                        }
-                        1 => {
-                            {
-                                let t_0 = x_1;
-                                let t_1 = x_5;
-                                x_1 = t_0;
-                                x_2 = t_1;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_elem___at___00policy_requiresMain_spec__0(
-    mut x_1: Obj,
-    mut x_2: Obj,
-) -> u8 {
-    let mut x_3: u8 = 0;
-    let mut x_4: Obj = rt::lean_box(0);
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: u8 = 0;
-    let mut x_7: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_2) {
-                0 => {
-                    x_3 = 0u8;
-                    return x_3;
-                }
-                1 => {
-                    x_4 = rt::lean_ctor_get(x_2, 0);
-                    x_5 = rt::lean_ctor_get(x_2, 1);
-                    x_6 = rt::lean_string_dec_eq(x_1, x_4);
-                    match x_6 as u32 {
-                        0 => {
-                            {
-                                let t_0 = x_1;
-                                let t_1 = x_5;
-                                x_1 = t_0;
-                                x_2 = t_1;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        1 => {
-                            return x_6;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_requiresUnquoted(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    x_2 = rt::lean_ctor_get(x_1, 2);
-    x_3 = l_List_all___at___00policy_requiresUnquoted_spec__1(x_2);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_requiresUnquoted_spec__1(mut x_1: Obj) -> u8 {
+pub(crate) unsafe fn l_List_all___at___00policy_packagingHeader_spec__0(mut x_1: Obj) -> u8 {
     let mut x_2: u8 = 0;
     let mut x_3: Obj = rt::lean_box(0);
     let mut x_4: Obj = rt::lean_box(0);
@@ -9976,8 +11674,8 @@ pub(crate) unsafe fn l_List_all___at___00policy_requiresUnquoted_spec__1(mut x_1
                 1 => {
                     x_3 = rt::lean_ctor_get(x_1, 0);
                     x_4 = rt::lean_ctor_get(x_1, 1);
-                    x_5 = rt::lean_ctor_get(x_3, 4);
-                    x_6 = l_List_all___at___00policy_requiresUnquoted_spec__0(x_5);
+                    x_5 = rt::lean_ctor_get(x_3, 2);
+                    x_6 = l_policy_summaryHeader(x_5);
                     match x_6 as u32 {
                         0 => {
                             return x_6;
@@ -10010,95 +11708,47 @@ pub(crate) unsafe fn l_List_all___at___00policy_requiresUnquoted_spec__1(mut x_1
     unused_unsafe,
     clippy::all
 )]
-pub(crate) unsafe fn l_List_all___at___00policy_requiresUnquoted_spec__0(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: Obj = rt::lean_box(0);
-    let mut x_5: u8 = 0;
-    let mut x_6: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_1) {
-                0 => {
-                    x_2 = 1u8;
-                    return x_2;
-                }
-                1 => {
-                    x_3 = rt::lean_ctor_get(x_1, 0);
-                    x_4 = rt::lean_ctor_get(x_1, 1);
-                    x_5 = l_policy_unquotedName(x_3);
-                    match x_5 as u32 {
-                        0 => {
-                            return x_5;
-                        }
-                        1 => {
-                            {
-                                let t_0 = x_4;
-                                x_1 = t_0;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_unquotedName(mut x_1: Obj) -> u8 {
-    let mut x_3: Obj = rt::lean_box(0);
+pub(crate) unsafe fn l_policy_summaryHeader(mut x_1: Obj) -> u8 {
+    let mut x_2: Obj = rt::lean_box(0);
     let mut x_4: Obj = rt::lean_box(0);
     let mut x_5: Obj = rt::lean_box(0);
     let mut x_6: Obj = rt::lean_box(0);
-    let mut x_7: u8 = 0;
-    let mut x_8: u8 = 0;
-    let mut x_9: u8 = 0;
-    let mut x_10: Obj = rt::lean_box(0);
+    let mut x_7: Obj = rt::lean_box(0);
+    let mut x_8: Obj = rt::lean_box(0);
+    let mut x_9: Obj = rt::lean_box(0);
+    let mut x_10: u8 = 0;
     let mut x_11: Obj = rt::lean_box(0);
     let mut x_12: Obj = rt::lean_box(0);
     let mut x_13: Obj = rt::lean_box(0);
     let mut x_14: Obj = rt::lean_box(0);
     let mut x_15: Obj = rt::lean_box(0);
+    let mut x_16: Obj = rt::lean_box(0);
     let mut __blk: u32 = 0;
     'body: loop {
         match __blk {
             0 => {
-                x_10 = l_policy_unquotedName___closed__0();
-                x_11 = rt::lean_unsigned_to_nat(0u32);
-                x_12 = rt::lean_box(0);
-                x_13 = l_String_splitOnAux(x_1, x_10, x_11, x_11, x_11, x_12);
-                match rt::lean_obj_tag(x_13) {
+                x_2 = rt::lean_unsigned_to_nat(1u32);
+                x_11 = l_policy_summaryHeader___closed__1();
+                x_12 = rt::lean_unsigned_to_nat(0u32);
+                x_13 = rt::lean_box(0);
+                x_14 = l_String_splitOnAux(x_1, x_11, x_12, x_12, x_12, x_13);
+                match rt::lean_obj_tag(x_14) {
                     0 => {
-                        x_14 = l_policy_summaryHeader___closed__2();
+                        x_15 = l_policy_summaryHeader___closed__2();
                         {
-                            let t_0 = x_14;
-                            x_3 = t_0;
+                            let t_0 = x_15;
+                            x_4 = t_0;
                         }
                         __blk = 1;
                         continue 'body;
                     }
                     1 => {
-                        x_15 = rt::lean_ctor_get(x_13, 0);
-                        rt::lean_inc(x_15);
-                        rt::lean_dec_ref(x_13);
+                        x_16 = rt::lean_ctor_get(x_14, 0);
+                        rt::lean_inc(x_16);
+                        rt::lean_dec_ref(x_14);
                         {
-                            let t_0 = x_15;
-                            x_3 = t_0;
+                            let t_0 = x_16;
+                            x_4 = t_0;
                         }
                         __blk = 1;
                         continue 'body;
@@ -10107,25 +11757,16 @@ pub(crate) unsafe fn l_policy_unquotedName(mut x_1: Obj) -> u8 {
                 }
             }
             1 => {
-                x_4 = rt::lean_unsigned_to_nat(0u32);
-                x_5 = rt::lean_string_utf8_byte_size(x_3);
-                x_6 = rt::lean_alloc_ctor(0, 3, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_6, 0, x_3);
-                rt::lean_ctor_set(x_6, 1, x_4);
-                rt::lean_ctor_set(x_6, 2, x_5);
-                x_7 = l_String_Slice_contains___at___00policy_unquotedName_spec__0(x_6);
-                rt::lean_dec_ref(x_6);
-                match x_7 as u32 {
-                    0 => {
-                        x_8 = 1u8;
-                        return x_8;
-                    }
-                    1 => {
-                        x_9 = 0u8;
-                        return x_9;
-                    }
-                    _ => rt::lean_internal_panic_unreachable(),
-                }
+                x_5 = l_policy_summaryHeader___closed__0();
+                x_6 = rt::lean_unsigned_to_nat(0u32);
+                x_7 = rt::lean_box(0);
+                x_8 = l_String_splitOnAux(x_4, x_5, x_6, x_6, x_6, x_7);
+                rt::lean_dec_ref(x_4);
+                x_9 = l_List_lengthTR___redArg(x_8);
+                rt::lean_dec(x_8);
+                x_10 = rt::lean_nat_dec_lt(x_2, x_9);
+                rt::lean_dec(x_9);
+                return x_10;
             }
             _ => rt::lean_internal_panic_unreachable(),
         }
@@ -10139,19 +11780,40 @@ pub(crate) unsafe fn l_policy_unquotedName(mut x_1: Obj) -> u8 {
     unused_assignments,
     unused_variables,
     unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_summaryHeader___closed__0_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked(" --- ", 5, 5);
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_summaryHeader___closed__0() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_summaryHeader___closed__0_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
     unused_unsafe,
     clippy::all
 )]
-pub(crate) unsafe fn l_String_Slice_contains___at___00policy_unquotedName_spec__0(
-    mut x_1: Obj,
-) -> u8 {
+pub(crate) unsafe fn l_List_lengthTR___redArg(mut x_1: Obj) -> Obj {
     let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    let mut x_4: u8 = 0;
+    let mut x_3: Obj = rt::lean_box(0);
     x_2 = rt::lean_unsigned_to_nat(0u32);
-    x_3 = 0u8;
-    x_4 = l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00policy_unquotedName_spec__0_spec__0___redArg(x_1, x_2, x_3);
-    return x_4;
+    x_3 = l_List_lengthTRAux___redArg(x_1, x_2);
+    return x_3;
 }
 
 #[allow(
@@ -10164,899 +11826,28 @@ pub(crate) unsafe fn l_String_Slice_contains___at___00policy_unquotedName_spec__
     unused_unsafe,
     clippy::all
 )]
-pub(crate) unsafe fn l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00policy_unquotedName_spec__0_spec__0___redArg(
-    mut x_1: Obj,
-    mut x_2: Obj,
-    mut x_3: u8,
-) -> u8 {
+pub(crate) unsafe fn l_List_lengthTRAux___redArg(mut x_1: Obj, mut x_2: Obj) -> Obj {
+    let mut x_3: Obj = rt::lean_box(0);
     let mut x_4: Obj = rt::lean_box(0);
     let mut x_5: Obj = rt::lean_box(0);
     let mut x_6: Obj = rt::lean_box(0);
-    let mut x_7: Obj = rt::lean_box(0);
-    let mut x_8: u8 = 0;
-    let mut x_9: Obj = rt::lean_box(0);
-    let mut x_10: u32 = 0;
-    let mut x_11: u32 = 0;
-    let mut x_12: u8 = 0;
-    let mut x_13: Obj = rt::lean_box(0);
-    let mut x_14: Obj = rt::lean_box(0);
-    let mut x_15: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => {
-                x_4 = rt::lean_ctor_get(x_1, 0);
-                x_5 = rt::lean_ctor_get(x_1, 1);
-                x_6 = rt::lean_ctor_get(x_1, 2);
-                x_7 = rt::lean_nat_sub(x_6, x_5);
-                x_8 = rt::lean_nat_dec_eq(x_2, x_7);
-                rt::lean_dec(x_7);
-                match x_8 as u32 {
-                    0 => {
-                        x_9 = rt::lean_nat_add(x_5, x_2);
-                        rt::lean_dec(x_2);
-                        x_10 = rt::lean_string_utf8_get_fast(x_4, x_9);
-                        x_11 = 34u32;
-                        x_12 = rt::lean_uint32_dec_eq(x_10, x_11);
-                        match x_12 as u32 {
-                            0 => {
-                                x_13 = rt::lean_string_utf8_next_fast(x_4, x_9);
-                                rt::lean_dec(x_9);
-                                x_14 = rt::lean_nat_sub(x_13, x_5);
-                                {
-                                    let t_0 = x_1;
-                                    let t_1 = x_14;
-                                    let t_2 = x_12;
-                                    x_1 = t_0;
-                                    x_2 = t_1;
-                                    x_3 = t_2;
-                                }
-                                __blk = 0;
-                                continue 'body;
-                            }
-                            1 => {
-                                rt::lean_dec(x_9);
-                                return x_12;
-                            }
-                            _ => rt::lean_internal_panic_unreachable(),
-                        }
-                    }
-                    1 => {
-                        rt::lean_dec(x_2);
-                        return x_3;
-                    }
-                    _ => rt::lean_internal_panic_unreachable(),
-                }
-            }
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_policy_unquotedName___closed__0_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked(" ", 1, 1);
-    return x_1;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_policy_unquotedName___closed__0() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_policy_unquotedName___closed__0_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_urlUnquoted(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    x_2 = rt::lean_ctor_get(x_1, 2);
-    x_3 = l_List_all___at___00policy_urlUnquoted_spec__0(x_2);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_urlUnquoted_spec__0(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: u8 = 0;
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: u8 = 0;
-    let mut x_7: u8 = 0;
     let mut __blk: u32 = 0;
     'body: loop {
         match __blk {
             0 => match rt::lean_obj_tag(x_1) {
                 0 => {
-                    x_2 = 1u8;
                     return x_2;
                 }
                 1 => {
-                    x_3 = rt::lean_ctor_get(x_1, 0);
-                    x_4 =
-                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 3);
-                    match x_4 as u32 {
-                        0 => {
-                            x_5 = rt::lean_ctor_get(x_1, 1);
-                            {
-                                let t_0 = x_5;
-                                x_1 = t_0;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        1 => {
-                            x_7 = 0u8;
-                            return x_7;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_sharpQuote(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    x_2 = rt::lean_ctor_get(x_1, 2);
-    x_3 = l_List_all___at___00policy_sharpQuote_spec__0(x_2);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_sharpQuote_spec__0(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: u8 = 0;
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: u8 = 0;
-    let mut x_7: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_1) {
-                0 => {
-                    x_2 = 1u8;
-                    return x_2;
-                }
-                1 => {
-                    x_3 = rt::lean_ctor_get(x_1, 0);
-                    x_4 =
-                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 4);
-                    match x_4 as u32 {
-                        0 => {
-                            x_5 = rt::lean_ctor_get(x_1, 1);
-                            {
-                                let t_0 = x_5;
-                                x_1 = t_0;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        1 => {
-                            x_7 = 0u8;
-                            return x_7;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_faceInherit(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    x_2 = rt::lean_ctor_get(x_1, 2);
-    x_3 = l_List_all___at___00policy_faceInherit_spec__0(x_2);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_faceInherit_spec__0(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: u8 = 0;
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: u8 = 0;
-    let mut x_7: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_1) {
-                0 => {
-                    x_2 = 1u8;
-                    return x_2;
-                }
-                1 => {
-                    x_3 = rt::lean_ctor_get(x_1, 0);
-                    x_4 =
-                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 5);
-                    match x_4 as u32 {
-                        0 => {
-                            x_5 = rt::lean_ctor_get(x_1, 1);
-                            {
-                                let t_0 = x_5;
-                                x_1 = t_0;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        1 => {
-                            x_7 = 0u8;
-                            return x_7;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_author(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    x_2 = l_policy_author___closed__0();
-    x_3 = l___private_LeanRustGen_Embed_elispore__check_hb1a35a68f14e6962_policy_0__policy_inMain(
-        x_1, x_2,
-    );
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_policy_author___closed__0_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_alloc_closure(l_policy_author___lam__0___boxed as *const (), 1, 0);
-    return x_1;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_policy_author___closed__0() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_policy_author___closed__0_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_author___lam__0___boxed(mut x_1: Obj) -> Obj {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    x_2 = l_policy_author___lam__0(x_1);
-    rt::lean_dec_ref(x_1);
-    x_3 = rt::lean_box(x_2 as usize);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_author___lam__0(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    x_2 = rt::lean_ctor_get_uint8(x_1, 9 * core::mem::size_of::<usize>() as u32 + 6);
-    return x_2;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l___private_LeanRustGen_Embed_elispore__check_hb1a35a68f14e6962_policy_0__policy_inMain(
-    mut x_1: Obj,
-    mut x_2: Obj,
-) -> u8 {
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: u8 = 0;
-    x_3 = rt::lean_ctor_get(x_1, 2);
-    rt::lean_inc(x_3);
-    x_4 = l_List_any___at___00__private_LeanRustGen_Embed_elispore__check_hb1a35a68f14e6962_policy_0__policy_inMain_spec__0(x_1, x_2, x_3);
-    return x_4;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_any___at___00__private_LeanRustGen_Embed_elispore__check_hb1a35a68f14e6962_policy_0__policy_inMain_spec__0(
-    mut x_1: Obj,
-    mut x_2: Obj,
-    mut x_3: Obj,
-) -> u8 {
-    let mut x_4: u8 = 0;
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: Obj = rt::lean_box(0);
-    let mut x_7: Obj = rt::lean_box(0);
-    let mut x_8: Obj = rt::lean_box(0);
-    let mut x_9: Obj = rt::lean_box(0);
-    let mut x_10: Obj = rt::lean_box(0);
-    let mut x_11: u8 = 0;
-    let mut x_12: u8 = 0;
-    let mut x_13: Obj = rt::lean_box(0);
-    let mut x_14: u8 = 0;
-    let mut x_15: u8 = 0;
-    let mut x_16: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_3) {
-                0 => {
-                    rt::lean_dec_ref(x_2);
-                    rt::lean_dec_ref(x_1);
-                    x_4 = 0u8;
-                    return x_4;
-                }
-                1 => {
-                    x_5 = rt::lean_ctor_get(x_3, 0);
-                    rt::lean_inc(x_5);
-                    x_6 = rt::lean_ctor_get(x_3, 1);
-                    rt::lean_inc(x_6);
-                    rt::lean_dec_ref(x_3);
-                    x_7 = rt::lean_ctor_get(x_5, 0);
-                    x_8 = rt::lean_ctor_get(x_1, 0);
-                    x_9 = l_List_any___at___00policy_mainFile_spec__0___closed__0();
-                    rt::lean_inc_ref(x_8);
-                    x_10 = rt::lean_string_append(x_8, x_9);
-                    x_11 = rt::lean_string_dec_eq(x_7, x_10);
-                    rt::lean_dec_ref(x_10);
-                    match x_11 as u32 {
-                        0 => {
-                            rt::lean_dec(x_5);
-                            {
-                                let t_0 = x_1;
-                                let t_1 = x_2;
-                                let t_2 = x_6;
-                                x_1 = t_0;
-                                x_2 = t_1;
-                                x_3 = t_2;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        1 => {
-                            rt::lean_inc_ref(x_2);
-                            x_13 = rt::lean_apply_1(x_2, x_5);
-                            x_14 = rt::lean_unbox(x_13) as u8;
-                            match x_14 as u32 {
-                                0 => {
-                                    {
-                                        let t_0 = x_1;
-                                        let t_1 = x_2;
-                                        let t_2 = x_6;
-                                        x_1 = t_0;
-                                        x_2 = t_1;
-                                        x_3 = t_2;
-                                    }
-                                    __blk = 0;
-                                    continue 'body;
-                                }
-                                1 => {
-                                    rt::lean_dec(x_6);
-                                    rt::lean_dec_ref(x_2);
-                                    rt::lean_dec_ref(x_1);
-                                    x_16 = rt::lean_unbox(x_13) as u8;
-                                    return x_16;
-                                }
-                                _ => rt::lean_internal_panic_unreachable(),
-                            }
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_version(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    x_2 = l_policy_version___closed__0();
-    x_3 = l___private_LeanRustGen_Embed_elispore__check_hb1a35a68f14e6962_policy_0__policy_inMain(
-        x_1, x_2,
-    );
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_policy_version___closed__0_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_alloc_closure(l_policy_version___lam__0___boxed as *const (), 1, 0);
-    return x_1;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_policy_version___closed__0() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_policy_version___closed__0_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_version___lam__0___boxed(mut x_1: Obj) -> Obj {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    x_2 = l_policy_version___lam__0(x_1);
-    rt::lean_dec_ref(x_1);
-    x_3 = rt::lean_box(x_2 as usize);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_version___lam__0(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    x_2 = rt::lean_ctor_get_uint8(x_1, 9 * core::mem::size_of::<usize>() as u32 + 7);
-    return x_2;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_codeSection(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    x_2 = rt::lean_ctor_get(x_1, 2);
-    x_3 = l_List_all___at___00policy_codeSection_spec__0(x_2);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_codeSection_spec__0(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: u8 = 0;
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_1) {
-                0 => {
-                    x_2 = 1u8;
-                    return x_2;
-                }
-                1 => {
-                    x_3 = rt::lean_ctor_get(x_1, 0);
-                    x_4 =
-                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 8);
-                    match x_4 as u32 {
-                        0 => {
-                            return x_4;
-                        }
-                        1 => {
-                            x_5 = rt::lean_ctor_get(x_1, 1);
-                            {
-                                let t_0 = x_5;
-                                x_1 = t_0;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_footer(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    x_2 = rt::lean_ctor_get(x_1, 2);
-    x_3 = l_List_all___at___00policy_footer_spec__0(x_2);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_footer_spec__0(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: u8 = 0;
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_1) {
-                0 => {
-                    x_2 = 1u8;
-                    return x_2;
-                }
-                1 => {
-                    x_3 = rt::lean_ctor_get(x_1, 0);
-                    x_4 =
-                        rt::lean_ctor_get_uint8(x_3, 9 * core::mem::size_of::<usize>() as u32 + 9);
-                    match x_4 as u32 {
-                        0 => {
-                            return x_4;
-                        }
-                        1 => {
-                            x_5 = rt::lean_ctor_get(x_1, 1);
-                            {
-                                let t_0 = x_5;
-                                x_1 = t_0;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_symbolPrefix(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    x_2 = rt::lean_ctor_get(x_1, 2);
-    rt::lean_inc(x_2);
-    x_3 = l_List_all___at___00policy_symbolPrefix_spec__1(x_1, x_2);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_symbolPrefix_spec__1(
-    mut x_1: Obj,
-    mut x_2: Obj,
-) -> u8 {
-    let mut x_3: u8 = 0;
-    let mut x_4: Obj = rt::lean_box(0);
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: Obj = rt::lean_box(0);
-    let mut x_7: u8 = 0;
-    let mut x_8: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_2) {
-                0 => {
-                    rt::lean_dec_ref(x_1);
-                    x_3 = 1u8;
-                    return x_3;
-                }
-                1 => {
-                    x_4 = rt::lean_ctor_get(x_2, 0);
-                    rt::lean_inc(x_4);
-                    x_5 = rt::lean_ctor_get(x_2, 1);
-                    rt::lean_inc(x_5);
-                    rt::lean_dec_ref(x_2);
-                    x_6 = rt::lean_ctor_get(x_4, 7);
-                    rt::lean_inc(x_6);
-                    rt::lean_inc_ref(x_1);
-                    x_7 = l_List_all___at___00policy_symbolPrefix_spec__0(x_1, x_4, x_6);
-                    rt::lean_dec(x_6);
-                    match x_7 as u32 {
-                        0 => {
-                            rt::lean_dec(x_5);
-                            rt::lean_dec_ref(x_1);
-                            return x_7;
-                        }
-                        1 => {
-                            {
-                                let t_0 = x_1;
-                                let t_1 = x_5;
-                                x_1 = t_0;
-                                x_2 = t_1;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_symbolPrefix_spec__0(
-    mut x_1: Obj,
-    mut x_2: Obj,
-    mut x_3: Obj,
-) -> u8 {
-    let mut x_4: u8 = 0;
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: Obj = rt::lean_box(0);
-    let mut x_8: u8 = 0;
-    let mut x_9: u8 = 0;
-    let mut x_10: Obj = rt::lean_box(0);
-    let mut x_11: u8 = 0;
-    let mut x_12: Obj = rt::lean_box(0);
-    let mut x_13: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_3) {
-                0 => {
-                    rt::lean_dec_ref(x_2);
-                    rt::lean_dec_ref(x_1);
-                    x_4 = 1u8;
-                    return x_4;
-                }
-                1 => {
-                    x_5 = rt::lean_ctor_get(x_3, 0);
-                    x_6 = rt::lean_ctor_get(x_3, 1);
-                    x_10 = rt::lean_ctor_get(x_1, 0);
-                    rt::lean_inc_ref(x_10);
-                    x_11 = l_policy_prefixed(x_10, x_5);
-                    match x_11 as u32 {
-                        0 => {
-                            x_12 = rt::lean_ctor_get(x_2, 1);
-                            rt::lean_inc_ref(x_12);
-                            x_13 = l_policy_prefixed(x_12, x_5);
-                            {
-                                let t_0 = x_13;
-                                x_8 = t_0;
-                            }
-                            __blk = 1;
-                            continue 'body;
-                        }
-                        1 => {
-                            {
-                                let t_0 = x_11;
-                                x_8 = t_0;
-                            }
-                            __blk = 1;
-                            continue 'body;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            1 => match x_8 as u32 {
-                0 => {
-                    rt::lean_dec_ref(x_2);
-                    rt::lean_dec_ref(x_1);
-                    return x_8;
-                }
-                1 => {
+                    x_3 = rt::lean_ctor_get(x_1, 1);
+                    x_4 = rt::lean_unsigned_to_nat(1u32);
+                    x_5 = rt::lean_nat_add(x_2, x_4);
+                    rt::lean_dec(x_2);
                     {
-                        let t_0 = x_1;
-                        let t_1 = x_2;
-                        let t_2 = x_6;
+                        let t_0 = x_3;
+                        let t_1 = x_5;
                         x_1 = t_0;
                         x_2 = t_1;
-                        x_3 = t_2;
                     }
                     __blk = 0;
                     continue 'body;
@@ -11075,143 +11866,20 @@ pub(crate) unsafe fn l_List_all___at___00policy_symbolPrefix_spec__0(
     unused_assignments,
     unused_variables,
     unreachable_code,
-    unused_unsafe,
     clippy::all
 )]
-pub(crate) unsafe fn l_policy_prefixed(mut x_1: Obj, mut x_2: Obj) -> u8 {
-    let mut x_3: u8 = 0;
-    let mut x_4: Obj = rt::lean_box(0);
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: Obj = rt::lean_box(0);
-    let mut x_7: Obj = rt::lean_box(0);
-    let mut x_8: u8 = 0;
-    let mut x_9: Obj = rt::lean_box(0);
-    let mut x_10: u8 = 0;
-    x_3 = rt::lean_string_dec_eq(x_2, x_1);
-    match x_3 as u32 {
-        0 => {
-            x_4 = l_policy_prefixedFile___closed__1();
-            x_5 = rt::lean_string_append(x_1, x_4);
-            x_6 = rt::lean_string_utf8_byte_size(x_2);
-            x_7 = rt::lean_string_utf8_byte_size(x_5);
-            x_8 = rt::lean_nat_dec_le(x_7, x_6);
-            match x_8 as u32 {
-                0 => {
-                    rt::lean_dec_ref(x_5);
-                    return x_8;
-                }
-                1 => {
-                    x_9 = rt::lean_unsigned_to_nat(0u32);
-                    x_10 = rt::lean_string_memcmp(x_2, x_5, x_9, x_9, x_7);
-                    rt::lean_dec_ref(x_5);
-                    return x_10;
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            }
-        }
-        1 => {
-            rt::lean_dec_ref(x_1);
-            return x_3;
-        }
-        _ => rt::lean_internal_panic_unreachable(),
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_policy_noCl(mut x_1: Obj) -> u8 {
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: u8 = 0;
-    x_2 = rt::lean_ctor_get(x_1, 2);
-    x_3 = l_List_all___at___00policy_noCl_spec__0(x_2);
-    return x_3;
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    unused_unsafe,
-    clippy::all
-)]
-pub(crate) unsafe fn l_List_all___at___00policy_noCl_spec__0(mut x_1: Obj) -> u8 {
-    let mut x_2: u8 = 0;
-    let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: Obj = rt::lean_box(0);
-    let mut x_5: Obj = rt::lean_box(0);
-    let mut x_6: Obj = rt::lean_box(0);
-    let mut x_7: u8 = 0;
-    let mut x_8: u8 = 0;
-    let mut x_9: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_1) {
-                0 => {
-                    x_2 = 1u8;
-                    return x_2;
-                }
-                1 => {
-                    x_3 = rt::lean_ctor_get(x_1, 0);
-                    x_4 = rt::lean_ctor_get(x_1, 1);
-                    x_5 = rt::lean_ctor_get(x_3, 6);
-                    x_6 = l_List_all___at___00policy_noCl_spec__0___closed__0();
-                    x_7 = l_List_elem___at___00policy_requiresMain_spec__0(x_6, x_5);
-                    match x_7 as u32 {
-                        0 => {
-                            {
-                                let t_0 = x_4;
-                                x_1 = t_0;
-                            }
-                            __blk = 0;
-                            continue 'body;
-                        }
-                        1 => {
-                            x_9 = 0u8;
-                            return x_9;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
-                }
-                _ => rt::lean_internal_panic_unreachable(),
-            },
-            _ => rt::lean_internal_panic_unreachable(),
-        }
-    }
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_List_all___at___00policy_noCl_spec__0___closed__0_init() -> Obj {
+unsafe fn l_policy_summaryHeader___closed__1_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("cl", 2, 2);
+    x_1 = rt::lean_mk_string_unchecked("-*-", 3, 3);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_List_all___at___00policy_noCl_spec__0___closed__0() -> Obj {
+pub(crate) unsafe fn l_policy_summaryHeader___closed__1() -> Obj {
     thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
     if let Some(v) = CELL.with(|c| c.get().copied()) {
         return v;
     }
-    let v = l_List_all___at___00policy_noCl_spec__0___closed__0_init();
+    let v = l_policy_summaryHeader___closed__1_init();
     rt::lean_mark_persistent(v);
     CELL.with(|c| *c.get_or_init(|| v))
 }
@@ -11251,16 +11919,101 @@ pub(crate) unsafe fn l_policy_coding() -> Obj {
     unused_unsafe,
     clippy::all
 )]
-pub(crate) unsafe fn l_policy_advice(mut x_1: Obj) -> Obj {
+pub(crate) unsafe fn l_policy_unique(mut x_1: Obj) -> Obj {
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: Obj = rt::lean_box(0);
-    x_2 = rt::lean_ctor_get(x_1, 2);
-    rt::lean_inc(x_2);
-    rt::lean_dec_ref(x_1);
-    x_3 = rt::lean_box(0);
-    x_4 = l_List_foldl___at___00policy_advice_spec__1(x_3, x_2);
-    return x_4;
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: u8 = 0;
+    let mut x_7: Obj = rt::lean_box(0);
+    let mut x_8: u8 = 0;
+    let mut x_10: Obj = rt::lean_box(0);
+    let mut x_11: Obj = rt::lean_box(0);
+    let mut x_12: u8 = 0;
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    return x_1;
+                }
+                1 => {
+                    x_2 = rt::lean_ctor_get(x_1, 0);
+                    x_3 = rt::lean_ctor_get(x_1, 1);
+                    x_12 = (!rt::lean_is_exclusive(x_1)) as u8;
+                    match x_12 as u32 {
+                        0 => {
+                            {
+                                let t_0 = x_1;
+                                let t_1 = x_12;
+                                x_5 = t_0;
+                                x_6 = t_1;
+                            }
+                            __blk = 1;
+                            continue 'body;
+                        }
+                        1 => {
+                            rt::lean_inc(x_3);
+                            rt::lean_inc(x_2);
+                            rt::lean_dec(x_1);
+                            {
+                                let t_0 = rt::lean_box(0);
+                                let t_1 = x_12;
+                                x_5 = t_0;
+                                x_6 = t_1;
+                            }
+                            __blk = 1;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    }
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            1 => {
+                x_7 = l_policy_unique(x_3);
+                x_8 = l_List_elem___at___00policy_requiresMain_spec__0(x_2, x_7);
+                match x_8 as u32 {
+                    0 => match x_6 as u32 {
+                        0 => {
+                            rt::lean_ctor_set(x_5, 1, x_7);
+                            {
+                                let t_0 = x_5;
+                                x_10 = t_0;
+                            }
+                            __blk = 2;
+                            continue 'body;
+                        }
+                        1 => {
+                            x_11 = rt::lean_alloc_ctor(
+                                1,
+                                2,
+                                0 * core::mem::size_of::<usize>() as u32 + 0,
+                            );
+                            rt::lean_ctor_set(x_11, 0, x_2);
+                            rt::lean_ctor_set(x_11, 1, x_7);
+                            {
+                                let t_0 = x_11;
+                                x_10 = t_0;
+                            }
+                            __blk = 2;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    },
+                    1 => {
+                        rt::lean_del_object(x_5);
+                        rt::lean_dec(x_2);
+                        return x_7;
+                    }
+                    _ => rt::lean_internal_panic_unreachable(),
+                }
+            }
+            2 => {
+                return x_10;
+            }
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
 }
 
 #[allow(
@@ -11273,7 +12026,60 @@ pub(crate) unsafe fn l_policy_advice(mut x_1: Obj) -> Obj {
     unused_unsafe,
     clippy::all
 )]
-pub(crate) unsafe fn l_List_foldl___at___00policy_advice_spec__1(
+pub(crate) unsafe fn l_policy_advice(mut x_1: Obj) -> Obj {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: Obj = rt::lean_box(0);
+    let mut x_5: Obj = rt::lean_box(0);
+    x_2 = rt::lean_ctor_get(x_1, 2);
+    rt::lean_inc(x_2);
+    rt::lean_dec_ref(x_1);
+    x_3 = l_policy_advice___closed__0();
+    x_4 = l___private_Init_Data_List_Impl_0__List_flatMapTR_go___at___00policy_advice_spec__0(
+        x_2, x_3,
+    );
+    x_5 = l_policy_unique(x_4);
+    return x_5;
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_advice___closed__0_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    x_1 = rt::lean_unsigned_to_nat(0u32);
+    x_2 = rt::lean_mk_empty_array_with_capacity(x_1);
+    return x_2;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_advice___closed__0() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_advice___closed__0_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l___private_Init_Data_List_Impl_0__List_flatMapTR_go___at___00policy_advice_spec__0(
     mut x_1: Obj,
     mut x_2: Obj,
 ) -> Obj {
@@ -11283,7 +12089,58 @@ pub(crate) unsafe fn l_List_foldl___at___00policy_advice_spec__1(
     let mut x_6: Obj = rt::lean_box(0);
     let mut x_7: Obj = rt::lean_box(0);
     let mut x_8: Obj = rt::lean_box(0);
-    let mut x_9: Obj = rt::lean_box(0);
+    let mut __blk: u32 = 0;
+    'body: loop {
+        match __blk {
+            0 => match rt::lean_obj_tag(x_1) {
+                0 => {
+                    x_3 = rt::lean_array_to_list(x_2);
+                    return x_3;
+                }
+                1 => {
+                    x_4 = rt::lean_ctor_get(x_1, 0);
+                    rt::lean_inc(x_4);
+                    x_5 = rt::lean_ctor_get(x_1, 1);
+                    rt::lean_inc(x_5);
+                    rt::lean_dec_ref(x_1);
+                    x_6 = rt::lean_ctor_get(x_4, 8);
+                    rt::lean_inc(x_6);
+                    rt::lean_dec(x_4);
+                    x_7 = l_List_foldl___at___00Array_appendList_spec__0___redArg(x_2, x_6);
+                    {
+                        let t_0 = x_5;
+                        let t_1 = x_7;
+                        x_1 = t_0;
+                        x_2 = t_1;
+                    }
+                    __blk = 0;
+                    continue 'body;
+                }
+                _ => rt::lean_internal_panic_unreachable(),
+            },
+            _ => rt::lean_internal_panic_unreachable(),
+        }
+    }
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    unused_unsafe,
+    clippy::all
+)]
+pub(crate) unsafe fn l_List_foldl___at___00Array_appendList_spec__0___redArg(
+    mut x_1: Obj,
+    mut x_2: Obj,
+) -> Obj {
+    let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: Obj = rt::lean_box(0);
+    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_6: Obj = rt::lean_box(0);
     let mut __blk: u32 = 0;
     'body: loop {
         match __blk {
@@ -11297,14 +12154,9 @@ pub(crate) unsafe fn l_List_foldl___at___00policy_advice_spec__1(
                     x_4 = rt::lean_ctor_get(x_2, 1);
                     rt::lean_inc(x_4);
                     rt::lean_dec_ref(x_2);
-                    x_5 = rt::lean_ctor_get(x_3, 8);
-                    rt::lean_inc(x_5);
-                    rt::lean_dec(x_3);
-                    x_6 = rt::lean_box(0);
-                    x_7 = l_List_filterTR_loop___at___00policy_advice_spec__0(x_1, x_5, x_6);
-                    x_8 = l_List_appendTR___redArg(x_1, x_7);
+                    x_5 = rt::lean_array_push(x_1, x_3);
                     {
-                        let t_0 = x_8;
+                        let t_0 = x_5;
                         let t_1 = x_4;
                         x_1 = t_0;
                         x_2 = t_1;
@@ -11329,124 +12181,37 @@ pub(crate) unsafe fn l_List_foldl___at___00policy_advice_spec__1(
     unused_unsafe,
     clippy::all
 )]
-pub(crate) unsafe fn l_List_filterTR_loop___at___00policy_advice_spec__0(
-    mut x_1: Obj,
-    mut x_2: Obj,
-    mut x_3: Obj,
-) -> Obj {
+pub(crate) unsafe fn l_policy_skippedFor(mut x_1: Obj) -> Obj {
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: u8 = 0;
     let mut x_4: Obj = rt::lean_box(0);
-    let mut x_5: Obj = rt::lean_box(0);
+    let mut x_5: u8 = 0;
     let mut x_6: Obj = rt::lean_box(0);
+    let mut x_7: Obj = rt::lean_box(0);
     let mut x_8: Obj = rt::lean_box(0);
-    let mut x_9: u8 = 0;
-    let mut x_10: u8 = 0;
-    let mut x_12: Obj = rt::lean_box(0);
-    let mut x_13: Obj = rt::lean_box(0);
-    let mut x_14: Obj = rt::lean_box(0);
-    let mut x_15: Obj = rt::lean_box(0);
-    let mut x_16: u8 = 0;
-    let mut __blk: u32 = 0;
-    'body: loop {
-        match __blk {
-            0 => match rt::lean_obj_tag(x_2) {
+    x_2 = l_policy_applies___closed__0();
+    x_3 = rt::lean_string_dec_eq(x_1, x_2);
+    match x_3 as u32 {
+        0 => {
+            x_4 = l_policy_applies___closed__1();
+            x_5 = rt::lean_string_dec_eq(x_1, x_4);
+            match x_5 as u32 {
                 0 => {
-                    x_4 = l_List_reverse___redArg(x_3);
-                    return x_4;
+                    x_6 = l_policy_skippedFor___closed__3();
+                    return x_6;
                 }
                 1 => {
-                    x_5 = rt::lean_ctor_get(x_2, 0);
-                    x_6 = rt::lean_ctor_get(x_2, 1);
-                    x_16 = (!rt::lean_is_exclusive(x_2)) as u8;
-                    match x_16 as u32 {
-                        0 => {
-                            {
-                                let t_0 = x_2;
-                                let t_1 = x_16;
-                                x_8 = t_0;
-                                x_9 = t_1;
-                            }
-                            __blk = 1;
-                            continue 'body;
-                        }
-                        1 => {
-                            rt::lean_inc(x_6);
-                            rt::lean_inc(x_5);
-                            rt::lean_dec(x_2);
-                            {
-                                let t_0 = rt::lean_box(0);
-                                let t_1 = x_16;
-                                x_8 = t_0;
-                                x_9 = t_1;
-                            }
-                            __blk = 1;
-                            continue 'body;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    }
+                    x_7 = l_policy_skippedFor___closed__2();
+                    return x_7;
                 }
                 _ => rt::lean_internal_panic_unreachable(),
-            },
-            1 => {
-                x_10 = l_List_elem___at___00policy_requiresMain_spec__0(x_5, x_1);
-                match x_10 as u32 {
-                    0 => match x_9 as u32 {
-                        0 => {
-                            rt::lean_ctor_set(x_8, 1, x_3);
-                            {
-                                let t_0 = x_8;
-                                x_12 = t_0;
-                            }
-                            __blk = 2;
-                            continue 'body;
-                        }
-                        1 => {
-                            x_14 = rt::lean_alloc_ctor(
-                                1,
-                                2,
-                                0 * core::mem::size_of::<usize>() as u32 + 0,
-                            );
-                            rt::lean_ctor_set(x_14, 0, x_5);
-                            rt::lean_ctor_set(x_14, 1, x_3);
-                            {
-                                let t_0 = x_14;
-                                x_12 = t_0;
-                            }
-                            __blk = 2;
-                            continue 'body;
-                        }
-                        _ => rt::lean_internal_panic_unreachable(),
-                    },
-                    1 => {
-                        rt::lean_del_object(x_8);
-                        rt::lean_dec(x_5);
-                        {
-                            let t_0 = x_1;
-                            let t_1 = x_6;
-                            let t_2 = x_3;
-                            x_1 = t_0;
-                            x_2 = t_1;
-                            x_3 = t_2;
-                        }
-                        __blk = 0;
-                        continue 'body;
-                    }
-                    _ => rt::lean_internal_panic_unreachable(),
-                }
             }
-            2 => {
-                {
-                    let t_0 = x_1;
-                    let t_1 = x_6;
-                    let t_2 = x_12;
-                    x_1 = t_0;
-                    x_2 = t_1;
-                    x_3 = t_2;
-                }
-                __blk = 0;
-                continue 'body;
-            }
-            _ => rt::lean_internal_panic_unreachable(),
         }
+        1 => {
+            x_8 = l_policy_skippedFor___closed__4();
+            return x_8;
+        }
+        _ => rt::lean_internal_panic_unreachable(),
     }
 }
 
@@ -11457,15 +12222,152 @@ pub(crate) unsafe fn l_List_filterTR_loop___at___00policy_advice_spec__0(
     unused_assignments,
     unused_variables,
     unreachable_code,
-    unused_unsafe,
     clippy::all
 )]
-pub(crate) unsafe fn l_List_appendTR___redArg(mut x_1: Obj, mut x_2: Obj) -> Obj {
+unsafe fn l_policy_skippedFor___closed__3_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
-    let mut x_4: Obj = rt::lean_box(0);
-    x_3 = l_List_reverse___redArg(x_1);
-    x_4 = l_List_reverseAux___redArg(x_3, x_2);
-    return x_4;
+    x_1 = l_policy_skippedFor___closed__2();
+    x_2 = l_policy_rules___closed__33();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_skippedFor___closed__3() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_skippedFor___closed__3_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_skippedFor___closed__2_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_skippedFor___closed__1();
+    x_2 = l_policy_rules___closed__93();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_skippedFor___closed__2() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_skippedFor___closed__2_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_skippedFor___closed__1_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_policy_skippedFor___closed__0();
+    x_2 = l_policy_rules___closed__132();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_skippedFor___closed__1() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_skippedFor___closed__1_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_skippedFor___closed__0_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = rt::lean_box(0);
+    x_2 = l_policy_rules___closed__168();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_skippedFor___closed__0() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_skippedFor___closed__0_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_policy_skippedFor___closed__4_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = rt::lean_box(0);
+    x_2 = l_policy_rules___closed__33();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_policy_skippedFor___closed__4() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_policy_skippedFor___closed__4_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
 }
 
 #[doc = "Lean type `policy.Source` (module `LeanRustGen.Embed.elispore_check.hb1a35a68f14e6962.policy`)."]
@@ -11876,6 +12778,30 @@ pub fn coding() -> String {
     }
 }
 
+#[doc = "Lean: `policy.check : String → policy.PackageFacts → Bool` (module `LeanRustGen.Embed.elispore_check.hb1a35a68f14e6962.policy`)."]
+#[::leanfran::exported("policy.check")]
+pub fn check(id: impl AsRef<str>, p: PackageFacts) -> bool {
+    unsafe {
+        let __a0: Obj = rt::ToLean::to_lean(id.as_ref());
+        let __a1: Obj = rt::ToLean::to_lean(p);
+        let __r: u8 = l_policy_check(__a0, __a1);
+        rt::lean_dec(__a0);
+        (__r) != 0
+    }
+}
+
+#[doc = "Lean: `policy.unique : List String → List String` (module `LeanRustGen.Embed.elispore_check.hb1a35a68f14e6962.policy`)."]
+#[::leanfran::exported("policy.unique")]
+pub fn unique(arg0: Vec<String>) -> Vec<String> {
+    unsafe {
+        let __a0: Obj = rt::list_to_lean(arg0, |v0| rt::ToLean::to_lean(v0));
+        let __r: Obj = l_policy_unique(__a0);
+        let __v = rt::list_from_lean(__r, |v0| <String as rt::FromLean>::from_lean(v0));
+        rt::lean_dec(__r);
+        __v
+    }
+}
+
 #[doc = "Lean: `policy.author : policy.PackageFacts → Bool` (module `LeanRustGen.Embed.elispore_check.hb1a35a68f14e6962.policy`)."]
 #[::leanfran::exported("policy.author")]
 pub fn author(p: PackageFacts) -> bool {
@@ -12111,14 +13037,16 @@ pub fn without_suffix(name: impl AsRef<str>, suffix: impl AsRef<str>) -> String 
     }
 }
 
-#[doc = "Lean: `policy.unquotedName : String → Bool` (module `LeanRustGen.Embed.elispore_check.hb1a35a68f14e6962.policy`)."]
-#[::leanfran::exported("policy.unquotedName")]
-pub fn unquoted_name(requirement: impl AsRef<str>) -> bool {
+#[doc = "Lean: `policy.skippedFor : String → List String` (module `LeanRustGen.Embed.elispore_check.hb1a35a68f14e6962.policy`)."]
+#[::leanfran::exported("policy.skippedFor")]
+pub fn skipped_for(source: impl AsRef<str>) -> Vec<String> {
     unsafe {
-        let __a0: Obj = rt::ToLean::to_lean(requirement.as_ref());
-        let __r: u8 = l_policy_unquotedName(__a0);
+        let __a0: Obj = rt::ToLean::to_lean(source.as_ref());
+        let __r: Obj = l_policy_skippedFor(__a0);
         rt::lean_dec(__a0);
-        (__r) != 0
+        let __v = rt::list_from_lean(__r, |v0| <String as rt::FromLean>::from_lean(v0));
+        rt::lean_dec(__r);
+        __v
     }
 }
 
@@ -12130,6 +13058,26 @@ pub fn no_cl(p: PackageFacts) -> bool {
         let __r: u8 = l_policy_noCl(__a0);
         rt::lean_dec(__a0);
         (__r) != 0
+    }
+}
+
+#[doc = "Lean: `policy.unquotedName : String → Bool` (module `LeanRustGen.Embed.elispore_check.hb1a35a68f14e6962.policy`)."]
+#[::leanfran::exported("policy.unquotedName")]
+pub fn unquoted_name(requirement: impl AsRef<str>) -> bool {
+    unsafe {
+        let __a0: Obj = rt::ToLean::to_lean(requirement.as_ref());
+        let __r: u8 = l_policy_unquotedName(__a0);
+        rt::lean_dec(__a0);
+        (__r) != 0
+    }
+}
+
+#[doc = "Lean: `policy.ruleIds : List String` (module `LeanRustGen.Embed.elispore_check.hb1a35a68f14e6962.policy`)."]
+#[::leanfran::exported("policy.ruleIds")]
+pub fn rule_ids() -> Vec<String> {
+    unsafe {
+        let __r: Obj = l_policy_ruleIds();
+        rt::list_from_lean(__r, |v0| <String as rt::FromLean>::from_lean(v0))
     }
 }
 

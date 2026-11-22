@@ -200,31 +200,143 @@ leanfran::lean! {
       else if id == "packaged-docs" then p.source == "melpa"
       else true
 
-    def evaluate (p : PackageFacts) : List (String × Bool × Bool) := [
-      ("main-file", applies p "main-file", mainFile p),
-      ("packaging-header", applies p "packaging-header", packagingHeader p),
-      ("file-prefix", applies p "file-prefix", fileNames p),
-      ("packaged-docs", applies p "packaged-docs", !p.packagedDocs),
-      ("lexical-binding", applies p "lexical-binding", lexicalBinding p),
-      ("license-notice", applies p "license-notice", licenseNotice p),
-      ("license-spdx", applies p "license-spdx", licenseSpdx p),
-      ("license-position", applies p "license-position", licensePosition p),
-      ("license-file", applies p "license-file", p.hasLicenseFile),
-      ("requires-main", applies p "requires-main", requiresMain p),
-      ("requires-unquoted", applies p "requires-unquoted", requiresUnquoted p),
-      ("url-unquoted", applies p "url-unquoted", urlUnquoted p),
-      ("repo-clean", applies p "repo-clean", p.repoClean),
-      ("sharp-quote", applies p "sharp-quote", sharpQuote p),
-      ("face-inherit", applies p "face-inherit", faceInherit p),
-      ("author", applies p "author", author p),
-      ("version", applies p "version", version p),
-      ("code-section", applies p "code-section", codeSection p),
-      ("provide", applies p "provide", provide p),
-      ("footer", applies p "footer", footer p),
-      ("symbol-prefix", applies p "symbol-prefix", symbolPrefix p),
-      ("no-cl", applies p "no-cl", noCl p)]
+    def check (id : String) (p : PackageFacts) : Bool :=
+      if id == "main-file" then mainFile p
+      else if id == "packaging-header" then packagingHeader p
+      else if id == "file-prefix" then fileNames p
+      else if id == "packaged-docs" then !p.packagedDocs
+      else if id == "lexical-binding" then lexicalBinding p
+      else if id == "license-notice" then licenseNotice p
+      else if id == "license-spdx" then licenseSpdx p
+      else if id == "license-position" then licensePosition p
+      else if id == "license-file" then p.hasLicenseFile
+      else if id == "requires-main" then requiresMain p
+      else if id == "requires-unquoted" then requiresUnquoted p
+      else if id == "url-unquoted" then urlUnquoted p
+      else if id == "repo-clean" then p.repoClean
+      else if id == "sharp-quote" then sharpQuote p
+      else if id == "face-inherit" then faceInherit p
+      else if id == "author" then author p
+      else if id == "version" then version p
+      else if id == "code-section" then codeSection p
+      else if id == "provide" then provide p
+      else if id == "footer" then footer p
+      else if id == "symbol-prefix" then symbolPrefix p
+      else if id == "no-cl" then noCl p
+      else false
 
-    def advice (p : PackageFacts) : List String :=
-      p.files.foldl (fun acc f => acc ++ f.advice.filter (fun id => !acc.contains id)) []
+    def ruleIds : List String := [
+      "main-file",
+      "packaging-header",
+      "file-prefix",
+      "packaged-docs",
+      "lexical-binding",
+      "license-notice",
+      "license-spdx",
+      "license-position",
+      "license-file",
+      "requires-main",
+      "requires-unquoted",
+      "url-unquoted",
+      "repo-clean",
+      "sharp-quote",
+      "face-inherit",
+      "author",
+      "version",
+      "code-section",
+      "provide",
+      "footer",
+      "symbol-prefix",
+      "no-cl"]
+
+    theorem rules_ids : rules.map Rule.id = ruleIds := by
+      simp [rules, ruleIds]
+
+    def evaluate (p : PackageFacts) : List (String × Bool × Bool) :=
+      ruleIds.map fun id => (id, applies p id, check id p)
+
+    theorem evaluate_ids (p : PackageFacts) : (evaluate p).map Prod.fst = ruleIds := by
+      simp [evaluate, Function.comp_def]
+
+    theorem evaluate_applies (p : PackageFacts) :
+        (evaluate p).all (fun e => e.2.1 == applies p e.1) = true := by
+      simp [evaluate]
+
+    theorem evaluate_check (p : PackageFacts) :
+        (evaluate p).all (fun e => e.2.2 == check e.1 p) = true := by
+      simp [evaluate]
+
+    def skippedFor (source : String) : List String :=
+      if source == "github" then ["packaged-docs"]
+      else if source == "melpa" then ["license-file", "repo-clean", "version"]
+      else ["packaged-docs", "license-file", "repo-clean", "version"]
+
+    theorem evaluate_skipped (p : PackageFacts) :
+        ((evaluate p).filter (fun e => !e.2.1)).map Prod.fst = skippedFor p.source := by
+      unfold evaluate ruleIds applies skippedFor
+      by_cases g : p.source = "github" <;> by_cases m : p.source = "melpa" <;> simp_all
+
+    theorem checks_table (p : PackageFacts) :
+        ruleIds.map (fun id => check id p) = [
+          mainFile p,
+          packagingHeader p,
+          fileNames p,
+          !p.packagedDocs,
+          lexicalBinding p,
+          licenseNotice p,
+          licenseSpdx p,
+          licensePosition p,
+          p.hasLicenseFile,
+          requiresMain p,
+          requiresUnquoted p,
+          urlUnquoted p,
+          p.repoClean,
+          sharpQuote p,
+          faceInherit p,
+          author p,
+          version p,
+          codeSection p,
+          provide p,
+          footer p,
+          symbolPrefix p,
+          noCl p] := by
+      simp [ruleIds, check]
+
+    def unique : List String → List String
+      | [] => []
+      | x :: xs => if (unique xs).contains x then unique xs else x :: unique xs
+
+    theorem mem_unique (x : String) (l : List String) : x ∈ unique l ↔ x ∈ l := by
+      induction l with
+      | nil => simp [unique]
+      | cons y ys ih =>
+        simp only [unique]
+        split <;> rename_i h
+        · simp only [List.contains_iff_mem] at h
+          simp only [ih, List.mem_cons]
+          constructor
+          · intro hx; exact Or.inr hx
+          · rintro (rfl | hx)
+            · exact ih.mp h
+            · exact hx
+        · simp [ih]
+
+    theorem nodup_unique (l : List String) : (unique l).Nodup := by
+      induction l with
+      | nil => simp [unique]
+      | cons y ys ih =>
+        simp only [unique]
+        split <;> rename_i h
+        · exact ih
+        · simp only [List.contains_iff_mem] at h
+          exact List.nodup_cons.mpr ⟨h, ih⟩
+
+    def advice (p : PackageFacts) : List String := unique (p.files.flatMap (·.advice))
+
+    theorem advice_mem (p : PackageFacts) (x : String) :
+        x ∈ advice p ↔ ∃ f ∈ p.files, x ∈ f.advice := by
+      simp [advice, mem_unique, List.mem_flatMap]
+
+    theorem advice_nodup (p : PackageFacts) : (advice p).Nodup := nodup_unique _
     "#
 }

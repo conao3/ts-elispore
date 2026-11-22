@@ -34,8 +34,14 @@ jobs:
         env:
           LEANFRAN_OFFLINE: "1"
       - run: nix build
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: cachix/install-nix-action@v31.11.5
+      - run: nix develop .#lean --command lake -d checker/audit build --wfail
   deploy:
-    needs: check
+    needs: [check, audit]
     if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     permissions:

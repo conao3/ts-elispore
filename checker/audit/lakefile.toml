@@ -1,0 +1,15 @@
+name = "elispore-check-audit"
+defaultTargets = ["Audit"]
+
+[[lean_lib]]
+name = "Audit"
+globs = ["Audit.+"]
+
+[[require]]
+name = "elispore_check"
+path = "../lean"
+
+[[require]]
+name = "assay"
+git = "https://github.com/conao3/lean-leanassay"
+rev = "fc0d05473917864cedb6d27e208c81de3e2a11af"

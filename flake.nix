@@ -53,6 +53,9 @@
           ]
           ++ pkgs.lib.optionals pkgs.stdenv.isLinux [ pkgs.chromium ];
         };
+        devShells.lean = pkgs.mkShell {
+          packages = [ pkgs.lean4 ];
+        };
         devShells.default = pkgs.mkShell {
           packages = [
             pkgs.nodejs_26
