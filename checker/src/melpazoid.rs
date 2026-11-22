@@ -14,6 +14,7 @@ pub const SHARP_QUOTE: &str = "It's safer to sharp-quote the names of existing f
 struct Call {
     checker: String,
     line: u32,
+    source: String,
     regexp: String,
     message: String,
     no_smart_space: bool,
@@ -27,6 +28,7 @@ pub struct Pattern {
     pub id: String,
     pub message: String,
     pub line: u32,
+    pub source: String,
     regex: Regex,
     include_comments: bool,
     include_strings: bool,
@@ -36,7 +38,7 @@ pub struct Pattern {
 pub struct Advice {
     pub id: String,
     pub message: String,
-    pub line: u32,
+    pub sources: Vec<(u32, String)>,
 }
 
 pub fn slug(message: &str) -> String {
@@ -72,6 +74,7 @@ pub static PATTERNS: LazyLock<Vec<Pattern>> = LazyLock::new(|| {
                 id,
                 message: call.message,
                 line: call.line,
+                source: call.source,
                 regex: Regex::new(&translated).unwrap_or_else(|e| panic!("{translated}: {e}")),
                 include_comments: call.include_comments,
                 include_strings: call.include_strings,
@@ -84,47 +87,91 @@ pub static PATTERNS: LazyLock<Vec<Pattern>> = LazyLock::new(|| {
         .collect()
 });
 
-const NATIVE: &[(&str, &str, u32)] = &[
+const NATIVE: &[(&str, &str, u32, &str)] = &[
     (
         "mz-author-header",
         "FYI only: To get `(lm-authors)` to work, write `;; Author: Your Name <email/url/@handle>`",
         230,
+        r#"(melpazoid--annotate-line "FYI only: To get `(lm-authors)` to work, write `;; Author: Your Name <email/url/@handle>`"))"#,
     ),
     (
         "mz-maintainer-header",
         "FYI only: To get `(lm-maintainers)` to work, write `;; Maintainer: Your Name <email/url/@handle>`",
         234,
+        r#"(melpazoid--annotate-line "FYI only: To get `(lm-maintainers)` to work, write `;; Maintainer: Your Name <email/url/@handle>`")))"#,
     ),
-    ("mz-commentary-stub", "`;;; Commentary` in main file should not be a stub", 245),
-    ("mz-commentary-readme", "`;;; Commentary` should not just redirect to a README", 250),
-    ("mz-commentary-url", "`;;; Commentary` should not just redirect to a URL", 255),
-    ("mz-commentary-wide", "`;;; Commentary` is much wider than 80 characters", 261),
+    (
+        "mz-commentary-stub",
+        "`;;; Commentary` in main file should not be a stub",
+        245,
+        r#"(melpazoid-insert "- `;;; Commentary` in main file should not be a stub"))"#,
+    ),
+    (
+        "mz-commentary-readme",
+        "`;;; Commentary` should not just redirect to a README",
+        250,
+        r#"(melpazoid-insert "- `;;; Commentary` should not just redirect to a README"))"#,
+    ),
+    (
+        "mz-commentary-url",
+        "`;;; Commentary` should not just redirect to a URL",
+        255,
+        r#"(melpazoid-insert "- `;;; Commentary` should not just redirect to a URL"))"#,
+    ),
+    (
+        "mz-commentary-wide",
+        "`;;; Commentary` is much wider than 80 characters",
+        261,
+        r#""- `;;; Commentary` is much wider than 80 characters"))"#,
+    ),
     (
         "mz-commentary-todo",
         "You can separate TODOs from package `;;; Commentary:` with a `;;; TODO:` section",
         265,
+        r#""- You can separate TODOs from package `;;; Commentary:` with a `;;; TODO:` section"))"#,
     ),
-    ("mz-commentary-decoration", "`;;; Commentary` decoration like `;;;;...` will appear downstream", 269),
-    ("mz-theme-load-path", "Warning: No `add-to-list 'custom-theme-load-path` found", 213),
-    ("mz-theme-name", "Theme `NAME` does not match filename NAME.el", 221),
+    (
+        "mz-commentary-decoration",
+        "`;;; Commentary` decoration like `;;;;...` will appear downstream",
+        269,
+        r#""- `;;; Commentary` decoration like `;;;;...` will appear downstream"))))))"#,
+    ),
+    (
+        "mz-theme-load-path",
+        "Warning: No `add-to-list 'custom-theme-load-path` found",
+        213,
+        r#"(melpazoid-insert "- Warning: No `add-to-list 'custom-theme-load-path` found"))"#,
+    ),
+    (
+        "mz-theme-name",
+        "Theme `NAME` does not match filename NAME.el",
+        221,
+        r#"(format "Theme `%s` does not match filename %s.el""#,
+    ),
 ];
 
 pub fn advice() -> Vec<Advice> {
     let mut out: Vec<Advice> = Vec::new();
     for p in PATTERNS.iter().filter(|p| p.id != "sharp-quote") {
-        if !out.iter().any(|a| a.id == p.id) {
-            out.push(Advice {
+        let source = (p.line, p.source.clone());
+        match out.iter_mut().find(|a| a.id == p.id) {
+            Some(a) => {
+                if !a.sources.contains(&source) {
+                    a.sources.push(source);
+                }
+            }
+            None => out.push(Advice {
                 id: p.id.clone(),
                 message: p.message.clone(),
-                line: p.line,
-            });
+                sources: vec![source],
+            }),
         }
     }
-    for (id, message, line) in NATIVE {
+    for (id, message, line, quote) in NATIVE {
         out.push(Advice {
             id: (*id).to_owned(),
             message: (*message).to_owned(),
-            line: *line,
+            sources: vec![(*line, (*quote).to_owned())],
         });
     }
     out

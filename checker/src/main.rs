@@ -35,12 +35,19 @@ struct Args {
 }
 
 #[derive(Serialize, Deserialize)]
+struct Source {
+    label: String,
+    url: String,
+    quote: String,
+}
+
+#[derive(Serialize, Deserialize)]
 struct Rule {
     id: String,
     title: String,
     description: String,
     level: String,
-    source: String,
+    sources: Vec<Source>,
 }
 
 #[derive(Clone, Serialize, Deserialize)]
@@ -219,19 +226,36 @@ async fn main() -> Result<()> {
             title: r.title,
             description: r.description,
             level: "required".into(),
-            source: r.source,
+            sources: r
+                .sources
+                .into_iter()
+                .map(|s| Source {
+                    label: s.label,
+                    url: s.url,
+                    quote: s.quote,
+                })
+                .collect(),
         })
         .collect();
-    rules.extend(melpazoid::advice().into_iter().map(|a| Rule {
-        id: a.id,
-        title: a.message,
-        description: String::new(),
-        level: "advice".into(),
-        source: format!(
-            "https://github.com/riscy/melpazoid/blob/{}/melpazoid/melpazoid.el#L{}",
-            melpazoid::COMMIT,
-            a.line
-        ),
+    rules.extend(melpazoid::advice().into_iter().map(|a| {
+        Rule {
+            id: a.id,
+            title: a.message,
+            description: String::new(),
+            level: "advice".into(),
+            sources: a
+                .sources
+                .into_iter()
+                .map(|(line, quote)| Source {
+                    label: "melpazoid.el".into(),
+                    url: format!(
+                        "https://github.com/riscy/melpazoid/blob/{}/melpazoid/melpazoid.el#L{line}",
+                        melpazoid::COMMIT
+                    ),
+                    quote,
+                })
+                .collect(),
+        }
     }));
     let errors = results.values().filter(|r| r.error.is_some()).count();
     println!(

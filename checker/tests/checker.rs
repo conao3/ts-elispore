@@ -54,7 +54,13 @@ fn failing_fixture() {
             "file-prefix",
             "lexical-binding",
             "license-notice",
-            "requires-main"
+            "requires-main",
+            "author",
+            "code-section",
+            "provide",
+            "footer",
+            "symbol-prefix",
+            "no-cl"
         ]
     );
 }
@@ -73,6 +79,16 @@ fn each_rule_fails_independently() {
             "lexical-binding: nil",
         ),
         ("license-notice", "SPDX-License-Identifier:", "License:"),
+        ("author", ";; Author:", ";; Writer:"),
+        ("code-section", ";;; Code:", ";;; Program:"),
+        ("provide", "(provide 'sample)", "(ignore 'sample)"),
+        (
+            "footer",
+            ";;; sample.el ends here",
+            ";;; other.el ends here",
+        ),
+        ("symbol-prefix", "(defvar sample-value", "(defvar unrelated"),
+        ("no-cl", "(require 'cl-lib)", "(require 'cl)"),
         ("license-spdx", "GPL-3.0-or-later", "GPL-2.0-only"),
         (
             "license-position",
@@ -131,7 +147,7 @@ fn package_level_rules() {
     );
     assert_eq!(
         failed(package(vec![other], vec![])),
-        ["main-file", "file-prefix", "requires-main"]
+        ["main-file", "file-prefix", "requires-main", "author"]
     );
     for (source, docs, license, clean, expected) in [
         ("melpa", true, true, true, vec!["packaged-docs"]),
@@ -153,6 +169,39 @@ fn package_level_rules() {
         };
         assert_eq!(failed(facts), expected, "{source}");
     }
+    let unversioned = scanner::scan(
+        "sample.el",
+        &GOOD.replace(";; Package-Version: 1.0\n", ""),
+        "sample",
+    )
+    .unwrap();
+    for (source, expected) in [("github", vec!["version"]), ("melpa", vec![])] {
+        let facts = policy::PackageFacts {
+            source: source.into(),
+            has_license_file: true,
+            ..package(vec![unversioned.clone()], vec![])
+        };
+        assert_eq!(failed(facts), expected, "{source}");
+    }
+    let theme = |provide: &str| {
+        let text = GOOD
+            .replace("sample.el", "sample-theme.el")
+            .replace("(provide 'sample)", provide);
+        scanner::scan("sample-theme.el", &text, "sample").unwrap()
+    };
+    for (provide, expected) in [
+        ("(provide-theme 'sample)", vec![]),
+        ("(ignore 'sample)", vec!["provide"]),
+    ] {
+        assert_eq!(
+            failed(package(vec![main.clone(), theme(provide)], vec![])),
+            expected,
+            "{provide}"
+        );
+    }
+    assert!(policy::prefixed("sample", "sample-x"));
+    assert!(!policy::prefixed("sample", "sample/x"));
+    assert!(!policy::prefixed("sample", "samples"));
     assert!(policy::prefixed_file("foo-mode", "foo-bar.el"));
     assert!(policy::prefixed_file("foo-themes", "foo.el"));
     assert!(!policy::prefixed_file("foo", "foobar.el"));
@@ -233,7 +282,10 @@ fn scanner_ignores_data_comments_strings_and_characters() {
         "sample",
     )
     .unwrap();
-    assert!(facts.requires.is_empty());
+    assert_eq!(facts.requires, ["real"]);
+    assert_eq!(facts.provides, ["sample"]);
+    assert_eq!(facts.definitions, ["sample-data", "sample-top"]);
+    assert!(facts.package_requires.is_empty());
     assert!(!facts.face_inherit_override);
 }
 

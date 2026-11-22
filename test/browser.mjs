@@ -540,6 +540,12 @@ try {
     ),
     requiredRules.length,
   )
+  assert.equal(
+    await evaluate(
+      `document.querySelector('${melpaPackage}').querySelectorAll(':scope > .check-rules .check-sources a').length`,
+    ),
+    requiredRules.reduce((count, rule) => count + rule.sources.length, 0),
+  )
   const verticoAdvice = checksReport.rules.filter(
     (rule) => rule.level === "advice" && vertico.failed.includes(rule.id),
   )
@@ -665,6 +671,12 @@ try {
   await waitFor(`document.querySelector('#why-elispore') && location.pathname==='/about/'`)
   await waitFor(
     `document.querySelectorAll('.about-check-rules dt').length===${checksReport.rules.filter((rule) => rule.level === "required").length}`,
+  )
+  assert.equal(
+    await evaluate(`document.querySelectorAll('.about-check-sources blockquote').length`),
+    checksReport.rules
+      .filter((rule) => rule.level === "required")
+      .reduce((count, rule) => count + rule.sources.length, 0),
   )
   assert.equal(
     await evaluate(`document.querySelectorAll('.about-check-advice li').length`),

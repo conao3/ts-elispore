@@ -64,12 +64,18 @@ export function About({ checks }: { checks: Checks | null }) {
           Checks scan package source without running it. The rules come from MELPA&rsquo;s{" "}
           <Link href="https://github.com/melpa/melpa/blob/master/CONTRIBUTING.org">
             CONTRIBUTING.org
+          </Link>
+          , the{" "}
+          <Link href="https://www.gnu.org/software/emacs/manual/html_node/elisp/Tips.html">
+            Emacs Lisp conventions
           </Link>{" "}
-          and from <Link href="https://github.com/riscy/melpazoid">melpazoid</Link>, scripts for
-          testing Emacs packages that are primarily submitted to MELPA. Required checks make up the
-          score; melpazoid&rsquo;s other findings are listed as advice. Checks that need Emacs
-          itself (byte-compilation, checkdoc, package-lint, loading) are not run. Results are cached
-          and refreshed only on explicit re-run, not with the daily catalog update.
+          in the Emacs Lisp Reference Manual that CONTRIBUTING.org asks packages to follow, and{" "}
+          <Link href="https://github.com/riscy/melpazoid">melpazoid</Link>, scripts for testing
+          Emacs packages that are primarily submitted to MELPA. Each rule lists its sources with the
+          quoted text. Required checks make up the score; melpazoid&rsquo;s other findings are
+          listed as advice. Checks that need Emacs itself (byte-compilation, checkdoc, package-lint,
+          loading) are not run. Results are cached and refreshed only on explicit re-run, not with
+          the daily catalog update.
         </p>
         {checks && (
           <>
@@ -79,11 +85,17 @@ export function About({ checks }: { checks: Checks | null }) {
                 .filter((rule) => rule.level === "required")
                 .map((rule) => (
                   <div key={rule.id}>
-                    <dt>
-                      <Link href={rule.source}>{rule.title}</Link>
-                    </dt>
+                    <dt>{rule.title}</dt>
                     <dd>
                       <InlineCode text={rule.description} />
+                      <ul className="about-check-sources">
+                        {rule.sources.map((source, index) => (
+                          <li key={index}>
+                            <Link href={source.url}>{source.label}</Link>
+                            <blockquote>{source.quote}</blockquote>
+                          </li>
+                        ))}
+                      </ul>
                     </dd>
                   </div>
                 ))}
@@ -94,9 +106,15 @@ export function About({ checks }: { checks: Checks | null }) {
                 .filter((rule) => rule.level === "advice")
                 .map((rule) => (
                   <li key={rule.id}>
-                    <Link href={rule.source}>
-                      <InlineCode text={rule.title} />
-                    </Link>
+                    <InlineCode text={rule.title} />
+                    {rule.sources.map((source, index) => (
+                      <span key={index}>
+                        {" "}
+                        <Link href={source.url} aria-label={`${source.label}: ${source.quote}`}>
+                          [{source.url.slice(source.url.lastIndexOf("#") + 1)}]
+                        </Link>
+                      </span>
+                    ))}
                   </li>
                 ))}
             </ul>

@@ -11,7 +11,7 @@
 ;;; Code:
 (require 'cl-lib)
 (defun sample-command () "Ignore (require 'cl)" ?\))
-(defvar sample/value nil)
+(defvar sample-value nil)
 (defconst sample--private nil)
 (defmacro sample () nil)
 (provide 'sample)

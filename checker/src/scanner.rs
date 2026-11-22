@@ -24,6 +24,58 @@ pub fn included(path: &str, package_name: &str) -> bool {
             .any(|x| matches!(x.as_os_str().to_str(), Some("test" | "tests")))
 }
 
+fn header(text: &str, names: &[&str]) -> String {
+    for line in text
+        .lines()
+        .take_while(|l| !l.trim_start().starts_with(";;; Code:"))
+    {
+        if let Some(line) = line.strip_prefix(";;") {
+            if let Some((key, value)) = line.trim_start().split_once(':') {
+                if names.iter().any(|n| key.eq_ignore_ascii_case(n)) && !value.trim().is_empty() {
+                    return value.trim().to_owned();
+                }
+            }
+        }
+    }
+    String::new()
+}
+
+fn calls(form: &Sexp, name: &str) -> bool {
+    form.list().is_some_and(|xs| {
+        !matches!(xs.first().and_then(Sexp::atom), Some("quote" | "function"))
+            && (xs.first().and_then(Sexp::atom) == Some(name) || xs.iter().any(|x| calls(x, name)))
+    })
+}
+
+fn feature(form: &Sexp) -> Option<&str> {
+    match form {
+        Sexp::Quote(x) => x.atom(),
+        Sexp::List(xs) if xs.first().and_then(Sexp::atom) == Some("quote") => xs.get(1)?.atom(),
+        _ => None,
+    }
+}
+
+fn features(form: &Sexp, provides: &mut Vec<String>, requires: &mut Vec<String>) {
+    if let Some(xs) = form.list() {
+        match xs.first().and_then(Sexp::atom) {
+            Some("quote" | "function") => return,
+            Some("provide" | "require") => {
+                if let Some(name) = xs.get(1).and_then(feature) {
+                    if xs[0].atom() == Some("provide") {
+                        provides.push(name.to_owned());
+                    } else {
+                        requires.push(name.to_owned());
+                    }
+                }
+            }
+            _ => {}
+        }
+        for x in xs {
+            features(x, provides, requires);
+        }
+    }
+}
+
 static SPDX: LazyLock<Regex> =
     LazyLock::new(|| Regex::new(r"(?i)SPDX-License-Identifier:[ ]*(\w\S+)").unwrap());
 static LICENSE_EXCERPTS: LazyLock<Regex> = LazyLock::new(|| {
@@ -203,6 +255,39 @@ pub fn scan(path: &str, text: &str, package_name: &str) -> Result<FileFacts> {
         .chain(LICENSE_EXCERPTS.find(text).map(|m| m.start()))
         .min();
     let commentary = COMMENTARY.find(text).map(|m| m.start());
+    let mut provides = Vec::new();
+    let mut requires = Vec::new();
+    let mut definitions = Vec::new();
+    for form in &forms {
+        features(form, &mut provides, &mut requires);
+        if let Some(xs) = form.list() {
+            if matches!(
+                xs.first().and_then(Sexp::atom),
+                Some(
+                    "defun"
+                        | "defmacro"
+                        | "defvar"
+                        | "defcustom"
+                        | "defconst"
+                        | "defface"
+                        | "defgroup"
+                        | "define-minor-mode"
+                        | "define-derived-mode"
+                        | "cl-defun"
+                        | "cl-defmacro"
+                        | "defsubst"
+                )
+            ) {
+                if xs.first().and_then(Sexp::atom) == Some("defvar") && xs.len() < 3 {
+                    continue;
+                }
+                if let Some(name) = xs.get(1).and_then(Sexp::atom) {
+                    definitions.push(name.to_owned());
+                }
+            }
+        }
+    }
+    let comment_lines: Vec<_> = text.lines().filter(|l| l.starts_with(';')).collect();
     let states = melpazoid::states(text);
     let mut advice = melpazoid::findings(text, &states);
     let sharp_quote = advice.contains(&"sharp-quote");
@@ -222,10 +307,24 @@ pub fn scan(path: &str, text: &str, package_name: &str) -> Result<FileFacts> {
             (Some(at), Some(c)) => at < c,
             _ => true,
         },
-        requires: requirements(text),
+        package_requires: requirements(text),
         url_quoted: URL.captures(text).is_some_and(|c| c[2].contains('"')),
         missing_sharp_quote: sharp_quote,
         face_inherit_override: forms.iter().any(face_overrides),
+        author: !header(text, &["Author"]).is_empty(),
+        version: !header(text, &["Version", "Package-Version"]).is_empty(),
+        code_section: comment_lines.iter().any(|l| l.trim() == ";;; Code:"),
+        footer: comment_lines.iter().any(|l| {
+            l.trim()
+                == format!(
+                    ";;; {} ends here",
+                    Path::new(path).file_name().unwrap().to_string_lossy()
+                )
+        }),
+        provides,
+        provides_theme: forms.iter().any(|form| calls(form, "provide-theme")),
+        requires,
+        definitions,
         advice,
     })
 }

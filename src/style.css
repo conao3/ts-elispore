@@ -1041,3 +1041,24 @@ code {
   font-family: ui-monospace, "JetBrains Mono", "SF Mono", Menlo, monospace;
   font-size: 0.95em;
 }
+.check-rules .check-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 10px;
+}
+.about-check-sources {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+  display: grid;
+  gap: 8px;
+}
+.about-check-sources blockquote {
+  margin: 3px 0 0;
+  padding-left: 10px;
+  border-left: 2px solid var(--border);
+  font-size: 12px;
+}
+.about-check-sources a {
+  color: inherit;
+}

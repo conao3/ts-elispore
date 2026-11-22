@@ -27,32 +27,56 @@ Index/network/CLI errors that prevent discovery terminate the command.
 
 ## Rules
 
-Required rules make up a package's score. Each links to the CONTRIBUTING.org
-line or the melpazoid.py check it comes from:
+Required rules make up a package's score. Every rule carries its sources: a
+label, a URL pinned to a commit or release, and the quoted text that states
+the rule. The sources are MELPA's CONTRIBUTING.org, melpazoid.py and
+melpazoid.el, and the Emacs Lisp Reference Manual for Emacs 31.1 (its "Tips
+and Conventions" appendix, "Simple Packages" and "Custom Themes"), which
+CONTRIBUTING.org asks packages to follow:
 
-| ID                  | Source                  | Check                                                                           |
-| ------------------- | ----------------------- | ------------------------------------------------------------------------------- |
-| `main-file`         | melpazoid               | `<package>.el` exists                                                           |
-| `packaging-header`  | melpazoid               | every file's first line has `---` before any `-*-`                              |
-| `file-prefix`       | melpazoid               | file names start with the package name (minus `-mode`/`-themes`) and `-` or `.` |
-| `packaged-docs`     | CONTRIBUTING, melpazoid | MELPA packages ship no `CHANGELOG`, `README` or `LICENSE` file                  |
-| `lexical-binding`   | CONTRIBUTING            | every file enables lexical binding on its first line                            |
-| `license-notice`    | CONTRIBUTING, melpazoid | every file has an SPDX identifier or one of melpazoid's license excerpts        |
-| `license-spdx`      | melpazoid               | no SPDX identifier is `GPL-2.0-only`                                            |
-| `license-position`  | CONTRIBUTING            | the license comes before `;;; Commentary`                                       |
-| `license-file`      | CONTRIBUTING, melpazoid | the repository has a LICENSE/COPYING file                                       |
-| `requires-main`     | melpazoid               | the main file's Package-Requires covers every other file's                      |
-| `requires-unquoted` | melpazoid               | no quoted package names in Package-Requires                                     |
-| `url-unquoted`      | melpazoid               | no quotation marks in the URL/Homepage header                                   |
-| `repo-clean`        | melpazoid               | no `.elc`, `~` backup or `.DS_Store` files in the repository                    |
-| `sharp-quote`       | CONTRIBUTING, melpazoid | melpazoid's "sharp-quote the names of existing functions" patterns              |
-| `face-inherit`      | CONTRIBUTING            | no `defface` spec combines `:inherit` with other attributes                     |
+| ID                  | Sources                         | Check                                                                           |
+| ------------------- | ------------------------------- | ------------------------------------------------------------------------------- |
+| `main-file`         | manual, melpazoid               | `<package>.el` exists                                                           |
+| `packaging-header`  | manual, melpazoid               | every file's first line has `---` before any `-*-`                              |
+| `file-prefix`       | melpazoid                       | file names start with the package name (minus `-mode`/`-themes`) and `-` or `.` |
+| `packaged-docs`     | CONTRIBUTING, melpazoid         | MELPA packages ship no `CHANGELOG`, `README` or `LICENSE` file                  |
+| `lexical-binding`   | CONTRIBUTING, manual            | every file enables lexical binding on its first line                            |
+| `license-notice`    | CONTRIBUTING, manual, melpazoid | every file has an SPDX identifier or one of melpazoid's license excerpts        |
+| `license-spdx`      | CONTRIBUTING, melpazoid         | no SPDX identifier is `GPL-2.0-only`                                            |
+| `license-position`  | CONTRIBUTING, manual            | the license comes before `;;; Commentary`                                       |
+| `license-file`      | CONTRIBUTING, melpazoid         | the repository has a LICENSE/COPYING file                                       |
+| `requires-main`     | melpazoid                       | the main file's Package-Requires covers every other file's                      |
+| `requires-unquoted` | manual, melpazoid               | no quoted package names in Package-Requires                                     |
+| `url-unquoted`      | melpazoid                       | no quotation marks in the URL/Homepage header                                   |
+| `repo-clean`        | melpazoid                       | no `.elc`, `~` backup or `.DS_Store` files in the repository                    |
+| `sharp-quote`       | CONTRIBUTING, melpazoid         | melpazoid's "sharp-quote the names of existing functions" patterns              |
+| `face-inherit`      | CONTRIBUTING                    | no `defface` spec combines `:inherit` with other attributes                     |
+| `author`            | manual                          | the main file has an `Author` header                                            |
+| `version`           | manual                          | the main file has a `Version` or `Package-Version` header                       |
+| `code-section`      | manual                          | every file has a `;;; Code:` line                                               |
+| `provide`           | manual                          | every file calls `provide` (`provide-theme` in a `-theme.el` file)              |
+| `footer`            | manual                          | every file ends with `;;; <file>.el ends here`                                  |
+| `symbol-prefix`     | manual                          | top-level definitions are the package or file name, or start with it and `-`    |
+| `no-cl`             | manual                          | no file requires `cl`                                                           |
 
-`license-file` and `repo-clean` need the repository and run only for GitHub
-sources; `packaged-docs` runs only for MELPA. Results list them in `skipped`
-for other sources, and the score leaves them out.
+Rules sourced from the manual also cite CONTRIBUTING.org's "should follow the
+Emacs Lisp conventions". `symbol-prefix` only knows the package and file
+names, so a package that chose another prefix (dash's `-`) fails it.
+`license-file`, `repo-clean` and `version` run only for GitHub sources (MELPA
+adds `Package-Version` to every main file); `packaged-docs` runs only for
+MELPA. Results list them in `skipped` for other sources, and the score leaves
+them out.
 
-Advice rules are the checks in melpazoid's `melpazoid-check-experimentals`:
+`tools/verify-sources.py` checks that every quote appears at its cited line or
+manual node, using checkouts of MELPA, melpazoid and Emacs (`emacs-31.1`, read
+from `doc/lispref/*.texi`) at the pinned commits:
+
+```sh
+python3 tools/verify-sources.py ../public/checks.json ../melpa ../melpazoid ../emacs
+```
+
+Advice rules are the checks in melpazoid's `melpazoid-check-experimentals`, and
+cite every melpazoid.el line their message comes from:
 every `melpazoid-misc` pattern in `melpazoid-check-sharp-quotes` and
 `melpazoid-check-misc`, plus the Author/Maintainer, Commentary and theme checks,
 ported from lisp-mnt.el. Their IDs are `mz-` and the first six words of the

@@ -22,28 +22,28 @@ const report = checksSchema.parse({
       title: "Main file",
       description: "Has main file",
       level: "required",
-      source: "https://example.org/main",
+      sources: [{ label: "Doc: section", url: "https://example.org/main", quote: "Quote." }],
     },
     {
       id: "footer",
       title: "Footer",
       description: "Has footer",
       level: "required",
-      source: "https://example.org/footer",
+      sources: [{ label: "Doc: section", url: "https://example.org/footer", quote: "Quote." }],
     },
     {
       id: "mz-advice",
       title: "Advice",
       description: "",
       level: "advice",
-      source: "https://example.org/advice",
+      sources: [{ label: "Doc: section", url: "https://example.org/advice", quote: "Quote." }],
     },
     {
       id: "license-file",
       title: "License file",
       description: "Has license file",
       level: "required",
-      source: "https://example.org/license",
+      sources: [{ label: "Doc: section", url: "https://example.org/license", quote: "Quote." }],
     },
   ],
   results: {
@@ -144,6 +144,9 @@ describe("package checks", () => {
     expect(
       checksSchema.safeParse({ ...report, rules: [{ ...report.rules[0], level: "other" }] })
         .success,
+    ).toBe(false)
+    expect(
+      checksSchema.safeParse({ ...report, rules: [{ ...report.rules[0], sources: [] }] }).success,
     ).toBe(false)
   })
 })

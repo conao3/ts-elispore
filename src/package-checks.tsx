@@ -19,12 +19,27 @@ function RuleList({ pkg, rules }: { pkg: PackageCheck; rules: Checks["rules"] })
             <Icon size={15} aria-hidden="true" />
             <span>
               <span className="sr-only">{failed ? "Fail: " : "Pass: "}</span>
-              <Link href={rule.source} target="_blank" rel="noreferrer">
+              <Link href={rule.sources[0]!.url} target="_blank" rel="noreferrer">
                 <InlineCode text={rule.title} />
               </Link>
               {rule.description && (
                 <small>
                   <InlineCode text={rule.description} />
+                </small>
+              )}
+              {rule.level === "required" && (
+                <small className="check-sources">
+                  {rule.sources.map((source, index) => (
+                    <Link
+                      key={index}
+                      href={source.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`${source.label}: ${source.quote}`}
+                    >
+                      {source.label.split(": ")[1] ?? source.label}
+                    </Link>
+                  ))}
                 </small>
               )}
             </span>

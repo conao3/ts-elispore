@@ -30,11 +30,15 @@
              (lambda (regexp msg &optional no-smart-space include-comments
                              include-strings case-insensitive exclude-pattern)
                (push `((checker . ,(symbol-name checker))
-                       (line . ,(with-current-buffer source-buffer
-                                  (goto-char (point-min))
-                                  (and (or (search-forward (prin1-to-string regexp) nil t)
-                                           (search-forward (prin1-to-string msg) nil t))
-                                       (line-number-at-pos))))
+                       ,@(with-current-buffer source-buffer
+                           (goto-char (point-min))
+                           (when (or (search-forward (prin1-to-string regexp) nil t)
+                                     (search-forward (prin1-to-string msg) nil t))
+                             `((line . ,(line-number-at-pos))
+                               (source . ,(string-trim
+                                           (buffer-substring-no-properties
+                                            (line-beginning-position)
+                                            (line-end-position)))))))
                        (regexp . ,regexp)
                        (message . ,msg)
                        (noSmartSpace . ,(if no-smart-space t :json-false))

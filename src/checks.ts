@@ -11,7 +11,9 @@ export const checksSchema = z
         title: z.string(),
         description: z.string(),
         level: z.enum(["required", "advice"]),
-        source: z.url(),
+        sources: z
+          .array(z.object({ label: z.string().min(1), url: z.url(), quote: z.string().min(1) }))
+          .min(1),
       }),
     ),
     results: z.record(
