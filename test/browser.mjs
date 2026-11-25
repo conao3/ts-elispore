@@ -547,7 +547,7 @@ try {
   )
   assert.match(
     await evaluate(`document.querySelector('.checked-package').textContent`),
-    /^MELPA · vertico.+required checks pass$/,
+    /^MELPA \/ vertico.+required checks pass$/,
   )
   assert.ok(
     await evaluate(

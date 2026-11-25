@@ -106,7 +106,7 @@ export function PackageChecks({ packages, report }: { packages: PackageCheck[]; 
       <div className="checks-header">
         <h3>Package checks</h3>
         <p className="checks-date">
-          Run <time dateTime={report.generatedAt}>{report.generatedAt.slice(0, 10)}</time> ·{" "}
+          Run <time dateTime={report.generatedAt}>{report.generatedAt.slice(0, 10)}</time> /{" "}
           <Link href="/about/#package-checks-about">About the rules</Link>
         </p>
       </div>
@@ -117,7 +117,7 @@ export function PackageChecks({ packages, report }: { packages: PackageCheck[]; 
           return (
             <li className="checked-package" key={pkg.key}>
               <span className="checked-source">
-                {sourceLabels[pkg.source]} · {pkg.name}
+                {sourceLabels[pkg.source]} / {pkg.name}
               </span>
               <span className="checked-version">{pkg.version || "Version unavailable"}</span>
               {pkg.error !== undefined ? (
@@ -148,7 +148,7 @@ export function PackageChecks({ packages, report }: { packages: PackageCheck[]; 
               <div>
                 <strong>Every required check passes</strong>
                 <span>
-                  Checked in {checked.map((pkg) => sourceLabels[pkg.source]).join(" and ")} ·{" "}
+                  Checked in {checked.map((pkg) => sourceLabels[pkg.source]).join(" and ")} /{" "}
                   {advice.length === 0
                     ? "no melpazoid advice"
                     : `${advice.length} melpazoid advice`}

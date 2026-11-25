@@ -12,12 +12,12 @@
 </p>
 
 <p align="center">
-  <a href="https://elispore.conao3.com">Site</a> ·
-  <a href="#search">Search</a> ·
-  <a href="#installation-examples">Installation examples</a> ·
-  <a href="#development">Development</a> ·
-  <a href="#catalog">Catalog</a> ·
-  <a href="#deployment">Deployment</a> ·
+  <a href="https://elispore.conao3.com">Site</a> |
+  <a href="#search">Search</a> |
+  <a href="#installation-examples">Installation examples</a> |
+  <a href="#development">Development</a> |
+  <a href="#catalog">Catalog</a> |
+  <a href="#deployment">Deployment</a> |
   <a href="#license">License</a>
 </p>
 
