@@ -20,6 +20,9 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    outputs:
+      pushed: ${{ steps.commit.outputs.pushed }}
+      sha: ${{ steps.commit.outputs.sha }}
     env:
       CHECKS: ${{ github.event.schedule == '43 7 * * 1' && 'update' || inputs.checks || 'skip' }}
     steps:
@@ -36,6 +39,7 @@ jobs:
       - run: nix develop --command pnpm exec vp run check
       - run: nix develop --command pnpm run build
       - name: Commit refreshed metadata
+        id: commit
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -46,4 +50,13 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh package metadata'
             git push
+            echo pushed=true >> "$GITHUB_OUTPUT"
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           fi
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.pushed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: ${{ needs.refresh.outputs.sha }}
+    secrets: inherit

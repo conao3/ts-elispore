@@ -84,8 +84,9 @@ Keep copy sparse; avoid promotional heroes, eyebrow labels and routine active-st
 Search uses 100 results per page and excludes forks. IDs are deduplicated; batched GraphQL tree checks require an `.el` file at the root or directly inside `lisp/`. Exclusions remove flagged forks, `mirror`/`style-guide`/`styleguide` topics, common configuration distributions, `awesome-*` lists and repositories named `emacs` or `remacs`. This is a bounded discovery heuristic, not an installation guarantee; upstream documentation determines compatibility.
 
 The `Refresh metadata` workflow refreshes discovery and the three official archives daily, validates
-and builds the site, and commits both snapshots to `master`. The refreshed data reaches
-`elispore.conao3.com` with the next run of the `Deploy` workflow. Archive refresh needs no credentials:
+and builds the site, and commits both snapshots to `master`. When it pushes a commit, the same run
+calls the `Deploy` workflow on that commit, so the refreshed data reaches `elispore.conao3.com`
+without a separate step; a run that changes no data deploys nothing. Archive refresh needs no credentials:
 it reads MELPA's public recipes and release JSON and GNU ELPA and NonGNU ELPA's `archive-contents`.
 Only GitHub discovery uses GitHub CLI credentials.
 
@@ -159,7 +160,7 @@ errors stop the run at the named recipe with a nonzero exit code.
 
 Cloudflare Worker `elispore`, custom domain `elispore.conao3.com`, personal account `31d70a83a3750c0fd66140fe200f2f29`. Configuration is in `wrangler.jsonc`. Static assets are built into `dist/`, and Workers' static asset serving supplies the site and HTTP security headers.
 
-The `Deploy` workflow (`.github/workflows/deploy.yml`) is started manually and runs in the GitHub environment `production`, which allows only `master`. It checks, builds and runs `wrangler deploy`:
+The `Deploy` workflow (`.github/workflows/deploy.yml`) runs in the GitHub environment `production`, which allows only `master`. It checks, builds and runs `wrangler deploy`. The `Refresh metadata` workflow calls it after each run that commits refreshed data; to deploy other changes on `master`, start it manually:
 
 ```sh
 gh workflow run deploy.yml -R conao3/ts-elispore --ref master

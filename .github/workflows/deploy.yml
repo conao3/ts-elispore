@@ -1,6 +1,11 @@
 name: Deploy
 on:
   workflow_dispatch:
+  workflow_call:
+    inputs:
+      ref:
+        type: string
+        required: true
 permissions:
   contents: read
 concurrency:
@@ -12,6 +17,8 @@ jobs:
     environment: production
     steps:
       - uses: actions/checkout@v7.0.1
+        with:
+          ref: ${{ inputs.ref }}
       - uses: cachix/install-nix-action@v31.11.5
       - run: nix develop --command pnpm install --frozen-lockfile
       - run: nix develop --command pnpm exec vp run check
