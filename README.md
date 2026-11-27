@@ -52,7 +52,7 @@ nix run
 `nix run` serves the built site at `http://127.0.0.1:4173`.
 
 `nix develop --command pnpm run checks` refreshes cached package checks at `/checks.json` (add `--force` to recompute all); `nix run .#checker -- --help` exposes the standalone Rust checker. The rules come from MELPA's [CONTRIBUTING.org](https://github.com/melpa/melpa/blob/master/CONTRIBUTING.org), the [Emacs Lisp conventions](https://www.gnu.org/software/emacs/manual/html_node/elisp/Tips.html) and [melpazoid](https://github.com/riscy/melpazoid), and each rule cites its sources with a quote: required rules make up the score, and melpazoid's other findings are shown as advice (see `checker/README.md`).
-CI updates checks for new and changed packages every Monday at 07:43 UTC and on manual dispatch with `checks: update`/`all`; the daily catalog refresh leaves them alone.
+The `Refresh metadata` workflow (`.github/workflows/refresh-metadata.yml`) updates checks for new and changed packages every Monday at 07:43 UTC and on manual dispatch with `checks: update`/`all`; the daily catalog refresh leaves them alone.
 
 Browser validation uses `nix develop .#browser --command node test/browser.mjs` on Linux. It creates an isolated Chromium profile and checks the built `dist/` files. Screenshots go to the ignored `.claude-dev/scratch/`.
 
@@ -83,8 +83,9 @@ Keep copy sparse; avoid promotional heroes, eyebrow labels and routine active-st
 
 Search uses 100 results per page and excludes forks. IDs are deduplicated; batched GraphQL tree checks require an `.el` file at the root or directly inside `lisp/`. Exclusions remove flagged forks, `mirror`/`style-guide`/`styleguide` topics, common configuration distributions, `awesome-*` lists and repositories named `emacs` or `remacs`. This is a bounded discovery heuristic, not an installation guarantee; upstream documentation determines compatibility.
 
-GitHub Actions refreshes discovery and the three official archives daily, validates and builds the
-site, deploys it with the Worker, and commits both snapshots. Archive refresh needs no credentials:
+The `Refresh metadata` workflow refreshes discovery and the three official archives daily, validates
+and builds the site, and commits both snapshots to `master`. The refreshed data reaches
+`elispore.conao3.com` with the next run of the `Deploy` workflow. Archive refresh needs no credentials:
 it reads MELPA's public recipes and release JSON and GNU ELPA and NonGNU ELPA's `archive-contents`.
 Only GitHub discovery uses GitHub CLI credentials.
 
@@ -158,7 +159,13 @@ errors stop the run at the named recipe with a nonzero exit code.
 
 Cloudflare Worker `elispore`, custom domain `elispore.conao3.com`, personal account `31d70a83a3750c0fd66140fe200f2f29`. Configuration is in `wrangler.jsonc`. Static assets are built into `dist/`, and Workers' static asset serving supplies the site and HTTP security headers.
 
-`master` pushes and scheduled/manual runs deploy after checks pass. GitHub Actions uses the repository secret `CLOUDFLARE_API_TOKEN`. Its source is 1Password “Cloudflare API token (Workers deploy, conao3@gmail.com)”.
+The `Deploy` workflow (`.github/workflows/deploy.yml`) is started manually and runs in the GitHub environment `production`, which allows only `master`. It checks, builds and runs `wrangler deploy`:
+
+```sh
+gh workflow run deploy.yml -R conao3/ts-elispore --ref master
+```
+
+It uses the repository secret `CLOUDFLARE_API_TOKEN`. Its source is 1Password “Cloudflare API token (Workers deploy, conao3@gmail.com)”.
 
 For a local deployment, provide that token as `CLOUDFLARE_API_TOKEN` and run `nix develop --command pnpm exec wrangler deploy`. `wrangler deploy --dry-run` validates the deployment without publishing.
 

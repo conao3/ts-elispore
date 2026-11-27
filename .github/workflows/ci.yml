@@ -1,23 +1,10 @@
-name: Check and deploy
+name: Check
 on:
   push:
     branches: [master]
   pull_request:
-  workflow_dispatch:
-    inputs:
-      checks:
-        description: Refresh package checks
-        type: choice
-        default: skip
-        options: [skip, update, all]
-  schedule:
-    - cron: "17 6 * * *"
-    - cron: "43 7 * * 1"
 permissions:
   contents: read
-concurrency:
-  group: elispore-${{ github.ref }}
-  cancel-in-progress: false
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -40,43 +27,3 @@ jobs:
       - uses: actions/checkout@v7.0.1
       - uses: cachix/install-nix-action@v31.11.5
       - run: nix develop .#lean --command lake -d checker/audit build --wfail
-  deploy:
-    needs: [check, audit]
-    if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    env:
-      CHECKS: ${{ github.event.schedule == '43 7 * * 1' && 'update' || inputs.checks || 'skip' }}
-    steps:
-      - uses: actions/checkout@v7.0.1
-      - uses: cachix/install-nix-action@v31.11.5
-      - run: nix develop --command pnpm install --frozen-lockfile
-      - name: Refresh catalog
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        run: nix develop --command pnpm run catalog
-        env:
-          GH_TOKEN: ${{ github.token }}
-      - name: Refresh package checks
-        if: env.CHECKS == 'update' || env.CHECKS == 'all'
-        run: nix develop --command pnpm run checks ${{ env.CHECKS == 'all' && '--force' || '' }}
-      - run: nix develop --command pnpm exec vp run check
-      - run: nix develop --command pnpm run build
-      - name: Deploy Worker and custom domain
-        run: nix develop --command pnpm exec wrangler deploy
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          WRANGLER_SEND_METRICS: "false"
-      - name: Commit refreshed metadata
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add public/catalog.json examples/package-archives.jsonl.gz
-          if [ "$CHECKS" = update ] || [ "$CHECKS" = all ]; then
-            git add public/checks.json
-          fi
-          if ! git diff --cached --quiet; then
-            git commit -m 'Refresh package metadata'
-            git push
-          fi

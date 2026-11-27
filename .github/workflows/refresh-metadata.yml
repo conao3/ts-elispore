@@ -1,0 +1,49 @@
+name: Refresh metadata
+on:
+  workflow_dispatch:
+    inputs:
+      checks:
+        description: Refresh package checks
+        type: choice
+        default: skip
+        options: [skip, update, all]
+  schedule:
+    - cron: "17 6 * * *"
+    - cron: "43 7 * * 1"
+permissions:
+  contents: read
+concurrency:
+  group: refresh-metadata
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      CHECKS: ${{ github.event.schedule == '43 7 * * 1' && 'update' || inputs.checks || 'skip' }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: cachix/install-nix-action@v31.11.5
+      - run: nix develop --command pnpm install --frozen-lockfile
+      - name: Refresh catalog
+        run: nix develop --command pnpm run catalog
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Refresh package checks
+        if: env.CHECKS == 'update' || env.CHECKS == 'all'
+        run: nix develop --command pnpm run checks ${{ env.CHECKS == 'all' && '--force' || '' }}
+      - run: nix develop --command pnpm exec vp run check
+      - run: nix develop --command pnpm run build
+      - name: Commit refreshed metadata
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/catalog.json examples/package-archives.jsonl.gz
+          if [ "$CHECKS" = update ] || [ "$CHECKS" = all ]; then
+            git add public/checks.json
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh package metadata'
+            git push
+          fi
