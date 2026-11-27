@@ -79,7 +79,7 @@ Keep copy sparse; avoid promotional heroes, eyebrow labels and routine active-st
 - up to 200 repositories tagged `emacs-package`
 - up to 200 Emacs Lisp repositories pushed after 2026-01-01, sorted by update
 - up to 100 repositories each tagged `emacs-packages`, `emacs-theme`, `emacs-mode`, `org-mode` or `melpa`
-- explicit seeds
+- every conao3 repository tagged `emacs-package`, regardless of stars
 
 Search uses 100 results per page and excludes forks. IDs are deduplicated; batched GraphQL tree checks require an `.el` file at the root or directly inside `lisp/`. Exclusions remove flagged forks, `mirror`/`style-guide`/`styleguide` topics, common configuration distributions, `awesome-*` lists and repositories named `emacs` or `remacs`. This is a bounded discovery heuristic, not an installation guarantee; upstream documentation determines compatibility.
 

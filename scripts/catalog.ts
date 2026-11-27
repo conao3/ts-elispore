@@ -94,10 +94,6 @@ function refresh() {
       if (result.items.length < 100) break
     }
   }
-  for (const name of ["conao3/leaner-ts-mode.el"]) {
-    const r = repo.parse(api(`repos/${name}`))
-    all.set(r.id, r)
-  }
   const candidates = [...all.values()].filter(isPackageCandidate)
   const packages: z.infer<typeof repo>[] = []
   for (let start = 0; start < candidates.length; start += 25) {
