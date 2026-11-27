@@ -48,6 +48,7 @@ export function githubCatalogEntry(value: unknown) {
 const discovery = [
   { q: 'language:"Emacs Lisp" stars:>=20 fork:false', pages: 4 },
   { q: "topic:emacs-package fork:false", pages: 2 },
+  { q: "user:conao3 topic:emacs-package fork:false", pages: 1 },
   { q: 'language:"Emacs Lisp" pushed:>2026-01-01 fork:false', pages: 2 },
   ...["emacs-packages", "emacs-theme", "emacs-mode", "org-mode", "melpa"].map((topic) => ({
     q: `topic:${topic} fork:false`,
