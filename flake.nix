@@ -18,6 +18,9 @@
           version = "0.1.0";
           src = ./checker;
           cargoLock.lockFile = ./checker/Cargo.lock;
+          nativeBuildInputs = [ pkgs.pkg-config ];
+          buildInputs = [ pkgs.aws-lc ];
+          nativeCheckInputs = [ pkgs.cacert ];
           LEANFRAN_OFFLINE = "1";
           meta.mainProgram = "elispore-check";
         };
@@ -33,7 +36,7 @@
           ];
           pnpmDeps = pkgs.fetchPnpmDeps {
             inherit (final) pname version src;
-            hash = "sha256-xaeS0VwaE53bPzUu/iorLtToDNzBqa+lW3vQ+0rJRfk=";
+            hash = "sha256-QmDR5Byy1HdC7bjp/83SppPHuikXkliHhrZv8O+kODE=";
             fetcherVersion = 4;
           };
           buildPhase = "pnpm run build";

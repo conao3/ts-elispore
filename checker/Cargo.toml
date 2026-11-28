@@ -6,10 +6,10 @@ publish = false
 include = ["src/**", "build.rs", "melpazoid.json", ".leanfran/cache/**", "lean/**"]
 
 [dependencies]
-leanfran = "0.6"
+leanfran = "0.14"
 clap = { version = "4", features = ["derive"] }
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
-reqwest = { version = "0.12", default-features = false, features = ["rustls-tls"] }
+reqwest = { version = "0.13", default-features = false, features = ["rustls"] }
 futures = "0.3"
 flate2 = "1"
 tar = "0.4"
@@ -20,4 +20,4 @@ anyhow = "1"
 regex = "1"
 
 [build-dependencies]
-leanfran-build = "0.6"
+leanfran-build = "0.14"

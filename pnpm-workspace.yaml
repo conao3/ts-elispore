@@ -1,7 +1,7 @@
 runtimeOnFail: ignore
 pmOnFail: ignore
 overrides:
-  vite: npm:@voidzero-dev/vite-plus-core@latest
+  vite: npm:@voidzero-dev/vite-plus-core@1.6.0
 allowBuilds:
   esbuild: true
   workerd: false

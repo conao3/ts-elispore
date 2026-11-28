@@ -141,8 +141,8 @@ cargo test
 ```
 
 If the combined Rust tool package is too expensive to build, the same flake's
-`#rust-compiler` supplies the generator; put Lean 4.35 `lean` and `lake` on PATH
-separately. Commit `lean/`, `.leanfran/cache/` and `Cargo.lock` along with the
+`#leanfran` supplies the generator alone; put Lean 4.35 `lean` and `lake` on
+PATH separately (`nix develop .#lean` from the repository root provides them). Commit `lean/`, `.leanfran/cache/` and `Cargo.lock` along with the
 source. Bump `RULE_SET_VERSION` whenever scanner or rule semantics change.
 
 ```sh
