@@ -27,7 +27,15 @@
 
 [Add recipe / Why Elispore](https://elispore.conao3.com/about/) explains catalog inclusion and why the site was built.
 
+![Package list with the search box and sidebar filters](images/search.png)
+
+_Light theme with fictional sample data._
+
 ## Search
+
+![Search for fern in the completion category, with the name check listing three matching packages](images/query.png)
+
+_Light theme with fictional sample data._
 
 Search package names and repository metadata, or use qualifiers like `source:gnu-elpa`, `user:minad`, `topic:completion`, `license:gpl-3.0`, `pushed:>=2026-01-01`, `stars:>=1000`, and `language:"Emacs Lisp"`. Sidebar selections appear directly in the query. Enter one name to check exact names and hyphen-prefixed names across the whole catalog, independently of result filters. “Free in this catalog” is not a guarantee outside the indexed sources.
 
@@ -36,6 +44,10 @@ Click an owner to add a user filter, or a topic in an expanded row to add a topi
 Categories show the ten most frequent informative catalog topics, plus any selected topic outside that list. Topic matching ignores case, drops a leading `emacs-` and a trailing plural `s`, folds theme variants such as `dark-theme` into `theme`, and maps `mode` and `major-mode` to `major-mode`. Category counts deduplicate aliases within each repository.
 
 ## Installation examples
+
+![Expanded package row with metadata, links and a leaf installation example](images/installation.png)
+
+_Light theme with fictional sample data._
 
 Installation examples default to leaf. Switch to use-package from the code block toolbar. Git recipes use `:vc` with the upstream repository regardless of host; the example preserves the matching MELPA recipe’s branch and omits the Lisp directory if it was not verified. When no Git URL is available, the block explains why and copying is disabled. For GNU ELPA and NonGNU ELPA, switch to the ELPA example to use `:ensure t` with the configured archive. Leaf requires `:vc` support and Emacs 29+, and use-package `:vc` is included in Emacs 30+.
 
@@ -50,6 +62,10 @@ nix run
 ```
 
 `nix run` serves the built site at `http://127.0.0.1:4173`.
+
+![Package checks comparing MELPA and GNU ELPA, with failing required checks and melpazoid advice](images/checks.png)
+
+_Light theme with fictional sample data._
 
 `nix develop --command pnpm run checks` refreshes cached package checks at `/checks.json` (add `--force` to recompute all); `nix run .#checker -- --help` exposes the standalone Rust checker. The rules come from MELPA's [CONTRIBUTING.org](https://github.com/melpa/melpa/blob/master/CONTRIBUTING.org), the [Emacs Lisp conventions](https://www.gnu.org/software/emacs/manual/html_node/elisp/Tips.html) and [melpazoid](https://github.com/riscy/melpazoid), and each rule cites its sources with a quote: required rules make up the score, and melpazoid's other findings are shown as advice (see `checker/README.md`).
 The `Refresh metadata` workflow (`.github/workflows/refresh-metadata.yml`) updates checks for new and changed packages every Monday at 07:43 UTC and on manual dispatch with `checks: update`/`all`; the daily catalog refresh leaves them alone.
