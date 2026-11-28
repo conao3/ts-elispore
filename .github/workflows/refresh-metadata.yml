@@ -27,7 +27,7 @@ jobs:
       CHECKS: ${{ github.event.schedule == '43 7 * * 1' && 'update' || inputs.checks || 'skip' }}
     steps:
       - uses: actions/checkout@v7.0.1
-      - uses: cachix/install-nix-action@v31.11.5
+      - uses: cachix/install-nix-action@v32.1.0
       - run: nix develop --command pnpm install --frozen-lockfile
       - name: Refresh catalog
         run: nix develop --command pnpm run catalog
