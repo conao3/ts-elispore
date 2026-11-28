@@ -3,8 +3,6 @@ import { Link } from "react-aria-components"
 import type { Checks } from "./checks"
 import { InlineCode } from "./inline-code"
 
-const repository = "https://github.com/conao3/ts-elispore"
-
 export function About({ checks }: { checks: Checks | null }) {
   useEffect(() => {
     if (checks && window.location.hash)
@@ -46,14 +44,8 @@ export function About({ checks }: { checks: Checks | null }) {
           editor source repositories.
         </p>
         <p>
-          If discovery misses your package,{" "}
-          <Link href={`${repository}/edit/master/scripts/catalog.ts`}>
-            open a pull request adding your <code>owner/repo</code> to the seed list in{" "}
-            <code>scripts/catalog.ts</code>
-          </Link>
-          . Seeds go through the same eligibility and file checks. Include the upstream URL and the
-          location of its Emacs Lisp files; run the{" "}
-          <Link href={`${repository}#development`}>development checks</Link> before submitting.
+          If discovery misses your package, publish it to one of the package archives below.
+          Elispore lists every package in those archives, wherever it is hosted.
         </p>
         <h2>Package archives</h2>
         <p>
